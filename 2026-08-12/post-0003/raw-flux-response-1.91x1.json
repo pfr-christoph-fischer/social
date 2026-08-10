@@ -1,0 +1,44 @@
+{
+  "delivery_url": "https://delivery.eu2.bfl.ai/durable/2026080616/5e1f69ea-538b-4d66-962e-9be995966f07/0c/0732907e5ac308/7e5ac308cee34c3f9b2c3a1a8402bcfd/sample.jpeg?se=2026-08-06T16%3A44%3A33Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=togkkurmvMaSf9CZt0G0Vm6j5H/4%2B%2BaxBmzJEFTZEVI%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "4e21ffdd-94ec-4937-bb55-f5824e52b89e",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "4e21ffdd-94ec-4937-bb55-f5824e52b89e",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "4e21ffdd-94ec-4937-bb55-f5824e52b89e",
+      "status": "Ready",
+      "result": {
+        "start_time": 1786034072.503459,
+        "prompt": "Ein schlichter evangelischer Kirchenraum in ruhigem Morgenlicht, klare Architektur, sanfte Schatten, offene Perspektive nach vorn, stille konzentrierte Atmosphäre, natürliche Farben, beschreibender Stil, einladend, würdevoll., no text, no letters, no typography, no logo, no watermark",
+        "seed": 3564158871,
+        "sample": "https://delivery.eu2.bfl.ai/durable/2026080616/5e1f69ea-538b-4d66-962e-9be995966f07/0c/0732907e5ac308/7e5ac308cee34c3f9b2c3a1a8402bcfd/sample.jpeg?se=2026-08-06T16%3A44%3A33Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=togkkurmvMaSf9CZt0G0Vm6j5H/4%2B%2BaxBmzJEFTZEVI%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "4e21ffdd-94ec-4937-bb55-f5824e52b89e",
+    "polling_url": "https://api.eu2.bfl.ai/v1/get_result?id=4e21ffdd-94ec-4937-bb55-f5824e52b89e",
+    "cost": 1.4000000000000001,
+    "input_mp": 0,
+    "output_mp": 0.72
+  }
+}

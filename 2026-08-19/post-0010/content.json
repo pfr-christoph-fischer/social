@@ -1,0 +1,73 @@
+{
+  "id": "post-0010",
+  "status": "in Arbeit",
+  "needs_input": false,
+  "source": {
+    "calendar_post_id": "post-0010",
+    "date": "2026-08-19",
+    "rubric": "Mittwochsserie",
+    "liturgical_source": ""
+  },
+  "editorial_core": {
+    "title": "Warum läuten vor dem Gottesdienst die Glocken?",
+    "main_message": "Serie: Warum läuten vor dem Gottesdienst die Glocken?",
+    "audience": "breite Öffentlichkeit",
+    "tone": [
+      "klar",
+      "ruhig",
+      "zugänglich"
+    ],
+    "source_notes": [
+      "Goal: Eine verlässliche, wiedererkennbare Serie mit verständlicher theologischer Bildung.",
+      "Column: Glauben verstehen",
+      "Production mode: in Monatsblöcken vollständig vorproduzierbar",
+      "Structure: Frage als Einstieg | verständliche Erklärung | Bedeutung für heute | Gesprächsfrage",
+      "AI support notes: Skript | Karussellkarten | Reel-Hook | Untertitel | Alt-Text"
+    ]
+  },
+  "platforms": {
+    "facebook": {
+      "text": "",
+      "headline": ""
+    },
+    "instagram": {
+      "caption": "",
+      "carousel": []
+    },
+    "mastodon": {
+      "text": ""
+    },
+    "story": {
+      "slides": []
+    },
+    "reel": {
+      "hook": "",
+      "script": "",
+      "shots": [],
+      "duration_seconds": 0
+    }
+  },
+  "visual": {
+    "concept": "",
+    "flux_prompt": "",
+    "negative_prompt": "text, letters, logo, watermark",
+    "formats": [
+      "4:5",
+      "9:16",
+      "1.91:1"
+    ],
+    "alt_text": ""
+  },
+  "qa": {
+    "warnings": [
+      "Alt text must be completed before approval"
+    ],
+    "approved": false
+  },
+  "metadata": {
+    "model": "",
+    "generated_at": "",
+    "prompt_version": "1.0",
+    "assets": []
+  }
+}

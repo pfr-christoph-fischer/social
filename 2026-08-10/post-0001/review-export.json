@@ -1,0 +1,248 @@
+{
+  "content": {
+    "id": "post-0001",
+    "status": "freigegeben",
+    "needs_input": false,
+    "source": {
+      "calendar_post_id": "post-0001",
+      "date": "2026-08-10",
+      "rubric": "Mit dem Wochenspruch in die Woche",
+      "liturgical_source": "https://kirchenjahr.pfarr.tools/api/jahr/2026"
+    },
+    "editorial_core": {
+      "title": "Wochenspruch praktisch: 10. Sonntag nach Trinitatis",
+      "main_message": "Der Wochenspruch führt von der großen Idee vom Volk Gottes in eine kleine Wochenpraxis: drei Menschen oder Gruppen, zu denen du gehörst, vor Gott nennen und für sie um Segen bitten.",
+      "audience": "breite Öffentlichkeit",
+      "tone": [
+        "klar",
+        "ruhig",
+        "zugänglich"
+      ],
+      "source_notes": [
+        "Goal: Den seit Sonntag geltenden Wochenspruch in eine kleine, konkrete Wochenpraxis übersetzen.",
+        "Column: Bibel und Alltag",
+        "Production mode: vollständig vorproduzierbar",
+        "Structure: Wochenspruch | ein alltagsnaher Gedanke | eine kleine Übung | eine Frage",
+        "AI support notes: Rohentwurf in einfacher Sprache | Varianten der Wochenübung | Caption kürzen | Alt-Text",
+        "Liturgical source: https://kirchenjahr.pfarr.tools/api/jahr/2026 (2026-08-09, $.Tage['2026-08-09'])",
+        "Wochenspruch: Wohl dem Volk, dessen Gott der HERR ist, dem Volk, das er zum Erbe erwählt hat! (Ps 33,12)",
+        "Resolved weekly verse used exactly as provided in liturgical_context.resolved_weekly_verse."
+      ]
+    },
+    "platforms": {
+      "facebook": {
+        "text": "Wochenspruch für diese Woche:\n„Wohl dem Volk, dessen Gott der HERR ist, dem Volk, das er zum Erbe erwählt hat!“ (Ps 33,12)\n\nDas klingt groß. Fast zu groß für einen Montag. Es geht um ein Volk. Um Zugehörigkeit. Um Menschen, die nicht nur nebeneinander leben, sondern vor Gott verbunden sind.\n\nVielleicht beginnt das diese Woche in einer kleinen geistlichen Übung.\n\nDie Übung für diese Woche:\nNenne heute drei Menschen oder Gruppen vor Gott, zu denen du gehörst.\nUnd bitte für sie um Segen.\n\nDas kann die Familie sein.\nEin Freundeskreis.\nDein Ort.\nDeine Gemeinde.\nEin Team.\nOder Menschen, mit denen dein Leben gerade verbunden ist.\n\nSo wird aus einem großen Psalmwort ein kurzer Moment im Alltag:\nDu erinnerst dich daran, dass du nicht für dich allein lebst. Und dass andere Menschen in Gottes Blick mit dir verbunden sind.\n\nFrage für den Tag:\nWelche drei Menschen oder Gruppen willst du heute vor Gott nennen?",
+        "headline": "Zugehörigkeit vor Gott benennen"
+      },
+      "instagram": {
+        "caption": "Wochenspruch für diese Woche:\n„Wohl dem Volk, dessen Gott der HERR ist, dem Volk, das er zum Erbe erwählt hat!“ (Ps 33,12)\n\nGroße Worte. Und eine kleine Übung für den Alltag:\nNenne heute drei Menschen oder Gruppen vor Gott, zu denen du gehörst.\nUnd bitte für sie um Segen.\n\nSo wird Zugehörigkeit konkret.\nNicht nur als Gefühl, sondern im Gebet.\n\nFrage:\nWelche drei Menschen oder Gruppen willst du heute vor Gott nennen?",
+        "carousel": [
+          {
+            "type": "text",
+            "text": "Wochenspruch\n„Wohl dem Volk, dessen Gott der HERR ist, dem Volk, das er zum Erbe erwählt hat!“\nPs 33,12"
+          },
+          {
+            "type": "text",
+            "text": "Der Gedanke\nDer Psalm spricht von einem Volk.\nVon Zugehörigkeit vor Gott.\nNicht nur ich allein.\nSondern Menschen, mit denen mein Leben verbunden ist."
+          },
+          {
+            "type": "text",
+            "text": "Die Übung\nNenne heute drei Menschen oder Gruppen vor Gott, zu denen du gehörst.\nUnd bitte für sie um Segen."
+          },
+          {
+            "type": "text",
+            "text": "Die Frage\nWelche drei Menschen oder Gruppen willst du heute vor Gott nennen?"
+          }
+        ]
+      },
+      "mastodon": {
+        "text": "Wochenspruch für diese Woche:\n„Wohl dem Volk, dessen Gott der HERR ist, dem Volk, das er zum Erbe erwählt hat!“ (Ps 33,12)\n\nGroße Worte. Eine kleine Übung dazu:\nNenne heute drei Menschen oder Gruppen vor Gott, zu denen du gehörst.\nUnd bitte für sie um Segen.\n\nFrage: Welche drei Menschen oder Gruppen willst du heute vor Gott nennen?"
+      },
+      "story": {
+        "slides": [
+          {
+            "text": "Wochenspruch dieser Woche:\n„Wohl dem Volk, dessen Gott der HERR ist, dem Volk, das er zum Erbe erwählt hat!“\nPs 33,12"
+          },
+          {
+            "text": "Große Worte.\nEin kleiner Anfang im Alltag:\nZugehörigkeit vor Gott benennen."
+          },
+          {
+            "text": "Übung:\nNenne heute drei Menschen oder Gruppen vor Gott, zu denen du gehörst.\nBitte für sie um Segen."
+          },
+          {
+            "text": "Frage:\nWelche drei Menschen oder Gruppen nennst du heute vor Gott?"
+          }
+        ]
+      },
+      "reel": {
+        "hook": "Zugehörigkeit kann mit einem kurzen Gebet beginnen.",
+        "script": "Der Wochenspruch dieser Woche lautet: „Wohl dem Volk, dessen Gott der HERR ist, dem Volk, das er zum Erbe erwählt hat!“ Das klingt groß. Aber vielleicht wird es im Alltag ganz einfach. Nenne heute drei Menschen oder Gruppen vor Gott, zu denen du gehörst. Und bitte für sie um Segen. Familie, Freundeskreis, Gemeinde, Nachbarschaft oder dein Team. So wird aus einem großen Psalmwort eine kleine geistliche Übung. Welche drei Menschen oder Gruppen willst du heute vor Gott nennen?",
+        "shots": [
+          "Nahaufnahme einer Hand, die drei kurze Stichworte auf ein schlichtes Blatt Papier schreibt.",
+          "Ruhige Alltagsszene an einem Tisch oder auf einer Bank, eine Person hält kurz inne und schaut nachdenklich.",
+          "Detailaufnahme von Händen, die das Papier halten oder zusammengelegt auf dem Tisch liegen.",
+          "Weite, ruhige Szene in natürlichem Licht, die Sammlung und Zugehörigkeit andeutet."
+        ],
+        "duration_seconds": 20
+      }
+    },
+    "visual": {
+      "concept": "Ruhige Alltagsszene einer einzelnen Person mit einem schlichten Zettel oder Notizbuch, auf dem drei Zugehörigkeiten notiert werden. Der Moment wirkt gesammelt und persönlich: kurzes Innehalten, betende oder nachdenkliche Haltung, warmes natürliches Licht. Keine inszenierte Frömmigkeit, sondern ein stiller Augenblick von Zugehörigkeit und Gebet im Alltag.",
+      "flux_prompt": "Authentische, ruhige Alltagsszene mit einer einzelnen Person an einem schlichten Tisch oder auf einer Bank im Freien, ein Notizzettel oder Notizbuch mit drei kurzen Stichpunkten liegt bereit, nachdenkliche oder betende Haltung, natürliche Gesten, warmes Tageslicht, weiche Farben, dokumentarischer Stil, respektvoll, nahbar, emotionale Ruhe, geringe Tiefenschärfe, hochwertige Fotografie",
+      "negative_prompt": "text, letters, logo, watermark, typografie, schild mit schrift, buchstaben, meme-stil, übertriebene emotionen, kitsch, religiöse symbolüberladung",
+      "formats": [
+        "4:5",
+        "9:16",
+        "1.91:1"
+      ],
+      "alt_text": "Eine Person sitzt in ruhiger Atmosphäre an einem Tisch oder im Freien. Vor ihr liegt ein schlichter Zettel oder ein Notizbuch mit drei notierten Punkten. Die Szene wirkt gesammelt, warm und nachdenklich."
+    },
+    "qa": {
+      "warnings": [],
+      "approved": true
+    },
+    "metadata": {
+      "model": "gpt-5.4-2026-03-05",
+      "generated_at": "2026-08-05T19:09:18.397Z",
+      "prompt_version": "1.0",
+      "assets": [
+        "assets/background-1.91x1.webp",
+        "assets/background-4x5.webp",
+        "assets/background-9x16.webp",
+        "assets/reel-shot-01.webp",
+        "assets/reel-shot-02.webp",
+        "assets/reel-shot-03.webp",
+        "assets/reel-shot-04.webp"
+      ]
+    }
+  },
+  "export_generated_at": "2026-08-06T15:10:49.589Z",
+  "post": {
+    "date": "2026-08-10",
+    "id": "post-0001",
+    "rubric": "Mit dem Wochenspruch in die Woche",
+    "theme": "Wochenspruch praktisch: 10. Sonntag nach Trinitatis",
+    "weekday": "Montag"
+  },
+  "qa": {
+    "checks": [
+      {
+        "check": "alt-text-present",
+        "findings": [],
+        "status": "passed"
+      },
+      {
+        "check": "flux-prompt-no-text",
+        "findings": [],
+        "status": "passed"
+      },
+      {
+        "check": "required-fields",
+        "findings": [],
+        "status": "passed"
+      },
+      {
+        "check": "platform-lengths",
+        "findings": [],
+        "status": "passed"
+      },
+      {
+        "check": "current-events",
+        "findings": [],
+        "status": "passed"
+      },
+      {
+        "check": "privacy",
+        "findings": [],
+        "status": "passed"
+      },
+      {
+        "check": "song-lyrics",
+        "findings": [],
+        "status": "passed"
+      },
+      {
+        "check": "scripture-citation",
+        "findings": [],
+        "status": "passed"
+      },
+      {
+        "check": "predigt-preview-input",
+        "findings": [],
+        "status": "passed"
+      }
+    ],
+    "content_path": "content/2026-08-10/post-0001/content.json",
+    "errors": [],
+    "post_id": "post-0001",
+    "ready_for_approval": true,
+    "status_after_run": "zur Prüfung",
+    "status_before_run": "in Arbeit",
+    "warnings": []
+  },
+  "rendered_files": [
+    "2026-08-10/post-0001/render-facebook-mastodon-01.png",
+    "2026-08-10/post-0001/render-instagram-feed-01.png",
+    "2026-08-10/post-0001/render-instagram-feed-02.png",
+    "2026-08-10/post-0001/render-instagram-feed-03.png",
+    "2026-08-10/post-0001/render-instagram-feed-04.png",
+    "2026-08-10/post-0001/render-instagram-story-01.png",
+    "2026-08-10/post-0001/render-instagram-story-02.png",
+    "2026-08-10/post-0001/render-instagram-story-03.png",
+    "2026-08-10/post-0001/render-instagram-story-04.png"
+  ],
+  "source_files": {
+    "content_json": "content.json",
+    "image_generation_results": "image-generation-results.json",
+    "qa_results": "qa-results.json",
+    "render_results": "render-results.json",
+    "reel_render_results": "reel-render-results.json"
+  },
+  "reel": {
+    "audio_path": null,
+    "content_path": "content/2026-08-10/post-0001/content.json",
+    "duration_seconds": 20,
+    "generated_at": "2026-08-06T14:49:58.559Z",
+    "post_id": "post-0001",
+    "segments": [
+      {
+        "duration_seconds": 5,
+        "image_path": "assets/reel-shot-01.webp",
+        "segment_index": 1,
+        "subtitle_text": "Der Wochenspruch dieser Woche lautet: „Wohl dem Volk, dessen Gott der HERR ist, dem Volk, das er zum Erbe\nerwählt hat!“ Das klingt groß. Aber vielleicht wird es im Alltag ganz einfach."
+      },
+      {
+        "duration_seconds": 5,
+        "image_path": "assets/reel-shot-02.webp",
+        "segment_index": 2,
+        "subtitle_text": "Nenne heute drei Menschen oder Gruppen vor Gott, zu\ndenen du gehörst. Und bitte für sie um Segen."
+      },
+      {
+        "duration_seconds": 5,
+        "image_path": "assets/reel-shot-03.webp",
+        "segment_index": 3,
+        "subtitle_text": "Familie, Freundeskreis, Gemeinde, Nachbarschaft oder dein Team. So wird aus einem großen Psalmwort eine\nkleine geistliche Übung."
+      },
+      {
+        "duration_seconds": 5,
+        "image_path": "assets/reel-shot-04.webp",
+        "segment_index": 4,
+        "subtitle_text": "Welche drei Menschen oder Gruppen willst du heute vor\nGott nennen?"
+      }
+    ],
+    "subtitle_font_name": "Atkinson Hyperlegible Next",
+    "subtitle_fonts_dir": null,
+    "subtitle_path": "reel/reel-subtitles.srt",
+    "video_path": "reel/reel-1080x1920.mp4"
+  },
+  "reel_video": "2026-08-10/post-0001/reel/reel-1080x1920.mp4",
+  "visual_assets": [
+    "2026-08-10/post-0001/assets/background-1.91x1.webp",
+    "2026-08-10/post-0001/assets/background-4x5.webp",
+    "2026-08-10/post-0001/assets/background-9x16.webp",
+    "2026-08-10/post-0001/assets/reel-shot-01.webp",
+    "2026-08-10/post-0001/assets/reel-shot-02.webp",
+    "2026-08-10/post-0001/assets/reel-shot-03.webp",
+    "2026-08-10/post-0001/assets/reel-shot-04.webp"
+  ]
+}

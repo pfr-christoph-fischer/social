@@ -1,0 +1,76 @@
+{
+  "id": "post-0009",
+  "status": "in Arbeit",
+  "needs_input": true,
+  "source": {
+    "calendar_post_id": "post-0009",
+    "date": "2026-08-18",
+    "rubric": "Gemeinde lebt",
+    "liturgical_source": ""
+  },
+  "editorial_core": {
+    "title": "Wie ein Gottesdienst praktisch vorbereitet wird",
+    "main_message": "Ein reales Detail aus Gäufelden zeigen; Personen nur mit Einwilligung erkennbar abbilden.",
+    "audience": "[TODO: define audience after current inputs are available]",
+    "tone": [
+      "klar",
+      "ruhig",
+      "zugänglich"
+    ],
+    "source_notes": [
+      "Goal: Menschen, Arbeit und Entscheidungen hinter dem sichtbaren Gemeindeleben transparent machen.",
+      "Column: Gemeindeleben und Leitung",
+      "Production mode: teilweise vorproduzierbar; aktuelles Foto oder Ereignis ergänzen",
+      "Structure: konkrete Beobachtung | warum das wichtig ist | Dank oder Einladung",
+      "AI support notes: aus Stichpunkten einen persönlichen Text machen | Datenschutzcheck-Fragen | Alt-Text",
+      "Current inputs required: Foto oder Beobachtung | Namen nur bei Einwilligung | gegebenenfalls Termin/Projekt"
+    ]
+  },
+  "platforms": {
+    "facebook": {
+      "text": "",
+      "headline": ""
+    },
+    "instagram": {
+      "caption": "",
+      "carousel": []
+    },
+    "mastodon": {
+      "text": ""
+    },
+    "story": {
+      "slides": []
+    },
+    "reel": {
+      "hook": "",
+      "script": "",
+      "shots": [],
+      "duration_seconds": 0
+    }
+  },
+  "visual": {
+    "concept": "",
+    "flux_prompt": "",
+    "negative_prompt": "text, letters, logo, watermark",
+    "formats": [
+      "4:5",
+      "9:16",
+      "1.91:1"
+    ],
+    "alt_text": ""
+  },
+  "qa": {
+    "warnings": [
+      "Alt text must be completed before approval",
+      "Current source inputs are still required before publication",
+      "Review privacy and factual accuracy before drafting"
+    ],
+    "approved": false
+  },
+  "metadata": {
+    "model": "",
+    "generated_at": "",
+    "prompt_version": "1.0",
+    "assets": []
+  }
+}

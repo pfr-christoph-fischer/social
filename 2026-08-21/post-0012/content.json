@@ -1,0 +1,75 @@
+{
+  "id": "post-0012",
+  "status": "in Arbeit",
+  "needs_input": false,
+  "source": {
+    "calendar_post_id": "post-0012",
+    "date": "2026-08-21",
+    "rubric": "Gebet oder Lied",
+    "liturgical_source": "https://kirchenjahr.pfarr.tools/api/jahr/2026"
+  },
+  "editorial_core": {
+    "title": "Liedgedanke: EG 395 – Vertraut den neuen Wegen",
+    "main_message": "Keine vollständige urheberrechtlich geschützte Strophe abdrucken; Titel, kurze zulässige Zeile oder eigene Paraphrase verwenden.",
+    "audience": "breite Öffentlichkeit",
+    "tone": [
+      "klar",
+      "ruhig",
+      "zugänglich"
+    ],
+    "source_notes": [
+      "Goal: Die Woche geistlich sammeln und auf das Wochenende hin öffnen.",
+      "Column: Spiritualität",
+      "Production mode: vollständig vorproduzierbar",
+      "Structure: ein konkretes Lebensthema | knappe geistliche Sprache | kein Erklärton",
+      "AI support notes: Gebetsentwurf | sprachliche Verdichtung | Reel-Sprechtext | Alt-Text",
+      "Liturgical source: https://kirchenjahr.pfarr.tools/api/jahr/2026 (2026-08-16, $.Tage['2026-08-16'])"
+    ]
+  },
+  "platforms": {
+    "facebook": {
+      "text": "",
+      "headline": ""
+    },
+    "instagram": {
+      "caption": "",
+      "carousel": []
+    },
+    "mastodon": {
+      "text": ""
+    },
+    "story": {
+      "slides": []
+    },
+    "reel": {
+      "hook": "",
+      "script": "",
+      "shots": [],
+      "duration_seconds": 0
+    }
+  },
+  "visual": {
+    "concept": "",
+    "flux_prompt": "",
+    "negative_prompt": "text, letters, logo, watermark",
+    "formats": [
+      "4:5",
+      "9:16",
+      "1.91:1"
+    ],
+    "alt_text": ""
+  },
+  "qa": {
+    "warnings": [
+      "Alt text must be completed before approval",
+      "Check song lyric copyright before publication"
+    ],
+    "approved": false
+  },
+  "metadata": {
+    "model": "",
+    "generated_at": "",
+    "prompt_version": "1.0",
+    "assets": []
+  }
+}

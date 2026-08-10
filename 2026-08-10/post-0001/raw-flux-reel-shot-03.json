@@ -1,0 +1,44 @@
+{
+  "delivery_url": "https://delivery.us2.bfl.ai/durable/2026080614/5e1f69ea-538b-4d66-962e-9be995966f07/c5/1001550c093635/0c09363593c547b38bdf58ad7eae9928/sample.jpeg?se=2026-08-06T14%3A48%3A20Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=UlQjbtxEOTU49HDtVv%2BFd134CKJ7/lJMWranLpc9r8s%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "327eb56a-bf1a-4e94-8402-6c40d273e062",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "327eb56a-bf1a-4e94-8402-6c40d273e062",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "327eb56a-bf1a-4e94-8402-6c40d273e062",
+      "status": "Ready",
+      "result": {
+        "start_time": 1786027098.861658,
+        "prompt": "Authentische, ruhige Alltagsszene mit einer einzelnen Person an einem schlichten Tisch oder auf einer Bank im Freien, ein Notizzettel oder Notizbuch mit drei kurzen Stichpunkten liegt bereit, nachdenkliche oder betende Haltung, natürliche Gesten, warmes Tageslicht, weiche Farben, dokumentarischer Stil, respektvoll, nahbar, emotionale Ruhe, geringe Tiefenschärfe, hochwertige Fotografie, scene focus: Detailaufnahme von Händen, die das Papier halten oder zusammengelegt auf dem Tisch liegen., no text, no letters, no typography, no logo, no watermark",
+        "seed": 1974824888,
+        "sample": "https://delivery.us2.bfl.ai/durable/2026080614/5e1f69ea-538b-4d66-962e-9be995966f07/c5/1001550c093635/0c09363593c547b38bdf58ad7eae9928/sample.jpeg?se=2026-08-06T14%3A48%3A20Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=UlQjbtxEOTU49HDtVv%2BFd134CKJ7/lJMWranLpc9r8s%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "327eb56a-bf1a-4e94-8402-6c40d273e062",
+    "polling_url": "https://api.us2.bfl.ai/v1/get_result?id=327eb56a-bf1a-4e94-8402-6c40d273e062",
+    "cost": 1.5,
+    "input_mp": 0,
+    "output_mp": 1.98
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "delivery_url": "https://delivery.eu2.bfl.ai/durable/2026080616/5e1f69ea-538b-4d66-962e-9be995966f07/f0/125025a5550377/a5550377ad684ffa98eda3a483ce0359/sample.jpeg?se=2026-08-06T16%3A45%3A25Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=9aP8cVl5FRFp2%2BcfJ//gvJpr8SeRBlKVPmkA05YqfPE%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "00a6a8e4-1dc1-4a80-8f75-7e95f6e8fd67",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "00a6a8e4-1dc1-4a80-8f75-7e95f6e8fd67",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "00a6a8e4-1dc1-4a80-8f75-7e95f6e8fd67",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "00a6a8e4-1dc1-4a80-8f75-7e95f6e8fd67",
+      "status": "Ready",
+      "result": {
+        "start_time": 1786034123.6283681,
+        "prompt": "Ein schlichter evangelischer Kirchenraum in ruhigem Morgenlicht, klare Architektur, sanfte Schatten, offene Perspektive nach vorn, stille konzentrierte Atmosphäre, natürliche Farben, beschreibender Stil, einladend, würdevoll., scene focus: Abschlussbild mit offener, ruhiger Raumatmosphäre, no text, no letters, no typography, no logo, no watermark",
+        "seed": 855727450,
+        "sample": "https://delivery.eu2.bfl.ai/durable/2026080616/5e1f69ea-538b-4d66-962e-9be995966f07/f0/125025a5550377/a5550377ad684ffa98eda3a483ce0359/sample.jpeg?se=2026-08-06T16%3A45%3A25Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=9aP8cVl5FRFp2%2BcfJ//gvJpr8SeRBlKVPmkA05YqfPE%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "00a6a8e4-1dc1-4a80-8f75-7e95f6e8fd67",
+    "polling_url": "https://api.eu2.bfl.ai/v1/get_result?id=00a6a8e4-1dc1-4a80-8f75-7e95f6e8fd67",
+    "cost": 1.5,
+    "input_mp": 0,
+    "output_mp": 1.98
+  }
+}

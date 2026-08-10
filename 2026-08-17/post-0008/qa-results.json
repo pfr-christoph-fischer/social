@@ -1,0 +1,127 @@
+{
+  "checks": [
+    {
+      "check": "alt-text-present",
+      "findings": [
+        {
+          "check": "alt-text-present",
+          "message": "Alt text is missing.",
+          "severity": "error"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "check": "flux-prompt-no-text",
+      "findings": [
+        {
+          "check": "flux-prompt-no-text",
+          "message": "Flux prompt is missing or was removed because it requested text in the image.",
+          "severity": "error"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "check": "required-fields",
+      "findings": [
+        {
+          "check": "required-fields",
+          "message": "Required field \"platforms.facebook.headline\" is empty.",
+          "severity": "error"
+        },
+        {
+          "check": "required-fields",
+          "message": "Required field \"platforms.facebook.text\" is empty.",
+          "severity": "error"
+        },
+        {
+          "check": "required-fields",
+          "message": "Required field \"platforms.instagram.caption\" is empty.",
+          "severity": "error"
+        },
+        {
+          "check": "required-fields",
+          "message": "Required field \"platforms.mastodon.text\" is empty.",
+          "severity": "error"
+        },
+        {
+          "check": "required-fields",
+          "message": "Required field \"visual.concept\" is empty.",
+          "severity": "error"
+        },
+        {
+          "check": "required-fields",
+          "message": "Required field \"visual.flux_prompt\" is empty.",
+          "severity": "error"
+        },
+        {
+          "check": "required-fields",
+          "message": "Required field \"visual.alt_text\" is empty.",
+          "severity": "error"
+        },
+        {
+          "check": "required-fields",
+          "message": "Required field \"platforms.story.slides\" is empty.",
+          "severity": "error"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "check": "platform-lengths",
+      "findings": [],
+      "status": "passed"
+    },
+    {
+      "check": "current-events",
+      "findings": [],
+      "status": "passed"
+    },
+    {
+      "check": "privacy",
+      "findings": [],
+      "status": "passed"
+    },
+    {
+      "check": "song-lyrics",
+      "findings": [],
+      "status": "passed"
+    },
+    {
+      "check": "scripture-citation",
+      "findings": [
+        {
+          "check": "scripture-citation",
+          "message": "A biblical citation is required but was not found in the public platform copy.",
+          "severity": "error"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "check": "predigt-preview-input",
+      "findings": [],
+      "status": "passed"
+    }
+  ],
+  "content_path": "content/2026-08-17/post-0008/content.json",
+  "errors": [
+    "Alt text is missing.",
+    "Flux prompt is missing or was removed because it requested text in the image.",
+    "Required field \"platforms.facebook.headline\" is empty.",
+    "Required field \"platforms.facebook.text\" is empty.",
+    "Required field \"platforms.instagram.caption\" is empty.",
+    "Required field \"platforms.mastodon.text\" is empty.",
+    "Required field \"visual.concept\" is empty.",
+    "Required field \"visual.flux_prompt\" is empty.",
+    "Required field \"visual.alt_text\" is empty.",
+    "Required field \"platforms.story.slides\" is empty.",
+    "A biblical citation is required but was not found in the public platform copy."
+  ],
+  "post_id": "post-0008",
+  "ready_for_approval": false,
+  "status_after_run": "in Arbeit",
+  "status_before_run": "in Arbeit",
+  "warnings": []
+}

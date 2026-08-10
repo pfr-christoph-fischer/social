@@ -1,0 +1,44 @@
+{
+  "delivery_url": "https://delivery.us3.bfl.ai/durable/2026080616/5e1f69ea-538b-4d66-962e-9be995966f07/70/121150771ec5a3/771ec5a3ad9d4c6ab47199b9fa312c0a/sample.jpeg?se=2026-08-06T16%3A45%3A21Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=UaLlYeFyjmO7dfLvJveThzXqko18fnaYGwXWyuilMVI%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "cf7d0586-04ea-4e1f-b9b2-b06be7384e40",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "cf7d0586-04ea-4e1f-b9b2-b06be7384e40",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "cf7d0586-04ea-4e1f-b9b2-b06be7384e40",
+      "status": "Ready",
+      "result": {
+        "start_time": 1786034119.3818192,
+        "prompt": "Ein schlichter evangelischer Kirchenraum in ruhigem Morgenlicht, klare Architektur, sanfte Schatten, offene Perspektive nach vorn, stille konzentrierte Atmosphäre, natürliche Farben, beschreibender Stil, einladend, würdevoll., scene focus: Blick nach vorn in den Altarraum ohne erkennbare Texte, no text, no letters, no typography, no logo, no watermark",
+        "seed": 241767761,
+        "sample": "https://delivery.us3.bfl.ai/durable/2026080616/5e1f69ea-538b-4d66-962e-9be995966f07/70/121150771ec5a3/771ec5a3ad9d4c6ab47199b9fa312c0a/sample.jpeg?se=2026-08-06T16%3A45%3A21Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=UaLlYeFyjmO7dfLvJveThzXqko18fnaYGwXWyuilMVI%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "cf7d0586-04ea-4e1f-b9b2-b06be7384e40",
+    "polling_url": "https://api.us3.bfl.ai/v1/get_result?id=cf7d0586-04ea-4e1f-b9b2-b06be7384e40",
+    "cost": 1.5,
+    "input_mp": 0,
+    "output_mp": 1.98
+  }
+}

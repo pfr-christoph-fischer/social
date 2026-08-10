@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-08-06T14:38:24.226Z",
+  "jobs": [
+    {
+      "assetPath": "content/2026-08-10/post-0001/assets/reel-shot-01.webp",
+      "aspectRatio": "9:16",
+      "height": 1920,
+      "mimeType": "image/jpeg",
+      "rawResponsePath": "content/2026-08-10/post-0001/raw-flux-reel-shot-01.json",
+      "request": {
+        "aspectRatio": "9:16",
+        "model": "flux-2-klein-4b",
+        "negativePrompt": "text, letters, logo, watermark, typografie, schild mit schrift, buchstaben, meme-stil, übertriebene emotionen, kitsch, religiöse symbolüberladung, typography",
+        "outputFormat": "webp",
+        "prompt": "Authentische, ruhige Alltagsszene mit einer einzelnen Person an einem schlichten Tisch oder auf einer Bank im Freien, ein Notizzettel oder Notizbuch mit drei kurzen Stichpunkten liegt bereit, nachdenkliche oder betende Haltung, natürliche Gesten, warmes Tageslicht, weiche Farben, dokumentarischer Stil, respektvoll, nahbar, emotionale Ruhe, geringe Tiefenschärfe, hochwertige Fotografie, scene focus: Nahaufnahme einer Hand, die drei kurze Stichworte auf ein schlichtes Blatt Papier schreibt., no text, no letters, no typography, no logo, no watermark"
+      },
+      "status": "succeeded",
+      "width": 1080
+    },
+    {
+      "assetPath": "content/2026-08-10/post-0001/assets/reel-shot-02.webp",
+      "aspectRatio": "9:16",
+      "height": 1920,
+      "mimeType": "image/jpeg",
+      "rawResponsePath": "content/2026-08-10/post-0001/raw-flux-reel-shot-02.json",
+      "request": {
+        "aspectRatio": "9:16",
+        "model": "flux-2-klein-4b",
+        "negativePrompt": "text, letters, logo, watermark, typografie, schild mit schrift, buchstaben, meme-stil, übertriebene emotionen, kitsch, religiöse symbolüberladung, typography",
+        "outputFormat": "webp",
+        "prompt": "Authentische, ruhige Alltagsszene mit einer einzelnen Person an einem schlichten Tisch oder auf einer Bank im Freien, ein Notizzettel oder Notizbuch mit drei kurzen Stichpunkten liegt bereit, nachdenkliche oder betende Haltung, natürliche Gesten, warmes Tageslicht, weiche Farben, dokumentarischer Stil, respektvoll, nahbar, emotionale Ruhe, geringe Tiefenschärfe, hochwertige Fotografie, scene focus: Ruhige Alltagsszene an einem Tisch oder auf einer Bank, eine Person hält kurz inne und schaut nachdenklich., no text, no letters, no typography, no logo, no watermark"
+      },
+      "status": "succeeded",
+      "width": 1080
+    },
+    {
+      "assetPath": "content/2026-08-10/post-0001/assets/reel-shot-03.webp",
+      "aspectRatio": "9:16",
+      "height": 1920,
+      "mimeType": "image/jpeg",
+      "rawResponsePath": "content/2026-08-10/post-0001/raw-flux-reel-shot-03.json",
+      "request": {
+        "aspectRatio": "9:16",
+        "model": "flux-2-klein-4b",
+        "negativePrompt": "text, letters, logo, watermark, typografie, schild mit schrift, buchstaben, meme-stil, übertriebene emotionen, kitsch, religiöse symbolüberladung, typography",
+        "outputFormat": "webp",
+        "prompt": "Authentische, ruhige Alltagsszene mit einer einzelnen Person an einem schlichten Tisch oder auf einer Bank im Freien, ein Notizzettel oder Notizbuch mit drei kurzen Stichpunkten liegt bereit, nachdenkliche oder betende Haltung, natürliche Gesten, warmes Tageslicht, weiche Farben, dokumentarischer Stil, respektvoll, nahbar, emotionale Ruhe, geringe Tiefenschärfe, hochwertige Fotografie, scene focus: Detailaufnahme von Händen, die das Papier halten oder zusammengelegt auf dem Tisch liegen., no text, no letters, no typography, no logo, no watermark"
+      },
+      "status": "succeeded",
+      "width": 1080
+    },
+    {
+      "assetPath": "content/2026-08-10/post-0001/assets/reel-shot-04.webp",
+      "aspectRatio": "9:16",
+      "height": 1920,
+      "mimeType": "image/jpeg",
+      "rawResponsePath": "content/2026-08-10/post-0001/raw-flux-reel-shot-04.json",
+      "request": {
+        "aspectRatio": "9:16",
+        "model": "flux-2-klein-4b",
+        "negativePrompt": "text, letters, logo, watermark, typografie, schild mit schrift, buchstaben, meme-stil, übertriebene emotionen, kitsch, religiöse symbolüberladung, typography",
+        "outputFormat": "webp",
+        "prompt": "Authentische, ruhige Alltagsszene mit einer einzelnen Person an einem schlichten Tisch oder auf einer Bank im Freien, ein Notizzettel oder Notizbuch mit drei kurzen Stichpunkten liegt bereit, nachdenkliche oder betende Haltung, natürliche Gesten, warmes Tageslicht, weiche Farben, dokumentarischer Stil, respektvoll, nahbar, emotionale Ruhe, geringe Tiefenschärfe, hochwertige Fotografie, scene focus: Weite, ruhige Szene in natürlichem Licht, die Sammlung und Zugehörigkeit andeutet., no text, no letters, no typography, no logo, no watermark"
+      },
+      "status": "succeeded",
+      "width": 1080
+    }
+  ],
+  "model": "flux-2-klein-4b",
+  "post_id": "post-0001"
+}
