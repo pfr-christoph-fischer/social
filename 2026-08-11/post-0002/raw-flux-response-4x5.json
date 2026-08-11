@@ -1,11 +1,11 @@
 {
-  "delivery_url": "https://delivery.us4.bfl.ai/durable/2026081108/5e1f69ea-538b-4d66-962e-9be995966f07/15/757299c80c1593/c80c1593b18a4563958ed77d98f06a3d/sample.jpeg?se=2026-08-11T09%3A09%3A17Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=G24WPTzVCHkFcA0Z%2Bv63BIkJh17UfUZ4G4UnvHdhIqw%3D",
+  "delivery_url": "https://delivery.us4.bfl.ai/durable/2026081109/5e1f69ea-538b-4d66-962e-9be995966f07/c8/837385adca6e4f/adca6e4f02bf463788add03870431c75/sample.jpeg?se=2026-08-11T09%3A10%3A37Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=XvkqBM/yHicZOVOSZyfHlptTMMEtfNlHe3EMOXMn/fc%3D",
   "download_headers": {
     "content_type": "image/jpeg"
   },
   "polls": [
     {
-      "id": "d19ef9c4-5d62-4a9f-8591-e47d220b0ad8",
+      "id": "fa2f09f9-6395-4237-a569-7a7feb489c2e",
       "status": "Pending",
       "result": null,
       "progress": null,
@@ -13,7 +13,7 @@
       "preview": null
     },
     {
-      "id": "d19ef9c4-5d62-4a9f-8591-e47d220b0ad8",
+      "id": "fa2f09f9-6395-4237-a569-7a7feb489c2e",
       "status": "Pending",
       "result": null,
       "progress": null,
@@ -21,21 +21,13 @@
       "preview": null
     },
     {
-      "id": "d19ef9c4-5d62-4a9f-8591-e47d220b0ad8",
-      "status": "Pending",
-      "result": null,
-      "progress": null,
-      "details": null,
-      "preview": null
-    },
-    {
-      "id": "d19ef9c4-5d62-4a9f-8591-e47d220b0ad8",
+      "id": "fa2f09f9-6395-4237-a569-7a7feb489c2e",
       "status": "Ready",
       "result": {
-        "start_time": 1786438754.9558935,
-        "prompt": "Eine ruhige, kontemplative Alltagsszene in natürlichem Morgen- oder Fensterlicht, fotografischer Stil, ehrlich und uninszeniert. Fokus auf Gegenwart, Aufmerksamkeit und das Heilige im Gewöhnlichen: ein schlichter Innenraum, ein Blick aus dem Fenster, eine Tasse Kaffee, ein stiller Moment des Innehaltens. Wenn eine Person im Bild ist, dann ein Mann um die 48 Jahre, natürlich und glaubwürdig dargestellt, unauffällige Alltagskleidung, nachdenkliche, ruhige Ausstrahlung, nicht geschniegelt, nicht modellhaft, keine dramatische Pose. Die Person soll in einen echten Alltagsmoment eingebunden sein, etwa sitzend am Fenster, mit einer Tasse in der Hand, beim stillen Warten oder beim kurzen Innehalten. Sanfte warme Farben, viel Raum im Bild, klare ruhige Komposition, dezente Tiefenschärfe, dokumentarisch-fotografische Anmutung, intim, still, offen, ohne Pathos., no text, no letters, no typography, no logo, no watermark",
-        "seed": 1704757583,
-        "sample": "https://delivery.us4.bfl.ai/durable/2026081108/5e1f69ea-538b-4d66-962e-9be995966f07/15/757299c80c1593/c80c1593b18a4563958ed77d98f06a3d/sample.jpeg?se=2026-08-11T09%3A09%3A17Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=G24WPTzVCHkFcA0Z%2Bv63BIkJh17UfUZ4G4UnvHdhIqw%3D"
+        "start_time": 1786438836.031318,
+        "prompt": "Eine ruhige, kontemplative Alltagsszene in natürlichem Morgen- oder Fensterlicht, fotografischer Stil, ehrlich und uninszeniert. Fokus auf Gegenwart, Aufmerksamkeit und das Heilige im Gewöhnlichen: ein schlichter Innenraum, ein Blick aus dem Fenster, eine Tasse Kaffee, ein stiller Moment des Innehaltens. Sanfte warme Farben, viel Raum im Bild, klare ruhige Komposition, dezente Tiefenschärfe, dokumentarisch-fotografische Anmutung, intim, still, offen, ohne Pathos., no text, no letters, no typography, no logo, no watermark",
+        "seed": 39334906,
+        "sample": "https://delivery.us4.bfl.ai/durable/2026081109/5e1f69ea-538b-4d66-962e-9be995966f07/c8/837385adca6e4f/adca6e4f02bf463788add03870431c75/sample.jpeg?se=2026-08-11T09%3A10%3A37Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=XvkqBM/yHicZOVOSZyfHlptTMMEtfNlHe3EMOXMn/fc%3D"
       },
       "progress": null,
       "details": null,
@@ -43,8 +35,8 @@
     }
   ],
   "submission": {
-    "id": "d19ef9c4-5d62-4a9f-8591-e47d220b0ad8",
-    "polling_url": "https://api.us4.bfl.ai/v1/get_result?id=d19ef9c4-5d62-4a9f-8591-e47d220b0ad8",
+    "id": "fa2f09f9-6395-4237-a569-7a7feb489c2e",
+    "polling_url": "https://api.us4.bfl.ai/v1/get_result?id=fa2f09f9-6395-4237-a569-7a7feb489c2e",
     "cost": 1.5,
     "input_mp": 0,
     "output_mp": 1.39
