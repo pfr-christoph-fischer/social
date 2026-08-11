@@ -1,0 +1,71 @@
+{
+  "checks": [
+    {
+      "check": "alt-text-present",
+      "findings": [],
+      "status": "passed"
+    },
+    {
+      "check": "flux-prompt-no-text",
+      "findings": [],
+      "status": "passed"
+    },
+    {
+      "check": "required-fields",
+      "findings": [],
+      "status": "passed"
+    },
+    {
+      "check": "platform-lengths",
+      "findings": [
+        {
+          "check": "platform-lengths",
+          "message": "Field \"mastodon.text\" is 503 characters long and exceeds the plausibility limit of 500.",
+          "severity": "warning"
+        }
+      ],
+      "status": "warning"
+    },
+    {
+      "check": "current-events",
+      "findings": [
+        {
+          "check": "current-events",
+          "message": "Current-event or local factual details are still required. Verify that no details were invented.",
+          "severity": "warning"
+        }
+      ],
+      "status": "warning"
+    },
+    {
+      "check": "privacy",
+      "findings": [],
+      "status": "passed"
+    },
+    {
+      "check": "song-lyrics",
+      "findings": [],
+      "status": "passed"
+    },
+    {
+      "check": "scripture-citation",
+      "findings": [],
+      "status": "passed"
+    },
+    {
+      "check": "predigt-preview-input",
+      "findings": [],
+      "status": "passed"
+    }
+  ],
+  "content_path": "content/2026-08-11/post-0002/content.json",
+  "errors": [],
+  "post_id": "post-0002",
+  "ready_for_approval": true,
+  "status_after_run": "zur Prüfung",
+  "status_before_run": "in Arbeit",
+  "warnings": [
+    "Field \"mastodon.text\" is 503 characters long and exceeds the plausibility limit of 500.",
+    "Current-event or local factual details are still required. Verify that no details were invented."
+  ]
+}
