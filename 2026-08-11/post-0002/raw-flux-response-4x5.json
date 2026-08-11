@@ -1,0 +1,52 @@
+{
+  "delivery_url": "https://delivery.eu2.bfl.ai/durable/2026081109/5e1f69ea-538b-4d66-962e-9be995966f07/53/865417050ba6d2/050ba6d274dd4d5f86d18e78ed8dd37e/sample.jpeg?se=2026-08-11T09%3A27%3A45Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=BeC7NZ6pNz9hlBS1olOdcYvGBMYzTRZSevEfa/yGsJU%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "4c6f0c63-da40-4929-82be-cf6b956c16fd",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "4c6f0c63-da40-4929-82be-cf6b956c16fd",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "4c6f0c63-da40-4929-82be-cf6b956c16fd",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "4c6f0c63-da40-4929-82be-cf6b956c16fd",
+      "status": "Ready",
+      "result": {
+        "start_time": 1786439864.3744118,
+        "prompt": "Eine ruhige, kontemplative Alltagsszene in natürlichem Morgen- oder Fensterlicht, fotografischer Stil, ehrlich und uninszeniert. Fokus auf Gegenwart, Aufmerksamkeit und das Heilige im Gewöhnlichen: ein schlichter Innenraum, ein Blick aus dem Fenster, eine Tasse Kaffee, ein stiller Moment des Innehaltens. Sanfte warme Farben, viel Raum im Bild, klare ruhige Komposition, dezente Tiefenschärfe, dokumentarisch-fotografische Anmutung, intim, still, offen, ohne Pathos., no text, no letters, no typography, no logo, no watermark",
+        "seed": 3657594698,
+        "sample": "https://delivery.eu2.bfl.ai/durable/2026081109/5e1f69ea-538b-4d66-962e-9be995966f07/53/865417050ba6d2/050ba6d274dd4d5f86d18e78ed8dd37e/sample.jpeg?se=2026-08-11T09%3A27%3A45Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=BeC7NZ6pNz9hlBS1olOdcYvGBMYzTRZSevEfa/yGsJU%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "4c6f0c63-da40-4929-82be-cf6b956c16fd",
+    "polling_url": "https://api.eu2.bfl.ai/v1/get_result?id=4c6f0c63-da40-4929-82be-cf6b956c16fd",
+    "cost": 1.5,
+    "input_mp": 0,
+    "output_mp": 1.39
+  }
+}

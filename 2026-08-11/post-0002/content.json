@@ -100,16 +100,20 @@
     "alt_text": "Ruhige Alltagsszene in weichem natürlichem Licht. Das Bild vermittelt einen stillen, aufmerksamen Moment ohne Ablenkung."
   },
   "qa": {
-    "approved": true,
     "warnings": [
       "Current-event or local factual details are still required. Verify that no details were invented.",
       "Privacy review required for Reli/Gemeinde content: confirm anonymization, consent, and local factual accuracy."
-    ]
+    ],
+    "approved": true
   },
   "metadata": {
     "model": "",
     "generated_at": "",
     "prompt_version": "1.0",
-    "assets": []
+    "assets": [
+      "assets/background-1.91x1.webp",
+      "assets/background-9x16.webp",
+      "assets/background-4x5.webp"
+    ]
   }
 }
