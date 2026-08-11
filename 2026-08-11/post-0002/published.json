@@ -260,5 +260,31 @@
       "status": 201
     },
     "retryHistory": []
+  },
+  {
+    "postId": "post-0002",
+    "contentDate": "2026-08-11",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-08-11T10:30:21.621Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Vielleicht ist Gott längst im ganz Gewöhnlichen. „Be in Every Moment“ von Northcote Church Music bringt mich auf den Gedanken: Glaube muss mich nicht aus dem Alltag herausholen. Vielleicht geht es darum, wirklich da zu sein. https://open.spotify.com/track/6Qu793SLwyXonvBfJIV9kr",
+    "assets": [],
+    "altTexts": [
+      "Ruhige Alltagsszene in weichem natürlichem Licht. Das Bild vermittelt einen stillen, aufmerksamen Moment ohne Ablenkung."
+    ],
+    "id": "085d67fc-54f8-4253-a875-c986ef062a5b",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3mssfurv5r422",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3mssfurv5r422",
+    "lastError": null,
+    "createdAt": "2026-08-11T10:30:21.631Z",
+    "updatedAt": "2026-08-11T10:30:25.871Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 0
+    },
+    "retryHistory": []
   }
 ]
