@@ -97,8 +97,8 @@
   },
   "visual": {
     "concept": "Ruhige, kontemplative Alltagsaufnahme, die Gegenwart und Aufmerksamkeit zeigt: natürliches Licht, wenig Ablenkung, ein stiller Moment ohne Inszenierung.",
-    "flux_prompt": "Eine ruhige, kontemplative Alltagsszene mit natürlichem Licht, stiller Atmosphäre und einfacher Bildsprache. Fokus auf Gegenwart und Aufmerksamkeit: ein stiller Innenraum oder ein unaufgeregter Blick nach draußen, sanfte Farben, viel Raum, klare Komposition, fotografischer Stil, warm und ehrlich, ohne dramatische Effekte.",
-    "negative_prompt": "text, letters, logo, watermark",
+    "flux_prompt": "Eine ruhige, kontemplative Alltagsszene in natürlichem Morgen- oder Fensterlicht, fotografischer Stil, ehrlich und uninszeniert. Fokus auf Gegenwart, Aufmerksamkeit und das Heilige im Gewöhnlichen: ein schlichter Innenraum, ein Blick aus dem Fenster, eine Tasse Kaffee, ein stiller Moment des Innehaltens. Wenn eine Person im Bild ist, dann ein Mann um die 48 Jahre, natürlich und glaubwürdig dargestellt, unauffällige Alltagskleidung, nachdenkliche, ruhige Ausstrahlung, nicht geschniegelt, nicht modellhaft, keine dramatische Pose. Die Person soll in einen echten Alltagsmoment eingebunden sein, etwa sitzend am Fenster, mit einer Tasse in der Hand, beim stillen Warten oder beim kurzen Innehalten. Sanfte warme Farben, viel Raum im Bild, klare ruhige Komposition, dezente Tiefenschärfe, dokumentarisch-fotografische Anmutung, intim, still, offen, ohne Pathos.",
+    "negative_prompt": "text, letters, logo, watermark, overly staged, dramatic lighting, worship stage, concert scene, exaggerated emotions, artificial skin, fashion shoot, perfect studio portrait, unrealistic hands, extra fingers, distorted face, blurry subject, oversaturated colors, heavy effects",
     "formats": [
       "4:5",
       "9:16",
@@ -107,10 +107,10 @@
     "alt_text": "Ruhige Alltagsszene in weichem natürlichem Licht. Das Bild vermittelt einen stillen, aufmerksamen Moment ohne Ablenkung."
   },
   "qa": {
-    "approved": true,
     "warnings": [
       "Current-event or local factual details are still required. Verify that no details were invented."
-    ]
+    ],
+    "approved": true
   },
   "metadata": {
     "model": "gpt-5.4-2026-03-05",
