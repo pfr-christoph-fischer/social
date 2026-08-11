@@ -1,6 +1,6 @@
 {
   "id": "post-0002",
-  "status": "freigegeben",
+  "status": "in Arbeit",
   "needs_input": true,
   "source": {
     "calendar_post_id": "post-0002",
@@ -30,31 +30,31 @@
   },
   "platforms": {
     "facebook": {
-      "text": "Manchmal suche ich Gott an den besonderen Orten: im Gottesdienst, im Gebet, in Momenten, die sich heilig anfühlen.\n\nVielleicht ist Gott aber längst im ganz Gewöhnlichen.\n\nIm ersten Kaffee am Morgen.\nIn einem Gespräch zwischendurch.\nIm Lachen. Im Stress. Im Warten.\nIn diesem einen Augenblick, der gleich schon wieder vorbei ist.\n\n„Be in Every Moment“ von Northcote Church Music bringt mich auf diesen Gedanken: Glaube muss mich nicht aus meinem Alltag herausholen. Vielleicht geht es vielmehr darum, wirklich da zu sein – und darauf zu vertrauen, dass Gott auch da ist.\n\n🎵 Northcote Church Music – Be in Every Moment\nhttps://open.spotify.com/track/6Qu793SLwyXonvBfJIV9kr",
-      "headline": "Ein Lied für den gegenwärtigen Moment"
+      "headline": "Ein Lied für den gegenwärtigen Moment",
+      "text": "Manchmal suche ich Gott an den besonderen Orten: im Gottesdienst, im Gebet, in Momenten, die sich heilig anfühlen.\n\nVielleicht ist Gott aber längst im ganz Gewöhnlichen.\n\nIm ersten Kaffee am Morgen.\nIn einem Gespräch zwischendurch.\nIm Lachen. Im Stress. Im Warten.\nIn diesem einen Augenblick, der gleich schon wieder vorbei ist.\n\n„Be in Every Moment“ von Northcote Church Music bringt mich auf diesen Gedanken: Glaube muss mich nicht aus meinem Alltag herausholen. Vielleicht geht es vielmehr darum, wirklich da zu sein – und darauf zu vertrauen, dass Gott auch da ist.\n\n🎵 Northcote Church Music – Be in Every Moment\nhttps://open.spotify.com/track/6Qu793SLwyXonvBfJIV9kr"
     },
     "instagram": {
       "caption": "Manchmal suche ich Gott an den besonderen Orten: im Gottesdienst, im Gebet, in Momenten, die sich heilig anfühlen.\n\nVielleicht ist Gott aber längst im ganz Gewöhnlichen.\n\nIm ersten Kaffee am Morgen.\nIn einem Gespräch zwischendurch.\nIm Lachen. Im Stress. Im Warten.\nIn diesem einen Augenblick, der gleich schon wieder vorbei ist.\n\n„Be in Every Moment“ von Northcote Church Music bringt mich auf diesen Gedanken: Glaube muss mich nicht aus meinem Alltag herausholen. Vielleicht geht es vielmehr darum, wirklich da zu sein – und darauf zu vertrauen, dass Gott auch da ist.\n\n🎵 Northcote Church Music – Be in Every Moment\nhttps://open.spotify.com/track/6Qu793SLwyXonvBfJIV9kr",
       "carousel": [
         {
-          "type": "slide",
-          "text": "Manchmal suche ich Gott an den besonderen Orten."
+          "text": "Manchmal suche ich Gott an den besonderen Orten.",
+          "type": "slide"
         },
         {
-          "type": "slide",
-          "text": "Vielleicht ist Gott aber längst im ganz Gewöhnlichen."
+          "text": "Vielleicht ist Gott aber längst im ganz Gewöhnlichen.",
+          "type": "slide"
         },
         {
-          "type": "slide",
-          "text": "Im ersten Kaffee am Morgen. In einem Gespräch zwischendurch."
+          "text": "Im ersten Kaffee am Morgen. In einem Gespräch zwischendurch.",
+          "type": "slide"
         },
         {
-          "type": "slide",
-          "text": "Im Lachen. Im Stress. Im Warten."
+          "text": "Im Lachen. Im Stress. Im Warten.",
+          "type": "slide"
         },
         {
-          "type": "slide",
-          "text": "Glaube muss mich nicht aus dem Alltag herausholen. Vielleicht geht es darum, wirklich da zu sein."
+          "text": "Glaube muss mich nicht aus dem Alltag herausholen. Vielleicht geht es darum, wirklich da zu sein.",
+          "type": "slide"
         }
       ]
     },
@@ -97,7 +97,7 @@
   },
   "visual": {
     "concept": "Ruhige, kontemplative Alltagsaufnahme, die Gegenwart und Aufmerksamkeit zeigt: natürliches Licht, wenig Ablenkung, ein stiller Moment ohne Inszenierung.",
-    "flux_prompt": "Eine ruhige, kontemplative Alltagsszene in natürlichem Morgen- oder Fensterlicht, fotografischer Stil, ehrlich und uninszeniert. Fokus auf Gegenwart, Aufmerksamkeit und das Heilige im Gewöhnlichen: ein schlichter Innenraum, ein Blick aus dem Fenster, eine Tasse Kaffee, ein stiller Moment des Innehaltens. Wenn eine Person im Bild ist, dann ein Mann um die 48 Jahre, natürlich und glaubwürdig dargestellt, unauffällige Alltagskleidung, nachdenkliche, ruhige Ausstrahlung, nicht geschniegelt, nicht modellhaft, keine dramatische Pose. Die Person soll in einen echten Alltagsmoment eingebunden sein, etwa sitzend am Fenster, mit einer Tasse in der Hand, beim stillen Warten oder beim kurzen Innehalten. Sanfte warme Farben, viel Raum im Bild, klare ruhige Komposition, dezente Tiefenschärfe, dokumentarisch-fotografische Anmutung, intim, still, offen, ohne Pathos.",
+    "flux_prompt": "Eine ruhige, kontemplative Alltagsszene in natürlichem Morgen- oder Fensterlicht, fotografischer Stil, ehrlich und uninszeniert. Fokus auf Gegenwart, Aufmerksamkeit und das Heilige im Gewöhnlichen: ein schlichter Innenraum, ein Blick aus dem Fenster, eine Tasse Kaffee, ein stiller Moment des Innehaltens. Sanfte warme Farben, viel Raum im Bild, klare ruhige Komposition, dezente Tiefenschärfe, dokumentarisch-fotografische Anmutung, intim, still, offen, ohne Pathos.",
     "negative_prompt": "text, letters, logo, watermark, overly staged, dramatic lighting, worship stage, concert scene, exaggerated emotions, artificial skin, fashion shoot, perfect studio portrait, unrealistic hands, extra fingers, distorted face, blurry subject, oversaturated colors, heavy effects",
     "formats": [
       "4:5",
@@ -107,10 +107,10 @@
     "alt_text": "Ruhige Alltagsszene in weichem natürlichem Licht. Das Bild vermittelt einen stillen, aufmerksamen Moment ohne Ablenkung."
   },
   "qa": {
+    "approved": false,
     "warnings": [
       "Current-event or local factual details are still required. Verify that no details were invented."
-    ],
-    "approved": true
+    ]
   },
   "metadata": {
     "model": "gpt-5.4-2026-03-05",
