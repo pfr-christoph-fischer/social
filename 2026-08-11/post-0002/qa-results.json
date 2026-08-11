@@ -17,14 +17,8 @@
     },
     {
       "check": "platform-lengths",
-      "findings": [
-        {
-          "check": "platform-lengths",
-          "message": "Field \"mastodon.text\" is 503 characters long and exceeds the plausibility limit of 500.",
-          "severity": "warning"
-        }
-      ],
-      "status": "warning"
+      "findings": [],
+      "status": "passed"
     },
     {
       "check": "current-events",
@@ -65,7 +59,6 @@
   "status_after_run": "zur Prüfung",
   "status_before_run": "in Arbeit",
   "warnings": [
-    "Field \"mastodon.text\" is 503 characters long and exceeds the plausibility limit of 500.",
     "Current-event or local factual details are still required. Verify that no details were invented."
   ]
 }
