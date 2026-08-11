@@ -1,11 +1,11 @@
 {
   "id": "post-0002",
-  "status": "freigegeben",
+  "status": "in Arbeit",
   "needs_input": true,
   "source": {
     "calendar_post_id": "post-0002",
     "date": "2026-08-11",
-    "rubric": "Ein Lied, das mich begleitet",
+    "rubric": "Gemeinde lebt",
     "liturgical_source": ""
   },
   "editorial_core": {
@@ -15,46 +15,44 @@
     "tone": [
       "klar",
       "ruhig",
-      "zugänglich",
-      "persönlich"
+      "zugänglich"
     ],
     "source_notes": [
-      "Goal: Persönlich teilen, welche Liedzeile mich gerade begleitet, und dabei unbekanntere, progressive christliche Künstler:innen vorstellen.",
-      "Production mode: weitgehend vorproduzierbar; persönlichen Bezug vor Veröffentlichung aktuell formulieren.",
-      "Erforderlich vor Veröffentlichung: persönliche Beobachtung oder Erfahrung aus dieser Woche.",
-      "Erforderlich vor Veröffentlichung: am Originaltext geprüftes kurzes Liedfragment.",
-      "Spotify-Link vorhanden: https://open.spotify.com/track/6Qu793SLwyXonvBfJIV9kr",
-      "Keine erfundenen Situationen, Zitate oder biografischen Details verwenden.",
-      "Keinen vollständigen urheberrechtlich geschützten Songtext wiedergeben; nur kurzes, geprüftes Fragment verwenden."
+      "Goal: Menschen, Arbeit und Entscheidungen hinter dem sichtbaren Gemeindeleben transparent machen.",
+      "Column: Gemeindeleben und Leitung",
+      "Production mode: teilweise vorproduzierbar; aktuelles Foto oder Ereignis ergänzen",
+      "Structure: konkrete Beobachtung | warum das wichtig ist | Dank oder Einladung",
+      "AI support notes: aus Stichpunkten einen persönlichen Text machen | Datenschutzcheck-Fragen | Alt-Text",
+      "Current inputs required: Foto oder Beobachtung | Namen nur bei Einwilligung | gegebenenfalls Termin/Projekt"
     ]
   },
   "platforms": {
     "facebook": {
-      "text": "Manchmal suche ich Gott an den besonderen Orten: im Gottesdienst, im Gebet, in Momenten, die sich heilig anfühlen.\n\nVielleicht ist Gott aber längst im ganz Gewöhnlichen.\n\nIm ersten Kaffee am Morgen.\nIn einem Gespräch zwischendurch.\nIm Lachen. Im Stress. Im Warten.\nIn diesem einen Augenblick, der gleich schon wieder vorbei ist.\n\n„Be in Every Moment“ von Northcote Church Music bringt mich auf diesen Gedanken: Glaube muss mich nicht aus meinem Alltag herausholen. Vielleicht geht es vielmehr darum, wirklich da zu sein – und darauf zu vertrauen, dass Gott auch da ist.\n\n🎵 Northcote Church Music – Be in Every Moment\nhttps://open.spotify.com/track/6Qu793SLwyXonvBfJIV9kr",
-      "headline": "Ein Lied für den gegenwärtigen Moment"
+      "headline": "Ein Lied für den gegenwärtigen Moment",
+      "text": "Manchmal suche ich Gott an den besonderen Orten: im Gottesdienst, im Gebet, in Momenten, die sich heilig anfühlen.\n\nVielleicht ist Gott aber längst im ganz Gewöhnlichen.\n\nIm ersten Kaffee am Morgen.\nIn einem Gespräch zwischendurch.\nIm Lachen. Im Stress. Im Warten.\nIn diesem einen Augenblick, der gleich schon wieder vorbei ist.\n\n„Be in Every Moment“ von Northcote Church Music bringt mich auf diesen Gedanken: Glaube muss mich nicht aus meinem Alltag herausholen. Vielleicht geht es vielmehr darum, wirklich da zu sein – und darauf zu vertrauen, dass Gott auch da ist.\n\n🎵 Northcote Church Music – Be in Every Moment\nhttps://open.spotify.com/track/6Qu793SLwyXonvBfJIV9kr"
     },
     "instagram": {
       "caption": "Manchmal suche ich Gott an den besonderen Orten: im Gottesdienst, im Gebet, in Momenten, die sich heilig anfühlen.\n\nVielleicht ist Gott aber längst im ganz Gewöhnlichen.\n\nIm ersten Kaffee am Morgen.\nIn einem Gespräch zwischendurch.\nIm Lachen. Im Stress. Im Warten.\nIn diesem einen Augenblick, der gleich schon wieder vorbei ist.\n\n„Be in Every Moment“ von Northcote Church Music bringt mich auf diesen Gedanken: Glaube muss mich nicht aus meinem Alltag herausholen. Vielleicht geht es vielmehr darum, wirklich da zu sein – und darauf zu vertrauen, dass Gott auch da ist.\n\n🎵 Northcote Church Music – Be in Every Moment\nhttps://open.spotify.com/track/6Qu793SLwyXonvBfJIV9kr",
       "carousel": [
         {
-          "type": "slide",
-          "text": "Manchmal suche ich Gott an den besonderen Orten."
+          "text": "Manchmal suche ich Gott an den besonderen Orten.",
+          "type": "slide"
         },
         {
-          "type": "slide",
-          "text": "Vielleicht ist Gott aber längst im ganz Gewöhnlichen."
+          "text": "Vielleicht ist Gott aber längst im ganz Gewöhnlichen.",
+          "type": "slide"
         },
         {
-          "type": "slide",
-          "text": "Im ersten Kaffee am Morgen. In einem Gespräch zwischendurch."
+          "text": "Im ersten Kaffee am Morgen. In einem Gespräch zwischendurch.",
+          "type": "slide"
         },
         {
-          "type": "slide",
-          "text": "Im Lachen. Im Stress. Im Warten."
+          "text": "Im Lachen. Im Stress. Im Warten.",
+          "type": "slide"
         },
         {
-          "type": "slide",
-          "text": "Glaube muss mich nicht aus dem Alltag herausholen. Vielleicht geht es darum, wirklich da zu sein."
+          "text": "Glaube muss mich nicht aus dem Alltag herausholen. Vielleicht geht es darum, wirklich da zu sein.",
+          "type": "slide"
         }
       ]
     },
@@ -86,19 +84,14 @@
     "reel": {
       "hook": "Vielleicht ist Gott längst im ganz Gewöhnlichen.",
       "script": "Szene 1: ruhiger Einstieg in einen stillen Alltagsmoment.\nSzene 2: Einblendung oder Voice-over: „Manchmal suche ich Gott an den besonderen Orten.“\nSzene 3: Weitere ruhige Alltagsbilder: Kaffee, Fenster, kurzer Weg, Warten.\nSzene 4: Voice-over oder Untertitel: „Vielleicht ist Gott aber längst im ganz Gewöhnlichen.“\nSzene 5: Abschlussgedanke: „Be in Every Moment“ von Northcote Church Music bringt mich auf diesen Gedanken: Glaube muss mich nicht aus meinem Alltag herausholen. Vielleicht geht es darum, wirklich da zu sein – und darauf zu vertrauen, dass Gott auch da ist.\nSzene 6: \"Be in every moment\" von Northcote Music ist u.a. auf Spotify zu finden.",
-      "shots": [
-        "Ruhiger Alltagsmoment mit natürlichem Licht",
-        "Nahaufnahme von Händen, Tasse, Fenster oder Weg ohne identifizierbare Personen",
-        "Kurzer Blick nach draußen oder auf eine stille Bewegung im Raum",
-        "Detailaufnahme als Abschluss, ruhig und offen"
-      ],
-      "duration_seconds": 20
+      "shots": [],
+      "duration_seconds": 0
     }
   },
   "visual": {
     "concept": "Ruhige, kontemplative Alltagsaufnahme, die Gegenwart und Aufmerksamkeit zeigt: natürliches Licht, wenig Ablenkung, ein stiller Moment ohne Inszenierung.",
     "flux_prompt": "Eine ruhige, kontemplative Alltagsszene in natürlichem Morgen- oder Fensterlicht, fotografischer Stil, ehrlich und uninszeniert. Fokus auf Gegenwart, Aufmerksamkeit und das Heilige im Gewöhnlichen: ein schlichter Innenraum, ein Blick aus dem Fenster, eine Tasse Kaffee, ein stiller Moment des Innehaltens. Sanfte warme Farben, viel Raum im Bild, klare ruhige Komposition, dezente Tiefenschärfe, dokumentarisch-fotografische Anmutung, intim, still, offen, ohne Pathos.",
-    "negative_prompt": "text, letters, logo, watermark, overly staged, dramatic lighting, worship stage, concert scene, exaggerated emotions, artificial skin, fashion shoot, perfect studio portrait, unrealistic hands, extra fingers, distorted face, blurry subject, oversaturated colors, heavy effects",
+    "negative_prompt": "text, letters, logo, watermark",
     "formats": [
       "4:5",
       "9:16",
@@ -107,20 +100,17 @@
     "alt_text": "Ruhige Alltagsszene in weichem natürlichem Licht. Das Bild vermittelt einen stillen, aufmerksamen Moment ohne Ablenkung."
   },
   "qa": {
+    "approved": false,
     "warnings": [
-      "Current-event or local factual details are still required. Verify that no details were invented."
-    ],
-    "approved": true
+      "Alt text must be completed before approval",
+      "Current source inputs are still required before publication",
+      "Review privacy and factual accuracy before drafting"
+    ]
   },
   "metadata": {
-    "model": "gpt-5.4-2026-03-05",
-    "generated_at": "2026-08-11T08:23:26.884Z",
+    "model": "",
+    "generated_at": "",
     "prompt_version": "1.0",
-    "assets": [
-      "https://open.spotify.com/track/6Qu793SLwyXonvBfJIV9kr",
-      "assets/background-1.91x1.webp",
-      "assets/background-4x5.webp",
-      "assets/background-9x16.webp"
-    ]
+    "assets": []
   }
 }
