@@ -91,5 +91,79 @@
       "mediaCount": 4
     },
     "retryHistory": []
+  },
+  {
+    "postId": "post-0003",
+    "contentDate": "2026-08-12",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-08-12T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "",
+    "assets": [
+      "render-instagram-feed-01.png",
+      "render-instagram-feed-02.png",
+      "render-instagram-feed-03.png",
+      "render-instagram-feed-04.png",
+      "render-instagram-feed-05.png",
+      "render-instagram-feed-06.png"
+    ],
+    "altTexts": [
+      "Ein heller, schlichter Kirchenraum mit Bänken und Blick nach vorn. Weiches Licht fällt in den Raum und erzeugt eine ruhige, konzentrierte Stimmung."
+    ],
+    "id": "f1b49314-905e-46e5-9338-cfad7c85a8db",
+    "attemptCount": 2,
+    "remoteId": "18101437010463460",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-12T06:42:14.180Z",
+    "updatedAt": "2026-08-12T08:47:57.087Z",
+    "responseMetadata": {
+      "mediaCount": 6,
+      "mediaType": "CAROUSEL",
+      "status": 200
+    },
+    "retryHistory": [
+      {
+        "at": "2026-08-12T06:46:22.696Z",
+        "error": "threads: Container konnte nicht veröffentlicht werden (400): The requested resource does not exist",
+        "attempt": 1
+      }
+    ]
+  },
+  {
+    "postId": "post-0003",
+    "contentDate": "2026-08-12",
+    "platform": "linkedin",
+    "format": "default",
+    "scheduledAt": "2026-08-12T07:30:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "„Votum“ heißt: der Eröffnungssatz am Anfang des Gottesdienstes. Oft lautet er:\n„Wir feiern diesen Gottesdienst im Namen Gottes, des Vaters und des Sohnes und des Heiligen Geistes.“\n\nDie Gemeinde antwortet mit einem Amen.\n\nSo wird gleich am Anfang klar: Wir sind nicht nur zufällig hier. Dieser Gottesdienst steht unter Gottes Namen.\n\nVielleicht liegt genau darin etwas Tröstliches: Du musst nicht erst alles zusammenhaben. Du darfst ankommen.\n\nFrage an dich: Helfen dir solche festen Anfangsworte – oder eher freie Worte?\n\n#Mittwochsserie #GlaubenVerstehen #Gottesdienst #Votum #Evangelisch",
+    "assets": [
+      "render-instagram-feed-01.png",
+      "render-instagram-feed-02.png",
+      "render-instagram-feed-03.png",
+      "render-instagram-feed-04.png",
+      "render-instagram-feed-05.png",
+      "render-instagram-feed-06.png"
+    ],
+    "altTexts": [
+      "Ein heller, schlichter Kirchenraum mit Bänken und Blick nach vorn. Weiches Licht fällt in den Raum und erzeugt eine ruhige, konzentrierte Stimmung."
+    ],
+    "id": "36d102a5-86af-4435-9d6b-0d238d555591",
+    "attemptCount": 1,
+    "remoteId": "urn:li:ugcPost:7493226805701754880",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-12T06:42:14.187Z",
+    "updatedAt": "2026-08-12T08:48:08.252Z",
+    "responseMetadata": {
+      "mediaCount": 6,
+      "mediaType": "MULTI_IMAGE",
+      "status": 201
+    },
+    "retryHistory": []
   }
 ]
