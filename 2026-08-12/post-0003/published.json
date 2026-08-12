@@ -60,5 +60,36 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "post-0003",
+    "contentDate": "2026-08-12",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-08-12T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "",
+    "assets": [
+      "render-instagram-feed-01.png",
+      "render-instagram-feed-02.png",
+      "render-instagram-feed-03.png",
+      "render-instagram-feed-04.png"
+    ],
+    "altTexts": [
+      "Ein heller, schlichter Kirchenraum mit Bänken und Blick nach vorn. Weiches Licht fällt in den Raum und erzeugt eine ruhige, konzentrierte Stimmung."
+    ],
+    "id": "9d54db54-e107-4450-bed0-bf12d2f55c2e",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3msujt5y2qt2f",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3msujt5y2qt2f",
+    "lastError": null,
+    "createdAt": "2026-08-12T06:42:14.184Z",
+    "updatedAt": "2026-08-12T06:46:26.258Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 4
+    },
+    "retryHistory": []
   }
 ]
