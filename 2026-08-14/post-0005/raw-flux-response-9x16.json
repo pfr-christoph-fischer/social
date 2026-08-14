@@ -1,0 +1,44 @@
+{
+  "delivery_url": "https://delivery.us2.bfl.ai/durable/2026081409/5e1f69ea-538b-4d66-962e-9be995966f07/d6/847911b7dde852/b7dde852de7e4f97824a0757d959e892/sample.jpeg?se=2026-08-14T09%3A40%3A48Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=eQL5vo2%2B%2BZhCMduHSIVZ29RoRDX5TFWFU8Lbn7hS2tE%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "6b07fce6-0c5f-4bbc-88e4-e19f834304e7",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "6b07fce6-0c5f-4bbc-88e4-e19f834304e7",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "6b07fce6-0c5f-4bbc-88e4-e19f834304e7",
+      "status": "Ready",
+      "result": {
+        "start_time": 1786699846.6127105,
+        "prompt": "Ruhevolle alltagsnahe Szene in warmem Abendlicht, schlichter Tisch mit einer Tasse, Smartphone mit ausgeschaltetem Display, Schlüssel, leicht geöffnetes Notizbuch, weiche Schatten, zurückhaltende Farben, dokumentarischer Stil, natürliche Perspektive, stille konzentrierte Atmosphäre, minimalistisch, hochwertige Fotografie, no text, no letters, no typography, no logo, no watermark",
+        "seed": 3632512885,
+        "sample": "https://delivery.us2.bfl.ai/durable/2026081409/5e1f69ea-538b-4d66-962e-9be995966f07/d6/847911b7dde852/b7dde852de7e4f97824a0757d959e892/sample.jpeg?se=2026-08-14T09%3A40%3A48Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=eQL5vo2%2B%2BZhCMduHSIVZ29RoRDX5TFWFU8Lbn7hS2tE%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "6b07fce6-0c5f-4bbc-88e4-e19f834304e7",
+    "polling_url": "https://api.us2.bfl.ai/v1/get_result?id=6b07fce6-0c5f-4bbc-88e4-e19f834304e7",
+    "cost": 1.5,
+    "input_mp": 0,
+    "output_mp": 1.98
+  }
+}
