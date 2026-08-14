@@ -38,6 +38,9 @@
     "mastodon": {
       "text": ""
     },
+    "bluesky": {
+      "text": ""
+    },
     "story": {
       "slides": []
     },
@@ -60,8 +63,10 @@
     "alt_text": ""
   },
   "qa": {
-    "approved": false,
-    "warnings": []
+    "warnings": [
+      "Alt text must be completed before approval"
+    ],
+    "approved": false
   },
   "metadata": {
     "model": "",
