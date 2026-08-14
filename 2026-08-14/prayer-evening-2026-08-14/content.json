@@ -1,6 +1,6 @@
 {
   "id": "prayer-evening-2026-08-14",
-  "status": "in Arbeit",
+  "status": "zur Prüfung",
   "needs_input": true,
   "source": {
     "calendar_post_id": "prayer-evening-2026-08-14",
@@ -124,12 +124,10 @@
     "alt_text": "Ruhige Abendstimmung mit weichem Dämmerungslicht und offenem Blick in den Himmel. Das Bild wirkt still und lässt Raum zum Loslassen des Tages."
   },
   "qa": {
+    "approved": false,
     "warnings": [
-      "Alt text must be completed before approval",
-      "Aktuelle Nachrichtenlagen für zwei bis vier konkrete Situationen fehlen und müssen vor Freigabe geprüft und ggf. in das Gebet eingearbeitet werden.",
-      "Formulierung zu weltweiter Not ist derzeit bewusst allgemein gehalten, um keine Ereignisse zu erfinden."
-    ],
-    "approved": false
+      "Current-event or local factual details are still required. Verify that no details were invented."
+    ]
   },
   "metadata": {
     "model": "gpt-5.4-2026-03-05",
