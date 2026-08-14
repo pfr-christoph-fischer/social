@@ -1,0 +1,44 @@
+{
+  "delivery_url": "https://delivery.eu2.bfl.ai/durable/2026081418/5e1f69ea-538b-4d66-962e-9be995966f07/f5/1541701e81f3f4/1e81f3f4adfc4dbe806e5dfe58421c62/sample.jpeg?se=2026-08-14T18%3A22%3A34Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=i60U/4pYkWbP2TSXSlwXafN3osgW84ETwJdwPeSsvCU%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "8f6d68a0-fb6b-4b8f-aa1a-2ed44a4f5e59",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "8f6d68a0-fb6b-4b8f-aa1a-2ed44a4f5e59",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "8f6d68a0-fb6b-4b8f-aa1a-2ed44a4f5e59",
+      "status": "Ready",
+      "result": {
+        "start_time": 1786731153.3726656,
+        "prompt": "ruhige Morgenszene, offenes Fenster, sanftes frühes Licht, schlichte Schale mit Wasser auf einem Tisch, klare natürliche Farben, stille hoffnungsvolle Atmosphäre, dokumentarisch, minimalistisch, hohe Bildqualität, keine Menschenmenge, no text, no letters, no typography, no logo, no watermark",
+        "seed": 3114457011,
+        "sample": "https://delivery.eu2.bfl.ai/durable/2026081418/5e1f69ea-538b-4d66-962e-9be995966f07/f5/1541701e81f3f4/1e81f3f4adfc4dbe806e5dfe58421c62/sample.jpeg?se=2026-08-14T18%3A22%3A34Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=i60U/4pYkWbP2TSXSlwXafN3osgW84ETwJdwPeSsvCU%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "8f6d68a0-fb6b-4b8f-aa1a-2ed44a4f5e59",
+    "polling_url": "https://api.eu2.bfl.ai/v1/get_result?id=8f6d68a0-fb6b-4b8f-aa1a-2ed44a4f5e59",
+    "cost": 1.4000000000000001,
+    "input_mp": 0,
+    "output_mp": 0.72
+  }
+}

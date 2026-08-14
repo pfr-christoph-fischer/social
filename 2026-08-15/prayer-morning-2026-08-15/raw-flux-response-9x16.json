@@ -1,0 +1,52 @@
+{
+  "delivery_url": "https://delivery.eu2.bfl.ai/durable/2026081418/5e1f69ea-538b-4d66-962e-9be995966f07/61/16052689dba625/89dba62510e046ab81480543d30bc60b/sample.jpeg?se=2026-08-14T18%3A22%3A40Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=qv6xnuUHaCAB0Svsw43pPJM5QqhUBujLe19zMi/ukqA%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "2211e5e4-93da-4269-8f43-4c0deb8698eb",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "2211e5e4-93da-4269-8f43-4c0deb8698eb",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "2211e5e4-93da-4269-8f43-4c0deb8698eb",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "2211e5e4-93da-4269-8f43-4c0deb8698eb",
+      "status": "Ready",
+      "result": {
+        "start_time": 1786731159.22081,
+        "prompt": "ruhige Morgenszene, offenes Fenster, sanftes frühes Licht, schlichte Schale mit Wasser auf einem Tisch, klare natürliche Farben, stille hoffnungsvolle Atmosphäre, dokumentarisch, minimalistisch, hohe Bildqualität, keine Menschenmenge, no text, no letters, no typography, no logo, no watermark",
+        "seed": 3026601193,
+        "sample": "https://delivery.eu2.bfl.ai/durable/2026081418/5e1f69ea-538b-4d66-962e-9be995966f07/61/16052689dba625/89dba62510e046ab81480543d30bc60b/sample.jpeg?se=2026-08-14T18%3A22%3A40Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=qv6xnuUHaCAB0Svsw43pPJM5QqhUBujLe19zMi/ukqA%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "2211e5e4-93da-4269-8f43-4c0deb8698eb",
+    "polling_url": "https://api.eu2.bfl.ai/v1/get_result?id=2211e5e4-93da-4269-8f43-4c0deb8698eb",
+    "cost": 1.5,
+    "input_mp": 0,
+    "output_mp": 1.98
+  }
+}
