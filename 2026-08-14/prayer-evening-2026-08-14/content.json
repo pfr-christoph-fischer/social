@@ -124,15 +124,19 @@
     "alt_text": "Ruhige Abendstimmung mit weichem Dämmerungslicht und offenem Blick in den Himmel. Das Bild wirkt still und lässt Raum zum Loslassen des Tages."
   },
   "qa": {
-    "approved": true,
     "warnings": [
       "Current-event or local factual details are still required. Verify that no details were invented."
-    ]
+    ],
+    "approved": true
   },
   "metadata": {
     "model": "gpt-5.4-2026-03-05",
     "generated_at": "2026-08-14T17:37:11.053Z",
     "prompt_version": "1.0",
-    "assets": []
+    "assets": [
+      "assets/background-1.91x1.webp",
+      "assets/background-4x5.webp",
+      "assets/background-9x16.webp"
+    ]
   }
 }

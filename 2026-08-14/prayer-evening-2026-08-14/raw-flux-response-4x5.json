@@ -1,0 +1,52 @@
+{
+  "delivery_url": "https://delivery.eu2.bfl.ai/durable/2026081417/5e1f69ea-538b-4d66-962e-9be995966f07/2a/254086b06a42ef/b06a42ef90344e67a16ab8255bd4412b/sample.jpeg?se=2026-08-14T17%3A50%3A54Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=3H9mHCpnTsl8qhm2/jHDp9yzbJACNXDsCDyKR0UaTt0%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "3bd9b8e5-4081-4c0a-90db-0d2f4127e2ac",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "3bd9b8e5-4081-4c0a-90db-0d2f4127e2ac",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "3bd9b8e5-4081-4c0a-90db-0d2f4127e2ac",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "3bd9b8e5-4081-4c0a-90db-0d2f4127e2ac",
+      "status": "Ready",
+      "result": {
+        "start_time": 1786729253.041534,
+        "prompt": "Ruhige Abendstimmung, weiches Dämmerungslicht, Blick aus einem Fenster oder in einen stillen Himmel, warme und kühle Blautöne, schlichte alltägliche Umgebung, Gefühl von Loslassen und Geborgenheit, natürliche Fotografie, sanfte Kontraste, viel negativer Raum, keine Personen im Fokus, authentisch, still, hoffnungsvoll, no text, no letters, no typography, no logo, no watermark",
+        "seed": 3840808014,
+        "sample": "https://delivery.eu2.bfl.ai/durable/2026081417/5e1f69ea-538b-4d66-962e-9be995966f07/2a/254086b06a42ef/b06a42ef90344e67a16ab8255bd4412b/sample.jpeg?se=2026-08-14T17%3A50%3A54Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=3H9mHCpnTsl8qhm2/jHDp9yzbJACNXDsCDyKR0UaTt0%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "3bd9b8e5-4081-4c0a-90db-0d2f4127e2ac",
+    "polling_url": "https://api.eu2.bfl.ai/v1/get_result?id=3bd9b8e5-4081-4c0a-90db-0d2f4127e2ac",
+    "cost": 1.5,
+    "input_mp": 0,
+    "output_mp": 1.39
+  }
+}
