@@ -90,5 +90,40 @@
       "status": 201
     },
     "retryHistory": []
+  },
+  {
+    "postId": "post-0004",
+    "contentDate": "2026-08-13",
+    "platform": "facebook",
+    "format": "default",
+    "scheduledAt": "2026-08-13T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Sommerferien – und ich bereite schon den Religionsunterricht für Klasse 4 vor.\r\n\r\nZum Start möchte ich mit einem „Gott-Sucher-Koffer“ arbeiten: mit Dingen, Bildern oder Symbolen, die Fragen nach Gott, Glauben und dem Leben öffnen.\r\n\r\nDarum frage ich euch:\r\nWas müsste in so einen Koffer unbedingt hinein?\r\nUnd: Wo findest du Gott?\r\n\r\nVielleicht in der Natur, in Begegnungen, in der Stille, in Musik, im Gebet – oder gerade im Suchen?\r\n\r\nIch freue mich auf eure Gedanken in den Kommentaren.",
+    "assets": [
+      "render-facebook-mastodon-01.png"
+    ],
+    "altTexts": [
+      "Geöffneter Koffer auf einem Tisch mit symbolischen Gegenständen wie Stein, Feder, Lupe, Tuch und Naturfundstücken als Bild für die Vorbereitung eines Gott-Sucher-Koffers für den Religionsunterricht."
+    ],
+    "id": "7076b52e-d265-42b2-a8ed-c65b7e59d545",
+    "attemptCount": 2,
+    "remoteId": "1289703740890525_122108674359426121",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T07:40:55.300Z",
+    "updatedAt": "2026-08-14T07:56:44.249Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "PHOTO",
+      "status": 200
+    },
+    "retryHistory": [
+      {
+        "at": "2026-08-14T07:41:07.827Z",
+        "error": "facebook: Page-Token konnte nicht ermittelt werden (400): Error validating access token: Session has expired on Tuesday, 11-Aug-26 05:00:00 PDT. The current time is Friday, 14-Aug-26 00:41:07 PDT.",
+        "attempt": 1
+      }
+    ]
   }
 ]
