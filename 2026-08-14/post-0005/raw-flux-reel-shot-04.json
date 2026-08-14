@@ -1,0 +1,44 @@
+{
+  "delivery_url": "https://delivery.us4.bfl.ai/durable/2026081409/5e1f69ea-538b-4d66-962e-9be995966f07/bf/915059e7b1e075/e7b1e07510e844eb8d67f62ad7bc16bd/sample.jpeg?se=2026-08-14T09%3A41%3A55Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=kONkTAcWvhEwFNiBdlOWdHpsMvzXIi337pkb3Z70AKI%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "51c64a08-0add-4c8a-9856-2a5f91d209b5",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "51c64a08-0add-4c8a-9856-2a5f91d209b5",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "51c64a08-0add-4c8a-9856-2a5f91d209b5",
+      "status": "Ready",
+      "result": {
+        "start_time": 1786699913.476444,
+        "prompt": "Ruhevolle alltagsnahe Szene in warmem Abendlicht, schlichter Tisch mit einer Tasse, Smartphone mit ausgeschaltetem Display, Schlüssel, leicht geöffnetes Notizbuch, weiche Schatten, zurückhaltende Farben, dokumentarischer Stil, natürliche Perspektive, stille konzentrierte Atmosphäre, minimalistisch, hochwertige Fotografie, scene focus: Langsame Aufnahme von Händen, die kurz still auf dem Tisch liegen., no text, no letters, no typography, no logo, no watermark",
+        "seed": 172757336,
+        "sample": "https://delivery.us4.bfl.ai/durable/2026081409/5e1f69ea-538b-4d66-962e-9be995966f07/bf/915059e7b1e075/e7b1e07510e844eb8d67f62ad7bc16bd/sample.jpeg?se=2026-08-14T09%3A41%3A55Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=kONkTAcWvhEwFNiBdlOWdHpsMvzXIi337pkb3Z70AKI%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "51c64a08-0add-4c8a-9856-2a5f91d209b5",
+    "polling_url": "https://api.us4.bfl.ai/v1/get_result?id=51c64a08-0add-4c8a-9856-2a5f91d209b5",
+    "cost": 1.5,
+    "input_mp": 0,
+    "output_mp": 1.98
+  }
+}
