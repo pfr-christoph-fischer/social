@@ -125,5 +125,44 @@
         "attempt": 1
       }
     ]
+  },
+  {
+    "postId": "post-0004",
+    "contentDate": "2026-08-13",
+    "platform": "instagram",
+    "format": "default",
+    "scheduledAt": "2026-08-13T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Die Sommerferien laufen – und ich bereite schon Klasse 4 vor.\n\nZum Einstieg packe ich meinen „Gott-Sucher-Koffer“.\nAlso einen Koffer voller Dinge, Bilder oder Symbole, mit denen Kinder über Gott, Fragen und Erfahrungen ins Gespräch kommen können.\n\nJetzt seid ihr gefragt:\nWas müsste da unbedingt rein?\nUnd: Wo findest du Gott?\n\nVielleicht in der Natur. In der Stille. In Begegnungen. In Musik. Im Gebet. Oder mitten im Fragen.\n\nSchreibt eure Ideen gern in die Kommentare. 👇",
+    "assets": [
+      "render-instagram-feed-01.png",
+      "render-instagram-feed-02.png",
+      "render-instagram-feed-03.png",
+      "render-instagram-feed-04.png",
+      "render-instagram-feed-05.png"
+    ],
+    "altTexts": [
+      "Geöffneter Koffer auf einem Tisch mit symbolischen Gegenständen wie Stein, Feder, Lupe, Tuch und Naturfundstücken als Bild für die Vorbereitung eines Gott-Sucher-Koffers für den Religionsunterricht."
+    ],
+    "id": "33af27a3-ed04-4cea-a1be-9709241af0ef",
+    "attemptCount": 2,
+    "remoteId": "18584558674070912",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T07:40:55.308Z",
+    "updatedAt": "2026-08-14T07:57:30.642Z",
+    "responseMetadata": {
+      "mediaCount": 5,
+      "mediaType": "CAROUSEL",
+      "status": 200
+    },
+    "retryHistory": [
+      {
+        "at": "2026-08-14T07:41:47.202Z",
+        "error": "instagram: Container konnte nicht veröffentlicht werden (400): Media ID is not available",
+        "attempt": 1
+      }
+    ]
   }
 ]
