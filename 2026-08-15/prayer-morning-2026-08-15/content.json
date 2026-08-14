@@ -1,0 +1,105 @@
+{
+  "id": "prayer-morning-2026-08-15",
+  "status": "in Arbeit",
+  "needs_input": true,
+  "source": {
+    "calendar_post_id": "prayer-morning-2026-08-15",
+    "date": "2026-08-15",
+    "rubric": "Morgengebet",
+    "liturgical_source": ""
+  },
+  "editorial_core": {
+    "title": "Morgengebet",
+    "main_message": "Für dieses Morgengebet fehlen verifizierte tagesaktuelle Nachrichtenlagen vom Morgen des 15.08.2026. Da mindestens zwei konkrete aktuelle Situationen verbindlich aufgenommen werden müssen, ist vor der Veröffentlichung eine aktuelle Nachrichtenprüfung nötig.",
+    "audience": "breite Öffentlichkeit",
+    "tone": [
+      "ruhig",
+      "hoffnungsvoll",
+      "zugewandt"
+    ],
+    "source_notes": [
+      "Tagesaktueller Beitrag: mindestens zwei konkret verifizierte Nachrichtenlagen vom Morgen der Veröffentlichung erforderlich.",
+      "Ohne aktuelle Prüfung dürfen keine konkreten Fürbitten zu Weltlage oder Region erfunden oder verallgemeinert werden.",
+      "Nachrichten laut Vorgabe u. a. bei tagesschau.de und SWR Aktuell Baden-Württemberg prüfen.",
+      "Erst danach Gebet, Caption und Kurztexte finalisieren."
+    ]
+  },
+  "platforms": {
+    "facebook": {
+      "text": "Für dieses Morgengebet fehlen uns noch die verifizierten Nachrichten vom Morgen. Der Beitrag braucht mindestens zwei konkrete aktuelle Situationen als Fürbitte. Deshalb ist vor der Veröffentlichung eine kurze Nachrichtenprüfung nötig.",
+      "headline": "Morgengebet: aktuelle Prüfung noch nötig"
+    },
+    "instagram": {
+      "caption": "Für dieses Morgengebet fehlen noch die verifizierten Nachrichten vom Morgen. Damit das Gebet konkret und verantwortungsvoll ist, brauchen wir vor der Veröffentlichung mindestens zwei aktuelle Situationen, die wir ausdrücklich ins Gebet aufnehmen können.",
+      "carousel": [
+        {
+          "type": "text",
+          "text": "Morgengebet"
+        },
+        {
+          "type": "text",
+          "text": "Vor Veröffentlichung: aktuelle Nachrichten prüfen."
+        },
+        {
+          "type": "text",
+          "text": "Mindestens zwei konkrete Situationen ins Gebet aufnehmen."
+        }
+      ]
+    },
+    "mastodon": {
+      "text": "Für dieses Morgengebet fehlen noch verifizierte Nachrichten vom Morgen des 15.08.2026. Da der Beitrag mindestens zwei konkrete aktuelle Situationen aufnehmen muss, ist vor Veröffentlichung eine Nachrichtenprüfung nötig."
+    },
+    "bluesky": {
+      "text": "Für dieses Morgengebet fehlen noch verifizierte Nachrichten vom Morgen des 15.08.2026. Vor Veröffentlichung bitte mindestens zwei konkrete aktuelle Situationen prüfen und ins Gebet aufnehmen."
+    },
+    "story": {
+      "slides": [
+        {
+          "text": "Morgengebet"
+        },
+        {
+          "text": "Vor Veröffentlichung: aktuelle Nachrichten prüfen."
+        },
+        {
+          "text": "Mindestens zwei konkrete Situationen müssen ins Gebet."
+        }
+      ]
+    },
+    "reel": {
+      "hook": "Morgengebet erst nach aktueller Nachrichtenprüfung finalisieren.",
+      "script": "Für diesen Beitrag brauchen wir am Morgen der Veröffentlichung mindestens zwei konkret verifizierte aktuelle Situationen. Erst dann kann das Gebet verantwortungsvoll formuliert werden.",
+      "shots": [
+        "Ruhiger Morgenhimmel",
+        "Hände an einer Tasse",
+        "Blick aus dem Fenster",
+        "Notizbuch auf einem Tisch"
+      ],
+      "duration_seconds": 15
+    }
+  },
+  "visual": {
+    "concept": "Ruhiger Morgenbeginn mit offenem Fenster, weichem Licht und einem schlichten Tisch als Bild für Wachheit, Gebet und den Start in den Tag.",
+    "flux_prompt": "Ein ruhiger Morgen in schlichtem dokumentarischem Stil: offenes Fenster, weiches frühes Licht, schlichter Holztisch, Tasse, Notizbuch ohne lesbaren Inhalt, zurückhaltende Farben, hoffnungsvolle und wache Stimmung, natürliche Fotografie, keine Menschenmenge, kein dramatischer Effekt",
+    "negative_prompt": "text, letters, logo, watermark",
+    "formats": [
+      "4:5",
+      "9:16",
+      "1.91:1"
+    ],
+    "alt_text": "Ein heller Morgenraum mit offenem Fenster, weichem Licht, einer Tasse und einem schlichten Notizbuch auf einem Tisch."
+  },
+  "qa": {
+    "warnings": [
+      "Alt text must be completed before approval",
+      "Verbindliche Anforderung noch nicht erfüllt: mindestens zwei konkrete, verifizierte aktuelle Situationen fehlen.",
+      "Gebetstext und Plattformfassungen erst nach Nachrichtenprüfung final erstellen."
+    ],
+    "approved": false
+  },
+  "metadata": {
+    "model": "gpt-5.4-2026-03-05",
+    "generated_at": "2026-08-14T17:50:47.803Z",
+    "prompt_version": "1.0",
+    "assets": []
+  }
+}
