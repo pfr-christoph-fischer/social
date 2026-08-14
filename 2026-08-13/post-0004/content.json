@@ -28,31 +28,31 @@
   },
   "platforms": {
     "facebook": {
-      "headline": "Was gehört in einen Gott-Sucher-Koffer?",
-      "text": "Sommerferien – und ich bereite schon den Religionsunterricht für Klasse 4 vor.\r\n\r\nZum Start möchte ich mit einem „Gott-Sucher-Koffer“ arbeiten: mit Dingen, Bildern oder Symbolen, die Fragen nach Gott, Glauben und dem Leben öffnen.\r\n\r\nDarum frage ich euch:\r\nWas müsste in so einen Koffer unbedingt hinein?\r\nUnd: Wo findest du Gott?\r\n\r\nVielleicht in der Natur, in Begegnungen, in der Stille, in Musik, im Gebet – oder gerade im Suchen?\r\n\r\nIch freue mich auf eure Gedanken in den Kommentaren."
+      "text": "Sommerferien – und ich bereite schon den Religionsunterricht für Klasse 4 vor.\r\n\r\nZum Start möchte ich mit einem „Gott-Sucher-Koffer“ arbeiten: mit Dingen, Bildern oder Symbolen, die Fragen nach Gott, Glauben und dem Leben öffnen.\r\n\r\nDarum frage ich euch:\r\nWas müsste in so einen Koffer unbedingt hinein?\r\nUnd: Wo findest du Gott?\r\n\r\nVielleicht in der Natur, in Begegnungen, in der Stille, in Musik, im Gebet – oder gerade im Suchen?\r\n\r\nIch freue mich auf eure Gedanken in den Kommentaren.",
+      "headline": "Was gehört in einen Gott-Sucher-Koffer?"
     },
     "instagram": {
       "caption": "Die Sommerferien laufen – und ich bereite schon Klasse 4 vor.\n\nZum Einstieg packe ich meinen „Gott-Sucher-Koffer“.\nAlso einen Koffer voller Dinge, Bilder oder Symbole, mit denen Kinder über Gott, Fragen und Erfahrungen ins Gespräch kommen können.\n\nJetzt seid ihr gefragt:\nWas müsste da unbedingt rein?\nUnd: Wo findest du Gott?\n\nVielleicht in der Natur. In der Stille. In Begegnungen. In Musik. Im Gebet. Oder mitten im Fragen.\n\nSchreibt eure Ideen gern in die Kommentare. 👇",
       "carousel": [
         {
-          "text": "Ich bereite Klasse 4 vor.",
-          "type": "text"
+          "type": "text",
+          "text": "Ich bereite Klasse 4 vor."
         },
         {
-          "text": "Zum Start packe ich meinen Gott-Sucher-Koffer.",
-          "type": "text"
+          "type": "text",
+          "text": "Zum Start packe ich meinen Gott-Sucher-Koffer."
         },
         {
-          "text": "Was müsste da unbedingt hinein?",
-          "type": "text"
+          "type": "text",
+          "text": "Was müsste da unbedingt hinein?"
         },
         {
-          "text": "Und wo findest du Gott?",
-          "type": "text"
+          "type": "text",
+          "text": "Und wo findest du Gott?"
         },
         {
-          "text": "Schreib deine Idee in die Kommentare.",
-          "type": "text"
+          "type": "text",
+          "text": "Schreib deine Idee in die Kommentare."
         }
       ]
     },
@@ -107,15 +107,15 @@
     "alt_text": "Geöffneter Koffer auf einem Tisch mit symbolischen Gegenständen wie Stein, Feder, Lupe, Tuch und Naturfundstücken als Bild für die Vorbereitung eines Gott-Sucher-Koffers für den Religionsunterricht."
   },
   "qa": {
-    "approved": false,
     "warnings": [
       "Current-event or local factual details are still required. Verify that no details were invented.",
       "Privacy review required for Reli/Gemeinde content: confirm anonymization, consent, and local factual accuracy."
-    ]
+    ],
+    "approved": false
   },
   "metadata": {
-    "model": "",
-    "generated_at": "",
+    "model": "manual",
+    "generated_at": "2026-08-14T07:33:19.069Z",
     "prompt_version": "1.0",
     "assets": [
       "assets/background-4x5.webp",
