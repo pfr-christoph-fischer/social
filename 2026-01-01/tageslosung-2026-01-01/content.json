@@ -1,0 +1,67 @@
+{
+  "id": "tageslosung-2026-01-01",
+  "status": "freigegeben",
+  "needs_input": false,
+  "source": {
+    "calendar_post_id": "tageslosung-2026-01-01",
+    "date": "2026-01-01",
+    "rubric": "Tageslosungen",
+    "liturgical_source": ""
+  },
+  "editorial_core": {
+    "title": "Losung für Donnerstag, 01.01.2026",
+    "main_message": "Der HERR wird aufheben die Schmach seines Volks in allen Landen.",
+    "audience": "breite Öffentlichkeit",
+    "tone": [
+      "ruhig"
+    ],
+    "source_notes": [
+      "Losungsvers: Jesaja 25,8"
+    ]
+  },
+  "platforms": {
+    "facebook": {
+      "text": "Der HERR wird aufheben die Schmach seines Volks in allen Landen.",
+      "headline": "Losung für Donnerstag, 01.01.2026"
+    },
+    "instagram": {
+      "caption": "Der HERR wird aufheben die Schmach seines Volks in allen Landen.",
+      "carousel": []
+    },
+    "mastodon": {
+      "text": "Der HERR wird aufheben die Schmach seines Volks in allen Landen."
+    },
+    "bluesky": {
+      "text": "Der HERR wird aufheben die Schmach seines Volks in allen Landen."
+    },
+    "story": {
+      "slides": []
+    },
+    "reel": {
+      "hook": "",
+      "script": "",
+      "shots": [],
+      "duration_seconds": 0
+    }
+  },
+  "visual": {
+    "concept": "Ruhiger Hintergrund",
+    "flux_prompt": "",
+    "negative_prompt": "text, letters, logo, watermark",
+    "formats": [
+      "1:1",
+      "9:16"
+    ],
+    "alt_text": "Der HERR wird aufheben die Schmach seines Volks in allen Landen."
+  },
+  "qa": {
+    "warnings": [],
+    "approved": true
+  },
+  "metadata": {
+    "model": "",
+    "generated_at": "2026-08-14T14:34:31.686Z",
+    "prompt_version": "tageslosungen-1.0",
+    "assets": []
+  }
+}

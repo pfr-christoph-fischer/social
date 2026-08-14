@@ -1,0 +1,67 @@
+{
+  "id": "tageslosung-2026-01-05",
+  "status": "freigegeben",
+  "needs_input": false,
+  "source": {
+    "calendar_post_id": "tageslosung-2026-01-05",
+    "date": "2026-01-05",
+    "rubric": "Tageslosungen",
+    "liturgical_source": ""
+  },
+  "editorial_core": {
+    "title": "Losung für Montag, 05.01.2026",
+    "main_message": "Der HERR ist seines Volkes Stärke.",
+    "audience": "breite Öffentlichkeit",
+    "tone": [
+      "ruhig"
+    ],
+    "source_notes": [
+      "Losungsvers: Psalm 28,8"
+    ]
+  },
+  "platforms": {
+    "facebook": {
+      "text": "Der HERR ist seines Volkes Stärke.",
+      "headline": "Losung für Montag, 05.01.2026"
+    },
+    "instagram": {
+      "caption": "Der HERR ist seines Volkes Stärke.",
+      "carousel": []
+    },
+    "mastodon": {
+      "text": "Der HERR ist seines Volkes Stärke."
+    },
+    "bluesky": {
+      "text": "Der HERR ist seines Volkes Stärke."
+    },
+    "story": {
+      "slides": []
+    },
+    "reel": {
+      "hook": "",
+      "script": "",
+      "shots": [],
+      "duration_seconds": 0
+    }
+  },
+  "visual": {
+    "concept": "Ruhiger Hintergrund",
+    "flux_prompt": "",
+    "negative_prompt": "text, letters, logo, watermark",
+    "formats": [
+      "1:1",
+      "9:16"
+    ],
+    "alt_text": "Der HERR ist seines Volkes Stärke."
+  },
+  "qa": {
+    "warnings": [],
+    "approved": true
+  },
+  "metadata": {
+    "model": "",
+    "generated_at": "2026-08-14T14:34:40.897Z",
+    "prompt_version": "tageslosungen-1.0",
+    "assets": []
+  }
+}
