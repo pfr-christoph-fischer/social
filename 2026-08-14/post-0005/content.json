@@ -10,7 +10,7 @@
   },
   "editorial_core": {
     "title": "Kurzes Wochengebet zum Schwerpunkt „Aufmerksam leben“",
-    "main_message": "5–8 kurze Zeilen; konkrete Lebenswelt; am Ende eine tragende Bitte.",
+    "main_message": "Die Woche geistlich sammeln und auf das Wochenende hin öffnen. Ein kurzes Gebet mit konkreter Lebenswelt und einer tragenden Bitte.",
     "audience": "breite Öffentlichkeit",
     "tone": [
       "klar",
@@ -23,52 +23,105 @@
       "Production mode: vollständig vorproduzierbar",
       "Structure: ein konkretes Lebensthema | knappe geistliche Sprache | kein Erklärton",
       "AI support notes: Gebetsentwurf | sprachliche Verdichtung | Reel-Sprechtext | Alt-Text",
-      "Liturgical source: https://kirchenjahr.pfarr.tools/api/jahr/2026 (2026-08-09, $.Tage['2026-08-09'])"
+      "Liturgical source: https://kirchenjahr.pfarr.tools/api/jahr/2026 (2026-08-09, $.Tage['2026-08-09'])",
+      "Wochenspruch: Wohl dem Volk, dessen Gott der HERR ist, dem Volk, das er zum Erbe erwählt hat! (Ps 33,12)"
     ]
   },
   "platforms": {
     "facebook": {
-      "text": "",
-      "headline": ""
+      "text": "Kurz vor dem Wochenende.\nEin stilles Gebet für alles, was noch nachklingt.\n\nGott,\nzwischen Nachrichten, Wegen und offenen Tabs\nverliere ich leicht den Blick für das, was vor mir ist.\nHalte mich bei dem Menschen, der mich gerade braucht.\nHalte mich bei dem Wort, das nicht verletzen soll.\nHalte mich bei dem kleinen Guten dieses Tages.\nGib mir ein waches Herz\nund einen ruhigen Blick für das, was zählt.\n\nWochenspruch: „Wohl dem Volk, dessen Gott der HERR ist, dem Volk, das er zum Erbe erwählt hat!“ (Ps 33,12)",
+      "headline": "Wochengebet: aufmerksam leben"
     },
     "instagram": {
-      "caption": "",
-      "carousel": []
+      "caption": "Kurz vor dem Wochenende.\nEin Gebet für einen wachen Blick.\n\nGott,\nzwischen Nachrichten, Wegen und offenen Tabs\nverliere ich leicht den Blick für das, was vor mir ist.\nHalte mich bei dem Menschen, der mich gerade braucht.\nHalte mich bei dem Wort, das nicht verletzen soll.\nHalte mich bei dem kleinen Guten dieses Tages.\nGib mir ein waches Herz\nund einen ruhigen Blick für das, was zählt.\n\nWochenspruch:\n„Wohl dem Volk, dessen Gott der HERR ist, dem Volk, das er zum Erbe erwählt hat!“ (Ps 33,12)",
+      "carousel": [
+        {
+          "type": "slide",
+          "text": "Kurz vor dem Wochenende: ein Gebet für einen wachen Blick."
+        },
+        {
+          "type": "slide",
+          "text": "Gott, zwischen Nachrichten, Wegen und offenen Tabs verliere ich leicht den Blick für das, was vor mir ist."
+        },
+        {
+          "type": "slide",
+          "text": "Halte mich bei dem Menschen, der mich gerade braucht."
+        },
+        {
+          "type": "slide",
+          "text": "Halte mich bei dem Wort, das nicht verletzen soll."
+        },
+        {
+          "type": "slide",
+          "text": "Halte mich bei dem kleinen Guten dieses Tages."
+        },
+        {
+          "type": "slide",
+          "text": "Gib mir ein waches Herz und einen ruhigen Blick für das, was zählt."
+        }
+      ]
     },
     "mastodon": {
-      "text": ""
+      "text": "Kurz vor dem Wochenende.\n\nGott,\nzwischen Nachrichten, Wegen und offenen Tabs\nverliere ich leicht den Blick für das, was vor mir ist.\nHalte mich bei dem Menschen, der mich gerade braucht.\nHalte mich bei dem Wort, das nicht verletzen soll.\nHalte mich bei dem kleinen Guten dieses Tages.\nGib mir ein waches Herz\nund einen ruhigen Blick für das, was zählt.\n\n„Wohl dem Volk, dessen Gott der HERR ist, dem Volk, das er zum Erbe erwählt hat!“ (Ps 33,12)"
+    },
+    "bluesky": {
+      "text": "Kurz vor dem Wochenende:\n\nGott,\nzwischen Nachrichten, Wegen und offenen Tabs verliere ich leicht den Blick für das, was vor mir ist.\nHalte mich bei dem Menschen, der mich gerade braucht.\nHalte mich bei dem kleinen Guten dieses Tages.\nGib mir ein waches Herz und einen ruhigen Blick für das, was zählt.\n\n„Wohl dem Volk, dessen Gott der HERR ist, dem Volk, das er zum Erbe erwählt hat!“ (Ps 33,12)"
     },
     "story": {
-      "slides": []
+      "slides": [
+        {
+          "text": "Kurz vor dem Wochenende: ein stilles Gebet."
+        },
+        {
+          "text": "Zwischen Nachrichten, Wegen und offenen Tabs verliere ich leicht den Blick."
+        },
+        {
+          "text": "Gott, halte mich bei dem Menschen, der mich gerade braucht."
+        },
+        {
+          "text": "Halte mich bei dem Wort, das nicht verletzen soll."
+        },
+        {
+          "text": "Gib mir ein waches Herz und einen ruhigen Blick für das, was zählt."
+        }
+      ]
     },
     "reel": {
-      "hook": "",
-      "script": "",
-      "shots": [],
-      "duration_seconds": 0
+      "hook": "Zwischen Nachrichten, Wegen und offenen Tabs: ein kurzes Gebet für einen wachen Blick.",
+      "script": "Gott,\nzwischen Nachrichten, Wegen und offenen Tabs\nverliere ich leicht den Blick für das, was vor mir ist.\nHalte mich bei dem Menschen, der mich gerade braucht.\nHalte mich bei dem Wort, das nicht verletzen soll.\nHalte mich bei dem kleinen Guten dieses Tages.\nGib mir ein waches Herz\nund einen ruhigen Blick für das, was zählt.",
+      "shots": [
+        "Nahaufnahme eines ruhigen Schreibtischs mit Handy, Schlüsselbund und einer Tasse.",
+        "Eine Hand schließt langsam mehrere Browser-Tabs oder legt das Handy mit dem Display nach unten.",
+        "Blick aus dem Fenster auf eine stille Straße oder Bäume im Abendlicht.",
+        "Langsame Aufnahme von Händen, die kurz still auf dem Tisch liegen.",
+        "Weiches Licht auf einem offenen Notizbuch oder leerem Platz am Tisch."
+      ],
+      "duration_seconds": 22
     }
   },
   "visual": {
-    "concept": "",
-    "flux_prompt": "",
+    "concept": "Ruhige, alltagsnahe Szene am Ende einer Woche: ein aufgeräumter Tisch, Handy, Tasse, weiches Abendlicht. Das Bild soll Sammlung und Aufmerksamkeit ausstrahlen, ohne Frömmigkeitsklischees.",
+    "flux_prompt": "Ruhevolle alltagsnahe Szene in warmem Abendlicht, schlichter Tisch mit einer Tasse, Smartphone mit ausgeschaltetem Display, Schlüssel, leicht geöffnetes Notizbuch, weiche Schatten, zurückhaltende Farben, dokumentarischer Stil, natürliche Perspektive, stille konzentrierte Atmosphäre, minimalistisch, hochwertige Fotografie",
     "negative_prompt": "text, letters, logo, watermark",
     "formats": [
       "4:5",
       "9:16",
       "1.91:1"
     ],
-    "alt_text": ""
+    "alt_text": "Ein schlichter Tisch im warmen Abendlicht. Darauf stehen eine Tasse und ein Smartphone mit dunklem Display, daneben liegen ein Schlüsselbund und ein leicht geöffnetes Notizbuch. Die Szene wirkt ruhig und gesammelt."
   },
   "qa": {
     "warnings": [
       "Alt text must be completed before approval",
-      "Check song lyric copyright before publication"
+      "Check song lyric copyright before publication",
+      "Gebet nennt bewusst keine konkreten aktuellen Ereignisse oder lokalen Anlässe.",
+      "Liturgische Zuordnung vor Veröffentlichung lokal gegen tatsächlich gefeierte Ordnung prüfen."
     ],
     "approved": false
   },
   "metadata": {
-    "model": "",
-    "generated_at": "",
+    "model": "gpt-5.4-2026-03-05",
+    "generated_at": "2026-08-14T09:28:03.115Z",
     "prompt_version": "1.0",
     "assets": []
   }
