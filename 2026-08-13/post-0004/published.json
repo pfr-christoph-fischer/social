@@ -164,5 +164,44 @@
         "attempt": 1
       }
     ]
+  },
+  {
+    "postId": "post-0004",
+    "contentDate": "2026-08-13",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-08-13T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Ich bereite in den Sommerferien schon den Religionsunterricht für Klasse 4 vor. Zum Einstieg packe ich meinen „Gott-Sucher-Koffer“ – mit Dingen, Bildern oder Symbolen, die Fragen nach Gott öffnen.\n\nWas müsste da unbedingt hinein?\nUnd: Wo findest du Gott?\n\nIch freue mich über Ideen und Antworten.",
+    "assets": [
+      "render-instagram-feed-01.png",
+      "render-instagram-feed-02.png",
+      "render-instagram-feed-03.png",
+      "render-instagram-feed-04.png",
+      "render-instagram-feed-05.png"
+    ],
+    "altTexts": [
+      "Geöffneter Koffer auf einem Tisch mit symbolischen Gegenständen wie Stein, Feder, Lupe, Tuch und Naturfundstücken als Bild für die Vorbereitung eines Gott-Sucher-Koffers für den Religionsunterricht."
+    ],
+    "id": "042186b1-90f5-4704-9984-c22f389d58a5",
+    "attemptCount": 2,
+    "remoteId": "18019017845879620",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T07:40:55.325Z",
+    "updatedAt": "2026-08-14T07:58:10.008Z",
+    "responseMetadata": {
+      "mediaCount": 5,
+      "mediaType": "CAROUSEL",
+      "status": 200
+    },
+    "retryHistory": [
+      {
+        "at": "2026-08-14T07:42:20.213Z",
+        "error": "threads: Container konnte nicht erstellt werden (400): Invalid parameter",
+        "attempt": 1
+      }
+    ]
   }
 ]
