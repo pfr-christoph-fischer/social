@@ -1,0 +1,67 @@
+{
+  "id": "tageslosung-2026-01-24",
+  "status": "freigegeben",
+  "needs_input": false,
+  "source": {
+    "calendar_post_id": "tageslosung-2026-01-24",
+    "date": "2026-01-24",
+    "rubric": "Tageslosungen",
+    "liturgical_source": ""
+  },
+  "editorial_core": {
+    "title": "Losung für Samstag, 24.01.2026",
+    "main_message": "Ihre Gemeinde soll vor mir fest gegründet stehen.",
+    "audience": "breite Öffentlichkeit",
+    "tone": [
+      "ruhig"
+    ],
+    "source_notes": [
+      "Losungsvers: Jeremia 30,20"
+    ]
+  },
+  "platforms": {
+    "facebook": {
+      "text": "Ihre Gemeinde soll vor mir fest gegründet stehen.",
+      "headline": "Losung für Samstag, 24.01.2026"
+    },
+    "instagram": {
+      "caption": "Ihre Gemeinde soll vor mir fest gegründet stehen.",
+      "carousel": []
+    },
+    "mastodon": {
+      "text": "Ihre Gemeinde soll vor mir fest gegründet stehen."
+    },
+    "bluesky": {
+      "text": "Ihre Gemeinde soll vor mir fest gegründet stehen."
+    },
+    "story": {
+      "slides": []
+    },
+    "reel": {
+      "hook": "",
+      "script": "",
+      "shots": [],
+      "duration_seconds": 0
+    }
+  },
+  "visual": {
+    "concept": "Ruhiger Hintergrund",
+    "flux_prompt": "",
+    "negative_prompt": "text, letters, logo, watermark",
+    "formats": [
+      "1:1",
+      "9:16"
+    ],
+    "alt_text": "Ihre Gemeinde soll vor mir fest gegründet stehen."
+  },
+  "qa": {
+    "warnings": [],
+    "approved": true
+  },
+  "metadata": {
+    "model": "",
+    "generated_at": "2026-08-14T14:35:21.534Z",
+    "prompt_version": "tageslosungen-1.0",
+    "assets": []
+  }
+}
