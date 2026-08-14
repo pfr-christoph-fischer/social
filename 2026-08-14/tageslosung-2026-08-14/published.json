@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-08-14",
+    "contentDate": "2026-08-14",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-08-14T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Leben und Wohltat hast du an mir getan, und deine Obhut hat meinen Odem bewahrt.",
+    "assets": [
+      "render-instagram-story-01.png"
+    ],
+    "altTexts": [
+      "Leben und Wohltat hast du an mir getan, und deine Obhut hat meinen Odem bewahrt."
+    ],
+    "id": "cf2e39f6-fa60-498c-8e8d-e877120b598c",
+    "attemptCount": 1,
+    "remoteId": "18130400275640727",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:44:15.598Z",
+    "updatedAt": "2026-08-14T17:12:13.602Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-08-14",
+    "contentDate": "2026-08-14",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-08-14T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Leben und Wohltat hast du an mir getan, und deine Obhut hat meinen Odem bewahrt.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Leben und Wohltat hast du an mir getan, und deine Obhut hat meinen Odem bewahrt."
+    ],
+    "id": "4aef1a53-c5bf-4922-b2e3-4ca5488e3ced",
+    "attemptCount": 1,
+    "remoteId": "117094975770038700",
+    "remoteUrl": "https://kirche.social/@christoph/117094975770038700",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:44:15.601Z",
+    "updatedAt": "2026-08-14T17:12:15.624Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
