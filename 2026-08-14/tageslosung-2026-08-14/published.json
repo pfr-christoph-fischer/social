@@ -84,5 +84,91 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-08-14",
+    "contentDate": "2026-08-14",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-08-14T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Leben und Wohltat hast du an mir getan, und deine Obhut hat meinen Odem bewahrt.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Leben und Wohltat hast du an mir getan, und deine Obhut hat meinen Odem bewahrt."
+    ],
+    "id": "aff03cd0-7479-4a57-88e8-b5806815dd98",
+    "attemptCount": 1,
+    "remoteId": "18125908606790869",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:44:15.607Z",
+    "updatedAt": "2026-08-14T17:12:26.543Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-08-14",
+    "contentDate": "2026-08-14",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-08-14T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Leben und Wohltat hast du an mir getan, und deine Obhut hat meinen Odem bewahrt.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Leben und Wohltat hast du an mir getan, und deine Obhut hat meinen Odem bewahrt."
+    ],
+    "id": "00da3be0-ba9c-4090-8859-64d7110ca852",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3mt2nqh6tkw2k",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3mt2nqh6tkw2k",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:44:15.613Z",
+    "updatedAt": "2026-08-14T17:12:28.616Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-08-14",
+    "contentDate": "2026-08-14",
+    "platform": "linkedin",
+    "format": "default",
+    "scheduledAt": "2026-08-14T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Leben und Wohltat hast du an mir getan, und deine Obhut hat meinen Odem bewahrt.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Leben und Wohltat hast du an mir getan, und deine Obhut hat meinen Odem bewahrt."
+    ],
+    "id": "fa8c10b7-e3dc-4326-960b-f80db14df6e5",
+    "attemptCount": 1,
+    "remoteId": "urn:li:share:7494078510299496448",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:44:15.618Z",
+    "updatedAt": "2026-08-14T17:12:30.480Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 201
+    },
+    "retryHistory": []
   }
 ]
