@@ -1,14 +1,16 @@
 {
   "content_path": "content/2026-08-13/post-0004/content.json",
   "post_id": "post-0004",
-  "rendered_at": "2026-08-06T12:38:45.891Z",
+  "rendered_at": "2026-08-14T07:35:38.718Z",
   "renders": [
     {
       "format": "facebook-mastodon",
       "height": 630,
       "html_path": "render-facebook-mastodon-01.html",
       "image_path": "render-facebook-mastodon-01.png",
-      "overflow_warnings": [],
+      "overflow_warnings": [
+        "Text overflow detected in facebook-mastodon page 1/1 (title). Review copy before approval."
+      ],
       "page_count": 1,
       "page_index": 1,
       "page_label": "Facebook/Mastodon",
@@ -20,7 +22,9 @@
       "height": 1350,
       "html_path": "render-instagram-feed-01.html",
       "image_path": "render-instagram-feed-01.png",
-      "overflow_warnings": [],
+      "overflow_warnings": [
+        "Text overflow detected in instagram-feed page 1/5 (title). Review copy before approval."
+      ],
       "page_count": 5,
       "page_index": 1,
       "page_label": "Instagram Feed 1/5",
@@ -80,7 +84,9 @@
       "height": 1920,
       "html_path": "render-instagram-story-01.html",
       "image_path": "render-instagram-story-01.png",
-      "overflow_warnings": [],
+      "overflow_warnings": [
+        "Text overflow detected in instagram-story page 1/5 (title). Review copy before approval."
+      ],
       "page_count": 5,
       "page_index": 1,
       "page_label": "Instagram Story/Reel Cover 1/5",
@@ -137,5 +143,9 @@
     }
   ],
   "template": "reli-fragt",
-  "warnings": []
+  "warnings": [
+    "Text overflow detected in facebook-mastodon page 1/1 (title). Review copy before approval.",
+    "Text overflow detected in instagram-feed page 1/5 (title). Review copy before approval.",
+    "Text overflow detected in instagram-story page 1/5 (title). Review copy before approval."
+  ]
 }
