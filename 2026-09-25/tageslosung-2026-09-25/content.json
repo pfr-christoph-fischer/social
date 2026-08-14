@@ -1,0 +1,69 @@
+{
+  "id": "tageslosung-2026-09-25",
+  "status": "freigegeben",
+  "needs_input": false,
+  "source": {
+    "calendar_post_id": "tageslosung-2026-09-25",
+    "date": "2026-09-25",
+    "rubric": "Tageslosungen",
+    "liturgical_source": ""
+  },
+  "editorial_core": {
+    "title": "Losung für Freitag, 25.09.2026",
+    "main_message": "Wohl dem Volk, dessen Gott der HERR ist!",
+    "audience": "breite Öffentlichkeit",
+    "tone": [
+      "ruhig"
+    ],
+    "source_notes": [
+      "Losungsvers: Psalm 144,15",
+      "Lehrtext: Es ist über alle derselbe Herr, reich für alle, die ihn anrufen.",
+      "Lehrtextvers: Römer 10,12"
+    ]
+  },
+  "platforms": {
+    "facebook": {
+      "text": "Wohl dem Volk, dessen Gott der HERR ist!",
+      "headline": "Losung für Freitag, 25.09.2026"
+    },
+    "instagram": {
+      "caption": "Wohl dem Volk, dessen Gott der HERR ist!",
+      "carousel": []
+    },
+    "mastodon": {
+      "text": "Wohl dem Volk, dessen Gott der HERR ist!"
+    },
+    "bluesky": {
+      "text": "Wohl dem Volk, dessen Gott der HERR ist!"
+    },
+    "story": {
+      "slides": []
+    },
+    "reel": {
+      "hook": "",
+      "script": "",
+      "shots": [],
+      "duration_seconds": 0
+    }
+  },
+  "visual": {
+    "concept": "Ruhiger Hintergrund",
+    "flux_prompt": "",
+    "negative_prompt": "text, letters, logo, watermark",
+    "formats": [
+      "1:1",
+      "9:16"
+    ],
+    "alt_text": "Wohl dem Volk, dessen Gott der HERR ist!"
+  },
+  "qa": {
+    "warnings": [],
+    "approved": true
+  },
+  "metadata": {
+    "model": "",
+    "generated_at": "2026-08-14T14:45:47.034Z",
+    "prompt_version": "tageslosungen-1.0",
+    "assets": []
+  }
+}

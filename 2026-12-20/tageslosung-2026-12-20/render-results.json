@@ -1,0 +1,40 @@
+{
+  "content_path": "content/2026-12-20/tageslosung-2026-12-20/content.json",
+  "post_id": "tageslosung-2026-12-20",
+  "rendered_at": "2026-08-14T14:49:05.589Z",
+  "renders": [
+    {
+      "format": "square",
+      "height": 1080,
+      "html_path": "render-square-01.html",
+      "image_path": "render-square-01.png",
+      "overflow_warnings": [
+        "Text overflow detected in square page 1/1 (title). Review copy before approval."
+      ],
+      "page_count": 1,
+      "page_index": 1,
+      "page_label": "Square",
+      "variant": "feed-card",
+      "width": 1080
+    },
+    {
+      "format": "instagram-story",
+      "height": 1920,
+      "html_path": "render-instagram-story-01.html",
+      "image_path": "render-instagram-story-01.png",
+      "overflow_warnings": [
+        "Text overflow detected in instagram-story page 1/1 (title). Review copy before approval."
+      ],
+      "page_count": 1,
+      "page_index": 1,
+      "page_label": "Instagram Story/Reel Cover",
+      "variant": "story-slide",
+      "width": 1080
+    }
+  ],
+  "template": "tageslosungen",
+  "warnings": [
+    "Text overflow detected in square page 1/1 (title). Review copy before approval.",
+    "Text overflow detected in instagram-story page 1/1 (title). Review copy before approval."
+  ]
+}
