@@ -1,6 +1,6 @@
 {
   "id": "post-0004",
-  "status": "in Arbeit",
+  "status": "zur Prüfung",
   "needs_input": true,
   "source": {
     "calendar_post_id": "post-0004",
@@ -107,11 +107,11 @@
     "alt_text": "Geöffneter Koffer auf einem Tisch mit symbolischen Gegenständen wie Stein, Feder, Lupe, Tuch und Naturfundstücken als Bild für die Vorbereitung eines Gott-Sucher-Koffers für den Religionsunterricht."
   },
   "qa": {
+    "approved": false,
     "warnings": [
       "Current-event or local factual details are still required. Verify that no details were invented.",
       "Privacy review required for Reli/Gemeinde content: confirm anonymization, consent, and local factual accuracy."
-    ],
-    "approved": false
+    ]
   },
   "metadata": {
     "model": "manual",
