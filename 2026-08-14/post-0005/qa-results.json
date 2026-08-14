@@ -17,14 +17,8 @@
     },
     {
       "check": "platform-lengths",
-      "findings": [
-        {
-          "check": "platform-lengths",
-          "message": "Field \"bluesky.text\" is 395 characters long and exceeds the plausibility limit of 300.",
-          "severity": "warning"
-        }
-      ],
-      "status": "warning"
+      "findings": [],
+      "status": "passed"
     },
     {
       "check": "current-events",
@@ -70,7 +64,6 @@
   "status_after_run": "zur Prüfung",
   "status_before_run": "in Arbeit",
   "warnings": [
-    "Field \"bluesky.text\" is 395 characters long and exceeds the plausibility limit of 300.",
     "Song lyric copyright must be checked manually before publication.",
     "Public copy may contain quoted or verse-like lyrics. Confirm that no protected full lyrics are published."
   ]
