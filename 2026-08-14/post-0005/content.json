@@ -1,6 +1,6 @@
 {
   "id": "post-0005",
-  "status": "in Arbeit",
+  "status": "zur Prüfung",
   "needs_input": false,
   "source": {
     "calendar_post_id": "post-0005",
@@ -111,13 +111,12 @@
     "alt_text": "Ein schlichter Tisch im warmen Abendlicht. Darauf stehen eine Tasse und ein Smartphone mit dunklem Display, daneben liegen ein Schlüsselbund und ein leicht geöffnetes Notizbuch. Die Szene wirkt ruhig und gesammelt."
   },
   "qa": {
+    "approved": false,
     "warnings": [
-      "Alt text must be completed before approval",
-      "Check song lyric copyright before publication",
-      "Gebet nennt bewusst keine konkreten aktuellen Ereignisse oder lokalen Anlässe.",
-      "Liturgische Zuordnung vor Veröffentlichung lokal gegen tatsächlich gefeierte Ordnung prüfen."
-    ],
-    "approved": false
+      "Field \"bluesky.text\" is 395 characters long and exceeds the plausibility limit of 300.",
+      "Song lyric copyright must be checked manually before publication.",
+      "Public copy may contain quoted or verse-like lyrics. Confirm that no protected full lyrics are published."
+    ]
   },
   "metadata": {
     "model": "gpt-5.4-2026-03-05",
