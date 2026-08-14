@@ -1,0 +1,64 @@
+{
+  "checks": [
+    {
+      "check": "alt-text-present",
+      "findings": [],
+      "status": "passed"
+    },
+    {
+      "check": "flux-prompt-no-text",
+      "findings": [
+        {
+          "check": "flux-prompt-no-text",
+          "message": "Flux prompt appears to ask for text inside the image.",
+          "severity": "error"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "check": "required-fields",
+      "findings": [],
+      "status": "passed"
+    },
+    {
+      "check": "platform-lengths",
+      "findings": [],
+      "status": "passed"
+    },
+    {
+      "check": "current-events",
+      "findings": [],
+      "status": "passed"
+    },
+    {
+      "check": "privacy",
+      "findings": [],
+      "status": "passed"
+    },
+    {
+      "check": "song-lyrics",
+      "findings": [],
+      "status": "passed"
+    },
+    {
+      "check": "scripture-citation",
+      "findings": [],
+      "status": "passed"
+    },
+    {
+      "check": "predigt-preview-input",
+      "findings": [],
+      "status": "passed"
+    }
+  ],
+  "content_path": "content/2026-08-15/prayer-morning-2026-08-15/content.json",
+  "errors": [
+    "Flux prompt appears to ask for text inside the image."
+  ],
+  "post_id": "prayer-morning-2026-08-15",
+  "ready_for_approval": false,
+  "status_after_run": "in Arbeit",
+  "status_before_run": "in Arbeit",
+  "warnings": []
+}

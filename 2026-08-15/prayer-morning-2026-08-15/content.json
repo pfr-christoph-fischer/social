@@ -104,12 +104,8 @@
     "alt_text": "Ein heller Raum am Morgen. Auf einem schlichten Tisch steht eine Schale mit Wasser nahe einem offenen Fenster. Weiches Licht fällt herein. Die Szene wirkt still, wach und hoffnungsvoll."
   },
   "qa": {
-    "warnings": [
-      "Alt text must be completed before approval",
-      "Aktuelle Bezüge eingebaut: Ukraine, Gazastreifen, Trockenheit in Baden-Württemberg.",
-      "Vor Veröffentlichung am Morgen des 15.08.2026 Nachrichtenlage erneut kurz gegenprüfen, da Produktion tagesaktuell vorgesehen ist."
-    ],
-    "approved": false
+    "approved": false,
+    "warnings": []
   },
   "metadata": {
     "model": "gpt-5.4-2026-03-05",
