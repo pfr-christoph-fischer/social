@@ -60,5 +60,33 @@
       "status": 201
     },
     "retryHistory": []
+  },
+  {
+    "postId": "prayer-evening-2026-08-15",
+    "contentDate": "2026-08-15",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-08-15T18:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Gott, wir legen dir diesen Tag hin. Das Gute. Das Schwere. Das Unfertige. Wir bitten dich für Menschen im Sudan, die weiter mit Mangel und Angst leben, und für Menschen hier bei uns, die unter großer Hitze und ihren Folgen leiden. Schenk Ruhe für diese Nacht und halte die Hoffnung wach.\n\nRedaktioneller Hinweis: Vor Veröffentlichung zwei konkret datierte aktuelle Bezüge vom 14.08.2026 prüfen.",
+    "assets": [
+      "render-facebook-mastodon-01.png"
+    ],
+    "altTexts": [
+      "Ein stiller Raum am Abend. Auf einem Holztisch stehen eine Tasse und ein geschlossenes Notizbuch. Durch ein offenes Fenster fällt warmes Licht, draußen ist der Himmel in Blau und Gold getönt."
+    ],
+    "id": "1f7f06bb-0cef-45d9-b40b-dec30e3bee94",
+    "attemptCount": 1,
+    "remoteId": "117100889850680309",
+    "remoteUrl": "https://kirche.social/@christoph/117100889850680309",
+    "lastError": null,
+    "createdAt": "2026-08-15T14:58:20.918Z",
+    "updatedAt": "2026-08-15T18:16:17.328Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
