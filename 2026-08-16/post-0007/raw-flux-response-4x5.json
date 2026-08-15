@@ -1,0 +1,52 @@
+{
+  "delivery_url": "https://delivery.eu2.bfl.ai/durable/2026081515/5e1f69ea-538b-4d66-962e-9be995966f07/92/505001ea00a8b6/ea00a8b658d94003a8ee0dc50bb8c935/sample.jpeg?se=2026-08-15T15%3A18%3A25Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=EjETkPOq/VY2s89eihPCS08MiCindUxFMW%2BzTBJLH9A%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "167074e9-5a8a-4238-a2b2-e79ba6a7380a",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "167074e9-5a8a-4238-a2b2-e79ba6a7380a",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "167074e9-5a8a-4238-a2b2-e79ba6a7380a",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "167074e9-5a8a-4238-a2b2-e79ba6a7380a",
+      "status": "Ready",
+      "result": {
+        "start_time": 1786806503.9668846,
+        "prompt": "Fotorealistisches ruhiges Naturmotiv am frühen Morgen, schmaler Weg durch Wiese oder zwischen Bäumen, Tau auf Gräsern, weiches goldenes Morgenlicht, leichte Nebelstimmung, klare natürliche Farben, meditative Atmosphäre, viel negativer Raum, unaufgeregte Komposition, hochwertig, authentisch, keine Menschen im Vordergrund, no text, no letters, no typography, no logo, no watermark",
+        "seed": 163479461,
+        "sample": "https://delivery.eu2.bfl.ai/durable/2026081515/5e1f69ea-538b-4d66-962e-9be995966f07/92/505001ea00a8b6/ea00a8b658d94003a8ee0dc50bb8c935/sample.jpeg?se=2026-08-15T15%3A18%3A25Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=EjETkPOq/VY2s89eihPCS08MiCindUxFMW%2BzTBJLH9A%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "167074e9-5a8a-4238-a2b2-e79ba6a7380a",
+    "polling_url": "https://api.eu2.bfl.ai/v1/get_result?id=167074e9-5a8a-4238-a2b2-e79ba6a7380a",
+    "cost": 1.5,
+    "input_mp": 0,
+    "output_mp": 1.39
+  }
+}
