@@ -388,65 +388,6 @@
           ]
         },
         {
-          "id": "post-0005",
-          "datum": "2026-08-14",
-          "wochentag": "Freitag",
-          "rubrik": "Gebet oder Lied",
-          "saeule": "Spiritualität",
-          "ziel": "Die Woche geistlich sammeln und auf das Wochenende hin öffnen.",
-          "vorproduktion": "vollständig vorproduzierbar",
-          "plattformen_und_formate": {
-            "facebook": [
-              "Bild + Gebet bzw. Liedgedanke"
-            ],
-            "instagram": [
-              "ruhiges Reel",
-              "Story",
-              "Bild-Post"
-            ],
-            "mastodon": [
-              "kurzer Text + Bild"
-            ]
-          },
-          "struktur": [
-            "ein konkretes Lebensthema",
-            "knappe geistliche Sprache",
-            "kein Erklärton"
-          ],
-          "ki_hilfe": [
-            "Gebetsentwurf",
-            "sprachliche Verdichtung",
-            "Reel-Sprechtext",
-            "Alt-Text"
-          ],
-          "status": "Idee",
-          "veroeffentlichungszeit": "09:00",
-          "redaktionsfelder": {
-            "arbeitstitel": "",
-            "facebook_text": "",
-            "instagram_caption": "",
-            "mastodon_text": "",
-            "bluesky_text": "",
-            "story_ablauf": [],
-            "reel_skript": "",
-            "bildidee": "",
-            "ki_bildprompt": "",
-            "alt_text": "",
-            "hashtags": [],
-            "veroeffentlichungszeit": "",
-            "asset_pfade": [],
-            "notizen": ""
-          },
-          "thema": "Kurzes Wochengebet zum Schwerpunkt „Aufmerksam leben“",
-          "konkrete_idee": "5–8 kurze Zeilen; konkrete Lebenswelt; am Ende eine tragende Bitte.",
-          "liturgische_quelle": {
-            "jahr_endpoint": "https://kirchenjahr.pfarr.tools/api/jahr/2026",
-            "json_pfad": "$.Tage['2026-08-09']",
-            "datum": "2026-08-09",
-            "hinweis": "Bei mehreren Einträgen am selben Datum ist die örtlich tatsächlich gefeierte Ordnung redaktionell auszuwählen."
-          }
-        },
-        {
           "id": "prayer-evening-2026-08-14",
           "datum": "2026-08-14",
           "wochentag": "Freitag",
