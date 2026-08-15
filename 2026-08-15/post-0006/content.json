@@ -110,14 +110,10 @@
     "alt_text": "Sommerliche Szene mit einer Kirche in ländlicher Umgebung und offener, einladender Atmosphäre als Bildidee für eine Predigtreihe."
   },
   "qa": {
+    "approved": false,
     "warnings": [
-      "Current source inputs are still required before publication",
-      "Predigt-Preview requires sermon input before final drafting",
-      "Missing sermon input for Predigt-Preview",
-      "Uhrzeit und genauer Gottesdienstort für Bondorf fehlen noch",
-      "Reihenkommunikation und konkreter Sonntags-Preview müssen vor Freigabe final abgeglichen werden"
-    ],
-    "approved": false
+      "Current-event or local factual details are still required. Verify that no details were invented."
+    ]
   },
   "metadata": {
     "model": "gpt-5.6",
