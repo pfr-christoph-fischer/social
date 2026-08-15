@@ -9,9 +9,9 @@
     "liturgical_source": "https://kirchenjahr.pfarr.tools/api/jahr/2026"
   },
   "editorial_core": {
-    "title": "Predigt-Preview auf 11. Sonntag nach Trinitatis",
-    "main_message": "Erst nach Fertigstellung der Predigt: eine Spannung, eine Frage und eine Einladung.",
-    "audience": "[TODO: define audience after current inputs are available]",
+    "title": "Einladung zur Sommerpredigtreihe „Himmlische Werbung“",
+    "main_message": "Die Sommerpredigtreihe „Himmlische Werbung“ lädt dazu ein, mit bekannten Werbeslogans Kirche im Oberen Gäu neu zu entdecken: mit verschiedenen Pfarrer:innen, anderen Gemeinden und der Freude an kirchlicher Vielfalt. Der konkrete Sonntag in Bondorf wird mit dem Motto „Ich liebe es“ persönlich und augenzwinkernd angekündigt.",
+    "audience": "Menschen in den Gemeinden des Oberen Gäus, Gottesdienstbesucher:innen, Neugierige und alle, die auch einmal eine andere Gemeinde entdecken möchten.",
     "tone": [
       "klar",
       "ruhig",
@@ -25,57 +25,103 @@
       "AI support notes: Hook-Varianten | Reel-Skript | Caption | Untertitel",
       "Current inputs required: Predigtmanuskript oder Kerngedanke | Gottesdienstort | Uhrzeit | Besonderheiten",
       "Liturgical source: https://kirchenjahr.pfarr.tools/api/jahr/2026 (2026-08-16, $.Tage['2026-08-16'])",
-      "Wochenspruch: Gott widersteht den Hochmütigen, aber den Demütigen gibt er Gnade. (1. Petr 5,5b)"
+      "Neuer inhaltlicher Fokus aus Chatverlauf: Einladung zur Sommerpredigtreihe „Himmlische Werbung“ mit verschiedenen Pfarrer:innen und Werbeslogans.",
+      "Persönlicher Aufhänger: „Ich liebe es“ in Bondorf; humorvoller Verweis auf „einen Burger essen, äh, predigen“ nur dosiert verwenden.",
+      "Reihenmehrwert: andere Gemeinde entdecken und die Buntheit der Kirche im Oberen Gäu feiern."
     ]
   },
   "platforms": {
     "facebook": {
-      "text": "",
-      "headline": ""
+      "text": "Herzliche Einladung zur Sommerpredigtreihe „Himmlische Werbung“.\n\nBekannte Werbeslogans bekommen in unseren Gottesdiensten eine neue Richtung: Verschiedene Pfarrer:innen predigen in unterschiedlichen Gemeinden und laden dazu ein, Kirche im Oberen Gäu in ihrer Buntheit zu entdecken.\n\nFür meinen Sonntag in Bondorf heißt das Motto: „Ich liebe es“ – nicht als Fast-Food-Werbung, sondern als Predigt mit einem augenzwinkernden Einstieg.\n\nOrt und Uhrzeit ergänzen wir noch. Schon jetzt gilt: Kommen Sie vorbei, entdecken Sie eine andere Gemeinde und feiern Sie mit uns die Vielfalt der Kirche im Oberen Gäu.",
+      "headline": "Sommerpredigtreihe: „Himmlische Werbung“"
     },
     "instagram": {
-      "caption": "",
-      "carousel": []
+      "caption": "„Himmlische Werbung“ – so heißt unsere Sommerpredigtreihe im Oberen Gäu.\n\nBekannte Werbeslogans tauchen in den Predigten neu auf. Dabei kann man verschiedene Pfarrer:innen hören, andere Gemeinden entdecken und die Buntheit der Kirche feiern.\n\nMein Motto in Bondorf: „Ich liebe es“.\nBurger essen? Eher nicht. Predigen? Auf jeden Fall.\n\nOrt und Uhrzeit folgen noch – aber die Einladung steht schon jetzt: Komm vorbei und entdecke Kirche mal an einem anderen Ort. #HimmlischeWerbung #Sommerpredigtreihe #OberesGäu #KircheEntdecken #Bondorf",
+      "carousel": [
+        {
+          "type": "text",
+          "text": "Sommerpredigtreihe\n„Himmlische Werbung“"
+        },
+        {
+          "type": "text",
+          "text": "Bekannte Werbeslogans neu hören – in der Predigt."
+        },
+        {
+          "type": "text",
+          "text": "Verschiedene Pfarrer:innen.\nAndere Gemeinden.\nDie Buntheit der Kirche im Oberen Gäu."
+        },
+        {
+          "type": "text",
+          "text": "Mein Sonntag in Bondorf:\n„Ich liebe es“"
+        },
+        {
+          "type": "text",
+          "text": "Ort und Uhrzeit folgen noch.\nAber die Einladung gilt schon jetzt."
+        }
+      ]
     },
     "mastodon": {
-      "text": ""
+      "text": "Einladung zur Sommerpredigtreihe „Himmlische Werbung“ im Oberen Gäu: Bekannte Werbeslogans werden zum Predigt-Einstieg, verschiedene Pfarrer:innen sind in unterschiedlichen Gemeinden zu hören. Mein Motto in Bondorf: „Ich liebe es“. Ort und Uhrzeit folgen noch."
     },
     "bluesky": {
-      "text": ""
+      "text": "Sommerpredigtreihe „Himmlische Werbung“: Werbeslogans neu hören, andere Gemeinden entdecken, die Buntheit der Kirche im Oberen Gäu feiern. Mein Motto in Bondorf: „Ich liebe es“. Ort und Uhrzeit folgen noch."
     },
     "story": {
-      "slides": []
+      "slides": [
+        {
+          "text": "Sommerpredigtreihe:\n„Himmlische Werbung“"
+        },
+        {
+          "text": "Werbeslogans in der Predigt?\nJa – und mit Tiefgang."
+        },
+        {
+          "text": "Verschiedene Pfarrer:innen.\nAndere Gemeinden.\nKirche im Oberen Gäu entdecken."
+        },
+        {
+          "text": "Mein Motto in Bondorf:\n„Ich liebe es“"
+        },
+        {
+          "text": "Ort und Uhrzeit kommen noch.\nSei gespannt!"
+        }
+      ]
     },
     "reel": {
-      "hook": "",
-      "script": "",
-      "shots": [],
-      "duration_seconds": 0
+      "hook": "„Ich liebe es“ – aber diesmal geht es nicht um Burger, sondern um Predigt.",
+      "script": "Unsere Sommerpredigtreihe heißt „Himmlische Werbung“.\nWir spielen mit bekannten Werbeslogans und entdecken dabei Kirche im Oberen Gäu neu.\nVerschiedene Pfarrer:innen, verschiedene Gemeinden, viele Perspektiven.\nMein Sonntag in Bondorf steht unter dem Motto: „Ich liebe es“.\nNicht Fast Food – sondern ein augenzwinkernder Zugang zur Predigt.\nOrt und Uhrzeit ergänzen wir noch. Aber die Einladung steht schon jetzt: Komm vorbei und entdecke die Buntheit der Kirche.",
+      "shots": [
+        "Nahaufnahme sprechende Person mit Einstieg: „Ich liebe es“",
+        "Einblendung des Titels „Himmlische Werbung“",
+        "Schnelle Schnitte von Kirche, Ortsschild oder Umgebung im Oberen Gäu",
+        "Sprechszene mit Hinweis auf verschiedene Pfarrer:innen und Gemeinden",
+        "Abschluss mit Einladung und Texteinblendung „Ort und Uhrzeit folgen“"
+      ],
+      "duration_seconds": 30
     }
   },
   "visual": {
-    "concept": "",
-    "flux_prompt": "",
+    "concept": "Sommerliche, freundliche Einladungsgrafik zur Predigtreihe mit klarer Typo-Anmutung, Werbeästhetik ohne Markenbezug und offenem, kirchlichem Charakter.",
+    "flux_prompt": "Sommerliche Szene vor einer ländlichen Kirche im Oberen Gäu, einladende Atmosphäre, freundliches warmes Licht, moderne plakative Werbeästhetik ohne Markenlogos, klare grafische Flächen in Himmelblau und sonnigen Gelbtönen, offene Wege, lebendige aber ruhige Komposition, subtil humorvoller Charakter, hochwertige Fotografie mit editorial look, community feeling, no text in image",
     "negative_prompt": "text, letters, logo, watermark",
     "formats": [
       "4:5",
       "9:16",
       "1.91:1"
     ],
-    "alt_text": ""
+    "alt_text": "Sommerliche Szene mit einer Kirche in ländlicher Umgebung und offener, einladender Atmosphäre als Bildidee für eine Predigtreihe."
   },
   "qa": {
     "warnings": [
-      "Alt text must be completed before approval",
       "Current source inputs are still required before publication",
       "Predigt-Preview requires sermon input before final drafting",
-      "Missing sermon input for Predigt-Preview"
+      "Missing sermon input for Predigt-Preview",
+      "Uhrzeit und genauer Gottesdienstort für Bondorf fehlen noch",
+      "Reihenkommunikation und konkreter Sonntags-Preview müssen vor Freigabe final abgeglichen werden"
     ],
     "approved": false
   },
   "metadata": {
-    "model": "gpt-5.4",
-    "generated_at": "2026-08-15T10:04:32.219Z",
+    "model": "gpt-5.6",
+    "generated_at": "2026-08-05T17:07:47.960Z",
     "prompt_version": "1.0",
     "assets": []
   }
