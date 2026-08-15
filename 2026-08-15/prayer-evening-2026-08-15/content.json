@@ -1,6 +1,6 @@
 {
   "id": "prayer-evening-2026-08-15",
-  "status": "freigegeben",
+  "status": "in Arbeit",
   "needs_input": true,
   "source": {
     "calendar_post_id": "prayer-evening-2026-08-15",
@@ -27,36 +27,36 @@
   },
   "platforms": {
     "facebook": {
-      "text": "Gott, wir legen dir diesen Tag hin. Das Gute. Das Schwere. Das, was offen geblieben ist. Wir bitten dich heute besonders für Menschen im Sudan, die weiter mit Mangel und Angst leben, und für Menschen hier bei uns, die unter großer Hitze und ihren Folgen leiden. Schenk Ruhe für diese Nacht und halte die Hoffnung wach.",
-      "headline": "Abendgebet"
+      "headline": "Abendgebet",
+      "text": "Gott, wir legen dir diesen Tag hin. Das Gute. Das Schwere. Das, was offen geblieben ist. Wir bitten dich heute besonders für Menschen im Sudan, die weiter mit Mangel und Angst leben, und für Menschen hier bei uns, die unter großer Hitze und ihren Folgen leiden. Schenk Ruhe für diese Nacht und halte die Hoffnung wach."
     },
     "instagram": {
       "caption": "Gott, wir legen dir diesen Tag hin.\nWas gut war.\nWas wehgetan hat.\nWas offen geblieben ist.\n\nWir bitten dich für Menschen im Sudan, die weiter mit Mangel und Angst leben.\nWir bitten dich für Menschen hier bei uns, die unter großer Hitze und ihren Folgen leiden.\n\nSchenk Ruhe für diese Nacht.\nUnd halte die Hoffnung wach.",
       "carousel": [
         {
-          "type": "text",
-          "text": "Gott, wir legen dir diesen Tag hin."
+          "text": "Gott, wir legen dir diesen Tag hin.",
+          "type": "text"
         },
         {
-          "type": "text",
-          "text": "Was gut war. Was wehgetan hat. Was offen geblieben ist."
+          "text": "Was gut war. Was wehgetan hat. Was offen geblieben ist.",
+          "type": "text"
         },
         {
-          "type": "text",
-          "text": "Wir bitten dich für Menschen im Sudan, die weiter mit Mangel und Angst leben."
+          "text": "Wir bitten dich für Menschen im Sudan, die weiter mit Mangel und Angst leben.",
+          "type": "text"
         },
         {
-          "type": "text",
-          "text": "Wir bitten dich für Menschen hier bei uns, die unter großer Hitze und ihren Folgen leiden."
+          "text": "Wir bitten dich für Menschen hier bei uns, die unter großer Hitze und ihren Folgen leiden.",
+          "type": "text"
         },
         {
-          "type": "text",
-          "text": "Schenk Ruhe für diese Nacht. Und halte die Hoffnung wach."
+          "text": "Schenk Ruhe für diese Nacht. Und halte die Hoffnung wach.",
+          "type": "text"
         }
       ]
     },
     "mastodon": {
-      "text": "Gott, wir legen dir diesen Tag hin. Das Gute. Das Schwere. Das Unfertige. Wir bitten dich für Menschen im Sudan, die weiter mit Mangel und Angst leben, und für Menschen hier bei uns, die unter großer Hitze und ihren Folgen leiden. Schenk Ruhe für diese Nacht und halte die Hoffnung wach.\n\nRedaktioneller Hinweis: Vor Veröffentlichung zwei konkret datierte aktuelle Bezüge vom 14.08.2026 prüfen."
+      "text": "Gott, wir legen dir diesen Tag hin. Das Gute. Das Schwere. Das Unfertige. Wir bitten dich für Menschen im Sudan, die weiter mit Mangel und Angst leben, und für Menschen hier bei uns, die unter großer Hitze und ihren Folgen leiden. Schenk Ruhe für diese Nacht und halte die Hoffnung wach."
     },
     "bluesky": {
       "text": "Gott, wir legen dir diesen Tag hin. Das Gute. Das Schwere. Das Unfertige. Wir bitten dich für Menschen im Sudan, die weiter mit Mangel und Angst leben, und für Menschen hier bei uns, die unter großer Hitze und ihren Folgen leiden. Schenk Ruhe für diese Nacht und halte die Hoffnung wach."
@@ -105,10 +105,10 @@
     "alt_text": "Ein stiller Raum am Abend. Auf einem Holztisch stehen eine Tasse und ein geschlossenes Notizbuch. Durch ein offenes Fenster fällt warmes Licht, draußen ist der Himmel in Blau und Gold getönt."
   },
   "qa": {
+    "approved": false,
     "warnings": [
       "Current-event or local factual details are still required. Verify that no details were invented."
-    ],
-    "approved": true
+    ]
   },
   "metadata": {
     "model": "gpt-5.4-2026-03-05",
