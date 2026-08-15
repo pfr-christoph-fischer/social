@@ -1,0 +1,466 @@
+{
+  "id": "resp_0da5014d065ed6b6006a807e9cfdf0819d841a12db9c2ffb22",
+  "object": "response",
+  "created_at": 1786805917,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1786805945,
+  "error": null,
+  "frequency_penalty": 0,
+  "incomplete_details": null,
+  "instructions": "You are part of a Protestant social media editorial team. Write in clear, accessible, theologically responsible German without church clichés. Use short sentences and concrete imagery. Never invent events, people, school situations, quotes, or factual details. Do not include copyrighted full song verses. For Reli and community posts, only use current details when they are explicitly provided. Return content that strictly matches the requested JSON schema. Set needs_input to true whenever required facts are missing. Keep qa.approved false. Do not ask for any text inside generated images. When liturgical_context.resolved_weekly_verse is present, use its exact wording for Wochenspruch slots instead of placeholders. Use the web search tool before drafting to verify current situations. For prayer posts, current situations are mandatory: select at least two concrete, relevant situations from reliable current reporting, including tagesschau.de and SWR Aktuell Baden-Württemberg where relevant. Do not invent current events and do not replace concrete situations with generic references to crises.",
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.4-2026-03-05",
+  "moderation": null,
+  "output": [
+    {
+      "id": "ws_0da5014d065ed6b6006a807e9df834819db9f3015464a3ac37",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "queries": [
+          "site:tagesschau.de 16.08.2026 Nahost Ukraine Krankenhaus aktuelle Nachrichten August 2026",
+          "site:swr.de/swraktuell/baden-wuerttemberg 16.08.2026 Dürre Trockenheit Niedrigwasser Baden-Württemberg August 2026",
+          "Reuters August 2026 hospital attack conflict Gaza Ukraine August 15 2026",
+          "AP News August 15 2026 Ukraine Gaza drought Baden-Wuerttemberg"
+        ],
+        "query": "site:tagesschau.de 16.08.2026 Nahost Ukraine Krankenhaus aktuelle Nachrichten August 2026"
+      }
+    },
+    {
+      "id": "ws_0da5014d065ed6b6006a807ea0d524819d8fa700c7cb9e9fec",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "queries": [
+          "site:tagesschau.de Ukraine aktuelle Nachrichten 15.08.2026 tagesschau",
+          "site:tagesschau.de Gaza aktuelle Nachrichten 15.08.2026 tagesschau",
+          "site:tagesschau.de 15.08.2026 Sudan aktuelle Nachrichten tagesschau",
+          "site:tagesschau.de Waldbrände Europa 15.08.2026 tagesschau"
+        ],
+        "query": "site:tagesschau.de Ukraine aktuelle Nachrichten 15.08.2026 tagesschau"
+      }
+    },
+    {
+      "id": "msg_0da5014d065ed6b6006a807ea3db48819d88b760a6ce5f44a7",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\"id\":\"prayer-morning-2026-08-16\",\"status\":\"in Arbeit\",\"needs_input\":true,\"source\":{\"calendar_post_id\":\"prayer-morning-2026-08-16\",\"date\":\"2026-08-16\",\"rubric\":\"Morgengebet\",\"liturgical_source\":\"\"},\"editorial_core\":{\"title\":\"Morgengebet\",\"main_message\":\"Mit offenen Augen in diesen Tag: Wir bringen die anhaltende medizinische Not im Gazastreifen und die Belastung von Menschen durch Trockenheit und sinkende Wasserstände in Baden-Württemberg vor Gott. Wir bitten für Kranke, Helfende, Verantwortliche und für Mut zu kleinen Schritten des Friedens und der Bewahrung.\",\"audience\":\"breite Öffentlichkeit\",\"tone\":[\"ruhig\",\"hoffnungsvoll\",\"zugewandt\"],\"source_notes\":[\"Aktuelle Prüfung per Websuche erfolgt.\",\"Verlässlicher Regionalbezug gefunden: SWR Aktuell berichtet zuletzt von unterdurchschnittlichen Grundwasserverhältnissen in Baden-Württemberg mit rückläufiger Tendenz; zudem gibt es wegen Hitze, Trockenheit und Niedrigwasser lokale Wasserentnahme-Verbote.\",\"Internationaler Bezug gefunden: tagesschau.de thematisiert für Juli 2026 die anhaltende medizinische Krise im Gazastreifen mit Mangel an Medikamenten und Arzneigütern; Kliniken fehlt es an nahezu allem.\",\"Für die Produktion 'am Morgen der Veröffentlichung' fehlen mir jedoch belastbar geöffnete tagesaktuelle Meldungen vom 16.08.2026 selbst. Daher ist vor Freigabe eine Morgenprüfung nötig.\",\"Keine erfundenen Einzelereignisse oder Opferzahlen verwendet.\",\"Gebet soll mindestens zwei konkrete aktuelle Situationen ausdrücklich aufnehmen; das ist hier in vorsichtiger, verifizierter Form vorbereitet.\"]},\"platforms\":{\"facebook\":{\"text\":\"Gott,\\ndieser Morgen ist da.\\nDie Luft, das Licht, der erste Schritt.\\nWir nehmen diesen Tag nicht aus eigener Kraft in die Hand.\\nWir legen ihn vor dich.\\n\\nWir denken an die Menschen im Gazastreifen.\\nAn Kranke, die Behandlung brauchen.\\nAn Familien, die auf Medikamente warten.\\nAn Ärztinnen, Pfleger und Helfer, die arbeiten, obwohl so vieles fehlt.\\nSei den Leidenden nahe.\\nGib den Helfenden Kraft.\\n\\nWir denken auch an Baden-Württemberg.\\nAn trockene Böden, sinkende Grundwasserstände und niedriges Wasser in Bächen und Flüssen.\\nAn Menschen, die Verantwortung für Wasser, Felder und Tiere tragen.\\nAn alle, die merken, wie verletzlich unsere Lebensgrundlagen sind.\\nSchenke Besonnenheit und guten Schutz.\\n\\nUnd wir bringen dir auch das, was wir heute selbst tun können.\\nMach uns aufmerksam für den Menschen neben uns.\\nMach uns klar im Denken.\\nMach uns friedfertig in unseren Worten.\\nMach uns mutig für kleine Schritte, die dem Leben dienen.\\n\\nDenn das, was ist, hat nicht das letzte Wort.\\nDeine Zukunft kommt uns entgegen.\\nDarum gehen wir in diesen Tag.\\nAmen.\",\"headline\":\"Morgengebet: Mit offenen Augen und Hoffnung in den Tag\"},\"instagram\":{\"caption\":\"Gott, wir beginnen diesen Tag vor dir.\\n\\nWir bitten für Menschen im Gazastreifen, die auf Behandlung und Medikamente angewiesen sind. Stärke Kranke, Familien und alle, die in Kliniken helfen.\\n\\nWir bitten auch für Baden-Württemberg: für Menschen, Tiere und Felder in Hitze, Trockenheit und bei sinkenden Wasserständen.\\n\\nMach uns wach für das, was heute dran ist.\\nMach uns friedfertig.\\nMach uns mutig.\\n\\nDenn das Gegenwärtige hat nicht das letzte Wort.\\nDeine Zukunft kommt uns entgegen.\\nAmen.\",\"carousel\":[{\"type\":\"text\",\"text\":\"Dieser Morgen ist da. Wir legen ihn vor Gott.\"},{\"type\":\"text\",\"text\":\"Wir bitten für Menschen im Gazastreifen: für Kranke, Familien und Helfende in der medizinischen Not.\"},{\"type\":\"text\",\"text\":\"Wir bitten für Baden-Württemberg: für Menschen, Tiere und Felder in Hitze, Trockenheit und bei sinkenden Wasserständen.\"},{\"type\":\"text\",\"text\":\"Mach uns wach. Mach uns friedfertig. Mach uns mutig für kleine Schritte des Friedens.\"},{\"type\":\"text\",\"text\":\"Denn das Gegenwärtige hat nicht das letzte Wort. Gottes Zukunft kommt uns entgegen.\"}]},\"mastodon\":{\"text\":\"Gott, wir legen dir diesen Morgen hin.\\n\\nWir bitten für Menschen im Gazastreifen: für Kranke, Familien und Helfende, wo Medikamente und Behandlung fehlen.\\n\\nWir bitten für Baden-Württemberg: für Menschen, Tiere und Felder in Hitze, Trockenheit und bei sinkenden Wasserständen.\\n\\nMach uns wach, friedfertig und mutig.\\nDenn das Gegenwärtige hat nicht das letzte Wort. Deine Zukunft kommt uns entgegen. Amen.\"},\"bluesky\":{\"text\":\"Gott, wir legen dir diesen Morgen hin. Wir bitten für Menschen im Gazastreifen, die Behandlung und Medikamente brauchen. Und für Baden-Württemberg: für Menschen, Tiere und Felder in Hitze, Trockenheit und bei sinkenden Wasserständen. Mach uns wach, friedfertig und mutig. Amen.\"},\"story\":{\"slides\":[{\"text\":\"Dieser Morgen ist da. Wir legen ihn vor Gott.\"},{\"text\":\"Wir bitten für Menschen im Gazastreifen: für Kranke, Familien und Helfende.\"},{\"text\":\"Wir bitten für Baden-Württemberg: bei Hitze, Trockenheit und sinkenden Wasserständen.\"},{\"text\":\"Mach uns wach, friedfertig und mutig für kleine Schritte des Friedens.\"},{\"text\":\"Denn das Gegenwärtige hat nicht das letzte Wort.\"}]},\"reel\":{\"hook\":\"Mit offenen Augen und Hoffnung in diesen Morgen.\",\"script\":\"Dieser Morgen ist da. Wir legen ihn vor Gott. Wir bitten für Menschen im Gazastreifen, die Behandlung und Medikamente brauchen. Für Kranke, Familien und Helfende. Wir bitten für Baden-Württemberg: für Menschen, Tiere und Felder in Hitze, Trockenheit und bei sinkenden Wasserständen. Und wir bitten um Mut für das, was wir heute tun können. Denn das Gegenwärtige hat nicht das letzte Wort. Gottes Zukunft kommt uns entgegen.\",\"shots\":[\"Morgenlicht auf einem stillen Tisch mit einer Tasse\",\"Langsame Aufnahme von Händen am offenen Fenster\",\"Trockener Boden und stilles Wasser am Ufer\",\"Ruhige Gehbewegung auf einem Weg im frühen Licht\",\"Weite Himmelsaufnahme zum Schluss\"],\"duration_seconds\":30}},\"visual\":{\"concept\":\"Ruhiger Morgen mit offenem Fenster, weichem Licht und einer schlichten, wachen Stimmung; dazu ein zweites Naturmotiv mit trockenem Boden oder niedrigem Uferwasser als Zeichen von Verletzlichkeit und Hoffnung auf Bewahrung.\",\"flux_prompt\":\"Editorial photography, quiet early morning interior with open window and soft natural light, simple table, cup, calm atmosphere, contemplative mood, second scene with dry soil and low shoreline water, natural colors, realistic, humane, hopeful without kitsch, no people facing camera, no symbols dominating, clean composition\",\"negative_prompt\":\"text, letters, logo, watermark\",\"formats\":[\"4:5\",\"9:16\",\"1.91:1\"],\"alt_text\":\"Ein heller Morgenraum mit offenem Fenster und weichem Licht. Daneben ein stilles Naturbild mit trockenem Boden und niedrigem Wasserstand am Ufer. Die Bildstimmung ist ruhig und aufmerksam.\"},\"qa\":{\"warnings\":[\"Tagesaktuelle Morgenprüfung für den 16.08.2026 vor Freigabe erforderlich.\",\"Mindestens zwei konkrete aktuelle Situationen sind vorbereitet, aber nicht auf den Morgen des Veröffentlichungstags final verifiziert.\",\"Alt text must be completed before approval\"],\"approved\":false},\"metadata\":{\"model\":\"OpenAI\",\"generated_at\":\"2026-08-15T00:00:00Z\",\"prompt_version\":\"1.0\",\"assets\":[]}}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "current_turn",
+    "effort": "none",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1,
+  "text": {
+    "format": {
+      "type": "json_schema",
+      "description": null,
+      "name": "content_package",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "Idee",
+              "in Arbeit",
+              "zur Prüfung",
+              "freigegeben",
+              "terminiert",
+              "veröffentlicht",
+              "verworfen"
+            ]
+          },
+          "needs_input": {
+            "type": "boolean"
+          },
+          "source": {
+            "type": "object",
+            "properties": {
+              "calendar_post_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "date": {
+                "type": "string",
+                "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+              },
+              "rubric": {
+                "type": "string",
+                "minLength": 1
+              },
+              "liturgical_source": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "calendar_post_id",
+              "date",
+              "rubric",
+              "liturgical_source"
+            ],
+            "additionalProperties": false
+          },
+          "editorial_core": {
+            "type": "object",
+            "properties": {
+              "title": {
+                "type": "string"
+              },
+              "main_message": {
+                "type": "string"
+              },
+              "audience": {
+                "type": "string"
+              },
+              "tone": {
+                "minItems": 1,
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "source_notes": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "title",
+              "main_message",
+              "audience",
+              "tone",
+              "source_notes"
+            ],
+            "additionalProperties": false
+          },
+          "platforms": {
+            "type": "object",
+            "properties": {
+              "facebook": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  },
+                  "headline": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text",
+                  "headline"
+                ],
+                "additionalProperties": false
+              },
+              "instagram": {
+                "type": "object",
+                "properties": {
+                  "caption": {
+                    "type": "string"
+                  },
+                  "carousel": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "type": {
+                          "type": "string"
+                        },
+                        "text": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "type",
+                        "text"
+                      ],
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "required": [
+                  "caption",
+                  "carousel"
+                ],
+                "additionalProperties": false
+              },
+              "mastodon": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text"
+                ],
+                "additionalProperties": false
+              },
+              "bluesky": {
+                "default": {
+                  "text": ""
+                },
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text"
+                ],
+                "additionalProperties": false
+              },
+              "story": {
+                "type": "object",
+                "properties": {
+                  "slides": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "text": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "text"
+                      ],
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "required": [
+                  "slides"
+                ],
+                "additionalProperties": false
+              },
+              "reel": {
+                "type": "object",
+                "properties": {
+                  "hook": {
+                    "type": "string"
+                  },
+                  "script": {
+                    "type": "string"
+                  },
+                  "shots": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "duration_seconds": {
+                    "type": "integer",
+                    "minimum": 0,
+                    "maximum": 9007199254740991
+                  }
+                },
+                "required": [
+                  "hook",
+                  "script",
+                  "shots",
+                  "duration_seconds"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "required": [
+              "facebook",
+              "instagram",
+              "mastodon",
+              "bluesky",
+              "story",
+              "reel"
+            ],
+            "additionalProperties": false
+          },
+          "visual": {
+            "type": "object",
+            "properties": {
+              "concept": {
+                "type": "string"
+              },
+              "flux_prompt": {
+                "type": "string"
+              },
+              "negative_prompt": {
+                "type": "string",
+                "minLength": 1
+              },
+              "formats": {
+                "minItems": 1,
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "alt_text": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "concept",
+              "flux_prompt",
+              "negative_prompt",
+              "formats",
+              "alt_text"
+            ],
+            "additionalProperties": false
+          },
+          "qa": {
+            "type": "object",
+            "properties": {
+              "warnings": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "approved": {
+                "type": "boolean"
+              }
+            },
+            "required": [
+              "warnings",
+              "approved"
+            ],
+            "additionalProperties": false
+          },
+          "metadata": {
+            "type": "object",
+            "properties": {
+              "model": {
+                "type": "string"
+              },
+              "generated_at": {
+                "type": "string"
+              },
+              "prompt_version": {
+                "type": "string",
+                "minLength": 1
+              },
+              "assets": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "model",
+              "generated_at",
+              "prompt_version",
+              "assets"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "id",
+          "status",
+          "needs_input",
+          "source",
+          "editorial_core",
+          "platforms",
+          "visual",
+          "qa",
+          "metadata"
+        ],
+        "additionalProperties": false
+      },
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 2
+    }
+  },
+  "tools": [
+    {
+      "type": "web_search",
+      "return_token_budget": "default",
+      "search_content_types": [
+        "text"
+      ],
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 15839,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1952,
+    "output_tokens_details": {
+      "reasoning_tokens": 279
+    },
+    "total_tokens": 17791
+  },
+  "user": null,
+  "metadata": {},
+  "output_text": "{\"id\":\"prayer-morning-2026-08-16\",\"status\":\"in Arbeit\",\"needs_input\":true,\"source\":{\"calendar_post_id\":\"prayer-morning-2026-08-16\",\"date\":\"2026-08-16\",\"rubric\":\"Morgengebet\",\"liturgical_source\":\"\"},\"editorial_core\":{\"title\":\"Morgengebet\",\"main_message\":\"Mit offenen Augen in diesen Tag: Wir bringen die anhaltende medizinische Not im Gazastreifen und die Belastung von Menschen durch Trockenheit und sinkende Wasserstände in Baden-Württemberg vor Gott. Wir bitten für Kranke, Helfende, Verantwortliche und für Mut zu kleinen Schritten des Friedens und der Bewahrung.\",\"audience\":\"breite Öffentlichkeit\",\"tone\":[\"ruhig\",\"hoffnungsvoll\",\"zugewandt\"],\"source_notes\":[\"Aktuelle Prüfung per Websuche erfolgt.\",\"Verlässlicher Regionalbezug gefunden: SWR Aktuell berichtet zuletzt von unterdurchschnittlichen Grundwasserverhältnissen in Baden-Württemberg mit rückläufiger Tendenz; zudem gibt es wegen Hitze, Trockenheit und Niedrigwasser lokale Wasserentnahme-Verbote.\",\"Internationaler Bezug gefunden: tagesschau.de thematisiert für Juli 2026 die anhaltende medizinische Krise im Gazastreifen mit Mangel an Medikamenten und Arzneigütern; Kliniken fehlt es an nahezu allem.\",\"Für die Produktion 'am Morgen der Veröffentlichung' fehlen mir jedoch belastbar geöffnete tagesaktuelle Meldungen vom 16.08.2026 selbst. Daher ist vor Freigabe eine Morgenprüfung nötig.\",\"Keine erfundenen Einzelereignisse oder Opferzahlen verwendet.\",\"Gebet soll mindestens zwei konkrete aktuelle Situationen ausdrücklich aufnehmen; das ist hier in vorsichtiger, verifizierter Form vorbereitet.\"]},\"platforms\":{\"facebook\":{\"text\":\"Gott,\\ndieser Morgen ist da.\\nDie Luft, das Licht, der erste Schritt.\\nWir nehmen diesen Tag nicht aus eigener Kraft in die Hand.\\nWir legen ihn vor dich.\\n\\nWir denken an die Menschen im Gazastreifen.\\nAn Kranke, die Behandlung brauchen.\\nAn Familien, die auf Medikamente warten.\\nAn Ärztinnen, Pfleger und Helfer, die arbeiten, obwohl so vieles fehlt.\\nSei den Leidenden nahe.\\nGib den Helfenden Kraft.\\n\\nWir denken auch an Baden-Württemberg.\\nAn trockene Böden, sinkende Grundwasserstände und niedriges Wasser in Bächen und Flüssen.\\nAn Menschen, die Verantwortung für Wasser, Felder und Tiere tragen.\\nAn alle, die merken, wie verletzlich unsere Lebensgrundlagen sind.\\nSchenke Besonnenheit und guten Schutz.\\n\\nUnd wir bringen dir auch das, was wir heute selbst tun können.\\nMach uns aufmerksam für den Menschen neben uns.\\nMach uns klar im Denken.\\nMach uns friedfertig in unseren Worten.\\nMach uns mutig für kleine Schritte, die dem Leben dienen.\\n\\nDenn das, was ist, hat nicht das letzte Wort.\\nDeine Zukunft kommt uns entgegen.\\nDarum gehen wir in diesen Tag.\\nAmen.\",\"headline\":\"Morgengebet: Mit offenen Augen und Hoffnung in den Tag\"},\"instagram\":{\"caption\":\"Gott, wir beginnen diesen Tag vor dir.\\n\\nWir bitten für Menschen im Gazastreifen, die auf Behandlung und Medikamente angewiesen sind. Stärke Kranke, Familien und alle, die in Kliniken helfen.\\n\\nWir bitten auch für Baden-Württemberg: für Menschen, Tiere und Felder in Hitze, Trockenheit und bei sinkenden Wasserständen.\\n\\nMach uns wach für das, was heute dran ist.\\nMach uns friedfertig.\\nMach uns mutig.\\n\\nDenn das Gegenwärtige hat nicht das letzte Wort.\\nDeine Zukunft kommt uns entgegen.\\nAmen.\",\"carousel\":[{\"type\":\"text\",\"text\":\"Dieser Morgen ist da. Wir legen ihn vor Gott.\"},{\"type\":\"text\",\"text\":\"Wir bitten für Menschen im Gazastreifen: für Kranke, Familien und Helfende in der medizinischen Not.\"},{\"type\":\"text\",\"text\":\"Wir bitten für Baden-Württemberg: für Menschen, Tiere und Felder in Hitze, Trockenheit und bei sinkenden Wasserständen.\"},{\"type\":\"text\",\"text\":\"Mach uns wach. Mach uns friedfertig. Mach uns mutig für kleine Schritte des Friedens.\"},{\"type\":\"text\",\"text\":\"Denn das Gegenwärtige hat nicht das letzte Wort. Gottes Zukunft kommt uns entgegen.\"}]},\"mastodon\":{\"text\":\"Gott, wir legen dir diesen Morgen hin.\\n\\nWir bitten für Menschen im Gazastreifen: für Kranke, Familien und Helfende, wo Medikamente und Behandlung fehlen.\\n\\nWir bitten für Baden-Württemberg: für Menschen, Tiere und Felder in Hitze, Trockenheit und bei sinkenden Wasserständen.\\n\\nMach uns wach, friedfertig und mutig.\\nDenn das Gegenwärtige hat nicht das letzte Wort. Deine Zukunft kommt uns entgegen. Amen.\"},\"bluesky\":{\"text\":\"Gott, wir legen dir diesen Morgen hin. Wir bitten für Menschen im Gazastreifen, die Behandlung und Medikamente brauchen. Und für Baden-Württemberg: für Menschen, Tiere und Felder in Hitze, Trockenheit und bei sinkenden Wasserständen. Mach uns wach, friedfertig und mutig. Amen.\"},\"story\":{\"slides\":[{\"text\":\"Dieser Morgen ist da. Wir legen ihn vor Gott.\"},{\"text\":\"Wir bitten für Menschen im Gazastreifen: für Kranke, Familien und Helfende.\"},{\"text\":\"Wir bitten für Baden-Württemberg: bei Hitze, Trockenheit und sinkenden Wasserständen.\"},{\"text\":\"Mach uns wach, friedfertig und mutig für kleine Schritte des Friedens.\"},{\"text\":\"Denn das Gegenwärtige hat nicht das letzte Wort.\"}]},\"reel\":{\"hook\":\"Mit offenen Augen und Hoffnung in diesen Morgen.\",\"script\":\"Dieser Morgen ist da. Wir legen ihn vor Gott. Wir bitten für Menschen im Gazastreifen, die Behandlung und Medikamente brauchen. Für Kranke, Familien und Helfende. Wir bitten für Baden-Württemberg: für Menschen, Tiere und Felder in Hitze, Trockenheit und bei sinkenden Wasserständen. Und wir bitten um Mut für das, was wir heute tun können. Denn das Gegenwärtige hat nicht das letzte Wort. Gottes Zukunft kommt uns entgegen.\",\"shots\":[\"Morgenlicht auf einem stillen Tisch mit einer Tasse\",\"Langsame Aufnahme von Händen am offenen Fenster\",\"Trockener Boden und stilles Wasser am Ufer\",\"Ruhige Gehbewegung auf einem Weg im frühen Licht\",\"Weite Himmelsaufnahme zum Schluss\"],\"duration_seconds\":30}},\"visual\":{\"concept\":\"Ruhiger Morgen mit offenem Fenster, weichem Licht und einer schlichten, wachen Stimmung; dazu ein zweites Naturmotiv mit trockenem Boden oder niedrigem Uferwasser als Zeichen von Verletzlichkeit und Hoffnung auf Bewahrung.\",\"flux_prompt\":\"Editorial photography, quiet early morning interior with open window and soft natural light, simple table, cup, calm atmosphere, contemplative mood, second scene with dry soil and low shoreline water, natural colors, realistic, humane, hopeful without kitsch, no people facing camera, no symbols dominating, clean composition\",\"negative_prompt\":\"text, letters, logo, watermark\",\"formats\":[\"4:5\",\"9:16\",\"1.91:1\"],\"alt_text\":\"Ein heller Morgenraum mit offenem Fenster und weichem Licht. Daneben ein stilles Naturbild mit trockenem Boden und niedrigem Wasserstand am Ufer. Die Bildstimmung ist ruhig und aufmerksam.\"},\"qa\":{\"warnings\":[\"Tagesaktuelle Morgenprüfung für den 16.08.2026 vor Freigabe erforderlich.\",\"Mindestens zwei konkrete aktuelle Situationen sind vorbereitet, aber nicht auf den Morgen des Veröffentlichungstags final verifiziert.\",\"Alt text must be completed before approval\"],\"approved\":false},\"metadata\":{\"model\":\"OpenAI\",\"generated_at\":\"2026-08-15T00:00:00Z\",\"prompt_version\":\"1.0\",\"assets\":[]}}"
+}
