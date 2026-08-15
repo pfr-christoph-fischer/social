@@ -29,31 +29,31 @@
   },
   "platforms": {
     "facebook": {
-      "text": "Gott,\ndieser Morgen ist da.\nDie Luft, das Licht, der erste Schritt.\nWir nehmen diesen Tag nicht aus eigener Kraft in die Hand.\nWir legen ihn vor dich.\n\nWir denken an die Menschen, die unter der anhaltenden Krise am Persischen Golf leiden.\nAn alle, deren Leben von Angst, Unsicherheit und den Folgen von Spannungen geprägt ist.\nAn die Menschen weltweit, die die Folgen dieser Krise mittragen.\nAn Verantwortliche und an alle, die um Frieden ringen.\nSchenke Schutz, Besonnenheit und Wege aus der Eskalation.\n\nWir denken auch an die Trockenheit hier bei uns.\nAn Felder und Gärten, an Tiere und Wälder, an Flüsse und Böden.\nAn Menschen, die Sorge tragen und merken, wie verletzlich unsere Lebensgrundlagen sind.\nSende Regen.\nBewahre, was dürstet.\nUnd lehre uns, achtsam mit deiner Schöpfung umzugehen.\n\nUnd wir bringen dir auch das, was wir heute selbst tun können.\nMach uns aufmerksam für den Menschen neben uns.\nMach uns klar im Denken.\nMach uns friedfertig in unseren Worten.\nMach uns mutig für kleine Schritte, die dem Leben dienen.\n\nDenn das, was ist, hat nicht das letzte Wort.\nDeine Zukunft kommt uns entgegen.\nDarum gehen wir in diesen Tag.\nAmen.",
-      "headline": "Morgengebet: Mit offenen Augen und Hoffnung in den Tag"
+      "headline": "Morgengebet: Mit offenen Augen und Hoffnung in den Tag",
+      "text": "Gott,\ndieser Morgen ist da.\nDie Luft, das Licht, der erste Schritt.\nWir nehmen diesen Tag nicht aus eigener Kraft in die Hand.\nWir legen ihn vor dich.\n\nWir denken an die Menschen, die unter der anhaltenden Krise am Persischen Golf leiden.\nAn alle, deren Leben von Angst, Unsicherheit und den Folgen von Spannungen geprägt ist.\nAn die Menschen weltweit, die die Folgen dieser Krise mittragen.\nAn Verantwortliche und an alle, die um Frieden ringen.\nSchenke Schutz, Besonnenheit und Wege aus der Eskalation.\n\nWir denken auch an die Trockenheit hier bei uns.\nAn Felder und Gärten, an Tiere und Wälder, an Flüsse und Böden.\nAn Menschen, die Sorge tragen und merken, wie verletzlich unsere Lebensgrundlagen sind.\nSende Regen.\nBewahre, was dürstet.\nUnd lehre uns, achtsam mit deiner Schöpfung umzugehen.\n\nUnd wir bringen dir auch das, was wir heute selbst tun können.\nMach uns aufmerksam für den Menschen neben uns.\nMach uns klar im Denken.\nMach uns friedfertig in unseren Worten.\nMach uns mutig für kleine Schritte, die dem Leben dienen.\n\nDenn das, was ist, hat nicht das letzte Wort.\nDeine Zukunft kommt uns entgegen.\nDarum gehen wir in diesen Tag.\nAmen."
     },
     "instagram": {
       "caption": "Gott, wir beginnen diesen Tag vor dir.\n\nWir bitten für die Menschen, die unter der anhaltenden Krise am Persischen Golf leiden, und für alle weltweit, die ihre Folgen spüren.\n\nWir bitten auch für die Trockenheit hier bei uns: für Menschen, Tiere, Felder und Wälder.\nSende Regen.\n\nMach uns wach für das, was heute dran ist.\nMach uns friedfertig.\nMach uns mutig.\n\nDenn das Gegenwärtige hat nicht das letzte Wort.\nDeine Zukunft kommt uns entgegen.\nAmen.",
       "carousel": [
         {
-          "type": "text",
-          "text": "Dieser Morgen ist da. Wir legen ihn vor Gott."
+          "text": "Dieser Morgen ist da. Wir legen ihn vor Gott.",
+          "type": "text"
         },
         {
-          "type": "text",
-          "text": "Wir bitten für Menschen, die unter der anhaltenden Krise am Persischen Golf leiden."
+          "text": "Wir bitten für Menschen, die unter der anhaltenden Krise am Persischen Golf leiden.",
+          "type": "text"
         },
         {
-          "type": "text",
-          "text": "Wir bitten für alle weltweit, die ihre Folgen spüren."
+          "text": "Wir bitten für alle weltweit, die ihre Folgen spüren.",
+          "type": "text"
         },
         {
-          "type": "text",
-          "text": "Wir bitten für die Trockenheit hier bei uns. Sende Regen."
+          "text": "Wir bitten für die Trockenheit hier bei uns. Sende Regen.",
+          "type": "text"
         },
         {
-          "type": "text",
-          "text": "Mach uns wach. Mach uns friedfertig. Mach uns mutig für kleine Schritte des Friedens."
+          "text": "Mach uns wach. Mach uns friedfertig. Mach uns mutig für kleine Schritte des Friedens.",
+          "type": "text"
         }
       ]
     },
@@ -97,7 +97,7 @@
   },
   "visual": {
     "concept": "Ruhige, geografisch lesbare Küstenaufnahme am Persischen Golf mit weitem Horizont und stiller Wasserfläche, ohne dramatische Kriseninszenierung. Dazu ein zweites Naturmotiv mit trockenem Boden oder niedrigem Wasserstand hier bei uns als Zeichen von Dürre, Verletzlichkeit und der Bitte um Regen.",
-    "flux_prompt": "Editorial photography, calm coastal view at the Persian Gulf, wide horizon, quiet water surface, subtle distant ships, warm natural morning light, restrained and contemplative atmosphere, no dramatic conflict scene, second scene with dry soil or low shoreline water in a local landscape, natural colors, realistic, humane, globally connected yet prayerful mood, hopeful without kitsch, clean composition",
+    "flux_prompt": "Editorial photography, calm coastal view at the Persian Gulf, wide horizon, quiet water surface, subtle distant ships, warm natural morning light, restrained and contemplative atmosphere, no dramatic conflict scene, realistic, humane, globally connected yet prayerful mood, hopeful without kitsch, clean composition",
     "negative_prompt": "text, letters, logo, watermark, explosions, smoke, fire, weapons, soldiers, military vehicles, dramatic war scene",
     "formats": [
       "4:5",
@@ -107,13 +107,13 @@
     "alt_text": "Eine ruhige Küstenlandschaft am Persischen Golf mit weitem Horizont und stiller Wasserfläche im warmen Licht. Daneben ein stilles Naturbild mit trockenem Boden oder niedrigem Wasserstand. Die Bildstimmung verbindet Weite, Verletzlichkeit und Hoffnung."
   },
   "qa": {
+    "approved": false,
     "warnings": [
       "Tagesaktuelle Morgenprüfung für den 16.08.2026 vor Freigabe erforderlich.",
       "Die Formulierung \"anhaltende Krise am Persischen Golf\" muss vor Freigabe an eine belastbare aktuelle Lage rückgebunden werden.",
       "Mindestens zwei konkrete aktuelle Situationen sind vorbereitet, aber nicht auf den Morgen des Veröffentlichungstags final verifiziert.",
       "Visual mit Persischem Golf nur als ruhige, nicht-journalistische oder irreführend konkrete Krisendarstellung verwenden."
-    ],
-    "approved": false
+    ]
   },
   "metadata": {
     "model": "gpt-5.4-2026-03-05",
