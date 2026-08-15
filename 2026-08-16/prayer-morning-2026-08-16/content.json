@@ -1,6 +1,6 @@
 {
   "id": "prayer-morning-2026-08-16",
-  "status": "in Arbeit",
+  "status": "zur Prüfung",
   "needs_input": true,
   "source": {
     "calendar_post_id": "prayer-morning-2026-08-16",
@@ -29,31 +29,31 @@
   },
   "platforms": {
     "facebook": {
-      "headline": "Morgengebet: Mit offenen Augen und Hoffnung in den Tag",
-      "text": "Gott,\ndieser Morgen ist da.\nDie Luft, das Licht, der erste Schritt.\nWir nehmen diesen Tag nicht aus eigener Kraft in die Hand.\nWir legen ihn vor dich.\n\nWir denken an die Menschen, die unter der anhaltenden Krise am Persischen Golf leiden.\nAn alle, deren Leben von Angst, Unsicherheit und den Folgen von Spannungen geprägt ist.\nAn die Menschen weltweit, die die Folgen dieser Krise mittragen.\nAn Verantwortliche und an alle, die um Frieden ringen.\nSchenke Schutz, Besonnenheit und Wege aus der Eskalation.\n\nWir denken auch an die Trockenheit hier bei uns.\nAn Felder und Gärten, an Tiere und Wälder, an Flüsse und Böden.\nAn Menschen, die Sorge tragen und merken, wie verletzlich unsere Lebensgrundlagen sind.\nSende Regen.\nBewahre, was dürstet.\nUnd lehre uns, achtsam mit deiner Schöpfung umzugehen.\n\nUnd wir bringen dir auch das, was wir heute selbst tun können.\nMach uns aufmerksam für den Menschen neben uns.\nMach uns klar im Denken.\nMach uns friedfertig in unseren Worten.\nMach uns mutig für kleine Schritte, die dem Leben dienen.\n\nDenn das, was ist, hat nicht das letzte Wort.\nDeine Zukunft kommt uns entgegen.\nDarum gehen wir in diesen Tag.\nAmen."
+      "text": "Gott,\ndieser Morgen ist da.\nDie Luft, das Licht, der erste Schritt.\nWir nehmen diesen Tag nicht aus eigener Kraft in die Hand.\nWir legen ihn vor dich.\n\nWir denken an die Menschen, die unter der anhaltenden Krise am Persischen Golf leiden.\nAn alle, deren Leben von Angst, Unsicherheit und den Folgen von Spannungen geprägt ist.\nAn die Menschen weltweit, die die Folgen dieser Krise mittragen.\nAn Verantwortliche und an alle, die um Frieden ringen.\nSchenke Schutz, Besonnenheit und Wege aus der Eskalation.\n\nWir denken auch an die Trockenheit hier bei uns.\nAn Felder und Gärten, an Tiere und Wälder, an Flüsse und Böden.\nAn Menschen, die Sorge tragen und merken, wie verletzlich unsere Lebensgrundlagen sind.\nSende Regen.\nBewahre, was dürstet.\nUnd lehre uns, achtsam mit deiner Schöpfung umzugehen.\n\nUnd wir bringen dir auch das, was wir heute selbst tun können.\nMach uns aufmerksam für den Menschen neben uns.\nMach uns klar im Denken.\nMach uns friedfertig in unseren Worten.\nMach uns mutig für kleine Schritte, die dem Leben dienen.\n\nDenn das, was ist, hat nicht das letzte Wort.\nDeine Zukunft kommt uns entgegen.\nDarum gehen wir in diesen Tag.\nAmen.",
+      "headline": "Morgengebet: Mit offenen Augen und Hoffnung in den Tag"
     },
     "instagram": {
       "caption": "Gott, wir beginnen diesen Tag vor dir.\n\nWir bitten für die Menschen, die unter der anhaltenden Krise am Persischen Golf leiden, und für alle weltweit, die ihre Folgen spüren.\n\nWir bitten auch für die Trockenheit hier bei uns: für Menschen, Tiere, Felder und Wälder.\nSende Regen.\n\nMach uns wach für das, was heute dran ist.\nMach uns friedfertig.\nMach uns mutig.\n\nDenn das Gegenwärtige hat nicht das letzte Wort.\nDeine Zukunft kommt uns entgegen.\nAmen.",
       "carousel": [
         {
-          "text": "Dieser Morgen ist da. Wir legen ihn vor Gott.",
-          "type": "text"
+          "type": "text",
+          "text": "Dieser Morgen ist da. Wir legen ihn vor Gott."
         },
         {
-          "text": "Wir bitten für Menschen, die unter der anhaltenden Krise am Persischen Golf leiden.",
-          "type": "text"
+          "type": "text",
+          "text": "Wir bitten für Menschen, die unter der anhaltenden Krise am Persischen Golf leiden."
         },
         {
-          "text": "Wir bitten für alle weltweit, die ihre Folgen spüren.",
-          "type": "text"
+          "type": "text",
+          "text": "Wir bitten für alle weltweit, die ihre Folgen spüren."
         },
         {
-          "text": "Wir bitten für die Trockenheit hier bei uns. Sende Regen.",
-          "type": "text"
+          "type": "text",
+          "text": "Wir bitten für die Trockenheit hier bei uns. Sende Regen."
         },
         {
-          "text": "Mach uns wach. Mach uns friedfertig. Mach uns mutig für kleine Schritte des Friedens.",
-          "type": "text"
+          "type": "text",
+          "text": "Mach uns wach. Mach uns friedfertig. Mach uns mutig für kleine Schritte des Friedens."
         }
       ]
     },
@@ -109,10 +109,7 @@
   "qa": {
     "approved": false,
     "warnings": [
-      "Tagesaktuelle Morgenprüfung für den 16.08.2026 vor Freigabe erforderlich.",
-      "Die Formulierung \"anhaltende Krise am Persischen Golf\" muss vor Freigabe an eine belastbare aktuelle Lage rückgebunden werden.",
-      "Mindestens zwei konkrete aktuelle Situationen sind vorbereitet, aber nicht auf den Morgen des Veröffentlichungstags final verifiziert.",
-      "Visual mit Persischem Golf nur als ruhige, nicht-journalistische oder irreführend konkrete Krisendarstellung verwenden."
+      "Current-event or local factual details are still required. Verify that no details were invented."
     ]
   },
   "metadata": {
