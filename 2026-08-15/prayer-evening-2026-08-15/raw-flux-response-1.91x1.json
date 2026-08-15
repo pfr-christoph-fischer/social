@@ -1,0 +1,44 @@
+{
+  "delivery_url": "https://delivery.us4.bfl.ai/durable/2026081514/5e1f69ea-538b-4d66-962e-9be995966f07/b9/838723324049f9/324049f97b744cfba0f46eb7007c282d/sample.jpeg?se=2026-08-15T15%3A07%3A18Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=SAQH/y1%2B6TBP5IKqFyxT%2BPVjvrlRCIBfSZV/Fsbsjqg%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "94998778-8dd1-42b0-abcc-44a9c5885533",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "94998778-8dd1-42b0-abcc-44a9c5885533",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "94998778-8dd1-42b0-abcc-44a9c5885533",
+      "status": "Ready",
+      "result": {
+        "start_time": 1786805837.0342221,
+        "prompt": "Eine drückende Sommerhitze über einer Streuobstwiese, das Gras schon ganz vertrocknet., no text, no letters, no typography, no logo, no watermark",
+        "seed": 772174882,
+        "sample": "https://delivery.us4.bfl.ai/durable/2026081514/5e1f69ea-538b-4d66-962e-9be995966f07/b9/838723324049f9/324049f97b744cfba0f46eb7007c282d/sample.jpeg?se=2026-08-15T15%3A07%3A18Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=SAQH/y1%2B6TBP5IKqFyxT%2BPVjvrlRCIBfSZV/Fsbsjqg%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "94998778-8dd1-42b0-abcc-44a9c5885533",
+    "polling_url": "https://api.us4.bfl.ai/v1/get_result?id=94998778-8dd1-42b0-abcc-44a9c5885533",
+    "cost": 1.4000000000000001,
+    "input_mp": 0,
+    "output_mp": 0.72
+  }
+}
