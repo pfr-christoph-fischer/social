@@ -10,54 +10,100 @@
   },
   "editorial_core": {
     "title": "Neuer Wochenspruch: 11. Sonntag nach Trinitatis",
-    "main_message": "Ruhiges Motiv, wenig Text im Bild, meditativer Begleittext.",
+    "main_message": "Der Wochenspruch eröffnet die Woche mit einem stillen Impuls über Demut und Gnade.",
     "audience": "breite Öffentlichkeit",
     "tone": [
       "klar",
       "ruhig",
-      "zugänglich"
+      "zugänglich",
+      "meditativ"
     ],
     "source_notes": [
       "Goal: Den neuen Wochenspruch als ruhigen Auftakt der liturgischen Woche veröffentlichen.",
-      "Column: Bibel und Spiritualität",
       "Production mode: für Monate im Voraus vollständig vorproduzierbar",
       "Structure: Wochenspruch | ein Bild oder eine Beobachtung | ein meditativer Satz | offene Schlussfrage oder Segenswunsch",
-      "AI support notes: meditativer Rohentwurf | KI-Bildprompt | Reel-Sprechtext | Alt-Text",
-      "Liturgical source: https://kirchenjahr.pfarr.tools/api/jahr/2026 (2026-08-16, $.Tage['2026-08-16'])"
+      "Wochenspruch exakt verwenden: Gott widersteht den Hochmütigen, aber den Demütigen gibt er Gnade. (1. Petr 5,5b)",
+      "Liturgischer Kontext: 11. Sonntag nach Trinitatis, Thema Pharisäer und Zöllner"
     ]
   },
   "platforms": {
     "facebook": {
-      "text": "",
-      "headline": ""
+      "text": "„Gott widersteht den Hochmütigen, aber den Demütigen gibt er Gnade.“\n1. Petr 5,5b\n\nManchmal sind es die stillen Bilder, die viel sagen: ein Weg am frühen Morgen, noch feucht vom Tau. Nichts drängt sich in den Vordergrund. Alles ist einfach da.\n\nDer Wochenspruch für diese Woche führt an genau so einen Ort im Inneren. Er lenkt den Blick weg vom Vergleichen, weg vom Sich-selbst-Großmachen. Demut heißt nicht, sich kleinzureden. Demut heißt: ehrlich werden. Vor Gott muss ich keine Rolle spielen. Ich muss nicht glänzen. Ich darf kommen, wie ich bin.\n\nGnade wächst da, wo Menschen offen werden. Wo sie nicht alles im Griff haben müssen. Wo sie wissen: Ich lebe nicht aus meiner Leistung allein.\n\nVielleicht beginnt diese Woche gut, wenn wir einen Moment still werden und uns fragen: Wo kann ich loslassen, was mich hart macht?\n\nGottes Gnade begleite dich in diese neue Woche.",
+      "headline": "Neuer Wochenspruch zur Woche"
     },
     "instagram": {
-      "caption": "",
-      "carousel": []
+      "caption": "„Gott widersteht den Hochmütigen, aber den Demütigen gibt er Gnade.“\n1. Petr 5,5b\n\nEin stiller Morgen. Ein Weg. Klare Luft.\n\nDieser Wochenspruch lädt dazu ein, nichts darstellen zu müssen. Vor Gott dürfen wir ehrlich sein. Nicht größer. Nicht besser. Einfach wahr.\n\nDemut macht nicht klein. Sie macht frei.\n\nWas kannst du in dieser Woche loslassen?\n\n#Wochenspruch #Kirchenjahr #Gnade #Demut #NeueWoche",
+      "carousel": [
+        {
+          "type": "image",
+          "text": "Wochenspruch der Woche: 1. Petr 5,5b"
+        },
+        {
+          "type": "text",
+          "text": "„Gott widersteht den Hochmütigen, aber den Demütigen gibt er Gnade.“"
+        },
+        {
+          "type": "text",
+          "text": "Ein stiller Weg am Morgen. Nichts muss sich beweisen."
+        },
+        {
+          "type": "text",
+          "text": "Demut macht nicht klein. Sie macht frei zur Ehrlichkeit vor Gott."
+        },
+        {
+          "type": "text",
+          "text": "Was kannst du in dieser Woche loslassen?"
+        }
+      ]
     },
     "mastodon": {
-      "text": ""
+      "text": "„Gott widersteht den Hochmütigen, aber den Demütigen gibt er Gnade.“ (1. Petr 5,5b)\n\nEin stiller Morgen. Ein Weg ohne Eile.\nDieser Wochenspruch erinnert: Vor Gott muss ich nichts darstellen. Ehrlichkeit ist genug.\n\nWas kannst du heute loslassen?"
+    },
+    "bluesky": {
+      "text": "„Gott widersteht den Hochmütigen, aber den Demütigen gibt er Gnade.“ (1. Petr 5,5b)\n\nEin stiller Impuls zum Wochenbeginn: Vor Gott muss ich nichts darstellen. Demut macht nicht klein. Sie macht frei.\n\nWas kannst du heute loslassen?"
     },
     "story": {
-      "slides": []
+      "slides": [
+        {
+          "text": "Neuer Wochenspruch"
+        },
+        {
+          "text": "„Gott widersteht den Hochmütigen, aber den Demütigen gibt er Gnade.“\n1. Petr 5,5b"
+        },
+        {
+          "text": "Ein stiller Weg am Morgen. Nichts muss sich beweisen."
+        },
+        {
+          "text": "Demut macht nicht klein. Sie macht frei."
+        },
+        {
+          "text": "Was kannst du in dieser Woche loslassen?"
+        }
+      ]
     },
     "reel": {
-      "hook": "",
-      "script": "",
-      "shots": [],
-      "duration_seconds": 0
+      "hook": "Ein stiller Satz für den Beginn der Woche.",
+      "script": "„Gott widersteht den Hochmütigen, aber den Demütigen gibt er Gnade.“\nSo beginnt diese Woche.\nVielleicht wie ein stiller Morgenweg.\nKlare Luft. Wenig Lärm.\nDieser Satz lädt ein, nichts darstellen zu müssen.\nVor Gott darf ich ehrlich sein.\nNicht größer. Nicht besser.\nEinfach ich.\nDemut macht nicht klein.\nSie öffnet Raum für Gnade.\nVielleicht nimmst du diesen Gedanken mit in die Woche:\nWas kannst du loslassen, damit dein Herz leichter wird?",
+      "shots": [
+        "Nahaufnahme von taufeuchten Gräsern im Morgenlicht",
+        "Langsamer Blick auf einen stillen Weg",
+        "Licht zwischen Bäumen oder über offenem Feld",
+        "Ruhige Detailaufnahme von Händen oder atmender Stille ohne Gesichtszwang",
+        "Abblende in weiches Morgenlicht"
+      ],
+      "duration_seconds": 24
     }
   },
   "visual": {
-    "concept": "",
-    "flux_prompt": "",
-    "negative_prompt": "text, letters, logo, watermark",
+    "concept": "Ruhiges Naturmotiv am frühen Morgen: ein schmaler Weg, Tau auf Gräsern, weiches Licht. Das Bild soll Stille, Ehrlichkeit und einen unaufgeregten Wochenbeginn ausstrahlen.",
+    "flux_prompt": "Fotorealistisches ruhiges Naturmotiv am frühen Morgen, schmaler Weg durch Wiese oder zwischen Bäumen, Tau auf Gräsern, weiches goldenes Morgenlicht, leichte Nebelstimmung, klare natürliche Farben, meditative Atmosphäre, viel negativer Raum, unaufgeregte Komposition, hochwertig, authentisch, keine Menschen im Vordergrund",
+    "negative_prompt": "text, letters, logo, watermark, typography, caption, poster, signage, crowd, dramatic storm, surreal elements, oversaturated colors",
     "formats": [
       "4:5",
       "9:16",
       "1.91:1"
     ],
-    "alt_text": ""
+    "alt_text": "Ein schmaler Weg führt durch eine stille Landschaft im weichen Morgenlicht. Auf den Gräsern liegt Tau, die Farben sind zurückhaltend und warm. Das Bild wirkt ruhig und offen."
   },
   "qa": {
     "warnings": [
@@ -66,8 +112,8 @@
     "approved": false
   },
   "metadata": {
-    "model": "",
-    "generated_at": "",
+    "model": "gpt-5.4-2026-03-05",
+    "generated_at": "2026-08-15T15:07:04.532Z",
     "prompt_version": "1.0",
     "assets": []
   }
