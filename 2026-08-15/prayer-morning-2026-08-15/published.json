@@ -27,5 +27,66 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "prayer-morning-2026-08-15",
+    "contentDate": "2026-08-15",
+    "platform": "instagram",
+    "format": "default",
+    "scheduledAt": "2026-08-15T05:15:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Gott,\nwir beginnen diesen Tag vor dir.\n\nWir denken an Menschen in der Ukraine, die nach neuen russischen Angriffen zwischen Sirenen und Trümmern aufwachen.\nWir denken an Familien im Gazastreifen, wo Krankenhäuser und medizinische Hilfe fehlen und Helfende bis an die Grenze gehen.\nWir denken auch an die Trockenheit in Baden-Württemberg, an Flüsse mit wenig Wasser und an alle, die jetzt Verantwortung tragen.\n\nLass uns hinsehen, ohne zu verzweifeln.\nGib den Leidenden Schutz.\nGib den Helfenden Kraft.\nUnd gib uns Mut zu dem Guten, das heute möglich ist.\n\nDeine Zukunft kommt uns entgegen.\nDarum gehen wir hoffnungsvoll in diesen Tag.\nAmen.",
+    "assets": [
+      "render-instagram-feed-01.png",
+      "render-instagram-feed-02.png",
+      "render-instagram-feed-03.png",
+      "render-instagram-feed-04.png",
+      "render-instagram-feed-05.png"
+    ],
+    "altTexts": [
+      "Ein heller Raum am Morgen. Auf einem schlichten Tisch steht eine Schale mit Wasser nahe einem offenen Fenster. Weiches Licht fällt herein. Die Szene wirkt still, wach und hoffnungsvoll."
+    ],
+    "id": "66cfd98b-2a13-4baf-a395-d0a06b0e4646",
+    "attemptCount": 1,
+    "remoteId": "18130805245635566",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T18:14:30.391Z",
+    "updatedAt": "2026-08-15T05:15:52.604Z",
+    "responseMetadata": {
+      "mediaCount": 5,
+      "mediaType": "CAROUSEL",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "prayer-morning-2026-08-15",
+    "contentDate": "2026-08-15",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-08-15T05:15:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Gott, wir beginnen diesen Tag vor dir. Wir denken an Menschen in der Ukraine nach neuen russischen Angriffen. An Familien im Gazastreifen, wo medizinische Versorgung fehlt. Und an die Trockenheit in Baden-Württemberg mit Flüssen auf sehr niedrigem Stand. Lass uns die Not sehen, ohne hart zu werden. Gib Schutz, Kraft und Mut für Schritte zum Frieden heute. Amen.",
+    "assets": [
+      "render-facebook-mastodon-01.png"
+    ],
+    "altTexts": [
+      "Ein heller Raum am Morgen. Auf einem schlichten Tisch steht eine Schale mit Wasser nahe einem offenen Fenster. Weiches Licht fällt herein. Die Szene wirkt still, wach und hoffnungsvoll."
+    ],
+    "id": "031d3617-436a-41b9-b6c2-c7c10e56f92c",
+    "attemptCount": 1,
+    "remoteId": "117097821240306058",
+    "remoteUrl": "https://kirche.social/@christoph/117097821240306058",
+    "lastError": null,
+    "createdAt": "2026-08-14T18:14:30.422Z",
+    "updatedAt": "2026-08-15T05:15:54.057Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
