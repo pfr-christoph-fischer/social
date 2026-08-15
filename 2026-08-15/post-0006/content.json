@@ -10,7 +10,7 @@
   },
   "editorial_core": {
     "title": "Predigt-Preview auf 11. Sonntag nach Trinitatis",
-    "main_message": "Erst nach Fertigstellung der Predigt: eine Spannung, eine Frage und eine Einladung.",
+    "main_message": "Eine Einladung zur Sommerpredigtreihe: unter dem Motto \"Himmlische Werbung\" verschiedene Pfarrer:innen zu Werbeslogans hören, andere Gemeinde entdecken und die Buntheit der Kirche im Oberen Gäu feiern. Ich selbst werde unter dem Motto \"Ich liebe es\" in Bondorf einen Burger essen, äh, predigen.",
     "audience": "[TODO: define audience after current inputs are available]",
     "tone": [
       "klar",
@@ -30,12 +30,17 @@
   },
   "platforms": {
     "facebook": {
-      "text": "",
-      "headline": ""
+      "headline": "",
+      "text": ""
     },
     "instagram": {
       "caption": "",
-      "carousel": []
+      "carousel": [
+        {
+          "text": "",
+          "type": "content"
+        }
+      ]
     },
     "mastodon": {
       "text": ""
@@ -44,7 +49,11 @@
       "text": ""
     },
     "story": {
-      "slides": []
+      "slides": [
+        {
+          "text": ""
+        }
+      ]
     },
     "reel": {
       "hook": "",
@@ -65,13 +74,13 @@
     "alt_text": ""
   },
   "qa": {
+    "approved": false,
     "warnings": [
       "Alt text must be completed before approval",
       "Current source inputs are still required before publication",
       "Predigt-Preview requires sermon input before final drafting",
       "Missing sermon input for Predigt-Preview"
-    ],
-    "approved": false
+    ]
   },
   "metadata": {
     "model": "gpt-5.4",
