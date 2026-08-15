@@ -1,0 +1,44 @@
+{
+  "delivery_url": "https://delivery.us2.bfl.ai/durable/2026081515/5e1f69ea-538b-4d66-962e-9be995966f07/ad/322781d116abf2/d116abf2b5ec421783fa504b42b67761/sample.jpeg?se=2026-08-15T15%3A15%3A22Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=gglwbL1tNSnKKA6ibgrldOoc/g/Iw6NTgisgYVpoemY%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "076c1432-c520-4a5c-b86d-e302f58cbadd",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "076c1432-c520-4a5c-b86d-e302f58cbadd",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "076c1432-c520-4a5c-b86d-e302f58cbadd",
+      "status": "Ready",
+      "result": {
+        "start_time": 1786806320.9347603,
+        "prompt": "Editorial photography, calm coastal view at the Persian Gulf, wide horizon, quiet water surface, subtle distant ships, warm natural morning light, restrained and contemplative atmosphere, no dramatic conflict scene, realistic, humane, globally connected yet prayerful mood, hopeful without kitsch, clean composition, no text, no letters, no typography, no logo, no watermark",
+        "seed": 881313331,
+        "sample": "https://delivery.us2.bfl.ai/durable/2026081515/5e1f69ea-538b-4d66-962e-9be995966f07/ad/322781d116abf2/d116abf2b5ec421783fa504b42b67761/sample.jpeg?se=2026-08-15T15%3A15%3A22Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=gglwbL1tNSnKKA6ibgrldOoc/g/Iw6NTgisgYVpoemY%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "076c1432-c520-4a5c-b86d-e302f58cbadd",
+    "polling_url": "https://api.us2.bfl.ai/v1/get_result?id=076c1432-c520-4a5c-b86d-e302f58cbadd",
+    "cost": 1.5,
+    "input_mp": 0,
+    "output_mp": 1.98
+  }
+}
