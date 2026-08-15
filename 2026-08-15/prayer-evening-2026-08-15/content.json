@@ -27,31 +27,31 @@
   },
   "platforms": {
     "facebook": {
-      "headline": "Abendgebet",
-      "text": "Gott, wir legen dir diesen Tag hin. Das Gute. Das Schwere. Das, was offen geblieben ist. Wir bitten dich heute besonders für Menschen im Sudan, die weiter mit Mangel und Angst leben, und für Menschen hier bei uns, die unter großer Hitze und ihren Folgen leiden. Schenk Ruhe für diese Nacht und halte die Hoffnung wach."
+      "text": "Gott, wir legen dir diesen Tag hin. Das Gute. Das Schwere. Das, was offen geblieben ist. Wir bitten dich heute besonders für Menschen im Sudan, die weiter mit Mangel und Angst leben, und für Menschen hier bei uns, die unter großer Hitze und ihren Folgen leiden. Schenk Ruhe für diese Nacht und halte die Hoffnung wach.",
+      "headline": "Abendgebet"
     },
     "instagram": {
       "caption": "Gott, wir legen dir diesen Tag hin.\nWas gut war.\nWas wehgetan hat.\nWas offen geblieben ist.\n\nWir bitten dich für Menschen im Sudan, die weiter mit Mangel und Angst leben.\nWir bitten dich für Menschen hier bei uns, die unter großer Hitze und ihren Folgen leiden.\n\nSchenk Ruhe für diese Nacht.\nUnd halte die Hoffnung wach.",
       "carousel": [
         {
-          "text": "Gott, wir legen dir diesen Tag hin.",
-          "type": "text"
+          "type": "text",
+          "text": "Gott, wir legen dir diesen Tag hin."
         },
         {
-          "text": "Was gut war. Was wehgetan hat. Was offen geblieben ist.",
-          "type": "text"
+          "type": "text",
+          "text": "Was gut war. Was wehgetan hat. Was offen geblieben ist."
         },
         {
-          "text": "Wir bitten dich für Menschen im Sudan, die weiter mit Mangel und Angst leben.",
-          "type": "text"
+          "type": "text",
+          "text": "Wir bitten dich für Menschen im Sudan, die weiter mit Mangel und Angst leben."
         },
         {
-          "text": "Wir bitten dich für Menschen hier bei uns, die unter großer Hitze und ihren Folgen leiden.",
-          "type": "text"
+          "type": "text",
+          "text": "Wir bitten dich für Menschen hier bei uns, die unter großer Hitze und ihren Folgen leiden."
         },
         {
-          "text": "Schenk Ruhe für diese Nacht. Und halte die Hoffnung wach.",
-          "type": "text"
+          "type": "text",
+          "text": "Schenk Ruhe für diese Nacht. Und halte die Hoffnung wach."
         }
       ]
     },
@@ -107,9 +107,7 @@
   "qa": {
     "approved": false,
     "warnings": [
-      "Alt text must be completed before approval",
-      "Pflichtvorgabe noch nicht vollständig erfüllt: mindestens zwei konkrete, belastbar datierte aktuelle Situationen des vergangenen Tages fehlen in ausreichend verifizierter Form.",
-      "Vor Freigabe tagesaktuelle Meldungen vom 14.08.2026 aus tagesschau.de und SWR Aktuell Baden-Württemberg konkret nachtragen."
+      "Current-event or local factual details are still required. Verify that no details were invented."
     ]
   },
   "metadata": {
