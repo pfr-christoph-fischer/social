@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-08-15",
+    "contentDate": "2026-08-15",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-08-15T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Kommt, lasst uns anbeten und knien und niederfallen vor dem HERRN, der uns gemacht hat.",
+    "assets": [
+      "render-instagram-story-01.png"
+    ],
+    "altTexts": [
+      "Kommt, lasst uns anbeten und knien und niederfallen vor dem HERRN, der uns gemacht hat."
+    ],
+    "id": "39091148-9244-4b58-aeb3-9a56e9503f36",
+    "attemptCount": 1,
+    "remoteId": "18113191612971439",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:44:17.826Z",
+    "updatedAt": "2026-08-15T05:00:24.510Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-08-15",
+    "contentDate": "2026-08-15",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-08-15T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Kommt, lasst uns anbeten und knien und niederfallen vor dem HERRN, der uns gemacht hat.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Kommt, lasst uns anbeten und knien und niederfallen vor dem HERRN, der uns gemacht hat."
+    ],
+    "id": "c247fa56-5752-4eaa-aebe-8b9a52a915f7",
+    "attemptCount": 1,
+    "remoteId": "117097760430084201",
+    "remoteUrl": "https://kirche.social/@christoph/117097760430084201",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:44:17.828Z",
+    "updatedAt": "2026-08-15T05:00:26.163Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
