@@ -1,0 +1,36 @@
+{
+  "delivery_url": "https://delivery.us2.bfl.ai/durable/2026081510/5e1f69ea-538b-4d66-962e-9be995966f07/ce/7520775ce7f029/5ce7f0298bc147d8b6228dc9a7e85add/sample.jpeg?se=2026-08-15T10%3A22%3A32Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=DJw47BJZokCz4FFc5A%2B5uGzrk6iWsME%2B41U6ejoQuwA%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "62efeee2-b11d-49f4-bf87-0f320cd10ec8",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "62efeee2-b11d-49f4-bf87-0f320cd10ec8",
+      "status": "Ready",
+      "result": {
+        "start_time": 1786788750.9603932,
+        "prompt": "Sommerliche Szene vor einer ländlichen Kirche im Oberen Gäu, einladende Atmosphäre, freundliches warmes Licht, moderne plakative Werbeästhetik ohne Markenlogos, klare grafische Flächen in Himmelblau und sonnigen Gelbtönen, offene Wege, lebendige aber ruhige Komposition, subtil humorvoller Charakter, hochwertige Fotografie mit editorial look, community feeling, no text in image",
+        "seed": 1013280052,
+        "sample": "https://delivery.us2.bfl.ai/durable/2026081510/5e1f69ea-538b-4d66-962e-9be995966f07/ce/7520775ce7f029/5ce7f0298bc147d8b6228dc9a7e85add/sample.jpeg?se=2026-08-15T10%3A22%3A32Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=DJw47BJZokCz4FFc5A%2B5uGzrk6iWsME%2B41U6ejoQuwA%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "62efeee2-b11d-49f4-bf87-0f320cd10ec8",
+    "polling_url": "https://api.us2.bfl.ai/v1/get_result?id=62efeee2-b11d-49f4-bf87-0f320cd10ec8",
+    "cost": 1.4000000000000001,
+    "input_mp": 0,
+    "output_mp": 0.72
+  }
+}

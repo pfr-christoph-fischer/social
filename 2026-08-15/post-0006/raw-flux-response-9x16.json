@@ -1,0 +1,60 @@
+{
+  "delivery_url": "https://delivery.eu2.bfl.ai/durable/2026081510/5e1f69ea-538b-4d66-962e-9be995966f07/d3/7560338df3b36f/8df3b36f31ea493094f62eb76f076a6c/sample.jpeg?se=2026-08-15T10%3A22%3A36Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=/QsUjo1tuSmn4augp7o9aHKjw9dDGzWv2rsCdBxQa0A%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "cfeee838-8564-4ecd-87e7-c8d4aabad40c",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "cfeee838-8564-4ecd-87e7-c8d4aabad40c",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "cfeee838-8564-4ecd-87e7-c8d4aabad40c",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "cfeee838-8564-4ecd-87e7-c8d4aabad40c",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "cfeee838-8564-4ecd-87e7-c8d4aabad40c",
+      "status": "Ready",
+      "result": {
+        "start_time": 1786788754.570189,
+        "prompt": "Sommerliche Szene vor einer ländlichen Kirche im Oberen Gäu, einladende Atmosphäre, freundliches warmes Licht, moderne plakative Werbeästhetik ohne Markenlogos, klare grafische Flächen in Himmelblau und sonnigen Gelbtönen, offene Wege, lebendige aber ruhige Komposition, subtil humorvoller Charakter, hochwertige Fotografie mit editorial look, community feeling, no text in image",
+        "seed": 1158030028,
+        "sample": "https://delivery.eu2.bfl.ai/durable/2026081510/5e1f69ea-538b-4d66-962e-9be995966f07/d3/7560338df3b36f/8df3b36f31ea493094f62eb76f076a6c/sample.jpeg?se=2026-08-15T10%3A22%3A36Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=/QsUjo1tuSmn4augp7o9aHKjw9dDGzWv2rsCdBxQa0A%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "cfeee838-8564-4ecd-87e7-c8d4aabad40c",
+    "polling_url": "https://api.eu2.bfl.ai/v1/get_result?id=cfeee838-8564-4ecd-87e7-c8d4aabad40c",
+    "cost": 1.5,
+    "input_mp": 0,
+    "output_mp": 1.98
+  }
+}

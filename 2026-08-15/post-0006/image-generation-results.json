@@ -1,0 +1,55 @@
+{
+  "generated_at": "2026-08-15T10:12:40.602Z",
+  "jobs": [
+    {
+      "assetPath": "content/2026-08-15/post-0006/assets/background-1.91x1.webp",
+      "aspectRatio": "1.91:1",
+      "height": 630,
+      "mimeType": "image/jpeg",
+      "rawResponsePath": "content/2026-08-15/post-0006/raw-flux-response-1.91x1.json",
+      "request": {
+        "aspectRatio": "1.91:1",
+        "model": "flux-2-klein-4b",
+        "negativePrompt": "text, letters, logo, watermark, typography",
+        "outputFormat": "webp",
+        "prompt": "Sommerliche Szene vor einer ländlichen Kirche im Oberen Gäu, einladende Atmosphäre, freundliches warmes Licht, moderne plakative Werbeästhetik ohne Markenlogos, klare grafische Flächen in Himmelblau und sonnigen Gelbtönen, offene Wege, lebendige aber ruhige Komposition, subtil humorvoller Charakter, hochwertige Fotografie mit editorial look, community feeling, no text in image"
+      },
+      "status": "succeeded",
+      "width": 1200
+    },
+    {
+      "assetPath": "content/2026-08-15/post-0006/assets/background-9x16.webp",
+      "aspectRatio": "9:16",
+      "height": 1920,
+      "mimeType": "image/jpeg",
+      "rawResponsePath": "content/2026-08-15/post-0006/raw-flux-response-9x16.json",
+      "request": {
+        "aspectRatio": "9:16",
+        "model": "flux-2-klein-4b",
+        "negativePrompt": "text, letters, logo, watermark, typography",
+        "outputFormat": "webp",
+        "prompt": "Sommerliche Szene vor einer ländlichen Kirche im Oberen Gäu, einladende Atmosphäre, freundliches warmes Licht, moderne plakative Werbeästhetik ohne Markenlogos, klare grafische Flächen in Himmelblau und sonnigen Gelbtönen, offene Wege, lebendige aber ruhige Komposition, subtil humorvoller Charakter, hochwertige Fotografie mit editorial look, community feeling, no text in image"
+      },
+      "status": "succeeded",
+      "width": 1080
+    },
+    {
+      "assetPath": "content/2026-08-15/post-0006/assets/background-4x5.webp",
+      "aspectRatio": "4:5",
+      "height": 1350,
+      "mimeType": "image/jpeg",
+      "rawResponsePath": "content/2026-08-15/post-0006/raw-flux-response-4x5.json",
+      "request": {
+        "aspectRatio": "4:5",
+        "model": "flux-2-klein-4b",
+        "negativePrompt": "text, letters, logo, watermark, typography",
+        "outputFormat": "webp",
+        "prompt": "Sommerliche Szene vor einer ländlichen Kirche im Oberen Gäu, einladende Atmosphäre, freundliches warmes Licht, moderne plakative Werbeästhetik ohne Markenlogos, klare grafische Flächen in Himmelblau und sonnigen Gelbtönen, offene Wege, lebendige aber ruhige Komposition, subtil humorvoller Charakter, hochwertige Fotografie mit editorial look, community feeling, no text in image"
+      },
+      "status": "succeeded",
+      "width": 1080
+    }
+  ],
+  "model": "flux-2-klein-4b",
+  "post_id": "post-0006"
+}

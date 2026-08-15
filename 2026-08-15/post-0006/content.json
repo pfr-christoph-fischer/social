@@ -110,15 +110,19 @@
     "alt_text": "Sommerliche Szene mit einer Kirche in ländlicher Umgebung und offener, einladender Atmosphäre als Bildidee für eine Predigtreihe."
   },
   "qa": {
-    "approved": true,
     "warnings": [
       "Current-event or local factual details are still required. Verify that no details were invented."
-    ]
+    ],
+    "approved": true
   },
   "metadata": {
     "model": "gpt-5.6",
     "generated_at": "2026-08-05T17:07:47.960Z",
     "prompt_version": "1.0",
-    "assets": []
+    "assets": [
+      "assets/background-1.91x1.webp",
+      "assets/background-9x16.webp",
+      "assets/background-4x5.webp"
+    ]
   }
 }
