@@ -84,5 +84,91 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-08-15",
+    "contentDate": "2026-08-15",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-08-15T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Kommt, lasst uns anbeten und knien und niederfallen vor dem HERRN, der uns gemacht hat.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Kommt, lasst uns anbeten und knien und niederfallen vor dem HERRN, der uns gemacht hat."
+    ],
+    "id": "bfa2a484-07b9-40c9-afa1-a6ae945162e0",
+    "attemptCount": 1,
+    "remoteId": "18107720650841261",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:44:17.830Z",
+    "updatedAt": "2026-08-15T05:00:36.349Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-08-15",
+    "contentDate": "2026-08-15",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-08-15T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Kommt, lasst uns anbeten und knien und niederfallen vor dem HERRN, der uns gemacht hat.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Kommt, lasst uns anbeten und knien und niederfallen vor dem HERRN, der uns gemacht hat."
+    ],
+    "id": "e77e3c5e-77b4-4e4a-a286-8874ea28515e",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3mt3vcqlmit2y",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3mt3vcqlmit2y",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:44:17.832Z",
+    "updatedAt": "2026-08-15T05:00:38.437Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-08-15",
+    "contentDate": "2026-08-15",
+    "platform": "linkedin",
+    "format": "default",
+    "scheduledAt": "2026-08-15T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Kommt, lasst uns anbeten und knien und niederfallen vor dem HERRN, der uns gemacht hat.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Kommt, lasst uns anbeten und knien und niederfallen vor dem HERRN, der uns gemacht hat."
+    ],
+    "id": "76a4e465-c0cb-420a-afbb-44b98b5ea6a0",
+    "attemptCount": 1,
+    "remoteId": "urn:li:share:7494256726024839168",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:44:17.835Z",
+    "updatedAt": "2026-08-15T05:00:40.416Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 201
+    },
+    "retryHistory": []
   }
 ]
