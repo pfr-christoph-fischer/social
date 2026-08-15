@@ -1,0 +1,67 @@
+{
+  "id": "kirchenjahr-2026-12-13-3adv",
+  "status": "freigegeben",
+  "needs_input": false,
+  "source": {
+    "calendar_post_id": "kirchenjahr-2026-12-13-3adv",
+    "date": "2026-12-13",
+    "rubric": "Kirchenjahr",
+    "liturgical_source": "https://kirchenjahr.pfarr.tools/api/jahr/2026"
+  },
+  "editorial_core": {
+    "title": "3. Advent",
+    "main_message": "",
+    "audience": "breite Öffentlichkeit",
+    "tone": [
+      "ruhig"
+    ],
+    "source_notes": [
+      "Titel: Der Vorläufer des Herrn"
+    ]
+  },
+  "platforms": {
+    "facebook": {
+      "text": "3. Advent\n\nTitel: Der Vorläufer des Herrn\n\nWochenspruch: „Bereitet dem HERRN den Weg; denn siehe, der HERR kommt gewaltig.“ (Jes 40,3.10)\n\nPsalm: Ps 85,2-8\n\nAltes Testament: Jes 40,1-11\n\nEvangelium: Lk 1,67-79\n\nEpistel: 1. Kor 4,1-5\n\nPredigttext: Lk 1,67-79\n\nLieder: Mit Ernst, o Menschenkinder, EG 10; Die Nacht ist vorgedrungen, EG 16",
+      "headline": "3. Advent"
+    },
+    "instagram": {
+      "caption": "3. Advent\n\nTitel: Der Vorläufer des Herrn\n\nWochenspruch: „Bereitet dem HERRN den Weg; denn siehe, der HERR kommt gewaltig.“ (Jes 40,3.10)\n\nPsalm: Ps 85,2-8\n\nAltes Testament: Jes 40,1-11\n\nEvangelium: Lk 1,67-79\n\nEpistel: 1. Kor 4,1-5\n\nPredigttext: Lk 1,67-79\n\nLieder: Mit Ernst, o Menschenkinder, EG 10; Die Nacht ist vorgedrungen, EG 16",
+      "carousel": []
+    },
+    "mastodon": {
+      "text": "3. Advent\n\nTitel: Der Vorläufer des Herrn\n\nWochenspruch: „Bereitet dem HERRN den Weg; denn siehe, der HERR kommt gewaltig.“ (Jes 40,3.10)\n\nPsalm: Ps 85,2-8\n\nAltes Testament: Jes 40,1-11\n\nEvangelium: Lk 1,67-79\n\nEpistel: 1. Kor 4,1-5\n\nPredigttext: Lk 1,67-79\n\nLieder: Mit Ernst, o Menschenkinder, EG 10; Die Nacht ist vorgedrungen, EG 16"
+    },
+    "bluesky": {
+      "text": "3. Advent\n\nTitel: Der Vorläufer des Herrn\n\nWochenspruch: „Bereitet dem HERRN den Weg; denn siehe, der HERR kommt gewaltig.“ (Jes 40,3.10)\n\nPsalm: Ps 85,2-8\n\nAltes Testament: Jes 40,1-11\n\nEvangelium: Lk 1,67-79\n\nEpistel: 1. Kor 4,1-5\n\nPredigttext: Lk 1,67-79\n\nLieder: Mit Ernst, o Menschenkinder, EG 10; Die Nacht ist vorgedrungen, EG 16"
+    },
+    "story": {
+      "slides": []
+    },
+    "reel": {
+      "hook": "",
+      "script": "",
+      "shots": [],
+      "duration_seconds": 0
+    }
+  },
+  "visual": {
+    "concept": "kirchenjahr:purple",
+    "flux_prompt": "",
+    "negative_prompt": "text, letters, logo, watermark",
+    "formats": [
+      "1:1",
+      "9:16"
+    ],
+    "alt_text": "3. Advent"
+  },
+  "qa": {
+    "warnings": [],
+    "approved": true
+  },
+  "metadata": {
+    "model": "",
+    "generated_at": "2026-08-15T16:59:12.483Z",
+    "prompt_version": "kirchenjahr-1.0",
+    "assets": []
+  }
+}

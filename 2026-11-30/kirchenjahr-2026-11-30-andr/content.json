@@ -1,0 +1,65 @@
+{
+  "id": "kirchenjahr-2026-11-30-andr",
+  "status": "freigegeben",
+  "needs_input": false,
+  "source": {
+    "calendar_post_id": "kirchenjahr-2026-11-30-andr",
+    "date": "2026-11-30",
+    "rubric": "Kirchenjahr",
+    "liturgical_source": "https://kirchenjahr.pfarr.tools/api/jahr/2026"
+  },
+  "editorial_core": {
+    "title": "Tag des Apostels Andreas",
+    "main_message": "",
+    "audience": "breite Öffentlichkeit",
+    "tone": [
+      "ruhig"
+    ],
+    "source_notes": []
+  },
+  "platforms": {
+    "facebook": {
+      "text": "Tag des Apostels Andreas\n\nWochenspruch: „Wie lieblich sind auf den Bergen die Füße des Freudenboten, der da Frieden verkündigt, Gutes predigt, Heil verkündigt, der da sagt zu Zion: Dein Gott ist König!“ (Jes 52,7)\n\nPsalm: Ps 146\n\nAltes Testament: 5. Mose 30,11-14\n\nEvangelium: Joh 1,35-42\n\nEpistel: Röm 10,9-18\n\nPredigttext: Joh 1,35-42\n\nLieder: Die Kirche steht gegründet, EG 264; Die Heiligen uns weit voran, NL 20",
+      "headline": "Tag des Apostels Andreas"
+    },
+    "instagram": {
+      "caption": "Tag des Apostels Andreas\n\nWochenspruch: „Wie lieblich sind auf den Bergen die Füße des Freudenboten, der da Frieden verkündigt, Gutes predigt, Heil verkündigt, der da sagt zu Zion: Dein Gott ist König!“ (Jes 52,7)\n\nPsalm: Ps 146\n\nAltes Testament: 5. Mose 30,11-14\n\nEvangelium: Joh 1,35-42\n\nEpistel: Röm 10,9-18\n\nPredigttext: Joh 1,35-42\n\nLieder: Die Kirche steht gegründet, EG 264; Die Heiligen uns weit voran, NL 20",
+      "carousel": []
+    },
+    "mastodon": {
+      "text": "Tag des Apostels Andreas\n\nWochenspruch: „Wie lieblich sind auf den Bergen die Füße des Freudenboten, der da Frieden verkündigt, Gutes predigt, Heil verkündigt, der da sagt zu Zion: Dein Gott ist König!“ (Jes 52,7)\n\nPsalm: Ps 146\n\nAltes Testament: 5. Mose 30,11-14\n\nEvangelium: Joh 1,35-42\n\nEpistel: Röm 10,9-18\n\nPredigttext: Joh 1,35-42\n\nLieder: Die Kirche steht gegründet, EG 264; Die Heiligen uns weit voran, NL 20"
+    },
+    "bluesky": {
+      "text": "Tag des Apostels Andreas\n\nWochenspruch: „Wie lieblich sind auf den Bergen die Füße des Freudenboten, der da Frieden verkündigt, Gutes predigt, Heil verkündigt, der da sagt zu Zion: Dein Gott ist König!“ (Jes 52,7)\n\nPsalm: Ps 146\n\nAltes Testament: 5. Mose 30,11-14\n\nEvangelium: Joh 1,35-42\n\nEpistel: Röm 10,9-18\n\nPredigttext: Joh 1,35-42\n\nLieder: Die Kirche steht gegründet, EG 264; Die Heiligen uns weit voran, NL 20"
+    },
+    "story": {
+      "slides": []
+    },
+    "reel": {
+      "hook": "",
+      "script": "",
+      "shots": [],
+      "duration_seconds": 0
+    }
+  },
+  "visual": {
+    "concept": "kirchenjahr:red",
+    "flux_prompt": "",
+    "negative_prompt": "text, letters, logo, watermark",
+    "formats": [
+      "1:1",
+      "9:16"
+    ],
+    "alt_text": "Tag des Apostels Andreas"
+  },
+  "qa": {
+    "warnings": [],
+    "approved": true
+  },
+  "metadata": {
+    "model": "",
+    "generated_at": "2026-08-15T16:59:08.822Z",
+    "prompt_version": "kirchenjahr-1.0",
+    "assets": []
+  }
+}

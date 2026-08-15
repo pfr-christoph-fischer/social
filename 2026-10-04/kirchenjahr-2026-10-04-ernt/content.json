@@ -1,0 +1,67 @@
+{
+  "id": "kirchenjahr-2026-10-04-ernt",
+  "status": "freigegeben",
+  "needs_input": false,
+  "source": {
+    "calendar_post_id": "kirchenjahr-2026-10-04-ernt",
+    "date": "2026-10-04",
+    "rubric": "Kirchenjahr",
+    "liturgical_source": "https://kirchenjahr.pfarr.tools/api/jahr/2026"
+  },
+  "editorial_core": {
+    "title": "Erntedank",
+    "main_message": "",
+    "audience": "breite Öffentlichkeit",
+    "tone": [
+      "ruhig"
+    ],
+    "source_notes": [
+      "Titel: Segen und Dank"
+    ]
+  },
+  "platforms": {
+    "facebook": {
+      "text": "Erntedank\n\nTitel: Segen und Dank\n\nWochenspruch: „Aller Augen warten auf dich, und du gibst ihnen ihre Speise zur rechten Zeit.“ (Ps 145,15)\n\nPsalm: Ps 104,1a.10-15.27-30.33\n\nAltes Testament: 5. Mose 8,7-18\n\nEvangelium: Mk 8,1-9\n\nEpistel: 2. Kor 9,6-15\n\nPredigttext: Mk 8,1-9\n\nLieder: Nun preiset alle Gottes Barmherzigkeit, EG 502; Auf, Seele, Gott zu loben, EGE 15\n\nWeitere Proprien an diesem Tag: 18. So n. Trinitatis",
+      "headline": "Erntedank"
+    },
+    "instagram": {
+      "caption": "Erntedank\n\nTitel: Segen und Dank\n\nWochenspruch: „Aller Augen warten auf dich, und du gibst ihnen ihre Speise zur rechten Zeit.“ (Ps 145,15)\n\nPsalm: Ps 104,1a.10-15.27-30.33\n\nAltes Testament: 5. Mose 8,7-18\n\nEvangelium: Mk 8,1-9\n\nEpistel: 2. Kor 9,6-15\n\nPredigttext: Mk 8,1-9\n\nLieder: Nun preiset alle Gottes Barmherzigkeit, EG 502; Auf, Seele, Gott zu loben, EGE 15\n\nWeitere Proprien an diesem Tag: 18. So n. Trinitatis",
+      "carousel": []
+    },
+    "mastodon": {
+      "text": "Erntedank\n\nTitel: Segen und Dank\n\nWochenspruch: „Aller Augen warten auf dich, und du gibst ihnen ihre Speise zur rechten Zeit.“ (Ps 145,15)\n\nPsalm: Ps 104,1a.10-15.27-30.33\n\nAltes Testament: 5. Mose 8,7-18\n\nEvangelium: Mk 8,1-9\n\nEpistel: 2. Kor 9,6-15\n\nPredigttext: Mk 8,1-9\n\nLieder: Nun preiset alle Gottes Barmherzigkeit, EG 502; Auf, Seele, Gott zu loben, EGE 15\n\nWeitere Proprien an diesem Tag: 18. So n. Trinitatis"
+    },
+    "bluesky": {
+      "text": "Erntedank\n\nTitel: Segen und Dank\n\nWochenspruch: „Aller Augen warten auf dich, und du gibst ihnen ihre Speise zur rechten Zeit.“ (Ps 145,15)\n\nPsalm: Ps 104,1a.10-15.27-30.33\n\nAltes Testament: 5. Mose 8,7-18\n\nEvangelium: Mk 8,1-9\n\nEpistel: 2. Kor 9,6-15\n\nPredigttext: Mk 8,1-9\n\nLieder: Nun preiset alle Gottes Barmherzigkeit, EG 502; Auf, Seele, Gott zu loben, EGE 15\n\nWeitere Proprien an diesem Tag: 18. So n. Trinitatis"
+    },
+    "story": {
+      "slides": []
+    },
+    "reel": {
+      "hook": "",
+      "script": "",
+      "shots": [],
+      "duration_seconds": 0
+    }
+  },
+  "visual": {
+    "concept": "kirchenjahr:green",
+    "flux_prompt": "",
+    "negative_prompt": "text, letters, logo, watermark",
+    "formats": [
+      "1:1",
+      "9:16"
+    ],
+    "alt_text": "Erntedank"
+  },
+  "qa": {
+    "warnings": [],
+    "approved": true
+  },
+  "metadata": {
+    "model": "",
+    "generated_at": "2026-08-15T16:58:44.980Z",
+    "prompt_version": "kirchenjahr-1.0",
+    "assets": []
+  }
+}

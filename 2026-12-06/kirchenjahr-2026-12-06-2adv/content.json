@@ -1,0 +1,67 @@
+{
+  "id": "kirchenjahr-2026-12-06-2adv",
+  "status": "freigegeben",
+  "needs_input": false,
+  "source": {
+    "calendar_post_id": "kirchenjahr-2026-12-06-2adv",
+    "date": "2026-12-06",
+    "rubric": "Kirchenjahr",
+    "liturgical_source": "https://kirchenjahr.pfarr.tools/api/jahr/2026"
+  },
+  "editorial_core": {
+    "title": "2. Advent",
+    "main_message": "",
+    "audience": "breite Öffentlichkeit",
+    "tone": [
+      "ruhig"
+    ],
+    "source_notes": [
+      "Titel: Der kommende Erlöser"
+    ]
+  },
+  "platforms": {
+    "facebook": {
+      "text": "2. Advent\n\nTitel: Der kommende Erlöser\n\nWochenspruch: „Seht auf und erhebt eure Häupter, weil sich eure Erlösung naht.“ (Lk 21,28b)\n\nPsalm: Ps 80,2.3b.5-6.15-16.19-20\n\nAltes Testament: Jes 63,15-64,3\n\nEvangelium: Lk 21,25-33\n\nEpistel: Jak 5,7-8(9-11)\n\nPredigttext: Jak 5,7-8(9-11)\n\nLieder: O Heiland, reiß die Himmel auf, EG 7; Es kommt die Zeit, in der die Träume sich erfüllen, EGE 8\n\nWeitere Proprien an diesem Tag: Nikolaustag",
+      "headline": "2. Advent"
+    },
+    "instagram": {
+      "caption": "2. Advent\n\nTitel: Der kommende Erlöser\n\nWochenspruch: „Seht auf und erhebt eure Häupter, weil sich eure Erlösung naht.“ (Lk 21,28b)\n\nPsalm: Ps 80,2.3b.5-6.15-16.19-20\n\nAltes Testament: Jes 63,15-64,3\n\nEvangelium: Lk 21,25-33\n\nEpistel: Jak 5,7-8(9-11)\n\nPredigttext: Jak 5,7-8(9-11)\n\nLieder: O Heiland, reiß die Himmel auf, EG 7; Es kommt die Zeit, in der die Träume sich erfüllen, EGE 8\n\nWeitere Proprien an diesem Tag: Nikolaustag",
+      "carousel": []
+    },
+    "mastodon": {
+      "text": "2. Advent\n\nTitel: Der kommende Erlöser\n\nWochenspruch: „Seht auf und erhebt eure Häupter, weil sich eure Erlösung naht.“ (Lk 21,28b)\n\nPsalm: Ps 80,2.3b.5-6.15-16.19-20\n\nAltes Testament: Jes 63,15-64,3\n\nEvangelium: Lk 21,25-33\n\nEpistel: Jak 5,7-8(9-11)\n\nPredigttext: Jak 5,7-8(9-11)\n\nLieder: O Heiland, reiß die Himmel auf, EG 7; Es kommt die Zeit, in der die Träume sich erfüllen, EGE 8\n\nWeitere Proprien an diesem Tag: Nikolaustag"
+    },
+    "bluesky": {
+      "text": "2. Advent\n\nTitel: Der kommende Erlöser\n\nWochenspruch: „Seht auf und erhebt eure Häupter, weil sich eure Erlösung naht.“ (Lk 21,28b)\n\nPsalm: Ps 80,2.3b.5-6.15-16.19-20\n\nAltes Testament: Jes 63,15-64,3\n\nEvangelium: Lk 21,25-33\n\nEpistel: Jak 5,7-8(9-11)\n\nPredigttext: Jak 5,7-8(9-11)\n\nLieder: O Heiland, reiß die Himmel auf, EG 7; Es kommt die Zeit, in der die Träume sich erfüllen, EGE 8\n\nWeitere Proprien an diesem Tag: Nikolaustag"
+    },
+    "story": {
+      "slides": []
+    },
+    "reel": {
+      "hook": "",
+      "script": "",
+      "shots": [],
+      "duration_seconds": 0
+    }
+  },
+  "visual": {
+    "concept": "kirchenjahr:purple",
+    "flux_prompt": "",
+    "negative_prompt": "text, letters, logo, watermark",
+    "formats": [
+      "1:1",
+      "9:16"
+    ],
+    "alt_text": "2. Advent"
+  },
+  "qa": {
+    "warnings": [],
+    "approved": true
+  },
+  "metadata": {
+    "model": "",
+    "generated_at": "2026-08-15T16:59:10.116Z",
+    "prompt_version": "kirchenjahr-1.0",
+    "assets": []
+  }
+}

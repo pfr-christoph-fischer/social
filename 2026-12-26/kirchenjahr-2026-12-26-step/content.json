@@ -1,0 +1,65 @@
+{
+  "id": "kirchenjahr-2026-12-26-step",
+  "status": "freigegeben",
+  "needs_input": false,
+  "source": {
+    "calendar_post_id": "kirchenjahr-2026-12-26-step",
+    "date": "2026-12-26",
+    "rubric": "Kirchenjahr",
+    "liturgical_source": "https://kirchenjahr.pfarr.tools/api/jahr/2026"
+  },
+  "editorial_core": {
+    "title": "Tag des Erzmärtyrers Stephanus",
+    "main_message": "",
+    "audience": "breite Öffentlichkeit",
+    "tone": [
+      "ruhig"
+    ],
+    "source_notes": []
+  },
+  "platforms": {
+    "facebook": {
+      "text": "Tag des Erzmärtyrers Stephanus\n\nWochenspruch: „Der Tod seiner Heiligen wiegt schwer vor dem HERRN. Dir will ich Dankopfer bringen und des HERRN Namen anrufen.“ (Ps 116,15.17)\n\nPsalm: Ps 31,2-6.8-9.16-17\n\nAltes Testament: 2. Chr 24,19-21\n\nEvangelium: Mt 10,16-22\n\nEpistel: Apg 6,8-15; 7,(1-54)55-60)\n\nPredigttext: Off 7,9-12(13-17)\n\nLieder: Geist des Glaubens, Geist der Stärke, EG 137; Herr, mach uns stark im Mut, der dich bekennt, EG 154\n\nWeitere Proprien an diesem Tag: Christfest II",
+      "headline": "Tag des Erzmärtyrers Stephanus"
+    },
+    "instagram": {
+      "caption": "Tag des Erzmärtyrers Stephanus\n\nWochenspruch: „Der Tod seiner Heiligen wiegt schwer vor dem HERRN. Dir will ich Dankopfer bringen und des HERRN Namen anrufen.“ (Ps 116,15.17)\n\nPsalm: Ps 31,2-6.8-9.16-17\n\nAltes Testament: 2. Chr 24,19-21\n\nEvangelium: Mt 10,16-22\n\nEpistel: Apg 6,8-15; 7,(1-54)55-60)\n\nPredigttext: Off 7,9-12(13-17)\n\nLieder: Geist des Glaubens, Geist der Stärke, EG 137; Herr, mach uns stark im Mut, der dich bekennt, EG 154\n\nWeitere Proprien an diesem Tag: Christfest II",
+      "carousel": []
+    },
+    "mastodon": {
+      "text": "Tag des Erzmärtyrers Stephanus\n\nWochenspruch: „Der Tod seiner Heiligen wiegt schwer vor dem HERRN. Dir will ich Dankopfer bringen und des HERRN Namen anrufen.“ (Ps 116,15.17)\n\nPsalm: Ps 31,2-6.8-9.16-17\n\nAltes Testament: 2. Chr 24,19-21\n\nEvangelium: Mt 10,16-22\n\nEpistel: Apg 6,8-15; 7,(1-54)55-60)\n\nPredigttext: Off 7,9-12(13-17)\n\nLieder: Geist des Glaubens, Geist der Stärke, EG 137; Herr, mach uns stark im Mut, der dich bekennt, EG 154\n\nWeitere Proprien an diesem Tag: Christfest II"
+    },
+    "bluesky": {
+      "text": "Tag des Erzmärtyrers Stephanus\n\nWochenspruch: „Der Tod seiner Heiligen wiegt schwer vor dem HERRN. Dir will ich Dankopfer bringen und des HERRN Namen anrufen.“ (Ps 116,15.17)\n\nPsalm: Ps 31,2-6.8-9.16-17\n\nAltes Testament: 2. Chr 24,19-21\n\nEvangelium: Mt 10,16-22\n\nEpistel: Apg 6,8-15; 7,(1-54)55-60)\n\nPredigttext: Off 7,9-12(13-17)\n\nLieder: Geist des Glaubens, Geist der Stärke, EG 137; Herr, mach uns stark im Mut, der dich bekennt, EG 154\n\nWeitere Proprien an diesem Tag: Christfest II"
+    },
+    "story": {
+      "slides": []
+    },
+    "reel": {
+      "hook": "",
+      "script": "",
+      "shots": [],
+      "duration_seconds": 0
+    }
+  },
+  "visual": {
+    "concept": "kirchenjahr:red",
+    "flux_prompt": "",
+    "negative_prompt": "text, letters, logo, watermark",
+    "formats": [
+      "1:1",
+      "9:16"
+    ],
+    "alt_text": "Tag des Erzmärtyrers Stephanus"
+  },
+  "qa": {
+    "warnings": [],
+    "approved": true
+  },
+  "metadata": {
+    "model": "",
+    "generated_at": "2026-08-15T16:59:21.313Z",
+    "prompt_version": "kirchenjahr-1.0",
+    "assets": []
+  }
+}

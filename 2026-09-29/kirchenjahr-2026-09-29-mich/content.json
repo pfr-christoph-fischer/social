@@ -1,0 +1,65 @@
+{
+  "id": "kirchenjahr-2026-09-29-mich",
+  "status": "freigegeben",
+  "needs_input": false,
+  "source": {
+    "calendar_post_id": "kirchenjahr-2026-09-29-mich",
+    "date": "2026-09-29",
+    "rubric": "Kirchenjahr",
+    "liturgical_source": "https://kirchenjahr.pfarr.tools/api/jahr/2026"
+  },
+  "editorial_core": {
+    "title": "Tag des Erzengels Michael und aller Engel",
+    "main_message": "",
+    "audience": "breite Öffentlichkeit",
+    "tone": [
+      "ruhig"
+    ],
+    "source_notes": []
+  },
+  "platforms": {
+    "facebook": {
+      "text": "Tag des Erzengels Michael und aller Engel\n\nWochenspruch: „Der Engel des HERRN lagert sich um die her, die ihn fürchten, und hilft ihnen heraus.“ (Ps 34,8)\n\nPsalm: Psalm 103,19-22\n\nAltes Testament: 1. Mose 21,8-21\n\nEvangelium: Lk 10,17-20\n\nEpistel: Offb 12,7-12\n\nPredigttext: Offb 12,7-12\n\nLieder: Gott, aller Schöpfung heilger Herr, EG 142; Großer Gott, wir loben dich, EG 331",
+      "headline": "Tag des Erzengels Michael und aller Engel"
+    },
+    "instagram": {
+      "caption": "Tag des Erzengels Michael und aller Engel\n\nWochenspruch: „Der Engel des HERRN lagert sich um die her, die ihn fürchten, und hilft ihnen heraus.“ (Ps 34,8)\n\nPsalm: Psalm 103,19-22\n\nAltes Testament: 1. Mose 21,8-21\n\nEvangelium: Lk 10,17-20\n\nEpistel: Offb 12,7-12\n\nPredigttext: Offb 12,7-12\n\nLieder: Gott, aller Schöpfung heilger Herr, EG 142; Großer Gott, wir loben dich, EG 331",
+      "carousel": []
+    },
+    "mastodon": {
+      "text": "Tag des Erzengels Michael und aller Engel\n\nWochenspruch: „Der Engel des HERRN lagert sich um die her, die ihn fürchten, und hilft ihnen heraus.“ (Ps 34,8)\n\nPsalm: Psalm 103,19-22\n\nAltes Testament: 1. Mose 21,8-21\n\nEvangelium: Lk 10,17-20\n\nEpistel: Offb 12,7-12\n\nPredigttext: Offb 12,7-12\n\nLieder: Gott, aller Schöpfung heilger Herr, EG 142; Großer Gott, wir loben dich, EG 331"
+    },
+    "bluesky": {
+      "text": "Tag des Erzengels Michael und aller Engel\n\nWochenspruch: „Der Engel des HERRN lagert sich um die her, die ihn fürchten, und hilft ihnen heraus.“ (Ps 34,8)\n\nPsalm: Psalm 103,19-22\n\nAltes Testament: 1. Mose 21,8-21\n\nEvangelium: Lk 10,17-20\n\nEpistel: Offb 12,7-12\n\nPredigttext: Offb 12,7-12\n\nLieder: Gott, aller Schöpfung heilger Herr, EG 142; Großer Gott, wir loben dich, EG 331"
+    },
+    "story": {
+      "slides": []
+    },
+    "reel": {
+      "hook": "",
+      "script": "",
+      "shots": [],
+      "duration_seconds": 0
+    }
+  },
+  "visual": {
+    "concept": "kirchenjahr:white",
+    "flux_prompt": "",
+    "negative_prompt": "text, letters, logo, watermark",
+    "formats": [
+      "1:1",
+      "9:16"
+    ],
+    "alt_text": "Tag des Erzengels Michael und aller Engel"
+  },
+  "qa": {
+    "warnings": [],
+    "approved": true
+  },
+  "metadata": {
+    "model": "",
+    "generated_at": "2026-08-15T16:58:41.669Z",
+    "prompt_version": "kirchenjahr-1.0",
+    "assets": []
+  }
+}

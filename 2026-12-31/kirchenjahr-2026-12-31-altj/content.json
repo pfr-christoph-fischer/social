@@ -1,0 +1,67 @@
+{
+  "id": "kirchenjahr-2026-12-31-altj",
+  "status": "freigegeben",
+  "needs_input": false,
+  "source": {
+    "calendar_post_id": "kirchenjahr-2026-12-31-altj",
+    "date": "2026-12-31",
+    "rubric": "Kirchenjahr",
+    "liturgical_source": "https://kirchenjahr.pfarr.tools/api/jahr/2026"
+  },
+  "editorial_core": {
+    "title": "Altjahresabend",
+    "main_message": "",
+    "audience": "breite Öffentlichkeit",
+    "tone": [
+      "ruhig"
+    ],
+    "source_notes": [
+      "Titel: Zeit vor Gott"
+    ]
+  },
+  "platforms": {
+    "facebook": {
+      "text": "Altjahresabend\n\nTitel: Zeit vor Gott\n\nWochenspruch: „Meine Zeit steht in deinen Händen.“ (Ps 31,16a)\n\nPsalm: Ps 121\n\nAltes Testament: Pred 3,1-15\n\nEvangelium: Mt 13,24-30\n\nEpistel: Röm 8,31b-39\n\nPredigttext: 2. Mose 13,20-22\n\nLieder: Nun lasst uns gehn und treten, EG 58; Von guten Mächten, EG 65",
+      "headline": "Altjahresabend"
+    },
+    "instagram": {
+      "caption": "Altjahresabend\n\nTitel: Zeit vor Gott\n\nWochenspruch: „Meine Zeit steht in deinen Händen.“ (Ps 31,16a)\n\nPsalm: Ps 121\n\nAltes Testament: Pred 3,1-15\n\nEvangelium: Mt 13,24-30\n\nEpistel: Röm 8,31b-39\n\nPredigttext: 2. Mose 13,20-22\n\nLieder: Nun lasst uns gehn und treten, EG 58; Von guten Mächten, EG 65",
+      "carousel": []
+    },
+    "mastodon": {
+      "text": "Altjahresabend\n\nTitel: Zeit vor Gott\n\nWochenspruch: „Meine Zeit steht in deinen Händen.“ (Ps 31,16a)\n\nPsalm: Ps 121\n\nAltes Testament: Pred 3,1-15\n\nEvangelium: Mt 13,24-30\n\nEpistel: Röm 8,31b-39\n\nPredigttext: 2. Mose 13,20-22\n\nLieder: Nun lasst uns gehn und treten, EG 58; Von guten Mächten, EG 65"
+    },
+    "bluesky": {
+      "text": "Altjahresabend\n\nTitel: Zeit vor Gott\n\nWochenspruch: „Meine Zeit steht in deinen Händen.“ (Ps 31,16a)\n\nPsalm: Ps 121\n\nAltes Testament: Pred 3,1-15\n\nEvangelium: Mt 13,24-30\n\nEpistel: Röm 8,31b-39\n\nPredigttext: 2. Mose 13,20-22\n\nLieder: Nun lasst uns gehn und treten, EG 58; Von guten Mächten, EG 65"
+    },
+    "story": {
+      "slides": []
+    },
+    "reel": {
+      "hook": "",
+      "script": "",
+      "shots": [],
+      "duration_seconds": 0
+    }
+  },
+  "visual": {
+    "concept": "kirchenjahr:white",
+    "flux_prompt": "",
+    "negative_prompt": "text, letters, logo, watermark",
+    "formats": [
+      "1:1",
+      "9:16"
+    ],
+    "alt_text": "Altjahresabend"
+  },
+  "qa": {
+    "warnings": [],
+    "approved": true
+  },
+  "metadata": {
+    "model": "",
+    "generated_at": "2026-08-15T16:59:25.071Z",
+    "prompt_version": "kirchenjahr-1.0",
+    "assets": []
+  }
+}

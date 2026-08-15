@@ -1,0 +1,67 @@
+{
+  "id": "kirchenjahr-2026-11-18-bube",
+  "status": "freigegeben",
+  "needs_input": false,
+  "source": {
+    "calendar_post_id": "kirchenjahr-2026-11-18-bube",
+    "date": "2026-11-18",
+    "rubric": "Kirchenjahr",
+    "liturgical_source": "https://kirchenjahr.pfarr.tools/api/jahr/2026"
+  },
+  "editorial_core": {
+    "title": "Buß-und Bettag",
+    "main_message": "",
+    "audience": "breite Öffentlichkeit",
+    "tone": [
+      "ruhig"
+    ],
+    "source_notes": [
+      "Titel: Ruf zur Umkehr"
+    ]
+  },
+  "platforms": {
+    "facebook": {
+      "text": "Buß-und Bettag\n\nTitel: Ruf zur Umkehr\n\nWochenspruch: „Gerechtigkeit erhöht ein Volk; aber die Sünde ist der Leute Verderben.“ (Spr 14,34)\n\nPsalm: Ps 130\n\nAltes Testament: Jes 1,10-18\n\nEvangelium: Lk 13,(1-5)6-9\n\nEpistel: Röm 2,1-11\n\nPredigttext: Jes 1,10-18\n\nLieder: Aus tiefer Not schrei ich zu dir, EG 299; Komm in unsre stolze Welt, EG 428",
+      "headline": "Buß-und Bettag"
+    },
+    "instagram": {
+      "caption": "Buß-und Bettag\n\nTitel: Ruf zur Umkehr\n\nWochenspruch: „Gerechtigkeit erhöht ein Volk; aber die Sünde ist der Leute Verderben.“ (Spr 14,34)\n\nPsalm: Ps 130\n\nAltes Testament: Jes 1,10-18\n\nEvangelium: Lk 13,(1-5)6-9\n\nEpistel: Röm 2,1-11\n\nPredigttext: Jes 1,10-18\n\nLieder: Aus tiefer Not schrei ich zu dir, EG 299; Komm in unsre stolze Welt, EG 428",
+      "carousel": []
+    },
+    "mastodon": {
+      "text": "Buß-und Bettag\n\nTitel: Ruf zur Umkehr\n\nWochenspruch: „Gerechtigkeit erhöht ein Volk; aber die Sünde ist der Leute Verderben.“ (Spr 14,34)\n\nPsalm: Ps 130\n\nAltes Testament: Jes 1,10-18\n\nEvangelium: Lk 13,(1-5)6-9\n\nEpistel: Röm 2,1-11\n\nPredigttext: Jes 1,10-18\n\nLieder: Aus tiefer Not schrei ich zu dir, EG 299; Komm in unsre stolze Welt, EG 428"
+    },
+    "bluesky": {
+      "text": "Buß-und Bettag\n\nTitel: Ruf zur Umkehr\n\nWochenspruch: „Gerechtigkeit erhöht ein Volk; aber die Sünde ist der Leute Verderben.“ (Spr 14,34)\n\nPsalm: Ps 130\n\nAltes Testament: Jes 1,10-18\n\nEvangelium: Lk 13,(1-5)6-9\n\nEpistel: Röm 2,1-11\n\nPredigttext: Jes 1,10-18\n\nLieder: Aus tiefer Not schrei ich zu dir, EG 299; Komm in unsre stolze Welt, EG 428"
+    },
+    "story": {
+      "slides": []
+    },
+    "reel": {
+      "hook": "",
+      "script": "",
+      "shots": [],
+      "duration_seconds": 0
+    }
+  },
+  "visual": {
+    "concept": "kirchenjahr:purple",
+    "flux_prompt": "",
+    "negative_prompt": "text, letters, logo, watermark",
+    "formats": [
+      "1:1",
+      "9:16"
+    ],
+    "alt_text": "Buß-und Bettag"
+  },
+  "qa": {
+    "warnings": [],
+    "approved": true
+  },
+  "metadata": {
+    "model": "",
+    "generated_at": "2026-08-15T16:59:01.870Z",
+    "prompt_version": "kirchenjahr-1.0",
+    "assets": []
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "id": "kirchenjahr-2026-11-01-22tr",
+  "status": "freigegeben",
+  "needs_input": false,
+  "source": {
+    "calendar_post_id": "kirchenjahr-2026-11-01-22tr",
+    "date": "2026-11-01",
+    "rubric": "Kirchenjahr",
+    "liturgical_source": "https://kirchenjahr.pfarr.tools/api/jahr/2026"
+  },
+  "editorial_core": {
+    "title": "22. So. n. Trinitatis",
+    "main_message": "",
+    "audience": "breite Öffentlichkeit",
+    "tone": [
+      "ruhig"
+    ],
+    "source_notes": [
+      "Titel: In Gottes Schuld"
+    ]
+  },
+  "platforms": {
+    "facebook": {
+      "text": "22. So. n. Trinitatis\n\nTitel: In Gottes Schuld\n\nWochenspruch: „Bei dir ist die Vergebung, dass man dich fürchte.“ (Ps 130,4)\n\nPsalm: Ps 143,1-9\n\nAltes Testament: Jes 44,21-23\n\nEvangelium: Mt 18,21-35\n\nEpistel: Röm 7,14-25a\n\nPredigttext: Röm 7,14-25a\n\nLieder: Herz und Herz vereint zusammen, EG 251; Wo Menschen sich vergessen, EGE 29\n\nWeitere Proprien an diesem Tag: Gedenktag der Heiligen",
+      "headline": "22. So. n. Trinitatis"
+    },
+    "instagram": {
+      "caption": "22. So. n. Trinitatis\n\nTitel: In Gottes Schuld\n\nWochenspruch: „Bei dir ist die Vergebung, dass man dich fürchte.“ (Ps 130,4)\n\nPsalm: Ps 143,1-9\n\nAltes Testament: Jes 44,21-23\n\nEvangelium: Mt 18,21-35\n\nEpistel: Röm 7,14-25a\n\nPredigttext: Röm 7,14-25a\n\nLieder: Herz und Herz vereint zusammen, EG 251; Wo Menschen sich vergessen, EGE 29\n\nWeitere Proprien an diesem Tag: Gedenktag der Heiligen",
+      "carousel": []
+    },
+    "mastodon": {
+      "text": "22. So. n. Trinitatis\n\nTitel: In Gottes Schuld\n\nWochenspruch: „Bei dir ist die Vergebung, dass man dich fürchte.“ (Ps 130,4)\n\nPsalm: Ps 143,1-9\n\nAltes Testament: Jes 44,21-23\n\nEvangelium: Mt 18,21-35\n\nEpistel: Röm 7,14-25a\n\nPredigttext: Röm 7,14-25a\n\nLieder: Herz und Herz vereint zusammen, EG 251; Wo Menschen sich vergessen, EGE 29\n\nWeitere Proprien an diesem Tag: Gedenktag der Heiligen"
+    },
+    "bluesky": {
+      "text": "22. So. n. Trinitatis\n\nTitel: In Gottes Schuld\n\nWochenspruch: „Bei dir ist die Vergebung, dass man dich fürchte.“ (Ps 130,4)\n\nPsalm: Ps 143,1-9\n\nAltes Testament: Jes 44,21-23\n\nEvangelium: Mt 18,21-35\n\nEpistel: Röm 7,14-25a\n\nPredigttext: Röm 7,14-25a\n\nLieder: Herz und Herz vereint zusammen, EG 251; Wo Menschen sich vergessen, EGE 29\n\nWeitere Proprien an diesem Tag: Gedenktag der Heiligen"
+    },
+    "story": {
+      "slides": []
+    },
+    "reel": {
+      "hook": "",
+      "script": "",
+      "shots": [],
+      "duration_seconds": 0
+    }
+  },
+  "visual": {
+    "concept": "kirchenjahr:green",
+    "flux_prompt": "",
+    "negative_prompt": "text, letters, logo, watermark",
+    "formats": [
+      "1:1",
+      "9:16"
+    ],
+    "alt_text": "22. So. n. Trinitatis"
+  },
+  "qa": {
+    "warnings": [],
+    "approved": true
+  },
+  "metadata": {
+    "model": "",
+    "generated_at": "2026-08-15T16:58:53.070Z",
+    "prompt_version": "kirchenjahr-1.0",
+    "assets": []
+  }
+}

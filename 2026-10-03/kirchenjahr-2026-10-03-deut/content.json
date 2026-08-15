@@ -1,0 +1,65 @@
+{
+  "id": "kirchenjahr-2026-10-03-deut",
+  "status": "freigegeben",
+  "needs_input": false,
+  "source": {
+    "calendar_post_id": "kirchenjahr-2026-10-03-deut",
+    "date": "2026-10-03",
+    "rubric": "Kirchenjahr",
+    "liturgical_source": "https://kirchenjahr.pfarr.tools/api/jahr/2026"
+  },
+  "editorial_core": {
+    "title": "Tag der deutschen Einheit",
+    "main_message": "",
+    "audience": "breite Öffentlichkeit",
+    "tone": [
+      "ruhig"
+    ],
+    "source_notes": []
+  },
+  "platforms": {
+    "facebook": {
+      "text": "Tag der deutschen Einheit\n\nWochenspruch: „Ehr jedermann, habt die Brüder und Schwestern lieb, fürchtet Gott, ehret den König.“ (1. Petr 2,17)\n\nPsalm: Psalm 96\n\nAltes Testament: Mi 4,1-14\n\nEvangelium: Lk 1,46-55\n\nEpistel: Röm 13,1-7\n\nPredigttext: Röm 13,1-7\n\nLieder: Zieh ein zu deinen Toren, EG 133; Du schufst, Herr, unsre Erde gut, EG 654",
+      "headline": "Tag der deutschen Einheit"
+    },
+    "instagram": {
+      "caption": "Tag der deutschen Einheit\n\nWochenspruch: „Ehr jedermann, habt die Brüder und Schwestern lieb, fürchtet Gott, ehret den König.“ (1. Petr 2,17)\n\nPsalm: Psalm 96\n\nAltes Testament: Mi 4,1-14\n\nEvangelium: Lk 1,46-55\n\nEpistel: Röm 13,1-7\n\nPredigttext: Röm 13,1-7\n\nLieder: Zieh ein zu deinen Toren, EG 133; Du schufst, Herr, unsre Erde gut, EG 654",
+      "carousel": []
+    },
+    "mastodon": {
+      "text": "Tag der deutschen Einheit\n\nWochenspruch: „Ehr jedermann, habt die Brüder und Schwestern lieb, fürchtet Gott, ehret den König.“ (1. Petr 2,17)\n\nPsalm: Psalm 96\n\nAltes Testament: Mi 4,1-14\n\nEvangelium: Lk 1,46-55\n\nEpistel: Röm 13,1-7\n\nPredigttext: Röm 13,1-7\n\nLieder: Zieh ein zu deinen Toren, EG 133; Du schufst, Herr, unsre Erde gut, EG 654"
+    },
+    "bluesky": {
+      "text": "Tag der deutschen Einheit\n\nWochenspruch: „Ehr jedermann, habt die Brüder und Schwestern lieb, fürchtet Gott, ehret den König.“ (1. Petr 2,17)\n\nPsalm: Psalm 96\n\nAltes Testament: Mi 4,1-14\n\nEvangelium: Lk 1,46-55\n\nEpistel: Röm 13,1-7\n\nPredigttext: Röm 13,1-7\n\nLieder: Zieh ein zu deinen Toren, EG 133; Du schufst, Herr, unsre Erde gut, EG 654"
+    },
+    "story": {
+      "slides": []
+    },
+    "reel": {
+      "hook": "",
+      "script": "",
+      "shots": [],
+      "duration_seconds": 0
+    }
+  },
+  "visual": {
+    "concept": "kirchenjahr:green",
+    "flux_prompt": "",
+    "negative_prompt": "text, letters, logo, watermark",
+    "formats": [
+      "1:1",
+      "9:16"
+    ],
+    "alt_text": "Tag der deutschen Einheit"
+  },
+  "qa": {
+    "warnings": [],
+    "approved": true
+  },
+  "metadata": {
+    "model": "",
+    "generated_at": "2026-08-15T16:58:42.848Z",
+    "prompt_version": "kirchenjahr-1.0",
+    "assets": []
+  }
+}
