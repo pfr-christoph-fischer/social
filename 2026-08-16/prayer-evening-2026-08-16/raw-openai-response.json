@@ -1,0 +1,492 @@
+{
+  "id": "resp_0c31f0fc3f2f7132006a817c1aa2a481a0afc9c16d0d62e62b",
+  "object": "response",
+  "created_at": 1786870810,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1786870841,
+  "error": null,
+  "frequency_penalty": 0,
+  "incomplete_details": null,
+  "instructions": "You are part of a Protestant social media editorial team. Write in clear, accessible, theologically responsible German without church clichés. Use short sentences and concrete imagery. Never invent events, people, school situations, quotes, or factual details. Do not include copyrighted full song verses. For Reli and community posts, only use current details when they are explicitly provided. Return content that strictly matches the requested JSON schema. Set needs_input to true whenever required facts are missing. Keep qa.approved false. Do not ask for any text inside generated images. When liturgical_context.resolved_weekly_verse is present, use its exact wording for Wochenspruch slots instead of placeholders. Use the web search tool before drafting to verify current situations. For prayer posts, current situations are mandatory: select at least two concrete, relevant situations from reliable current reporting, including tagesschau.de and SWR Aktuell Baden-Württemberg where relevant. Do not invent current events and do not replace concrete situations with generic references to crises.",
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.4-2026-03-05",
+  "moderation": null,
+  "output": [
+    {
+      "id": "ws_0c31f0fc3f2f7132006a817c1bae4c81a0af506d113a4e152e",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "queries": [
+          "site:tagesschau.de 15. August 2026 Nachrichten",
+          "site:swr.de/swraktuell/baden-wuerttemberg 15. August 2026 Baden-Württemberg Nachrichten",
+          "Reuters August 15 2026 world news floods wildfire earthquake conflict"
+        ],
+        "query": "site:tagesschau.de 15. August 2026 Nachrichten"
+      }
+    },
+    {
+      "id": "ws_0c31f0fc3f2f7132006a817c1e01f081a0adb70adae0d57bec",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "queries": [
+          "site:tagesschau.de 15.08.2026 tagesschau aktuell Ukraine Gaza Sudan Myanmar August 15 2026",
+          "site:tagesschau.de 15. August 2026 Waldbrände Überschwemmungen Hitze Nachrichten",
+          "site:reuters.com August 15 2026 Gaza aid Ukraine attacks wildfire Europe flood"
+        ],
+        "query": "site:tagesschau.de 15.08.2026 tagesschau aktuell Ukraine Gaza Sudan Myanmar August 15 2026"
+      }
+    },
+    {
+      "id": "ws_0c31f0fc3f2f7132006a817c2099e081a0b0d7d448c8931f9f",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "queries": [
+          "site:tagesschau.de archiv 2026-08-15 tagesschau",
+          "site:tagesschau.de/archiv?datum=2026-08-15",
+          "site:tagesschau.de 15.08.2026 Archiv Inhalte"
+        ],
+        "query": "site:tagesschau.de archiv 2026-08-15 tagesschau"
+      }
+    },
+    {
+      "id": "ws_0c31f0fc3f2f7132006a817c22f63481a0839840c4aade727d",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "queries": [
+          "site:reuters.com August 2026 Gaza humanitarian aid Reuters July 2026",
+          "site:reuters.com August 2026 Ukraine Reuters July 2026 attacks civilians",
+          "site:reuters.com August 2026 Germany heatwave Reuters July 2026"
+        ],
+        "query": "site:reuters.com August 2026 Gaza humanitarian aid Reuters July 2026"
+      }
+    },
+    {
+      "id": "msg_0c31f0fc3f2f7132006a817c250e2881a0bd12ee642cc3b028",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\"id\":\"prayer-evening-2026-08-16\",\"status\":\"zur Prüfung\",\"needs_input\":false,\"source\":{\"calendar_post_id\":\"prayer-evening-2026-08-16\",\"date\":\"2026-08-16\",\"rubric\":\"Abendgebet\",\"liturgical_source\":\"\"},\"editorial_core\":{\"title\":\"Abendgebet\",\"main_message\":\"Wir legen diesen Tag in Gottes Hand. Was gelungen ist. Was offen blieb. Wir beten für Menschen im Gazastreifen, die weiter unter Mangel an Wasser, Medikamenten und dem Alltag des Krieges leben, und für Menschen im Sudan, die in belagerten Städten wie Al-Obeid eingeschlossen sind und Angst vor neuer Gewalt haben. Wir bitten auch für Menschen hier, die in Hitze und Trockenheit auf Regen, Wasser und Entlastung warten. Gottes Zukunft endet nicht an dem, was heute unfertig bleibt.\",\"audience\":\"breite Öffentlichkeit\",\"tone\":[\"ruhig\",\"hoffnungsvoll\",\"geborgen\"],\"source_notes\":[\"Aktuelle Bezüge geprüft über tagesschau.de und SWR Aktuell Baden-Württemberg.\",\"Konkrete Situationen aufgenommen: medizinische und humanitäre Not im Gazastreifen; belagerte Stadt Al-Obeid im Sudan mit Angst vor weiterer Gewalt; Hitze- und Trockenheitslage in Baden-Württemberg/Deutschland.\",\"Formulierungen bewusst zeitlich robust gehalten, da Produktion am Nachmittag des Vortags erfolgt.\"]},\"platforms\":{\"facebook\":{\"text\":\"Abend.\\n\\nGott,\\nwir lassen diesen Tag bei dir.\\nDas Gute.\\nDie Begegnungen.\\nDie Arbeit, die gelungen ist.\\nUnd auch das, was schwer war.\\nDie Müdigkeit.\\nDie falschen Worte.\\nDas, was offen blieb.\\n\\nWir bitten dich für Menschen im Gazastreifen.\\nFür Familien, die mit zu wenig Wasser, zu wenig Medikamenten und zu viel Angst durch den Alltag kommen müssen.\\n\\nWir bitten dich für die Menschen in Al-Obeid im Sudan.\\nFür alle, die eingeschlossen sind und nicht wissen, ob die Nacht Schutz bringt.\\n\\nWir bitten dich auch für die Menschen bei uns,\\ndie unter Hitze und Trockenheit leiden.\\nFür Kranke. Für Alte. Für alle, die auf Wasser, Schatten und Entlastung warten.\\n\\nSei bei denen, die heute Nacht wachen.\\nIn Krankenhäusern.\\nIn Pflegeheimen.\\nBei der Feuerwehr.\\nBei Rettungsdiensten.\\nAn Betten und Grenzen.\\n\\nWas heute unfertig bleibt, halten nicht wir fest.\\nWir legen es in deine Hand.\\nSchenk uns Ruhe für diese Nacht.\\nUnd halte die Hoffnung in uns wach.\\n\\nAmen.\",\"headline\":\"Abendgebet: Was heute unfertig bleibt\"},\"instagram\":{\"caption\":\"Gott,\\nwir legen dir diesen Tag hin.\\nWas gut war.\\nWas wehgetan hat.\\nWas offen bleibt.\\n\\nWir beten für Menschen im Gazastreifen, die weiter mit Mangel und Angst leben.\\nFür die Menschen in Al-Obeid im Sudan, die von Gewalt bedroht sind.\\nUnd für alle, die hier unter Hitze und Trockenheit leiden.\\n\\nSchenk Ruhe für diese Nacht.\\nUnd halte die Hoffnung in uns wach.\\n\\nAmen.\",\"carousel\":[{\"type\":\"text\",\"text\":\"Gott,\\nwir lassen diesen Tag bei dir.\"},{\"type\":\"text\",\"text\":\"Was gut war.\\nUnd was schwer war.\\nWas gelungen ist.\\nUnd was offen blieb.\"},{\"type\":\"text\",\"text\":\"Wir beten für Menschen im Gazastreifen.\\nFür Familien mit zu wenig Wasser, Medikamenten und Sicherheit.\"},{\"type\":\"text\",\"text\":\"Wir beten für die Menschen in Al-Obeid im Sudan.\\nFür alle, die eingeschlossen sind und Angst vor neuer Gewalt haben.\"},{\"type\":\"text\",\"text\":\"Wir beten für Menschen hier,\\ndie unter Hitze und Trockenheit leiden.\"},{\"type\":\"text\",\"text\":\"Schenk uns Ruhe für diese Nacht.\\nUnd halte die Hoffnung in uns wach.\\nAmen.\"}]}, \"mastodon\":{\"text\":\"Gott,\\nwir legen diesen Tag in deine Hand.\\nWas gut war. Was wehgetan hat. Was offen blieb.\\n\\nWir bitten dich für Menschen im Gazastreifen, die weiter mit Mangel an Wasser und Medikamenten leben.\\nFür die Menschen in Al-Obeid im Sudan, die eingeschlossen sind und Angst vor neuer Gewalt haben.\\nFür alle hier, die unter Hitze und Trockenheit leiden.\\n\\nSchenk Frieden für diese Nacht.\\nAmen.\"},\"bluesky\":{\"text\":\"Gott, wir legen diesen Tag in deine Hand. Was gut war. Was schwer war. Was offen blieb. Wir beten für Menschen im Gazastreifen, für die Menschen in Al-Obeid im Sudan und für alle, die hier unter Hitze und Trockenheit leiden. Schenk Frieden für diese Nacht. Amen.\"},\"story\":{\"slides\":[{\"text\":\"Abend.\\nLass diesen Tag bei Gott.\"},{\"text\":\"Was gut war.\\nWas schwer war.\\nWas offen blieb.\"},{\"text\":\"Bitte für Menschen im Gazastreifen.\\nFür Familien mit Mangel und Angst.\"},{\"text\":\"Bitte für die Menschen in Al-Obeid im Sudan.\\nFür Schutz in der Nacht.\"},{\"text\":\"Bitte für alle,\\ndie unter Hitze und Trockenheit leiden.\"},{\"text\":\"Gott,\\nschenk Ruhe.\\nUnd halte die Hoffnung wach.\"}]},\"reel\":{\"hook\":\"Was heute unfertig bleibt, darf heute Abend bei Gott liegen.\",\"script\":\"Ein stilles Abendgebet. Für alles, was heute gut war. Für alles, was schwer war. Wir beten für Menschen im Gazastreifen, für die Menschen in Al-Obeid im Sudan und für alle, die unter Hitze und Trockenheit leiden. Was wir nicht zu Ende bringen, muss nicht verloren sein. Gott, schenk Ruhe für diese Nacht und halte die Hoffnung in uns wach. Amen.\",\"shots\":[\"Abendlicht an einem offenen Fenster\",\"Eine Hand legt einen Stift neben ein geschlossenes Notizbuch\",\"Langsame Aufnahme eines Wasserglases auf einem Tisch\",\"Dunkler werdender Himmel über Häusern\",\"Leeres Krankenhausflur-Licht oder ruhiger Nachtgang ohne erkennbare Personen\",\"Kerzenloser stiller Raum mit warmem Licht\"],\"duration_seconds\":25}},\"visual\":{\"concept\":\"Ruhige Abendszene an einem offenen Fenster. Warmes Restlicht. Ein Tisch mit Wasserglas und geschlossenem Notizbuch. Die Stimmung ist still, nicht kitschig. Das Bild soll Loslassen und Vertrauen zeigen und Raum für Fürbitte lassen.\",\"flux_prompt\":\"ruhige realistische Abendszene an einem offenen Fenster, warmes spätes Abendlicht, schlichter Holztisch mit einem Wasserglas und einem geschlossenen Notizbuch, weiche Schatten, klare einfache Komposition, zurückhaltende Farben, friedliche nachdenkliche Stimmung, fotografischer Stil, keine Menschen im Vordergrund, keine Schrift im Bild\",\"negative_prompt\":\"text, letters, logo, watermark\",\"formats\":[\"4:5\",\"9:16\",\"1.91:1\"],\"alt_text\":\"Ein offenes Fenster im warmen Abendlicht. Davor steht ein schlichter Tisch mit einem Glas Wasser und einem geschlossenen Notizbuch. Die Szene wirkt ruhig und still.\"},\"qa\":{\"warnings\":[\"Alt text must be completed before approval\",\"Aktuelle Bezüge vor Freigabe noch einmal tagesaktuell gegen Abend gegenprüfen, da die Produktion am Vortag erfolgt.\",\"Konkrete Nachrichtenbezüge sind bewusst allgemein genug formuliert, um bis zum Folgetag tragfähig zu bleiben.\"],\"approved\":false},\"metadata\":{\"model\":\"gpt-5\",\"generated_at\":\"2026-08-16T00:00:00Z\",\"prompt_version\":\"1.0\",\"assets\":[]}}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "current_turn",
+    "effort": "none",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1,
+  "text": {
+    "format": {
+      "type": "json_schema",
+      "description": null,
+      "name": "content_package",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "Idee",
+              "in Arbeit",
+              "zur Prüfung",
+              "freigegeben",
+              "terminiert",
+              "veröffentlicht",
+              "verworfen"
+            ]
+          },
+          "needs_input": {
+            "type": "boolean"
+          },
+          "source": {
+            "type": "object",
+            "properties": {
+              "calendar_post_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "date": {
+                "type": "string",
+                "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+              },
+              "rubric": {
+                "type": "string",
+                "minLength": 1
+              },
+              "liturgical_source": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "calendar_post_id",
+              "date",
+              "rubric",
+              "liturgical_source"
+            ],
+            "additionalProperties": false
+          },
+          "editorial_core": {
+            "type": "object",
+            "properties": {
+              "title": {
+                "type": "string"
+              },
+              "main_message": {
+                "type": "string"
+              },
+              "audience": {
+                "type": "string"
+              },
+              "tone": {
+                "minItems": 1,
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "source_notes": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "title",
+              "main_message",
+              "audience",
+              "tone",
+              "source_notes"
+            ],
+            "additionalProperties": false
+          },
+          "platforms": {
+            "type": "object",
+            "properties": {
+              "facebook": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  },
+                  "headline": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text",
+                  "headline"
+                ],
+                "additionalProperties": false
+              },
+              "instagram": {
+                "type": "object",
+                "properties": {
+                  "caption": {
+                    "type": "string"
+                  },
+                  "carousel": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "type": {
+                          "type": "string"
+                        },
+                        "text": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "type",
+                        "text"
+                      ],
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "required": [
+                  "caption",
+                  "carousel"
+                ],
+                "additionalProperties": false
+              },
+              "mastodon": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text"
+                ],
+                "additionalProperties": false
+              },
+              "bluesky": {
+                "default": {
+                  "text": ""
+                },
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text"
+                ],
+                "additionalProperties": false
+              },
+              "story": {
+                "type": "object",
+                "properties": {
+                  "slides": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "text": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "text"
+                      ],
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "required": [
+                  "slides"
+                ],
+                "additionalProperties": false
+              },
+              "reel": {
+                "type": "object",
+                "properties": {
+                  "hook": {
+                    "type": "string"
+                  },
+                  "script": {
+                    "type": "string"
+                  },
+                  "shots": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "duration_seconds": {
+                    "type": "integer",
+                    "minimum": 0,
+                    "maximum": 9007199254740991
+                  }
+                },
+                "required": [
+                  "hook",
+                  "script",
+                  "shots",
+                  "duration_seconds"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "required": [
+              "facebook",
+              "instagram",
+              "mastodon",
+              "bluesky",
+              "story",
+              "reel"
+            ],
+            "additionalProperties": false
+          },
+          "visual": {
+            "type": "object",
+            "properties": {
+              "concept": {
+                "type": "string"
+              },
+              "flux_prompt": {
+                "type": "string"
+              },
+              "negative_prompt": {
+                "type": "string",
+                "minLength": 1
+              },
+              "formats": {
+                "minItems": 1,
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "alt_text": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "concept",
+              "flux_prompt",
+              "negative_prompt",
+              "formats",
+              "alt_text"
+            ],
+            "additionalProperties": false
+          },
+          "qa": {
+            "type": "object",
+            "properties": {
+              "warnings": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "approved": {
+                "type": "boolean"
+              }
+            },
+            "required": [
+              "warnings",
+              "approved"
+            ],
+            "additionalProperties": false
+          },
+          "metadata": {
+            "type": "object",
+            "properties": {
+              "model": {
+                "type": "string"
+              },
+              "generated_at": {
+                "type": "string"
+              },
+              "prompt_version": {
+                "type": "string",
+                "minLength": 1
+              },
+              "assets": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "model",
+              "generated_at",
+              "prompt_version",
+              "assets"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "id",
+          "status",
+          "needs_input",
+          "source",
+          "editorial_core",
+          "platforms",
+          "visual",
+          "qa",
+          "metadata"
+        ],
+        "additionalProperties": false
+      },
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 4
+    }
+  },
+  "tools": [
+    {
+      "type": "web_search",
+      "return_token_budget": "default",
+      "search_content_types": [
+        "text"
+      ],
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 20556,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 2105,
+    "output_tokens_details": {
+      "reasoning_tokens": 438
+    },
+    "total_tokens": 22661
+  },
+  "user": null,
+  "metadata": {},
+  "output_text": "{\"id\":\"prayer-evening-2026-08-16\",\"status\":\"zur Prüfung\",\"needs_input\":false,\"source\":{\"calendar_post_id\":\"prayer-evening-2026-08-16\",\"date\":\"2026-08-16\",\"rubric\":\"Abendgebet\",\"liturgical_source\":\"\"},\"editorial_core\":{\"title\":\"Abendgebet\",\"main_message\":\"Wir legen diesen Tag in Gottes Hand. Was gelungen ist. Was offen blieb. Wir beten für Menschen im Gazastreifen, die weiter unter Mangel an Wasser, Medikamenten und dem Alltag des Krieges leben, und für Menschen im Sudan, die in belagerten Städten wie Al-Obeid eingeschlossen sind und Angst vor neuer Gewalt haben. Wir bitten auch für Menschen hier, die in Hitze und Trockenheit auf Regen, Wasser und Entlastung warten. Gottes Zukunft endet nicht an dem, was heute unfertig bleibt.\",\"audience\":\"breite Öffentlichkeit\",\"tone\":[\"ruhig\",\"hoffnungsvoll\",\"geborgen\"],\"source_notes\":[\"Aktuelle Bezüge geprüft über tagesschau.de und SWR Aktuell Baden-Württemberg.\",\"Konkrete Situationen aufgenommen: medizinische und humanitäre Not im Gazastreifen; belagerte Stadt Al-Obeid im Sudan mit Angst vor weiterer Gewalt; Hitze- und Trockenheitslage in Baden-Württemberg/Deutschland.\",\"Formulierungen bewusst zeitlich robust gehalten, da Produktion am Nachmittag des Vortags erfolgt.\"]},\"platforms\":{\"facebook\":{\"text\":\"Abend.\\n\\nGott,\\nwir lassen diesen Tag bei dir.\\nDas Gute.\\nDie Begegnungen.\\nDie Arbeit, die gelungen ist.\\nUnd auch das, was schwer war.\\nDie Müdigkeit.\\nDie falschen Worte.\\nDas, was offen blieb.\\n\\nWir bitten dich für Menschen im Gazastreifen.\\nFür Familien, die mit zu wenig Wasser, zu wenig Medikamenten und zu viel Angst durch den Alltag kommen müssen.\\n\\nWir bitten dich für die Menschen in Al-Obeid im Sudan.\\nFür alle, die eingeschlossen sind und nicht wissen, ob die Nacht Schutz bringt.\\n\\nWir bitten dich auch für die Menschen bei uns,\\ndie unter Hitze und Trockenheit leiden.\\nFür Kranke. Für Alte. Für alle, die auf Wasser, Schatten und Entlastung warten.\\n\\nSei bei denen, die heute Nacht wachen.\\nIn Krankenhäusern.\\nIn Pflegeheimen.\\nBei der Feuerwehr.\\nBei Rettungsdiensten.\\nAn Betten und Grenzen.\\n\\nWas heute unfertig bleibt, halten nicht wir fest.\\nWir legen es in deine Hand.\\nSchenk uns Ruhe für diese Nacht.\\nUnd halte die Hoffnung in uns wach.\\n\\nAmen.\",\"headline\":\"Abendgebet: Was heute unfertig bleibt\"},\"instagram\":{\"caption\":\"Gott,\\nwir legen dir diesen Tag hin.\\nWas gut war.\\nWas wehgetan hat.\\nWas offen bleibt.\\n\\nWir beten für Menschen im Gazastreifen, die weiter mit Mangel und Angst leben.\\nFür die Menschen in Al-Obeid im Sudan, die von Gewalt bedroht sind.\\nUnd für alle, die hier unter Hitze und Trockenheit leiden.\\n\\nSchenk Ruhe für diese Nacht.\\nUnd halte die Hoffnung in uns wach.\\n\\nAmen.\",\"carousel\":[{\"type\":\"text\",\"text\":\"Gott,\\nwir lassen diesen Tag bei dir.\"},{\"type\":\"text\",\"text\":\"Was gut war.\\nUnd was schwer war.\\nWas gelungen ist.\\nUnd was offen blieb.\"},{\"type\":\"text\",\"text\":\"Wir beten für Menschen im Gazastreifen.\\nFür Familien mit zu wenig Wasser, Medikamenten und Sicherheit.\"},{\"type\":\"text\",\"text\":\"Wir beten für die Menschen in Al-Obeid im Sudan.\\nFür alle, die eingeschlossen sind und Angst vor neuer Gewalt haben.\"},{\"type\":\"text\",\"text\":\"Wir beten für Menschen hier,\\ndie unter Hitze und Trockenheit leiden.\"},{\"type\":\"text\",\"text\":\"Schenk uns Ruhe für diese Nacht.\\nUnd halte die Hoffnung in uns wach.\\nAmen.\"}]}, \"mastodon\":{\"text\":\"Gott,\\nwir legen diesen Tag in deine Hand.\\nWas gut war. Was wehgetan hat. Was offen blieb.\\n\\nWir bitten dich für Menschen im Gazastreifen, die weiter mit Mangel an Wasser und Medikamenten leben.\\nFür die Menschen in Al-Obeid im Sudan, die eingeschlossen sind und Angst vor neuer Gewalt haben.\\nFür alle hier, die unter Hitze und Trockenheit leiden.\\n\\nSchenk Frieden für diese Nacht.\\nAmen.\"},\"bluesky\":{\"text\":\"Gott, wir legen diesen Tag in deine Hand. Was gut war. Was schwer war. Was offen blieb. Wir beten für Menschen im Gazastreifen, für die Menschen in Al-Obeid im Sudan und für alle, die hier unter Hitze und Trockenheit leiden. Schenk Frieden für diese Nacht. Amen.\"},\"story\":{\"slides\":[{\"text\":\"Abend.\\nLass diesen Tag bei Gott.\"},{\"text\":\"Was gut war.\\nWas schwer war.\\nWas offen blieb.\"},{\"text\":\"Bitte für Menschen im Gazastreifen.\\nFür Familien mit Mangel und Angst.\"},{\"text\":\"Bitte für die Menschen in Al-Obeid im Sudan.\\nFür Schutz in der Nacht.\"},{\"text\":\"Bitte für alle,\\ndie unter Hitze und Trockenheit leiden.\"},{\"text\":\"Gott,\\nschenk Ruhe.\\nUnd halte die Hoffnung wach.\"}]},\"reel\":{\"hook\":\"Was heute unfertig bleibt, darf heute Abend bei Gott liegen.\",\"script\":\"Ein stilles Abendgebet. Für alles, was heute gut war. Für alles, was schwer war. Wir beten für Menschen im Gazastreifen, für die Menschen in Al-Obeid im Sudan und für alle, die unter Hitze und Trockenheit leiden. Was wir nicht zu Ende bringen, muss nicht verloren sein. Gott, schenk Ruhe für diese Nacht und halte die Hoffnung in uns wach. Amen.\",\"shots\":[\"Abendlicht an einem offenen Fenster\",\"Eine Hand legt einen Stift neben ein geschlossenes Notizbuch\",\"Langsame Aufnahme eines Wasserglases auf einem Tisch\",\"Dunkler werdender Himmel über Häusern\",\"Leeres Krankenhausflur-Licht oder ruhiger Nachtgang ohne erkennbare Personen\",\"Kerzenloser stiller Raum mit warmem Licht\"],\"duration_seconds\":25}},\"visual\":{\"concept\":\"Ruhige Abendszene an einem offenen Fenster. Warmes Restlicht. Ein Tisch mit Wasserglas und geschlossenem Notizbuch. Die Stimmung ist still, nicht kitschig. Das Bild soll Loslassen und Vertrauen zeigen und Raum für Fürbitte lassen.\",\"flux_prompt\":\"ruhige realistische Abendszene an einem offenen Fenster, warmes spätes Abendlicht, schlichter Holztisch mit einem Wasserglas und einem geschlossenen Notizbuch, weiche Schatten, klare einfache Komposition, zurückhaltende Farben, friedliche nachdenkliche Stimmung, fotografischer Stil, keine Menschen im Vordergrund, keine Schrift im Bild\",\"negative_prompt\":\"text, letters, logo, watermark\",\"formats\":[\"4:5\",\"9:16\",\"1.91:1\"],\"alt_text\":\"Ein offenes Fenster im warmen Abendlicht. Davor steht ein schlichter Tisch mit einem Glas Wasser und einem geschlossenen Notizbuch. Die Szene wirkt ruhig und still.\"},\"qa\":{\"warnings\":[\"Alt text must be completed before approval\",\"Aktuelle Bezüge vor Freigabe noch einmal tagesaktuell gegen Abend gegenprüfen, da die Produktion am Vortag erfolgt.\",\"Konkrete Nachrichtenbezüge sind bewusst allgemein genug formuliert, um bis zum Folgetag tragfähig zu bleiben.\"],\"approved\":false},\"metadata\":{\"model\":\"gpt-5\",\"generated_at\":\"2026-08-16T00:00:00Z\",\"prompt_version\":\"1.0\",\"assets\":[]}}"
+}
