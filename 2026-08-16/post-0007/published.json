@@ -27,5 +27,66 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "post-0007",
+    "contentDate": "2026-08-16",
+    "platform": "instagram",
+    "format": "default",
+    "scheduledAt": "2026-08-16T07:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "„Gott widersteht den Hochmütigen, aber den Demütigen gibt er Gnade.“\n1. Petr 5,5b\n\nEin stiller Morgen. Ein Weg. Klare Luft.\n\nDieser Wochenspruch lädt dazu ein, nichts darstellen zu müssen. Vor Gott dürfen wir ehrlich sein. Nicht größer. Nicht besser. Einfach wahr.\n\nDemut macht nicht klein. Sie macht frei.\n\nWas kannst du in dieser Woche loslassen?\n\n#Wochenspruch #Kirchenjahr #Gnade #Demut #NeueWoche",
+    "assets": [
+      "render-instagram-feed-01.jpg",
+      "render-instagram-feed-02.jpg",
+      "render-instagram-feed-03.jpg",
+      "render-instagram-feed-04.jpg",
+      "render-instagram-feed-05.jpg"
+    ],
+    "altTexts": [
+      "Ein schmaler Weg führt durch eine stille Landschaft im weichen Morgenlicht. Auf den Gräsern liegt Tau, die Farben sind zurückhaltend und warm. Das Bild wirkt ruhig und offen."
+    ],
+    "id": "59257470-6bb9-4682-b162-9e13c082646d",
+    "attemptCount": 1,
+    "remoteId": "18102967007237795",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-15T15:11:44.336Z",
+    "updatedAt": "2026-08-16T07:01:00.551Z",
+    "responseMetadata": {
+      "mediaCount": 5,
+      "mediaType": "CAROUSEL",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "post-0007",
+    "contentDate": "2026-08-16",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-08-16T07:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "„Gott widersteht den Hochmütigen, aber den Demütigen gibt er Gnade.“ (1. Petr 5,5b)\n\nEin stiller Morgen. Ein Weg ohne Eile.\nDieser Wochenspruch erinnert: Vor Gott muss ich nichts darstellen. Ehrlichkeit ist genug.\n\nWas kannst du heute loslassen?",
+    "assets": [
+      "render-facebook-mastodon-01.png"
+    ],
+    "altTexts": [
+      "Ein schmaler Weg führt durch eine stille Landschaft im weichen Morgenlicht. Auf den Gräsern liegt Tau, die Farben sind zurückhaltend und warm. Das Bild wirkt ruhig und offen."
+    ],
+    "id": "43d7150d-1232-4c6c-94fc-ee9b56bc6b8d",
+    "attemptCount": 1,
+    "remoteId": "117103897000653130",
+    "remoteUrl": "https://kirche.social/@christoph/117103897000653130",
+    "lastError": null,
+    "createdAt": "2026-08-15T15:11:44.367Z",
+    "updatedAt": "2026-08-16T07:01:03.840Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
