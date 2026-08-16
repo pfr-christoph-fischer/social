@@ -1,0 +1,44 @@
+{
+  "delivery_url": "https://delivery.eu2.bfl.ai/durable/2026081614/5e1f69ea-538b-4d66-962e-9be995966f07/e2/040206f24343f2/f24343f2769d4325ae43bba13fa4daa5/sample.jpeg?se=2026-08-16T15%3A04%3A00Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=aeVa4ElBTXYL%2BMWANAqHXV0efMXRXEG7vNf5wcpztPE%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "34894917-7035-4a65-b9ff-6b706f1c00e6",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "34894917-7035-4a65-b9ff-6b706f1c00e6",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "34894917-7035-4a65-b9ff-6b706f1c00e6",
+      "status": "Ready",
+      "result": {
+        "start_time": 1786892039.110685,
+        "prompt": "ruhige morgendliche szene im natürlichen licht, offene hände auf einem holztisch, eine tasse, im hintergrund ein flaches ufer mit niedrigem wasserstand und trockenen gräsern, ernste aber hoffnungsvolle atmosphäre, dokumentarisch, realistisch, weiche farben, hohe bildqualität, keine menschenmenge, keine symbole, no text, no letters, no typography, no logo, no watermark",
+        "seed": 878897210,
+        "sample": "https://delivery.eu2.bfl.ai/durable/2026081614/5e1f69ea-538b-4d66-962e-9be995966f07/e2/040206f24343f2/f24343f2769d4325ae43bba13fa4daa5/sample.jpeg?se=2026-08-16T15%3A04%3A00Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=aeVa4ElBTXYL%2BMWANAqHXV0efMXRXEG7vNf5wcpztPE%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "34894917-7035-4a65-b9ff-6b706f1c00e6",
+    "polling_url": "https://api.eu2.bfl.ai/v1/get_result?id=34894917-7035-4a65-b9ff-6b706f1c00e6",
+    "cost": 1.5,
+    "input_mp": 0,
+    "output_mp": 1.39
+  }
+}
