@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-08-16",
+    "contentDate": "2026-08-16",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-08-16T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "In meinem Zorn habe ich dich geschlagen, aber in meiner Gnade erbarme ich mich über dich.",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "In meinem Zorn habe ich dich geschlagen, aber in meiner Gnade erbarme ich mich über dich."
+    ],
+    "id": "5e530e05-ea7e-413b-9aaf-3b7e0d6ea1db",
+    "attemptCount": 1,
+    "remoteId": "18160882522468324",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:44:19.957Z",
+    "updatedAt": "2026-08-16T05:00:37.310Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-08-16",
+    "contentDate": "2026-08-16",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-08-16T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "In meinem Zorn habe ich dich geschlagen, aber in meiner Gnade erbarme ich mich über dich.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "In meinem Zorn habe ich dich geschlagen, aber in meiner Gnade erbarme ich mich über dich."
+    ],
+    "id": "fe86b71e-97ac-440e-9f4e-7fce2c5bc20e",
+    "attemptCount": 1,
+    "remoteId": "117103423634526027",
+    "remoteUrl": "https://kirche.social/@christoph/117103423634526027",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:44:19.960Z",
+    "updatedAt": "2026-08-16T05:00:39.807Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
