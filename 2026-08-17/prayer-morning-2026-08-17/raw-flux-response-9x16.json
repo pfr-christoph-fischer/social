@@ -1,11 +1,11 @@
 {
-  "delivery_url": "https://delivery.us2.bfl.ai/durable/2026081614/5e1f69ea-538b-4d66-962e-9be995966f07/ef/044712dda463b1/dda463b12bc144b7bace9191c3044422/sample.jpeg?se=2026-08-16T15%3A04%3A04Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=bDt5m2YitIrBEwl7bIQ7TiHlSxC7PL9efR47iTs/LFE%3D",
+  "delivery_url": "https://delivery.eu2.bfl.ai/durable/2026081614/5e1f69ea-538b-4d66-962e-9be995966f07/17/097637c7706cd4/c7706cd4b65348c1b36992d7470951c2/sample.jpeg?se=2026-08-16T15%3A04%3A59Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=n/lLL4uvKJy%2BUvpdJ7wrzR%2Br1hNrRhAJMqq9uABQEpU%3D",
   "download_headers": {
     "content_type": "image/jpeg"
   },
   "polls": [
     {
-      "id": "7ca454b6-a29e-49ef-af62-5090c3dbd2d2",
+      "id": "2f129f45-dc5c-4d2d-9943-bb187aabc041",
       "status": "Pending",
       "result": null,
       "progress": null,
@@ -13,7 +13,7 @@
       "preview": null
     },
     {
-      "id": "7ca454b6-a29e-49ef-af62-5090c3dbd2d2",
+      "id": "2f129f45-dc5c-4d2d-9943-bb187aabc041",
       "status": "Pending",
       "result": null,
       "progress": null,
@@ -21,13 +21,37 @@
       "preview": null
     },
     {
-      "id": "7ca454b6-a29e-49ef-af62-5090c3dbd2d2",
+      "id": "2f129f45-dc5c-4d2d-9943-bb187aabc041",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "2f129f45-dc5c-4d2d-9943-bb187aabc041",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "2f129f45-dc5c-4d2d-9943-bb187aabc041",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "2f129f45-dc5c-4d2d-9943-bb187aabc041",
       "status": "Ready",
       "result": {
-        "start_time": 1786892043.3938367,
-        "prompt": "ruhige morgendliche szene im natürlichen licht, offene hände auf einem holztisch, eine tasse, im hintergrund ein flaches ufer mit niedrigem wasserstand und trockenen gräsern, ernste aber hoffnungsvolle atmosphäre, dokumentarisch, realistisch, weiche farben, hohe bildqualität, keine menschenmenge, keine symbole, no text, no letters, no typography, no logo, no watermark",
-        "seed": 2624753513,
-        "sample": "https://delivery.us2.bfl.ai/durable/2026081614/5e1f69ea-538b-4d66-962e-9be995966f07/ef/044712dda463b1/dda463b12bc144b7bace9191c3044422/sample.jpeg?se=2026-08-16T15%3A04%3A04Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=bDt5m2YitIrBEwl7bIQ7TiHlSxC7PL9efR47iTs/LFE%3D"
+        "start_time": 1786892096.2886257,
+        "prompt": "ruhige morgendliche szene im natürlichen licht, offene, anatomisch korrekte hände auf einem holztisch, eine tasse, im hintergrund ein flaches ufer mit niedrigem wasserstand und trockenen gräsern, ernste aber hoffnungsvolle atmosphäre, dokumentarisch, realistisch, weiche farben, hohe bildqualität, keine menschenmenge, keine symbole, no text, no letters, no typography, no logo, no watermark",
+        "seed": 650472605,
+        "sample": "https://delivery.eu2.bfl.ai/durable/2026081614/5e1f69ea-538b-4d66-962e-9be995966f07/17/097637c7706cd4/c7706cd4b65348c1b36992d7470951c2/sample.jpeg?se=2026-08-16T15%3A04%3A59Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=n/lLL4uvKJy%2BUvpdJ7wrzR%2Br1hNrRhAJMqq9uABQEpU%3D"
       },
       "progress": null,
       "details": null,
@@ -35,8 +59,8 @@
     }
   ],
   "submission": {
-    "id": "7ca454b6-a29e-49ef-af62-5090c3dbd2d2",
-    "polling_url": "https://api.us2.bfl.ai/v1/get_result?id=7ca454b6-a29e-49ef-af62-5090c3dbd2d2",
+    "id": "2f129f45-dc5c-4d2d-9943-bb187aabc041",
+    "polling_url": "https://api.eu2.bfl.ai/v1/get_result?id=2f129f45-dc5c-4d2d-9943-bb187aabc041",
     "cost": 1.5,
     "input_mp": 0,
     "output_mp": 1.98
