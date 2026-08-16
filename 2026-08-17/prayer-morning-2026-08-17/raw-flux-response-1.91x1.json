@@ -1,11 +1,11 @@
 {
-  "delivery_url": "https://delivery.eu2.bfl.ai/durable/2026081614/5e1f69ea-538b-4d66-962e-9be995966f07/44/09241761d12593/61d1259353384ba382630e7d2091f20d/sample.jpeg?se=2026-08-16T15%3A04%3A52Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=m23dXlE1MKwQA/lllHRjEigQ9yDqt6048QnolyE0j8U%3D",
+  "delivery_url": "https://delivery.eu2.bfl.ai/durable/2026081614/5e1f69ea-538b-4d66-962e-9be995966f07/0e/1392774d10aa86/4d10aa86adbe4a8a8db0dd75832a0f4f/sample.jpeg?se=2026-08-16T15%3A05%3A39Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=kr9bH4B4Fd8EHVUoiVIJWkvTgFfby7kVPy8d9j4TX%2BU%3D",
   "download_headers": {
     "content_type": "image/jpeg"
   },
   "polls": [
     {
-      "id": "8fd25c7b-6818-4d3d-a5d3-2d1a5635c3bc",
+      "id": "e31dfa62-0a19-40de-8ec7-339573a43baa",
       "status": "Pending",
       "result": null,
       "progress": null,
@@ -13,7 +13,7 @@
       "preview": null
     },
     {
-      "id": "8fd25c7b-6818-4d3d-a5d3-2d1a5635c3bc",
+      "id": "e31dfa62-0a19-40de-8ec7-339573a43baa",
       "status": "Pending",
       "result": null,
       "progress": null,
@@ -21,13 +21,13 @@
       "preview": null
     },
     {
-      "id": "8fd25c7b-6818-4d3d-a5d3-2d1a5635c3bc",
+      "id": "e31dfa62-0a19-40de-8ec7-339573a43baa",
       "status": "Ready",
       "result": {
-        "start_time": 1786892091.6786442,
-        "prompt": "ruhige morgendliche szene im natürlichen licht, offene, anatomisch korrekte hände auf einem holztisch, eine tasse, im hintergrund ein flaches ufer mit niedrigem wasserstand und trockenen gräsern, ernste aber hoffnungsvolle atmosphäre, dokumentarisch, realistisch, weiche farben, hohe bildqualität, keine menschenmenge, keine symbole, no text, no letters, no typography, no logo, no watermark",
-        "seed": 2592956762,
-        "sample": "https://delivery.eu2.bfl.ai/durable/2026081614/5e1f69ea-538b-4d66-962e-9be995966f07/44/09241761d12593/61d1259353384ba382630e7d2091f20d/sample.jpeg?se=2026-08-16T15%3A04%3A52Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=m23dXlE1MKwQA/lllHRjEigQ9yDqt6048QnolyE0j8U%3D"
+        "start_time": 1786892138.5730581,
+        "prompt": "ruhige morgendliche szene im natürlichen licht, eine tasse auf einem Holztisch, im hintergrund ein flaches ufer mit niedrigem wasserstand und trockenen gräsern, ernste aber hoffnungsvolle atmosphäre, dokumentarisch, realistisch, weiche farben, hohe bildqualität, keine menschenmenge, keine symbole, no text, no letters, no typography, no logo, no watermark",
+        "seed": 959377152,
+        "sample": "https://delivery.eu2.bfl.ai/durable/2026081614/5e1f69ea-538b-4d66-962e-9be995966f07/0e/1392774d10aa86/4d10aa86adbe4a8a8db0dd75832a0f4f/sample.jpeg?se=2026-08-16T15%3A05%3A39Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=kr9bH4B4Fd8EHVUoiVIJWkvTgFfby7kVPy8d9j4TX%2BU%3D"
       },
       "progress": null,
       "details": null,
@@ -35,8 +35,8 @@
     }
   ],
   "submission": {
-    "id": "8fd25c7b-6818-4d3d-a5d3-2d1a5635c3bc",
-    "polling_url": "https://api.eu2.bfl.ai/v1/get_result?id=8fd25c7b-6818-4d3d-a5d3-2d1a5635c3bc",
+    "id": "e31dfa62-0a19-40de-8ec7-339573a43baa",
+    "polling_url": "https://api.eu2.bfl.ai/v1/get_result?id=e31dfa62-0a19-40de-8ec7-339573a43baa",
     "cost": 1.4000000000000001,
     "input_mp": 0,
     "output_mp": 0.72
