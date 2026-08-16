@@ -1,6 +1,6 @@
 {
   "id": "prayer-evening-2026-08-16",
-  "status": "zur Prüfung",
+  "status": "in Arbeit",
   "needs_input": false,
   "source": {
     "calendar_post_id": "prayer-evening-2026-08-16",
@@ -25,35 +25,35 @@
   },
   "platforms": {
     "facebook": {
-      "text": "Abend.\n\nGott,\nwir lassen diesen Tag bei dir.\nDas Gute.\nDie Begegnungen.\nDie Arbeit, die gelungen ist.\nUnd auch das, was schwer war.\nDie Müdigkeit.\nDie falschen Worte.\nDas, was offen blieb.\n\nWir bitten dich für Menschen, die von Waldbränden bedroht sind.\nFür Familien, die fliehen mussten, um ihr Zuhause bangen oder schon Verlust erlebt haben.\n\nWir bitten dich für die Menschen in Kolumbien nach dem Erdbeben.\nFür alle, die mit Angst, Unsicherheit und den Folgen der Erschütterung leben.\n\nWir bitten dich auch für die Menschen bei uns,\ndie unter Hitze und Trockenheit leiden.\nFür Kranke. Für Alte. Für alle, die auf Wasser, Schatten und Entlastung warten.\n\nSei bei denen, die heute Nacht wachen.\nIn Krankenhäusern.\nIn Pflegeheimen.\nBei der Feuerwehr.\nBei Rettungsdiensten.\nAn Betten und Grenzen.\n\nWas heute unfertig bleibt, halten nicht wir fest.\nWir legen es in deine Hand.\nSchenk uns Ruhe für diese Nacht.\nUnd halte die Hoffnung in uns wach.\n\nAmen.",
-      "headline": "Abendgebet: Was heute unfertig bleibt"
+      "headline": "Abendgebet: Was heute unfertig bleibt",
+      "text": "Abend.\n\nGott,\nwir lassen diesen Tag bei dir.\nDas Gute.\nDie Begegnungen.\nDie Arbeit, die gelungen ist.\nUnd auch das, was schwer war.\nDie Müdigkeit.\nDie falschen Worte.\nDas, was offen blieb.\n\nWir bitten dich für Menschen, die von Waldbränden bedroht sind.\nFür Familien, die fliehen mussten, um ihr Zuhause bangen oder schon Verlust erlebt haben.\n\nWir bitten dich für die Menschen in Kolumbien nach dem Erdbeben.\nFür alle, die mit Angst, Unsicherheit und den Folgen der Erschütterung leben.\n\nWir bitten dich auch für die Menschen bei uns,\ndie unter Hitze und Trockenheit leiden.\nFür Kranke. Für Alte. Für alle, die auf Wasser, Schatten und Entlastung warten.\n\nSei bei denen, die heute Nacht wachen.\nIn Krankenhäusern.\nIn Pflegeheimen.\nBei der Feuerwehr.\nBei Rettungsdiensten.\nAn Betten und Grenzen.\n\nWas heute unfertig bleibt, halten nicht wir fest.\nWir legen es in deine Hand.\nSchenk uns Ruhe für diese Nacht.\nUnd halte die Hoffnung in uns wach.\n\nAmen."
     },
     "instagram": {
       "caption": "Gott,\nwir legen dir diesen Tag hin.\nWas gut war.\nWas wehgetan hat.\nWas offen bleibt.\n\nWir beten für Menschen, die von Waldbränden bedroht sind oder ihr Zuhause verloren haben.\nFür die Menschen in Kolumbien nach dem Erdbeben.\nUnd für alle, die hier unter Hitze und Trockenheit leiden.\n\nSchenk Ruhe für diese Nacht.\nUnd halte die Hoffnung in uns wach.\n\nAmen.",
       "carousel": [
         {
-          "type": "text",
-          "text": "Gott,\nwir lassen diesen Tag bei dir."
+          "text": "Gott,\nwir lassen diesen Tag bei dir.",
+          "type": "text"
         },
         {
-          "type": "text",
-          "text": "Was gut war.\nUnd was schwer war.\nWas gelungen ist.\nUnd was offen blieb."
+          "text": "Was gut war.\nUnd was schwer war.\nWas gelungen ist.\nUnd was offen blieb.",
+          "type": "text"
         },
         {
-          "type": "text",
-          "text": "Wir beten für Menschen, die von Waldbränden bedroht sind.\nFür Familien in Angst, auf der Flucht oder nach einem Verlust."
+          "text": "Wir beten für Menschen, die von Waldbränden bedroht sind.\nFür Familien in Angst, auf der Flucht oder nach einem Verlust.",
+          "type": "text"
         },
         {
-          "type": "text",
-          "text": "Wir beten für die Menschen in Kolumbien nach dem Erdbeben.\nFür alle, die mit Angst und Unsicherheit leben."
+          "text": "Wir beten für die Menschen in Kolumbien nach dem Erdbeben.\nFür alle, die mit Angst und Unsicherheit leben.",
+          "type": "text"
         },
         {
-          "type": "text",
-          "text": "Wir beten für Menschen hier,\ndie unter Hitze und Trockenheit leiden."
+          "text": "Wir beten für Menschen hier,\ndie unter Hitze und Trockenheit leiden.",
+          "type": "text"
         },
         {
-          "type": "text",
-          "text": "Schenk uns Ruhe für diese Nacht.\nUnd halte die Hoffnung in uns wach.\nAmen."
+          "text": "Schenk uns Ruhe für diese Nacht.\nUnd halte die Hoffnung in uns wach.\nAmen.",
+          "type": "text"
         }
       ]
     },
@@ -111,12 +111,12 @@
     "alt_text": "Ein offenes Fenster im warmen Abendlicht. Davor steht ein schlichter Tisch mit einem Glas Wasser und einem geschlossenen Notizbuch. Die Szene wirkt ruhig und still."
   },
   "qa": {
+    "approved": false,
     "warnings": [
       "Alt text must be completed before approval",
       "Aktuelle Bezüge vor Freigabe noch einmal tagesaktuell gegen Abend gegenprüfen, da die Produktion am Vortag erfolgt.",
       "Konkrete Nachrichtenbezüge sind bewusst allgemein genug formuliert, um bis zum Folgetag tragfähig zu bleiben."
-    ],
-    "approved": false
+    ]
   },
   "metadata": {
     "model": "gpt-5.4-2026-03-05",
