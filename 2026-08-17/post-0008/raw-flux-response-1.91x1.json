@@ -1,0 +1,36 @@
+{
+  "delivery_url": "https://delivery.us2.bfl.ai/durable/2026081615/5e1f69ea-538b-4d66-962e-9be995966f07/ff/6363114f2130be/4f2130be9ac84454947ffff7510bb634/sample.jpeg?se=2026-08-16T15%3A13%3A56Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=ulB1v64SkiVeCAVNxjZl30S%2BaPG4vb%2BS7OvZdd2F/eg%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "840f6d65-165e-4f37-8de0-4268f269c9f3",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "840f6d65-165e-4f37-8de0-4268f269c9f3",
+      "status": "Ready",
+      "result": {
+        "start_time": 1786892635.1629841,
+        "prompt": "Fotorealistische ruhige Alltagsszene am Morgen, eine einzelne erwachsene Person hält kurz inne vor dem Start in den Tag, am Fenster oder an einem schlichten Schreibtisch, warme natürliche Lichtstimmung, weiche Schatten, reduzierte Umgebung, Notizbuch oder Tasse als dezente Alltagsobjekte, nachdenklich, entlastend, würdevoll, unaufgeregt, protestantische Social-Media-Ästhetik, klare Bildkomposition, viel negativer Raum, keine sichtbaren Marken, no text, no letters, no typography, no logo, no watermark",
+        "seed": 4174427336,
+        "sample": "https://delivery.us2.bfl.ai/durable/2026081615/5e1f69ea-538b-4d66-962e-9be995966f07/ff/6363114f2130be/4f2130be9ac84454947ffff7510bb634/sample.jpeg?se=2026-08-16T15%3A13%3A56Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=ulB1v64SkiVeCAVNxjZl30S%2BaPG4vb%2BS7OvZdd2F/eg%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "840f6d65-165e-4f37-8de0-4268f269c9f3",
+    "polling_url": "https://api.us2.bfl.ai/v1/get_result?id=840f6d65-165e-4f37-8de0-4268f269c9f3",
+    "cost": 1.4000000000000001,
+    "input_mp": 0,
+    "output_mp": 0.72
+  }
+}

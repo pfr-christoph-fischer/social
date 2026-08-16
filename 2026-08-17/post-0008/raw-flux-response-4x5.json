@@ -1,0 +1,52 @@
+{
+  "delivery_url": "https://delivery.us3.bfl.ai/durable/2026081615/5e1f69ea-538b-4d66-962e-9be995966f07/46/6414722213a445/2213a445143148259e316c19336e543f/sample.jpeg?se=2026-08-16T15%3A14%3A01Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=bwjb5XGIKHpOPTkPeK8PIDaHPrxzIGz6bCQocq1zq%2BA%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "a6234957-a2b2-482a-a30e-05f3db954d9b",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "a6234957-a2b2-482a-a30e-05f3db954d9b",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "a6234957-a2b2-482a-a30e-05f3db954d9b",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "a6234957-a2b2-482a-a30e-05f3db954d9b",
+      "status": "Ready",
+      "result": {
+        "start_time": 1786892639.7124162,
+        "prompt": "Fotorealistische ruhige Alltagsszene am Morgen, eine einzelne erwachsene Person hält kurz inne vor dem Start in den Tag, am Fenster oder an einem schlichten Schreibtisch, warme natürliche Lichtstimmung, weiche Schatten, reduzierte Umgebung, Notizbuch oder Tasse als dezente Alltagsobjekte, nachdenklich, entlastend, würdevoll, unaufgeregt, protestantische Social-Media-Ästhetik, klare Bildkomposition, viel negativer Raum, keine sichtbaren Marken, no text, no letters, no typography, no logo, no watermark",
+        "seed": 205358965,
+        "sample": "https://delivery.us3.bfl.ai/durable/2026081615/5e1f69ea-538b-4d66-962e-9be995966f07/46/6414722213a445/2213a445143148259e316c19336e543f/sample.jpeg?se=2026-08-16T15%3A14%3A01Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=bwjb5XGIKHpOPTkPeK8PIDaHPrxzIGz6bCQocq1zq%2BA%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "a6234957-a2b2-482a-a30e-05f3db954d9b",
+    "polling_url": "https://api.us3.bfl.ai/v1/get_result?id=a6234957-a2b2-482a-a30e-05f3db954d9b",
+    "cost": 1.5,
+    "input_mp": 0,
+    "output_mp": 1.39
+  }
+}
