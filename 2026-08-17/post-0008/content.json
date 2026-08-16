@@ -23,44 +23,84 @@
       "Production mode: vollständig vorproduzierbar",
       "Structure: Wochenspruch | ein alltagsnaher Gedanke | eine kleine Übung | eine Frage",
       "AI support notes: Rohentwurf in einfacher Sprache | Varianten der Wochenübung | Caption kürzen | Alt-Text",
-      "Liturgical source: https://kirchenjahr.pfarr.tools/api/jahr/2026 (2026-08-16, $.Tage['2026-08-16'])"
+      "Liturgical source: https://kirchenjahr.pfarr.tools/api/jahr/2026 (2026-08-16, $.Tage['2026-08-16'])",
+      "Wochenspruch: Gott widersteht den Hochmütigen, aber den Demütigen gibt er Gnade. (1. Petr 5,5b)"
     ]
   },
   "platforms": {
     "facebook": {
-      "text": "",
-      "headline": ""
+      "text": "Manchmal beginnt eine Woche im Sprint. Der erste Termin wartet. Der Kopf ist schon voll. Genau dort kann der Wochenspruch einen kleinen Raum öffnen:\n\n„Gott widersteht den Hochmütigen, aber den Demütigen gibt er Gnade.“ (1. Petr 5,5b)\n\nDemut heißt nicht, sich kleinzumachen. Eher das Gegenteil: ehrlich werden. Ich muss nicht alles im Griff haben. Ich muss nicht größer wirken, als ich bin. Ich darf ankommen, atmen und mit leeren Händen vor Gott stehen.\n\nEine kleine Übung für diese Woche:\nBevor dein erster Termin beginnt, halte einen Moment still. Atme einmal langsam ein und aus. Lies den Vers. Vielleicht nur leise im Kopf. Und dann geh los – nicht mit Druck, sondern mit dem Vertrauen: Ich muss mich nicht beweisen. Gottes Gnade trägt.\n\nFrage für die Woche:\nWo würde es mir gut tun, heute nicht stärker, schneller oder wichtiger erscheinen zu müssen?\n\n#Wochenspruch #Kirchenjahr #AlltagUndGlaube",
+      "headline": "Vor dem ersten Termin: ein Atemzug, ein Vers"
     },
     "instagram": {
-      "caption": "",
-      "carousel": []
+      "caption": "Diese Woche mit einem kurzen Halt vor dem ersten Termin.\n\n„Gott widersteht den Hochmütigen, aber den Demütigen gibt er Gnade.“ (1. Petr 5,5b)\n\nDemut heißt nicht: klein werden.\nDemut kann heißen: nicht so tun, als müsste ich alles können.\n\nÜbung für diese Woche:\nVor dem ersten Termin einmal langsam atmen. Den Vers lesen. Dann erst starten.\n\nFrage:\nWo muss ich mich heute nicht beweisen?\n\n#Wochenspruch #Kirchenjahr #GlaubeImAlltag",
+      "carousel": [
+        {
+          "type": "text",
+          "text": "Wochenspruch der Woche:\n„Gott widersteht den Hochmütigen, aber den Demütigen gibt er Gnade.“\n1. Petr 5,5b"
+        },
+        {
+          "type": "text",
+          "text": "Ein Gedanke dazu:\nDemut heißt nicht, sich kleinzumachen.\nDemut heißt: Ich muss nicht so tun, als hätte ich alles im Griff."
+        },
+        {
+          "type": "text",
+          "text": "Kleine Übung:\nVor dem ersten Termin heute einmal langsam atmen.\nDann den Vers lesen.\nErst danach losgehen."
+        },
+        {
+          "type": "text",
+          "text": "Frage für die Woche:\nWo muss ich heute nicht stärker, schneller oder wichtiger wirken?"
+        }
+      ]
     },
     "mastodon": {
-      "text": ""
+      "text": "Vor dem ersten Termin kurz anhalten.\nEinmal langsam atmen.\nDann den Wochenspruch lesen:\n\n„Gott widersteht den Hochmütigen, aber den Demütigen gibt er Gnade.“ (1. Petr 5,5b)\n\nDemut heißt nicht, sich kleinzumachen. Es kann heißen: Ich muss nicht alles im Griff haben. Ich muss mich nicht beweisen.\n\nFrage für die Woche:\nWo tut mir diese Haltung heute gut?\n\n#Wochenspruch #Kirchenjahr"
     },
     "bluesky": {
-      "text": ""
+      "text": "Vor dem ersten Termin kurz anhalten. Langsam atmen. Dann den Wochenspruch lesen:\n\n„Gott widersteht den Hochmütigen, aber den Demütigen gibt er Gnade.“ (1. Petr 5,5b)\n\nDemut heißt nicht, sich kleinzumachen. Ich muss mich nicht beweisen.\n\nWo tut dir diese Haltung heute gut? #Wochenspruch"
     },
     "story": {
-      "slides": []
+      "slides": [
+        {
+          "text": "Diese Woche:\nkurz anhalten\nvor dem ersten Termin"
+        },
+        {
+          "text": "„Gott widersteht den Hochmütigen, aber den Demütigen gibt er Gnade.“\n1. Petr 5,5b"
+        },
+        {
+          "text": "Demut heißt nicht:\nklein werden.\nSondern:\nnicht alles vorspielen müssen."
+        },
+        {
+          "text": "Übung:\nEinmal langsam atmen.\nDen Vers lesen.\nDann losgehen."
+        },
+        {
+          "text": "Frage:\nWo muss ich mich heute nicht beweisen?"
+        }
+      ]
     },
     "reel": {
-      "hook": "",
-      "script": "",
-      "shots": [],
-      "duration_seconds": 0
+      "hook": "Vor deinem ersten Termin heute: nicht sofort losrennen.",
+      "script": "Bevor der Tag Fahrt aufnimmt, halte einen Moment an. Atme einmal langsam ein und aus. Lies den Wochenspruch: „Gott widersteht den Hochmütigen, aber den Demütigen gibt er Gnade.“ Demut heißt nicht, dich kleinzumachen. Es heißt: Du musst nicht so tun, als hättest du alles im Griff. Starte in den Tag, ohne dich zu beweisen. Vielleicht ist genau da Raum für Gottes Gnade.",
+      "shots": [
+        "Nahaufnahme einer Hand an einer Kaffeetasse oder einem Notizbuch",
+        "Ruhiger Atemmoment am Fenster oder am Schreibtisch",
+        "Blick auf einen offenen Kalender oder eine schlichte Alltagsszene ohne lesbaren Text",
+        "Langsamer Schritt durch einen Flur oder über einen Weg",
+        "Abschließende ruhige Totale mit Licht und stiller Atmosphäre"
+      ],
+      "duration_seconds": 24
     }
   },
   "visual": {
-    "concept": "",
-    "flux_prompt": "",
+    "concept": "Ruhige Alltagsszene vor dem Start in den Tag: ein Mensch hält kurz inne, atmet am Fenster oder sitzt still an einem schlichten Schreibtisch. Warmes Morgenlicht, reduzierte Komposition, nachdenkliche und entlastende Stimmung.",
+    "flux_prompt": "Fotorealistische ruhige Alltagsszene am Morgen, eine einzelne erwachsene Person hält kurz inne vor dem Start in den Tag, am Fenster oder an einem schlichten Schreibtisch, warme natürliche Lichtstimmung, weiche Schatten, reduzierte Umgebung, Notizbuch oder Tasse als dezente Alltagsobjekte, nachdenklich, entlastend, würdevoll, unaufgeregt, protestantische Social-Media-Ästhetik, klare Bildkomposition, viel negativer Raum, keine sichtbaren Marken",
     "negative_prompt": "text, letters, logo, watermark",
     "formats": [
       "4:5",
       "9:16",
       "1.91:1"
     ],
-    "alt_text": ""
+    "alt_text": "Eine erwachsene Person hält am Morgen in einer schlichten Alltagsszene kurz inne, steht oder sitzt ruhig am Fenster oder an einem aufgeräumten Schreibtisch. Warmes Licht fällt in den Raum. Die Stimmung ist still und gesammelt."
   },
   "qa": {
     "warnings": [
@@ -69,11 +109,9 @@
     "approved": false
   },
   "metadata": {
-    "model": "",
-    "generated_at": "",
+    "model": "gpt-5.4-2026-03-05",
+    "generated_at": "2026-08-16T14:59:25.081Z",
     "prompt_version": "1.0",
-    "assets": [
-      "assets/background-1.91x1.webp"
-    ]
+    "assets": []
   }
 }
