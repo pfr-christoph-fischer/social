@@ -27,5 +27,67 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "prayer-evening-2026-08-16",
+    "contentDate": "2026-08-16",
+    "platform": "instagram",
+    "format": "default",
+    "scheduledAt": "2026-08-16T18:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Gott,\nwir legen dir diesen Tag hin.\nWas gut war.\nWas wehgetan hat.\nWas offen bleibt.\n\nWir beten für Menschen, die von Waldbränden bedroht sind oder ihr Zuhause verloren haben.\nFür die Menschen in Kolumbien nach dem Erdbeben.\nUnd für alle, die hier unter Hitze und Trockenheit leiden.\n\nSchenk Ruhe für diese Nacht.\nUnd halte die Hoffnung in uns wach.\n\nAmen.",
+    "assets": [
+      "render-instagram-feed-01.jpg",
+      "render-instagram-feed-02.jpg",
+      "render-instagram-feed-03.jpg",
+      "render-instagram-feed-04.jpg",
+      "render-instagram-feed-05.jpg",
+      "render-instagram-feed-06.jpg"
+    ],
+    "altTexts": [
+      "Ein offenes Fenster im warmen Abendlicht. Davor steht ein schlichter Tisch mit einem Glas Wasser und einem geschlossenen Notizbuch. Die Szene wirkt ruhig und still."
+    ],
+    "id": "76ebf51a-4d80-431f-b030-bf90307262b2",
+    "attemptCount": 1,
+    "remoteId": "17873313816651834",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-16T14:46:42.598Z",
+    "updatedAt": "2026-08-16T18:01:01.534Z",
+    "responseMetadata": {
+      "mediaCount": 6,
+      "mediaType": "CAROUSEL",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "prayer-evening-2026-08-16",
+    "contentDate": "2026-08-16",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-08-16T18:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Gott,\nwir legen diesen Tag in deine Hand.\nWas gut war. Was wehgetan hat. Was offen blieb.\n\nWir bitten dich für Menschen, die von Waldbränden bedroht sind oder ihr Zuhause verloren haben.\nFür die Menschen in Kolumbien nach dem Erdbeben, die mit Angst, Verlust und Unsicherheit leben.\nFür alle hier, die unter Hitze und Trockenheit leiden.\n\nSchenk Frieden für diese Nacht.\nAmen.",
+    "assets": [
+      "render-facebook-mastodon-01.png"
+    ],
+    "altTexts": [
+      "Ein offenes Fenster im warmen Abendlicht. Davor steht ein schlichter Tisch mit einem Glas Wasser und einem geschlossenen Notizbuch. Die Szene wirkt ruhig und still."
+    ],
+    "id": "3556d369-7c97-4739-b2ed-8968565fceac",
+    "attemptCount": 1,
+    "remoteId": "117106492292681033",
+    "remoteUrl": "https://kirche.social/@christoph/117106492292681033",
+    "lastError": null,
+    "createdAt": "2026-08-16T14:46:42.669Z",
+    "updatedAt": "2026-08-16T18:01:03.805Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
