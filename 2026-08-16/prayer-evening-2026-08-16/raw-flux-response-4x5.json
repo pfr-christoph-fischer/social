@@ -1,0 +1,44 @@
+{
+  "delivery_url": "https://delivery.eu2.bfl.ai/durable/2026081614/5e1f69ea-538b-4d66-962e-9be995966f07/5c/5428845f9e1acc/5f9e1acc7d2c4700ba8256c0ad54fa23/sample.jpeg?se=2026-08-16T14%3A55%3A43Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=QAxSXOnydw3L07EimrSna8sGPvs0Bo4tFU4aExJKkpo%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "69c29af2-58a8-4730-8734-782b4d263168",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "69c29af2-58a8-4730-8734-782b4d263168",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "69c29af2-58a8-4730-8734-782b4d263168",
+      "status": "Ready",
+      "result": {
+        "start_time": 1786891541.782928,
+        "prompt": "ruhige realistische Abendszene an einem offenen Fenster, warmes spätes Abendlicht, schlichter Holztisch mit einem Wasserglas und einem geschlossenen Notizbuch, weiche Schatten, klare einfache Komposition, zurückhaltende Farben, friedliche nachdenkliche Stimmung, fotografischer Stil, keine Menschen im Vordergrund, no text, no letters, no typography, no logo, no watermark",
+        "seed": 2379776581,
+        "sample": "https://delivery.eu2.bfl.ai/durable/2026081614/5e1f69ea-538b-4d66-962e-9be995966f07/5c/5428845f9e1acc/5f9e1acc7d2c4700ba8256c0ad54fa23/sample.jpeg?se=2026-08-16T14%3A55%3A43Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=QAxSXOnydw3L07EimrSna8sGPvs0Bo4tFU4aExJKkpo%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "69c29af2-58a8-4730-8734-782b4d263168",
+    "polling_url": "https://api.eu2.bfl.ai/v1/get_result?id=69c29af2-58a8-4730-8734-782b4d263168",
+    "cost": 1.5,
+    "input_mp": 0,
+    "output_mp": 1.39
+  }
+}
