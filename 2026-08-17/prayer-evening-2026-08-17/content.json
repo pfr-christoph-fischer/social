@@ -1,7 +1,7 @@
 {
   "id": "prayer-evening-2026-08-17",
   "status": "zur Prüfung",
-  "needs_input": true,
+  "needs_input": false,
   "source": {
     "calendar_post_id": "prayer-evening-2026-08-17",
     "date": "2026-08-17",
@@ -10,7 +10,7 @@
   },
   "editorial_core": {
     "title": "Abendgebet",
-    "main_message": "Den vergangenen Tag mit allem Gelungenen und Unvollendeten in Gottes Hand legen. Zugleich bitten wir konkret für Menschen, die unter anhaltender Not leiden: für Menschen in Gaza, wo Hilfsgüter weiter nur begrenzt ankommen, und für Menschen in der Ukraine, die weiter unter russischen Angriffen leben. Auch die Sorgen im Südwesten nehmen wir mit ins Gebet, etwa die Belastungen durch Niedrigwasser und Hitze in Baden-Württemberg.",
+    "main_message": "Den vergangenen Tag mit allem Gelungenen und Unvollendeten in Gottes Hand legen. Zugleich bitten wir für Menschen, die von Waldbränden bedroht sind, und für Menschen, die keine Ausbildung oder keine Arbeit haben und sich um ihre Zukunft sorgen.",
     "audience": "breite Öffentlichkeit",
     "tone": [
       "ruhig",
@@ -18,20 +18,19 @@
       "geborgen"
     ],
     "source_notes": [
-      "Aktuelle Nachrichtenlage webgeprüft.",
-      "Tagesschau-Themenseite Israel/Gaza verweist Ende Juli 2026 weiter auf humanitäre Engpässe in Gaza und begrenzte Hilfslieferungen.",
-      "Tagesschau-Themenseite Ukraine verweist im Sommer 2026 weiter auf tödliche russische Angriffe auf ukrainische Städte.",
-      "SWR Aktuell Baden-Württemberg berichtet im August 2026 über Folgen von Niedrigwasser für Transport und Alltag in Baden-Württemberg.",
-      "Für die Veröffentlichung fehlen belastbare tagesaktuelle Artikel vom Produktionszeitpunkt 2026-08-16/17 in den abrufbaren Quellen. Deshalb redaktionelle Ergänzung/Verifikation nötig, bevor konkrete Gebetsfassung freigegeben wird."
+      "Themen im Chatverlauf auf allgemeinere, nicht tagesaktuell verifikationspflichtige Anliegen umgestellt.",
+      "Waldbrände werden bewusst ohne Ortsangabe genannt.",
+      "Die Formulierung zu Ausbildung und Arbeit ist seelsorglich offen gehalten und nicht an eine konkrete Nachrichtenlage gebunden.",
+      "Öffentliche Redaktionshinweise aus den Plattformtexten entfernt."
     ]
   },
   "platforms": {
     "facebook": {
-      "text": "Gott,\n\nwir legen dir diesen Tag hin.\nDas, was gut war.\nDas, was wehgetan hat.\nDas, was offen geblieben ist.\n\nWir bitten dich für Menschen in Gaza, die auf Hilfe warten und nicht wissen, ob genug Wasser, Nahrung und Medizin ankommt.\nWir bitten dich für die Menschen in der Ukraine, die auch in dieser Nacht mit Angriffen und Angst leben.\nWir bitten dich auch für die Menschen bei uns, die unter Hitze und Niedrigwasser die Folgen spüren.\n\nGib den Erschöpften Ruhe.\nDen Ängstlichen Schutz.\nDen Helfenden Kraft.\nUnd uns ein Herz, das das Leid der Welt nicht vergisst.\n\nWas wir heute nicht zu Ende bringen konnten, halten nicht wir fest.\nDu hältst uns.\nSchenk uns Frieden für diese Nacht.\nAmen.\n\nHinweis für die Redaktion: Bitte die aktuellen Bezüge vor Freigabe mit tagesaktuellen Artikeln von tagesschau.de und SWR Aktuell Baden-Württemberg für den Produktionszeitpunkt 16./17. August 2026 nachziehen.",
+      "text": "Gott,\n\nwir legen dir diesen Tag hin.\nDas, was gut war.\nDas, was wehgetan hat.\nDas, was offen geblieben ist.\n\nWir bitten dich für Menschen, die von Waldbränden bedroht sind.\nWir bitten dich für Menschen, die keine Ausbildung oder keine Arbeit haben und sich um ihre Zukunft sorgen.\n\nGib den Erschöpften Ruhe.\nDen Ängstlichen Schutz.\nDen Suchenden Hoffnung.\nUnd uns ein Herz, das das Leid anderer nicht vergisst.\n\nWas wir heute nicht zu Ende bringen konnten, halten nicht wir fest.\nDu hältst uns.\nSchenk uns Frieden für diese Nacht.\nAmen.",
       "headline": "Abendgebet: Den Tag loslassen"
     },
     "instagram": {
-      "caption": "Gott,\nwir legen dir diesen Tag hin.\nDas Gute. Das Schwere. Das Unfertige.\n\nWir bitten dich für Menschen in Gaza, die auf Hilfe warten.\nFür Menschen in der Ukraine, die weiter unter Angriffen leben.\nFür Menschen bei uns, die Hitze und Niedrigwasser spüren.\n\nSchenk Ruhe für diese Nacht.\nUnd halte die Hoffnung wach.\nAmen.\n\nRedaktioneller Hinweis: Aktuelle Bezüge vor Freigabe noch tagesaktuell verifizieren.",
+      "caption": "Gott,\nwir legen dir diesen Tag hin.\nDas Gute. Das Schwere. Das Unfertige.\n\nWir bitten dich für Menschen, die von Waldbränden bedroht sind.\nFür Menschen, die keine Ausbildung oder keine Arbeit haben und sich um ihre Zukunft sorgen.\n\nSchenk Ruhe für diese Nacht.\nUnd halte die Hoffnung wach.\nAmen.",
       "carousel": [
         {
           "type": "text",
@@ -47,15 +46,15 @@
         },
         {
           "type": "text",
-          "text": "Wir bitten für Menschen in Gaza,\ndie auf Hilfe warten."
+          "text": "Wir bitten für Menschen,\ndie von Waldbränden bedroht sind."
         },
         {
           "type": "text",
-          "text": "Wir bitten für Menschen in der Ukraine,\ndie mit Angriffen und Angst leben."
+          "text": "Wir bitten für Menschen,\ndie keine Ausbildung oder keine Arbeit haben."
         },
         {
           "type": "text",
-          "text": "Wir bitten für Menschen bei uns,\ndie Hitze und Niedrigwasser belasten."
+          "text": "Sei bei allen,\ndie sich um ihre Zukunft sorgen."
         },
         {
           "type": "text",
@@ -64,10 +63,10 @@
       ]
     },
     "mastodon": {
-      "text": "Gott,\nwir legen dir diesen Tag hin.\nDas Gute. Das Schwere. Das Unfertige.\n\nWir bitten dich für Menschen in Gaza, die auf Hilfe warten.\nFür Menschen in der Ukraine, die weiter unter Angriffen leben.\nFür Menschen bei uns, die Hitze und Niedrigwasser spüren.\n\nSchenk Ruhe für diese Nacht.\nUnd halte die Hoffnung wach.\nAmen.\n\nRedaktionell vor Freigabe tagesaktuell verifizieren."
+      "text": "Gott,\nwir legen dir diesen Tag hin.\nDas Gute. Das Schwere. Das Unfertige.\n\nWir bitten dich für Menschen, die von Waldbränden bedroht sind.\nFür Menschen, die keine Ausbildung oder keine Arbeit haben und sich um ihre Zukunft sorgen.\n\nSchenk Ruhe für diese Nacht.\nUnd halte die Hoffnung wach.\nAmen."
     },
     "bluesky": {
-      "text": "Gott, wir legen dir diesen Tag hin. Das Gute. Das Schwere. Das Unfertige. Wir bitten für Menschen in Gaza, die auf Hilfe warten. Für Menschen in der Ukraine, die weiter unter Angriffen leben. Für Menschen bei uns, die Hitze und Niedrigwasser spüren. Schenk Ruhe für diese Nacht. Amen."
+      "text": "Gott, wir legen dir diesen Tag hin. Das Gute. Das Schwere. Das Unfertige. Wir bitten für Menschen, die von Waldbränden bedroht sind. Für Menschen, die keine Ausbildung oder keine Arbeit haben und sich um ihre Zukunft sorgen. Schenk Ruhe für diese Nacht. Amen."
     },
     "story": {
       "slides": [
@@ -81,13 +80,13 @@
           "text": "Wir legen es Gott hin."
         },
         {
-          "text": "Und bitten für Menschen in Gaza."
+          "text": "Und bitten für Menschen,\ndie von Waldbränden bedroht sind."
         },
         {
-          "text": "Für Menschen in der Ukraine."
+          "text": "Für Menschen,\ndie keine Ausbildung oder keine Arbeit haben."
         },
         {
-          "text": "Für Menschen bei uns:\nHitze. Niedrigwasser."
+          "text": "Für alle,\ndie sorgenvoll in die Zukunft schauen."
         },
         {
           "text": "Schenk Frieden für diese Nacht."
@@ -96,12 +95,12 @@
     },
     "reel": {
       "hook": "Wenn der Tag unfertig endet.",
-      "script": "Der Tag ist vorbei. Nicht alles ist gelungen. Nicht alles ist geklärt. Im Abendgebet darf unfertig bleiben, was unfertig ist. Wir legen Gott das Gute hin. Und das Schwere. Wir bitten für Menschen in Gaza, die auf Hilfe warten. Für Menschen in der Ukraine, die unter Angriffen leben. Für Menschen bei uns, die Hitze und Niedrigwasser belasten. Gott, gib Ruhe für diese Nacht. Und halte die Hoffnung wach. Amen.",
+      "script": "Der Tag ist vorbei. Nicht alles ist gelungen. Nicht alles ist geklärt. Im Abendgebet darf unfertig bleiben, was unfertig ist. Wir legen Gott das Gute hin. Und das Schwere. Wir bitten für Menschen, die von Waldbränden bedroht sind. Für Menschen, die keine Ausbildung oder keine Arbeit haben und sich um ihre Zukunft sorgen. Gott, gib Ruhe für diese Nacht. Und halte die Hoffnung wach. Amen.",
       "shots": [
         "Abendlicht auf einem offenen Fenster",
         "Eine Hand legt ein Handy zur Seite",
         "Stilles Zimmer mit brennender Kerze",
-        "Langsame Aufnahme von Wasseroberfläche",
+        "Langsame Aufnahme von Rauch oder flirrendem Licht in der Ferne",
         "Dunkler werdender Himmel",
         "Ruhige Nahaufnahme einer betenden Hand"
       ],
@@ -120,11 +119,7 @@
     "alt_text": "Ein schlichter Tisch an einem offenen Fenster im Abendlicht. Daneben ein Glas Wasser und eine ruhige Hand. Die Szene wirkt still und gelöst."
   },
   "qa": {
-    "warnings": [
-      "Alt text must be completed before approval",
-      "Tagesaktuelle Nachrichtenbezüge für 16./17. August 2026 in den abrufbaren Quellen nicht belastbar genug nachweisbar.",
-      "Vor Freigabe mindestens zwei konkrete Situationen mit datierten Artikeln von tagesschau.de und SWR Aktuell Baden-Württemberg verifizieren und ggf. Text anpassen."
-    ],
+    "warnings": [],
     "approved": false
   },
   "metadata": {
