@@ -84,5 +84,91 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-08-17",
+    "contentDate": "2026-08-17",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-08-17T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Der HERR hat das Recht lieb.",
+    "assets": [
+      "render-square-01.jpg"
+    ],
+    "altTexts": [
+      "Der HERR hat das Recht lieb."
+    ],
+    "id": "7dba7090-2151-4afd-9de4-2af44c2fd26e",
+    "attemptCount": 1,
+    "remoteId": "18100575070973948",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:44:22.249Z",
+    "updatedAt": "2026-08-17T05:00:57.152Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-08-17",
+    "contentDate": "2026-08-17",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-08-17T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Der HERR hat das Recht lieb.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Der HERR hat das Recht lieb."
+    ],
+    "id": "e9e873a6-6d6a-494e-bc4c-79bc80429060",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3mtawb7cboc2h",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3mtawb7cboc2h",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:44:22.252Z",
+    "updatedAt": "2026-08-17T05:00:59.125Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-08-17",
+    "contentDate": "2026-08-17",
+    "platform": "linkedin",
+    "format": "default",
+    "scheduledAt": "2026-08-17T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Der HERR hat das Recht lieb.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Der HERR hat das Recht lieb."
+    ],
+    "id": "799d4b60-cd21-4e37-b912-a9045a66a16a",
+    "attemptCount": 1,
+    "remoteId": "urn:li:share:7494981588863275008",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:44:22.255Z",
+    "updatedAt": "2026-08-17T05:01:01.132Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 201
+    },
+    "retryHistory": []
   }
 ]
