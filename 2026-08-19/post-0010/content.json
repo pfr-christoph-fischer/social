@@ -28,35 +28,35 @@
   },
   "platforms": {
     "facebook": {
-      "text": "Warum läuten vor dem Gottesdienst die Glocken?\n\nViele kennen den Klang. Aber was bedeutet er eigentlich?\n\nGlocken sind zuerst ein Ruf. Sie sagen: Kommt zusammen. Der Gottesdienst beginnt bald.\n\nFrüher war das ganz praktisch. Nicht jede Person hatte eine Uhr. Der Klang der Glocken war im Ort zu hören und gab Orientierung.\n\nAber Glocken sind mehr als ein Signal. Sie unterbrechen den Alltag. Für einen Moment ist da etwas anderes als Termine, Verkehr und To-do-Listen. Der Klang erinnert: Jetzt ist Zeit, sich zu sammeln. Zeit für Gebet, Gesang, Stille und Gemeinschaft.\n\nDarum läuten Glocken vor dem Gottesdienst nicht nur, um pünktlich zu sein. Sie öffnen einen inneren Raum. Sie laden ein, mit dem Herzen anzukommen.\n\nGesprächsfrage: Was löst Glockenklang bei dir aus – Ruhe, Erinnerung, Neugier oder eher Abstand?",
-      "headline": "Warum läuten vor dem Gottesdienst die Glocken?"
+      "headline": "Warum läuten vor dem Gottesdienst die Glocken?",
+      "text": "Warum läuten vor dem Gottesdienst die Glocken?\n\nViele kennen den Klang. Aber was bedeutet er eigentlich?\n\nGlocken sind zuerst ein Ruf. Sie sagen: Kommt zusammen. Der Gottesdienst beginnt bald.\n\nFrüher war das ganz praktisch. Nicht jede Person hatte eine Uhr. Der Klang der Glocken war im Ort zu hören und gab Orientierung.\n\nAber Glocken sind mehr als ein Signal. Sie unterbrechen den Alltag. Für einen Moment ist da etwas anderes als Termine, Verkehr und To-do-Listen. Der Klang erinnert: Jetzt ist Zeit, sich zu sammeln. Zeit für Gebet, Gesang, Stille und Gemeinschaft.\n\nDarum läuten Glocken vor dem Gottesdienst nicht nur, um pünktlich zu sein. Sie öffnen einen inneren Raum. Sie laden ein, mit dem Herzen anzukommen.\n\nGesprächsfrage: Was löst Glockenklang bei dir aus – Ruhe, Erinnerung, Neugier oder eher Abstand?"
     },
     "instagram": {
       "caption": "Warum läuten vor dem Gottesdienst die Glocken?\n\nDer Klang soll nicht nur informieren. Er lädt ein.\nEr ruft Menschen zusammen.\nEr unterbricht den Alltag.\nEr erinnert: Jetzt ist Zeit für Gottesdienst.\n\nFrüher halfen Glocken ganz praktisch bei der Orientierung. Heute tun sie noch immer mehr als das. Sie schaffen einen Moment zum Ankommen.\n\nGesprächsfrage: Was löst Glockenklang bei dir aus?\n\n#GlaubenVerstehen #Mittwochsserie #Glocken #Gottesdienst #Evangelisch",
       "carousel": [
         {
-          "type": "intro",
-          "text": "Warum läuten vor dem Gottesdienst die Glocken?"
+          "text": "Warum läuten vor dem Gottesdienst die Glocken?",
+          "type": "intro"
         },
         {
-          "type": "explanation",
-          "text": "Glocken sind ein Ruf. Sie sagen: Kommt zusammen. Der Gottesdienst beginnt bald."
+          "text": "Glocken sind ein Ruf. Sie sagen: Kommt zusammen. Der Gottesdienst beginnt bald.",
+          "type": "explanation"
         },
         {
-          "type": "explanation",
-          "text": "Früher war das auch praktisch. Der Klang gab Orientierung, lange bevor Uhren jederzeit verfügbar waren."
+          "text": "Früher war das auch praktisch. Der Klang gab Orientierung, lange bevor Uhren jederzeit verfügbar waren.",
+          "type": "explanation"
         },
         {
-          "type": "meaning",
-          "text": "Bis heute unterbrechen Glocken den Alltag. Sie schaffen einen Moment zum Aufatmen und Ankommen."
+          "text": "Bis heute unterbrechen Glocken den Alltag. Sie schaffen einen Moment zum Aufatmen und Ankommen.",
+          "type": "meaning"
         },
         {
-          "type": "meaning",
-          "text": "Der Klang erinnert: Jetzt ist Zeit für Gebet, Gemeinschaft, Gesang oder Stille vor Gott."
+          "text": "Der Klang erinnert: Jetzt ist Zeit für Gebet, Gemeinschaft, Gesang oder Stille vor Gott.",
+          "type": "meaning"
         },
         {
-          "type": "question",
-          "text": "Was löst Glockenklang bei dir aus?"
+          "text": "Was löst Glockenklang bei dir aus?",
+          "type": "question"
         }
       ]
     },
@@ -111,11 +111,11 @@
     "alt_text": "Ein Kirchturm und eine Glocke in ruhiger Atmosphäre kurz vor einem Gottesdienst. Die Bilder vermitteln den Übergang vom Alltag zu einem Moment des Ankommens und der Sammlung."
   },
   "qa": {
+    "approved": false,
     "warnings": [
       "Alt text must be completed before approval",
       "Historische Aussage bewusst allgemein gehalten; keine regionalen Sonderformen oder exakten Läuteordnungen behauptet."
-    ],
-    "approved": false
+    ]
   },
   "metadata": {
     "model": "gpt-5.4-2026-03-05",
