@@ -27,5 +27,68 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "prayer-evening-2026-08-17",
+    "contentDate": "2026-08-17",
+    "platform": "instagram",
+    "format": "default",
+    "scheduledAt": "2026-08-17T18:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Gott,\nwir legen dir diesen Tag hin.\nDas Gute. Das Schwere. Das Unfertige.\n\nWir bitten dich für Menschen, die von Waldbränden bedroht sind.\nFür Menschen, die keine Ausbildung oder keine Arbeit haben und sich um ihre Zukunft sorgen.\n\nSchenk Ruhe für diese Nacht.\nUnd halte die Hoffnung wach.\nAmen.",
+    "assets": [
+      "render-instagram-feed-01.jpg",
+      "render-instagram-feed-02.jpg",
+      "render-instagram-feed-03.jpg",
+      "render-instagram-feed-04.jpg",
+      "render-instagram-feed-05.jpg",
+      "render-instagram-feed-06.jpg",
+      "render-instagram-feed-07.jpg"
+    ],
+    "altTexts": [
+      "Ein schlichter Tisch an einem offenen Fenster im Abendlicht. Daneben ein Glas Wasser und eine ruhige Hand. Die Szene wirkt still und gelöst."
+    ],
+    "id": "6a81051b-6cb5-4cf0-aae0-26c8bb7f476a",
+    "attemptCount": 1,
+    "remoteId": "18023546300856571",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-17T19:47:07.352Z",
+    "updatedAt": "2026-08-17T19:48:23.195Z",
+    "responseMetadata": {
+      "mediaCount": 7,
+      "mediaType": "CAROUSEL",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "prayer-evening-2026-08-17",
+    "contentDate": "2026-08-17",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-08-17T18:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Gott,\nwir legen dir diesen Tag hin.\nDas Gute. Das Schwere. Das Unfertige.\n\nWir bitten dich für Menschen, die von Waldbränden bedroht sind.\nFür Menschen, die keine Ausbildung oder keine Arbeit haben und sich um ihre Zukunft sorgen.\n\nSchenk Ruhe für diese Nacht.\nUnd halte die Hoffnung wach.\nAmen.",
+    "assets": [
+      "render-facebook-mastodon-01.png"
+    ],
+    "altTexts": [
+      "Ein schlichter Tisch an einem offenen Fenster im Abendlicht. Daneben ein Glas Wasser und eine ruhige Hand. Die Szene wirkt still und gelöst."
+    ],
+    "id": "8ebebede-5d44-46aa-91af-70fe7f9a5f07",
+    "attemptCount": 1,
+    "remoteId": "117112576724063843",
+    "remoteUrl": "https://kirche.social/@christoph/117112576724063843",
+    "lastError": null,
+    "createdAt": "2026-08-17T19:47:07.416Z",
+    "updatedAt": "2026-08-17T19:48:24.936Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
