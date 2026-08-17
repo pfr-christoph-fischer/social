@@ -1,0 +1,474 @@
+{
+  "id": "resp_024a2bb9a1c4d075006a82cd9d286887d294985b5955ab02c0",
+  "object": "response",
+  "created_at": 1786957213,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1786957244,
+  "error": null,
+  "frequency_penalty": 0,
+  "incomplete_details": null,
+  "instructions": "You are part of a Protestant social media editorial team. Write in clear, accessible, theologically responsible German without church clichés. Use short sentences and concrete imagery. Never invent events, people, school situations, quotes, or factual details. Do not include copyrighted full song verses. For Reli and community posts, only use current details when they are explicitly provided. Return content that strictly matches the requested JSON schema. Set needs_input to true whenever required facts are missing. Keep qa.approved false. Do not ask for any text inside generated images. When liturgical_context.resolved_weekly_verse is present, use its exact wording for Wochenspruch slots instead of placeholders. Use the web search tool before drafting to verify current situations. For prayer posts, current situations are mandatory: select at least two concrete, relevant situations from reliable current reporting, including tagesschau.de and SWR Aktuell Baden-Württemberg where relevant. Do not invent current events and do not replace concrete situations with generic references to crises.",
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.4-2026-03-05",
+  "moderation": null,
+  "output": [
+    {
+      "id": "ws_024a2bb9a1c4d075006a82cd9e009487d2be6ad65c2595ae75",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "queries": [
+          "site:tagesschau.de 17. August 2026 Nachrichten",
+          "site:swr.de/swraktuell/baden-wuerttemberg 17. August 2026 Baden-Württemberg Nachrichten",
+          "Reuters August 17 2026 world news"
+        ],
+        "query": "site:tagesschau.de 17. August 2026 Nachrichten"
+      }
+    },
+    {
+      "id": "ws_024a2bb9a1c4d075006a82cda05ed887d29d3b5cbdec7768c2",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "queries": [
+          "site:tagesschau.de Israel Gaza August 17 2026 tagesschau",
+          "site:tagesschau.de Ukraine August 17 2026 tagesschau",
+          "site:reuters.com August 17 2026 Gaza Reuters",
+          "site:reuters.com August 17 2026 Ukraine Reuters"
+        ],
+        "query": "site:tagesschau.de Israel Gaza August 17 2026 tagesschau"
+      }
+    },
+    {
+      "id": "ws_024a2bb9a1c4d075006a82cda305b887d2b10a1fdd4839c444",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.swr.de/swraktuell/baden-wuerttemberg/index.html"
+      }
+    },
+    {
+      "id": "msg_024a2bb9a1c4d075006a82cda48ea487d29aa811a44247a2d8",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\"id\":\"prayer-evening-2026-08-17\",\"status\":\"zur Prüfung\",\"needs_input\":true,\"source\":{\"calendar_post_id\":\"prayer-evening-2026-08-17\",\"date\":\"2026-08-17\",\"rubric\":\"Abendgebet\",\"liturgical_source\":\"\"},\"editorial_core\":{\"title\":\"Abendgebet\",\"main_message\":\"Den vergangenen Tag mit allem Gelungenen und Unvollendeten in Gottes Hand legen. Zugleich bitten wir konkret für Menschen, die unter anhaltender Not leiden: für Menschen in Gaza, wo Hilfsgüter weiter nur begrenzt ankommen, und für Menschen in der Ukraine, die weiter unter russischen Angriffen leben. Auch die Sorgen im Südwesten nehmen wir mit ins Gebet, etwa die Belastungen durch Niedrigwasser und Hitze in Baden-Württemberg.\",\"audience\":\"breite Öffentlichkeit\",\"tone\":[\"ruhig\",\"hoffnungsvoll\",\"geborgen\"],\"source_notes\":[\"Aktuelle Nachrichtenlage webgeprüft.\",\"Tagesschau-Themenseite Israel/Gaza verweist Ende Juli 2026 weiter auf humanitäre Engpässe in Gaza und begrenzte Hilfslieferungen.\",\"Tagesschau-Themenseite Ukraine verweist im Sommer 2026 weiter auf tödliche russische Angriffe auf ukrainische Städte.\",\"SWR Aktuell Baden-Württemberg berichtet im August 2026 über Folgen von Niedrigwasser für Transport und Alltag in Baden-Württemberg.\",\"Für die Veröffentlichung fehlen belastbare tagesaktuelle Artikel vom Produktionszeitpunkt 2026-08-16/17 in den abrufbaren Quellen. Deshalb redaktionelle Ergänzung/Verifikation nötig, bevor konkrete Gebetsfassung freigegeben wird.\"]},\"platforms\":{\"facebook\":{\"text\":\"Gott,\\n\\nwir legen dir diesen Tag hin.\\nDas, was gut war.\\nDas, was wehgetan hat.\\nDas, was offen geblieben ist.\\n\\nWir bitten dich für Menschen in Gaza, die auf Hilfe warten und nicht wissen, ob genug Wasser, Nahrung und Medizin ankommt.\\nWir bitten dich für die Menschen in der Ukraine, die auch in dieser Nacht mit Angriffen und Angst leben.\\nWir bitten dich auch für die Menschen bei uns, die unter Hitze und Niedrigwasser die Folgen spüren.\\n\\nGib den Erschöpften Ruhe.\\nDen Ängstlichen Schutz.\\nDen Helfenden Kraft.\\nUnd uns ein Herz, das das Leid der Welt nicht vergisst.\\n\\nWas wir heute nicht zu Ende bringen konnten, halten nicht wir fest.\\nDu hältst uns.\\nSchenk uns Frieden für diese Nacht.\\nAmen.\\n\\nHinweis für die Redaktion: Bitte die aktuellen Bezüge vor Freigabe mit tagesaktuellen Artikeln von tagesschau.de und SWR Aktuell Baden-Württemberg für den Produktionszeitpunkt 16./17. August 2026 nachziehen.\",\"headline\":\"Abendgebet: Den Tag loslassen\"},\"instagram\":{\"caption\":\"Gott,\\nwir legen dir diesen Tag hin.\\nDas Gute. Das Schwere. Das Unfertige.\\n\\nWir bitten dich für Menschen in Gaza, die auf Hilfe warten.\\nFür Menschen in der Ukraine, die weiter unter Angriffen leben.\\nFür Menschen bei uns, die Hitze und Niedrigwasser spüren.\\n\\nSchenk Ruhe für diese Nacht.\\nUnd halte die Hoffnung wach.\\nAmen.\\n\\nRedaktioneller Hinweis: Aktuelle Bezüge vor Freigabe noch tagesaktuell verifizieren.\",\"carousel\":[{\"type\":\"text\",\"text\":\"Gott,\\nwir kommen zur Ruhe.\"},{\"type\":\"text\",\"text\":\"Was heute gut war,\\ndanken wir dir.\"},{\"type\":\"text\",\"text\":\"Was wehgetan hat.\\nWas offen blieb.\\nLegen wir in deine Hand.\"},{\"type\":\"text\",\"text\":\"Wir bitten für Menschen in Gaza,\\ndie auf Hilfe warten.\"},{\"type\":\"text\",\"text\":\"Wir bitten für Menschen in der Ukraine,\\ndie mit Angriffen und Angst leben.\"},{\"type\":\"text\",\"text\":\"Wir bitten für Menschen bei uns,\\ndie Hitze und Niedrigwasser belasten.\"},{\"type\":\"text\",\"text\":\"Schenk Frieden für diese Nacht.\\nUnd Hoffnung für morgen.\\nAmen.\"}]},\"mastodon\":{\"text\":\"Gott,\\nwir legen dir diesen Tag hin.\\nDas Gute. Das Schwere. Das Unfertige.\\n\\nWir bitten dich für Menschen in Gaza, die auf Hilfe warten.\\nFür Menschen in der Ukraine, die weiter unter Angriffen leben.\\nFür Menschen bei uns, die Hitze und Niedrigwasser spüren.\\n\\nSchenk Ruhe für diese Nacht.\\nUnd halte die Hoffnung wach.\\nAmen.\\n\\nRedaktionell vor Freigabe tagesaktuell verifizieren.\"},\"bluesky\":{\"text\":\"Gott, wir legen dir diesen Tag hin. Das Gute. Das Schwere. Das Unfertige. Wir bitten für Menschen in Gaza, die auf Hilfe warten. Für Menschen in der Ukraine, die weiter unter Angriffen leben. Für Menschen bei uns, die Hitze und Niedrigwasser spüren. Schenk Ruhe für diese Nacht. Amen.\"},\"story\":{\"slides\":[{\"text\":\"Der Tag ist vorbei.\"},{\"text\":\"Das Gute.\\nDas Schwere.\\nDas Unfertige.\"},{\"text\":\"Wir legen es Gott hin.\"},{\"text\":\"Und bitten für Menschen in Gaza.\"},{\"text\":\"Für Menschen in der Ukraine.\"},{\"text\":\"Für Menschen bei uns:\\nHitze. Niedrigwasser.\"},{\"text\":\"Schenk Frieden für diese Nacht.\"}]},\"reel\":{\"hook\":\"Wenn der Tag unfertig endet.\",\"script\":\"Der Tag ist vorbei. Nicht alles ist gelungen. Nicht alles ist geklärt. Im Abendgebet darf unfertig bleiben, was unfertig ist. Wir legen Gott das Gute hin. Und das Schwere. Wir bitten für Menschen in Gaza, die auf Hilfe warten. Für Menschen in der Ukraine, die unter Angriffen leben. Für Menschen bei uns, die Hitze und Niedrigwasser belasten. Gott, gib Ruhe für diese Nacht. Und halte die Hoffnung wach. Amen.\",\"shots\":[\"Abendlicht auf einem offenen Fenster\",\"Eine Hand legt ein Handy zur Seite\",\"Stilles Zimmer mit brennender Kerze\",\"Langsame Aufnahme von Wasseroberfläche\",\"Dunkler werdender Himmel\",\"Ruhige Nahaufnahme einer betenden Hand\"],\"duration_seconds\":30}},\"visual\":{\"concept\":\"Ruhige Abendszene an einem Fenster. Weiches Restlicht. Ein schlichter Tisch, eine Hand, ein Glas Wasser. Stimmung von Loslassen und Geborgenheit, ohne Kitsch.\",\"flux_prompt\":\"Ruhevolle Abendszene in einem schlichten Zimmer, offenes Fenster mit weichem blau-goldenem Abendlicht, einfacher Holztisch, Glas Wasser, eine entspannte Hand in der Nähe, natürliche Schatten, fotografisch, warm und zurückhaltend, stille hoffnungsvolle Atmosphäre, keine Personen frontal, keine Symbolüberladung, editorial photography\",\"negative_prompt\":\"text, letters, logo, watermark, bible verse lettering, poster, infographic, crowded scene, dramatic flames\",\"formats\":[\"4:5\",\"9:16\",\"1.91:1\"],\"alt_text\":\"Ein schlichter Tisch an einem offenen Fenster im Abendlicht. Daneben ein Glas Wasser und eine ruhige Hand. Die Szene wirkt still und gelöst.\"},\"qa\":{\"warnings\":[\"Tagesaktuelle Nachrichtenbezüge für 16./17. August 2026 in den abrufbaren Quellen nicht belastbar genug nachweisbar.\",\"Vor Freigabe mindestens zwei konkrete Situationen mit datierten Artikeln von tagesschau.de und SWR Aktuell Baden-Württemberg verifizieren und ggf. Text anpassen.\",\"Alt text must be completed before approval\"],\"approved\":false},\"metadata\":{\"model\":\"OpenAI\",\"generated_at\":\"2026-08-17T00:00:00Z\",\"prompt_version\":\"1.0\",\"assets\":[]}}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "current_turn",
+    "effort": "none",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1,
+  "text": {
+    "format": {
+      "type": "json_schema",
+      "description": null,
+      "name": "content_package",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "Idee",
+              "in Arbeit",
+              "zur Prüfung",
+              "freigegeben",
+              "terminiert",
+              "veröffentlicht",
+              "verworfen"
+            ]
+          },
+          "needs_input": {
+            "type": "boolean"
+          },
+          "source": {
+            "type": "object",
+            "properties": {
+              "calendar_post_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "date": {
+                "type": "string",
+                "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+              },
+              "rubric": {
+                "type": "string",
+                "minLength": 1
+              },
+              "liturgical_source": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "calendar_post_id",
+              "date",
+              "rubric",
+              "liturgical_source"
+            ],
+            "additionalProperties": false
+          },
+          "editorial_core": {
+            "type": "object",
+            "properties": {
+              "title": {
+                "type": "string"
+              },
+              "main_message": {
+                "type": "string"
+              },
+              "audience": {
+                "type": "string"
+              },
+              "tone": {
+                "minItems": 1,
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "source_notes": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "title",
+              "main_message",
+              "audience",
+              "tone",
+              "source_notes"
+            ],
+            "additionalProperties": false
+          },
+          "platforms": {
+            "type": "object",
+            "properties": {
+              "facebook": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  },
+                  "headline": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text",
+                  "headline"
+                ],
+                "additionalProperties": false
+              },
+              "instagram": {
+                "type": "object",
+                "properties": {
+                  "caption": {
+                    "type": "string"
+                  },
+                  "carousel": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "type": {
+                          "type": "string"
+                        },
+                        "text": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "type",
+                        "text"
+                      ],
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "required": [
+                  "caption",
+                  "carousel"
+                ],
+                "additionalProperties": false
+              },
+              "mastodon": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text"
+                ],
+                "additionalProperties": false
+              },
+              "bluesky": {
+                "default": {
+                  "text": ""
+                },
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text"
+                ],
+                "additionalProperties": false
+              },
+              "story": {
+                "type": "object",
+                "properties": {
+                  "slides": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "text": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "text"
+                      ],
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "required": [
+                  "slides"
+                ],
+                "additionalProperties": false
+              },
+              "reel": {
+                "type": "object",
+                "properties": {
+                  "hook": {
+                    "type": "string"
+                  },
+                  "script": {
+                    "type": "string"
+                  },
+                  "shots": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "duration_seconds": {
+                    "type": "integer",
+                    "minimum": 0,
+                    "maximum": 9007199254740991
+                  }
+                },
+                "required": [
+                  "hook",
+                  "script",
+                  "shots",
+                  "duration_seconds"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "required": [
+              "facebook",
+              "instagram",
+              "mastodon",
+              "bluesky",
+              "story",
+              "reel"
+            ],
+            "additionalProperties": false
+          },
+          "visual": {
+            "type": "object",
+            "properties": {
+              "concept": {
+                "type": "string"
+              },
+              "flux_prompt": {
+                "type": "string"
+              },
+              "negative_prompt": {
+                "type": "string",
+                "minLength": 1
+              },
+              "formats": {
+                "minItems": 1,
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "alt_text": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "concept",
+              "flux_prompt",
+              "negative_prompt",
+              "formats",
+              "alt_text"
+            ],
+            "additionalProperties": false
+          },
+          "qa": {
+            "type": "object",
+            "properties": {
+              "warnings": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "approved": {
+                "type": "boolean"
+              }
+            },
+            "required": [
+              "warnings",
+              "approved"
+            ],
+            "additionalProperties": false
+          },
+          "metadata": {
+            "type": "object",
+            "properties": {
+              "model": {
+                "type": "string"
+              },
+              "generated_at": {
+                "type": "string"
+              },
+              "prompt_version": {
+                "type": "string",
+                "minLength": 1
+              },
+              "assets": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "model",
+              "generated_at",
+              "prompt_version",
+              "assets"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "id",
+          "status",
+          "needs_input",
+          "source",
+          "editorial_core",
+          "platforms",
+          "visual",
+          "qa",
+          "metadata"
+        ],
+        "additionalProperties": false
+      },
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 2
+    }
+  },
+  "tools": [
+    {
+      "type": "web_search",
+      "return_token_budget": "default",
+      "search_content_types": [
+        "text"
+      ],
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 21336,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1917,
+    "output_tokens_details": {
+      "reasoning_tokens": 262
+    },
+    "total_tokens": 23253
+  },
+  "user": null,
+  "metadata": {},
+  "output_text": "{\"id\":\"prayer-evening-2026-08-17\",\"status\":\"zur Prüfung\",\"needs_input\":true,\"source\":{\"calendar_post_id\":\"prayer-evening-2026-08-17\",\"date\":\"2026-08-17\",\"rubric\":\"Abendgebet\",\"liturgical_source\":\"\"},\"editorial_core\":{\"title\":\"Abendgebet\",\"main_message\":\"Den vergangenen Tag mit allem Gelungenen und Unvollendeten in Gottes Hand legen. Zugleich bitten wir konkret für Menschen, die unter anhaltender Not leiden: für Menschen in Gaza, wo Hilfsgüter weiter nur begrenzt ankommen, und für Menschen in der Ukraine, die weiter unter russischen Angriffen leben. Auch die Sorgen im Südwesten nehmen wir mit ins Gebet, etwa die Belastungen durch Niedrigwasser und Hitze in Baden-Württemberg.\",\"audience\":\"breite Öffentlichkeit\",\"tone\":[\"ruhig\",\"hoffnungsvoll\",\"geborgen\"],\"source_notes\":[\"Aktuelle Nachrichtenlage webgeprüft.\",\"Tagesschau-Themenseite Israel/Gaza verweist Ende Juli 2026 weiter auf humanitäre Engpässe in Gaza und begrenzte Hilfslieferungen.\",\"Tagesschau-Themenseite Ukraine verweist im Sommer 2026 weiter auf tödliche russische Angriffe auf ukrainische Städte.\",\"SWR Aktuell Baden-Württemberg berichtet im August 2026 über Folgen von Niedrigwasser für Transport und Alltag in Baden-Württemberg.\",\"Für die Veröffentlichung fehlen belastbare tagesaktuelle Artikel vom Produktionszeitpunkt 2026-08-16/17 in den abrufbaren Quellen. Deshalb redaktionelle Ergänzung/Verifikation nötig, bevor konkrete Gebetsfassung freigegeben wird.\"]},\"platforms\":{\"facebook\":{\"text\":\"Gott,\\n\\nwir legen dir diesen Tag hin.\\nDas, was gut war.\\nDas, was wehgetan hat.\\nDas, was offen geblieben ist.\\n\\nWir bitten dich für Menschen in Gaza, die auf Hilfe warten und nicht wissen, ob genug Wasser, Nahrung und Medizin ankommt.\\nWir bitten dich für die Menschen in der Ukraine, die auch in dieser Nacht mit Angriffen und Angst leben.\\nWir bitten dich auch für die Menschen bei uns, die unter Hitze und Niedrigwasser die Folgen spüren.\\n\\nGib den Erschöpften Ruhe.\\nDen Ängstlichen Schutz.\\nDen Helfenden Kraft.\\nUnd uns ein Herz, das das Leid der Welt nicht vergisst.\\n\\nWas wir heute nicht zu Ende bringen konnten, halten nicht wir fest.\\nDu hältst uns.\\nSchenk uns Frieden für diese Nacht.\\nAmen.\\n\\nHinweis für die Redaktion: Bitte die aktuellen Bezüge vor Freigabe mit tagesaktuellen Artikeln von tagesschau.de und SWR Aktuell Baden-Württemberg für den Produktionszeitpunkt 16./17. August 2026 nachziehen.\",\"headline\":\"Abendgebet: Den Tag loslassen\"},\"instagram\":{\"caption\":\"Gott,\\nwir legen dir diesen Tag hin.\\nDas Gute. Das Schwere. Das Unfertige.\\n\\nWir bitten dich für Menschen in Gaza, die auf Hilfe warten.\\nFür Menschen in der Ukraine, die weiter unter Angriffen leben.\\nFür Menschen bei uns, die Hitze und Niedrigwasser spüren.\\n\\nSchenk Ruhe für diese Nacht.\\nUnd halte die Hoffnung wach.\\nAmen.\\n\\nRedaktioneller Hinweis: Aktuelle Bezüge vor Freigabe noch tagesaktuell verifizieren.\",\"carousel\":[{\"type\":\"text\",\"text\":\"Gott,\\nwir kommen zur Ruhe.\"},{\"type\":\"text\",\"text\":\"Was heute gut war,\\ndanken wir dir.\"},{\"type\":\"text\",\"text\":\"Was wehgetan hat.\\nWas offen blieb.\\nLegen wir in deine Hand.\"},{\"type\":\"text\",\"text\":\"Wir bitten für Menschen in Gaza,\\ndie auf Hilfe warten.\"},{\"type\":\"text\",\"text\":\"Wir bitten für Menschen in der Ukraine,\\ndie mit Angriffen und Angst leben.\"},{\"type\":\"text\",\"text\":\"Wir bitten für Menschen bei uns,\\ndie Hitze und Niedrigwasser belasten.\"},{\"type\":\"text\",\"text\":\"Schenk Frieden für diese Nacht.\\nUnd Hoffnung für morgen.\\nAmen.\"}]},\"mastodon\":{\"text\":\"Gott,\\nwir legen dir diesen Tag hin.\\nDas Gute. Das Schwere. Das Unfertige.\\n\\nWir bitten dich für Menschen in Gaza, die auf Hilfe warten.\\nFür Menschen in der Ukraine, die weiter unter Angriffen leben.\\nFür Menschen bei uns, die Hitze und Niedrigwasser spüren.\\n\\nSchenk Ruhe für diese Nacht.\\nUnd halte die Hoffnung wach.\\nAmen.\\n\\nRedaktionell vor Freigabe tagesaktuell verifizieren.\"},\"bluesky\":{\"text\":\"Gott, wir legen dir diesen Tag hin. Das Gute. Das Schwere. Das Unfertige. Wir bitten für Menschen in Gaza, die auf Hilfe warten. Für Menschen in der Ukraine, die weiter unter Angriffen leben. Für Menschen bei uns, die Hitze und Niedrigwasser spüren. Schenk Ruhe für diese Nacht. Amen.\"},\"story\":{\"slides\":[{\"text\":\"Der Tag ist vorbei.\"},{\"text\":\"Das Gute.\\nDas Schwere.\\nDas Unfertige.\"},{\"text\":\"Wir legen es Gott hin.\"},{\"text\":\"Und bitten für Menschen in Gaza.\"},{\"text\":\"Für Menschen in der Ukraine.\"},{\"text\":\"Für Menschen bei uns:\\nHitze. Niedrigwasser.\"},{\"text\":\"Schenk Frieden für diese Nacht.\"}]},\"reel\":{\"hook\":\"Wenn der Tag unfertig endet.\",\"script\":\"Der Tag ist vorbei. Nicht alles ist gelungen. Nicht alles ist geklärt. Im Abendgebet darf unfertig bleiben, was unfertig ist. Wir legen Gott das Gute hin. Und das Schwere. Wir bitten für Menschen in Gaza, die auf Hilfe warten. Für Menschen in der Ukraine, die unter Angriffen leben. Für Menschen bei uns, die Hitze und Niedrigwasser belasten. Gott, gib Ruhe für diese Nacht. Und halte die Hoffnung wach. Amen.\",\"shots\":[\"Abendlicht auf einem offenen Fenster\",\"Eine Hand legt ein Handy zur Seite\",\"Stilles Zimmer mit brennender Kerze\",\"Langsame Aufnahme von Wasseroberfläche\",\"Dunkler werdender Himmel\",\"Ruhige Nahaufnahme einer betenden Hand\"],\"duration_seconds\":30}},\"visual\":{\"concept\":\"Ruhige Abendszene an einem Fenster. Weiches Restlicht. Ein schlichter Tisch, eine Hand, ein Glas Wasser. Stimmung von Loslassen und Geborgenheit, ohne Kitsch.\",\"flux_prompt\":\"Ruhevolle Abendszene in einem schlichten Zimmer, offenes Fenster mit weichem blau-goldenem Abendlicht, einfacher Holztisch, Glas Wasser, eine entspannte Hand in der Nähe, natürliche Schatten, fotografisch, warm und zurückhaltend, stille hoffnungsvolle Atmosphäre, keine Personen frontal, keine Symbolüberladung, editorial photography\",\"negative_prompt\":\"text, letters, logo, watermark, bible verse lettering, poster, infographic, crowded scene, dramatic flames\",\"formats\":[\"4:5\",\"9:16\",\"1.91:1\"],\"alt_text\":\"Ein schlichter Tisch an einem offenen Fenster im Abendlicht. Daneben ein Glas Wasser und eine ruhige Hand. Die Szene wirkt still und gelöst.\"},\"qa\":{\"warnings\":[\"Tagesaktuelle Nachrichtenbezüge für 16./17. August 2026 in den abrufbaren Quellen nicht belastbar genug nachweisbar.\",\"Vor Freigabe mindestens zwei konkrete Situationen mit datierten Artikeln von tagesschau.de und SWR Aktuell Baden-Württemberg verifizieren und ggf. Text anpassen.\",\"Alt text must be completed before approval\"],\"approved\":false},\"metadata\":{\"model\":\"OpenAI\",\"generated_at\":\"2026-08-17T00:00:00Z\",\"prompt_version\":\"1.0\",\"assets\":[]}}"
+}
