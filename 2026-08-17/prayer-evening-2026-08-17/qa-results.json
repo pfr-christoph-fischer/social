@@ -1,0 +1,56 @@
+{
+  "checks": [
+    {
+      "check": "alt-text-present",
+      "findings": [],
+      "status": "passed"
+    },
+    {
+      "check": "flux-prompt-no-text",
+      "findings": [],
+      "status": "passed"
+    },
+    {
+      "check": "required-fields",
+      "findings": [],
+      "status": "passed"
+    },
+    {
+      "check": "platform-lengths",
+      "findings": [],
+      "status": "passed"
+    },
+    {
+      "check": "current-events",
+      "findings": [],
+      "status": "passed"
+    },
+    {
+      "check": "privacy",
+      "findings": [],
+      "status": "passed"
+    },
+    {
+      "check": "song-lyrics",
+      "findings": [],
+      "status": "passed"
+    },
+    {
+      "check": "scripture-citation",
+      "findings": [],
+      "status": "passed"
+    },
+    {
+      "check": "predigt-preview-input",
+      "findings": [],
+      "status": "passed"
+    }
+  ],
+  "content_path": "content/2026-08-17/prayer-evening-2026-08-17/content.json",
+  "errors": [],
+  "post_id": "prayer-evening-2026-08-17",
+  "ready_for_approval": true,
+  "status_after_run": "zur Prüfung",
+  "status_before_run": "in Arbeit",
+  "warnings": []
+}
