@@ -1,0 +1,44 @@
+{
+  "delivery_url": "https://delivery.eu2.bfl.ai/durable/2026081708/5e1f69ea-538b-4d66-962e-9be995966f07/3f/233583b9d948da/b9d948da26194c7fbd236ffba38ed23d/sample.jpeg?se=2026-08-17T08%3A37%3A14Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=%2B6oyE86fSR2mu30bBZExTGcmbEWL7Famt8QGJmzeKBk%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "1f367273-566a-483a-950b-75d99808ff73",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "1f367273-566a-483a-950b-75d99808ff73",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "1f367273-566a-483a-950b-75d99808ff73",
+      "status": "Ready",
+      "result": {
+        "start_time": 1786955232.8273754,
+        "prompt": "Blick in den Glockenstuhl einer Kirche, no text, no letters, no typography, no logo, no watermark",
+        "seed": 178269690,
+        "sample": "https://delivery.eu2.bfl.ai/durable/2026081708/5e1f69ea-538b-4d66-962e-9be995966f07/3f/233583b9d948da/b9d948da26194c7fbd236ffba38ed23d/sample.jpeg?se=2026-08-17T08%3A37%3A14Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=%2B6oyE86fSR2mu30bBZExTGcmbEWL7Famt8QGJmzeKBk%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "1f367273-566a-483a-950b-75d99808ff73",
+    "polling_url": "https://api.eu2.bfl.ai/v1/get_result?id=1f367273-566a-483a-950b-75d99808ff73",
+    "cost": 1.4000000000000001,
+    "input_mp": 0,
+    "output_mp": 0.72
+  }
+}

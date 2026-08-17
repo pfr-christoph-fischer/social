@@ -1,0 +1,52 @@
+{
+  "delivery_url": "https://delivery.eu2.bfl.ai/durable/2026081708/5e1f69ea-538b-4d66-962e-9be995966f07/ab/237954ccf27fcf/ccf27fcf0e6b453f9e8c0757faf25764/sample.jpeg?se=2026-08-17T08%3A37%3A18Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=Tl9HJIZDfjKY0MUCssFiqmu6t%2BA/R3L5F4D5mVZx20U%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "4d253d10-5a0c-41f9-970e-d16807c39638",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "4d253d10-5a0c-41f9-970e-d16807c39638",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "4d253d10-5a0c-41f9-970e-d16807c39638",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "4d253d10-5a0c-41f9-970e-d16807c39638",
+      "status": "Ready",
+      "result": {
+        "start_time": 1786955236.9796724,
+        "prompt": "Blick in den Glockenstuhl einer Kirche, no text, no letters, no typography, no logo, no watermark",
+        "seed": 2566431956,
+        "sample": "https://delivery.eu2.bfl.ai/durable/2026081708/5e1f69ea-538b-4d66-962e-9be995966f07/ab/237954ccf27fcf/ccf27fcf0e6b453f9e8c0757faf25764/sample.jpeg?se=2026-08-17T08%3A37%3A18Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=Tl9HJIZDfjKY0MUCssFiqmu6t%2BA/R3L5F4D5mVZx20U%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "4d253d10-5a0c-41f9-970e-d16807c39638",
+    "polling_url": "https://api.eu2.bfl.ai/v1/get_result?id=4d253d10-5a0c-41f9-970e-d16807c39638",
+    "cost": 1.5,
+    "input_mp": 0,
+    "output_mp": 1.39
+  }
+}
