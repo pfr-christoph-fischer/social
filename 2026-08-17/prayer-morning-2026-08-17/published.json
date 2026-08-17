@@ -27,5 +27,68 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "prayer-morning-2026-08-17",
+    "contentDate": "2026-08-17",
+    "platform": "instagram",
+    "format": "default",
+    "scheduledAt": "2026-08-17T05:15:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Morgengebet\n\nGott,\nder Morgen ist da.\nWir bringen dir, was uns nicht loslässt:\ndie Menschen in der Ukraine nach russischen Angriffen auf Wohnhäuser und Städte.\nDie Menschen an Europas Grenzen, die Schutz und Zukunft suchen.\nDie Trockenheit in Baden-Württemberg, die Flüsse, Böden und Felder belastet.\n\nSei den Leidenden nahe.\nStärke Helfende.\nGib Verantwortlichen Mut.\nUnd mach auch uns heute bereit für kleine Schritte zu Frieden, Teilen, Fürsorge.\n\nDeine Zukunft ist größer als unsere Angst.\nAmen.",
+    "assets": [
+      "render-instagram-feed-01.jpg",
+      "render-instagram-feed-02.jpg",
+      "render-instagram-feed-03.jpg",
+      "render-instagram-feed-04.jpg",
+      "render-instagram-feed-05.jpg",
+      "render-instagram-feed-06.jpg",
+      "render-instagram-feed-07.jpg"
+    ],
+    "altTexts": [
+      "Morgendliches Licht fällt auf einen Holztisch mit einer Tasse und offenen Händen. Im Hintergrund ist ein Ufer mit niedrigem Wasserstand und trockenen Gräsern zu sehen. Die Szene wirkt ruhig, ernst und hoffnungsvoll."
+    ],
+    "id": "2f36c7ec-8a5f-4c8e-82fa-15938da826fc",
+    "attemptCount": 1,
+    "remoteId": "18072055751436145",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-16T14:58:45.576Z",
+    "updatedAt": "2026-08-17T05:16:05.713Z",
+    "responseMetadata": {
+      "mediaCount": 7,
+      "mediaType": "CAROUSEL",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "prayer-morning-2026-08-17",
+    "contentDate": "2026-08-17",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-08-17T05:15:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Morgengebet\n\nGott, der Morgen ist da.\nWir denken an Menschen in der Ukraine nach russischen Angriffen. An Menschen, die  an Europas Grenzen, Schutz suchen. Und an die Trockenheit hier, die die Natur belastet.\n\nSei Leidenden nahe. Stärke Helfende. Mach uns heute wach für Frieden und Fürsorge. Amen.",
+    "assets": [
+      "render-facebook-mastodon-01.png"
+    ],
+    "altTexts": [
+      "Morgendliches Licht fällt auf einen Holztisch mit einer Tasse und offenen Händen. Im Hintergrund ist ein Ufer mit niedrigem Wasserstand und trockenen Gräsern zu sehen. Die Szene wirkt ruhig, ernst und hoffnungsvoll."
+    ],
+    "id": "1e393393-c29f-4c7f-abfa-557174a1f3ab",
+    "attemptCount": 1,
+    "remoteId": "117109146748180978",
+    "remoteUrl": "https://kirche.social/@christoph/117109146748180978",
+    "lastError": null,
+    "createdAt": "2026-08-16T14:58:45.607Z",
+    "updatedAt": "2026-08-17T05:16:07.603Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
