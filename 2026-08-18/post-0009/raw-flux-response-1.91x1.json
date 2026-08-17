@@ -1,11 +1,11 @@
 {
-  "delivery_url": "https://delivery.us2.bfl.ai/durable/2026081710/5e1f69ea-538b-4d66-962e-9be995966f07/1b/22220241e83535/41e8353520ff43e2a4fe47669a42a9ff/sample.jpeg?se=2026-08-17T10%3A50%3A22Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=vVYfQPXkNnmcBceFN75IH4fft%2BYM/Fy%2B2NlrSsqt3h4%3D",
+  "delivery_url": "https://delivery.us2.bfl.ai/durable/2026081710/5e1f69ea-538b-4d66-962e-9be995966f07/f7/319341413a0c29/413a0c2983184d36933a89c52fba9163/sample.jpeg?se=2026-08-17T10%3A51%3A59Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=4qvZ5JS8MpEtExVdqp3Nd7xOmHtf7m8J9jNbvGcjf2w%3D",
   "download_headers": {
     "content_type": "image/jpeg"
   },
   "polls": [
     {
-      "id": "21d1ab85-244f-42e7-9e53-8bc6b0989971",
+      "id": "79b88c38-aa67-4c3d-8be3-9f6e33b0fedd",
       "status": "Pending",
       "result": null,
       "progress": null,
@@ -13,13 +13,13 @@
       "preview": null
     },
     {
-      "id": "21d1ab85-244f-42e7-9e53-8bc6b0989971",
+      "id": "79b88c38-aa67-4c3d-8be3-9f6e33b0fedd",
       "status": "Ready",
       "result": {
-        "start_time": 1786963221.101526,
-        "prompt": "Minimalistische, ruhige Szene mit sanftem Tageslicht, ein stiller Alltagsmoment, warme natürliche Farben, contemplative mood, simple composition, gentle shadows, authentic human presence without clear identity, atmosphere of rest, attention, and being, photographic style, no text, no letters, no typography, no logo, no watermark",
-        "seed": 3542709362,
-        "sample": "https://delivery.us2.bfl.ai/durable/2026081710/5e1f69ea-538b-4d66-962e-9be995966f07/1b/22220241e83535/41e8353520ff43e2a4fe47669a42a9ff/sample.jpeg?se=2026-08-17T10%3A50%3A22Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=vVYfQPXkNnmcBceFN75IH4fft%2BYM/Fy%2B2NlrSsqt3h4%3D"
+        "start_time": 1786963318.126679,
+        "prompt": "Minimalistische, ruhige Szene mit sanftem Tageslicht, ein stiller Alltagsmoment, warme natürliche Farben, Landschaft, keine Personen, contemplative mood, simple composition, gentle shadows,  atmosphere of rest, attention, and being, photographic style, no text, no letters, no typography, no logo, no watermark",
+        "seed": 1948397818,
+        "sample": "https://delivery.us2.bfl.ai/durable/2026081710/5e1f69ea-538b-4d66-962e-9be995966f07/f7/319341413a0c29/413a0c2983184d36933a89c52fba9163/sample.jpeg?se=2026-08-17T10%3A51%3A59Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=4qvZ5JS8MpEtExVdqp3Nd7xOmHtf7m8J9jNbvGcjf2w%3D"
       },
       "progress": null,
       "details": null,
@@ -27,8 +27,8 @@
     }
   ],
   "submission": {
-    "id": "21d1ab85-244f-42e7-9e53-8bc6b0989971",
-    "polling_url": "https://api.us2.bfl.ai/v1/get_result?id=21d1ab85-244f-42e7-9e53-8bc6b0989971",
+    "id": "79b88c38-aa67-4c3d-8be3-9f6e33b0fedd",
+    "polling_url": "https://api.us2.bfl.ai/v1/get_result?id=79b88c38-aa67-4c3d-8be3-9f6e33b0fedd",
     "cost": 1.4000000000000001,
     "input_mp": 0,
     "output_mp": 0.72
