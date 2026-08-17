@@ -1,0 +1,104 @@
+{
+  "id": "prayer-morning-2026-08-18",
+  "status": "in Arbeit",
+  "needs_input": true,
+  "source": {
+    "calendar_post_id": "prayer-morning-2026-08-18",
+    "date": "2026-08-18",
+    "rubric": "Morgengebet",
+    "liturgical_source": ""
+  },
+  "editorial_core": {
+    "title": "Morgengebet",
+    "main_message": "Für ein tagesaktuelles Morgengebet am 18.08.2026 fehlen verlässlich auf den Veröffentlichungsmorgen geprüfte Nachrichtenlagen. Vorliegende Treffer sind teils mehrere Wochen alt. Darum ist eine verantwortliche Formulierung mit mindestens zwei konkret überprüften aktuellen Situationen noch nicht möglich.",
+    "audience": "breite Öffentlichkeit",
+    "tone": [
+      "ruhig",
+      "hoffnungsvoll",
+      "zugewandt"
+    ],
+    "source_notes": [
+      "Webrecherche durchgeführt, aber keine hinreichend verlässlich auf den Morgen des 18.08.2026 datierten Primärtreffer aus tagesschau.de und SWR Aktuell Baden-Württemberg erhalten.",
+      "Vorhandene Treffer beziehen sich u. a. auf Juli 2026 bzw. auf thematische Übersichtsseiten und genügen nicht für die geforderte tagesaktuelle, konkrete Fürbitte.",
+      "Für dieses Format sind mindestens zwei konkret überprüfte aktuelle Situationen verpflichtend.",
+      "Benötigt werden am Morgen der Veröffentlichung redaktionell bestätigte aktuelle Meldungen, idealerweise mit einer internationalen und einer regionalen Perspektive."
+    ]
+  },
+  "platforms": {
+    "facebook": {
+      "text": "Für dieses Morgengebet fehlen noch die verbindlich geprüften Nachrichten vom Morgen des 18.08.2026. Das Format braucht mindestens zwei konkrete aktuelle Situationen. Bitte erst nach tagesaktueller Prüfung veröffentlichen.",
+      "headline": "Morgengebet: aktuelle Prüfung fehlt"
+    },
+    "instagram": {
+      "caption": "Dieses Morgengebet braucht tagesaktuelle, konkret geprüfte Nachrichtenlagen. Stand jetzt fehlen dafür verlässlich bestätigte Meldungen vom Morgen des 18.08.2026. Bitte vor Veröffentlichung nachrecherchieren.",
+      "carousel": [
+        {
+          "type": "slide",
+          "text": "Tagesaktuelle Prüfung fehlt."
+        },
+        {
+          "type": "slide",
+          "text": "Mindestens zwei konkrete Nachrichtenlagen nötig."
+        },
+        {
+          "type": "slide",
+          "text": "Bitte erst nach Morgencheck veröffentlichen."
+        }
+      ]
+    },
+    "mastodon": {
+      "text": "Für dieses Morgengebet fehlen noch verlässlich auf den Morgen des 18.08.2026 geprüfte aktuelle Meldungen. Da mindestens zwei konkrete Situationen verpflichtend sind, bitte erst nach redaktioneller Morgenprüfung veröffentlichen."
+    },
+    "bluesky": {
+      "text": "Dieses Morgengebet braucht mindestens zwei konkret geprüfte aktuelle Situationen vom Morgen des 18.08.2026. Diese Prüfung liegt noch nicht belastbar vor. Bitte noch nicht veröffentlichen."
+    },
+    "story": {
+      "slides": [
+        {
+          "text": "Morgengebet noch nicht freigeben."
+        },
+        {
+          "text": "Es fehlen tagesaktuell geprüfte Nachrichten."
+        },
+        {
+          "text": "Mindestens zwei konkrete Situationen sind Pflicht."
+        }
+      ]
+    },
+    "reel": {
+      "hook": "Noch nicht veröffentlichen.",
+      "script": "Für dieses Morgengebet fehlen noch verlässlich geprüfte Nachrichten vom Morgen. Ohne mindestens zwei konkrete aktuelle Situationen ist keine verantwortliche Fassung möglich.",
+      "shots": [
+        "Ruhiger Morgenhimmel",
+        "Leerer Schreibtisch mit Notizbuch",
+        "Hand auf einer Zeitung ohne lesbaren Text"
+      ],
+      "duration_seconds": 12
+    }
+  },
+  "visual": {
+    "concept": "Schlichte Morgenszene mit weichem Licht, offenem Fenster und stiller Atmosphäre als Platzhalter für ein noch nicht finalisiertes Gebet.",
+    "flux_prompt": "",
+    "negative_prompt": "text, letters, logo, watermark",
+    "formats": [
+      "4:5",
+      "9:16",
+      "1.91:1"
+    ],
+    "alt_text": "Ein heller Morgenraum mit offenem Fenster und einem Notizbuch auf einem Holztisch."
+  },
+  "qa": {
+    "warnings": [
+      "Alt text must be completed before approval",
+      "Tagesaktuelle Nachrichtenprüfung für den Morgen des 18.08.2026 fehlt.",
+      "Mindestens zwei konkrete aktuelle Situationen sind für das Gebet verpflichtend und derzeit nicht belastbar belegt."
+    ],
+    "approved": false
+  },
+  "metadata": {
+    "model": "gpt-5.4-2026-03-05",
+    "generated_at": "2026-08-17T14:00:29.658Z",
+    "prompt_version": "1.0",
+    "assets": []
+  }
+}
