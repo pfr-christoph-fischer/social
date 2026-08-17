@@ -10,8 +10,8 @@
   },
   "editorial_core": {
     "title": "Mystic Hymnal – Be",
-    "main_message": "Kurzes, am Originaltext geprüftes Liedfragment als Meditation wählen. Persönlich erzählen, was mich daran berührt; Schwerpunkt: Nicht leisten oder machen, sondern sein – passend zum Monatsschwerpunkt Aufmerksamkeit. Spotify: https://open.spotify.com/track/27YRyHe8Q2B8ulz7qVXv0r",
-    "audience": "[TODO: define audience after current inputs are available]",
+    "main_message": "Ein kurzes, am Originaltext geprüftes Liedfragment kann zu einer kleinen Meditation werden: weg vom Leisten, hin zum Sein. Der persönliche Bezug wird erst kurz vor Veröffentlichung mit einer aktuellen Beobachtung ergänzt.",
+    "audience": "Menschen, die auf Social Media kurze geistliche Impulse suchen und offen sind für weniger bekannte progressive christliche Musik.",
     "tone": [
       "klar",
       "ruhig",
@@ -19,59 +19,106 @@
     ],
     "source_notes": [
       "Goal: Persönlich teilen, welche Liedzeile mich gerade begleitet, und dabei unbekanntere, progressive christliche Künstler:innen vorstellen.",
-      "Column: Persönlicher Glaube und Spiritualität",
-      "Production mode: weitgehend vorproduzierbar; persönlichen Bezug vor Veröffentlichung aktuell formulieren",
-      "Structure: kurzer persönlicher Einstieg | Liedfragment als Meditation und eigener geistlicher Gedanke | Künstler:in kurz vorstellen und Spotify-Link",
-      "AI support notes: persönliche Notizen sprachlich verdichten | Meditationsimpuls und plattformgerechte Kurzfassungen | Alt-Text",
-      "Current inputs required: persönliche Beobachtung oder Erfahrung aus dieser Woche | am Originaltext geprüftes kurzes Liedfragment | Spotify: https://open.spotify.com/track/27YRyHe8Q2B8ulz7qVXv0r"
+      "Production mode: weitgehend vorproduzierbar; persönlichen Bezug vor Veröffentlichung aktuell formulieren.",
+      "Es fehlt noch eine persönliche Beobachtung oder Erfahrung aus dieser Woche.",
+      "Es fehlt noch ein am Originaltext geprüftes kurzes Liedfragment.",
+      "Spotify-Link vorhanden: https://open.spotify.com/track/27YRyHe8Q2B8ulz7qVXv0r",
+      "Keine vollständigen Songverse übernehmen; nur kurzes geprüftes Fragment verwenden."
     ]
   },
   "platforms": {
     "facebook": {
-      "text": "",
-      "headline": ""
+      "text": "Diese Woche begleitet mich ein Lied über das Sein statt das Machen.\n\n[Hier kurzes, am Originaltext geprüftes Liedfragment einfügen]\n\nIch merke: Nicht alles muss sofort produktiv sein. Manches darf einfach da sein. Atem. Stille. Gegenwart. Vielleicht ist genau das heute geistlich: nicht noch mehr schaffen, sondern für einen Moment sein.\n\nMystic Hymnal ist für mich eine spannende Stimme aus einer progressiven christlichen Musikwelt.\nSpotify: https://open.spotify.com/track/27YRyHe8Q2B8ulz7qVXv0r",
+      "headline": "Ein Lied, das mich gerade begleitet"
     },
     "instagram": {
-      "caption": "",
-      "carousel": []
+      "caption": "Diese Woche begleitet mich ein Lied über das Sein statt das Machen.\n\n[Hier kurzes, am Originaltext geprüftes Liedfragment einfügen]\n\nDaran bleibe ich hängen: Ich muss nicht alles füllen. Nicht jeden Moment optimieren. Vor Gott darf ich auch einfach da sein.\n\nMystic Hymnal bringt für mich eine ruhige, progressive christliche Stimme mit.\n\n🎧 https://open.spotify.com/track/27YRyHe8Q2B8ulz7qVXv0r",
+      "carousel": [
+        {
+          "type": "image",
+          "text": "Ein Lied, das mich begleitet"
+        },
+        {
+          "type": "image",
+          "text": "Sein statt Machen."
+        },
+        {
+          "type": "image",
+          "text": "[Kurzes geprüftes Liedfragment einfügen]"
+        },
+        {
+          "type": "image",
+          "text": "Vor Gott darf ich da sein."
+        },
+        {
+          "type": "image",
+          "text": "Mystic Hymnal auf Spotify."
+        }
+      ]
     },
     "mastodon": {
-      "text": ""
+      "text": "Diese Woche begleitet mich ein Lied über das Sein statt das Machen.\n\n[Kurzes, am Originaltext geprüftes Liedfragment einfügen]\n\nDer Gedanke dazu: Nicht jeder Moment muss gefüllt werden. Manches wird erst still wahr. Vor Gott darf ich sein.\n\nMystic Hymnal:\nhttps://open.spotify.com/track/27YRyHe8Q2B8ulz7qVXv0r"
     },
     "bluesky": {
-      "text": ""
+      "text": "Ein Lied begleitet mich gerade mit einem einfachen Gedanken: Sein statt Machen.\n\n[Kurzes, geprüftes Liedfragment einfügen]\n\nNicht alles muss sofort Leistung werden. Vor Gott darf ich da sein.\nhttps://open.spotify.com/track/27YRyHe8Q2B8ulz7qVXv0r"
     },
     "story": {
-      "slides": []
+      "slides": [
+        {
+          "text": "Ein Lied, das mich diese Woche begleitet"
+        },
+        {
+          "text": "Sein statt Machen."
+        },
+        {
+          "text": "[Kurzes geprüftes Liedfragment einfügen]"
+        },
+        {
+          "text": "Vor Gott darf ich einfach da sein."
+        },
+        {
+          "text": "Mit Spotify-Link zum Song"
+        }
+      ]
     },
     "reel": {
-      "hook": "",
-      "script": "",
-      "shots": [],
-      "duration_seconds": 0
+      "hook": "Wenn gerade alles nach Machen ruft: Vielleicht ist heute Sein dran.",
+      "script": "Kurzer persönlicher Einstieg aus dieser Woche einfügen. Dann das kurze, am Originaltext geprüfte Liedfragment als Einblendung oder Voiceover. Danach der Gedanke: Nicht alles muss geleistet werden. Vor Gott darf ich da sein. Zum Schluss: kurzer Hinweis auf Mystic Hymnal und der Spotify-Link in der Caption.",
+      "shots": [
+        "Ruhige Nahaufnahme von Händen mit einer Tasse",
+        "Fensterlicht oder Himmel, langsame Kamerabewegung",
+        "Kurzer stiller Moment, Atem oder Gehen ohne Hektik",
+        "Detailaufnahme eines alltäglichen ruhigen Ortes",
+        "Abschlussbild mit offenem Raum oder Weg"
+      ],
+      "duration_seconds": 20
     }
   },
   "visual": {
-    "concept": "",
-    "flux_prompt": "",
+    "concept": "Ruhige, reduzierte Bildsprache mit stillen Alltagsmomenten. Der Eindruck soll Aufmerksamkeit, Gegenwart und Entschleunigung vermitteln.",
+    "flux_prompt": "Minimalistische, ruhige Szene mit sanftem Tageslicht, ein stiller Alltagsmoment, warme natürliche Farben, contemplative mood, simple composition, gentle shadows, authentic human presence without clear identity, atmosphere of rest, attention, and being, photographic style",
     "negative_prompt": "text, letters, logo, watermark",
     "formats": [
       "4:5",
       "9:16",
       "1.91:1"
     ],
-    "alt_text": ""
+    "alt_text": "Ruhiger Alltagsmoment in weichem Licht, der Stille, Aufmerksamkeit und Entschleunigung ausstrahlt."
   },
   "qa": {
     "warnings": [
       "Alt text must be completed before approval",
-      "Current source inputs are still required before publication"
+      "Current source inputs are still required before publication",
+      "Persönliche Beobachtung oder Erfahrung aus dieser Woche vor Veröffentlichung ergänzen.",
+      "Am Originaltext geprüftes kurzes Liedfragment fehlt noch und muss vor Veröffentlichung eingefügt werden.",
+      "Keine vollständigen oder längeren urheberrechtlich geschützten Songtexte übernehmen.",
+      "Alt-Text vor finaler Freigabe bei tatsächlichem Motiv konkretisieren."
     ],
     "approved": false
   },
   "metadata": {
-    "model": "",
-    "generated_at": "",
+    "model": "gpt-5.4-2026-03-05",
+    "generated_at": "2026-08-17T10:37:15.421Z",
     "prompt_version": "1.0",
     "assets": []
   }
