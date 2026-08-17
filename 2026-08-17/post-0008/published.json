@@ -27,5 +27,65 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "post-0008",
+    "contentDate": "2026-08-17",
+    "platform": "instagram",
+    "format": "default",
+    "scheduledAt": "2026-08-17T07:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Diese Woche mit einem kurzen Halt vor dem ersten Termin.\n\n„Gott widersteht den Hochmütigen, aber den Demütigen gibt er Gnade.“ (1. Petr 5,5b)\n\nDemut heißt nicht: klein werden.\nDemut kann heißen: nicht so tun, als müsste ich alles können.\n\nÜbung für diese Woche:\nVor dem ersten Termin einmal langsam atmen. Den Vers lesen. Dann erst starten.\n\nFrage:\nWo muss ich mich heute nicht beweisen?\n\n#Wochenspruch #Kirchenjahr #GlaubeImAlltag",
+    "assets": [
+      "render-instagram-feed-01.jpg",
+      "render-instagram-feed-02.jpg",
+      "render-instagram-feed-03.jpg",
+      "render-instagram-feed-04.jpg"
+    ],
+    "altTexts": [
+      "Eine erwachsene Person hält am Morgen in einer schlichten Alltagsszene kurz inne, steht oder sitzt ruhig am Fenster oder an einem aufgeräumten Schreibtisch. Warmes Licht fällt in den Raum. Die Stimmung ist still und gesammelt."
+    ],
+    "id": "4a9424a2-64db-4d75-9cce-916691e29b4d",
+    "attemptCount": 1,
+    "remoteId": "18059268497789184",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-16T15:05:27.142Z",
+    "updatedAt": "2026-08-17T07:01:01.070Z",
+    "responseMetadata": {
+      "mediaCount": 4,
+      "mediaType": "CAROUSEL",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "post-0008",
+    "contentDate": "2026-08-17",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-08-17T07:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Vor dem ersten Termin kurz anhalten.\nEinmal langsam atmen.\nDann den Wochenspruch lesen:\n\n„Gott widersteht den Hochmütigen, aber den Demütigen gibt er Gnade.“ (1. Petr 5,5b)\n\nDemut heißt nicht, sich kleinzumachen. Es kann heißen: Ich muss nicht alles im Griff haben. Ich muss mich nicht beweisen.\n\nFrage für die Woche:\nWo tut mir diese Haltung heute gut?\n\n#Wochenspruch #Kirchenjahr",
+    "assets": [
+      "render-facebook-mastodon-01.png"
+    ],
+    "altTexts": [
+      "Eine erwachsene Person hält am Morgen in einer schlichten Alltagsszene kurz inne, steht oder sitzt ruhig am Fenster oder an einem aufgeräumten Schreibtisch. Warmes Licht fällt in den Raum. Die Stimmung ist still und gesammelt."
+    ],
+    "id": "85201675-7981-433d-9786-baf2aa9134d1",
+    "attemptCount": 1,
+    "remoteId": "117109559369338401",
+    "remoteUrl": "https://kirche.social/@christoph/117109559369338401",
+    "lastError": null,
+    "createdAt": "2026-08-16T15:05:27.212Z",
+    "updatedAt": "2026-08-17T07:01:03.757Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
