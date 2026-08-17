@@ -1,0 +1,420 @@
+{
+  "id": "resp_0462f25ea6cbc19c006a82c0893790819d93c230b742d276a7",
+  "object": "response",
+  "created_at": 1786953865,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1786953888,
+  "error": null,
+  "frequency_penalty": 0,
+  "incomplete_details": null,
+  "instructions": "You are part of a Protestant social media editorial team. Write in clear, accessible, theologically responsible German without church clichés. Use short sentences and concrete imagery. Never invent events, people, school situations, quotes, or factual details. Do not include copyrighted full song verses. For Reli and community posts, only use current details when they are explicitly provided. Return content that strictly matches the requested JSON schema. Set needs_input to true whenever required facts are missing. Keep qa.approved false. Do not ask for any text inside generated images. When liturgical_context.resolved_weekly_verse is present, use its exact wording for Wochenspruch slots instead of placeholders.",
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.4-2026-03-05",
+  "moderation": null,
+  "output": [
+    {
+      "id": "msg_0462f25ea6cbc19c006a82c08aa94c819da3d2fbe3323c9cc1",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\"id\":\"post-0010\",\"status\":\"in Arbeit\",\"needs_input\":false,\"source\":{\"calendar_post_id\":\"post-0010\",\"date\":\"2026-08-19\",\"rubric\":\"Mittwochsserie\",\"liturgical_source\":\"\"},\"editorial_core\":{\"title\":\"Warum läuten vor dem Gottesdienst die Glocken?\",\"main_message\":\"Glocken sind mehr als ein Signal. Sie rufen Menschen zusammen, unterbrechen den Alltag und erinnern daran: Jetzt ist Zeit für Gottesdienst.\",\"audience\":\"breite Öffentlichkeit\",\"tone\":[\"klar\",\"ruhig\",\"zugänglich\"],\"source_notes\":[\"Goal: Eine verlässliche, wiedererkennbare Serie mit verständlicher theologischer Bildung.\",\"Column: Glauben verstehen\",\"Production mode: in Monatsblöcken vollständig vorproduzierbar\",\"Structure: Frage als Einstieg | verständliche Erklärung | Bedeutung für heute | Gesprächsfrage\",\"AI support notes: Skript | Karussellkarten | Reel-Hook | Untertitel | Alt-Text\",\"Keine aktuelle Ortsinfo oder konkrete Gemeindeabläufe genannt, da nicht vorgegeben.\"]},\"platforms\":{\"facebook\":{\"text\":\"Warum läuten vor dem Gottesdienst die Glocken?\\n\\nViele kennen den Klang. Aber was bedeutet er eigentlich?\\n\\nGlocken sind zuerst ein Ruf. Sie sagen: Kommt zusammen. Der Gottesdienst beginnt bald.\\n\\nFrüher war das ganz praktisch. Nicht jede Person hatte eine Uhr. Der Klang der Glocken war im Ort zu hören und gab Orientierung.\\n\\nAber Glocken sind mehr als ein Signal. Sie unterbrechen den Alltag. Für einen Moment ist da etwas anderes als Termine, Verkehr und To-do-Listen. Der Klang erinnert: Jetzt ist Zeit, sich zu sammeln. Zeit für Gebet, Gesang, Stille und Gemeinschaft.\\n\\nDarum läuten Glocken vor dem Gottesdienst nicht nur, um pünktlich zu sein. Sie öffnen einen inneren Raum. Sie laden ein, mit dem Herzen anzukommen.\\n\\nGesprächsfrage: Was löst Glockenklang bei dir aus – Ruhe, Erinnerung, Neugier oder eher Abstand?\",\"headline\":\"Warum läuten vor dem Gottesdienst die Glocken?\"},\"instagram\":{\"caption\":\"Warum läuten vor dem Gottesdienst die Glocken?\\n\\nDer Klang soll nicht nur informieren. Er lädt ein.\\nEr ruft Menschen zusammen.\\nEr unterbricht den Alltag.\\nEr erinnert: Jetzt ist Zeit für Gottesdienst.\\n\\nFrüher halfen Glocken ganz praktisch bei der Orientierung. Heute tun sie noch immer mehr als das. Sie schaffen einen Moment zum Ankommen.\\n\\nGesprächsfrage: Was löst Glockenklang bei dir aus?\\n\\n#GlaubenVerstehen #Mittwochsserie #Glocken #Gottesdienst #Evangelisch\",\"carousel\":[{\"type\":\"intro\",\"text\":\"Warum läuten vor dem Gottesdienst die Glocken?\"},{\"type\":\"explanation\",\"text\":\"Glocken sind ein Ruf. Sie sagen: Kommt zusammen. Der Gottesdienst beginnt bald.\"},{\"type\":\"explanation\",\"text\":\"Früher war das auch praktisch. Der Klang gab Orientierung, lange bevor Uhren jederzeit verfügbar waren.\"},{\"type\":\"meaning\",\"text\":\"Bis heute unterbrechen Glocken den Alltag. Sie schaffen einen Moment zum Aufatmen und Ankommen.\"},{\"type\":\"meaning\",\"text\":\"Der Klang erinnert: Jetzt ist Zeit für Gebet, Gemeinschaft, Gesang oder Stille vor Gott.\"},{\"type\":\"question\",\"text\":\"Was löst Glockenklang bei dir aus?\"}]},\"mastodon\":{\"text\":\"Warum läuten vor dem Gottesdienst die Glocken?\\n\\nGlocken sind mehr als ein Startsignal. Sie rufen Menschen zusammen, unterbrechen den Alltag und erinnern: Jetzt ist Zeit für Gottesdienst. Früher half ihr Klang auch ganz praktisch bei der Orientierung. Heute laden sie noch immer zum Ankommen ein.\\n\\nWas löst Glockenklang bei dir aus?\"},\"bluesky\":{\"text\":\"Warum läuten vor dem Gottesdienst die Glocken? Glocken sind mehr als ein Signal. Sie rufen Menschen zusammen, unterbrechen den Alltag und erinnern: Jetzt ist Zeit für Gottesdienst. Was löst Glockenklang bei dir aus?\"},\"story\":{\"slides\":[{\"text\":\"Warum läuten vor dem Gottesdienst die Glocken?\"},{\"text\":\"Sie rufen Menschen zusammen.\"},{\"text\":\"Sie unterbrechen den Alltag.\"},{\"text\":\"Sie erinnern: Jetzt ist Zeit zum Ankommen.\"},{\"text\":\"Quiz: Nur ein praktisches Signal? Oder auch eine Einladung zur Sammlung?\"}]},\"reel\":{\"hook\":\"Warum läuten eigentlich die Glocken, bevor der Gottesdienst beginnt?\",\"script\":\"Warum läuten eigentlich die Glocken, bevor der Gottesdienst beginnt?\\n\\nDie kurze Antwort: Sie rufen Menschen zusammen.\\n\\nFrüher war das ganz praktisch. Nicht alle hatten eine Uhr. Wer die Glocken hörte, wusste: Es ist Zeit.\\n\\nAber Glocken können mehr. Ihr Klang schneidet für einen Moment durch den Alltag. Autos, Termine, Einkäufe, Gedanken.\\n\\nEr erinnert: Jetzt ist Zeit, anzukommen. Im Gottesdienst. Bei anderen. Vielleicht auch bei sich selbst. Und vor Gott.\\n\\nDarum läuten Glocken nicht nur, damit alle pünktlich sind. Sie sind auch eine Einladung nach innen.\\n\\nWas löst Glockenklang bei dir aus?\",\"shots\":[\"Außenaufnahme eines Kirchturms mit schwingender Glocke oder Blick nach oben zum Turm\",\"Nahaufnahme von Seil, Klöppel oder Glocke in Bewegung\",\"Straßenszene oder ruhiger Ortsblick als Bild für Alltag\",\"Eingang einer Kirche oder offener Kirchenraum\",\"Leerer oder sich füllender Kirchenraum mit ruhiger Atmosphäre\",\"Abschlussbild mit Blick auf Turm oder Kirchenraum\"],\"duration_seconds\":45}},\"visual\":{\"concept\":\"Ruhige, dokumentarische Bildsprache rund um Kirchturm, Glocke und den Moment vor dem Gottesdienst. Der Fokus liegt auf Klang als Einladung und auf dem Übergang vom Alltag in einen gesammelten Raum.\",\"flux_prompt\":\"Documentary-style church bell scene before a service, exterior church tower in soft morning or early evening light, a bell in motion, calm village or city surroundings, people not individually identifiable, atmosphere of pause and invitation, realistic photography, natural light, quiet composition, Protestant church context, no text elements\",\"negative_prompt\":\"text, letters, logo, watermark\",\"formats\":[\"4:5\",\"9:16\",\"1.91:1\"],\"alt_text\":\"Ein Kirchturm und eine Glocke in ruhiger Atmosphäre kurz vor einem Gottesdienst. Die Bilder vermitteln den Übergang vom Alltag zu einem Moment des Ankommens und der Sammlung.\"},\"qa\":{\"warnings\":[\"Alt text must be completed before approval\",\"Historische Aussage bewusst allgemein gehalten; keine regionalen Sonderformen oder exakten Läuteordnungen behauptet.\"],\"approved\":false},\"metadata\":{\"model\":\"gpt-5\",\"generated_at\":\"2026-08-17T00:00:00Z\",\"prompt_version\":\"1.0\",\"assets\":[\"Karussell mit 6 Karten\",\"Reel 45 Sekunden\",\"Story mit 5 Slides\"]}}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "current_turn",
+    "effort": "none",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1,
+  "text": {
+    "format": {
+      "type": "json_schema",
+      "description": null,
+      "name": "content_package",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "Idee",
+              "in Arbeit",
+              "zur Prüfung",
+              "freigegeben",
+              "terminiert",
+              "veröffentlicht",
+              "verworfen"
+            ]
+          },
+          "needs_input": {
+            "type": "boolean"
+          },
+          "source": {
+            "type": "object",
+            "properties": {
+              "calendar_post_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "date": {
+                "type": "string",
+                "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+              },
+              "rubric": {
+                "type": "string",
+                "minLength": 1
+              },
+              "liturgical_source": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "calendar_post_id",
+              "date",
+              "rubric",
+              "liturgical_source"
+            ],
+            "additionalProperties": false
+          },
+          "editorial_core": {
+            "type": "object",
+            "properties": {
+              "title": {
+                "type": "string"
+              },
+              "main_message": {
+                "type": "string"
+              },
+              "audience": {
+                "type": "string"
+              },
+              "tone": {
+                "minItems": 1,
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "source_notes": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "title",
+              "main_message",
+              "audience",
+              "tone",
+              "source_notes"
+            ],
+            "additionalProperties": false
+          },
+          "platforms": {
+            "type": "object",
+            "properties": {
+              "facebook": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  },
+                  "headline": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text",
+                  "headline"
+                ],
+                "additionalProperties": false
+              },
+              "instagram": {
+                "type": "object",
+                "properties": {
+                  "caption": {
+                    "type": "string"
+                  },
+                  "carousel": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "type": {
+                          "type": "string"
+                        },
+                        "text": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "type",
+                        "text"
+                      ],
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "required": [
+                  "caption",
+                  "carousel"
+                ],
+                "additionalProperties": false
+              },
+              "mastodon": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text"
+                ],
+                "additionalProperties": false
+              },
+              "bluesky": {
+                "default": {
+                  "text": ""
+                },
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text"
+                ],
+                "additionalProperties": false
+              },
+              "story": {
+                "type": "object",
+                "properties": {
+                  "slides": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "text": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "text"
+                      ],
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "required": [
+                  "slides"
+                ],
+                "additionalProperties": false
+              },
+              "reel": {
+                "type": "object",
+                "properties": {
+                  "hook": {
+                    "type": "string"
+                  },
+                  "script": {
+                    "type": "string"
+                  },
+                  "shots": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "duration_seconds": {
+                    "type": "integer",
+                    "minimum": 0,
+                    "maximum": 9007199254740991
+                  }
+                },
+                "required": [
+                  "hook",
+                  "script",
+                  "shots",
+                  "duration_seconds"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "required": [
+              "facebook",
+              "instagram",
+              "mastodon",
+              "bluesky",
+              "story",
+              "reel"
+            ],
+            "additionalProperties": false
+          },
+          "visual": {
+            "type": "object",
+            "properties": {
+              "concept": {
+                "type": "string"
+              },
+              "flux_prompt": {
+                "type": "string"
+              },
+              "negative_prompt": {
+                "type": "string",
+                "minLength": 1
+              },
+              "formats": {
+                "minItems": 1,
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "alt_text": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "concept",
+              "flux_prompt",
+              "negative_prompt",
+              "formats",
+              "alt_text"
+            ],
+            "additionalProperties": false
+          },
+          "qa": {
+            "type": "object",
+            "properties": {
+              "warnings": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "approved": {
+                "type": "boolean"
+              }
+            },
+            "required": [
+              "warnings",
+              "approved"
+            ],
+            "additionalProperties": false
+          },
+          "metadata": {
+            "type": "object",
+            "properties": {
+              "model": {
+                "type": "string"
+              },
+              "generated_at": {
+                "type": "string"
+              },
+              "prompt_version": {
+                "type": "string",
+                "minLength": 1
+              },
+              "assets": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "model",
+              "generated_at",
+              "prompt_version",
+              "assets"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "id",
+          "status",
+          "needs_input",
+          "source",
+          "editorial_core",
+          "platforms",
+          "visual",
+          "qa",
+          "metadata"
+        ],
+        "additionalProperties": false
+      },
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 1471,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1506,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 2977
+  },
+  "user": null,
+  "metadata": {},
+  "output_text": "{\"id\":\"post-0010\",\"status\":\"in Arbeit\",\"needs_input\":false,\"source\":{\"calendar_post_id\":\"post-0010\",\"date\":\"2026-08-19\",\"rubric\":\"Mittwochsserie\",\"liturgical_source\":\"\"},\"editorial_core\":{\"title\":\"Warum läuten vor dem Gottesdienst die Glocken?\",\"main_message\":\"Glocken sind mehr als ein Signal. Sie rufen Menschen zusammen, unterbrechen den Alltag und erinnern daran: Jetzt ist Zeit für Gottesdienst.\",\"audience\":\"breite Öffentlichkeit\",\"tone\":[\"klar\",\"ruhig\",\"zugänglich\"],\"source_notes\":[\"Goal: Eine verlässliche, wiedererkennbare Serie mit verständlicher theologischer Bildung.\",\"Column: Glauben verstehen\",\"Production mode: in Monatsblöcken vollständig vorproduzierbar\",\"Structure: Frage als Einstieg | verständliche Erklärung | Bedeutung für heute | Gesprächsfrage\",\"AI support notes: Skript | Karussellkarten | Reel-Hook | Untertitel | Alt-Text\",\"Keine aktuelle Ortsinfo oder konkrete Gemeindeabläufe genannt, da nicht vorgegeben.\"]},\"platforms\":{\"facebook\":{\"text\":\"Warum läuten vor dem Gottesdienst die Glocken?\\n\\nViele kennen den Klang. Aber was bedeutet er eigentlich?\\n\\nGlocken sind zuerst ein Ruf. Sie sagen: Kommt zusammen. Der Gottesdienst beginnt bald.\\n\\nFrüher war das ganz praktisch. Nicht jede Person hatte eine Uhr. Der Klang der Glocken war im Ort zu hören und gab Orientierung.\\n\\nAber Glocken sind mehr als ein Signal. Sie unterbrechen den Alltag. Für einen Moment ist da etwas anderes als Termine, Verkehr und To-do-Listen. Der Klang erinnert: Jetzt ist Zeit, sich zu sammeln. Zeit für Gebet, Gesang, Stille und Gemeinschaft.\\n\\nDarum läuten Glocken vor dem Gottesdienst nicht nur, um pünktlich zu sein. Sie öffnen einen inneren Raum. Sie laden ein, mit dem Herzen anzukommen.\\n\\nGesprächsfrage: Was löst Glockenklang bei dir aus – Ruhe, Erinnerung, Neugier oder eher Abstand?\",\"headline\":\"Warum läuten vor dem Gottesdienst die Glocken?\"},\"instagram\":{\"caption\":\"Warum läuten vor dem Gottesdienst die Glocken?\\n\\nDer Klang soll nicht nur informieren. Er lädt ein.\\nEr ruft Menschen zusammen.\\nEr unterbricht den Alltag.\\nEr erinnert: Jetzt ist Zeit für Gottesdienst.\\n\\nFrüher halfen Glocken ganz praktisch bei der Orientierung. Heute tun sie noch immer mehr als das. Sie schaffen einen Moment zum Ankommen.\\n\\nGesprächsfrage: Was löst Glockenklang bei dir aus?\\n\\n#GlaubenVerstehen #Mittwochsserie #Glocken #Gottesdienst #Evangelisch\",\"carousel\":[{\"type\":\"intro\",\"text\":\"Warum läuten vor dem Gottesdienst die Glocken?\"},{\"type\":\"explanation\",\"text\":\"Glocken sind ein Ruf. Sie sagen: Kommt zusammen. Der Gottesdienst beginnt bald.\"},{\"type\":\"explanation\",\"text\":\"Früher war das auch praktisch. Der Klang gab Orientierung, lange bevor Uhren jederzeit verfügbar waren.\"},{\"type\":\"meaning\",\"text\":\"Bis heute unterbrechen Glocken den Alltag. Sie schaffen einen Moment zum Aufatmen und Ankommen.\"},{\"type\":\"meaning\",\"text\":\"Der Klang erinnert: Jetzt ist Zeit für Gebet, Gemeinschaft, Gesang oder Stille vor Gott.\"},{\"type\":\"question\",\"text\":\"Was löst Glockenklang bei dir aus?\"}]},\"mastodon\":{\"text\":\"Warum läuten vor dem Gottesdienst die Glocken?\\n\\nGlocken sind mehr als ein Startsignal. Sie rufen Menschen zusammen, unterbrechen den Alltag und erinnern: Jetzt ist Zeit für Gottesdienst. Früher half ihr Klang auch ganz praktisch bei der Orientierung. Heute laden sie noch immer zum Ankommen ein.\\n\\nWas löst Glockenklang bei dir aus?\"},\"bluesky\":{\"text\":\"Warum läuten vor dem Gottesdienst die Glocken? Glocken sind mehr als ein Signal. Sie rufen Menschen zusammen, unterbrechen den Alltag und erinnern: Jetzt ist Zeit für Gottesdienst. Was löst Glockenklang bei dir aus?\"},\"story\":{\"slides\":[{\"text\":\"Warum läuten vor dem Gottesdienst die Glocken?\"},{\"text\":\"Sie rufen Menschen zusammen.\"},{\"text\":\"Sie unterbrechen den Alltag.\"},{\"text\":\"Sie erinnern: Jetzt ist Zeit zum Ankommen.\"},{\"text\":\"Quiz: Nur ein praktisches Signal? Oder auch eine Einladung zur Sammlung?\"}]},\"reel\":{\"hook\":\"Warum läuten eigentlich die Glocken, bevor der Gottesdienst beginnt?\",\"script\":\"Warum läuten eigentlich die Glocken, bevor der Gottesdienst beginnt?\\n\\nDie kurze Antwort: Sie rufen Menschen zusammen.\\n\\nFrüher war das ganz praktisch. Nicht alle hatten eine Uhr. Wer die Glocken hörte, wusste: Es ist Zeit.\\n\\nAber Glocken können mehr. Ihr Klang schneidet für einen Moment durch den Alltag. Autos, Termine, Einkäufe, Gedanken.\\n\\nEr erinnert: Jetzt ist Zeit, anzukommen. Im Gottesdienst. Bei anderen. Vielleicht auch bei sich selbst. Und vor Gott.\\n\\nDarum läuten Glocken nicht nur, damit alle pünktlich sind. Sie sind auch eine Einladung nach innen.\\n\\nWas löst Glockenklang bei dir aus?\",\"shots\":[\"Außenaufnahme eines Kirchturms mit schwingender Glocke oder Blick nach oben zum Turm\",\"Nahaufnahme von Seil, Klöppel oder Glocke in Bewegung\",\"Straßenszene oder ruhiger Ortsblick als Bild für Alltag\",\"Eingang einer Kirche oder offener Kirchenraum\",\"Leerer oder sich füllender Kirchenraum mit ruhiger Atmosphäre\",\"Abschlussbild mit Blick auf Turm oder Kirchenraum\"],\"duration_seconds\":45}},\"visual\":{\"concept\":\"Ruhige, dokumentarische Bildsprache rund um Kirchturm, Glocke und den Moment vor dem Gottesdienst. Der Fokus liegt auf Klang als Einladung und auf dem Übergang vom Alltag in einen gesammelten Raum.\",\"flux_prompt\":\"Documentary-style church bell scene before a service, exterior church tower in soft morning or early evening light, a bell in motion, calm village or city surroundings, people not individually identifiable, atmosphere of pause and invitation, realistic photography, natural light, quiet composition, Protestant church context, no text elements\",\"negative_prompt\":\"text, letters, logo, watermark\",\"formats\":[\"4:5\",\"9:16\",\"1.91:1\"],\"alt_text\":\"Ein Kirchturm und eine Glocke in ruhiger Atmosphäre kurz vor einem Gottesdienst. Die Bilder vermitteln den Übergang vom Alltag zu einem Moment des Ankommens und der Sammlung.\"},\"qa\":{\"warnings\":[\"Alt text must be completed before approval\",\"Historische Aussage bewusst allgemein gehalten; keine regionalen Sonderformen oder exakten Läuteordnungen behauptet.\"],\"approved\":false},\"metadata\":{\"model\":\"gpt-5\",\"generated_at\":\"2026-08-17T00:00:00Z\",\"prompt_version\":\"1.0\",\"assets\":[\"Karussell mit 6 Karten\",\"Reel 45 Sekunden\",\"Story mit 5 Slides\"]}}"
+}
