@@ -7,25 +7,13 @@
     },
     {
       "check": "flux-prompt-no-text",
-      "findings": [
-        {
-          "check": "flux-prompt-no-text",
-          "message": "Flux prompt is missing or was removed because it requested text in the image.",
-          "severity": "error"
-        }
-      ],
-      "status": "failed"
+      "findings": [],
+      "status": "passed"
     },
     {
       "check": "required-fields",
-      "findings": [
-        {
-          "check": "required-fields",
-          "message": "Required field \"visual.flux_prompt\" is empty.",
-          "severity": "error"
-        }
-      ],
-      "status": "failed"
+      "findings": [],
+      "status": "passed"
     },
     {
       "check": "platform-lengths",
@@ -65,13 +53,10 @@
     }
   ],
   "content_path": "content/2026-08-18/prayer-morning-2026-08-18/content.json",
-  "errors": [
-    "Flux prompt is missing or was removed because it requested text in the image.",
-    "Required field \"visual.flux_prompt\" is empty."
-  ],
+  "errors": [],
   "post_id": "prayer-morning-2026-08-18",
-  "ready_for_approval": false,
-  "status_after_run": "in Arbeit",
+  "ready_for_approval": true,
+  "status_after_run": "zur Prüfung",
   "status_before_run": "in Arbeit",
   "warnings": [
     "Current-event or local factual details are still required. Verify that no details were invented."
