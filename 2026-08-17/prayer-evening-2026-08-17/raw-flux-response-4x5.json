@@ -1,0 +1,52 @@
+{
+  "delivery_url": "https://delivery.eu2.bfl.ai/durable/2026081709/5e1f69ea-538b-4d66-962e-9be995966f07/6d/7433870e167d57/0e167d57c4ae40c39c1fe168160077e7/sample.jpeg?se=2026-08-17T09%3A35%3A43Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=vK6w/iWPG15mZRu1iIyAE%2BJ4%2Bua025Q0VQYLLleEAf8%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "e06a26ff-fc9d-44ed-b635-b7326be48f99",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "e06a26ff-fc9d-44ed-b635-b7326be48f99",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "e06a26ff-fc9d-44ed-b635-b7326be48f99",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "e06a26ff-fc9d-44ed-b635-b7326be48f99",
+      "status": "Ready",
+      "result": {
+        "start_time": 1786958742.2663887,
+        "prompt": "Besorgt schauende junge Menschen, no text, no letters, no typography, no logo, no watermark",
+        "seed": 1631712496,
+        "sample": "https://delivery.eu2.bfl.ai/durable/2026081709/5e1f69ea-538b-4d66-962e-9be995966f07/6d/7433870e167d57/0e167d57c4ae40c39c1fe168160077e7/sample.jpeg?se=2026-08-17T09%3A35%3A43Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=vK6w/iWPG15mZRu1iIyAE%2BJ4%2Bua025Q0VQYLLleEAf8%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "e06a26ff-fc9d-44ed-b635-b7326be48f99",
+    "polling_url": "https://api.eu2.bfl.ai/v1/get_result?id=e06a26ff-fc9d-44ed-b635-b7326be48f99",
+    "cost": 1.5,
+    "input_mp": 0,
+    "output_mp": 1.39
+  }
+}
