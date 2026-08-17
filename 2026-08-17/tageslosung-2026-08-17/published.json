@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-08-17",
+    "contentDate": "2026-08-17",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-08-17T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Der HERR hat das Recht lieb.",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Der HERR hat das Recht lieb."
+    ],
+    "id": "9eabe8a3-2666-4cf4-91f8-9cf1f4f27a13",
+    "attemptCount": 1,
+    "remoteId": "18006877487763477",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:44:22.242Z",
+    "updatedAt": "2026-08-17T05:00:41.321Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-08-17",
+    "contentDate": "2026-08-17",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-08-17T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Der HERR hat das Recht lieb.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Der HERR hat das Recht lieb."
+    ],
+    "id": "e9eba5ab-f40f-4ea2-8925-33fa3f2498e6",
+    "attemptCount": 1,
+    "remoteId": "117109086199183482",
+    "remoteUrl": "https://kirche.social/@christoph/117109086199183482",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:44:22.245Z",
+    "updatedAt": "2026-08-17T05:00:43.665Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
