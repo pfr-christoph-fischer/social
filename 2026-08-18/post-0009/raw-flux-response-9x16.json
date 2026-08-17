@@ -1,0 +1,44 @@
+{
+  "delivery_url": "https://delivery.us2.bfl.ai/durable/2026081710/5e1f69ea-538b-4d66-962e-9be995966f07/fa/2329148c45ea0b/8c45ea0bcd254abdaaee47454cae0589/sample.jpeg?se=2026-08-17T10%3A50%3A33Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=dNzfQONnKJWMGh3%2BUCaFNNyCX/TLy0hxXm7RFCdv%2ByA%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "79126652-5c5d-4061-8bc9-e5b2433645e8",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "79126652-5c5d-4061-8bc9-e5b2433645e8",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "79126652-5c5d-4061-8bc9-e5b2433645e8",
+      "status": "Ready",
+      "result": {
+        "start_time": 1786963231.5819166,
+        "prompt": "Minimalistische, ruhige Szene mit sanftem Tageslicht, ein stiller Alltagsmoment, warme natürliche Farben, contemplative mood, simple composition, gentle shadows, authentic human presence without clear identity, atmosphere of rest, attention, and being, photographic style, no text, no letters, no typography, no logo, no watermark",
+        "seed": 2786522866,
+        "sample": "https://delivery.us2.bfl.ai/durable/2026081710/5e1f69ea-538b-4d66-962e-9be995966f07/fa/2329148c45ea0b/8c45ea0bcd254abdaaee47454cae0589/sample.jpeg?se=2026-08-17T10%3A50%3A33Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=dNzfQONnKJWMGh3%2BUCaFNNyCX/TLy0hxXm7RFCdv%2ByA%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "79126652-5c5d-4061-8bc9-e5b2433645e8",
+    "polling_url": "https://api.us2.bfl.ai/v1/get_result?id=79126652-5c5d-4061-8bc9-e5b2433645e8",
+    "cost": 1.5,
+    "input_mp": 0,
+    "output_mp": 1.98
+  }
+}
