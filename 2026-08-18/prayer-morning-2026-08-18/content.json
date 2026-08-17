@@ -28,23 +28,23 @@
   },
   "platforms": {
     "facebook": {
-      "text": "Gott, wir bitten dich am Morgen für eine friedliche Zukunft für Israel und Gaza. Stärke alle, die sich für Versöhnung, Schutz des Lebens und Wege aus Gewalt und Angst einsetzen. Wir bitten dich auch für politische Entscheidungen, die das Klima schützen, Verantwortung für kommende Generationen übernehmen und das gemeinsame Haus der Erde bewahren. Schenke Weisheit, Mut und einen langen Atem zum Guten.",
-      "headline": "Morgengebet"
+      "headline": "Morgengebet",
+      "text": "Gott, wir bitten dich am Morgen für eine friedliche Zukunft für Israel und Gaza. Stärke alle, die sich für Versöhnung, Schutz des Lebens und Wege aus Gewalt und Angst einsetzen. Wir bitten dich auch für politische Entscheidungen, die das Klima schützen, Verantwortung für kommende Generationen übernehmen und das gemeinsame Haus der Erde bewahren. Schenke Weisheit, Mut und einen langen Atem zum Guten."
     },
     "instagram": {
       "caption": "Gott, wir bitten dich an diesem Morgen für eine friedliche Zukunft für Israel und Gaza. Bewahre Menschen vor Gewalt, öffne Wege zur Versöhnung und stärke alle, die sich für Frieden einsetzen. Wir bitten dich auch für politische Entscheidungen zum Schutz des Klimas: um Mut zur Verantwortung, um weitsichtige Schritte und um Gerechtigkeit für kommende Generationen.",
       "carousel": [
         {
-          "type": "slide",
-          "text": "Gott, wir bitten dich für eine friedliche Zukunft für Israel und Gaza."
+          "text": "Gott, wir bitten dich für eine friedliche Zukunft für Israel und Gaza.",
+          "type": "slide"
         },
         {
-          "type": "slide",
-          "text": "Stärke alle, die Versöhnung suchen und Leben schützen."
+          "text": "Stärke alle, die Versöhnung suchen und Leben schützen.",
+          "type": "slide"
         },
         {
-          "type": "slide",
-          "text": "Schenke politischen Entscheidungen zum Klimaschutz Mut, Weisheit und Verantwortung."
+          "text": "Schenke politischen Entscheidungen zum Klimaschutz Mut, Weisheit und Verantwortung.",
+          "type": "slide"
         }
       ]
     },
@@ -90,12 +90,12 @@
     "alt_text": "Ein heller Morgenraum mit offenem Fenster und einem Notizbuch auf einem Holztisch."
   },
   "qa": {
+    "approved": false,
     "warnings": [
       "Alt text must be completed before approval",
       "Tagesaktuelle Nachrichtenprüfung für den Morgen des 18.08.2026 fehlt.",
       "Die vorliegende Fassung ist deshalb als allgemeines Morgengebet und nicht als konkret nachrichtenbezogene Fürbitte zu lesen."
-    ],
-    "approved": false
+    ]
   },
   "metadata": {
     "model": "gpt-5.4-2026-03-05",
