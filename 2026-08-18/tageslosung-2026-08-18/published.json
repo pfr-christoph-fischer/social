@@ -84,5 +84,91 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-08-18",
+    "contentDate": "2026-08-18",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-08-18T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Gott der HERR hat mir das Ohr geöffnet. Und ich bin nicht ungehorsam und weiche nicht zurück.",
+    "assets": [
+      "render-square-01.jpg"
+    ],
+    "altTexts": [
+      "Gott der HERR hat mir das Ohr geöffnet. Und ich bin nicht ungehorsam und weiche nicht zurück."
+    ],
+    "id": "bd99e8a3-dd87-44bf-a066-0a710c719adb",
+    "attemptCount": 1,
+    "remoteId": "18237631999314678",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:44:24.408Z",
+    "updatedAt": "2026-08-18T05:00:38.876Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-08-18",
+    "contentDate": "2026-08-18",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-08-18T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Gott der HERR hat mir das Ohr geöffnet. Und ich bin nicht ungehorsam und weiche nicht zurück.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Gott der HERR hat mir das Ohr geöffnet. Und ich bin nicht ungehorsam und weiche nicht zurück."
+    ],
+    "id": "bd026a7d-6478-4c45-b973-a836d1cde659",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3mtdgpllchd2w",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3mtdgpllchd2w",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:44:24.417Z",
+    "updatedAt": "2026-08-18T05:00:41.170Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-08-18",
+    "contentDate": "2026-08-18",
+    "platform": "linkedin",
+    "format": "default",
+    "scheduledAt": "2026-08-18T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Gott der HERR hat mir das Ohr geöffnet. Und ich bin nicht ungehorsam und weiche nicht zurück.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Gott der HERR hat mir das Ohr geöffnet. Und ich bin nicht ungehorsam und weiche nicht zurück."
+    ],
+    "id": "943df786-8d1d-4c8e-b7a6-e7670f7f9272",
+    "attemptCount": 1,
+    "remoteId": "urn:li:share:7495343903387336705",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:44:24.424Z",
+    "updatedAt": "2026-08-18T05:00:43.614Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 201
+    },
+    "retryHistory": []
   }
 ]
