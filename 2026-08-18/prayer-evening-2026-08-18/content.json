@@ -28,31 +28,39 @@
   },
   "platforms": {
     "facebook": {
-      "text": "Abendgebet\n\nGott, wir bringen dir diesen Abend alles, was schwer auf uns liegt.\n\nWir bitten für die Menschen in der Ukraine, die unter Krieg, Angst und Verlust leben.\nWir bitten für Landwirtinnen und Landwirte, die unter Trockenheit, Hitze und schwierigen Erntebedingungen in Sorge sind.\n\nSchenke Schutz, Kraft und Menschen, die nicht wegsehen.\nUnd gib auch uns Ruhe für diese Nacht und Vertrauen für den neuen Tag.\n\nHinweis: Die aktuellen Bezüge müssen vor Veröffentlichung noch redaktionell stichtagsnah geprüft werden.",
-      "headline": "Abendgebet"
+      "headline": "Abendgebet",
+      "text": "Abendgebet\n\nGott, wir bringen dir diesen Abend alles, was schwer auf uns liegt.\n\nWir bitten für die Menschen in der Ukraine, die unter Krieg, Angst und Verlust leben.\nWir bitten für Landwirtinnen und Landwirte, die unter Trockenheit, Hitze und schwierigen Erntebedingungen in Sorge sind.\n\nSchenke Schutz, Kraft und Menschen, die nicht wegsehen.\nUnd gib auch uns Ruhe für diese Nacht und Vertrauen für den neuen Tag.\n\nAmen."
     },
     "instagram": {
-      "caption": "Abendgebet\n\nGott, wir bringen dir diesen Abend alles, was schwer auf uns liegt.\n\nWir bitten für die Menschen in der Ukraine, die unter Krieg, Angst und Verlust leben.\nWir bitten für Landwirtinnen und Landwirte, die unter Trockenheit, Hitze und schwierigen Erntebedingungen in Sorge sind.\n\nSchenke Schutz, Kraft und Menschen, die nicht wegsehen. Gib uns Ruhe für diese Nacht und Vertrauen für den neuen Tag.\n\nHinweis: Die aktuellen Bezüge müssen vor Veröffentlichung noch redaktionell stichtagsnah geprüft werden.",
+      "caption": "Abendgebet\n\nGott, wir bringen dir diesen Abend alles, was schwer auf uns liegt.\n\nWir bitten für die Menschen in der Ukraine, die unter Krieg, Angst und Verlust leben.\nWir bitten für Landwirt:innen, die unter Trockenheit, Hitze und schwierigen Erntebedingungen in Sorge sind.\n\nSchenke Schutz, Kraft und Menschen, die nicht wegsehen. Gib uns Ruhe für diese Nacht und Vertrauen für den neuen Tag.\n",
       "carousel": [
         {
-          "type": "slide",
-          "text": "Abendgebet"
+          "text": "Wir legen den Tag und die Welt in Gottes Hand.",
+          "type": "content"
         },
         {
-          "type": "slide",
-          "text": "Wir bitten für die Menschen in der Ukraine."
+          "text": "Wir bitten für die Menschen in der Ukraine.",
+          "type": "slide"
         },
         {
-          "type": "slide",
-          "text": "Wir bitten für Landwirtinnen und Landwirte in Sorge wegen Trockenheit und Ernte."
+          "text": "Wir bitten für Landwirtinnen und Landwirte in Sorge wegen Trockenheit und Ernte.",
+          "type": "slide"
+        },
+        {
+          "text": "Schenke Schutz, Kraft und Menschen, die nicht wegsehen.",
+          "type": "content"
+        },
+        {
+          "text": "Gib uns Ruhe für diese Nacht und Vertrauen für den neuen Tag.",
+          "type": "content"
         }
       ]
     },
     "mastodon": {
-      "text": "Abendgebet: Wir bitten für die Menschen in der Ukraine, die unter Krieg, Angst und Verlust leben, und für Landwirtinnen und Landwirte, die unter Trockenheit, Hitze und schwierigen Erntebedingungen in Sorge sind. Schenke Schutz, Kraft und Ruhe für diese Nacht. Aktuelle Bezüge vor Veröffentlichung bitte noch stichtagsnah prüfen."
+      "text": "Abendgebet: Gott, wir legen die Welt in deine Hand. Wir bitten für die Menschen in der Ukraine, die unter Krieg, Angst und Verlust leben. Wir bitten für Landwirt:innen, die unter Trockenheit, Hitze und schwierigen Erntebedingungen in Sorge sind. Schenke Schutz, Kraft und Ruhe für diese Nacht."
     },
     "bluesky": {
-      "text": "Abendgebet: Wir bitten für die Menschen in der Ukraine und für Landwirtinnen und Landwirte, die wegen Trockenheit, Hitze und schwieriger Ernte in Sorge sind. Schenke Schutz, Kraft und Ruhe für diese Nacht. Vor Veröffentlichung bitte noch stichtagsnah prüfen."
+      "text": "Abendgebet: Gott, wir legen die Welt in deine Hand. Wir bitten für die Menschen in der Ukraine, die unter Krieg, Angst und Verlust leben. Wir bitten für Landwirt:innen, die unter Trockenheit, Hitze und schwierigen Erntebedingungen in Sorge sind. Schenke Schutz, Kraft und Ruhe für diese Nacht."
     },
     "story": {
       "slides": [
@@ -91,13 +99,13 @@
     "alt_text": "Ein Traktor fährt in ruhigem Abendlicht über ein trockenes Feld. In der warmen Luft liegt leichter Staub. Die weite Landschaft wirkt still, ernst und von Trockenheit geprägt."
   },
   "qa": {
+    "approved": false,
     "warnings": [
       "Aktuelle Nachrichtenlage für den 17.08.2026 nicht ausreichend belastbar verifiziert.",
       "Die benannten Fürbittenrichtungen Ukraine und Landwirte/Trockenheit sind noch stichtagsnah redaktionell zu prüfen.",
       "Mindestens ein konkreter Bezug aus SWR Aktuell Baden-Württemberg sollte vor Freigabe eindeutig belegt werden.",
       "Die Formulierungen nennen plausible Anliegen, dürfen aber nicht als bereits vollständig verifizierte Nachrichtenbezüge verstanden werden."
-    ],
-    "approved": false
+    ]
   },
   "metadata": {
     "model": "gpt-5.4-2026-03-05",
