@@ -1,7 +1,7 @@
 {
   "id": "post-0011",
   "status": "in Arbeit",
-  "needs_input": true,
+  "needs_input": false,
   "source": {
     "calendar_post_id": "post-0011",
     "date": "2026-08-20",
@@ -9,70 +9,110 @@
     "liturgical_source": ""
   },
   "editorial_core": {
-    "title": "Ein Satz, der mich beim Unterrichten überrascht hat",
-    "main_message": "Mit einer echten, aber vollständig anonymisierten Frage beginnen.",
-    "audience": "[TODO: define audience after current inputs are available]",
+    "title": "Gute Vorbereitung braucht gute Werkzeuge",
+    "main_message": "Persönliche Frage an die Community: Ich baue mir manche Unterrichtstools gern selbst, weil gute Werkzeuge die Vorbereitung erleichtern und Freiraum für guten Unterricht schaffen. Was müsste ein wirklich gutes Tool zur Unterrichtsplanung können?",
+    "audience": "Lehrkräfte, pädagogisch Interessierte und Menschen, die sich mit Unterrichtsplanung und guten digitalen Werkzeugen beschäftigen",
     "tone": [
       "klar",
       "ruhig",
       "zugänglich"
     ],
     "source_notes": [
-      "Goal: Eine Frage, Beobachtung oder Lernerfahrung aus dem Religionsunterricht aufnehmen, ohne Schüler:innen erkennbar zu machen.",
+      "Goal: Eine offene Community-Frage zur Unterrichtsplanung stellen und die persönliche Perspektive einbringen, dass gute Tools gute Vorbereitung unterstützen.",
       "Column: Schule und religiöse Bildung",
-      "Production mode: Rahmen vorproduzierbar; konkreten Anlass aktuell ergänzen",
-      "Structure: anonymisierte Frage | warum sie mich beschäftigt | eine offene Antwort | Rückfrage an die Community",
-      "AI support notes: Anonymisierung prüfen | altersgerechte Erklärung | Antwortvarianten | Symbolbild-Prompt",
-      "Current inputs required: anonymisierte Unterrichtsbeobachtung | Klassenstufe nur nennen, wenn unproblematisch"
+      "Production mode: sofort einsetzbar als dialogorientierter Community-Post",
+      "Structure: Alltagsproblem bei Unterrichtsplanung | warum gute Vorbereitung wichtig ist | persönliche Haltung zu selbst gebauten Tools | Frage an die Community",
+      "AI support notes: verständlich formulieren | nicht wie Produktwerbung klingen | konkrete Denkanstöße für Antworten geben | Symbolbild-Prompt",
+      "Current inputs required: none"
     ]
   },
   "platforms": {
     "facebook": {
-      "text": "",
-      "headline": ""
+      "text": "Gute Vorbereitung macht für Unterricht einen echten Unterschied. Und ich merke immer wieder: Mit guten Tools arbeitet es sich besser.\n\nDeshalb baue ich mir manche Werkzeuge für die Unterrichtsplanung gern selbst – nicht aus Technikliebe, sondern weil gute Vorbereitung Freiraum schafft.\n\nMich interessiert heute eure Erfahrung:\nWie müsste für euch das perfekte Tool zur Unterrichtsplanung aussehen? Was müsste es können?\n\nZum Beispiel:\n- Materialien sammeln und ordnen\n- Stunden strukturieren\n- Differenzierung mitdenken\n- spontan anpassen\n- Zeit sparen\n- im Team zusammenarbeiten\n- KI sinnvoll nutzen\n- Datenschutz sauber lösen\n\nWas wäre euch am wichtigsten?",
+      "headline": "Wie müsste euer perfektes Planungstool aussehen?"
     },
     "instagram": {
-      "caption": "",
-      "carousel": []
+      "caption": "Ich merke immer wieder: Gute Vorbereitung ist wichtig. Und mit guten Tools arbeitet es sich oft besser.\n\nDarum baue ich mir manche Werkzeuge für die Unterrichtsplanung gern selbst.\n\nJetzt interessiert mich eure Perspektive:\nWie müsste für euch das perfekte Tool zur Unterrichtsplanung aussehen? Was müsste es können?\n\nWoran denkt ihr zuerst?\nMaterialien, Struktur, Differenzierung, Zeitersparnis, Zusammenarbeit, KI, Datenschutz?\n\nSchreibt es gern in die Kommentare.",
+      "carousel": [
+        {
+          "type": "text",
+          "text": "Gute Vorbereitung braucht gute Werkzeuge."
+        },
+        {
+          "type": "text",
+          "text": "Ich baue mir manche Unterrichtstools gern selbst."
+        },
+        {
+          "type": "text",
+          "text": "Nicht, weil Technik Selbstzweck ist – sondern weil gute Tools Freiraum für guten Unterricht schaffen."
+        },
+        {
+          "type": "text",
+          "text": "Wie müsste für euch das perfekte Tool zur Unterrichtsplanung aussehen?"
+        },
+        {
+          "type": "text",
+          "text": "Was müsste es können? Materialien, Struktur, Differenzierung, Zusammenarbeit, KI oder Datenschutz?"
+        }
+      ]
     },
     "mastodon": {
-      "text": ""
+      "text": "Ich merke immer wieder: Gute Vorbereitung ist wichtig. Und mit guten Tools arbeitet es sich besser. Deshalb baue ich mir manche Werkzeuge für die Unterrichtsplanung gern selbst.\n\nMeine Frage an euch: Wie müsste für euch das perfekte Tool zur Unterrichtsplanung aussehen? Was müsste es können?"
     },
     "bluesky": {
-      "text": ""
+      "text": "Gute Vorbereitung ist wichtig – und mit guten Tools arbeitet es sich besser. Deshalb baue ich mir manche Werkzeuge für die Unterrichtsplanung gern selbst. Wie müsste für euch das perfekte Tool aussehen? Was müsste es können?"
     },
     "story": {
-      "slides": []
+      "slides": [
+        {
+          "text": "Gute Vorbereitung braucht gute Werkzeuge."
+        },
+        {
+          "text": "Ich baue mir manche Unterrichtstools gern selbst."
+        },
+        {
+          "text": "Wie müsste für euch das perfekte Tool zur Unterrichtsplanung aussehen?"
+        },
+        {
+          "text": "Was müsste es unbedingt können?"
+        }
+      ]
     },
     "reel": {
-      "hook": "",
-      "script": "",
-      "shots": [],
-      "duration_seconds": 0
+      "hook": "Wie müsste das perfekte Tool zur Unterrichtsplanung aussehen?",
+      "script": "Gute Vorbereitung macht im Unterricht einen Unterschied. Und ich merke immer wieder: Mit guten Tools arbeitet es sich besser. Deshalb baue ich mir manche Werkzeuge für die Unterrichtsplanung gern selbst. Nicht, weil Technik alles löst, sondern weil gute Werkzeuge Freiraum schaffen. Jetzt interessiert mich eure Erfahrung: Wie müsste für euch das perfekte Tool zur Unterrichtsplanung aussehen? Was müsste es können?",
+      "shots": [
+        "Schreibtisch mit Notizen, Unterrichtsmaterialien und Laptop",
+        "Nahaufnahme beim Strukturieren einer Unterrichtseinheit",
+        "Kurzer Blick auf selbst erstellte digitale Arbeitsabläufe oder Planungsnotizen",
+        "Direkte Ansprache in die Kamera mit der Community-Frage",
+        "Abschlussfolie mit der Frage: Was müsste euer Planungstool können?"
+      ],
+      "duration_seconds": 30
     }
   },
   "visual": {
-    "concept": "",
-    "flux_prompt": "",
+    "concept": "Ruhige, aufgeräumte Arbeitsszene zur Unterrichtsplanung mit persönlichem, praxisnahem Charakter statt Technikwerbung.",
+    "flux_prompt": "Ein heller, aufgeräumter Arbeitsplatz einer Lehrkraft mit Notizbuch, Wochenplan, offenen Unterrichtsmaterialien, Stiften und Laptop, freundliches natürliches Licht, warme sachliche Atmosphäre, Fokus auf Vorbereitung und Struktur, keine sichtbaren Markennamen, keine erkennbaren Personen oder Schüler, dokumentarischer realistischer Stil",
     "negative_prompt": "text, letters, logo, watermark",
     "formats": [
       "4:5",
       "9:16",
       "1.91:1"
     ],
-    "alt_text": ""
+    "alt_text": "Ein aufgeräumter Schreibtisch mit Laptop, Notizen und Unterrichtsmaterialien. Die Szene vermittelt konzentrierte Vorbereitung und gute Organisation für den Unterricht."
   },
   "qa": {
     "warnings": [
-      "Alt text must be completed before approval",
-      "Current source inputs are still required before publication",
-      "Review privacy and factual accuracy before drafting"
+      "Review platform wording before publication",
+      "Ensure no unintended product-promotion framing",
+      "Check final visuals for absence of identifiable persons or brand names"
     ],
     "approved": false
   },
   "metadata": {
-    "model": "",
-    "generated_at": "",
+    "model": "gpt-5",
+    "generated_at": "2026-08-18T17:30:00Z",
     "prompt_version": "1.0",
     "assets": []
   }
