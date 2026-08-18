@@ -99,15 +99,19 @@
     "alt_text": "Ein Traktor fährt in ruhigem Abendlicht über ein trockenes Feld. In der warmen Luft liegt leichter Staub. Die weite Landschaft wirkt still, ernst und von Trockenheit geprägt."
   },
   "qa": {
-    "approved": true,
     "warnings": [
       "Current-event or local factual details are still required. Verify that no details were invented."
-    ]
+    ],
+    "approved": true
   },
   "metadata": {
     "model": "gpt-5.4-2026-03-05",
     "generated_at": "2026-08-18T09:00:33.096Z",
     "prompt_version": "1.0",
-    "assets": []
+    "assets": [
+      "assets/background-1.91x1.webp",
+      "assets/background-4x5.webp",
+      "assets/background-9x16.webp"
+    ]
   }
 }

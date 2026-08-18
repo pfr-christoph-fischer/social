@@ -1,0 +1,44 @@
+{
+  "delivery_url": "https://delivery.eu2.bfl.ai/durable/2026081812/5e1f69ea-538b-4d66-962e-9be995966f07/fd/9235663ccda887/3ccda887e9524734bbc03e70f82269b8/sample.jpeg?se=2026-08-18T12%3A52%3A04Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=cFGvkgvFRRy%2BwWX/cgJBPSqg8e1EBwsLb2YyKCwwnh0%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "34d2d62e-cd30-48f9-9a43-8fcc46286f4b",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "34d2d62e-cd30-48f9-9a43-8fcc46286f4b",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "34d2d62e-cd30-48f9-9a43-8fcc46286f4b",
+      "status": "Ready",
+      "result": {
+        "start_time": 1787056922.7339396,
+        "prompt": "Traktor auf trockenem Feld am Abend, warmes Abendlicht, weite Ackerfläche, leichte Staubspur, trockene Luft, ernste ruhige Stimmung, fotografisch, natürliche Farben, sanfte Dämmerung, atmosphärische Tiefe, nicht dramatisch, no text, no letters, no typography, no logo, no watermark",
+        "seed": 3724300219,
+        "sample": "https://delivery.eu2.bfl.ai/durable/2026081812/5e1f69ea-538b-4d66-962e-9be995966f07/fd/9235663ccda887/3ccda887e9524734bbc03e70f82269b8/sample.jpeg?se=2026-08-18T12%3A52%3A04Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=cFGvkgvFRRy%2BwWX/cgJBPSqg8e1EBwsLb2YyKCwwnh0%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "34d2d62e-cd30-48f9-9a43-8fcc46286f4b",
+    "polling_url": "https://api.eu2.bfl.ai/v1/get_result?id=34d2d62e-cd30-48f9-9a43-8fcc46286f4b",
+    "cost": 1.4000000000000001,
+    "input_mp": 0,
+    "output_mp": 0.72
+  }
+}
