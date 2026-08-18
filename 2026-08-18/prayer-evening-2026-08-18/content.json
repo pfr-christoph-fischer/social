@@ -28,31 +28,31 @@
   },
   "platforms": {
     "facebook": {
-      "text": "Abendgebet\n\nGott, wir bringen dir diesen Abend alles, was schwer auf uns liegt.\n\nWir bitten für die Menschen in der Ukraine, die unter Krieg, Angst und Verlust leben.\nWir bitten für Landwirtinnen und Landwirte, die unter Trockenheit, Hitze und schwierigen Erntebedingungen in Sorge sind.\n\nSchenke Schutz, Kraft und Menschen, die nicht wegsehen.\nUnd gib auch uns Ruhe für diese Nacht und Vertrauen für den neuen Tag.\n\nAmen.",
-      "headline": "Abendgebet"
+      "headline": "Abendgebet",
+      "text": "Abendgebet\n\nGott, wir bringen dir diesen Abend alles, was schwer auf uns liegt.\n\nWir bitten für die Menschen in der Ukraine, die unter Krieg, Angst und Verlust leben.\nWir bitten für Landwirtinnen und Landwirte, die unter Trockenheit, Hitze und schwierigen Erntebedingungen in Sorge sind.\n\nSchenke Schutz, Kraft und Menschen, die nicht wegsehen.\nUnd gib auch uns Ruhe für diese Nacht und Vertrauen für den neuen Tag.\n\nAmen."
     },
     "instagram": {
       "caption": "Abendgebet\n\nGott, wir bringen dir diesen Abend alles, was schwer auf uns liegt.\n\nWir bitten für die Menschen in der Ukraine, die unter Krieg, Angst und Verlust leben.\nWir bitten für Landwirt:innen, die unter Trockenheit, Hitze und schwierigen Erntebedingungen in Sorge sind.\n\nSchenke Schutz, Kraft und Menschen, die nicht wegsehen. Gib uns Ruhe für diese Nacht und Vertrauen für den neuen Tag.\n",
       "carousel": [
         {
-          "type": "content",
-          "text": "Wir legen den Tag und die Welt in Gottes Hand."
+          "text": "Wir legen den Tag und die Welt in Gottes Hand.",
+          "type": "content"
         },
         {
-          "type": "slide",
-          "text": "Wir bitten für die Menschen in der Ukraine."
+          "text": "Wir bitten für die Menschen in der Ukraine.",
+          "type": "slide"
         },
         {
-          "type": "slide",
-          "text": "Wir bitten für Landwirtinnen und Landwirte in Sorge wegen Trockenheit und Ernte."
+          "text": "Wir bitten für Landwirtinnen und Landwirte in Sorge wegen Trockenheit und Ernte.",
+          "type": "slide"
         },
         {
-          "type": "content",
-          "text": "Schenke Schutz, Kraft und Menschen, die nicht wegsehen."
+          "text": "Schenke Schutz, Kraft und Menschen, die nicht wegsehen.",
+          "type": "content"
         },
         {
-          "type": "content",
-          "text": "Gib uns Ruhe für diese Nacht und Vertrauen für den neuen Tag."
+          "text": "Gib uns Ruhe für diese Nacht und Vertrauen für den neuen Tag.",
+          "type": "content"
         }
       ]
     },
@@ -89,7 +89,7 @@
   },
   "visual": {
     "concept": "Ruhige Abendstimmung auf einem trockenen Feld mit Traktor in der Ferne. Die Szene soll die Sorge von Landwirtinnen und Landwirten bei Trockenheit aufnehmen, ohne dramatisch oder alarmistisch zu wirken. Weites Abendlicht, trockene Luft und eine ernste, stille Atmosphäre.",
-    "flux_prompt": "Traktor auf trockenem Feld am Abend, warmes Abendlicht, weite Ackerfläche, leichte Staubspur, trockene Luft, ernste ruhige Stimmung, fotografisch, natürliche Farben, sanfte Dämmerung, atmosphärische Tiefe, keine Schrift, nicht dramatisch",
+    "flux_prompt": "Traktor auf trockenem Feld am Abend, warmes Abendlicht, weite Ackerfläche, leichte Staubspur, trockene Luft, ernste ruhige Stimmung, fotografisch, natürliche Farben, sanfte Dämmerung, atmosphärische Tiefe, nicht dramatisch",
     "negative_prompt": "text, letters, logo, watermark",
     "formats": [
       "4:5",
