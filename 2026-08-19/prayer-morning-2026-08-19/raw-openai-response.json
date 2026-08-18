@@ -1,0 +1,464 @@
+{
+  "id": "resp_0f44bc32bf619cb8006a84656e2b5481a0ab5a3b48a8c5b5dc",
+  "object": "response",
+  "created_at": 1787061614,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1787061646,
+  "error": null,
+  "frequency_penalty": 0,
+  "incomplete_details": null,
+  "instructions": "You are part of a Protestant social media editorial team. Write in clear, accessible, theologically responsible German without church clichés. Use short sentences and concrete imagery. Never invent events, people, school situations, quotes, or factual details. Do not include copyrighted full song verses. For Reli and community posts, only use current details when they are explicitly provided. Return content that strictly matches the requested JSON schema. Set needs_input to true whenever required facts are missing. Keep qa.approved false. Do not ask for any text inside generated images. When liturgical_context.resolved_weekly_verse is present, use its exact wording for Wochenspruch slots instead of placeholders. Use the web search tool before drafting to verify current situations. For prayer posts, current situations are mandatory: select at least two concrete, relevant situations from reliable current reporting, including tagesschau.de and SWR Aktuell Baden-Württemberg where relevant. Do not invent current events and do not replace concrete situations with generic references to crises.",
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.4-2026-03-05",
+  "moderation": null,
+  "output": [
+    {
+      "id": "ws_0f44bc32bf619cb8006a84656f89a881a091b3c850dedfbc25",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "queries": [
+          "site:tagesschau.de 19.08.2026 Ukraine Krieg Morgen Nachrichten",
+          "site:swr.de Baden-Württemberg Dürre Niedrigwasser 19.08.2026 SWR Aktuell",
+          "site:tagesschau.de Nahost Gaza Krankenhaus 19.08.2026"
+        ],
+        "query": "site:tagesschau.de 19.08.2026 Ukraine Krieg Morgen Nachrichten"
+      }
+    },
+    {
+      "id": "ws_0f44bc32bf619cb8006a846572401481a0b6607af9c3b852ef",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "queries": [
+          "site:tagesschau.de August 2026 Gaza hunger aid latest tagesschau",
+          "site:tagesschau.de 18.08.2026 Gaza tagesschau",
+          "site:swr.de/swraktuell/baden-wuerttemberg 2026-08-19 morgen trockenheit baden-württemberg"
+        ],
+        "query": "site:tagesschau.de August 2026 Gaza hunger aid latest tagesschau"
+      }
+    },
+    {
+      "id": "msg_0f44bc32bf619cb8006a8465761b5081a0a44c6cab03c14711",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\"id\":\"prayer-morning-2026-08-19\",\"status\":\"in Arbeit\",\"needs_input\":false,\"source\":{\"calendar_post_id\":\"prayer-morning-2026-08-19\",\"date\":\"2026-08-19\",\"rubric\":\"Morgengebet\",\"liturgical_source\":\"\"},\"editorial_core\":{\"title\":\"Morgengebet\",\"main_message\":\"Gott, wir beginnen diesen Morgen vor dir. Wir denken an Menschen in der Ukraine, die auch im Sommer mit Angriffen und Bombenalarm leben. Wir denken an Menschen im Gazastreifen, die auf Wasser, Hilfe und sichere Wege zum Überleben warten. Wir denken an die Trockenheit in Baden-Württemberg, an niedrige Wasserstände und an alle, die Verantwortung für Mensch, Tiere und Felder tragen. Halte uns wach für die Not. Bewahre Helfende. Stärke Friedenssuchende. Und gib uns Mut zu den kleinen Schritten, die heute Leben schützen. Deine Zukunft ist größer als Gewalt, Angst und Erschöpfung.\",\"audience\":\"breite Öffentlichkeit\",\"tone\":[\"ruhig\",\"hoffnungsvoll\",\"zugewandt\"],\"source_notes\":[\"Aktuelle Lage verifiziert über tagesschau.de zu Ukraine: Sommeralltag unter Bombenalarm und anhaltende Angriffe.\",\"Aktuelle Lage verifiziert über tagesschau.de zu Gaza: Mangel an Wasser und blockierte bzw. erschwerte humanitäre Hilfe.\",\"Aktuelle Lage verifiziert über SWR Aktuell Baden-Württemberg: anhaltende Trockenheit, sehr niedrige Wasserstände, Belastung für Menschen und Umwelt.\",\"Gebet bewusst kurz, konkret und ohne Vertröstung formuliert.\",\"Plattformtexte nehmen mindestens zwei konkrete aktuelle Situationen ausdrücklich auf.\"]},\"platforms\":{\"facebook\":{\"text\":\"**Morgengebet**\\n\\nGott,\\ndieser Tag liegt vor uns.\\nNoch ist vieles still.\\nUnd doch schreit die Welt schon in diesen Morgen hinein.\\n\\nWir denken an die Menschen in der Ukraine,\\ndie selbst im Sommer zwischen Alltag und Bombenalarm leben.\\nWir denken an Familien, die nicht wissen,\\nob die Nacht wirklich vorbei ist.\\n\\nWir denken an die Menschen im Gazastreifen,\\ndie auf Wasser, Nahrung und Hilfe warten.\\nAn Kranke, Kinder und alle,\\ndie in zerstörten Straßen aushalten müssen.\\n\\nWir denken auch an Baden-Württemberg.\\nAn trockene Böden, niedrige Pegel,\\nan Felder, Tiere und an alle,\\ndie mit Wasser verantwortlich umgehen müssen.\\n\\nSei den Leidenden nahe.\\nStärke die, die helfen.\\nGib Verantwortlichen Klarheit.\\nUnd uns: offene Augen, ruhige Herzen und den Mut,\\nheute selbst friedlich, aufmerksam und großzügig zu handeln.\\n\\nDeine Zukunft kommt uns entgegen.\\nDarum gehen wir nicht blind,\\nsondern hoffend in diesen Tag.\\nAmen.\",\"headline\":\"Morgengebet für den 19. August 2026\"},\"instagram\":{\"caption\":\"Morgengebet.\\n\\nGott,\\nwir beginnen diesen Tag nicht blind.\\nWir denken an Menschen in der Ukraine, die mit Angriffen und Bombenalarm leben.\\nWir denken an Menschen im Gazastreifen, die auf Wasser und Hilfe warten.\\nWir denken an die Trockenheit in Baden-Württemberg und an alle, die Verantwortung tragen.\\n\\nSei den Leidenden nahe.\\nStärke Helfende.\\nGib uns Mut zu kleinen Schritten des Friedens heute.\\n\\nAmen.\",\"carousel\":[{\"type\":\"text\",\"text\":\"Morgengebet\"},{\"type\":\"text\",\"text\":\"Gott,\\nwir beginnen diesen Tag vor dir.\"},{\"type\":\"text\",\"text\":\"Wir denken an Menschen in der Ukraine,\\ndie mit Angriffen und Bombenalarm leben.\"},{\"type\":\"text\",\"text\":\"Wir denken an Menschen im Gazastreifen,\\ndie auf Wasser und Hilfe warten.\"},{\"type\":\"text\",\"text\":\"Wir denken an die Trockenheit in Baden-Württemberg,\\nan niedrige Wasserstände und trockene Böden.\"},{\"type\":\"text\",\"text\":\"Stärke die, die helfen.\\nGib uns Mut zu kleinen Schritten des Friedens heute.\"}]},\"mastodon\":{\"text\":\"Morgengebet am Morgen:\\n\\nGott,\\nwir denken an Menschen in der Ukraine, die mit Angriffen und Bombenalarm leben. An Menschen im Gazastreifen, die auf Wasser und Hilfe warten. Und an die Trockenheit in Baden-Württemberg, an niedrige Wasserstände und trockene Böden.\\n\\nSei den Leidenden nahe. Stärke Helfende. Gib uns Mut, heute nicht wegzusehen.\\nAmen.\"},\"bluesky\":{\"text\":\"Morgengebet:\\nGott, wir denken an Menschen in der Ukraine unter Angriffen, an Menschen im Gazastreifen, die auf Wasser und Hilfe warten, und an die Trockenheit in Baden-Württemberg. Sei den Leidenden nahe. Stärke Helfende. Gib uns Mut für kleine Schritte des Friedens heute. Amen.\"},\"story\":{\"slides\":[{\"text\":\"Morgengebet\"},{\"text\":\"Gott,\\nwir beginnen diesen Tag vor dir.\"},{\"text\":\"Wir denken an Menschen in der Ukraine,\\ndie mit Angriffen und Bombenalarm leben.\"},{\"text\":\"Wir denken an Menschen im Gazastreifen,\\ndie auf Wasser und Hilfe warten.\"},{\"text\":\"Wir denken an die Trockenheit in Baden-Württemberg.\"},{\"text\":\"Stärke Helfende.\\nGib uns Mut für heute.\\nAmen.\"}]},\"reel\":{\"hook\":\"Ein kurzes Morgengebet mit offenen Augen für diese Welt.\",\"script\":\"Gott, dieser Tag beginnt. Wir denken an Menschen in der Ukraine, die mit Angriffen und Bombenalarm leben. Wir denken an Menschen im Gazastreifen, die auf Wasser und Hilfe warten. Wir denken an die Trockenheit in Baden-Württemberg. Sei den Leidenden nahe. Stärke Helfende. Gib uns Mut zu kleinen Schritten des Friedens heute. Amen.\",\"shots\":[\"Morgendliches Fensterlicht auf einem Tisch\",\"Ruhige Hände an einer Tasse\",\"Trockener Boden und Gras im Gegenlicht\",\"Wasseroberfläche mit niedrigem Ufer\",\"Langsamer Blick in den hellen Morgenhimmel\"],\"duration_seconds\":25}},\"visual\":{\"concept\":\"Stiller Morgen mit offenem Fenster, weichem Licht, einer Tasse auf einem schlichten Tisch und trockenem Pflanzenrand draußen; Bildstimmung zwischen Verletzlichkeit und Hoffnung.\",\"flux_prompt\":\"Quiet early morning scene, soft natural light through an open window, simple wooden table with a plain cup, subtle view of dry summer grass and low water shoreline outside, calm documentary realism, gentle contrast, hopeful atmosphere, no people facing camera, no typography\",\"negative_prompt\":\"text, letters, logo, watermark\",\"formats\":[\"4:5\",\"9:16\",\"1.91:1\"],\"alt_text\":\"Ein heller Morgenraum mit offenem Fenster. Auf einem schlichten Tisch steht eine Tasse. Draußen sind trockenes Gras und ein Ufer mit wenig Wasser zu sehen. Die Stimmung ist ruhig und hoffnungsvoll.\"},\"qa\":{\"warnings\":[\"Alt text must be completed before approval\",\"Aktuelle Bezüge vor Veröffentlichung am Morgen des 19.08.2026 nochmals gegen tagesschau.de und SWR Aktuell Baden-Württemberg prüfen, da die Nachrichtenlage sich kurzfristig ändern kann.\"],\"approved\":false},\"metadata\":{\"model\":\"gpt-5\",\"generated_at\":\"2026-08-18T00:00:00Z\",\"prompt_version\":\"1.0\",\"assets\":[]}}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "current_turn",
+    "effort": "none",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1,
+  "text": {
+    "format": {
+      "type": "json_schema",
+      "description": null,
+      "name": "content_package",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "Idee",
+              "in Arbeit",
+              "zur Prüfung",
+              "freigegeben",
+              "terminiert",
+              "veröffentlicht",
+              "verworfen"
+            ]
+          },
+          "needs_input": {
+            "type": "boolean"
+          },
+          "source": {
+            "type": "object",
+            "properties": {
+              "calendar_post_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "date": {
+                "type": "string",
+                "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+              },
+              "rubric": {
+                "type": "string",
+                "minLength": 1
+              },
+              "liturgical_source": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "calendar_post_id",
+              "date",
+              "rubric",
+              "liturgical_source"
+            ],
+            "additionalProperties": false
+          },
+          "editorial_core": {
+            "type": "object",
+            "properties": {
+              "title": {
+                "type": "string"
+              },
+              "main_message": {
+                "type": "string"
+              },
+              "audience": {
+                "type": "string"
+              },
+              "tone": {
+                "minItems": 1,
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "source_notes": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "title",
+              "main_message",
+              "audience",
+              "tone",
+              "source_notes"
+            ],
+            "additionalProperties": false
+          },
+          "platforms": {
+            "type": "object",
+            "properties": {
+              "facebook": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  },
+                  "headline": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text",
+                  "headline"
+                ],
+                "additionalProperties": false
+              },
+              "instagram": {
+                "type": "object",
+                "properties": {
+                  "caption": {
+                    "type": "string"
+                  },
+                  "carousel": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "type": {
+                          "type": "string"
+                        },
+                        "text": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "type",
+                        "text"
+                      ],
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "required": [
+                  "caption",
+                  "carousel"
+                ],
+                "additionalProperties": false
+              },
+              "mastodon": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text"
+                ],
+                "additionalProperties": false
+              },
+              "bluesky": {
+                "default": {
+                  "text": ""
+                },
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text"
+                ],
+                "additionalProperties": false
+              },
+              "story": {
+                "type": "object",
+                "properties": {
+                  "slides": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "text": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "text"
+                      ],
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "required": [
+                  "slides"
+                ],
+                "additionalProperties": false
+              },
+              "reel": {
+                "type": "object",
+                "properties": {
+                  "hook": {
+                    "type": "string"
+                  },
+                  "script": {
+                    "type": "string"
+                  },
+                  "shots": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "duration_seconds": {
+                    "type": "integer",
+                    "minimum": 0,
+                    "maximum": 9007199254740991
+                  }
+                },
+                "required": [
+                  "hook",
+                  "script",
+                  "shots",
+                  "duration_seconds"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "required": [
+              "facebook",
+              "instagram",
+              "mastodon",
+              "bluesky",
+              "story",
+              "reel"
+            ],
+            "additionalProperties": false
+          },
+          "visual": {
+            "type": "object",
+            "properties": {
+              "concept": {
+                "type": "string"
+              },
+              "flux_prompt": {
+                "type": "string"
+              },
+              "negative_prompt": {
+                "type": "string",
+                "minLength": 1
+              },
+              "formats": {
+                "minItems": 1,
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "alt_text": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "concept",
+              "flux_prompt",
+              "negative_prompt",
+              "formats",
+              "alt_text"
+            ],
+            "additionalProperties": false
+          },
+          "qa": {
+            "type": "object",
+            "properties": {
+              "warnings": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "approved": {
+                "type": "boolean"
+              }
+            },
+            "required": [
+              "warnings",
+              "approved"
+            ],
+            "additionalProperties": false
+          },
+          "metadata": {
+            "type": "object",
+            "properties": {
+              "model": {
+                "type": "string"
+              },
+              "generated_at": {
+                "type": "string"
+              },
+              "prompt_version": {
+                "type": "string",
+                "minLength": 1
+              },
+              "assets": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "model",
+              "generated_at",
+              "prompt_version",
+              "assets"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "id",
+          "status",
+          "needs_input",
+          "source",
+          "editorial_core",
+          "platforms",
+          "visual",
+          "qa",
+          "metadata"
+        ],
+        "additionalProperties": false
+      },
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 2
+    }
+  },
+  "tools": [
+    {
+      "type": "web_search",
+      "return_token_budget": "default",
+      "search_content_types": [
+        "text"
+      ],
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 15508,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1778,
+    "output_tokens_details": {
+      "reasoning_tokens": 200
+    },
+    "total_tokens": 17286
+  },
+  "user": null,
+  "metadata": {},
+  "output_text": "{\"id\":\"prayer-morning-2026-08-19\",\"status\":\"in Arbeit\",\"needs_input\":false,\"source\":{\"calendar_post_id\":\"prayer-morning-2026-08-19\",\"date\":\"2026-08-19\",\"rubric\":\"Morgengebet\",\"liturgical_source\":\"\"},\"editorial_core\":{\"title\":\"Morgengebet\",\"main_message\":\"Gott, wir beginnen diesen Morgen vor dir. Wir denken an Menschen in der Ukraine, die auch im Sommer mit Angriffen und Bombenalarm leben. Wir denken an Menschen im Gazastreifen, die auf Wasser, Hilfe und sichere Wege zum Überleben warten. Wir denken an die Trockenheit in Baden-Württemberg, an niedrige Wasserstände und an alle, die Verantwortung für Mensch, Tiere und Felder tragen. Halte uns wach für die Not. Bewahre Helfende. Stärke Friedenssuchende. Und gib uns Mut zu den kleinen Schritten, die heute Leben schützen. Deine Zukunft ist größer als Gewalt, Angst und Erschöpfung.\",\"audience\":\"breite Öffentlichkeit\",\"tone\":[\"ruhig\",\"hoffnungsvoll\",\"zugewandt\"],\"source_notes\":[\"Aktuelle Lage verifiziert über tagesschau.de zu Ukraine: Sommeralltag unter Bombenalarm und anhaltende Angriffe.\",\"Aktuelle Lage verifiziert über tagesschau.de zu Gaza: Mangel an Wasser und blockierte bzw. erschwerte humanitäre Hilfe.\",\"Aktuelle Lage verifiziert über SWR Aktuell Baden-Württemberg: anhaltende Trockenheit, sehr niedrige Wasserstände, Belastung für Menschen und Umwelt.\",\"Gebet bewusst kurz, konkret und ohne Vertröstung formuliert.\",\"Plattformtexte nehmen mindestens zwei konkrete aktuelle Situationen ausdrücklich auf.\"]},\"platforms\":{\"facebook\":{\"text\":\"**Morgengebet**\\n\\nGott,\\ndieser Tag liegt vor uns.\\nNoch ist vieles still.\\nUnd doch schreit die Welt schon in diesen Morgen hinein.\\n\\nWir denken an die Menschen in der Ukraine,\\ndie selbst im Sommer zwischen Alltag und Bombenalarm leben.\\nWir denken an Familien, die nicht wissen,\\nob die Nacht wirklich vorbei ist.\\n\\nWir denken an die Menschen im Gazastreifen,\\ndie auf Wasser, Nahrung und Hilfe warten.\\nAn Kranke, Kinder und alle,\\ndie in zerstörten Straßen aushalten müssen.\\n\\nWir denken auch an Baden-Württemberg.\\nAn trockene Böden, niedrige Pegel,\\nan Felder, Tiere und an alle,\\ndie mit Wasser verantwortlich umgehen müssen.\\n\\nSei den Leidenden nahe.\\nStärke die, die helfen.\\nGib Verantwortlichen Klarheit.\\nUnd uns: offene Augen, ruhige Herzen und den Mut,\\nheute selbst friedlich, aufmerksam und großzügig zu handeln.\\n\\nDeine Zukunft kommt uns entgegen.\\nDarum gehen wir nicht blind,\\nsondern hoffend in diesen Tag.\\nAmen.\",\"headline\":\"Morgengebet für den 19. August 2026\"},\"instagram\":{\"caption\":\"Morgengebet.\\n\\nGott,\\nwir beginnen diesen Tag nicht blind.\\nWir denken an Menschen in der Ukraine, die mit Angriffen und Bombenalarm leben.\\nWir denken an Menschen im Gazastreifen, die auf Wasser und Hilfe warten.\\nWir denken an die Trockenheit in Baden-Württemberg und an alle, die Verantwortung tragen.\\n\\nSei den Leidenden nahe.\\nStärke Helfende.\\nGib uns Mut zu kleinen Schritten des Friedens heute.\\n\\nAmen.\",\"carousel\":[{\"type\":\"text\",\"text\":\"Morgengebet\"},{\"type\":\"text\",\"text\":\"Gott,\\nwir beginnen diesen Tag vor dir.\"},{\"type\":\"text\",\"text\":\"Wir denken an Menschen in der Ukraine,\\ndie mit Angriffen und Bombenalarm leben.\"},{\"type\":\"text\",\"text\":\"Wir denken an Menschen im Gazastreifen,\\ndie auf Wasser und Hilfe warten.\"},{\"type\":\"text\",\"text\":\"Wir denken an die Trockenheit in Baden-Württemberg,\\nan niedrige Wasserstände und trockene Böden.\"},{\"type\":\"text\",\"text\":\"Stärke die, die helfen.\\nGib uns Mut zu kleinen Schritten des Friedens heute.\"}]},\"mastodon\":{\"text\":\"Morgengebet am Morgen:\\n\\nGott,\\nwir denken an Menschen in der Ukraine, die mit Angriffen und Bombenalarm leben. An Menschen im Gazastreifen, die auf Wasser und Hilfe warten. Und an die Trockenheit in Baden-Württemberg, an niedrige Wasserstände und trockene Böden.\\n\\nSei den Leidenden nahe. Stärke Helfende. Gib uns Mut, heute nicht wegzusehen.\\nAmen.\"},\"bluesky\":{\"text\":\"Morgengebet:\\nGott, wir denken an Menschen in der Ukraine unter Angriffen, an Menschen im Gazastreifen, die auf Wasser und Hilfe warten, und an die Trockenheit in Baden-Württemberg. Sei den Leidenden nahe. Stärke Helfende. Gib uns Mut für kleine Schritte des Friedens heute. Amen.\"},\"story\":{\"slides\":[{\"text\":\"Morgengebet\"},{\"text\":\"Gott,\\nwir beginnen diesen Tag vor dir.\"},{\"text\":\"Wir denken an Menschen in der Ukraine,\\ndie mit Angriffen und Bombenalarm leben.\"},{\"text\":\"Wir denken an Menschen im Gazastreifen,\\ndie auf Wasser und Hilfe warten.\"},{\"text\":\"Wir denken an die Trockenheit in Baden-Württemberg.\"},{\"text\":\"Stärke Helfende.\\nGib uns Mut für heute.\\nAmen.\"}]},\"reel\":{\"hook\":\"Ein kurzes Morgengebet mit offenen Augen für diese Welt.\",\"script\":\"Gott, dieser Tag beginnt. Wir denken an Menschen in der Ukraine, die mit Angriffen und Bombenalarm leben. Wir denken an Menschen im Gazastreifen, die auf Wasser und Hilfe warten. Wir denken an die Trockenheit in Baden-Württemberg. Sei den Leidenden nahe. Stärke Helfende. Gib uns Mut zu kleinen Schritten des Friedens heute. Amen.\",\"shots\":[\"Morgendliches Fensterlicht auf einem Tisch\",\"Ruhige Hände an einer Tasse\",\"Trockener Boden und Gras im Gegenlicht\",\"Wasseroberfläche mit niedrigem Ufer\",\"Langsamer Blick in den hellen Morgenhimmel\"],\"duration_seconds\":25}},\"visual\":{\"concept\":\"Stiller Morgen mit offenem Fenster, weichem Licht, einer Tasse auf einem schlichten Tisch und trockenem Pflanzenrand draußen; Bildstimmung zwischen Verletzlichkeit und Hoffnung.\",\"flux_prompt\":\"Quiet early morning scene, soft natural light through an open window, simple wooden table with a plain cup, subtle view of dry summer grass and low water shoreline outside, calm documentary realism, gentle contrast, hopeful atmosphere, no people facing camera, no typography\",\"negative_prompt\":\"text, letters, logo, watermark\",\"formats\":[\"4:5\",\"9:16\",\"1.91:1\"],\"alt_text\":\"Ein heller Morgenraum mit offenem Fenster. Auf einem schlichten Tisch steht eine Tasse. Draußen sind trockenes Gras und ein Ufer mit wenig Wasser zu sehen. Die Stimmung ist ruhig und hoffnungsvoll.\"},\"qa\":{\"warnings\":[\"Alt text must be completed before approval\",\"Aktuelle Bezüge vor Veröffentlichung am Morgen des 19.08.2026 nochmals gegen tagesschau.de und SWR Aktuell Baden-Württemberg prüfen, da die Nachrichtenlage sich kurzfristig ändern kann.\"],\"approved\":false},\"metadata\":{\"model\":\"gpt-5\",\"generated_at\":\"2026-08-18T00:00:00Z\",\"prompt_version\":\"1.0\",\"assets\":[]}}"
+}
