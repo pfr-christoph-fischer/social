@@ -27,5 +27,64 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "prayer-morning-2026-08-18",
+    "contentDate": "2026-08-18",
+    "platform": "instagram",
+    "format": "default",
+    "scheduledAt": "2026-08-18T05:15:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Gott, wir bitten dich an diesem Morgen für eine friedliche Zukunft für Israel und Gaza. Bewahre Menschen vor Gewalt, öffne Wege zur Versöhnung und stärke alle, die sich für Frieden einsetzen. Wir bitten dich auch für politische Entscheidungen zum Schutz des Klimas: um Mut zur Verantwortung, um weitsichtige Schritte und um Gerechtigkeit für kommende Generationen.",
+    "assets": [
+      "render-instagram-feed-01.jpg",
+      "render-instagram-feed-02.jpg",
+      "render-instagram-feed-03.jpg"
+    ],
+    "altTexts": [
+      "Ein heller Morgenraum mit offenem Fenster und einem Notizbuch auf einem Holztisch."
+    ],
+    "id": "929e92b3-c0bd-416e-a022-131abea066e9",
+    "attemptCount": 1,
+    "remoteId": "18575061853071431",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-17T19:53:34.873Z",
+    "updatedAt": "2026-08-18T05:15:46.552Z",
+    "responseMetadata": {
+      "mediaCount": 3,
+      "mediaType": "CAROUSEL",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "prayer-morning-2026-08-18",
+    "contentDate": "2026-08-18",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-08-18T05:15:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Gott, wir bitten dich an diesem Morgen für eine friedliche Zukunft für Israel und Gaza. Stärke alle, die Gewalt überwinden und Wege des Friedens suchen. Und wir bitten dich für politische Entscheidungen zum Schutz des Klimas: um Weisheit, Verantwortung und den Mut zu gerechtem Handeln.",
+    "assets": [
+      "render-facebook-mastodon-01.png"
+    ],
+    "altTexts": [
+      "Ein heller Morgenraum mit offenem Fenster und einem Notizbuch auf einem Holztisch."
+    ],
+    "id": "00c8b711-a015-4d1f-a437-27cdacc92f56",
+    "attemptCount": 1,
+    "remoteId": "117114807741012745",
+    "remoteUrl": "https://kirche.social/@christoph/117114807741012745",
+    "lastError": null,
+    "createdAt": "2026-08-17T19:53:34.954Z",
+    "updatedAt": "2026-08-18T05:15:47.498Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
