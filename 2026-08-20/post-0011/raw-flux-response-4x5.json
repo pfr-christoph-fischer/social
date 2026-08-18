@@ -1,0 +1,44 @@
+{
+  "delivery_url": "https://delivery.us4.bfl.ai/durable/2026081817/5e1f69ea-538b-4d66-962e-9be995966f07/df/41219010069880/1006988080d941ce9866ec5c511db5a2/sample.jpeg?se=2026-08-18T17%3A43%3A32Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=wUtnAxUgqsYVF0Ocp14Wjt4EKFo1TycTc5Wlh6OkjWE%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "1a1db397-f325-4dbd-b1ff-0460e2345a8f",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "1a1db397-f325-4dbd-b1ff-0460e2345a8f",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "1a1db397-f325-4dbd-b1ff-0460e2345a8f",
+      "status": "Ready",
+      "result": {
+        "start_time": 1787074410.9033606,
+        "prompt": "Ein heller, aufgeräumter Arbeitsplatz einer Lehrkraft mit Notizbuch, Wochenplan, offenen Unterrichtsmaterialien, Stiften und Laptop, freundliches natürliches Licht, warme sachliche Atmosphäre, Fokus auf Vorbereitung und Struktur, keine sichtbaren Markennamen, keine erkennbaren Personen oder Schüler, dokumentarischer realistischer Stil, no text, no letters, no typography, no logo, no watermark",
+        "seed": 886508210,
+        "sample": "https://delivery.us4.bfl.ai/durable/2026081817/5e1f69ea-538b-4d66-962e-9be995966f07/df/41219010069880/1006988080d941ce9866ec5c511db5a2/sample.jpeg?se=2026-08-18T17%3A43%3A32Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=wUtnAxUgqsYVF0Ocp14Wjt4EKFo1TycTc5Wlh6OkjWE%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "1a1db397-f325-4dbd-b1ff-0460e2345a8f",
+    "polling_url": "https://api.us4.bfl.ai/v1/get_result?id=1a1db397-f325-4dbd-b1ff-0460e2345a8f",
+    "cost": 1.5,
+    "input_mp": 0,
+    "output_mp": 1.39
+  }
+}
