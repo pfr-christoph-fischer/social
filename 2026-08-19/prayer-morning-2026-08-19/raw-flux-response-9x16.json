@@ -1,0 +1,52 @@
+{
+  "delivery_url": "https://delivery.eu2.bfl.ai/durable/2026081817/5e1f69ea-538b-4d66-962e-9be995966f07/f4/130737246802fb/246802fb4ea940f2adc49f54a5005a9a/sample.jpeg?se=2026-08-18T17%3A22%3A11Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=1%2BQe1PfHWMZIqj%2BWEPdOMD9hIKQp8XmkFmQ9MJq0qR8%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "2bb76e85-5fe5-40a7-b9f9-685459633b1b",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "2bb76e85-5fe5-40a7-b9f9-685459633b1b",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "2bb76e85-5fe5-40a7-b9f9-685459633b1b",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "2bb76e85-5fe5-40a7-b9f9-685459633b1b",
+      "status": "Ready",
+      "result": {
+        "start_time": 1787073129.4123263,
+        "prompt": "Quiet early morning scene, soft natural light through an open window, simple wooden table with a plain cup, subtle view of dry summer grass and low water shoreline outside, calm documentary realism, gentle contrast, hopeful atmosphere, no people facing camera, no typography, no text, no letters, no typography, no logo, no watermark",
+        "seed": 3103877031,
+        "sample": "https://delivery.eu2.bfl.ai/durable/2026081817/5e1f69ea-538b-4d66-962e-9be995966f07/f4/130737246802fb/246802fb4ea940f2adc49f54a5005a9a/sample.jpeg?se=2026-08-18T17%3A22%3A11Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=1%2BQe1PfHWMZIqj%2BWEPdOMD9hIKQp8XmkFmQ9MJq0qR8%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "2bb76e85-5fe5-40a7-b9f9-685459633b1b",
+    "polling_url": "https://api.eu2.bfl.ai/v1/get_result?id=2bb76e85-5fe5-40a7-b9f9-685459633b1b",
+    "cost": 1.5,
+    "input_mp": 0,
+    "output_mp": 1.98
+  }
+}

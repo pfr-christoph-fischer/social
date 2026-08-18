@@ -1,0 +1,36 @@
+{
+  "delivery_url": "https://delivery.us4.bfl.ai/durable/2026081817/5e1f69ea-538b-4d66-962e-9be995966f07/d4/121554391b76ce/391b76ced8d94cc4825140089b739706/sample.jpeg?se=2026-08-18T17%3A22%3A01Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=HVu/WC9N%2BR37Ck23HNtt1CiwUTC3F6jTJmZcbAQB2c0%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "46331788-1832-473a-b492-d64b322b0775",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "46331788-1832-473a-b492-d64b322b0775",
+      "status": "Ready",
+      "result": {
+        "start_time": 1787073120.2093294,
+        "prompt": "Quiet early morning scene, soft natural light through an open window, simple wooden table with a plain cup, subtle view of dry summer grass and low water shoreline outside, calm documentary realism, gentle contrast, hopeful atmosphere, no people facing camera, no typography, no text, no letters, no typography, no logo, no watermark",
+        "seed": 1698670089,
+        "sample": "https://delivery.us4.bfl.ai/durable/2026081817/5e1f69ea-538b-4d66-962e-9be995966f07/d4/121554391b76ce/391b76ced8d94cc4825140089b739706/sample.jpeg?se=2026-08-18T17%3A22%3A01Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=HVu/WC9N%2BR37Ck23HNtt1CiwUTC3F6jTJmZcbAQB2c0%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "46331788-1832-473a-b492-d64b322b0775",
+    "polling_url": "https://api.us4.bfl.ai/v1/get_result?id=46331788-1832-473a-b492-d64b322b0775",
+    "cost": 1.4000000000000001,
+    "input_mp": 0,
+    "output_mp": 0.72
+  }
+}

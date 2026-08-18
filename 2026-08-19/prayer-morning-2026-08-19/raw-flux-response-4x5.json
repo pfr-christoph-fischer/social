@@ -1,0 +1,44 @@
+{
+  "delivery_url": "https://delivery.us2.bfl.ai/durable/2026081817/5e1f69ea-538b-4d66-962e-9be995966f07/5f/126670e74450f5/e74450f59298471ab292d3db0c0901fb/sample.jpeg?se=2026-08-18T17%3A22%3A06Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=a%2BHyCO5WgQMlc/kBb1Q48f3AOe14qg/3fjT03Dwy4os%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "73f41225-d488-4ed4-a6a6-f9c10aeb3f55",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "73f41225-d488-4ed4-a6a6-f9c10aeb3f55",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "73f41225-d488-4ed4-a6a6-f9c10aeb3f55",
+      "status": "Ready",
+      "result": {
+        "start_time": 1787073125.138236,
+        "prompt": "Quiet early morning scene, soft natural light through an open window, simple wooden table with a plain cup, subtle view of dry summer grass and low water shoreline outside, calm documentary realism, gentle contrast, hopeful atmosphere, no people facing camera, no typography, no text, no letters, no typography, no logo, no watermark",
+        "seed": 3663756921,
+        "sample": "https://delivery.us2.bfl.ai/durable/2026081817/5e1f69ea-538b-4d66-962e-9be995966f07/5f/126670e74450f5/e74450f59298471ab292d3db0c0901fb/sample.jpeg?se=2026-08-18T17%3A22%3A06Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=a%2BHyCO5WgQMlc/kBb1Q48f3AOe14qg/3fjT03Dwy4os%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "73f41225-d488-4ed4-a6a6-f9c10aeb3f55",
+    "polling_url": "https://api.us2.bfl.ai/v1/get_result?id=73f41225-d488-4ed4-a6a6-f9c10aeb3f55",
+    "cost": 1.5,
+    "input_mp": 0,
+    "output_mp": 1.39
+  }
+}
