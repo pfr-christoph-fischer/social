@@ -1,6 +1,6 @@
 {
   "id": "prayer-morning-2026-08-19",
-  "status": "in Arbeit",
+  "status": "freigegeben",
   "needs_input": false,
   "source": {
     "calendar_post_id": "prayer-morning-2026-08-19",
@@ -21,31 +21,31 @@
   },
   "platforms": {
     "facebook": {
-      "headline": "Morgengebet für den 19. August 2026",
-      "text": "**Morgengebet**\n\nGott,\ndieser Tag liegt vor uns.\nNoch ist vieles still.\nUnd doch schreit die Welt schon in diesen Morgen hinein.\n\nWir denken an die Menschen in der Ukraine,\ndie selbst im Sommer zwischen Alltag und Bombenalarm leben.\nWir denken an Familien, die nicht wissen,\nob die Nacht wirklich vorbei ist.\n\nWir denken an Menschen an vielen Orten,\nderen Häuser, Wälder und Lebensgrundlagen von Waldbränden bedroht sind.\nAn alle, die fliehen müssen,\nund an die, die löschen, retten und ausharren.\n\nWir denken auch an Menschen an vielen Orten,\ndie unter Trockenheit und niedrigen Wasserständen leiden.\nAn Felder, Tiere und an alle,\ndie mit Wasser verantwortlich umgehen müssen.\n\nSei den Leidenden nahe.\nStärke die, die helfen.\nGib Verantwortlichen Klarheit.\nUnd uns: offene Augen, ruhige Herzen und den Mut,\nheute selbst friedlich, aufmerksam und großzügig zu handeln.\n\nDeine Zukunft kommt uns entgegen.\nDarum gehen wir nicht blind,\nsondern hoffend in diesen Tag.\nAmen."
+      "text": "**Morgengebet**\n\nGott,\ndieser Tag liegt vor uns.\nNoch ist vieles still.\nUnd doch schreit die Welt schon in diesen Morgen hinein.\n\nWir denken an die Menschen in der Ukraine,\ndie selbst im Sommer zwischen Alltag und Bombenalarm leben.\nWir denken an Familien, die nicht wissen,\nob die Nacht wirklich vorbei ist.\n\nWir denken an Menschen an vielen Orten,\nderen Häuser, Wälder und Lebensgrundlagen von Waldbränden bedroht sind.\nAn alle, die fliehen müssen,\nund an die, die löschen, retten und ausharren.\n\nWir denken auch an Menschen an vielen Orten,\ndie unter Trockenheit und niedrigen Wasserständen leiden.\nAn Felder, Tiere und an alle,\ndie mit Wasser verantwortlich umgehen müssen.\n\nSei den Leidenden nahe.\nStärke die, die helfen.\nGib Verantwortlichen Klarheit.\nUnd uns: offene Augen, ruhige Herzen und den Mut,\nheute selbst friedlich, aufmerksam und großzügig zu handeln.\n\nDeine Zukunft kommt uns entgegen.\nDarum gehen wir nicht blind,\nsondern hoffend in diesen Tag.\nAmen.",
+      "headline": "Morgengebet für den 19. August 2026"
     },
     "instagram": {
       "caption": "Morgengebet.\n\nGott,\nwir beginnen diesen Tag nicht blind.\nWir denken an Menschen in der Ukraine, die mit Angriffen und Bombenalarm leben.\nWir denken an Menschen an vielen Orten, die von Waldbränden bedroht sind.\nWir denken an die Trockenheit an vielen Orten und an alle, die Verantwortung tragen.\n\nSei den Leidenden nahe.\nStärke Helfende.\nGib uns Mut zu kleinen Schritten des Friedens heute.\n\nAmen.",
       "carousel": [
         {
-          "text": "Gott,\nwir beginnen diesen Tag vor dir.",
-          "type": "text"
+          "type": "text",
+          "text": "Gott,\nwir beginnen diesen Tag vor dir."
         },
         {
-          "text": "Wir denken an Menschen in der Ukraine,\ndie mit Angriffen und Bombenalarm leben.",
-          "type": "text"
+          "type": "text",
+          "text": "Wir denken an Menschen in der Ukraine,\ndie mit Angriffen und Bombenalarm leben."
         },
         {
-          "text": "Wir denken an Menschen an vielen Orten,\ndie von Waldbränden bedroht sind.",
-          "type": "text"
+          "type": "text",
+          "text": "Wir denken an Menschen an vielen Orten,\ndie von Waldbränden bedroht sind."
         },
         {
-          "text": "Wir denken an die Trockenheit an vielen Orten,\nan niedrige Wasserstände und trockene Böden.",
-          "type": "text"
+          "type": "text",
+          "text": "Wir denken an die Trockenheit an vielen Orten,\nan niedrige Wasserstände und trockene Böden."
         },
         {
-          "text": "Stärke die, die helfen.\nGib uns Mut zu kleinen Schritten des Friedens heute.",
-          "type": "text"
+          "type": "text",
+          "text": "Stärke die, die helfen.\nGib uns Mut zu kleinen Schritten des Friedens heute."
         }
       ]
     },
@@ -102,11 +102,8 @@
     "alt_text": "Ein heller Morgenraum mit offenem Fenster. Auf einem schlichten Tisch steht eine Tasse. Draußen sind trockenes Gras und ein Ufer mit wenig Wasser zu sehen. Die Stimmung ist ruhig und hoffnungsvoll."
   },
   "qa": {
-    "approved": false,
-    "warnings": [
-      "Alt text must be completed before approval",
-      "Aktuelle Bezüge vor Veröffentlichung am Morgen des 19.08.2026 nochmals gegen tagesschau.de und SWR Aktuell Baden-Württemberg prüfen, da die Nachrichtenlage sich kurzfristig ändern kann."
-    ]
+    "approved": true,
+    "warnings": []
   },
   "metadata": {
     "model": "gpt-5.4-2026-03-05",
