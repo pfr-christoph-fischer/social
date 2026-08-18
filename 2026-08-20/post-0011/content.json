@@ -28,31 +28,31 @@
   },
   "platforms": {
     "facebook": {
-      "text": "Gute Vorbereitung macht für Unterricht einen echten Unterschied. Und ich merke immer wieder: Mit guten Tools arbeitet es sich besser.\n\nDeshalb baue ich mir manche Werkzeuge für die Unterrichtsplanung gern selbst – nicht aus Technikliebe, sondern weil gute Vorbereitung Freiraum schafft.\n\nMich interessiert heute eure Erfahrung:\nWie müsste für euch das perfekte Tool zur Unterrichtsplanung aussehen? Was müsste es können?\n\nZum Beispiel:\n- Materialien sammeln und ordnen\n- Stunden strukturieren\n- Differenzierung mitdenken\n- spontan anpassen\n- Zeit sparen\n- im Team zusammenarbeiten\n- KI sinnvoll nutzen\n- Datenschutz sauber lösen\n\nWas wäre euch am wichtigsten?",
-      "headline": "Wie müsste euer perfektes Planungstool aussehen?"
+      "headline": "Wie müsste euer perfektes Planungstool aussehen?",
+      "text": "Gute Vorbereitung macht für Unterricht einen echten Unterschied. Und ich merke immer wieder: Mit guten Tools arbeitet es sich besser.\n\nDeshalb baue ich mir manche Werkzeuge für die Unterrichtsplanung gern selbst – nicht aus Technikliebe, sondern weil gute Vorbereitung Freiraum schafft.\n\nMich interessiert heute eure Erfahrung:\nWie müsste für euch das perfekte Tool zur Unterrichtsplanung aussehen? Was müsste es können?\n\nZum Beispiel:\n- Materialien sammeln und ordnen\n- Stunden strukturieren\n- Differenzierung mitdenken\n- spontan anpassen\n- Zeit sparen\n- im Team zusammenarbeiten\n- KI sinnvoll nutzen\n- Datenschutz sauber lösen\n\nWas wäre euch am wichtigsten?"
     },
     "instagram": {
       "caption": "Ich merke immer wieder: Gute Vorbereitung ist wichtig. Und mit guten Tools arbeitet es sich oft besser.\n\nDarum baue ich mir manche Werkzeuge für die Unterrichtsplanung gern selbst.\n\nJetzt interessiert mich eure Perspektive:\nWie müsste für euch das perfekte Tool zur Unterrichtsplanung aussehen? Was müsste es können?\n\nWoran denkt ihr zuerst?\nMaterialien, Struktur, Differenzierung, Zeitersparnis, Zusammenarbeit, KI, Datenschutz?\n\nSchreibt es gern in die Kommentare.",
       "carousel": [
         {
-          "type": "text",
-          "text": "Gute Vorbereitung braucht gute Werkzeuge."
+          "text": "Gute Vorbereitung braucht gute Werkzeuge.",
+          "type": "text"
         },
         {
-          "type": "text",
-          "text": "Ich baue mir manche Unterrichtstools gern selbst."
+          "text": "Ich baue mir manche Unterrichtstools gern selbst.",
+          "type": "text"
         },
         {
-          "type": "text",
-          "text": "Nicht, weil Technik Selbstzweck ist – sondern weil gute Tools Freiraum für guten Unterricht schaffen."
+          "text": "Nicht, weil Technik Selbstzweck ist – sondern weil gute Tools Freiraum für guten Unterricht schaffen.",
+          "type": "text"
         },
         {
-          "type": "text",
-          "text": "Wie müsste für euch das perfekte Tool zur Unterrichtsplanung aussehen?"
+          "text": "Wie müsste für euch das perfekte Tool zur Unterrichtsplanung aussehen?",
+          "type": "text"
         },
         {
-          "type": "text",
-          "text": "Was müsste es können? Materialien, Struktur, Differenzierung, Zusammenarbeit, KI oder Datenschutz?"
+          "text": "Was müsste es können? Materialien, Struktur, Differenzierung, Zusammenarbeit, KI oder Datenschutz?",
+          "type": "text"
         }
       ]
     },
@@ -103,12 +103,12 @@
     "alt_text": "Ein aufgeräumter Schreibtisch mit Laptop, Notizen und Unterrichtsmaterialien. Die Szene vermittelt konzentrierte Vorbereitung und gute Organisation für den Unterricht."
   },
   "qa": {
+    "approved": false,
     "warnings": [
       "Review platform wording before publication",
       "Ensure no unintended product-promotion framing",
       "Check final visuals for absence of identifiable persons or brand names"
-    ],
-    "approved": false
+    ]
   },
   "metadata": {
     "model": "gpt-5",
