@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-08-18",
+    "contentDate": "2026-08-18",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-08-18T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Gott der HERR hat mir das Ohr geöffnet. Und ich bin nicht ungehorsam und weiche nicht zurück.",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Gott der HERR hat mir das Ohr geöffnet. Und ich bin nicht ungehorsam und weiche nicht zurück."
+    ],
+    "id": "8a9c0543-ab7b-4486-b313-87a116730e6e",
+    "attemptCount": 1,
+    "remoteId": "18045168683661696",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:44:24.391Z",
+    "updatedAt": "2026-08-18T05:00:27.093Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-08-18",
+    "contentDate": "2026-08-18",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-08-18T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Gott der HERR hat mir das Ohr geöffnet. Und ich bin nicht ungehorsam und weiche nicht zurück.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Gott der HERR hat mir das Ohr geöffnet. Und ich bin nicht ungehorsam und weiche nicht zurück."
+    ],
+    "id": "50f8b15c-9c72-40fd-a2a9-47815cc39ae0",
+    "attemptCount": 1,
+    "remoteId": "117114747587763544",
+    "remoteUrl": "https://kirche.social/@christoph/117114747587763544",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:44:24.399Z",
+    "updatedAt": "2026-08-18T05:00:29.632Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
