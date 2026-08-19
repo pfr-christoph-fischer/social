@@ -1,6 +1,6 @@
 {
   "id": "prayer-evening-2026-08-19",
-  "status": "in Arbeit",
+  "status": "zur Prüfung",
   "needs_input": false,
   "source": {
     "calendar_post_id": "prayer-evening-2026-08-19",
@@ -26,31 +26,31 @@
   },
   "platforms": {
     "facebook": {
-      "headline": "Abendgebet: Was heute unfertig bleibt, darf in Gottes Hand ruhen",
-      "text": "Abend.\nDer Tag muss nicht fertig werden, damit wir ihn loslassen dürfen.\n\nGott,\nwir bringen dir, was heute gut war.\nUnd auch das, was schwer war.\nDie hastigen Sätze.\nDie Müdigkeit.\nDas Unerledigte.\n\nWir denken an Menschen in Baden-Württemberg, die unter Hitze, Trockenheit und niedrigem Wasser leiden.\nAn Felder, Flüsse, Tiere und alle, die sich sorgen.\n\nWir denken an die Menschen in British Columbia in Westkanada.\nAn Familien, die wegen der Waldbrände fliehen mussten.\nAn alle, deren Häuser beschädigt wurden und die noch nicht wissen, wie es weitergeht.\n\nSei auch bei denen,\ndie heute Nacht wachen,\npflegen,\nlöschen,\ntrösten,\narbeiten\noder Angst haben.\n\nGib uns Frieden für diese Nacht.\nUnd halte die Hoffnung in uns wach,\ndass deine Zukunft weiter reicht als dieser Tag.\nAmen."
+      "text": "Abend.\nDer Tag muss nicht fertig werden, damit wir ihn loslassen dürfen.\n\nGott,\nwir bringen dir, was heute gut war.\nUnd auch das, was schwer war.\nDie hastigen Sätze.\nDie Müdigkeit.\nDas Unerledigte.\n\nWir denken an Menschen in Baden-Württemberg, die unter Hitze, Trockenheit und niedrigem Wasser leiden.\nAn Felder, Flüsse, Tiere und alle, die sich sorgen.\n\nWir denken an die Menschen in British Columbia in Westkanada.\nAn Familien, die wegen der Waldbrände fliehen mussten.\nAn alle, deren Häuser beschädigt wurden und die noch nicht wissen, wie es weitergeht.\n\nSei auch bei denen,\ndie heute Nacht wachen,\npflegen,\nlöschen,\ntrösten,\narbeiten\noder Angst haben.\n\nGib uns Frieden für diese Nacht.\nUnd halte die Hoffnung in uns wach,\ndass deine Zukunft weiter reicht als dieser Tag.\nAmen.",
+      "headline": "Abendgebet: Was heute unfertig bleibt, darf in Gottes Hand ruhen"
     },
     "instagram": {
       "caption": "Der Tag muss nicht fertig werden, damit du ihn loslassen darfst.\n\nGott,\nwas heute gut war, danken wir dir.\nWas wehgetan hat, legen wir dir hin.\n\nWir bitten für Menschen in Baden-Württemberg, die unter Hitze, Trockenheit und niedrigem Wasser leiden.\nUnd für die Familien in British Columbia, die nach den Waldbränden nicht einfach nach Hause zurückkönnen.\n\nSchenk Frieden für diese Nacht.\nUnd halte die Hoffnung in uns wach.\nAmen.",
       "carousel": [
         {
-          "text": "Der Tag muss nicht fertig werden, damit du ihn loslassen darfst.",
-          "type": "text"
+          "type": "text",
+          "text": "Der Tag muss nicht fertig werden, damit du ihn loslassen darfst."
         },
         {
-          "text": "Gott, wir bringen dir das Gute dieses Tages. Und das Schwere. Auch das, was offen blieb.",
-          "type": "text"
+          "type": "text",
+          "text": "Gott, wir bringen dir das Gute dieses Tages. Und das Schwere. Auch das, was offen blieb."
         },
         {
-          "text": "Wir bitten für Menschen in Baden-Württemberg. Für alle, die unter Hitze, Trockenheit und niedrigem Wasser leiden.",
-          "type": "text"
+          "type": "text",
+          "text": "Wir bitten für Menschen in Baden-Württemberg. Für alle, die unter Hitze, Trockenheit und niedrigem Wasser leiden."
         },
         {
-          "text": "Wir bitten für Familien in British Columbia. Für Menschen, die wegen der Waldbrände fliehen mussten und nicht wissen, wie es weitergeht.",
-          "type": "text"
+          "type": "text",
+          "text": "Wir bitten für Familien in British Columbia. Für Menschen, die wegen der Waldbrände fliehen mussten und nicht wissen, wie es weitergeht."
         },
         {
-          "text": "Schenk Frieden für diese Nacht. Und halte die Hoffnung in uns wach. Amen.",
-          "type": "text"
+          "type": "text",
+          "text": "Schenk Frieden für diese Nacht. Und halte die Hoffnung in uns wach. Amen."
         }
       ]
     },
@@ -106,10 +106,7 @@
   "qa": {
     "approved": false,
     "warnings": [
-      "Alt text must be completed before approval",
-      "Aktuelle Bezüge vor Freigabe nochmals gegen Tagesschau und SWR am Veröffentlichungsvortag querprüfen.",
-      "Alt text redaktionell final prüfen.",
-      "Gebet erwähnt zwei konkrete aktuelle Situationen; Formulierungen bei neuer Nachrichtenlage ggf. anpassen."
+      "Field \"bluesky.text\" is 340 characters long and exceeds the plausibility limit of 300."
     ]
   },
   "metadata": {
