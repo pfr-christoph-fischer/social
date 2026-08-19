@@ -27,5 +27,66 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "prayer-evening-2026-08-19",
+    "contentDate": "2026-08-19",
+    "platform": "instagram",
+    "format": "default",
+    "scheduledAt": "2026-08-19T18:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Der Tag muss nicht fertig werden, damit du ihn loslassen darfst.\n\nGott,\nwas heute gut war, danken wir dir.\nWas wehgetan hat, legen wir dir hin.\nAuch das, was offen geblieben ist.\n\nWir bitten für Menschen, die unter den Folgen des Klimawandels leiden.\nUnd für die Menschen, die nach den Waldbränden ihre Häuser verlassen mussten oder noch immer nicht zurückkönnen.\n\nSchenk Frieden für diese Nacht.\nUnd halte die Hoffnung in uns wach,\ndass deine Zukunft nicht erst beginnt, wenn alles geordnet ist.\nAmen.",
+    "assets": [
+      "render-instagram-feed-01.jpg",
+      "render-instagram-feed-02.jpg",
+      "render-instagram-feed-03.jpg",
+      "render-instagram-feed-04.jpg",
+      "render-instagram-feed-05.jpg"
+    ],
+    "altTexts": [
+      "Ein schlichter Holztisch steht an einem offenen Fenster im warmen Abendlicht. Auf dem Tisch liegen ein geschlossenes Notizbuch und eine Brille. Draußen ist eine ruhige sommerliche Dämmerung zu sehen. Die Szene wirkt still, leicht und tröstlich."
+    ],
+    "id": "40de72a9-bf22-472e-9692-8d66b890b0e1",
+    "attemptCount": 1,
+    "remoteId": "17947435935257527",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-19T11:40:05.998Z",
+    "updatedAt": "2026-08-19T18:00:57.832Z",
+    "responseMetadata": {
+      "mediaCount": 5,
+      "mediaType": "CAROUSEL",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "prayer-evening-2026-08-19",
+    "contentDate": "2026-08-19",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-08-19T18:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Abendgebet\n\nGott,\nwir legen dir diesen Tag hin.\nDas Gute. Das Schwere. Das Unerledigte.\n\nWir bitten für Menschen, die unter den Folgen des Klimawandels leiden.\nUnd für Menschen, die nach den Waldbränden ihre Häuser verlassen mussten oder noch immer nicht zurückkönnen.\n\nSei bei allen, die in dieser Nacht wachen, helfen oder Angst haben.\nSchenk Frieden. \nUnd halte unsere Hoffnung wach, \ndass deine Zukunft nicht erst beginnt, wenn alles geordnet ist.\nAmen.",
+    "assets": [
+      "render-facebook-mastodon-01.png"
+    ],
+    "altTexts": [
+      "Ein schlichter Holztisch steht an einem offenen Fenster im warmen Abendlicht. Auf dem Tisch liegen ein geschlossenes Notizbuch und eine Brille. Draußen ist eine ruhige sommerliche Dämmerung zu sehen. Die Szene wirkt still, leicht und tröstlich."
+    ],
+    "id": "63a40a24-3fec-4c16-83e0-17a5da4d0c5c",
+    "attemptCount": 1,
+    "remoteId": "117123478940521783",
+    "remoteUrl": "https://kirche.social/@christoph/117123478940521783",
+    "lastError": null,
+    "createdAt": "2026-08-19T11:40:06.112Z",
+    "updatedAt": "2026-08-19T18:00:59.494Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
