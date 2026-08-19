@@ -89,5 +89,104 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "post-0010",
+    "contentDate": "2026-08-19",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-08-19T07:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Warum läuten vor dem Gottesdienst die Glocken? Glocken sind mehr als ein Signal. Sie rufen Menschen zusammen, unterbrechen den Alltag und erinnern: Jetzt ist Zeit für Gottesdienst. Was löst Glockenklang bei dir aus?",
+    "assets": [
+      "render-instagram-feed-01.jpg",
+      "render-instagram-feed-02.jpg",
+      "render-instagram-feed-03.jpg",
+      "render-instagram-feed-04.jpg",
+      "render-instagram-feed-05.jpg",
+      "render-instagram-feed-06.jpg"
+    ],
+    "altTexts": [
+      "Ein Kirchturm und eine Glocke in ruhiger Atmosphäre kurz vor einem Gottesdienst. Die Bilder vermitteln den Übergang vom Alltag zu einem Moment des Ankommens und der Sammlung."
+    ],
+    "id": "b7b7cac6-ba64-42ae-b399-41d385fb3e21",
+    "attemptCount": 1,
+    "remoteId": "18204900724370608",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-17T08:28:12.390Z",
+    "updatedAt": "2026-08-19T07:01:47.165Z",
+    "responseMetadata": {
+      "mediaCount": 6,
+      "mediaType": "CAROUSEL",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "post-0010",
+    "contentDate": "2026-08-19",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-08-19T07:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Warum läuten vor dem Gottesdienst die Glocken? Glocken sind mehr als ein Signal. Sie rufen Menschen zusammen, unterbrechen den Alltag und erinnern: Jetzt ist Zeit für Gottesdienst. Was löst Glockenklang bei dir aus?",
+    "assets": [
+      "render-instagram-feed-01.png",
+      "render-instagram-feed-02.png",
+      "render-instagram-feed-03.png",
+      "render-instagram-feed-04.png"
+    ],
+    "altTexts": [
+      "Ein Kirchturm und eine Glocke in ruhiger Atmosphäre kurz vor einem Gottesdienst. Die Bilder vermitteln den Übergang vom Alltag zu einem Moment des Ankommens und der Sammlung."
+    ],
+    "id": "e0f63282-d45a-4d3d-a558-f69b111259f6",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3mtg5x6ewm42k",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3mtg5x6ewm42k",
+    "lastError": null,
+    "createdAt": "2026-08-17T08:28:12.430Z",
+    "updatedAt": "2026-08-19T07:01:51.303Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 4
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "post-0010",
+    "contentDate": "2026-08-19",
+    "platform": "linkedin",
+    "format": "default",
+    "scheduledAt": "2026-08-19T07:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Warum läuten vor dem Gottesdienst die Glocken?\n\nDer Klang soll nicht nur informieren. Er lädt ein.\nEr ruft Menschen zusammen.\nEr unterbricht den Alltag.\nEr erinnert: Jetzt ist Zeit für Gottesdienst.\n\nFrüher halfen Glocken ganz praktisch bei der Orientierung. Heute tun sie noch immer mehr als das. Sie schaffen einen Moment zum Ankommen.\n\nGesprächsfrage: Was löst Glockenklang bei dir aus?\n\n#GlaubenVerstehen #Mittwochsserie #Glocken #Gottesdienst #Evangelisch",
+    "assets": [
+      "render-instagram-feed-01.png",
+      "render-instagram-feed-02.png",
+      "render-instagram-feed-03.png",
+      "render-instagram-feed-04.png",
+      "render-instagram-feed-05.png",
+      "render-instagram-feed-06.png"
+    ],
+    "altTexts": [
+      "Ein Kirchturm und eine Glocke in ruhiger Atmosphäre kurz vor einem Gottesdienst. Die Bilder vermitteln den Übergang vom Alltag zu einem Moment des Ankommens und der Sammlung."
+    ],
+    "id": "cd66850b-4a81-4082-9c21-497aa2f08606",
+    "attemptCount": 1,
+    "remoteId": "urn:li:ugcPost:7495736817208512512",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-17T08:28:12.514Z",
+    "updatedAt": "2026-08-19T07:02:01.624Z",
+    "responseMetadata": {
+      "mediaCount": 6,
+      "mediaType": "MULTI_IMAGE",
+      "status": 201
+    },
+    "retryHistory": []
   }
 ]
