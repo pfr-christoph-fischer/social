@@ -27,5 +27,66 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "prayer-morning-2026-08-19",
+    "contentDate": "2026-08-19",
+    "platform": "instagram",
+    "format": "default",
+    "scheduledAt": "2026-08-19T05:15:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Morgengebet.\n\nGott,\nwir beginnen diesen Tag nicht blind.\nWir denken an Menschen in der Ukraine, die mit Angriffen und Bombenalarm leben.\nWir denken an Menschen an vielen Orten, die von Waldbränden bedroht sind.\nWir denken an die Trockenheit an vielen Orten und an alle, die Verantwortung tragen.\n\nSei den Leidenden nahe.\nStärke Helfende.\nGib uns Mut zu kleinen Schritten des Friedens heute.\n\nAmen.",
+    "assets": [
+      "render-instagram-feed-01.jpg",
+      "render-instagram-feed-02.jpg",
+      "render-instagram-feed-03.jpg",
+      "render-instagram-feed-04.jpg",
+      "render-instagram-feed-05.jpg"
+    ],
+    "altTexts": [
+      "Ein heller Morgenraum mit offenem Fenster. Auf einem schlichten Tisch steht eine Tasse. Draußen sind trockenes Gras und ein Ufer mit wenig Wasser zu sehen. Die Stimmung ist ruhig und hoffnungsvoll."
+    ],
+    "id": "ead929dd-958e-42d7-8103-6aeff8548c0c",
+    "attemptCount": 1,
+    "remoteId": "18091957655562246",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-18T17:12:44.963Z",
+    "updatedAt": "2026-08-19T05:15:48.869Z",
+    "responseMetadata": {
+      "mediaCount": 5,
+      "mediaType": "CAROUSEL",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "prayer-morning-2026-08-19",
+    "contentDate": "2026-08-19",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-08-19T05:15:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Morgengebet am Morgen:\n\nGott,\nwir denken an Menschen in der Ukraine, die mit Angriffen und Bombenalarm leben. An Menschen an vielen Orten, die von Waldbränden bedroht sind. Und an die Trockenheit an vielen Orten, an niedrige Wasserstände und trockene Böden.\n\nSei den Leidenden nahe. Stärke Helfende. Gib uns Mut, heute nicht wegzusehen.\nAmen.",
+    "assets": [
+      "render-facebook-mastodon-01.png"
+    ],
+    "altTexts": [
+      "Ein heller Morgenraum mit offenem Fenster. Auf einem schlichten Tisch steht eine Tasse. Draußen sind trockenes Gras und ein Ufer mit wenig Wasser zu sehen. Die Stimmung ist ruhig und hoffnungsvoll."
+    ],
+    "id": "894e5138-2e74-46a7-bf88-0613d6b9df81",
+    "attemptCount": 1,
+    "remoteId": "117120470262865962",
+    "remoteUrl": "https://kirche.social/@christoph/117120470262865962",
+    "lastError": null,
+    "createdAt": "2026-08-18T17:12:45.010Z",
+    "updatedAt": "2026-08-19T05:15:50.764Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
