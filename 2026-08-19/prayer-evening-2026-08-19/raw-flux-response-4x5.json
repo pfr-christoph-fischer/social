@@ -1,0 +1,52 @@
+{
+  "delivery_url": "https://delivery.eu2.bfl.ai/durable/2026081910/5e1f69ea-538b-4d66-962e-9be995966f07/4c/275189f02269cf/f02269cf2031442ba57ef016aece7cd1/sample.jpeg?se=2026-08-19T10%3A37%3A55Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=rT/YELsRSscPEWvsnB06v%2B1RiXKseueh0JvarHIJMz8%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "2c7e5ca7-c023-4d48-904a-5735bde9e1c6",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "2c7e5ca7-c023-4d48-904a-5735bde9e1c6",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "2c7e5ca7-c023-4d48-904a-5735bde9e1c6",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "2c7e5ca7-c023-4d48-904a-5735bde9e1c6",
+      "status": "Ready",
+      "result": {
+        "start_time": 1787135274.0394187,
+        "prompt": "Sanfte Dämmerung draußen, leicht trockene sommerliche Landschaft in weicher Unschärfe, stille hoffnungsvolle Atmosphäre, natürliche Farben, weiches Licht, viel negativer Raum, redaktionelle Social-Media-Ästhetik, keine Menschen im Vordergrund, no text, no letters, no typography, no logo, no watermark",
+        "seed": 3446499791,
+        "sample": "https://delivery.eu2.bfl.ai/durable/2026081910/5e1f69ea-538b-4d66-962e-9be995966f07/4c/275189f02269cf/f02269cf2031442ba57ef016aece7cd1/sample.jpeg?se=2026-08-19T10%3A37%3A55Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=rT/YELsRSscPEWvsnB06v%2B1RiXKseueh0JvarHIJMz8%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "2c7e5ca7-c023-4d48-904a-5735bde9e1c6",
+    "polling_url": "https://api.eu2.bfl.ai/v1/get_result?id=2c7e5ca7-c023-4d48-904a-5735bde9e1c6",
+    "cost": 1.5,
+    "input_mp": 0,
+    "output_mp": 1.39
+  }
+}

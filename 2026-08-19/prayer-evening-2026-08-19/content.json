@@ -104,13 +104,17 @@
     "alt_text": "Ein schlichter Holztisch steht an einem offenen Fenster im warmen Abendlicht. Auf dem Tisch liegen ein geschlossenes Notizbuch und eine Brille. Draußen ist eine ruhige sommerliche Dämmerung zu sehen. Die Szene wirkt still, leicht und tröstlich."
   },
   "qa": {
-    "approved": true,
-    "warnings": []
+    "warnings": [],
+    "approved": true
   },
   "metadata": {
     "model": "gpt-5.4-2026-03-05",
     "generated_at": "2026-08-19T09:00:51.158Z",
     "prompt_version": "1.0",
-    "assets": []
+    "assets": [
+      "assets/background-1.91x1.webp",
+      "assets/background-4x5.webp",
+      "assets/background-9x16.webp"
+    ]
   }
 }

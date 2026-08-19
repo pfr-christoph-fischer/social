@@ -1,0 +1,52 @@
+{
+  "delivery_url": "https://delivery.us4.bfl.ai/durable/2026081910/5e1f69ea-538b-4d66-962e-9be995966f07/41/280420130a09b7/130a09b76a0649758a279055a0f6b8c1/sample.jpeg?se=2026-08-19T10%3A38%3A00Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=Y2OeotQoRCQ4HY1lWFoYNx3BDS9OuoKMM%2BfZ0B%2BrDdU%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "16b0ed7d-2363-4b00-a2cd-4b18fbb7276c",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "16b0ed7d-2363-4b00-a2cd-4b18fbb7276c",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "16b0ed7d-2363-4b00-a2cd-4b18fbb7276c",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "16b0ed7d-2363-4b00-a2cd-4b18fbb7276c",
+      "status": "Ready",
+      "result": {
+        "start_time": 1787135278.1665277,
+        "prompt": "Sanfte Dämmerung draußen, leicht trockene sommerliche Landschaft in weicher Unschärfe, stille hoffnungsvolle Atmosphäre, natürliche Farben, weiches Licht, viel negativer Raum, redaktionelle Social-Media-Ästhetik, keine Menschen im Vordergrund, no text, no letters, no typography, no logo, no watermark",
+        "seed": 1426752560,
+        "sample": "https://delivery.us4.bfl.ai/durable/2026081910/5e1f69ea-538b-4d66-962e-9be995966f07/41/280420130a09b7/130a09b76a0649758a279055a0f6b8c1/sample.jpeg?se=2026-08-19T10%3A38%3A00Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=Y2OeotQoRCQ4HY1lWFoYNx3BDS9OuoKMM%2BfZ0B%2BrDdU%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "16b0ed7d-2363-4b00-a2cd-4b18fbb7276c",
+    "polling_url": "https://api.us4.bfl.ai/v1/get_result?id=16b0ed7d-2363-4b00-a2cd-4b18fbb7276c",
+    "cost": 1.5,
+    "input_mp": 0,
+    "output_mp": 1.98
+  }
+}
