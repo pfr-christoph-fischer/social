@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-08-19",
+    "contentDate": "2026-08-19",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-08-19T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Der Tag des HERRN kommt und ist nahe.",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Der Tag des HERRN kommt und ist nahe."
+    ],
+    "id": "20b31765-1660-419a-9df5-20606ee122e7",
+    "attemptCount": 1,
+    "remoteId": "18120338927491680",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:44:26.667Z",
+    "updatedAt": "2026-08-19T05:00:32.711Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-08-19",
+    "contentDate": "2026-08-19",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-08-19T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Der Tag des HERRN kommt und ist nahe.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Der Tag des HERRN kommt und ist nahe."
+    ],
+    "id": "06bd6ec6-2728-4e67-bc34-01234c20a08d",
+    "attemptCount": 1,
+    "remoteId": "117120410232231330",
+    "remoteUrl": "https://kirche.social/@christoph/117120410232231330",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:44:26.669Z",
+    "updatedAt": "2026-08-19T05:00:34.759Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
