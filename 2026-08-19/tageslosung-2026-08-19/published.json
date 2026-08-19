@@ -84,5 +84,91 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-08-19",
+    "contentDate": "2026-08-19",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-08-19T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Der Tag des HERRN kommt und ist nahe.",
+    "assets": [
+      "render-square-01.jpg"
+    ],
+    "altTexts": [
+      "Der Tag des HERRN kommt und ist nahe."
+    ],
+    "id": "b908325f-bb73-4507-aff9-22b97025ccf0",
+    "attemptCount": 1,
+    "remoteId": "18085856459231702",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:44:26.671Z",
+    "updatedAt": "2026-08-19T05:00:42.902Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-08-19",
+    "contentDate": "2026-08-19",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-08-19T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Der Tag des HERRN kommt und ist nahe.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Der Tag des HERRN kommt und ist nahe."
+    ],
+    "id": "9bb1ac83-3659-4c4c-a3fe-b70bd1a860d6",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3mtfx6mozhc2c",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3mtfx6mozhc2c",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:44:26.673Z",
+    "updatedAt": "2026-08-19T05:00:45.046Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-08-19",
+    "contentDate": "2026-08-19",
+    "platform": "linkedin",
+    "format": "default",
+    "scheduledAt": "2026-08-19T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Der Tag des HERRN kommt und ist nahe.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Der Tag des HERRN kommt und ist nahe."
+    ],
+    "id": "866d110e-89d9-4cb5-a714-5bbda6c7b40b",
+    "attemptCount": 1,
+    "remoteId": "urn:li:share:7495706306842955776",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:44:26.675Z",
+    "updatedAt": "2026-08-19T05:00:47.441Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 201
+    },
+    "retryHistory": []
   }
 ]
