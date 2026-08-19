@@ -1,0 +1,465 @@
+{
+  "id": "resp_006d7cda51045c1e006a85709ef0a8819d8fde601a6771997a",
+  "object": "response",
+  "created_at": 1787130015,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1787130050,
+  "error": null,
+  "frequency_penalty": 0,
+  "incomplete_details": null,
+  "instructions": "You are part of a Protestant social media editorial team. Write in clear, accessible, theologically responsible German without church clichés. Use short sentences and concrete imagery. Never invent events, people, school situations, quotes, or factual details. Do not include copyrighted full song verses. For Reli and community posts, only use current details when they are explicitly provided. Return content that strictly matches the requested JSON schema. Set needs_input to true whenever required facts are missing. Keep qa.approved false. Do not ask for any text inside generated images. When liturgical_context.resolved_weekly_verse is present, use its exact wording for Wochenspruch slots instead of placeholders. Use the web search tool before drafting to verify current situations. For prayer posts, current situations are mandatory: select at least two concrete, relevant situations from reliable current reporting, including tagesschau.de and SWR Aktuell Baden-Württemberg where relevant. Do not invent current events and do not replace concrete situations with generic references to crises.",
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.4-2026-03-05",
+  "moderation": null,
+  "output": [
+    {
+      "id": "ws_006d7cda51045c1e006a8570a01264819d89200535069b1a2c",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "queries": [
+          "site:tagesschau.de 18. August 2026 Nachrichten",
+          "site:swr.de/swraktuell/baden-wuerttemberg 18. August 2026 Baden-Württemberg Nachrichten",
+          "Reuters August 18 2026 world news conflict aid evacuation heatwave"
+        ],
+        "query": "site:tagesschau.de 18. August 2026 Nachrichten"
+      }
+    },
+    {
+      "id": "ws_006d7cda51045c1e006a8570a32460819d9b27233374fa5c29",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "queries": [
+          "site:tagesschau.de 18. August 2026 Gaza Ukraine Sudan wildfire Reuters AP tagesschau",
+          "site:tagesschau.de 18. August 2026 tagesthemen Nachrichten",
+          "August 18 2026 Reuters Gaza aid Ukraine attacks civilians",
+          "August 18 2026 AP News world heatwave evacuation wildfire"
+        ],
+        "query": "site:tagesschau.de 18. August 2026 Gaza Ukraine Sudan wildfire Reuters AP tagesschau"
+      }
+    },
+    {
+      "id": "msg_006d7cda51045c1e006a8570a69d64819d96aa2a71d4cea24a",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\"id\":\"prayer-evening-2026-08-19\",\"status\":\"zur Prüfung\",\"needs_input\":false,\"source\":{\"calendar_post_id\":\"prayer-evening-2026-08-19\",\"date\":\"2026-08-19\",\"rubric\":\"Abendgebet\",\"liturgical_source\":\"\"},\"editorial_core\":{\"title\":\"Abendgebet\",\"main_message\":\"Ein Abendgebet für einen unfertigen Tag. Wir legen Gott hin, was gelungen ist und was offen blieb. Wir bitten für Menschen, die unter der anhaltenden Hitze und Trockenheit in Baden-Württemberg leiden, und für Menschen in Westkanada, die nach den schweren Waldbränden ihre Häuser verlassen mussten oder noch immer nicht zurückkönnen. Gottes Zukunft beginnt nicht erst, wenn alles geordnet ist.\",\"audience\":\"breite Öffentlichkeit\",\"tone\":[\"ruhig\",\"hoffnungsvoll\",\"geborgen\"],\"source_notes\":[\"Aktuelle Lage geprüft: SWR Aktuell Baden-Württemberg berichtet von historischem Wasserdefizit, Rekordhitze und Belastungen durch Trockenheit und Niedrigwasser in Baden-Württemberg.\",\"Aktuelle Lage geprüft: AP meldet nach den Waldbränden in British Columbia zerstörte oder beschädigte Gebäude, weiter geltende Evakuierungen und viele Menschen, die noch nicht nach Hause können.\",\"Zeitlich robust formuliert: keine Annahmen über Ereignisse des Veröffentlichungstages.\",\"Gebetssprache bewusst einfach gehalten; keine Vertröstung, keine Nachrichtenliste.\"]},\"platforms\":{\"facebook\":{\"text\":\"Abend.\\nDer Tag muss nicht fertig werden, damit wir ihn loslassen dürfen.\\n\\nGott,\\nwir bringen dir, was heute gut war.\\nUnd auch das, was schwer war.\\nDie hastigen Sätze.\\nDie Müdigkeit.\\nDas Unerledigte.\\n\\nWir denken an Menschen in Baden-Württemberg, die unter Hitze, Trockenheit und niedrigem Wasser leiden.\\nAn Felder, Flüsse, Tiere und alle, die sich sorgen.\\n\\nWir denken an die Menschen in British Columbia in Westkanada.\\nAn Familien, die wegen der Waldbrände fliehen mussten.\\nAn alle, deren Häuser beschädigt wurden und die noch nicht wissen, wie es weitergeht.\\n\\nSei auch bei denen,\\ndie heute Nacht wachen,\\npflegen,\\nlöschen,\\ntrösten,\\narbeiten\\noder Angst haben.\\n\\nGib uns Frieden für diese Nacht.\\nUnd halte die Hoffnung in uns wach,\\ndass deine Zukunft weiter reicht als dieser Tag.\\nAmen.\",\"headline\":\"Abendgebet: Was heute unfertig bleibt, darf in Gottes Hand ruhen\"},\"instagram\":{\"caption\":\"Der Tag muss nicht fertig werden, damit du ihn loslassen darfst.\\n\\nGott,\\nwas heute gut war, danken wir dir.\\nWas wehgetan hat, legen wir dir hin.\\n\\nWir bitten für Menschen in Baden-Württemberg, die unter Hitze, Trockenheit und niedrigem Wasser leiden.\\nUnd für die Familien in British Columbia, die nach den Waldbränden nicht einfach nach Hause zurückkönnen.\\n\\nSchenk Frieden für diese Nacht.\\nUnd halte die Hoffnung in uns wach.\\nAmen.\",\"carousel\":[{\"type\":\"text\",\"text\":\"Der Tag muss nicht fertig werden, damit du ihn loslassen darfst.\"},{\"type\":\"text\",\"text\":\"Gott, wir bringen dir das Gute dieses Tages. Und das Schwere. Auch das, was offen blieb.\"},{\"type\":\"text\",\"text\":\"Wir bitten für Menschen in Baden-Württemberg. Für alle, die unter Hitze, Trockenheit und niedrigem Wasser leiden.\"},{\"type\":\"text\",\"text\":\"Wir bitten für Familien in British Columbia. Für Menschen, die wegen der Waldbrände fliehen mussten und nicht wissen, wie es weitergeht.\"},{\"type\":\"text\",\"text\":\"Schenk Frieden für diese Nacht. Und halte die Hoffnung in uns wach. Amen.\"}]},\"mastodon\":{\"text\":\"Abendgebet\\n\\nGott,\\nwir legen dir diesen Tag hin.\\nDas Gute. Das Schwere. Das Unerledigte.\\n\\nWir bitten für Menschen in Baden-Württemberg, die unter Hitze, Trockenheit und niedrigem Wasser leiden.\\nUnd für Familien in British Columbia, die nach den Waldbränden fliehen mussten oder noch immer nicht zurückkönnen.\\n\\nSei bei allen, die in dieser Nacht wachen, helfen oder Angst haben.\\nSchenk Frieden. Und halte unsere Hoffnung wach.\\nAmen.\"},\"bluesky\":{\"text\":\"Abendgebet\\n\\nGott, wir legen dir diesen Tag hin. Das Gute. Das Schwere. Das Unerledigte.\\n\\nWir bitten für Menschen in Baden-Württemberg, die unter Hitze, Trockenheit und niedrigem Wasser leiden. Und für Familien in British Columbia, die nach den Waldbränden fliehen mussten oder noch nicht zurückkönnen.\\n\\nSchenk Frieden für diese Nacht. Amen.\"},\"story\":{\"slides\":[{\"text\":\"Der Tag muss nicht fertig werden, damit du ihn loslassen darfst.\"},{\"text\":\"Gott, wir bringen dir das Gute dieses Tages. Und auch das, was schwer war.\"},{\"text\":\"Wir bitten für Menschen in Baden-Württemberg. Für alle, die unter Hitze, Trockenheit und niedrigem Wasser leiden.\"},{\"text\":\"Wir bitten für Familien in British Columbia. Für Menschen, die wegen der Waldbrände fliehen mussten.\"},{\"text\":\"Schenk Frieden für diese Nacht. Und halte die Hoffnung in uns wach. Amen.\"}]},\"reel\":{\"hook\":\"Der Tag darf unfertig enden.\",\"script\":\"Der Tag ist vorbei. Nicht alles ist geschafft. Nicht alles ist gut. Und doch dürfen wir loslassen. Gott, wir bringen dir das Gute dieses Tages. Und das Schwere. Wir bitten für Menschen in Baden-Württemberg, die unter Hitze, Trockenheit und niedrigem Wasser leiden. Wir bitten für Familien in British Columbia, die nach den Waldbränden fliehen mussten und nicht wissen, wie es weitergeht. Sei bei allen, die in dieser Nacht wachen, helfen oder Angst haben. Schenk uns Frieden. Und halte die Hoffnung in uns wach. Amen.\",\"shots\":[\"Abendlicht am offenen Fenster\",\"Eine Hand legt Notizzettel beiseite\",\"Ruhiges Wasser mit sichtbaren Steinen am Ufer\",\"Dunkler werdender Himmel über stiller Landschaft\",\"Warm beleuchtetes Zimmer, Licht wird gedimmt\"],\"duration_seconds\":30}},\"visual\":{\"concept\":\"Ruhige Abendszene an einem offenen Fenster. Warmes Restlicht. Ein schlichter Tisch, darauf ein geschlossenes Notizbuch und eine abgelegte Brille. Draußen sommerliche Dämmerung, trockene Landschaft in weicher Unschärfe. Stimmung: loslassen, aufatmen, geborgene Ruhe trotz offener Fragen.\",\"flux_prompt\":\"Fotorealistische ruhige Abendszene an einem offenen Fenster, warmes spätsommerliches Restlicht, schlichter Holztisch mit geschlossenem Notizbuch und Brille, sanfte Dämmerung draußen, leicht trockene sommerliche Landschaft in weicher Unschärfe, stille hoffnungsvolle Atmosphäre, natürliche Farben, weiches Licht, viel negativer Raum, redaktionelle Social-Media-Ästhetik, keine Menschen im Vordergrund\",\"negative_prompt\":\"text, letters, logo, watermark\",\"formats\":[\"4:5\",\"9:16\",\"1.91:1\"],\"alt_text\":\"Ein schlichter Holztisch steht an einem offenen Fenster im warmen Abendlicht. Auf dem Tisch liegen ein geschlossenes Notizbuch und eine Brille. Draußen ist eine ruhige sommerliche Dämmerung zu sehen. Die Szene wirkt still, leicht und tröstlich.\"},\"qa\":{\"warnings\":[\"Aktuelle Bezüge vor Freigabe nochmals gegen Tagesschau und SWR am Veröffentlichungsvortag querprüfen.\",\"Alt text redaktionell final prüfen.\",\"Gebet erwähnt zwei konkrete aktuelle Situationen; Formulierungen bei neuer Nachrichtenlage ggf. anpassen.\"],\"approved\":false},\"metadata\":{\"model\":\"gpt-5\",\"generated_at\":\"2026-08-19T00:00:00Z\",\"prompt_version\":\"1.0\",\"assets\":[]}}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "current_turn",
+    "effort": "none",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1,
+  "text": {
+    "format": {
+      "type": "json_schema",
+      "description": null,
+      "name": "content_package",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "Idee",
+              "in Arbeit",
+              "zur Prüfung",
+              "freigegeben",
+              "terminiert",
+              "veröffentlicht",
+              "verworfen"
+            ]
+          },
+          "needs_input": {
+            "type": "boolean"
+          },
+          "source": {
+            "type": "object",
+            "properties": {
+              "calendar_post_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "date": {
+                "type": "string",
+                "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+              },
+              "rubric": {
+                "type": "string",
+                "minLength": 1
+              },
+              "liturgical_source": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "calendar_post_id",
+              "date",
+              "rubric",
+              "liturgical_source"
+            ],
+            "additionalProperties": false
+          },
+          "editorial_core": {
+            "type": "object",
+            "properties": {
+              "title": {
+                "type": "string"
+              },
+              "main_message": {
+                "type": "string"
+              },
+              "audience": {
+                "type": "string"
+              },
+              "tone": {
+                "minItems": 1,
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "source_notes": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "title",
+              "main_message",
+              "audience",
+              "tone",
+              "source_notes"
+            ],
+            "additionalProperties": false
+          },
+          "platforms": {
+            "type": "object",
+            "properties": {
+              "facebook": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  },
+                  "headline": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text",
+                  "headline"
+                ],
+                "additionalProperties": false
+              },
+              "instagram": {
+                "type": "object",
+                "properties": {
+                  "caption": {
+                    "type": "string"
+                  },
+                  "carousel": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "type": {
+                          "type": "string"
+                        },
+                        "text": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "type",
+                        "text"
+                      ],
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "required": [
+                  "caption",
+                  "carousel"
+                ],
+                "additionalProperties": false
+              },
+              "mastodon": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text"
+                ],
+                "additionalProperties": false
+              },
+              "bluesky": {
+                "default": {
+                  "text": ""
+                },
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text"
+                ],
+                "additionalProperties": false
+              },
+              "story": {
+                "type": "object",
+                "properties": {
+                  "slides": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "text": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "text"
+                      ],
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "required": [
+                  "slides"
+                ],
+                "additionalProperties": false
+              },
+              "reel": {
+                "type": "object",
+                "properties": {
+                  "hook": {
+                    "type": "string"
+                  },
+                  "script": {
+                    "type": "string"
+                  },
+                  "shots": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "duration_seconds": {
+                    "type": "integer",
+                    "minimum": 0,
+                    "maximum": 9007199254740991
+                  }
+                },
+                "required": [
+                  "hook",
+                  "script",
+                  "shots",
+                  "duration_seconds"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "required": [
+              "facebook",
+              "instagram",
+              "mastodon",
+              "bluesky",
+              "story",
+              "reel"
+            ],
+            "additionalProperties": false
+          },
+          "visual": {
+            "type": "object",
+            "properties": {
+              "concept": {
+                "type": "string"
+              },
+              "flux_prompt": {
+                "type": "string"
+              },
+              "negative_prompt": {
+                "type": "string",
+                "minLength": 1
+              },
+              "formats": {
+                "minItems": 1,
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "alt_text": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "concept",
+              "flux_prompt",
+              "negative_prompt",
+              "formats",
+              "alt_text"
+            ],
+            "additionalProperties": false
+          },
+          "qa": {
+            "type": "object",
+            "properties": {
+              "warnings": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "approved": {
+                "type": "boolean"
+              }
+            },
+            "required": [
+              "warnings",
+              "approved"
+            ],
+            "additionalProperties": false
+          },
+          "metadata": {
+            "type": "object",
+            "properties": {
+              "model": {
+                "type": "string"
+              },
+              "generated_at": {
+                "type": "string"
+              },
+              "prompt_version": {
+                "type": "string",
+                "minLength": 1
+              },
+              "assets": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "model",
+              "generated_at",
+              "prompt_version",
+              "assets"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "id",
+          "status",
+          "needs_input",
+          "source",
+          "editorial_core",
+          "platforms",
+          "visual",
+          "qa",
+          "metadata"
+        ],
+        "additionalProperties": false
+      },
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 2
+    }
+  },
+  "tools": [
+    {
+      "type": "web_search",
+      "return_token_budget": "default",
+      "search_content_types": [
+        "text"
+      ],
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 16482,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1954,
+    "output_tokens_details": {
+      "reasoning_tokens": 237
+    },
+    "total_tokens": 18436
+  },
+  "user": null,
+  "metadata": {},
+  "output_text": "{\"id\":\"prayer-evening-2026-08-19\",\"status\":\"zur Prüfung\",\"needs_input\":false,\"source\":{\"calendar_post_id\":\"prayer-evening-2026-08-19\",\"date\":\"2026-08-19\",\"rubric\":\"Abendgebet\",\"liturgical_source\":\"\"},\"editorial_core\":{\"title\":\"Abendgebet\",\"main_message\":\"Ein Abendgebet für einen unfertigen Tag. Wir legen Gott hin, was gelungen ist und was offen blieb. Wir bitten für Menschen, die unter der anhaltenden Hitze und Trockenheit in Baden-Württemberg leiden, und für Menschen in Westkanada, die nach den schweren Waldbränden ihre Häuser verlassen mussten oder noch immer nicht zurückkönnen. Gottes Zukunft beginnt nicht erst, wenn alles geordnet ist.\",\"audience\":\"breite Öffentlichkeit\",\"tone\":[\"ruhig\",\"hoffnungsvoll\",\"geborgen\"],\"source_notes\":[\"Aktuelle Lage geprüft: SWR Aktuell Baden-Württemberg berichtet von historischem Wasserdefizit, Rekordhitze und Belastungen durch Trockenheit und Niedrigwasser in Baden-Württemberg.\",\"Aktuelle Lage geprüft: AP meldet nach den Waldbränden in British Columbia zerstörte oder beschädigte Gebäude, weiter geltende Evakuierungen und viele Menschen, die noch nicht nach Hause können.\",\"Zeitlich robust formuliert: keine Annahmen über Ereignisse des Veröffentlichungstages.\",\"Gebetssprache bewusst einfach gehalten; keine Vertröstung, keine Nachrichtenliste.\"]},\"platforms\":{\"facebook\":{\"text\":\"Abend.\\nDer Tag muss nicht fertig werden, damit wir ihn loslassen dürfen.\\n\\nGott,\\nwir bringen dir, was heute gut war.\\nUnd auch das, was schwer war.\\nDie hastigen Sätze.\\nDie Müdigkeit.\\nDas Unerledigte.\\n\\nWir denken an Menschen in Baden-Württemberg, die unter Hitze, Trockenheit und niedrigem Wasser leiden.\\nAn Felder, Flüsse, Tiere und alle, die sich sorgen.\\n\\nWir denken an die Menschen in British Columbia in Westkanada.\\nAn Familien, die wegen der Waldbrände fliehen mussten.\\nAn alle, deren Häuser beschädigt wurden und die noch nicht wissen, wie es weitergeht.\\n\\nSei auch bei denen,\\ndie heute Nacht wachen,\\npflegen,\\nlöschen,\\ntrösten,\\narbeiten\\noder Angst haben.\\n\\nGib uns Frieden für diese Nacht.\\nUnd halte die Hoffnung in uns wach,\\ndass deine Zukunft weiter reicht als dieser Tag.\\nAmen.\",\"headline\":\"Abendgebet: Was heute unfertig bleibt, darf in Gottes Hand ruhen\"},\"instagram\":{\"caption\":\"Der Tag muss nicht fertig werden, damit du ihn loslassen darfst.\\n\\nGott,\\nwas heute gut war, danken wir dir.\\nWas wehgetan hat, legen wir dir hin.\\n\\nWir bitten für Menschen in Baden-Württemberg, die unter Hitze, Trockenheit und niedrigem Wasser leiden.\\nUnd für die Familien in British Columbia, die nach den Waldbränden nicht einfach nach Hause zurückkönnen.\\n\\nSchenk Frieden für diese Nacht.\\nUnd halte die Hoffnung in uns wach.\\nAmen.\",\"carousel\":[{\"type\":\"text\",\"text\":\"Der Tag muss nicht fertig werden, damit du ihn loslassen darfst.\"},{\"type\":\"text\",\"text\":\"Gott, wir bringen dir das Gute dieses Tages. Und das Schwere. Auch das, was offen blieb.\"},{\"type\":\"text\",\"text\":\"Wir bitten für Menschen in Baden-Württemberg. Für alle, die unter Hitze, Trockenheit und niedrigem Wasser leiden.\"},{\"type\":\"text\",\"text\":\"Wir bitten für Familien in British Columbia. Für Menschen, die wegen der Waldbrände fliehen mussten und nicht wissen, wie es weitergeht.\"},{\"type\":\"text\",\"text\":\"Schenk Frieden für diese Nacht. Und halte die Hoffnung in uns wach. Amen.\"}]},\"mastodon\":{\"text\":\"Abendgebet\\n\\nGott,\\nwir legen dir diesen Tag hin.\\nDas Gute. Das Schwere. Das Unerledigte.\\n\\nWir bitten für Menschen in Baden-Württemberg, die unter Hitze, Trockenheit und niedrigem Wasser leiden.\\nUnd für Familien in British Columbia, die nach den Waldbränden fliehen mussten oder noch immer nicht zurückkönnen.\\n\\nSei bei allen, die in dieser Nacht wachen, helfen oder Angst haben.\\nSchenk Frieden. Und halte unsere Hoffnung wach.\\nAmen.\"},\"bluesky\":{\"text\":\"Abendgebet\\n\\nGott, wir legen dir diesen Tag hin. Das Gute. Das Schwere. Das Unerledigte.\\n\\nWir bitten für Menschen in Baden-Württemberg, die unter Hitze, Trockenheit und niedrigem Wasser leiden. Und für Familien in British Columbia, die nach den Waldbränden fliehen mussten oder noch nicht zurückkönnen.\\n\\nSchenk Frieden für diese Nacht. Amen.\"},\"story\":{\"slides\":[{\"text\":\"Der Tag muss nicht fertig werden, damit du ihn loslassen darfst.\"},{\"text\":\"Gott, wir bringen dir das Gute dieses Tages. Und auch das, was schwer war.\"},{\"text\":\"Wir bitten für Menschen in Baden-Württemberg. Für alle, die unter Hitze, Trockenheit und niedrigem Wasser leiden.\"},{\"text\":\"Wir bitten für Familien in British Columbia. Für Menschen, die wegen der Waldbrände fliehen mussten.\"},{\"text\":\"Schenk Frieden für diese Nacht. Und halte die Hoffnung in uns wach. Amen.\"}]},\"reel\":{\"hook\":\"Der Tag darf unfertig enden.\",\"script\":\"Der Tag ist vorbei. Nicht alles ist geschafft. Nicht alles ist gut. Und doch dürfen wir loslassen. Gott, wir bringen dir das Gute dieses Tages. Und das Schwere. Wir bitten für Menschen in Baden-Württemberg, die unter Hitze, Trockenheit und niedrigem Wasser leiden. Wir bitten für Familien in British Columbia, die nach den Waldbränden fliehen mussten und nicht wissen, wie es weitergeht. Sei bei allen, die in dieser Nacht wachen, helfen oder Angst haben. Schenk uns Frieden. Und halte die Hoffnung in uns wach. Amen.\",\"shots\":[\"Abendlicht am offenen Fenster\",\"Eine Hand legt Notizzettel beiseite\",\"Ruhiges Wasser mit sichtbaren Steinen am Ufer\",\"Dunkler werdender Himmel über stiller Landschaft\",\"Warm beleuchtetes Zimmer, Licht wird gedimmt\"],\"duration_seconds\":30}},\"visual\":{\"concept\":\"Ruhige Abendszene an einem offenen Fenster. Warmes Restlicht. Ein schlichter Tisch, darauf ein geschlossenes Notizbuch und eine abgelegte Brille. Draußen sommerliche Dämmerung, trockene Landschaft in weicher Unschärfe. Stimmung: loslassen, aufatmen, geborgene Ruhe trotz offener Fragen.\",\"flux_prompt\":\"Fotorealistische ruhige Abendszene an einem offenen Fenster, warmes spätsommerliches Restlicht, schlichter Holztisch mit geschlossenem Notizbuch und Brille, sanfte Dämmerung draußen, leicht trockene sommerliche Landschaft in weicher Unschärfe, stille hoffnungsvolle Atmosphäre, natürliche Farben, weiches Licht, viel negativer Raum, redaktionelle Social-Media-Ästhetik, keine Menschen im Vordergrund\",\"negative_prompt\":\"text, letters, logo, watermark\",\"formats\":[\"4:5\",\"9:16\",\"1.91:1\"],\"alt_text\":\"Ein schlichter Holztisch steht an einem offenen Fenster im warmen Abendlicht. Auf dem Tisch liegen ein geschlossenes Notizbuch und eine Brille. Draußen ist eine ruhige sommerliche Dämmerung zu sehen. Die Szene wirkt still, leicht und tröstlich.\"},\"qa\":{\"warnings\":[\"Aktuelle Bezüge vor Freigabe nochmals gegen Tagesschau und SWR am Veröffentlichungsvortag querprüfen.\",\"Alt text redaktionell final prüfen.\",\"Gebet erwähnt zwei konkrete aktuelle Situationen; Formulierungen bei neuer Nachrichtenlage ggf. anpassen.\"],\"approved\":false},\"metadata\":{\"model\":\"gpt-5\",\"generated_at\":\"2026-08-19T00:00:00Z\",\"prompt_version\":\"1.0\",\"assets\":[]}}"
+}
