@@ -27,5 +27,66 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "post-0011",
+    "contentDate": "2026-08-20",
+    "platform": "instagram",
+    "format": "default",
+    "scheduledAt": "2026-08-20T07:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Ich merke immer wieder: Gute Vorbereitung ist wichtig. Und mit guten Tools arbeitet es sich oft besser.\n\nDarum baue ich mir manche Werkzeuge für die Unterrichtsplanung gern selbst.\n\nJetzt interessiert mich eure Perspektive:\nWie müsste für euch das perfekte Tool zur Unterrichtsplanung aussehen? Was müsste es können?\n\nWoran denkt ihr zuerst?\nMaterialien, Struktur, Differenzierung, Zeitersparnis, Zusammenarbeit, KI, Datenschutz?\n\nSchreibt es gern in die Kommentare.",
+    "assets": [
+      "render-instagram-feed-01.jpg",
+      "render-instagram-feed-02.jpg",
+      "render-instagram-feed-03.jpg",
+      "render-instagram-feed-04.jpg",
+      "render-instagram-feed-05.jpg"
+    ],
+    "altTexts": [
+      "Ein aufgeräumter Schreibtisch mit Laptop, Notizen und Unterrichtsmaterialien. Die Szene vermittelt konzentrierte Vorbereitung und gute Organisation für den Unterricht."
+    ],
+    "id": "94ee468d-db2c-4347-910b-34cddb99b12d",
+    "attemptCount": 1,
+    "remoteId": "18181544800411828",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-20T14:36:08.930Z",
+    "updatedAt": "2026-08-20T14:40:59.052Z",
+    "responseMetadata": {
+      "mediaCount": 5,
+      "mediaType": "CAROUSEL",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "post-0011",
+    "contentDate": "2026-08-20",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-08-20T07:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Ich merke immer wieder: Gute Vorbereitung ist wichtig. Und mit guten Tools arbeitet es sich besser. Deshalb baue ich mir manche Werkzeuge für die Unterrichtsplanung gern selbst.\n\nMeine Frage an euch: Wie müsste für euch das perfekte Tool zur Unterrichtsplanung aussehen? Was müsste es können?",
+    "assets": [
+      "render-facebook-mastodon-01.png"
+    ],
+    "altTexts": [
+      "Ein aufgeräumter Schreibtisch mit Laptop, Notizen und Unterrichtsmaterialien. Die Szene vermittelt konzentrierte Vorbereitung und gute Organisation für den Unterricht."
+    ],
+    "id": "3b2dc44f-8b8b-4592-9e1e-92bdfd634f11",
+    "attemptCount": 1,
+    "remoteId": "117128354920066220",
+    "remoteUrl": "https://kirche.social/@christoph/117128354920066220",
+    "lastError": null,
+    "createdAt": "2026-08-20T14:36:09.050Z",
+    "updatedAt": "2026-08-20T14:41:01.108Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
