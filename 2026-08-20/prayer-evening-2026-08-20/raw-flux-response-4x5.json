@@ -1,0 +1,36 @@
+{
+  "delivery_url": "https://delivery.us2.bfl.ai/durable/2026082018/5e1f69ea-538b-4d66-962e-9be995966f07/8a/499991b3386192/b33861929b894952a2a67453cdec297c/sample.jpeg?se=2026-08-20T18%3A55%3A00Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=OukLYGemNQNi8aTFwNnrUF6o9cokvGVX1BP8Ic2eoxc%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "4e94c3e6-aba5-4c38-9df8-466831c179dc",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "4e94c3e6-aba5-4c38-9df8-466831c179dc",
+      "status": "Ready",
+      "result": {
+        "start_time": 1787251498.5591378,
+        "prompt": "Fotorealistische ruhige Landschaft in Afrika bei Abenddämmerung, weiter Horizont, sanftes warmes Restlicht, tiefe Blautöne, stilles Grasland oder ruhige Küstenlandschaft, einzelne natürliche Elemente wie Baum oder Weg, klare ruhige Komposition, natürliche Atmosphäre, Gefühl von Loslassen, Geborgenheit und Hoffnung, keine Menschenmenge, keine Dramatik, hochwertiges weiches Licht, no text, no letters, no typography, no logo, no watermark",
+        "seed": 371088610,
+        "sample": "https://delivery.us2.bfl.ai/durable/2026082018/5e1f69ea-538b-4d66-962e-9be995966f07/8a/499991b3386192/b33861929b894952a2a67453cdec297c/sample.jpeg?se=2026-08-20T18%3A55%3A00Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=OukLYGemNQNi8aTFwNnrUF6o9cokvGVX1BP8Ic2eoxc%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "4e94c3e6-aba5-4c38-9df8-466831c179dc",
+    "polling_url": "https://api.us2.bfl.ai/v1/get_result?id=4e94c3e6-aba5-4c38-9df8-466831c179dc",
+    "cost": 1.5,
+    "input_mp": 0,
+    "output_mp": 1.39
+  }
+}
