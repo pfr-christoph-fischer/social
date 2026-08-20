@@ -88,5 +88,102 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "post-0011",
+    "contentDate": "2026-08-20",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-08-20T07:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Gute Vorbereitung ist wichtig – und mit guten Tools arbeitet es sich besser. Deshalb baue ich mir manche Werkzeuge für die Unterrichtsplanung gern selbst. Wie müsste für euch das perfekte Tool aussehen? Was müsste es können?",
+    "assets": [
+      "render-instagram-feed-01.jpg",
+      "render-instagram-feed-02.jpg",
+      "render-instagram-feed-03.jpg",
+      "render-instagram-feed-04.jpg",
+      "render-instagram-feed-05.jpg"
+    ],
+    "altTexts": [
+      "Ein aufgeräumter Schreibtisch mit Laptop, Notizen und Unterrichtsmaterialien. Die Szene vermittelt konzentrierte Vorbereitung und gute Organisation für den Unterricht."
+    ],
+    "id": "dee97c1f-e3cc-46ca-95cb-38ad305db8fb",
+    "attemptCount": 1,
+    "remoteId": "18153227155503999",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-20T14:36:09.122Z",
+    "updatedAt": "2026-08-20T14:41:40.319Z",
+    "responseMetadata": {
+      "mediaCount": 5,
+      "mediaType": "CAROUSEL",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "post-0011",
+    "contentDate": "2026-08-20",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-08-20T07:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Gute Vorbereitung ist wichtig – und mit guten Tools arbeitet es sich besser. Deshalb baue ich mir manche Werkzeuge für die Unterrichtsplanung gern selbst. Wie müsste für euch das perfekte Tool aussehen? Was müsste es können?",
+    "assets": [
+      "render-instagram-feed-01.png",
+      "render-instagram-feed-02.png",
+      "render-instagram-feed-03.png",
+      "render-instagram-feed-04.png"
+    ],
+    "altTexts": [
+      "Ein aufgeräumter Schreibtisch mit Laptop, Notizen und Unterrichtsmaterialien. Die Szene vermittelt konzentrierte Vorbereitung und gute Organisation für den Unterricht."
+    ],
+    "id": "51122e5c-1e4d-49bf-bef9-37add5a4a109",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3mtji4gi32v2t",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3mtji4gi32v2t",
+    "lastError": null,
+    "createdAt": "2026-08-20T14:36:09.233Z",
+    "updatedAt": "2026-08-20T14:41:44.380Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 4
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "post-0011",
+    "contentDate": "2026-08-20",
+    "platform": "linkedin",
+    "format": "default",
+    "scheduledAt": "2026-08-20T07:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Ich merke immer wieder: Gute Vorbereitung ist wichtig. Und mit guten Tools arbeitet es sich oft besser.\n\nDarum baue ich mir manche Werkzeuge für die Unterrichtsplanung gern selbst.\n\nJetzt interessiert mich eure Perspektive:\nWie müsste für euch das perfekte Tool zur Unterrichtsplanung aussehen? Was müsste es können?\n\nWoran denkt ihr zuerst?\nMaterialien, Struktur, Differenzierung, Zeitersparnis, Zusammenarbeit, KI, Datenschutz?\n\nSchreibt es gern in die Kommentare.",
+    "assets": [
+      "render-instagram-feed-01.png",
+      "render-instagram-feed-02.png",
+      "render-instagram-feed-03.png",
+      "render-instagram-feed-04.png",
+      "render-instagram-feed-05.png"
+    ],
+    "altTexts": [
+      "Ein aufgeräumter Schreibtisch mit Laptop, Notizen und Unterrichtsmaterialien. Die Szene vermittelt konzentrierte Vorbereitung und gute Organisation für den Unterricht."
+    ],
+    "id": "a7aaa0b6-5b12-45a9-a940-490efdb19182",
+    "attemptCount": 1,
+    "remoteId": "urn:li:ugcPost:7496214929079906304",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-20T14:36:09.308Z",
+    "updatedAt": "2026-08-20T14:41:52.330Z",
+    "responseMetadata": {
+      "mediaCount": 5,
+      "mediaType": "MULTI_IMAGE",
+      "status": 201
+    },
+    "retryHistory": []
   }
 ]
