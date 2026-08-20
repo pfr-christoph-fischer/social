@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-08-20",
+    "contentDate": "2026-08-20",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-08-20T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Meine Wohnung soll unter ihnen sein, und ich will ihr Gott sein, und sie sollen mein Volk sein.",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Meine Wohnung soll unter ihnen sein, und ich will ihr Gott sein, und sie sollen mein Volk sein."
+    ],
+    "id": "85a43f7b-116d-4e34-81f6-597785cd724d",
+    "attemptCount": 1,
+    "remoteId": "17995399403809964",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:44:28.672Z",
+    "updatedAt": "2026-08-20T05:00:31.412Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-08-20",
+    "contentDate": "2026-08-20",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-08-20T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Meine Wohnung soll unter ihnen sein, und ich will ihr Gott sein, und sie sollen mein Volk sein.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Meine Wohnung soll unter ihnen sein, und ich will ihr Gott sein, und sie sollen mein Volk sein."
+    ],
+    "id": "cee5c75d-12e5-47ac-9cc5-9356e475a2c1",
+    "attemptCount": 1,
+    "remoteId": "117126072459395517",
+    "remoteUrl": "https://kirche.social/@christoph/117126072459395517",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:44:28.675Z",
+    "updatedAt": "2026-08-20T05:00:33.480Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
