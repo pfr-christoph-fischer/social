@@ -84,5 +84,91 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-08-20",
+    "contentDate": "2026-08-20",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-08-20T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Meine Wohnung soll unter ihnen sein, und ich will ihr Gott sein, und sie sollen mein Volk sein.",
+    "assets": [
+      "render-square-01.jpg"
+    ],
+    "altTexts": [
+      "Meine Wohnung soll unter ihnen sein, und ich will ihr Gott sein, und sie sollen mein Volk sein."
+    ],
+    "id": "e88a8432-726b-4da2-9f8a-6c062b09849f",
+    "attemptCount": 1,
+    "remoteId": "18091727357114293",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:44:28.677Z",
+    "updatedAt": "2026-08-20T05:00:43.504Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-08-20",
+    "contentDate": "2026-08-20",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-08-20T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Meine Wohnung soll unter ihnen sein, und ich will ihr Gott sein, und sie sollen mein Volk sein.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Meine Wohnung soll unter ihnen sein, und ich will ihr Gott sein, und sie sollen mein Volk sein."
+    ],
+    "id": "6ab2bf3d-85b9-4c31-ba73-9ac7c5364611",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3mtihnl3nix2q",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3mtihnl3nix2q",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:44:28.681Z",
+    "updatedAt": "2026-08-20T05:00:45.877Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-08-20",
+    "contentDate": "2026-08-20",
+    "platform": "linkedin",
+    "format": "default",
+    "scheduledAt": "2026-08-20T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Meine Wohnung soll unter ihnen sein, und ich will ihr Gott sein, und sie sollen mein Volk sein.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Meine Wohnung soll unter ihnen sein, und ich will ihr Gott sein, und sie sollen mein Volk sein."
+    ],
+    "id": "8dc829c2-d8bf-4dff-94ea-8c928950d212",
+    "attemptCount": 1,
+    "remoteId": "urn:li:share:7496068695413342208",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:44:28.683Z",
+    "updatedAt": "2026-08-20T05:00:47.514Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 201
+    },
+    "retryHistory": []
   }
 ]
