@@ -1,0 +1,44 @@
+{
+  "delivery_url": "https://delivery.eu2.bfl.ai/durable/2026082018/5e1f69ea-538b-4d66-962e-9be995966f07/52/50467728c8c73a/28c8c73afd59406babac27ff03cc07ac/sample.jpeg?se=2026-08-20T18%3A55%3A05Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=/9THf2Shkx7Cp%2BicyHT/Ma2fRNaqT09tMCrQiU1wfqE%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "b9f61925-bc89-4569-a45c-f0ff65e2e997",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "b9f61925-bc89-4569-a45c-f0ff65e2e997",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "b9f61925-bc89-4569-a45c-f0ff65e2e997",
+      "status": "Ready",
+      "result": {
+        "start_time": 1787251503.455094,
+        "prompt": "Fotorealistische ruhige Landschaft in Afrika bei Abenddämmerung, weiter Horizont, sanftes warmes Restlicht, tiefe Blautöne, stilles Grasland oder ruhige Küstenlandschaft, einzelne natürliche Elemente wie Baum oder Weg, klare ruhige Komposition, natürliche Atmosphäre, Gefühl von Loslassen, Geborgenheit und Hoffnung, keine Menschenmenge, keine Dramatik, hochwertiges weiches Licht, no text, no letters, no typography, no logo, no watermark",
+        "seed": 3057629456,
+        "sample": "https://delivery.eu2.bfl.ai/durable/2026082018/5e1f69ea-538b-4d66-962e-9be995966f07/52/50467728c8c73a/28c8c73afd59406babac27ff03cc07ac/sample.jpeg?se=2026-08-20T18%3A55%3A05Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=/9THf2Shkx7Cp%2BicyHT/Ma2fRNaqT09tMCrQiU1wfqE%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "b9f61925-bc89-4569-a45c-f0ff65e2e997",
+    "polling_url": "https://api.eu2.bfl.ai/v1/get_result?id=b9f61925-bc89-4569-a45c-f0ff65e2e997",
+    "cost": 1.5,
+    "input_mp": 0,
+    "output_mp": 1.98
+  }
+}

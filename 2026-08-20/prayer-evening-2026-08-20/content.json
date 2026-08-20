@@ -105,13 +105,17 @@
     "alt_text": "Eine ruhige Landschaft in Afrika in der Abenddämmerung. Über weitem Land liegt weiches Restlicht, der Horizont ist offen und still. Das Bild vermittelt Ruhe, Geborgenheit und Hoffnung für die Nacht."
   },
   "qa": {
-    "approved": true,
-    "warnings": []
+    "warnings": [],
+    "approved": true
   },
   "metadata": {
     "model": "gpt-5.4-2026-03-05",
     "generated_at": "2026-08-20T09:00:45.669Z",
     "prompt_version": "1.0",
-    "assets": []
+    "assets": [
+      "assets/background-1.91x1.webp",
+      "assets/background-4x5.webp",
+      "assets/background-9x16.webp"
+    ]
   }
 }

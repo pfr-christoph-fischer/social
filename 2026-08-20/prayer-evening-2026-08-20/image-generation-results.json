@@ -1,0 +1,55 @@
+{
+  "generated_at": "2026-08-20T18:45:06.899Z",
+  "jobs": [
+    {
+      "assetPath": "content/2026-08-20/prayer-evening-2026-08-20/assets/background-1.91x1.webp",
+      "aspectRatio": "1.91:1",
+      "height": 630,
+      "mimeType": "image/jpeg",
+      "rawResponsePath": "content/2026-08-20/prayer-evening-2026-08-20/raw-flux-response-1.91x1.json",
+      "request": {
+        "aspectRatio": "1.91:1",
+        "model": "flux-2-klein-4b",
+        "negativePrompt": "text, letters, logo, watermark, disaster scene, fire, blood, medical equipment, crowd, stereotypes, oversaturated colors, typography",
+        "outputFormat": "webp",
+        "prompt": "Fotorealistische ruhige Landschaft in Afrika bei Abenddämmerung, weiter Horizont, sanftes warmes Restlicht, tiefe Blautöne, stilles Grasland oder ruhige Küstenlandschaft, einzelne natürliche Elemente wie Baum oder Weg, klare ruhige Komposition, natürliche Atmosphäre, Gefühl von Loslassen, Geborgenheit und Hoffnung, keine Menschenmenge, keine Dramatik, hochwertiges weiches Licht, no text, no letters, no typography, no logo, no watermark"
+      },
+      "status": "succeeded",
+      "width": 1200
+    },
+    {
+      "assetPath": "content/2026-08-20/prayer-evening-2026-08-20/assets/background-4x5.webp",
+      "aspectRatio": "4:5",
+      "height": 1350,
+      "mimeType": "image/jpeg",
+      "rawResponsePath": "content/2026-08-20/prayer-evening-2026-08-20/raw-flux-response-4x5.json",
+      "request": {
+        "aspectRatio": "4:5",
+        "model": "flux-2-klein-4b",
+        "negativePrompt": "text, letters, logo, watermark, disaster scene, fire, blood, medical equipment, crowd, stereotypes, oversaturated colors, typography",
+        "outputFormat": "webp",
+        "prompt": "Fotorealistische ruhige Landschaft in Afrika bei Abenddämmerung, weiter Horizont, sanftes warmes Restlicht, tiefe Blautöne, stilles Grasland oder ruhige Küstenlandschaft, einzelne natürliche Elemente wie Baum oder Weg, klare ruhige Komposition, natürliche Atmosphäre, Gefühl von Loslassen, Geborgenheit und Hoffnung, keine Menschenmenge, keine Dramatik, hochwertiges weiches Licht, no text, no letters, no typography, no logo, no watermark"
+      },
+      "status": "succeeded",
+      "width": 1080
+    },
+    {
+      "assetPath": "content/2026-08-20/prayer-evening-2026-08-20/assets/background-9x16.webp",
+      "aspectRatio": "9:16",
+      "height": 1920,
+      "mimeType": "image/jpeg",
+      "rawResponsePath": "content/2026-08-20/prayer-evening-2026-08-20/raw-flux-response-9x16.json",
+      "request": {
+        "aspectRatio": "9:16",
+        "model": "flux-2-klein-4b",
+        "negativePrompt": "text, letters, logo, watermark, disaster scene, fire, blood, medical equipment, crowd, stereotypes, oversaturated colors, typography",
+        "outputFormat": "webp",
+        "prompt": "Fotorealistische ruhige Landschaft in Afrika bei Abenddämmerung, weiter Horizont, sanftes warmes Restlicht, tiefe Blautöne, stilles Grasland oder ruhige Küstenlandschaft, einzelne natürliche Elemente wie Baum oder Weg, klare ruhige Komposition, natürliche Atmosphäre, Gefühl von Loslassen, Geborgenheit und Hoffnung, keine Menschenmenge, keine Dramatik, hochwertiges weiches Licht, no text, no letters, no typography, no logo, no watermark"
+      },
+      "status": "succeeded",
+      "width": 1080
+    }
+  ],
+  "model": "flux-2-klein-4b",
+  "post_id": "prayer-evening-2026-08-20"
+}
