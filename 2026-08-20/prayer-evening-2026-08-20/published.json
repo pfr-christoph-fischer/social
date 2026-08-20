@@ -27,5 +27,66 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "prayer-evening-2026-08-20",
+    "contentDate": "2026-08-20",
+    "platform": "instagram",
+    "format": "default",
+    "scheduledAt": "2026-08-20T18:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Was heute gut war, darf dankbar werden. Was schwer war, darf vor Gott liegen. Und was offen blieb, muss heute Nacht nicht fertig werden.\n\nGott,\nwir legen dir diesen Tag hin.\nUnd wir bitten dich für Menschen im Kongo, die von Ebola betroffen sind.\nWir bitten dich für Geflüchtete in Ceuta, die in Unsicherheit leben und auf Schutz hoffen.\n\nSchenk Ruhe. Schenk Schutz. Halte die Hoffnung wach.\nAmen.",
+    "assets": [
+      "render-instagram-feed-01.jpg",
+      "render-instagram-feed-02.jpg",
+      "render-instagram-feed-03.jpg",
+      "render-instagram-feed-04.jpg",
+      "render-instagram-feed-05.jpg"
+    ],
+    "altTexts": [
+      "Eine ruhige Landschaft in Afrika in der Abenddämmerung. Über weitem Land liegt weiches Restlicht, der Horizont ist offen und still. Das Bild vermittelt Ruhe, Geborgenheit und Hoffnung für die Nacht."
+    ],
+    "id": "dafaad77-a796-454d-84aa-e5ad5ecd6bfc",
+    "attemptCount": 1,
+    "remoteId": "18619908766060802",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-20T18:45:41.704Z",
+    "updatedAt": "2026-08-20T18:50:53.660Z",
+    "responseMetadata": {
+      "mediaCount": 5,
+      "mediaType": "CAROUSEL",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "prayer-evening-2026-08-20",
+    "contentDate": "2026-08-20",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-08-20T18:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Abendgebet\n\nGott,\nwir legen dir diesen Tag hin.\nWas gut war.\nWas wehgetan hat.\nWas unfertig bleibt.\n\nWir bitten dich für Menschen im Kongo, die von Ebola betroffen sind.\nUnd für Geflüchtete in Ceuta, die in Unsicherheit leben und auf Schutz hoffen.\n\nHalte diese Welt.\nUnd schenke uns Frieden für diese Nacht.\nAmen.",
+    "assets": [
+      "render-facebook-mastodon-01.png"
+    ],
+    "altTexts": [
+      "Eine ruhige Landschaft in Afrika in der Abenddämmerung. Über weitem Land liegt weiches Restlicht, der Horizont ist offen und still. Das Bild vermittelt Ruhe, Geborgenheit und Hoffnung für die Nacht."
+    ],
+    "id": "fbad7da8-0891-45ec-a114-c68dbeb6cb15",
+    "attemptCount": 1,
+    "remoteId": "117129337588550561",
+    "remoteUrl": "https://kirche.social/@christoph/117129337588550561",
+    "lastError": null,
+    "createdAt": "2026-08-20T18:45:41.764Z",
+    "updatedAt": "2026-08-20T18:50:55.380Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
