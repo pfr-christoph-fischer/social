@@ -59,7 +59,7 @@
       ]
     },
     "mastodon": {
-      "text": "Gott,\ndieser Morgen ist da.\n\nWir beten für Menschen in Baden-Württemberg, wo Trockenheit und Niedrigwasser Wasser knapp werden lassen.\nFür Menschen im Gazastreifen, die zwischen Trümmern und Wasserknappheit leben.\nFür Menschen in der Ukraine, die weiter unter Raketen- und Drohnenangriffen leiden.\n\nWecke auch uns.\nZu Mitgefühl. Zu Mut. Zu kleinen Schritten des Friedens.\nAmen."
+      "text": "Gott,\ndieser Morgen ist da.\n\nWir beten für Menschen in Baden-Württemberg, wo Trockenheit und Niedrigwasser die Wasserversorgung belasten.\nFür Menschen im Gazastreifen, die zwischen Trümmern und Wasserknappheit leben.\nFür Menschen in der Ukraine, die weiter unter Raketen- und Drohnenangriffen leiden.\n\nWecke auch uns.\nZu Mitgefühl. Zu Mut. Zu kleinen Schritten des Friedens.\nAmen."
     },
     "bluesky": {
       "text": "Gott,\ndieser Morgen ist da.\n\nWir beten für Menschen in Baden-Württemberg, wo Trockenheit und Niedrigwasser den Alltag belasten.\nFür Menschen im Gazastreifen zwischen Trümmern und Wasserknappheit.\nFür Menschen in der Ukraine unter weiteren Angriffen.\n\nWecke auch uns zu Mitgefühl und Mut.\nAmen."
@@ -90,29 +90,28 @@
       "hook": "Dieser Morgen ist nicht leicht. Aber wir beginnen ihn nicht hoffnungslos.",
       "script": "Dieser Morgen ist da. Und mit ihm die Bilder, die viele nicht loslassen. Orte in Baden-Württemberg, in denen Trockenheit und Niedrigwasser das Leben belasten. Menschen im Gazastreifen zwischen Trümmern, Hitze und Wasserknappheit. Menschen in der Ukraine nach weiteren Angriffen in der Nacht. Gott, wir bringen dir ihre Angst, ihre Müdigkeit und ihre Hoffnung. Sei den Leidenden nahe. Stärke die, die helfen. Und wecke auch uns zu Mitgefühl, Mut und kleinen Schritten des Friedens. Deine Zukunft ist größer als Angst. Amen.",
       "shots": [
-        "Morgenlicht auf einem Fensterbrett",
-        "Ruhige Wasseroberfläche mit sichtbarem Ufer und niedrigem Pegel",
-        "Leere Hände, die sich öffnen",
-        "Langsame Gehbewegung auf einem stillen Weg",
+        "Morgenlicht über einem stillen Seeufer mit sichtbar niedrigem Wasserstand",
+        "Weites Außengelände am frühen Morgen, leichter Nebel und ruhiger Himmel",
+        "Leere Hände, die sich im Freien öffnen",
+        "Langsame Gehbewegung auf einem stillen Weg am Ufer",
         "Sonnenaufgang hinter Bäumen"
       ],
       "duration_seconds": 35
     }
   },
   "visual": {
-    "concept": "Ruhige Morgenszene mit weitem Himmel, schlichtem Licht und einem Gewässer mit sichtbar niedrigem Ufer als stilles Bild für Wachheit, Verletzlichkeit und Hoffnung.",
-    "flux_prompt": "",
-    "negative_prompt": "text, letters, logo, watermark",
+    "concept": "Titelbild möglichst im Freien: eine ruhige Morgenszene an einem See- oder Flussufer mit weitem Himmel, weichem Licht und sichtbar niedrigem Wasserstand. Das Außenmotiv wirkt still, offen und hoffnungsvoll, ohne häusliche Innenraumatmosphäre.",
+    "flux_prompt": "Früher Morgen im Freien an einem ruhigen See- oder Flussufer, weiter Himmel, sanftes goldenes Morgenlicht, sichtbarer niedriger Wasserstand mit freiliegendem Ufer, natürliche Farben, stille meditative Stimmung, schlicht, dokumentarisch und glaubwürdig, keine Menschen im Vordergrund, keine Gebäude im Fokus, viel Atmosphäre, geeignet als Titelbild für ein Morgengebet",
+    "negative_prompt": "text, letters, logo, watermark, indoor scene, room, window interior, living room, dramatic disaster imagery, explosions, weapons",
     "formats": [
       "4:5",
       "9:16",
       "1.91:1"
     ],
-    "alt_text": "Früher Morgen an einem Gewässer mit sichtbar niedrigem Wasserstand. Helles, weiches Licht liegt über Ufer und Himmel. Die ruhige Szene vermittelt Wachheit, Verletzlichkeit und Hoffnung."
+    "alt_text": "Früher Morgen im Freien an einem ruhigen Gewässer mit sichtbar niedrigem Wasserstand. Weiches Licht liegt über dem offenen Ufer und dem weiten Himmel. Das Bild vermittelt Stille, Wachheit und Hoffnung."
   },
   "qa": {
     "warnings": [
-      "Alt text must be completed before approval",
       "Aktuelle Bezüge vor Veröffentlichung am Morgen des 21.08.2026 erneut kurz gegen tagesschau.de und SWR Aktuell Baden-Württemberg prüfen, da tagesaktuelle Lage sich ändern kann."
     ],
     "approved": false
