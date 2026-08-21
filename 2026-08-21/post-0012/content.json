@@ -1,6 +1,6 @@
 {
   "id": "post-0012",
-  "status": "freigegeben",
+  "status": "in Arbeit",
   "needs_input": false,
   "source": {
     "calendar_post_id": "post-0012",
@@ -30,31 +30,31 @@
   },
   "platforms": {
     "facebook": {
-      "text": "Schon die halbe Woche in meinem Ohr: Das Gitarrensolo aus Exos \"Ta bienveillance\". Musik \"zum Reinlegen\". Und zum Nachdenken:\n\n„Il est la main qui me délivre de la folie de mes projets.“\nSeine Hand befreit mich, wenn ich mich in meinen eigenen Plänen verliere.\n\nManchmal verliere ich mich in dem, was ich unbedingt schaffen, ordnen oder festhalten will. Dann tut dieser Gedanke gut.\n\nEin Liedimpuls zum Innehalten, Loslassen und Neuvertrauen.\n\n🎧 Spotify: https://open.spotify.com/search/Ta%20bienveillance%20Exo",
-      "headline": "Wenn ich mich in meinen eigenen Plänen verliere"
+      "headline": "Wenn ich mich in meinen eigenen Plänen verliere",
+      "text": "Schon die halbe Woche in meinem Ohr: Das Gitarrensolo aus Exos \"Ta bienveillance\". Musik \"zum Reinlegen\". Und zum Nachdenken:\n\n„Il est la main qui me délivre de la folie de mes projets.“\nSeine Hand befreit mich, wenn ich mich in meinen eigenen Plänen verliere.\n\nManchmal verliere ich mich in dem, was ich unbedingt schaffen, ordnen oder festhalten will. Dann tut dieser Gedanke gut.\n\nEin Liedimpuls zum Innehalten, Loslassen und Neuvertrauen.\n\n🎧 Spotify: https://open.spotify.com/search/Ta%20bienveillance%20Exo"
     },
     "instagram": {
       "caption": "Schon die halbe Woche in meinem Ohr: Das Gitarrensolo aus Exos \"Ta bienveillance\". Musik \"zum Reinlegen\". Und zum Nachdenken:\n\n„Il est la main qui me délivre de la folie de mes projets“\nSeine Hand befreit mich, wenn ich mich in meinen eigenen Plänen verliere.\n\nManchmal wird aus guten Plänen innerer Druck.\nDann tut mir dieser Gedanke gut.\n\nEin stiller Liedimpuls zum Loslassen und Neuvertrauen.\n\n🎧 Spotify: https://open.spotify.com/search/Ta%20bienveillance%20Exo",
       "carousel": [
         {
-          "type": "title",
-          "text": "Schon die halbe Woche in meinem Ohr: Das Gitarrensolo aus Exos \"Ta bienveillance\". Musik \"zum Reinlegen\". Und zum Nachdenken:"
+          "text": "Schon die halbe Woche in meinem Ohr: Das Gitarrensolo aus Exos \"Ta bienveillance\". Musik \"zum Reinlegen\". Und zum Nachdenken:",
+          "type": "title"
         },
         {
-          "type": "quote",
-          "text": "„Il est la main qui me délivre de la folie de mes projets“"
+          "text": "„Il est la main qui me délivre de la folie de mes projets“",
+          "type": "quote"
         },
         {
-          "type": "quote",
-          "text": "Seine Hand befreit mich, wenn ich mich in meinen eigenen Plänen verliere."
+          "text": "Seine Hand befreit mich, wenn ich mich in meinen eigenen Plänen verliere.",
+          "type": "quote"
         },
         {
-          "type": "reflection",
-          "text": "Nicht alles muss heute gelingen. Ich darf loslassen."
+          "text": "Nicht alles muss heute gelingen. Ich darf loslassen.",
+          "type": "reflection"
         },
         {
-          "type": "closing",
-          "text": "Gott hält mich auch dann, wenn meine Wege zu eng werden."
+          "text": "Gott hält mich auch dann, wenn meine Wege zu eng werden.",
+          "type": "closing"
         }
       ]
     },
@@ -96,7 +96,7 @@
   },
   "visual": {
     "concept": "Atmosphärische Nahaufnahme einer E-Gitarre im warmen Bühnenlicht, Fokus auf Saiten, Hände und den Moment des Klangs, ruhig und geistlich statt werblich oder konzertlaut.",
-    "flux_prompt": "Atmosphärische Nahaufnahme einer E-Gitarre im warmen Bühnenlicht, Fokus auf Saiten und spielende Hände, ruhige konzentrierte Stimmung, weiches Licht, geringe Tiefenschärfe, keine sichtbare Band, kein Publikum im Fokus, geistliche und nachdenkliche Atmosphäre, hochwertig fotografisch. Nur EIN Gitarrenhals.",
+    "flux_prompt": "Atmosphärische Nahaufnahme einer E-Gitarre im warmen Bühnenlicht, Fokus auf Saiten und spielende Hände, ruhige konzentrierte Stimmung, weiches Licht, geringe Tiefenschärfe, keine sichtbare Band, kein Publikum im Fokus, geistliche und nachdenkliche Atmosphäre, hochwertig fotografisch. Nur EIN Gitarrenhals. 6 Saiten.",
     "negative_prompt": "text, letters, logo, watermark",
     "formats": [
       "4:5",
@@ -106,11 +106,11 @@
     "alt_text": "Nahaufnahme einer E-Gitarre im warmen Licht, mit Fokus auf Saiten und Händen beim Spielen. Die Szene wirkt ruhig, konzentriert und nachdenklich."
   },
   "qa": {
+    "approved": false,
     "warnings": [
       "Song lyric copyright must be checked manually before publication.",
       "Public copy may contain quoted or verse-like lyrics. Confirm that no protected full lyrics are published."
-    ],
-    "approved": true
+    ]
   },
   "metadata": {
     "model": "manual",
