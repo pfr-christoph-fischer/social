@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-08-21",
+    "contentDate": "2026-08-21",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-08-21T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Die Erlösten des HERRN werden heimkehren. Wonne und Freude werden sie ergreifen, aber Trauern und Seufzen wird von ihnen fliehen.",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Die Erlösten des HERRN werden heimkehren. Wonne und Freude werden sie ergreifen, aber Trauern und Seufzen wird von ihnen fliehen."
+    ],
+    "id": "ca93a391-4b19-4513-9101-b1b735777c2d",
+    "attemptCount": 1,
+    "remoteId": "18139799713602380",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:44:30.698Z",
+    "updatedAt": "2026-08-21T05:00:28.559Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-08-21",
+    "contentDate": "2026-08-21",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-08-21T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Die Erlösten des HERRN werden heimkehren. Wonne und Freude werden sie ergreifen, aber Trauern und Seufzen wird von ihnen fliehen.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Die Erlösten des HERRN werden heimkehren. Wonne und Freude werden sie ergreifen, aber Trauern und Seufzen wird von ihnen fliehen."
+    ],
+    "id": "a27ea069-a959-41a6-9b0d-1a0d28d4b7d1",
+    "attemptCount": 1,
+    "remoteId": "117131734569093067",
+    "remoteUrl": "https://kirche.social/@christoph/117131734569093067",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:44:30.702Z",
+    "updatedAt": "2026-08-21T05:00:30.390Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
