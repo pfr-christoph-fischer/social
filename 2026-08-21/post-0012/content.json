@@ -9,8 +9,8 @@
     "liturgical_source": "https://kirchenjahr.pfarr.tools/api/jahr/2026"
   },
   "editorial_core": {
-    "title": "Liedgedanke: EG 395 – Vertraut den neuen Wegen",
-    "main_message": "Keine vollständige urheberrechtlich geschützte Strophe abdrucken; Titel, kurze zulässige Zeile oder eigene Paraphrase verwenden.",
+    "title": "Liedgedanke: Ta bienveillance",
+    "main_message": "Seine Hand befreit mich, wenn ich mich in meinen eigenen Plänen verliere.",
     "audience": "breite Öffentlichkeit",
     "tone": [
       "klar",
@@ -28,43 +28,78 @@
   },
   "platforms": {
     "facebook": {
-      "text": "",
-      "headline": ""
+      "text": "Manchmal verliere ich mich in dem, was ich unbedingt schaffen, ordnen oder festhalten will. Dann tut dieser Gedanke gut: Seine Hand befreit mich, wenn ich mich in meinen eigenen Plänen verliere.\n\nEin Liedimpuls zum Innehalten, Loslassen und Neuvertrauen.",
+      "headline": "Wenn ich mich in meinen eigenen Plänen verliere"
     },
     "instagram": {
-      "caption": "",
-      "carousel": []
+      "caption": "Manchmal wird aus guten Plänen innerer Druck.\nDann tut mir dieser Gedanke gut:\nSeine Hand befreit mich, wenn ich mich in meinen eigenen Plänen verliere.\n\nEin stiller Liedimpuls zum Loslassen und Neuvertrauen.",
+      "carousel": [
+        {
+          "type": "title",
+          "text": "Liedgedanke: Ta bienveillance"
+        },
+        {
+          "type": "quote",
+          "text": "Seine Hand befreit mich, wenn ich mich in meinen eigenen Plänen verliere."
+        },
+        {
+          "type": "reflection",
+          "text": "Nicht alles muss heute gelingen. Ich darf loslassen."
+        },
+        {
+          "type": "closing",
+          "text": "Gott hält mich auch dann, wenn meine Wege zu eng werden."
+        }
+      ]
     },
     "mastodon": {
-      "text": ""
+      "text": "Manchmal verliere ich mich in meinen eigenen Plänen. Dann trägt mich dieser Gedanke: Seine Hand befreit mich, wenn ich mich in meinen eigenen Plänen verliere. Ein stiller Liedimpuls zum Loslassen und Neuvertrauen."
     },
     "bluesky": {
-      "text": ""
+      "text": "Manchmal verliere ich mich in meinen eigenen Plänen. Dann tut dieser Gedanke gut: Seine Hand befreit mich, wenn ich mich in meinen eigenen Plänen verliere."
     },
     "story": {
-      "slides": []
+      "slides": [
+        {
+          "text": "Kennst du das? Zu viele eigene Pläne im Kopf."
+        },
+        {
+          "text": "Und irgendwann wird aus Planen nur noch innerer Druck."
+        },
+        {
+          "text": "Seine Hand befreit mich, wenn ich mich in meinen eigenen Plänen verliere."
+        },
+        {
+          "text": "Loslassen. Durchatmen. Neu vertrauen."
+        }
+      ]
     },
     "reel": {
-      "hook": "",
-      "script": "",
-      "shots": [],
-      "duration_seconds": 0
+      "hook": "Wenn ich mich in meinen eigenen Plänen verliere",
+      "script": "Manchmal meine ich, ich müsste alles selbst ordnen. Alles festhalten. Alles richtig machen. Und dann merke ich: Ich habe mich in meinen eigenen Plänen verloren. Dieser Liedgedanke holt mich zurück: Seine Hand befreit mich, wenn ich mich in meinen eigenen Plänen verliere. Vielleicht ist heute der Moment, etwas loszulassen und neu zu vertrauen.",
+      "shots": [
+        "Nahaufnahme von E-Gitarrensaiten im warmen Bühnenlicht",
+        "Hand auf dem Griffbrett, ruhige Bewegung",
+        "Kurzer Fokus auf den Anschlag der Saiten",
+        "Weiches Licht, ruhiger Hintergrund ohne Publikum",
+        "Ausblendung auf stilles Schlussbild"
+      ],
+      "duration_seconds": 25
     }
   },
   "visual": {
-    "concept": "",
-    "flux_prompt": "",
+    "concept": "Atmosphärische Nahaufnahme einer E-Gitarre im warmen Bühnenlicht, Fokus auf Saiten, Hände und den Moment des Klangs, ruhig und geistlich statt werblich oder konzertlaut.",
+    "flux_prompt": "Atmosphärische Nahaufnahme einer E-Gitarre im warmen Bühnenlicht, Fokus auf Saiten und spielende Hände, ruhige konzentrierte Stimmung, weiches Licht, geringe Tiefenschärfe, keine sichtbare Band, kein Publikum im Fokus, geistliche und nachdenkliche Atmosphäre, hochwertig fotografisch",
     "negative_prompt": "text, letters, logo, watermark",
     "formats": [
       "4:5",
       "9:16",
       "1.91:1"
     ],
-    "alt_text": ""
+    "alt_text": "Nahaufnahme einer E-Gitarre im warmen Licht, mit Fokus auf Saiten und Händen beim Spielen. Die Szene wirkt ruhig, konzentriert und nachdenklich."
   },
   "qa": {
     "warnings": [
-      "Alt text must be completed before approval",
       "Check song lyric copyright before publication"
     ],
     "approved": false
