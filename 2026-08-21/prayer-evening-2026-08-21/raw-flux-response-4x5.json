@@ -1,0 +1,44 @@
+{
+  "delivery_url": "https://delivery.eu2.bfl.ai/durable/2026082117/5e1f69ea-538b-4d66-962e-9be995966f07/d7/072298176b492e/176b492e54124af3b7801e01f60fb721/sample.jpeg?se=2026-08-21T17%3A51%3A12Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=Sc/MevD%2BXvyDtPZlIS8U0YANgIEjD6U65BCqpjtpsDc%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "fd51a29f-f8bf-4991-8678-b0af8da83bc4",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "fd51a29f-f8bf-4991-8678-b0af8da83bc4",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "fd51a29f-f8bf-4991-8678-b0af8da83bc4",
+      "status": "Ready",
+      "result": {
+        "start_time": 1787334071.2616527,
+        "prompt": "Ruhige Abendszene an einem Fenster, warmes Restlicht in der Dämmerung, schlichter Holztisch mit brennender Kerze und geschlossenem Notizbuch, stille nachdenkliche Atmosphäre, dezent bedrückt und zugleich hoffnungsvoll, weiches natürliches Licht, fotografisch, keine Menschen, keine direkte Gewaltdarstellung, geeignet als Titelbild für ein Abendgebet, no text, no letters, no typography, no logo, no watermark",
+        "seed": 849994540,
+        "sample": "https://delivery.eu2.bfl.ai/durable/2026082117/5e1f69ea-538b-4d66-962e-9be995966f07/d7/072298176b492e/176b492e54124af3b7801e01f60fb721/sample.jpeg?se=2026-08-21T17%3A51%3A12Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=Sc/MevD%2BXvyDtPZlIS8U0YANgIEjD6U65BCqpjtpsDc%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "fd51a29f-f8bf-4991-8678-b0af8da83bc4",
+    "polling_url": "https://api.eu2.bfl.ai/v1/get_result?id=fd51a29f-f8bf-4991-8678-b0af8da83bc4",
+    "cost": 1.5,
+    "input_mp": 0,
+    "output_mp": 1.39
+  }
+}
