@@ -27,5 +27,67 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "prayer-morning-2026-08-21",
+    "contentDate": "2026-08-21",
+    "platform": "instagram",
+    "format": "default",
+    "scheduledAt": "2026-08-21T05:15:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Gott,\ndieser Morgen ist da.\n\nWir beten für Menschen in Peru nach dem Erdbeben.\nWir beten für Menschen in der Zentralafrikanischen Republik nach dem Einsturz einer Goldmine.\n\nSei den Leidenden nahe.\nStärke die, die helfen.\nWecke auch uns.\nZu Klarheit.\nZu Mitgefühl.\nZu mutigen kleinen Schritten.\n\nDeine Zukunft ist größer als Angst.\nAmen.",
+    "assets": [
+      "render-instagram-feed-01.jpg",
+      "render-instagram-feed-02.jpg",
+      "render-instagram-feed-03.jpg",
+      "render-instagram-feed-04.jpg",
+      "render-instagram-feed-05.jpg",
+      "render-instagram-feed-06.jpg"
+    ],
+    "altTexts": [
+      "Früher Morgen im Freien über einer stillen offenen Landschaft mit weitem Himmel und weichem Licht. Ein schmaler Weg oder sanfter Hügel liegt im Vordergrund. Das Bild vermittelt Ruhe, Wachheit und Hoffnung."
+    ],
+    "id": "c668035d-5b3e-46a8-92b2-171fb92ca767",
+    "attemptCount": 1,
+    "remoteId": "17992649111830462",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-21T06:45:18.967Z",
+    "updatedAt": "2026-08-21T06:50:59.456Z",
+    "responseMetadata": {
+      "mediaCount": 6,
+      "mediaType": "CAROUSEL",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "prayer-morning-2026-08-21",
+    "contentDate": "2026-08-21",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-08-21T05:15:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Gott,\ndieser Morgen ist da.\n\nWir beten für Menschen in Peru nach dem Erdbeben.\nFür Menschen in der Zentralafrikanischen Republik nach dem Einsturz einer Goldmine.\n\nSei den Leidenden nahe.\nStärke die, die helfen.\nWecke auch uns zu Mitgefühl, Mut und guten Schritten.\nAmen.",
+    "assets": [
+      "render-facebook-mastodon-01.png"
+    ],
+    "altTexts": [
+      "Früher Morgen im Freien über einer stillen offenen Landschaft mit weitem Himmel und weichem Licht. Ein schmaler Weg oder sanfter Hügel liegt im Vordergrund. Das Bild vermittelt Ruhe, Wachheit und Hoffnung."
+    ],
+    "id": "75ee17c3-a213-4874-af94-dda44300b459",
+    "attemptCount": 1,
+    "remoteId": "117132169114665748",
+    "remoteUrl": "https://kirche.social/@christoph/117132169114665748",
+    "lastError": null,
+    "createdAt": "2026-08-21T06:45:19.016Z",
+    "updatedAt": "2026-08-21T06:51:01.029Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
