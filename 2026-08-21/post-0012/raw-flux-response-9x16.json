@@ -1,11 +1,11 @@
 {
-  "delivery_url": "https://delivery.eu2.bfl.ai/durable/2026082107/5e1f69ea-538b-4d66-962e-9be995966f07/34/334947cc24631f/cc24631f95f44d5fa1df7555ea25246d/sample.jpeg?se=2026-08-21T07%3A22%3A15Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=Ux2LukchIuXjAO5Bno3NAh51R35C81rHOlDoMDndPgY%3D",
+  "delivery_url": "https://delivery.eu2.bfl.ai/durable/2026082107/5e1f69ea-538b-4d66-962e-9be995966f07/f3/162176f764e197/f764e197910d4ab5992fbf8e61901a02/sample.jpeg?se=2026-08-21T07%3A36%3A02Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=w28GyK70PMjgND84FJmV0yYwQE%2BCClU4FvsMrOE25T0%3D",
   "download_headers": {
     "content_type": "image/jpeg"
   },
   "polls": [
     {
-      "id": "07315145-06d0-45dc-ac49-322f9ddd0a95",
+      "id": "a4dfccb2-a097-440b-ba06-bbc16888aee5",
       "status": "Pending",
       "result": null,
       "progress": null,
@@ -13,7 +13,7 @@
       "preview": null
     },
     {
-      "id": "07315145-06d0-45dc-ac49-322f9ddd0a95",
+      "id": "a4dfccb2-a097-440b-ba06-bbc16888aee5",
       "status": "Pending",
       "result": null,
       "progress": null,
@@ -21,7 +21,7 @@
       "preview": null
     },
     {
-      "id": "07315145-06d0-45dc-ac49-322f9ddd0a95",
+      "id": "a4dfccb2-a097-440b-ba06-bbc16888aee5",
       "status": "Pending",
       "result": null,
       "progress": null,
@@ -29,13 +29,13 @@
       "preview": null
     },
     {
-      "id": "07315145-06d0-45dc-ac49-322f9ddd0a95",
+      "id": "a4dfccb2-a097-440b-ba06-bbc16888aee5",
       "status": "Ready",
       "result": {
-        "start_time": 1787296333.6196022,
-        "prompt": "Atmosphärische Nahaufnahme einer E-Gitarre im warmen Bühnenlicht, Fokus auf Saiten und spielende Hände, ruhige konzentrierte Stimmung, weiches Licht, geringe Tiefenschärfe, keine sichtbare Band, kein Publikum im Fokus, geistliche und nachdenkliche Atmosphäre, hochwertig fotografisch. Nur EIN Gitarrenhals. 6 Saiten., no text, no letters, no typography, no logo, no watermark",
-        "seed": 1847828329,
-        "sample": "https://delivery.eu2.bfl.ai/durable/2026082107/5e1f69ea-538b-4d66-962e-9be995966f07/34/334947cc24631f/cc24631f95f44d5fa1df7555ea25246d/sample.jpeg?se=2026-08-21T07%3A22%3A15Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=Ux2LukchIuXjAO5Bno3NAh51R35C81rHOlDoMDndPgY%3D"
+        "start_time": 1787297160.7535477,
+        "prompt": "Atmosphärische Nahaufnahme einer E-Gitarre im warmen Bühnenlicht, Fokus auf Saiten und spielende Hand, ruhige konzentrierte Stimmung, weiches Licht, geringe Tiefenschärfe, keine sichtbare Band, kein Publikum im Fokus, geistliche und nachdenkliche Atmosphäre, hochwertig fotografisch. Nur EIN Gitarrenhals, nicht verzerrt oder gekrümmt. 6 Saiten. Nur eine, anatomisch korrekte Hand sichtbar., no text, no letters, no typography, no logo, no watermark",
+        "seed": 2868108263,
+        "sample": "https://delivery.eu2.bfl.ai/durable/2026082107/5e1f69ea-538b-4d66-962e-9be995966f07/f3/162176f764e197/f764e197910d4ab5992fbf8e61901a02/sample.jpeg?se=2026-08-21T07%3A36%3A02Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=w28GyK70PMjgND84FJmV0yYwQE%2BCClU4FvsMrOE25T0%3D"
       },
       "progress": null,
       "details": null,
@@ -43,8 +43,8 @@
     }
   ],
   "submission": {
-    "id": "07315145-06d0-45dc-ac49-322f9ddd0a95",
-    "polling_url": "https://api.eu2.bfl.ai/v1/get_result?id=07315145-06d0-45dc-ac49-322f9ddd0a95",
+    "id": "a4dfccb2-a097-440b-ba06-bbc16888aee5",
+    "polling_url": "https://api.eu2.bfl.ai/v1/get_result?id=a4dfccb2-a097-440b-ba06-bbc16888aee5",
     "cost": 1.5,
     "input_mp": 0,
     "output_mp": 1.98
