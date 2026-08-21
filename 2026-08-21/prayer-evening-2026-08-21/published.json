@@ -27,5 +27,66 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "prayer-evening-2026-08-21",
+    "contentDate": "2026-08-21",
+    "platform": "instagram",
+    "format": "default",
+    "scheduledAt": "2026-08-21T18:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Abendgebet\n\nDer Tag muss vor Gott nicht perfekt sein.\nWas gut war, darf dankbar werden.\nWas schwer war, darf losgelassen werden.\n\nHeute beten wir auch für die Menschen in Krywyj Rih in der Ukraine nach dem russischen Angriff. Und für die Menschen an einer Schule in Fagersta in Schweden, die von einem Amoklauf erschüttert wurden.\n\nGott, nimm diesen Tag in deine Hand. Und schenke Frieden für diese Nacht.\n\nAmen.",
+    "assets": [
+      "render-instagram-feed-01.jpg",
+      "render-instagram-feed-02.jpg",
+      "render-instagram-feed-03.jpg",
+      "render-instagram-feed-04.jpg",
+      "render-instagram-feed-05.jpg"
+    ],
+    "altTexts": [
+      "Ein schlichter Tisch steht an einem Fenster im Abendlicht. Auf dem Tisch liegen ein geschlossenes Notizbuch und eine brennende Kerze. Draußen ist der Himmel in der Dämmerung blau und gold gefärbt. Die Szene wirkt still, nachdenklich und hoffnungsvoll."
+    ],
+    "id": "aee0faf0-77cf-4cb8-8fc9-d1c096f65b90",
+    "attemptCount": 1,
+    "remoteId": "18086249918677303",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-21T17:56:58.283Z",
+    "updatedAt": "2026-08-21T18:00:59.033Z",
+    "responseMetadata": {
+      "mediaCount": 5,
+      "mediaType": "CAROUSEL",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "prayer-evening-2026-08-21",
+    "contentDate": "2026-08-21",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-08-21T18:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Abendgebet\n\nGott,\nwir legen dir diesen Tag hin.\nGutes. Schweres. Unfertiges.\n\nWir bitten dich für die Menschen in Krywyj Rih in der Ukraine nach dem russischen Angriff. Und für die Menschen an einer Schule in Fagersta in Schweden, die von einem Amoklauf erschüttert wurden.\n\nSchenk Frieden für diese Nacht.\nAmen.",
+    "assets": [
+      "render-facebook-mastodon-01.png"
+    ],
+    "altTexts": [
+      "Ein schlichter Tisch steht an einem Fenster im Abendlicht. Auf dem Tisch liegen ein geschlossenes Notizbuch und eine brennende Kerze. Draußen ist der Himmel in der Dämmerung blau und gold gefärbt. Die Szene wirkt still, nachdenklich und hoffnungsvoll."
+    ],
+    "id": "0dd6cdb0-dbc6-46a6-a30b-fa42fc7e81f3",
+    "attemptCount": 1,
+    "remoteId": "117134803618844642",
+    "remoteUrl": "https://kirche.social/@christoph/117134803618844642",
+    "lastError": null,
+    "createdAt": "2026-08-21T17:56:58.346Z",
+    "updatedAt": "2026-08-21T18:01:00.362Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
