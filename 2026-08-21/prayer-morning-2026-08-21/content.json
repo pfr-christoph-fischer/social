@@ -25,35 +25,35 @@
   },
   "platforms": {
     "facebook": {
-      "text": "Gott,\ndieser Morgen ist da.\nDie Luft ist kühl.\nDer Tag liegt noch offen vor uns.\n\nWir bringen dir, was heute schwer auf Menschen liegt.\nWir denken an die Menschen in Peru nach dem Erdbeben.\nAn Verletzte.\nAn Suchende.\nAn Familien, die um Angehörige bangen.\nAn Orte, in denen Häuser beschädigt sind und Angst geblieben ist.\n\nWir denken an die Menschen in der Zentralafrikanischen Republik nach dem Einsturz einer Goldmine.\nAn Verschüttete.\nAn Angehörige in Sorge.\nAn alle, die retten, hoffen und ausharren.\n\nSei den Leidenden nahe.\nStärke die, die helfen.\nGib denen Weisheit, die Verantwortung tragen.\n\nUnd wecke auch uns.\nMach uns aufmerksam.\nMach uns mutig.\nLass uns heute nicht abstumpfen.\nZeig uns den kleinen Schritt, den wir tun können.\n\nDeine Zukunft ist größer als Angst und Zerstörung.\nDarum gehen wir in diesen Tag.\nNicht blind.\nAber mit Hoffnung.\nAmen.",
-      "headline": "Morgengebet: mit offenen Augen in diesen Tag"
+      "headline": "Morgengebet: mit offenen Augen in diesen Tag",
+      "text": "Gott,\ndieser Morgen ist da.\nDie Luft ist kühl.\nDer Tag liegt noch offen vor uns.\n\nWir bringen dir, was heute schwer auf Menschen liegt.\nWir denken an die Menschen in Peru nach dem Erdbeben.\nAn Verletzte.\nAn Suchende.\nAn Familien, die um Angehörige bangen.\nAn Orte, in denen Häuser beschädigt sind und Angst geblieben ist.\n\nWir denken an die Menschen in der Zentralafrikanischen Republik nach dem Einsturz einer Goldmine.\nAn Verschüttete.\nAn Angehörige in Sorge.\nAn alle, die retten, hoffen und ausharren.\n\nSei den Leidenden nahe.\nStärke die, die helfen.\nGib denen Weisheit, die Verantwortung tragen.\n\nUnd wecke auch uns.\nMach uns aufmerksam.\nMach uns mutig.\nLass uns heute nicht abstumpfen.\nZeig uns den kleinen Schritt, den wir tun können.\n\nDeine Zukunft ist größer als Angst und Zerstörung.\nDarum gehen wir in diesen Tag.\nNicht blind.\nAber mit Hoffnung.\nAmen."
     },
     "instagram": {
       "caption": "Gott,\ndieser Morgen ist da.\n\nWir beten für Menschen in Peru nach dem Erdbeben.\nWir beten für Menschen in der Zentralafrikanischen Republik nach dem Einsturz einer Goldmine.\n\nSei den Leidenden nahe.\nStärke die, die helfen.\nWecke auch uns.\nZu Klarheit.\nZu Mitgefühl.\nZu mutigen kleinen Schritten.\n\nDeine Zukunft ist größer als Angst.\nAmen.",
       "carousel": [
         {
-          "type": "text",
-          "text": "Gott,\ndieser Morgen ist da.\nDer Tag liegt offen vor uns."
+          "text": "Gott,\ndieser Morgen ist da.\nDer Tag liegt offen vor uns.",
+          "type": "text"
         },
         {
-          "type": "text",
-          "text": "Wir beten für Menschen in Peru.\nFür Verletzte, Suchende und Familien in Angst nach dem Erdbeben."
+          "text": "Wir beten für Menschen in Peru.\nFür Verletzte, Suchende und Familien in Angst nach dem Erdbeben.",
+          "type": "text"
         },
         {
-          "type": "text",
-          "text": "Wir beten für Menschen in der Zentralafrikanischen Republik.\nFür Verschüttete, Angehörige und Rettende nach dem Einsturz einer Goldmine."
+          "text": "Wir beten für Menschen in der Zentralafrikanischen Republik.\nFür Verschüttete, Angehörige und Rettende nach dem Einsturz einer Goldmine.",
+          "type": "text"
         },
         {
-          "type": "text",
-          "text": "Sei den Leidenden nahe.\nStärke die, die helfen.\nGib Weisheit und Ausdauer."
+          "text": "Sei den Leidenden nahe.\nStärke die, die helfen.\nGib Weisheit und Ausdauer.",
+          "type": "text"
         },
         {
-          "type": "text",
-          "text": "Wecke auch uns.\nZu Mitgefühl.\nZu Mut.\nZu kleinen Schritten der Nächstenliebe heute."
+          "text": "Wecke auch uns.\nZu Mitgefühl.\nZu Mut.\nZu kleinen Schritten der Nächstenliebe heute.",
+          "type": "text"
         },
         {
-          "type": "text",
-          "text": "Deine Zukunft ist größer als Angst.\nDarum gehen wir in diesen Tag.\nAmen."
+          "text": "Deine Zukunft ist größer als Angst.\nDarum gehen wir in diesen Tag.\nAmen.",
+          "type": "text"
         }
       ]
     },
@@ -110,10 +110,10 @@
     "alt_text": "Früher Morgen im Freien über einer stillen offenen Landschaft mit weitem Himmel und weichem Licht. Ein schmaler Weg oder sanfter Hügel liegt im Vordergrund. Das Bild vermittelt Ruhe, Wachheit und Hoffnung."
   },
   "qa": {
+    "approved": false,
     "warnings": [
       "Aktuelle Bezüge vor Veröffentlichung am Morgen des 21.08.2026 erneut kurz gegen tagesschau.de prüfen, da sich die Lage in Peru und in der Zentralafrikanischen Republik tagesaktuell ändern kann."
-    ],
-    "approved": false
+    ]
   },
   "metadata": {
     "model": "gpt-5.4-2026-03-05",
