@@ -1,0 +1,78 @@
+{
+  "checks": [
+    {
+      "check": "alt-text-present",
+      "findings": [],
+      "status": "passed"
+    },
+    {
+      "check": "flux-prompt-no-text",
+      "findings": [],
+      "status": "passed"
+    },
+    {
+      "check": "required-fields",
+      "findings": [],
+      "status": "passed"
+    },
+    {
+      "check": "platform-lengths",
+      "findings": [],
+      "status": "passed"
+    },
+    {
+      "check": "current-events",
+      "findings": [],
+      "status": "passed"
+    },
+    {
+      "check": "privacy",
+      "findings": [],
+      "status": "passed"
+    },
+    {
+      "check": "song-lyrics",
+      "findings": [
+        {
+          "check": "song-lyrics",
+          "message": "Song lyric copyright must be checked manually before publication.",
+          "severity": "warning"
+        },
+        {
+          "check": "song-lyrics",
+          "message": "Public copy may contain quoted or verse-like lyrics. Confirm that no protected full lyrics are published.",
+          "severity": "warning"
+        }
+      ],
+      "status": "warning"
+    },
+    {
+      "check": "scripture-citation",
+      "findings": [
+        {
+          "check": "scripture-citation",
+          "message": "A biblical citation is required but was not found in the public platform copy.",
+          "severity": "error"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "check": "predigt-preview-input",
+      "findings": [],
+      "status": "passed"
+    }
+  ],
+  "content_path": "content/2026-08-21/post-0012/content.json",
+  "errors": [
+    "A biblical citation is required but was not found in the public platform copy."
+  ],
+  "post_id": "post-0012",
+  "ready_for_approval": false,
+  "status_after_run": "in Arbeit",
+  "status_before_run": "in Arbeit",
+  "warnings": [
+    "Song lyric copyright must be checked manually before publication.",
+    "Public copy may contain quoted or verse-like lyrics. Confirm that no protected full lyrics are published."
+  ]
+}

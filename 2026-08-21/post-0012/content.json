@@ -30,31 +30,31 @@
   },
   "platforms": {
     "facebook": {
-      "headline": "Wenn ich mich in meinen eigenen Plänen verliere",
-      "text": "Schon die halbe Woche in meinem Ohr: Das Gitarrensolo aus Exos \"Ta bienveillance\". Musik \"zum Reinlegen\". Und zum Nachdenken:\n\n„Il est la main qui me délivre de la folie de mes projets.“\nSeine Hand befreit mich, wenn ich mich in meinen eigenen Plänen verliere.\n\nManchmal verliere ich mich in dem, was ich unbedingt schaffen, ordnen oder festhalten will. Dann tut dieser Gedanke gut.\n\nEin Liedimpuls zum Innehalten, Loslassen und Neuvertrauen.\n\n🎧 Spotify: https://open.spotify.com/search/Ta%20bienveillance%20Exo"
+      "text": "Schon die halbe Woche in meinem Ohr: Das Gitarrensolo aus Exos \"Ta bienveillance\". Musik \"zum Reinlegen\". Und zum Nachdenken:\n\n„Il est la main qui me délivre de la folie de mes projets.“\nSeine Hand befreit mich, wenn ich mich in meinen eigenen Plänen verliere.\n\nManchmal verliere ich mich in dem, was ich unbedingt schaffen, ordnen oder festhalten will. Dann tut dieser Gedanke gut.\n\nEin Liedimpuls zum Innehalten, Loslassen und Neuvertrauen.\n\n🎧 Spotify: https://open.spotify.com/search/Ta%20bienveillance%20Exo",
+      "headline": "Wenn ich mich in meinen eigenen Plänen verliere"
     },
     "instagram": {
       "caption": "Schon die halbe Woche in meinem Ohr: Das Gitarrensolo aus Exos \"Ta bienveillance\". Musik \"zum Reinlegen\". Und zum Nachdenken:\n\n„Il est la main qui me délivre de la folie de mes projets“\nSeine Hand befreit mich, wenn ich mich in meinen eigenen Plänen verliere.\n\nManchmal wird aus guten Plänen innerer Druck.\nDann tut mir dieser Gedanke gut.\n\nEin stiller Liedimpuls zum Loslassen und Neuvertrauen.\n\n🎧 Spotify: https://open.spotify.com/search/Ta%20bienveillance%20Exo",
       "carousel": [
         {
-          "text": "Schon die halbe Woche in meinem Ohr: Das Gitarrensolo aus Exos \"Ta bienveillance\". Musik \"zum Reinlegen\". Und zum Nachdenken:",
-          "type": "title"
+          "type": "title",
+          "text": "Schon die halbe Woche in meinem Ohr: Das Gitarrensolo aus Exos \"Ta bienveillance\". Musik \"zum Reinlegen\". Und zum Nachdenken:"
         },
         {
-          "text": "„Il est la main qui me délivre de la folie de mes projets“",
-          "type": "quote"
+          "type": "quote",
+          "text": "„Il est la main qui me délivre de la folie de mes projets“"
         },
         {
-          "text": "Seine Hand befreit mich, wenn ich mich in meinen eigenen Plänen verliere.",
-          "type": "quote"
+          "type": "quote",
+          "text": "Seine Hand befreit mich, wenn ich mich in meinen eigenen Plänen verliere."
         },
         {
-          "text": "Nicht alles muss heute gelingen. Ich darf loslassen.",
-          "type": "reflection"
+          "type": "reflection",
+          "text": "Nicht alles muss heute gelingen. Ich darf loslassen."
         },
         {
-          "text": "Gott hält mich auch dann, wenn meine Wege zu eng werden.",
-          "type": "closing"
+          "type": "closing",
+          "text": "Gott hält mich auch dann, wenn meine Wege zu eng werden."
         }
       ]
     },
@@ -107,7 +107,10 @@
   },
   "qa": {
     "approved": false,
-    "warnings": []
+    "warnings": [
+      "Song lyric copyright must be checked manually before publication.",
+      "Public copy may contain quoted or verse-like lyrics. Confirm that no protected full lyrics are published."
+    ]
   },
   "metadata": {
     "model": "",
