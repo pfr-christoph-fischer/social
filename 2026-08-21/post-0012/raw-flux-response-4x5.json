@@ -1,11 +1,11 @@
 {
-  "delivery_url": "https://delivery.eu2.bfl.ai/durable/2026082106/5e1f69ea-538b-4d66-962e-9be995966f07/d0/133037e256e8db/e256e8db5caf4d5fa66662da226d99da/sample.jpeg?se=2026-08-21T07%3A02%3A13Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=KEZV2%2Br1A4clHGNiRNraCJiHXnSwC4fWeWgk/tH/Y6A%3D",
+  "delivery_url": "https://delivery.eu2.bfl.ai/durable/2026082106/5e1f69ea-538b-4d66-962e-9be995966f07/8d/1787053e2a5806/3e2a5806ac4f41b29851c8ac30923728/sample.jpeg?se=2026-08-21T07%3A02%3A59Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=4wAwP4%2BosnRYR/l5qiP5%2BQ3PAONJO1A43Dyaz7nnJhA%3D",
   "download_headers": {
     "content_type": "image/jpeg"
   },
   "polls": [
     {
-      "id": "f65c5631-6731-4bb5-8164-956fbfa9cd82",
+      "id": "583629c1-8679-40e2-b439-ea719997fbdf",
       "status": "Pending",
       "result": null,
       "progress": null,
@@ -13,7 +13,7 @@
       "preview": null
     },
     {
-      "id": "f65c5631-6731-4bb5-8164-956fbfa9cd82",
+      "id": "583629c1-8679-40e2-b439-ea719997fbdf",
       "status": "Pending",
       "result": null,
       "progress": null,
@@ -21,7 +21,7 @@
       "preview": null
     },
     {
-      "id": "f65c5631-6731-4bb5-8164-956fbfa9cd82",
+      "id": "583629c1-8679-40e2-b439-ea719997fbdf",
       "status": "Pending",
       "result": null,
       "progress": null,
@@ -29,13 +29,13 @@
       "preview": null
     },
     {
-      "id": "f65c5631-6731-4bb5-8164-956fbfa9cd82",
+      "id": "583629c1-8679-40e2-b439-ea719997fbdf",
       "status": "Ready",
       "result": {
-        "start_time": 1787295131.7360911,
-        "prompt": "Atmosphärische Nahaufnahme einer E-Gitarre im warmen Bühnenlicht, Fokus auf Saiten und spielende Hände, ruhige konzentrierte Stimmung, weiches Licht, geringe Tiefenschärfe, keine sichtbare Band, kein Publikum im Fokus, geistliche und nachdenkliche Atmosphäre, hochwertig fotografisch, no text, no letters, no typography, no logo, no watermark",
-        "seed": 3216939989,
-        "sample": "https://delivery.eu2.bfl.ai/durable/2026082106/5e1f69ea-538b-4d66-962e-9be995966f07/d0/133037e256e8db/e256e8db5caf4d5fa66662da226d99da/sample.jpeg?se=2026-08-21T07%3A02%3A13Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=KEZV2%2Br1A4clHGNiRNraCJiHXnSwC4fWeWgk/tH/Y6A%3D"
+        "start_time": 1787295177.6718419,
+        "prompt": "Atmosphärische Nahaufnahme einer E-Gitarre im warmen Bühnenlicht, Fokus auf Saiten und spielende Hände, ruhige konzentrierte Stimmung, weiches Licht, geringe Tiefenschärfe, keine sichtbare Band, kein Publikum im Fokus, geistliche und nachdenkliche Atmosphäre, hochwertig fotografisch. Nur EIN Gitarrenhals., no text, no letters, no typography, no logo, no watermark",
+        "seed": 680680660,
+        "sample": "https://delivery.eu2.bfl.ai/durable/2026082106/5e1f69ea-538b-4d66-962e-9be995966f07/8d/1787053e2a5806/3e2a5806ac4f41b29851c8ac30923728/sample.jpeg?se=2026-08-21T07%3A02%3A59Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=4wAwP4%2BosnRYR/l5qiP5%2BQ3PAONJO1A43Dyaz7nnJhA%3D"
       },
       "progress": null,
       "details": null,
@@ -43,8 +43,8 @@
     }
   ],
   "submission": {
-    "id": "f65c5631-6731-4bb5-8164-956fbfa9cd82",
-    "polling_url": "https://api.eu2.bfl.ai/v1/get_result?id=f65c5631-6731-4bb5-8164-956fbfa9cd82",
+    "id": "583629c1-8679-40e2-b439-ea719997fbdf",
+    "polling_url": "https://api.eu2.bfl.ai/v1/get_result?id=583629c1-8679-40e2-b439-ea719997fbdf",
     "cost": 1.5,
     "input_mp": 0,
     "output_mp": 1.39
