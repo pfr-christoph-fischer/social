@@ -1,11 +1,11 @@
 {
-  "delivery_url": "https://delivery.eu2.bfl.ai/durable/2026082106/5e1f69ea-538b-4d66-962e-9be995966f07/a3/402077b638c517/b638c5174c944bd2a5568dfa4bdd50ad/sample.jpeg?se=2026-08-21T07%3A06%3A42Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=Z35unq5IiUKGmaEgoL2cFxA2XVZXRBw0Lvy8ODP7SI8%3D",
+  "delivery_url": "https://delivery.eu2.bfl.ai/durable/2026082107/5e1f69ea-538b-4d66-962e-9be995966f07/34/334947cc24631f/cc24631f95f44d5fa1df7555ea25246d/sample.jpeg?se=2026-08-21T07%3A22%3A15Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=Ux2LukchIuXjAO5Bno3NAh51R35C81rHOlDoMDndPgY%3D",
   "download_headers": {
     "content_type": "image/jpeg"
   },
   "polls": [
     {
-      "id": "e27d2a3a-b98d-45f1-a853-efd3a0d3acbf",
+      "id": "07315145-06d0-45dc-ac49-322f9ddd0a95",
       "status": "Pending",
       "result": null,
       "progress": null,
@@ -13,7 +13,7 @@
       "preview": null
     },
     {
-      "id": "e27d2a3a-b98d-45f1-a853-efd3a0d3acbf",
+      "id": "07315145-06d0-45dc-ac49-322f9ddd0a95",
       "status": "Pending",
       "result": null,
       "progress": null,
@@ -21,7 +21,7 @@
       "preview": null
     },
     {
-      "id": "e27d2a3a-b98d-45f1-a853-efd3a0d3acbf",
+      "id": "07315145-06d0-45dc-ac49-322f9ddd0a95",
       "status": "Pending",
       "result": null,
       "progress": null,
@@ -29,21 +29,13 @@
       "preview": null
     },
     {
-      "id": "e27d2a3a-b98d-45f1-a853-efd3a0d3acbf",
-      "status": "Pending",
-      "result": null,
-      "progress": null,
-      "details": null,
-      "preview": null
-    },
-    {
-      "id": "e27d2a3a-b98d-45f1-a853-efd3a0d3acbf",
+      "id": "07315145-06d0-45dc-ac49-322f9ddd0a95",
       "status": "Ready",
       "result": {
-        "start_time": 1787295400.7754047,
+        "start_time": 1787296333.6196022,
         "prompt": "Atmosphärische Nahaufnahme einer E-Gitarre im warmen Bühnenlicht, Fokus auf Saiten und spielende Hände, ruhige konzentrierte Stimmung, weiches Licht, geringe Tiefenschärfe, keine sichtbare Band, kein Publikum im Fokus, geistliche und nachdenkliche Atmosphäre, hochwertig fotografisch. Nur EIN Gitarrenhals. 6 Saiten., no text, no letters, no typography, no logo, no watermark",
-        "seed": 1436000096,
-        "sample": "https://delivery.eu2.bfl.ai/durable/2026082106/5e1f69ea-538b-4d66-962e-9be995966f07/a3/402077b638c517/b638c5174c944bd2a5568dfa4bdd50ad/sample.jpeg?se=2026-08-21T07%3A06%3A42Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=Z35unq5IiUKGmaEgoL2cFxA2XVZXRBw0Lvy8ODP7SI8%3D"
+        "seed": 1847828329,
+        "sample": "https://delivery.eu2.bfl.ai/durable/2026082107/5e1f69ea-538b-4d66-962e-9be995966f07/34/334947cc24631f/cc24631f95f44d5fa1df7555ea25246d/sample.jpeg?se=2026-08-21T07%3A22%3A15Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=Ux2LukchIuXjAO5Bno3NAh51R35C81rHOlDoMDndPgY%3D"
       },
       "progress": null,
       "details": null,
@@ -51,8 +43,8 @@
     }
   ],
   "submission": {
-    "id": "e27d2a3a-b98d-45f1-a853-efd3a0d3acbf",
-    "polling_url": "https://api.eu2.bfl.ai/v1/get_result?id=e27d2a3a-b98d-45f1-a853-efd3a0d3acbf",
+    "id": "07315145-06d0-45dc-ac49-322f9ddd0a95",
+    "polling_url": "https://api.eu2.bfl.ai/v1/get_result?id=07315145-06d0-45dc-ac49-322f9ddd0a95",
     "cost": 1.5,
     "input_mp": 0,
     "output_mp": 1.98
