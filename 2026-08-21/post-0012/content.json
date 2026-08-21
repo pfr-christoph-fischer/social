@@ -10,7 +10,7 @@
   },
   "editorial_core": {
     "title": "Liedgedanke: Ta bienveillance",
-    "main_message": "Seine Hand befreit mich, wenn ich mich in meinen eigenen Plänen verliere.",
+    "main_message": "„Il est la main qui me délivre de la folie de mes projets“ – Seine Hand befreit mich, wenn ich mich in meinen eigenen Plänen verliere.",
     "audience": "breite Öffentlichkeit",
     "tone": [
       "klar",
@@ -23,20 +23,26 @@
       "Production mode: vollständig vorproduzierbar",
       "Structure: ein konkretes Lebensthema | knappe geistliche Sprache | kein Erklärton",
       "AI support notes: Gebetsentwurf | sprachliche Verdichtung | Reel-Sprechtext | Alt-Text",
-      "Liturgical source: https://kirchenjahr.pfarr.tools/api/jahr/2026 (2026-08-16, $.Tage['2026-08-16'])"
+      "Liturgical source: https://kirchenjahr.pfarr.tools/api/jahr/2026 (2026-08-16, $.Tage['2026-08-16'])",
+      "Song reference: Exo – Ta bienveillance",
+      "Spotify: https://open.spotify.com/search/Ta%20bienveillance%20Exo"
     ]
   },
   "platforms": {
     "facebook": {
-      "text": "Manchmal verliere ich mich in dem, was ich unbedingt schaffen, ordnen oder festhalten will. Dann tut dieser Gedanke gut: Seine Hand befreit mich, wenn ich mich in meinen eigenen Plänen verliere.\n\nEin Liedimpuls zum Innehalten, Loslassen und Neuvertrauen.",
+      "text": "„Il est la main qui me délivre de la folie de mes projets“\nSeine Hand befreit mich, wenn ich mich in meinen eigenen Plänen verliere.\n\nManchmal verliere ich mich in dem, was ich unbedingt schaffen, ordnen oder festhalten will. Dann tut dieser Gedanke gut.\n\nEin Liedimpuls zum Innehalten, Loslassen und Neuvertrauen.\n\n🎧 Spotify: https://open.spotify.com/search/Ta%20bienveillance%20Exo",
       "headline": "Wenn ich mich in meinen eigenen Plänen verliere"
     },
     "instagram": {
-      "caption": "Manchmal wird aus guten Plänen innerer Druck.\nDann tut mir dieser Gedanke gut:\nSeine Hand befreit mich, wenn ich mich in meinen eigenen Plänen verliere.\n\nEin stiller Liedimpuls zum Loslassen und Neuvertrauen.",
+      "caption": "„Il est la main qui me délivre de la folie de mes projets“\nSeine Hand befreit mich, wenn ich mich in meinen eigenen Plänen verliere.\n\nManchmal wird aus guten Plänen innerer Druck.\nDann tut mir dieser Gedanke gut.\n\nEin stiller Liedimpuls zum Loslassen und Neuvertrauen.\n\n🎧 Spotify: https://open.spotify.com/search/Ta%20bienveillance%20Exo",
       "carousel": [
         {
           "type": "title",
           "text": "Liedgedanke: Ta bienveillance"
+        },
+        {
+          "type": "quote",
+          "text": "„Il est la main qui me délivre de la folie de mes projets“"
         },
         {
           "type": "quote",
@@ -53,18 +59,18 @@
       ]
     },
     "mastodon": {
-      "text": "Manchmal verliere ich mich in meinen eigenen Plänen. Dann trägt mich dieser Gedanke: Seine Hand befreit mich, wenn ich mich in meinen eigenen Plänen verliere. Ein stiller Liedimpuls zum Loslassen und Neuvertrauen."
+      "text": "„Il est la main qui me délivre de la folie de mes projets“ – Seine Hand befreit mich, wenn ich mich in meinen eigenen Plänen verliere. Ein stiller Liedimpuls zum Loslassen und Neuvertrauen. 🎧 https://open.spotify.com/search/Ta%20bienveillance%20Exo"
     },
     "bluesky": {
-      "text": "Manchmal verliere ich mich in meinen eigenen Plänen. Dann tut dieser Gedanke gut: Seine Hand befreit mich, wenn ich mich in meinen eigenen Plänen verliere."
+      "text": "„Il est la main qui me délivre de la folie de mes projets“ – Seine Hand befreit mich, wenn ich mich in meinen eigenen Plänen verliere. 🎧 https://open.spotify.com/search/Ta%20bienveillance%20Exo"
     },
     "story": {
       "slides": [
         {
-          "text": "Kennst du das? Zu viele eigene Pläne im Kopf."
+          "text": "Liedgedanke: Ta bienveillance"
         },
         {
-          "text": "Und irgendwann wird aus Planen nur noch innerer Druck."
+          "text": "„Il est la main qui me délivre de la folie de mes projets“"
         },
         {
           "text": "Seine Hand befreit mich, wenn ich mich in meinen eigenen Plänen verliere."
@@ -75,13 +81,14 @@
       ]
     },
     "reel": {
-      "hook": "Wenn ich mich in meinen eigenen Plänen verliere",
-      "script": "Manchmal meine ich, ich müsste alles selbst ordnen. Alles festhalten. Alles richtig machen. Und dann merke ich: Ich habe mich in meinen eigenen Plänen verloren. Dieser Liedgedanke holt mich zurück: Seine Hand befreit mich, wenn ich mich in meinen eigenen Plänen verliere. Vielleicht ist heute der Moment, etwas loszulassen und neu zu vertrauen.",
+      "hook": "„Il est la main qui me délivre de la folie de mes projets“",
+      "script": "„Il est la main qui me délivre de la folie de mes projets“ – Seine Hand befreit mich, wenn ich mich in meinen eigenen Plänen verliere. Manchmal meine ich, ich müsste alles selbst ordnen. Alles festhalten. Alles richtig machen. Und dann merke ich: Ich habe mich in meinen eigenen Plänen verloren. Dieser Liedgedanke holt mich zurück. Vielleicht ist heute der Moment, etwas loszulassen und neu zu vertrauen. Den Song findest du bei Spotify.",
       "shots": [
         "Nahaufnahme von E-Gitarrensaiten im warmen Bühnenlicht",
         "Hand auf dem Griffbrett, ruhige Bewegung",
         "Kurzer Fokus auf den Anschlag der Saiten",
         "Weiches Licht, ruhiger Hintergrund ohne Publikum",
+        "Einblendung des französischen Originals als Texttafel",
         "Ausblendung auf stilles Schlussbild"
       ],
       "duration_seconds": 25
@@ -99,9 +106,7 @@
     "alt_text": "Nahaufnahme einer E-Gitarre im warmen Licht, mit Fokus auf Saiten und Händen beim Spielen. Die Szene wirkt ruhig, konzentriert und nachdenklich."
   },
   "qa": {
-    "warnings": [
-      "Check song lyric copyright before publication"
-    ],
+    "warnings": [],
     "approved": false
   },
   "metadata": {
