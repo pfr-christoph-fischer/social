@@ -1,0 +1,52 @@
+{
+  "delivery_url": "https://delivery.eu2.bfl.ai/durable/2026082106/5e1f69ea-538b-4d66-962e-9be995966f07/22/6740359272f51b/9272f51b176c4bd68c1b10a3e1ddd715/sample.jpeg?se=2026-08-21T06%3A54%3A34Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=o0oyanReZbxdEm86kFDbiIiSP3DKoqaTUDGUJczDZo4%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "5a3f5156-ac38-4bca-8e49-8d7232df9969",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "5a3f5156-ac38-4bca-8e49-8d7232df9969",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "5a3f5156-ac38-4bca-8e49-8d7232df9969",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "5a3f5156-ac38-4bca-8e49-8d7232df9969",
+      "status": "Ready",
+      "result": {
+        "start_time": 1787294672.7203047,
+        "prompt": "Früher Morgen im Freien, offene Landschaft mit weitem Himmel, sanftes goldenes Morgenlicht, stiller Weg oder niedriger Hügel im Vordergrund, natürliche Farben, ruhige meditative Stimmung, schlicht, dokumentarisch und glaubwürdig, keine Menschen im Vordergrund, keine Gebäude im Fokus, keine Innenraumszene, viel Atmosphäre, geeignet als Titelbild für ein Morgengebet, no text, no letters, no typography, no logo, no watermark",
+        "seed": 4192362995,
+        "sample": "https://delivery.eu2.bfl.ai/durable/2026082106/5e1f69ea-538b-4d66-962e-9be995966f07/22/6740359272f51b/9272f51b176c4bd68c1b10a3e1ddd715/sample.jpeg?se=2026-08-21T06%3A54%3A34Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=o0oyanReZbxdEm86kFDbiIiSP3DKoqaTUDGUJczDZo4%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "5a3f5156-ac38-4bca-8e49-8d7232df9969",
+    "polling_url": "https://api.eu2.bfl.ai/v1/get_result?id=5a3f5156-ac38-4bca-8e49-8d7232df9969",
+    "cost": 1.5,
+    "input_mp": 0,
+    "output_mp": 1.98
+  }
+}

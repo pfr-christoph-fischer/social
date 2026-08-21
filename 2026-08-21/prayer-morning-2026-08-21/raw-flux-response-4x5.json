@@ -1,0 +1,44 @@
+{
+  "delivery_url": "https://delivery.us4.bfl.ai/durable/2026082106/5e1f69ea-538b-4d66-962e-9be995966f07/56/670462455d19dc/455d19dce03440719a1e41c50efd23b7/sample.jpeg?se=2026-08-21T06%3A54%3A30Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=T7Tt/JpqUl5G49wKI0hVSkienFtUfVS%2BwmoIaSQnV/I%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "1a1092d9-e100-4e6d-9ddb-6fe79b64f001",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "1a1092d9-e100-4e6d-9ddb-6fe79b64f001",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "1a1092d9-e100-4e6d-9ddb-6fe79b64f001",
+      "status": "Ready",
+      "result": {
+        "start_time": 1787294668.7359002,
+        "prompt": "Früher Morgen im Freien, offene Landschaft mit weitem Himmel, sanftes goldenes Morgenlicht, stiller Weg oder niedriger Hügel im Vordergrund, natürliche Farben, ruhige meditative Stimmung, schlicht, dokumentarisch und glaubwürdig, keine Menschen im Vordergrund, keine Gebäude im Fokus, keine Innenraumszene, viel Atmosphäre, geeignet als Titelbild für ein Morgengebet, no text, no letters, no typography, no logo, no watermark",
+        "seed": 169353317,
+        "sample": "https://delivery.us4.bfl.ai/durable/2026082106/5e1f69ea-538b-4d66-962e-9be995966f07/56/670462455d19dc/455d19dce03440719a1e41c50efd23b7/sample.jpeg?se=2026-08-21T06%3A54%3A30Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=T7Tt/JpqUl5G49wKI0hVSkienFtUfVS%2BwmoIaSQnV/I%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "1a1092d9-e100-4e6d-9ddb-6fe79b64f001",
+    "polling_url": "https://api.us4.bfl.ai/v1/get_result?id=1a1092d9-e100-4e6d-9ddb-6fe79b64f001",
+    "cost": 1.5,
+    "input_mp": 0,
+    "output_mp": 1.39
+  }
+}

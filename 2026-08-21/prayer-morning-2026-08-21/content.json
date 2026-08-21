@@ -110,13 +110,17 @@
     "alt_text": "Früher Morgen im Freien über einer stillen offenen Landschaft mit weitem Himmel und weichem Licht. Ein schmaler Weg oder sanfter Hügel liegt im Vordergrund. Das Bild vermittelt Ruhe, Wachheit und Hoffnung."
   },
   "qa": {
-    "approved": true,
-    "warnings": []
+    "warnings": [],
+    "approved": true
   },
   "metadata": {
     "model": "gpt-5.4-2026-03-05",
     "generated_at": "2026-08-20T14:00:47.660Z",
     "prompt_version": "1.0",
-    "assets": []
+    "assets": [
+      "assets/background-1.91x1.webp",
+      "assets/background-4x5.webp",
+      "assets/background-9x16.webp"
+    ]
   }
 }
