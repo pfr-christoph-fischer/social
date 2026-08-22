@@ -7,14 +7,8 @@
     },
     {
       "check": "flux-prompt-no-text",
-      "findings": [
-        {
-          "check": "flux-prompt-no-text",
-          "message": "Flux prompt appears to ask for text inside the image.",
-          "severity": "error"
-        }
-      ],
-      "status": "failed"
+      "findings": [],
+      "status": "passed"
     },
     {
       "check": "required-fields",
@@ -53,12 +47,10 @@
     }
   ],
   "content_path": "content/2026-08-22/prayer-evening-2026-08-22/content.json",
-  "errors": [
-    "Flux prompt appears to ask for text inside the image."
-  ],
+  "errors": [],
   "post_id": "prayer-evening-2026-08-22",
-  "ready_for_approval": false,
-  "status_after_run": "in Arbeit",
+  "ready_for_approval": true,
+  "status_after_run": "zur Prüfung",
   "status_before_run": "in Arbeit",
   "warnings": []
 }
