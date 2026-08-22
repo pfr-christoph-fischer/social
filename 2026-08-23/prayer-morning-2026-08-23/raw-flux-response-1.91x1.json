@@ -1,0 +1,44 @@
+{
+  "delivery_url": "https://delivery.eu2.bfl.ai/durable/2026082217/5e1f69ea-538b-4d66-962e-9be995966f07/0d/15397460a9ad24/60a9ad24996a4177a40ff61d12b40f9c/sample.jpeg?se=2026-08-22T17%3A45%3A54Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=Oi6sKgrygbgwFvrHUpkGN2cxTaEcvfm%2BOjFQyA4CQ7U%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "a1dd5634-3ffe-4517-b741-1da6329a710e",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "a1dd5634-3ffe-4517-b741-1da6329a710e",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "a1dd5634-3ffe-4517-b741-1da6329a710e",
+      "status": "Ready",
+      "result": {
+        "start_time": 1787420153.202334,
+        "prompt": "ruhige morgendliche szene an einem fenster, weiches natürliches licht, schlichter tisch, warme tasse oder gefaltete decke, sanfte einladende atmosphäre, gefühl von fürsorge, ruhe und menschlicher nähe, zurückhaltende farben, dokumentarisch poetisch, würdevoll, hoffnungsvoll, keine symbole, high detail, no text, no letters, no typography, no logo, no watermark",
+        "seed": 912914037,
+        "sample": "https://delivery.eu2.bfl.ai/durable/2026082217/5e1f69ea-538b-4d66-962e-9be995966f07/0d/15397460a9ad24/60a9ad24996a4177a40ff61d12b40f9c/sample.jpeg?se=2026-08-22T17%3A45%3A54Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=Oi6sKgrygbgwFvrHUpkGN2cxTaEcvfm%2BOjFQyA4CQ7U%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "a1dd5634-3ffe-4517-b741-1da6329a710e",
+    "polling_url": "https://api.eu2.bfl.ai/v1/get_result?id=a1dd5634-3ffe-4517-b741-1da6329a710e",
+    "cost": 1.4000000000000001,
+    "input_mp": 0,
+    "output_mp": 0.72
+  }
+}
