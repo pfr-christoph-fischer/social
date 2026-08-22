@@ -1,0 +1,44 @@
+{
+  "delivery_url": "https://delivery.us2.bfl.ai/durable/2026082207/5e1f69ea-538b-4d66-962e-9be995966f07/75/4014192b0e03b0/2b0e03b0e25544eba39377151ec8b6b9/sample.jpeg?se=2026-08-22T07%3A16%3A41Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=W8wRzsduX3PnNe9cYoKqzIP2ZHvwZ7t1grwaMLsadLU%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "c3631ee7-ae6b-4d67-8351-1d55ee5a102a",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "c3631ee7-ae6b-4d67-8351-1d55ee5a102a",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "c3631ee7-ae6b-4d67-8351-1d55ee5a102a",
+      "status": "Ready",
+      "result": {
+        "start_time": 1787382399.7345138,
+        "prompt": "Sommerliche ruhige Szene mit weiter Landschaft, sanftem Licht, entspannter Atmosphäre, spiritueller Stimmung, ein Mensch von hinten in stiller Betrachtung der Natur, unaufgeregt, natürlich, warm, editorial photography, soft colors, contemplative, peaceful, authentic, no text, no letters, no typography, no logo, no watermark",
+        "seed": 2107236241,
+        "sample": "https://delivery.us2.bfl.ai/durable/2026082207/5e1f69ea-538b-4d66-962e-9be995966f07/75/4014192b0e03b0/2b0e03b0e25544eba39377151ec8b6b9/sample.jpeg?se=2026-08-22T07%3A16%3A41Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=W8wRzsduX3PnNe9cYoKqzIP2ZHvwZ7t1grwaMLsadLU%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "c3631ee7-ae6b-4d67-8351-1d55ee5a102a",
+    "polling_url": "https://api.us2.bfl.ai/v1/get_result?id=c3631ee7-ae6b-4d67-8351-1d55ee5a102a",
+    "cost": 1.5,
+    "input_mp": 0,
+    "output_mp": 1.98
+  }
+}
