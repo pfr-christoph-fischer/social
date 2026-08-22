@@ -1,0 +1,44 @@
+{
+  "delivery_url": "https://delivery.eu2.bfl.ai/durable/2026082207/5e1f69ea-538b-4d66-962e-9be995966f07/02/0366004375ab69/4375ab69a9a24cb3bde151d8a548e096/sample.jpeg?se=2026-08-22T07%3A10%3A37Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=XhLu4TFzced/K3mCxBwG67nNSgJw6/2qkiC6zz3bn7k%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "79a75b2d-707c-491d-b910-4b7e3eb2c3f2",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "79a75b2d-707c-491d-b910-4b7e3eb2c3f2",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "79a75b2d-707c-491d-b910-4b7e3eb2c3f2",
+      "status": "Ready",
+      "result": {
+        "start_time": 1787382035.6012268,
+        "prompt": "Frühes Morgenlicht im Freien, stiller Weg am Feldrand, weiter Horizont, sanfte natürliche Farben, klare Luft, ruhige Atmosphäre, dokumentarisch, hoffnungsvoll, minimalistisch, keine Menschenmenge, keine Symbolexplosion, no text, no letters, no typography, no logo, no watermark",
+        "seed": 3212619304,
+        "sample": "https://delivery.eu2.bfl.ai/durable/2026082207/5e1f69ea-538b-4d66-962e-9be995966f07/02/0366004375ab69/4375ab69a9a24cb3bde151d8a548e096/sample.jpeg?se=2026-08-22T07%3A10%3A37Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=XhLu4TFzced/K3mCxBwG67nNSgJw6/2qkiC6zz3bn7k%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "79a75b2d-707c-491d-b910-4b7e3eb2c3f2",
+    "polling_url": "https://api.eu2.bfl.ai/v1/get_result?id=79a75b2d-707c-491d-b910-4b7e3eb2c3f2",
+    "cost": 1.4000000000000001,
+    "input_mp": 0,
+    "output_mp": 0.72
+  }
+}
