@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-08-22",
+    "contentDate": "2026-08-22",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-08-22T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Meine Zunge soll singen von deinem Wort; denn alle deine Gebote sind gerecht.",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Meine Zunge soll singen von deinem Wort; denn alle deine Gebote sind gerecht."
+    ],
+    "id": "59ae2389-474d-47ef-b464-9daf11ec8af9",
+    "attemptCount": 1,
+    "remoteId": "18096660899290206",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:44:32.729Z",
+    "updatedAt": "2026-08-22T05:00:27.920Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-08-22",
+    "contentDate": "2026-08-22",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-08-22T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Meine Zunge soll singen von deinem Wort; denn alle deine Gebote sind gerecht.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Meine Zunge soll singen von deinem Wort; denn alle deine Gebote sind gerecht."
+    ],
+    "id": "f243c538-0bbd-4aeb-8a81-7f298c379f47",
+    "attemptCount": 1,
+    "remoteId": "117137396788757128",
+    "remoteUrl": "https://kirche.social/@christoph/117137396788757128",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:44:32.732Z",
+    "updatedAt": "2026-08-22T05:00:29.003Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
