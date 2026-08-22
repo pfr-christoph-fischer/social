@@ -1,0 +1,52 @@
+{
+  "delivery_url": "https://delivery.eu2.bfl.ai/durable/2026082217/5e1f69ea-538b-4d66-962e-9be995966f07/b1/947103fcd6d6f5/fcd6d6f53e9f48d1870f2831f6a12255/sample.jpeg?se=2026-08-22T17%3A42%3A27Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=hbWOEZzu69enTqQeVceu/B7TCmsRXu6QwLjme5sdJio%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "fe34393f-06b7-4695-a704-6fefdaaccd55",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "fe34393f-06b7-4695-a704-6fefdaaccd55",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "fe34393f-06b7-4695-a704-6fefdaaccd55",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "fe34393f-06b7-4695-a704-6fefdaaccd55",
+      "status": "Ready",
+      "result": {
+        "start_time": 1787419946.0679073,
+        "prompt": "Fotorealistische ruhige Abendszene in einem schlichten Zimmer, offenes Fenster, blau-goldene Dämmerung, einfacher Holztisch mit Kerze, Glas Wasser und aufgeschlagenem Notizbuch, weiches natürliches Licht, still, hoffnungsvoll, zurückhaltend, tröstlich, hochwertige dokumentarische Bildsprache, keine Menschen im Vordergrund, no text, no letters, no typography, no logo, no watermark",
+        "seed": 2777477406,
+        "sample": "https://delivery.eu2.bfl.ai/durable/2026082217/5e1f69ea-538b-4d66-962e-9be995966f07/b1/947103fcd6d6f5/fcd6d6f53e9f48d1870f2831f6a12255/sample.jpeg?se=2026-08-22T17%3A42%3A27Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=hbWOEZzu69enTqQeVceu/B7TCmsRXu6QwLjme5sdJio%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "fe34393f-06b7-4695-a704-6fefdaaccd55",
+    "polling_url": "https://api.eu2.bfl.ai/v1/get_result?id=fe34393f-06b7-4695-a704-6fefdaaccd55",
+    "cost": 1.5,
+    "input_mp": 0,
+    "output_mp": 1.39
+  }
+}
