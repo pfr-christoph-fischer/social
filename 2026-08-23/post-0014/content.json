@@ -10,12 +10,13 @@
   },
   "editorial_core": {
     "title": "Neuer Wochenspruch: 12. Sonntag nach Trinitatis",
-    "main_message": "Ruhiges Motiv, wenig Text im Bild, meditativer Begleittext.",
+    "main_message": "Der Wochenspruch eröffnet die Woche mit einem stillen Bild der Fürsorge: Gott geht behutsam mit dem Umknicken und Glimmen im Leben um.",
     "audience": "breite Öffentlichkeit",
     "tone": [
       "klar",
       "ruhig",
-      "zugänglich"
+      "zugänglich",
+      "meditativ"
     ],
     "source_notes": [
       "Goal: Den neuen Wochenspruch als ruhigen Auftakt der liturgischen Woche veröffentlichen.",
@@ -23,44 +24,85 @@
       "Production mode: für Monate im Voraus vollständig vorproduzierbar",
       "Structure: Wochenspruch | ein Bild oder eine Beobachtung | ein meditativer Satz | offene Schlussfrage oder Segenswunsch",
       "AI support notes: meditativer Rohentwurf | KI-Bildprompt | Reel-Sprechtext | Alt-Text",
-      "Liturgical source: https://kirchenjahr.pfarr.tools/api/jahr/2026 (2026-08-23, $.Tage['2026-08-23'])"
+      "Liturgical source: https://kirchenjahr.pfarr.tools/api/jahr/2026 (2026-08-23, $.Tage['2026-08-23'])",
+      "Wochenspruch: Das geknickte Rohr wird er nicht zerbrechen, und den glimmenden Docht wird er nicht auslöschen. (Jes 42,3)"
     ]
   },
   "platforms": {
     "facebook": {
-      "text": "",
-      "headline": ""
+      "text": "„Das geknickte Rohr wird er nicht zerbrechen, und den glimmenden Docht wird er nicht auslöschen.“\nJesaja 42,3\n\nManchmal fühlt sich eine Woche schon schwer an, bevor sie richtig begonnen hat. Die Kraft ist nicht weg. Aber sie brennt nur noch klein. Wie ein Docht, der gerade noch glimmt. Oder wie ein Halm am Ufer, gebogen vom Wind.\n\nDer Wochenspruch spricht nicht von Leistung. Nicht vom schnellen Wiederaufstehen. Er zeigt ein anderes Bild: behutsame Nähe. Gott geht mit dem Schwachen nicht hart um. Er drückt nicht nach, wo etwas schon geknickt ist. Er bläst nicht aus, was nur noch leise glimmt.\n\nVielleicht ist das der ruhige Ton für diese neue Woche: Du musst nicht erst stark wirken, damit Gott dich trägt. Das Zarte ist bei ihm nicht verloren.\n\nWas in dir glimmt heute noch?",
+      "headline": "Neuer Wochenspruch zur Woche: behutsam und stark"
     },
     "instagram": {
-      "caption": "",
-      "carousel": []
+      "caption": "„Das geknickte Rohr wird er nicht zerbrechen, und den glimmenden Docht wird er nicht auslöschen.“\nJesaja 42,3\n\nEin geknickter Halm. Ein Docht mit kleinem Licht.\nDer Wochenspruch sieht das, was leicht übersehen wird: das Schwache, Müde, Angeknickte.\n\nUnd er sagt: Gott geht behutsam damit um.\nEr macht nicht klein, was schon klein geworden ist.\nEr löscht nicht aus, was nur noch leise brennt.\n\nVielleicht ist das der Satz, den diese Woche braucht.\n\nWas glimmt in dir noch?",
+      "carousel": [
+        {
+          "type": "text",
+          "text": "„Das geknickte Rohr wird er nicht zerbrechen, und den glimmenden Docht wird er nicht auslöschen.“"
+        },
+        {
+          "type": "text",
+          "text": "Ein geknickter Halm am Wasser. Ein kleines Licht, das noch nicht erloschen ist."
+        },
+        {
+          "type": "text",
+          "text": "Gott sieht das Schwache. Und geht behutsam damit um."
+        },
+        {
+          "type": "text",
+          "text": "Du musst nicht stark wirken, um getragen zu sein."
+        },
+        {
+          "type": "text",
+          "text": "Was glimmt in dir noch?"
+        }
+      ]
     },
     "mastodon": {
-      "text": ""
+      "text": "„Das geknickte Rohr wird er nicht zerbrechen, und den glimmenden Docht wird er nicht auslöschen.“ (Jes 42,3)\n\nEin stilles Bild zum Wochenbeginn: Gott geht behutsam mit dem um, was müde, angeknickt oder fast erloschen ist.\n\nWas glimmt in dir noch?"
     },
     "bluesky": {
-      "text": ""
+      "text": "„Das geknickte Rohr wird er nicht zerbrechen, und den glimmenden Docht wird er nicht auslöschen.“ (Jes 42,3)\n\nZum Wochenbeginn ein leiser Satz: Gott geht behutsam mit dem um, was schwach geworden ist.\n\nWas glimmt in dir noch?"
     },
     "story": {
-      "slides": []
+      "slides": [
+        {
+          "text": "„Das geknickte Rohr wird er nicht zerbrechen, und den glimmenden Docht wird er nicht auslöschen.“ Jes 42,3"
+        },
+        {
+          "text": "Ein geknickter Halm. Ein Docht mit kleinem Licht."
+        },
+        {
+          "text": "Gott geht behutsam mit dem um, was schwach geworden ist."
+        },
+        {
+          "text": "Was glimmt in dir noch?"
+        }
+      ]
     },
     "reel": {
-      "hook": "",
-      "script": "",
-      "shots": [],
-      "duration_seconds": 0
+      "hook": "Wenn in dir gerade nur noch wenig Kraft glimmt, ist dieser Satz für dich.",
+      "script": "„Das geknickte Rohr wird er nicht zerbrechen, und den glimmenden Docht wird er nicht auslöschen.“\n\nEin geknickter Halm am Wasser. Ein Docht, der nur noch leise glimmt.\nDiese Bilder sind zart. Und genau so spricht der Wochenspruch von Gott.\n\nEr drückt nicht nach, wo etwas schon belastet ist.\nEr löscht nicht aus, was kaum noch Kraft hat.\nEr geht behutsam mit dem um, was schwach geworden ist.\n\nVielleicht ist das ein guter Satz für den Anfang dieser Woche.\n\nWas glimmt in dir noch?",
+      "shots": [
+        "Nahaufnahme eines stillen Ufers mit Schilf im weichen Morgenlicht",
+        "Detail eines leicht geknickten Halms, der sich im Wind bewegt",
+        "Nahaufnahme einer kleinen Flamme oder eines glimmenden Dochtes in ruhiger Umgebung",
+        "Langsame Kamerafahrt über Wasseroberfläche mit Lichtreflexen",
+        "Ausblendung in ruhiges, warmes Licht"
+      ],
+      "duration_seconds": 24
     }
   },
   "visual": {
-    "concept": "",
-    "flux_prompt": "",
+    "concept": "Ruhige Naturszene am Wasser im weichen Morgenlicht. Ein einzelner gebogener Schilfhalm oder Halm steht im Mittelpunkt. Die Stimmung ist still, zart und hoffnungsvoll. Keine harte Dramatik, sondern behutsame Ruhe.",
+    "flux_prompt": "Fotorealistische ruhige Szene an einem stillen Ufer im weichen Morgenlicht, ein einzelner leicht geknickter Schilfhalm im Vordergrund, sanfte Wasserreflexe, zarte warme Farben, geringe Tiefenschärfe, natürliche Komposition, meditative Stimmung, Hoffnung und Behutsamkeit, hochwertiges weiches Licht, minimalistisch, keine Menschen",
     "negative_prompt": "text, letters, logo, watermark",
     "formats": [
       "4:5",
       "9:16",
       "1.91:1"
     ],
-    "alt_text": ""
+    "alt_text": "Ein einzelner leicht gebogener Schilfhalm an einem stillen Ufer im weichen Morgenlicht. Im Hintergrund glitzert unscharf das Wasser. Die Szene wirkt ruhig, zart und hoffnungsvoll."
   },
   "qa": {
     "warnings": [
@@ -69,8 +111,8 @@
     "approved": false
   },
   "metadata": {
-    "model": "",
-    "generated_at": "",
+    "model": "gpt-5.4-2026-03-05",
+    "generated_at": "2026-08-22T17:37:05.058Z",
     "prompt_version": "1.0",
     "assets": []
   }
