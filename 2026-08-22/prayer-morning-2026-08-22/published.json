@@ -27,5 +27,66 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "prayer-morning-2026-08-22",
+    "contentDate": "2026-08-22",
+    "platform": "instagram",
+    "format": "default",
+    "scheduledAt": "2026-08-22T05:15:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Gott,\ndieser Morgen ist da.\n\nWir bringen dir die Menschen in Sachsen-Anhalt vor der Wahl.\nStärke alles, was dem Zusammenleben dient.\nBewahre uns davor, Hass, Ausgrenzung und Menschenverachtung für wählbar zu halten.\n\nWir bringen dir die Menschen in Israel und Gaza.\nSchenke Schutz, Trost und Wege aus Gewalt.\n\nUnd mach auch uns wach für Menschenwürde, Mitgefühl und Verantwortung.\n\nDeine Zukunft ist größer als das, was Menschen trennt.\nAmen.",
+    "assets": [
+      "render-instagram-feed-01.jpg",
+      "render-instagram-feed-02.jpg",
+      "render-instagram-feed-03.jpg",
+      "render-instagram-feed-04.jpg",
+      "render-instagram-feed-05.jpg"
+    ],
+    "altTexts": [
+      "Ein stiller Weg am Feldrand im frühen Morgenlicht. Der Horizont ist weit, die Farben sind zurückhaltend, und die Szene wirkt offen, wach und hoffnungsvoll."
+    ],
+    "id": "57cb3d9a-d137-4a74-b825-dd50d9cd12b4",
+    "attemptCount": 1,
+    "remoteId": "17953198092243588",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-22T07:01:46.640Z",
+    "updatedAt": "2026-08-22T07:06:04.972Z",
+    "responseMetadata": {
+      "mediaCount": 5,
+      "mediaType": "CAROUSEL",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "prayer-morning-2026-08-22",
+    "contentDate": "2026-08-22",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-08-22T05:15:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Gott, dieser Morgen ist da. Wir bringen dir die Menschen in Sachsen-Anhalt vor der Wahl. Stärke alles, was dem Zusammenleben dient, und bewahre uns davor, Hass, Ausgrenzung und Menschenverachtung für wählbar zu halten. Wir bringen dir die Menschen in Israel und Gaza. Schenke Schutz, Trost und Wege aus Gewalt. Mach auch uns wach für Menschenwürde und Verantwortung. Amen.",
+    "assets": [
+      "render-facebook-mastodon-01.png"
+    ],
+    "altTexts": [
+      "Ein stiller Weg am Feldrand im frühen Morgenlicht. Der Horizont ist weit, die Farben sind zurückhaltend, und die Szene wirkt offen, wach und hoffnungsvoll."
+    ],
+    "id": "17e3a338-3755-4a6b-a524-d616de3afc6a",
+    "attemptCount": 1,
+    "remoteId": "117137890753645998",
+    "remoteUrl": "https://kirche.social/@christoph/117137890753645998",
+    "lastError": null,
+    "createdAt": "2026-08-22T07:01:46.687Z",
+    "updatedAt": "2026-08-22T07:06:06.302Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
