@@ -1,6 +1,6 @@
 {
   "id": "post-0014",
-  "status": "in Arbeit",
+  "status": "freigegeben",
   "needs_input": false,
   "source": {
     "calendar_post_id": "post-0014",
@@ -30,31 +30,31 @@
   },
   "platforms": {
     "facebook": {
-      "headline": "Neuer Wochenspruch zur Woche: behutsam und stark",
-      "text": "„Das geknickte Rohr wird er nicht zerbrechen, und den glimmenden Docht wird er nicht auslöschen.“\nJesaja 42,3\n\nManchmal fühlt sich eine Woche schon schwer an, bevor sie richtig begonnen hat. Die Kraft ist nicht weg. Aber sie brennt nur noch klein. Wie ein Docht, der gerade noch glimmt. Oder wie ein Halm am Ufer, gebogen vom Wind.\n\nDer Wochenspruch spricht nicht von Leistung. Nicht vom schnellen Wiederaufstehen. Er zeigt ein anderes Bild: behutsame Nähe. Gott geht mit dem Schwachen nicht hart um. Er drückt nicht nach, wo etwas schon geknickt ist. Er bläst nicht aus, was nur noch leise glimmt.\n\nVielleicht ist das der ruhige Ton für diese neue Woche: Du musst nicht erst stark wirken, damit Gott dich trägt. Das Zarte ist bei ihm nicht verloren.\n\nWas in dir glimmt heute noch?"
+      "text": "„Das geknickte Rohr wird er nicht zerbrechen, und den glimmenden Docht wird er nicht auslöschen.“\nJesaja 42,3\n\nManchmal fühlt sich eine Woche schon schwer an, bevor sie richtig begonnen hat. Die Kraft ist nicht weg. Aber sie brennt nur noch klein. Wie ein Docht, der gerade noch glimmt. Oder wie ein Halm am Ufer, gebogen vom Wind.\n\nDer Wochenspruch spricht nicht von Leistung. Nicht vom schnellen Wiederaufstehen. Er zeigt ein anderes Bild: behutsame Nähe. Gott geht mit dem Schwachen nicht hart um. Er drückt nicht nach, wo etwas schon geknickt ist. Er bläst nicht aus, was nur noch leise glimmt.\n\nVielleicht ist das der ruhige Ton für diese neue Woche: Du musst nicht erst stark wirken, damit Gott dich trägt. Das Zarte ist bei ihm nicht verloren.\n\nWas in dir glimmt heute noch?",
+      "headline": "Neuer Wochenspruch zur Woche: behutsam und stark"
     },
     "instagram": {
       "caption": "„Das geknickte Rohr wird er nicht zerbrechen, und den glimmenden Docht wird er nicht auslöschen.“\nJesaja 42,3\n\nEin geknickter Halm. Ein Docht mit kleinem Licht.\nDer Wochenspruch sieht das, was leicht übersehen wird: das Schwache, Müde, Angeknickte.\n\nUnd er sagt: Gott geht behutsam damit um.\nEr macht nicht klein, was schon klein geworden ist.\nEr löscht nicht aus, was nur noch leise brennt.\n\nVielleicht ist das der Satz, den diese Woche braucht.\n\nWas glimmt in dir noch?",
       "carousel": [
         {
-          "text": "„Das geknickte Rohr wird er nicht zerbrechen, und den glimmenden Docht wird er nicht auslöschen.“",
-          "type": "text"
+          "type": "text",
+          "text": "„Das geknickte Rohr wird er nicht zerbrechen, und den glimmenden Docht wird er nicht auslöschen.“"
         },
         {
-          "text": "Ein geknickter Halm am Wasser. Ein kleines Licht, das noch nicht erloschen ist.",
-          "type": "text"
+          "type": "text",
+          "text": "Ein geknickter Halm am Wasser. Ein kleines Licht, das noch nicht erloschen ist."
         },
         {
-          "text": "Gott sieht das Schwache. Und geht behutsam damit um.",
-          "type": "text"
+          "type": "text",
+          "text": "Gott sieht das Schwache. Und geht behutsam damit um."
         },
         {
-          "text": "Du musst nicht stark wirken, um getragen zu sein.",
-          "type": "text"
+          "type": "text",
+          "text": "Du musst nicht stark wirken, um getragen zu sein."
         },
         {
-          "text": "Was glimmt in dir noch?",
-          "type": "text"
+          "type": "text",
+          "text": "Was glimmt in dir noch?"
         }
       ]
     },
@@ -105,10 +105,8 @@
     "alt_text": "Ein einzelner leicht gebogener Schilfhalm an einem stillen Ufer im weichen Morgenlicht. Im Hintergrund glitzert unscharf das Wasser. Die Szene wirkt ruhig, zart und hoffnungsvoll."
   },
   "qa": {
-    "approved": false,
-    "warnings": [
-      "Alt text must be completed before approval"
-    ]
+    "approved": true,
+    "warnings": []
   },
   "metadata": {
     "model": "gpt-5.4-2026-03-05",
