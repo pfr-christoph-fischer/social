@@ -1,7 +1,7 @@
 {
   "id": "post-0013",
   "status": "in Arbeit",
-  "needs_input": true,
+  "needs_input": false,
   "source": {
     "calendar_post_id": "post-0013",
     "date": "2026-08-22",
@@ -9,13 +9,15 @@
     "liturgical_source": "https://kirchenjahr.pfarr.tools/api/jahr/2026"
   },
   "editorial_core": {
-    "title": "Predigt-Preview auf 12. Sonntag nach Trinitatis",
-    "main_message": "Erst nach Fertigstellung der Predigt: eine Spannung, eine Frage und eine Einladung.",
-    "audience": "[TODO: define audience after current inputs are available]",
+    "title": "Urlaub, Ruhe und das Geschenk des Sabbats",
+    "main_message": "Pause ist kein Mangel, sondern ein Geschenk: Der Sabbat erinnert daran, dass wir mehr sind als das, was wir leisten.",
+    "audience": "Menschen aus der Gemeinde und im weiteren Umfeld, die einen kurzen geistlichen Impuls zu Ruhe, Urlaub und Sabbat schätzen",
     "tone": [
       "klar",
       "ruhig",
-      "zugänglich"
+      "zugänglich",
+      "dankbar",
+      "leicht"
     ],
     "source_notes": [
       "Goal: Nach Abschluss der Predigt neugierig auf den Gottesdienst machen, ohne die Predigt zusammenzufassen.",
@@ -24,50 +26,88 @@
       "Structure: überraschende Frage oder Spannung | ein Satz zum Predigttext | Ort und Zeit aus Terminquelle ergänzen",
       "AI support notes: Hook-Varianten | Reel-Skript | Caption | Untertitel",
       "Current inputs required: Predigtmanuskript oder Kerngedanke | Gottesdienstort | Uhrzeit | Besonderheiten",
-      "Liturgical source: https://kirchenjahr.pfarr.tools/api/jahr/2026 (2026-08-23, $.Tage['2026-08-23'])"
+      "Liturgical source: https://kirchenjahr.pfarr.tools/api/jahr/2026 (2026-08-23, $.Tage['2026-08-23'])",
+      "Chat-Kontext: Kein Predigtdienst, da Urlaub.",
+      "Redaktionelle Neuausrichtung: persönlicher geistlicher Impuls zu Pause, Ruhetag und Sabbat, ohne die Rubrik zu verändern.",
+      "Wichtig: nicht defensiv formulieren, sondern positiv als Einladung zu Ruhe, Dankbarkeit und empfangener Zeit."
     ]
   },
   "platforms": {
     "facebook": {
-      "text": "",
-      "headline": ""
+      "text": "Ich bin im Urlaub und genieße das sehr.\n\nWie gut, dass unser Glaube nicht nur von Einsatz und Aktivität weiß, sondern auch von Ruhe, Unterbrechung und Sabbat. Nicht jeder Tag muss produktiv sein. Manchmal ist es heilsam, einfach zu ruhen.\n\nDer Sabbat erinnert: Wir sind mehr als das, was wir leisten. Wir leben auch von dem, was wir empfangen.\n\nVielleicht ist dieser Sommergruß auch eine kleine Einladung: durchatmen, loslassen, dankbar sein.\n\nPause ist kein Mangel. Sie ist ein Geschenk.",
+      "headline": "Pause ist ein Geschenk"
     },
     "instagram": {
-      "caption": "",
-      "carousel": []
+      "caption": "Urlaub. Durchatmen. Loslassen. Dankbar sein.\n\nWie gut, dass unser Glaube nicht nur Leistung kennt, sondern auch Ruhe. Der Sabbat erinnert daran: Wir sind mehr als das, was wir schaffen. Wir leben auch von dem, was wir empfangen.\n\nVielleicht brauchst du heute genau das als Erinnerung: Pause ist kein Luxus. Sie ist ein Geschenk.\n\n#Urlaub #Sabbat #Ruhe #Durchatmen #GlaubeImAlltag #Dankbarkeit",
+      "carousel": [
+        {
+          "type": "text",
+          "text": "Urlaub.\nDurchatmen.\nLoslassen."
+        },
+        {
+          "type": "text",
+          "text": "Nicht jeder Tag muss produktiv sein."
+        },
+        {
+          "type": "text",
+          "text": "Der Sabbat erinnert:\nDu bist mehr als das, was du leistest."
+        },
+        {
+          "type": "text",
+          "text": "Pause ist kein Luxus.\nSie ist ein Geschenk."
+        }
+      ]
     },
     "mastodon": {
-      "text": ""
+      "text": "Ich bin im Urlaub und genieße das sehr. Wie gut, dass unser Glaube nicht nur Einsatz kennt, sondern auch Ruhe, Unterbrechung und Sabbat. Nicht jeder Tag muss produktiv sein. Pause ist kein Mangel, sondern ein Geschenk."
     },
     "bluesky": {
-      "text": ""
+      "text": "Urlaub. Durchatmen. Loslassen. Der Sabbat erinnert: Wir sind mehr als das, was wir leisten. Pause ist kein Mangel, sondern ein Geschenk."
     },
     "story": {
-      "slides": []
+      "slides": [
+        {
+          "text": "Ich bin im Urlaub."
+        },
+        {
+          "text": "Und ich genieße es, einmal nicht leisten zu müssen."
+        },
+        {
+          "text": "Der Sabbat erinnert:\nRuhe ist ein Geschenk."
+        },
+        {
+          "text": "Du bist mehr als das, was du schaffst."
+        }
+      ]
     },
     "reel": {
-      "hook": "",
-      "script": "",
-      "shots": [],
-      "duration_seconds": 0
+      "hook": "Nicht jeder Tag muss produktiv sein.",
+      "script": "Ich bin im Urlaub und genieße das sehr. Wie gut, dass unser Glaube nicht nur von Einsatz und Aktivität weiß, sondern auch von Ruhe und Sabbat. Nicht jeder Tag muss produktiv sein. Manchmal ist es heilsam, einfach zu ruhen. Der Sabbat erinnert: Wir sind mehr als das, was wir leisten. Pause ist kein Mangel. Sie ist ein Geschenk.",
+      "shots": [
+        "Ruhige Urlaubsszene mit Himmel, Wasser oder Landschaft",
+        "Detailaufnahme von Händen mit Kaffee oder Buch",
+        "Langsame Aufnahme von Gehen oder Sitzen in der Natur",
+        "Texteinblendung: Nicht jeder Tag muss produktiv sein",
+        "Texteinblendung: Pause ist ein Geschenk"
+      ],
+      "duration_seconds": 25
     }
   },
   "visual": {
-    "concept": "",
-    "flux_prompt": "",
+    "concept": "Ruhiger Sommergruß mit weiter Landschaft oder stiller Urlaubsszene, die Entschleunigung, Dankbarkeit und Sabbatgefühl vermittelt.",
+    "flux_prompt": "Sommerliche ruhige Szene mit weiter Landschaft, sanftem Licht, entspannter Atmosphäre, spiritueller Stimmung, ein Mensch von hinten in stiller Betrachtung der Natur, unaufgeregt, natürlich, warm, editorial photography, soft colors, contemplative, peaceful, authentic",
     "negative_prompt": "text, letters, logo, watermark",
     "formats": [
       "4:5",
       "9:16",
       "1.91:1"
     ],
-    "alt_text": ""
+    "alt_text": "Eine ruhige sommerliche Landschaft in warmem Licht vermittelt Erholung, Weite und einen Moment der stillen Pause."
   },
   "qa": {
     "warnings": [
-      "Alt text must be completed before approval",
-      "Current source inputs are still required before publication",
-      "Predigt-Preview requires sermon input before final drafting"
+      "Rubrik bleibt aus Quellgründen 'Predigt-Preview', obwohl der Inhalt als persönlicher geistlicher Impuls über Urlaub und Sabbat ausgearbeitet ist.",
+      "Prüfen, ob Bildmotiv und Text zur persönlichen Urlaubssituation passen, bevor veröffentlicht wird."
     ],
     "approved": false
   },
