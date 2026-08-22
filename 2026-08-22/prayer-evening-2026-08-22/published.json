@@ -27,5 +27,68 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "prayer-evening-2026-08-22",
+    "contentDate": "2026-08-22",
+    "platform": "instagram",
+    "format": "default",
+    "scheduledAt": "2026-08-22T18:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Abendgebet.\n\nDer Tag muss nicht perfekt zu Ende gehen.\nWas gut war, darf bleiben.\nWas offen ist, darf in Gottes Hand.\n\nWir beten heute Abend für Menschen, die um eine:n Verstorbene:n trauern. Und wir beten um Frieden überall.\n\nGott, schenke Frieden für diese Nacht. Amen.",
+    "assets": [
+      "render-instagram-feed-01.jpg",
+      "render-instagram-feed-02.jpg",
+      "render-instagram-feed-03.jpg",
+      "render-instagram-feed-04.jpg",
+      "render-instagram-feed-05.jpg",
+      "render-instagram-feed-06.jpg",
+      "render-instagram-feed-07.jpg"
+    ],
+    "altTexts": [
+      "Ein schlichter Tisch steht an einem offenen Fenster in der Abenddämmerung. Darauf liegen ein aufgeschlagenes Notizbuch, ein Glas Wasser und eine brennende Kerze. Draußen ist ein ruhiger Sommerhimmel in blauem Licht zu sehen."
+    ],
+    "id": "d0e8f820-158e-4b73-8cf6-ceaeda2207c5",
+    "attemptCount": 1,
+    "remoteId": "18110639561089303",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-22T17:32:49.899Z",
+    "updatedAt": "2026-08-22T18:01:26.659Z",
+    "responseMetadata": {
+      "mediaCount": 7,
+      "mediaType": "CAROUSEL",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "prayer-evening-2026-08-22",
+    "contentDate": "2026-08-22",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-08-22T18:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Abendgebet\n\nGott, wir legen dir diesen Tag hin. Das Gute. Das Schwere. Das Unfertige.\n\nWir bitten dich für Menschen, die um eine:n Verstorbene:n trauern. Und wir bitten dich um Frieden überall.\n\nHalte diese Welt in deiner Hand. Schenk Frieden für diese Nacht. Amen.",
+    "assets": [
+      "render-facebook-mastodon-01.png"
+    ],
+    "altTexts": [
+      "Ein schlichter Tisch steht an einem offenen Fenster in der Abenddämmerung. Darauf liegen ein aufgeschlagenes Notizbuch, ein Glas Wasser und eine brennende Kerze. Draußen ist ein ruhiger Sommerhimmel in blauem Licht zu sehen."
+    ],
+    "id": "fc1f5d7d-0ba9-4678-9cdc-7238331467c6",
+    "attemptCount": 1,
+    "remoteId": "117140467721888429",
+    "remoteUrl": "https://kirche.social/@christoph/117140467721888429",
+    "lastError": null,
+    "createdAt": "2026-08-22T17:32:49.935Z",
+    "updatedAt": "2026-08-22T18:01:27.728Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
