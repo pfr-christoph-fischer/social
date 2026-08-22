@@ -1,6 +1,6 @@
 {
   "id": "post-0013",
-  "status": "freigegeben",
+  "status": "in Arbeit",
   "needs_input": false,
   "source": {
     "calendar_post_id": "post-0013",
@@ -29,16 +29,17 @@
       "Liturgical source: https://kirchenjahr.pfarr.tools/api/jahr/2026 (2026-08-23, $.Tage['2026-08-23'])",
       "Chat-Kontext: Kein Predigtdienst, da Urlaub.",
       "Redaktionelle Neuausrichtung: persönlicher geistlicher Impuls zu Pause, Ruhetag und Sabbat, ohne die Rubrik zu verändern.",
-      "Wichtig: nicht defensiv formulieren, sondern positiv als Einladung zu Ruhe, Dankbarkeit und empfangener Zeit."
+      "Wichtig: nicht defensiv formulieren, sondern positiv als Einladung zu Ruhe, Dankbarkeit und empfangener Zeit.",
+      "Passender Bibelvers: 2. Mose 20,8 – 'Gedenke des Sabbattages, dass du ihn heiligst.'"
     ]
   },
   "platforms": {
     "facebook": {
-      "text": "Ich bin im Urlaub und genieße das sehr.\n\nWie gut, dass unser Glaube nicht nur von Einsatz und Aktivität weiß, sondern auch von Ruhe, Unterbrechung und Sabbat. Nicht jeder Tag muss produktiv sein. Manchmal ist es heilsam, einfach zu ruhen.\n\nDer Sabbat erinnert: Wir sind mehr als das, was wir leisten. Wir leben auch von dem, was wir empfangen.\n\nVielleicht ist dieser Sommergruß auch eine kleine Einladung: durchatmen, loslassen, dankbar sein.\n\nPause ist kein Mangel. Sie ist ein Geschenk.",
+      "text": "Ich bin im Urlaub und genieße das sehr.\n\nWie gut, dass unser Glaube nicht nur von Einsatz und Aktivität weiß, sondern auch von Ruhe, Unterbrechung und Sabbat. Nicht jeder Tag muss produktiv sein. Manchmal ist es heilsam, einfach zu ruhen.\n\nDer Sabbat erinnert: Wir sind mehr als das, was wir leisten. Wir leben auch von dem, was wir empfangen.\n\n\"Gedenke des Sabbattages, dass du ihn heiligst.\" (2. Mose 20,8)\n\nVielleicht ist dieser Sommergruß auch eine kleine Einladung: durchatmen, loslassen, dankbar sein.\n\nPause ist kein Mangel. Sie ist ein Geschenk.",
       "headline": "Pause ist ein Geschenk"
     },
     "instagram": {
-      "caption": "Urlaub. Durchatmen. Loslassen. Dankbar sein.\n\nWie gut, dass unser Glaube nicht nur Leistung kennt, sondern auch Ruhe. Der Sabbat erinnert daran: Wir sind mehr als das, was wir schaffen. Wir leben auch von dem, was wir empfangen.\n\nVielleicht brauchst du heute genau das als Erinnerung: Pause ist kein Luxus. Sie ist ein Geschenk.\n\n#Urlaub #Sabbat #Ruhe #Durchatmen #GlaubeImAlltag #Dankbarkeit",
+      "caption": "Urlaub. Durchatmen. Loslassen. Dankbar sein.\n\nWie gut, dass unser Glaube nicht nur Leistung kennt, sondern auch Ruhe. Der Sabbat erinnert daran: Wir sind mehr als das, was wir schaffen. Wir leben auch von dem, was wir empfangen.\n\n\"Gedenke des Sabbattages, dass du ihn heiligst.\" (2. Mose 20,8)\n\nVielleicht brauchst du heute genau das als Erinnerung: Pause ist kein Luxus. Sie ist ein Geschenk.\n\n#Urlaub #Sabbat #Ruhe #Durchatmen #GlaubeImAlltag #Dankbarkeit",
       "carousel": [
         {
           "type": "text",
@@ -54,15 +55,19 @@
         },
         {
           "type": "text",
+          "text": "\"Gedenke des Sabbattages,\ndass du ihn heiligst.\"\n2. Mose 20,8"
+        },
+        {
+          "type": "text",
           "text": "Pause ist kein Luxus.\nSie ist ein Geschenk."
         }
       ]
     },
     "mastodon": {
-      "text": "Ich bin im Urlaub und genieße das sehr. Wie gut, dass unser Glaube nicht nur Einsatz kennt, sondern auch Ruhe, Unterbrechung und Sabbat. Nicht jeder Tag muss produktiv sein. Pause ist kein Mangel, sondern ein Geschenk."
+      "text": "Ich bin im Urlaub und genieße das sehr. Wie gut, dass unser Glaube nicht nur Einsatz kennt, sondern auch Ruhe, Unterbrechung und Sabbat. Nicht jeder Tag muss produktiv sein. „Gedenke des Sabbattages, dass du ihn heiligst.“ (2. Mose 20,8) Pause ist kein Mangel, sondern ein Geschenk."
     },
     "bluesky": {
-      "text": "Urlaub. Durchatmen. Loslassen. Der Sabbat erinnert: Wir sind mehr als das, was wir leisten. Pause ist kein Mangel, sondern ein Geschenk."
+      "text": "Urlaub. Durchatmen. Loslassen. Der Sabbat erinnert: Wir sind mehr als das, was wir leisten. „Gedenke des Sabbattages, dass du ihn heiligst.“ (2. Mose 20,8)"
     },
     "story": {
       "slides": [
@@ -76,18 +81,22 @@
           "text": "Der Sabbat erinnert:\nRuhe ist ein Geschenk."
         },
         {
+          "text": "\"Gedenke des Sabbattages,\ndass du ihn heiligst.\"\n2. Mose 20,8"
+        },
+        {
           "text": "Du bist mehr als das, was du schaffst."
         }
       ]
     },
     "reel": {
       "hook": "Nicht jeder Tag muss produktiv sein.",
-      "script": "Ich bin im Urlaub und genieße das sehr. Wie gut, dass unser Glaube nicht nur von Einsatz und Aktivität weiß, sondern auch von Ruhe und Sabbat. Nicht jeder Tag muss produktiv sein. Manchmal ist es heilsam, einfach zu ruhen. Der Sabbat erinnert: Wir sind mehr als das, was wir leisten. Pause ist kein Mangel. Sie ist ein Geschenk.",
+      "script": "Ich bin im Urlaub und genieße das sehr. Wie gut, dass unser Glaube nicht nur von Einsatz und Aktivität weiß, sondern auch von Ruhe und Sabbat. Nicht jeder Tag muss produktiv sein. Manchmal ist es heilsam, einfach zu ruhen. Der Sabbat erinnert: Wir sind mehr als das, was wir leisten. \"Gedenke des Sabbattages, dass du ihn heiligst.\" Pause ist kein Mangel. Sie ist ein Geschenk.",
       "shots": [
         "Ruhige Urlaubsszene mit Himmel, Wasser oder Landschaft",
         "Detailaufnahme von Händen mit Kaffee oder Buch",
         "Langsame Aufnahme von Gehen oder Sitzen in der Natur",
         "Texteinblendung: Nicht jeder Tag muss produktiv sein",
+        "Texteinblendung: Gedenke des Sabbattages, dass du ihn heiligst",
         "Texteinblendung: Pause ist ein Geschenk"
       ],
       "duration_seconds": 25
@@ -105,10 +114,12 @@
     "alt_text": "Eine ruhige sommerliche Landschaft in warmem Licht vermittelt Erholung, Weite und einen Moment der stillen Pause."
   },
   "qa": {
-    "approved": true,
     "warnings": [
-      "Current-event or local factual details are still required. Verify that no details were invented."
-    ]
+      "Rubrik bleibt aus Quellgründen 'Predigt-Preview', obwohl der Inhalt als persönlicher geistlicher Impuls über Urlaub und Sabbat ausgearbeitet ist.",
+      "Prüfen, ob Bildmotiv und Text zur persönlichen Urlaubssituation passen, bevor veröffentlicht wird.",
+      "Verwendeter Bibelvers prüfen, ob die gewählte Übersetzung zur sonstigen Kommunikationslinie der Gemeinde passt."
+    ],
+    "approved": false
   },
   "metadata": {
     "model": "",
