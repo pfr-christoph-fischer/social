@@ -1,0 +1,44 @@
+{
+  "delivery_url": "https://delivery.us4.bfl.ai/durable/2026082217/5e1f69ea-538b-4d66-962e-9be995966f07/b8/26568229f7f340/29f7f340b1b04cae8461703f80f8e0ad/sample.jpeg?se=2026-08-22T17%3A47%3A45Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=c%2BrjuWNYb6XsE8svhUI3khXDfYVMmrIJQMVEH82H0/U%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "b0573cb4-29b5-4eb7-b6ca-810702f294d4",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "b0573cb4-29b5-4eb7-b6ca-810702f294d4",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "b0573cb4-29b5-4eb7-b6ca-810702f294d4",
+      "status": "Ready",
+      "result": {
+        "start_time": 1787420263.6552563,
+        "prompt": "Fotorealistische ruhige Szene an einem stillen Ufer im weichen Morgenlicht, ein einzelner leicht geknickter Schilfhalm im Vordergrund, sanfte Wasserreflexe, zarte warme Farben, geringe Tiefenschärfe, natürliche Komposition, meditative Stimmung, Hoffnung und Behutsamkeit, hochwertiges weiches Licht, minimalistisch, keine Menschen, no text, no letters, no typography, no logo, no watermark",
+        "seed": 355533735,
+        "sample": "https://delivery.us4.bfl.ai/durable/2026082217/5e1f69ea-538b-4d66-962e-9be995966f07/b8/26568229f7f340/29f7f340b1b04cae8461703f80f8e0ad/sample.jpeg?se=2026-08-22T17%3A47%3A45Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=c%2BrjuWNYb6XsE8svhUI3khXDfYVMmrIJQMVEH82H0/U%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "b0573cb4-29b5-4eb7-b6ca-810702f294d4",
+    "polling_url": "https://api.us4.bfl.ai/v1/get_result?id=b0573cb4-29b5-4eb7-b6ca-810702f294d4",
+    "cost": 1.5,
+    "input_mp": 0,
+    "output_mp": 1.39
+  }
+}
