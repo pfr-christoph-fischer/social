@@ -27,5 +27,66 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "post-0014",
+    "contentDate": "2026-08-23",
+    "platform": "instagram",
+    "format": "default",
+    "scheduledAt": "2026-08-23T07:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "„Das geknickte Rohr wird er nicht zerbrechen, und den glimmenden Docht wird er nicht auslöschen.“\nJesaja 42,3\n\nEin geknickter Halm. Ein Docht mit kleinem Licht.\nDer Wochenspruch sieht das, was leicht übersehen wird: das Schwache, Müde, Angeknickte.\n\nUnd er sagt: Gott geht behutsam damit um.\nEr macht nicht klein, was schon klein geworden ist.\nEr löscht nicht aus, was nur noch leise brennt.\n\nVielleicht ist das der Satz, den diese Woche braucht.\n\nWas glimmt in dir noch?",
+    "assets": [
+      "render-instagram-feed-01.jpg",
+      "render-instagram-feed-02.jpg",
+      "render-instagram-feed-03.jpg",
+      "render-instagram-feed-04.jpg",
+      "render-instagram-feed-05.jpg"
+    ],
+    "altTexts": [
+      "Ein einzelner leicht gebogener Schilfhalm an einem stillen Ufer im weichen Morgenlicht. Im Hintergrund glitzert unscharf das Wasser. Die Szene wirkt ruhig, zart und hoffnungsvoll."
+    ],
+    "id": "7e6aaa93-268c-4642-9d89-9e8c7d3e600f",
+    "attemptCount": 1,
+    "remoteId": "17913743310445122",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-22T17:38:45.917Z",
+    "updatedAt": "2026-08-23T07:01:28.021Z",
+    "responseMetadata": {
+      "mediaCount": 5,
+      "mediaType": "CAROUSEL",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "post-0014",
+    "contentDate": "2026-08-23",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-08-23T07:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "„Das geknickte Rohr wird er nicht zerbrechen, und den glimmenden Docht wird er nicht auslöschen.“ (Jes 42,3)\n\nEin stilles Bild zum Wochenbeginn: Gott geht behutsam mit dem um, was müde, angeknickt oder fast erloschen ist.\n\nWas glimmt in dir noch?",
+    "assets": [
+      "render-facebook-mastodon-01.png"
+    ],
+    "altTexts": [
+      "Ein einzelner leicht gebogener Schilfhalm an einem stillen Ufer im weichen Morgenlicht. Im Hintergrund glitzert unscharf das Wasser. Die Szene wirkt ruhig, zart und hoffnungsvoll."
+    ],
+    "id": "fc726149-3f3a-4f01-8c58-a1db4b338d6c",
+    "attemptCount": 1,
+    "remoteId": "117143534895628969",
+    "remoteUrl": "https://kirche.social/@christoph/117143534895628969",
+    "lastError": null,
+    "createdAt": "2026-08-22T17:38:45.973Z",
+    "updatedAt": "2026-08-23T07:01:29.071Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
