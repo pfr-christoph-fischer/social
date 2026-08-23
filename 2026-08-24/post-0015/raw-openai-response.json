@@ -1,0 +1,420 @@
+{
+  "id": "resp_0de8674de2a18603006a8b1bf1622c87d286e18ba5e88cf51d",
+  "object": "response",
+  "created_at": 1787501553,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1787501572,
+  "error": null,
+  "frequency_penalty": 0,
+  "incomplete_details": null,
+  "instructions": "You are part of a Protestant social media editorial team. Write in clear, accessible, theologically responsible German without church clichés. Use short sentences and concrete imagery. Never invent events, people, school situations, quotes, or factual details. Do not include copyrighted full song verses. For Reli and community posts, only use current details when they are explicitly provided. Return content that strictly matches the requested JSON schema. Set needs_input to true whenever required facts are missing. Keep qa.approved false. Do not ask for any text inside generated images. When liturgical_context.resolved_weekly_verse is present, use its exact wording for Wochenspruch slots instead of placeholders.",
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.4-2026-03-05",
+  "moderation": null,
+  "output": [
+    {
+      "id": "msg_0de8674de2a18603006a8b1bf2f0e087d28c40997fe01bfd4a",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\"id\":\"post-0015\",\"status\":\"in Arbeit\",\"needs_input\":false,\"source\":{\"calendar_post_id\":\"post-0015\",\"date\":\"2026-08-24\",\"rubric\":\"Mit dem Wochenspruch in die Woche\",\"liturgical_source\":\"https://kirchenjahr.pfarr.tools/api/jahr/2026\"},\"editorial_core\":{\"title\":\"Wochenspruch praktisch: 12. Sonntag nach Trinitatis\",\"main_message\":\"Gottes Blick ist behutsam. Diese Woche kann das sichtbar werden, wenn wir eine kleine Aufgabe übernehmen, die sonst niemand bemerkt.\",\"audience\":\"breite Öffentlichkeit\",\"tone\":[\"klar\",\"ruhig\",\"zugänglich\"],\"source_notes\":[\"Goal: Den seit Sonntag geltenden Wochenspruch in eine kleine, konkrete Wochenpraxis übersetzen.\",\"Column: Bibel und Alltag\",\"Production mode: vollständig vorproduzierbar\",\"Structure: Wochenspruch | ein alltagsnaher Gedanke | eine kleine Übung | eine Frage\",\"AI support notes: Rohentwurf in einfacher Sprache | Varianten der Wochenübung | Caption kürzen | Alt-Text\",\"Liturgical source: https://kirchenjahr.pfarr.tools/api/jahr/2026 (2026-08-23, $.Tage['2026-08-23'])\",\"Wochenspruch: Das geknickte Rohr wird er nicht zerbrechen, und den glimmenden Docht wird er nicht auslöschen. (Jes 42,3)\"]},\"platforms\":{\"facebook\":{\"text\":\"„Das geknickte Rohr wird er nicht zerbrechen, und den glimmenden Docht wird er nicht auslöschen.“ (Jes 42,3)\\n\\nManches in einer Woche ist unscheinbar. Jemand ist müde. Eine Aufgabe bleibt liegen. Etwas Kleines braucht Aufmerksamkeit, damit es nicht noch schwerer wird.\\n\\nDer Wochenspruch zeigt einen behutsamen Blick. Gott drückt nicht auf das, was schon angeknickt ist. Er löscht nicht aus, was nur noch schwach glimmt. Er geht sorgsam mit dem um, was verletzlich ist.\\n\\nVielleicht können wir das diese Woche üben. Nicht groß. Nicht sichtbar. Sondern leise.\\n\\nDie kleine Übung: Tu eine Aufgabe, die sonst niemand bemerkt. Räume etwas weg. Heb etwas auf. Wische etwas sauber. Sortiere etwas, das allen hilft. Ohne Ankündigung. Ohne Lob zu erwarten.\\n\\nAuch das ist gelebte Rücksicht. Es nimmt Druck weg. Es schützt, was gerade wenig Kraft hat.\\n\\nFrage für die Woche: Wo kannst du heute etwas entlasten, ohne dich in den Mittelpunkt zu stellen?\",\"headline\":\"Wochenspruch praktisch: leise helfen\"},\"instagram\":{\"caption\":\"„Das geknickte Rohr wird er nicht zerbrechen, und den glimmenden Docht wird er nicht auslöschen.“ (Jes 42,3)\\n\\nGott geht behutsam mit dem um, was schwach ist. Diese Woche kann das praktisch werden: Tu eine kleine Aufgabe, die sonst niemand bemerkt.\\n\\nEtwas aufräumen. Etwas ordnen. Etwas sauber machen. Nicht für Applaus. Sondern damit es für andere ein bisschen leichter wird.\\n\\nFrage für die Woche: Wo kannst du heute leise entlasten?\\n\\n#Wochenspruch #Kirchenjahr #GlaubeImAlltag #Jesaja42 #Achtsamkeit\",\"carousel\":[{\"type\":\"image\",\"text\":\"Wochenspruch\\n\\n„Das geknickte Rohr wird er nicht zerbrechen, und den glimmenden Docht wird er nicht auslöschen.“\\nJes 42,3\"},{\"type\":\"image\",\"text\":\"Ein Gedanke\\n\\nGott geht behutsam mit dem um, was schwach ist.\\nNicht hart. Nicht laut.\\nSondern sorgsam.\"},{\"type\":\"image\",\"text\":\"Kleine Übung\\n\\nTu diese Woche eine Aufgabe, die sonst niemand bemerkt.\\nLeise. Praktisch. Ohne Lob zu erwarten.\"},{\"type\":\"image\",\"text\":\"Frage\\n\\nWo kannst du heute etwas entlasten,\\nohne dich in den Mittelpunkt zu stellen?\"}]},\"mastodon\":{\"text\":\"„Das geknickte Rohr wird er nicht zerbrechen, und den glimmenden Docht wird er nicht auslöschen.“ (Jes 42,3)\\n\\nDer Wochenspruch zeigt einen behutsamen Blick. Gott geht sorgsam mit dem um, was schwach ist.\\n\\nEine kleine Übung für diese Woche: Tu eine Aufgabe, die sonst niemand bemerkt. Etwas aufräumen. Etwas ordnen. Etwas sauber machen. Ohne Aufhebens.\\n\\nWo kannst du heute leise entlasten?\"},\"bluesky\":{\"text\":\"„Das geknickte Rohr wird er nicht zerbrechen, und den glimmenden Docht wird er nicht auslöschen.“ (Jes 42,3)\\n\\nFür diese Woche: Tu eine kleine Aufgabe, die sonst niemand bemerkt. Leise helfen. Praktisch entlasten.\\n\\nWo kannst du heute etwas leichter machen?\"},\"story\":{\"slides\":[{\"text\":\"Wochenspruch\\n\\n„Das geknickte Rohr wird er nicht zerbrechen, und den glimmenden Docht wird er nicht auslöschen.“\\nJes 42,3\"},{\"text\":\"Gott geht behutsam mit dem um, was schwach ist.\"},{\"text\":\"Wochenübung\\n\\nTu eine kleine Aufgabe, die sonst niemand bemerkt.\"},{\"text\":\"Frage\\n\\nWo kannst du heute leise entlasten?\"}]},\"reel\":{\"hook\":\"Leise helfen. Diese Woche ganz praktisch.\",\"script\":\"Der Wochenspruch dieser Woche lautet: „Das geknickte Rohr wird er nicht zerbrechen, und den glimmenden Docht wird er nicht auslöschen.“ Aus Jesaja 42, Vers 3. Das heißt für mich: Gott geht behutsam mit dem um, was schwach ist. Vielleicht können wir das üben. Nicht groß. Nicht laut. Sondern in einer kleinen Aufgabe, die sonst niemand bemerkt. Etwas aufräumen. Etwas ordnen. Etwas sauber machen. Einfach so. Wo kannst du heute leise entlasten?\",\"shots\":[\"Nahaufnahme einer Hand, die einen liegengebliebenen Gegenstand aufhebt\",\"Ruhige Szene beim Ordnen eines kleinen Stapels oder einer Fläche\",\"Hand wischt eine Oberfläche sauber\",\"Abschlussbild mit kurzer stiller Pause auf einer aufgeräumten Alltagsszene\"],\"duration_seconds\":25}},\"visual\":{\"concept\":\"Unauffällige Hilfe im Alltag: eine ruhige, warme Szene, in der eine einzelne Handlung sichtbar wird, die Ordnung schafft und entlastet, ohne dramatisch zu wirken.\",\"flux_prompt\":\"Fotorealistische, ruhige Alltagsszene bei weichem natürlichem Licht, eine Hand räumt unauffällig etwas auf oder ordnet Gegenstände sorgfältig, warme zurückhaltende Farben, achtsame Stimmung, schlichtes Umfeld, Fokus auf leise Hilfe und Entlastung, keine inszenierte Perfektion, keine Menschenmenge, hohe Bildruhe\",\"negative_prompt\":\"text, letters, logo, watermark\",\"formats\":[\"4:5\",\"9:16\",\"1.91:1\"],\"alt_text\":\"Eine Hand ordnet in ruhigem Licht einige Alltagsgegenstände und schafft unauffällig Ordnung. Die Szene wirkt still, schlicht und behutsam.\"},\"qa\":{\"warnings\":[\"Alt text must be completed before approval\"],\"approved\":false},\"metadata\":{\"model\":\"gpt-5\",\"generated_at\":\"2026-08-23T00:00:00Z\",\"prompt_version\":\"1.0\",\"assets\":[]}}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "current_turn",
+    "effort": "none",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1,
+  "text": {
+    "format": {
+      "type": "json_schema",
+      "description": null,
+      "name": "content_package",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "Idee",
+              "in Arbeit",
+              "zur Prüfung",
+              "freigegeben",
+              "terminiert",
+              "veröffentlicht",
+              "verworfen"
+            ]
+          },
+          "needs_input": {
+            "type": "boolean"
+          },
+          "source": {
+            "type": "object",
+            "properties": {
+              "calendar_post_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "date": {
+                "type": "string",
+                "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+              },
+              "rubric": {
+                "type": "string",
+                "minLength": 1
+              },
+              "liturgical_source": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "calendar_post_id",
+              "date",
+              "rubric",
+              "liturgical_source"
+            ],
+            "additionalProperties": false
+          },
+          "editorial_core": {
+            "type": "object",
+            "properties": {
+              "title": {
+                "type": "string"
+              },
+              "main_message": {
+                "type": "string"
+              },
+              "audience": {
+                "type": "string"
+              },
+              "tone": {
+                "minItems": 1,
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "source_notes": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "title",
+              "main_message",
+              "audience",
+              "tone",
+              "source_notes"
+            ],
+            "additionalProperties": false
+          },
+          "platforms": {
+            "type": "object",
+            "properties": {
+              "facebook": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  },
+                  "headline": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text",
+                  "headline"
+                ],
+                "additionalProperties": false
+              },
+              "instagram": {
+                "type": "object",
+                "properties": {
+                  "caption": {
+                    "type": "string"
+                  },
+                  "carousel": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "type": {
+                          "type": "string"
+                        },
+                        "text": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "type",
+                        "text"
+                      ],
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "required": [
+                  "caption",
+                  "carousel"
+                ],
+                "additionalProperties": false
+              },
+              "mastodon": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text"
+                ],
+                "additionalProperties": false
+              },
+              "bluesky": {
+                "default": {
+                  "text": ""
+                },
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text"
+                ],
+                "additionalProperties": false
+              },
+              "story": {
+                "type": "object",
+                "properties": {
+                  "slides": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "text": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "text"
+                      ],
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "required": [
+                  "slides"
+                ],
+                "additionalProperties": false
+              },
+              "reel": {
+                "type": "object",
+                "properties": {
+                  "hook": {
+                    "type": "string"
+                  },
+                  "script": {
+                    "type": "string"
+                  },
+                  "shots": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "duration_seconds": {
+                    "type": "integer",
+                    "minimum": 0,
+                    "maximum": 9007199254740991
+                  }
+                },
+                "required": [
+                  "hook",
+                  "script",
+                  "shots",
+                  "duration_seconds"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "required": [
+              "facebook",
+              "instagram",
+              "mastodon",
+              "bluesky",
+              "story",
+              "reel"
+            ],
+            "additionalProperties": false
+          },
+          "visual": {
+            "type": "object",
+            "properties": {
+              "concept": {
+                "type": "string"
+              },
+              "flux_prompt": {
+                "type": "string"
+              },
+              "negative_prompt": {
+                "type": "string",
+                "minLength": 1
+              },
+              "formats": {
+                "minItems": 1,
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "alt_text": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "concept",
+              "flux_prompt",
+              "negative_prompt",
+              "formats",
+              "alt_text"
+            ],
+            "additionalProperties": false
+          },
+          "qa": {
+            "type": "object",
+            "properties": {
+              "warnings": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "approved": {
+                "type": "boolean"
+              }
+            },
+            "required": [
+              "warnings",
+              "approved"
+            ],
+            "additionalProperties": false
+          },
+          "metadata": {
+            "type": "object",
+            "properties": {
+              "model": {
+                "type": "string"
+              },
+              "generated_at": {
+                "type": "string"
+              },
+              "prompt_version": {
+                "type": "string",
+                "minLength": 1
+              },
+              "assets": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "model",
+              "generated_at",
+              "prompt_version",
+              "assets"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "id",
+          "status",
+          "needs_input",
+          "source",
+          "editorial_core",
+          "platforms",
+          "visual",
+          "qa",
+          "metadata"
+        ],
+        "additionalProperties": false
+      },
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 1927,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1636,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 3563
+  },
+  "user": null,
+  "metadata": {},
+  "output_text": "{\"id\":\"post-0015\",\"status\":\"in Arbeit\",\"needs_input\":false,\"source\":{\"calendar_post_id\":\"post-0015\",\"date\":\"2026-08-24\",\"rubric\":\"Mit dem Wochenspruch in die Woche\",\"liturgical_source\":\"https://kirchenjahr.pfarr.tools/api/jahr/2026\"},\"editorial_core\":{\"title\":\"Wochenspruch praktisch: 12. Sonntag nach Trinitatis\",\"main_message\":\"Gottes Blick ist behutsam. Diese Woche kann das sichtbar werden, wenn wir eine kleine Aufgabe übernehmen, die sonst niemand bemerkt.\",\"audience\":\"breite Öffentlichkeit\",\"tone\":[\"klar\",\"ruhig\",\"zugänglich\"],\"source_notes\":[\"Goal: Den seit Sonntag geltenden Wochenspruch in eine kleine, konkrete Wochenpraxis übersetzen.\",\"Column: Bibel und Alltag\",\"Production mode: vollständig vorproduzierbar\",\"Structure: Wochenspruch | ein alltagsnaher Gedanke | eine kleine Übung | eine Frage\",\"AI support notes: Rohentwurf in einfacher Sprache | Varianten der Wochenübung | Caption kürzen | Alt-Text\",\"Liturgical source: https://kirchenjahr.pfarr.tools/api/jahr/2026 (2026-08-23, $.Tage['2026-08-23'])\",\"Wochenspruch: Das geknickte Rohr wird er nicht zerbrechen, und den glimmenden Docht wird er nicht auslöschen. (Jes 42,3)\"]},\"platforms\":{\"facebook\":{\"text\":\"„Das geknickte Rohr wird er nicht zerbrechen, und den glimmenden Docht wird er nicht auslöschen.“ (Jes 42,3)\\n\\nManches in einer Woche ist unscheinbar. Jemand ist müde. Eine Aufgabe bleibt liegen. Etwas Kleines braucht Aufmerksamkeit, damit es nicht noch schwerer wird.\\n\\nDer Wochenspruch zeigt einen behutsamen Blick. Gott drückt nicht auf das, was schon angeknickt ist. Er löscht nicht aus, was nur noch schwach glimmt. Er geht sorgsam mit dem um, was verletzlich ist.\\n\\nVielleicht können wir das diese Woche üben. Nicht groß. Nicht sichtbar. Sondern leise.\\n\\nDie kleine Übung: Tu eine Aufgabe, die sonst niemand bemerkt. Räume etwas weg. Heb etwas auf. Wische etwas sauber. Sortiere etwas, das allen hilft. Ohne Ankündigung. Ohne Lob zu erwarten.\\n\\nAuch das ist gelebte Rücksicht. Es nimmt Druck weg. Es schützt, was gerade wenig Kraft hat.\\n\\nFrage für die Woche: Wo kannst du heute etwas entlasten, ohne dich in den Mittelpunkt zu stellen?\",\"headline\":\"Wochenspruch praktisch: leise helfen\"},\"instagram\":{\"caption\":\"„Das geknickte Rohr wird er nicht zerbrechen, und den glimmenden Docht wird er nicht auslöschen.“ (Jes 42,3)\\n\\nGott geht behutsam mit dem um, was schwach ist. Diese Woche kann das praktisch werden: Tu eine kleine Aufgabe, die sonst niemand bemerkt.\\n\\nEtwas aufräumen. Etwas ordnen. Etwas sauber machen. Nicht für Applaus. Sondern damit es für andere ein bisschen leichter wird.\\n\\nFrage für die Woche: Wo kannst du heute leise entlasten?\\n\\n#Wochenspruch #Kirchenjahr #GlaubeImAlltag #Jesaja42 #Achtsamkeit\",\"carousel\":[{\"type\":\"image\",\"text\":\"Wochenspruch\\n\\n„Das geknickte Rohr wird er nicht zerbrechen, und den glimmenden Docht wird er nicht auslöschen.“\\nJes 42,3\"},{\"type\":\"image\",\"text\":\"Ein Gedanke\\n\\nGott geht behutsam mit dem um, was schwach ist.\\nNicht hart. Nicht laut.\\nSondern sorgsam.\"},{\"type\":\"image\",\"text\":\"Kleine Übung\\n\\nTu diese Woche eine Aufgabe, die sonst niemand bemerkt.\\nLeise. Praktisch. Ohne Lob zu erwarten.\"},{\"type\":\"image\",\"text\":\"Frage\\n\\nWo kannst du heute etwas entlasten,\\nohne dich in den Mittelpunkt zu stellen?\"}]},\"mastodon\":{\"text\":\"„Das geknickte Rohr wird er nicht zerbrechen, und den glimmenden Docht wird er nicht auslöschen.“ (Jes 42,3)\\n\\nDer Wochenspruch zeigt einen behutsamen Blick. Gott geht sorgsam mit dem um, was schwach ist.\\n\\nEine kleine Übung für diese Woche: Tu eine Aufgabe, die sonst niemand bemerkt. Etwas aufräumen. Etwas ordnen. Etwas sauber machen. Ohne Aufhebens.\\n\\nWo kannst du heute leise entlasten?\"},\"bluesky\":{\"text\":\"„Das geknickte Rohr wird er nicht zerbrechen, und den glimmenden Docht wird er nicht auslöschen.“ (Jes 42,3)\\n\\nFür diese Woche: Tu eine kleine Aufgabe, die sonst niemand bemerkt. Leise helfen. Praktisch entlasten.\\n\\nWo kannst du heute etwas leichter machen?\"},\"story\":{\"slides\":[{\"text\":\"Wochenspruch\\n\\n„Das geknickte Rohr wird er nicht zerbrechen, und den glimmenden Docht wird er nicht auslöschen.“\\nJes 42,3\"},{\"text\":\"Gott geht behutsam mit dem um, was schwach ist.\"},{\"text\":\"Wochenübung\\n\\nTu eine kleine Aufgabe, die sonst niemand bemerkt.\"},{\"text\":\"Frage\\n\\nWo kannst du heute leise entlasten?\"}]},\"reel\":{\"hook\":\"Leise helfen. Diese Woche ganz praktisch.\",\"script\":\"Der Wochenspruch dieser Woche lautet: „Das geknickte Rohr wird er nicht zerbrechen, und den glimmenden Docht wird er nicht auslöschen.“ Aus Jesaja 42, Vers 3. Das heißt für mich: Gott geht behutsam mit dem um, was schwach ist. Vielleicht können wir das üben. Nicht groß. Nicht laut. Sondern in einer kleinen Aufgabe, die sonst niemand bemerkt. Etwas aufräumen. Etwas ordnen. Etwas sauber machen. Einfach so. Wo kannst du heute leise entlasten?\",\"shots\":[\"Nahaufnahme einer Hand, die einen liegengebliebenen Gegenstand aufhebt\",\"Ruhige Szene beim Ordnen eines kleinen Stapels oder einer Fläche\",\"Hand wischt eine Oberfläche sauber\",\"Abschlussbild mit kurzer stiller Pause auf einer aufgeräumten Alltagsszene\"],\"duration_seconds\":25}},\"visual\":{\"concept\":\"Unauffällige Hilfe im Alltag: eine ruhige, warme Szene, in der eine einzelne Handlung sichtbar wird, die Ordnung schafft und entlastet, ohne dramatisch zu wirken.\",\"flux_prompt\":\"Fotorealistische, ruhige Alltagsszene bei weichem natürlichem Licht, eine Hand räumt unauffällig etwas auf oder ordnet Gegenstände sorgfältig, warme zurückhaltende Farben, achtsame Stimmung, schlichtes Umfeld, Fokus auf leise Hilfe und Entlastung, keine inszenierte Perfektion, keine Menschenmenge, hohe Bildruhe\",\"negative_prompt\":\"text, letters, logo, watermark\",\"formats\":[\"4:5\",\"9:16\",\"1.91:1\"],\"alt_text\":\"Eine Hand ordnet in ruhigem Licht einige Alltagsgegenstände und schafft unauffällig Ordnung. Die Szene wirkt still, schlicht und behutsam.\"},\"qa\":{\"warnings\":[\"Alt text must be completed before approval\"],\"approved\":false},\"metadata\":{\"model\":\"gpt-5\",\"generated_at\":\"2026-08-23T00:00:00Z\",\"prompt_version\":\"1.0\",\"assets\":[]}}"
+}
