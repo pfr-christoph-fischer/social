@@ -27,5 +27,67 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "prayer-morning-2026-08-23",
+    "contentDate": "2026-08-23",
+    "platform": "instagram",
+    "format": "default",
+    "scheduledAt": "2026-08-23T05:15:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Morgengebet.\n\nGott,\nwir bringen dir diesen Tag.\nUnd mit ihm alles, was schwer auf Menschen liegt.\n\nSchenke Ruhe zwischen allen Krisen.\nGib Kraft für pflegende Angehörige.\nUnd Liebe und Wärme für Ausgegrenzte.\n\nMach uns aufmerksam füreinander.\nNicht hart. Nicht gleichgültig.\nSondern bereit zum Guten.\n\nAmen.",
+    "assets": [
+      "render-instagram-feed-01.jpg",
+      "render-instagram-feed-02.jpg",
+      "render-instagram-feed-03.jpg",
+      "render-instagram-feed-04.jpg",
+      "render-instagram-feed-05.jpg",
+      "render-instagram-feed-06.jpg"
+    ],
+    "altTexts": [
+      "Ein schlichter Tisch am Fenster im weichen Morgenlicht, daneben eine Tasse und eine warme Decke. Die Szene wirkt ruhig, fürsorglich und hoffnungsvoll."
+    ],
+    "id": "2cd4183e-baf4-4b64-b4ae-b48c2bc5f79f",
+    "attemptCount": 1,
+    "remoteId": "17864249598660877",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-22T17:36:30.547Z",
+    "updatedAt": "2026-08-23T05:15:58.931Z",
+    "responseMetadata": {
+      "mediaCount": 6,
+      "mediaType": "CAROUSEL",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "prayer-morning-2026-08-23",
+    "contentDate": "2026-08-23",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-08-23T05:15:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Morgengebet.\n\nGott,\nschenke Ruhe zwischen allen Krisen. Gib Kraft für pflegende Angehörige. Und Liebe und Wärme für Ausgegrenzte.\n\nMach uns heute aufmerksam füreinander. Nicht hart. Nicht gleichgültig. Sondern bereit zum Guten.\n\nAmen.",
+    "assets": [
+      "render-facebook-mastodon-01.png"
+    ],
+    "altTexts": [
+      "Ein schlichter Tisch am Fenster im weichen Morgenlicht, daneben eine Tasse und eine warme Decke. Die Szene wirkt ruhig, fürsorglich und hoffnungsvoll."
+    ],
+    "id": "7bc528fa-3b57-4c1b-a737-6290c77e179c",
+    "attemptCount": 1,
+    "remoteId": "117143120095496309",
+    "remoteUrl": "https://kirche.social/@christoph/117143120095496309",
+    "lastError": null,
+    "createdAt": "2026-08-22T17:36:30.590Z",
+    "updatedAt": "2026-08-23T05:15:59.720Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
