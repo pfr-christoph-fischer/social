@@ -1,0 +1,489 @@
+{
+  "id": "resp_0c1ecd73a2c1d3c4006a8ab69a121c87d1b4f9c45a937fe7ce",
+  "object": "response",
+  "created_at": 1787475610,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1787475644,
+  "error": null,
+  "frequency_penalty": 0,
+  "incomplete_details": null,
+  "instructions": "You are part of a Protestant social media editorial team. Write in clear, accessible, theologically responsible German without church clichés. Use short sentences and concrete imagery. Never invent events, people, school situations, quotes, or factual details. Do not include copyrighted full song verses. For Reli and community posts, only use current details when they are explicitly provided. Return content that strictly matches the requested JSON schema. Set needs_input to true whenever required facts are missing. Keep qa.approved false. Do not ask for any text inside generated images. When liturgical_context.resolved_weekly_verse is present, use its exact wording for Wochenspruch slots instead of placeholders. Use the web search tool before drafting to verify current situations. For prayer posts, current situations are mandatory: select at least two concrete, relevant situations from reliable current reporting, including tagesschau.de and SWR Aktuell Baden-Württemberg where relevant. Do not invent current events and do not replace concrete situations with generic references to crises.",
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.4-2026-03-05",
+  "moderation": null,
+  "output": [
+    {
+      "id": "ws_0c1ecd73a2c1d3c4006a8ab69b213c87d185b70c6eaf196013",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "queries": [
+          "site:tagesschau.de 23. August 2026 Nachrichten Ukraine Gaza Sudan Waldbrände",
+          "site:swr.de/swraktuell/baden-wuerttemberg 23. August 2026 Baden-Württemberg aktuell",
+          "Reuters August 23 2026 latest world news Ukraine Gaza Sudan"
+        ],
+        "query": "site:tagesschau.de 23. August 2026 Nachrichten Ukraine Gaza Sudan Waldbrände"
+      }
+    },
+    {
+      "id": "ws_0c1ecd73a2c1d3c4006a8ab69d42f487d1b24ae16ba4628f7d",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "queries": [
+          "site:tagesschau.de 22.08.2026 Gaza Ukraine Nachrichten",
+          "site:tagesschau.de 22.08.2026 Sudan UN Nachrichten",
+          "site:reuters.com August 22 2026 Gaza Ukraine civilians Reuters",
+          "site:tagesschau.de 22.08.2026 Waldbrand NRW Merz Hürtgenwald"
+        ],
+        "query": "site:tagesschau.de 22.08.2026 Gaza Ukraine Nachrichten"
+      }
+    },
+    {
+      "id": "ws_0c1ecd73a2c1d3c4006a8ab69f5c3487d182e731c378b55307",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "queries": [
+          "site:tagesschau.de 22.08.2026 Gaza hunger aid civilians",
+          "site:tagesschau.de 22.08.2026 Ukraine attacks civilians night",
+          "site:reuters.com August 22 2026 Gaza hunger civilians aid Reuters",
+          "site:reuters.com August 22 2026 Ukraine drones civilians Reuters"
+        ],
+        "query": "site:tagesschau.de 22.08.2026 Gaza hunger aid civilians"
+      }
+    },
+    {
+      "id": "ws_0c1ecd73a2c1d3c4006a8ab6a1763c87d1aa0b145aaa30cb1e",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.tagesschau.de/archiv?datum=2026-08-22&filter=welt"
+      }
+    },
+    {
+      "id": "msg_0c1ecd73a2c1d3c4006a8ab6a3092087d18bd1912f00520606",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\"id\":\"prayer-evening-2026-08-23\",\"status\":\"in Arbeit\",\"needs_input\":false,\"source\":{\"calendar_post_id\":\"prayer-evening-2026-08-23\",\"date\":\"2026-08-23\",\"rubric\":\"Abendgebet\",\"liturgical_source\":\"\"},\"editorial_core\":{\"title\":\"Abendgebet\",\"main_message\":\"Am Ende dieses Tages dürfen wir loslassen, was gelungen ist und was offen blieb. Wir beten für die Menschen in Krywyj Rih, wo nach dem russischen Angriff auf ein Einkaufszentrum die Zahl der Toten auf 16 gestiegen ist, und für alle Verletzten und Angehörigen. Wir beten auch für die Menschen im Hürtgenwald, wo der größte Waldbrand in der Geschichte Nordrhein-Westfalens zwar gelöscht ist, die Spuren aber bleiben, und für alle, die erschöpft geholfen haben. Gottes Zukunft beginnt auch dort, wo unsere Kraft für heute endet.\",\"audience\":\"breite Öffentlichkeit\",\"tone\":[\"ruhig\",\"hoffnungsvoll\",\"geborgen\"],\"source_notes\":[\"Aktuelle Lage geprüft mit tagesschau.de, SWR Aktuell Baden-Württemberg und Reuters-Suche am 23.08.2026.\",\"Konkreter Bezug 1: Krywyj Rih in der Ukraine. Nach einem russischen Angriff auf ein Einkaufszentrum stieg die Zahl der Toten auf 16.\",\"Konkreter Bezug 2: Hürtgenwald in NRW. Der größte Waldbrand in der Geschichte Nordrhein-Westfalens ist gelöscht, die Schäden und Erschöpfung der Einsatzkräfte wirken nach.\",\"Regionaler Zusatzbezug aus Baden-Württemberg: Nach den Ausschreitungen beim Pokalspiel in Mannheim wurden 85 Verletzte gemeldet; im Gebet nur sparsam aufnehmbar, daher eher für Caption/Story geeignet.\",\"Zeitlich robust formuliert: keine Annahmen über Ereignisse des Veröffentlichungstags.\"]},\"platforms\":{\"facebook\":{\"text\":\"Abendgebet\\n\\nGott,\\nder Tag liegt hinter uns.\\nMit allem, was gut war.\\nMit allem, was schwer war.\\nMit Sätzen, die noch nachklingen.\\nMit Arbeit, die liegen blieb.\\n\\nWir danken dir für das, was heute getragen hat.\\nFür freundliche Worte.\\nFür Brot auf dem Tisch.\\nFür Menschen, die geblieben sind.\\n\\nUnd wir bringen dir, was weh tut.\\nDie Menschen in Krywyj Rih.\\nDort ist nach einem russischen Angriff auf ein Einkaufszentrum die Zahl der Toten gestiegen.\\nWir denken an die Verletzten.\\nAn Familien, die heute keinen ruhigen Abend haben.\\nAn alle, die Trümmer sehen, wo eben noch Alltag war.\\n\\nWir bringen dir auch den Hürtgenwald.\\nDas Feuer ist gelöscht.\\nAber verbrannte Flächen bleiben.\\nUnd die Müdigkeit der vielen, die dort geholfen haben.\\nSegne Feuerwehr, THW, Polizei, medizinische Teams und alle, die nach den Tagen des Brandes weitertragen, was geblieben ist.\\n\\nUnd wir denken an die Verletzten nach den Ausschreitungen in Mannheim.\\nAn Menschen, die Angst erlebt haben, obwohl ein Spiel ein Fest sein sollte.\\n\\nNimm von uns den Druck, heute noch alles ordnen zu müssen.\\nWas ungesagt blieb.\\nWas misslang.\\nWas wir nicht mehr schaffen.\\n\\nHalte du diese Welt in der Nacht.\\nBleib bei denen, die wachen.\\nBei denen, die arbeiten.\\nBei denen, die weinen.\\nBei denen, die Angst haben.\\n\\nSchenk uns Ruhe.\\nUnd morgen genug Mut für den nächsten Schritt.\\n\\nAmen.\",\"headline\":\"Abendgebet: Den Tag loslassen. Die Welt Gott anvertrauen.\"},\"instagram\":{\"caption\":\"Abendgebet.\\n\\nDer Tag muss nicht fertig werden, damit wir schlafen dürfen.\\nWir bringen Gott heute auch die Menschen in Krywyj Rih nach dem Angriff auf ein Einkaufszentrum. Und die Menschen im Hürtgenwald, wo der große Waldbrand gelöscht ist, die Spuren aber bleiben.\\n\\nGott,\\nwas heute war, legen wir in deine Hand.\\nWas gut war.\\nWas wehgetan hat.\\nWas unfertig bleibt.\\nUns selbst und diese unruhige Welt.\\nSchenk uns Frieden für diese Nacht.\\nAmen.\",\"carousel\":[{\"type\":\"text\",\"text\":\"Abendgebet\\n\\nDer Tag liegt hinter uns.\\nMit Gutem.\\nMit Schwerem.\\nMit Offenem.\"},{\"type\":\"text\",\"text\":\"Wir danken dir, Gott.\\nFür alles, was heute getragen hat.\\nFür Menschen.\\nFür Hilfe.\\nFür Atempausen.\"},{\"type\":\"text\",\"text\":\"Wir beten für Krywyj Rih.\\nFür die Menschen nach dem Angriff auf ein Einkaufszentrum.\\nFür Verletzte.\\nFür Angehörige.\\nFür alle, die keinen sicheren Abend haben.\"},{\"type\":\"text\",\"text\":\"Wir beten für den Hürtgenwald.\\nFür alle, die nach dem großen Waldbrand erschöpft sind.\\nFür die, die gelöscht haben.\\nFür die, die mit den Folgen leben.\"},{\"type\":\"text\",\"text\":\"Was unfertig bleibt,\\nlegen wir in deine Hand.\\nHalte du die Welt in dieser Nacht.\\nUnd halte unsere Hoffnung wach.\"}]},\"mastodon\":{\"text\":\"Abendgebet\\n\\nGott,\\nwir legen dir diesen Tag hin.\\nWas gut war. Was wehgetan hat. Was offen blieb.\\n\\nWir beten für die Menschen in Krywyj Rih nach dem Angriff auf ein Einkaufszentrum. Für Verletzte, Angehörige und alle, die heute Abend keinen sicheren Ort spüren.\\n\\nWir beten auch für die Menschen im Hürtgenwald. Das Feuer ist gelöscht. Aber die Spuren bleiben. Stärke alle, die erschöpft geholfen haben.\\n\\nSchenk uns Ruhe für diese Nacht.\\nAmen.\"},\"bluesky\":{\"text\":\"Abendgebet\\n\\nGott, wir legen dir diesen Tag hin. Was gut war. Was wehgetan hat. Was offen blieb.\\n\\nWir beten für die Menschen in Krywyj Rih nach dem Angriff auf ein Einkaufszentrum. Und für die Menschen im Hürtgenwald, wo der große Waldbrand gelöscht ist, die Spuren aber bleiben.\\n\\nSchenk uns Ruhe für diese Nacht. Amen.\"},\"story\":{\"slides\":[{\"text\":\"Abendgebet\\n\\nDer Tag liegt hinter uns.\"},{\"text\":\"Was gut war.\\nWas schwer war.\\nWas offen blieb.\"},{\"text\":\"Wir beten für Krywyj Rih.\\nFür Menschen nach dem Angriff auf ein Einkaufszentrum.\"},{\"text\":\"Wir beten für den Hürtgenwald.\\nFür alle, die nach dem großen Waldbrand erschöpft sind.\"},{\"text\":\"Gott,\\nhalte du diese Welt in der Nacht.\\nUnd schenke uns Frieden.\"}]},\"reel\":{\"hook\":\"Der Tag muss nicht fertig werden, damit du schlafen darfst.\",\"script\":\"Der Tag ist vorbei. Nicht alles ist gelungen. Nicht alles ist geklärt. Im Abendgebet dürfen wir loslassen. Wir denken an die Menschen in Krywyj Rih nach dem Angriff auf ein Einkaufszentrum. Und an die Menschen im Hürtgenwald, wo der große Waldbrand gelöscht ist, die Folgen aber bleiben. Gott, nimm, was gut war. Nimm, was weh tut. Halte diese Welt in der Nacht. Und halte unsere Hoffnung wach.\",\"shots\":[\"Abendlicht auf einem offenen Fenster\",\"Eine Hand legt ein Handy zur Seite\",\"Ruhige Nahaufnahme eines Tisches mit brennender Kerze\",\"Dunkler werdender Himmel über Bäumen\",\"Langsame Kamerafahrt über stille Straße am Abend\"],\"duration_seconds\":28}},\"visual\":{\"concept\":\"Ruhige Abendszene an einem offenen Fenster. Warmes Restlicht. Ein schlichter Tisch, eine Kerze, ein Glas Wasser. Draußen dunkle Bäume und weiter Himmel. Die Stimmung ist still, ehrlich und hoffnungsvoll.\",\"flux_prompt\":\"A quiet evening interior by an open window, warm fading summer light, simple wooden table with a candle and a glass of water, dark tree silhouettes outside, calm sky after sunset, intimate peaceful atmosphere, realistic photography, soft natural light, high detail, no people facing camera, contemplative mood, no text in image\",\"negative_prompt\":\"text, letters, logo, watermark\",\"formats\":[\"4:5\",\"9:16\",\"1.91:1\"],\"alt_text\":\"Ein offenes Fenster in der Abenddämmerung. Auf einem schlichten Holztisch stehen eine Kerze und ein Glas Wasser. Draußen sind dunkle Bäume gegen einen ruhigen Himmel zu sehen. Die Szene wirkt still und tröstlich.\"},\"qa\":{\"warnings\":[\"Aktuelle Bezüge redaktionell gegen Originalmeldungen gegenlesen: Krywyj Rih, Hürtgenwald, optional Mannheim.\",\"Alt text must be completed before approval\",\"Gebet nennt drei aktuelle Situationen; redaktionell prüfen, ob Mannheim im Facebook-Text beibehalten oder gestrichen werden soll, um den Fokus ruhiger zu halten.\"],\"approved\":false},\"metadata\":{\"model\":\"gpt-5\",\"generated_at\":\"2026-08-23T00:00:00Z\",\"prompt_version\":\"1.0\",\"assets\":[]}}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "current_turn",
+    "effort": "none",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1,
+  "text": {
+    "format": {
+      "type": "json_schema",
+      "description": null,
+      "name": "content_package",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "Idee",
+              "in Arbeit",
+              "zur Prüfung",
+              "freigegeben",
+              "terminiert",
+              "veröffentlicht",
+              "verworfen"
+            ]
+          },
+          "needs_input": {
+            "type": "boolean"
+          },
+          "source": {
+            "type": "object",
+            "properties": {
+              "calendar_post_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "date": {
+                "type": "string",
+                "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+              },
+              "rubric": {
+                "type": "string",
+                "minLength": 1
+              },
+              "liturgical_source": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "calendar_post_id",
+              "date",
+              "rubric",
+              "liturgical_source"
+            ],
+            "additionalProperties": false
+          },
+          "editorial_core": {
+            "type": "object",
+            "properties": {
+              "title": {
+                "type": "string"
+              },
+              "main_message": {
+                "type": "string"
+              },
+              "audience": {
+                "type": "string"
+              },
+              "tone": {
+                "minItems": 1,
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "source_notes": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "title",
+              "main_message",
+              "audience",
+              "tone",
+              "source_notes"
+            ],
+            "additionalProperties": false
+          },
+          "platforms": {
+            "type": "object",
+            "properties": {
+              "facebook": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  },
+                  "headline": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text",
+                  "headline"
+                ],
+                "additionalProperties": false
+              },
+              "instagram": {
+                "type": "object",
+                "properties": {
+                  "caption": {
+                    "type": "string"
+                  },
+                  "carousel": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "type": {
+                          "type": "string"
+                        },
+                        "text": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "type",
+                        "text"
+                      ],
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "required": [
+                  "caption",
+                  "carousel"
+                ],
+                "additionalProperties": false
+              },
+              "mastodon": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text"
+                ],
+                "additionalProperties": false
+              },
+              "bluesky": {
+                "default": {
+                  "text": ""
+                },
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text"
+                ],
+                "additionalProperties": false
+              },
+              "story": {
+                "type": "object",
+                "properties": {
+                  "slides": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "text": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "text"
+                      ],
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "required": [
+                  "slides"
+                ],
+                "additionalProperties": false
+              },
+              "reel": {
+                "type": "object",
+                "properties": {
+                  "hook": {
+                    "type": "string"
+                  },
+                  "script": {
+                    "type": "string"
+                  },
+                  "shots": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "duration_seconds": {
+                    "type": "integer",
+                    "minimum": 0,
+                    "maximum": 9007199254740991
+                  }
+                },
+                "required": [
+                  "hook",
+                  "script",
+                  "shots",
+                  "duration_seconds"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "required": [
+              "facebook",
+              "instagram",
+              "mastodon",
+              "bluesky",
+              "story",
+              "reel"
+            ],
+            "additionalProperties": false
+          },
+          "visual": {
+            "type": "object",
+            "properties": {
+              "concept": {
+                "type": "string"
+              },
+              "flux_prompt": {
+                "type": "string"
+              },
+              "negative_prompt": {
+                "type": "string",
+                "minLength": 1
+              },
+              "formats": {
+                "minItems": 1,
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "alt_text": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "concept",
+              "flux_prompt",
+              "negative_prompt",
+              "formats",
+              "alt_text"
+            ],
+            "additionalProperties": false
+          },
+          "qa": {
+            "type": "object",
+            "properties": {
+              "warnings": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "approved": {
+                "type": "boolean"
+              }
+            },
+            "required": [
+              "warnings",
+              "approved"
+            ],
+            "additionalProperties": false
+          },
+          "metadata": {
+            "type": "object",
+            "properties": {
+              "model": {
+                "type": "string"
+              },
+              "generated_at": {
+                "type": "string"
+              },
+              "prompt_version": {
+                "type": "string",
+                "minLength": 1
+              },
+              "assets": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "model",
+              "generated_at",
+              "prompt_version",
+              "assets"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "id",
+          "status",
+          "needs_input",
+          "source",
+          "editorial_core",
+          "platforms",
+          "visual",
+          "qa",
+          "metadata"
+        ],
+        "additionalProperties": false
+      },
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 3
+    }
+  },
+  "tools": [
+    {
+      "type": "web_search",
+      "return_token_budget": "default",
+      "search_content_types": [
+        "text"
+      ],
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 25366,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 2364,
+    "output_tokens_details": {
+      "reasoning_tokens": 394
+    },
+    "total_tokens": 27730
+  },
+  "user": null,
+  "metadata": {},
+  "output_text": "{\"id\":\"prayer-evening-2026-08-23\",\"status\":\"in Arbeit\",\"needs_input\":false,\"source\":{\"calendar_post_id\":\"prayer-evening-2026-08-23\",\"date\":\"2026-08-23\",\"rubric\":\"Abendgebet\",\"liturgical_source\":\"\"},\"editorial_core\":{\"title\":\"Abendgebet\",\"main_message\":\"Am Ende dieses Tages dürfen wir loslassen, was gelungen ist und was offen blieb. Wir beten für die Menschen in Krywyj Rih, wo nach dem russischen Angriff auf ein Einkaufszentrum die Zahl der Toten auf 16 gestiegen ist, und für alle Verletzten und Angehörigen. Wir beten auch für die Menschen im Hürtgenwald, wo der größte Waldbrand in der Geschichte Nordrhein-Westfalens zwar gelöscht ist, die Spuren aber bleiben, und für alle, die erschöpft geholfen haben. Gottes Zukunft beginnt auch dort, wo unsere Kraft für heute endet.\",\"audience\":\"breite Öffentlichkeit\",\"tone\":[\"ruhig\",\"hoffnungsvoll\",\"geborgen\"],\"source_notes\":[\"Aktuelle Lage geprüft mit tagesschau.de, SWR Aktuell Baden-Württemberg und Reuters-Suche am 23.08.2026.\",\"Konkreter Bezug 1: Krywyj Rih in der Ukraine. Nach einem russischen Angriff auf ein Einkaufszentrum stieg die Zahl der Toten auf 16.\",\"Konkreter Bezug 2: Hürtgenwald in NRW. Der größte Waldbrand in der Geschichte Nordrhein-Westfalens ist gelöscht, die Schäden und Erschöpfung der Einsatzkräfte wirken nach.\",\"Regionaler Zusatzbezug aus Baden-Württemberg: Nach den Ausschreitungen beim Pokalspiel in Mannheim wurden 85 Verletzte gemeldet; im Gebet nur sparsam aufnehmbar, daher eher für Caption/Story geeignet.\",\"Zeitlich robust formuliert: keine Annahmen über Ereignisse des Veröffentlichungstags.\"]},\"platforms\":{\"facebook\":{\"text\":\"Abendgebet\\n\\nGott,\\nder Tag liegt hinter uns.\\nMit allem, was gut war.\\nMit allem, was schwer war.\\nMit Sätzen, die noch nachklingen.\\nMit Arbeit, die liegen blieb.\\n\\nWir danken dir für das, was heute getragen hat.\\nFür freundliche Worte.\\nFür Brot auf dem Tisch.\\nFür Menschen, die geblieben sind.\\n\\nUnd wir bringen dir, was weh tut.\\nDie Menschen in Krywyj Rih.\\nDort ist nach einem russischen Angriff auf ein Einkaufszentrum die Zahl der Toten gestiegen.\\nWir denken an die Verletzten.\\nAn Familien, die heute keinen ruhigen Abend haben.\\nAn alle, die Trümmer sehen, wo eben noch Alltag war.\\n\\nWir bringen dir auch den Hürtgenwald.\\nDas Feuer ist gelöscht.\\nAber verbrannte Flächen bleiben.\\nUnd die Müdigkeit der vielen, die dort geholfen haben.\\nSegne Feuerwehr, THW, Polizei, medizinische Teams und alle, die nach den Tagen des Brandes weitertragen, was geblieben ist.\\n\\nUnd wir denken an die Verletzten nach den Ausschreitungen in Mannheim.\\nAn Menschen, die Angst erlebt haben, obwohl ein Spiel ein Fest sein sollte.\\n\\nNimm von uns den Druck, heute noch alles ordnen zu müssen.\\nWas ungesagt blieb.\\nWas misslang.\\nWas wir nicht mehr schaffen.\\n\\nHalte du diese Welt in der Nacht.\\nBleib bei denen, die wachen.\\nBei denen, die arbeiten.\\nBei denen, die weinen.\\nBei denen, die Angst haben.\\n\\nSchenk uns Ruhe.\\nUnd morgen genug Mut für den nächsten Schritt.\\n\\nAmen.\",\"headline\":\"Abendgebet: Den Tag loslassen. Die Welt Gott anvertrauen.\"},\"instagram\":{\"caption\":\"Abendgebet.\\n\\nDer Tag muss nicht fertig werden, damit wir schlafen dürfen.\\nWir bringen Gott heute auch die Menschen in Krywyj Rih nach dem Angriff auf ein Einkaufszentrum. Und die Menschen im Hürtgenwald, wo der große Waldbrand gelöscht ist, die Spuren aber bleiben.\\n\\nGott,\\nwas heute war, legen wir in deine Hand.\\nWas gut war.\\nWas wehgetan hat.\\nWas unfertig bleibt.\\nUns selbst und diese unruhige Welt.\\nSchenk uns Frieden für diese Nacht.\\nAmen.\",\"carousel\":[{\"type\":\"text\",\"text\":\"Abendgebet\\n\\nDer Tag liegt hinter uns.\\nMit Gutem.\\nMit Schwerem.\\nMit Offenem.\"},{\"type\":\"text\",\"text\":\"Wir danken dir, Gott.\\nFür alles, was heute getragen hat.\\nFür Menschen.\\nFür Hilfe.\\nFür Atempausen.\"},{\"type\":\"text\",\"text\":\"Wir beten für Krywyj Rih.\\nFür die Menschen nach dem Angriff auf ein Einkaufszentrum.\\nFür Verletzte.\\nFür Angehörige.\\nFür alle, die keinen sicheren Abend haben.\"},{\"type\":\"text\",\"text\":\"Wir beten für den Hürtgenwald.\\nFür alle, die nach dem großen Waldbrand erschöpft sind.\\nFür die, die gelöscht haben.\\nFür die, die mit den Folgen leben.\"},{\"type\":\"text\",\"text\":\"Was unfertig bleibt,\\nlegen wir in deine Hand.\\nHalte du die Welt in dieser Nacht.\\nUnd halte unsere Hoffnung wach.\"}]},\"mastodon\":{\"text\":\"Abendgebet\\n\\nGott,\\nwir legen dir diesen Tag hin.\\nWas gut war. Was wehgetan hat. Was offen blieb.\\n\\nWir beten für die Menschen in Krywyj Rih nach dem Angriff auf ein Einkaufszentrum. Für Verletzte, Angehörige und alle, die heute Abend keinen sicheren Ort spüren.\\n\\nWir beten auch für die Menschen im Hürtgenwald. Das Feuer ist gelöscht. Aber die Spuren bleiben. Stärke alle, die erschöpft geholfen haben.\\n\\nSchenk uns Ruhe für diese Nacht.\\nAmen.\"},\"bluesky\":{\"text\":\"Abendgebet\\n\\nGott, wir legen dir diesen Tag hin. Was gut war. Was wehgetan hat. Was offen blieb.\\n\\nWir beten für die Menschen in Krywyj Rih nach dem Angriff auf ein Einkaufszentrum. Und für die Menschen im Hürtgenwald, wo der große Waldbrand gelöscht ist, die Spuren aber bleiben.\\n\\nSchenk uns Ruhe für diese Nacht. Amen.\"},\"story\":{\"slides\":[{\"text\":\"Abendgebet\\n\\nDer Tag liegt hinter uns.\"},{\"text\":\"Was gut war.\\nWas schwer war.\\nWas offen blieb.\"},{\"text\":\"Wir beten für Krywyj Rih.\\nFür Menschen nach dem Angriff auf ein Einkaufszentrum.\"},{\"text\":\"Wir beten für den Hürtgenwald.\\nFür alle, die nach dem großen Waldbrand erschöpft sind.\"},{\"text\":\"Gott,\\nhalte du diese Welt in der Nacht.\\nUnd schenke uns Frieden.\"}]},\"reel\":{\"hook\":\"Der Tag muss nicht fertig werden, damit du schlafen darfst.\",\"script\":\"Der Tag ist vorbei. Nicht alles ist gelungen. Nicht alles ist geklärt. Im Abendgebet dürfen wir loslassen. Wir denken an die Menschen in Krywyj Rih nach dem Angriff auf ein Einkaufszentrum. Und an die Menschen im Hürtgenwald, wo der große Waldbrand gelöscht ist, die Folgen aber bleiben. Gott, nimm, was gut war. Nimm, was weh tut. Halte diese Welt in der Nacht. Und halte unsere Hoffnung wach.\",\"shots\":[\"Abendlicht auf einem offenen Fenster\",\"Eine Hand legt ein Handy zur Seite\",\"Ruhige Nahaufnahme eines Tisches mit brennender Kerze\",\"Dunkler werdender Himmel über Bäumen\",\"Langsame Kamerafahrt über stille Straße am Abend\"],\"duration_seconds\":28}},\"visual\":{\"concept\":\"Ruhige Abendszene an einem offenen Fenster. Warmes Restlicht. Ein schlichter Tisch, eine Kerze, ein Glas Wasser. Draußen dunkle Bäume und weiter Himmel. Die Stimmung ist still, ehrlich und hoffnungsvoll.\",\"flux_prompt\":\"A quiet evening interior by an open window, warm fading summer light, simple wooden table with a candle and a glass of water, dark tree silhouettes outside, calm sky after sunset, intimate peaceful atmosphere, realistic photography, soft natural light, high detail, no people facing camera, contemplative mood, no text in image\",\"negative_prompt\":\"text, letters, logo, watermark\",\"formats\":[\"4:5\",\"9:16\",\"1.91:1\"],\"alt_text\":\"Ein offenes Fenster in der Abenddämmerung. Auf einem schlichten Holztisch stehen eine Kerze und ein Glas Wasser. Draußen sind dunkle Bäume gegen einen ruhigen Himmel zu sehen. Die Szene wirkt still und tröstlich.\"},\"qa\":{\"warnings\":[\"Aktuelle Bezüge redaktionell gegen Originalmeldungen gegenlesen: Krywyj Rih, Hürtgenwald, optional Mannheim.\",\"Alt text must be completed before approval\",\"Gebet nennt drei aktuelle Situationen; redaktionell prüfen, ob Mannheim im Facebook-Text beibehalten oder gestrichen werden soll, um den Fokus ruhiger zu halten.\"],\"approved\":false},\"metadata\":{\"model\":\"gpt-5\",\"generated_at\":\"2026-08-23T00:00:00Z\",\"prompt_version\":\"1.0\",\"assets\":[]}}"
+}
