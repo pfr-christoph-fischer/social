@@ -25,35 +25,35 @@
   },
   "platforms": {
     "facebook": {
-      "text": "Gott,\n\nwir beginnen diesen Tag vor dir.\nWir bitten dich um Weisheit in der Verfassungskrise im Kosovo.\nWir bitten dich um Weisheit hier im Land in der Klimakrise und im Umgang mit neuem Rechtsextremismus.\n\nStärke alle, die Verantwortung tragen.\nBewahre die, die sich für Zusammenhalt, Gerechtigkeit und die Würde jedes Menschen einsetzen.\nGib uns einen klaren Blick, einen wachen Geist und den Mut, nicht gleichgültig zu werden.\nWeck uns zu kleinen Schritten der Verantwortung, des Friedens und der Hoffnung.\n\nDeine Zukunft ist größer als unsere Angst.\nDarum beginnen wir diesen Tag mit Hoffnung.\nAmen.",
-      "headline": "Morgengebet: mit offenen Augen in den Tag"
+      "headline": "Morgengebet: mit offenen Augen in den Tag",
+      "text": "Gott,\n\nwir beginnen diesen Tag vor dir.\nWir bitten dich um Weisheit in der Verfassungskrise im Kosovo.\nWir bitten dich um Weisheit hier im Land in der Klimakrise und im Umgang mit neuem Rechtsextremismus.\n\nStärke alle, die Verantwortung tragen.\nBewahre die, die sich für Zusammenhalt, Gerechtigkeit und die Würde jedes Menschen einsetzen.\nGib uns einen klaren Blick, einen wachen Geist und den Mut, nicht gleichgültig zu werden.\nWeck uns zu kleinen Schritten der Verantwortung, des Friedens und der Hoffnung.\n\nDeine Zukunft ist größer als unsere Angst.\nDarum beginnen wir diesen Tag mit Hoffnung.\nAmen."
     },
     "instagram": {
       "caption": "Gott,\nwir beginnen diesen Tag vor dir.\n\nWir bitten dich um Weisheit in der Verfassungskrise im Kosovo.\nWir bitten dich um Weisheit hier im Land in der Klimakrise und im Umgang mit neuem Rechtsextremismus.\n\nStärke alle, die Verantwortung tragen.\nBewahre die, die für Zusammenhalt, Gerechtigkeit und die Würde jedes Menschen eintreten.\nGib uns Mut zu kleinen Schritten der Verantwortung und des Friedens.\n\nDeine Zukunft kommt uns entgegen.\nDarum gehen wir hoffnungsvoll in diesen Tag.\nAmen.",
       "carousel": [
         {
-          "type": "text",
-          "text": "Gott,\nwir beginnen diesen Tag vor dir."
+          "text": "Gott,\nwir beginnen diesen Tag vor dir.",
+          "type": "text"
         },
         {
-          "type": "text",
-          "text": "Wir bitten dich um Weisheit in der Verfassungskrise im Kosovo."
+          "text": "Wir bitten dich um Weisheit in der Verfassungskrise im Kosovo.",
+          "type": "text"
         },
         {
-          "type": "text",
-          "text": "Wir bitten dich um Weisheit hier im Land in der Klimakrise und im Umgang mit neuem Rechtsextremismus."
+          "text": "Wir bitten dich um Weisheit hier im Land in der Klimakrise und im Umgang mit neuem Rechtsextremismus.",
+          "type": "text"
         },
         {
-          "type": "text",
-          "text": "Stärke alle, die Verantwortung tragen. Bewahre die, die sich für Zusammenhalt, Gerechtigkeit und die Würde jedes Menschen einsetzen."
+          "text": "Stärke alle, die Verantwortung tragen. Bewahre die, die sich für Zusammenhalt, Gerechtigkeit und die Würde jedes Menschen einsetzen.",
+          "type": "text"
         },
         {
-          "type": "text",
-          "text": "Gib uns einen klaren Blick, einen wachen Geist und den Mut, nicht gleichgültig zu werden."
+          "text": "Gib uns einen klaren Blick, einen wachen Geist und den Mut, nicht gleichgültig zu werden.",
+          "type": "text"
         },
         {
-          "type": "text",
-          "text": "Deine Zukunft kommt uns entgegen. Darum gehen wir hoffnungsvoll in diesen Tag. Amen."
+          "text": "Deine Zukunft kommt uns entgegen. Darum gehen wir hoffnungsvoll in diesen Tag. Amen.",
+          "type": "text"
         }
       ]
     },
@@ -94,7 +94,7 @@
   },
   "visual": {
     "concept": "Früher Morgen mit weichem Licht über einer ruhigen Landschaft; ein Weg führt in den hellen Horizont und steht für Orientierung, Verantwortung und Hoffnung in unruhigen Zeiten.",
-    "flux_prompt": "Früher Morgen, sanftes natürliches Licht, ruhige offene Landschaft, schmaler Weg Richtung Horizont, zarte Wolken, zurückhaltende dokumentarische Bildsprache, still, hoffnungsvoll, realistisch, symbolisch für Orientierung und Verantwortung, keine Menschenmenge, keine Schrift im Bild",
+    "flux_prompt": "Früher Morgen, sanftes natürliches Licht, ruhige offene Landschaft, schmaler Weg Richtung Horizont, zarte Wolken, zurückhaltende dokumentarische Bildsprache, still, hoffnungsvoll, realistisch, symbolisch für Orientierung und Verantwortung, keine Menschenmenge",
     "negative_prompt": "text, letters, logo, watermark",
     "formats": [
       "4:5",
@@ -104,11 +104,11 @@
     "alt_text": "Morgenlicht über einer ruhigen Landschaft mit einem Weg zum hellen Horizont als Zeichen von Orientierung und Hoffnung."
   },
   "qa": {
+    "approved": false,
     "warnings": [
       "Tagesaktuelle Produktion verlangt Endkontrolle am Morgen des 24.08.2026.",
       "Die neuen Anliegen sollten vor Veröffentlichung redaktionell auf sprachliche und politische Sensibilität geprüft werden."
-    ],
-    "approved": false
+    ]
   },
   "metadata": {
     "model": "gpt-5.4-2026-03-05",
