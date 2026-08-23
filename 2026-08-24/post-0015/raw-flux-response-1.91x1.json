@@ -1,0 +1,36 @@
+{
+  "delivery_url": "https://delivery.us2.bfl.ai/durable/2026082317/5e1f69ea-538b-4d66-962e-9be995966f07/56/51229959860b61/59860b61e08a46af940301b954a1a712/sample.jpeg?se=2026-08-23T18%3A01%3A52Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=HkzPjDcyanDeadj/ncLQ6sWnfWYyi/iI4UX7Z7HE6d0%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "c09f585c-7ae9-4bfd-9fe4-4884f42f6f30",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "c09f585c-7ae9-4bfd-9fe4-4884f42f6f30",
+      "status": "Ready",
+      "result": {
+        "start_time": 1787507511.1226861,
+        "prompt": "Fotorealistische, ruhige Alltagsszene bei weichem natürlichem Licht, eine Hand räumt unauffällig etwas auf oder ordnet Gegenstände sorgfältig, warme zurückhaltende Farben, achtsame Stimmung, schlichtes Umfeld, Fokus auf leise Hilfe und Entlastung, keine inszenierte Perfektion, keine Menschenmenge, hohe Bildruhe, no text, no letters, no typography, no logo, no watermark",
+        "seed": 3323739318,
+        "sample": "https://delivery.us2.bfl.ai/durable/2026082317/5e1f69ea-538b-4d66-962e-9be995966f07/56/51229959860b61/59860b61e08a46af940301b954a1a712/sample.jpeg?se=2026-08-23T18%3A01%3A52Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=HkzPjDcyanDeadj/ncLQ6sWnfWYyi/iI4UX7Z7HE6d0%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "c09f585c-7ae9-4bfd-9fe4-4884f42f6f30",
+    "polling_url": "https://api.us2.bfl.ai/v1/get_result?id=c09f585c-7ae9-4bfd-9fe4-4884f42f6f30",
+    "cost": 1.4000000000000001,
+    "input_mp": 0,
+    "output_mp": 0.72
+  }
+}

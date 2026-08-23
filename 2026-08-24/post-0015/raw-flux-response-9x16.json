@@ -1,0 +1,44 @@
+{
+  "delivery_url": "https://delivery.us4.bfl.ai/durable/2026082317/5e1f69ea-538b-4d66-962e-9be995966f07/11/51986957ae5a4b/57ae5a4bfd0b4651b50d0cf5004a9022/sample.jpeg?se=2026-08-23T18%3A02%3A00Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=kbEJUKPEklxT5V9zI9okzjb1wJbnKUaaSMj%2BbyuNIeQ%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "33d5c043-c848-40fa-bfe2-c21b452c00a0",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "33d5c043-c848-40fa-bfe2-c21b452c00a0",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "33d5c043-c848-40fa-bfe2-c21b452c00a0",
+      "status": "Ready",
+      "result": {
+        "start_time": 1787507517.9188209,
+        "prompt": "Fotorealistische, ruhige Alltagsszene bei weichem natürlichem Licht, eine Hand räumt unauffällig etwas auf oder ordnet Gegenstände sorgfältig, warme zurückhaltende Farben, achtsame Stimmung, schlichtes Umfeld, Fokus auf leise Hilfe und Entlastung, keine inszenierte Perfektion, keine Menschenmenge, hohe Bildruhe, no text, no letters, no typography, no logo, no watermark",
+        "seed": 1078776127,
+        "sample": "https://delivery.us4.bfl.ai/durable/2026082317/5e1f69ea-538b-4d66-962e-9be995966f07/11/51986957ae5a4b/57ae5a4bfd0b4651b50d0cf5004a9022/sample.jpeg?se=2026-08-23T18%3A02%3A00Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=kbEJUKPEklxT5V9zI9okzjb1wJbnKUaaSMj%2BbyuNIeQ%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "33d5c043-c848-40fa-bfe2-c21b452c00a0",
+    "polling_url": "https://api.us4.bfl.ai/v1/get_result?id=33d5c043-c848-40fa-bfe2-c21b452c00a0",
+    "cost": 1.5,
+    "input_mp": 0,
+    "output_mp": 1.98
+  }
+}

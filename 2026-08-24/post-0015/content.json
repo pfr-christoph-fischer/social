@@ -99,13 +99,17 @@
     "alt_text": "Eine Hand ordnet in ruhigem Licht einige Alltagsgegenstände und schafft unauffällig Ordnung. Die Szene wirkt still, schlicht und behutsam."
   },
   "qa": {
-    "approved": true,
-    "warnings": []
+    "warnings": [],
+    "approved": true
   },
   "metadata": {
     "model": "gpt-5.4-2026-03-05",
     "generated_at": "2026-08-23T16:12:52.696Z",
     "prompt_version": "1.0",
-    "assets": []
+    "assets": [
+      "assets/background-1.91x1.webp",
+      "assets/background-4x5.webp",
+      "assets/background-9x16.webp"
+    ]
   }
 }
