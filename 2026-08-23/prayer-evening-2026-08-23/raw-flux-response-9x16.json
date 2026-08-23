@@ -1,0 +1,44 @@
+{
+  "delivery_url": "https://delivery.us2.bfl.ai/durable/2026082316/5e1f69ea-538b-4d66-962e-9be995966f07/bd/3636972b8d9968/2b8d9968637141849680d0abefc8a263/sample.jpeg?se=2026-08-23T16%3A19%3A23Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=HUjlo74ykvE7ivysWS1Nlh8lfjbUfQbGC3tYCdW%2B1CE%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "8627bd93-32de-40cc-b3d6-e517d3ded274",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "8627bd93-32de-40cc-b3d6-e517d3ded274",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "8627bd93-32de-40cc-b3d6-e517d3ded274",
+      "status": "Ready",
+      "result": {
+        "start_time": 1787501362.4243157,
+        "prompt": "Ruhige Abendszene auf der Terrasse. Warmes Restlicht. Ein schlichter Tisch, eine Kerze, ein Glas Wasser. Dunkle Bäume und weiter Himmel. Die Stimmung ist still, ehrlich und hoffnungsvoll., no text, no letters, no typography, no logo, no watermark",
+        "seed": 2920958768,
+        "sample": "https://delivery.us2.bfl.ai/durable/2026082316/5e1f69ea-538b-4d66-962e-9be995966f07/bd/3636972b8d9968/2b8d9968637141849680d0abefc8a263/sample.jpeg?se=2026-08-23T16%3A19%3A23Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=HUjlo74ykvE7ivysWS1Nlh8lfjbUfQbGC3tYCdW%2B1CE%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "8627bd93-32de-40cc-b3d6-e517d3ded274",
+    "polling_url": "https://api.us2.bfl.ai/v1/get_result?id=8627bd93-32de-40cc-b3d6-e517d3ded274",
+    "cost": 1.5,
+    "input_mp": 0,
+    "output_mp": 1.98
+  }
+}
