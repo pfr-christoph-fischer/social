@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-08-23",
+    "contentDate": "2026-08-23",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-08-23T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Sie litten keinen Durst, als der HERR sie leitete in der Wüste. Er ließ ihnen Wasser aus dem Felsen fließen.",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Sie litten keinen Durst, als der HERR sie leitete in der Wüste. Er ließ ihnen Wasser aus dem Felsen fließen."
+    ],
+    "id": "65616b1a-3840-4764-974c-a2b99cafd6c8",
+    "attemptCount": 1,
+    "remoteId": "18118237099908723",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:44:34.802Z",
+    "updatedAt": "2026-08-23T05:00:30.920Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-08-23",
+    "contentDate": "2026-08-23",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-08-23T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Sie litten keinen Durst, als der HERR sie leitete in der Wüste. Er ließ ihnen Wasser aus dem Felsen fließen.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Sie litten keinen Durst, als der HERR sie leitete in der Wüste. Er ließ ihnen Wasser aus dem Felsen fließen."
+    ],
+    "id": "891c90f6-e701-4b02-a8c6-e35f010e97e9",
+    "attemptCount": 1,
+    "remoteId": "117143059301283894",
+    "remoteUrl": "https://kirche.social/@christoph/117143059301283894",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:44:34.806Z",
+    "updatedAt": "2026-08-23T05:00:32.076Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
