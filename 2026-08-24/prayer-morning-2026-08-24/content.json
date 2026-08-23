@@ -1,6 +1,6 @@
 {
   "id": "prayer-morning-2026-08-24",
-  "status": "in Arbeit",
+  "status": "freigegeben",
   "needs_input": true,
   "source": {
     "calendar_post_id": "prayer-morning-2026-08-24",
@@ -25,35 +25,35 @@
   },
   "platforms": {
     "facebook": {
-      "headline": "Morgengebet: mit offenen Augen in den Tag",
-      "text": "Gott,\n\nwir beginnen diesen Tag vor dir.\nWir bitten dich um Weisheit in der Verfassungskrise im Kosovo.\nWir bitten dich um Weisheit hier im Land in der Klimakrise und im Umgang mit neuem Rechtsextremismus.\n\nStärke alle, die Verantwortung tragen.\nBewahre die, die sich für Zusammenhalt, Gerechtigkeit und die Würde jedes Menschen einsetzen.\nGib uns einen klaren Blick, einen wachen Geist und den Mut, nicht gleichgültig zu werden.\nWeck uns zu kleinen Schritten der Verantwortung, des Friedens und der Hoffnung.\n\nDeine Zukunft ist größer als unsere Angst.\nDarum beginnen wir diesen Tag mit Hoffnung.\nAmen."
+      "text": "Gott,\n\nwir beginnen diesen Tag vor dir.\nWir bitten dich um Weisheit in der Verfassungskrise im Kosovo.\nWir bitten dich um Weisheit hier im Land in der Klimakrise und im Umgang mit neuem Rechtsextremismus.\n\nStärke alle, die Verantwortung tragen.\nBewahre die, die sich für Zusammenhalt, Gerechtigkeit und die Würde jedes Menschen einsetzen.\nGib uns einen klaren Blick, einen wachen Geist und den Mut, nicht gleichgültig zu werden.\nWeck uns zu kleinen Schritten der Verantwortung, des Friedens und der Hoffnung.\n\nDeine Zukunft ist größer als unsere Angst.\nDarum beginnen wir diesen Tag mit Hoffnung.\nAmen.",
+      "headline": "Morgengebet: mit offenen Augen in den Tag"
     },
     "instagram": {
       "caption": "Gott,\nwir beginnen diesen Tag vor dir.\n\nWir bitten dich um Weisheit in der Verfassungskrise im Kosovo.\nWir bitten dich um Weisheit hier im Land in der Klimakrise und im Umgang mit neuem Rechtsextremismus.\n\nStärke alle, die Verantwortung tragen.\nBewahre die, die für Zusammenhalt, Gerechtigkeit und die Würde jedes Menschen eintreten.\nGib uns Mut zu kleinen Schritten der Verantwortung und des Friedens.\n\nDeine Zukunft kommt uns entgegen.\nDarum gehen wir hoffnungsvoll in diesen Tag.\nAmen.",
       "carousel": [
         {
-          "text": "Gott,\nwir beginnen diesen Tag vor dir.",
-          "type": "text"
+          "type": "text",
+          "text": "Gott,\nwir beginnen diesen Tag vor dir."
         },
         {
-          "text": "Wir bitten dich um Weisheit in der Verfassungskrise im Kosovo.",
-          "type": "text"
+          "type": "text",
+          "text": "Wir bitten dich um Weisheit in der Verfassungskrise im Kosovo."
         },
         {
-          "text": "Wir bitten dich um Weisheit hier im Land in der Klimakrise und im Umgang mit neuem Rechtsextremismus.",
-          "type": "text"
+          "type": "text",
+          "text": "Wir bitten dich um Weisheit hier im Land in der Klimakrise und im Umgang mit neuem Rechtsextremismus."
         },
         {
-          "text": "Stärke alle, die Verantwortung tragen. Bewahre die, die sich für Zusammenhalt, Gerechtigkeit und die Würde jedes Menschen einsetzen.",
-          "type": "text"
+          "type": "text",
+          "text": "Stärke alle, die Verantwortung tragen. Bewahre die, die sich für Zusammenhalt, Gerechtigkeit und die Würde jedes Menschen einsetzen."
         },
         {
-          "text": "Gib uns einen klaren Blick, einen wachen Geist und den Mut, nicht gleichgültig zu werden.",
-          "type": "text"
+          "type": "text",
+          "text": "Gib uns einen klaren Blick, einen wachen Geist und den Mut, nicht gleichgültig zu werden."
         },
         {
-          "text": "Deine Zukunft kommt uns entgegen. Darum gehen wir hoffnungsvoll in diesen Tag. Amen.",
-          "type": "text"
+          "type": "text",
+          "text": "Deine Zukunft kommt uns entgegen. Darum gehen wir hoffnungsvoll in diesen Tag. Amen."
         }
       ]
     },
@@ -104,10 +104,9 @@
     "alt_text": "Morgenlicht über einer ruhigen Landschaft mit einem Weg zum hellen Horizont als Zeichen von Orientierung und Hoffnung."
   },
   "qa": {
-    "approved": false,
+    "approved": true,
     "warnings": [
-      "Tagesaktuelle Produktion verlangt Endkontrolle am Morgen des 24.08.2026.",
-      "Die neuen Anliegen sollten vor Veröffentlichung redaktionell auf sprachliche und politische Sensibilität geprüft werden."
+      "Current-event or local factual details are still required. Verify that no details were invented."
     ]
   },
   "metadata": {
