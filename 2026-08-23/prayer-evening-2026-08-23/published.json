@@ -27,5 +27,66 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "prayer-evening-2026-08-23",
+    "contentDate": "2026-08-23",
+    "platform": "instagram",
+    "format": "default",
+    "scheduledAt": "2026-08-23T18:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Abendgebet.\n\nDer Tag muss nicht fertig werden, damit wir schlafen dürfen.\nWir bringen Gott heute die Menschen nach dem Überfall auf ein Dorf in Nigeria, die Menschen in Charkiw und anderswo in der Ukraine und alle, die sich innerhalb Russlands für Frieden einsetzen.\n\nGott,\nwas heute war, legen wir in deine Hand.\nWas gut war.\nWas wehgetan hat.\nWas unfertig bleibt.\nUns selbst und diese unruhige Welt.\nSchenk uns Frieden für diese Nacht.\nAmen.",
+    "assets": [
+      "render-instagram-feed-01.jpg",
+      "render-instagram-feed-02.jpg",
+      "render-instagram-feed-03.jpg",
+      "render-instagram-feed-04.jpg",
+      "render-instagram-feed-05.jpg"
+    ],
+    "altTexts": [
+      "Ein offenes Fenster in der Abenddämmerung. Auf einem schlichten Holztisch stehen eine Kerze und ein Glas Wasser. Draußen sind dunkle Bäume gegen einen ruhigen Himmel zu sehen. Die Szene wirkt still und tröstlich."
+    ],
+    "id": "a501365d-9b1e-40ce-ab1e-3c332dfa90e6",
+    "attemptCount": 1,
+    "remoteId": "17999851676792989",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-23T16:12:17.714Z",
+    "updatedAt": "2026-08-23T18:01:06.145Z",
+    "responseMetadata": {
+      "mediaCount": 5,
+      "mediaType": "CAROUSEL",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "prayer-evening-2026-08-23",
+    "contentDate": "2026-08-23",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-08-23T18:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Abendgebet\n\nGott,\nwir legen dir diesen Tag hin.\nWas gut war. Was wehgetan hat. Was offen blieb.\n\nWir beten für die Menschen nach dem Überfall auf ein Dorf in Nigeria. Für Verletzte, Angehörige und alle, die heute Abend keinen sicheren Ort spüren.\n\nWir beten für die Menschen in Charkiw und anderswo in der Ukraine. Und für alle, die sich innerhalb Russlands für Frieden einsetzen.\n\nSchenk uns Ruhe für diese Nacht.\nAmen.",
+    "assets": [
+      "render-facebook-mastodon-01.png"
+    ],
+    "altTexts": [
+      "Ein offenes Fenster in der Abenddämmerung. Auf einem schlichten Holztisch stehen eine Kerze und ein Glas Wasser. Draußen sind dunkle Bäume gegen einen ruhigen Himmel zu sehen. Die Szene wirkt still und tröstlich."
+    ],
+    "id": "05d16b37-91f6-44a6-a76c-2f2f6ec21d18",
+    "attemptCount": 1,
+    "remoteId": "117146128773300602",
+    "remoteUrl": "https://kirche.social/@christoph/117146128773300602",
+    "lastError": null,
+    "createdAt": "2026-08-23T16:12:17.740Z",
+    "updatedAt": "2026-08-23T18:01:08.485Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
