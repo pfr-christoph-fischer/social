@@ -84,5 +84,91 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-08-23",
+    "contentDate": "2026-08-23",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-08-23T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Sie litten keinen Durst, als der HERR sie leitete in der Wüste. Er ließ ihnen Wasser aus dem Felsen fließen.",
+    "assets": [
+      "render-square-01.jpg"
+    ],
+    "altTexts": [
+      "Sie litten keinen Durst, als der HERR sie leitete in der Wüste. Er ließ ihnen Wasser aus dem Felsen fließen."
+    ],
+    "id": "2839b868-b24f-42ff-939f-d113c6089027",
+    "attemptCount": 1,
+    "remoteId": "18120071879510545",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:44:34.813Z",
+    "updatedAt": "2026-08-23T05:00:42.868Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-08-23",
+    "contentDate": "2026-08-23",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-08-23T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Sie litten keinen Durst, als der HERR sie leitete in der Wüste. Er ließ ihnen Wasser aus dem Felsen fließen.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Sie litten keinen Durst, als der HERR sie leitete in der Wüste. Er ließ ihnen Wasser aus dem Felsen fließen."
+    ],
+    "id": "1de53852-244d-4205-87a1-0580bd97a1d2",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3mtpz2cmlrk2z",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3mtpz2cmlrk2z",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:44:34.818Z",
+    "updatedAt": "2026-08-23T05:00:45.020Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-08-23",
+    "contentDate": "2026-08-23",
+    "platform": "linkedin",
+    "format": "default",
+    "scheduledAt": "2026-08-23T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Sie litten keinen Durst, als der HERR sie leitete in der Wüste. Er ließ ihnen Wasser aus dem Felsen fließen.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Sie litten keinen Durst, als der HERR sie leitete in der Wüste. Er ließ ihnen Wasser aus dem Felsen fließen."
+    ],
+    "id": "4826c5e9-5e1c-443d-86d0-96867e662cf1",
+    "attemptCount": 1,
+    "remoteId": "urn:li:share:7497155855696568321",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:44:34.823Z",
+    "updatedAt": "2026-08-23T05:00:46.829Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 201
+    },
+    "retryHistory": []
   }
 ]
