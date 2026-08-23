@@ -1,0 +1,36 @@
+{
+  "delivery_url": "https://delivery.us2.bfl.ai/durable/2026082317/5e1f69ea-538b-4d66-962e-9be995966f07/33/863394af2cf313/af2cf31386f24fa681ad7312da208b79/sample.jpeg?se=2026-08-23T17%3A51%3A03Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=tOi4ufoBfbLSQTmby47MpN4Zq6nV4KKFu44Z3LtvbV0%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "eaa68f17-314a-42ce-b99e-3569b9ec7d2e",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "eaa68f17-314a-42ce-b99e-3569b9ec7d2e",
+      "status": "Ready",
+      "result": {
+        "start_time": 1787506861.6443825,
+        "prompt": "Früher Morgen, sanftes natürliches Licht, ruhige offene Landschaft, schmaler Weg Richtung Horizont, zarte Wolken, zurückhaltende dokumentarische Bildsprache, still, hoffnungsvoll, realistisch, symbolisch für Orientierung und Verantwortung, keine Menschenmenge, no text, no letters, no typography, no logo, no watermark",
+        "seed": 3152071917,
+        "sample": "https://delivery.us2.bfl.ai/durable/2026082317/5e1f69ea-538b-4d66-962e-9be995966f07/33/863394af2cf313/af2cf31386f24fa681ad7312da208b79/sample.jpeg?se=2026-08-23T17%3A51%3A03Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=tOi4ufoBfbLSQTmby47MpN4Zq6nV4KKFu44Z3LtvbV0%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "eaa68f17-314a-42ce-b99e-3569b9ec7d2e",
+    "polling_url": "https://api.us2.bfl.ai/v1/get_result?id=eaa68f17-314a-42ce-b99e-3569b9ec7d2e",
+    "cost": 1.5,
+    "input_mp": 0,
+    "output_mp": 1.98
+  }
+}
