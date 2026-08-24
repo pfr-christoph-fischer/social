@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-08-24",
+    "contentDate": "2026-08-24",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-08-24T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "/Gott spricht:/ Von nun an lasse ich dich Neues hören und Verborgenes, das du nicht wusstest.",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "/Gott spricht:/ Von nun an lasse ich dich Neues hören und Verborgenes, das du nicht wusstest."
+    ],
+    "id": "bcbee19f-2a42-43d9-8647-926fac65cb9f",
+    "attemptCount": 1,
+    "remoteId": "17986157868024251",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:44:36.964Z",
+    "updatedAt": "2026-08-24T05:00:26.065Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-08-24",
+    "contentDate": "2026-08-24",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-08-24T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "/Gott spricht:/ Von nun an lasse ich dich Neues hören und Verborgenes, das du nicht wusstest.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "/Gott spricht:/ Von nun an lasse ich dich Neues hören und Verborgenes, das du nicht wusstest."
+    ],
+    "id": "b54b1623-ee4f-4e7b-b071-3bbfbb6d0543",
+    "attemptCount": 1,
+    "remoteId": "117148721286149900",
+    "remoteUrl": "https://kirche.social/@christoph/117148721286149900",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:44:36.967Z",
+    "updatedAt": "2026-08-24T05:00:27.109Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
