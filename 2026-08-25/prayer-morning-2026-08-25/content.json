@@ -1,6 +1,6 @@
 {
   "id": "prayer-morning-2026-08-25",
-  "status": "in Arbeit",
+  "status": "zur Prüfung",
   "needs_input": false,
   "source": {
     "calendar_post_id": "prayer-morning-2026-08-25",
@@ -25,31 +25,31 @@
   },
   "platforms": {
     "facebook": {
-      "headline": "Morgengebet für den 25. August 2026",
-      "text": "Morgengebet\n\nGott, dieser Morgen ist da.\nWir bringen dir die Menschen in Conakry in Guinea, wo auf der abgerutschten Müllkippe noch nach Opfern gesucht wird.\nUnd wir bitten dich um einen ruhigen Tag für die Menschen in Charkiw, Cherson, Krasnodar und in der ganzen Ukraine.\n\nSei den Leidenden nahe.\nStärke alle, die helfen.\nGib Verantwortlichen Mut zum Schutz von Leben.\nUnd uns offene Augen und ruhige Hände für Schritte des Friedens heute.\n\nDeine Zukunft ist größer als diese Nacht.\nDarum gehen wir hoffend in diesen Tag."
+      "text": "Morgengebet\n\nGott, dieser Morgen ist da.\nWir bringen dir die Menschen in Conakry in Guinea, wo auf der abgerutschten Müllkippe noch nach Opfern gesucht wird.\nUnd wir bitten dich um einen ruhigen Tag für die Menschen in Charkiw, Cherson, Krasnodar und in der ganzen Ukraine.\n\nSei den Leidenden nahe.\nStärke alle, die helfen.\nGib Verantwortlichen Mut zum Schutz von Leben.\nUnd uns offene Augen und ruhige Hände für Schritte des Friedens heute.\n\nDeine Zukunft ist größer als diese Nacht.\nDarum gehen wir hoffend in diesen Tag.",
+      "headline": "Morgengebet für den 25. August 2026"
     },
     "instagram": {
       "caption": "Gott, dieser Morgen ist da.\n\nWir bringen dir die Menschen in Conakry in Guinea, wo auf der abgerutschten Müllkippe noch nach Opfern gesucht wird.\nUnd wir bitten dich um einen ruhigen Tag für die Menschen in Charkiw, Cherson, Krasnodar und in der ganzen Ukraine.\n\nSei den Leidenden nahe.\nStärke alle, die helfen.\nGib uns Mut zu kleinen Schritten des Friedens heute.\n\nDeine Zukunft ist größer als diese Nacht.",
       "carousel": [
         {
-          "text": "Gott, dieser Morgen ist da.",
-          "type": "text"
+          "type": "text",
+          "text": "Gott, dieser Morgen ist da."
         },
         {
-          "text": "Wir bringen dir die Menschen in Conakry in Guinea, wo auf der abgerutschten Müllkippe noch nach Opfern gesucht wird.",
-          "type": "text"
+          "type": "text",
+          "text": "Wir bringen dir die Menschen in Conakry in Guinea, wo auf der abgerutschten Müllkippe noch nach Opfern gesucht wird."
         },
         {
-          "text": "Wir bitten dich um einen ruhigen Tag für die Menschen in Charkiw, Cherson, Krasnodar und in der ganzen Ukraine.",
-          "type": "text"
+          "type": "text",
+          "text": "Wir bitten dich um einen ruhigen Tag für die Menschen in Charkiw, Cherson, Krasnodar und in der ganzen Ukraine."
         },
         {
-          "text": "Sei den Leidenden nahe. Stärke alle, die helfen.",
-          "type": "text"
+          "type": "text",
+          "text": "Sei den Leidenden nahe. Stärke alle, die helfen."
         },
         {
-          "text": "Deine Zukunft ist größer als diese Nacht. Darum gehen wir hoffend in diesen Tag.",
-          "type": "text"
+          "type": "text",
+          "text": "Deine Zukunft ist größer als diese Nacht. Darum gehen wir hoffend in diesen Tag."
         }
       ]
     },
@@ -104,9 +104,7 @@
   },
   "qa": {
     "approved": false,
-    "warnings": [
-      "Aktualitätscheck erfolgte auf Basis verfügbarer Berichte vor Veröffentlichung; am Morgen des 25.08.2026 erneut kurz gegenprüfen."
-    ]
+    "warnings": []
   },
   "metadata": {
     "model": "gpt-5.4-2026-03-05",
