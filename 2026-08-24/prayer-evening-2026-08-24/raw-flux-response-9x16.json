@@ -1,0 +1,44 @@
+{
+  "delivery_url": "https://delivery.us2.bfl.ai/durable/2026082419/5e1f69ea-538b-4d66-962e-9be995966f07/45/6782213e331cf1/3e331cf105f446878096b7521fbb6672/sample.jpeg?se=2026-08-24T19%3A37%3A58Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=DyjVLhR8PVAwcYonr/Qik%2BlUv8vKKcZRUYnS3fr2tVc%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "e9b2b7ea-6622-4546-ad08-1f6192084ba1",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "e9b2b7ea-6622-4546-ad08-1f6192084ba1",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "e9b2b7ea-6622-4546-ad08-1f6192084ba1",
+      "status": "Ready",
+      "result": {
+        "start_time": 1787599676.4187062,
+        "prompt": "Ruhige Abendszene mit warmem Licht, offenem Fenster oder Kerze, die Loslassen und Geborgenheit andeutet, ohne illustrativ Nachrichtenbilder nachzustellen., no text, no letters, no typography, no logo, no watermark",
+        "seed": 1830768895,
+        "sample": "https://delivery.us2.bfl.ai/durable/2026082419/5e1f69ea-538b-4d66-962e-9be995966f07/45/6782213e331cf1/3e331cf105f446878096b7521fbb6672/sample.jpeg?se=2026-08-24T19%3A37%3A58Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=DyjVLhR8PVAwcYonr/Qik%2BlUv8vKKcZRUYnS3fr2tVc%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "e9b2b7ea-6622-4546-ad08-1f6192084ba1",
+    "polling_url": "https://api.us2.bfl.ai/v1/get_result?id=e9b2b7ea-6622-4546-ad08-1f6192084ba1",
+    "cost": 1.5,
+    "input_mp": 0,
+    "output_mp": 1.98
+  }
+}
