@@ -1,0 +1,36 @@
+{
+  "delivery_url": "https://delivery.us2.bfl.ai/durable/2026082419/5e1f69ea-538b-4d66-962e-9be995966f07/70/020793e15950a0/e15950a0aec9442bae7e2b4e95688f17/sample.jpeg?se=2026-08-24T19%3A43%3A40Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=%2BXSKWSFBVybOPAQdYADkyi3kUg4cqP0jWWqra6hLp4M%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "44cda2e3-5b70-4dde-aff4-71972722f493",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "44cda2e3-5b70-4dde-aff4-71972722f493",
+      "status": "Ready",
+      "result": {
+        "start_time": 1787600019.458037,
+        "prompt": "Stiller Morgen mit weitem Himmel und zurückhaltender Atmosphäre: Hoffnung ohne Verharmlosung., no text, no letters, no typography, no logo, no watermark",
+        "seed": 193613041,
+        "sample": "https://delivery.us2.bfl.ai/durable/2026082419/5e1f69ea-538b-4d66-962e-9be995966f07/70/020793e15950a0/e15950a0aec9442bae7e2b4e95688f17/sample.jpeg?se=2026-08-24T19%3A43%3A40Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=%2BXSKWSFBVybOPAQdYADkyi3kUg4cqP0jWWqra6hLp4M%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "44cda2e3-5b70-4dde-aff4-71972722f493",
+    "polling_url": "https://api.us2.bfl.ai/v1/get_result?id=44cda2e3-5b70-4dde-aff4-71972722f493",
+    "cost": 1.5,
+    "input_mp": 0,
+    "output_mp": 1.39
+  }
+}

@@ -103,13 +103,17 @@
     "alt_text": "Frühes Morgenlicht unter einem weiten Himmel. Die Szene wirkt still und ernst, mit ruhigen Farben und offenem Raum. Das Bild vermittelt Anteilnahme, Bitte um Frieden und leise Hoffnung für den neuen Tag."
   },
   "qa": {
-    "approved": true,
-    "warnings": []
+    "warnings": [],
+    "approved": true
   },
   "metadata": {
     "model": "gpt-5.4-2026-03-05",
     "generated_at": "2026-08-24T14:00:37.827Z",
     "prompt_version": "1.0",
-    "assets": []
+    "assets": [
+      "assets/background-1.91x1.webp",
+      "assets/background-4x5.webp",
+      "assets/background-9x16.webp"
+    ]
   }
 }
