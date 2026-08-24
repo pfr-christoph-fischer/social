@@ -84,5 +84,91 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-08-24",
+    "contentDate": "2026-08-24",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-08-24T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "/Gott spricht:/ Von nun an lasse ich dich Neues hören und Verborgenes, das du nicht wusstest.",
+    "assets": [
+      "render-square-01.jpg"
+    ],
+    "altTexts": [
+      "/Gott spricht:/ Von nun an lasse ich dich Neues hören und Verborgenes, das du nicht wusstest."
+    ],
+    "id": "c9d00ede-cb48-4901-a03a-ff73d4f15b4f",
+    "attemptCount": 1,
+    "remoteId": "18108548126329706",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:44:36.969Z",
+    "updatedAt": "2026-08-24T05:00:37.638Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-08-24",
+    "contentDate": "2026-08-24",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-08-24T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "/Gott spricht:/ Von nun an lasse ich dich Neues hören und Verborgenes, das du nicht wusstest.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "/Gott spricht:/ Von nun an lasse ich dich Neues hören und Verborgenes, das du nicht wusstest."
+    ],
+    "id": "233364f8-e520-460f-92cd-9ffc78b0b83a",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3mtsjj2wpxn27",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3mtsjj2wpxn27",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:44:36.971Z",
+    "updatedAt": "2026-08-24T05:00:39.606Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-08-24",
+    "contentDate": "2026-08-24",
+    "platform": "linkedin",
+    "format": "default",
+    "scheduledAt": "2026-08-24T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "/Gott spricht:/ Von nun an lasse ich dich Neues hören und Verborgenes, das du nicht wusstest.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "/Gott spricht:/ Von nun an lasse ich dich Neues hören und Verborgenes, das du nicht wusstest."
+    ],
+    "id": "3d27eba3-ac9d-41ab-994d-624f0dcae69a",
+    "attemptCount": 1,
+    "remoteId": "urn:li:share:7497518220011106305",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:44:36.974Z",
+    "updatedAt": "2026-08-24T05:00:41.110Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 201
+    },
+    "retryHistory": []
   }
 ]
