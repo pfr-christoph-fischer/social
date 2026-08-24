@@ -150,5 +150,43 @@
       "status": 201
     },
     "retryHistory": []
+  },
+  {
+    "postId": "post-0015",
+    "contentDate": "2026-08-24",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-08-24T07:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "„Das geknickte Rohr wird er nicht zerbrechen, und den glimmenden Docht wird er nicht auslöschen.“ (Jes 42,3)\n\nFür diese Woche: Tu eine kleine Aufgabe, die sonst niemand bemerkt. Leise helfen. Praktisch entlasten.\n\nWo kannst du heute etwas leichter machen?",
+    "assets": [
+      "render-instagram-feed-01.jpg",
+      "render-instagram-feed-02.jpg",
+      "render-instagram-feed-03.jpg",
+      "render-instagram-feed-04.jpg"
+    ],
+    "altTexts": [
+      "Eine Hand ordnet in ruhigem Licht einige Alltagsgegenstände und schafft unauffällig Ordnung. Die Szene wirkt still, schlicht und behutsam."
+    ],
+    "id": "165cb9b5-2e92-4669-82da-5cbcad7589b9",
+    "attemptCount": 2,
+    "remoteId": "18447128293192725",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-23T17:52:49.526Z",
+    "updatedAt": "2026-08-24T07:05:39.910Z",
+    "responseMetadata": {
+      "mediaCount": 4,
+      "mediaType": "CAROUSEL",
+      "status": 200
+    },
+    "retryHistory": [
+      {
+        "at": "2026-08-24T07:02:00.190Z",
+        "error": "threads: Container konnte nicht veröffentlicht werden (400): The requested resource does not exist (Code 24) Le contenu multimédia présentant l’ID 17976566448107901 est introuvable.",
+        "attempt": 1
+      }
+    ]
   }
 ]
