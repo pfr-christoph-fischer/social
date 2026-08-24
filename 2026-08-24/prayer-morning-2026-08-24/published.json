@@ -27,5 +27,67 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "prayer-morning-2026-08-24",
+    "contentDate": "2026-08-24",
+    "platform": "instagram",
+    "format": "default",
+    "scheduledAt": "2026-08-24T05:15:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Gott,\nwir beginnen diesen Tag vor dir.\n\nWir bitten dich um Weisheit in der Verfassungskrise im Kosovo.\nWir bitten dich um Weisheit hier im Land in der Klimakrise und im Umgang mit neuem Rechtsextremismus.\n\nStärke alle, die Verantwortung tragen.\nBewahre die, die für Zusammenhalt, Gerechtigkeit und die Würde jedes Menschen eintreten.\nGib uns Mut zu kleinen Schritten der Verantwortung und des Friedens.\n\nDeine Zukunft kommt uns entgegen.\nDarum gehen wir hoffnungsvoll in diesen Tag.\nAmen.",
+    "assets": [
+      "render-instagram-feed-01.jpg",
+      "render-instagram-feed-02.jpg",
+      "render-instagram-feed-03.jpg",
+      "render-instagram-feed-04.jpg",
+      "render-instagram-feed-05.jpg",
+      "render-instagram-feed-06.jpg"
+    ],
+    "altTexts": [
+      "Morgenlicht über einer ruhigen Landschaft mit einem Weg zum hellen Horizont als Zeichen von Orientierung und Hoffnung."
+    ],
+    "id": "5173b9eb-107b-465d-8648-37f94aee2211",
+    "attemptCount": 1,
+    "remoteId": "17908874817283632",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-23T17:50:37.468Z",
+    "updatedAt": "2026-08-24T05:15:59.632Z",
+    "responseMetadata": {
+      "mediaCount": 6,
+      "mediaType": "CAROUSEL",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "prayer-morning-2026-08-24",
+    "contentDate": "2026-08-24",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-08-24T05:15:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Gott, wir beginnen diesen Tag vor dir. Wir bitten dich um Weisheit in der Verfassungskrise im Kosovo und um Weisheit hier im Land in der Klimakrise und im Umgang mit neuem Rechtsextremismus. Stärke alle, die Verantwortung tragen, und weck uns zu kleinen Schritten des Friedens und der Hoffnung. Amen.",
+    "assets": [
+      "render-facebook-mastodon-01.png"
+    ],
+    "altTexts": [
+      "Morgenlicht über einer ruhigen Landschaft mit einem Weg zum hellen Horizont als Zeichen von Orientierung und Hoffnung."
+    ],
+    "id": "7380a6a8-2525-4784-8e9f-a924dd8590bb",
+    "attemptCount": 1,
+    "remoteId": "117148782457679927",
+    "remoteUrl": "https://kirche.social/@christoph/117148782457679927",
+    "lastError": null,
+    "createdAt": "2026-08-23T17:50:37.539Z",
+    "updatedAt": "2026-08-24T05:16:00.516Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
