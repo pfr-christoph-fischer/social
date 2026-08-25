@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-08-25",
+    "contentDate": "2026-08-25",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-08-25T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Ich rufe zu Gott, dem Allerhöchsten, zu Gott, der meine Sache zum guten Ende führt.",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Ich rufe zu Gott, dem Allerhöchsten, zu Gott, der meine Sache zum guten Ende führt."
+    ],
+    "id": "dc8358a7-ce7a-4df0-b92a-7faae21c68e3",
+    "attemptCount": 1,
+    "remoteId": "18436121095135507",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:44:39.120Z",
+    "updatedAt": "2026-08-25T05:00:26.884Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-08-25",
+    "contentDate": "2026-08-25",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-08-25T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Ich rufe zu Gott, dem Allerhöchsten, zu Gott, der meine Sache zum guten Ende führt.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Ich rufe zu Gott, dem Allerhöchsten, zu Gott, der meine Sache zum guten Ende führt."
+    ],
+    "id": "aa115a6a-7189-4764-9117-2841d3c5bcd3",
+    "attemptCount": 1,
+    "remoteId": "117154383667183033",
+    "remoteUrl": "https://kirche.social/@christoph/117154383667183033",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:44:39.126Z",
+    "updatedAt": "2026-08-25T05:00:28.206Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
