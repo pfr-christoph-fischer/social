@@ -1,11 +1,11 @@
 {
-  "delivery_url": "https://delivery.eu2.bfl.ai/durable/2026082517/5e1f69ea-538b-4d66-962e-9be995966f07/d2/88895702368b23/02368b231580450b926ba974cba431ff/sample.jpeg?se=2026-08-25T17%3A54%3A49Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=J0c95eRzuS1hIoacmz5HJt7/f7WbG75wLdtazTysZAE%3D",
+  "delivery_url": "https://delivery.eu2.bfl.ai/durable/2026082517/5e1f69ea-538b-4d66-962e-9be995966f07/91/0121829643ab42/9643ab42dac446cab67d00fdff9e511d/sample.jpeg?se=2026-08-25T17%3A56%3A52Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=2f1%2BLPNloqMaZd5eJpZ8PZPT5D4afPNmFtZh%2B%2BgPuco%3D",
   "download_headers": {
     "content_type": "image/jpeg"
   },
   "polls": [
     {
-      "id": "fc153877-061c-4c25-9faf-aa7dde72a251",
+      "id": "65d1acc0-2678-4704-89e6-381ee6057afb",
       "status": "Pending",
       "result": null,
       "progress": null,
@@ -13,7 +13,7 @@
       "preview": null
     },
     {
-      "id": "fc153877-061c-4c25-9faf-aa7dde72a251",
+      "id": "65d1acc0-2678-4704-89e6-381ee6057afb",
       "status": "Pending",
       "result": null,
       "progress": null,
@@ -21,13 +21,13 @@
       "preview": null
     },
     {
-      "id": "fc153877-061c-4c25-9faf-aa7dde72a251",
+      "id": "65d1acc0-2678-4704-89e6-381ee6057afb",
       "status": "Ready",
       "result": {
-        "start_time": 1787679888.2172034,
-        "prompt": "A Hebrew psalm scroll on a pulpit, no text, no letters, no typography, no logo, no watermark",
-        "seed": 336244019,
-        "sample": "https://delivery.eu2.bfl.ai/durable/2026082517/5e1f69ea-538b-4d66-962e-9be995966f07/d2/88895702368b23/02368b231580450b926ba974cba431ff/sample.jpeg?se=2026-08-25T17%3A54%3A49Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=J0c95eRzuS1hIoacmz5HJt7/f7WbG75wLdtazTysZAE%3D"
+        "start_time": 1787680011.4725955,
+        "prompt": "Ein Evangelisches Gesangbuch liegt auf dem Tisch, Bibel, Kreuz und Brille daneben., no text, no letters, no typography, no logo, no watermark",
+        "seed": 390239249,
+        "sample": "https://delivery.eu2.bfl.ai/durable/2026082517/5e1f69ea-538b-4d66-962e-9be995966f07/91/0121829643ab42/9643ab42dac446cab67d00fdff9e511d/sample.jpeg?se=2026-08-25T17%3A56%3A52Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=2f1%2BLPNloqMaZd5eJpZ8PZPT5D4afPNmFtZh%2B%2BgPuco%3D"
       },
       "progress": null,
       "details": null,
@@ -35,8 +35,8 @@
     }
   ],
   "submission": {
-    "id": "fc153877-061c-4c25-9faf-aa7dde72a251",
-    "polling_url": "https://api.eu2.bfl.ai/v1/get_result?id=fc153877-061c-4c25-9faf-aa7dde72a251",
+    "id": "65d1acc0-2678-4704-89e6-381ee6057afb",
+    "polling_url": "https://api.eu2.bfl.ai/v1/get_result?id=65d1acc0-2678-4704-89e6-381ee6057afb",
     "cost": 1.4000000000000001,
     "input_mp": 0,
     "output_mp": 0.72

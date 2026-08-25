@@ -1,11 +1,11 @@
 {
-  "delivery_url": "https://delivery.us2.bfl.ai/durable/2026082517/5e1f69ea-538b-4d66-962e-9be995966f07/df/89720905040531/05040531c7b3422fab5b1753a84fed1b/sample.jpeg?se=2026-08-25T17%3A54%3A57Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=wsiC%2BAOhkVH9MNH1uczwKWWDiEH88x0NO4dTZcmALbM%3D",
+  "delivery_url": "https://delivery.us2.bfl.ai/durable/2026082517/5e1f69ea-538b-4d66-962e-9be995966f07/02/018232d8bcff93/d8bcff93e38541e7be6568fa72733a4c/sample.jpeg?se=2026-08-25T17%3A56%3A58Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=ADkdzMXLDRLeMENZOtISxhdaveduJobi6in8/PiQyFI%3D",
   "download_headers": {
     "content_type": "image/jpeg"
   },
   "polls": [
     {
-      "id": "479a5c5e-b289-463f-85db-16e617e7dcde",
+      "id": "185a48f8-f870-4aa6-8828-693b4bf59894",
       "status": "Pending",
       "result": null,
       "progress": null,
@@ -13,7 +13,7 @@
       "preview": null
     },
     {
-      "id": "479a5c5e-b289-463f-85db-16e617e7dcde",
+      "id": "185a48f8-f870-4aa6-8828-693b4bf59894",
       "status": "Pending",
       "result": null,
       "progress": null,
@@ -21,21 +21,13 @@
       "preview": null
     },
     {
-      "id": "479a5c5e-b289-463f-85db-16e617e7dcde",
-      "status": "Pending",
-      "result": null,
-      "progress": null,
-      "details": null,
-      "preview": null
-    },
-    {
-      "id": "479a5c5e-b289-463f-85db-16e617e7dcde",
+      "id": "185a48f8-f870-4aa6-8828-693b4bf59894",
       "status": "Ready",
       "result": {
-        "start_time": 1787679895.6529427,
-        "prompt": "A Hebrew psalm scroll on a pulpit, no text, no letters, no typography, no logo, no watermark",
-        "seed": 1771733700,
-        "sample": "https://delivery.us2.bfl.ai/durable/2026082517/5e1f69ea-538b-4d66-962e-9be995966f07/df/89720905040531/05040531c7b3422fab5b1753a84fed1b/sample.jpeg?se=2026-08-25T17%3A54%3A57Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=wsiC%2BAOhkVH9MNH1uczwKWWDiEH88x0NO4dTZcmALbM%3D"
+        "start_time": 1787680016.663947,
+        "prompt": "Ein Evangelisches Gesangbuch liegt auf dem Tisch, Bibel, Kreuz und Brille daneben., no text, no letters, no typography, no logo, no watermark",
+        "seed": 3828684972,
+        "sample": "https://delivery.us2.bfl.ai/durable/2026082517/5e1f69ea-538b-4d66-962e-9be995966f07/02/018232d8bcff93/d8bcff93e38541e7be6568fa72733a4c/sample.jpeg?se=2026-08-25T17%3A56%3A58Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=ADkdzMXLDRLeMENZOtISxhdaveduJobi6in8/PiQyFI%3D"
       },
       "progress": null,
       "details": null,
@@ -43,8 +35,8 @@
     }
   ],
   "submission": {
-    "id": "479a5c5e-b289-463f-85db-16e617e7dcde",
-    "polling_url": "https://api.us2.bfl.ai/v1/get_result?id=479a5c5e-b289-463f-85db-16e617e7dcde",
+    "id": "185a48f8-f870-4aa6-8828-693b4bf59894",
+    "polling_url": "https://api.us2.bfl.ai/v1/get_result?id=185a48f8-f870-4aa6-8828-693b4bf59894",
     "cost": 1.5,
     "input_mp": 0,
     "output_mp": 1.98
