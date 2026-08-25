@@ -27,5 +27,67 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "prayer-evening-2026-08-25",
+    "contentDate": "2026-08-25",
+    "platform": "instagram",
+    "format": "default",
+    "scheduledAt": "2026-08-25T18:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Der Tag muss nicht fertig sein, damit du ihn loslassen darfst.\n\nGott,\nwir legen dir hin, was heute gut war.\nUnd auch das, was offen blieb.\n\nWir bitten dich für Frieden im Nahen Osten.\nFür alle, die mit Krieg, Angst und Trauer leben.\n\nWir bitten dich für Menschen, die ausgegrenzt oder abgewertet werden.\nWegen ihrer Herkunft, ihrer Hautfarbe, ihrer sexuellen Orientierung und geschlechtlichen Identität oder aus anderen Gründen.\n\nDu hast jeden Menschen nach deinem Bild geschaffen.\nSchenk Frieden für diese Nacht.\nUnd Hoffnung für den Morgen.\nAmen.",
+    "assets": [
+      "render-instagram-feed-01.jpg",
+      "render-instagram-feed-02.jpg",
+      "render-instagram-feed-03.jpg",
+      "render-instagram-feed-04.jpg",
+      "render-instagram-feed-05.jpg",
+      "render-instagram-feed-06.jpg"
+    ],
+    "altTexts": [
+      "Ein schlichter Tisch an einem Fenster im Abendlicht. Darauf stehen eine Tasse, ein geschlossenes Notizbuch und eine Brille. Die Szene wirkt ruhig und lädt dazu ein, den Tag loszulassen."
+    ],
+    "id": "6a67c944-21d6-4e68-833b-8e23cc9590df",
+    "attemptCount": 1,
+    "remoteId": "17927418528403927",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-25T16:56:32.408Z",
+    "updatedAt": "2026-08-25T18:01:00.635Z",
+    "responseMetadata": {
+      "mediaCount": 6,
+      "mediaType": "CAROUSEL",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "prayer-evening-2026-08-25",
+    "contentDate": "2026-08-25",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-08-25T18:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Gott,\nwir legen dir diesen Tag hin.\nDas Gelungene. Das Unfertige. Das Schwere.\n\nWir bitten dich für Frieden im Nahen Osten.\nFür alle, die mit Krieg, Angst und Trauer leben.\n\nWir bitten dich für Menschen, die ausgegrenzt oder abgewertet werden – wegen ihrer Herkunft, ihrer Hautfarbe, ihrer sexuellen Orientierung und geschlechtlichen Identität oder aus anderen Gründen.\nDu hast jeden Menschen nach deinem Bild geschaffen.\n\nSchenk Ruhe für diese Nacht.\nUnd Hoffnung für den Morgen.\nAmen.",
+    "assets": [
+      "render-facebook-mastodon-01.png"
+    ],
+    "altTexts": [
+      "Ein schlichter Tisch an einem Fenster im Abendlicht. Darauf stehen eine Tasse, ein geschlossenes Notizbuch und eine Brille. Die Szene wirkt ruhig und lädt dazu ein, den Tag loszulassen."
+    ],
+    "id": "c0913f58-0d1e-42d1-8f4e-7520154d6366",
+    "attemptCount": 1,
+    "remoteId": "117157453045611061",
+    "remoteUrl": "https://kirche.social/@christoph/117157453045611061",
+    "lastError": null,
+    "createdAt": "2026-08-25T16:56:32.495Z",
+    "updatedAt": "2026-08-25T18:01:03.514Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
