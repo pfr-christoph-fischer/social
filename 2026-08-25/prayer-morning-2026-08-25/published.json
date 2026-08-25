@@ -27,5 +27,66 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "prayer-morning-2026-08-25",
+    "contentDate": "2026-08-25",
+    "platform": "instagram",
+    "format": "default",
+    "scheduledAt": "2026-08-25T05:15:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Gott, dieser Morgen ist da.\n\nWir bringen dir die Menschen in Conakry in Guinea, wo auf der abgerutschten Müllkippe noch nach Opfern gesucht wird.\nUnd wir bitten dich um einen ruhigen Tag für die Menschen in Charkiw, Cherson, Krasnodar und in der ganzen Ukraine.\n\nSei den Leidenden nahe.\nStärke alle, die helfen.\nGib uns Mut zu kleinen Schritten des Friedens heute.\n\nDeine Zukunft ist größer als diese Nacht.",
+    "assets": [
+      "render-instagram-feed-01.jpg",
+      "render-instagram-feed-02.jpg",
+      "render-instagram-feed-03.jpg",
+      "render-instagram-feed-04.jpg",
+      "render-instagram-feed-05.jpg"
+    ],
+    "altTexts": [
+      "Frühes Morgenlicht unter einem weiten Himmel. Die Szene wirkt still und ernst, mit ruhigen Farben und offenem Raum. Das Bild vermittelt Anteilnahme, Bitte um Frieden und leise Hoffnung für den neuen Tag."
+    ],
+    "id": "69a62034-2cae-4a7a-b137-284814fb0f39",
+    "attemptCount": 1,
+    "remoteId": "18054660800795024",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-24T19:35:48.599Z",
+    "updatedAt": "2026-08-25T05:15:53.384Z",
+    "responseMetadata": {
+      "mediaCount": 5,
+      "mediaType": "CAROUSEL",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "prayer-morning-2026-08-25",
+    "contentDate": "2026-08-25",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-08-25T05:15:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Gott, dieser Morgen ist da.\nWir bringen dir die Menschen in Conakry in Guinea, wo auf der abgerutschten Müllkippe noch nach Opfern gesucht wird.\nUnd wir bitten dich um einen ruhigen Tag für die Menschen in Charkiw, Cherson, Krasnodar und in der ganzen Ukraine.\nSei den Leidenden nahe. Stärke alle, die helfen. Gib uns Mut zu Schritten des Friedens heute.",
+    "assets": [
+      "render-facebook-mastodon-01.png"
+    ],
+    "altTexts": [
+      "Frühes Morgenlicht unter einem weiten Himmel. Die Szene wirkt still und ernst, mit ruhigen Farben und offenem Raum. Das Bild vermittelt Anteilnahme, Bitte um Frieden und leise Hoffnung für den neuen Tag."
+    ],
+    "id": "88bc78b5-da65-4927-b682-38ac26af1d4c",
+    "attemptCount": 1,
+    "remoteId": "117154444350778515",
+    "remoteUrl": "https://kirche.social/@christoph/117154444350778515",
+    "lastError": null,
+    "createdAt": "2026-08-24T19:35:48.651Z",
+    "updatedAt": "2026-08-25T05:15:54.149Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
