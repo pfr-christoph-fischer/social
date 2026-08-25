@@ -1,0 +1,36 @@
+{
+  "delivery_url": "https://delivery.us2.bfl.ai/durable/2026082516/5e1f69ea-538b-4d66-962e-9be995966f07/90/83917216068c70/16068c709b324d8098fd5b20aa1d666e/sample.jpeg?se=2026-08-25T17%3A03%3A59Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=lNYAHNN9Ak7nDdIMbpkDF4w9VCYd4/JNKwPz9jQcAQY%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "4481d682-f43b-444b-ab8f-ed3eaed223f8",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "4481d682-f43b-444b-ab8f-ed3eaed223f8",
+      "status": "Ready",
+      "result": {
+        "start_time": 1787676838.0251343,
+        "prompt": "ruhige dokumentarische Abendszene an einem Fenster, weiches blau-goldenes Restlicht, schlichter Holztisch mit Teller, Brot und Käse, geschlossenem Notizbuch und abgelegter Brille, stille Atmosphäre, natürliche Farben, fotografisch, zurückhaltend, glaubwürdig, keine Menschen frontal, Fokus auf Ruhe und Loslassen, no text, no letters, no typography, no logo, no watermark",
+        "seed": 2805516240,
+        "sample": "https://delivery.us2.bfl.ai/durable/2026082516/5e1f69ea-538b-4d66-962e-9be995966f07/90/83917216068c70/16068c709b324d8098fd5b20aa1d666e/sample.jpeg?se=2026-08-25T17%3A03%3A59Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=lNYAHNN9Ak7nDdIMbpkDF4w9VCYd4/JNKwPz9jQcAQY%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "4481d682-f43b-444b-ab8f-ed3eaed223f8",
+    "polling_url": "https://api.us2.bfl.ai/v1/get_result?id=4481d682-f43b-444b-ab8f-ed3eaed223f8",
+    "cost": 1.4000000000000001,
+    "input_mp": 0,
+    "output_mp": 0.72
+  }
+}

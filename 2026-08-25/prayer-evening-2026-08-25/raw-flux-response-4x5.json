@@ -1,0 +1,52 @@
+{
+  "delivery_url": "https://delivery.eu2.bfl.ai/durable/2026082516/5e1f69ea-538b-4d66-962e-9be995966f07/d5/84410538c93fe9/38c93fe9b35a4b3fa64e7598121f4539/sample.jpeg?se=2026-08-25T17%3A04%3A04Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=B/93EGpJpCyTLyxbhmZkTPPlS7LkJQhVA%2BDo9l2CjEc%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "152822af-d604-4be4-b457-661b5aa68e08",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "152822af-d604-4be4-b457-661b5aa68e08",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "152822af-d604-4be4-b457-661b5aa68e08",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "152822af-d604-4be4-b457-661b5aa68e08",
+      "status": "Ready",
+      "result": {
+        "start_time": 1787676842.8626215,
+        "prompt": "ruhige dokumentarische Abendszene an einem Fenster, weiches blau-goldenes Restlicht, schlichter Holztisch mit Teller, Brot und Käse, geschlossenem Notizbuch und abgelegter Brille, stille Atmosphäre, natürliche Farben, fotografisch, zurückhaltend, glaubwürdig, keine Menschen frontal, Fokus auf Ruhe und Loslassen, no text, no letters, no typography, no logo, no watermark",
+        "seed": 2554670132,
+        "sample": "https://delivery.eu2.bfl.ai/durable/2026082516/5e1f69ea-538b-4d66-962e-9be995966f07/d5/84410538c93fe9/38c93fe9b35a4b3fa64e7598121f4539/sample.jpeg?se=2026-08-25T17%3A04%3A04Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=B/93EGpJpCyTLyxbhmZkTPPlS7LkJQhVA%2BDo9l2CjEc%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "152822af-d604-4be4-b457-661b5aa68e08",
+    "polling_url": "https://api.eu2.bfl.ai/v1/get_result?id=152822af-d604-4be4-b457-661b5aa68e08",
+    "cost": 1.5,
+    "input_mp": 0,
+    "output_mp": 1.39
+  }
+}
