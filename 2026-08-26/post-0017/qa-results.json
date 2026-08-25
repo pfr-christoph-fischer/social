@@ -7,13 +7,30 @@
     },
     {
       "check": "flux-prompt-no-text",
-      "findings": [],
-      "status": "passed"
+      "findings": [
+        {
+          "check": "flux-prompt-no-text",
+          "message": "Flux prompt is missing or was removed because it requested text in the image.",
+          "severity": "error"
+        }
+      ],
+      "status": "failed"
     },
     {
       "check": "required-fields",
-      "findings": [],
-      "status": "passed"
+      "findings": [
+        {
+          "check": "required-fields",
+          "message": "Required field \"visual.concept\" is empty.",
+          "severity": "error"
+        },
+        {
+          "check": "required-fields",
+          "message": "Required field \"visual.flux_prompt\" is empty.",
+          "severity": "error"
+        }
+      ],
+      "status": "failed"
     },
     {
       "check": "platform-lengths",
@@ -47,10 +64,14 @@
     }
   ],
   "content_path": "content/2026-08-26/post-0017/content.json",
-  "errors": [],
+  "errors": [
+    "Flux prompt is missing or was removed because it requested text in the image.",
+    "Required field \"visual.concept\" is empty.",
+    "Required field \"visual.flux_prompt\" is empty."
+  ],
   "post_id": "post-0017",
-  "ready_for_approval": true,
-  "status_after_run": "zur Prüfung",
+  "ready_for_approval": false,
+  "status_after_run": "in Arbeit",
   "status_before_run": "in Arbeit",
   "warnings": []
 }
