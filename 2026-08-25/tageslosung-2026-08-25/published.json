@@ -84,5 +84,91 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-08-25",
+    "contentDate": "2026-08-25",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-08-25T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Ich rufe zu Gott, dem Allerhöchsten, zu Gott, der meine Sache zum guten Ende führt.",
+    "assets": [
+      "render-square-01.jpg"
+    ],
+    "altTexts": [
+      "Ich rufe zu Gott, dem Allerhöchsten, zu Gott, der meine Sache zum guten Ende führt."
+    ],
+    "id": "16f9ae26-bd3a-4eac-b453-c4d903347c12",
+    "attemptCount": 1,
+    "remoteId": "18111115301078849",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:44:39.129Z",
+    "updatedAt": "2026-08-25T05:00:38.914Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-08-25",
+    "contentDate": "2026-08-25",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-08-25T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Ich rufe zu Gott, dem Allerhöchsten, zu Gott, der meine Sache zum guten Ende führt.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Ich rufe zu Gott, dem Allerhöchsten, zu Gott, der meine Sache zum guten Ende führt."
+    ],
+    "id": "e891f46f-0feb-4a0d-ae18-1c87d5d86ab6",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3mtuzxzrp4z2o",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3mtuzxzrp4z2o",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:44:39.131Z",
+    "updatedAt": "2026-08-25T05:00:41.169Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-08-25",
+    "contentDate": "2026-08-25",
+    "platform": "linkedin",
+    "format": "default",
+    "scheduledAt": "2026-08-25T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Ich rufe zu Gott, dem Allerhöchsten, zu Gott, der meine Sache zum guten Ende führt.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Ich rufe zu Gott, dem Allerhöchsten, zu Gott, der meine Sache zum guten Ende führt."
+    ],
+    "id": "8cdf6f68-9505-4ccf-9e43-37f93b8e311c",
+    "attemptCount": 1,
+    "remoteId": "urn:li:share:7497880617208946688",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:44:39.133Z",
+    "updatedAt": "2026-08-25T05:00:43.463Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 201
+    },
+    "retryHistory": []
   }
 ]
