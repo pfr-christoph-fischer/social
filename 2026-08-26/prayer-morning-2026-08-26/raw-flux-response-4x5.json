@@ -1,0 +1,52 @@
+{
+  "delivery_url": "https://delivery.eu2.bfl.ai/durable/2026082517/5e1f69ea-538b-4d66-962e-9be995966f07/b3/620845269f4d0e/269f4d0e83064b278185b8596c95686b/sample.jpeg?se=2026-08-25T17%3A33%3A41Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=CRIoyjJh5yGfrb9C9hW95ze2sjHHoZCgxdjIUra4DPA%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "4fdf346c-6a9b-45be-90a2-98b593d4bfd0",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "4fdf346c-6a9b-45be-90a2-98b593d4bfd0",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "4fdf346c-6a9b-45be-90a2-98b593d4bfd0",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "4fdf346c-6a9b-45be-90a2-98b593d4bfd0",
+      "status": "Ready",
+      "result": {
+        "start_time": 1787678619.5621161,
+        "prompt": "blue sky. Different European flags, the EU flag, the German flag, a rainbow flag waving, no text, no letters, no typography, no logo, no watermark",
+        "seed": 2409200709,
+        "sample": "https://delivery.eu2.bfl.ai/durable/2026082517/5e1f69ea-538b-4d66-962e-9be995966f07/b3/620845269f4d0e/269f4d0e83064b278185b8596c95686b/sample.jpeg?se=2026-08-25T17%3A33%3A41Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=CRIoyjJh5yGfrb9C9hW95ze2sjHHoZCgxdjIUra4DPA%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "4fdf346c-6a9b-45be-90a2-98b593d4bfd0",
+    "polling_url": "https://api.eu2.bfl.ai/v1/get_result?id=4fdf346c-6a9b-45be-90a2-98b593d4bfd0",
+    "cost": 1.5,
+    "input_mp": 0,
+    "output_mp": 1.39
+  }
+}
