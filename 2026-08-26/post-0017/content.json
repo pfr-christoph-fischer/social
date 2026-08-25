@@ -103,28 +103,26 @@
     }
   },
   "visual": {
-    "concept": "",
-    "flux_prompt": "",
+    "concept": "Ruhige, reduzierte Bildwelt mit stärkerem Symbol für gemeinsames und überliefertes Gebet: ein schmaler Lichtstreifen fällt durch ein Kirchenfenster oder ein einfaches Fenster auf eine alte Psalmseite oder ein aufgeschlagenes Gebetbuch. Staubpartikel im Licht, feine Papierstruktur, stille Atmosphäre, keine inszenierte Frömmigkeit. Das Bild soll Vertrautheit, Ehrlichkeit und die Tiefe geborgter Worte zeigen, ohne auf Hände, Tasse oder Tisch als Hauptmotiv zu setzen.",
+    "flux_prompt": "Atmosphärische, ruhige Szene für einen kirchlichen Social-Media-Post über Psalmen: eine aufgeschlagene alte Psalmseite oder ein schlichtes Gebetbuch im Fokus, beleuchtet von weichem seitlichem Morgenlicht aus einem Fenster oder Kirchenfenster, sichtbare Papierstruktur, dezente Gebrauchsspuren, feine Staubpartikel im Licht, warme natürliche Farbpalette, stille meditative Stimmung, minimalistische Komposition, fotografisch realistisch, hohe Detailtiefe, geringe Tiefenschärfe, kein Mensch im Bild, keine Tasse, keine betenden Hände, kein überladener Hintergrund, würdevoll, ehrlich, unpathetisch",
     "negative_prompt": "text, letters, logo, watermark",
     "formats": [
       "4:5",
       "9:16",
       "1.91:1"
     ],
-    "alt_text": "Ein offenes Buch liegt auf einem schlichten Holztisch im weichen Fensterlicht. Daneben steht eine Tasse. Hände ruhen in der Nähe des Buches. Die Szene wirkt still, warm und nachdenklich."
+    "alt_text": "Eine aufgeschlagene Psalmseite oder ein schlichtes Gebetbuch liegt im weichen seitlichen Licht eines Fensters. Die Papierstruktur ist gut sichtbar, Staubpartikel leuchten in der Luft. Das Bild wirkt still, warm und nachdenklich."
   },
   "qa": {
-    "approved": false,
-    "warnings": []
+    "warnings": [
+      "Alt text must be completed before approval"
+    ],
+    "approved": false
   },
   "metadata": {
     "model": "gpt-5.4-2026-03-05",
     "generated_at": "2026-08-25T12:41:27.032Z",
     "prompt_version": "1.0",
-    "assets": [
-      "assets/background-1.91x1.webp",
-      "assets/background-4x5.webp",
-      "assets/background-9x16.webp"
-    ]
+    "assets": []
   }
 }
