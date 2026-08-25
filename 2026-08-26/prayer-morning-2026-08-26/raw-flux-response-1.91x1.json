@@ -1,11 +1,11 @@
 {
-  "delivery_url": "https://delivery.us2.bfl.ai/durable/2026082517/5e1f69ea-538b-4d66-962e-9be995966f07/3d/6172219ea0cb6f/9ea0cb6fdfac4855a2a32cda95389074/sample.jpeg?se=2026-08-25T17%3A33%3A37Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=iaLrJyIgSjAIDMdfrjyhRQYc/MLVHQM6%2BrmXd5WPLT4%3D",
+  "delivery_url": "https://delivery.eu2.bfl.ai/durable/2026082517/5e1f69ea-538b-4d66-962e-9be995966f07/2e/803560e8745204/e874520498f54720ae678aede8d3d76e/sample.jpeg?se=2026-08-25T17%3A36%3A43Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=vhpF7uykjbooBjFRHgtg1sx1IIxaGZ4CP/36A6ElguI%3D",
   "download_headers": {
     "content_type": "image/jpeg"
   },
   "polls": [
     {
-      "id": "11dc6d1c-e9a4-4133-85c3-f628348426b8",
+      "id": "743cc0d4-ac61-44b0-9040-8446c587b145",
       "status": "Pending",
       "result": null,
       "progress": null,
@@ -13,13 +13,21 @@
       "preview": null
     },
     {
-      "id": "11dc6d1c-e9a4-4133-85c3-f628348426b8",
+      "id": "743cc0d4-ac61-44b0-9040-8446c587b145",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "743cc0d4-ac61-44b0-9040-8446c587b145",
       "status": "Ready",
       "result": {
-        "start_time": 1787678616.114791,
-        "prompt": "blue sky. Different European flags, the EU flag, the German flag, a rainbow flag waving, no text, no letters, no typography, no logo, no watermark",
-        "seed": 3528030784,
-        "sample": "https://delivery.us2.bfl.ai/durable/2026082517/5e1f69ea-538b-4d66-962e-9be995966f07/3d/6172219ea0cb6f/9ea0cb6fdfac4855a2a32cda95389074/sample.jpeg?se=2026-08-25T17%3A33%3A37Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=iaLrJyIgSjAIDMdfrjyhRQYc/MLVHQM6%2BrmXd5WPLT4%3D"
+        "start_time": 1787678802.8095922,
+        "prompt": "A clear, sunny sky, no text, no letters, no typography, no logo, no watermark",
+        "seed": 2116521398,
+        "sample": "https://delivery.eu2.bfl.ai/durable/2026082517/5e1f69ea-538b-4d66-962e-9be995966f07/2e/803560e8745204/e874520498f54720ae678aede8d3d76e/sample.jpeg?se=2026-08-25T17%3A36%3A43Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=vhpF7uykjbooBjFRHgtg1sx1IIxaGZ4CP/36A6ElguI%3D"
       },
       "progress": null,
       "details": null,
@@ -27,8 +35,8 @@
     }
   ],
   "submission": {
-    "id": "11dc6d1c-e9a4-4133-85c3-f628348426b8",
-    "polling_url": "https://api.us2.bfl.ai/v1/get_result?id=11dc6d1c-e9a4-4133-85c3-f628348426b8",
+    "id": "743cc0d4-ac61-44b0-9040-8446c587b145",
+    "polling_url": "https://api.eu2.bfl.ai/v1/get_result?id=743cc0d4-ac61-44b0-9040-8446c587b145",
     "cost": 1.4000000000000001,
     "input_mp": 0,
     "output_mp": 0.72
