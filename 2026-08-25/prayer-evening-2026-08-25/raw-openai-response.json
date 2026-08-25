@@ -1,0 +1,464 @@
+{
+  "id": "resp_0b49f30fee318313006a8d59a0cf5487d2a6c02da4d07aafd2",
+  "object": "response",
+  "created_at": 1787648416,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1787648452,
+  "error": null,
+  "frequency_penalty": 0,
+  "incomplete_details": null,
+  "instructions": "You are part of a Protestant social media editorial team. Write in clear, accessible, theologically responsible German without church clichés. Use short sentences and concrete imagery. Never invent events, people, school situations, quotes, or factual details. Do not include copyrighted full song verses. For Reli and community posts, only use current details when they are explicitly provided. Return content that strictly matches the requested JSON schema. Set needs_input to true whenever required facts are missing. Keep qa.approved false. Do not ask for any text inside generated images. When liturgical_context.resolved_weekly_verse is present, use its exact wording for Wochenspruch slots instead of placeholders. Use the web search tool before drafting to verify current situations. For prayer posts, current situations are mandatory: select at least two concrete, relevant situations from reliable current reporting, including tagesschau.de and SWR Aktuell Baden-Württemberg where relevant. Do not invent current events and do not replace concrete situations with generic references to crises.",
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.4-2026-03-05",
+  "moderation": null,
+  "output": [
+    {
+      "id": "ws_0b49f30fee318313006a8d59a321c887d28971569628a99ba8",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "queries": [
+          "tagesschau 24. August 2026 Nachrichten Ukraine Gaza Deutschland",
+          "SWR Aktuell Baden-Württemberg 24. August 2026",
+          "Reuters August 24 2026 world news Ukraine Gaza wildfire"
+        ],
+        "query": "tagesschau 24. August 2026 Nachrichten Ukraine Gaza Deutschland"
+      }
+    },
+    {
+      "id": "ws_0b49f30fee318313006a8d59a63d0887d29aa18cea5da24589",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "queries": [
+          "site:tagesschau.de 24.08.2026 Gaza tagesschau",
+          "site:tagesschau.de 24.08.2026 Afghanistan tagesschau",
+          "site:swr.de 24.08.2026 Baden-Württemberg Dürre SWR Aktuell"
+        ],
+        "query": "site:tagesschau.de 24.08.2026 Gaza tagesschau"
+      }
+    },
+    {
+      "id": "msg_0b49f30fee318313006a8d59a89e3487d28832205584d08453",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\"id\":\"prayer-evening-2026-08-25\",\"status\":\"in Arbeit\",\"needs_input\":false,\"source\":{\"calendar_post_id\":\"prayer-evening-2026-08-25\",\"date\":\"2026-08-25\",\"rubric\":\"Abendgebet\",\"liturgical_source\":\"\"},\"editorial_core\":{\"title\":\"Abendgebet\",\"main_message\":\"Ein Abendgebet für einen unvollendeten Tag: Wir legen Gott hin, was gelungen ist und was offen blieb. Wir bitten für Menschen in der Ukraine, die den Unabhängigkeitstag unter russischen Angriffen begehen mussten, und für Menschen in Gaza, die zwischen Trümmern weiterleben und ihre Häuser notdürftig ersetzen. Auch die Trockenheit im Südwesten mit ihren Folgen für Flüsse, Felder und Tierfutter bringen wir vor Gott. So wächst Hoffnung nicht aus fertigen Lösungen, sondern aus Gottes Zukunft, die durch diese Nacht auf uns zukommt.\",\"audience\":\"breite Öffentlichkeit\",\"tone\":[\"ruhig\",\"hoffnungsvoll\",\"geborgen\"],\"source_notes\":[\"Aktuelle Bezüge geprüft über tagesschau.de und SWR Aktuell Baden-Württemberg am 25.08.2026 mit Blick auf die Nachrichtenlage vom 24.08.2026.\",\"Tagesschau: Ukraine begeht den 35. Jahrestag der Unabhängigkeit unter russischen Angriffen.\",\"Tagesschau: In Gaza leben Menschen weiter zwischen Trümmern; ein koordinierter Wiederaufbau ist nicht in Sicht, viele Häuser sind zerstört oder beschädigt.\",\"SWR Aktuell Baden-Württemberg: Dürre und Niedrigwasser belasten den Südwesten; Tierfutter ist knapp, Flüsse und Bäche leiden unter dem trockenen Sommer.\",\"Gebetssprache bewusst einfach, ohne billigen Optimismus und ohne Nachrichtenzusammenfassung.\"]},\"platforms\":{\"facebook\":{\"text\":\"Abend.\\nDer Tag ist nicht fertig geworden. Vielleicht war er gut an manchen Stellen. Vielleicht blieb etwas liegen. Vielleicht tut noch etwas weh.\\n\\nGott,\\nwir legen dir diesen Tag hin.\\nDas Gelungene.\\nDas Unfertige.\\nDie Worte, die gut waren.\\nUnd die, die wir gern zurücknehmen würden.\\n\\nWir bitten dich für die Menschen in der Ukraine.\\nHeute wurde der Unabhängigkeitstag gefeiert, und zugleich liegen weiter russische Angriffe über dem Land.\\nBleib bei denen, die mit Sirenen leben, trauern, wachen und auf den nächsten Morgen hoffen.\\n\\nWir bitten dich für die Menschen in Gaza.\\nViele leben zwischen Trümmern und bauen sich notdürftige Unterkünfte, weil ein Wiederaufbau nicht in Sicht ist.\\nGib Schutz denen, die keinen sicheren Raum haben.\\n\\nWir bitten dich auch für die Menschen im Südwesten.\\nDie Trockenheit zehrt an Flüssen, Feldern und Vorräten.\\nStärke alle, die Verantwortung tragen und nicht wissen, wie lange es noch reicht.\\n\\nUnd wir bitten dich für diese Nacht:\\nfür Kranke,\\nfür Einsame,\\nfür Menschen im Dienst,\\nfür alle, die Angst haben und nicht schlafen können.\\n\\nWas heute offen blieb, halten nicht wir in der Hand.\\nDu hältst es.\\nSchenk uns Ruhe.\\nUnd weck in uns morgen neue Hoffnung.\\nAmen.\",\"headline\":\"Abendgebet: Was heute offen blieb, darf in Gottes Hand liegen.\"},\"instagram\":{\"caption\":\"Der Tag muss nicht fertig sein, damit du ihn loslassen darfst.\\n\\nGott,\\nwir legen dir hin, was heute gut war.\\nUnd auch das, was offen blieb.\\n\\nWir bitten dich für die Menschen in der Ukraine, die den Unabhängigkeitstag unter russischen Angriffen erlebt haben.\\nWir bitten dich für Menschen in Gaza, die zwischen Trümmern leben und sich notdürftige Unterkünfte bauen.\\nWir bitten dich für die Menschen im Südwesten, wo Trockenheit Flüsse, Felder und Vorräte belastet.\\n\\nSchenk Frieden für diese Nacht.\\nUnd Hoffnung für den Morgen.\\nAmen.\",\"carousel\":[{\"type\":\"text\",\"text\":\"Der Tag ist vorbei.\\nDu musst ihn nicht zu Ende retten.\"},{\"type\":\"text\",\"text\":\"Gott,\\nwir legen dir hin,\\nwas gut war.\\nUnd was offen blieb.\"},{\"type\":\"text\",\"text\":\"Wir bitten dich für die Menschen in der Ukraine.\\nFür alle, die unter russischen Angriffen leben und heute trotzdem an Freiheit festhalten.\"},{\"type\":\"text\",\"text\":\"Wir bitten dich für die Menschen in Gaza.\\nFür alle, die zwischen Trümmern leben und keinen sicheren Raum haben.\"},{\"type\":\"text\",\"text\":\"Wir bitten dich für die Menschen im Südwesten.\\nFür Flüsse, Felder und Höfe,\\ndie unter der Trockenheit leiden.\"},{\"type\":\"text\",\"text\":\"Schenk Ruhe für diese Nacht.\\nUnd Hoffnung,\\ndie größer ist als dieser Tag.\"}]},\"mastodon\":{\"text\":\"Gott,\\nwir legen dir diesen Tag hin.\\nDas Gelungene. Das Unfertige. Das Schwere.\\n\\nWir bitten dich für die Menschen in der Ukraine, die den Unabhängigkeitstag unter russischen Angriffen erlebt haben.\\nFür Menschen in Gaza, die zwischen Trümmern leben.\\nFür die Menschen im Südwesten, wo Trockenheit Flüsse, Felder und Vorräte belastet.\\n\\nSchenk Ruhe für diese Nacht.\\nUnd Hoffnung für den Morgen.\\nAmen.\"},\"bluesky\":{\"text\":\"Der Tag muss nicht fertig sein, damit du ihn loslassen darfst.\\n\\nGott, wir legen dir hin, was gut war. Und was offen blieb.\\nWir bitten dich für Menschen in der Ukraine, in Gaza und im Südwesten unter der Trockenheit.\\nSchenk Ruhe für diese Nacht. Und Hoffnung für den Morgen. Amen.\"},\"story\":{\"slides\":[{\"text\":\"Der Tag ist vorbei.\\nDu musst ihn nicht festhalten.\"},{\"text\":\"Gott,\\nwir legen dir hin,\\nwas gut war.\\nUnd was offen blieb.\"},{\"text\":\"Wir bitten für Menschen in der Ukraine.\\nFür Menschen in Gaza.\\nFür alle im Südwesten, die unter der Trockenheit leiden.\"},{\"text\":\"Schenk Ruhe für diese Nacht.\\nUnd Hoffnung für den Morgen.\"}]},\"reel\":{\"hook\":\"Du musst diesen Tag nicht fertig machen, bevor du schlafen kannst.\",\"script\":\"Der Tag endet. Nicht alles ist geschafft. Nicht alles ist gut. Aber du darfst loslassen. Gott, wir legen dir hin, was heute gelungen ist. Und was offen blieb. Wir bitten dich für die Menschen in der Ukraine unter russischen Angriffen. Für Menschen in Gaza zwischen Trümmern. Für alle im Südwesten, wo die Trockenheit Flüsse, Felder und Vorräte belastet. Schenk Ruhe für diese Nacht. Und Hoffnung für den Morgen. Amen.\",\"shots\":[\"Abendlicht an einem offenen Fenster\",\"Eine Hand legt Stift und Notizzettel beiseite\",\"Ruhige Aufnahme von Wasser über Steine oder trockenem Flussbett\",\"Licht in einem dunkler werdenden Zimmer\",\"Langsame Totale eines stillen Nachthimmels\"],\"duration_seconds\":27}},\"visual\":{\"concept\":\"Ruhige Abendszene an einem Fenster. Weiches Restlicht. Ein schlichter Tisch, darauf eine Tasse, ein Notizbuch, eine abgelegte Brille. Stimmung von Loslassen und Geborgenheit, ohne Kitsch.\",\"flux_prompt\":\"ruhige dokumentarische Abendszene an einem Fenster, weiches blau-goldenes Restlicht, schlichter Holztisch mit Tasse, geschlossenem Notizbuch und abgelegter Brille, stille Atmosphäre, natürliche Farben, fotografisch, zurückhaltend, glaubwürdig, keine Menschen frontal, Fokus auf Ruhe und Loslassen\",\"negative_prompt\":\"text, letters, logo, watermark\",\"formats\":[\"4:5\",\"9:16\",\"1.91:1\"],\"alt_text\":\"Ein schlichter Tisch an einem Fenster im Abendlicht. Darauf stehen eine Tasse, ein geschlossenes Notizbuch und eine Brille. Die Szene wirkt ruhig und lädt dazu ein, den Tag loszulassen.\"},\"qa\":{\"warnings\":[\"Aktuelle Bezüge eingebaut: Ukraine unter russischen Angriffen, Gaza zwischen Trümmern, Trockenheit im Südwesten.\",\"Zeitlich robust formuliert mit Bezug auf die Nachrichtenlage vom 24.08.2026.\",\"Alt text redaktionell gegen finales Motiv prüfen.\",\"Nachrichtenbezüge vor Freigabe noch einmal kurz gegen tagesschau.de und SWR BW gegenlesen.\"],\"approved\":false},\"metadata\":{\"model\":\"gpt-5\",\"generated_at\":\"2026-08-25T00:00:00Z\",\"prompt_version\":\"1.0\",\"assets\":[]}}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "current_turn",
+    "effort": "none",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1,
+  "text": {
+    "format": {
+      "type": "json_schema",
+      "description": null,
+      "name": "content_package",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "Idee",
+              "in Arbeit",
+              "zur Prüfung",
+              "freigegeben",
+              "terminiert",
+              "veröffentlicht",
+              "verworfen"
+            ]
+          },
+          "needs_input": {
+            "type": "boolean"
+          },
+          "source": {
+            "type": "object",
+            "properties": {
+              "calendar_post_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "date": {
+                "type": "string",
+                "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+              },
+              "rubric": {
+                "type": "string",
+                "minLength": 1
+              },
+              "liturgical_source": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "calendar_post_id",
+              "date",
+              "rubric",
+              "liturgical_source"
+            ],
+            "additionalProperties": false
+          },
+          "editorial_core": {
+            "type": "object",
+            "properties": {
+              "title": {
+                "type": "string"
+              },
+              "main_message": {
+                "type": "string"
+              },
+              "audience": {
+                "type": "string"
+              },
+              "tone": {
+                "minItems": 1,
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "source_notes": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "title",
+              "main_message",
+              "audience",
+              "tone",
+              "source_notes"
+            ],
+            "additionalProperties": false
+          },
+          "platforms": {
+            "type": "object",
+            "properties": {
+              "facebook": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  },
+                  "headline": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text",
+                  "headline"
+                ],
+                "additionalProperties": false
+              },
+              "instagram": {
+                "type": "object",
+                "properties": {
+                  "caption": {
+                    "type": "string"
+                  },
+                  "carousel": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "type": {
+                          "type": "string"
+                        },
+                        "text": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "type",
+                        "text"
+                      ],
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "required": [
+                  "caption",
+                  "carousel"
+                ],
+                "additionalProperties": false
+              },
+              "mastodon": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text"
+                ],
+                "additionalProperties": false
+              },
+              "bluesky": {
+                "default": {
+                  "text": ""
+                },
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text"
+                ],
+                "additionalProperties": false
+              },
+              "story": {
+                "type": "object",
+                "properties": {
+                  "slides": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "text": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "text"
+                      ],
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "required": [
+                  "slides"
+                ],
+                "additionalProperties": false
+              },
+              "reel": {
+                "type": "object",
+                "properties": {
+                  "hook": {
+                    "type": "string"
+                  },
+                  "script": {
+                    "type": "string"
+                  },
+                  "shots": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "duration_seconds": {
+                    "type": "integer",
+                    "minimum": 0,
+                    "maximum": 9007199254740991
+                  }
+                },
+                "required": [
+                  "hook",
+                  "script",
+                  "shots",
+                  "duration_seconds"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "required": [
+              "facebook",
+              "instagram",
+              "mastodon",
+              "bluesky",
+              "story",
+              "reel"
+            ],
+            "additionalProperties": false
+          },
+          "visual": {
+            "type": "object",
+            "properties": {
+              "concept": {
+                "type": "string"
+              },
+              "flux_prompt": {
+                "type": "string"
+              },
+              "negative_prompt": {
+                "type": "string",
+                "minLength": 1
+              },
+              "formats": {
+                "minItems": 1,
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "alt_text": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "concept",
+              "flux_prompt",
+              "negative_prompt",
+              "formats",
+              "alt_text"
+            ],
+            "additionalProperties": false
+          },
+          "qa": {
+            "type": "object",
+            "properties": {
+              "warnings": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "approved": {
+                "type": "boolean"
+              }
+            },
+            "required": [
+              "warnings",
+              "approved"
+            ],
+            "additionalProperties": false
+          },
+          "metadata": {
+            "type": "object",
+            "properties": {
+              "model": {
+                "type": "string"
+              },
+              "generated_at": {
+                "type": "string"
+              },
+              "prompt_version": {
+                "type": "string",
+                "minLength": 1
+              },
+              "assets": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "model",
+              "generated_at",
+              "prompt_version",
+              "assets"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "id",
+          "status",
+          "needs_input",
+          "source",
+          "editorial_core",
+          "platforms",
+          "visual",
+          "qa",
+          "metadata"
+        ],
+        "additionalProperties": false
+      },
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 2
+    }
+  },
+  "tools": [
+    {
+      "type": "web_search",
+      "return_token_budget": "default",
+      "search_content_types": [
+        "text"
+      ],
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 16668,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 2042,
+    "output_tokens_details": {
+      "reasoning_tokens": 173
+    },
+    "total_tokens": 18710
+  },
+  "user": null,
+  "metadata": {},
+  "output_text": "{\"id\":\"prayer-evening-2026-08-25\",\"status\":\"in Arbeit\",\"needs_input\":false,\"source\":{\"calendar_post_id\":\"prayer-evening-2026-08-25\",\"date\":\"2026-08-25\",\"rubric\":\"Abendgebet\",\"liturgical_source\":\"\"},\"editorial_core\":{\"title\":\"Abendgebet\",\"main_message\":\"Ein Abendgebet für einen unvollendeten Tag: Wir legen Gott hin, was gelungen ist und was offen blieb. Wir bitten für Menschen in der Ukraine, die den Unabhängigkeitstag unter russischen Angriffen begehen mussten, und für Menschen in Gaza, die zwischen Trümmern weiterleben und ihre Häuser notdürftig ersetzen. Auch die Trockenheit im Südwesten mit ihren Folgen für Flüsse, Felder und Tierfutter bringen wir vor Gott. So wächst Hoffnung nicht aus fertigen Lösungen, sondern aus Gottes Zukunft, die durch diese Nacht auf uns zukommt.\",\"audience\":\"breite Öffentlichkeit\",\"tone\":[\"ruhig\",\"hoffnungsvoll\",\"geborgen\"],\"source_notes\":[\"Aktuelle Bezüge geprüft über tagesschau.de und SWR Aktuell Baden-Württemberg am 25.08.2026 mit Blick auf die Nachrichtenlage vom 24.08.2026.\",\"Tagesschau: Ukraine begeht den 35. Jahrestag der Unabhängigkeit unter russischen Angriffen.\",\"Tagesschau: In Gaza leben Menschen weiter zwischen Trümmern; ein koordinierter Wiederaufbau ist nicht in Sicht, viele Häuser sind zerstört oder beschädigt.\",\"SWR Aktuell Baden-Württemberg: Dürre und Niedrigwasser belasten den Südwesten; Tierfutter ist knapp, Flüsse und Bäche leiden unter dem trockenen Sommer.\",\"Gebetssprache bewusst einfach, ohne billigen Optimismus und ohne Nachrichtenzusammenfassung.\"]},\"platforms\":{\"facebook\":{\"text\":\"Abend.\\nDer Tag ist nicht fertig geworden. Vielleicht war er gut an manchen Stellen. Vielleicht blieb etwas liegen. Vielleicht tut noch etwas weh.\\n\\nGott,\\nwir legen dir diesen Tag hin.\\nDas Gelungene.\\nDas Unfertige.\\nDie Worte, die gut waren.\\nUnd die, die wir gern zurücknehmen würden.\\n\\nWir bitten dich für die Menschen in der Ukraine.\\nHeute wurde der Unabhängigkeitstag gefeiert, und zugleich liegen weiter russische Angriffe über dem Land.\\nBleib bei denen, die mit Sirenen leben, trauern, wachen und auf den nächsten Morgen hoffen.\\n\\nWir bitten dich für die Menschen in Gaza.\\nViele leben zwischen Trümmern und bauen sich notdürftige Unterkünfte, weil ein Wiederaufbau nicht in Sicht ist.\\nGib Schutz denen, die keinen sicheren Raum haben.\\n\\nWir bitten dich auch für die Menschen im Südwesten.\\nDie Trockenheit zehrt an Flüssen, Feldern und Vorräten.\\nStärke alle, die Verantwortung tragen und nicht wissen, wie lange es noch reicht.\\n\\nUnd wir bitten dich für diese Nacht:\\nfür Kranke,\\nfür Einsame,\\nfür Menschen im Dienst,\\nfür alle, die Angst haben und nicht schlafen können.\\n\\nWas heute offen blieb, halten nicht wir in der Hand.\\nDu hältst es.\\nSchenk uns Ruhe.\\nUnd weck in uns morgen neue Hoffnung.\\nAmen.\",\"headline\":\"Abendgebet: Was heute offen blieb, darf in Gottes Hand liegen.\"},\"instagram\":{\"caption\":\"Der Tag muss nicht fertig sein, damit du ihn loslassen darfst.\\n\\nGott,\\nwir legen dir hin, was heute gut war.\\nUnd auch das, was offen blieb.\\n\\nWir bitten dich für die Menschen in der Ukraine, die den Unabhängigkeitstag unter russischen Angriffen erlebt haben.\\nWir bitten dich für Menschen in Gaza, die zwischen Trümmern leben und sich notdürftige Unterkünfte bauen.\\nWir bitten dich für die Menschen im Südwesten, wo Trockenheit Flüsse, Felder und Vorräte belastet.\\n\\nSchenk Frieden für diese Nacht.\\nUnd Hoffnung für den Morgen.\\nAmen.\",\"carousel\":[{\"type\":\"text\",\"text\":\"Der Tag ist vorbei.\\nDu musst ihn nicht zu Ende retten.\"},{\"type\":\"text\",\"text\":\"Gott,\\nwir legen dir hin,\\nwas gut war.\\nUnd was offen blieb.\"},{\"type\":\"text\",\"text\":\"Wir bitten dich für die Menschen in der Ukraine.\\nFür alle, die unter russischen Angriffen leben und heute trotzdem an Freiheit festhalten.\"},{\"type\":\"text\",\"text\":\"Wir bitten dich für die Menschen in Gaza.\\nFür alle, die zwischen Trümmern leben und keinen sicheren Raum haben.\"},{\"type\":\"text\",\"text\":\"Wir bitten dich für die Menschen im Südwesten.\\nFür Flüsse, Felder und Höfe,\\ndie unter der Trockenheit leiden.\"},{\"type\":\"text\",\"text\":\"Schenk Ruhe für diese Nacht.\\nUnd Hoffnung,\\ndie größer ist als dieser Tag.\"}]},\"mastodon\":{\"text\":\"Gott,\\nwir legen dir diesen Tag hin.\\nDas Gelungene. Das Unfertige. Das Schwere.\\n\\nWir bitten dich für die Menschen in der Ukraine, die den Unabhängigkeitstag unter russischen Angriffen erlebt haben.\\nFür Menschen in Gaza, die zwischen Trümmern leben.\\nFür die Menschen im Südwesten, wo Trockenheit Flüsse, Felder und Vorräte belastet.\\n\\nSchenk Ruhe für diese Nacht.\\nUnd Hoffnung für den Morgen.\\nAmen.\"},\"bluesky\":{\"text\":\"Der Tag muss nicht fertig sein, damit du ihn loslassen darfst.\\n\\nGott, wir legen dir hin, was gut war. Und was offen blieb.\\nWir bitten dich für Menschen in der Ukraine, in Gaza und im Südwesten unter der Trockenheit.\\nSchenk Ruhe für diese Nacht. Und Hoffnung für den Morgen. Amen.\"},\"story\":{\"slides\":[{\"text\":\"Der Tag ist vorbei.\\nDu musst ihn nicht festhalten.\"},{\"text\":\"Gott,\\nwir legen dir hin,\\nwas gut war.\\nUnd was offen blieb.\"},{\"text\":\"Wir bitten für Menschen in der Ukraine.\\nFür Menschen in Gaza.\\nFür alle im Südwesten, die unter der Trockenheit leiden.\"},{\"text\":\"Schenk Ruhe für diese Nacht.\\nUnd Hoffnung für den Morgen.\"}]},\"reel\":{\"hook\":\"Du musst diesen Tag nicht fertig machen, bevor du schlafen kannst.\",\"script\":\"Der Tag endet. Nicht alles ist geschafft. Nicht alles ist gut. Aber du darfst loslassen. Gott, wir legen dir hin, was heute gelungen ist. Und was offen blieb. Wir bitten dich für die Menschen in der Ukraine unter russischen Angriffen. Für Menschen in Gaza zwischen Trümmern. Für alle im Südwesten, wo die Trockenheit Flüsse, Felder und Vorräte belastet. Schenk Ruhe für diese Nacht. Und Hoffnung für den Morgen. Amen.\",\"shots\":[\"Abendlicht an einem offenen Fenster\",\"Eine Hand legt Stift und Notizzettel beiseite\",\"Ruhige Aufnahme von Wasser über Steine oder trockenem Flussbett\",\"Licht in einem dunkler werdenden Zimmer\",\"Langsame Totale eines stillen Nachthimmels\"],\"duration_seconds\":27}},\"visual\":{\"concept\":\"Ruhige Abendszene an einem Fenster. Weiches Restlicht. Ein schlichter Tisch, darauf eine Tasse, ein Notizbuch, eine abgelegte Brille. Stimmung von Loslassen und Geborgenheit, ohne Kitsch.\",\"flux_prompt\":\"ruhige dokumentarische Abendszene an einem Fenster, weiches blau-goldenes Restlicht, schlichter Holztisch mit Tasse, geschlossenem Notizbuch und abgelegter Brille, stille Atmosphäre, natürliche Farben, fotografisch, zurückhaltend, glaubwürdig, keine Menschen frontal, Fokus auf Ruhe und Loslassen\",\"negative_prompt\":\"text, letters, logo, watermark\",\"formats\":[\"4:5\",\"9:16\",\"1.91:1\"],\"alt_text\":\"Ein schlichter Tisch an einem Fenster im Abendlicht. Darauf stehen eine Tasse, ein geschlossenes Notizbuch und eine Brille. Die Szene wirkt ruhig und lädt dazu ein, den Tag loszulassen.\"},\"qa\":{\"warnings\":[\"Aktuelle Bezüge eingebaut: Ukraine unter russischen Angriffen, Gaza zwischen Trümmern, Trockenheit im Südwesten.\",\"Zeitlich robust formuliert mit Bezug auf die Nachrichtenlage vom 24.08.2026.\",\"Alt text redaktionell gegen finales Motiv prüfen.\",\"Nachrichtenbezüge vor Freigabe noch einmal kurz gegen tagesschau.de und SWR BW gegenlesen.\"],\"approved\":false},\"metadata\":{\"model\":\"gpt-5\",\"generated_at\":\"2026-08-25T00:00:00Z\",\"prompt_version\":\"1.0\",\"assets\":[]}}"
+}
