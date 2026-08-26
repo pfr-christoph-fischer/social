@@ -27,5 +27,69 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "post-0017",
+    "contentDate": "2026-08-26",
+    "platform": "instagram",
+    "format": "default",
+    "scheduledAt": "2026-08-26T07:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Warum beten wir Psalmen?\n\nWeil sie Worte leihen, wenn eigene Worte fehlen.\n\nPsalmen sind Gebete aus der Bibel. Sie sprechen von Freude und Angst, von Dank und Wut, von Bitte und Vertrauen. Gerade deshalb sind sie bis heute lebendig.\n\nDu musst vor Gott nicht perfekt formulieren. Du darfst mit Worten anfangen, die schon viele vor dir getragen haben.\n\nGesprächsfrage: Hilft dir ein festes Gebet mehr als freie Worte?\n\n#Psalmen #Beten #GlaubenVerstehen #Bibel #ChristlichHeute",
+    "assets": [
+      "render-instagram-feed-01.jpg",
+      "render-instagram-feed-02.jpg",
+      "render-instagram-feed-03.jpg",
+      "render-instagram-feed-04.jpg",
+      "render-instagram-feed-05.jpg",
+      "render-instagram-feed-06.jpg",
+      "render-instagram-feed-07.jpg",
+      "render-instagram-feed-08.jpg"
+    ],
+    "altTexts": [
+      "Eine aufgeschlagene Psalmseite oder ein schlichtes Gebetbuch liegt im weichen seitlichen Licht eines Fensters. Die Papierstruktur ist gut sichtbar, Staubpartikel leuchten in der Luft. Das Bild wirkt still, warm und nachdenklich."
+    ],
+    "id": "5843d5d3-edd7-4c7f-8360-e5d8f8f0f132",
+    "attemptCount": 1,
+    "remoteId": "18099047120263829",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T14:52:38.594Z",
+    "updatedAt": "2026-08-26T14:56:15.366Z",
+    "responseMetadata": {
+      "mediaCount": 8,
+      "mediaType": "CAROUSEL",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "post-0017",
+    "contentDate": "2026-08-26",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-08-26T07:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Warum beten wir Psalmen?\n\nWeil sie Worte leihen, wenn eigene Worte fehlen. In den Psalmen steht fast alles, was Menschen vor Gott bringen: Dank, Angst, Klage, Wut, Bitte und Vertrauen. Darum werden sie bis heute gebetet.\n\nGesprächsfrage: Hilft dir ein festes Gebet mehr als freie Worte?",
+    "assets": [
+      "render-facebook-mastodon-01.png"
+    ],
+    "altTexts": [
+      "Eine aufgeschlagene Psalmseite oder ein schlichtes Gebetbuch liegt im weichen seitlichen Licht eines Fensters. Die Papierstruktur ist gut sichtbar, Staubpartikel leuchten in der Luft. Das Bild wirkt still, warm und nachdenklich."
+    ],
+    "id": "b79eac16-46e2-4395-a799-b3554d59275b",
+    "attemptCount": 1,
+    "remoteId": "117162388781155747",
+    "remoteUrl": "https://kirche.social/@christoph/117162388781155747",
+    "lastError": null,
+    "createdAt": "2026-08-26T14:52:38.637Z",
+    "updatedAt": "2026-08-26T14:56:16.574Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
