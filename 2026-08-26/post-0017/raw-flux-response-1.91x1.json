@@ -1,11 +1,11 @@
 {
-  "delivery_url": "https://delivery.eu2.bfl.ai/durable/2026082517/5e1f69ea-538b-4d66-962e-9be995966f07/ea/1395743c4576db/3c4576db08f644d6871db7cf965832f2/sample.jpeg?se=2026-08-25T17%3A59%3A00Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=MAJs1kyni%2BoTbZsREU4QsuBXbUxQHM3tIiLDB5H2GwM%3D",
+  "delivery_url": "https://delivery.eu2.bfl.ai/durable/2026082614/5e1f69ea-538b-4d66-962e-9be995966f07/3a/932568b63407fa/b63407fa84b745428082b875bf3c6b13/sample.jpeg?se=2026-08-26T14%3A28%3A52Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=gCXcCDOnMwtJQQqNPLwAYNls0pk8f1GTLqklFkNKRo8%3D",
   "download_headers": {
     "content_type": "image/jpeg"
   },
   "polls": [
     {
-      "id": "aed60e22-ddb9-48d3-ac88-4b060262e47b",
+      "id": "06a37b61-7f13-4c5e-b6e7-8e7dea6c52ea",
       "status": "Pending",
       "result": null,
       "progress": null,
@@ -13,7 +13,7 @@
       "preview": null
     },
     {
-      "id": "aed60e22-ddb9-48d3-ac88-4b060262e47b",
+      "id": "06a37b61-7f13-4c5e-b6e7-8e7dea6c52ea",
       "status": "Pending",
       "result": null,
       "progress": null,
@@ -21,13 +21,13 @@
       "preview": null
     },
     {
-      "id": "aed60e22-ddb9-48d3-ac88-4b060262e47b",
+      "id": "06a37b61-7f13-4c5e-b6e7-8e7dea6c52ea",
       "status": "Ready",
       "result": {
-        "start_time": 1787680138.6952996,
+        "start_time": 1787753931.686611,
         "prompt": "Atmosphärische, ruhige Szene für einen kirchlichen Social-Media-Post über Psalmen: eine aufgeschlagene alte Psalmseite oder ein schlichtes Gebetbuch im Fokus, beleuchtet von weichem seitlichem Morgenlicht aus einem Fenster oder Kirchenfenster, sichtbare Papierstruktur, dezente Gebrauchsspuren, feine Staubpartikel im Licht, warme natürliche Farbpalette, stille meditative Stimmung, minimalistische Komposition, fotografisch realistisch, hohe Detailtiefe, geringe Tiefenschärfe, kein Mensch im Bild, keine Tasse, keine betenden Hände, kein überladener Hintergrund, würdevoll, ehrlich, unpathetisch, no text, no letters, no typography, no logo, no watermark",
-        "seed": 3250139109,
-        "sample": "https://delivery.eu2.bfl.ai/durable/2026082517/5e1f69ea-538b-4d66-962e-9be995966f07/ea/1395743c4576db/3c4576db08f644d6871db7cf965832f2/sample.jpeg?se=2026-08-25T17%3A59%3A00Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=MAJs1kyni%2BoTbZsREU4QsuBXbUxQHM3tIiLDB5H2GwM%3D"
+        "seed": 2289606108,
+        "sample": "https://delivery.eu2.bfl.ai/durable/2026082614/5e1f69ea-538b-4d66-962e-9be995966f07/3a/932568b63407fa/b63407fa84b745428082b875bf3c6b13/sample.jpeg?se=2026-08-26T14%3A28%3A52Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=gCXcCDOnMwtJQQqNPLwAYNls0pk8f1GTLqklFkNKRo8%3D"
       },
       "progress": null,
       "details": null,
@@ -35,8 +35,8 @@
     }
   ],
   "submission": {
-    "id": "aed60e22-ddb9-48d3-ac88-4b060262e47b",
-    "polling_url": "https://api.eu2.bfl.ai/v1/get_result?id=aed60e22-ddb9-48d3-ac88-4b060262e47b",
+    "id": "06a37b61-7f13-4c5e-b6e7-8e7dea6c52ea",
+    "polling_url": "https://api.eu2.bfl.ai/v1/get_result?id=06a37b61-7f13-4c5e-b6e7-8e7dea6c52ea",
     "cost": 1.4000000000000001,
     "input_mp": 0,
     "output_mp": 0.72
