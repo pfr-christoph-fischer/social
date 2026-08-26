@@ -1,6 +1,6 @@
 {
   "id": "prayer-evening-2026-08-26",
-  "status": "in Arbeit",
+  "status": "freigegeben",
   "needs_input": false,
   "source": {
     "calendar_post_id": "prayer-evening-2026-08-26",
@@ -49,39 +49,39 @@
   },
   "platforms": {
     "facebook": {
-      "headline": "Abendgebet: Den Tag loslassen",
-      "text": "Abend.\nDer Tag muss nicht fertig sein.\nNicht alles ist gelungen. Nicht alles ist heil.\nUnd doch dürfen wir loslassen.\n\nGott,\nwir bringen dir, was heute gut war.\nEin freundliches Wort.\nEine Aufgabe, die gelungen ist.\nEinen Moment, der getragen hat.\n\nUnd wir bringen dir auch das, was offen blieb.\nUnsere Müdigkeit.\nUnsere Fehler.\nDen Streit, der nachklingt.\nDie Sorge, die sich nicht einfach abschalten lässt.\n\nWir denken an die Menschen in Nepal,\nwo eine Sturzflut mindestens 95 Menschen das Leben gekostet hat\nund viele vermisst werden.\nWir denken an Menschen mit Migrationshintergrund in Sachsen-Anhalt,\ndie mit Angst auf die kommenden Wahlen blicken.\nWir beten für alle,\ndie sich dort für Menschenrechte, Nächstenliebe und Hoffnung einsetzen.\n\nSei bei denen, die heute Nacht Angst haben.\nBei denen, die wachen, pflegen, helfen oder arbeiten.\nBei denen, die nicht schlafen können.\n\nLeg Frieden in unruhige Herzen.\nUnd bewahre in uns die Hoffnung,\ndass deine Zukunft weiter reicht als dieser Tag.\n\nAmen."
+      "text": "Abend.\nDer Tag muss nicht fertig sein.\nNicht alles ist gelungen. Nicht alles ist heil.\nUnd doch dürfen wir loslassen.\n\nGott,\nwir bringen dir, was heute gut war.\nEin freundliches Wort.\nEine Aufgabe, die gelungen ist.\nEinen Moment, der getragen hat.\n\nUnd wir bringen dir auch das, was offen blieb.\nUnsere Müdigkeit.\nUnsere Fehler.\nDen Streit, der nachklingt.\nDie Sorge, die sich nicht einfach abschalten lässt.\n\nWir denken an die Menschen in Nepal,\nwo eine Sturzflut mindestens 95 Menschen das Leben gekostet hat\nund viele vermisst werden.\nWir denken an Menschen mit Migrationshintergrund in Sachsen-Anhalt,\ndie mit Angst auf die kommenden Wahlen blicken.\nWir beten für alle,\ndie sich dort für Menschenrechte, Nächstenliebe und Hoffnung einsetzen.\n\nSei bei denen, die heute Nacht Angst haben.\nBei denen, die wachen, pflegen, helfen oder arbeiten.\nBei denen, die nicht schlafen können.\n\nLeg Frieden in unruhige Herzen.\nUnd bewahre in uns die Hoffnung,\ndass deine Zukunft weiter reicht als dieser Tag.\n\nAmen.",
+      "headline": "Abendgebet: Den Tag loslassen"
     },
     "instagram": {
       "caption": "Der Tag muss nicht fertig sein.\n\nGott,\nwir legen dir hin, was heute gut war.\nUnd auch das, was offen blieb.\n\nWir bitten dich für die Menschen in Nepal nach der Sturzflut mit mindestens 95 Toten und vielen Vermissten.\nFür Menschen mit Migrationshintergrund in Sachsen-Anhalt, die mit Angst auf die kommenden Wahlen blicken.\nUnd für alle, die sich dort für Menschenrechte, Nächstenliebe und Hoffnung einsetzen.\n\nSchenk Frieden für diese Nacht.\nUnd Hoffnung, die weiter reicht als unsere Kraft.\n\nAmen.",
       "carousel": [
         {
-          "text": "Der Tag muss nicht fertig sein.",
-          "type": "text"
+          "type": "text",
+          "text": "Der Tag muss nicht fertig sein."
         },
         {
-          "text": "Was gut war,\nlegen wir in Gottes Hand.",
-          "type": "text"
+          "type": "text",
+          "text": "Was gut war,\nlegen wir in Gottes Hand."
         },
         {
-          "text": "Was offen blieb auch.\nMüdigkeit. Fehler. Sorge.",
-          "type": "text"
+          "type": "text",
+          "text": "Was offen blieb auch.\nMüdigkeit. Fehler. Sorge."
         },
         {
-          "text": "Wir beten für die Menschen in Nepal,\nwo eine Sturzflut viele Leben gekostet hat.",
-          "type": "text"
+          "type": "text",
+          "text": "Wir beten für die Menschen in Nepal,\nwo eine Sturzflut viele Leben gekostet hat."
         },
         {
-          "text": "Wir beten für Menschen mit Migrationshintergrund\nin Sachsen-Anhalt.",
-          "type": "text"
+          "type": "text",
+          "text": "Wir beten für Menschen mit Migrationshintergrund\nin Sachsen-Anhalt."
         },
         {
-          "text": "Für alle,\ndie sich dort für Menschenrechte,\nNächstenliebe und Hoffnung einsetzen.",
-          "type": "text"
+          "type": "text",
+          "text": "Für alle,\ndie sich dort für Menschenrechte,\nNächstenliebe und Hoffnung einsetzen."
         },
         {
-          "text": "Schenk Frieden für diese Nacht.\nUnd Hoffnung für morgen.",
-          "type": "text"
+          "type": "text",
+          "text": "Schenk Frieden für diese Nacht.\nUnd Hoffnung für morgen."
         }
       ]
     },
@@ -143,12 +143,8 @@
     "alt_text": "Ein schlichtes Zimmer in der Dämmerung. Auf einem Holztisch steht eine Tasse. Vor dem Fenster liegen offene Hände im warmen Abendlicht. Die Szene wirkt still und tröstlich."
   },
   "qa": {
-    "approved": false,
-    "warnings": [
-      "Alt text must be completed before approval",
-      "Aktuelle Bezüge vor Freigabe erneut gegen Stand des Nachmittags 2026-08-25/26 prüfen, da Nachrichtenlagen sich ändern können.",
-      "Gebet enthält drei konkrete Fürbittenlagen; Redaktion sollte Kürzung prüfen, falls Plattformlänge reduziert werden muss."
-    ]
+    "approved": true,
+    "warnings": []
   },
   "metadata": {
     "model": "gpt-5.4-2026-03-05",
