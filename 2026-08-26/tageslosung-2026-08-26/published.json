@@ -84,5 +84,91 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-08-26",
+    "contentDate": "2026-08-26",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-08-26T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "/Der HERR spricht:/ Er liebt mich, darum will ich ihn erretten.",
+    "assets": [
+      "render-square-01.jpg"
+    ],
+    "altTexts": [
+      "/Der HERR spricht:/ Er liebt mich, darum will ich ihn erretten."
+    ],
+    "id": "b048333c-6087-4236-8991-25c8715bdb1c",
+    "attemptCount": 1,
+    "remoteId": "18113175997786558",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:44:41.604Z",
+    "updatedAt": "2026-08-26T05:00:42.645Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-08-26",
+    "contentDate": "2026-08-26",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-08-26T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "/Der HERR spricht:/ Er liebt mich, darum will ich ihn erretten.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "/Der HERR spricht:/ Er liebt mich, darum will ich ihn erretten."
+    ],
+    "id": "e9801022-edf2-4acb-9019-37d8856abb3b",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3mtxkh2qu6g2m",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3mtxkh2qu6g2m",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:44:41.610Z",
+    "updatedAt": "2026-08-26T05:00:44.715Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-08-26",
+    "contentDate": "2026-08-26",
+    "platform": "linkedin",
+    "format": "default",
+    "scheduledAt": "2026-08-26T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "/Der HERR spricht:/ Er liebt mich, darum will ich ihn erretten.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "/Der HERR spricht:/ Er liebt mich, darum will ich ihn erretten."
+    ],
+    "id": "96a786d0-daa2-4632-837b-bdd06835c559",
+    "attemptCount": 1,
+    "remoteId": "urn:li:share:7498243019276464128",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:44:41.617Z",
+    "updatedAt": "2026-08-26T05:00:46.713Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 201
+    },
+    "retryHistory": []
   }
 ]
