@@ -27,5 +27,66 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "prayer-morning-2026-08-26",
+    "contentDate": "2026-08-26",
+    "platform": "instagram",
+    "format": "default",
+    "scheduledAt": "2026-08-26T05:15:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Gott,\nwir beginnen diesen Morgen vor dir.\n\nWir bitten für unsere Gesellschaft.\nNationalismus und völkisches Denken nehmen zu.\nDabei ist doch jeder wertvoll, geliebt und in Gottes Bild mit einzigartiger Würde geschaffen.\n\nHilf den Ausgegrenzten.\nHilf uns.\nÖffne unsere Augen für das, was Menschen klein macht.\nGib uns Mut zur Menschlichkeit und Liebe im Handeln.\n\nDeine Zukunft ist größer als Angst und Ausgrenzung.\nAmen.",
+    "assets": [
+      "render-instagram-feed-01.jpg",
+      "render-instagram-feed-02.jpg",
+      "render-instagram-feed-03.jpg",
+      "render-instagram-feed-04.jpg",
+      "render-instagram-feed-05.jpg"
+    ],
+    "altTexts": [
+      "Ein schlichter Tisch an einem offenen Fenster im Morgenlicht. Auf dem Tisch steht eine Tasse. Das Bild wirkt ruhig, klar und hoffnungsvoll."
+    ],
+    "id": "bf388c02-d81b-4e2f-be92-5f661b0a8538",
+    "attemptCount": 1,
+    "remoteId": "18485777176102250",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-25T17:26:28.391Z",
+    "updatedAt": "2026-08-26T05:15:51.130Z",
+    "responseMetadata": {
+      "mediaCount": 5,
+      "mediaType": "CAROUSEL",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "prayer-morning-2026-08-26",
+    "contentDate": "2026-08-26",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-08-26T05:15:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Gott,\nwir beginnen diesen Morgen vor dir.\n\nWir bitten für unsere Gesellschaft. Nationalismus und völkisches Denken nehmen zu. Dabei ist doch jeder wertvoll, geliebt und in Gottes Bild mit einzigartiger Würde geschaffen.\n\nHilf den Ausgegrenzten. Hilf uns. Öffne unsere Augen für das, was Menschen klein macht, und stärke uns zu Worten und Taten, die dem widersprechen. Amen.",
+    "assets": [
+      "render-facebook-mastodon-01.png"
+    ],
+    "altTexts": [
+      "Ein schlichter Tisch an einem offenen Fenster im Morgenlicht. Auf dem Tisch steht eine Tasse. Das Bild wirkt ruhig, klar und hoffnungsvoll."
+    ],
+    "id": "c96d4c5e-1a64-492d-8efa-aaf7bb7158e7",
+    "attemptCount": 1,
+    "remoteId": "117160106518443261",
+    "remoteUrl": "https://kirche.social/@christoph/117160106518443261",
+    "lastError": null,
+    "createdAt": "2026-08-25T17:26:28.428Z",
+    "updatedAt": "2026-08-26T05:15:51.990Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
