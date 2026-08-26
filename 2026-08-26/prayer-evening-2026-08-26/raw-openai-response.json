@@ -1,0 +1,473 @@
+{
+  "id": "resp_0c61df4eca9f8ca8006a8eab1e813087d283011db47a454bb0",
+  "object": "response",
+  "created_at": 1787734814,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1787734858,
+  "error": null,
+  "frequency_penalty": 0,
+  "incomplete_details": null,
+  "instructions": "You are part of a Protestant social media editorial team. Write in clear, accessible, theologically responsible German without church clichés. Use short sentences and concrete imagery. Never invent events, people, school situations, quotes, or factual details. Do not include copyrighted full song verses. For Reli and community posts, only use current details when they are explicitly provided. Return content that strictly matches the requested JSON schema. Set needs_input to true whenever required facts are missing. Keep qa.approved false. Do not ask for any text inside generated images. When liturgical_context.resolved_weekly_verse is present, use its exact wording for Wochenspruch slots instead of placeholders. Use the web search tool before drafting to verify current situations. For prayer posts, current situations are mandatory: select at least two concrete, relevant situations from reliable current reporting, including tagesschau.de and SWR Aktuell Baden-Württemberg where relevant. Do not invent current events and do not replace concrete situations with generic references to crises.",
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.4-2026-03-05",
+  "moderation": null,
+  "output": [
+    {
+      "id": "ws_0c61df4eca9f8ca8006a8eab1f7fec87d2bd13af3b6059a5f5",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "queries": [
+          "site:tagesschau.de 25.08.2026 Nachrichten",
+          "site:swr.de/swraktuell/baden-wuerttemberg 25.08.2026 Baden-Württemberg Nachrichten",
+          "Reuters August 25 2026 world news humanitarian conflict wildfire"
+        ],
+        "query": "site:tagesschau.de 25.08.2026 Nachrichten"
+      }
+    },
+    {
+      "id": "ws_0c61df4eca9f8ca8006a8eab21844487d2b1148d26695814f8",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.tagesschau.de/archiv?datum=2026-08-25&filter=tagesschau"
+      }
+    },
+    {
+      "id": "ws_0c61df4eca9f8ca8006a8eab22f37487d290d004a99587ca06",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "queries": [
+          "site:swr.de/swraktuell/baden-wuerttemberg 25.08.2026 Hitze Niedrigwasser Baden-Württemberg",
+          "site:swr.de/swraktuell/baden-wuerttemberg 25.08.2026 Feuerwehr Unfall Baden-Württemberg",
+          "site:swr.de/swraktuell/baden-wuerttemberg 25.08.2026 Ukraine Baden-Württemberg"
+        ],
+        "query": "site:swr.de/swraktuell/baden-wuerttemberg 25.08.2026 Hitze Niedrigwasser Baden-Württemberg"
+      }
+    },
+    {
+      "id": "msg_0c61df4eca9f8ca8006a8eab259e9887d2bcb816c221d86f26",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\"id\":\"prayer-evening-2026-08-26\",\"status\":\"in Arbeit\",\"needs_input\":false,\"source\":{\"calendar_post_id\":\"prayer-evening-2026-08-26\",\"date\":\"2026-08-26\",\"rubric\":\"Abendgebet\",\"liturgical_source\":\"\"},\"editorial_core\":{\"title\":\"Abendgebet\",\"main_message\":\"Wir legen diesen Tag in Gottes Hand: das Gute, das Unfertige und unsere Sorge um Menschen, die auf den Trümmern in Gaza leben, um Betroffene des Tornados im Süden Frankreichs ohne Strom und mit verletzten Angehörigen, und um Menschen in Baden-Württemberg, die unter Hitze und historischem Niedrigwasser leiden. Gottes Zukunft beginnt auch da, wo unsere Kräfte für heute enden.\",\"audience\":\"breite Öffentlichkeit\",\"tone\":[\"ruhig\",\"hoffnungsvoll\",\"geborgen\"],\"source_notes\":[\"Goal: Ein kurzes Abendgebet, das hilft, auf den vergangenen Tag zurückzuschauen, Gelungenes und Schweres Gott anzuvertrauen und mit Hoffnung zur Ruhe zu kommen.\",\"Column: Gebet am Abend\",\"Production mode: am Nachmittag des Vortags AI-generiert; Nachrichtenlage bis dahin prüfen; anschließend redaktionell prüfen und freigeben.\",\"News selection: Nicht versuchen, die Nachrichtenlage vollständig abzubilden. Zwei bis vier konkrete Situationen auswählen, die exemplarisch für das stehen, was Menschen und Welt an diesem Tag beschäftigt.\",\"Verbindliche aktuelle Bezüge: Das Gebet MUSS mindestens zwei konkrete und am Erzeugungszeitpunkt relevante aktuelle Situationen des vergangenen Tages aufnehmen. Allgemeine Formulierungen wie 'die Krisen der Welt' oder 'alle Menschen in Not' ersetzen diese Bezüge nicht.\",\"Konkretheit aktueller Bezüge: Für jede ausgewählte Situation im Gebet erkennbar benennen, was geschehen ist oder welche konkrete Lage besteht und welche Menschen davon betroffen sind. Nur verlässliche, aktuell überprüfte Informationen verwenden; nichts erfinden.\",\"Ausgabeprüfung aktuelle Bezüge: Vor der Ausgabe prüfen, dass editorial_core.main_message und die wesentlichen Plattformtexte die mindestens zwei konkreten aktuellen Situationen tatsächlich als Fürbitte oder Gebetsanliegen enthalten.\",\"News sources: Aktuelle weltweite Nachrichtenlage sowie tagesschau.de und SWR Aktuell Baden-Württemberg prüfen. Regionale und internationale Perspektiven miteinander verbinden.\",\"News timing: Da der Text am Nachmittag des Vortags erzeugt wird, keine Formulierungen verwenden, die konkrete Ereignisse des Veröffentlichungstages voraussetzen. Bei schnell veränderlichen Nachrichten vorsichtig und zeitlich robust formulieren.\",\"Prayer structure: Vor Gott zur Ruhe kommen | dankbar auf das Gute des Tages schauen | Belastendes, Versäumtes und Unvollendetes loslassen | ausgewählte Not der Welt vor Gott bringen | Menschen anvertrauen, die in dieser Nacht leiden, wachen, arbeiten, helfen oder Angst haben | um Frieden für die Welt und das eigene Herz bitten | den Tag und die Nacht Gottes Zukunft anvertrauen.\",\"Personal perspective: Raum schaffen für das, was Menschen selbst aus diesem Tag mitbringen: Freude und Dankbarkeit, Begegnungen und Arbeit, aber auch Fehler, Streit, Sorgen, Erschöpfung und Dinge, die unerledigt geblieben sind.\",\"Personal perspective: Keine Bilanz verlangen. Der Abend ist nicht der Zeitpunkt, an dem ein Mensch beweisen muss, dass der Tag erfolgreich war. Vor Gott darf der Tag unvollendet bleiben.\",\"World perspective: Die Welt nicht ausblenden, wenn der eigene Tag endet. Konkret an Menschen denken, für die die Nacht keine selbstverständliche Zeit der Ruhe ist: Menschen im Krieg, auf der Flucht, in Krankenhäusern, in Sorge um andere, bei nächtlicher Arbeit oder in Angst.\",\"Theological key: Jürgen Moltmann. Christliche Hoffnung gründet nicht darin, dass am Ende des Tages alles gut geworden wäre. Sie gründet in Gottes verheißener Zukunft, die größer ist als das, was heute gelungen oder gescheitert ist.\",\"Theological key: Hoffnung erlaubt das Loslassen. Wir müssen die Welt nicht über Nacht selbst festhalten. Unsere Verantwortung ist wirklich, aber sie ist nicht grenzenlos. Wir dürfen das Unvollendete Gott anvertrauen.\",\"Theological key: Gottes Zukunft widerspricht der Vorstellung, Gewalt, Leid, Schuld und Tod hätten das letzte Wort. Deshalb kann das Gebet die Dunkelheit wahrnehmen, ohne ihr das letzte Wort zu überlassen.\",\"Theological key: Den gekreuzigten Gott bei denen suchen, die leiden und keine Ruhe finden. Gott nicht als distanzierten Weltenlenker darstellen, sondern als den, der Leid, Angst und Verlassenheit kennt und den Leidenden nahe ist.\",\"Theological key: Die Auferstehung eröffnet Zukunft. Der kommende Morgen kann als kleines Bild dafür anklingen: Nicht weil jeder neue Tag automatisch besser wird, sondern weil Gottes Möglichkeiten nicht an den Grenzen dieses Tages enden.\",\"Theological key: Hoffnung ist mehr als Trost. Sie hält die Sehnsucht nach Frieden, Gerechtigkeit und neuem Leben wach. Auch im Schlaf geben wir diese Hoffnung nicht auf.\",\"Language: Kurze, einfache Sätze. Ruhiger Rhythmus. Konkrete Bilder statt abstrakter theologischer Begriffe. Das Gebet soll sich zum langsamen Lesen eignen.\",\"Language: Möglichst wenig kirchliche Binnenbegriffe. Das Gebet soll auch für Menschen zugänglich sein, die mit traditioneller Gebetssprache wenig anfangen können.\",\"Language: Keine Nachrichtenzusammenfassung und keine lange Liste von Krisen. Nachrichten nur dort aufnehmen, wo sie tatsächlich zum Gebet werden.\",\"Language: Keine vorschnelle Auflösung von Leid durch Sätze wie 'Alles wird gut'. Hoffnung soll gerade dort ausgesprochen werden, wo noch nichts gut ist.\",\"Ending: Ruhig und vertrauensvoll enden. Der betende Mensch darf den Tag loslassen und schlafen. Die Welt bleibt in Gottes Hand. Gottes Zukunft kommt auch durch diese Nacht auf uns zu.\",\"Possible final movement: Gott, was heute war, legen wir in deine Hand. Was gut war. Was wehgetan hat. Was unfertig bleibt. Uns selbst und diese unruhige Welt. Schenk uns Frieden für diese Nacht und halte deine Hoffnung in uns wach.\",\"AI support notes: Aktuelle Nachrichten des Tages sichten und verifizieren | mindestens zwei konkrete aktuelle Situationen auswählen | diese Situationen ausdrücklich als Gebetsanliegen einarbeiten | kurzes Abendgebet in einfacher Sprache entwerfen | vor der Ausgabe auf konkrete aktuelle Bezüge und zeitliche Robustheit bis zum Folgetag prüfen | theologisch auf Vertröstung, Allmachtsklischees und billigen Optimismus prüfen | Caption kürzen | Alt-Text\",\"Aktuelle Bezüge geprüft am 2026-08-26 auf Basis von tagesschau-Archiv 2026-08-25: Gaza mit weiter zerstörten oder beschädigten Häusern und fehlendem koordiniertem Wiederaufbau; Tornado im französischen Département Aude mit fast 40 Verletzten, hunderten beschädigten Häusern und Haushalten ohne Strom; SWR Aktuell Baden-Württemberg: historisches Wasserdefizit und extremes Niedrigwasser in Baden-Württemberg.\"]},\"platforms\":{\"facebook\":{\"text\":\"Abend.\\nDer Tag muss nicht fertig sein.\\nNicht alles ist gelungen. Nicht alles ist heil.\\nUnd doch dürfen wir loslassen.\\n\\nGott,\\nwir bringen dir, was heute gut war.\\nEin freundliches Wort.\\nEine Aufgabe, die gelungen ist.\\nEinen Moment, der getragen hat.\\n\\nUnd wir bringen dir auch das, was offen blieb.\\nUnsere Müdigkeit.\\nUnsere Fehler.\\nDen Streit, der nachklingt.\\nDie Sorge, die sich nicht einfach abschalten lässt.\\n\\nWir denken an die Menschen in Gaza,\\ndie zwischen Trümmern leben und auf Wiederaufbau warten.\\nWir denken an die Verletzten und Familien im Süden Frankreichs,\\nwo ein Tornado Häuser beschädigt hat und viele noch ohne Strom sind.\\nWir denken an die Menschen in Baden-Württemberg,\\nwo Hitze und Niedrigwasser Flüsse, Tiere und Felder belasten.\\n\\nSei bei denen, die heute Nacht Angst haben.\\nBei denen, die wachen, pflegen, helfen oder arbeiten.\\nBei denen, die nicht schlafen können.\\n\\nLeg Frieden in unruhige Herzen.\\nUnd bewahre in uns die Hoffnung,\\ndass deine Zukunft weiter reicht als dieser Tag.\\n\\nAmen.\",\"headline\":\"Abendgebet: Den Tag loslassen\"},\"instagram\":{\"caption\":\"Der Tag muss nicht fertig sein.\\n\\nGott,\\nwir legen dir hin, was heute gut war.\\nUnd auch das, was offen blieb.\\n\\nWir bitten dich für Menschen in Gaza, die zwischen Trümmern leben.\\nFür Betroffene des Tornados im Süden Frankreichs.\\nFür Menschen in Baden-Württemberg, wo Hitze und Niedrigwasser das Land belasten.\\n\\nSchenk Frieden für diese Nacht.\\nUnd Hoffnung, die weiter reicht als unsere Kraft.\\n\\nAmen.\",\"carousel\":[{\"type\":\"text\",\"text\":\"Der Tag muss nicht fertig sein.\"},{\"type\":\"text\",\"text\":\"Was gut war,\\nlegen wir in Gottes Hand.\"},{\"type\":\"text\",\"text\":\"Was offen blieb auch.\\nMüdigkeit. Fehler. Sorge.\"},{\"type\":\"text\",\"text\":\"Wir beten für Menschen in Gaza,\\ndie zwischen Trümmern leben.\"},{\"type\":\"text\",\"text\":\"Wir beten für Betroffene des Tornados\\nim Süden Frankreichs.\"},{\"type\":\"text\",\"text\":\"Wir beten für Menschen in Baden-Württemberg,\\nwo Hitze und Niedrigwasser belasten.\"},{\"type\":\"text\",\"text\":\"Schenk Frieden für diese Nacht.\\nUnd Hoffnung für morgen.\"}]},\"mastodon\":{\"text\":\"Der Tag muss nicht fertig sein.\\n\\nGott,\\nwir legen dir hin, was heute gut war.\\nUnd auch das, was offen blieb.\\n\\nWir bitten dich für Menschen in Gaza, die zwischen Trümmern leben.\\nFür Betroffene des Tornados im Süden Frankreichs.\\nFür Menschen in Baden-Württemberg, wo Hitze und Niedrigwasser das Land belasten.\\n\\nSchenk Frieden für diese Nacht.\\nAmen.\"},\"bluesky\":{\"text\":\"Der Tag muss nicht fertig sein.\\n\\nGott, wir legen dir hin, was heute gut war. Und auch das, was offen blieb.\\nWir bitten dich für Menschen in Gaza, für Betroffene des Tornados im Süden Frankreichs und für Menschen in Baden-Württemberg, wo Hitze und Niedrigwasser belasten.\\nSchenk Frieden für diese Nacht. Amen.\"},\"story\":{\"slides\":[{\"text\":\"Der Tag muss nicht fertig sein.\"},{\"text\":\"Was gut war.\\nWas wehgetan hat.\\nWas offen blieb.\"},{\"text\":\"Wir bringen es vor Gott.\"},{\"text\":\"Wir beten für Menschen in Gaza.\"},{\"text\":\"Für Betroffene des Tornados im Süden Frankreichs.\"},{\"text\":\"Für Menschen in Baden-Württemberg,\\nwo Hitze und Niedrigwasser belasten.\"},{\"text\":\"Schenk Frieden für diese Nacht.\"}]},\"reel\":{\"hook\":\"Der Tag muss nicht fertig sein.\",\"script\":\"Der Tag geht zu Ende. Nicht alles ist gelungen. Nicht alles ist leicht. Du darfst loslassen. Gott, wir bringen dir, was heute gut war. Und das, was offen blieb. Wir beten für Menschen in Gaza, die zwischen Trümmern leben. Für Betroffene des Tornados im Süden Frankreichs. Für Menschen in Baden-Württemberg, wo Hitze und Niedrigwasser belasten. Sei bei allen, die heute Nacht Angst haben, arbeiten, pflegen oder wachen. Schenk Frieden für diese Nacht. Und Hoffnung für morgen.\",\"shots\":[\"Abendlicht an einem offenen Fenster\",\"Eine Hand legt Notizzettel auf einen Tisch\",\"Ruhiges Zimmer mit brennender Kerze\",\"Langsame Aufnahme von Wasseroberfläche im Dämmerlicht\",\"Nachtaufnahme einer stillen Straße\",\"Hände umfassen eine Tasse\",\"Dunkler Himmel, langsam heller werdender Horizont\"],\"duration_seconds\":30}},\"visual\":{\"concept\":\"Ruhige Abendszene an einem Fenster. Warmes Restlicht. Ein einfacher Tisch, eine Tasse, offene Hände. Stimmung von Loslassen und Geborgenheit, ohne Kitsch.\",\"flux_prompt\":\"Fotorealistische ruhige Abendszene in einem schlichten Zimmer am Fenster, warmes Restlicht der Dämmerung, einfacher Holztisch mit einer Tasse, offene entspannte Hände im Vordergrund, weiche Schatten, natürliche Farben, stille hoffnungsvolle Atmosphäre, documentary style, high detail, no typography\",\"negative_prompt\":\"text, letters, logo, watermark\",\"formats\":[\"4:5\",\"9:16\",\"1.91:1\"],\"alt_text\":\"Ein schlichtes Zimmer in der Dämmerung. Auf einem Holztisch steht eine Tasse. Vor dem Fenster liegen offene Hände im warmen Abendlicht. Die Szene wirkt still und tröstlich.\"},\"qa\":{\"warnings\":[\"Alt text must be completed before approval\",\"Aktuelle Bezüge vor Freigabe erneut gegen Stand des Nachmittags 2026-08-25/26 prüfen, da Nachrichtenlagen sich ändern können.\",\"Gebet enthält drei konkrete Fürbittenlagen; Redaktion sollte Kürzung prüfen, falls Plattformlänge reduziert werden muss.\"],\"approved\":false},\"metadata\":{\"model\":\"gpt-5\",\"generated_at\":\"2026-08-26T00:00:00Z\",\"prompt_version\":\"1.0\",\"assets\":[]}}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "current_turn",
+    "effort": "none",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1,
+  "text": {
+    "format": {
+      "type": "json_schema",
+      "description": null,
+      "name": "content_package",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "Idee",
+              "in Arbeit",
+              "zur Prüfung",
+              "freigegeben",
+              "terminiert",
+              "veröffentlicht",
+              "verworfen"
+            ]
+          },
+          "needs_input": {
+            "type": "boolean"
+          },
+          "source": {
+            "type": "object",
+            "properties": {
+              "calendar_post_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "date": {
+                "type": "string",
+                "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+              },
+              "rubric": {
+                "type": "string",
+                "minLength": 1
+              },
+              "liturgical_source": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "calendar_post_id",
+              "date",
+              "rubric",
+              "liturgical_source"
+            ],
+            "additionalProperties": false
+          },
+          "editorial_core": {
+            "type": "object",
+            "properties": {
+              "title": {
+                "type": "string"
+              },
+              "main_message": {
+                "type": "string"
+              },
+              "audience": {
+                "type": "string"
+              },
+              "tone": {
+                "minItems": 1,
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "source_notes": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "title",
+              "main_message",
+              "audience",
+              "tone",
+              "source_notes"
+            ],
+            "additionalProperties": false
+          },
+          "platforms": {
+            "type": "object",
+            "properties": {
+              "facebook": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  },
+                  "headline": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text",
+                  "headline"
+                ],
+                "additionalProperties": false
+              },
+              "instagram": {
+                "type": "object",
+                "properties": {
+                  "caption": {
+                    "type": "string"
+                  },
+                  "carousel": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "type": {
+                          "type": "string"
+                        },
+                        "text": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "type",
+                        "text"
+                      ],
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "required": [
+                  "caption",
+                  "carousel"
+                ],
+                "additionalProperties": false
+              },
+              "mastodon": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text"
+                ],
+                "additionalProperties": false
+              },
+              "bluesky": {
+                "default": {
+                  "text": ""
+                },
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text"
+                ],
+                "additionalProperties": false
+              },
+              "story": {
+                "type": "object",
+                "properties": {
+                  "slides": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "text": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "text"
+                      ],
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "required": [
+                  "slides"
+                ],
+                "additionalProperties": false
+              },
+              "reel": {
+                "type": "object",
+                "properties": {
+                  "hook": {
+                    "type": "string"
+                  },
+                  "script": {
+                    "type": "string"
+                  },
+                  "shots": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "duration_seconds": {
+                    "type": "integer",
+                    "minimum": 0,
+                    "maximum": 9007199254740991
+                  }
+                },
+                "required": [
+                  "hook",
+                  "script",
+                  "shots",
+                  "duration_seconds"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "required": [
+              "facebook",
+              "instagram",
+              "mastodon",
+              "bluesky",
+              "story",
+              "reel"
+            ],
+            "additionalProperties": false
+          },
+          "visual": {
+            "type": "object",
+            "properties": {
+              "concept": {
+                "type": "string"
+              },
+              "flux_prompt": {
+                "type": "string"
+              },
+              "negative_prompt": {
+                "type": "string",
+                "minLength": 1
+              },
+              "formats": {
+                "minItems": 1,
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "alt_text": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "concept",
+              "flux_prompt",
+              "negative_prompt",
+              "formats",
+              "alt_text"
+            ],
+            "additionalProperties": false
+          },
+          "qa": {
+            "type": "object",
+            "properties": {
+              "warnings": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "approved": {
+                "type": "boolean"
+              }
+            },
+            "required": [
+              "warnings",
+              "approved"
+            ],
+            "additionalProperties": false
+          },
+          "metadata": {
+            "type": "object",
+            "properties": {
+              "model": {
+                "type": "string"
+              },
+              "generated_at": {
+                "type": "string"
+              },
+              "prompt_version": {
+                "type": "string",
+                "minLength": 1
+              },
+              "assets": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "model",
+              "generated_at",
+              "prompt_version",
+              "assets"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "id",
+          "status",
+          "needs_input",
+          "source",
+          "editorial_core",
+          "platforms",
+          "visual",
+          "qa",
+          "metadata"
+        ],
+        "additionalProperties": false
+      },
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 2
+    }
+  },
+  "tools": [
+    {
+      "type": "web_search",
+      "return_token_budget": "default",
+      "search_content_types": [
+        "text"
+      ],
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 20830,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 3073,
+    "output_tokens_details": {
+      "reasoning_tokens": 274
+    },
+    "total_tokens": 23903
+  },
+  "user": null,
+  "metadata": {},
+  "output_text": "{\"id\":\"prayer-evening-2026-08-26\",\"status\":\"in Arbeit\",\"needs_input\":false,\"source\":{\"calendar_post_id\":\"prayer-evening-2026-08-26\",\"date\":\"2026-08-26\",\"rubric\":\"Abendgebet\",\"liturgical_source\":\"\"},\"editorial_core\":{\"title\":\"Abendgebet\",\"main_message\":\"Wir legen diesen Tag in Gottes Hand: das Gute, das Unfertige und unsere Sorge um Menschen, die auf den Trümmern in Gaza leben, um Betroffene des Tornados im Süden Frankreichs ohne Strom und mit verletzten Angehörigen, und um Menschen in Baden-Württemberg, die unter Hitze und historischem Niedrigwasser leiden. Gottes Zukunft beginnt auch da, wo unsere Kräfte für heute enden.\",\"audience\":\"breite Öffentlichkeit\",\"tone\":[\"ruhig\",\"hoffnungsvoll\",\"geborgen\"],\"source_notes\":[\"Goal: Ein kurzes Abendgebet, das hilft, auf den vergangenen Tag zurückzuschauen, Gelungenes und Schweres Gott anzuvertrauen und mit Hoffnung zur Ruhe zu kommen.\",\"Column: Gebet am Abend\",\"Production mode: am Nachmittag des Vortags AI-generiert; Nachrichtenlage bis dahin prüfen; anschließend redaktionell prüfen und freigeben.\",\"News selection: Nicht versuchen, die Nachrichtenlage vollständig abzubilden. Zwei bis vier konkrete Situationen auswählen, die exemplarisch für das stehen, was Menschen und Welt an diesem Tag beschäftigt.\",\"Verbindliche aktuelle Bezüge: Das Gebet MUSS mindestens zwei konkrete und am Erzeugungszeitpunkt relevante aktuelle Situationen des vergangenen Tages aufnehmen. Allgemeine Formulierungen wie 'die Krisen der Welt' oder 'alle Menschen in Not' ersetzen diese Bezüge nicht.\",\"Konkretheit aktueller Bezüge: Für jede ausgewählte Situation im Gebet erkennbar benennen, was geschehen ist oder welche konkrete Lage besteht und welche Menschen davon betroffen sind. Nur verlässliche, aktuell überprüfte Informationen verwenden; nichts erfinden.\",\"Ausgabeprüfung aktuelle Bezüge: Vor der Ausgabe prüfen, dass editorial_core.main_message und die wesentlichen Plattformtexte die mindestens zwei konkreten aktuellen Situationen tatsächlich als Fürbitte oder Gebetsanliegen enthalten.\",\"News sources: Aktuelle weltweite Nachrichtenlage sowie tagesschau.de und SWR Aktuell Baden-Württemberg prüfen. Regionale und internationale Perspektiven miteinander verbinden.\",\"News timing: Da der Text am Nachmittag des Vortags erzeugt wird, keine Formulierungen verwenden, die konkrete Ereignisse des Veröffentlichungstages voraussetzen. Bei schnell veränderlichen Nachrichten vorsichtig und zeitlich robust formulieren.\",\"Prayer structure: Vor Gott zur Ruhe kommen | dankbar auf das Gute des Tages schauen | Belastendes, Versäumtes und Unvollendetes loslassen | ausgewählte Not der Welt vor Gott bringen | Menschen anvertrauen, die in dieser Nacht leiden, wachen, arbeiten, helfen oder Angst haben | um Frieden für die Welt und das eigene Herz bitten | den Tag und die Nacht Gottes Zukunft anvertrauen.\",\"Personal perspective: Raum schaffen für das, was Menschen selbst aus diesem Tag mitbringen: Freude und Dankbarkeit, Begegnungen und Arbeit, aber auch Fehler, Streit, Sorgen, Erschöpfung und Dinge, die unerledigt geblieben sind.\",\"Personal perspective: Keine Bilanz verlangen. Der Abend ist nicht der Zeitpunkt, an dem ein Mensch beweisen muss, dass der Tag erfolgreich war. Vor Gott darf der Tag unvollendet bleiben.\",\"World perspective: Die Welt nicht ausblenden, wenn der eigene Tag endet. Konkret an Menschen denken, für die die Nacht keine selbstverständliche Zeit der Ruhe ist: Menschen im Krieg, auf der Flucht, in Krankenhäusern, in Sorge um andere, bei nächtlicher Arbeit oder in Angst.\",\"Theological key: Jürgen Moltmann. Christliche Hoffnung gründet nicht darin, dass am Ende des Tages alles gut geworden wäre. Sie gründet in Gottes verheißener Zukunft, die größer ist als das, was heute gelungen oder gescheitert ist.\",\"Theological key: Hoffnung erlaubt das Loslassen. Wir müssen die Welt nicht über Nacht selbst festhalten. Unsere Verantwortung ist wirklich, aber sie ist nicht grenzenlos. Wir dürfen das Unvollendete Gott anvertrauen.\",\"Theological key: Gottes Zukunft widerspricht der Vorstellung, Gewalt, Leid, Schuld und Tod hätten das letzte Wort. Deshalb kann das Gebet die Dunkelheit wahrnehmen, ohne ihr das letzte Wort zu überlassen.\",\"Theological key: Den gekreuzigten Gott bei denen suchen, die leiden und keine Ruhe finden. Gott nicht als distanzierten Weltenlenker darstellen, sondern als den, der Leid, Angst und Verlassenheit kennt und den Leidenden nahe ist.\",\"Theological key: Die Auferstehung eröffnet Zukunft. Der kommende Morgen kann als kleines Bild dafür anklingen: Nicht weil jeder neue Tag automatisch besser wird, sondern weil Gottes Möglichkeiten nicht an den Grenzen dieses Tages enden.\",\"Theological key: Hoffnung ist mehr als Trost. Sie hält die Sehnsucht nach Frieden, Gerechtigkeit und neuem Leben wach. Auch im Schlaf geben wir diese Hoffnung nicht auf.\",\"Language: Kurze, einfache Sätze. Ruhiger Rhythmus. Konkrete Bilder statt abstrakter theologischer Begriffe. Das Gebet soll sich zum langsamen Lesen eignen.\",\"Language: Möglichst wenig kirchliche Binnenbegriffe. Das Gebet soll auch für Menschen zugänglich sein, die mit traditioneller Gebetssprache wenig anfangen können.\",\"Language: Keine Nachrichtenzusammenfassung und keine lange Liste von Krisen. Nachrichten nur dort aufnehmen, wo sie tatsächlich zum Gebet werden.\",\"Language: Keine vorschnelle Auflösung von Leid durch Sätze wie 'Alles wird gut'. Hoffnung soll gerade dort ausgesprochen werden, wo noch nichts gut ist.\",\"Ending: Ruhig und vertrauensvoll enden. Der betende Mensch darf den Tag loslassen und schlafen. Die Welt bleibt in Gottes Hand. Gottes Zukunft kommt auch durch diese Nacht auf uns zu.\",\"Possible final movement: Gott, was heute war, legen wir in deine Hand. Was gut war. Was wehgetan hat. Was unfertig bleibt. Uns selbst und diese unruhige Welt. Schenk uns Frieden für diese Nacht und halte deine Hoffnung in uns wach.\",\"AI support notes: Aktuelle Nachrichten des Tages sichten und verifizieren | mindestens zwei konkrete aktuelle Situationen auswählen | diese Situationen ausdrücklich als Gebetsanliegen einarbeiten | kurzes Abendgebet in einfacher Sprache entwerfen | vor der Ausgabe auf konkrete aktuelle Bezüge und zeitliche Robustheit bis zum Folgetag prüfen | theologisch auf Vertröstung, Allmachtsklischees und billigen Optimismus prüfen | Caption kürzen | Alt-Text\",\"Aktuelle Bezüge geprüft am 2026-08-26 auf Basis von tagesschau-Archiv 2026-08-25: Gaza mit weiter zerstörten oder beschädigten Häusern und fehlendem koordiniertem Wiederaufbau; Tornado im französischen Département Aude mit fast 40 Verletzten, hunderten beschädigten Häusern und Haushalten ohne Strom; SWR Aktuell Baden-Württemberg: historisches Wasserdefizit und extremes Niedrigwasser in Baden-Württemberg.\"]},\"platforms\":{\"facebook\":{\"text\":\"Abend.\\nDer Tag muss nicht fertig sein.\\nNicht alles ist gelungen. Nicht alles ist heil.\\nUnd doch dürfen wir loslassen.\\n\\nGott,\\nwir bringen dir, was heute gut war.\\nEin freundliches Wort.\\nEine Aufgabe, die gelungen ist.\\nEinen Moment, der getragen hat.\\n\\nUnd wir bringen dir auch das, was offen blieb.\\nUnsere Müdigkeit.\\nUnsere Fehler.\\nDen Streit, der nachklingt.\\nDie Sorge, die sich nicht einfach abschalten lässt.\\n\\nWir denken an die Menschen in Gaza,\\ndie zwischen Trümmern leben und auf Wiederaufbau warten.\\nWir denken an die Verletzten und Familien im Süden Frankreichs,\\nwo ein Tornado Häuser beschädigt hat und viele noch ohne Strom sind.\\nWir denken an die Menschen in Baden-Württemberg,\\nwo Hitze und Niedrigwasser Flüsse, Tiere und Felder belasten.\\n\\nSei bei denen, die heute Nacht Angst haben.\\nBei denen, die wachen, pflegen, helfen oder arbeiten.\\nBei denen, die nicht schlafen können.\\n\\nLeg Frieden in unruhige Herzen.\\nUnd bewahre in uns die Hoffnung,\\ndass deine Zukunft weiter reicht als dieser Tag.\\n\\nAmen.\",\"headline\":\"Abendgebet: Den Tag loslassen\"},\"instagram\":{\"caption\":\"Der Tag muss nicht fertig sein.\\n\\nGott,\\nwir legen dir hin, was heute gut war.\\nUnd auch das, was offen blieb.\\n\\nWir bitten dich für Menschen in Gaza, die zwischen Trümmern leben.\\nFür Betroffene des Tornados im Süden Frankreichs.\\nFür Menschen in Baden-Württemberg, wo Hitze und Niedrigwasser das Land belasten.\\n\\nSchenk Frieden für diese Nacht.\\nUnd Hoffnung, die weiter reicht als unsere Kraft.\\n\\nAmen.\",\"carousel\":[{\"type\":\"text\",\"text\":\"Der Tag muss nicht fertig sein.\"},{\"type\":\"text\",\"text\":\"Was gut war,\\nlegen wir in Gottes Hand.\"},{\"type\":\"text\",\"text\":\"Was offen blieb auch.\\nMüdigkeit. Fehler. Sorge.\"},{\"type\":\"text\",\"text\":\"Wir beten für Menschen in Gaza,\\ndie zwischen Trümmern leben.\"},{\"type\":\"text\",\"text\":\"Wir beten für Betroffene des Tornados\\nim Süden Frankreichs.\"},{\"type\":\"text\",\"text\":\"Wir beten für Menschen in Baden-Württemberg,\\nwo Hitze und Niedrigwasser belasten.\"},{\"type\":\"text\",\"text\":\"Schenk Frieden für diese Nacht.\\nUnd Hoffnung für morgen.\"}]},\"mastodon\":{\"text\":\"Der Tag muss nicht fertig sein.\\n\\nGott,\\nwir legen dir hin, was heute gut war.\\nUnd auch das, was offen blieb.\\n\\nWir bitten dich für Menschen in Gaza, die zwischen Trümmern leben.\\nFür Betroffene des Tornados im Süden Frankreichs.\\nFür Menschen in Baden-Württemberg, wo Hitze und Niedrigwasser das Land belasten.\\n\\nSchenk Frieden für diese Nacht.\\nAmen.\"},\"bluesky\":{\"text\":\"Der Tag muss nicht fertig sein.\\n\\nGott, wir legen dir hin, was heute gut war. Und auch das, was offen blieb.\\nWir bitten dich für Menschen in Gaza, für Betroffene des Tornados im Süden Frankreichs und für Menschen in Baden-Württemberg, wo Hitze und Niedrigwasser belasten.\\nSchenk Frieden für diese Nacht. Amen.\"},\"story\":{\"slides\":[{\"text\":\"Der Tag muss nicht fertig sein.\"},{\"text\":\"Was gut war.\\nWas wehgetan hat.\\nWas offen blieb.\"},{\"text\":\"Wir bringen es vor Gott.\"},{\"text\":\"Wir beten für Menschen in Gaza.\"},{\"text\":\"Für Betroffene des Tornados im Süden Frankreichs.\"},{\"text\":\"Für Menschen in Baden-Württemberg,\\nwo Hitze und Niedrigwasser belasten.\"},{\"text\":\"Schenk Frieden für diese Nacht.\"}]},\"reel\":{\"hook\":\"Der Tag muss nicht fertig sein.\",\"script\":\"Der Tag geht zu Ende. Nicht alles ist gelungen. Nicht alles ist leicht. Du darfst loslassen. Gott, wir bringen dir, was heute gut war. Und das, was offen blieb. Wir beten für Menschen in Gaza, die zwischen Trümmern leben. Für Betroffene des Tornados im Süden Frankreichs. Für Menschen in Baden-Württemberg, wo Hitze und Niedrigwasser belasten. Sei bei allen, die heute Nacht Angst haben, arbeiten, pflegen oder wachen. Schenk Frieden für diese Nacht. Und Hoffnung für morgen.\",\"shots\":[\"Abendlicht an einem offenen Fenster\",\"Eine Hand legt Notizzettel auf einen Tisch\",\"Ruhiges Zimmer mit brennender Kerze\",\"Langsame Aufnahme von Wasseroberfläche im Dämmerlicht\",\"Nachtaufnahme einer stillen Straße\",\"Hände umfassen eine Tasse\",\"Dunkler Himmel, langsam heller werdender Horizont\"],\"duration_seconds\":30}},\"visual\":{\"concept\":\"Ruhige Abendszene an einem Fenster. Warmes Restlicht. Ein einfacher Tisch, eine Tasse, offene Hände. Stimmung von Loslassen und Geborgenheit, ohne Kitsch.\",\"flux_prompt\":\"Fotorealistische ruhige Abendszene in einem schlichten Zimmer am Fenster, warmes Restlicht der Dämmerung, einfacher Holztisch mit einer Tasse, offene entspannte Hände im Vordergrund, weiche Schatten, natürliche Farben, stille hoffnungsvolle Atmosphäre, documentary style, high detail, no typography\",\"negative_prompt\":\"text, letters, logo, watermark\",\"formats\":[\"4:5\",\"9:16\",\"1.91:1\"],\"alt_text\":\"Ein schlichtes Zimmer in der Dämmerung. Auf einem Holztisch steht eine Tasse. Vor dem Fenster liegen offene Hände im warmen Abendlicht. Die Szene wirkt still und tröstlich.\"},\"qa\":{\"warnings\":[\"Alt text must be completed before approval\",\"Aktuelle Bezüge vor Freigabe erneut gegen Stand des Nachmittags 2026-08-25/26 prüfen, da Nachrichtenlagen sich ändern können.\",\"Gebet enthält drei konkrete Fürbittenlagen; Redaktion sollte Kürzung prüfen, falls Plattformlänge reduziert werden muss.\"],\"approved\":false},\"metadata\":{\"model\":\"gpt-5\",\"generated_at\":\"2026-08-26T00:00:00Z\",\"prompt_version\":\"1.0\",\"assets\":[]}}"
+}
