@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-08-26",
+    "contentDate": "2026-08-26",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-08-26T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "/Der HERR spricht:/ Er liebt mich, darum will ich ihn erretten.",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "/Der HERR spricht:/ Er liebt mich, darum will ich ihn erretten."
+    ],
+    "id": "7e4546ff-2f19-47ce-b267-eaf57c727b39",
+    "attemptCount": 1,
+    "remoteId": "18364723975243604",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:44:41.591Z",
+    "updatedAt": "2026-08-26T05:00:28.326Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-08-26",
+    "contentDate": "2026-08-26",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-08-26T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "/Der HERR spricht:/ Er liebt mich, darum will ich ihn erretten.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "/Der HERR spricht:/ Er liebt mich, darum will ich ihn erretten."
+    ],
+    "id": "09d236b5-dce9-4949-9d94-825f749783f0",
+    "attemptCount": 1,
+    "remoteId": "117160046047815046",
+    "remoteUrl": "https://kirche.social/@christoph/117160046047815046",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:44:41.596Z",
+    "updatedAt": "2026-08-26T05:00:29.275Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
