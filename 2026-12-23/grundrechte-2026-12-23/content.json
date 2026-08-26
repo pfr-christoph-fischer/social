@@ -1,0 +1,68 @@
+{
+  "id": "grundrechte-2026-12-23",
+  "status": "freigegeben",
+  "needs_input": false,
+  "source": {
+    "calendar_post_id": "grundrechte-2026-12-23",
+    "date": "2026-12-23",
+    "rubric": "Grundrechte",
+    "liturgical_source": ""
+  },
+  "editorial_core": {
+    "title": "Zur Erinnerung",
+    "main_message": "Alle Deutschen haben das Recht, Vereine und Gesellschaften zu bilden.",
+    "audience": "breite Öffentlichkeit",
+    "tone": [
+      "klar",
+      "ruhig"
+    ],
+    "source_notes": [
+      "Grundgesetz, Artikel 9 Absatz 1"
+    ]
+  },
+  "platforms": {
+    "facebook": {
+      "text": "Alle Deutschen haben das Recht, Vereine und Gesellschaften zu bilden. (Grundgesetz, Artikel 9 Absatz 1)",
+      "headline": "Zur Erinnerung"
+    },
+    "instagram": {
+      "caption": "Alle Deutschen haben das Recht, Vereine und Gesellschaften zu bilden. (Grundgesetz, Artikel 9 Absatz 1)",
+      "carousel": []
+    },
+    "mastodon": {
+      "text": "Alle Deutschen haben das Recht, Vereine und Gesellschaften zu bilden. (Grundgesetz, Artikel 9 Absatz 1)"
+    },
+    "bluesky": {
+      "text": "Alle Deutschen haben das Recht, Vereine und Gesellschaften zu bilden. (Grundgesetz, Artikel 9 Absatz 1)"
+    },
+    "story": {
+      "slides": []
+    },
+    "reel": {
+      "hook": "",
+      "script": "",
+      "shots": [],
+      "duration_seconds": 0
+    }
+  },
+  "visual": {
+    "concept": "Deutsche Flagge",
+    "flux_prompt": "",
+    "negative_prompt": "text, letters, logo, watermark",
+    "formats": [
+      "1:1",
+      "9:16"
+    ],
+    "alt_text": "Alle Deutschen haben das Recht, Vereine und Gesellschaften zu bilden. (Grundgesetz, Artikel 9 Absatz 1)"
+  },
+  "qa": {
+    "warnings": [],
+    "approved": true
+  },
+  "metadata": {
+    "model": "",
+    "generated_at": "2026-08-26T15:43:41.557Z",
+    "prompt_version": "grundrechte-1.0",
+    "assets": []
+  }
+}

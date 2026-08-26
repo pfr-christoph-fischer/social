@@ -1,0 +1,68 @@
+{
+  "id": "grundrechte-2026-12-06",
+  "status": "freigegeben",
+  "needs_input": false,
+  "source": {
+    "calendar_post_id": "grundrechte-2026-12-06",
+    "date": "2026-12-06",
+    "rubric": "Grundrechte",
+    "liturgical_source": ""
+  },
+  "editorial_core": {
+    "title": "Zur Erinnerung",
+    "main_message": "Du sollst nicht töten.",
+    "audience": "breite Öffentlichkeit",
+    "tone": [
+      "klar",
+      "ruhig"
+    ],
+    "source_notes": [
+      "Die Bibel, Exodus 20,13"
+    ]
+  },
+  "platforms": {
+    "facebook": {
+      "text": "Du sollst nicht töten. (Die Bibel, Exodus 20,13)",
+      "headline": "Zur Erinnerung"
+    },
+    "instagram": {
+      "caption": "Du sollst nicht töten. (Die Bibel, Exodus 20,13)",
+      "carousel": []
+    },
+    "mastodon": {
+      "text": "Du sollst nicht töten. (Die Bibel, Exodus 20,13)"
+    },
+    "bluesky": {
+      "text": "Du sollst nicht töten. (Die Bibel, Exodus 20,13)"
+    },
+    "story": {
+      "slides": []
+    },
+    "reel": {
+      "hook": "",
+      "script": "",
+      "shots": [],
+      "duration_seconds": 0
+    }
+  },
+  "visual": {
+    "concept": "Deutsche Flagge",
+    "flux_prompt": "",
+    "negative_prompt": "text, letters, logo, watermark",
+    "formats": [
+      "1:1",
+      "9:16"
+    ],
+    "alt_text": "Du sollst nicht töten. (Die Bibel, Exodus 20,13)"
+  },
+  "qa": {
+    "warnings": [],
+    "approved": true
+  },
+  "metadata": {
+    "model": "",
+    "generated_at": "2026-08-26T15:42:48.128Z",
+    "prompt_version": "grundrechte-1.0",
+    "assets": []
+  }
+}
