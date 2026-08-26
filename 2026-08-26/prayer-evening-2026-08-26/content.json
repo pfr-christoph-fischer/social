@@ -143,13 +143,17 @@
     "alt_text": "Ein schlichtes Zimmer in der Dämmerung. Auf einem Holztisch steht eine Tasse. Vor dem Fenster liegen offene Hände im warmen Abendlicht. Die Szene wirkt still und tröstlich."
   },
   "qa": {
-    "approved": true,
-    "warnings": []
+    "warnings": [],
+    "approved": true
   },
   "metadata": {
     "model": "gpt-5.4-2026-03-05",
     "generated_at": "2026-08-26T09:00:58.891Z",
     "prompt_version": "1.0",
-    "assets": []
+    "assets": [
+      "assets/background-1.91x1.webp",
+      "assets/background-4x5.webp",
+      "assets/background-9x16.webp"
+    ]
   }
 }

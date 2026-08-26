@@ -1,0 +1,52 @@
+{
+  "delivery_url": "https://delivery.eu2.bfl.ai/durable/2026082615/5e1f69ea-538b-4d66-962e-9be995966f07/ad/426976b822113c/b822113c37454beaa1c8af4cb6b356b1/sample.jpeg?se=2026-08-26T15%3A10%3A27Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=AOSxar9ZvxHfVJudBl4fgtel7UMjtadqGpWvzBbzyJc%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "e7439b8b-9228-4573-be9a-993f6786aaf8",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "e7439b8b-9228-4573-be9a-993f6786aaf8",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "e7439b8b-9228-4573-be9a-993f6786aaf8",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "e7439b8b-9228-4573-be9a-993f6786aaf8",
+      "status": "Ready",
+      "result": {
+        "start_time": 1787756425.570774,
+        "prompt": "Blick aus dem Fenster in die anbrechende Nacht, warme Farben, Lila, ein ruhiges Dorf, Landschaft, Mond, Wolken., no text, no letters, no typography, no logo, no watermark",
+        "seed": 1262839966,
+        "sample": "https://delivery.eu2.bfl.ai/durable/2026082615/5e1f69ea-538b-4d66-962e-9be995966f07/ad/426976b822113c/b822113c37454beaa1c8af4cb6b356b1/sample.jpeg?se=2026-08-26T15%3A10%3A27Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=AOSxar9ZvxHfVJudBl4fgtel7UMjtadqGpWvzBbzyJc%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "e7439b8b-9228-4573-be9a-993f6786aaf8",
+    "polling_url": "https://api.eu2.bfl.ai/v1/get_result?id=e7439b8b-9228-4573-be9a-993f6786aaf8",
+    "cost": 1.5,
+    "input_mp": 0,
+    "output_mp": 1.98
+  }
+}

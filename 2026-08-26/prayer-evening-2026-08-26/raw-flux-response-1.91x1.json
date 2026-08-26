@@ -1,0 +1,36 @@
+{
+  "delivery_url": "https://delivery.us2.bfl.ai/durable/2026082615/5e1f69ea-538b-4d66-962e-9be995966f07/04/4204811d032cf1/1d032cf1929947c484fa1f6ce9eec06e/sample.jpeg?se=2026-08-26T15%3A10%3A20Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=HZQEdG6dXO6b7Xjh4sqnefhrPLoVmQEeHcyYIHwevrc%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "8601a27a-f0f7-4dcb-92f7-8c10e6d6ab53",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "8601a27a-f0f7-4dcb-92f7-8c10e6d6ab53",
+      "status": "Ready",
+      "result": {
+        "start_time": 1787756419.394588,
+        "prompt": "Blick aus dem Fenster in die anbrechende Nacht, warme Farben, Lila, ein ruhiges Dorf, Landschaft, Mond, Wolken., no text, no letters, no typography, no logo, no watermark",
+        "seed": 45204590,
+        "sample": "https://delivery.us2.bfl.ai/durable/2026082615/5e1f69ea-538b-4d66-962e-9be995966f07/04/4204811d032cf1/1d032cf1929947c484fa1f6ce9eec06e/sample.jpeg?se=2026-08-26T15%3A10%3A20Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=HZQEdG6dXO6b7Xjh4sqnefhrPLoVmQEeHcyYIHwevrc%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "8601a27a-f0f7-4dcb-92f7-8c10e6d6ab53",
+    "polling_url": "https://api.us2.bfl.ai/v1/get_result?id=8601a27a-f0f7-4dcb-92f7-8c10e6d6ab53",
+    "cost": 1.4000000000000001,
+    "input_mp": 0,
+    "output_mp": 0.72
+  }
+}
