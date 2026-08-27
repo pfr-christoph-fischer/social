@@ -1,0 +1,82 @@
+{
+  "id": "post-0020",
+  "status": "in Arbeit",
+  "needs_input": true,
+  "source": {
+    "calendar_post_id": "post-0020",
+    "date": "2026-08-29",
+    "rubric": "Predigt-Preview",
+    "liturgical_source": "https://kirchenjahr.pfarr.tools/api/jahr/2026"
+  },
+  "editorial_core": {
+    "title": "Predigt-Preview auf 13. Sonntag nach Trinitatis",
+    "main_message": "Erst nach Fertigstellung der Predigt: eine Spannung, eine Frage und eine Einladung.",
+    "audience": "[TODO: define audience after current inputs are available]",
+    "tone": [
+      "klar",
+      "ruhig",
+      "zugänglich"
+    ],
+    "source_notes": [
+      "Goal: Nach Abschluss der Predigt neugierig auf den Gottesdienst machen, ohne die Predigt zusammenzufassen.",
+      "Column: Gottesdienst und Predigt",
+      "Production mode: erst am Samstag nach Fertigstellung der Predigt",
+      "Structure: überraschende Frage oder Spannung | ein Satz zum Predigttext | Ort und Zeit aus Terminquelle ergänzen",
+      "AI support notes: Hook-Varianten | Reel-Skript | Caption | Untertitel",
+      "Current inputs required: Predigtmanuskript oder Kerngedanke | Gottesdienstort | Uhrzeit | Besonderheiten",
+      "Liturgical source: https://kirchenjahr.pfarr.tools/api/jahr/2026 (2026-08-30, $.Tage['2026-08-30'])",
+      "Wochenspruch: Christus spricht: Was ihr getan habt einem von diesen meinen geringsten Brüdern, das habt ihr mir getan. (Mt 25,40b)"
+    ]
+  },
+  "platforms": {
+    "facebook": {
+      "text": "",
+      "headline": ""
+    },
+    "instagram": {
+      "caption": "",
+      "carousel": []
+    },
+    "mastodon": {
+      "text": ""
+    },
+    "bluesky": {
+      "text": ""
+    },
+    "story": {
+      "slides": []
+    },
+    "reel": {
+      "hook": "",
+      "script": "",
+      "shots": [],
+      "duration_seconds": 0
+    }
+  },
+  "visual": {
+    "concept": "",
+    "flux_prompt": "",
+    "negative_prompt": "text, letters, logo, watermark",
+    "formats": [
+      "4:5",
+      "9:16",
+      "1.91:1"
+    ],
+    "alt_text": ""
+  },
+  "qa": {
+    "warnings": [
+      "Alt text must be completed before approval",
+      "Current source inputs are still required before publication",
+      "Predigt-Preview requires sermon input before final drafting",
+      "Missing sermon input for Predigt-Preview"
+    ],
+    "approved": false
+  },
+  "metadata": {
+    "model": "gpt-5.4",
+    "generated_at": "2026-08-27T12:58:55.369Z",
+    "prompt_version": "1.0",
+    "assets": []
+  }
+}
