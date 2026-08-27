@@ -27,5 +27,66 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "prayer-evening-2026-08-27",
+    "contentDate": "2026-08-27",
+    "platform": "instagram",
+    "format": "default",
+    "scheduledAt": "2026-08-27T18:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Abendgebet.\n\nDer Tag muss vor Gott nicht fertig sein.\nWir legen hin, was gelungen ist. Und was offen bleibt.\n\nWir beten für die Menschen in Nepal und China nach der Flutwelle. Für Trauernde, Vermisste und Einsatzkräfte.\nWir beten für Menschen weltweit, die die Folgen des Klimawandels schon jetzt mit voller Härte tragen.\nUnd wir bitten um Mut und Weisheit für konsequenten Klimaschutz hier bei uns.\n\nSchenk uns Frieden für diese Nacht. Und Hoffnung, die weiter reicht als dieser Tag.\nAmen.",
+    "assets": [
+      "render-instagram-feed-01.jpg",
+      "render-instagram-feed-02.jpg",
+      "render-instagram-feed-03.jpg",
+      "render-instagram-feed-04.jpg",
+      "render-instagram-feed-05.jpg"
+    ],
+    "altTexts": [
+      "Abendstimmung am See im Abendlicht"
+    ],
+    "id": "4c815443-9b2e-4ede-9907-d65452a72668",
+    "attemptCount": 1,
+    "remoteId": "18101638907344269",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-27T15:03:02.804Z",
+    "updatedAt": "2026-08-27T18:00:58.652Z",
+    "responseMetadata": {
+      "mediaCount": 5,
+      "mediaType": "CAROUSEL",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "prayer-evening-2026-08-27",
+    "contentDate": "2026-08-27",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-08-27T18:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Abendgebet.\n\nGott, wir legen dir diesen Tag hin.\nDas Gute. Das Schwere. Das Unfertige.\n\nWir bitten dich für die Menschen in Nepal und China nach der Flutwelle. Für Trauernde, Vermisste und Einsatzkräfte.\nWir bitten dich für Menschen weltweit, die die Folgen des Klimawandels schon jetzt mit voller Härte tragen.\nUnd um Mut und Weisheit für konsequenten Klimaschutz hier bei uns.\n\nSchenk Frieden für diese Nacht. Und Hoffnung, die weiter trägt als unsere Kraft heute reicht. Amen.",
+    "assets": [
+      "render-facebook-mastodon-01.png"
+    ],
+    "altTexts": [
+      "Abendstimmung am See im Abendlicht"
+    ],
+    "id": "69d7aca1-dd9e-401d-90b3-128f1d2e1c1b",
+    "attemptCount": 1,
+    "remoteId": "117168777500712450",
+    "remoteUrl": "https://kirche.social/@christoph/117168777500712450",
+    "lastError": null,
+    "createdAt": "2026-08-27T15:03:03.033Z",
+    "updatedAt": "2026-08-27T18:01:00.680Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
