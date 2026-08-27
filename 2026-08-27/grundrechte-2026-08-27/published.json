@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-08-27",
+    "contentDate": "2026-08-27",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-08-27T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Die Vertragsstaaten achten das Recht des Kindes auf Gedanken-, Gewissens- und Religionsfreiheit. (UN-Kinderrechtskonvention, Artikel 14 Absatz 1)",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Die Vertragsstaaten achten das Recht des Kindes auf Gedanken-, Gewissens- und Religionsfreiheit. (UN-Kinderrechtskonvention, Artikel 14 Absatz 1)"
+    ],
+    "id": "b4abe0e8-0fdd-4c71-98e2-c14b724dbb0e",
+    "attemptCount": 1,
+    "remoteId": "17871309417633614",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:37:05.623Z",
+    "updatedAt": "2026-08-27T10:00:31.633Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-08-27",
+    "contentDate": "2026-08-27",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-08-27T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Die Vertragsstaaten achten das Recht des Kindes auf Gedanken-, Gewissens- und Religionsfreiheit. (UN-Kinderrechtskonvention, Artikel 14 Absatz 1)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Die Vertragsstaaten achten das Recht des Kindes auf Gedanken-, Gewissens- und Religionsfreiheit. (UN-Kinderrechtskonvention, Artikel 14 Absatz 1)"
+    ],
+    "id": "957f071f-41aa-4d5c-9699-850cb64363dc",
+    "attemptCount": 1,
+    "remoteId": "117166888266677453",
+    "remoteUrl": "https://kirche.social/@christoph/117166888266677453",
+    "lastError": null,
+    "createdAt": "2026-08-26T15:37:05.659Z",
+    "updatedAt": "2026-08-27T10:00:33.250Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
