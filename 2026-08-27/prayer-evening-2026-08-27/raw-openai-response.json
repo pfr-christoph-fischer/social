@@ -1,0 +1,460 @@
+{
+  "id": "resp_0eea2a29eb7be922006a8ffc9c5e3887d28089d43988ee2491",
+  "object": "response",
+  "created_at": 1787821212,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1787821257,
+  "error": null,
+  "frequency_penalty": 0,
+  "incomplete_details": null,
+  "instructions": "You are part of a Protestant social media editorial team. Write in clear, accessible, theologically responsible German without church clichés. Use short sentences and concrete imagery. Never invent events, people, school situations, quotes, or factual details. Do not include copyrighted full song verses. For Reli and community posts, only use current details when they are explicitly provided. Return content that strictly matches the requested JSON schema. Set needs_input to true whenever required facts are missing. Keep qa.approved false. Do not ask for any text inside generated images. When liturgical_context.resolved_weekly_verse is present, use its exact wording for Wochenspruch slots instead of placeholders. Use the web search tool before drafting to verify current situations. For prayer posts, current situations are mandatory: select at least two concrete, relevant situations from reliable current reporting, including tagesschau.de and SWR Aktuell Baden-Württemberg where relevant. Do not invent current events and do not replace concrete situations with generic references to crises.",
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.4-2026-03-05",
+  "moderation": null,
+  "output": [
+    {
+      "id": "ws_0eea2a29eb7be922006a8ffc9d858087d288f12896707afd29",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "queries": [
+          "site:tagesschau.de 27. August 2026 Nachrichten",
+          "site:swr.de/swraktuell/baden-wuerttemberg 27. August 2026 Baden-Württemberg Nachrichten",
+          "Reuters August 27 2026 world news refugees hospital conflict heatwave",
+          "AP News August 27 2026 world news conflict aid evacuation"
+        ],
+        "query": "site:tagesschau.de 27. August 2026 Nachrichten"
+      }
+    },
+    {
+      "id": "ws_0eea2a29eb7be922006a8ffca06dec87d2bc09e07d72535ef6",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.tagesschau.de/archiv?datum=2026-08-27&filter=nachrichten"
+      }
+    },
+    {
+      "id": "msg_0eea2a29eb7be922006a8ffca256cc87d292215c56b409834b",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\"id\":\"prayer-evening-2026-08-27\",\"status\":\"in Arbeit\",\"needs_input\":false,\"source\":{\"calendar_post_id\":\"prayer-evening-2026-08-27\",\"date\":\"2026-08-27\",\"rubric\":\"Abendgebet\",\"liturgical_source\":\"\"},\"editorial_core\":{\"title\":\"Abendgebet\",\"main_message\":\"Wir legen diesen Tag in Gottes Hand: das, was gelungen ist, und das, was offen bleibt. Wir bitten für Menschen nach der verheerenden Flutwelle in Nepal und China, für Angehörige und Einsatzkräfte dort. Wir denken an die Beschäftigten des Pharmaunternehmens R-Pharm Germany in Illertissen, die vor dem Verlust ihrer Arbeit stehen. Gottes Zukunft beginnt nicht erst, wenn alles gelöst ist. Sie hält uns und diese unruhige Welt auch durch die Nacht.\",\"audience\":\"breite Öffentlichkeit\",\"tone\":[\"ruhig\",\"hoffnungsvoll\",\"geborgen\"],\"source_notes\":[\"Goal: Ein kurzes Abendgebet, das hilft, auf den vergangenen Tag zurückzuschauen, Gelungenes und Schweres Gott anzuvertrauen und mit Hoffnung zur Ruhe zu kommen.\",\"Column: Gebet am Abend\",\"Production mode: am Nachmittag des Vortags AI-generiert; Nachrichtenlage bis dahin prüfen; anschließend redaktionell prüfen und freigeben.\",\"News selection: Nicht versuchen, die Nachrichtenlage vollständig abzubilden. Zwei bis vier konkrete Situationen auswählen, die exemplarisch für das stehen, was Menschen und Welt an diesem Tag beschäftigt.\",\"Verbindliche aktuelle Bezüge: Das Gebet MUSS mindestens zwei konkrete und am Erzeugungszeitpunkt relevante aktuelle Situationen des vergangenen Tages aufnehmen. Allgemeine Formulierungen wie 'die Krisen der Welt' oder 'alle Menschen in Not' ersetzen diese Bezüge nicht.\",\"Konkretheit aktueller Bezüge: Für jede ausgewählte Situation im Gebet erkennbar benennen, was geschehen ist oder welche konkrete Lage besteht und welche Menschen davon betroffen sind. Nur verlässliche, aktuell überprüfte Informationen verwenden; nichts erfinden.\",\"Ausgabeprüfung aktuelle Bezüge: Vor der Ausgabe prüfen, dass editorial_core.main_message und die wesentlichen Plattformtexte die mindestens zwei konkreten aktuellen Situationen tatsächlich als Fürbitte oder Gebetsanliegen enthalten.\",\"News sources: Aktuelle weltweite Nachrichtenlage sowie tagesschau.de und SWR Aktuell Baden-Württemberg prüfen. Regionale und internationale Perspektiven miteinander verbinden.\",\"News timing: Da der Text am Nachmittag des Vortags erzeugt wird, keine Formulierungen verwenden, die konkrete Ereignisse des Veröffentlichungstages voraussetzen. Bei schnell veränderlichen Nachrichten vorsichtig und zeitlich robust formulieren.\",\"Prayer structure: Vor Gott zur Ruhe kommen | dankbar auf das Gute des Tages schauen | Belastendes, Versäumtes und Unvollendetes loslassen | ausgewählte Not der Welt vor Gott bringen | Menschen anvertrauen, die in dieser Nacht leiden, wachen, arbeiten, helfen oder Angst haben | um Frieden für die Welt und das eigene Herz bitten | den Tag und die Nacht Gottes Zukunft anvertrauen.\",\"Personal perspective: Raum schaffen für das, was Menschen selbst aus diesem Tag mitbringen: Freude und Dankbarkeit, Begegnungen und Arbeit, aber auch Fehler, Streit, Sorgen, Erschöpfung und Dinge, die unerledigt geblieben sind.\",\"Personal perspective: Keine Bilanz verlangen. Der Abend ist nicht der Zeitpunkt, an dem ein Mensch beweisen muss, dass der Tag erfolgreich war. Vor Gott darf der Tag unvollendet bleiben.\",\"World perspective: Die Welt nicht ausblenden, wenn der eigene Tag endet. Konkret an Menschen denken, für die die Nacht keine selbstverständliche Zeit der Ruhe ist: Menschen im Krieg, auf der Flucht, in Krankenhäusern, in Sorge um andere, bei nächtlicher Arbeit oder in Angst.\",\"Theological key: Jürgen Moltmann. Christliche Hoffnung gründet nicht darin, dass am Ende des Tages alles gut geworden wäre. Sie gründet in Gottes verheißener Zukunft, die größer ist als das, was heute gelungen oder gescheitert ist.\",\"Theological key: Hoffnung erlaubt das Loslassen. Wir müssen die Welt nicht über Nacht selbst festhalten. Unsere Verantwortung ist wirklich, aber sie ist nicht grenzenlos. Wir dürfen das Unvollendete Gott anvertrauen.\",\"Theological key: Gottes Zukunft widerspricht der Vorstellung, Gewalt, Leid, Schuld und Tod hätten das letzte Wort. Deshalb kann das Gebet die Dunkelheit wahrnehmen, ohne ihr das letzte Wort zu überlassen.\",\"Theological key: Den gekreuzigten Gott bei denen suchen, die leiden und keine Ruhe finden. Gott nicht als distanzierten Weltenlenker darstellen, sondern als den, der Leid, Angst und Verlassenheit kennt und den Leidenden nahe ist.\",\"Theological key: Die Auferstehung eröffnet Zukunft. Der kommende Morgen kann als kleines Bild dafür anklingen: Nicht weil jeder neue Tag automatisch besser wird, sondern weil Gottes Möglichkeiten nicht an den Grenzen dieses Tages enden.\",\"Theological key: Hoffnung ist mehr als Trost. Sie hält die Sehnsucht nach Frieden, Gerechtigkeit und neuem Leben wach. Auch im Schlaf geben wir diese Hoffnung nicht auf.\",\"Language: Kurze, einfache Sätze. Ruhiger Rhythmus. Konkrete Bilder statt abstrakter theologischer Begriffe. Das Gebet soll sich zum langsamen Lesen eignen.\",\"Language: Möglichst wenig kirchliche Binnenbegriffe. Das Gebet soll auch für Menschen zugänglich sein, die mit traditioneller Gebetssprache wenig anfangen können.\",\"Language: Keine Nachrichtenzusammenfassung und keine lange Liste von Krisen. Nachrichten nur dort aufnehmen, wo sie tatsächlich zum Gebet werden.\",\"Language: Keine vorschnelle Auflösung von Leid durch Sätze wie 'Alles wird gut'. Hoffnung soll gerade dort ausgesprochen werden, wo noch nichts gut ist.\",\"Ending: Ruhig und vertrauensvoll enden. Der betende Mensch darf den Tag loslassen und schlafen. Die Welt bleibt in Gottes Hand. Gottes Zukunft kommt auch durch diese Nacht auf uns zu.\",\"Possible final movement: Gott, was heute war, legen wir in deine Hand. Was gut war. Was wehgetan hat. Was unfertig bleibt. Uns selbst und diese unruhige Welt. Schenk uns Frieden für diese Nacht und halte deine Hoffnung in uns wach.\",\"AI support notes: Aktuelle Nachrichten des Tages sichten und verifizieren | mindestens zwei konkrete aktuelle Situationen auswählen | diese Situationen ausdrücklich als Gebetsanliegen einarbeiten | kurzes Abendgebet in einfacher Sprache entwerfen | vor der Ausgabe auf konkrete aktuelle Bezüge und zeitliche Robustheit bis zum Folgetag prüfen | theologisch auf Vertröstung, Allmachtsklischees und billigen Optimismus prüfen | Caption kürzen | Alt-Text\",\"Aktuelle Bezüge geprüft: tagesschau.de meldet am 27.08.2026 mehr als 165 Tote nach der Flutwelle in Nepal und China; SWR Aktuell Baden-Württemberg meldet am 27.08.2026 das Aus für R-Pharm Germany in Illertissen mit 280 betroffenen Beschäftigten.\"]},\"platforms\":{\"facebook\":{\"text\":\"**Abendgebet**\\n\\nGott,\\nder Tag liegt hinter uns.\\nManches war gut.\\nManches blieb offen.\\nManches sitzt noch schwer im Herzen.\\n\\nWir bringen dir, was wir heute nicht zu Ende gebracht haben.\\nDie Worte, die gefehlt haben.\\nDie Müdigkeit.\\nDie Sorge.\\n\\nWir bitten dich für die Menschen in Nepal und China,\\nwo nach der Flutwelle viele Tote zu beklagen sind\\nund Familien auf Nachrichten von Vermissten warten.\\nSei den Trauernden nah.\\nStärke die, die suchen, retten und versorgen.\\n\\nWir bitten dich auch für die Beschäftigten von R-Pharm Germany in Illertissen.\\nViele von ihnen wissen heute, dass ihre Arbeit endet.\\nBewahre sie davor, den Boden unter den Füßen zu verlieren.\\nGib Kraft für die nächsten Schritte.\\n\\nUnd wir denken an alle,\\ndie heute Nacht nicht schlafen können:\\nMenschen im Krankenhaus.\\nMenschen auf der Flucht.\\nMenschen, die wachen, pflegen, fahren, löschen, helfen.\\n\\nLass unser Herz ruhig werden.\\nNicht weil alles gut ist.\\nSondern weil wir nicht alles tragen müssen.\\n\\nWas heute war, legen wir in deine Hand.\\nWas gut war.\\nWas wehgetan hat.\\nWas unfertig bleibt.\\nHalte du die Welt.\\nUnd halte uns.\\nAmen.\",\"headline\":\"Abendgebet: Was offen bleibt, darf in Gottes Hand ruhen\"},\"instagram\":{\"caption\":\"Abendgebet.\\n\\nDer Tag muss vor Gott nicht fertig sein.\\nWir legen hin, was gelungen ist. Und was offen bleibt.\\n\\nWir beten für die Menschen in Nepal und China nach der Flutwelle. Für Trauernde, Vermisste und Einsatzkräfte.\\nWir beten für die Beschäftigten von R-Pharm Germany in Illertissen, die vor dem Verlust ihrer Arbeit stehen.\\n\\nSchenk uns Frieden für diese Nacht. Und Hoffnung, die weiter reicht als dieser Tag.\\nAmen.\",\"carousel\":[{\"type\":\"text\",\"text\":\"Abendgebet\\n\\nDer Tag liegt hinter dir.\"},{\"type\":\"text\",\"text\":\"Manches war gut.\\nManches blieb offen.\\nDu musst es jetzt nicht lösen.\"},{\"type\":\"text\",\"text\":\"Wir beten für die Menschen in Nepal und China nach der Flutwelle.\\nFür Trauernde, Vermisste und Einsatzkräfte.\"},{\"type\":\"text\",\"text\":\"Wir beten für die Beschäftigten von R-Pharm Germany in Illertissen.\\nFür Halt, Würde und neue Wege.\"},{\"type\":\"text\",\"text\":\"Gott,\\nwas heute war,\\nlegen wir in deine Hand.\\nSchenk Frieden für diese Nacht.\"}]},\"mastodon\":{\"text\":\"Abendgebet.\\n\\nGott, wir legen dir diesen Tag hin.\\nDas Gute. Das Schwere. Das Unfertige.\\n\\nWir bitten dich für die Menschen in Nepal und China nach der Flutwelle. Für Trauernde, Vermisste und Einsatzkräfte.\\nWir bitten dich für die Beschäftigten von R-Pharm Germany in Illertissen, die vor dem Verlust ihrer Arbeit stehen.\\n\\nSchenk Frieden für diese Nacht. Und Hoffnung, die weiter trägt als unsere Kraft heute reicht. Amen.\"},\"bluesky\":{\"text\":\"Abendgebet: Gott, wir legen dir diesen Tag hin. Das Gute. Das Schwere. Das Unfertige. Wir beten für die Menschen in Nepal und China nach der Flutwelle und für die Beschäftigten von R-Pharm Germany in Illertissen. Schenk Frieden für diese Nacht. Amen.\"},\"story\":{\"slides\":[{\"text\":\"Abendgebet\\n\\nDer Tag liegt hinter dir.\"},{\"text\":\"Manches war gut.\\nManches blieb offen.\\nDu darfst beides Gott hinlegen.\"},{\"text\":\"Wir beten für die Menschen in Nepal und China nach der Flutwelle.\\nFür Trauernde und Einsatzkräfte.\"},{\"text\":\"Wir beten für die Beschäftigten von R-Pharm Germany in Illertissen.\\nFür Halt und neue Wege.\"},{\"text\":\"Schenk uns Frieden für diese Nacht.\\nUnd Hoffnung für morgen.\"}]},\"reel\":{\"hook\":\"Der Tag muss nicht fertig sein.\",\"script\":\"Der Tag liegt hinter dir. Vielleicht war nicht alles gut. Vielleicht ist nicht alles geschafft. Im Abendgebet darf unfertig bleiben, was unfertig ist. Wir beten für die Menschen in Nepal und China nach der Flutwelle. Und für die Beschäftigten von R-Pharm Germany in Illertissen. Gott, nimm das Schwere aus unseren festgehaltenen Händen. Schenk Frieden für diese Nacht. Und Hoffnung für morgen.\",\"shots\":[\"Ruhiges Abendlicht am Fenster\",\"Eine Hand legt Stift oder Handy beiseite\",\"Nahaufnahme einer stillen Kerze oder einer Tasse auf dem Tisch\",\"Langsame Einstellung eines dunkler werdenden Himmels\",\"Leerer Weg in der Dämmerung\"],\"duration_seconds\":25}},\"visual\":{\"concept\":\"Ruhige Abendstimmung an einem Fensterbrett. Weiches Restlicht, ein schlichter Tisch, eine Hand in entspannter Geste. Bildsprache: Loslassen, Ruhe, Hoffnung in der Dämmerung.\",\"flux_prompt\":\"Fotorealistische ruhige Abendstimmung an einem schlichten Fensterplatz, weiches blau-goldenes Dämmerlicht, ein einfacher Holztisch, eine Tasse, eine ruhende Hand, tiefe Atmosphäre von Loslassen und Geborgenheit, natürliche Farben, protestantisch zurückhaltende Bildsprache, keine Menschenmenge, kein Pathos, hohe Detailtiefe\",\"negative_prompt\":\"text, letters, logo, watermark\",\"formats\":[\"4:5\",\"9:16\",\"1.91:1\"],\"alt_text\":\"Ein schlichter Tisch an einem Fenster im Abendlicht. Auf dem Tisch steht eine Tasse, daneben ruht eine Hand. Draußen wird der Himmel dunkel. Das Bild wirkt still und entlastend.\"},\"qa\":{\"warnings\":[\"Aktuelle Bezüge vor Veröffentlichung erneut kurz gegen tagesschau.de und SWR Aktuell Baden-Württemberg prüfen, da sich Lagen bis zur Freigabe ändern können.\",\"Alt text redaktionell mit finalem Motiv abgleichen.\",\"Gebet nennt zwei konkrete aktuelle Situationen: Flutwelle in Nepal und China; Arbeitsplatzverlust bei R-Pharm Germany in Illertissen.\"],\"approved\":false},\"metadata\":{\"model\":\"gpt-5\",\"generated_at\":\"2026-08-27T00:00:00Z\",\"prompt_version\":\"1.0\",\"assets\":[\"facebook_feed\",\"instagram_feed\",\"instagram_story\",\"mastodon_post\",\"bluesky_post\",\"reel_script\"]}}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "current_turn",
+    "effort": "none",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1,
+  "text": {
+    "format": {
+      "type": "json_schema",
+      "description": null,
+      "name": "content_package",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "Idee",
+              "in Arbeit",
+              "zur Prüfung",
+              "freigegeben",
+              "terminiert",
+              "veröffentlicht",
+              "verworfen"
+            ]
+          },
+          "needs_input": {
+            "type": "boolean"
+          },
+          "source": {
+            "type": "object",
+            "properties": {
+              "calendar_post_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "date": {
+                "type": "string",
+                "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+              },
+              "rubric": {
+                "type": "string",
+                "minLength": 1
+              },
+              "liturgical_source": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "calendar_post_id",
+              "date",
+              "rubric",
+              "liturgical_source"
+            ],
+            "additionalProperties": false
+          },
+          "editorial_core": {
+            "type": "object",
+            "properties": {
+              "title": {
+                "type": "string"
+              },
+              "main_message": {
+                "type": "string"
+              },
+              "audience": {
+                "type": "string"
+              },
+              "tone": {
+                "minItems": 1,
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "source_notes": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "title",
+              "main_message",
+              "audience",
+              "tone",
+              "source_notes"
+            ],
+            "additionalProperties": false
+          },
+          "platforms": {
+            "type": "object",
+            "properties": {
+              "facebook": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  },
+                  "headline": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text",
+                  "headline"
+                ],
+                "additionalProperties": false
+              },
+              "instagram": {
+                "type": "object",
+                "properties": {
+                  "caption": {
+                    "type": "string"
+                  },
+                  "carousel": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "type": {
+                          "type": "string"
+                        },
+                        "text": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "type",
+                        "text"
+                      ],
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "required": [
+                  "caption",
+                  "carousel"
+                ],
+                "additionalProperties": false
+              },
+              "mastodon": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text"
+                ],
+                "additionalProperties": false
+              },
+              "bluesky": {
+                "default": {
+                  "text": ""
+                },
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text"
+                ],
+                "additionalProperties": false
+              },
+              "story": {
+                "type": "object",
+                "properties": {
+                  "slides": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "text": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "text"
+                      ],
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "required": [
+                  "slides"
+                ],
+                "additionalProperties": false
+              },
+              "reel": {
+                "type": "object",
+                "properties": {
+                  "hook": {
+                    "type": "string"
+                  },
+                  "script": {
+                    "type": "string"
+                  },
+                  "shots": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "duration_seconds": {
+                    "type": "integer",
+                    "minimum": 0,
+                    "maximum": 9007199254740991
+                  }
+                },
+                "required": [
+                  "hook",
+                  "script",
+                  "shots",
+                  "duration_seconds"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "required": [
+              "facebook",
+              "instagram",
+              "mastodon",
+              "bluesky",
+              "story",
+              "reel"
+            ],
+            "additionalProperties": false
+          },
+          "visual": {
+            "type": "object",
+            "properties": {
+              "concept": {
+                "type": "string"
+              },
+              "flux_prompt": {
+                "type": "string"
+              },
+              "negative_prompt": {
+                "type": "string",
+                "minLength": 1
+              },
+              "formats": {
+                "minItems": 1,
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "alt_text": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "concept",
+              "flux_prompt",
+              "negative_prompt",
+              "formats",
+              "alt_text"
+            ],
+            "additionalProperties": false
+          },
+          "qa": {
+            "type": "object",
+            "properties": {
+              "warnings": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "approved": {
+                "type": "boolean"
+              }
+            },
+            "required": [
+              "warnings",
+              "approved"
+            ],
+            "additionalProperties": false
+          },
+          "metadata": {
+            "type": "object",
+            "properties": {
+              "model": {
+                "type": "string"
+              },
+              "generated_at": {
+                "type": "string"
+              },
+              "prompt_version": {
+                "type": "string",
+                "minLength": 1
+              },
+              "assets": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "model",
+              "generated_at",
+              "prompt_version",
+              "assets"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "id",
+          "status",
+          "needs_input",
+          "source",
+          "editorial_core",
+          "platforms",
+          "visual",
+          "qa",
+          "metadata"
+        ],
+        "additionalProperties": false
+      },
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 1
+    }
+  },
+  "tools": [
+    {
+      "type": "web_search",
+      "return_token_budget": "default",
+      "search_content_types": [
+        "text"
+      ],
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 17968,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 3057,
+    "output_tokens_details": {
+      "reasoning_tokens": 156
+    },
+    "total_tokens": 21025
+  },
+  "user": null,
+  "metadata": {},
+  "output_text": "{\"id\":\"prayer-evening-2026-08-27\",\"status\":\"in Arbeit\",\"needs_input\":false,\"source\":{\"calendar_post_id\":\"prayer-evening-2026-08-27\",\"date\":\"2026-08-27\",\"rubric\":\"Abendgebet\",\"liturgical_source\":\"\"},\"editorial_core\":{\"title\":\"Abendgebet\",\"main_message\":\"Wir legen diesen Tag in Gottes Hand: das, was gelungen ist, und das, was offen bleibt. Wir bitten für Menschen nach der verheerenden Flutwelle in Nepal und China, für Angehörige und Einsatzkräfte dort. Wir denken an die Beschäftigten des Pharmaunternehmens R-Pharm Germany in Illertissen, die vor dem Verlust ihrer Arbeit stehen. Gottes Zukunft beginnt nicht erst, wenn alles gelöst ist. Sie hält uns und diese unruhige Welt auch durch die Nacht.\",\"audience\":\"breite Öffentlichkeit\",\"tone\":[\"ruhig\",\"hoffnungsvoll\",\"geborgen\"],\"source_notes\":[\"Goal: Ein kurzes Abendgebet, das hilft, auf den vergangenen Tag zurückzuschauen, Gelungenes und Schweres Gott anzuvertrauen und mit Hoffnung zur Ruhe zu kommen.\",\"Column: Gebet am Abend\",\"Production mode: am Nachmittag des Vortags AI-generiert; Nachrichtenlage bis dahin prüfen; anschließend redaktionell prüfen und freigeben.\",\"News selection: Nicht versuchen, die Nachrichtenlage vollständig abzubilden. Zwei bis vier konkrete Situationen auswählen, die exemplarisch für das stehen, was Menschen und Welt an diesem Tag beschäftigt.\",\"Verbindliche aktuelle Bezüge: Das Gebet MUSS mindestens zwei konkrete und am Erzeugungszeitpunkt relevante aktuelle Situationen des vergangenen Tages aufnehmen. Allgemeine Formulierungen wie 'die Krisen der Welt' oder 'alle Menschen in Not' ersetzen diese Bezüge nicht.\",\"Konkretheit aktueller Bezüge: Für jede ausgewählte Situation im Gebet erkennbar benennen, was geschehen ist oder welche konkrete Lage besteht und welche Menschen davon betroffen sind. Nur verlässliche, aktuell überprüfte Informationen verwenden; nichts erfinden.\",\"Ausgabeprüfung aktuelle Bezüge: Vor der Ausgabe prüfen, dass editorial_core.main_message und die wesentlichen Plattformtexte die mindestens zwei konkreten aktuellen Situationen tatsächlich als Fürbitte oder Gebetsanliegen enthalten.\",\"News sources: Aktuelle weltweite Nachrichtenlage sowie tagesschau.de und SWR Aktuell Baden-Württemberg prüfen. Regionale und internationale Perspektiven miteinander verbinden.\",\"News timing: Da der Text am Nachmittag des Vortags erzeugt wird, keine Formulierungen verwenden, die konkrete Ereignisse des Veröffentlichungstages voraussetzen. Bei schnell veränderlichen Nachrichten vorsichtig und zeitlich robust formulieren.\",\"Prayer structure: Vor Gott zur Ruhe kommen | dankbar auf das Gute des Tages schauen | Belastendes, Versäumtes und Unvollendetes loslassen | ausgewählte Not der Welt vor Gott bringen | Menschen anvertrauen, die in dieser Nacht leiden, wachen, arbeiten, helfen oder Angst haben | um Frieden für die Welt und das eigene Herz bitten | den Tag und die Nacht Gottes Zukunft anvertrauen.\",\"Personal perspective: Raum schaffen für das, was Menschen selbst aus diesem Tag mitbringen: Freude und Dankbarkeit, Begegnungen und Arbeit, aber auch Fehler, Streit, Sorgen, Erschöpfung und Dinge, die unerledigt geblieben sind.\",\"Personal perspective: Keine Bilanz verlangen. Der Abend ist nicht der Zeitpunkt, an dem ein Mensch beweisen muss, dass der Tag erfolgreich war. Vor Gott darf der Tag unvollendet bleiben.\",\"World perspective: Die Welt nicht ausblenden, wenn der eigene Tag endet. Konkret an Menschen denken, für die die Nacht keine selbstverständliche Zeit der Ruhe ist: Menschen im Krieg, auf der Flucht, in Krankenhäusern, in Sorge um andere, bei nächtlicher Arbeit oder in Angst.\",\"Theological key: Jürgen Moltmann. Christliche Hoffnung gründet nicht darin, dass am Ende des Tages alles gut geworden wäre. Sie gründet in Gottes verheißener Zukunft, die größer ist als das, was heute gelungen oder gescheitert ist.\",\"Theological key: Hoffnung erlaubt das Loslassen. Wir müssen die Welt nicht über Nacht selbst festhalten. Unsere Verantwortung ist wirklich, aber sie ist nicht grenzenlos. Wir dürfen das Unvollendete Gott anvertrauen.\",\"Theological key: Gottes Zukunft widerspricht der Vorstellung, Gewalt, Leid, Schuld und Tod hätten das letzte Wort. Deshalb kann das Gebet die Dunkelheit wahrnehmen, ohne ihr das letzte Wort zu überlassen.\",\"Theological key: Den gekreuzigten Gott bei denen suchen, die leiden und keine Ruhe finden. Gott nicht als distanzierten Weltenlenker darstellen, sondern als den, der Leid, Angst und Verlassenheit kennt und den Leidenden nahe ist.\",\"Theological key: Die Auferstehung eröffnet Zukunft. Der kommende Morgen kann als kleines Bild dafür anklingen: Nicht weil jeder neue Tag automatisch besser wird, sondern weil Gottes Möglichkeiten nicht an den Grenzen dieses Tages enden.\",\"Theological key: Hoffnung ist mehr als Trost. Sie hält die Sehnsucht nach Frieden, Gerechtigkeit und neuem Leben wach. Auch im Schlaf geben wir diese Hoffnung nicht auf.\",\"Language: Kurze, einfache Sätze. Ruhiger Rhythmus. Konkrete Bilder statt abstrakter theologischer Begriffe. Das Gebet soll sich zum langsamen Lesen eignen.\",\"Language: Möglichst wenig kirchliche Binnenbegriffe. Das Gebet soll auch für Menschen zugänglich sein, die mit traditioneller Gebetssprache wenig anfangen können.\",\"Language: Keine Nachrichtenzusammenfassung und keine lange Liste von Krisen. Nachrichten nur dort aufnehmen, wo sie tatsächlich zum Gebet werden.\",\"Language: Keine vorschnelle Auflösung von Leid durch Sätze wie 'Alles wird gut'. Hoffnung soll gerade dort ausgesprochen werden, wo noch nichts gut ist.\",\"Ending: Ruhig und vertrauensvoll enden. Der betende Mensch darf den Tag loslassen und schlafen. Die Welt bleibt in Gottes Hand. Gottes Zukunft kommt auch durch diese Nacht auf uns zu.\",\"Possible final movement: Gott, was heute war, legen wir in deine Hand. Was gut war. Was wehgetan hat. Was unfertig bleibt. Uns selbst und diese unruhige Welt. Schenk uns Frieden für diese Nacht und halte deine Hoffnung in uns wach.\",\"AI support notes: Aktuelle Nachrichten des Tages sichten und verifizieren | mindestens zwei konkrete aktuelle Situationen auswählen | diese Situationen ausdrücklich als Gebetsanliegen einarbeiten | kurzes Abendgebet in einfacher Sprache entwerfen | vor der Ausgabe auf konkrete aktuelle Bezüge und zeitliche Robustheit bis zum Folgetag prüfen | theologisch auf Vertröstung, Allmachtsklischees und billigen Optimismus prüfen | Caption kürzen | Alt-Text\",\"Aktuelle Bezüge geprüft: tagesschau.de meldet am 27.08.2026 mehr als 165 Tote nach der Flutwelle in Nepal und China; SWR Aktuell Baden-Württemberg meldet am 27.08.2026 das Aus für R-Pharm Germany in Illertissen mit 280 betroffenen Beschäftigten.\"]},\"platforms\":{\"facebook\":{\"text\":\"**Abendgebet**\\n\\nGott,\\nder Tag liegt hinter uns.\\nManches war gut.\\nManches blieb offen.\\nManches sitzt noch schwer im Herzen.\\n\\nWir bringen dir, was wir heute nicht zu Ende gebracht haben.\\nDie Worte, die gefehlt haben.\\nDie Müdigkeit.\\nDie Sorge.\\n\\nWir bitten dich für die Menschen in Nepal und China,\\nwo nach der Flutwelle viele Tote zu beklagen sind\\nund Familien auf Nachrichten von Vermissten warten.\\nSei den Trauernden nah.\\nStärke die, die suchen, retten und versorgen.\\n\\nWir bitten dich auch für die Beschäftigten von R-Pharm Germany in Illertissen.\\nViele von ihnen wissen heute, dass ihre Arbeit endet.\\nBewahre sie davor, den Boden unter den Füßen zu verlieren.\\nGib Kraft für die nächsten Schritte.\\n\\nUnd wir denken an alle,\\ndie heute Nacht nicht schlafen können:\\nMenschen im Krankenhaus.\\nMenschen auf der Flucht.\\nMenschen, die wachen, pflegen, fahren, löschen, helfen.\\n\\nLass unser Herz ruhig werden.\\nNicht weil alles gut ist.\\nSondern weil wir nicht alles tragen müssen.\\n\\nWas heute war, legen wir in deine Hand.\\nWas gut war.\\nWas wehgetan hat.\\nWas unfertig bleibt.\\nHalte du die Welt.\\nUnd halte uns.\\nAmen.\",\"headline\":\"Abendgebet: Was offen bleibt, darf in Gottes Hand ruhen\"},\"instagram\":{\"caption\":\"Abendgebet.\\n\\nDer Tag muss vor Gott nicht fertig sein.\\nWir legen hin, was gelungen ist. Und was offen bleibt.\\n\\nWir beten für die Menschen in Nepal und China nach der Flutwelle. Für Trauernde, Vermisste und Einsatzkräfte.\\nWir beten für die Beschäftigten von R-Pharm Germany in Illertissen, die vor dem Verlust ihrer Arbeit stehen.\\n\\nSchenk uns Frieden für diese Nacht. Und Hoffnung, die weiter reicht als dieser Tag.\\nAmen.\",\"carousel\":[{\"type\":\"text\",\"text\":\"Abendgebet\\n\\nDer Tag liegt hinter dir.\"},{\"type\":\"text\",\"text\":\"Manches war gut.\\nManches blieb offen.\\nDu musst es jetzt nicht lösen.\"},{\"type\":\"text\",\"text\":\"Wir beten für die Menschen in Nepal und China nach der Flutwelle.\\nFür Trauernde, Vermisste und Einsatzkräfte.\"},{\"type\":\"text\",\"text\":\"Wir beten für die Beschäftigten von R-Pharm Germany in Illertissen.\\nFür Halt, Würde und neue Wege.\"},{\"type\":\"text\",\"text\":\"Gott,\\nwas heute war,\\nlegen wir in deine Hand.\\nSchenk Frieden für diese Nacht.\"}]},\"mastodon\":{\"text\":\"Abendgebet.\\n\\nGott, wir legen dir diesen Tag hin.\\nDas Gute. Das Schwere. Das Unfertige.\\n\\nWir bitten dich für die Menschen in Nepal und China nach der Flutwelle. Für Trauernde, Vermisste und Einsatzkräfte.\\nWir bitten dich für die Beschäftigten von R-Pharm Germany in Illertissen, die vor dem Verlust ihrer Arbeit stehen.\\n\\nSchenk Frieden für diese Nacht. Und Hoffnung, die weiter trägt als unsere Kraft heute reicht. Amen.\"},\"bluesky\":{\"text\":\"Abendgebet: Gott, wir legen dir diesen Tag hin. Das Gute. Das Schwere. Das Unfertige. Wir beten für die Menschen in Nepal und China nach der Flutwelle und für die Beschäftigten von R-Pharm Germany in Illertissen. Schenk Frieden für diese Nacht. Amen.\"},\"story\":{\"slides\":[{\"text\":\"Abendgebet\\n\\nDer Tag liegt hinter dir.\"},{\"text\":\"Manches war gut.\\nManches blieb offen.\\nDu darfst beides Gott hinlegen.\"},{\"text\":\"Wir beten für die Menschen in Nepal und China nach der Flutwelle.\\nFür Trauernde und Einsatzkräfte.\"},{\"text\":\"Wir beten für die Beschäftigten von R-Pharm Germany in Illertissen.\\nFür Halt und neue Wege.\"},{\"text\":\"Schenk uns Frieden für diese Nacht.\\nUnd Hoffnung für morgen.\"}]},\"reel\":{\"hook\":\"Der Tag muss nicht fertig sein.\",\"script\":\"Der Tag liegt hinter dir. Vielleicht war nicht alles gut. Vielleicht ist nicht alles geschafft. Im Abendgebet darf unfertig bleiben, was unfertig ist. Wir beten für die Menschen in Nepal und China nach der Flutwelle. Und für die Beschäftigten von R-Pharm Germany in Illertissen. Gott, nimm das Schwere aus unseren festgehaltenen Händen. Schenk Frieden für diese Nacht. Und Hoffnung für morgen.\",\"shots\":[\"Ruhiges Abendlicht am Fenster\",\"Eine Hand legt Stift oder Handy beiseite\",\"Nahaufnahme einer stillen Kerze oder einer Tasse auf dem Tisch\",\"Langsame Einstellung eines dunkler werdenden Himmels\",\"Leerer Weg in der Dämmerung\"],\"duration_seconds\":25}},\"visual\":{\"concept\":\"Ruhige Abendstimmung an einem Fensterbrett. Weiches Restlicht, ein schlichter Tisch, eine Hand in entspannter Geste. Bildsprache: Loslassen, Ruhe, Hoffnung in der Dämmerung.\",\"flux_prompt\":\"Fotorealistische ruhige Abendstimmung an einem schlichten Fensterplatz, weiches blau-goldenes Dämmerlicht, ein einfacher Holztisch, eine Tasse, eine ruhende Hand, tiefe Atmosphäre von Loslassen und Geborgenheit, natürliche Farben, protestantisch zurückhaltende Bildsprache, keine Menschenmenge, kein Pathos, hohe Detailtiefe\",\"negative_prompt\":\"text, letters, logo, watermark\",\"formats\":[\"4:5\",\"9:16\",\"1.91:1\"],\"alt_text\":\"Ein schlichter Tisch an einem Fenster im Abendlicht. Auf dem Tisch steht eine Tasse, daneben ruht eine Hand. Draußen wird der Himmel dunkel. Das Bild wirkt still und entlastend.\"},\"qa\":{\"warnings\":[\"Aktuelle Bezüge vor Veröffentlichung erneut kurz gegen tagesschau.de und SWR Aktuell Baden-Württemberg prüfen, da sich Lagen bis zur Freigabe ändern können.\",\"Alt text redaktionell mit finalem Motiv abgleichen.\",\"Gebet nennt zwei konkrete aktuelle Situationen: Flutwelle in Nepal und China; Arbeitsplatzverlust bei R-Pharm Germany in Illertissen.\"],\"approved\":false},\"metadata\":{\"model\":\"gpt-5\",\"generated_at\":\"2026-08-27T00:00:00Z\",\"prompt_version\":\"1.0\",\"assets\":[\"facebook_feed\",\"instagram_feed\",\"instagram_story\",\"mastodon_post\",\"bluesky_post\",\"reel_script\"]}}"
+}
