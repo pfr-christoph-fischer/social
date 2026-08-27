@@ -1,0 +1,71 @@
+{
+  "checks": [
+    {
+      "check": "alt-text-present",
+      "findings": [],
+      "status": "passed"
+    },
+    {
+      "check": "flux-prompt-no-text",
+      "findings": [],
+      "status": "passed"
+    },
+    {
+      "check": "required-fields",
+      "findings": [],
+      "status": "passed"
+    },
+    {
+      "check": "platform-lengths",
+      "findings": [],
+      "status": "passed"
+    },
+    {
+      "check": "current-events",
+      "findings": [
+        {
+          "check": "current-events",
+          "message": "Current-event or local factual details are still required. Verify that no details were invented.",
+          "severity": "warning"
+        }
+      ],
+      "status": "warning"
+    },
+    {
+      "check": "privacy",
+      "findings": [
+        {
+          "check": "privacy",
+          "message": "Privacy review required for Reli/Gemeinde content: confirm anonymization, consent, and local factual accuracy.",
+          "severity": "warning"
+        }
+      ],
+      "status": "warning"
+    },
+    {
+      "check": "song-lyrics",
+      "findings": [],
+      "status": "passed"
+    },
+    {
+      "check": "scripture-citation",
+      "findings": [],
+      "status": "passed"
+    },
+    {
+      "check": "predigt-preview-input",
+      "findings": [],
+      "status": "passed"
+    }
+  ],
+  "content_path": "content/2026-08-27/post-0018/content.json",
+  "errors": [],
+  "post_id": "post-0018",
+  "ready_for_approval": true,
+  "status_after_run": "zur Prüfung",
+  "status_before_run": "in Arbeit",
+  "warnings": [
+    "Current-event or local factual details are still required. Verify that no details were invented.",
+    "Privacy review required for Reli/Gemeinde content: confirm anonymization, consent, and local factual accuracy."
+  ]
+}
