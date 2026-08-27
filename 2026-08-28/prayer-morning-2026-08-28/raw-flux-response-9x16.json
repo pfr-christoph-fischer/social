@@ -1,0 +1,52 @@
+{
+  "delivery_url": "https://delivery.eu2.bfl.ai/durable/2026082715/5e1f69ea-538b-4d66-962e-9be995966f07/f9/521349c76e1682/c76e1682db7544f8925869b93a4012db/sample.jpeg?se=2026-08-27T15%3A22%3A01Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=OtuZ7NiHiqgN3EyJgWRqc1j6u4Et44csp55qSnuOmXQ%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "d3457d5c-eebd-4932-8652-e3054cdb5f30",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "d3457d5c-eebd-4932-8652-e3054cdb5f30",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "d3457d5c-eebd-4932-8652-e3054cdb5f30",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "d3457d5c-eebd-4932-8652-e3054cdb5f30",
+      "status": "Ready",
+      "result": {
+        "start_time": 1787843520.1848001,
+        "prompt": "Ein Zimmermann hämmert einen Nagel in einen Dachbalken, no text, no letters, no typography, no logo, no watermark",
+        "seed": 2197458666,
+        "sample": "https://delivery.eu2.bfl.ai/durable/2026082715/5e1f69ea-538b-4d66-962e-9be995966f07/f9/521349c76e1682/c76e1682db7544f8925869b93a4012db/sample.jpeg?se=2026-08-27T15%3A22%3A01Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=OtuZ7NiHiqgN3EyJgWRqc1j6u4Et44csp55qSnuOmXQ%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "d3457d5c-eebd-4932-8652-e3054cdb5f30",
+    "polling_url": "https://api.eu2.bfl.ai/v1/get_result?id=d3457d5c-eebd-4932-8652-e3054cdb5f30",
+    "cost": 1.5,
+    "input_mp": 0,
+    "output_mp": 1.98
+  }
+}

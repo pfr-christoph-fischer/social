@@ -97,13 +97,17 @@
     "alt_text": "Ein helleEin Zimmermann hämmert einen Nagel in einen Dachbalkenr Raum am Morgen mit weichem Licht. Auf einem schlichten Tisch liegt wenig Arbeitsmaterial, daneben eine Tasse. Die Szene wirkt ruhig, gesammelt und hoffnungsvoll."
   },
   "qa": {
-    "approved": true,
-    "warnings": []
+    "warnings": [],
+    "approved": true
   },
   "metadata": {
     "model": "gpt-5.4-2026-03-05",
     "generated_at": "2026-08-27T14:00:42.941Z",
     "prompt_version": "1.0",
-    "assets": []
+    "assets": [
+      "assets/background-1.91x1.webp",
+      "assets/background-4x5.webp",
+      "assets/background-9x16.webp"
+    ]
   }
 }
