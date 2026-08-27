@@ -1,6 +1,6 @@
 {
   "id": "post-0018",
-  "status": "freigegeben",
+  "status": "in Arbeit",
   "needs_input": false,
   "source": {
     "calendar_post_id": "post-0018",
@@ -32,27 +32,27 @@
   },
   "platforms": {
     "facebook": {
-      "text": "Heute aus der Reihe „Reli fragt“.\n\n„Kommen Tiere in den Himmel?“\n\nEine der Fragen, die mir in Reli immer wieder begegnet.\nSie ist mehr als eine Sachfrage. In ihr steckt oft Zuneigung, Verlust und die Hoffnung, dass bei Gott nichts verloren geht, was wir lieben.\n\nEine mögliche offene Antwort:\nDie Bibel gibt darauf keine einfache, direkte Antwort. Gleichzeitig erzählt der Glaube von Gottes Liebe zu seiner ganzen Schöpfung. Darum hoffen viele Christ:innen, dass bei Gott nichts verloren geht, was er liebt.\n\nMich interessiert:\nWelche Frage rund um Himmel, Hoffnung und Gottes Schöpfung beschäftigt euch?",
-      "headline": "Reli fragt: Kommen Tiere in den Himmel?"
+      "headline": "Reli fragt: Kommen Tiere in den Himmel?",
+      "text": "Heute aus der Reihe „Reli fragt“.\n\n„Kommen Tiere in den Himmel?“\n\nEine der Fragen, die mir in Reli immer wieder begegnet.\nSie ist mehr als eine Sachfrage. In ihr steckt oft Zuneigung, Verlust und die Hoffnung, dass bei Gott nichts verloren geht, was wir lieben.\n\nEine mögliche offene Antwort:\nDie Bibel gibt darauf keine einfache, direkte Antwort. Gleichzeitig erzählt der Glaube von Gottes Liebe zu seiner ganzen Schöpfung. Darum hoffen viele Christ:innen, dass bei Gott nichts verloren geht, was er liebt.\n\nMich interessiert:\nWelche Frage rund um Himmel, Hoffnung und Gottes Schöpfung beschäftigt euch?"
     },
     "instagram": {
       "caption": "Reli fragt.\n\n„Kommen Tiere in den Himmel?“\n\nDiese Frage bleibt hängen. Nicht, weil sie leicht zu beantworten wäre. Sondern weil sie von Hoffnung, Verlust und Gottes Fürsorge erzählt.\n\nDarum lohnt sich eine offene Antwort:\nDie Bibel gibt darauf keine ganz einfache, direkte Antwort.\nUnd doch spricht der Glaube davon, dass Gott seine ganze Schöpfung liebt.\nDarum hoffen viele Christ:innen: Bei Gott geht nichts verloren, was er liebt.\n\nFrage an euch:\nWelche Frage rund um Himmel, Hoffnung und Gottes Schöpfung beschäftigt euch?",
       "carousel": [
         {
-          "type": "text",
-          "text": "Reli fragt\n\n„Kommen Tiere in den Himmel?“"
+          "text": "Reli fragt\n\n„Kommen Tiere in den Himmel?“",
+          "type": "text"
         },
         {
-          "type": "text",
-          "text": "Eine der Fragen, die mir in Reli immer wieder begegnet.\n\nIn dieser Frage steckt oft mehr als Neugier: Hoffnung, Trauer und die Sehnsucht, dass bei Gott nichts verloren geht."
+          "text": "Eine der Fragen, die mir in Reli immer wieder begegnet.\n\nIn dieser Frage steckt oft mehr als Neugier: Hoffnung, Trauer und die Sehnsucht, dass bei Gott nichts verloren geht.",
+          "type": "text"
         },
         {
-          "type": "text",
-          "text": "Eine offene Antwort\n\nDie Bibel gibt darauf keine einfache, direkte Antwort. Aber der Glaube erzählt von Gottes Liebe zu seiner ganzen Schöpfung."
+          "text": "Eine offene Antwort\n\nDie Bibel gibt darauf keine einfache, direkte Antwort. Aber der Glaube erzählt von Gottes Liebe zu seiner ganzen Schöpfung.",
+          "type": "text"
         },
         {
-          "type": "text",
-          "text": "An die Community\n\nWelche Frage rund um Himmel, Hoffnung und Gottes Schöpfung beschäftigt euch?"
+          "text": "An die Community\n\nWelche Frage rund um Himmel, Hoffnung und Gottes Schöpfung beschäftigt euch?",
+          "type": "text"
         }
       ]
     },
@@ -93,7 +93,7 @@
   },
   "visual": {
     "concept": "Neutrales Symbolbild für eine ehrliche Frage über Tiere, Himmel und Hoffnung im Religionsunterricht: ein ruhiger Lernmoment ohne Personenbezug, mit offenen Materialien und tröstlicher, nachdenklicher Atmosphäre.",
-    "flux_prompt": "Ein elfjähriges Kind streichelt eine Katze.",
+    "flux_prompt": "Zwei Zwergkaninchen auf einem kurz geschnittenen Rasen.",
     "negative_prompt": "text, letters, logo, watermark",
     "formats": [
       "4:5",
@@ -103,11 +103,11 @@
     "alt_text": "Neutrales Symbolbild: Auf einem Tisch liegen ein aufgeschlagenes Buch, ein Heft und ein Stift in weichem Licht. Die Szene wirkt ruhig, tröstlich und nachdenklich, ohne Personen oder erkennbare Details."
   },
   "qa": {
+    "approved": false,
     "warnings": [
       "Current-event or local factual details are still required. Verify that no details were invented.",
       "Privacy review required for Reli/Gemeinde content: confirm anonymization, consent, and local factual accuracy."
-    ],
-    "approved": true
+    ]
   },
   "metadata": {
     "model": "gpt-5.4-2026-03-05",
