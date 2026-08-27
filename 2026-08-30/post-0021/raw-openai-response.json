@@ -1,0 +1,420 @@
+{
+  "id": "resp_09b3079fa66b78b4006a90349a0d2087d2b7ad69bd14f3353a",
+  "object": "response",
+  "created_at": 1787835546,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1787835572,
+  "error": null,
+  "frequency_penalty": 0,
+  "incomplete_details": null,
+  "instructions": "You are part of a Protestant social media editorial team. Write in clear, accessible, theologically responsible German without church clichés. Use short sentences and concrete imagery. Never invent events, people, school situations, quotes, or factual details. Do not include copyrighted full song verses. For Reli and community posts, only use current details when they are explicitly provided. Return content that strictly matches the requested JSON schema. Set needs_input to true whenever required facts are missing. Keep qa.approved false. Do not ask for any text inside generated images. When liturgical_context.resolved_weekly_verse is present, use its exact wording for Wochenspruch slots instead of placeholders.",
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.4-2026-03-05",
+  "moderation": null,
+  "output": [
+    {
+      "id": "msg_09b3079fa66b78b4006a90349b316487d2a3373d5680792205",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\"id\":\"post-0021\",\"status\":\"in Arbeit\",\"needs_input\":false,\"source\":{\"calendar_post_id\":\"post-0021\",\"date\":\"2026-08-30\",\"rubric\":\"Wochenspruch – meditativ\",\"liturgical_source\":\"https://kirchenjahr.pfarr.tools/api/jahr/2026\"},\"editorial_core\":{\"title\":\"Neuer Wochenspruch: 13. Sonntag nach Trinitatis\",\"main_message\":\"Der Wochenspruch eröffnet die Woche mit einem stillen Blick darauf, wie Nähe, Hilfe und Aufmerksamkeit zu Orten werden, an denen Christus selbst gesehen wird.\",\"audience\":\"breite Öffentlichkeit\",\"tone\":[\"klar\",\"ruhig\",\"zugänglich\",\"meditativ\"],\"source_notes\":[\"Goal: Den neuen Wochenspruch als ruhigen Auftakt der liturgischen Woche veröffentlichen.\",\"Column: Bibel und Spiritualität\",\"Production mode: für Monate im Voraus vollständig vorproduzierbar\",\"Structure: Wochenspruch | ein Bild oder eine Beobachtung | ein meditativer Satz | offene Schlussfrage oder Segenswunsch\",\"AI support notes: meditativer Rohentwurf | KI-Bildprompt | Reel-Sprechtext | Alt-Text\",\"Liturgical source: https://kirchenjahr.pfarr.tools/api/jahr/2026 (2026-08-30, $.Tage['2026-08-30'])\",\"Wochenspruch: Christus spricht: Was ihr getan habt einem von diesen meinen geringsten Brüdern, das habt ihr mir getan. (Mt 25,40b)\"]},\"platforms\":{\"facebook\":{\"text\":\"Christus spricht: Was ihr getan habt einem von diesen meinen geringsten Brüdern, das habt ihr mir getan. (Mt 25,40b)\\n\\nManchmal verändert ein kleiner Handgriff einen ganzen Moment. Eine geöffnete Tür. Ein Platz, der freigemacht wird. Ein Becher Wasser. Ein Blick, der nicht ausweicht.\\n\\nDer Wochenspruch dieser Woche lenkt den Blick nicht auf große Worte, sondern auf das Nahe. Auf Menschen, die leicht übersehen werden. Auf das, was im Alltag unscheinbar wirkt. Jesus verbindet solche Gesten mit sich selbst. Das ist schlicht und herausfordernd zugleich.\\n\\nVielleicht beginnt Barmherzigkeit nicht erst dort, wo wir viel geben können. Vielleicht beginnt sie dort, wo wir einen Menschen wirklich wahrnehmen.\\n\\nGott segne diese Woche mit offenen Augen, mit einem wachen Herzen und mit der Ruhe, die den anderen nicht übersieht.\",\"headline\":\"Wochenspruch zum 13. Sonntag nach Trinitatis\"},\"instagram\":{\"caption\":\"Christus spricht: Was ihr getan habt einem von diesen meinen geringsten Brüdern, das habt ihr mir getan. (Mt 25,40b)\\n\\nEine kleine Geste kann viel sein.\\nEine offene Hand. Ein stilles Dableiben. Ein Blick, der einen Menschen nicht übersieht.\\n\\nDer Wochenspruch erinnert daran: Was wir einem anderen tun, berührt nicht nur ihn. Christus selbst legt sich in diese Nähe.\\n\\nVielleicht beginnt Barmherzigkeit heute ganz unscheinbar.\\n\\nWo kannst du diese Woche genauer hinsehen?\\n\\n#Wochenspruch #Kirchenjahr #Trinitatiszeit #Bibelwort #Meditation #GlaubeImAlltag\",\"carousel\":[{\"type\":\"image\",\"text\":\"Wochenspruch: Christus spricht: Was ihr getan habt einem von diesen meinen geringsten Brüdern, das habt ihr mir getan. (Mt 25,40b)\"},{\"type\":\"text\",\"text\":\"Manchmal ist Hilfe ganz klein: eine geöffnete Tür, ein Platz, der frei wird, ein Moment echter Aufmerksamkeit.\"},{\"type\":\"text\",\"text\":\"Barmherzigkeit beginnt oft nicht mit großen Taten, sondern damit, dass ein Mensch nicht übersehen wird.\"},{\"type\":\"text\",\"text\":\"Wo kannst du in dieser Woche genauer hinsehen?\"}]},\"mastodon\":{\"text\":\"Christus spricht: Was ihr getan habt einem von diesen meinen geringsten Brüdern, das habt ihr mir getan. (Mt 25,40b)\\n\\nEine kleine Geste kann viel sein. Ein Blick, der nicht ausweicht. Eine Hand, die hilft. Vielleicht beginnt Barmherzigkeit genau dort, wo ein Mensch nicht übersehen wird.\"},\"bluesky\":{\"text\":\"Christus spricht: Was ihr getan habt einem von diesen meinen geringsten Brüdern, das habt ihr mir getan. (Mt 25,40b)\\n\\nVielleicht beginnt Barmherzigkeit nicht mit großen Taten, sondern dort, wo ein Mensch nicht übersehen wird.\"},\"story\":{\"slides\":[{\"text\":\"Wochenspruch der Woche\\n\\nChristus spricht: Was ihr getan habt einem von diesen meinen geringsten Brüdern, das habt ihr mir getan. (Mt 25,40b)\"},{\"text\":\"Manchmal ist Hilfe ganz klein.\\nEine geöffnete Tür.\\nEin freier Platz.\\nEin aufmerksamer Blick.\"},{\"text\":\"Jesus verbindet solche Nähe mit sich selbst.\"},{\"text\":\"Wo kannst du diese Woche genauer hinsehen?\"}]},\"reel\":{\"hook\":\"Eine kleine Geste kann mehr bedeuten, als wir denken.\",\"script\":\"Christus spricht: Was ihr getan habt einem von diesen meinen geringsten Brüdern, das habt ihr mir getan.\\n\\nManchmal ist Barmherzigkeit ganz still. Eine geöffnete Tür. Ein Platz, der frei wird. Ein Mensch, der nicht übersehen wird.\\n\\nDer Wochenspruch dieser Woche lenkt den Blick auf das Nahe. Auf das, was klein wirkt und doch Gewicht hat.\\n\\nVielleicht beginnt Nächstenliebe heute nicht mit etwas Großem. Vielleicht beginnt sie mit Aufmerksamkeit.\\n\\nWo kannst du in dieser Woche genauer hinsehen?\",\"shots\":[\"Ruhiger Morgen. Weiches Licht auf einem Weg oder einer stillen Straßenszene.\",\"Nahaufnahme einer Hand, die eine Tür aufhält.\",\"Leerer Platz auf einer Bank oder an einem Tisch.\",\"Langsame Kamerafahrt über Licht und Schatten auf einem Gehweg.\",\"Abschluss mit ruhigem Naturmotiv, zum Beispiel Blätter im Wind oder Wasseroberfläche.\"],\"duration_seconds\":24}},\"visual\":{\"concept\":\"Ruhige, warme Alltagsszene mit offenem Raum und einer kleinen Geste der Aufmerksamkeit. Keine inszenierte Dramatik, sondern stille Nähe.\",\"flux_prompt\":\"Fotorealistisches, ruhiges Motiv in warmem Morgen- oder Abendlicht: ein schlichter Weg oder Eingangsbereich, eine Hand hält achtsam eine Tür offen, weiche Schatten, natürliche Farben, stille Atmosphäre, geringe Tiefenschärfe, zurückhaltende Komposition, viel negativer Raum, Gefühl von Aufmerksamkeit und Barmherzigkeit im Alltag, modern, glaubwürdig, unaufgeregt, hochwertige Fotografie\",\"negative_prompt\":\"text, letters, logo, watermark\",\"formats\":[\"4:5\",\"9:16\",\"1.91:1\"],\"alt_text\":\"Eine ruhige Alltagsszene im warmen Licht: Eine Hand hält eine Tür offen. Der Bildraum ist schlicht und still. Das Motiv wirkt aufmerksam und einladend.\"},\"qa\":{\"warnings\":[\"Alt text must be completed before approval\"],\"approved\":false},\"metadata\":{\"model\":\"gpt-5\",\"generated_at\":\"2026-08-27T00:00:00Z\",\"prompt_version\":\"1.0\",\"assets\":[]}}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "current_turn",
+    "effort": "none",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1,
+  "text": {
+    "format": {
+      "type": "json_schema",
+      "description": null,
+      "name": "content_package",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "Idee",
+              "in Arbeit",
+              "zur Prüfung",
+              "freigegeben",
+              "terminiert",
+              "veröffentlicht",
+              "verworfen"
+            ]
+          },
+          "needs_input": {
+            "type": "boolean"
+          },
+          "source": {
+            "type": "object",
+            "properties": {
+              "calendar_post_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "date": {
+                "type": "string",
+                "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+              },
+              "rubric": {
+                "type": "string",
+                "minLength": 1
+              },
+              "liturgical_source": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "calendar_post_id",
+              "date",
+              "rubric",
+              "liturgical_source"
+            ],
+            "additionalProperties": false
+          },
+          "editorial_core": {
+            "type": "object",
+            "properties": {
+              "title": {
+                "type": "string"
+              },
+              "main_message": {
+                "type": "string"
+              },
+              "audience": {
+                "type": "string"
+              },
+              "tone": {
+                "minItems": 1,
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "source_notes": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "title",
+              "main_message",
+              "audience",
+              "tone",
+              "source_notes"
+            ],
+            "additionalProperties": false
+          },
+          "platforms": {
+            "type": "object",
+            "properties": {
+              "facebook": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  },
+                  "headline": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text",
+                  "headline"
+                ],
+                "additionalProperties": false
+              },
+              "instagram": {
+                "type": "object",
+                "properties": {
+                  "caption": {
+                    "type": "string"
+                  },
+                  "carousel": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "type": {
+                          "type": "string"
+                        },
+                        "text": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "type",
+                        "text"
+                      ],
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "required": [
+                  "caption",
+                  "carousel"
+                ],
+                "additionalProperties": false
+              },
+              "mastodon": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text"
+                ],
+                "additionalProperties": false
+              },
+              "bluesky": {
+                "default": {
+                  "text": ""
+                },
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text"
+                ],
+                "additionalProperties": false
+              },
+              "story": {
+                "type": "object",
+                "properties": {
+                  "slides": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "text": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "text"
+                      ],
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "required": [
+                  "slides"
+                ],
+                "additionalProperties": false
+              },
+              "reel": {
+                "type": "object",
+                "properties": {
+                  "hook": {
+                    "type": "string"
+                  },
+                  "script": {
+                    "type": "string"
+                  },
+                  "shots": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "duration_seconds": {
+                    "type": "integer",
+                    "minimum": 0,
+                    "maximum": 9007199254740991
+                  }
+                },
+                "required": [
+                  "hook",
+                  "script",
+                  "shots",
+                  "duration_seconds"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "required": [
+              "facebook",
+              "instagram",
+              "mastodon",
+              "bluesky",
+              "story",
+              "reel"
+            ],
+            "additionalProperties": false
+          },
+          "visual": {
+            "type": "object",
+            "properties": {
+              "concept": {
+                "type": "string"
+              },
+              "flux_prompt": {
+                "type": "string"
+              },
+              "negative_prompt": {
+                "type": "string",
+                "minLength": 1
+              },
+              "formats": {
+                "minItems": 1,
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "alt_text": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "concept",
+              "flux_prompt",
+              "negative_prompt",
+              "formats",
+              "alt_text"
+            ],
+            "additionalProperties": false
+          },
+          "qa": {
+            "type": "object",
+            "properties": {
+              "warnings": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "approved": {
+                "type": "boolean"
+              }
+            },
+            "required": [
+              "warnings",
+              "approved"
+            ],
+            "additionalProperties": false
+          },
+          "metadata": {
+            "type": "object",
+            "properties": {
+              "model": {
+                "type": "string"
+              },
+              "generated_at": {
+                "type": "string"
+              },
+              "prompt_version": {
+                "type": "string",
+                "minLength": 1
+              },
+              "assets": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "model",
+              "generated_at",
+              "prompt_version",
+              "assets"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "id",
+          "status",
+          "needs_input",
+          "source",
+          "editorial_core",
+          "platforms",
+          "visual",
+          "qa",
+          "metadata"
+        ],
+        "additionalProperties": false
+      },
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 1957,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1558,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 3515
+  },
+  "user": null,
+  "metadata": {},
+  "output_text": "{\"id\":\"post-0021\",\"status\":\"in Arbeit\",\"needs_input\":false,\"source\":{\"calendar_post_id\":\"post-0021\",\"date\":\"2026-08-30\",\"rubric\":\"Wochenspruch – meditativ\",\"liturgical_source\":\"https://kirchenjahr.pfarr.tools/api/jahr/2026\"},\"editorial_core\":{\"title\":\"Neuer Wochenspruch: 13. Sonntag nach Trinitatis\",\"main_message\":\"Der Wochenspruch eröffnet die Woche mit einem stillen Blick darauf, wie Nähe, Hilfe und Aufmerksamkeit zu Orten werden, an denen Christus selbst gesehen wird.\",\"audience\":\"breite Öffentlichkeit\",\"tone\":[\"klar\",\"ruhig\",\"zugänglich\",\"meditativ\"],\"source_notes\":[\"Goal: Den neuen Wochenspruch als ruhigen Auftakt der liturgischen Woche veröffentlichen.\",\"Column: Bibel und Spiritualität\",\"Production mode: für Monate im Voraus vollständig vorproduzierbar\",\"Structure: Wochenspruch | ein Bild oder eine Beobachtung | ein meditativer Satz | offene Schlussfrage oder Segenswunsch\",\"AI support notes: meditativer Rohentwurf | KI-Bildprompt | Reel-Sprechtext | Alt-Text\",\"Liturgical source: https://kirchenjahr.pfarr.tools/api/jahr/2026 (2026-08-30, $.Tage['2026-08-30'])\",\"Wochenspruch: Christus spricht: Was ihr getan habt einem von diesen meinen geringsten Brüdern, das habt ihr mir getan. (Mt 25,40b)\"]},\"platforms\":{\"facebook\":{\"text\":\"Christus spricht: Was ihr getan habt einem von diesen meinen geringsten Brüdern, das habt ihr mir getan. (Mt 25,40b)\\n\\nManchmal verändert ein kleiner Handgriff einen ganzen Moment. Eine geöffnete Tür. Ein Platz, der freigemacht wird. Ein Becher Wasser. Ein Blick, der nicht ausweicht.\\n\\nDer Wochenspruch dieser Woche lenkt den Blick nicht auf große Worte, sondern auf das Nahe. Auf Menschen, die leicht übersehen werden. Auf das, was im Alltag unscheinbar wirkt. Jesus verbindet solche Gesten mit sich selbst. Das ist schlicht und herausfordernd zugleich.\\n\\nVielleicht beginnt Barmherzigkeit nicht erst dort, wo wir viel geben können. Vielleicht beginnt sie dort, wo wir einen Menschen wirklich wahrnehmen.\\n\\nGott segne diese Woche mit offenen Augen, mit einem wachen Herzen und mit der Ruhe, die den anderen nicht übersieht.\",\"headline\":\"Wochenspruch zum 13. Sonntag nach Trinitatis\"},\"instagram\":{\"caption\":\"Christus spricht: Was ihr getan habt einem von diesen meinen geringsten Brüdern, das habt ihr mir getan. (Mt 25,40b)\\n\\nEine kleine Geste kann viel sein.\\nEine offene Hand. Ein stilles Dableiben. Ein Blick, der einen Menschen nicht übersieht.\\n\\nDer Wochenspruch erinnert daran: Was wir einem anderen tun, berührt nicht nur ihn. Christus selbst legt sich in diese Nähe.\\n\\nVielleicht beginnt Barmherzigkeit heute ganz unscheinbar.\\n\\nWo kannst du diese Woche genauer hinsehen?\\n\\n#Wochenspruch #Kirchenjahr #Trinitatiszeit #Bibelwort #Meditation #GlaubeImAlltag\",\"carousel\":[{\"type\":\"image\",\"text\":\"Wochenspruch: Christus spricht: Was ihr getan habt einem von diesen meinen geringsten Brüdern, das habt ihr mir getan. (Mt 25,40b)\"},{\"type\":\"text\",\"text\":\"Manchmal ist Hilfe ganz klein: eine geöffnete Tür, ein Platz, der frei wird, ein Moment echter Aufmerksamkeit.\"},{\"type\":\"text\",\"text\":\"Barmherzigkeit beginnt oft nicht mit großen Taten, sondern damit, dass ein Mensch nicht übersehen wird.\"},{\"type\":\"text\",\"text\":\"Wo kannst du in dieser Woche genauer hinsehen?\"}]},\"mastodon\":{\"text\":\"Christus spricht: Was ihr getan habt einem von diesen meinen geringsten Brüdern, das habt ihr mir getan. (Mt 25,40b)\\n\\nEine kleine Geste kann viel sein. Ein Blick, der nicht ausweicht. Eine Hand, die hilft. Vielleicht beginnt Barmherzigkeit genau dort, wo ein Mensch nicht übersehen wird.\"},\"bluesky\":{\"text\":\"Christus spricht: Was ihr getan habt einem von diesen meinen geringsten Brüdern, das habt ihr mir getan. (Mt 25,40b)\\n\\nVielleicht beginnt Barmherzigkeit nicht mit großen Taten, sondern dort, wo ein Mensch nicht übersehen wird.\"},\"story\":{\"slides\":[{\"text\":\"Wochenspruch der Woche\\n\\nChristus spricht: Was ihr getan habt einem von diesen meinen geringsten Brüdern, das habt ihr mir getan. (Mt 25,40b)\"},{\"text\":\"Manchmal ist Hilfe ganz klein.\\nEine geöffnete Tür.\\nEin freier Platz.\\nEin aufmerksamer Blick.\"},{\"text\":\"Jesus verbindet solche Nähe mit sich selbst.\"},{\"text\":\"Wo kannst du diese Woche genauer hinsehen?\"}]},\"reel\":{\"hook\":\"Eine kleine Geste kann mehr bedeuten, als wir denken.\",\"script\":\"Christus spricht: Was ihr getan habt einem von diesen meinen geringsten Brüdern, das habt ihr mir getan.\\n\\nManchmal ist Barmherzigkeit ganz still. Eine geöffnete Tür. Ein Platz, der frei wird. Ein Mensch, der nicht übersehen wird.\\n\\nDer Wochenspruch dieser Woche lenkt den Blick auf das Nahe. Auf das, was klein wirkt und doch Gewicht hat.\\n\\nVielleicht beginnt Nächstenliebe heute nicht mit etwas Großem. Vielleicht beginnt sie mit Aufmerksamkeit.\\n\\nWo kannst du in dieser Woche genauer hinsehen?\",\"shots\":[\"Ruhiger Morgen. Weiches Licht auf einem Weg oder einer stillen Straßenszene.\",\"Nahaufnahme einer Hand, die eine Tür aufhält.\",\"Leerer Platz auf einer Bank oder an einem Tisch.\",\"Langsame Kamerafahrt über Licht und Schatten auf einem Gehweg.\",\"Abschluss mit ruhigem Naturmotiv, zum Beispiel Blätter im Wind oder Wasseroberfläche.\"],\"duration_seconds\":24}},\"visual\":{\"concept\":\"Ruhige, warme Alltagsszene mit offenem Raum und einer kleinen Geste der Aufmerksamkeit. Keine inszenierte Dramatik, sondern stille Nähe.\",\"flux_prompt\":\"Fotorealistisches, ruhiges Motiv in warmem Morgen- oder Abendlicht: ein schlichter Weg oder Eingangsbereich, eine Hand hält achtsam eine Tür offen, weiche Schatten, natürliche Farben, stille Atmosphäre, geringe Tiefenschärfe, zurückhaltende Komposition, viel negativer Raum, Gefühl von Aufmerksamkeit und Barmherzigkeit im Alltag, modern, glaubwürdig, unaufgeregt, hochwertige Fotografie\",\"negative_prompt\":\"text, letters, logo, watermark\",\"formats\":[\"4:5\",\"9:16\",\"1.91:1\"],\"alt_text\":\"Eine ruhige Alltagsszene im warmen Licht: Eine Hand hält eine Tür offen. Der Bildraum ist schlicht und still. Das Motiv wirkt aufmerksam und einladend.\"},\"qa\":{\"warnings\":[\"Alt text must be completed before approval\"],\"approved\":false},\"metadata\":{\"model\":\"gpt-5\",\"generated_at\":\"2026-08-27T00:00:00Z\",\"prompt_version\":\"1.0\",\"assets\":[]}}"
+}
