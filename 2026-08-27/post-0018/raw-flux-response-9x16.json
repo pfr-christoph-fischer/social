@@ -1,11 +1,11 @@
 {
-  "delivery_url": "https://delivery.us2.bfl.ai/durable/2026082714/5e1f69ea-538b-4d66-962e-9be995966f07/18/988072b5c83bee/b5c83beee79d46f4b89696686f819fa2/sample.jpeg?se=2026-08-27T14%3A23%3A08Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=RM8BWZxXurtjNRv6QJN/GfQScJqQcZeZOLVPAjjC33w%3D",
+  "delivery_url": "https://delivery.us7.bfl.ai/durable/2026082714/5e1f69ea-538b-4d66-962e-9be995966f07/a9/27769019430be8/19430be89ba04eb79334dbaa0ae5cdae/sample.jpeg?se=2026-08-27T14%3A44%3A37Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=vyNwIPMhgb3zjcFxjSQw7mw5EJJjyucahk5O9GFHPfA%3D",
   "download_headers": {
     "content_type": "image/jpeg"
   },
   "polls": [
     {
-      "id": "39ef2b29-15be-42ab-9b1f-b89ec0e7a319",
+      "id": "2a5abffa-687c-4e73-b3f4-769c3cfe6a93",
       "status": "Pending",
       "result": null,
       "progress": null,
@@ -13,7 +13,7 @@
       "preview": null
     },
     {
-      "id": "39ef2b29-15be-42ab-9b1f-b89ec0e7a319",
+      "id": "2a5abffa-687c-4e73-b3f4-769c3cfe6a93",
       "status": "Pending",
       "result": null,
       "progress": null,
@@ -21,13 +21,13 @@
       "preview": null
     },
     {
-      "id": "39ef2b29-15be-42ab-9b1f-b89ec0e7a319",
+      "id": "2a5abffa-687c-4e73-b3f4-769c3cfe6a93",
       "status": "Ready",
       "result": {
-        "start_time": 1787839986.3119688,
-        "prompt": "Ein elfjähriges Kind streichelt eine Katze., no text, no letters, no typography, no logo, no watermark",
-        "seed": 2279783515,
-        "sample": "https://delivery.us2.bfl.ai/durable/2026082714/5e1f69ea-538b-4d66-962e-9be995966f07/18/988072b5c83bee/b5c83beee79d46f4b89696686f819fa2/sample.jpeg?se=2026-08-27T14%3A23%3A08Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=RM8BWZxXurtjNRv6QJN/GfQScJqQcZeZOLVPAjjC33w%3D"
+        "start_time": 1787841276.0024104,
+        "prompt": "Zwei Zwergkaninchen auf einem kurz geschnittenen Rasen., no text, no letters, no typography, no logo, no watermark",
+        "seed": 3938548111,
+        "sample": "https://delivery.us7.bfl.ai/durable/2026082714/5e1f69ea-538b-4d66-962e-9be995966f07/a9/27769019430be8/19430be89ba04eb79334dbaa0ae5cdae/sample.jpeg?se=2026-08-27T14%3A44%3A37Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=vyNwIPMhgb3zjcFxjSQw7mw5EJJjyucahk5O9GFHPfA%3D"
       },
       "progress": null,
       "details": null,
@@ -35,8 +35,8 @@
     }
   ],
   "submission": {
-    "id": "39ef2b29-15be-42ab-9b1f-b89ec0e7a319",
-    "polling_url": "https://api.us2.bfl.ai/v1/get_result?id=39ef2b29-15be-42ab-9b1f-b89ec0e7a319",
+    "id": "2a5abffa-687c-4e73-b3f4-769c3cfe6a93",
+    "polling_url": "https://api.us7.bfl.ai/v1/get_result?id=2a5abffa-687c-4e73-b3f4-769c3cfe6a93",
     "cost": 1.5,
     "input_mp": 0,
     "output_mp": 1.98
