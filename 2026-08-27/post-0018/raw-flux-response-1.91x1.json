@@ -1,11 +1,11 @@
 {
-  "delivery_url": "https://delivery.eu2.bfl.ai/durable/2026082713/5e1f69ea-538b-4d66-962e-9be995966f07/fc/731970e66d211a/e66d211a2937469b975eff5499119f87/sample.jpeg?se=2026-08-27T13%3A45%3A32Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=Lk5kQGcJTZklPbHjwy/eRXfXv6kZ7486HqZC7TQi15M%3D",
+  "delivery_url": "https://delivery.eu2.bfl.ai/durable/2026082714/5e1f69ea-538b-4d66-962e-9be995966f07/f8/983844c012f6ab/c012f6ab0d3d4018addcd7aa40aec0e9/sample.jpeg?se=2026-08-27T14%3A23%3A04Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=cTNokBPV/CFJHt4ZhSjiIdBWq4nRLtBWiCM4yjx9sFM%3D",
   "download_headers": {
     "content_type": "image/jpeg"
   },
   "polls": [
     {
-      "id": "58f578c0-9205-46f3-8bdc-84273ca9100a",
+      "id": "dd455279-1940-459b-8fad-92477dd214e3",
       "status": "Pending",
       "result": null,
       "progress": null,
@@ -13,7 +13,7 @@
       "preview": null
     },
     {
-      "id": "58f578c0-9205-46f3-8bdc-84273ca9100a",
+      "id": "dd455279-1940-459b-8fad-92477dd214e3",
       "status": "Pending",
       "result": null,
       "progress": null,
@@ -21,13 +21,13 @@
       "preview": null
     },
     {
-      "id": "58f578c0-9205-46f3-8bdc-84273ca9100a",
+      "id": "dd455279-1940-459b-8fad-92477dd214e3",
       "status": "Ready",
       "result": {
-        "start_time": 1787837731.2128134,
-        "prompt": "Ein Kind streichelt eine Katze., no text, no letters, no typography, no logo, no watermark",
-        "seed": 1606446667,
-        "sample": "https://delivery.eu2.bfl.ai/durable/2026082713/5e1f69ea-538b-4d66-962e-9be995966f07/fc/731970e66d211a/e66d211a2937469b975eff5499119f87/sample.jpeg?se=2026-08-27T13%3A45%3A32Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=Lk5kQGcJTZklPbHjwy/eRXfXv6kZ7486HqZC7TQi15M%3D"
+        "start_time": 1787839983.0992808,
+        "prompt": "Ein elfjähriges Kind streichelt eine Katze., no text, no letters, no typography, no logo, no watermark",
+        "seed": 1456707789,
+        "sample": "https://delivery.eu2.bfl.ai/durable/2026082714/5e1f69ea-538b-4d66-962e-9be995966f07/f8/983844c012f6ab/c012f6ab0d3d4018addcd7aa40aec0e9/sample.jpeg?se=2026-08-27T14%3A23%3A04Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=cTNokBPV/CFJHt4ZhSjiIdBWq4nRLtBWiCM4yjx9sFM%3D"
       },
       "progress": null,
       "details": null,
@@ -35,8 +35,8 @@
     }
   ],
   "submission": {
-    "id": "58f578c0-9205-46f3-8bdc-84273ca9100a",
-    "polling_url": "https://api.eu2.bfl.ai/v1/get_result?id=58f578c0-9205-46f3-8bdc-84273ca9100a",
+    "id": "dd455279-1940-459b-8fad-92477dd214e3",
+    "polling_url": "https://api.eu2.bfl.ai/v1/get_result?id=dd455279-1940-459b-8fad-92477dd214e3",
     "cost": 1.4000000000000001,
     "input_mp": 0,
     "output_mp": 0.72
