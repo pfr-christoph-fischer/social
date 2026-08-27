@@ -1,0 +1,36 @@
+{
+  "delivery_url": "https://delivery.us7.bfl.ai/durable/2026082713/5e1f69ea-538b-4d66-962e-9be995966f07/04/7387289de5ba1f/9de5ba1f97df4f7293a009dea3094f35/sample.jpeg?se=2026-08-27T13%3A45%3A38Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=XvyysUi0xKdu/r1/PJh8ZgMU22Q7k6Gla7DtS5UmdcM%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "028b61ce-95d8-43a6-a04c-ba1557f90207",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "028b61ce-95d8-43a6-a04c-ba1557f90207",
+      "status": "Ready",
+      "result": {
+        "start_time": 1787837737.3506558,
+        "prompt": "Ein Kind streichelt eine Katze., no text, no letters, no typography, no logo, no watermark",
+        "seed": 1890431505,
+        "sample": "https://delivery.us7.bfl.ai/durable/2026082713/5e1f69ea-538b-4d66-962e-9be995966f07/04/7387289de5ba1f/9de5ba1f97df4f7293a009dea3094f35/sample.jpeg?se=2026-08-27T13%3A45%3A38Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=XvyysUi0xKdu/r1/PJh8ZgMU22Q7k6Gla7DtS5UmdcM%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "028b61ce-95d8-43a6-a04c-ba1557f90207",
+    "polling_url": "https://api.us7.bfl.ai/v1/get_result?id=028b61ce-95d8-43a6-a04c-ba1557f90207",
+    "cost": 1.5,
+    "input_mp": 0,
+    "output_mp": 1.39
+  }
+}

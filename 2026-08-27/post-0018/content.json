@@ -103,16 +103,20 @@
     "alt_text": "Neutrales Symbolbild: Auf einem Tisch liegen ein aufgeschlagenes Buch, ein Heft und ein Stift in weichem Licht. Die Szene wirkt ruhig, tröstlich und nachdenklich, ohne Personen oder erkennbare Details."
   },
   "qa": {
-    "approved": true,
     "warnings": [
       "Current-event or local factual details are still required. Verify that no details were invented.",
       "Privacy review required for Reli/Gemeinde content: confirm anonymization, consent, and local factual accuracy."
-    ]
+    ],
+    "approved": true
   },
   "metadata": {
     "model": "gpt-5.4-2026-03-05",
     "generated_at": "2026-08-27T12:51:48.698Z",
     "prompt_version": "1.0",
-    "assets": []
+    "assets": [
+      "assets/background-1.91x1.webp",
+      "assets/background-9x16.webp",
+      "assets/background-4x5.webp"
+    ]
   }
 }
