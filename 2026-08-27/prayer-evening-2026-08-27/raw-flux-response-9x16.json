@@ -1,0 +1,52 @@
+{
+  "delivery_url": "https://delivery.eu2.bfl.ai/durable/2026082714/5e1f69ea-538b-4d66-962e-9be995966f07/46/576288963049c4/963049c4b1f24c29aa54a04f126ac7dd/sample.jpeg?se=2026-08-27T15%3A06%3A16Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=Iiux3SOn/AITaEz8ThhgDN8I9AgqsogNmcQwrSST/QU%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "65315f57-8b74-49a4-a993-3d9257ce7d46",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "65315f57-8b74-49a4-a993-3d9257ce7d46",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "65315f57-8b74-49a4-a993-3d9257ce7d46",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "65315f57-8b74-49a4-a993-3d9257ce7d46",
+      "status": "Ready",
+      "result": {
+        "start_time": 1787842575.0996244,
+        "prompt": "Ruhige Abendstimmung an einem See, Schulf, weiches blau-goldenes Dämmerlicht, eine einfache Holzbank mit Lehne, tiefe Atmosphäre von Loslassen und Geborgenheit, natürliche Farben, protestantisch zurückhaltende Bildsprache, keine Menschenmenge, kein Pathos, hohe Detailtiefe, no text, no letters, no typography, no logo, no watermark",
+        "seed": 1195786849,
+        "sample": "https://delivery.eu2.bfl.ai/durable/2026082714/5e1f69ea-538b-4d66-962e-9be995966f07/46/576288963049c4/963049c4b1f24c29aa54a04f126ac7dd/sample.jpeg?se=2026-08-27T15%3A06%3A16Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=Iiux3SOn/AITaEz8ThhgDN8I9AgqsogNmcQwrSST/QU%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "65315f57-8b74-49a4-a993-3d9257ce7d46",
+    "polling_url": "https://api.eu2.bfl.ai/v1/get_result?id=65315f57-8b74-49a4-a993-3d9257ce7d46",
+    "cost": 1.5,
+    "input_mp": 0,
+    "output_mp": 1.98
+  }
+}

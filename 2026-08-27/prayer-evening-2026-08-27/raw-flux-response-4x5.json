@@ -1,0 +1,44 @@
+{
+  "delivery_url": "https://delivery.eu2.bfl.ai/durable/2026082714/5e1f69ea-538b-4d66-962e-9be995966f07/02/57261910de450d/10de450d872e4a1d84077750450b00e9/sample.jpeg?se=2026-08-27T15%3A06%3A13Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=gJmV3O4sq/Nt7LhF5L2Y0ZHJ%2BpLbqwIAXqfSZnys6gA%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "7dfd26eb-0f6a-45bf-8f10-680ccfe15008",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "7dfd26eb-0f6a-45bf-8f10-680ccfe15008",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "7dfd26eb-0f6a-45bf-8f10-680ccfe15008",
+      "status": "Ready",
+      "result": {
+        "start_time": 1787842571.5485425,
+        "prompt": "Ruhige Abendstimmung an einem See, Schulf, weiches blau-goldenes Dämmerlicht, eine einfache Holzbank mit Lehne, tiefe Atmosphäre von Loslassen und Geborgenheit, natürliche Farben, protestantisch zurückhaltende Bildsprache, keine Menschenmenge, kein Pathos, hohe Detailtiefe, no text, no letters, no typography, no logo, no watermark",
+        "seed": 200848845,
+        "sample": "https://delivery.eu2.bfl.ai/durable/2026082714/5e1f69ea-538b-4d66-962e-9be995966f07/02/57261910de450d/10de450d872e4a1d84077750450b00e9/sample.jpeg?se=2026-08-27T15%3A06%3A13Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=gJmV3O4sq/Nt7LhF5L2Y0ZHJ%2BpLbqwIAXqfSZnys6gA%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "7dfd26eb-0f6a-45bf-8f10-680ccfe15008",
+    "polling_url": "https://api.eu2.bfl.ai/v1/get_result?id=7dfd26eb-0f6a-45bf-8f10-680ccfe15008",
+    "cost": 1.5,
+    "input_mp": 0,
+    "output_mp": 1.39
+  }
+}
