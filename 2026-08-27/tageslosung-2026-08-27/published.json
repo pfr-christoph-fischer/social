@@ -84,5 +84,91 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-08-27",
+    "contentDate": "2026-08-27",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-08-27T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Mein Volk soll meiner Gaben die Fülle haben, spricht der HERR.",
+    "assets": [
+      "render-square-01.jpg"
+    ],
+    "altTexts": [
+      "Mein Volk soll meiner Gaben die Fülle haben, spricht der HERR."
+    ],
+    "id": "d31dae2d-84bc-4f1a-820c-a5fc037e4ca0",
+    "attemptCount": 1,
+    "remoteId": "17971685940128726",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:44:43.723Z",
+    "updatedAt": "2026-08-27T05:00:41.964Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-08-27",
+    "contentDate": "2026-08-27",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-08-27T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Mein Volk soll meiner Gaben die Fülle haben, spricht der HERR.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Mein Volk soll meiner Gaben die Fülle haben, spricht der HERR."
+    ],
+    "id": "432055ab-a91e-4d43-83c7-057180e934cd",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3mu22vxrene2d",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3mu22vxrene2d",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:44:43.729Z",
+    "updatedAt": "2026-08-27T05:00:44.277Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-08-27",
+    "contentDate": "2026-08-27",
+    "platform": "linkedin",
+    "format": "default",
+    "scheduledAt": "2026-08-27T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Mein Volk soll meiner Gaben die Fülle haben, spricht der HERR.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Mein Volk soll meiner Gaben die Fülle haben, spricht der HERR."
+    ],
+    "id": "b72e3a33-8263-4423-b411-65eb63734fd9",
+    "attemptCount": 1,
+    "remoteId": "urn:li:share:7498605409210122242",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:44:43.734Z",
+    "updatedAt": "2026-08-27T05:00:47.261Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 201
+    },
+    "retryHistory": []
   }
 ]
