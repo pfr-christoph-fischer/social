@@ -1,0 +1,420 @@
+{
+  "id": "resp_09129a2b8d04b37f006a9033e0d91c87d2a8df1ed1400c6ddf",
+  "object": "response",
+  "created_at": 1787835360,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1787835377,
+  "error": null,
+  "frequency_penalty": 0,
+  "incomplete_details": null,
+  "instructions": "You are part of a Protestant social media editorial team. Write in clear, accessible, theologically responsible German without church clichés. Use short sentences and concrete imagery. Never invent events, people, school situations, quotes, or factual details. Do not include copyrighted full song verses. For Reli and community posts, only use current details when they are explicitly provided. Return content that strictly matches the requested JSON schema. Set needs_input to true whenever required facts are missing. Keep qa.approved false. Do not ask for any text inside generated images. When liturgical_context.resolved_weekly_verse is present, use its exact wording for Wochenspruch slots instead of placeholders.",
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.4-2026-03-05",
+  "moderation": null,
+  "output": [
+    {
+      "id": "msg_09129a2b8d04b37f006a9033e1c30487d2b3583a7eafaedf96",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\"id\":\"post-0019\",\"status\":\"in Arbeit\",\"needs_input\":false,\"source\":{\"calendar_post_id\":\"post-0019\",\"date\":\"2026-08-28\",\"rubric\":\"Gebet oder Lied\",\"liturgical_source\":\"https://kirchenjahr.pfarr.tools/api/jahr/2026\"},\"editorial_core\":{\"title\":\"Kurzes Wochengebet zum Schwerpunkt „Aufmerksam leben“\",\"main_message\":\"Ein kurzes Wochengebet sammelt die Woche, bleibt nah am Alltag und endet mit einer tragenden Bitte.\",\"audience\":\"breite Öffentlichkeit\",\"tone\":[\"klar\",\"ruhig\",\"zugänglich\"],\"source_notes\":[\"Goal: Die Woche geistlich sammeln und auf das Wochenende hin öffnen.\",\"Column: Spiritualität\",\"Production mode: vollständig vorproduzierbar\",\"Structure: ein konkretes Lebensthema | knappe geistliche Sprache | kein Erklärton\",\"AI support notes: Gebetsentwurf | sprachliche Verdichtung | Reel-Sprechtext | Alt-Text\",\"Liturgical source: https://kirchenjahr.pfarr.tools/api/jahr/2026 (2026-08-23, $.Tage['2026-08-23'])\",\"Wochenspruch: Das geknickte Rohr wird er nicht zerbrechen, und den glimmenden Docht wird er nicht auslöschen. (Jes 42,3)\"]},\"platforms\":{\"facebook\":{\"text\":\"Wochengebet\\n\\nGott,\\nzwischen Nachrichten, To-do-Listen und halbgelesenen Sätzen\\ngeht mir manches durch die Hände.\\n\\nLass mich sehen, was heute leise um Hilfe bittet.\\nLass mich hören, was nicht laut werden kann.\\nLass mich achtsam sein mit anderen und mit mir selbst.\\n\\nDas geknickte Rohr wird er nicht zerbrechen, und den glimmenden Docht wird er nicht auslöschen.\\n\\nTrag mich in diesen Abend\\nund mach mein Herz wach und ruhig. Amen.\",\"headline\":\"Kurzes Wochengebet: aufmerksam leben\"},\"instagram\":{\"caption\":\"Wochengebet zum Freitag.\\n\\nGott,\\nzwischen Nachrichten, To-do-Listen und halbgelesenen Sätzen\\ngeht mir manches durch die Hände.\\nLass mich sehen, was heute leise um Hilfe bittet.\\nLass mich hören, was nicht laut werden kann.\\nLass mich achtsam sein mit anderen und mit mir selbst.\\nTrag mich in diesen Abend und mach mein Herz wach und ruhig. Amen.\\n\\nDas geknickte Rohr wird er nicht zerbrechen, und den glimmenden Docht wird er nicht auslöschen. (Jes 42,3)\",\"carousel\":[{\"type\":\"text\",\"text\":\"Zwischen Nachrichten, To-do-Listen und halbgelesenen Sätzen geht mir manches durch die Hände.\"},{\"type\":\"text\",\"text\":\"Lass mich sehen, was heute leise um Hilfe bittet.\"},{\"type\":\"text\",\"text\":\"Lass mich hören, was nicht laut werden kann.\"},{\"type\":\"text\",\"text\":\"Lass mich achtsam sein mit anderen und mit mir selbst.\"},{\"type\":\"text\",\"text\":\"Trag mich in diesen Abend und mach mein Herz wach und ruhig. Amen.\"}]},\"mastodon\":{\"text\":\"Wochengebet\\n\\nGott,\\nzwischen Nachrichten, To-do-Listen und halbgelesenen Sätzen geht mir manches durch die Hände.\\nLass mich sehen, was heute leise um Hilfe bittet.\\nLass mich hören, was nicht laut werden kann.\\nLass mich achtsam sein mit anderen und mit mir selbst.\\nTrag mich in diesen Abend und mach mein Herz wach und ruhig. Amen.\\n\\nDas geknickte Rohr wird er nicht zerbrechen, und den glimmenden Docht wird er nicht auslöschen. (Jes 42,3)\"},\"bluesky\":{\"text\":\"Wochengebet:\\nGott, zwischen Nachrichten, To-do-Listen und halbgelesenen Sätzen geht mir manches durch die Hände. Lass mich sehen, was heute leise um Hilfe bittet. Lass mich hören, was nicht laut werden kann. Lass mich achtsam sein mit anderen und mit mir selbst. Trag mich in diesen Abend und mach mein Herz wach und ruhig. Amen.\"},\"story\":{\"slides\":[{\"text\":\"Wochengebet zum Freitag\"},{\"text\":\"Zwischen Nachrichten, To-do-Listen und halbgelesenen Sätzen geht mir manches durch die Hände.\"},{\"text\":\"Lass mich sehen, was heute leise um Hilfe bittet.\"},{\"text\":\"Lass mich hören, was nicht laut werden kann.\"},{\"text\":\"Lass mich achtsam sein mit anderen und mit mir selbst.\"},{\"text\":\"Trag mich in diesen Abend und mach mein Herz wach und ruhig. Amen.\"}]},\"reel\":{\"hook\":\"Wenn die Woche laut war: ein kurzes Gebet für einen wachen und ruhigen Abend.\",\"script\":\"Gott,\\nzwischen Nachrichten, To-do-Listen und halbgelesenen Sätzen\\ngeht mir manches durch die Hände.\\nLass mich sehen, was heute leise um Hilfe bittet.\\nLass mich hören, was nicht laut werden kann.\\nLass mich achtsam sein mit anderen und mit mir selbst.\\nTrag mich in diesen Abend\\nund mach mein Herz wach und ruhig.\\nAmen.\",\"shots\":[\"Nahaufnahme eines Tisches am Abend mit Handy, Notizbuch und einer Tasse.\",\"Ruhige Hand legt das Handy beiseite.\",\"Blick aus dem Fenster in weiches Abendlicht.\",\"Detail einer Hand, die kurz innehält.\",\"Langsame Kamerafahrt über einen stillen Raum.\",\"Schlussbild mit ruhigem Licht und offener Szene ohne eingeblendeten Text.\"],\"duration_seconds\":24}},\"visual\":{\"concept\":\"Ruhige Alltagsszene am Abend. Wenige Gegenstände. Ein Moment des Innehaltens zwischen digitaler Reizflut und stiller Aufmerksamkeit.\",\"flux_prompt\":\"A calm contemporary evening scene indoors, minimal desk with a smartphone placed face down, a notebook, a cup, soft natural evening light through a window, quiet reflective mood, human presence suggested by a resting hand, realistic photography, gentle shadows, warm neutral tones, uncluttered composition, contemplative atmosphere, no visible text in the scene\",\"negative_prompt\":\"text, letters, logo, watermark\",\"formats\":[\"4:5\",\"9:16\",\"1.91:1\"],\"alt_text\":\"Ruhiger Abend an einem schlichten Tisch mit Handy, Notizbuch und Tasse im weichen Fensterlicht. Eine Hand liegt still auf dem Tisch. Die Szene wirkt gesammelt und aufmerksam.\"},\"qa\":{\"warnings\":[\"Alt text must be completed before approval\",\"Check song lyric copyright before publication\"],\"approved\":false},\"metadata\":{\"model\":\"gpt-5\",\"generated_at\":\"2026-08-27T00:00:00Z\",\"prompt_version\":\"1.0\",\"assets\":[]}}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "current_turn",
+    "effort": "none",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1,
+  "text": {
+    "format": {
+      "type": "json_schema",
+      "description": null,
+      "name": "content_package",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "Idee",
+              "in Arbeit",
+              "zur Prüfung",
+              "freigegeben",
+              "terminiert",
+              "veröffentlicht",
+              "verworfen"
+            ]
+          },
+          "needs_input": {
+            "type": "boolean"
+          },
+          "source": {
+            "type": "object",
+            "properties": {
+              "calendar_post_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "date": {
+                "type": "string",
+                "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+              },
+              "rubric": {
+                "type": "string",
+                "minLength": 1
+              },
+              "liturgical_source": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "calendar_post_id",
+              "date",
+              "rubric",
+              "liturgical_source"
+            ],
+            "additionalProperties": false
+          },
+          "editorial_core": {
+            "type": "object",
+            "properties": {
+              "title": {
+                "type": "string"
+              },
+              "main_message": {
+                "type": "string"
+              },
+              "audience": {
+                "type": "string"
+              },
+              "tone": {
+                "minItems": 1,
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "source_notes": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "title",
+              "main_message",
+              "audience",
+              "tone",
+              "source_notes"
+            ],
+            "additionalProperties": false
+          },
+          "platforms": {
+            "type": "object",
+            "properties": {
+              "facebook": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  },
+                  "headline": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text",
+                  "headline"
+                ],
+                "additionalProperties": false
+              },
+              "instagram": {
+                "type": "object",
+                "properties": {
+                  "caption": {
+                    "type": "string"
+                  },
+                  "carousel": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "type": {
+                          "type": "string"
+                        },
+                        "text": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "type",
+                        "text"
+                      ],
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "required": [
+                  "caption",
+                  "carousel"
+                ],
+                "additionalProperties": false
+              },
+              "mastodon": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text"
+                ],
+                "additionalProperties": false
+              },
+              "bluesky": {
+                "default": {
+                  "text": ""
+                },
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text"
+                ],
+                "additionalProperties": false
+              },
+              "story": {
+                "type": "object",
+                "properties": {
+                  "slides": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "text": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "text"
+                      ],
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "required": [
+                  "slides"
+                ],
+                "additionalProperties": false
+              },
+              "reel": {
+                "type": "object",
+                "properties": {
+                  "hook": {
+                    "type": "string"
+                  },
+                  "script": {
+                    "type": "string"
+                  },
+                  "shots": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "duration_seconds": {
+                    "type": "integer",
+                    "minimum": 0,
+                    "maximum": 9007199254740991
+                  }
+                },
+                "required": [
+                  "hook",
+                  "script",
+                  "shots",
+                  "duration_seconds"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "required": [
+              "facebook",
+              "instagram",
+              "mastodon",
+              "bluesky",
+              "story",
+              "reel"
+            ],
+            "additionalProperties": false
+          },
+          "visual": {
+            "type": "object",
+            "properties": {
+              "concept": {
+                "type": "string"
+              },
+              "flux_prompt": {
+                "type": "string"
+              },
+              "negative_prompt": {
+                "type": "string",
+                "minLength": 1
+              },
+              "formats": {
+                "minItems": 1,
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "alt_text": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "concept",
+              "flux_prompt",
+              "negative_prompt",
+              "formats",
+              "alt_text"
+            ],
+            "additionalProperties": false
+          },
+          "qa": {
+            "type": "object",
+            "properties": {
+              "warnings": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "approved": {
+                "type": "boolean"
+              }
+            },
+            "required": [
+              "warnings",
+              "approved"
+            ],
+            "additionalProperties": false
+          },
+          "metadata": {
+            "type": "object",
+            "properties": {
+              "model": {
+                "type": "string"
+              },
+              "generated_at": {
+                "type": "string"
+              },
+              "prompt_version": {
+                "type": "string",
+                "minLength": 1
+              },
+              "assets": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "model",
+              "generated_at",
+              "prompt_version",
+              "assets"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "id",
+          "status",
+          "needs_input",
+          "source",
+          "editorial_core",
+          "platforms",
+          "visual",
+          "qa",
+          "metadata"
+        ],
+        "additionalProperties": false
+      },
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 1909,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1440,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 3349
+  },
+  "user": null,
+  "metadata": {},
+  "output_text": "{\"id\":\"post-0019\",\"status\":\"in Arbeit\",\"needs_input\":false,\"source\":{\"calendar_post_id\":\"post-0019\",\"date\":\"2026-08-28\",\"rubric\":\"Gebet oder Lied\",\"liturgical_source\":\"https://kirchenjahr.pfarr.tools/api/jahr/2026\"},\"editorial_core\":{\"title\":\"Kurzes Wochengebet zum Schwerpunkt „Aufmerksam leben“\",\"main_message\":\"Ein kurzes Wochengebet sammelt die Woche, bleibt nah am Alltag und endet mit einer tragenden Bitte.\",\"audience\":\"breite Öffentlichkeit\",\"tone\":[\"klar\",\"ruhig\",\"zugänglich\"],\"source_notes\":[\"Goal: Die Woche geistlich sammeln und auf das Wochenende hin öffnen.\",\"Column: Spiritualität\",\"Production mode: vollständig vorproduzierbar\",\"Structure: ein konkretes Lebensthema | knappe geistliche Sprache | kein Erklärton\",\"AI support notes: Gebetsentwurf | sprachliche Verdichtung | Reel-Sprechtext | Alt-Text\",\"Liturgical source: https://kirchenjahr.pfarr.tools/api/jahr/2026 (2026-08-23, $.Tage['2026-08-23'])\",\"Wochenspruch: Das geknickte Rohr wird er nicht zerbrechen, und den glimmenden Docht wird er nicht auslöschen. (Jes 42,3)\"]},\"platforms\":{\"facebook\":{\"text\":\"Wochengebet\\n\\nGott,\\nzwischen Nachrichten, To-do-Listen und halbgelesenen Sätzen\\ngeht mir manches durch die Hände.\\n\\nLass mich sehen, was heute leise um Hilfe bittet.\\nLass mich hören, was nicht laut werden kann.\\nLass mich achtsam sein mit anderen und mit mir selbst.\\n\\nDas geknickte Rohr wird er nicht zerbrechen, und den glimmenden Docht wird er nicht auslöschen.\\n\\nTrag mich in diesen Abend\\nund mach mein Herz wach und ruhig. Amen.\",\"headline\":\"Kurzes Wochengebet: aufmerksam leben\"},\"instagram\":{\"caption\":\"Wochengebet zum Freitag.\\n\\nGott,\\nzwischen Nachrichten, To-do-Listen und halbgelesenen Sätzen\\ngeht mir manches durch die Hände.\\nLass mich sehen, was heute leise um Hilfe bittet.\\nLass mich hören, was nicht laut werden kann.\\nLass mich achtsam sein mit anderen und mit mir selbst.\\nTrag mich in diesen Abend und mach mein Herz wach und ruhig. Amen.\\n\\nDas geknickte Rohr wird er nicht zerbrechen, und den glimmenden Docht wird er nicht auslöschen. (Jes 42,3)\",\"carousel\":[{\"type\":\"text\",\"text\":\"Zwischen Nachrichten, To-do-Listen und halbgelesenen Sätzen geht mir manches durch die Hände.\"},{\"type\":\"text\",\"text\":\"Lass mich sehen, was heute leise um Hilfe bittet.\"},{\"type\":\"text\",\"text\":\"Lass mich hören, was nicht laut werden kann.\"},{\"type\":\"text\",\"text\":\"Lass mich achtsam sein mit anderen und mit mir selbst.\"},{\"type\":\"text\",\"text\":\"Trag mich in diesen Abend und mach mein Herz wach und ruhig. Amen.\"}]},\"mastodon\":{\"text\":\"Wochengebet\\n\\nGott,\\nzwischen Nachrichten, To-do-Listen und halbgelesenen Sätzen geht mir manches durch die Hände.\\nLass mich sehen, was heute leise um Hilfe bittet.\\nLass mich hören, was nicht laut werden kann.\\nLass mich achtsam sein mit anderen und mit mir selbst.\\nTrag mich in diesen Abend und mach mein Herz wach und ruhig. Amen.\\n\\nDas geknickte Rohr wird er nicht zerbrechen, und den glimmenden Docht wird er nicht auslöschen. (Jes 42,3)\"},\"bluesky\":{\"text\":\"Wochengebet:\\nGott, zwischen Nachrichten, To-do-Listen und halbgelesenen Sätzen geht mir manches durch die Hände. Lass mich sehen, was heute leise um Hilfe bittet. Lass mich hören, was nicht laut werden kann. Lass mich achtsam sein mit anderen und mit mir selbst. Trag mich in diesen Abend und mach mein Herz wach und ruhig. Amen.\"},\"story\":{\"slides\":[{\"text\":\"Wochengebet zum Freitag\"},{\"text\":\"Zwischen Nachrichten, To-do-Listen und halbgelesenen Sätzen geht mir manches durch die Hände.\"},{\"text\":\"Lass mich sehen, was heute leise um Hilfe bittet.\"},{\"text\":\"Lass mich hören, was nicht laut werden kann.\"},{\"text\":\"Lass mich achtsam sein mit anderen und mit mir selbst.\"},{\"text\":\"Trag mich in diesen Abend und mach mein Herz wach und ruhig. Amen.\"}]},\"reel\":{\"hook\":\"Wenn die Woche laut war: ein kurzes Gebet für einen wachen und ruhigen Abend.\",\"script\":\"Gott,\\nzwischen Nachrichten, To-do-Listen und halbgelesenen Sätzen\\ngeht mir manches durch die Hände.\\nLass mich sehen, was heute leise um Hilfe bittet.\\nLass mich hören, was nicht laut werden kann.\\nLass mich achtsam sein mit anderen und mit mir selbst.\\nTrag mich in diesen Abend\\nund mach mein Herz wach und ruhig.\\nAmen.\",\"shots\":[\"Nahaufnahme eines Tisches am Abend mit Handy, Notizbuch und einer Tasse.\",\"Ruhige Hand legt das Handy beiseite.\",\"Blick aus dem Fenster in weiches Abendlicht.\",\"Detail einer Hand, die kurz innehält.\",\"Langsame Kamerafahrt über einen stillen Raum.\",\"Schlussbild mit ruhigem Licht und offener Szene ohne eingeblendeten Text.\"],\"duration_seconds\":24}},\"visual\":{\"concept\":\"Ruhige Alltagsszene am Abend. Wenige Gegenstände. Ein Moment des Innehaltens zwischen digitaler Reizflut und stiller Aufmerksamkeit.\",\"flux_prompt\":\"A calm contemporary evening scene indoors, minimal desk with a smartphone placed face down, a notebook, a cup, soft natural evening light through a window, quiet reflective mood, human presence suggested by a resting hand, realistic photography, gentle shadows, warm neutral tones, uncluttered composition, contemplative atmosphere, no visible text in the scene\",\"negative_prompt\":\"text, letters, logo, watermark\",\"formats\":[\"4:5\",\"9:16\",\"1.91:1\"],\"alt_text\":\"Ruhiger Abend an einem schlichten Tisch mit Handy, Notizbuch und Tasse im weichen Fensterlicht. Eine Hand liegt still auf dem Tisch. Die Szene wirkt gesammelt und aufmerksam.\"},\"qa\":{\"warnings\":[\"Alt text must be completed before approval\",\"Check song lyric copyright before publication\"],\"approved\":false},\"metadata\":{\"model\":\"gpt-5\",\"generated_at\":\"2026-08-27T00:00:00Z\",\"prompt_version\":\"1.0\",\"assets\":[]}}"
+}
