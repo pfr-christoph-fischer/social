@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-08-27",
+    "contentDate": "2026-08-27",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-08-27T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Mein Volk soll meiner Gaben die Fülle haben, spricht der HERR.",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Mein Volk soll meiner Gaben die Fülle haben, spricht der HERR."
+    ],
+    "id": "979459d2-a0d9-44ea-b9d5-eee4326fd379",
+    "attemptCount": 1,
+    "remoteId": "18106121870598918",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:44:43.713Z",
+    "updatedAt": "2026-08-27T05:00:30.381Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-08-27",
+    "contentDate": "2026-08-27",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-08-27T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Mein Volk soll meiner Gaben die Fülle haben, spricht der HERR.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Mein Volk soll meiner Gaben die Fülle haben, spricht der HERR."
+    ],
+    "id": "92447919-861f-4577-bee4-7c19a8184a75",
+    "attemptCount": 1,
+    "remoteId": "117165708494361047",
+    "remoteUrl": "https://kirche.social/@christoph/117165708494361047",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:44:43.719Z",
+    "updatedAt": "2026-08-27T05:00:31.357Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
