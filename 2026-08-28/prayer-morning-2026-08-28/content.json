@@ -1,0 +1,106 @@
+{
+  "id": "prayer-morning-2026-08-28",
+  "status": "in Arbeit",
+  "needs_input": true,
+  "source": {
+    "calendar_post_id": "prayer-morning-2026-08-28",
+    "date": "2026-08-28",
+    "rubric": "Morgengebet",
+    "liturgical_source": ""
+  },
+  "editorial_core": {
+    "title": "Morgengebet",
+    "main_message": "Ein Morgengebet mit Hoffnung ist vorgesehen. Für die verbindlich geforderten tagesaktuellen Fürbitten fehlen jedoch verlässlich überprüfte Nachrichten vom Morgen des 28.08.2026. Vor Freigabe müssen mindestens zwei konkrete aktuelle Situationen vom Veröffentlichungstag ergänzt und eingearbeitet werden.",
+    "audience": "breite Öffentlichkeit",
+    "tone": [
+      "ruhig",
+      "hoffnungsvoll",
+      "zugewandt"
+    ],
+    "source_notes": [
+      "Webrecherche durchgeführt. Verifiziert wurden als belastbare, aber nicht tagesgleiche Bezüge u. a. anhaltende Dürre und Niedrigwasser in Baden-Württemberg laut SWR Aktuell sowie schwere russische Angriffe auf Kiew laut tagesschau.de.",
+      "Für den vorliegenden Produktionsmodus 'am Morgen der Veröffentlichung' reichen Funde von Anfang bis Mitte August 2026 redaktionell nicht aus, um die Vorgabe 'mindestens zwei konkrete und zum Erzeugungszeitpunkt relevante aktuelle Situationen' sauber zu erfüllen.",
+      "Vor Veröffentlichung am 28.08.2026 morgens bitte tagesschau.de, SWR Aktuell Baden-Württemberg und die aktuelle weltweite Nachrichtenlage erneut prüfen und zwei bis vier konkrete Anliegen auswählen.",
+      "Mögliche bereits recherchierte Themenfelder zur erneuten Prüfung: anhaltende Dürre/Niedrigwasser in Baden-Württemberg; russische Angriffe auf ukrainische Städte; Lage von Kranken und Helfenden in Gaza."
+    ]
+  },
+  "platforms": {
+    "facebook": {
+      "text": "Für dieses Morgengebet fehlen noch die verlässlich geprüften Nachrichtenbezüge vom Morgen des 28.08.2026. Vor Veröffentlichung bitte mindestens zwei konkrete aktuelle Situationen einarbeiten, damit das Gebet die Not der Welt wirklich beim Namen nennt und zugleich Hoffnung formuliert.",
+      "headline": "Morgengebet – tagesaktuelle Bezüge ergänzen"
+    },
+    "instagram": {
+      "caption": "Dieses Morgengebet braucht vor der Veröffentlichung noch den Nachrichtencheck vom Morgen des 28.08.2026. Bitte mindestens zwei konkrete aktuelle Situationen verlässlich prüfen und als Fürbitte aufnehmen.",
+      "carousel": [
+        {
+          "type": "text",
+          "text": "Morgengebet"
+        },
+        {
+          "type": "text",
+          "text": "Vor Veröffentlichung: aktuelle Nachrichten prüfen."
+        },
+        {
+          "type": "text",
+          "text": "Mindestens zwei konkrete Situationen als Fürbitte einarbeiten."
+        }
+      ]
+    },
+    "mastodon": {
+      "text": "Für dieses Morgengebet fehlen noch die verlässlich geprüften aktuellen Bezüge vom Morgen des 28.08.2026. Vor Veröffentlichung bitte mindestens zwei konkrete Nachrichtenlagen auswählen und ausdrücklich als Fürbitte einarbeiten."
+    },
+    "bluesky": {
+      "text": "Dieses Morgengebet ist noch nicht sendefertig: Es fehlen die verlässlich geprüften aktuellen Bezüge vom Morgen des 28.08.2026. Vor Veröffentlichung bitte mindestens zwei konkrete Situationen als Fürbitte ergänzen."
+    },
+    "story": {
+      "slides": [
+        {
+          "text": "Morgengebet"
+        },
+        {
+          "text": "Vor Veröffentlichung Nachrichtenlage vom Morgen prüfen."
+        },
+        {
+          "text": "Mindestens zwei konkrete Situationen als Fürbitte aufnehmen."
+        }
+      ]
+    },
+    "reel": {
+      "hook": "Morgengebet für den Tag – aber erst nach dem Nachrichtencheck.",
+      "script": "Für dieses Format sind tagesaktuelle Fürbitten verpflichtend. Stand jetzt fehlen verlässlich geprüfte Bezüge vom Morgen des 28.08.2026. Vor Veröffentlichung bitte mindestens zwei konkrete Situationen aus der aktuellen Nachrichtenlage auswählen und in das Gebet einarbeiten.",
+      "shots": [
+        "Ruhiger Morgenhimmel",
+        "Tisch mit offener Zeitung oder Smartphone ohne lesbaren Text",
+        "Nahaufnahme einer Hand am Fenster",
+        "Leerer Kirchenraum oder stiller Raum",
+        "Kerze oder Morgenlicht"
+      ],
+      "duration_seconds": 20
+    }
+  },
+  "visual": {
+    "concept": "Stilles Morgenbild mit offenem Fenster, weichem Licht und einer schlichten, wachen Atmosphäre. Keine dramatische Symbolik. Das Bild soll Offenheit, Ernst und Hoffnung zugleich tragen.",
+    "flux_prompt": "",
+    "negative_prompt": "text, letters, logo, watermark",
+    "formats": [
+      "4:5",
+      "9:16",
+      "1.91:1"
+    ],
+    "alt_text": "Schlichter heller Raum am Morgen. Durch ein offenes Fenster fällt weiches Licht auf einen einfachen Tisch. Die Szene wirkt still, wach und hoffnungsvoll."
+  },
+  "qa": {
+    "warnings": [
+      "Alt text must be completed before approval",
+      "Tagesaktuelle Nachrichtenbezüge vom Morgen des 28.08.2026 fehlen noch.",
+      "Mindestens zwei konkrete aktuelle Situationen müssen in editorial_core.main_message und den wesentlichen Plattformtexten ausdrücklich als Fürbitte erscheinen."
+    ],
+    "approved": false
+  },
+  "metadata": {
+    "model": "gpt-5.4-2026-03-05",
+    "generated_at": "2026-08-27T14:00:42.941Z",
+    "prompt_version": "1.0",
+    "assets": []
+  }
+}
