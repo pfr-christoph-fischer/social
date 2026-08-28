@@ -29,27 +29,27 @@
   },
   "platforms": {
     "facebook": {
-      "text": "Das geknickte Rohr wird er nicht zerbrechen, und den glimmenden Docht wird er nicht auslöschen. (Jes 42,3)\n\nGott,\ndie Woche hängt noch an mir.\nZu viele Stimmen.\nZu wenig Ruhe.\nÖffne meine Augen für das, was heute zählt.\nLass mich freundlich sein mit anderen und mit mir.\nUnd bewahre in mir, was nur noch leise glimmt.\nAmen.",
-      "headline": "Wochengebet: aufmerksam leben"
+      "headline": "Wochengebet: aufmerksam leben",
+      "text": "Das geknickte Rohr wird er nicht zerbrechen, und den glimmenden Docht wird er nicht auslöschen. (Jes 42,3)\n\nGott,\ndie Woche hängt noch an mir.\nZu viele Stimmen.\nZu wenig Ruhe.\nÖffne meine Augen für das, was heute zählt.\nLass mich freundlich sein mit anderen und mit mir.\nUnd bewahre in mir, was nur noch leise glimmt.\nAmen."
     },
     "instagram": {
       "caption": "Das geknickte Rohr wird er nicht zerbrechen, und den glimmenden Docht wird er nicht auslöschen. (Jes 42,3)\n\nGott,\ndie Woche hängt noch an mir.\nZu viele Stimmen.\nZu wenig Ruhe.\nÖffne meine Augen für das, was heute zählt.\nLass mich freundlich sein mit anderen und mit mir.\nUnd bewahre in mir, was nur noch leise glimmt.\nAmen.",
       "carousel": [
         {
-          "type": "slide",
-          "text": "Das geknickte Rohr wird er nicht zerbrechen, und den glimmenden Docht wird er nicht auslöschen. (Jes 42,3)"
+          "text": "Das geknickte Rohr wird er nicht zerbrechen, und den glimmenden Docht wird er nicht auslöschen. (Jes 42,3)",
+          "type": "slide"
         },
         {
-          "type": "slide",
-          "text": "Gott,\ndie Woche hängt noch an mir.\nZu viele Stimmen.\nZu wenig Ruhe."
+          "text": "Gott,\ndie Woche hängt noch an mir.\nZu viele Stimmen.\nZu wenig Ruhe.",
+          "type": "slide"
         },
         {
-          "type": "slide",
-          "text": "Öffne meine Augen für das, was heute zählt.\nLass mich freundlich sein mit anderen und mit mir."
+          "text": "Öffne meine Augen für das, was heute zählt.\nLass mich freundlich sein mit anderen und mit mir.",
+          "type": "slide"
         },
         {
-          "type": "slide",
-          "text": "Und bewahre in mir,\nwas nur noch leise glimmt.\nAmen."
+          "text": "Und bewahre in mir,\nwas nur noch leise glimmt.\nAmen.",
+          "type": "slide"
         }
       ]
     },
@@ -93,21 +93,21 @@
   },
   "visual": {
     "concept": "Ruhige, reduzierte Wochenabschluss-Stimmung: ein stiller Moment am Ende eines Tages, mit warmem Licht und kleinen Zeichen von Erschöpfung und Hoffnung.",
-    "flux_prompt": "Fotorealistische ruhige Alltagsszene am Ende eines Sommertages, warmes weiches Abendlicht, ein schlichter Tisch mit Tasse, leicht geöffneter Fensterblick oder stiller Weg, reduzierte Komposition, natürliche Farben, Atmosphäre von Sammlung, Achtsamkeit, Erschöpfung und leiser Hoffnung, keine Menschenmenge, keine Inszenierung, protestantisch zurückhaltende Bildsprache, hochwertig, editorial photography",
+    "flux_prompt": "Eine Kerze mit glimmendem Docht, nur ein Funke noch. Rauch steigt auf.",
     "negative_prompt": "text, letters, logo, watermark",
     "formats": [
       "4:5",
       "9:16",
       "1.91:1"
     ],
-    "alt_text": "Ruhige Szene im warmen Abendlicht: ein schlichter Tisch mit einer Tasse an einem offenen Fenster. Die Stimmung wirkt still, gesammelt und hoffnungsvoll."
+    "alt_text": "Eine Kerze mit glimmendem Docht, nur ein Funke noch. Rauch steigt auf."
   },
   "qa": {
+    "approved": false,
     "warnings": [
       "Alt text must be completed before approval",
       "Check song lyric copyright before publication"
-    ],
-    "approved": false
+    ]
   },
   "metadata": {
     "model": "gpt-5.4-2026-03-05",
