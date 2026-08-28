@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-08-28",
+    "contentDate": "2026-08-28",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-08-28T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "HERR, führe meine Sache und erlöse mich; erquicke mich durch dein Wort.",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "HERR, führe meine Sache und erlöse mich; erquicke mich durch dein Wort."
+    ],
+    "id": "c86ede03-1d36-44e5-a1d2-d2011ced134c",
+    "attemptCount": 1,
+    "remoteId": "18107231810133298",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:44:45.947Z",
+    "updatedAt": "2026-08-28T05:00:27.288Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-08-28",
+    "contentDate": "2026-08-28",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-08-28T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "HERR, führe meine Sache und erlöse mich; erquicke mich durch dein Wort.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "HERR, führe meine Sache und erlöse mich; erquicke mich durch dein Wort."
+    ],
+    "id": "992ad235-ee00-4d2e-b5ac-d81472fea3c9",
+    "attemptCount": 1,
+    "remoteId": "117171370618161793",
+    "remoteUrl": "https://kirche.social/@christoph/117171370618161793",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:44:45.951Z",
+    "updatedAt": "2026-08-28T05:00:28.501Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
