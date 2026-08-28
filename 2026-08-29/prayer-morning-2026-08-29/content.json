@@ -25,31 +25,31 @@
   },
   "platforms": {
     "facebook": {
-      "text": "Gott,\ndieser Morgen ist dein Geschenk.\n\nWir denken heute an die Menschen in Nepal, die nach der Flut vor den Trümmern ihrer Existenz stehen.\n\nWir denken auch an die Menschen hier bei uns, die mit Sturmschäden zu kämpfen haben.\n\nSei den Betroffenen nahe.\nStärke alle, die helfen, aufräumen, trösten und Verantwortung tragen.\nMach auch uns wach für das, was wir heute tun können.\n\nDeine Zukunft ist größer als Angst und Zerstörung.\nDarum beginnen wir diesen Tag mit Hoffnung.\nAmen.",
-      "headline": "Morgengebet"
+      "headline": "Morgengebet",
+      "text": "Gott,\ndieser Morgen ist dein Geschenk.\n\nWir denken heute an die Menschen in Nepal, die nach der Flut vor den Trümmern ihrer Existenz stehen.\n\nWir denken auch an die Menschen hier bei uns, die mit Sturmschäden zu kämpfen haben.\n\nSei den Betroffenen nahe.\nStärke alle, die helfen, aufräumen, trösten und Verantwortung tragen.\nMach auch uns wach für das, was wir heute tun können.\n\nDeine Zukunft ist größer als Angst und Zerstörung.\nDarum beginnen wir diesen Tag mit Hoffnung.\nAmen."
     },
     "instagram": {
       "caption": "Gott, dieser Morgen ist dein Geschenk.\n\nWir denken heute an die Menschen in Nepal, die nach der Flut vor den Trümmern ihrer Existenz stehen. Und an die Menschen hier bei uns, die mit Sturmschäden zu kämpfen haben.\n\nSei den Betroffenen nahe. Stärke alle, die helfen. Mach uns wach für kleine Schritte der Fürsorge und des Zusammenhalts.\n\nDeine Zukunft ist größer als Angst.\nAmen.",
       "carousel": [
         {
-          "type": "slide",
-          "text": "Gott,\ndieser Morgen ist dein Geschenk."
+          "text": "Gott,\ndieser Morgen ist dein Geschenk.",
+          "type": "slide"
         },
         {
-          "type": "slide",
-          "text": "Wir denken an die Menschen in Nepal, die nach der Flut vor den Trümmern ihrer Existenz stehen."
+          "text": "Wir denken an die Menschen in Nepal, die nach der Flut vor den Trümmern ihrer Existenz stehen.",
+          "type": "slide"
         },
         {
-          "type": "slide",
-          "text": "Wir denken an die Menschen hier bei uns, die mit Sturmschäden zu kämpfen haben."
+          "text": "Wir denken an die Menschen hier bei uns, die mit Sturmschäden zu kämpfen haben.",
+          "type": "slide"
         },
         {
-          "type": "slide",
-          "text": "Stärke alle, die helfen. Mach uns wach für Schritte der Fürsorge und des Zusammenhalts."
+          "text": "Stärke alle, die helfen. Mach uns wach für Schritte der Fürsorge und des Zusammenhalts.",
+          "type": "slide"
         },
         {
-          "type": "slide",
-          "text": "Deine Zukunft ist größer als Angst.\nAmen."
+          "text": "Deine Zukunft ist größer als Angst.\nAmen.",
+          "type": "slide"
         }
       ]
     },
@@ -103,11 +103,11 @@
     "alt_text": "Ein stiller Morgen im weichen Licht. Im Vordergrund sind dezente Spuren eines Sturms wie nasse Äste und aufgeräumte Schäden zu sehen, darüber ein weiter heller Himmel. Das Bild wirkt ruhig und nachdenklich."
   },
   "qa": {
+    "approved": false,
     "warnings": [
       "Alt text must be completed before approval",
       "Aktuelle Bezüge vor Veröffentlichung am Morgen des 29.08.2026 nochmals kurz gegen verlässliche Nachrichtenquellen prüfen."
-    ],
-    "approved": false
+    ]
   },
   "metadata": {
     "model": "gpt-5.4-2026-03-05",
