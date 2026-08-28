@@ -84,5 +84,91 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-08-28",
+    "contentDate": "2026-08-28",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-08-28T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "HERR, führe meine Sache und erlöse mich; erquicke mich durch dein Wort.",
+    "assets": [
+      "render-square-01.jpg"
+    ],
+    "altTexts": [
+      "HERR, führe meine Sache und erlöse mich; erquicke mich durch dein Wort."
+    ],
+    "id": "611e01f4-3a57-4e42-af78-7cd6d38d6aad",
+    "attemptCount": 1,
+    "remoteId": "18620564161019605",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:44:45.965Z",
+    "updatedAt": "2026-08-28T05:00:39.926Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-08-28",
+    "contentDate": "2026-08-28",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-08-28T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "HERR, führe meine Sache und erlöse mich; erquicke mich durch dein Wort.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "HERR, führe meine Sache und erlöse mich; erquicke mich durch dein Wort."
+    ],
+    "id": "e35d0b9f-3a76-4602-8cf4-e39d3ee2c98f",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3mu4lf2hz7c2z",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3mu4lf2hz7c2z",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:44:45.969Z",
+    "updatedAt": "2026-08-28T05:00:49.786Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-08-28",
+    "contentDate": "2026-08-28",
+    "platform": "linkedin",
+    "format": "default",
+    "scheduledAt": "2026-08-28T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "HERR, führe meine Sache und erlöse mich; erquicke mich durch dein Wort.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "HERR, führe meine Sache und erlöse mich; erquicke mich durch dein Wort."
+    ],
+    "id": "951c86b1-f339-45b4-80ae-3e10a76c974e",
+    "attemptCount": 1,
+    "remoteId": "urn:li:share:7498967816079843328",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:44:45.972Z",
+    "updatedAt": "2026-08-28T05:00:51.705Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 201
+    },
+    "retryHistory": []
   }
 ]
