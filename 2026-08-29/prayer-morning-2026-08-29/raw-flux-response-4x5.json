@@ -1,0 +1,52 @@
+{
+  "delivery_url": "https://delivery.eu2.bfl.ai/durable/2026082818/5e1f69ea-538b-4d66-962e-9be995966f07/7a/941295ae921026/ae9210266b6244e4953efc3e78f9be0a/sample.jpeg?se=2026-08-28T18%3A59%3A01Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=RmucRtTWyp/hKlagQsz3Lgf3lXbKahCTuLebNpHJw3A%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "71166569-c472-4d44-b1b1-cc5a4d487abf",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "71166569-c472-4d44-b1b1-cc5a4d487abf",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "71166569-c472-4d44-b1b1-cc5a4d487abf",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "71166569-c472-4d44-b1b1-cc5a4d487abf",
+      "status": "Ready",
+      "result": {
+        "start_time": 1787942940.1660304,
+        "prompt": "Fotorealistische ruhige Morgenszene, weiches Frühlicht, weiter Himmel, zurückhaltende Spuren eines Sturms wie nasse Äste oder aufgeräumte Schäden, natürliche Farben, stille hoffnungsvolle Atmosphäre, keine Menschenmenge, kein Drama, dokumentarische Anmutung, Raum für Besinnung, no text, no letters, no typography, no logo, no watermark",
+        "seed": 2331555894,
+        "sample": "https://delivery.eu2.bfl.ai/durable/2026082818/5e1f69ea-538b-4d66-962e-9be995966f07/7a/941295ae921026/ae9210266b6244e4953efc3e78f9be0a/sample.jpeg?se=2026-08-28T18%3A59%3A01Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=RmucRtTWyp/hKlagQsz3Lgf3lXbKahCTuLebNpHJw3A%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "71166569-c472-4d44-b1b1-cc5a4d487abf",
+    "polling_url": "https://api.eu2.bfl.ai/v1/get_result?id=71166569-c472-4d44-b1b1-cc5a4d487abf",
+    "cost": 1.5,
+    "input_mp": 0,
+    "output_mp": 1.39
+  }
+}

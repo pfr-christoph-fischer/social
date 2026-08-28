@@ -1,0 +1,44 @@
+{
+  "delivery_url": "https://delivery.us2.bfl.ai/durable/2026082818/5e1f69ea-538b-4d66-962e-9be995966f07/5b/944451480a182f/480a182f9dbe448a970d0f8d07ab62df/sample.jpeg?se=2026-08-28T18%3A59%3A04Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=%2BbW5PuJ0ps4%2BJjNeF0AwR84BVE/MxSihmYMi%2BkW0TqQ%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "ac5865f8-20c4-43c2-918f-427818117521",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "ac5865f8-20c4-43c2-918f-427818117521",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "ac5865f8-20c4-43c2-918f-427818117521",
+      "status": "Ready",
+      "result": {
+        "start_time": 1787942943.1688268,
+        "prompt": "Fotorealistische ruhige Morgenszene, weiches Frühlicht, weiter Himmel, zurückhaltende Spuren eines Sturms wie nasse Äste oder aufgeräumte Schäden, natürliche Farben, stille hoffnungsvolle Atmosphäre, keine Menschenmenge, kein Drama, dokumentarische Anmutung, Raum für Besinnung, no text, no letters, no typography, no logo, no watermark",
+        "seed": 1876645711,
+        "sample": "https://delivery.us2.bfl.ai/durable/2026082818/5e1f69ea-538b-4d66-962e-9be995966f07/5b/944451480a182f/480a182f9dbe448a970d0f8d07ab62df/sample.jpeg?se=2026-08-28T18%3A59%3A04Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=%2BbW5PuJ0ps4%2BJjNeF0AwR84BVE/MxSihmYMi%2BkW0TqQ%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "ac5865f8-20c4-43c2-918f-427818117521",
+    "polling_url": "https://api.us2.bfl.ai/v1/get_result?id=ac5865f8-20c4-43c2-918f-427818117521",
+    "cost": 1.5,
+    "input_mp": 0,
+    "output_mp": 1.98
+  }
+}

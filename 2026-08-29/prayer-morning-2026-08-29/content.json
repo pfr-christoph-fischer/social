@@ -103,13 +103,17 @@
     "alt_text": "Ein stiller Morgen im weichen Licht. Im Vordergrund sind dezente Spuren eines Sturms wie nasse Äste und aufgeräumte Schäden zu sehen, darüber ein weiter heller Himmel. Das Bild wirkt ruhig und nachdenklich."
   },
   "qa": {
-    "approved": true,
-    "warnings": []
+    "warnings": [],
+    "approved": true
   },
   "metadata": {
     "model": "gpt-5.4-2026-03-05",
     "generated_at": "2026-08-28T14:00:34.853Z",
     "prompt_version": "1.0",
-    "assets": []
+    "assets": [
+      "assets/background-1.91x1.webp",
+      "assets/background-4x5.webp",
+      "assets/background-9x16.webp"
+    ]
   }
 }
