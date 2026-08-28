@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-08-28",
+    "contentDate": "2026-08-28",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-08-28T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Selig sind, die Frieden stiften; denn sie werden Gottes Kinder heißen. (Die Bibel, Matthäus 5,9)",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Selig sind, die Frieden stiften; denn sie werden Gottes Kinder heißen. (Die Bibel, Matthäus 5,9)"
+    ],
+    "id": "ca597945-17b5-4940-a81c-75175e999e92",
+    "attemptCount": 1,
+    "remoteId": "18122707282842291",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:37:08.668Z",
+    "updatedAt": "2026-08-28T10:00:23.026Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-08-28",
+    "contentDate": "2026-08-28",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-08-28T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Selig sind, die Frieden stiften; denn sie werden Gottes Kinder heißen. (Die Bibel, Matthäus 5,9)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Selig sind, die Frieden stiften; denn sie werden Gottes Kinder heißen. (Die Bibel, Matthäus 5,9)"
+    ],
+    "id": "65524d77-43bc-4d34-9ab5-54b012785193",
+    "attemptCount": 1,
+    "remoteId": "117172550035370203",
+    "remoteUrl": "https://kirche.social/@christoph/117172550035370203",
+    "lastError": null,
+    "createdAt": "2026-08-26T15:37:08.719Z",
+    "updatedAt": "2026-08-28T10:00:24.971Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
