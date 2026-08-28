@@ -1,0 +1,459 @@
+{
+  "id": "resp_005bdbf41375095c006a914e1b733487d2b063646c9ecea5e0",
+  "object": "response",
+  "created_at": 1787907611,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1787907636,
+  "error": null,
+  "frequency_penalty": 0,
+  "incomplete_details": null,
+  "instructions": "You are part of a Protestant social media editorial team. Write in clear, accessible, theologically responsible German without church clichés. Use short sentences and concrete imagery. Never invent events, people, school situations, quotes, or factual details. Do not include copyrighted full song verses. For Reli and community posts, only use current details when they are explicitly provided. Return content that strictly matches the requested JSON schema. Set needs_input to true whenever required facts are missing. Keep qa.approved false. Do not ask for any text inside generated images. When liturgical_context.resolved_weekly_verse is present, use its exact wording for Wochenspruch slots instead of placeholders. Use the web search tool before drafting to verify current situations. For prayer posts, current situations are mandatory: select at least two concrete, relevant situations from reliable current reporting, including tagesschau.de and SWR Aktuell Baden-Württemberg where relevant. Do not invent current events and do not replace concrete situations with generic references to crises.",
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.4-2026-03-05",
+  "moderation": null,
+  "output": [
+    {
+      "id": "ws_005bdbf41375095c006a914e1cab7887d29aa4a42d5c0bfc35",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "queries": [
+          "site:tagesschau.de 28. August 2026 Nachrichten",
+          "site:swr.de SWR Aktuell Baden-Württemberg 28. August 2026",
+          "Reuters August 28 2026 world news"
+        ],
+        "query": "site:tagesschau.de 28. August 2026 Nachrichten"
+      }
+    },
+    {
+      "id": "ws_005bdbf41375095c006a914e1e710487d2a66900644dc64e12",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.tagesschau.de/archiv?datum=2026-08-28&filter=alle"
+      }
+    },
+    {
+      "id": "msg_005bdbf41375095c006a914e1f90d487d29190cfb96be18b3a",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\"id\":\"prayer-evening-2026-08-28\",\"status\":\"in Arbeit\",\"needs_input\":false,\"source\":{\"calendar_post_id\":\"prayer-evening-2026-08-28\",\"date\":\"2026-08-28\",\"rubric\":\"Abendgebet\",\"liturgical_source\":\"\"},\"editorial_core\":{\"title\":\"Abendgebet\",\"main_message\":\"Ein Abendgebet für einen unfertigen Tag: Wir legen Gott hin, was gelungen ist und was offen blieb. Wir bitten für die Menschen in Nepal und Tibet, wo nach den Sturzfluten weiter Tote beklagt werden und die Suche wegen neuer Überflutungsgefahr unterbrochen werden musste, und für die Menschen in Baden-Württemberg, die sich auf Starkregen, Gewitter und örtlich schwere Unwetter einstellen müssen. Gottes Zukunft endet nicht an dem, was wir heute noch nicht lösen konnten.\",\"audience\":\"breite Öffentlichkeit\",\"tone\":[\"ruhig\",\"hoffnungsvoll\",\"geborgen\"],\"source_notes\":[\"Aktuelle Bezüge geprüft: tagesschau-Archiv 28.08.2026 und SWR Aktuell Baden-Württemberg/Newsticker 28.08.2026.\",\"Konkrete Fürbitten aufgenommen: Sturzfluten in Nepal und Tibet mit unterbrochener Suche wegen neuer Gefahr; Unwetterlage mit Starkregen, Gewittern und örtlich schweren Böen/Hagel in Baden-Württemberg.\",\"Zeitlich robust formuliert: keine Behauptungen über den weiteren Verlauf des Veröffentlichungstages.\",\"Theologischer Akzent: Hoffnung ohne billige Auflösung; der Tag darf unvollendet in Gottes Hand ruhen.\"]},\"platforms\":{\"facebook\":{\"text\":\"Gott,\\nder Tag liegt hinter uns.\\nMit allem, was gut war.\\nMit allem, was offen blieb.\\n\\nWir danken dir für das, was getragen hat:\\nfür freundliche Worte,\\nfür Arbeit, die gelungen ist,\\nfür kleine Momente von Licht.\\n\\nUnd wir bringen dir, was schwer auf uns liegt:\\nFehler.\\nStreit.\\nMüdigkeit.\\nDinge, die wir nicht geschafft haben.\\nLass uns loslassen, was wir heute nicht mehr ordnen können.\\n\\nWir bitten dich für die Menschen in Nepal und Tibet.\\nNach den Sturzfluten werden weiter viele Tote beklagt.\\nUnd die Suche nach Überlebenden musste mancherorts unterbrochen werden,\\nweil neue Überflutungen drohen.\\nSei bei denen, die Angehörige vermissen,\\ndie um ihr Leben fürchten\\nund die erschöpft helfen.\\n\\nWir bitten dich auch für die Menschen in Baden-Württemberg,\\ndie sich auf Starkregen, Gewitter und schwere Böen einstellen müssen.\\nBewahre die, die unterwegs sind.\\nSchütze Häuser und Felder.\\nGib Besonnenheit den Einsatzkräften\\nund Ruhe denen, die heute Nacht mit Sorge auf den Himmel sehen.\\n\\nSei bei allen,\\ndie in dieser Nacht wachen,\\npflegen,\\nfahren,\\nretten,\\ntrösten\\noder selbst keinen Schlaf finden.\\n\\nWas heute war,\\nlegen wir in deine Hand.\\nWas gut war.\\nWas wehgetan hat.\\nWas unfertig bleibt.\\n\\nSchenk uns Frieden für diese Nacht.\\nUnd halte die Hoffnung in uns wach,\\ndass dein Morgen größer ist als unser heutiger Tag.\\nAmen.\",\"headline\":\"Abendgebet: Den unfertigen Tag loslassen\"},\"instagram\":{\"caption\":\"Gott,\\nwir legen dir diesen Tag hin.\\nDas Gute.\\nDas Schwere.\\nDas Unfertige.\\n\\nWir bitten für die Menschen in Nepal und Tibet,\\nwo nach den Sturzfluten weiter nach Vermissten gesucht wird und neue Überflutungsgefahr droht.\\n\\nWir bitten für die Menschen in Baden-Württemberg,\\ndie sich auf Starkregen, Gewitter und schwere Unwetter einstellen müssen.\\n\\nSchenk Frieden für diese Nacht.\\nUnd Hoffnung, die weiter reicht als dieser Tag.\\nAmen.\",\"carousel\":[{\"type\":\"text\",\"text\":\"Gott,\\nder Tag liegt hinter uns.\\nMit allem, was gut war.\\nMit allem, was offen blieb.\"},{\"type\":\"text\",\"text\":\"Wir danken dir für freundliche Worte,\\nfür Arbeit, die gelungen ist,\\nfür kleine Momente von Licht.\"},{\"type\":\"text\",\"text\":\"Und wir bringen dir,\\nwas schwer auf uns liegt:\\nFehler.\\nStreit.\\nMüdigkeit.\\nDinge, die wir nicht geschafft haben.\"},{\"type\":\"text\",\"text\":\"Wir bitten für die Menschen in Nepal und Tibet.\\nNach den Sturzfluten werden weiter Tote beklagt.\\nNeue Überflutungsgefahr unterbricht mancherorts die Suche nach Überlebenden.\"},{\"type\":\"text\",\"text\":\"Wir bitten für die Menschen in Baden-Württemberg,\\ndie sich auf Starkregen,\\nGewitter und schwere Böen einstellen müssen.\\nBewahre alle, die heute Nacht in Sorge sind.\"},{\"type\":\"text\",\"text\":\"Was heute war,\\nlegen wir in deine Hand.\\nSchenk uns Frieden für diese Nacht.\\nUnd halte die Hoffnung in uns wach.\\nAmen.\"}]},\"mastodon\":{\"text\":\"Gott, wir legen dir diesen Tag hin. Das Gute. Das Schwere. Das Unfertige. Wir bitten für die Menschen in Nepal und Tibet nach den Sturzfluten und für alle in Baden-Württemberg, die sich auf Starkregen und Gewitter einstellen müssen. Schenk Frieden für diese Nacht und Hoffnung, die weiter reicht als dieser Tag. Amen.\"},\"bluesky\":{\"text\":\"Gott, wir legen dir diesen Tag hin. Das Gute. Das Schwere. Das Unfertige. Wir bitten für die Menschen in Nepal und Tibet nach den Sturzfluten und für alle in Baden-Württemberg, die sich auf Starkregen und Gewitter einstellen müssen. Schenk Frieden für diese Nacht. Amen.\"},\"story\":{\"slides\":[{\"text\":\"Der Tag liegt hinter uns.\\nMit allem, was gut war.\\nMit allem, was offen blieb.\"},{\"text\":\"Gott,\\nwir bringen dir,\\nwas schwer auf uns liegt:\\nMüdigkeit.\\nFehler.\\nUnfertiges.\"},{\"text\":\"Wir bitten für die Menschen in Nepal und Tibet nach den Sturzfluten.\\nSei nahe bei allen,\\ndie vermissen,\\ntrauern,\\nhelfen.\"},{\"text\":\"Wir bitten für die Menschen in Baden-Württemberg,\\ndie sich auf Starkregen und Gewitter einstellen müssen.\\nBewahre durch diese Nacht.\"},{\"text\":\"Schenk uns Frieden.\\nUnd halte die Hoffnung in uns wach.\\nAmen.\"}]},\"reel\":{\"hook\":\"Was heute unfertig bleibt, musst du nicht allein festhalten.\",\"script\":\"Der Tag ist fast vorbei. Nicht alles ist gelungen. Nicht alles ist geklärt. In diesem Abendgebet legen wir Gott hin, was gut war und was schwer blieb. Wir bitten für Menschen in Nepal und Tibet nach den Sturzfluten. Und für alle in Baden-Württemberg, die sich auf Starkregen und Gewitter einstellen müssen. Gott, nimm diesen Tag in deine Hand. Schenk Frieden für die Nacht. Und Hoffnung für den Morgen.\",\"shots\":[\"Abendlicht an einem offenen Fenster\",\"Eine Hand legt Notizzettel oder einen Stift zur Seite\",\"Ruhige Wolkenstimmung vor Regen\",\"Brennendes warmes Licht in einer dunkler werdenden Wohnung\",\"Leere Straße bei Nacht mit vereinzelten Lichtern\"],\"duration_seconds\":28}},\"visual\":{\"concept\":\"Ruhige Abendszene an einem Fenster. Warmes Innenlicht trifft auf einen dunkler werdenden Himmel. Die Stimmung ist still, getragen und hoffnungsvoll, ohne Kitsch.\",\"flux_prompt\":\"A quiet evening interior by a window, warm soft lamplight, darkening sky outside, subtle clouds suggesting incoming rain, calm contemplative mood, realistic photography, gentle contrast, natural colors, intimate and peaceful atmosphere, no people in focus, no typography\",\"negative_prompt\":\"text, letters, logo, watermark\",\"formats\":[\"4:5\",\"9:16\",\"1.91:1\"],\"alt_text\":\"Blick auf ein ruhiges Zimmer am Abend. Warmes Licht fällt auf eine Fensterbank, draußen wird der Himmel dunkel und wolkig. Die Szene wirkt still, behütet und nachdenklich.\"},\"qa\":{\"warnings\":[\"Alt text must be completed before approval\",\"Aktuelle Bezüge vor finaler Freigabe noch einmal kurz gegen die Nachrichtenlage vom Produktionszeitpunkt spiegeln.\"],\"approved\":false},\"metadata\":{\"model\":\"gpt-5\",\"generated_at\":\"2026-08-28\",\"prompt_version\":\"1.0\",\"assets\":[]}}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "current_turn",
+    "effort": "none",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1,
+  "text": {
+    "format": {
+      "type": "json_schema",
+      "description": null,
+      "name": "content_package",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "Idee",
+              "in Arbeit",
+              "zur Prüfung",
+              "freigegeben",
+              "terminiert",
+              "veröffentlicht",
+              "verworfen"
+            ]
+          },
+          "needs_input": {
+            "type": "boolean"
+          },
+          "source": {
+            "type": "object",
+            "properties": {
+              "calendar_post_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "date": {
+                "type": "string",
+                "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+              },
+              "rubric": {
+                "type": "string",
+                "minLength": 1
+              },
+              "liturgical_source": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "calendar_post_id",
+              "date",
+              "rubric",
+              "liturgical_source"
+            ],
+            "additionalProperties": false
+          },
+          "editorial_core": {
+            "type": "object",
+            "properties": {
+              "title": {
+                "type": "string"
+              },
+              "main_message": {
+                "type": "string"
+              },
+              "audience": {
+                "type": "string"
+              },
+              "tone": {
+                "minItems": 1,
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "source_notes": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "title",
+              "main_message",
+              "audience",
+              "tone",
+              "source_notes"
+            ],
+            "additionalProperties": false
+          },
+          "platforms": {
+            "type": "object",
+            "properties": {
+              "facebook": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  },
+                  "headline": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text",
+                  "headline"
+                ],
+                "additionalProperties": false
+              },
+              "instagram": {
+                "type": "object",
+                "properties": {
+                  "caption": {
+                    "type": "string"
+                  },
+                  "carousel": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "type": {
+                          "type": "string"
+                        },
+                        "text": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "type",
+                        "text"
+                      ],
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "required": [
+                  "caption",
+                  "carousel"
+                ],
+                "additionalProperties": false
+              },
+              "mastodon": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text"
+                ],
+                "additionalProperties": false
+              },
+              "bluesky": {
+                "default": {
+                  "text": ""
+                },
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text"
+                ],
+                "additionalProperties": false
+              },
+              "story": {
+                "type": "object",
+                "properties": {
+                  "slides": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "text": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "text"
+                      ],
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "required": [
+                  "slides"
+                ],
+                "additionalProperties": false
+              },
+              "reel": {
+                "type": "object",
+                "properties": {
+                  "hook": {
+                    "type": "string"
+                  },
+                  "script": {
+                    "type": "string"
+                  },
+                  "shots": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "duration_seconds": {
+                    "type": "integer",
+                    "minimum": 0,
+                    "maximum": 9007199254740991
+                  }
+                },
+                "required": [
+                  "hook",
+                  "script",
+                  "shots",
+                  "duration_seconds"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "required": [
+              "facebook",
+              "instagram",
+              "mastodon",
+              "bluesky",
+              "story",
+              "reel"
+            ],
+            "additionalProperties": false
+          },
+          "visual": {
+            "type": "object",
+            "properties": {
+              "concept": {
+                "type": "string"
+              },
+              "flux_prompt": {
+                "type": "string"
+              },
+              "negative_prompt": {
+                "type": "string",
+                "minLength": 1
+              },
+              "formats": {
+                "minItems": 1,
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "alt_text": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "concept",
+              "flux_prompt",
+              "negative_prompt",
+              "formats",
+              "alt_text"
+            ],
+            "additionalProperties": false
+          },
+          "qa": {
+            "type": "object",
+            "properties": {
+              "warnings": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "approved": {
+                "type": "boolean"
+              }
+            },
+            "required": [
+              "warnings",
+              "approved"
+            ],
+            "additionalProperties": false
+          },
+          "metadata": {
+            "type": "object",
+            "properties": {
+              "model": {
+                "type": "string"
+              },
+              "generated_at": {
+                "type": "string"
+              },
+              "prompt_version": {
+                "type": "string",
+                "minLength": 1
+              },
+              "assets": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "model",
+              "generated_at",
+              "prompt_version",
+              "assets"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "id",
+          "status",
+          "needs_input",
+          "source",
+          "editorial_core",
+          "platforms",
+          "visual",
+          "qa",
+          "metadata"
+        ],
+        "additionalProperties": false
+      },
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 1
+    }
+  },
+  "tools": [
+    {
+      "type": "web_search",
+      "return_token_budget": "default",
+      "search_content_types": [
+        "text"
+      ],
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 17620,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1951,
+    "output_tokens_details": {
+      "reasoning_tokens": 126
+    },
+    "total_tokens": 19571
+  },
+  "user": null,
+  "metadata": {},
+  "output_text": "{\"id\":\"prayer-evening-2026-08-28\",\"status\":\"in Arbeit\",\"needs_input\":false,\"source\":{\"calendar_post_id\":\"prayer-evening-2026-08-28\",\"date\":\"2026-08-28\",\"rubric\":\"Abendgebet\",\"liturgical_source\":\"\"},\"editorial_core\":{\"title\":\"Abendgebet\",\"main_message\":\"Ein Abendgebet für einen unfertigen Tag: Wir legen Gott hin, was gelungen ist und was offen blieb. Wir bitten für die Menschen in Nepal und Tibet, wo nach den Sturzfluten weiter Tote beklagt werden und die Suche wegen neuer Überflutungsgefahr unterbrochen werden musste, und für die Menschen in Baden-Württemberg, die sich auf Starkregen, Gewitter und örtlich schwere Unwetter einstellen müssen. Gottes Zukunft endet nicht an dem, was wir heute noch nicht lösen konnten.\",\"audience\":\"breite Öffentlichkeit\",\"tone\":[\"ruhig\",\"hoffnungsvoll\",\"geborgen\"],\"source_notes\":[\"Aktuelle Bezüge geprüft: tagesschau-Archiv 28.08.2026 und SWR Aktuell Baden-Württemberg/Newsticker 28.08.2026.\",\"Konkrete Fürbitten aufgenommen: Sturzfluten in Nepal und Tibet mit unterbrochener Suche wegen neuer Gefahr; Unwetterlage mit Starkregen, Gewittern und örtlich schweren Böen/Hagel in Baden-Württemberg.\",\"Zeitlich robust formuliert: keine Behauptungen über den weiteren Verlauf des Veröffentlichungstages.\",\"Theologischer Akzent: Hoffnung ohne billige Auflösung; der Tag darf unvollendet in Gottes Hand ruhen.\"]},\"platforms\":{\"facebook\":{\"text\":\"Gott,\\nder Tag liegt hinter uns.\\nMit allem, was gut war.\\nMit allem, was offen blieb.\\n\\nWir danken dir für das, was getragen hat:\\nfür freundliche Worte,\\nfür Arbeit, die gelungen ist,\\nfür kleine Momente von Licht.\\n\\nUnd wir bringen dir, was schwer auf uns liegt:\\nFehler.\\nStreit.\\nMüdigkeit.\\nDinge, die wir nicht geschafft haben.\\nLass uns loslassen, was wir heute nicht mehr ordnen können.\\n\\nWir bitten dich für die Menschen in Nepal und Tibet.\\nNach den Sturzfluten werden weiter viele Tote beklagt.\\nUnd die Suche nach Überlebenden musste mancherorts unterbrochen werden,\\nweil neue Überflutungen drohen.\\nSei bei denen, die Angehörige vermissen,\\ndie um ihr Leben fürchten\\nund die erschöpft helfen.\\n\\nWir bitten dich auch für die Menschen in Baden-Württemberg,\\ndie sich auf Starkregen, Gewitter und schwere Böen einstellen müssen.\\nBewahre die, die unterwegs sind.\\nSchütze Häuser und Felder.\\nGib Besonnenheit den Einsatzkräften\\nund Ruhe denen, die heute Nacht mit Sorge auf den Himmel sehen.\\n\\nSei bei allen,\\ndie in dieser Nacht wachen,\\npflegen,\\nfahren,\\nretten,\\ntrösten\\noder selbst keinen Schlaf finden.\\n\\nWas heute war,\\nlegen wir in deine Hand.\\nWas gut war.\\nWas wehgetan hat.\\nWas unfertig bleibt.\\n\\nSchenk uns Frieden für diese Nacht.\\nUnd halte die Hoffnung in uns wach,\\ndass dein Morgen größer ist als unser heutiger Tag.\\nAmen.\",\"headline\":\"Abendgebet: Den unfertigen Tag loslassen\"},\"instagram\":{\"caption\":\"Gott,\\nwir legen dir diesen Tag hin.\\nDas Gute.\\nDas Schwere.\\nDas Unfertige.\\n\\nWir bitten für die Menschen in Nepal und Tibet,\\nwo nach den Sturzfluten weiter nach Vermissten gesucht wird und neue Überflutungsgefahr droht.\\n\\nWir bitten für die Menschen in Baden-Württemberg,\\ndie sich auf Starkregen, Gewitter und schwere Unwetter einstellen müssen.\\n\\nSchenk Frieden für diese Nacht.\\nUnd Hoffnung, die weiter reicht als dieser Tag.\\nAmen.\",\"carousel\":[{\"type\":\"text\",\"text\":\"Gott,\\nder Tag liegt hinter uns.\\nMit allem, was gut war.\\nMit allem, was offen blieb.\"},{\"type\":\"text\",\"text\":\"Wir danken dir für freundliche Worte,\\nfür Arbeit, die gelungen ist,\\nfür kleine Momente von Licht.\"},{\"type\":\"text\",\"text\":\"Und wir bringen dir,\\nwas schwer auf uns liegt:\\nFehler.\\nStreit.\\nMüdigkeit.\\nDinge, die wir nicht geschafft haben.\"},{\"type\":\"text\",\"text\":\"Wir bitten für die Menschen in Nepal und Tibet.\\nNach den Sturzfluten werden weiter Tote beklagt.\\nNeue Überflutungsgefahr unterbricht mancherorts die Suche nach Überlebenden.\"},{\"type\":\"text\",\"text\":\"Wir bitten für die Menschen in Baden-Württemberg,\\ndie sich auf Starkregen,\\nGewitter und schwere Böen einstellen müssen.\\nBewahre alle, die heute Nacht in Sorge sind.\"},{\"type\":\"text\",\"text\":\"Was heute war,\\nlegen wir in deine Hand.\\nSchenk uns Frieden für diese Nacht.\\nUnd halte die Hoffnung in uns wach.\\nAmen.\"}]},\"mastodon\":{\"text\":\"Gott, wir legen dir diesen Tag hin. Das Gute. Das Schwere. Das Unfertige. Wir bitten für die Menschen in Nepal und Tibet nach den Sturzfluten und für alle in Baden-Württemberg, die sich auf Starkregen und Gewitter einstellen müssen. Schenk Frieden für diese Nacht und Hoffnung, die weiter reicht als dieser Tag. Amen.\"},\"bluesky\":{\"text\":\"Gott, wir legen dir diesen Tag hin. Das Gute. Das Schwere. Das Unfertige. Wir bitten für die Menschen in Nepal und Tibet nach den Sturzfluten und für alle in Baden-Württemberg, die sich auf Starkregen und Gewitter einstellen müssen. Schenk Frieden für diese Nacht. Amen.\"},\"story\":{\"slides\":[{\"text\":\"Der Tag liegt hinter uns.\\nMit allem, was gut war.\\nMit allem, was offen blieb.\"},{\"text\":\"Gott,\\nwir bringen dir,\\nwas schwer auf uns liegt:\\nMüdigkeit.\\nFehler.\\nUnfertiges.\"},{\"text\":\"Wir bitten für die Menschen in Nepal und Tibet nach den Sturzfluten.\\nSei nahe bei allen,\\ndie vermissen,\\ntrauern,\\nhelfen.\"},{\"text\":\"Wir bitten für die Menschen in Baden-Württemberg,\\ndie sich auf Starkregen und Gewitter einstellen müssen.\\nBewahre durch diese Nacht.\"},{\"text\":\"Schenk uns Frieden.\\nUnd halte die Hoffnung in uns wach.\\nAmen.\"}]},\"reel\":{\"hook\":\"Was heute unfertig bleibt, musst du nicht allein festhalten.\",\"script\":\"Der Tag ist fast vorbei. Nicht alles ist gelungen. Nicht alles ist geklärt. In diesem Abendgebet legen wir Gott hin, was gut war und was schwer blieb. Wir bitten für Menschen in Nepal und Tibet nach den Sturzfluten. Und für alle in Baden-Württemberg, die sich auf Starkregen und Gewitter einstellen müssen. Gott, nimm diesen Tag in deine Hand. Schenk Frieden für die Nacht. Und Hoffnung für den Morgen.\",\"shots\":[\"Abendlicht an einem offenen Fenster\",\"Eine Hand legt Notizzettel oder einen Stift zur Seite\",\"Ruhige Wolkenstimmung vor Regen\",\"Brennendes warmes Licht in einer dunkler werdenden Wohnung\",\"Leere Straße bei Nacht mit vereinzelten Lichtern\"],\"duration_seconds\":28}},\"visual\":{\"concept\":\"Ruhige Abendszene an einem Fenster. Warmes Innenlicht trifft auf einen dunkler werdenden Himmel. Die Stimmung ist still, getragen und hoffnungsvoll, ohne Kitsch.\",\"flux_prompt\":\"A quiet evening interior by a window, warm soft lamplight, darkening sky outside, subtle clouds suggesting incoming rain, calm contemplative mood, realistic photography, gentle contrast, natural colors, intimate and peaceful atmosphere, no people in focus, no typography\",\"negative_prompt\":\"text, letters, logo, watermark\",\"formats\":[\"4:5\",\"9:16\",\"1.91:1\"],\"alt_text\":\"Blick auf ein ruhiges Zimmer am Abend. Warmes Licht fällt auf eine Fensterbank, draußen wird der Himmel dunkel und wolkig. Die Szene wirkt still, behütet und nachdenklich.\"},\"qa\":{\"warnings\":[\"Alt text must be completed before approval\",\"Aktuelle Bezüge vor finaler Freigabe noch einmal kurz gegen die Nachrichtenlage vom Produktionszeitpunkt spiegeln.\"],\"approved\":false},\"metadata\":{\"model\":\"gpt-5\",\"generated_at\":\"2026-08-28\",\"prompt_version\":\"1.0\",\"assets\":[]}}"
+}
