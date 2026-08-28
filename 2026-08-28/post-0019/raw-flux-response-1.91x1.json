@@ -1,0 +1,36 @@
+{
+  "delivery_url": "https://delivery.us7.bfl.ai/durable/2026082813/5e1f69ea-538b-4d66-962e-9be995966f07/e0/5986741aa342c3/1aa342c3fc49458e9cef5dc4daa2ed55/sample.jpeg?se=2026-08-28T13%3A36%3A38Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=BdYlTFEjvThPcSocvPG/BEmzEoRJCUzF7rjiGK1a398%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "b7b1defa-0cd6-4273-a0da-92e8bcb5253f",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "b7b1defa-0cd6-4273-a0da-92e8bcb5253f",
+      "status": "Ready",
+      "result": {
+        "start_time": 1787923597.536771,
+        "prompt": "Eine Kerze mit glimmendem Docht, nur ein Funke noch. Rauch steigt auf., no text, no letters, no typography, no logo, no watermark",
+        "seed": 536503548,
+        "sample": "https://delivery.us7.bfl.ai/durable/2026082813/5e1f69ea-538b-4d66-962e-9be995966f07/e0/5986741aa342c3/1aa342c3fc49458e9cef5dc4daa2ed55/sample.jpeg?se=2026-08-28T13%3A36%3A38Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=BdYlTFEjvThPcSocvPG/BEmzEoRJCUzF7rjiGK1a398%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "b7b1defa-0cd6-4273-a0da-92e8bcb5253f",
+    "polling_url": "https://api.us7.bfl.ai/v1/get_result?id=b7b1defa-0cd6-4273-a0da-92e8bcb5253f",
+    "cost": 1.4000000000000001,
+    "input_mp": 0,
+    "output_mp": 0.72
+  }
+}
