@@ -1,6 +1,6 @@
 {
   "id": "post-0019",
-  "status": "in Arbeit",
+  "status": "freigegeben",
   "needs_input": false,
   "source": {
     "calendar_post_id": "post-0019",
@@ -29,27 +29,27 @@
   },
   "platforms": {
     "facebook": {
-      "headline": "Wochengebet: aufmerksam leben",
-      "text": "Das geknickte Rohr wird er nicht zerbrechen, und den glimmenden Docht wird er nicht auslöschen. (Jes 42,3)\n\nGott,\ndie Woche hängt noch an mir.\nZu viele Stimmen.\nZu wenig Ruhe.\nÖffne meine Augen für das, was heute zählt.\nLass mich freundlich sein mit anderen und mit mir.\nUnd bewahre in mir, was nur noch leise glimmt.\nAmen."
+      "text": "Das geknickte Rohr wird er nicht zerbrechen, und den glimmenden Docht wird er nicht auslöschen. (Jes 42,3)\n\nGott,\ndie Woche hängt noch an mir.\nZu viele Stimmen.\nZu wenig Ruhe.\nÖffne meine Augen für das, was heute zählt.\nLass mich freundlich sein mit anderen und mit mir.\nUnd bewahre in mir, was nur noch leise glimmt.\nAmen.",
+      "headline": "Wochengebet: aufmerksam leben"
     },
     "instagram": {
       "caption": "Das geknickte Rohr wird er nicht zerbrechen, und den glimmenden Docht wird er nicht auslöschen. (Jes 42,3)\n\nGott,\ndie Woche hängt noch an mir.\nZu viele Stimmen.\nZu wenig Ruhe.\nÖffne meine Augen für das, was heute zählt.\nLass mich freundlich sein mit anderen und mit mir.\nUnd bewahre in mir, was nur noch leise glimmt.\nAmen.",
       "carousel": [
         {
-          "text": "Das geknickte Rohr wird er nicht zerbrechen, und den glimmenden Docht wird er nicht auslöschen. (Jes 42,3)",
-          "type": "slide"
+          "type": "slide",
+          "text": "Das geknickte Rohr wird er nicht zerbrechen, und den glimmenden Docht wird er nicht auslöschen. (Jes 42,3)"
         },
         {
-          "text": "Gott,\ndie Woche hängt noch an mir.\nZu viele Stimmen.\nZu wenig Ruhe.",
-          "type": "slide"
+          "type": "slide",
+          "text": "Gott,\ndie Woche hängt noch an mir.\nZu viele Stimmen.\nZu wenig Ruhe."
         },
         {
-          "text": "Öffne meine Augen für das, was heute zählt.\nLass mich freundlich sein mit anderen und mit mir.",
-          "type": "slide"
+          "type": "slide",
+          "text": "Öffne meine Augen für das, was heute zählt.\nLass mich freundlich sein mit anderen und mit mir."
         },
         {
-          "text": "Und bewahre in mir,\nwas nur noch leise glimmt.\nAmen.",
-          "type": "slide"
+          "type": "slide",
+          "text": "Und bewahre in mir,\nwas nur noch leise glimmt.\nAmen."
         }
       ]
     },
@@ -103,10 +103,11 @@
     "alt_text": "Eine Kerze mit glimmendem Docht, nur ein Funke noch. Rauch steigt auf."
   },
   "qa": {
-    "approved": false,
+    "approved": true,
     "warnings": [
-      "Alt text must be completed before approval",
-      "Check song lyric copyright before publication"
+      "Field \"bluesky.text\" is 323 characters long and exceeds the plausibility limit of 300.",
+      "Song lyric copyright must be checked manually before publication.",
+      "Public copy may contain quoted or verse-like lyrics. Confirm that no protected full lyrics are published."
     ]
   },
   "metadata": {
