@@ -27,5 +27,65 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "post-0019",
+    "contentDate": "2026-08-28",
+    "platform": "instagram",
+    "format": "default",
+    "scheduledAt": "2026-08-28T07:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Das geknickte Rohr wird er nicht zerbrechen, und den glimmenden Docht wird er nicht auslöschen. (Jes 42,3)\n\nGott,\ndie Woche hängt noch an mir.\nÖffne meine Augen für das, was heute zählt.\nLass mich freundlich sein mit anderen und mit mir.\nUnd bewahre in mir, was nur noch leise glimmt.\nAmen.",
+    "assets": [
+      "render-instagram-feed-01.jpg",
+      "render-instagram-feed-02.jpg",
+      "render-instagram-feed-03.jpg",
+      "render-instagram-feed-04.jpg"
+    ],
+    "altTexts": [
+      "Eine Kerze mit glimmendem Docht, nur ein Funke noch. Rauch steigt auf."
+    ],
+    "id": "9aee73f8-69ca-422f-89b2-29d3837211ec",
+    "attemptCount": 1,
+    "remoteId": "18099345818341263",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-28T15:55:08.028Z",
+    "updatedAt": "2026-08-28T16:00:51.036Z",
+    "responseMetadata": {
+      "mediaCount": 4,
+      "mediaType": "CAROUSEL",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "post-0019",
+    "contentDate": "2026-08-28",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-08-28T07:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Das geknickte Rohr wird er nicht zerbrechen, und den glimmenden Docht wird er nicht auslöschen. (Jes 42,3)\n\nGott,\ndie Woche hängt noch an mir.\nÖffne meine Augen für das, was heute zählt.\nLass mich freundlich sein mit anderen und mit mir.\nUnd bewahre in mir, was nur noch leise glimmt.\nAmen.",
+    "assets": [
+      "render-facebook-mastodon-01.png"
+    ],
+    "altTexts": [
+      "Eine Kerze mit glimmendem Docht, nur ein Funke noch. Rauch steigt auf."
+    ],
+    "id": "28925d65-1ef1-4ae7-b566-e8f10baf5369",
+    "attemptCount": 1,
+    "remoteId": "117173967406573724",
+    "remoteUrl": "https://kirche.social/@christoph/117173967406573724",
+    "lastError": null,
+    "createdAt": "2026-08-28T15:55:08.101Z",
+    "updatedAt": "2026-08-28T16:00:52.356Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
