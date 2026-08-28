@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      :root {
+        --canvas-width: 1200px;
+        --canvas-height: 630px;
+        --page-bg: #173248;
+        --page-bg-deep: #0a1a27;
+        --text-primary: #ffffff;
+        --text-secondary: #d9e4ec;
+        --accent: #f0c674;
+        --surface: rgba(255, 255, 255, 0.1);
+        --surface-strong: rgba(10, 14, 22, 0.54);
+        --border: rgba(255, 255, 255, 0.22);
+        --shadow: rgba(0, 0, 0, 0.24);
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        margin: 0;
+        width: var(--canvas-width);
+        height: var(--canvas-height);
+        overflow: hidden;
+      }
+
+      body {
+        background: var(--page-bg);
+        color: var(--text-primary);
+        font-family: "Atkinson Hyperlegible Next", "Atkinson Hyperlegible", "Aptos", "Segoe UI", "Helvetica Neue", sans-serif;
+      }
+
+      .canvas {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        background-image:
+      linear-gradient(180deg, rgba(20, 20, 24, 0.08), rgba(20, 20, 24, 0.34)),
+      url("data:image/webp;base64,UklGRvgVAABXRUJQVlA4IOwVAABw/ACdASqwBHACPm02mEmkIyqkIRToMVANiWlu4XaegHS8uttNQubP8JmzvP+i+f7uDebR9aG9dehL+0lpDtvv0n5RdIqoa/Lfxv+349dtD1m1g/8B4Uf9hx+/jv9//43qj/nvCl/8bzo/5P+p+w3/v/5P0bfnH98/1/uC/xz+qf8v+8ezZ63/299iX9aAXiC/E6J70kCBAgQIECBATA4aUbGwtcTUwW9D+6ZDLZsZ1NT+J0T1otCtIT6VpfnTp06dOnTp06dOnTp06dOnTp06dOnTp06dCULITxdvPdG95qcuXLly5cuXLly5cuXLly5cuXLly5cuXLly5cMZsrxpMMOGSKiToC4a/E6J70kCBAgQIECBAgQIECBAgQIECBAgQIECNgDjQIECBAgQIECBAgQIECBAgQIECBAgQIECBAgQIECAnKldr82KSvzp06dOnTp06dOnTp06dOnTp06dOnTp06dOnTp06Qy+Z9gGUcpy5cuXLly5cuXLly5cuXLly5cuXLly5cuXLly5cuFRgoZUsPQjdsPuU5cuXLly5cuXLly5cuXLly5cuXLly5cuXLly5cuVnS7Aag4K+QXiOU5cuXLly5cuXLly5cuXLly5cuXLly5cuXLly5cuXCmLPLxvKF2uSbekgQIECBAgQIECBAgQIECBAgQIECBAgQIECBAgQICXweCLMngIF/C8TonvSQIECBAgQIECBAgQIECBAgQIECBAgQIECBAfFPemu8Z/8iyiV5cuXLly5cuXLly5cuXLly5cuXLly5cuXLly5cuF5qya5VFVQy7o2YcYl2pMBakF+J0T3pIECBAgQIECBAgQIECBAgQIECBAvEFIAs9EXK1F1c0IQIECBAgQIECBAgQIECBAgQIECBAgQIECBAgQQP0F9oAOQDp5un19BWtbh+0u1JgLUgvxOie9JAgQIECBAgQIECBAgQIECBAjODDqzOzIqTBb2Yx8XAoGePXcUtcC1IL8TonvSQIECBAgQIECBAgQIECBAgQIECBBBvZpLwGrA4HaENpwUEW+ik8vSDryF5BfidE96SBAgQIECBAgQIECBAgQIECBAgQIECNfnnzo9VWH85hBeVaZmInZMmZfKl3NJ6iz4wFqQX4nRPekgQIECBAgQIECBAgQIECBAgQIEClz+dtF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");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      .canvas::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background:
+          linear-gradient(150deg, rgba(255, 255, 255, 0.08), transparent 42%),
+          linear-gradient(0deg, rgba(0, 0, 0, 0.12), rgba(0, 0, 0, 0.12));
+        pointer-events: none;
+      }
+
+      .layout {
+        position: relative;
+        z-index: 1;
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        height: 100%;
+        padding: 56px;
+      }
+
+      .format-story .layout {
+        padding: 72px 58px;
+        gap: 28px;
+      }
+
+      .format-landscape .layout {
+        padding: 42px 48px;
+        gap: 18px;
+      }
+
+      .format-square .layout,
+      .format-story .layout {
+        justify-content: center;
+      }
+
+      .format-square .panel,
+      .format-story .panel {
+        margin-top: 0;
+      }
+
+      .format-square .tageslosungen-panel,
+      .format-story .tageslosungen-panel {
+        width: 100%;
+      }
+
+      .template-tageslosungen .sender-mark {
+        position: absolute;
+        right: 56px;
+        bottom: 42px;
+        margin: 0;
+      }
+
+      .template-tageslosungen .panel {
+        background: transparent;
+        backdrop-filter: none;
+        box-shadow: none;
+        border-radius: 0;
+      }
+
+      .template-grundrechte .layout {
+        justify-content: flex-start;
+      }
+
+      .template-grundrechte .panel {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        justify-content: space-between;
+        background: transparent;
+        backdrop-filter: none;
+        box-shadow: none;
+        border-radius: 0;
+        text-align: center;
+      }
+
+      .template-grundrechte .accent-line {
+        display: none;
+      }
+
+      .template-grundrechte .title {
+        margin-top: 0;
+      }
+
+      .template-grundrechte .grundrechte-content {
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        justify-content: center;
+        gap: 24px;
+      }
+
+      .template-grundrechte .sender-mark {
+        margin: 0;
+        font-size: 18px;
+      }
+
+      .format-story .template-grundrechte .sender-mark {
+        font-size: 19px;
+      }
+
+      .template-kirchenjahr::before {
+        display: none;
+      }
+
+      .template-kirchenjahr .panel {
+        width: 100%;
+        background: transparent;
+        backdrop-filter: none;
+        box-shadow: none;
+        border-radius: 0;
+        text-align: center;
+      }
+
+      .template-kirchenjahr .panel-meta {
+        display: none;
+      }
+
+      .template-kirchenjahr .sender-mark {
+        position: absolute;
+        left: 56px;
+        right: 56px;
+        bottom: 36px;
+        margin: 0;
+        color: var(--text-primary);
+        text-align: center;
+        font-size: 26px;
+      }
+
+      .template-kirchenjahr .title {
+        font-size: 68px;
+      }
+
+      .format-story .template-kirchenjahr .title {
+        font-size: 82px;
+      }
+
+      .template-kirchenjahr .title-note {
+        color: var(--text-primary);
+        font-size: 38px;
+        line-height: 1.2;
+        margin: 0;
+      }
+
+      .format-story .template-kirchenjahr .title-note {
+        font-size: 44px;
+      }
+
+      .panel-meta {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 16px;
+      }
+
+      .eyebrow {
+        display: inline-flex;
+        align-self: flex-start;
+        padding: 10px 16px;
+        border-radius: 999px;
+        background: rgba(255, 255, 255, 0.14);
+        border: 1px solid var(--border);
+        color: var(--text-primary);
+        font-size: 26px;
+        font-weight: 700;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+      }
+
+      .pager {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-width: 70px;
+        padding: 10px 14px;
+        border-radius: 999px;
+        background: rgba(255, 255, 255, 0.12);
+        border: 1px solid var(--border);
+        font-size: 22px;
+        font-weight: 700;
+      }
+
+      .format-landscape .eyebrow,
+      .format-landscape .pager {
+        font-size: 18px;
+        padding: 7px 12px;
+      }
+
+      .panel {
+        display: flex;
+        flex-direction: column;
+        gap: 18px;
+        margin-top: auto;
+        min-height: 0;
+        padding: 36px;
+        border-radius: 34px;
+        background: linear-gradient(180deg, rgba(11, 17, 27, 0.28), rgba(11, 17, 27, 0.58));
+        backdrop-filter: blur(10px);
+        box-shadow: 0 24px 64px var(--shadow);
+      }
+
+      .prayer-panel {
+        position: relative;
+        overflow: hidden;
+      }
+
+      .prayer-symbol {
+        width: 74px;
+        height: 74px;
+        flex: 0 0 auto;
+        border-radius: 50%;
+        border: 3px solid var(--accent);
+        box-shadow: 0 0 0 14px color-mix(in srgb, var(--accent) 14%, transparent);
+      }
+
+      .prayer-symbol-morning {
+        background: radial-gradient(circle, var(--accent) 0 42%, transparent 44%);
+      }
+
+      .prayer-symbol-evening {
+        background: linear-gradient(135deg, transparent 0 45%, var(--accent) 47% 72%, transparent 74%);
+        border-color: var(--accent);
+      }
+
+      .template-morgengebet .prayer-panel {
+        background: linear-gradient(180deg, rgba(36, 84, 106, 0.32), rgba(11, 27, 40, 0.62));
+      }
+
+      .template-abendgebet .prayer-panel {
+        background: linear-gradient(180deg, rgba(47, 42, 93, 0.34), rgba(15, 16, 41, 0.66));
+      }
+
+      .format-landscape .panel {
+        gap: 12px;
+        padding: 24px 26px;
+        border-radius: 24px;
+      }
+
+      .accent-line {
+        width: 120px;
+        height: 8px;
+        border-radius: 999px;
+        background: var(--accent);
+      }
+
+      .format-landscape .accent-line {
+        width: 72px;
+        height: 6px;
+      }
+
+      .title {
+        margin: 0;
+        font-size: 52px;
+        line-height: 1.08;
+        font-weight: 800;
+      }
+
+      .title-story {
+        font-size: 64px;
+      }
+
+      .format-landscape .title {
+        font-size: 32px;
+      }
+
+      .title-note {
+        margin: 0;
+        color: var(--text-secondary);
+        font-size: 22px;
+        line-height: 1.3;
+      }
+
+      .format-landscape .title-note {
+        font-size: 14px;
+      }
+
+      .body-text {
+        margin: 0;
+        font-size: 40px;
+        line-height: 1.22;
+        white-space: pre-wrap;
+      }
+
+      .body-text-story {
+        font-size: 50px;
+      }
+
+      .format-landscape .body-text {
+        font-size: 22px;
+      }
+
+      .small-text {
+        margin: 0;
+        color: var(--text-secondary);
+        font-size: 26px;
+        line-height: 1.35;
+        white-space: pre-wrap;
+      }
+
+      .format-story .small-text {
+        font-size: 28px;
+      }
+
+      .format-landscape .small-text {
+        font-size: 15px;
+      }
+
+      .citation {
+        color: var(--accent);
+        font-size: 28px;
+        font-weight: 700;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+      }
+
+      .format-landscape .citation {
+        font-size: 16px;
+      }
+
+      .sender-mark {
+        margin: 0;
+        padding-top: 8px;
+        color: rgba(255, 255, 255, 0.78);
+        font-size: 18px;
+        line-height: 1.2;
+        letter-spacing: 0.03em;
+      }
+
+      .format-story .sender-mark {
+        font-size: 19px;
+      }
+
+      .format-landscape .sender-mark {
+        font-size: 12px;
+        padding-top: 4px;
+      }
+
+      [data-overflow-id] {
+        min-height: 0;
+        overflow: hidden;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="canvas format-landscape">
+      <section class="layout">
+        <div class="panel-meta">
+          <div class="eyebrow">Gebet oder Liedgedanke</div>
+          
+        </div>
+        <section class="panel">
+  <div class="accent-line"></div>
+  <h1 class="title" data-overflow-id="title">Wochengebet: aufmerksam leben</h1>
+  <p class="sender-mark">christoph-fischer.de</p>
+</section>
+
+      </section>
+    </main>
+  </body>
+</html>
