@@ -87,5 +87,100 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "post-0019",
+    "contentDate": "2026-08-28",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-08-28T07:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Das geknickte Rohr wird er nicht zerbrechen, und den glimmenden Docht wird er nicht auslöschen. (Jes 42,3)\n\nGott, die Woche hängt noch an mir.  Öffne meine Augen für das, was heute zählt. Lass mich freundlich sein mit anderen und mit mir. Und bewahre in mir, was nur noch leise glimmt. Amen.",
+    "assets": [
+      "render-instagram-feed-01.jpg",
+      "render-instagram-feed-02.jpg",
+      "render-instagram-feed-03.jpg",
+      "render-instagram-feed-04.jpg"
+    ],
+    "altTexts": [
+      "Eine Kerze mit glimmendem Docht, nur ein Funke noch. Rauch steigt auf."
+    ],
+    "id": "3ce05f81-f356-48b2-b4d9-9ce76eb567bf",
+    "attemptCount": 1,
+    "remoteId": "18619515511053381",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-28T15:55:08.159Z",
+    "updatedAt": "2026-08-28T16:01:28.659Z",
+    "responseMetadata": {
+      "mediaCount": 4,
+      "mediaType": "CAROUSEL",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "post-0019",
+    "contentDate": "2026-08-28",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-08-28T07:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Das geknickte Rohr wird er nicht zerbrechen, und den glimmenden Docht wird er nicht auslöschen. (Jes 42,3)\n\nGott, die Woche hängt noch an mir.  Öffne meine Augen für das, was heute zählt. Lass mich freundlich sein mit anderen und mit mir. Und bewahre in mir, was nur noch leise glimmt. Amen.",
+    "assets": [
+      "render-instagram-feed-01.png",
+      "render-instagram-feed-02.png",
+      "render-instagram-feed-03.png",
+      "render-instagram-feed-04.png"
+    ],
+    "altTexts": [
+      "Eine Kerze mit glimmendem Docht, nur ein Funke noch. Rauch steigt auf."
+    ],
+    "id": "f5a6d6e2-1ef9-472e-a06e-6d836d7307f3",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3mu5qciy2z62e",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3mu5qciy2z62e",
+    "lastError": null,
+    "createdAt": "2026-08-28T15:55:08.217Z",
+    "updatedAt": "2026-08-28T16:01:32.992Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 4
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "post-0019",
+    "contentDate": "2026-08-28",
+    "platform": "linkedin",
+    "format": "default",
+    "scheduledAt": "2026-08-28T07:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Das geknickte Rohr wird er nicht zerbrechen, und den glimmenden Docht wird er nicht auslöschen. (Jes 42,3)\n\nGott,\ndie Woche hängt noch an mir.\nÖffne meine Augen für das, was heute zählt.\nLass mich freundlich sein mit anderen und mit mir.\nUnd bewahre in mir, was nur noch leise glimmt.\nAmen.",
+    "assets": [
+      "render-instagram-feed-01.png",
+      "render-instagram-feed-02.png",
+      "render-instagram-feed-03.png",
+      "render-instagram-feed-04.png"
+    ],
+    "altTexts": [
+      "Eine Kerze mit glimmendem Docht, nur ein Funke noch. Rauch steigt auf."
+    ],
+    "id": "530127b9-b4e0-4a54-b983-a25ab0ac9dd9",
+    "attemptCount": 1,
+    "remoteId": "urn:li:ugcPost:7499134109022179330",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-28T15:55:08.285Z",
+    "updatedAt": "2026-08-28T16:01:39.257Z",
+    "responseMetadata": {
+      "mediaCount": 4,
+      "mediaType": "MULTI_IMAGE",
+      "status": 201
+    },
+    "retryHistory": []
   }
 ]
