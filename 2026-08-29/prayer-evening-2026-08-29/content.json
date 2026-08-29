@@ -1,6 +1,6 @@
 {
   "id": "prayer-evening-2026-08-29",
-  "status": "in Arbeit",
+  "status": "freigegeben",
   "needs_input": false,
   "source": {
     "calendar_post_id": "prayer-evening-2026-08-29",
@@ -49,31 +49,31 @@
   },
   "platforms": {
     "facebook": {
-      "headline": "Abendgebet: Was heute offen blieb, darf in Gottes Hand ruhen",
-      "text": "Gott,\nder Tag liegt hinter uns.\nMit allem, was gut war.\nUnd mit allem, was offen geblieben ist.\n\nWir bringen dir unsere Müdigkeit.\nUnsere Fehler.\nUnsere Gespräche, die nachklingen.\nUnsere Arbeit.\nUnd das, was wir heute nicht mehr schaffen.\n\nWir denken an die Menschen in Kiew nach den schweren Angriffen.\nAn alle, die Tote und Verletzte beklagen, Schutz suchen oder in Angst durch diese Nacht gehen.\nWir denken an die Menschen hier bei uns, die nach den Sturmschäden aufräumen, Schäden überblicken und nicht ruhig schlafen.\n\nSei bei allen, die wachen.\nBei Pflegekräften und Einsatzteams.\nBei Menschen in Krankenhäusern.\nBei allen, die Angst haben.\n\nLass uns loslassen, was wir nicht festhalten können.\nBewahre das Gute.\nTrage das Schwere.\nUnd halte deine Hoffnung in uns wach.\n\nSchenk uns Frieden für diese Nacht.\nUnd morgen den Mut für den nächsten Schritt."
+      "text": "Gott,\nder Tag liegt hinter uns.\nMit allem, was gut war.\nUnd mit allem, was offen geblieben ist.\n\nWir bringen dir unsere Müdigkeit.\nUnsere Fehler.\nUnsere Gespräche, die nachklingen.\nUnsere Arbeit.\nUnd das, was wir heute nicht mehr schaffen.\n\nWir denken an die Menschen in Kiew nach den schweren Angriffen.\nAn alle, die Tote und Verletzte beklagen, Schutz suchen oder in Angst durch diese Nacht gehen.\nWir denken an die Menschen hier bei uns, die nach den Sturmschäden aufräumen, Schäden überblicken und nicht ruhig schlafen.\n\nSei bei allen, die wachen.\nBei Pflegekräften und Einsatzteams.\nBei Menschen in Krankenhäusern.\nBei allen, die Angst haben.\n\nLass uns loslassen, was wir nicht festhalten können.\nBewahre das Gute.\nTrage das Schwere.\nUnd halte deine Hoffnung in uns wach.\n\nSchenk uns Frieden für diese Nacht.\nUnd morgen den Mut für den nächsten Schritt.",
+      "headline": "Abendgebet: Was heute offen blieb, darf in Gottes Hand ruhen"
     },
     "instagram": {
       "caption": "Der Tag muss vor Gott nicht fertig sein.\n\nEin Abendgebet für alles, was gelungen ist. Und für alles, was offen bleibt.\nHeute mit Fürbitte für Menschen in Kiew nach schweren Angriffen und für Menschen hier bei uns nach den Sturmschäden.\n\nGott,\nwas heute war,\nlegen wir in deine Hand.\nSchenk uns Frieden für diese Nacht.\nUnd halte deine Hoffnung in uns wach.",
       "carousel": [
         {
-          "text": "Der Tag ist vorbei. Er muss nicht fertig sein.",
-          "type": "text"
+          "type": "text",
+          "text": "Der Tag ist vorbei. Er muss nicht fertig sein."
         },
         {
-          "text": "Was gut war, darf Anlass zum Dank sein. Was schwer war, darf schwer sein.",
-          "type": "text"
+          "type": "text",
+          "text": "Was gut war, darf Anlass zum Dank sein. Was schwer war, darf schwer sein."
         },
         {
-          "text": "Wir beten für Menschen in Kiew nach den schweren Angriffen. Für Verletzte, Trauernde und alle, die Schutz suchen.",
-          "type": "text"
+          "type": "text",
+          "text": "Wir beten für Menschen in Kiew nach den schweren Angriffen. Für Verletzte, Trauernde und alle, die Schutz suchen."
         },
         {
-          "text": "Wir beten für Menschen hier bei uns nach den Sturmschäden. Für beschädigte Häuser, Sorge in der Nacht und neue Kraft.",
-          "type": "text"
+          "type": "text",
+          "text": "Wir beten für Menschen hier bei uns nach den Sturmschäden. Für beschädigte Häuser, Sorge in der Nacht und neue Kraft."
         },
         {
-          "text": "Gott, nimm das Unfertige in deine Hand. Schenk Frieden für diese Nacht.",
-          "type": "text"
+          "type": "text",
+          "text": "Gott, nimm das Unfertige in deine Hand. Schenk Frieden für diese Nacht."
         }
       ]
     },
@@ -127,12 +127,8 @@
     "alt_text": "Eine ruhige Abendszene an einem Fenster: warmes Licht im Zimmer, draußen dunkle Wolken nach dem Regen. Eine Hand legt ein geschlossenes Notizbuch neben eine Kerze. Die Stimmung ist still und tröstlich."
   },
   "qa": {
-    "approved": false,
-    "warnings": [
-      "Alt text must be completed before approval",
-      "Aktuelle Bezüge vor Freigabe nochmals am Veröffentlichungstag gegenprüfen, da Schnelllage sich ändern kann.",
-      "Gebet nennt zwei konkrete aktuelle Situationen; Formulierungen bewusst zeitlich robust gehalten."
-    ]
+    "approved": true,
+    "warnings": []
   },
   "metadata": {
     "model": "gpt-5.4-2026-03-05",
