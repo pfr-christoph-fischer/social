@@ -27,5 +27,66 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "prayer-evening-2026-08-29",
+    "contentDate": "2026-08-29",
+    "platform": "instagram",
+    "format": "default",
+    "scheduledAt": "2026-08-29T18:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Der Tag muss vor Gott nicht fertig sein.\n\nEin Abendgebet für alles, was gelungen ist. Und für alles, was offen bleibt.\nHeute mit Fürbitte für Menschen in Kiew nach schweren Angriffen und für Menschen hier bei uns nach den Sturmschäden.\n\nGott,\nwas heute war,\nlegen wir in deine Hand.\nSchenk uns Frieden für diese Nacht.\nUnd halte deine Hoffnung in uns wach.",
+    "assets": [
+      "render-instagram-feed-01.jpg",
+      "render-instagram-feed-02.jpg",
+      "render-instagram-feed-03.jpg",
+      "render-instagram-feed-04.jpg",
+      "render-instagram-feed-05.jpg"
+    ],
+    "altTexts": [
+      "Eine ruhige Abendszene an einem Fenster: warmes Licht im Zimmer, draußen dunkle Wolken nach dem Regen. Eine Hand legt ein geschlossenes Notizbuch neben eine Kerze. Die Stimmung ist still und tröstlich."
+    ],
+    "id": "a1d5f16e-ec81-4492-b250-03e0061e878f",
+    "attemptCount": 1,
+    "remoteId": "18115359910947752",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-29T16:03:33.608Z",
+    "updatedAt": "2026-08-29T18:01:03.834Z",
+    "responseMetadata": {
+      "mediaCount": 5,
+      "mediaType": "CAROUSEL",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "prayer-evening-2026-08-29",
+    "contentDate": "2026-08-29",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-08-29T18:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Gott,\nder Tag liegt hinter uns.\nFür das, was gut war, danken wir dir. Was unfertig blieb, legen wir in deine Hand.\n\nWir beten für Menschen in Kiew nach den schweren Angriffen.\nUnd für Menschen hier bei uns, die nach den Sturmschäden mit Sorge und Schäden durch die Nacht gehen.\n\nSchenk Frieden für diese Nacht. Und halte Hoffnung in uns wach.",
+    "assets": [
+      "render-facebook-mastodon-01.png"
+    ],
+    "altTexts": [
+      "Eine ruhige Abendszene an einem Fenster: warmes Licht im Zimmer, draußen dunkle Wolken nach dem Regen. Eine Hand legt ein geschlossenes Notizbuch neben eine Kerze. Die Stimmung ist still und tröstlich."
+    ],
+    "id": "fcb30c09-5962-4250-9e08-80ab11d1826f",
+    "attemptCount": 1,
+    "remoteId": "117180102460028699",
+    "remoteUrl": "https://kirche.social/@christoph/117180102460028699",
+    "lastError": null,
+    "createdAt": "2026-08-29T16:03:33.679Z",
+    "updatedAt": "2026-08-29T18:01:05.844Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
