@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-08-29",
+    "contentDate": "2026-08-29",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-08-29T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Jeder hat das Recht, seine Meinung in Wort, Schrift und Bild frei zu äußern und zu verbreiten und sich aus allgemein zugänglichen Quellen ungehindert zu unterrichten. (Grundgesetz, Artikel 5 Absatz 1)",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Jeder hat das Recht, seine Meinung in Wort, Schrift und Bild frei zu äußern und zu verbreiten und sich aus allgemein zugänglichen Quellen ungehindert zu unterrichten. (Grundgesetz, Artikel 5 Absatz 1)"
+    ],
+    "id": "eefb96a3-3570-42b8-aec8-d1f584fe511e",
+    "attemptCount": 1,
+    "remoteId": "18111620711065646",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:37:11.582Z",
+    "updatedAt": "2026-08-29T10:00:23.066Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-08-29",
+    "contentDate": "2026-08-29",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-08-29T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Jeder hat das Recht, seine Meinung in Wort, Schrift und Bild frei zu äußern und zu verbreiten und sich aus allgemein zugänglichen Quellen ungehindert zu unterrichten. (Grundgesetz, Artikel 5 Absatz 1)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Jeder hat das Recht, seine Meinung in Wort, Schrift und Bild frei zu äußern und zu verbreiten und sich aus allgemein zugänglichen Quellen ungehindert zu unterrichten. (Grundgesetz, Artikel 5 Absatz 1)"
+    ],
+    "id": "e769bdf0-b161-4863-8fa5-5f5a9bf53d7a",
+    "attemptCount": 1,
+    "remoteId": "117178212329198870",
+    "remoteUrl": "https://kirche.social/@christoph/117178212329198870",
+    "lastError": null,
+    "createdAt": "2026-08-26T15:37:11.620Z",
+    "updatedAt": "2026-08-29T10:00:24.718Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
