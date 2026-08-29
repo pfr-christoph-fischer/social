@@ -84,5 +84,91 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-08-29",
+    "contentDate": "2026-08-29",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-08-29T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Ich bin arm und elend; der HERR aber sorgt für mich.",
+    "assets": [
+      "render-square-01.jpg"
+    ],
+    "altTexts": [
+      "Ich bin arm und elend; der HERR aber sorgt für mich."
+    ],
+    "id": "c53945d5-b3e4-41b5-9338-352203db585c",
+    "attemptCount": 1,
+    "remoteId": "18113670256912012",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:44:48.259Z",
+    "updatedAt": "2026-08-29T05:00:41.138Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-08-29",
+    "contentDate": "2026-08-29",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-08-29T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Ich bin arm und elend; der HERR aber sorgt für mich.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Ich bin arm und elend; der HERR aber sorgt für mich."
+    ],
+    "id": "61766cc1-9dc2-4642-aab0-b4df2f845285",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3mu73trpbot2h",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3mu73trpbot2h",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:44:48.263Z",
+    "updatedAt": "2026-08-29T05:00:43.378Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-08-29",
+    "contentDate": "2026-08-29",
+    "platform": "linkedin",
+    "format": "default",
+    "scheduledAt": "2026-08-29T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Ich bin arm und elend; der HERR aber sorgt für mich.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Ich bin arm und elend; der HERR aber sorgt für mich."
+    ],
+    "id": "35f60d62-3061-41ca-ac70-66d87ed8868f",
+    "attemptCount": 1,
+    "remoteId": "urn:li:share:7499330182529454081",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:44:48.266Z",
+    "updatedAt": "2026-08-29T05:00:46.699Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 201
+    },
+    "retryHistory": []
   }
 ]
