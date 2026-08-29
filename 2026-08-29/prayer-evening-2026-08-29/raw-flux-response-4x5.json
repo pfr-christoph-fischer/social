@@ -1,0 +1,36 @@
+{
+  "delivery_url": "https://delivery.us7.bfl.ai/durable/2026082915/5e1f69ea-538b-4d66-962e-9be995966f07/f5/14417042b03656/42b03656eda548fa988174d83fcb24e1/sample.jpeg?se=2026-08-29T16%3A09%3A04Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=/ljIyxmmiMjnX9SylFFSvLk8xVA/cxCN7uLkQoAD1Ok%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "c15f0b77-efbd-4e30-b99c-ff8ec6bb4ae9",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "c15f0b77-efbd-4e30-b99c-ff8ec6bb4ae9",
+      "status": "Ready",
+      "result": {
+        "start_time": 1788019142.69938,
+        "prompt": "ruhige Abendszene in einem schlichten Zimmer, Blick auf ein Fenster im warmen Abendlicht, draußen dunkler werdender Himmel nach Regen, natürliche Farben, zurückhaltend, dokumentarisch, tröstliche Stimmung, realistisch, keine Inszenierung, no text, no letters, no typography, no logo, no watermark",
+        "seed": 2518577890,
+        "sample": "https://delivery.us7.bfl.ai/durable/2026082915/5e1f69ea-538b-4d66-962e-9be995966f07/f5/14417042b03656/42b03656eda548fa988174d83fcb24e1/sample.jpeg?se=2026-08-29T16%3A09%3A04Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=/ljIyxmmiMjnX9SylFFSvLk8xVA/cxCN7uLkQoAD1Ok%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "c15f0b77-efbd-4e30-b99c-ff8ec6bb4ae9",
+    "polling_url": "https://api.us7.bfl.ai/v1/get_result?id=c15f0b77-efbd-4e30-b99c-ff8ec6bb4ae9",
+    "cost": 1.5,
+    "input_mp": 0,
+    "output_mp": 1.39
+  }
+}
