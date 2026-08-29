@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-08-29",
+    "contentDate": "2026-08-29",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-08-29T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Ich bin arm und elend; der HERR aber sorgt für mich.",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Ich bin arm und elend; der HERR aber sorgt für mich."
+    ],
+    "id": "466b64d2-bd88-4c89-b106-21f2ac3d798d",
+    "attemptCount": 1,
+    "remoteId": "18106777967275172",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:44:48.252Z",
+    "updatedAt": "2026-08-29T05:00:26.509Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-08-29",
+    "contentDate": "2026-08-29",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-08-29T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Ich bin arm und elend; der HERR aber sorgt für mich.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Ich bin arm und elend; der HERR aber sorgt für mich."
+    ],
+    "id": "9f5c1478-f216-4360-93e1-d324367c2d23",
+    "attemptCount": 1,
+    "remoteId": "117177033034727389",
+    "remoteUrl": "https://kirche.social/@christoph/117177033034727389",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:44:48.255Z",
+    "updatedAt": "2026-08-29T05:00:30.133Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
