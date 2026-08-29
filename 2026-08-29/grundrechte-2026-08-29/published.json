@@ -84,5 +84,91 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-08-29",
+    "contentDate": "2026-08-29",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-08-29T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Jeder hat das Recht, seine Meinung in Wort, Schrift und Bild frei zu äußern und zu verbreiten und sich aus allgemein zugänglichen Quellen ungehindert zu unterrichten. (Grundgesetz, Artikel 5 Absatz 1)",
+    "assets": [
+      "render-square-01.jpg"
+    ],
+    "altTexts": [
+      "Jeder hat das Recht, seine Meinung in Wort, Schrift und Bild frei zu äußern und zu verbreiten und sich aus allgemein zugänglichen Quellen ungehindert zu unterrichten. (Grundgesetz, Artikel 5 Absatz 1)"
+    ],
+    "id": "94b36063-971b-4ae5-be8a-607abadbd7a3",
+    "attemptCount": 1,
+    "remoteId": "17924098683410333",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:37:11.659Z",
+    "updatedAt": "2026-08-29T10:00:36.128Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-08-29",
+    "contentDate": "2026-08-29",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-08-29T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Jeder hat das Recht, seine Meinung in Wort, Schrift und Bild frei zu äußern und zu verbreiten und sich aus allgemein zugänglichen Quellen ungehindert zu unterrichten. (Grundgesetz, Artikel 5 Absatz 1)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Jeder hat das Recht, seine Meinung in Wort, Schrift und Bild frei zu äußern und zu verbreiten und sich aus allgemein zugänglichen Quellen ungehindert zu unterrichten. (Grundgesetz, Artikel 5 Absatz 1)"
+    ],
+    "id": "8a273e32-d924-4022-a7e9-5e2d54b0a003",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3mu7mm2zeac2d",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3mu7mm2zeac2d",
+    "lastError": null,
+    "createdAt": "2026-08-26T15:37:11.725Z",
+    "updatedAt": "2026-08-29T10:00:38.215Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-08-29",
+    "contentDate": "2026-08-29",
+    "platform": "linkedin",
+    "format": "default",
+    "scheduledAt": "2026-08-29T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Jeder hat das Recht, seine Meinung in Wort, Schrift und Bild frei zu äußern und zu verbreiten und sich aus allgemein zugänglichen Quellen ungehindert zu unterrichten. (Grundgesetz, Artikel 5 Absatz 1)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Jeder hat das Recht, seine Meinung in Wort, Schrift und Bild frei zu äußern und zu verbreiten und sich aus allgemein zugänglichen Quellen ungehindert zu unterrichten. (Grundgesetz, Artikel 5 Absatz 1)"
+    ],
+    "id": "4d26a4a8-c1c0-478f-a7e6-cfe18582a321",
+    "attemptCount": 1,
+    "remoteId": "urn:li:share:7499405657515929600",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:37:11.768Z",
+    "updatedAt": "2026-08-29T10:00:41.296Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 201
+    },
+    "retryHistory": []
   }
 ]
