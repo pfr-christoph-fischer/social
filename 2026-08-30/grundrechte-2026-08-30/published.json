@@ -84,5 +84,91 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-08-30",
+    "contentDate": "2026-08-30",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-08-30T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Die Pressefreiheit und die Freiheit der Berichterstattung durch Rundfunk und Film werden gewährleistet. Eine Zensur findet nicht statt. (Grundgesetz, Artikel 5 Absatz 1)",
+    "assets": [
+      "render-square-01.jpg"
+    ],
+    "altTexts": [
+      "Die Pressefreiheit und die Freiheit der Berichterstattung durch Rundfunk und Film werden gewährleistet. Eine Zensur findet nicht statt. (Grundgesetz, Artikel 5 Absatz 1)"
+    ],
+    "id": "1d567876-6e92-4959-936e-2a5fd6bdc815",
+    "attemptCount": 1,
+    "remoteId": "17906714766310489",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:37:14.960Z",
+    "updatedAt": "2026-08-30T10:00:40.388Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-08-30",
+    "contentDate": "2026-08-30",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-08-30T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Die Pressefreiheit und die Freiheit der Berichterstattung durch Rundfunk und Film werden gewährleistet. Eine Zensur findet nicht statt. (Grundgesetz, Artikel 5 Absatz 1)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Die Pressefreiheit und die Freiheit der Berichterstattung durch Rundfunk und Film werden gewährleistet. Eine Zensur findet nicht statt. (Grundgesetz, Artikel 5 Absatz 1)"
+    ],
+    "id": "9a8fcce0-3b1e-489a-a6dd-caa619c38b36",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3muc534six32s",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3muc534six32s",
+    "lastError": null,
+    "createdAt": "2026-08-26T15:37:15.000Z",
+    "updatedAt": "2026-08-30T10:00:42.763Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-08-30",
+    "contentDate": "2026-08-30",
+    "platform": "linkedin",
+    "format": "default",
+    "scheduledAt": "2026-08-30T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Die Pressefreiheit und die Freiheit der Berichterstattung durch Rundfunk und Film werden gewährleistet. Eine Zensur findet nicht statt. (Grundgesetz, Artikel 5 Absatz 1)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Die Pressefreiheit und die Freiheit der Berichterstattung durch Rundfunk und Film werden gewährleistet. Eine Zensur findet nicht statt. (Grundgesetz, Artikel 5 Absatz 1)"
+    ],
+    "id": "289e7b10-034d-47e3-a901-0122255e127b",
+    "attemptCount": 1,
+    "remoteId": "urn:li:share:7499768059516198912",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:37:15.046Z",
+    "updatedAt": "2026-08-30T10:00:44.935Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 201
+    },
+    "retryHistory": []
   }
 ]
