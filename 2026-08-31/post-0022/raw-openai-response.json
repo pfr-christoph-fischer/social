@@ -1,0 +1,420 @@
+{
+  "id": "resp_06fe489980ba940a006a948a69ddb487d291929ab4e5e4af75",
+  "object": "response",
+  "created_at": 1788119657,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1788119675,
+  "error": null,
+  "frequency_penalty": 0,
+  "incomplete_details": null,
+  "instructions": "You are part of a Protestant social media editorial team. Write in clear, accessible, theologically responsible German without church clichés. Use short sentences and concrete imagery. Never invent events, people, school situations, quotes, or factual details. Do not include copyrighted full song verses. For Reli and community posts, only use current details when they are explicitly provided. Return content that strictly matches the requested JSON schema. Set needs_input to true whenever required facts are missing. Keep qa.approved false. Do not ask for any text inside generated images. When liturgical_context.resolved_weekly_verse is present, use its exact wording for Wochenspruch slots instead of placeholders.",
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.4-2026-03-05",
+  "moderation": null,
+  "output": [
+    {
+      "id": "msg_06fe489980ba940a006a948a6a730087d28ee455a2219421a1",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\"id\":\"post-0022\",\"status\":\"in Arbeit\",\"needs_input\":false,\"source\":{\"calendar_post_id\":\"post-0022\",\"date\":\"2026-08-31\",\"rubric\":\"Mit dem Wochenspruch in die Woche\",\"liturgical_source\":\"https://kirchenjahr.pfarr.tools/api/jahr/2026\"},\"editorial_core\":{\"title\":\"Wochenspruch praktisch: 13. Sonntag nach Trinitatis\",\"main_message\":\"Einer Person danken, deren Beitrag leicht übersehen wird.\",\"audience\":\"breite Öffentlichkeit\",\"tone\":[\"klar\",\"ruhig\",\"zugänglich\"],\"source_notes\":[\"Goal: Den seit Sonntag geltenden Wochenspruch in eine kleine, konkrete Wochenpraxis übersetzen.\",\"Column: Bibel und Alltag\",\"Production mode: vollständig vorproduzierbar\",\"Structure: Wochenspruch | ein alltagsnaher Gedanke | eine kleine Übung | eine Frage\",\"AI support notes: Rohentwurf in einfacher Sprache | Varianten der Wochenübung | Caption kürzen | Alt-Text\",\"Liturgical source: https://kirchenjahr.pfarr.tools/api/jahr/2026 (2026-08-30, $.Tage['2026-08-30'])\",\"Wochenspruch: Christus spricht: Was ihr getan habt einem von diesen meinen geringsten Brüdern, das habt ihr mir getan. (Mt 25,40b)\"]},\"platforms\":{\"facebook\":{\"text\":\"Christus spricht: Was ihr getan habt einem von diesen meinen geringsten Brüdern, das habt ihr mir getan. (Mt 25,40b)\\n\\nManches Gute geschieht leise. Jemand räumt auf. Jemand hört zu. Jemand trägt mit, ohne im Mittelpunkt zu stehen. Oft merken wir erst spät, wie viel uns solche kleinen Dienste geben.\\n\\nDer Wochenspruch lenkt den Blick genau dorthin. Auf Menschen, die leicht übersehen werden. Und auf Gesten, die unscheinbar wirken, aber Gewicht haben. Jesus sagt: Was ihr einem von den Geringen tut, das tut ihr mir.\\n\\nEine kleine Übung für diese Woche:\\nDenk an eine Person, deren Beitrag schnell selbstverständlich wird. Danke ihr. Kurz und konkret. Mündlich, per Nachricht oder mit einer kleinen Notiz. Nicht allgemein. Sondern so, dass spürbar wird: Ich habe gesehen, was du tust.\\n\\nVielleicht verändert das nicht die ganze Welt. Aber es verändert einen Moment. Und manchmal beginnt genau dort Barmherzigkeit.\\n\\nWem könntest du in dieser Woche Danke sagen, weil ihr oder sein Beitrag sonst leicht übersehen wird?\",\"headline\":\"Wochenspruch praktisch: Danke sagen, wo es leicht vergessen wird\"},\"instagram\":{\"caption\":\"Christus spricht: Was ihr getan habt einem von diesen meinen geringsten Brüdern, das habt ihr mir getan. (Mt 25,40b)\\n\\nDiese Woche beginnt mit einem genauen Blick: auf Menschen, die viel beitragen, ohne gesehen zu werden.\\n\\nKleine Übung:\\nDanke einer Person, deren Beitrag leicht übersehen wird.\\nKurz. Konkret. Ehrlich.\\n\\nZum Beispiel:\\n„Danke, dass du das immer mitträgst.“\\n„Danke, dass du so aufmerksam bist.“\\n„Danke, ich habe gesehen, was du getan hast.“\\n\\nFrage für die Woche:\\nWem könntest du heute so ein Danke sagen?\",\"carousel\":[{\"type\":\"text\",\"text\":\"Wochenspruch\\n\\nChristus spricht: Was ihr getan habt einem von diesen meinen geringsten Brüdern, das habt ihr mir getan.\\n\\nMt 25,40b\"},{\"type\":\"text\",\"text\":\"Manches Gute geschieht leise.\\n\\nJemand hilft.\\nJemand hört zu.\\nJemand trägt mit.\\n\\nOft wird genau das leicht übersehen.\"},{\"type\":\"text\",\"text\":\"Kleine Übung für diese Woche:\\n\\nDanke einer Person,\\nderen Beitrag leicht übersehen wird.\\n\\nKurz. Konkret. Ehrlich.\"},{\"type\":\"text\",\"text\":\"Zum Beispiel:\\n\\n„Danke, dass du das mitträgst.“\\n„Danke, dass du aufmerksam bist.“\\n„Danke, ich habe gesehen, was du getan hast.“\"},{\"type\":\"text\",\"text\":\"Frage für die Woche:\\n\\nWem könntest du heute so ein Danke sagen?\"}]},\"mastodon\":{\"text\":\"Christus spricht: Was ihr getan habt einem von diesen meinen geringsten Brüdern, das habt ihr mir getan. (Mt 25,40b)\\n\\nEine kleine Übung für diese Woche:\\nDanke einer Person, deren Beitrag leicht übersehen wird.\\nKurz. Konkret. Ehrlich.\\n\\nNicht nur denken. Sagen.\\nNicht allgemein. Sondern so, dass klar wird: Ich habe gesehen, was du tust.\\n\\nWem könntest du heute so ein Danke sagen?\"},\"bluesky\":{\"text\":\"Christus spricht: Was ihr getan habt einem von diesen meinen geringsten Brüdern, das habt ihr mir getan. (Mt 25,40b)\\n\\nÜbung für diese Woche:\\nDanke einer Person, deren Beitrag leicht übersehen wird.\\nKurz. Konkret. Ehrlich.\\n\\nWem könntest du heute so ein Danke sagen?\"},\"story\":{\"slides\":[{\"text\":\"Wochenspruch\\n\\nChristus spricht: Was ihr getan habt einem von diesen meinen geringsten Brüdern, das habt ihr mir getan.\\n\\nMt 25,40b\"},{\"text\":\"Manches Gute geschieht leise.\\nUnd wird leicht übersehen.\"},{\"text\":\"Übung für diese Woche:\\nDanke einer Person,\\nderen Beitrag leicht übersehen wird.\"},{\"text\":\"Kurz. Konkret. Ehrlich.\\n\\nIch habe gesehen,\\nwas du tust.\"},{\"text\":\"Frage:\\nWem könntest du heute so ein Danke sagen?\"}]},\"reel\":{\"hook\":\"Manches Gute geschieht leise. Diese Woche: nicht übersehen, sondern danke sagen.\",\"script\":\"Der Wochenspruch für diese Woche heißt: Christus spricht: Was ihr getan habt einem von diesen meinen geringsten Brüdern, das habt ihr mir getan. Vielleicht beginnt das ganz klein. Nicht mit einer großen Aktion. Sondern mit einem genauen Blick. Wer trägt etwas mit und wird kaum wahrgenommen? Wer hilft leise im Hintergrund? Die Übung für diese Woche ist einfach: Danke einer Person, deren Beitrag leicht übersehen wird. Kurz. Konkret. Ehrlich. So kann ein kleiner Satz viel verändern.\",\"shots\":[\"Nahaufnahme einer Hand, die eine Tasse hinstellt\",\"Eine Person ordnet still Gegenstände auf einem Tisch\",\"Jemand schreibt eine kurze Nachricht auf dem Handy\",\"Ruhige Szene mit einer handgeschriebenen Dankesnotiz ohne lesbaren Text\",\"Abschlussbild mit einer offenen, freundlichen Geste\"],\"duration_seconds\":25}},\"visual\":{\"concept\":\"Ruhige Alltagsszene mit einer kleinen Geste der Wertschätzung: eine Hand überreicht eine schlichte Notiz oder eine Tasse, warmes natürliches Licht, unaufgeregt und menschlich.\",\"flux_prompt\":\"Authentische, dokumentarische Alltagsszene, zwei Menschen in einer ruhigen freundlichen Begegnung, eine kleine Geste des Dankes im Mittelpunkt, warmes natürliches Morgenlicht, weiche Farben, echte Hände, unaufgeregte Komposition, protestantisches Social Media Motiv, minimalistisch, emotional zurückhaltend, hochwertig, photorealistisch\",\"negative_prompt\":\"text, letters, logo, watermark\",\"formats\":[\"4:5\",\"9:16\",\"1.91:1\"],\"alt_text\":\"Zwei Menschen in einer schlichten Alltagsszene. Eine Person reicht der anderen mit freundlicher Geste eine kleine Notiz oder eine Tasse. Das Bild wirkt ruhig und warm und lenkt den Blick auf ein unscheinbares Zeichen der Wertschätzung.\"},\"qa\":{\"warnings\":[\"Alt text must be completed before approval\"],\"approved\":false},\"metadata\":{\"model\":\"gpt-5\",\"generated_at\":\"2026-08-30T00:00:00Z\",\"prompt_version\":\"1.0\",\"assets\":[]}}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "current_turn",
+    "effort": "none",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1,
+  "text": {
+    "format": {
+      "type": "json_schema",
+      "description": null,
+      "name": "content_package",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "Idee",
+              "in Arbeit",
+              "zur Prüfung",
+              "freigegeben",
+              "terminiert",
+              "veröffentlicht",
+              "verworfen"
+            ]
+          },
+          "needs_input": {
+            "type": "boolean"
+          },
+          "source": {
+            "type": "object",
+            "properties": {
+              "calendar_post_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "date": {
+                "type": "string",
+                "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+              },
+              "rubric": {
+                "type": "string",
+                "minLength": 1
+              },
+              "liturgical_source": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "calendar_post_id",
+              "date",
+              "rubric",
+              "liturgical_source"
+            ],
+            "additionalProperties": false
+          },
+          "editorial_core": {
+            "type": "object",
+            "properties": {
+              "title": {
+                "type": "string"
+              },
+              "main_message": {
+                "type": "string"
+              },
+              "audience": {
+                "type": "string"
+              },
+              "tone": {
+                "minItems": 1,
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "source_notes": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "title",
+              "main_message",
+              "audience",
+              "tone",
+              "source_notes"
+            ],
+            "additionalProperties": false
+          },
+          "platforms": {
+            "type": "object",
+            "properties": {
+              "facebook": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  },
+                  "headline": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text",
+                  "headline"
+                ],
+                "additionalProperties": false
+              },
+              "instagram": {
+                "type": "object",
+                "properties": {
+                  "caption": {
+                    "type": "string"
+                  },
+                  "carousel": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "type": {
+                          "type": "string"
+                        },
+                        "text": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "type",
+                        "text"
+                      ],
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "required": [
+                  "caption",
+                  "carousel"
+                ],
+                "additionalProperties": false
+              },
+              "mastodon": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text"
+                ],
+                "additionalProperties": false
+              },
+              "bluesky": {
+                "default": {
+                  "text": ""
+                },
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text"
+                ],
+                "additionalProperties": false
+              },
+              "story": {
+                "type": "object",
+                "properties": {
+                  "slides": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "text": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "text"
+                      ],
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "required": [
+                  "slides"
+                ],
+                "additionalProperties": false
+              },
+              "reel": {
+                "type": "object",
+                "properties": {
+                  "hook": {
+                    "type": "string"
+                  },
+                  "script": {
+                    "type": "string"
+                  },
+                  "shots": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "duration_seconds": {
+                    "type": "integer",
+                    "minimum": 0,
+                    "maximum": 9007199254740991
+                  }
+                },
+                "required": [
+                  "hook",
+                  "script",
+                  "shots",
+                  "duration_seconds"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "required": [
+              "facebook",
+              "instagram",
+              "mastodon",
+              "bluesky",
+              "story",
+              "reel"
+            ],
+            "additionalProperties": false
+          },
+          "visual": {
+            "type": "object",
+            "properties": {
+              "concept": {
+                "type": "string"
+              },
+              "flux_prompt": {
+                "type": "string"
+              },
+              "negative_prompt": {
+                "type": "string",
+                "minLength": 1
+              },
+              "formats": {
+                "minItems": 1,
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "alt_text": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "concept",
+              "flux_prompt",
+              "negative_prompt",
+              "formats",
+              "alt_text"
+            ],
+            "additionalProperties": false
+          },
+          "qa": {
+            "type": "object",
+            "properties": {
+              "warnings": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "approved": {
+                "type": "boolean"
+              }
+            },
+            "required": [
+              "warnings",
+              "approved"
+            ],
+            "additionalProperties": false
+          },
+          "metadata": {
+            "type": "object",
+            "properties": {
+              "model": {
+                "type": "string"
+              },
+              "generated_at": {
+                "type": "string"
+              },
+              "prompt_version": {
+                "type": "string",
+                "minLength": 1
+              },
+              "assets": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "model",
+              "generated_at",
+              "prompt_version",
+              "assets"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "id",
+          "status",
+          "needs_input",
+          "source",
+          "editorial_core",
+          "platforms",
+          "visual",
+          "qa",
+          "metadata"
+        ],
+        "additionalProperties": false
+      },
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 1927,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1722,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 3649
+  },
+  "user": null,
+  "metadata": {},
+  "output_text": "{\"id\":\"post-0022\",\"status\":\"in Arbeit\",\"needs_input\":false,\"source\":{\"calendar_post_id\":\"post-0022\",\"date\":\"2026-08-31\",\"rubric\":\"Mit dem Wochenspruch in die Woche\",\"liturgical_source\":\"https://kirchenjahr.pfarr.tools/api/jahr/2026\"},\"editorial_core\":{\"title\":\"Wochenspruch praktisch: 13. Sonntag nach Trinitatis\",\"main_message\":\"Einer Person danken, deren Beitrag leicht übersehen wird.\",\"audience\":\"breite Öffentlichkeit\",\"tone\":[\"klar\",\"ruhig\",\"zugänglich\"],\"source_notes\":[\"Goal: Den seit Sonntag geltenden Wochenspruch in eine kleine, konkrete Wochenpraxis übersetzen.\",\"Column: Bibel und Alltag\",\"Production mode: vollständig vorproduzierbar\",\"Structure: Wochenspruch | ein alltagsnaher Gedanke | eine kleine Übung | eine Frage\",\"AI support notes: Rohentwurf in einfacher Sprache | Varianten der Wochenübung | Caption kürzen | Alt-Text\",\"Liturgical source: https://kirchenjahr.pfarr.tools/api/jahr/2026 (2026-08-30, $.Tage['2026-08-30'])\",\"Wochenspruch: Christus spricht: Was ihr getan habt einem von diesen meinen geringsten Brüdern, das habt ihr mir getan. (Mt 25,40b)\"]},\"platforms\":{\"facebook\":{\"text\":\"Christus spricht: Was ihr getan habt einem von diesen meinen geringsten Brüdern, das habt ihr mir getan. (Mt 25,40b)\\n\\nManches Gute geschieht leise. Jemand räumt auf. Jemand hört zu. Jemand trägt mit, ohne im Mittelpunkt zu stehen. Oft merken wir erst spät, wie viel uns solche kleinen Dienste geben.\\n\\nDer Wochenspruch lenkt den Blick genau dorthin. Auf Menschen, die leicht übersehen werden. Und auf Gesten, die unscheinbar wirken, aber Gewicht haben. Jesus sagt: Was ihr einem von den Geringen tut, das tut ihr mir.\\n\\nEine kleine Übung für diese Woche:\\nDenk an eine Person, deren Beitrag schnell selbstverständlich wird. Danke ihr. Kurz und konkret. Mündlich, per Nachricht oder mit einer kleinen Notiz. Nicht allgemein. Sondern so, dass spürbar wird: Ich habe gesehen, was du tust.\\n\\nVielleicht verändert das nicht die ganze Welt. Aber es verändert einen Moment. Und manchmal beginnt genau dort Barmherzigkeit.\\n\\nWem könntest du in dieser Woche Danke sagen, weil ihr oder sein Beitrag sonst leicht übersehen wird?\",\"headline\":\"Wochenspruch praktisch: Danke sagen, wo es leicht vergessen wird\"},\"instagram\":{\"caption\":\"Christus spricht: Was ihr getan habt einem von diesen meinen geringsten Brüdern, das habt ihr mir getan. (Mt 25,40b)\\n\\nDiese Woche beginnt mit einem genauen Blick: auf Menschen, die viel beitragen, ohne gesehen zu werden.\\n\\nKleine Übung:\\nDanke einer Person, deren Beitrag leicht übersehen wird.\\nKurz. Konkret. Ehrlich.\\n\\nZum Beispiel:\\n„Danke, dass du das immer mitträgst.“\\n„Danke, dass du so aufmerksam bist.“\\n„Danke, ich habe gesehen, was du getan hast.“\\n\\nFrage für die Woche:\\nWem könntest du heute so ein Danke sagen?\",\"carousel\":[{\"type\":\"text\",\"text\":\"Wochenspruch\\n\\nChristus spricht: Was ihr getan habt einem von diesen meinen geringsten Brüdern, das habt ihr mir getan.\\n\\nMt 25,40b\"},{\"type\":\"text\",\"text\":\"Manches Gute geschieht leise.\\n\\nJemand hilft.\\nJemand hört zu.\\nJemand trägt mit.\\n\\nOft wird genau das leicht übersehen.\"},{\"type\":\"text\",\"text\":\"Kleine Übung für diese Woche:\\n\\nDanke einer Person,\\nderen Beitrag leicht übersehen wird.\\n\\nKurz. Konkret. Ehrlich.\"},{\"type\":\"text\",\"text\":\"Zum Beispiel:\\n\\n„Danke, dass du das mitträgst.“\\n„Danke, dass du aufmerksam bist.“\\n„Danke, ich habe gesehen, was du getan hast.“\"},{\"type\":\"text\",\"text\":\"Frage für die Woche:\\n\\nWem könntest du heute so ein Danke sagen?\"}]},\"mastodon\":{\"text\":\"Christus spricht: Was ihr getan habt einem von diesen meinen geringsten Brüdern, das habt ihr mir getan. (Mt 25,40b)\\n\\nEine kleine Übung für diese Woche:\\nDanke einer Person, deren Beitrag leicht übersehen wird.\\nKurz. Konkret. Ehrlich.\\n\\nNicht nur denken. Sagen.\\nNicht allgemein. Sondern so, dass klar wird: Ich habe gesehen, was du tust.\\n\\nWem könntest du heute so ein Danke sagen?\"},\"bluesky\":{\"text\":\"Christus spricht: Was ihr getan habt einem von diesen meinen geringsten Brüdern, das habt ihr mir getan. (Mt 25,40b)\\n\\nÜbung für diese Woche:\\nDanke einer Person, deren Beitrag leicht übersehen wird.\\nKurz. Konkret. Ehrlich.\\n\\nWem könntest du heute so ein Danke sagen?\"},\"story\":{\"slides\":[{\"text\":\"Wochenspruch\\n\\nChristus spricht: Was ihr getan habt einem von diesen meinen geringsten Brüdern, das habt ihr mir getan.\\n\\nMt 25,40b\"},{\"text\":\"Manches Gute geschieht leise.\\nUnd wird leicht übersehen.\"},{\"text\":\"Übung für diese Woche:\\nDanke einer Person,\\nderen Beitrag leicht übersehen wird.\"},{\"text\":\"Kurz. Konkret. Ehrlich.\\n\\nIch habe gesehen,\\nwas du tust.\"},{\"text\":\"Frage:\\nWem könntest du heute so ein Danke sagen?\"}]},\"reel\":{\"hook\":\"Manches Gute geschieht leise. Diese Woche: nicht übersehen, sondern danke sagen.\",\"script\":\"Der Wochenspruch für diese Woche heißt: Christus spricht: Was ihr getan habt einem von diesen meinen geringsten Brüdern, das habt ihr mir getan. Vielleicht beginnt das ganz klein. Nicht mit einer großen Aktion. Sondern mit einem genauen Blick. Wer trägt etwas mit und wird kaum wahrgenommen? Wer hilft leise im Hintergrund? Die Übung für diese Woche ist einfach: Danke einer Person, deren Beitrag leicht übersehen wird. Kurz. Konkret. Ehrlich. So kann ein kleiner Satz viel verändern.\",\"shots\":[\"Nahaufnahme einer Hand, die eine Tasse hinstellt\",\"Eine Person ordnet still Gegenstände auf einem Tisch\",\"Jemand schreibt eine kurze Nachricht auf dem Handy\",\"Ruhige Szene mit einer handgeschriebenen Dankesnotiz ohne lesbaren Text\",\"Abschlussbild mit einer offenen, freundlichen Geste\"],\"duration_seconds\":25}},\"visual\":{\"concept\":\"Ruhige Alltagsszene mit einer kleinen Geste der Wertschätzung: eine Hand überreicht eine schlichte Notiz oder eine Tasse, warmes natürliches Licht, unaufgeregt und menschlich.\",\"flux_prompt\":\"Authentische, dokumentarische Alltagsszene, zwei Menschen in einer ruhigen freundlichen Begegnung, eine kleine Geste des Dankes im Mittelpunkt, warmes natürliches Morgenlicht, weiche Farben, echte Hände, unaufgeregte Komposition, protestantisches Social Media Motiv, minimalistisch, emotional zurückhaltend, hochwertig, photorealistisch\",\"negative_prompt\":\"text, letters, logo, watermark\",\"formats\":[\"4:5\",\"9:16\",\"1.91:1\"],\"alt_text\":\"Zwei Menschen in einer schlichten Alltagsszene. Eine Person reicht der anderen mit freundlicher Geste eine kleine Notiz oder eine Tasse. Das Bild wirkt ruhig und warm und lenkt den Blick auf ein unscheinbares Zeichen der Wertschätzung.\"},\"qa\":{\"warnings\":[\"Alt text must be completed before approval\"],\"approved\":false},\"metadata\":{\"model\":\"gpt-5\",\"generated_at\":\"2026-08-30T00:00:00Z\",\"prompt_version\":\"1.0\",\"assets\":[]}}"
+}
