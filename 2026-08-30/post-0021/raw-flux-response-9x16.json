@@ -1,11 +1,11 @@
 {
-  "delivery_url": "https://delivery.us2.bfl.ai/durable/2026083010/5e1f69ea-538b-4d66-962e-9be995966f07/c6/941902f386b686/f386b6861b4c4c39adb9b7478346e4df/sample.jpeg?se=2026-08-30T10%3A42%3A22Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=Eli/YqeWpbZX1/wFytgY180q5cgQSUkXbQN2pNg4/jU%3D",
+  "delivery_url": "https://delivery.eu2.bfl.ai/durable/2026083010/5e1f69ea-538b-4d66-962e-9be995966f07/49/0990901edc93b2/1edc93b2b46142979656e3809102c68d/sample.jpeg?se=2026-08-30T10%3A44%3A59Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=Zqdvn02GPxTvF4UajaZWKePeob3YIHpmLxBomPFkwBo%3D",
   "download_headers": {
     "content_type": "image/jpeg"
   },
   "polls": [
     {
-      "id": "5698bb93-f313-479b-8e0b-8b566d92c73d",
+      "id": "306d3a1b-5be5-424f-8d83-700338580806",
       "status": "Pending",
       "result": null,
       "progress": null,
@@ -13,7 +13,7 @@
       "preview": null
     },
     {
-      "id": "5698bb93-f313-479b-8e0b-8b566d92c73d",
+      "id": "306d3a1b-5be5-424f-8d83-700338580806",
       "status": "Pending",
       "result": null,
       "progress": null,
@@ -21,7 +21,7 @@
       "preview": null
     },
     {
-      "id": "5698bb93-f313-479b-8e0b-8b566d92c73d",
+      "id": "306d3a1b-5be5-424f-8d83-700338580806",
       "status": "Pending",
       "result": null,
       "progress": null,
@@ -29,13 +29,13 @@
       "preview": null
     },
     {
-      "id": "5698bb93-f313-479b-8e0b-8b566d92c73d",
+      "id": "306d3a1b-5be5-424f-8d83-700338580806",
       "status": "Ready",
       "result": {
-        "start_time": 1788085939.5938177,
-        "prompt": "Fotorealistisches, ruhiges Motiv in warmem Morgen- oder Abendlicht: ein schlichter Weg oder Eingangsbereich, eine Hand hält achtsam eine Tür offen, weiche Schatten, natürliche Farben, stille Atmosphäre, geringe Tiefenschärfe, zurückhaltende Komposition, viel negativer Raum, Gefühl von Aufmerksamkeit und Barmherzigkeit im Alltag, modern, glaubwürdig, unaufgeregt, hochwertige Fotografie, no text, no letters, no typography, no logo, no watermark",
-        "seed": 3586704947,
-        "sample": "https://delivery.us2.bfl.ai/durable/2026083010/5e1f69ea-538b-4d66-962e-9be995966f07/c6/941902f386b686/f386b6861b4c4c39adb9b7478346e4df/sample.jpeg?se=2026-08-30T10%3A42%3A22Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=Eli/YqeWpbZX1/wFytgY180q5cgQSUkXbQN2pNg4/jU%3D"
+        "start_time": 1788086097.767281,
+        "prompt": "Fotorealistisches, ruhiges Motiv in warmem Morgen- oder Abendlicht: ein schlichter Weg oder Eingangsbereich, ein leerer Rollstuhl, weiche Schatten, natürliche Farben, stille Atmosphäre, geringe Tiefenschärfe, zurückhaltende Komposition, viel negativer Raum, Gefühl von Aufmerksamkeit und Barmherzigkeit im Alltag, modern, glaubwürdig, unaufgeregt, hochwertige Fotografie, no text, no letters, no typography, no logo, no watermark",
+        "seed": 2757481522,
+        "sample": "https://delivery.eu2.bfl.ai/durable/2026083010/5e1f69ea-538b-4d66-962e-9be995966f07/49/0990901edc93b2/1edc93b2b46142979656e3809102c68d/sample.jpeg?se=2026-08-30T10%3A44%3A59Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=Zqdvn02GPxTvF4UajaZWKePeob3YIHpmLxBomPFkwBo%3D"
       },
       "progress": null,
       "details": null,
@@ -43,8 +43,8 @@
     }
   ],
   "submission": {
-    "id": "5698bb93-f313-479b-8e0b-8b566d92c73d",
-    "polling_url": "https://api.us2.bfl.ai/v1/get_result?id=5698bb93-f313-479b-8e0b-8b566d92c73d",
+    "id": "306d3a1b-5be5-424f-8d83-700338580806",
+    "polling_url": "https://api.eu2.bfl.ai/v1/get_result?id=306d3a1b-5be5-424f-8d83-700338580806",
     "cost": 1.5,
     "input_mp": 0,
     "output_mp": 1.98
