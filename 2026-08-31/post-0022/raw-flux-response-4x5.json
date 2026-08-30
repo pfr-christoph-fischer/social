@@ -1,0 +1,52 @@
+{
+  "delivery_url": "https://delivery.eu2.bfl.ai/durable/2026083019/5e1f69ea-538b-4d66-962e-9be995966f07/9c/786122c6b5cf76/c6b5cf769aae4d9191a182aa1a35b3a1/sample.jpeg?se=2026-08-30T20%3A06%3A26Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=qc73th22P7mXJbOx2VbQn3UrovA%2B1PEKR50vdkerW0U%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "1e0630d7-28d1-4627-9227-d5f1c5c3124a",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "1e0630d7-28d1-4627-9227-d5f1c5c3124a",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "1e0630d7-28d1-4627-9227-d5f1c5c3124a",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "1e0630d7-28d1-4627-9227-d5f1c5c3124a",
+      "status": "Ready",
+      "result": {
+        "start_time": 1788119785.0188985,
+        "prompt": "Authentische, dokumentarische Alltagsszene, zwei Menschen in einer ruhigen freundlichen Begegnung, eine kleine Geste des Dankes im Mittelpunkt, warmes natürliches Morgenlicht, weiche Farben, echte Hände, unaufgeregte Komposition, protestantisches Social Media Motiv, minimalistisch, emotional zurückhaltend, hochwertig, photorealistisch, no text, no letters, no typography, no logo, no watermark",
+        "seed": 2919554016,
+        "sample": "https://delivery.eu2.bfl.ai/durable/2026083019/5e1f69ea-538b-4d66-962e-9be995966f07/9c/786122c6b5cf76/c6b5cf769aae4d9191a182aa1a35b3a1/sample.jpeg?se=2026-08-30T20%3A06%3A26Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=qc73th22P7mXJbOx2VbQn3UrovA%2B1PEKR50vdkerW0U%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "1e0630d7-28d1-4627-9227-d5f1c5c3124a",
+    "polling_url": "https://api.eu2.bfl.ai/v1/get_result?id=1e0630d7-28d1-4627-9227-d5f1c5c3124a",
+    "cost": 1.5,
+    "input_mp": 0,
+    "output_mp": 1.39
+  }
+}

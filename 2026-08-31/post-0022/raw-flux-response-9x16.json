@@ -1,0 +1,52 @@
+{
+  "delivery_url": "https://delivery.us2.bfl.ai/durable/2026083019/5e1f69ea-538b-4d66-962e-9be995966f07/57/7898134b2e2095/4b2e209589e240aebdc5af5c3ee6c064/sample.jpeg?se=2026-08-30T20%3A06%3A29Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=RNvVhLK4ArCE0Z9ly4ACbTOd0SfjoesrLBwPf/Tloz8%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "c911e9be-0597-4995-86c8-9817828547ec",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "c911e9be-0597-4995-86c8-9817828547ec",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "c911e9be-0597-4995-86c8-9817828547ec",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "c911e9be-0597-4995-86c8-9817828547ec",
+      "status": "Ready",
+      "result": {
+        "start_time": 1788119788.132621,
+        "prompt": "Authentische, dokumentarische Alltagsszene, zwei Menschen in einer ruhigen freundlichen Begegnung, eine kleine Geste des Dankes im Mittelpunkt, warmes natürliches Morgenlicht, weiche Farben, echte Hände, unaufgeregte Komposition, protestantisches Social Media Motiv, minimalistisch, emotional zurückhaltend, hochwertig, photorealistisch, no text, no letters, no typography, no logo, no watermark",
+        "seed": 3817525682,
+        "sample": "https://delivery.us2.bfl.ai/durable/2026083019/5e1f69ea-538b-4d66-962e-9be995966f07/57/7898134b2e2095/4b2e209589e240aebdc5af5c3ee6c064/sample.jpeg?se=2026-08-30T20%3A06%3A29Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=RNvVhLK4ArCE0Z9ly4ACbTOd0SfjoesrLBwPf/Tloz8%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "c911e9be-0597-4995-86c8-9817828547ec",
+    "polling_url": "https://api.us2.bfl.ai/v1/get_result?id=c911e9be-0597-4995-86c8-9817828547ec",
+    "cost": 1.5,
+    "input_mp": 0,
+    "output_mp": 1.98
+  }
+}
