@@ -112,15 +112,19 @@
     "alt_text": "Ein schlichtes Zimmer im Abendlicht. Durch ein Fenster fällt weiches Dämmerungslicht auf einen einfachen Tisch. In der Nähe des Fensters ist als Friedenssymbol eine weiße Taube zu sehen. Die Szene wirkt ruhig, hoffnungsvoll und offen und lässt an den Tagesabschluss im Gebet denken."
   },
   "qa": {
-    "approved": true,
     "warnings": [
       "Field \"bluesky.text\" is 310 characters long and exceeds the plausibility limit of 300."
-    ]
+    ],
+    "approved": true
   },
   "metadata": {
     "model": "gpt-5.4-2026-03-05",
     "generated_at": "2026-08-30T09:00:33.250Z",
     "prompt_version": "1.0",
-    "assets": []
+    "assets": [
+      "assets/background-1.91x1.webp",
+      "assets/background-4x5.webp",
+      "assets/background-9x16.webp"
+    ]
   }
 }

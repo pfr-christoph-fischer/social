@@ -1,0 +1,52 @@
+{
+  "delivery_url": "https://delivery.eu2.bfl.ai/durable/2026083010/5e1f69ea-538b-4d66-962e-9be995966f07/1b/461192ea780657/ea78065708494d1d89a0ae37f069a14c/sample.jpeg?se=2026-08-30T10%3A51%3A01Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=orETdsW7Uw86M2W9LX9qLWxJdbm5g2hDbaM8dpwW1vs%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "e96fe6ad-ca1b-4644-860b-a9a24b099c6e",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "e96fe6ad-ca1b-4644-860b-a9a24b099c6e",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "e96fe6ad-ca1b-4644-860b-a9a24b099c6e",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "e96fe6ad-ca1b-4644-860b-a9a24b099c6e",
+      "status": "Ready",
+      "result": {
+        "start_time": 1788086459.857391,
+        "prompt": "Friedliche Abendszene in einem schlichten Zimmer, weiches Dämmerungslicht fällt durch ein Fenster auf einen einfachen Holztisch, ruhige kontemplative Atmosphäre, Symbol des Friedens durch eine weiße Taube in der Nähe des Fensters oder im sanften Flug draußen, warme gedeckte Farben, poetisch, still, hoffnungsvoll, natürliches Licht, hochwertige fotografische Ästhetik, realistisch, keine Menschen im Fokus, viel Raum und Ruhe im Bild, no text, no letters, no typography, no logo, no watermark",
+        "seed": 2962944187,
+        "sample": "https://delivery.eu2.bfl.ai/durable/2026083010/5e1f69ea-538b-4d66-962e-9be995966f07/1b/461192ea780657/ea78065708494d1d89a0ae37f069a14c/sample.jpeg?se=2026-08-30T10%3A51%3A01Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=orETdsW7Uw86M2W9LX9qLWxJdbm5g2hDbaM8dpwW1vs%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "e96fe6ad-ca1b-4644-860b-a9a24b099c6e",
+    "polling_url": "https://api.eu2.bfl.ai/v1/get_result?id=e96fe6ad-ca1b-4644-860b-a9a24b099c6e",
+    "cost": 1.5,
+    "input_mp": 0,
+    "output_mp": 1.98
+  }
+}
