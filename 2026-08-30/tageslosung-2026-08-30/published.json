@@ -84,5 +84,91 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-08-30",
+    "contentDate": "2026-08-30",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-08-30T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Der Engel des HERRN rührte Elia an und sprach: Steh auf und iss! Denn du hast einen weiten Weg vor dir.",
+    "assets": [
+      "render-square-01.jpg"
+    ],
+    "altTexts": [
+      "Der Engel des HERRN rührte Elia an und sprach: Steh auf und iss! Denn du hast einen weiten Weg vor dir."
+    ],
+    "id": "c6cb794e-8029-48d8-be20-8de20ecf0d1a",
+    "attemptCount": 1,
+    "remoteId": "18088401311191142",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:44:50.341Z",
+    "updatedAt": "2026-08-30T05:00:38.698Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-08-30",
+    "contentDate": "2026-08-30",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-08-30T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Der Engel des HERRN rührte Elia an und sprach: Steh auf und iss! Denn du hast einen weiten Weg vor dir.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Der Engel des HERRN rührte Elia an und sprach: Steh auf und iss! Denn du hast einen weiten Weg vor dir."
+    ],
+    "id": "a8243368-15e1-4844-a4c4-0eca4c9dede8",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3mubmcmz3ko2s",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3mubmcmz3ko2s",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:44:50.344Z",
+    "updatedAt": "2026-08-30T05:00:41.084Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-08-30",
+    "contentDate": "2026-08-30",
+    "platform": "linkedin",
+    "format": "default",
+    "scheduledAt": "2026-08-30T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Der Engel des HERRN rührte Elia an und sprach: Steh auf und iss! Denn du hast einen weiten Weg vor dir.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Der Engel des HERRN rührte Elia an und sprach: Steh auf und iss! Denn du hast einen weiten Weg vor dir."
+    ],
+    "id": "6e35fc70-32c8-4f7f-be5a-a252fcf4e05c",
+    "attemptCount": 1,
+    "remoteId": "urn:li:share:7499692558621515776",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:44:50.347Z",
+    "updatedAt": "2026-08-30T05:00:43.818Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 201
+    },
+    "retryHistory": []
   }
 ]
