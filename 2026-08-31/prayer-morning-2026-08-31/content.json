@@ -103,13 +103,17 @@
     "alt_text": "Ein ruhiger Morgen an einer Küste mit weiter Wasserfläche und hellem Horizont; ergänzt durch einen leeren Bahnsteig oder eine stille Straße im frühen Licht. Die Szene wirkt aufmerksam, zurückhaltend und hoffnungsvoll."
   },
   "qa": {
-    "approved": true,
-    "warnings": []
+    "warnings": [],
+    "approved": true
   },
   "metadata": {
     "model": "gpt-5.4-2026-03-05",
     "generated_at": "2026-08-30T19:47:02.170Z",
     "prompt_version": "1.0",
-    "assets": []
+    "assets": [
+      "assets/background-1.91x1.webp",
+      "assets/background-4x5.webp",
+      "assets/background-9x16.webp"
+    ]
   }
 }

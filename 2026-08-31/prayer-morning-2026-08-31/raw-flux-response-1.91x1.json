@@ -1,0 +1,36 @@
+{
+  "delivery_url": "https://delivery.us2.bfl.ai/durable/2026083019/5e1f69ea-538b-4d66-962e-9be995966f07/39/60351424db1593/24db1593e61e4b6d831bbbe4f7aed1a0/sample.jpeg?se=2026-08-30T20%3A03%3A23Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=flgPZjsXP/FildY%2BiLBkHGX69kHmaRHZ3F4qmmJ6jh4%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "4f756368-751e-424c-a5c7-972cd88b56c9",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "4f756368-751e-424c-a5c7-972cd88b56c9",
+      "status": "Ready",
+      "result": {
+        "start_time": 1788119602.4113162,
+        "prompt": "Stiller Morgen an einer Küste mit offenem Horizont, sanftes natürliches Licht, ruhige Wasserfläche, weite Landschaft, dazu ein leerer Bahnsteig oder eine ruhige Straße im frühen Morgenlicht, dokumentarische Bildsprache, zurückhaltend, würdevoll, hoffnungsvoll, keine Menschen im Vordergrund, keine Katastrophenszene, keine Innenräume, no text, no letters, no typography, no logo, no watermark",
+        "seed": 2486541776,
+        "sample": "https://delivery.us2.bfl.ai/durable/2026083019/5e1f69ea-538b-4d66-962e-9be995966f07/39/60351424db1593/24db1593e61e4b6d831bbbe4f7aed1a0/sample.jpeg?se=2026-08-30T20%3A03%3A23Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=flgPZjsXP/FildY%2BiLBkHGX69kHmaRHZ3F4qmmJ6jh4%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "4f756368-751e-424c-a5c7-972cd88b56c9",
+    "polling_url": "https://api.us2.bfl.ai/v1/get_result?id=4f756368-751e-424c-a5c7-972cd88b56c9",
+    "cost": 1.4000000000000001,
+    "input_mp": 0,
+    "output_mp": 0.72
+  }
+}

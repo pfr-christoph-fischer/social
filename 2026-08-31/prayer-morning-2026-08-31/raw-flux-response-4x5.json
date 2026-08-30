@@ -1,0 +1,52 @@
+{
+  "delivery_url": "https://delivery.eu2.bfl.ai/durable/2026083019/5e1f69ea-538b-4d66-962e-9be995966f07/e1/606893d8a377bd/d8a377bd2ff94e609a62ac9d5e874bac/sample.jpeg?se=2026-08-30T20%3A03%3A27Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=zqUTq0rbTfonwpznCgFO%2Bbfj69YNpr0eST7sZotRpgA%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "8a682239-5507-4500-aa04-395874f9364c",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "8a682239-5507-4500-aa04-395874f9364c",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "8a682239-5507-4500-aa04-395874f9364c",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "8a682239-5507-4500-aa04-395874f9364c",
+      "status": "Ready",
+      "result": {
+        "start_time": 1788119605.7528727,
+        "prompt": "Stiller Morgen an einer Küste mit offenem Horizont, sanftes natürliches Licht, ruhige Wasserfläche, weite Landschaft, dazu ein leerer Bahnsteig oder eine ruhige Straße im frühen Morgenlicht, dokumentarische Bildsprache, zurückhaltend, würdevoll, hoffnungsvoll, keine Menschen im Vordergrund, keine Katastrophenszene, keine Innenräume, no text, no letters, no typography, no logo, no watermark",
+        "seed": 1286983216,
+        "sample": "https://delivery.eu2.bfl.ai/durable/2026083019/5e1f69ea-538b-4d66-962e-9be995966f07/e1/606893d8a377bd/d8a377bd2ff94e609a62ac9d5e874bac/sample.jpeg?se=2026-08-30T20%3A03%3A27Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=zqUTq0rbTfonwpznCgFO%2Bbfj69YNpr0eST7sZotRpgA%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "8a682239-5507-4500-aa04-395874f9364c",
+    "polling_url": "https://api.eu2.bfl.ai/v1/get_result?id=8a682239-5507-4500-aa04-395874f9364c",
+    "cost": 1.5,
+    "input_mp": 0,
+    "output_mp": 1.39
+  }
+}
