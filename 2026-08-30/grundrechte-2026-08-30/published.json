@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-08-30",
+    "contentDate": "2026-08-30",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-08-30T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Die Pressefreiheit und die Freiheit der Berichterstattung durch Rundfunk und Film werden gewährleistet. Eine Zensur findet nicht statt. (Grundgesetz, Artikel 5 Absatz 1)",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Die Pressefreiheit und die Freiheit der Berichterstattung durch Rundfunk und Film werden gewährleistet. Eine Zensur findet nicht statt. (Grundgesetz, Artikel 5 Absatz 1)"
+    ],
+    "id": "268d5d94-43d9-4416-b51f-47f4950133bc",
+    "attemptCount": 1,
+    "remoteId": "18107596679118309",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:37:14.848Z",
+    "updatedAt": "2026-08-30T10:00:26.410Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-08-30",
+    "contentDate": "2026-08-30",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-08-30T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Die Pressefreiheit und die Freiheit der Berichterstattung durch Rundfunk und Film werden gewährleistet. Eine Zensur findet nicht statt. (Grundgesetz, Artikel 5 Absatz 1)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Die Pressefreiheit und die Freiheit der Berichterstattung durch Rundfunk und Film werden gewährleistet. Eine Zensur findet nicht statt. (Grundgesetz, Artikel 5 Absatz 1)"
+    ],
+    "id": "e81da102-3494-449d-9754-71fb77bbab50",
+    "attemptCount": 1,
+    "remoteId": "117183874853222694",
+    "remoteUrl": "https://kirche.social/@christoph/117183874853222694",
+    "lastError": null,
+    "createdAt": "2026-08-26T15:37:14.902Z",
+    "updatedAt": "2026-08-30T10:00:27.979Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
