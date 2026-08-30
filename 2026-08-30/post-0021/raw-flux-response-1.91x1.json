@@ -1,0 +1,44 @@
+{
+  "delivery_url": "https://delivery.eu2.bfl.ai/durable/2026083010/5e1f69ea-538b-4d66-962e-9be995966f07/47/93431913b70bc4/13b70bc41c0f427aa3bc2045f31f46a6/sample.jpeg?se=2026-08-30T10%3A42%3A14Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=sfsDuSeRRWhGQmpbrzPRZkPti64Dnf1rF7lP4E2TlAg%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "54768b39-2666-4e87-9ed6-182a4e625b19",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "54768b39-2666-4e87-9ed6-182a4e625b19",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "54768b39-2666-4e87-9ed6-182a4e625b19",
+      "status": "Ready",
+      "result": {
+        "start_time": 1788085933.3181565,
+        "prompt": "Fotorealistisches, ruhiges Motiv in warmem Morgen- oder Abendlicht: ein schlichter Weg oder Eingangsbereich, eine Hand hält achtsam eine Tür offen, weiche Schatten, natürliche Farben, stille Atmosphäre, geringe Tiefenschärfe, zurückhaltende Komposition, viel negativer Raum, Gefühl von Aufmerksamkeit und Barmherzigkeit im Alltag, modern, glaubwürdig, unaufgeregt, hochwertige Fotografie, no text, no letters, no typography, no logo, no watermark",
+        "seed": 2616790666,
+        "sample": "https://delivery.eu2.bfl.ai/durable/2026083010/5e1f69ea-538b-4d66-962e-9be995966f07/47/93431913b70bc4/13b70bc41c0f427aa3bc2045f31f46a6/sample.jpeg?se=2026-08-30T10%3A42%3A14Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=sfsDuSeRRWhGQmpbrzPRZkPti64Dnf1rF7lP4E2TlAg%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "54768b39-2666-4e87-9ed6-182a4e625b19",
+    "polling_url": "https://api.eu2.bfl.ai/v1/get_result?id=54768b39-2666-4e87-9ed6-182a4e625b19",
+    "cost": 1.4000000000000001,
+    "input_mp": 0,
+    "output_mp": 0.72
+  }
+}
