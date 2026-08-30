@@ -1,0 +1,77 @@
+{
+  "id": "post-0028",
+  "status": "in Arbeit",
+  "needs_input": false,
+  "source": {
+    "calendar_post_id": "post-0028",
+    "date": "2026-09-06",
+    "rubric": "Wochenspruch – meditativ",
+    "liturgical_source": "https://kirchenjahr.pfarr.tools/api/jahr/2026"
+  },
+  "editorial_core": {
+    "title": "Neuer Wochenspruch: 14. Sonntag nach Trinitatis",
+    "main_message": "Ruhiges Motiv, wenig Text im Bild, meditativer Begleittext.",
+    "audience": "breite Öffentlichkeit",
+    "tone": [
+      "klar",
+      "ruhig",
+      "zugänglich"
+    ],
+    "source_notes": [
+      "Goal: Den neuen Wochenspruch als ruhigen Auftakt der liturgischen Woche veröffentlichen.",
+      "Column: Bibel und Spiritualität",
+      "Production mode: für Monate im Voraus vollständig vorproduzierbar",
+      "Structure: Wochenspruch | ein Bild oder eine Beobachtung | ein meditativer Satz | offene Schlussfrage oder Segenswunsch",
+      "AI support notes: meditativer Rohentwurf | KI-Bildprompt | Reel-Sprechtext | Alt-Text",
+      "Liturgical source: https://kirchenjahr.pfarr.tools/api/jahr/2026 (2026-09-06, $.Tage['2026-09-06'])"
+    ]
+  },
+  "platforms": {
+    "facebook": {
+      "text": "",
+      "headline": ""
+    },
+    "instagram": {
+      "caption": "",
+      "carousel": []
+    },
+    "mastodon": {
+      "text": ""
+    },
+    "bluesky": {
+      "text": ""
+    },
+    "story": {
+      "slides": []
+    },
+    "reel": {
+      "hook": "",
+      "script": "",
+      "shots": [],
+      "duration_seconds": 0
+    }
+  },
+  "visual": {
+    "concept": "",
+    "flux_prompt": "",
+    "negative_prompt": "text, letters, logo, watermark",
+    "formats": [
+      "4:5",
+      "9:16",
+      "1.91:1"
+    ],
+    "alt_text": ""
+  },
+  "qa": {
+    "warnings": [
+      "Alt text must be completed before approval"
+    ],
+    "approved": false
+  },
+  "metadata": {
+    "model": "",
+    "generated_at": "",
+    "prompt_version": "1.0",
+    "assets": []
+  }
+}
