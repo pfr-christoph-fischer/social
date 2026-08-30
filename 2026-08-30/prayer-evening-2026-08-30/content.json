@@ -26,7 +26,7 @@
   },
   "platforms": {
     "facebook": {
-      "text": "Abendgebet\n\nGott,\nder Tag liegt hinter uns.\nMit allem, was gut war.\nMit allem, was unfertig blieb.\nMit Worten, die getragen haben.\nUnd mit dem, was uns noch drückt.\n\nWir danken dir für alles, was heute hell war.\nFür Menschen, die uns gutgetan haben.\nFür Arbeit, die gelungen ist.\nFür kleine Augenblicke zum Aufatmen.\n\nUnd wir legen dir hin,\nwas wir nicht geschafft haben.\nUnsere Müdigkeit.\nUnsere Fehler.\nUnsere Sorge um das, was wir heute nicht mehr ändern können.\n\nWir denken an die Menschen in Aarau in der Schweiz,\ndie nach den Schüssen bei einem Techno-Festival unter Schock stehen.\nSei bei den Verletzten,\nbei allen, die um andere bangen,\nund bei denen, die helfen.\n\nWir denken an die Menschen im Niger,\nwo Unruhen und ein Putschversuch Angst und Unsicherheit auslösen.\nBewahre die Menschen.\nStärke alle,\ndie sich nach Frieden,\nSchutz und Stabilität sehnen.\n\nSei bei allen,\ndie in dieser Nacht wachen,\npflegen,\nfahren,\nretten,\ntrösten\noder selbst Angst haben.\n\nWir müssen diese Welt nicht über Nacht festhalten.\nDu siehst, was offen bleibt.\nDu lässt uns loslassen,\nohne gleichgültig zu werden.\n\nSchenk uns Frieden für diese Nacht.\nUnd halte deine Hoffnung in uns wach.\nAmen.",
+      "text": "**Abendgebet**\n\nGott,\nder Tag liegt hinter uns.\nMit allem, was gut war.\nMit allem, was unfertig blieb.\nMit Worten, die getragen haben.\nUnd mit dem, was uns noch drückt.\n\nWir danken dir für alles, was heute hell war.\nFür Menschen, die uns gutgetan haben.\nFür Arbeit, die gelungen ist.\nFür kleine Augenblicke zum Aufatmen.\n\nUnd wir legen dir hin,\nwas wir nicht geschafft haben.\nUnsere Müdigkeit.\nUnsere Fehler.\nUnsere Sorge um das, was wir heute nicht mehr ändern können.\n\nWir denken an die Menschen in Aarau in der Schweiz,\ndie nach den Schüssen bei einem Techno-Festival unter Schock stehen.\nSei bei den Verletzten,\nbei allen, die um andere bangen,\nund bei denen, die helfen.\n\nWir denken an die Menschen im Niger,\nwo Unruhen und ein Putschversuch Angst und Unsicherheit auslösen.\nBewahre die Menschen.\nStärke alle,\ndie sich nach Frieden,\nSchutz und Stabilität sehnen.\n\nSei bei allen,\ndie in dieser Nacht wachen,\npflegen,\nfahren,\nretten,\ntrösten\noder selbst Angst haben.\n\nWir müssen diese Welt nicht über Nacht festhalten.\nDu siehst, was offen bleibt.\nDu lässt uns loslassen,\nohne gleichgültig zu werden.\n\nSchenk uns Frieden für diese Nacht.\nUnd halte deine Hoffnung in uns wach.\nAmen.",
       "headline": "Abendgebet: Den Tag loslassen. Die Welt Gott anvertrauen."
     },
     "instagram": {
@@ -62,7 +62,7 @@
       "text": "Abendgebet\n\nGott, wir legen dir diesen Tag hin. Was gut war. Was wehgetan hat. Was offen bleibt.\n\nWir beten für die Menschen nach den Schüssen bei einem Techno-Festival in Aarau in der Schweiz und für die Menschen im Niger angesichts von Unruhen und eines Putschversuchs.\n\nSchenk Frieden für diese Nacht. Halte Hoffnung in uns wach. Amen."
     },
     "bluesky": {
-      "text": "Abendgebet\n\nGott, wir legen dir diesen Tag hin. Was gut war. Was wehgetan hat. Was offen bleibt.\n\nWir beten für die Menschen nach den Schüssen bei einem Techno-Festival in Aarau und für die Menschen im Niger angesichts von Unruhen und eines Putschversuchs.\n\nSchenk Frieden für diese Nacht. Amen."
+      "text": "Abendgebet\n\nGott, wir legen dir diesen Tag hin. Was gut war. Was wehgetan hat. Was offen bleibt.\n\nWir beten für die Menschen nach den Schüssen bei einem Techno-Festival in Aarau in der Schweiz und für die Menschen im Niger angesichts von Unruhen und eines Putschversuchs.\n\nSchenk Frieden für diese Nacht. Amen."
     },
     "story": {
       "slides": [
@@ -102,18 +102,21 @@
   },
   "visual": {
     "concept": "Ruhige Abendszene mit weichem Licht: ein Fenster in der Dämmerung, ein schlichter Tisch, stille Atmosphäre, Raum für Gebet und Loslassen.",
-    "flux_prompt": "",
+    "flux_prompt": "Friedliche Abendszene in einem schlichten Zimmer, weiches Dämmerungslicht fällt durch ein Fenster auf einen einfachen Holztisch, ruhige kontemplative Atmosphäre, Symbol des Friedens durch eine weiße Taube in der Nähe des Fensters oder im sanften Flug draußen, warme gedeckte Farben, poetisch, still, hoffnungsvoll, natürliches Licht, hochwertige fotografische Ästhetik, realistisch, keine Menschen im Fokus, viel Raum und Ruhe im Bild",
     "negative_prompt": "text, letters, logo, watermark, poster, signage, caption, typografie",
     "formats": [
       "4:5",
       "9:16",
       "1.91:1"
     ],
-    "alt_text": "Ein schlichtes Zimmer im Abendlicht. Durch ein Fenster fällt weiches Dämmerungslicht auf einen einfachen Tisch. Die Szene wirkt ruhig und offen und lässt an den Tagesabschluss im Gebet denken."
+    "alt_text": "Ein schlichtes Zimmer im Abendlicht. Durch ein Fenster fällt weiches Dämmerungslicht auf einen einfachen Tisch. In der Nähe des Fensters ist als Friedenssymbol eine weiße Taube zu sehen. Die Szene wirkt ruhig, hoffnungsvoll und offen und lässt an den Tagesabschluss im Gebet denken."
   },
   "qa": {
-    "approved": false,
-    "warnings": []
+    "warnings": [
+      "Alt text must be completed before approval",
+      "Aktuelle Nachrichtenbezüge vor Veröffentlichung noch einmal kurz gegen späte Lageänderungen prüfen."
+    ],
+    "approved": false
   },
   "metadata": {
     "model": "gpt-5.4-2026-03-05",
