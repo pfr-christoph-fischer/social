@@ -27,5 +27,65 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "post-0021",
+    "contentDate": "2026-08-30",
+    "platform": "instagram",
+    "format": "default",
+    "scheduledAt": "2026-08-30T07:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Christus spricht: Was ihr getan habt einem von diesen meinen geringsten Brüdern, das habt ihr mir getan. (Mt 25,40b)\n\nEine kleine Geste kann viel sein.\nEine offene Hand. Ein stilles Dableiben. Ein Blick, der einen Menschen nicht übersieht.\n\nDer Wochenspruch erinnert daran: Was wir einem anderen tun, berührt nicht nur ihn. Christus selbst legt sich in diese Nähe.\n\nVielleicht beginnt Barmherzigkeit heute ganz unscheinbar.\n\nWo kannst du diese Woche genauer hinsehen?\n\n#Wochenspruch #Kirchenjahr #Trinitatiszeit #Bibelwort #Meditation #GlaubeImAlltag",
+    "assets": [
+      "render-instagram-feed-01.jpg",
+      "render-instagram-feed-02.jpg",
+      "render-instagram-feed-03.jpg",
+      "render-instagram-feed-04.jpg"
+    ],
+    "altTexts": [
+      "Eine ruhige Alltagsszene im warmen Licht: Eine Hand hält eine Tür offen. Der Bildraum ist schlicht und still. Das Motiv wirkt aufmerksam und einladend."
+    ],
+    "id": "82ef8d00-c622-464f-85a1-2aaf9df5c4ed",
+    "attemptCount": 1,
+    "remoteId": "18338113354260870",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-30T10:36:47.218Z",
+    "updatedAt": "2026-08-30T10:40:45.918Z",
+    "responseMetadata": {
+      "mediaCount": 4,
+      "mediaType": "CAROUSEL",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "post-0021",
+    "contentDate": "2026-08-30",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-08-30T07:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Christus spricht: Was ihr getan habt einem von diesen meinen geringsten Brüdern, das habt ihr mir getan. (Mt 25,40b)\n\nEine kleine Geste kann viel sein. Ein Blick, der nicht ausweicht. Eine Hand, die hilft. Vielleicht beginnt Barmherzigkeit genau dort, wo ein Mensch nicht übersehen wird.",
+    "assets": [
+      "render-facebook-mastodon-01.png"
+    ],
+    "altTexts": [
+      "Eine ruhige Alltagsszene im warmen Licht: Eine Hand hält eine Tür offen. Der Bildraum ist schlicht und still. Das Motiv wirkt aufmerksam und einladend."
+    ],
+    "id": "b16528f1-40e3-4709-b7c1-822bd0e960af",
+    "attemptCount": 1,
+    "remoteId": "117184033373070147",
+    "remoteUrl": "https://kirche.social/@christoph/117184033373070147",
+    "lastError": null,
+    "createdAt": "2026-08-30T10:36:47.286Z",
+    "updatedAt": "2026-08-30T10:40:46.802Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
