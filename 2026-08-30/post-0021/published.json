@@ -119,5 +119,36 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "post-0021",
+    "contentDate": "2026-08-30",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-08-30T07:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Christus spricht: Was ihr getan habt einem von diesen meinen geringsten Brüdern, das habt ihr mir getan. (Mt 25,40b)\n\nVielleicht beginnt Barmherzigkeit nicht mit großen Taten, sondern dort, wo ein Mensch nicht übersehen wird.",
+    "assets": [
+      "render-instagram-feed-01.png",
+      "render-instagram-feed-02.png",
+      "render-instagram-feed-03.png",
+      "render-instagram-feed-04.png"
+    ],
+    "altTexts": [
+      "Eine ruhige Alltagsszene im warmen Licht: Eine Hand hält eine Tür offen. Der Bildraum ist schlicht und still. Das Motiv wirkt aufmerksam und einladend."
+    ],
+    "id": "8d2f6920-3488-42d7-b230-ffa7fd272de1",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3muc7dtsff62d",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3muc7dtsff62d",
+    "lastError": null,
+    "createdAt": "2026-08-30T10:36:47.442Z",
+    "updatedAt": "2026-08-30T10:41:22.964Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 4
+    },
+    "retryHistory": []
   }
 ]
