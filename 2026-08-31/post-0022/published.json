@@ -152,5 +152,44 @@
       "status": 201
     },
     "retryHistory": []
+  },
+  {
+    "postId": "post-0022",
+    "contentDate": "2026-08-31",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-08-31T07:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Christus spricht: Was ihr getan habt einem von diesen meinen geringsten Brüdern, das habt ihr mir getan. (Mt 25,40b)\n\nÜbung für diese Woche:\nDanke einer Person, deren Beitrag leicht übersehen wird.\nKurz. Konkret. Ehrlich.\n\nWem könntest du heute so ein Danke sagen?",
+    "assets": [
+      "render-instagram-feed-01.jpg",
+      "render-instagram-feed-02.jpg",
+      "render-instagram-feed-03.jpg",
+      "render-instagram-feed-04.jpg",
+      "render-instagram-feed-05.jpg"
+    ],
+    "altTexts": [
+      "Zwei Menschen in einer schlichten Alltagsszene. Eine Person reicht der anderen mit freundlicher Geste eine kleine Notiz oder eine Tasse. Das Bild wirkt ruhig und warm und lenkt den Blick auf ein unscheinbares Zeichen der Wertschätzung."
+    ],
+    "id": "5c14fbe4-b8b6-42ff-8929-93efe1bf0856",
+    "attemptCount": 2,
+    "remoteId": "18100194563576830",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-30T19:57:43.731Z",
+    "updatedAt": "2026-08-31T07:05:40.729Z",
+    "responseMetadata": {
+      "mediaCount": 5,
+      "mediaType": "CAROUSEL",
+      "status": 200
+    },
+    "retryHistory": [
+      {
+        "at": "2026-08-31T07:01:27.932Z",
+        "error": "threads: Container konnte nicht erstellt werden (400): Invalid parameter (Code 100) Les enfants avec les ID 17977611867107901 ne sont pas valides, sont inexistants ou ont expiré.",
+        "attempt": 1
+      }
+    ]
   }
 ]
