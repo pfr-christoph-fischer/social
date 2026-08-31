@@ -27,35 +27,35 @@
   },
   "platforms": {
     "facebook": {
-      "text": "Gott,\njetzt wird es Abend.\nDer Lärm des Tages legt sich langsam.\nWir bringen dir, was heute gut war.\nUnd auch das, was unfertig blieb.\nWorte, die zu scharf waren.\nSorgen, die noch im Raum stehen.\nAufgaben, die wir nicht mehr lösen.\n\nWir denken an die Menschen in Nepal und Tibet.\nAn Familien, die nach der schweren Sturzflut Tote beklagen.\nAn Kinder und Erwachsene, die ihr Zuhause verloren haben.\n\nWir denken an die Menschen am Persischen Golf.\nAn alle, die nach den neuen Angriffen wieder mit Angst in die Nacht gehen.\nBewahre die, die um ihr Leben fürchten.\nStoppe die Gewalt.\n\nWir denken auch an die Vermissten im Grand Canyon.\nUnd an ihre Angehörigen, die auf Nachrichten warten.\n\nSei bei allen, die heute Nacht wachen, pflegen, trösten, suchen und helfen.\nSei auch bei uns.\nNimm diesen Tag in deine Hand.\nWas gelungen ist.\nWas wehgetan hat.\nWas offen bleibt.\n\nSchenk uns Ruhe für diese Nacht.\nUnd halte die Hoffnung in uns wach.\nAmen.",
-      "headline": "Abendgebet: Was heute offen bleibt, legen wir in Gottes Hand"
+      "headline": "Abendgebet: Was heute offen bleibt, legen wir in Gottes Hand",
+      "text": "Gott,\njetzt wird es Abend.\nDer Lärm des Tages legt sich langsam.\nWir bringen dir, was heute gut war.\nUnd auch das, was unfertig blieb.\nWorte, die zu scharf waren.\nSorgen, die noch im Raum stehen.\nAufgaben, die wir nicht mehr lösen.\n\nWir denken an die Menschen in Nepal und Tibet.\nAn Familien, die nach der schweren Sturzflut Tote beklagen.\nAn Kinder und Erwachsene, die ihr Zuhause verloren haben.\n\nWir denken an die Menschen am Persischen Golf.\nAn alle, die nach den neuen Angriffen wieder mit Angst in die Nacht gehen.\nBewahre die, die um ihr Leben fürchten.\nStoppe die Gewalt.\n\nWir denken auch an die Vermissten im Grand Canyon.\nUnd an ihre Angehörigen, die auf Nachrichten warten.\n\nSei bei allen, die heute Nacht wachen, pflegen, trösten, suchen und helfen.\nSei auch bei uns.\nNimm diesen Tag in deine Hand.\nWas gelungen ist.\nWas wehgetan hat.\nWas offen bleibt.\n\nSchenk uns Ruhe für diese Nacht.\nUnd halte die Hoffnung in uns wach.\nAmen."
     },
     "instagram": {
       "caption": "Der Tag muss nicht fertig werden, damit du ihn loslassen darfst.\n\nGott,\nwir bringen dir das Gute von heute.\nUnd das, was liegen geblieben ist.\n\nWir beten für Menschen in Nepal und Tibet nach der verheerenden Sturzflut.\nFür Familien, die trauern.\nFür Kinder und Erwachsene ohne Zuhause.\n\nWir beten für die Menschen am Persischen Golf.\nNach neuen Angriffen wächst wieder die Angst vor weiterer Gewalt.\n\nWir beten auch für die Vermissten im Grand Canyon und für alle, die auf Nachricht warten.\n\nSchenk Ruhe in diese Nacht.\nUnd Hoffnung, die größer ist als dieser Tag.\nAmen.",
       "carousel": [
         {
-          "type": "text",
-          "text": "Der Tag muss nicht fertig werden, damit du ihn loslassen darfst."
+          "text": "Der Tag muss nicht fertig werden, damit du ihn loslassen darfst.",
+          "type": "text"
         },
         {
-          "type": "text",
-          "text": "Gott, wir bringen dir das Gute von heute. Und das, was liegen geblieben ist."
+          "text": "Gott, wir bringen dir das Gute von heute. Und das, was liegen geblieben ist.",
+          "type": "text"
         },
         {
-          "type": "text",
-          "text": "Wir beten für Menschen in Nepal und Tibet nach der verheerenden Sturzflut. Für Familien, die trauern. Für Kinder und Erwachsene ohne Zuhause."
+          "text": "Wir beten für Menschen in Nepal und Tibet nach der verheerenden Sturzflut. Für Familien, die trauern. Für Kinder und Erwachsene ohne Zuhause.",
+          "type": "text"
         },
         {
-          "type": "text",
-          "text": "Wir beten für die Menschen am Persischen Golf. Nach neuen Angriffen wächst wieder die Angst vor weiterer Gewalt."
+          "text": "Wir beten für die Menschen am Persischen Golf. Nach neuen Angriffen wächst wieder die Angst vor weiterer Gewalt.",
+          "type": "text"
         },
         {
-          "type": "text",
-          "text": "Wir beten für die Vermissten im Grand Canyon und für alle, die auf Nachricht warten."
+          "text": "Wir beten für die Vermissten im Grand Canyon und für alle, die auf Nachricht warten.",
+          "type": "text"
         },
         {
-          "type": "text",
-          "text": "Schenk Ruhe in diese Nacht. Und Hoffnung, die größer ist als dieser Tag. Amen."
+          "text": "Schenk Ruhe in diese Nacht. Und Hoffnung, die größer ist als dieser Tag. Amen.",
+          "type": "text"
         }
       ]
     },
@@ -103,7 +103,7 @@
   },
   "visual": {
     "concept": "Ruhige Abendszene an einem Fenster. Warmes Licht innen, dunkler werdender Himmel draußen. Eine einfache, echte Atmosphäre von Loslassen und Geborgenheit, ohne fromme Klischees.",
-    "flux_prompt": "",
+    "flux_prompt": "Ruhige Abendszene an einem Fenster. Warmes Licht innen, dunkler werdender Himmel draußen. Eine einfache, echte Atmosphäre von Loslassen und Geborgenheit, ohne fromme Klischees.",
     "negative_prompt": "text, letters, logo, watermark",
     "formats": [
       "4:5",
