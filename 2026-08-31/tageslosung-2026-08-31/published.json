@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-08-31",
+    "contentDate": "2026-08-31",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-08-31T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "/Jakob gelobte Gott:/ Von allem, was du mir gibst, will ich dir den Zehnten geben.",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "/Jakob gelobte Gott:/ Von allem, was du mir gibst, will ich dir den Zehnten geben."
+    ],
+    "id": "7bc8c7c7-12c9-4420-ae7f-27002b025912",
+    "attemptCount": 1,
+    "remoteId": "18013603805745056",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:44:52.533Z",
+    "updatedAt": "2026-08-31T05:00:29.236Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-08-31",
+    "contentDate": "2026-08-31",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-08-31T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "/Jakob gelobte Gott:/ Von allem, was du mir gibst, will ich dir den Zehnten geben.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "/Jakob gelobte Gott:/ Von allem, was du mir gibst, will ich dir den Zehnten geben."
+    ],
+    "id": "4b4d5107-6dd4-4e9c-99f2-0feaa1fbe505",
+    "attemptCount": 1,
+    "remoteId": "117188357757955733",
+    "remoteUrl": "https://kirche.social/@christoph/117188357757955733",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:44:52.550Z",
+    "updatedAt": "2026-08-31T05:00:31.687Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
