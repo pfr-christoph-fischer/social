@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-08-31",
+    "contentDate": "2026-08-31",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-08-31T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Jeder hat das Recht auf Meinungsfreiheit und freie Meinungsäußerung; dieses Recht schließt die Freiheit ein, Meinungen ungehindert anzuhängen sowie über Medien jeder Art und ohne Rücksicht auf Grenzen Informationen und Gedankengut zu suchen, zu empfangen und zu verbreiten. (Allgemeine Erklärung der Menschenrechte, Artikel 19)",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Jeder hat das Recht auf Meinungsfreiheit und freie Meinungsäußerung; dieses Recht schließt die Freiheit ein, Meinungen ungehindert anzuhängen sowie über Medien jeder Art und ohne Rücksicht auf Grenzen Informationen und Gedankengut zu suchen, zu empfangen und zu verbreiten. (Allgemeine Erklärung der Menschenrechte, Artikel 19)"
+    ],
+    "id": "4e9e49a5-b007-465a-887b-16d54bdbb97c",
+    "attemptCount": 1,
+    "remoteId": "18126613450787780",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:37:17.942Z",
+    "updatedAt": "2026-08-31T10:00:33.937Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-08-31",
+    "contentDate": "2026-08-31",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-08-31T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Jeder hat das Recht auf Meinungsfreiheit und freie Meinungsäußerung; dieses Recht schließt die Freiheit ein, Meinungen ungehindert anzuhängen sowie über Medien jeder Art und ohne Rücksicht auf Grenzen Informationen und Gedankengut zu suchen, zu empfangen und zu verbreiten. (Allgemeine Erklärung der Menschenrechte, Artikel 19)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Jeder hat das Recht auf Meinungsfreiheit und freie Meinungsäußerung; dieses Recht schließt die Freiheit ein, Meinungen ungehindert anzuhängen sowie über Medien jeder Art und ohne Rücksicht auf Grenzen Informationen und Gedankengut zu suchen, zu empfangen und zu verbreiten. (Allgemeine Erklärung der Menschenrechte, Artikel 19)"
+    ],
+    "id": "176aa04d-ae41-4822-b029-25603a473c35",
+    "attemptCount": 1,
+    "remoteId": "117189537681267997",
+    "remoteUrl": "https://kirche.social/@christoph/117189537681267997",
+    "lastError": null,
+    "createdAt": "2026-08-26T15:37:17.993Z",
+    "updatedAt": "2026-08-31T10:00:35.868Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
