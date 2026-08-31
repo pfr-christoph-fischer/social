@@ -88,24 +88,24 @@
       "script": "Der Tag ist fast vorbei. Nicht alles ist gelungen. Nicht alles ist geklärt. Und doch musst du heute nichts beweisen. In diesem Abendgebet bringen wir Gott, was schön war und was schwer war. Wir beten nach den Sturzfluten in Nepal und in den USA am Grand Canyon für alle Betroffenen. Und für alle, die sich Sorgen um die Zukunft machen. Wir vertrauen darauf: Gottes Zukunft beginnt nicht erst, wenn wir alles geschafft haben. Schenk uns Frieden für diese Nacht.",
       "shots": [
         "ruhiger Abendhimmel mit langsam ziehenden Wolken",
-        "Tisch mit brennender Kerze und offenem Notizbuch",
-        "leere Straße in der Dämmerung",
-        "Fenster mit Licht in einem Haus bei Nacht",
+        "Nahaufnahme eines aufgeräumten Tisches mit gefalteten Händen, Brille und offenem Gebetstext",
+        "Blick auf nasse Pflastersteine nach einem Regenschauer in der Dämmerung",
+        "ein Paar abgestellte Schuhe an einer Wohnungstür im warmen Abendlicht",
         "stille Nahaufnahme von Händen auf einer Decke"
       ],
       "duration_seconds": 30
     }
   },
   "visual": {
-    "concept": "Ruhige Abendszene mit warmem Licht, offenem Fenster oder Kerze, die Loslassen und Geborgenheit andeutet, ohne illustrativ Nachrichtenbilder nachzustellen.",
-    "flux_prompt": "Ruhige Abendszene mit warmem Licht, offenem Fenster oder Kerze, die Loslassen und Geborgenheit andeutet, ohne illustrativ Nachrichtenbilder nachzustellen.",
+    "concept": "Ruhige, konkrete Abendszene in einem bewohnten Raum: ein aufgeräumter Tisch mit Brille, offenem Gebetstext oder Notizbuch und einer Tasse Tee im weichen Abendlicht. Das Motiv steht für Innehalten, Loslassen und Geborgenheit, ohne auf die übliche Kerze-am-Fenster-Bildsprache zurückzugreifen oder Nachrichtenbilder nachzustellen.",
+    "flux_prompt": "Ruhige, authentische Abendszene in einem bewohnten Raum, aufgeräumter Holztisch mit Brille, offenem Notizbuch oder Gebetstext, Tasse Tee, weiches warmes Abendlicht, dezente Dämmerung im Hintergrund, atmosphärisch, still, tröstlich, natürlich, editorial photography, realistic, no people facing camera, keine Katastrophendarstellung, keine Kerze am Fenster",
     "negative_prompt": "text, letters, logo, watermark",
     "formats": [
       "4:5",
       "9:16",
       "1.91:1"
     ],
-    "alt_text": "Eine stille Abendszene in warmem Licht: ein Fenster in die Dämmerung und eine kleine Lichtquelle im Raum. Das Bild wirkt ruhig und lädt dazu ein, den Tag loszulassen."
+    "alt_text": "Ein aufgeräumter Tisch im warmen Abendlicht mit Brille, offenem Notizbuch oder Gebetstext und einer Tasse Tee. Die ruhige Szene wirkt still und geborgen und lädt dazu ein, den Tag loszulassen."
   },
   "qa": {
     "warnings": [],
