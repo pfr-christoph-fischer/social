@@ -84,5 +84,91 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-08-31",
+    "contentDate": "2026-08-31",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-08-31T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "/Jakob gelobte Gott:/ Von allem, was du mir gibst, will ich dir den Zehnten geben.",
+    "assets": [
+      "render-square-01.jpg"
+    ],
+    "altTexts": [
+      "/Jakob gelobte Gott:/ Von allem, was du mir gibst, will ich dir den Zehnten geben."
+    ],
+    "id": "ae28c6bf-09b3-42f0-9908-cb557558541a",
+    "attemptCount": 1,
+    "remoteId": "17956945968211191",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:44:52.556Z",
+    "updatedAt": "2026-08-31T05:00:43.732Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-08-31",
+    "contentDate": "2026-08-31",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-08-31T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "/Jakob gelobte Gott:/ Von allem, was du mir gibst, will ich dir den Zehnten geben.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "/Jakob gelobte Gott:/ Von allem, was du mir gibst, will ich dir den Zehnten geben."
+    ],
+    "id": "68cb29f5-ed16-40a8-857d-d1a7d18e4aaf",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3mue4rp2r3q2d",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3mue4rp2r3q2d",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:44:52.573Z",
+    "updatedAt": "2026-08-31T05:00:45.989Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-08-31",
+    "contentDate": "2026-08-31",
+    "platform": "linkedin",
+    "format": "default",
+    "scheduledAt": "2026-08-31T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "/Jakob gelobte Gott:/ Von allem, was du mir gibst, will ich dir den Zehnten geben.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "/Jakob gelobte Gott:/ Von allem, was du mir gibst, will ich dir den Zehnten geben."
+    ],
+    "id": "c6a82553-e57d-49ff-a44a-373fd97307eb",
+    "attemptCount": 1,
+    "remoteId": "urn:li:share:7500054965562826752",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:44:52.576Z",
+    "updatedAt": "2026-08-31T05:00:48.702Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 201
+    },
+    "retryHistory": []
   }
 ]
