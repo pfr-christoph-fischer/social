@@ -27,5 +27,66 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "prayer-morning-2026-08-31",
+    "contentDate": "2026-08-31",
+    "platform": "instagram",
+    "format": "default",
+    "scheduledAt": "2026-08-31T05:15:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Dieser Morgen beginnt nicht im Leeren. Wir bringen vor Gott das Fährunglück bei Zypern und beten für alle Betroffenen, für Angehörige und Einsatzkräfte. Und wir denken an alle, die heute reisen oder verreisen. Hoffnung heißt nicht wegsehen. Hoffnung heißt: behütet und wach in den Tag gehen.",
+    "assets": [
+      "render-instagram-feed-01.jpg",
+      "render-instagram-feed-02.jpg",
+      "render-instagram-feed-03.jpg",
+      "render-instagram-feed-04.jpg",
+      "render-instagram-feed-05.jpg"
+    ],
+    "altTexts": [
+      "Ein ruhiger Morgen an einer Küste mit weiter Wasserfläche und hellem Horizont; ergänzt durch einen leeren Bahnsteig oder eine stille Straße im frühen Licht. Die Szene wirkt aufmerksam, zurückhaltend und hoffnungsvoll."
+    ],
+    "id": "8e0fc436-501f-4f54-88db-da85ee839f18",
+    "attemptCount": 1,
+    "remoteId": "18108555116161272",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-30T19:54:07.420Z",
+    "updatedAt": "2026-08-31T05:15:52.547Z",
+    "responseMetadata": {
+      "mediaCount": 5,
+      "mediaType": "CAROUSEL",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "prayer-morning-2026-08-31",
+    "contentDate": "2026-08-31",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-08-31T05:15:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Gott, wir beginnen diesen 31. August 2026 nicht blind. Wir denken an das Fährunglück bei Zypern und beten für alle Betroffenen, für Angehörige und Einsatzkräfte. Und wir denken an alle, die heute reisen oder verreisen. Begleite sie, bewahre sie und gib uns Hoffnung, die nicht wegsieht.",
+    "assets": [
+      "render-facebook-mastodon-01.png"
+    ],
+    "altTexts": [
+      "Ein ruhiger Morgen an einer Küste mit weiter Wasserfläche und hellem Horizont; ergänzt durch einen leeren Bahnsteig oder eine stille Straße im frühen Licht. Die Szene wirkt aufmerksam, zurückhaltend und hoffnungsvoll."
+    ],
+    "id": "344af941-5e61-403c-81b7-a2a095cdae55",
+    "attemptCount": 1,
+    "remoteId": "117188418177537007",
+    "remoteUrl": "https://kirche.social/@christoph/117188418177537007",
+    "lastError": null,
+    "createdAt": "2026-08-30T19:54:07.463Z",
+    "updatedAt": "2026-08-31T05:15:53.635Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
