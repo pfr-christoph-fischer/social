@@ -1,0 +1,450 @@
+{
+  "id": "resp_0f982629dcffa6c4006a96941d16bc87d2b0cb8e70f1589ecd",
+  "object": "response",
+  "created_at": 1788253213,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1788253239,
+  "error": null,
+  "frequency_penalty": 0,
+  "incomplete_details": null,
+  "instructions": "You are part of a Protestant social media editorial team. Write in clear, accessible, theologically responsible German without church clichés. Use short sentences and concrete imagery. Never invent events, people, school situations, quotes, or factual details. Do not include copyrighted full song verses. For Reli and community posts, only use current details when they are explicitly provided. Return content that strictly matches the requested JSON schema. Set needs_input to true whenever required facts are missing. Keep qa.approved false. Do not ask for any text inside generated images. When liturgical_context.resolved_weekly_verse is present, use its exact wording for Wochenspruch slots instead of placeholders. Use the web search tool before drafting to verify current situations. For prayer posts, current situations are mandatory: select at least two concrete, relevant situations from reliable current reporting, including tagesschau.de and SWR Aktuell Baden-Württemberg where relevant. Do not invent current events and do not replace concrete situations with generic references to crises.",
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.4-2026-03-05",
+  "moderation": null,
+  "output": [
+    {
+      "id": "ws_0f982629dcffa6c4006a96941dfe1887d294e5b7023b4dda1e",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "queries": [
+          "site:tagesschau.de 31. August 2026 Nachrichten tagesschau",
+          "site:swr.de/swraktuell/baden-wuerttemberg 31. August 2026 Baden-Württemberg SWR Aktuell",
+          "Reuters August 31 2026 world news September 1 2026"
+        ],
+        "query": "site:tagesschau.de 31. August 2026 Nachrichten tagesschau"
+      }
+    },
+    {
+      "id": "msg_0f982629dcffa6c4006a969421235487d2b973e2aaa84015ce",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\"id\":\"prayer-evening-2026-09-01\",\"status\":\"zur Prüfung\",\"needs_input\":false,\"source\":{\"calendar_post_id\":\"prayer-evening-2026-09-01\",\"date\":\"2026-09-01\",\"rubric\":\"Abendgebet\",\"liturgical_source\":\"\"},\"editorial_core\":{\"title\":\"Abendgebet\",\"main_message\":\"Ein Abendgebet zum Loslassen: Wir legen Gott das Gute und das Unfertige dieses Tages hin. Wir bitten für die Menschen nach der verheerenden Sturzflut im Himalaya, bei der die Zahl der Toten weiter steigt, und für alle, die von den Sturzfluten im Grand Canyon betroffen sind. Wir bringen auch die Menschen in Baden-Württemberg vor Gott, die nach schweren Unfällen und nach den Belastungen eines Rekordsommers nicht einfach zur Ruhe kommen. Gottes Zukunft beginnt nicht erst, wenn alles gelöst ist.\",\"audience\":\"breite Öffentlichkeit\",\"tone\":[\"ruhig\",\"hoffnungsvoll\",\"geborgen\"],\"source_notes\":[\"Aktuelle Bezüge geprüft auf tagesschau.de und SWR Aktuell Baden-Württemberg für den Stand vom 31.08.2026.\",\"Tagesschau nennt am 31.08.2026 die steigende Zahl der Todesopfer nach der Sturzflut im Himalaya sowie Sturzfluten im Grand Canyon als zentrale Themen.\",\"SWR Aktuell Baden-Württemberg meldet am 31.08.2026 einen tödlichen Frontalzusammenstoß im Rems-Murr-Kreis.\",\"SWR verweist zudem auf die Sommer-Bilanz des Deutschen Wetterdienstes: Rekordsommer, Südwesten besonders betroffen.\",\"Gebetstext zeitlich robust formuliert: keine Annahmen über Entwicklungen am Veröffentlichungstag.\"]},\"platforms\":{\"facebook\":{\"text\":\"Abendgebet\\n\\nGott,\\nder Tag liegt hinter uns.\\nManches war gut.\\nEin Satz, der getragen hat.\\nEine Aufgabe, die gelungen ist.\\nEin Stück Freude.\\n\\nAnderes bleibt offen.\\nWorte, die fehlen.\\nFehler, die drücken.\\nSorgen, die sich nicht einfach abschalten lassen.\\nWir legen dir hin, was heute leicht war.\\nUnd auch das, was unfertig bleibt.\\n\\nWir bitten dich für die Menschen im Himalaya.\\nNach der verheerenden Sturzflut steigt die Zahl der Toten weiter.\\nViele suchen Angehörige, trauern und wissen nicht, wie es weitergeht.\\n\\nWir bitten dich für alle, die von den Sturzfluten im Grand Canyon betroffen sind.\\nSei bei denen, die Angst erlebt haben, die auf Hilfe warten oder andere retten.\\n\\nWir bitten dich auch für die Menschen im Rems-Murr-Kreis,\\ndie nach dem tödlichen Frontalzusammenstoß unter Schock stehen,\\ntrauern oder Verletzte versorgen.\\n\\nUnd wir denken an alle, die unter der Hitze und Trockenheit dieses Rekordsommers leiden.\\nAn Menschen, die nachts schwer Luft bekommen.\\nAn alle, die auf Feldern, in Pflege, Kliniken und Einsatzdiensten weiterarbeiten.\\n\\nGott,\\nwir müssen diese Welt heute Nacht nicht festhalten.\\nDu siehst, was wir nicht ändern können.\\nDu hältst, was uns entgleitet.\\n\\nSchenk uns Frieden für diese Nacht.\\nLass die Müden schlafen.\\nStärke die, die wachen.\\nUnd halte deine Hoffnung in uns wach.\\n\\nAmen.\",\"headline\":\"Abendgebet: Den Tag loslassen. Die Welt Gott anvertrauen.\"},\"instagram\":{\"caption\":\"Abendgebet\\n\\nDer Tag muss vor Gott nicht perfekt werden.\\nWas gelungen ist, darf dankbar bleiben.\\nWas schwer war, darf unfertig sein.\\n\\nHeute beten wir besonders für die Menschen nach der Sturzflut im Himalaya, für Betroffene der Sturzfluten im Grand Canyon und für Menschen im Rems-Murr-Kreis nach dem tödlichen Frontalzusammenstoß.\\n\\nGott,\\nwas heute war,\\nlegen wir in deine Hand.\\nWas gut war.\\nWas wehgetan hat.\\nWas offen bleibt.\\nUns selbst und diese unruhige Welt.\\nSchenk uns Frieden für diese Nacht.\\nAmen.\",\"carousel\":[{\"type\":\"text\",\"text\":\"Abendgebet\\n\\nDer Tag liegt hinter uns.\\nManches war gut.\\nManches bleibt offen.\"},{\"type\":\"text\",\"text\":\"Wir legen dir hin,\\nwas leicht war.\\nUnd auch das,\\nwas unfertig bleibt.\"},{\"type\":\"text\",\"text\":\"Wir bitten für die Menschen\\nim Himalaya.\\nNach der Sturzflut\\ntrauern viele und suchen Angehörige.\"},{\"type\":\"text\",\"text\":\"Wir bitten für alle,\\ndie von den Sturzfluten\\nim Grand Canyon betroffen sind.\\nSei ihnen nahe.\"},{\"type\":\"text\",\"text\":\"Wir denken an Menschen\\nim Rems-Murr-Kreis,\\ndie nach dem tödlichen Unfall\\ntrauern oder helfen.\"},{\"type\":\"text\",\"text\":\"Schenk uns Frieden\\nfür diese Nacht.\\nStärke die, die wachen.\\nHalte Hoffnung in uns wach.\\nAmen.\"}]},\"mastodon\":{\"text\":\"Abendgebet\\n\\nGott,\\nwir legen dir diesen Tag hin.\\nDas Gute. Das Schwere. Das Unfertige.\\n\\nWir bitten für die Menschen im Himalaya nach der verheerenden Sturzflut. Für alle, die trauern, suchen und nicht wissen, wie es weitergeht.\\n\\nWir bitten für die Betroffenen der Sturzfluten im Grand Canyon.\\n\\nUnd wir denken an Menschen im Rems-Murr-Kreis nach dem tödlichen Frontalzusammenstoß.\\n\\nSchenk den Müden Ruhe, den Wachenden Kraft und dieser unruhigen Welt Frieden.\\nAmen.\"},\"bluesky\":{\"text\":\"Abendgebet\\n\\nGott, wir legen dir diesen Tag hin. Das Gute. Das Schwere. Das Unfertige.\\n\\nWir bitten für die Menschen im Himalaya nach der verheerenden Sturzflut, für Betroffene der Sturzfluten im Grand Canyon und für Menschen im Rems-Murr-Kreis nach dem tödlichen Unfall.\\n\\nSchenk Ruhe für diese Nacht und halte Hoffnung in uns wach. Amen.\"},\"story\":{\"slides\":[{\"text\":\"Abendgebet\\n\\nDer Tag liegt hinter uns.\"},{\"text\":\"Manches war gut.\\nManches bleibt offen.\\nBeides darf vor Gott da sein.\"},{\"text\":\"Wir beten für die Menschen\\nim Himalaya nach der Sturzflut.\"},{\"text\":\"Wir beten für Betroffene\\nder Sturzfluten im Grand Canyon.\"},{\"text\":\"Wir denken an Menschen\\nim Rems-Murr-Kreis nach dem tödlichen Unfall.\"},{\"text\":\"Schenk uns Frieden\\nfür diese Nacht.\\nAmen.\"}]},\"reel\":{\"hook\":\"Der Tag muss nicht fertig werden, bevor du schlafen darfst.\",\"script\":\"Der Tag liegt hinter dir. Vielleicht war manches hell. Vielleicht hängt dir noch etwas nach. Ein offenes Gespräch. Ein Fehler. Eine Sorge. Im Abendgebet muss nichts bewiesen werden. Du darfst loslassen. Heute beten wir auch für Menschen im Himalaya nach der verheerenden Sturzflut, für Betroffene der Sturzfluten im Grand Canyon und für Menschen im Rems-Murr-Kreis nach dem tödlichen Unfall. Gott sieht, was wir nicht tragen können. Und Gottes Zukunft endet nicht an diesem Tag. Schenk uns Frieden für diese Nacht. Amen.\",\"shots\":[\"Abendlicht an einem offenen Fenster\",\"Eine Hand legt ein Notizbuch beiseite\",\"Ruhige Nahaufnahme von atmenden Schultern\",\"Leere Straße in der Dämmerung\",\"Licht in einem Krankenhausflur ohne erkennbare Personen\",\"Nachtbild mit einem einzelnen brennenden Licht\"],\"duration_seconds\":30}},\"visual\":{\"concept\":\"Ruhige Abendszene am Fenster. Weiches Restlicht. Ein schlichter Tisch, eine Tasse, ein geschlossenes Notizbuch. Draußen wird der Himmel dunkelblau. Die Stimmung ist still, ehrlich und tröstlich, ohne Kitsch.\",\"flux_prompt\":\"A quiet evening interior by a window, soft blue dusk light, simple wooden table with a plain mug and a closed notebook, gentle shadows, calm atmosphere, minimal composition, realistic photography, natural light, contemplative mood, no people facing camera, no typography, no symbols, high detail\",\"negative_prompt\":\"text, letters, logo, watermark\",\"formats\":[\"4:5\",\"9:16\",\"1.91:1\"],\"alt_text\":\"Ein schlichter Tisch an einem Fenster im Abendlicht. Darauf stehen eine Tasse und ein geschlossenes Notizbuch. Draußen ist der Himmel dunkelblau. Die Szene wirkt ruhig und lädt zum Innehalten ein.\"},\"qa\":{\"warnings\":[\"Aktuelle Bezüge vor Freigabe noch einmal gegen den Stand der Redaktion prüfen, da die Veröffentlichung am 01.09.2026 erfolgt.\",\"Alt text must be completed before approval\"],\"approved\":false},\"metadata\":{\"model\":\"gpt-5\",\"generated_at\":\"2026-09-01T00:00:00Z\",\"prompt_version\":\"1.0\",\"assets\":[]}}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "current_turn",
+    "effort": "none",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1,
+  "text": {
+    "format": {
+      "type": "json_schema",
+      "description": null,
+      "name": "content_package",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "Idee",
+              "in Arbeit",
+              "zur Prüfung",
+              "freigegeben",
+              "terminiert",
+              "veröffentlicht",
+              "verworfen"
+            ]
+          },
+          "needs_input": {
+            "type": "boolean"
+          },
+          "source": {
+            "type": "object",
+            "properties": {
+              "calendar_post_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "date": {
+                "type": "string",
+                "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+              },
+              "rubric": {
+                "type": "string",
+                "minLength": 1
+              },
+              "liturgical_source": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "calendar_post_id",
+              "date",
+              "rubric",
+              "liturgical_source"
+            ],
+            "additionalProperties": false
+          },
+          "editorial_core": {
+            "type": "object",
+            "properties": {
+              "title": {
+                "type": "string"
+              },
+              "main_message": {
+                "type": "string"
+              },
+              "audience": {
+                "type": "string"
+              },
+              "tone": {
+                "minItems": 1,
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "source_notes": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "title",
+              "main_message",
+              "audience",
+              "tone",
+              "source_notes"
+            ],
+            "additionalProperties": false
+          },
+          "platforms": {
+            "type": "object",
+            "properties": {
+              "facebook": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  },
+                  "headline": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text",
+                  "headline"
+                ],
+                "additionalProperties": false
+              },
+              "instagram": {
+                "type": "object",
+                "properties": {
+                  "caption": {
+                    "type": "string"
+                  },
+                  "carousel": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "type": {
+                          "type": "string"
+                        },
+                        "text": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "type",
+                        "text"
+                      ],
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "required": [
+                  "caption",
+                  "carousel"
+                ],
+                "additionalProperties": false
+              },
+              "mastodon": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text"
+                ],
+                "additionalProperties": false
+              },
+              "bluesky": {
+                "default": {
+                  "text": ""
+                },
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text"
+                ],
+                "additionalProperties": false
+              },
+              "story": {
+                "type": "object",
+                "properties": {
+                  "slides": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "text": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "text"
+                      ],
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "required": [
+                  "slides"
+                ],
+                "additionalProperties": false
+              },
+              "reel": {
+                "type": "object",
+                "properties": {
+                  "hook": {
+                    "type": "string"
+                  },
+                  "script": {
+                    "type": "string"
+                  },
+                  "shots": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "duration_seconds": {
+                    "type": "integer",
+                    "minimum": 0,
+                    "maximum": 9007199254740991
+                  }
+                },
+                "required": [
+                  "hook",
+                  "script",
+                  "shots",
+                  "duration_seconds"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "required": [
+              "facebook",
+              "instagram",
+              "mastodon",
+              "bluesky",
+              "story",
+              "reel"
+            ],
+            "additionalProperties": false
+          },
+          "visual": {
+            "type": "object",
+            "properties": {
+              "concept": {
+                "type": "string"
+              },
+              "flux_prompt": {
+                "type": "string"
+              },
+              "negative_prompt": {
+                "type": "string",
+                "minLength": 1
+              },
+              "formats": {
+                "minItems": 1,
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "alt_text": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "concept",
+              "flux_prompt",
+              "negative_prompt",
+              "formats",
+              "alt_text"
+            ],
+            "additionalProperties": false
+          },
+          "qa": {
+            "type": "object",
+            "properties": {
+              "warnings": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "approved": {
+                "type": "boolean"
+              }
+            },
+            "required": [
+              "warnings",
+              "approved"
+            ],
+            "additionalProperties": false
+          },
+          "metadata": {
+            "type": "object",
+            "properties": {
+              "model": {
+                "type": "string"
+              },
+              "generated_at": {
+                "type": "string"
+              },
+              "prompt_version": {
+                "type": "string",
+                "minLength": 1
+              },
+              "assets": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "model",
+              "generated_at",
+              "prompt_version",
+              "assets"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "id",
+          "status",
+          "needs_input",
+          "source",
+          "editorial_core",
+          "platforms",
+          "visual",
+          "qa",
+          "metadata"
+        ],
+        "additionalProperties": false
+      },
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 1
+    }
+  },
+  "tools": [
+    {
+      "type": "web_search",
+      "return_token_budget": "default",
+      "search_content_types": [
+        "text"
+      ],
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 12435,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 2068,
+    "output_tokens_details": {
+      "reasoning_tokens": 110
+    },
+    "total_tokens": 14503
+  },
+  "user": null,
+  "metadata": {},
+  "output_text": "{\"id\":\"prayer-evening-2026-09-01\",\"status\":\"zur Prüfung\",\"needs_input\":false,\"source\":{\"calendar_post_id\":\"prayer-evening-2026-09-01\",\"date\":\"2026-09-01\",\"rubric\":\"Abendgebet\",\"liturgical_source\":\"\"},\"editorial_core\":{\"title\":\"Abendgebet\",\"main_message\":\"Ein Abendgebet zum Loslassen: Wir legen Gott das Gute und das Unfertige dieses Tages hin. Wir bitten für die Menschen nach der verheerenden Sturzflut im Himalaya, bei der die Zahl der Toten weiter steigt, und für alle, die von den Sturzfluten im Grand Canyon betroffen sind. Wir bringen auch die Menschen in Baden-Württemberg vor Gott, die nach schweren Unfällen und nach den Belastungen eines Rekordsommers nicht einfach zur Ruhe kommen. Gottes Zukunft beginnt nicht erst, wenn alles gelöst ist.\",\"audience\":\"breite Öffentlichkeit\",\"tone\":[\"ruhig\",\"hoffnungsvoll\",\"geborgen\"],\"source_notes\":[\"Aktuelle Bezüge geprüft auf tagesschau.de und SWR Aktuell Baden-Württemberg für den Stand vom 31.08.2026.\",\"Tagesschau nennt am 31.08.2026 die steigende Zahl der Todesopfer nach der Sturzflut im Himalaya sowie Sturzfluten im Grand Canyon als zentrale Themen.\",\"SWR Aktuell Baden-Württemberg meldet am 31.08.2026 einen tödlichen Frontalzusammenstoß im Rems-Murr-Kreis.\",\"SWR verweist zudem auf die Sommer-Bilanz des Deutschen Wetterdienstes: Rekordsommer, Südwesten besonders betroffen.\",\"Gebetstext zeitlich robust formuliert: keine Annahmen über Entwicklungen am Veröffentlichungstag.\"]},\"platforms\":{\"facebook\":{\"text\":\"Abendgebet\\n\\nGott,\\nder Tag liegt hinter uns.\\nManches war gut.\\nEin Satz, der getragen hat.\\nEine Aufgabe, die gelungen ist.\\nEin Stück Freude.\\n\\nAnderes bleibt offen.\\nWorte, die fehlen.\\nFehler, die drücken.\\nSorgen, die sich nicht einfach abschalten lassen.\\nWir legen dir hin, was heute leicht war.\\nUnd auch das, was unfertig bleibt.\\n\\nWir bitten dich für die Menschen im Himalaya.\\nNach der verheerenden Sturzflut steigt die Zahl der Toten weiter.\\nViele suchen Angehörige, trauern und wissen nicht, wie es weitergeht.\\n\\nWir bitten dich für alle, die von den Sturzfluten im Grand Canyon betroffen sind.\\nSei bei denen, die Angst erlebt haben, die auf Hilfe warten oder andere retten.\\n\\nWir bitten dich auch für die Menschen im Rems-Murr-Kreis,\\ndie nach dem tödlichen Frontalzusammenstoß unter Schock stehen,\\ntrauern oder Verletzte versorgen.\\n\\nUnd wir denken an alle, die unter der Hitze und Trockenheit dieses Rekordsommers leiden.\\nAn Menschen, die nachts schwer Luft bekommen.\\nAn alle, die auf Feldern, in Pflege, Kliniken und Einsatzdiensten weiterarbeiten.\\n\\nGott,\\nwir müssen diese Welt heute Nacht nicht festhalten.\\nDu siehst, was wir nicht ändern können.\\nDu hältst, was uns entgleitet.\\n\\nSchenk uns Frieden für diese Nacht.\\nLass die Müden schlafen.\\nStärke die, die wachen.\\nUnd halte deine Hoffnung in uns wach.\\n\\nAmen.\",\"headline\":\"Abendgebet: Den Tag loslassen. Die Welt Gott anvertrauen.\"},\"instagram\":{\"caption\":\"Abendgebet\\n\\nDer Tag muss vor Gott nicht perfekt werden.\\nWas gelungen ist, darf dankbar bleiben.\\nWas schwer war, darf unfertig sein.\\n\\nHeute beten wir besonders für die Menschen nach der Sturzflut im Himalaya, für Betroffene der Sturzfluten im Grand Canyon und für Menschen im Rems-Murr-Kreis nach dem tödlichen Frontalzusammenstoß.\\n\\nGott,\\nwas heute war,\\nlegen wir in deine Hand.\\nWas gut war.\\nWas wehgetan hat.\\nWas offen bleibt.\\nUns selbst und diese unruhige Welt.\\nSchenk uns Frieden für diese Nacht.\\nAmen.\",\"carousel\":[{\"type\":\"text\",\"text\":\"Abendgebet\\n\\nDer Tag liegt hinter uns.\\nManches war gut.\\nManches bleibt offen.\"},{\"type\":\"text\",\"text\":\"Wir legen dir hin,\\nwas leicht war.\\nUnd auch das,\\nwas unfertig bleibt.\"},{\"type\":\"text\",\"text\":\"Wir bitten für die Menschen\\nim Himalaya.\\nNach der Sturzflut\\ntrauern viele und suchen Angehörige.\"},{\"type\":\"text\",\"text\":\"Wir bitten für alle,\\ndie von den Sturzfluten\\nim Grand Canyon betroffen sind.\\nSei ihnen nahe.\"},{\"type\":\"text\",\"text\":\"Wir denken an Menschen\\nim Rems-Murr-Kreis,\\ndie nach dem tödlichen Unfall\\ntrauern oder helfen.\"},{\"type\":\"text\",\"text\":\"Schenk uns Frieden\\nfür diese Nacht.\\nStärke die, die wachen.\\nHalte Hoffnung in uns wach.\\nAmen.\"}]},\"mastodon\":{\"text\":\"Abendgebet\\n\\nGott,\\nwir legen dir diesen Tag hin.\\nDas Gute. Das Schwere. Das Unfertige.\\n\\nWir bitten für die Menschen im Himalaya nach der verheerenden Sturzflut. Für alle, die trauern, suchen und nicht wissen, wie es weitergeht.\\n\\nWir bitten für die Betroffenen der Sturzfluten im Grand Canyon.\\n\\nUnd wir denken an Menschen im Rems-Murr-Kreis nach dem tödlichen Frontalzusammenstoß.\\n\\nSchenk den Müden Ruhe, den Wachenden Kraft und dieser unruhigen Welt Frieden.\\nAmen.\"},\"bluesky\":{\"text\":\"Abendgebet\\n\\nGott, wir legen dir diesen Tag hin. Das Gute. Das Schwere. Das Unfertige.\\n\\nWir bitten für die Menschen im Himalaya nach der verheerenden Sturzflut, für Betroffene der Sturzfluten im Grand Canyon und für Menschen im Rems-Murr-Kreis nach dem tödlichen Unfall.\\n\\nSchenk Ruhe für diese Nacht und halte Hoffnung in uns wach. Amen.\"},\"story\":{\"slides\":[{\"text\":\"Abendgebet\\n\\nDer Tag liegt hinter uns.\"},{\"text\":\"Manches war gut.\\nManches bleibt offen.\\nBeides darf vor Gott da sein.\"},{\"text\":\"Wir beten für die Menschen\\nim Himalaya nach der Sturzflut.\"},{\"text\":\"Wir beten für Betroffene\\nder Sturzfluten im Grand Canyon.\"},{\"text\":\"Wir denken an Menschen\\nim Rems-Murr-Kreis nach dem tödlichen Unfall.\"},{\"text\":\"Schenk uns Frieden\\nfür diese Nacht.\\nAmen.\"}]},\"reel\":{\"hook\":\"Der Tag muss nicht fertig werden, bevor du schlafen darfst.\",\"script\":\"Der Tag liegt hinter dir. Vielleicht war manches hell. Vielleicht hängt dir noch etwas nach. Ein offenes Gespräch. Ein Fehler. Eine Sorge. Im Abendgebet muss nichts bewiesen werden. Du darfst loslassen. Heute beten wir auch für Menschen im Himalaya nach der verheerenden Sturzflut, für Betroffene der Sturzfluten im Grand Canyon und für Menschen im Rems-Murr-Kreis nach dem tödlichen Unfall. Gott sieht, was wir nicht tragen können. Und Gottes Zukunft endet nicht an diesem Tag. Schenk uns Frieden für diese Nacht. Amen.\",\"shots\":[\"Abendlicht an einem offenen Fenster\",\"Eine Hand legt ein Notizbuch beiseite\",\"Ruhige Nahaufnahme von atmenden Schultern\",\"Leere Straße in der Dämmerung\",\"Licht in einem Krankenhausflur ohne erkennbare Personen\",\"Nachtbild mit einem einzelnen brennenden Licht\"],\"duration_seconds\":30}},\"visual\":{\"concept\":\"Ruhige Abendszene am Fenster. Weiches Restlicht. Ein schlichter Tisch, eine Tasse, ein geschlossenes Notizbuch. Draußen wird der Himmel dunkelblau. Die Stimmung ist still, ehrlich und tröstlich, ohne Kitsch.\",\"flux_prompt\":\"A quiet evening interior by a window, soft blue dusk light, simple wooden table with a plain mug and a closed notebook, gentle shadows, calm atmosphere, minimal composition, realistic photography, natural light, contemplative mood, no people facing camera, no typography, no symbols, high detail\",\"negative_prompt\":\"text, letters, logo, watermark\",\"formats\":[\"4:5\",\"9:16\",\"1.91:1\"],\"alt_text\":\"Ein schlichter Tisch an einem Fenster im Abendlicht. Darauf stehen eine Tasse und ein geschlossenes Notizbuch. Draußen ist der Himmel dunkelblau. Die Szene wirkt ruhig und lädt zum Innehalten ein.\"},\"qa\":{\"warnings\":[\"Aktuelle Bezüge vor Freigabe noch einmal gegen den Stand der Redaktion prüfen, da die Veröffentlichung am 01.09.2026 erfolgt.\",\"Alt text must be completed before approval\"],\"approved\":false},\"metadata\":{\"model\":\"gpt-5\",\"generated_at\":\"2026-09-01T00:00:00Z\",\"prompt_version\":\"1.0\",\"assets\":[]}}"
+}
