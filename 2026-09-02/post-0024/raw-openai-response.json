@@ -1,0 +1,420 @@
+{
+  "id": "resp_0cf14a124f8de624006a968af93c5c87d291557a4c3e05ba91",
+  "object": "response",
+  "created_at": 1788250873,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1788250892,
+  "error": null,
+  "frequency_penalty": 0,
+  "incomplete_details": null,
+  "instructions": "You are part of a Protestant social media editorial team. Write in clear, accessible, theologically responsible German without church clichés. Use short sentences and concrete imagery. Never invent events, people, school situations, quotes, or factual details. Do not include copyrighted full song verses. For Reli and community posts, only use current details when they are explicitly provided. Return content that strictly matches the requested JSON schema. Set needs_input to true whenever required facts are missing. Keep qa.approved false. Do not ask for any text inside generated images. When liturgical_context.resolved_weekly_verse is present, use its exact wording for Wochenspruch slots instead of placeholders.",
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.4-2026-03-05",
+  "moderation": null,
+  "output": [
+    {
+      "id": "msg_0cf14a124f8de624006a968afa1a9487d2b5e824e5b2b1f1c0",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\"id\":\"post-0024\",\"status\":\"in Arbeit\",\"needs_input\":false,\"source\":{\"calendar_post_id\":\"post-0024\",\"date\":\"2026-09-02\",\"rubric\":\"Mittwochsserie\",\"liturgical_source\":\"\"},\"editorial_core\":{\"title\":\"Warum stehen wir im Gottesdienst auf?\",\"main_message\":\"Aufstehen im Gottesdienst ist ein leibliches Zeichen der Aufmerksamkeit, der Achtung und der inneren Beteiligung. Der Körper macht mit, wenn Menschen hören, beten und das Evangelium feiern.\",\"audience\":\"breite Öffentlichkeit\",\"tone\":[\"klar\",\"ruhig\",\"zugänglich\"],\"source_notes\":[\"Goal: Eine verlässliche, wiedererkennbare Serie mit verständlicher theologischer Bildung.\",\"Column: Glauben verstehen\",\"Production mode: in Monatsblöcken vollständig vorproduzierbar\",\"Structure: Frage als Einstieg | verständliche Erklärung | Bedeutung für heute | Gesprächsfrage\",\"AI support notes: Skript | Karussellkarten | Reel-Hook | Untertitel | Alt-Text\"]},\"platforms\":{\"facebook\":{\"text\":\"Warum stehen wir im Gottesdienst auf?\\n\\nKurz gesagt: Weil der Glaube nicht nur im Kopf stattfindet. Auch der Körper spricht mit.\\n\\nWenn die Gemeinde aufsteht, zeigt sie: Jetzt hören wir aufmerksam. Jetzt beten wir gemeinsam. Jetzt hat etwas besonderes Gewicht.\\n\\nDas kennt man auch aus dem Alltag. Wer jemandem mit Respekt begegnet, verändert oft automatisch die Haltung. Man richtet sich auf. Man wird wach. Man ist nicht nebenbei da.\\n\\nIm Gottesdienst ist Aufstehen deshalb kein Muss zur Selbstdarstellung. Es ist ein gemeinsames Zeichen. Wir sind da. Mit Ohren, Herzen und unserem ganzen Körper.\\n\\nManche stehen zum Evangelium, manche beim Gebet, manche beim Segen. Die genaue Praxis kann verschieden sein. Die Grundidee bleibt: Gottesdienst ist keine Zuschauerveranstaltung.\\n\\nFür heute heißt das: Glaube darf sichtbar werden. Nicht laut. Nicht perfekt. Aber leiblich und aufmerksam.\\n\\nGesprächsfrage: Gibt es im Gottesdienst eine Geste, die dir hilft, innerlich mitzugehen?\",\"headline\":\"Warum stehen wir im Gottesdienst auf?\"},\"instagram\":{\"caption\":\"Warum stehen wir im Gottesdienst auf?\\n\\nWeil Glaube nicht nur im Kopf stattfindet. Der Körper macht mit.\\n\\nAufstehen kann heißen: Jetzt höre ich aufmerksam. Jetzt bete ich mit. Jetzt bekommt ein Moment besonderes Gewicht.\\n\\nEs geht nicht um Leistung. Es geht um ein gemeinsames Zeichen. Wir sind da.\\n\\nFür heute: Manchmal hilft eine einfache Bewegung, innerlich wach zu werden.\\n\\nGesprächsfrage: Welche Geste hilft dir im Gottesdienst, wirklich dabei zu sein?\\n\\n#Mittwochsserie #GlaubenVerstehen #Gottesdienst #Evangelisch\",\"carousel\":[{\"type\":\"title\",\"text\":\"Warum stehen wir im Gottesdienst auf?\"},{\"type\":\"question\",\"text\":\"Eine einfache Bewegung. Aber was bedeutet sie eigentlich?\"},{\"type\":\"explanation\",\"text\":\"Im Gottesdienst hört nicht nur der Kopf zu. Auch der Körper macht mit.\"},{\"type\":\"explanation\",\"text\":\"Aufstehen ist ein Zeichen von Aufmerksamkeit und Achtung.\"},{\"type\":\"explanation\",\"text\":\"Die Gemeinde zeigt: Jetzt hat dieser Moment besonderes Gewicht.\"},{\"type\":\"meaning\",\"text\":\"So wird sichtbar: Gottesdienst ist keine Zuschauerveranstaltung.\"},{\"type\":\"meaning\",\"text\":\"Niemand muss perfekt sein. Aber wir bringen uns selbst mit ein.\"},{\"type\":\"question\",\"text\":\"Welche Geste hilft dir, im Gottesdienst wirklich dabei zu sein?\"}]},\"mastodon\":{\"text\":\"Warum stehen wir im Gottesdienst auf?\\n\\nWeil Glaube nicht nur im Kopf stattfindet. Aufstehen ist ein leibliches Zeichen: Jetzt höre ich aufmerksam. Jetzt bete ich mit. Jetzt hat dieser Moment Gewicht.\\n\\nDie Formen können verschieden sein. Die Idee bleibt: Gottesdienst ist keine Zuschauerveranstaltung.\\n\\nWelche Geste hilft dir dabei zu sein?\"},\"bluesky\":{\"text\":\"Warum stehen wir im Gottesdienst auf? Weil Glaube nicht nur im Kopf stattfindet. Aufstehen kann zeigen: Jetzt höre ich aufmerksam. Jetzt bete ich mit. Jetzt hat dieser Moment Gewicht. Gottesdienst ist keine Zuschauerveranstaltung. Welche Geste hilft dir dabei zu sein?\"},\"story\":{\"slides\":[{\"text\":\"Warum stehen wir im Gottesdienst auf?\"},{\"text\":\"Weil Glaube nicht nur im Kopf stattfindet.\"},{\"text\":\"Aufstehen kann heißen: Jetzt höre ich aufmerksam.\"},{\"text\":\"Jetzt bete ich mit. Jetzt hat dieser Moment Gewicht.\"},{\"text\":\"Quiz: Ist Aufstehen eher Pflicht oder Zeichen der Beteiligung?\"}]},\"reel\":{\"hook\":\"Warum stehen eigentlich alle plötzlich auf?\",\"script\":\"Warum stehen wir im Gottesdienst auf?\\nNicht, weil man es einfach so macht.\\nSondern weil Glaube nicht nur im Kopf stattfindet.\\nDer Körper macht mit.\\nWenn Menschen aufstehen, zeigen sie: Jetzt höre ich aufmerksam. Jetzt bete ich mit. Jetzt hat dieser Moment Gewicht.\\nDas ist kein Leistungstest.\\nEs ist ein gemeinsames Zeichen.\\nWir sind nicht nur Zuschauerinnen und Zuschauer.\\nWir sind da. Mit unserem ganzen Leben.\\nUnd du?\\nWelche Geste hilft dir im Gottesdienst, wirklich dabei zu sein?\",\"shots\":[\"Nahaufnahme einer Person, die sich ruhig von der Bank oder vom Stuhl erhebt\",\"Detail von Händen, Gesangbuch oder offenem Raum\",\"Halbtotale einer Gemeinde von hinten, ohne erkennbare Einzelpersonen\",\"Ruhige Bewegung nach oben zur aufrechten Haltung\",\"Abschlussbild mit stiller Kirchenszene ohne Text\"],\"duration_seconds\":40}},\"visual\":{\"concept\":\"Ruhige, helle Kirchenszene mit dem Moment des Aufstehens als gemeinsamer Geste. Fokus auf Körperhaltung, Licht und Atmosphäre statt auf einzelne Gesichter.\",\"flux_prompt\":\"Documentary-style interior of a Protestant church during worship, people gently rising together from pews, calm natural light, respectful atmosphere, upright posture, subtle gestures, warm neutral colors, realistic, candid, shallow depth of field, no readable signage, no text elements\",\"negative_prompt\":\"text, letters, logo, watermark\",\"formats\":[\"4:5\",\"9:16\",\"1.91:1\"],\"alt_text\":\"Menschen stehen in einer hellen Kirche gemeinsam auf. Die Szene wirkt ruhig und konzentriert. Im Mittelpunkt steht die aufrechte Haltung als Zeichen von Aufmerksamkeit und Beteiligung im Gottesdienst.\"},\"qa\":{\"warnings\":[\"Alt text must be completed before approval\",\"Liturgische Praxis kann örtlich unterschiedlich sein; Formulierungen deshalb bewusst allgemein halten.\"],\"approved\":false},\"metadata\":{\"model\":\"gpt-5\",\"generated_at\":\"2026-09-01T00:00:00Z\",\"prompt_version\":\"1.0\",\"assets\":[\"instagram-karussell\",\"instagram-reel\",\"facebook-feed\",\"mastodon-post\",\"story-slides\"]}}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "current_turn",
+    "effort": "none",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1,
+  "text": {
+    "format": {
+      "type": "json_schema",
+      "description": null,
+      "name": "content_package",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "Idee",
+              "in Arbeit",
+              "zur Prüfung",
+              "freigegeben",
+              "terminiert",
+              "veröffentlicht",
+              "verworfen"
+            ]
+          },
+          "needs_input": {
+            "type": "boolean"
+          },
+          "source": {
+            "type": "object",
+            "properties": {
+              "calendar_post_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "date": {
+                "type": "string",
+                "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+              },
+              "rubric": {
+                "type": "string",
+                "minLength": 1
+              },
+              "liturgical_source": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "calendar_post_id",
+              "date",
+              "rubric",
+              "liturgical_source"
+            ],
+            "additionalProperties": false
+          },
+          "editorial_core": {
+            "type": "object",
+            "properties": {
+              "title": {
+                "type": "string"
+              },
+              "main_message": {
+                "type": "string"
+              },
+              "audience": {
+                "type": "string"
+              },
+              "tone": {
+                "minItems": 1,
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "source_notes": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "title",
+              "main_message",
+              "audience",
+              "tone",
+              "source_notes"
+            ],
+            "additionalProperties": false
+          },
+          "platforms": {
+            "type": "object",
+            "properties": {
+              "facebook": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  },
+                  "headline": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text",
+                  "headline"
+                ],
+                "additionalProperties": false
+              },
+              "instagram": {
+                "type": "object",
+                "properties": {
+                  "caption": {
+                    "type": "string"
+                  },
+                  "carousel": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "type": {
+                          "type": "string"
+                        },
+                        "text": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "type",
+                        "text"
+                      ],
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "required": [
+                  "caption",
+                  "carousel"
+                ],
+                "additionalProperties": false
+              },
+              "mastodon": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text"
+                ],
+                "additionalProperties": false
+              },
+              "bluesky": {
+                "default": {
+                  "text": ""
+                },
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text"
+                ],
+                "additionalProperties": false
+              },
+              "story": {
+                "type": "object",
+                "properties": {
+                  "slides": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "text": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "text"
+                      ],
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "required": [
+                  "slides"
+                ],
+                "additionalProperties": false
+              },
+              "reel": {
+                "type": "object",
+                "properties": {
+                  "hook": {
+                    "type": "string"
+                  },
+                  "script": {
+                    "type": "string"
+                  },
+                  "shots": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "duration_seconds": {
+                    "type": "integer",
+                    "minimum": 0,
+                    "maximum": 9007199254740991
+                  }
+                },
+                "required": [
+                  "hook",
+                  "script",
+                  "shots",
+                  "duration_seconds"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "required": [
+              "facebook",
+              "instagram",
+              "mastodon",
+              "bluesky",
+              "story",
+              "reel"
+            ],
+            "additionalProperties": false
+          },
+          "visual": {
+            "type": "object",
+            "properties": {
+              "concept": {
+                "type": "string"
+              },
+              "flux_prompt": {
+                "type": "string"
+              },
+              "negative_prompt": {
+                "type": "string",
+                "minLength": 1
+              },
+              "formats": {
+                "minItems": 1,
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "alt_text": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "concept",
+              "flux_prompt",
+              "negative_prompt",
+              "formats",
+              "alt_text"
+            ],
+            "additionalProperties": false
+          },
+          "qa": {
+            "type": "object",
+            "properties": {
+              "warnings": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "approved": {
+                "type": "boolean"
+              }
+            },
+            "required": [
+              "warnings",
+              "approved"
+            ],
+            "additionalProperties": false
+          },
+          "metadata": {
+            "type": "object",
+            "properties": {
+              "model": {
+                "type": "string"
+              },
+              "generated_at": {
+                "type": "string"
+              },
+              "prompt_version": {
+                "type": "string",
+                "minLength": 1
+              },
+              "assets": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "model",
+              "generated_at",
+              "prompt_version",
+              "assets"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "id",
+          "status",
+          "needs_input",
+          "source",
+          "editorial_core",
+          "platforms",
+          "visual",
+          "qa",
+          "metadata"
+        ],
+        "additionalProperties": false
+      },
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 1459,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1471,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 2930
+  },
+  "user": null,
+  "metadata": {},
+  "output_text": "{\"id\":\"post-0024\",\"status\":\"in Arbeit\",\"needs_input\":false,\"source\":{\"calendar_post_id\":\"post-0024\",\"date\":\"2026-09-02\",\"rubric\":\"Mittwochsserie\",\"liturgical_source\":\"\"},\"editorial_core\":{\"title\":\"Warum stehen wir im Gottesdienst auf?\",\"main_message\":\"Aufstehen im Gottesdienst ist ein leibliches Zeichen der Aufmerksamkeit, der Achtung und der inneren Beteiligung. Der Körper macht mit, wenn Menschen hören, beten und das Evangelium feiern.\",\"audience\":\"breite Öffentlichkeit\",\"tone\":[\"klar\",\"ruhig\",\"zugänglich\"],\"source_notes\":[\"Goal: Eine verlässliche, wiedererkennbare Serie mit verständlicher theologischer Bildung.\",\"Column: Glauben verstehen\",\"Production mode: in Monatsblöcken vollständig vorproduzierbar\",\"Structure: Frage als Einstieg | verständliche Erklärung | Bedeutung für heute | Gesprächsfrage\",\"AI support notes: Skript | Karussellkarten | Reel-Hook | Untertitel | Alt-Text\"]},\"platforms\":{\"facebook\":{\"text\":\"Warum stehen wir im Gottesdienst auf?\\n\\nKurz gesagt: Weil der Glaube nicht nur im Kopf stattfindet. Auch der Körper spricht mit.\\n\\nWenn die Gemeinde aufsteht, zeigt sie: Jetzt hören wir aufmerksam. Jetzt beten wir gemeinsam. Jetzt hat etwas besonderes Gewicht.\\n\\nDas kennt man auch aus dem Alltag. Wer jemandem mit Respekt begegnet, verändert oft automatisch die Haltung. Man richtet sich auf. Man wird wach. Man ist nicht nebenbei da.\\n\\nIm Gottesdienst ist Aufstehen deshalb kein Muss zur Selbstdarstellung. Es ist ein gemeinsames Zeichen. Wir sind da. Mit Ohren, Herzen und unserem ganzen Körper.\\n\\nManche stehen zum Evangelium, manche beim Gebet, manche beim Segen. Die genaue Praxis kann verschieden sein. Die Grundidee bleibt: Gottesdienst ist keine Zuschauerveranstaltung.\\n\\nFür heute heißt das: Glaube darf sichtbar werden. Nicht laut. Nicht perfekt. Aber leiblich und aufmerksam.\\n\\nGesprächsfrage: Gibt es im Gottesdienst eine Geste, die dir hilft, innerlich mitzugehen?\",\"headline\":\"Warum stehen wir im Gottesdienst auf?\"},\"instagram\":{\"caption\":\"Warum stehen wir im Gottesdienst auf?\\n\\nWeil Glaube nicht nur im Kopf stattfindet. Der Körper macht mit.\\n\\nAufstehen kann heißen: Jetzt höre ich aufmerksam. Jetzt bete ich mit. Jetzt bekommt ein Moment besonderes Gewicht.\\n\\nEs geht nicht um Leistung. Es geht um ein gemeinsames Zeichen. Wir sind da.\\n\\nFür heute: Manchmal hilft eine einfache Bewegung, innerlich wach zu werden.\\n\\nGesprächsfrage: Welche Geste hilft dir im Gottesdienst, wirklich dabei zu sein?\\n\\n#Mittwochsserie #GlaubenVerstehen #Gottesdienst #Evangelisch\",\"carousel\":[{\"type\":\"title\",\"text\":\"Warum stehen wir im Gottesdienst auf?\"},{\"type\":\"question\",\"text\":\"Eine einfache Bewegung. Aber was bedeutet sie eigentlich?\"},{\"type\":\"explanation\",\"text\":\"Im Gottesdienst hört nicht nur der Kopf zu. Auch der Körper macht mit.\"},{\"type\":\"explanation\",\"text\":\"Aufstehen ist ein Zeichen von Aufmerksamkeit und Achtung.\"},{\"type\":\"explanation\",\"text\":\"Die Gemeinde zeigt: Jetzt hat dieser Moment besonderes Gewicht.\"},{\"type\":\"meaning\",\"text\":\"So wird sichtbar: Gottesdienst ist keine Zuschauerveranstaltung.\"},{\"type\":\"meaning\",\"text\":\"Niemand muss perfekt sein. Aber wir bringen uns selbst mit ein.\"},{\"type\":\"question\",\"text\":\"Welche Geste hilft dir, im Gottesdienst wirklich dabei zu sein?\"}]},\"mastodon\":{\"text\":\"Warum stehen wir im Gottesdienst auf?\\n\\nWeil Glaube nicht nur im Kopf stattfindet. Aufstehen ist ein leibliches Zeichen: Jetzt höre ich aufmerksam. Jetzt bete ich mit. Jetzt hat dieser Moment Gewicht.\\n\\nDie Formen können verschieden sein. Die Idee bleibt: Gottesdienst ist keine Zuschauerveranstaltung.\\n\\nWelche Geste hilft dir dabei zu sein?\"},\"bluesky\":{\"text\":\"Warum stehen wir im Gottesdienst auf? Weil Glaube nicht nur im Kopf stattfindet. Aufstehen kann zeigen: Jetzt höre ich aufmerksam. Jetzt bete ich mit. Jetzt hat dieser Moment Gewicht. Gottesdienst ist keine Zuschauerveranstaltung. Welche Geste hilft dir dabei zu sein?\"},\"story\":{\"slides\":[{\"text\":\"Warum stehen wir im Gottesdienst auf?\"},{\"text\":\"Weil Glaube nicht nur im Kopf stattfindet.\"},{\"text\":\"Aufstehen kann heißen: Jetzt höre ich aufmerksam.\"},{\"text\":\"Jetzt bete ich mit. Jetzt hat dieser Moment Gewicht.\"},{\"text\":\"Quiz: Ist Aufstehen eher Pflicht oder Zeichen der Beteiligung?\"}]},\"reel\":{\"hook\":\"Warum stehen eigentlich alle plötzlich auf?\",\"script\":\"Warum stehen wir im Gottesdienst auf?\\nNicht, weil man es einfach so macht.\\nSondern weil Glaube nicht nur im Kopf stattfindet.\\nDer Körper macht mit.\\nWenn Menschen aufstehen, zeigen sie: Jetzt höre ich aufmerksam. Jetzt bete ich mit. Jetzt hat dieser Moment Gewicht.\\nDas ist kein Leistungstest.\\nEs ist ein gemeinsames Zeichen.\\nWir sind nicht nur Zuschauerinnen und Zuschauer.\\nWir sind da. Mit unserem ganzen Leben.\\nUnd du?\\nWelche Geste hilft dir im Gottesdienst, wirklich dabei zu sein?\",\"shots\":[\"Nahaufnahme einer Person, die sich ruhig von der Bank oder vom Stuhl erhebt\",\"Detail von Händen, Gesangbuch oder offenem Raum\",\"Halbtotale einer Gemeinde von hinten, ohne erkennbare Einzelpersonen\",\"Ruhige Bewegung nach oben zur aufrechten Haltung\",\"Abschlussbild mit stiller Kirchenszene ohne Text\"],\"duration_seconds\":40}},\"visual\":{\"concept\":\"Ruhige, helle Kirchenszene mit dem Moment des Aufstehens als gemeinsamer Geste. Fokus auf Körperhaltung, Licht und Atmosphäre statt auf einzelne Gesichter.\",\"flux_prompt\":\"Documentary-style interior of a Protestant church during worship, people gently rising together from pews, calm natural light, respectful atmosphere, upright posture, subtle gestures, warm neutral colors, realistic, candid, shallow depth of field, no readable signage, no text elements\",\"negative_prompt\":\"text, letters, logo, watermark\",\"formats\":[\"4:5\",\"9:16\",\"1.91:1\"],\"alt_text\":\"Menschen stehen in einer hellen Kirche gemeinsam auf. Die Szene wirkt ruhig und konzentriert. Im Mittelpunkt steht die aufrechte Haltung als Zeichen von Aufmerksamkeit und Beteiligung im Gottesdienst.\"},\"qa\":{\"warnings\":[\"Alt text must be completed before approval\",\"Liturgische Praxis kann örtlich unterschiedlich sein; Formulierungen deshalb bewusst allgemein halten.\"],\"approved\":false},\"metadata\":{\"model\":\"gpt-5\",\"generated_at\":\"2026-09-01T00:00:00Z\",\"prompt_version\":\"1.0\",\"assets\":[\"instagram-karussell\",\"instagram-reel\",\"facebook-feed\",\"mastodon-post\",\"story-slides\"]}}"
+}
