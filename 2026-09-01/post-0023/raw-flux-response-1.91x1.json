@@ -1,0 +1,36 @@
+{
+  "delivery_url": "https://delivery.us2.bfl.ai/durable/2026090108/5e1f69ea-538b-4d66-962e-9be995966f07/c5/852849b9bac700/b9bac7000a7e4c4b84b5f3497aec563d/sample.jpeg?se=2026-09-01T08%3A14%3A13Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=m1fK1Qlhl%2B7AwZ2giJidDoJ7jx9e16yTmFi4cKzaFqk%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "35dc62c5-9f4a-4c7f-8f8d-2017fa81b013",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "35dc62c5-9f4a-4c7f-8f8d-2017fa81b013",
+      "status": "Ready",
+      "result": {
+        "start_time": 1788249851.740206,
+        "prompt": "Stimmungsvolles, ruhiges Stillleben mit aufgefalteter Landkarte auf einem Holztisch, klassischem Kompass, weichem warmem Morgenlicht, feinen Lichtstrahlen, dezente natürliche Farben, meditative Atmosphäre, christlich-spirituelle Bildsprache ohne Kitsch, Hoffnung und Orientierung, hohe Detailtiefe, fotografisch, realistisch, no text, no letters, no typography, no logo, no watermark",
+        "seed": 4097989874,
+        "sample": "https://delivery.us2.bfl.ai/durable/2026090108/5e1f69ea-538b-4d66-962e-9be995966f07/c5/852849b9bac700/b9bac7000a7e4c4b84b5f3497aec563d/sample.jpeg?se=2026-09-01T08%3A14%3A13Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=m1fK1Qlhl%2B7AwZ2giJidDoJ7jx9e16yTmFi4cKzaFqk%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "35dc62c5-9f4a-4c7f-8f8d-2017fa81b013",
+    "polling_url": "https://api.us2.bfl.ai/v1/get_result?id=35dc62c5-9f4a-4c7f-8f8d-2017fa81b013",
+    "cost": 1.4000000000000001,
+    "input_mp": 0,
+    "output_mp": 0.72
+  }
+}

@@ -107,15 +107,19 @@
     "alt_text": "Auf einem Tisch liegt eine aufgefaltete Landkarte. Darauf steht ein Kompass, während warmes Licht über die Szene fällt. Das Bild wirkt ruhig und symbolisiert Orientierung und Neuanfang."
   },
   "qa": {
-    "approved": true,
     "warnings": [
       "Current-event or local factual details are still required. Verify that no details were invented."
-    ]
+    ],
+    "approved": true
   },
   "metadata": {
     "model": "gpt-5",
     "generated_at": "2026-09-01T00:00:00Z",
     "prompt_version": "1.0",
-    "assets": []
+    "assets": [
+      "assets/background-1.91x1.webp",
+      "assets/background-4x5.webp",
+      "assets/background-9x16.webp"
+    ]
   }
 }
