@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-01",
+    "contentDate": "2026-09-01",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-09-01T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "So spricht der HERR, dein Erlöser, der dich von Mutterleibe bereitet hat: Ich bin der HERR, der alles schafft, der den Himmel ausbreitet allein und die Erde fest macht ohne Gehilfen.",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "So spricht der HERR, dein Erlöser, der dich von Mutterleibe bereitet hat: Ich bin der HERR, der alles schafft, der den Himmel ausbreitet allein und die Erde fest macht ohne Gehilfen."
+    ],
+    "id": "edcb8f80-d513-4d81-9ea2-8c0f321fdd99",
+    "attemptCount": 1,
+    "remoteId": "17953893870220843",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:44:54.781Z",
+    "updatedAt": "2026-09-01T05:00:31.296Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-01",
+    "contentDate": "2026-09-01",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-09-01T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "So spricht der HERR, dein Erlöser, der dich von Mutterleibe bereitet hat: Ich bin der HERR, der alles schafft, der den Himmel ausbreitet allein und die Erde fest macht ohne Gehilfen.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "So spricht der HERR, dein Erlöser, der dich von Mutterleibe bereitet hat: Ich bin der HERR, der alles schafft, der den Himmel ausbreitet allein und die Erde fest macht ohne Gehilfen."
+    ],
+    "id": "7e2b0e27-ffd3-401d-a622-90fd2246c9f5",
+    "attemptCount": 1,
+    "remoteId": "117194020175470819",
+    "remoteUrl": "https://kirche.social/@christoph/117194020175470819",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:44:54.794Z",
+    "updatedAt": "2026-09-01T05:00:33.899Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
