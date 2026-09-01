@@ -27,5 +27,64 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "post-0023",
+    "contentDate": "2026-09-01",
+    "platform": "instagram",
+    "format": "default",
+    "scheduledAt": "2026-09-01T07:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Neuer Monat, viele Wege, nicht auf alles sofort eine Antwort.\n\nMich begleitet gerade „Anything That's True“ von Map & Compass. Der Song erinnert mich daran, den Blick auf das zu richten, was wahr, gut und tragfähig ist.\n\nGerade zum Monatsanfang tut mir dieser Gedanke gut: nicht nur auf das schauen, was drängt oder verunsichert, sondern auf das, was Licht bringt und Orientierung schenkt.\n\n🎧 Spotify:\nhttps://open.spotify.com/track/4yQwSsS2blqjHVN91FsIYj\n\nWas gibt euch gerade Richtung?\n\n#Monatsanfang #EinLiedDasMichBegleitet #GlaubeImAlltag #MusikUndSpiritualität #Orientierung #Neuanfang",
+    "assets": [
+      "render-instagram-feed-01.jpg",
+      "render-instagram-feed-02.jpg",
+      "render-instagram-feed-03.jpg",
+      "render-instagram-feed-04.jpg",
+      "render-instagram-feed-05.jpg"
+    ],
+    "altTexts": [
+      "Auf einem Tisch liegt eine aufgefaltete Landkarte. Darauf steht ein Kompass, während warmes Licht über die Szene fällt. Das Bild wirkt ruhig und symbolisiert Orientierung und Neuanfang."
+    ],
+    "id": "0f672a06-4409-4ade-9e46-5570a896a076",
+    "attemptCount": 1,
+    "remoteId": "18018659360710709",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-09-01T08:06:02.637Z",
+    "updatedAt": "2026-09-01T08:10:46.372Z",
+    "responseMetadata": {
+      "mediaCount": 5,
+      "mediaType": "CAROUSEL",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "post-0023",
+    "contentDate": "2026-09-01",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-09-01T07:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Neuer Monat, viele Wege, nicht auf alles sofort eine Antwort. Mich begleitet gerade „Anything That's True“ von Map & Compass. Der Song erinnert mich daran, auf das zu schauen, was wahr, gut und tragfähig ist. 🎧 https://open.spotify.com/track/4yQwSsS2blqjHVN91FsIYj",
+    "assets": [],
+    "altTexts": [
+      "Auf einem Tisch liegt eine aufgefaltete Landkarte. Darauf steht ein Kompass, während warmes Licht über die Szene fällt. Das Bild wirkt ruhig und symbolisiert Orientierung und Neuanfang."
+    ],
+    "id": "ab2afcd4-ced1-40a5-b39b-22945b7a9878",
+    "attemptCount": 1,
+    "remoteId": "117194768157892489",
+    "remoteUrl": "https://kirche.social/@christoph/117194768157892489",
+    "lastError": null,
+    "createdAt": "2026-09-01T08:06:02.752Z",
+    "updatedAt": "2026-09-01T08:10:46.613Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 0
+    },
+    "retryHistory": []
   }
 ]
