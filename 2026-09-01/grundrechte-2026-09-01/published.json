@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-09-01",
+    "contentDate": "2026-09-01",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-09-01T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Das Kind hat das Recht auf freie Meinungsäußerung; dieses Recht schließt die Freiheit ein, ungeachtet der Staatsgrenzen Informationen und Gedankengut jeder Art in Wort, Schrift oder Druck, durch Kunstwerke oder andere vom Kind gewählte Mittel sich zu beschaffen, zu empfangen und weiterzugeben. (UN-Kinderrechtskonvention, Artikel 13 Absatz 1)",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Das Kind hat das Recht auf freie Meinungsäußerung; dieses Recht schließt die Freiheit ein, ungeachtet der Staatsgrenzen Informationen und Gedankengut jeder Art in Wort, Schrift oder Druck, durch Kunstwerke oder andere vom Kind gewählte Mittel sich zu beschaffen, zu empfangen und weiterzugeben. (UN-Kinderrechtskonvention, Artikel 13 Absatz 1)"
+    ],
+    "id": "27ae271b-08bb-4808-8109-416285a6630c",
+    "attemptCount": 1,
+    "remoteId": "18072744743721298",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:37:20.988Z",
+    "updatedAt": "2026-09-01T10:00:30.059Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-09-01",
+    "contentDate": "2026-09-01",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-09-01T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Das Kind hat das Recht auf freie Meinungsäußerung; dieses Recht schließt die Freiheit ein, ungeachtet der Staatsgrenzen Informationen und Gedankengut jeder Art in Wort, Schrift oder Druck, durch Kunstwerke oder andere vom Kind gewählte Mittel sich zu beschaffen, zu empfangen und weiterzugeben. (UN-Kinderrechtskonvention, Artikel 13 Absatz 1)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Das Kind hat das Recht auf freie Meinungsäußerung; dieses Recht schließt die Freiheit ein, ungeachtet der Staatsgrenzen Informationen und Gedankengut jeder Art in Wort, Schrift oder Druck, durch Kunstwerke oder andere vom Kind gewählte Mittel sich zu beschaffen, zu empfangen und weiterzugeben. (UN-Kinderrechtskonvention, Artikel 13 Absatz 1)"
+    ],
+    "id": "1c44e172-5296-40e1-bbdb-73f0690195cd",
+    "attemptCount": 1,
+    "remoteId": "117195199756691952",
+    "remoteUrl": "https://kirche.social/@christoph/117195199756691952",
+    "lastError": null,
+    "createdAt": "2026-08-26T15:37:21.028Z",
+    "updatedAt": "2026-09-01T10:00:32.330Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
