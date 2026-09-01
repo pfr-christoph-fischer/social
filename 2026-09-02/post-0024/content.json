@@ -117,13 +117,17 @@
     "alt_text": "Menschen stehen in einer hellen Kirche gemeinsam auf. Die Szene wirkt ruhig und konzentriert. Im Mittelpunkt steht die aufrechte Haltung als Zeichen von Aufmerksamkeit und Beteiligung im Gottesdienst."
   },
   "qa": {
-    "approved": true,
-    "warnings": []
+    "warnings": [],
+    "approved": true
   },
   "metadata": {
     "model": "gpt-5.4-2026-03-05",
     "generated_at": "2026-09-01T08:21:32.351Z",
     "prompt_version": "1.0",
-    "assets": []
+    "assets": [
+      "assets/background-1.91x1.webp",
+      "assets/background-4x5.webp",
+      "assets/background-9x16.webp"
+    ]
   }
 }
