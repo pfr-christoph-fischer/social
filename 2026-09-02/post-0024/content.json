@@ -1,6 +1,6 @@
 {
   "id": "post-0024",
-  "status": "in Arbeit",
+  "status": "freigegeben",
   "needs_input": false,
   "source": {
     "calendar_post_id": "post-0024",
@@ -27,43 +27,43 @@
   },
   "platforms": {
     "facebook": {
-      "headline": "Warum stehen wir im Gottesdienst auf?",
-      "text": "Warum stehen wir im Gottesdienst auf?\n\nKurz gesagt: Weil der Glaube nicht nur im Kopf stattfindet. Auch der Körper spricht mit.\n\nWenn die Gemeinde aufsteht, zeigt sie: Jetzt hören wir aufmerksam. Jetzt beten wir gemeinsam. Jetzt hat etwas besonderes Gewicht.\n\nDas kennt man auch aus dem Alltag. Wer jemandem mit Respekt begegnet, verändert oft automatisch die Haltung. Man richtet sich auf. Man wird wach. Man ist nicht nebenbei da.\n\nIm Gottesdienst ist Aufstehen deshalb kein Muss zur Selbstdarstellung. Es ist ein gemeinsames Zeichen. Wir sind da. Mit Ohren, Herzen und unserem ganzen Körper.\n\nManche stehen zum Evangelium, manche beim Gebet, manche beim Segen. Die genaue Praxis kann verschieden sein. Die Grundidee bleibt: Gottesdienst ist keine Zuschauerveranstaltung.\n\nFür heute heißt das: Glaube darf sichtbar werden. Nicht laut. Nicht perfekt. Aber leiblich und aufmerksam.\n\nGesprächsfrage: Gibt es im Gottesdienst eine Geste, die dir hilft, innerlich mitzugehen?"
+      "text": "Warum stehen wir im Gottesdienst auf?\n\nKurz gesagt: Weil der Glaube nicht nur im Kopf stattfindet. Auch der Körper spricht mit.\n\nWenn die Gemeinde aufsteht, zeigt sie: Jetzt hören wir aufmerksam. Jetzt beten wir gemeinsam. Jetzt hat etwas besonderes Gewicht.\n\nDas kennt man auch aus dem Alltag. Wer jemandem mit Respekt begegnet, verändert oft automatisch die Haltung. Man richtet sich auf. Man wird wach. Man ist nicht nebenbei da.\n\nIm Gottesdienst ist Aufstehen deshalb kein Muss zur Selbstdarstellung. Es ist ein gemeinsames Zeichen. Wir sind da. Mit Ohren, Herzen und unserem ganzen Körper.\n\nManche stehen zum Evangelium, manche beim Gebet, manche beim Segen. Die genaue Praxis kann verschieden sein. Die Grundidee bleibt: Gottesdienst ist keine Zuschauerveranstaltung.\n\nFür heute heißt das: Glaube darf sichtbar werden. Nicht laut. Nicht perfekt. Aber leiblich und aufmerksam.\n\nGesprächsfrage: Gibt es im Gottesdienst eine Geste, die dir hilft, innerlich mitzugehen?",
+      "headline": "Warum stehen wir im Gottesdienst auf?"
     },
     "instagram": {
       "caption": "Warum stehen wir im Gottesdienst auf?\n\nWeil Glaube nicht nur im Kopf stattfindet. Der Körper macht mit.\n\nAufstehen kann heißen: Jetzt höre ich aufmerksam. Jetzt bete ich mit. Jetzt bekommt ein Moment besonderes Gewicht.\n\nEs geht nicht um Leistung. Es geht um ein gemeinsames Zeichen. Wir sind da.\n\nFür heute: Manchmal hilft eine einfache Bewegung, innerlich wach zu werden.\n\nGesprächsfrage: Welche Geste hilft dir im Gottesdienst, wirklich dabei zu sein?\n\n#Mittwochsserie #GlaubenVerstehen #Gottesdienst #Evangelisch",
       "carousel": [
         {
-          "text": "Warum stehen wir im Gottesdienst auf?",
-          "type": "title"
+          "type": "title",
+          "text": "Warum stehen wir im Gottesdienst auf?"
         },
         {
-          "text": "Eine einfache Bewegung. Aber was bedeutet sie eigentlich?",
-          "type": "question"
+          "type": "question",
+          "text": "Eine einfache Bewegung. Aber was bedeutet sie eigentlich?"
         },
         {
-          "text": "Im Gottesdienst hört nicht nur der Kopf zu. Auch der Körper macht mit.",
-          "type": "explanation"
+          "type": "explanation",
+          "text": "Im Gottesdienst hört nicht nur der Kopf zu. Auch der Körper macht mit."
         },
         {
-          "text": "Aufstehen ist ein Zeichen von Aufmerksamkeit und Achtung.",
-          "type": "explanation"
+          "type": "explanation",
+          "text": "Aufstehen ist ein Zeichen von Aufmerksamkeit und Achtung."
         },
         {
-          "text": "Die Gemeinde zeigt: Jetzt hat dieser Moment besonderes Gewicht.",
-          "type": "explanation"
+          "type": "explanation",
+          "text": "Die Gemeinde zeigt: Jetzt hat dieser Moment besonderes Gewicht."
         },
         {
-          "text": "So wird sichtbar: Gottesdienst ist keine Zuschauerveranstaltung.",
-          "type": "meaning"
+          "type": "meaning",
+          "text": "So wird sichtbar: Gottesdienst ist keine Zuschauerveranstaltung."
         },
         {
-          "text": "Niemand muss perfekt sein. Aber wir bringen uns selbst mit ein.",
-          "type": "meaning"
+          "type": "meaning",
+          "text": "Niemand muss perfekt sein. Aber wir bringen uns selbst mit ein."
         },
         {
-          "text": "Welche Geste hilft dir, im Gottesdienst wirklich dabei zu sein?",
-          "type": "question"
+          "type": "question",
+          "text": "Welche Geste hilft dir, im Gottesdienst wirklich dabei zu sein?"
         }
       ]
     },
@@ -117,11 +117,8 @@
     "alt_text": "Menschen stehen in einer hellen Kirche gemeinsam auf. Die Szene wirkt ruhig und konzentriert. Im Mittelpunkt steht die aufrechte Haltung als Zeichen von Aufmerksamkeit und Beteiligung im Gottesdienst."
   },
   "qa": {
-    "approved": false,
-    "warnings": [
-      "Alt text must be completed before approval",
-      "Liturgische Praxis kann örtlich unterschiedlich sein; Formulierungen deshalb bewusst allgemein halten."
-    ]
+    "approved": true,
+    "warnings": []
   },
   "metadata": {
     "model": "gpt-5.4-2026-03-05",
