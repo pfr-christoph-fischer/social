@@ -1,0 +1,79 @@
+{
+  "checks": [
+    {
+      "check": "alt-text-present",
+      "findings": [],
+      "status": "passed"
+    },
+    {
+      "check": "flux-prompt-no-text",
+      "findings": [
+        {
+          "check": "flux-prompt-no-text",
+          "message": "Flux prompt is missing or was removed because it requested text in the image.",
+          "severity": "error"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "check": "required-fields",
+      "findings": [
+        {
+          "check": "required-fields",
+          "message": "Required field \"visual.flux_prompt\" is empty.",
+          "severity": "error"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "check": "platform-lengths",
+      "findings": [],
+      "status": "passed"
+    },
+    {
+      "check": "current-events",
+      "findings": [
+        {
+          "check": "current-events",
+          "message": "Current-event or local factual details are still required. Verify that no details were invented.",
+          "severity": "warning"
+        }
+      ],
+      "status": "warning"
+    },
+    {
+      "check": "privacy",
+      "findings": [],
+      "status": "passed"
+    },
+    {
+      "check": "song-lyrics",
+      "findings": [],
+      "status": "passed"
+    },
+    {
+      "check": "scripture-citation",
+      "findings": [],
+      "status": "passed"
+    },
+    {
+      "check": "predigt-preview-input",
+      "findings": [],
+      "status": "passed"
+    }
+  ],
+  "content_path": "content/2026-09-01/post-0023/content.json",
+  "errors": [
+    "Flux prompt is missing or was removed because it requested text in the image.",
+    "Required field \"visual.flux_prompt\" is empty."
+  ],
+  "post_id": "post-0023",
+  "ready_for_approval": false,
+  "status_after_run": "in Arbeit",
+  "status_before_run": "in Arbeit",
+  "warnings": [
+    "Current-event or local factual details are still required. Verify that no details were invented."
+  ]
+}
