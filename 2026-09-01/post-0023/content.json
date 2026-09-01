@@ -10,8 +10,8 @@
   },
   "editorial_core": {
     "title": "Map & Compass – Anything That's True",
-    "main_message": "Kurzes, am Originaltext geprüftes Liedfragment als Meditation wählen. Persönlich erzählen, was mich daran berührt; Schwerpunkt: Aufmerksam werden für das, was wahr und tragfähig ist. Spotify: https://open.spotify.com/track/4yQwSsS2blqjHVN91FsIYj",
-    "audience": "[TODO: define audience after current inputs are available]",
+    "main_message": "Ein Lied kann helfen, den Blick neu auszurichten: weg vom Lärm, hin zu dem, was wahr und tragfähig ist. Für die Veröffentlichung braucht es dafür noch einen aktuellen persönlichen Bezug und ein am Originaltext geprüftes kurzes Liedfragment.",
+    "audience": "Menschen, die persönliche Glaubensimpulse mögen, offen für ruhige Musik sind und gern unbekanntere progressive christliche Künstler:innen entdecken.",
     "tone": [
       "klar",
       "ruhig",
@@ -19,41 +19,76 @@
     ],
     "source_notes": [
       "Goal: Persönlich teilen, welche Liedzeile mich gerade begleitet, und dabei unbekanntere, progressive christliche Künstler:innen vorstellen.",
-      "Column: Persönlicher Glaube und Spiritualität",
-      "Production mode: weitgehend vorproduzierbar; persönlichen Bezug vor Veröffentlichung aktuell formulieren",
-      "Structure: kurzer persönlicher Einstieg | Liedfragment als Meditation und eigener geistlicher Gedanke | Künstler:in kurz vorstellen und Spotify-Link",
-      "AI support notes: persönliche Notizen sprachlich verdichten | Meditationsimpuls und plattformgerechte Kurzfassungen | Alt-Text",
-      "Current inputs required: persönliche Beobachtung oder Erfahrung aus dieser Woche | am Originaltext geprüftes kurzes Liedfragment | Spotify: https://open.spotify.com/track/4yQwSsS2blqjHVN91FsIYj",
-      "Special format: Monatsauftakt | Neuanfang und Segen | NL 118 – Der Herr segne dich"
+      "Production mode: weitgehend vorproduzierbar; persönlichen Bezug vor Veröffentlichung aktuell formulieren.",
+      "Structure: kurzer persönlicher Einstieg | Liedfragment als Meditation und eigener geistlicher Gedanke | Künstler:in kurz vorstellen und Spotify-Link.",
+      "Noch offen: persönliche Beobachtung oder Erfahrung aus dieser Woche.",
+      "Noch offen: am Originaltext geprüftes kurzes Liedfragment.",
+      "Spotify-Link liegt vor: https://open.spotify.com/track/4yQwSsS2blqjHVN91FsIYj",
+      "Urheberrecht beachten: kein nicht geprüftes oder zu langes Songzitat verwenden.",
+      "Special format noted in scaffold: Monatsauftakt | Neuanfang und Segen | NL 118 – Der Herr segne dich. Nur verwenden, wenn redaktionell gewünscht."
     ]
   },
   "platforms": {
     "facebook": {
-      "text": "",
-      "headline": ""
+      "text": "Diese Woche fehlt noch der persönliche Einstieg für diesen Post.\n\nGeplant ist ein ruhiger Gedanke zu einem Lied von Map & Compass: ein kurzer, am Originaltext geprüfter Ausschnitt als Meditation. Dazu ein persönlicher Blick darauf, was gerade hilft, auf das zu achten, was wahr und tragfähig ist.\n\nSpotify: https://open.spotify.com/track/4yQwSsS2blqjHVN91FsIYj\n\n[Hier vor Veröffentlichung ergänzen: persönliche Beobachtung dieser Woche]\n[Hier ergänzen: kurzes, geprüftes Liedfragment]",
+      "headline": "Ein Lied, das mich begleitet: Map & Compass"
     },
     "instagram": {
-      "caption": "",
-      "carousel": []
+      "caption": "Ein Lied kann den Blick sortieren.\n\nFür diesen Post fehlt noch der persönliche Satz aus dieser Woche und ein kurzes, am Originaltext geprüftes Liedfragment. Dann wird daraus ein ruhiger Impuls über das, was wahr und tragfähig ist.\n\nSpotify: https://open.spotify.com/track/4yQwSsS2blqjHVN91FsIYj\n\n[Persönlichen Bezug ergänzen]\n[Geprüftes Liedfragment ergänzen]",
+      "carousel": [
+        {
+          "type": "image",
+          "text": "Nahaufnahme einer ruhigen Alltagsszene als Auftakt. Kein Text im Bild."
+        },
+        {
+          "type": "image",
+          "text": "Reduziertes Motiv mit offenem Raum für den Gedanken zum Lied. Kein Text im Bild."
+        },
+        {
+          "type": "image",
+          "text": "Abschlussbild mit stiller, tragender Stimmung. Kein Text im Bild."
+        }
+      ]
     },
     "mastodon": {
-      "text": ""
+      "text": "Ein Lied kann helfen, den Blick neu auszurichten: hin zu dem, was wahr und tragfähig ist.\n\nFür diesen Post fehlen noch zwei Dinge vor der Veröffentlichung: ein persönlicher Satz aus dieser Woche und ein kurzes, am Originaltext geprüftes Liedfragment.\n\nSpotify: https://open.spotify.com/track/4yQwSsS2blqjHVN91FsIYj"
     },
     "bluesky": {
-      "text": ""
+      "text": "Ein Lied kann den Blick sortieren: hin zu dem, was wahr und trägt. Für diesen Post fehlen vor Veröffentlichung noch ein persönlicher Wochenbezug und ein kurzes, geprüftes Liedfragment.\n\nSpotify: https://open.spotify.com/track/4yQwSsS2blqjHVN91FsIYj"
     },
     "story": {
-      "slides": []
+      "slides": [
+        {
+          "text": "Ein Lied, das mich begleitet."
+        },
+        {
+          "text": "Diesmal: Map & Compass – Anything That's True."
+        },
+        {
+          "text": "Vor Veröffentlichung ergänzen: persönlicher Gedanke aus dieser Woche."
+        },
+        {
+          "text": "Vor Veröffentlichung ergänzen: kurzes, am Originaltext geprüftes Liedfragment."
+        },
+        {
+          "text": "Spotify-Link im Story-Sticker nutzen."
+        }
+      ]
     },
     "reel": {
-      "hook": "",
-      "script": "",
-      "shots": [],
-      "duration_seconds": 0
+      "hook": "Manchmal reicht ein Lied, um den Blick neu auszurichten.",
+      "script": "Kurzer Einstieg mit ruhigen Alltagsbildern. Dann ein persönlicher Satz aus dieser Woche. Danach ein kurzes, am Originaltext geprüftes Liedfragment als eingeblendete oder gesprochene Meditation nur nach redaktioneller Prüfung. Abschluss: ein schlichter Gedanke dazu, was gerade wahr und tragfähig wirkt. Zum Schluss der Hinweis auf Map & Compass und den Spotify-Link in der Caption.",
+      "shots": [
+        "Ruhige Handbewegung am Fenster oder auf einem Tisch mit natürlichem Licht.",
+        "Detail aus dem Alltag, das Sammlung oder Orientierung andeutet, ohne Symbole zu überladen.",
+        "Kurzer stiller Blick in eine offene Szene, zum Beispiel Himmel, Weg oder Zimmerlicht.",
+        "Abschlussbild mit ruhiger Bewegung und Platz für die Caption."
+      ],
+      "duration_seconds": 20
     }
   },
   "visual": {
-    "concept": "",
+    "concept": "Stilles, reduziertes Bild für einen musikalisch-spirituellen Impuls. Keine frommen Standardmotive, sondern eine alltägliche Szene, die Sammlung und Orientierung ausstrahlt.",
     "flux_prompt": "",
     "negative_prompt": "text, letters, logo, watermark",
     "formats": [
@@ -61,18 +96,23 @@
       "9:16",
       "1.91:1"
     ],
-    "alt_text": ""
+    "alt_text": "Ruhige Alltagsszene in weichem Licht mit stiller, nachdenklicher Stimmung. Das Bild vermittelt Sammlung und Orientierung, ohne aufdringliche Symbole."
   },
   "qa": {
     "warnings": [
       "Alt text must be completed before approval",
-      "Current source inputs are still required before publication"
+      "Current source inputs are still required before publication",
+      "Für die Veröffentlichung fehlt eine persönliche Beobachtung oder Erfahrung aus dieser Woche.",
+      "Für die Veröffentlichung fehlt ein am Originaltext geprüftes kurzes Liedfragment.",
+      "Keine längeren oder ungeprüften Songzitate verwenden.",
+      "Alt-Text vor finaler Freigabe an das tatsächliche Motiv anpassen.",
+      "Spotify-Link vorhanden, Plattformausspielung vor Veröffentlichung prüfen."
     ],
     "approved": false
   },
   "metadata": {
-    "model": "",
-    "generated_at": "",
+    "model": "gpt-5.4-2026-03-05",
+    "generated_at": "2026-09-01T07:57:57.264Z",
     "prompt_version": "1.0",
     "assets": []
   }
