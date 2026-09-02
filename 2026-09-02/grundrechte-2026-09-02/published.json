@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-09-02",
+    "contentDate": "2026-09-02",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-09-02T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Kunst und Wissenschaft, Forschung und Lehre sind frei. (Grundgesetz, Artikel 5 Absatz 3)",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Kunst und Wissenschaft, Forschung und Lehre sind frei. (Grundgesetz, Artikel 5 Absatz 3)"
+    ],
+    "id": "7875e58d-bf38-484e-97dd-966ffc3bf4bc",
+    "attemptCount": 1,
+    "remoteId": "18339187063285816",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:37:24.192Z",
+    "updatedAt": "2026-09-02T10:00:28.578Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-09-02",
+    "contentDate": "2026-09-02",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-09-02T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Kunst und Wissenschaft, Forschung und Lehre sind frei. (Grundgesetz, Artikel 5 Absatz 3)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Kunst und Wissenschaft, Forschung und Lehre sind frei. (Grundgesetz, Artikel 5 Absatz 3)"
+    ],
+    "id": "c7fe8cd9-6278-4697-a672-cc9f6e4d643b",
+    "attemptCount": 1,
+    "remoteId": "117200861939103418",
+    "remoteUrl": "https://kirche.social/@christoph/117200861939103418",
+    "lastError": null,
+    "createdAt": "2026-08-26T15:37:24.254Z",
+    "updatedAt": "2026-09-02T10:00:30.423Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
