@@ -84,5 +84,91 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-09-02",
+    "contentDate": "2026-09-02",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-09-02T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Kunst und Wissenschaft, Forschung und Lehre sind frei. (Grundgesetz, Artikel 5 Absatz 3)",
+    "assets": [
+      "render-square-01.jpg"
+    ],
+    "altTexts": [
+      "Kunst und Wissenschaft, Forschung und Lehre sind frei. (Grundgesetz, Artikel 5 Absatz 3)"
+    ],
+    "id": "36376efb-ff1d-4e7d-ba1d-13ecb736cc03",
+    "attemptCount": 1,
+    "remoteId": "18072627821452264",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:37:24.321Z",
+    "updatedAt": "2026-09-02T10:00:41.793Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-09-02",
+    "contentDate": "2026-09-02",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-09-02T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Kunst und Wissenschaft, Forschung und Lehre sind frei. (Grundgesetz, Artikel 5 Absatz 3)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Kunst und Wissenschaft, Forschung und Lehre sind frei. (Grundgesetz, Artikel 5 Absatz 3)"
+    ],
+    "id": "396f61a8-eea6-4365-adb9-5ce7a6a5dd2d",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3mujohwothi2t",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3mujohwothi2t",
+    "lastError": null,
+    "createdAt": "2026-08-26T15:37:24.360Z",
+    "updatedAt": "2026-09-02T10:00:44.533Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-09-02",
+    "contentDate": "2026-09-02",
+    "platform": "linkedin",
+    "format": "default",
+    "scheduledAt": "2026-09-02T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Kunst und Wissenschaft, Forschung und Lehre sind frei. (Grundgesetz, Artikel 5 Absatz 3)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Kunst und Wissenschaft, Forschung und Lehre sind frei. (Grundgesetz, Artikel 5 Absatz 3)"
+    ],
+    "id": "4fd9ee38-f10f-4ce5-b042-70778daea64d",
+    "attemptCount": 1,
+    "remoteId": "urn:li:share:7500855232176766976",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:37:24.402Z",
+    "updatedAt": "2026-09-02T10:00:46.757Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 201
+    },
+    "retryHistory": []
   }
 ]
