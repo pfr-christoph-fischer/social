@@ -84,5 +84,91 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-02",
+    "contentDate": "2026-09-02",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-09-02T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "So spricht der HERR Zebaoth: Wer euch antastet, der tastet seinen Augapfel an.",
+    "assets": [
+      "render-square-01.jpg"
+    ],
+    "altTexts": [
+      "So spricht der HERR Zebaoth: Wer euch antastet, der tastet seinen Augapfel an."
+    ],
+    "id": "1e2c3bc0-7b6b-4125-b23a-f5723956bb95",
+    "attemptCount": 1,
+    "remoteId": "18102883535204015",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:44:56.948Z",
+    "updatedAt": "2026-09-02T05:00:44.000Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-02",
+    "contentDate": "2026-09-02",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-09-02T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "So spricht der HERR Zebaoth: Wer euch antastet, der tastet seinen Augapfel an.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "So spricht der HERR Zebaoth: Wer euch antastet, der tastet seinen Augapfel an."
+    ],
+    "id": "fa1764b9-8bbd-450b-af07-6e2fed2912af",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3muj5pkbpsw2a",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3muj5pkbpsw2a",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:44:56.954Z",
+    "updatedAt": "2026-09-02T05:00:46.268Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-02",
+    "contentDate": "2026-09-02",
+    "platform": "linkedin",
+    "format": "default",
+    "scheduledAt": "2026-09-02T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "So spricht der HERR Zebaoth: Wer euch antastet, der tastet seinen Augapfel an.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "So spricht der HERR Zebaoth: Wer euch antastet, der tastet seinen Augapfel an."
+    ],
+    "id": "bdafbfd1-97ad-4e4c-a845-c02c7a536b31",
+    "attemptCount": 1,
+    "remoteId": "urn:li:share:7500779740375527424",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:44:56.960Z",
+    "updatedAt": "2026-09-02T05:00:48.124Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 201
+    },
+    "retryHistory": []
   }
 ]
