@@ -99,13 +99,17 @@
     "alt_text": "Eine ruhige Morgenszene mit weichem Licht: ein Blick auf ein Flussufer mit niedrigem Wasserstand und freiliegenden Steinen. Die Atmosphäre wirkt still, ernst und zugleich hoffnungsvoll."
   },
   "qa": {
-    "approved": true,
-    "warnings": []
+    "warnings": [],
+    "approved": true
   },
   "metadata": {
     "model": "gpt-5.4-2026-03-05",
     "generated_at": "2026-09-02T05:41:09.806Z",
     "prompt_version": "1.0",
-    "assets": []
+    "assets": [
+      "assets/background-1.91x1.webp",
+      "assets/background-4x5.webp",
+      "assets/background-9x16.webp"
+    ]
   }
 }

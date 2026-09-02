@@ -1,0 +1,36 @@
+{
+  "delivery_url": "https://delivery.us2.bfl.ai/durable/2026090205/5e1f69ea-538b-4d66-962e-9be995966f07/0b/9800852b30a72b/2b30a72b009343ffb827c20bd640ef25/sample.jpeg?se=2026-09-02T05%3A56%3A20Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=B5RgOXH9Rs6AvHs4LBaVgqlKQBL/2DLOTySmBvI5ivM%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "7cc99f1c-9f77-4f55-8da2-d6dae2e54b35",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "7cc99f1c-9f77-4f55-8da2-d6dae2e54b35",
+      "status": "Ready",
+      "result": {
+        "start_time": 1788327978.9463592,
+        "prompt": "Fotorealistische ruhige Morgenszene, weiches natürliches Morgenlicht, stilles Fenster oder offener Blick nach draußen, trockenes Flussufer mit sichtbaren Steinen und niedrigem Wasserstand, zurückhaltende symbolische Bildsprache für Gebet und Hoffnung, keine Menschenmenge, keine Zerstörung, warme aber gedämpfte Farben, viel Raum, kontemplative Stimmung, no text, no letters, no typography, no logo, no watermark",
+        "seed": 951085024,
+        "sample": "https://delivery.us2.bfl.ai/durable/2026090205/5e1f69ea-538b-4d66-962e-9be995966f07/0b/9800852b30a72b/2b30a72b009343ffb827c20bd640ef25/sample.jpeg?se=2026-09-02T05%3A56%3A20Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=B5RgOXH9Rs6AvHs4LBaVgqlKQBL/2DLOTySmBvI5ivM%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "7cc99f1c-9f77-4f55-8da2-d6dae2e54b35",
+    "polling_url": "https://api.us2.bfl.ai/v1/get_result?id=7cc99f1c-9f77-4f55-8da2-d6dae2e54b35",
+    "cost": 1.4000000000000001,
+    "input_mp": 0,
+    "output_mp": 0.72
+  }
+}
