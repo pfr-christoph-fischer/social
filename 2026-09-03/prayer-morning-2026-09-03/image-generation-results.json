@@ -1,0 +1,55 @@
+{
+  "generated_at": "2026-09-02T20:11:43.569Z",
+  "jobs": [
+    {
+      "assetPath": "content/2026-09-03/prayer-morning-2026-09-03/assets/background-1.91x1.webp",
+      "aspectRatio": "1.91:1",
+      "height": 630,
+      "mimeType": "image/jpeg",
+      "rawResponsePath": "content/2026-09-03/prayer-morning-2026-09-03/raw-flux-response-1.91x1.json",
+      "request": {
+        "aspectRatio": "1.91:1",
+        "model": "flux-2-klein-4b",
+        "negativePrompt": "text, letters, logo, watermark, typography",
+        "outputFormat": "webp",
+        "prompt": "A calm early morning interior with soft natural dawn light through an open window, a simple wooden table, a ceramic cup, reflective and restrained mood, subtle atmosphere of prayer and attentiveness, realistic photography, no people facing camera, no explicit accident scene, no political symbols, no dramatic disaster imagery, hopeful and honest atmosphere, no text, no letters, no typography, no logo, no watermark"
+      },
+      "status": "succeeded",
+      "width": 1200
+    },
+    {
+      "assetPath": "content/2026-09-03/prayer-morning-2026-09-03/assets/background-4x5.webp",
+      "aspectRatio": "4:5",
+      "height": 1350,
+      "mimeType": "image/jpeg",
+      "rawResponsePath": "content/2026-09-03/prayer-morning-2026-09-03/raw-flux-response-4x5.json",
+      "request": {
+        "aspectRatio": "4:5",
+        "model": "flux-2-klein-4b",
+        "negativePrompt": "text, letters, logo, watermark, typography",
+        "outputFormat": "webp",
+        "prompt": "A calm early morning interior with soft natural dawn light through an open window, a simple wooden table, a ceramic cup, reflective and restrained mood, subtle atmosphere of prayer and attentiveness, realistic photography, no people facing camera, no explicit accident scene, no political symbols, no dramatic disaster imagery, hopeful and honest atmosphere, no text, no letters, no typography, no logo, no watermark"
+      },
+      "status": "succeeded",
+      "width": 1080
+    },
+    {
+      "assetPath": "content/2026-09-03/prayer-morning-2026-09-03/assets/background-9x16.webp",
+      "aspectRatio": "9:16",
+      "height": 1920,
+      "mimeType": "image/jpeg",
+      "rawResponsePath": "content/2026-09-03/prayer-morning-2026-09-03/raw-flux-response-9x16.json",
+      "request": {
+        "aspectRatio": "9:16",
+        "model": "flux-2-klein-4b",
+        "negativePrompt": "text, letters, logo, watermark, typography",
+        "outputFormat": "webp",
+        "prompt": "A calm early morning interior with soft natural dawn light through an open window, a simple wooden table, a ceramic cup, reflective and restrained mood, subtle atmosphere of prayer and attentiveness, realistic photography, no people facing camera, no explicit accident scene, no political symbols, no dramatic disaster imagery, hopeful and honest atmosphere, no text, no letters, no typography, no logo, no watermark"
+      },
+      "status": "succeeded",
+      "width": 1080
+    }
+  ],
+  "model": "flux-2-klein-4b",
+  "post_id": "prayer-morning-2026-09-03"
+}

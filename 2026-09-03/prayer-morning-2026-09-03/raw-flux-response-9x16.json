@@ -1,0 +1,44 @@
+{
+  "delivery_url": "https://delivery.us2.bfl.ai/durable/2026090220/5e1f69ea-538b-4d66-962e-9be995966f07/e2/902319c2fb2e3d/c2fb2e3dc7f94d4a8b9a7edb9e58cfd5/sample.jpeg?se=2026-09-02T20%3A21%3A42Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=%2BDAeQ3dDPplz5jm5jcu7TOjb1cPZ03fVmoz2wMPX6h4%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "39da3c10-0faa-4591-abc5-3a076412ed23",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "39da3c10-0faa-4591-abc5-3a076412ed23",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "39da3c10-0faa-4591-abc5-3a076412ed23",
+      "status": "Ready",
+      "result": {
+        "start_time": 1788379900.987963,
+        "prompt": "A calm early morning interior with soft natural dawn light through an open window, a simple wooden table, a ceramic cup, reflective and restrained mood, subtle atmosphere of prayer and attentiveness, realistic photography, no people facing camera, no explicit accident scene, no political symbols, no dramatic disaster imagery, hopeful and honest atmosphere, no text, no letters, no typography, no logo, no watermark",
+        "seed": 1643680181,
+        "sample": "https://delivery.us2.bfl.ai/durable/2026090220/5e1f69ea-538b-4d66-962e-9be995966f07/e2/902319c2fb2e3d/c2fb2e3dc7f94d4a8b9a7edb9e58cfd5/sample.jpeg?se=2026-09-02T20%3A21%3A42Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=%2BDAeQ3dDPplz5jm5jcu7TOjb1cPZ03fVmoz2wMPX6h4%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "39da3c10-0faa-4591-abc5-3a076412ed23",
+    "polling_url": "https://api.us2.bfl.ai/v1/get_result?id=39da3c10-0faa-4591-abc5-3a076412ed23",
+    "cost": 1.5,
+    "input_mp": 0,
+    "output_mp": 1.98
+  }
+}
