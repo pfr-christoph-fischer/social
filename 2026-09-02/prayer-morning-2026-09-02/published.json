@@ -27,5 +27,65 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "prayer-morning-2026-09-02",
+    "contentDate": "2026-09-02",
+    "platform": "instagram",
+    "format": "default",
+    "scheduledAt": "2026-09-02T05:15:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Morgengebet\n\nGott,\nwir beginnen diesen Tag nicht mit geschlossenen Augen.\n\nWir denken an Menschen in der Ukraine,\nwo nach schweren russischen Luftangriffen Tote zu beklagen sind.\n\nWir denken an Menschen im Nahen Osten,\nwo neue gegenseitige Angriffe von USA und Iran wieder Angst auslösen.\n\nSei den Leidenden nahe.\nStärke die Helfenden.\nGib den Verantwortlichen Weisheit.\nUnd uns Mut zu kleinen Schritten des Friedens heute.\n\nDeine Zukunft kommt uns entgegen.\nDarum gehen wir hoffend in diesen Tag.\nAmen.",
+    "assets": [
+      "render-instagram-feed-01.jpg",
+      "render-instagram-feed-02.jpg",
+      "render-instagram-feed-03.jpg",
+      "render-instagram-feed-04.jpg"
+    ],
+    "altTexts": [
+      "Eine ruhige Morgenszene mit weichem Licht: ein Blick auf ein Flussufer mit niedrigem Wasserstand und freiliegenden Steinen. Die Atmosphäre wirkt still, ernst und zugleich hoffnungsvoll."
+    ],
+    "id": "e20b20c8-54c3-4b40-9c99-d7a0b3963935",
+    "attemptCount": 1,
+    "remoteId": "18468853045116195",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-09-02T05:57:48.329Z",
+    "updatedAt": "2026-09-02T06:00:52.242Z",
+    "responseMetadata": {
+      "mediaCount": 4,
+      "mediaType": "CAROUSEL",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "prayer-morning-2026-09-02",
+    "contentDate": "2026-09-02",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-09-02T05:15:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Morgengebet\n\nGott,\nwir beginnen diesen Tag mit offenen Augen.\nWir beten für die Menschen in der Ukraine nach schweren russischen Luftangriffen.\nWir beten für die Menschen im Nahen Osten nach den neuen gegenseitigen Angriffen von USA und Iran.\nSei den Leidenden nahe. Stärke die Helfenden. Gib uns Mut zum Frieden heute.\nAmen.",
+    "assets": [
+      "render-facebook-mastodon-01.png"
+    ],
+    "altTexts": [
+      "Eine ruhige Morgenszene mit weichem Licht: ein Blick auf ein Flussufer mit niedrigem Wasserstand und freiliegenden Steinen. Die Atmosphäre wirkt still, ernst und zugleich hoffnungsvoll."
+    ],
+    "id": "9b3a5dc4-1a71-47ee-b51c-451918e953fc",
+    "attemptCount": 1,
+    "remoteId": "117199919753786131",
+    "remoteUrl": "https://kirche.social/@christoph/117199919753786131",
+    "lastError": null,
+    "createdAt": "2026-09-02T05:57:48.392Z",
+    "updatedAt": "2026-09-02T06:00:53.741Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
