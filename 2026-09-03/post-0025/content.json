@@ -10,8 +10,8 @@
   },
   "editorial_core": {
     "title": "Was Kinder oder Jugendliche an einer biblischen Geschichte sehen",
-    "main_message": "Mit einer echten, aber vollständig anonymisierten Frage beginnen.",
-    "audience": "[TODO: define audience after current inputs are available]",
+    "main_message": "Eine echte, vollständig anonymisierte Frage aus dem Religionsunterricht kann einen offenen Denkraum über eine biblische Geschichte eröffnen.",
+    "audience": "Menschen mit Interesse an Religionsunterricht, Glaube und Bildung; Eltern, Lehrkräfte, Gemeinde",
     "tone": [
       "klar",
       "ruhig",
@@ -23,56 +23,104 @@
       "Production mode: Rahmen vorproduzierbar; konkreten Anlass aktuell ergänzen",
       "Structure: anonymisierte Frage | warum sie mich beschäftigt | eine offene Antwort | Rückfrage an die Community",
       "AI support notes: Anonymisierung prüfen | altersgerechte Erklärung | Antwortvarianten | Symbolbild-Prompt",
-      "Current inputs required: anonymisierte Unterrichtsbeobachtung | Klassenstufe nur nennen, wenn unproblematisch"
+      "Current inputs required: anonymisierte Unterrichtsbeobachtung | Klassenstufe nur nennen, wenn unproblematisch",
+      "Es liegt noch keine konkrete anonymisierte Frage vor. Deshalb sind die Texte als belastbare Vorlage mit Platzhaltern formuliert.",
+      "Keine Details zu Unterrichtssituation, Schule, Ort, Datum oder Personengruppe ergänzen, solange sie nicht ausdrücklich vorliegen."
     ]
   },
   "platforms": {
     "facebook": {
-      "text": "",
-      "headline": ""
+      "text": "Heute mal eine Frage aus dem Religionsunterricht.\n\n„[Anonymisierte Frage aus dem Unterricht]“\n\nWarum mich das beschäftigt:\nIn solchen Fragen steckt oft mehr als Neugier. Da ringt jemand mit einer biblischen Geschichte. Mit dem, was gerecht ist. Mit Angst, Mut, Hoffnung oder Gott selbst.\n\nEine offene Antwort könnte sein:\nBiblische Geschichten geben nicht immer schnelle Lösungen. Aber sie öffnen einen Raum zum Nachdenken. Sie zeigen Menschen mit Fragen, Fehlern und Hoffnung. Genau deshalb sind sie bis heute spannend.\n\nMich würde interessieren:\nWas seht ihr in biblischen Geschichten zuerst? Trost? Streit? Mut? Etwas ganz anderes?\n\nHinweis: Die Frage wird vor einer Veröffentlichung vollständig anonymisiert.",
+      "headline": "Eine Frage aus dem Reli-Unterricht"
     },
     "instagram": {
-      "caption": "",
-      "carousel": []
+      "caption": "„[Anonymisierte Frage aus dem Unterricht]“\n\nSolche Fragen mag ich. Sie sind direkt. Und sie bringen viel auf den Punkt.\n\nWarum mich das beschäftigt:\nBiblische Geschichten wirken oft erst dann, wenn jemand ehrlich nachfragt. Nicht mit fertigen Antworten. Sondern mit offenem Blick.\n\nEine mögliche Antwort:\nVielleicht will eine biblische Geschichte nicht alles erklären. Vielleicht lädt sie zuerst dazu ein, genauer hinzusehen: auf Menschen, auf Konflikte, auf Hoffnung, auf Gott.\n\nUnd ihr?\nWas springt euch in biblischen Geschichten ins Auge?\n\nHinweis: Die konkrete Frage wird vor Veröffentlichung vollständig anonymisiert.",
+      "carousel": [
+        {
+          "type": "title",
+          "text": "Eine Frage aus dem Reli-Unterricht"
+        },
+        {
+          "type": "text",
+          "text": "„[Anonymisierte Frage aus dem Unterricht]“"
+        },
+        {
+          "type": "text",
+          "text": "Warum mich das beschäftigt: In solchen Fragen steckt oft ein genauer Blick auf eine biblische Geschichte."
+        },
+        {
+          "type": "text",
+          "text": "Eine offene Antwort: Nicht jede Geschichte liefert eine schnelle Lösung. Aber viele öffnen einen Raum zum Denken und Fragen."
+        },
+        {
+          "type": "text",
+          "text": "Und ihr? Was seht ihr in biblischen Geschichten zuerst?"
+        }
+      ]
     },
     "mastodon": {
-      "text": ""
+      "text": "„[Anonymisierte Frage aus dem Unterricht]“\n\nSolche Fragen mag ich. Sie nehmen eine biblische Geschichte ernst, ohne so zu tun, als wäre alles einfach.\n\nMeine offene Antwort: Vielleicht liegt die Stärke dieser Geschichten gerade darin, dass sie Fragen aushalten.\n\nWas seht ihr darin zuerst?"
     },
     "bluesky": {
-      "text": ""
+      "text": "„[Anonymisierte Frage aus dem Unterricht]“\n\nBiblische Geschichten sind oft dann stark, wenn jemand ehrlich nachfragt.\n\nVielleicht müssen sie nicht alles sofort lösen. Vielleicht öffnen sie zuerst einen Raum zum Denken.\n\nWas seht ihr in solchen Geschichten zuerst?"
     },
     "story": {
-      "slides": []
+      "slides": [
+        {
+          "text": "Eine Frage aus dem Reli-Unterricht"
+        },
+        {
+          "text": "„[Anonymisierte Frage aus dem Unterricht]“"
+        },
+        {
+          "text": "Warum mich das beschäftigt: Ehrliche Fragen öffnen biblische Geschichten oft neu."
+        },
+        {
+          "text": "Eine offene Antwort: Nicht alles wird sofort klar. Aber vieles kommt ins Gespräch."
+        },
+        {
+          "text": "Und du? Was siehst du in biblischen Geschichten zuerst?"
+        }
+      ]
     },
     "reel": {
-      "hook": "",
-      "script": "",
-      "shots": [],
-      "duration_seconds": 0
+      "hook": "Eine echte Frage aus dem Reli-Unterricht.",
+      "script": "Slide 1 / Einstieg: Eine echte Frage bleibt hängen.\nSlide 2: „[Anonymisierte Frage aus dem Unterricht]“\nSlide 3: Warum mich das beschäftigt: In dieser Frage steckt ein genauer Blick auf eine biblische Geschichte.\nSlide 4: Eine offene Antwort: Biblische Geschichten geben nicht immer schnelle Lösungen. Aber sie öffnen einen Raum für Fragen, Zweifel und Hoffnung.\nSlide 5: Rückfrage: Was seht ihr in biblischen Geschichten zuerst?",
+      "shots": [
+        "Neutrales aufgeschlagenes Buch ohne lesbaren Text",
+        "Ruhiger Tisch mit Kerze und Schatten",
+        "Hand blättert durch ein Heft ohne erkennbare Inhalte",
+        "Detailaufnahme von farbigen Steinen oder Symbolkarten",
+        "Schlichte Abschlussaufnahme mit offener Frage als gesprochener Text statt im Bild"
+      ],
+      "duration_seconds": 25
     }
   },
   "visual": {
-    "concept": "",
+    "concept": "Neutrales Symbolbild für Religionsunterricht und Nachdenken über biblische Geschichten. Keine Personen erkennbar. Ruhige, warme Lernatmosphäre mit offenen Materialien und symbolischen Objekten.",
     "flux_prompt": "",
-    "negative_prompt": "text, letters, logo, watermark",
+    "negative_prompt": "text, letters, logo, watermark, recognizable faces, people, classroom name, school logo, readable book pages, readable notebook, identifiable location",
     "formats": [
       "4:5",
       "9:16",
       "1.91:1"
     ],
-    "alt_text": ""
+    "alt_text": "Neutrales Stillleben auf einem hellen Tisch mit aufgeschlagenem Buch ohne lesbaren Text, Stiften, einem schlichten Heft und kleinen Symbolgegenständen in ruhigem Licht."
   },
   "qa": {
     "warnings": [
       "Alt text must be completed before approval",
       "Current source inputs are still required before publication",
-      "Review privacy and factual accuracy before drafting"
+      "Review privacy and factual accuracy before drafting",
+      "Platzhalter '[Anonymisierte Frage aus dem Unterricht]' muss vor Veröffentlichung mit einer echten, vollständig anonymisierten Formulierung ersetzt werden.",
+      "Klassenstufe nur nennen, wenn sie ausdrücklich vorliegt und keine Rückschlüsse auf einzelne Personen zulässt.",
+      "Keine Details ergänzen, die Schule, Lerngruppe, Zeitpunkt oder einzelne Schüler:innen erkennbar machen."
     ],
     "approved": false
   },
   "metadata": {
-    "model": "",
-    "generated_at": "",
+    "model": "gpt-5.4-2026-03-05",
+    "generated_at": "2026-09-02T20:12:47.313Z",
     "prompt_version": "1.0",
     "assets": []
   }
