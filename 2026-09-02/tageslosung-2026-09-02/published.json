@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-02",
+    "contentDate": "2026-09-02",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-09-02T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "So spricht der HERR Zebaoth: Wer euch antastet, der tastet seinen Augapfel an.",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "So spricht der HERR Zebaoth: Wer euch antastet, der tastet seinen Augapfel an."
+    ],
+    "id": "ff589d1e-fd03-430b-963b-95c6d4a69708",
+    "attemptCount": 1,
+    "remoteId": "18006356711993403",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:44:56.940Z",
+    "updatedAt": "2026-09-02T05:00:28.945Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-02",
+    "contentDate": "2026-09-02",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-09-02T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "So spricht der HERR Zebaoth: Wer euch antastet, der tastet seinen Augapfel an.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "So spricht der HERR Zebaoth: Wer euch antastet, der tastet seinen Augapfel an."
+    ],
+    "id": "6229f46f-6c0d-4714-9818-a1c608554b9f",
+    "attemptCount": 1,
+    "remoteId": "117199682308833777",
+    "remoteUrl": "https://kirche.social/@christoph/117199682308833777",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:44:56.944Z",
+    "updatedAt": "2026-09-02T05:00:30.628Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
