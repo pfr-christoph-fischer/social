@@ -84,5 +84,91 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-09-03",
+    "contentDate": "2026-09-03",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-09-03T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Alle Menschen haben das Recht, sich friedlich zu versammeln und zu Vereinigungen zusammenzuschließen. (Allgemeine Erklärung der Menschenrechte, Artikel 20 Absatz 1)",
+    "assets": [
+      "render-square-01.jpg"
+    ],
+    "altTexts": [
+      "Alle Menschen haben das Recht, sich friedlich zu versammeln und zu Vereinigungen zusammenzuschließen. (Allgemeine Erklärung der Menschenrechte, Artikel 20 Absatz 1)"
+    ],
+    "id": "caa25df9-e183-44f7-b5e3-3ba0487d3cb4",
+    "attemptCount": 1,
+    "remoteId": "17945380440328363",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:37:27.379Z",
+    "updatedAt": "2026-09-03T10:00:50.229Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-09-03",
+    "contentDate": "2026-09-03",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-09-03T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Alle Menschen haben das Recht, sich friedlich zu versammeln und zu Vereinigungen zusammenzuschließen. (Allgemeine Erklärung der Menschenrechte, Artikel 20 Absatz 1)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Alle Menschen haben das Recht, sich friedlich zu versammeln und zu Vereinigungen zusammenzuschließen. (Allgemeine Erklärung der Menschenrechte, Artikel 20 Absatz 1)"
+    ],
+    "id": "a6d78ebf-5c40-47f0-b141-fff915081ec9",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3mum6x4gbwa2c",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3mum6x4gbwa2c",
+    "lastError": null,
+    "createdAt": "2026-08-26T15:37:27.478Z",
+    "updatedAt": "2026-09-03T10:00:53.109Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-09-03",
+    "contentDate": "2026-09-03",
+    "platform": "linkedin",
+    "format": "default",
+    "scheduledAt": "2026-09-03T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Alle Menschen haben das Recht, sich friedlich zu versammeln und zu Vereinigungen zusammenzuschließen. (Allgemeine Erklärung der Menschenrechte, Artikel 20 Absatz 1)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Alle Menschen haben das Recht, sich friedlich zu versammeln und zu Vereinigungen zusammenzuschließen. (Allgemeine Erklärung der Menschenrechte, Artikel 20 Absatz 1)"
+    ],
+    "id": "995f8fed-9d9b-4bb0-98b9-5b2952fda9a2",
+    "attemptCount": 1,
+    "remoteId": "urn:li:share:7501217655467450369",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:37:27.521Z",
+    "updatedAt": "2026-09-03T10:00:55.227Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 201
+    },
+    "retryHistory": []
   }
 ]
