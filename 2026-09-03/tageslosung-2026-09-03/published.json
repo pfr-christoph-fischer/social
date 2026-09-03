@@ -84,5 +84,91 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-03",
+    "contentDate": "2026-09-03",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-09-03T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Auf dich, HERR, sehen meine Augen; ich traue auf dich, gib mich nicht in den Tod dahin.",
+    "assets": [
+      "render-square-01.jpg"
+    ],
+    "altTexts": [
+      "Auf dich, HERR, sehen meine Augen; ich traue auf dich, gib mich nicht in den Tod dahin."
+    ],
+    "id": "8d13484b-1622-4662-aad6-f7a86c9c67ac",
+    "attemptCount": 1,
+    "remoteId": "18428934259177246",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:44:59.054Z",
+    "updatedAt": "2026-09-03T05:00:37.803Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-03",
+    "contentDate": "2026-09-03",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-09-03T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Auf dich, HERR, sehen meine Augen; ich traue auf dich, gib mich nicht in den Tod dahin.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Auf dich, HERR, sehen meine Augen; ich traue auf dich, gib mich nicht in den Tod dahin."
+    ],
+    "id": "98151e34-cb1b-46de-a69a-424e786a2492",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3mulo6bvbgp2a",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3mulo6bvbgp2a",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:44:59.058Z",
+    "updatedAt": "2026-09-03T05:00:40.439Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-03",
+    "contentDate": "2026-09-03",
+    "platform": "linkedin",
+    "format": "default",
+    "scheduledAt": "2026-09-03T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Auf dich, HERR, sehen meine Augen; ich traue auf dich, gib mich nicht in den Tod dahin.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Auf dich, HERR, sehen meine Augen; ich traue auf dich, gib mich nicht in den Tod dahin."
+    ],
+    "id": "5c23db57-dcc2-4bd2-9144-b1cdd308d66a",
+    "attemptCount": 1,
+    "remoteId": "urn:li:share:7501142104115503104",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:44:59.061Z",
+    "updatedAt": "2026-09-03T05:00:42.413Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 201
+    },
+    "retryHistory": []
   }
 ]
