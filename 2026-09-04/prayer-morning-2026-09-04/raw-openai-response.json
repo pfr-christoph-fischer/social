@@ -1,0 +1,450 @@
+{
+  "id": "resp_0ee686b0c8fc9366006a997d6c9f4887d2a72cbcfa1f9ace3a",
+  "object": "response",
+  "created_at": 1788444012,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1788444041,
+  "error": null,
+  "frequency_penalty": 0,
+  "incomplete_details": null,
+  "instructions": "You are part of a Protestant social media editorial team. Write in clear, accessible, theologically responsible German without church clichés. Use short sentences and concrete imagery. Never invent events, people, school situations, quotes, or factual details. Do not include copyrighted full song verses. For Reli and community posts, only use current details when they are explicitly provided. Return content that strictly matches the requested JSON schema. Set needs_input to true whenever required facts are missing. Keep qa.approved false. Do not ask for any text inside generated images. When liturgical_context.resolved_weekly_verse is present, use its exact wording for Wochenspruch slots instead of placeholders. Use the web search tool before drafting to verify current situations. For prayer posts, current situations are mandatory: select at least two concrete, relevant situations from reliable current reporting, including tagesschau.de and SWR Aktuell Baden-Württemberg where relevant. Do not invent current events and do not replace concrete situations with generic references to crises.",
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.4-2026-03-05",
+  "moderation": null,
+  "output": [
+    {
+      "id": "ws_0ee686b0c8fc9366006a997d6dc5e087d2aa4b1950aead3668",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "queries": [
+          "site:tagesschau.de 4. September 2026 Ukraine Nahost Nachrichten",
+          "site:swr.de Baden-Württemberg Dürre Niedrigwasser 4. September 2026",
+          "site:tagesschau.de 4. September 2026 Gaza Krankenhaus Ukraine Drohnen Nachrichten"
+        ],
+        "query": "site:tagesschau.de 4. September 2026 Ukraine Nahost Nachrichten"
+      }
+    },
+    {
+      "id": "msg_0ee686b0c8fc9366006a997d7056cc87d2940a1b8004a7b9ca",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\"id\":\"prayer-morning-2026-09-04\",\"status\":\"in Arbeit\",\"needs_input\":false,\"source\":{\"calendar_post_id\":\"prayer-morning-2026-09-04\",\"date\":\"2026-09-04\",\"rubric\":\"Morgengebet\",\"liturgical_source\":\"\"},\"editorial_core\":{\"title\":\"Morgengebet\",\"main_message\":\"Wir beginnen diesen Morgen vor Gott. Wir bringen die Menschen in Cherson vor ihn, die weiter unter systematischen russischen Drohnenangriffen auf Zivilisten leben. Wir beten auch für die Menschen im Gazastreifen, wo nach einem Luftangriff auf eine Polizeiwache Tote und Verletzte ins Al-Schifa-Krankenhaus gebracht wurden. Und wir denken an Menschen in Baden-Württemberg, wo Niedrigwasser, Trockenheit und ausgetrocknete Bäche Natur und Alltag belasten. Gottes Zukunft widerspricht dem, was Menschen zerbricht. Darum bitten wir um Hoffnung, Mut und Schritte zum Frieden an diesem Tag.\",\"audience\":\"breite Öffentlichkeit\",\"tone\":[\"ruhig\",\"hoffnungsvoll\",\"zugewandt\"],\"source_notes\":[\"Aktuelle Bezüge verifiziert über tagesschau.de und SWR Aktuell Baden-Württemberg am 03.09.2026.\",\"Ukraine: tagesschau-Themenseite verweist am 02.09.2026 auf tägliche tödliche russische Drohnenangriffe auf Zivilisten in Cherson.\",\"Gazastreifen: tagesschau meldete am 19.08.2026 nach einem Luftangriff auf eine Polizeiwache in Gaza neun Tote und mindestens 20 Verletzte, eingeliefert ins Al-Schifa-Krankenhaus.\",\"Baden-Württemberg: SWR Aktuell berichtet weiter über Niedrigwasser, ausgetrocknete Bäche und Belastungen durch Trockenheit im Sommer 2026.\",\"Gebet bewusst kurz halten, aber die drei Situationen konkret erkennbar benennen.\",\"Keine Nachrichtenzusammenfassung, sondern Fürbitte mit Hoffnungsperspektive.\"]},\"platforms\":{\"facebook\":{\"text\":\"Gott, dieser Morgen ist da.\\nNicht alles ist leicht.\\nNicht alles ist heil.\\n\\nWir denken an die Menschen in Cherson.\\nAn die, die auf Straßen und vor Häusern von Drohnen bedroht werden.\\nAn Familien, die jeden Tag mit Angst leben.\\n\\nWir denken an die Menschen im Gazastreifen.\\nAn die Verletzten und die Toten nach dem Luftangriff auf eine Polizeiwache.\\nAn die Kranken und an alle, die im Al-Schifa-Krankenhaus helfen, was noch zu helfen ist.\\n\\nWir denken auch an die Menschen in Baden-Württemberg.\\nAn ausgetrocknete Bäche, niedriges Wasser in Flüssen und Seen,\\nund an alle, die spüren, wie Trockenheit die Natur und den Alltag belastet.\\n\\nSei den Leidenden nahe.\\nStärke die, die heilen, trösten und Verantwortung tragen.\\nNimm uns die Müdigkeit des Wegsehens.\\nGib uns heute einen wachen Blick,\\nruhige Worte,\\nund den Mut zu kleinen Schritten des Friedens.\\n\\nDeine Zukunft kommt uns entgegen.\\nDarum gehen wir nicht nur mit Sorge,\\nsondern auch mit Hoffnung in diesen Tag.\",\"headline\":\"Morgengebet für Freitag, 4. September 2026\"},\"instagram\":{\"caption\":\"Gott, dieser Morgen ist da.\\n\\nWir beten für Menschen in Cherson, die weiter russischen Drohnenangriffen auf Zivilisten ausgesetzt sind.\\nWir beten für Menschen im Gazastreifen, die nach dem Luftangriff auf eine Polizeiwache um Tote, Verletzte und Sicherheit ringen.\\nWir beten für Menschen in Baden-Württemberg, wo Niedrigwasser und Trockenheit Flüsse, Bäche und Alltag belasten.\\n\\nSei den Leidenden nahe.\\nStärke die Helfenden.\\nMach uns wach für das, was heute dran ist.\\n\\nDeine Zukunft ist größer als unsere Angst.\\nAmen.\",\"carousel\":[{\"type\":\"text\",\"text\":\"Gott, dieser Morgen ist da.\"},{\"type\":\"text\",\"text\":\"Wir beten für Menschen in Cherson, die unter Drohnenangriffen auf Zivilisten leben.\"},{\"type\":\"text\",\"text\":\"Wir beten für Menschen im Gazastreifen. Für Tote, Verletzte und alle, die im Krankenhaus helfen.\"},{\"type\":\"text\",\"text\":\"Wir beten für Menschen in Baden-Württemberg, wo Trockenheit und Niedrigwasser Natur und Alltag belasten.\"},{\"type\":\"text\",\"text\":\"Gib uns Mut zu kleinen Schritten des Friedens. Deine Zukunft ist größer als unsere Angst.\"}]},\"mastodon\":{\"text\":\"Gott, dieser Morgen ist da.\\nWir beten für Menschen in Cherson unter russischen Drohnenangriffen auf Zivilisten. Für Menschen im Gazastreifen nach dem Luftangriff auf eine Polizeiwache. Und für Menschen in Baden-Württemberg, wo Niedrigwasser und Trockenheit Flüsse, Bäche und Alltag belasten.\\nSei den Leidenden nahe. Stärke die Helfenden. Gib uns Mut zu kleinen Schritten des Friedens. Amen.\"},\"bluesky\":{\"text\":\"Gott, dieser Morgen ist da. Wir beten für Menschen in Cherson unter Drohnenangriffen auf Zivilisten, für Menschen im Gazastreifen nach dem Luftangriff auf eine Polizeiwache und für Menschen in Baden-Württemberg, wo Trockenheit und Niedrigwasser Natur und Alltag belasten. Stärke die Leidenden und die Helfenden. Amen.\"},\"story\":{\"slides\":[{\"text\":\"Gott, dieser Morgen ist da.\"},{\"text\":\"Wir beten für Menschen in Cherson unter Drohnenangriffen auf Zivilisten.\"},{\"text\":\"Wir beten für Menschen im Gazastreifen. Für Tote, Verletzte und Helfende.\"},{\"text\":\"Wir beten für Menschen in Baden-Württemberg. Für Flüsse, Bäche und Felder in der Trockenheit.\"},{\"text\":\"Gib uns Mut zu kleinen Schritten des Friedens. Deine Zukunft kommt uns entgegen.\"}]},\"reel\":{\"hook\":\"Dieser Morgen ist nicht leicht. Aber wir beginnen ihn nicht ohne Hoffnung.\",\"script\":\"Gott, dieser Morgen ist da. Wir bringen vor dich die Menschen in Cherson, die unter Drohnenangriffen auf Zivilisten leben. Wir bringen vor dich die Menschen im Gazastreifen nach dem Luftangriff auf eine Polizeiwache. Wir bringen vor dich die Menschen in Baden-Württemberg, wo Trockenheit und Niedrigwasser sichtbar werden. Sei den Leidenden nahe. Stärke die Helfenden. Und gib uns heute Mut zu kleinen Schritten des Friedens. Deine Zukunft kommt uns entgegen. Amen.\",\"shots\":[\"Morgenlicht auf einem geöffneten Fenster\",\"ruhige Straße im frühen Tageslicht\",\"Wasserlinie an Steinen oder trockenem Flussufer\",\"Hände an einer Tasse, stiller Moment\",\"Licht fällt auf einen Weg\"],\"duration_seconds\":30}},\"visual\":{\"concept\":\"Früher Morgen an einem stillen Flussufer mit sichtbaren Spuren von Trockenheit, weiches Licht, nüchterne und hoffnungsvolle Stimmung.\",\"flux_prompt\":\"Früher Morgen, weiches natürliches Licht, stilles Flussufer in Baden-Württemberg mit sichtbarem Niedrigwasser und freiliegenden Steinen, ruhige Atmosphäre, realistisch, dokumentarischer Bildstil, zurückhaltende Farben, Raum für stille Betrachtung, keine Menschenmenge, keine Schrift, keine Logos\",\"negative_prompt\":\"text, letters, logo, watermark\",\"formats\":[\"4:5\",\"9:16\",\"1.91:1\"],\"alt_text\":\"Frühes Morgenlicht an einem ruhigen Flussufer. Das Wasser steht niedrig, Steine und trockenes Ufer sind sichtbar. Die Szene wirkt still, ernst und zugleich hoffnungsvoll.\"},\"qa\":{\"warnings\":[\"Aktuelle Nachrichtenlage am Morgen des 04.09.2026 vor Veröffentlichung noch einmal gegen tagesschau.de und SWR Aktuell Baden-Württemberg gegenprüfen.\",\"Gebet enthält konkrete aktuelle Bezüge; bei deutlicher Veränderung der Nachrichtenlage bitte anpassen.\",\"Alt text must be completed before approval\"],\"approved\":false},\"metadata\":{\"model\":\"OpenAI GPT-5\",\"generated_at\":\"2026-09-03T00:00:00Z\",\"prompt_version\":\"1.0\",\"assets\":[]}}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "current_turn",
+    "effort": "none",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1,
+  "text": {
+    "format": {
+      "type": "json_schema",
+      "description": null,
+      "name": "content_package",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "Idee",
+              "in Arbeit",
+              "zur Prüfung",
+              "freigegeben",
+              "terminiert",
+              "veröffentlicht",
+              "verworfen"
+            ]
+          },
+          "needs_input": {
+            "type": "boolean"
+          },
+          "source": {
+            "type": "object",
+            "properties": {
+              "calendar_post_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "date": {
+                "type": "string",
+                "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+              },
+              "rubric": {
+                "type": "string",
+                "minLength": 1
+              },
+              "liturgical_source": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "calendar_post_id",
+              "date",
+              "rubric",
+              "liturgical_source"
+            ],
+            "additionalProperties": false
+          },
+          "editorial_core": {
+            "type": "object",
+            "properties": {
+              "title": {
+                "type": "string"
+              },
+              "main_message": {
+                "type": "string"
+              },
+              "audience": {
+                "type": "string"
+              },
+              "tone": {
+                "minItems": 1,
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "source_notes": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "title",
+              "main_message",
+              "audience",
+              "tone",
+              "source_notes"
+            ],
+            "additionalProperties": false
+          },
+          "platforms": {
+            "type": "object",
+            "properties": {
+              "facebook": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  },
+                  "headline": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text",
+                  "headline"
+                ],
+                "additionalProperties": false
+              },
+              "instagram": {
+                "type": "object",
+                "properties": {
+                  "caption": {
+                    "type": "string"
+                  },
+                  "carousel": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "type": {
+                          "type": "string"
+                        },
+                        "text": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "type",
+                        "text"
+                      ],
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "required": [
+                  "caption",
+                  "carousel"
+                ],
+                "additionalProperties": false
+              },
+              "mastodon": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text"
+                ],
+                "additionalProperties": false
+              },
+              "bluesky": {
+                "default": {
+                  "text": ""
+                },
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text"
+                ],
+                "additionalProperties": false
+              },
+              "story": {
+                "type": "object",
+                "properties": {
+                  "slides": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "text": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "text"
+                      ],
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "required": [
+                  "slides"
+                ],
+                "additionalProperties": false
+              },
+              "reel": {
+                "type": "object",
+                "properties": {
+                  "hook": {
+                    "type": "string"
+                  },
+                  "script": {
+                    "type": "string"
+                  },
+                  "shots": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "duration_seconds": {
+                    "type": "integer",
+                    "minimum": 0,
+                    "maximum": 9007199254740991
+                  }
+                },
+                "required": [
+                  "hook",
+                  "script",
+                  "shots",
+                  "duration_seconds"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "required": [
+              "facebook",
+              "instagram",
+              "mastodon",
+              "bluesky",
+              "story",
+              "reel"
+            ],
+            "additionalProperties": false
+          },
+          "visual": {
+            "type": "object",
+            "properties": {
+              "concept": {
+                "type": "string"
+              },
+              "flux_prompt": {
+                "type": "string"
+              },
+              "negative_prompt": {
+                "type": "string",
+                "minLength": 1
+              },
+              "formats": {
+                "minItems": 1,
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "alt_text": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "concept",
+              "flux_prompt",
+              "negative_prompt",
+              "formats",
+              "alt_text"
+            ],
+            "additionalProperties": false
+          },
+          "qa": {
+            "type": "object",
+            "properties": {
+              "warnings": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "approved": {
+                "type": "boolean"
+              }
+            },
+            "required": [
+              "warnings",
+              "approved"
+            ],
+            "additionalProperties": false
+          },
+          "metadata": {
+            "type": "object",
+            "properties": {
+              "model": {
+                "type": "string"
+              },
+              "generated_at": {
+                "type": "string"
+              },
+              "prompt_version": {
+                "type": "string",
+                "minLength": 1
+              },
+              "assets": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "model",
+              "generated_at",
+              "prompt_version",
+              "assets"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "id",
+          "status",
+          "needs_input",
+          "source",
+          "editorial_core",
+          "platforms",
+          "visual",
+          "qa",
+          "metadata"
+        ],
+        "additionalProperties": false
+      },
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 1
+    }
+  },
+  "tools": [
+    {
+      "type": "web_search",
+      "return_token_budget": "default",
+      "search_content_types": [
+        "text"
+      ],
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 11560,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1870,
+    "output_tokens_details": {
+      "reasoning_tokens": 107
+    },
+    "total_tokens": 13430
+  },
+  "user": null,
+  "metadata": {},
+  "output_text": "{\"id\":\"prayer-morning-2026-09-04\",\"status\":\"in Arbeit\",\"needs_input\":false,\"source\":{\"calendar_post_id\":\"prayer-morning-2026-09-04\",\"date\":\"2026-09-04\",\"rubric\":\"Morgengebet\",\"liturgical_source\":\"\"},\"editorial_core\":{\"title\":\"Morgengebet\",\"main_message\":\"Wir beginnen diesen Morgen vor Gott. Wir bringen die Menschen in Cherson vor ihn, die weiter unter systematischen russischen Drohnenangriffen auf Zivilisten leben. Wir beten auch für die Menschen im Gazastreifen, wo nach einem Luftangriff auf eine Polizeiwache Tote und Verletzte ins Al-Schifa-Krankenhaus gebracht wurden. Und wir denken an Menschen in Baden-Württemberg, wo Niedrigwasser, Trockenheit und ausgetrocknete Bäche Natur und Alltag belasten. Gottes Zukunft widerspricht dem, was Menschen zerbricht. Darum bitten wir um Hoffnung, Mut und Schritte zum Frieden an diesem Tag.\",\"audience\":\"breite Öffentlichkeit\",\"tone\":[\"ruhig\",\"hoffnungsvoll\",\"zugewandt\"],\"source_notes\":[\"Aktuelle Bezüge verifiziert über tagesschau.de und SWR Aktuell Baden-Württemberg am 03.09.2026.\",\"Ukraine: tagesschau-Themenseite verweist am 02.09.2026 auf tägliche tödliche russische Drohnenangriffe auf Zivilisten in Cherson.\",\"Gazastreifen: tagesschau meldete am 19.08.2026 nach einem Luftangriff auf eine Polizeiwache in Gaza neun Tote und mindestens 20 Verletzte, eingeliefert ins Al-Schifa-Krankenhaus.\",\"Baden-Württemberg: SWR Aktuell berichtet weiter über Niedrigwasser, ausgetrocknete Bäche und Belastungen durch Trockenheit im Sommer 2026.\",\"Gebet bewusst kurz halten, aber die drei Situationen konkret erkennbar benennen.\",\"Keine Nachrichtenzusammenfassung, sondern Fürbitte mit Hoffnungsperspektive.\"]},\"platforms\":{\"facebook\":{\"text\":\"Gott, dieser Morgen ist da.\\nNicht alles ist leicht.\\nNicht alles ist heil.\\n\\nWir denken an die Menschen in Cherson.\\nAn die, die auf Straßen und vor Häusern von Drohnen bedroht werden.\\nAn Familien, die jeden Tag mit Angst leben.\\n\\nWir denken an die Menschen im Gazastreifen.\\nAn die Verletzten und die Toten nach dem Luftangriff auf eine Polizeiwache.\\nAn die Kranken und an alle, die im Al-Schifa-Krankenhaus helfen, was noch zu helfen ist.\\n\\nWir denken auch an die Menschen in Baden-Württemberg.\\nAn ausgetrocknete Bäche, niedriges Wasser in Flüssen und Seen,\\nund an alle, die spüren, wie Trockenheit die Natur und den Alltag belastet.\\n\\nSei den Leidenden nahe.\\nStärke die, die heilen, trösten und Verantwortung tragen.\\nNimm uns die Müdigkeit des Wegsehens.\\nGib uns heute einen wachen Blick,\\nruhige Worte,\\nund den Mut zu kleinen Schritten des Friedens.\\n\\nDeine Zukunft kommt uns entgegen.\\nDarum gehen wir nicht nur mit Sorge,\\nsondern auch mit Hoffnung in diesen Tag.\",\"headline\":\"Morgengebet für Freitag, 4. September 2026\"},\"instagram\":{\"caption\":\"Gott, dieser Morgen ist da.\\n\\nWir beten für Menschen in Cherson, die weiter russischen Drohnenangriffen auf Zivilisten ausgesetzt sind.\\nWir beten für Menschen im Gazastreifen, die nach dem Luftangriff auf eine Polizeiwache um Tote, Verletzte und Sicherheit ringen.\\nWir beten für Menschen in Baden-Württemberg, wo Niedrigwasser und Trockenheit Flüsse, Bäche und Alltag belasten.\\n\\nSei den Leidenden nahe.\\nStärke die Helfenden.\\nMach uns wach für das, was heute dran ist.\\n\\nDeine Zukunft ist größer als unsere Angst.\\nAmen.\",\"carousel\":[{\"type\":\"text\",\"text\":\"Gott, dieser Morgen ist da.\"},{\"type\":\"text\",\"text\":\"Wir beten für Menschen in Cherson, die unter Drohnenangriffen auf Zivilisten leben.\"},{\"type\":\"text\",\"text\":\"Wir beten für Menschen im Gazastreifen. Für Tote, Verletzte und alle, die im Krankenhaus helfen.\"},{\"type\":\"text\",\"text\":\"Wir beten für Menschen in Baden-Württemberg, wo Trockenheit und Niedrigwasser Natur und Alltag belasten.\"},{\"type\":\"text\",\"text\":\"Gib uns Mut zu kleinen Schritten des Friedens. Deine Zukunft ist größer als unsere Angst.\"}]},\"mastodon\":{\"text\":\"Gott, dieser Morgen ist da.\\nWir beten für Menschen in Cherson unter russischen Drohnenangriffen auf Zivilisten. Für Menschen im Gazastreifen nach dem Luftangriff auf eine Polizeiwache. Und für Menschen in Baden-Württemberg, wo Niedrigwasser und Trockenheit Flüsse, Bäche und Alltag belasten.\\nSei den Leidenden nahe. Stärke die Helfenden. Gib uns Mut zu kleinen Schritten des Friedens. Amen.\"},\"bluesky\":{\"text\":\"Gott, dieser Morgen ist da. Wir beten für Menschen in Cherson unter Drohnenangriffen auf Zivilisten, für Menschen im Gazastreifen nach dem Luftangriff auf eine Polizeiwache und für Menschen in Baden-Württemberg, wo Trockenheit und Niedrigwasser Natur und Alltag belasten. Stärke die Leidenden und die Helfenden. Amen.\"},\"story\":{\"slides\":[{\"text\":\"Gott, dieser Morgen ist da.\"},{\"text\":\"Wir beten für Menschen in Cherson unter Drohnenangriffen auf Zivilisten.\"},{\"text\":\"Wir beten für Menschen im Gazastreifen. Für Tote, Verletzte und Helfende.\"},{\"text\":\"Wir beten für Menschen in Baden-Württemberg. Für Flüsse, Bäche und Felder in der Trockenheit.\"},{\"text\":\"Gib uns Mut zu kleinen Schritten des Friedens. Deine Zukunft kommt uns entgegen.\"}]},\"reel\":{\"hook\":\"Dieser Morgen ist nicht leicht. Aber wir beginnen ihn nicht ohne Hoffnung.\",\"script\":\"Gott, dieser Morgen ist da. Wir bringen vor dich die Menschen in Cherson, die unter Drohnenangriffen auf Zivilisten leben. Wir bringen vor dich die Menschen im Gazastreifen nach dem Luftangriff auf eine Polizeiwache. Wir bringen vor dich die Menschen in Baden-Württemberg, wo Trockenheit und Niedrigwasser sichtbar werden. Sei den Leidenden nahe. Stärke die Helfenden. Und gib uns heute Mut zu kleinen Schritten des Friedens. Deine Zukunft kommt uns entgegen. Amen.\",\"shots\":[\"Morgenlicht auf einem geöffneten Fenster\",\"ruhige Straße im frühen Tageslicht\",\"Wasserlinie an Steinen oder trockenem Flussufer\",\"Hände an einer Tasse, stiller Moment\",\"Licht fällt auf einen Weg\"],\"duration_seconds\":30}},\"visual\":{\"concept\":\"Früher Morgen an einem stillen Flussufer mit sichtbaren Spuren von Trockenheit, weiches Licht, nüchterne und hoffnungsvolle Stimmung.\",\"flux_prompt\":\"Früher Morgen, weiches natürliches Licht, stilles Flussufer in Baden-Württemberg mit sichtbarem Niedrigwasser und freiliegenden Steinen, ruhige Atmosphäre, realistisch, dokumentarischer Bildstil, zurückhaltende Farben, Raum für stille Betrachtung, keine Menschenmenge, keine Schrift, keine Logos\",\"negative_prompt\":\"text, letters, logo, watermark\",\"formats\":[\"4:5\",\"9:16\",\"1.91:1\"],\"alt_text\":\"Frühes Morgenlicht an einem ruhigen Flussufer. Das Wasser steht niedrig, Steine und trockenes Ufer sind sichtbar. Die Szene wirkt still, ernst und zugleich hoffnungsvoll.\"},\"qa\":{\"warnings\":[\"Aktuelle Nachrichtenlage am Morgen des 04.09.2026 vor Veröffentlichung noch einmal gegen tagesschau.de und SWR Aktuell Baden-Württemberg gegenprüfen.\",\"Gebet enthält konkrete aktuelle Bezüge; bei deutlicher Veränderung der Nachrichtenlage bitte anpassen.\",\"Alt text must be completed before approval\"],\"approved\":false},\"metadata\":{\"model\":\"OpenAI GPT-5\",\"generated_at\":\"2026-09-03T00:00:00Z\",\"prompt_version\":\"1.0\",\"assets\":[]}}"
+}
