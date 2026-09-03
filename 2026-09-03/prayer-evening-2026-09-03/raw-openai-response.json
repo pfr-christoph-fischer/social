@@ -1,0 +1,459 @@
+{
+  "id": "resp_07a50410626f16c4006a99371bdc5087d299bee13a54cdebad",
+  "object": "response",
+  "created_at": 1788426011,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1788426045,
+  "error": null,
+  "frequency_penalty": 0,
+  "incomplete_details": null,
+  "instructions": "You are part of a Protestant social media editorial team. Write in clear, accessible, theologically responsible German without church clichés. Use short sentences and concrete imagery. Never invent events, people, school situations, quotes, or factual details. Do not include copyrighted full song verses. For Reli and community posts, only use current details when they are explicitly provided. Return content that strictly matches the requested JSON schema. Set needs_input to true whenever required facts are missing. Keep qa.approved false. Do not ask for any text inside generated images. When liturgical_context.resolved_weekly_verse is present, use its exact wording for Wochenspruch slots instead of placeholders. Use the web search tool before drafting to verify current situations. For prayer posts, current situations are mandatory: select at least two concrete, relevant situations from reliable current reporting, including tagesschau.de and SWR Aktuell Baden-Württemberg where relevant. Do not invent current events and do not replace concrete situations with generic references to crises.",
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.4-2026-03-05",
+  "moderation": null,
+  "output": [
+    {
+      "id": "ws_07a50410626f16c4006a99371d54b487d2b3eba84682b7fbaa",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "queries": [
+          "site:tagesschau.de 2. September 2026 Nachrichten Deutschland Welt",
+          "site:swr.de/swraktuell/baden-wuerttemberg 2. September 2026 Baden-Württemberg Nachrichten",
+          "Reuters September 2 2026 world news humanitarian Europe Asia"
+        ],
+        "query": "site:tagesschau.de 2. September 2026 Nachrichten Deutschland Welt"
+      }
+    },
+    {
+      "id": "ws_07a50410626f16c4006a99371faf2487d28cdcd009c62ae63b",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.swr.de/swraktuell/baden-wuerttemberg/index.html"
+      }
+    },
+    {
+      "id": "msg_07a50410626f16c4006a99372110a487d2ad423a4f0afbc3f3",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\"id\":\"prayer-evening-2026-09-03\",\"status\":\"zur Prüfung\",\"needs_input\":false,\"source\":{\"calendar_post_id\":\"prayer-evening-2026-09-03\",\"date\":\"2026-09-03\",\"rubric\":\"Abendgebet\",\"liturgical_source\":\"\"},\"editorial_core\":{\"title\":\"Abendgebet\",\"main_message\":\"Wir legen diesen Tag in Gottes Hand: das Gute, das unfertig Gebliebene und die Sorge um andere. Wir beten für Menschen, die nach der Sturzflut in Nepal und Tibet weiter nach Vermissten suchen, und für die, die nach den wechselseitigen Angriffen zwischen den USA und Iran in Angst leben. Auch die Unruhe um mögliche Werksschließungen bei Audi in Neckarsulm und die betroffenen Beschäftigten in Baden-Württemberg bringen wir vor Gott. Gottes Zukunft endet nicht an dem, was wir heute nicht lösen konnten.\",\"audience\":\"breite Öffentlichkeit\",\"tone\":[\"ruhig\",\"hoffnungsvoll\",\"geborgen\"],\"source_notes\":[\"Aktuelle Bezüge geprüft: tagesschau.de Archiv Ausland vom 2.9.2026 nennt die andauernde Suche nach Vermissten nach der Sturzflut in Nepal und Tibet.\",\"Aktuelle Bezüge geprüft: tagesschau.de Archiv Ausland vom 2.9.2026 berichtet von erneuten heftigen Angriffen zwischen den USA und Iran sowie von Folgen für Menschen in der Region.\",\"Aktuelle Bezüge geprüft: SWR Aktuell Baden-Württemberg vom 2.9.2026 berichtet über mögliche Werksschließungen bei Audi in Neckarsulm und die Sorge um Folgen für die Region.\",\"Gebet bewusst zeitlich robust formuliert: keine Behauptung über Ereignisse des Veröffentlichungstags, sondern Bezug auf am Vortag relevante und fortdauernde Lagen.\",\"Sprache bewusst schlicht gehalten. Keine Vertröstung. Hoffnung als Loslassen in Gottes Hand.\"]},\"platforms\":{\"facebook\":{\"text\":\"Abendgebet\\n\\nGott,\\nder Tag liegt hinter uns.\\nMit allem, was gut war.\\nMit allem, was schwer war.\\nMit Sätzen, die noch in uns nachklingen.\\nMit Aufgaben, die liegen geblieben sind.\\n\\nWir danken dir für alles, was heute getragen hat.\\nFür einen freundlichen Blick.\\nFür Arbeit, die gelungen ist.\\nFür Wege, die wir nicht allein gehen mussten.\\n\\nUnd wir bringen dir, was unfertig bleibt.\\nUnsere Müdigkeit.\\nUnsere Fehler.\\nUnsere Sorge, nicht genug gewesen zu sein.\\nLass uns loslassen, was wir heute nicht mehr ordnen können.\\n\\nWir bitten dich für Menschen, die nach der Sturzflut in Nepal und Tibet weiter nach Vermissten suchen.\\nFür Familien, die auf ein Lebenszeichen warten.\\nFür Rettungskräfte, die nicht aufgeben.\\n\\nWir bitten dich für die Menschen im Nahen Osten, die unter den erneuten Angriffen zwischen den USA und Iran leben.\\nFür alle, die in dieser Nacht Angst haben.\\nFür Verletzte, für Trauernde, für die, die Schutz suchen.\\n\\nWir bitten dich auch für die Menschen in Neckarsulm und der Region, die auf die Nachrichten um mögliche Werksschließungen bei Audi schauen.\\nFür Beschäftigte und Familien, die nicht wissen, wie es weitergeht.\\n\\nSei bei allen, die heute Nacht arbeiten, wachen, pflegen, fahren, trösten oder um ihr Leben fürchten.\\n\\nGott,\\nwir müssen diese Welt nicht allein durch die Nacht tragen.\\nNimm in deine Hand,\\nwas gut war,\\nwas wehgetan hat,\\nund was offen bleibt.\\nSchenk uns Ruhe.\\nUnd halte die Hoffnung in uns wach.\\n\\nAmen.\",\"headline\":\"Abendgebet: Den Tag loslassen, Hoffnung bewahren\"},\"instagram\":{\"caption\":\"Abendgebet.\\n\\nDer Tag muss nicht fertig werden, damit wir schlafen dürfen.\\nWir legen Gott hin, was gut war. Und auch das, was offen bleibt.\\n\\nHeute beten wir besonders für Menschen, die nach der Sturzflut in Nepal und Tibet weiter nach Vermissten suchen. Und für Menschen im Nahen Osten, die nach den erneuten Angriffen zwischen den USA und Iran in Angst leben. Auch die Sorge vieler Beschäftigter in Neckarsulm und der Region um mögliche Werksschließungen bei Audi bringen wir vor Gott.\\n\\nGott,\\nwas heute war,\\nlegen wir in deine Hand.\\nWas gut war.\\nWas wehgetan hat.\\nWas unfertig bleibt.\\nUns selbst und diese unruhige Welt.\\nSchenk uns Frieden für diese Nacht.\\n\\nAmen.\",\"carousel\":[{\"type\":\"text\",\"text\":\"Abendgebet\\n\\nDer Tag liegt hinter uns.\\nMit allem,\\nwas gut war.\\nUnd mit allem,\\nwas offen bleibt.\"},{\"type\":\"text\",\"text\":\"Gott,\\nwir danken dir\\nfür alles,\\nwas heute getragen hat.\\n\\nUnd wir bringen dir\\nunsere Müdigkeit,\\nunsere Fehler,\\nunsere offenen Enden.\"},{\"type\":\"text\",\"text\":\"Wir bitten dich\\nfür Menschen,\\ndie nach der Sturzflut\\nin Nepal und Tibet\\nweiter nach Vermissten suchen.\"},{\"type\":\"text\",\"text\":\"Wir bitten dich\\nfür Menschen\\nim Nahen Osten,\\ndie nach den erneuten Angriffen\\nzwischen den USA und Iran\\nin Angst leben.\"},{\"type\":\"text\",\"text\":\"Wir bitten dich\\nfür die Beschäftigten\\nin Neckarsulm\\nund ihre Familien,\\ndie auf Klarheit hoffen.\"},{\"type\":\"text\",\"text\":\"Gott,\\nwir müssen die Welt\\nnicht allein\\ndurch diese Nacht tragen.\\n\\nSchenk uns Ruhe.\\nUnd halte Hoffnung\\nin uns wach.\\nAmen.\"}]},\"mastodon\":{\"text\":\"Abendgebet\\n\\nGott, wir legen dir diesen Tag hin. Das Gute. Das Schwere. Das Unfertige.\\n\\nWir bitten dich für Menschen, die nach der Sturzflut in Nepal und Tibet weiter nach Vermissten suchen. Für Menschen im Nahen Osten, die nach den erneuten Angriffen zwischen den USA und Iran in Angst leben. Und für Beschäftigte in Neckarsulm und der Region, die wegen möglicher Werksschließungen um ihre Zukunft bangen.\\n\\nSchenk Ruhe für diese Nacht. Und halte Hoffnung in uns wach.\\nAmen.\"},\"bluesky\":{\"text\":\"Abendgebet\\n\\nGott, wir legen dir diesen Tag hin. Das Gute. Das Schwere. Das Unfertige.\\n\\nWir bitten dich für Menschen, die nach der Sturzflut in Nepal und Tibet weiter nach Vermissten suchen. Für Menschen im Nahen Osten, die nach den erneuten Angriffen zwischen den USA und Iran in Angst leben. Und für Beschäftigte in Neckarsulm und der Region, die um ihre Zukunft bangen.\\n\\nSchenk Ruhe für diese Nacht. Amen.\"},\"story\":{\"slides\":[{\"text\":\"Abendgebet\\n\\nDer Tag liegt hinter uns.\"},{\"text\":\"Was gut war.\\nWas schwer war.\\nWas offen bleibt.\"},{\"text\":\"Wir beten für Menschen,\\ndie nach der Sturzflut\\nin Nepal und Tibet\\nweiter suchen.\"},{\"text\":\"Wir beten für Menschen\\nim Nahen Osten,\\ndie nach den Angriffen\\nin Angst leben.\"},{\"text\":\"Wir beten für Beschäftigte\\nin Neckarsulm\\nund ihre Familien.\"},{\"text\":\"Gott,\\nschenk uns Ruhe.\\nUnd halte Hoffnung\\nin uns wach.\\nAmen.\"}]},\"reel\":{\"hook\":\"Der Tag muss nicht fertig werden, damit du ihn loslassen darfst.\",\"script\":\"Der Tag liegt hinter dir. Mit allem, was gut war. Und mit allem, was offen geblieben ist. In diesem Abendgebet bringen wir Gott auch die Weltlage: Menschen, die nach der Sturzflut in Nepal und Tibet weiter nach Vermissten suchen. Menschen im Nahen Osten, die nach erneuten Angriffen zwischen den USA und Iran in Angst leben. Und Beschäftigte in Neckarsulm, die um ihre Zukunft bangen. Gott, nimm diesen Tag in deine Hand. Schenk uns Ruhe. Und halte Hoffnung in uns wach. Amen.\",\"shots\":[\"Dämmerung über einer ruhigen Stadt\",\"Eine Hand legt einen Schlüssel auf einen Tisch\",\"Licht in einem Fenster, draußen Abendhimmel\",\"Leere Straße im weichen Abendlicht\",\"Nahaufnahme von stillen Händen\",\"Langsame Fahrt in den dunkler werdenden Himmel\"],\"duration_seconds\":30}},\"visual\":{\"concept\":\"Ruhige Abendszene mit weichem Restlicht, ein offenes Fenster oder ein Tisch mit abgelegten Alltagsdingen als Bild für Loslassen und Vertrauen.\",\"flux_prompt\":\"Atmosphärische fotografische Abendszene, weiches blau-goldenes Restlicht, schlichtes Zimmer mit offenem Fenster oder Holztisch, darauf abgelegte Alltagsgegenstände wie Schlüssel oder Notizbuch, ruhige Stimmung, viel Luft im Bild, natürliche Farben, dokumentarisch, warm, hoffnungsvoll, keine Menschen frontal, keine Schrift, keine Logos\",\"negative_prompt\":\"text, letters, logo, watermark\",\"formats\":[\"4:5\",\"9:16\",\"1.91:1\"],\"alt_text\":\"Ein ruhiger Innenraum im Abendlicht. Auf einem schlichten Holztisch liegen abgelegte Alltagsdinge wie ein Schlüssel und ein geschlossenes Notizbuch. Im Hintergrund fällt kühles Dämmerungslicht durch ein offenes Fenster. Das Bild wirkt still, warm und entlastend.\"},\"qa\":{\"warnings\":[\"Aktuelle Bezüge eingebaut: Sturzflut in Nepal und Tibet; erneute Angriffe zwischen USA und Iran; Sorge um mögliche Werksschließungen bei Audi in Neckarsulm.\",\"Vor Veröffentlichung redaktionell prüfen, ob die Lage zu Audi in Neckarsulm bis zum Posting sprachlich noch ausreichend vorsichtig formuliert ist.\",\"Prüfen, ob für einzelne Plattformen Kürzungen nötig sind.\"],\"approved\":false},\"metadata\":{\"model\":\"gpt-5\",\"generated_at\":\"2026-09-03T00:00:00Z\",\"prompt_version\":\"1.0\",\"assets\":[]}}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "current_turn",
+    "effort": "none",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1,
+  "text": {
+    "format": {
+      "type": "json_schema",
+      "description": null,
+      "name": "content_package",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "Idee",
+              "in Arbeit",
+              "zur Prüfung",
+              "freigegeben",
+              "terminiert",
+              "veröffentlicht",
+              "verworfen"
+            ]
+          },
+          "needs_input": {
+            "type": "boolean"
+          },
+          "source": {
+            "type": "object",
+            "properties": {
+              "calendar_post_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "date": {
+                "type": "string",
+                "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+              },
+              "rubric": {
+                "type": "string",
+                "minLength": 1
+              },
+              "liturgical_source": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "calendar_post_id",
+              "date",
+              "rubric",
+              "liturgical_source"
+            ],
+            "additionalProperties": false
+          },
+          "editorial_core": {
+            "type": "object",
+            "properties": {
+              "title": {
+                "type": "string"
+              },
+              "main_message": {
+                "type": "string"
+              },
+              "audience": {
+                "type": "string"
+              },
+              "tone": {
+                "minItems": 1,
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "source_notes": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "title",
+              "main_message",
+              "audience",
+              "tone",
+              "source_notes"
+            ],
+            "additionalProperties": false
+          },
+          "platforms": {
+            "type": "object",
+            "properties": {
+              "facebook": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  },
+                  "headline": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text",
+                  "headline"
+                ],
+                "additionalProperties": false
+              },
+              "instagram": {
+                "type": "object",
+                "properties": {
+                  "caption": {
+                    "type": "string"
+                  },
+                  "carousel": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "type": {
+                          "type": "string"
+                        },
+                        "text": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "type",
+                        "text"
+                      ],
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "required": [
+                  "caption",
+                  "carousel"
+                ],
+                "additionalProperties": false
+              },
+              "mastodon": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text"
+                ],
+                "additionalProperties": false
+              },
+              "bluesky": {
+                "default": {
+                  "text": ""
+                },
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text"
+                ],
+                "additionalProperties": false
+              },
+              "story": {
+                "type": "object",
+                "properties": {
+                  "slides": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "text": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "text"
+                      ],
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "required": [
+                  "slides"
+                ],
+                "additionalProperties": false
+              },
+              "reel": {
+                "type": "object",
+                "properties": {
+                  "hook": {
+                    "type": "string"
+                  },
+                  "script": {
+                    "type": "string"
+                  },
+                  "shots": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "duration_seconds": {
+                    "type": "integer",
+                    "minimum": 0,
+                    "maximum": 9007199254740991
+                  }
+                },
+                "required": [
+                  "hook",
+                  "script",
+                  "shots",
+                  "duration_seconds"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "required": [
+              "facebook",
+              "instagram",
+              "mastodon",
+              "bluesky",
+              "story",
+              "reel"
+            ],
+            "additionalProperties": false
+          },
+          "visual": {
+            "type": "object",
+            "properties": {
+              "concept": {
+                "type": "string"
+              },
+              "flux_prompt": {
+                "type": "string"
+              },
+              "negative_prompt": {
+                "type": "string",
+                "minLength": 1
+              },
+              "formats": {
+                "minItems": 1,
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "alt_text": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "concept",
+              "flux_prompt",
+              "negative_prompt",
+              "formats",
+              "alt_text"
+            ],
+            "additionalProperties": false
+          },
+          "qa": {
+            "type": "object",
+            "properties": {
+              "warnings": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "approved": {
+                "type": "boolean"
+              }
+            },
+            "required": [
+              "warnings",
+              "approved"
+            ],
+            "additionalProperties": false
+          },
+          "metadata": {
+            "type": "object",
+            "properties": {
+              "model": {
+                "type": "string"
+              },
+              "generated_at": {
+                "type": "string"
+              },
+              "prompt_version": {
+                "type": "string",
+                "minLength": 1
+              },
+              "assets": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "model",
+              "generated_at",
+              "prompt_version",
+              "assets"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "id",
+          "status",
+          "needs_input",
+          "source",
+          "editorial_core",
+          "platforms",
+          "visual",
+          "qa",
+          "metadata"
+        ],
+        "additionalProperties": false
+      },
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 1
+    }
+  },
+  "tools": [
+    {
+      "type": "web_search",
+      "return_token_budget": "default",
+      "search_content_types": [
+        "text"
+      ],
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 17144,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 2300,
+    "output_tokens_details": {
+      "reasoning_tokens": 154
+    },
+    "total_tokens": 19444
+  },
+  "user": null,
+  "metadata": {},
+  "output_text": "{\"id\":\"prayer-evening-2026-09-03\",\"status\":\"zur Prüfung\",\"needs_input\":false,\"source\":{\"calendar_post_id\":\"prayer-evening-2026-09-03\",\"date\":\"2026-09-03\",\"rubric\":\"Abendgebet\",\"liturgical_source\":\"\"},\"editorial_core\":{\"title\":\"Abendgebet\",\"main_message\":\"Wir legen diesen Tag in Gottes Hand: das Gute, das unfertig Gebliebene und die Sorge um andere. Wir beten für Menschen, die nach der Sturzflut in Nepal und Tibet weiter nach Vermissten suchen, und für die, die nach den wechselseitigen Angriffen zwischen den USA und Iran in Angst leben. Auch die Unruhe um mögliche Werksschließungen bei Audi in Neckarsulm und die betroffenen Beschäftigten in Baden-Württemberg bringen wir vor Gott. Gottes Zukunft endet nicht an dem, was wir heute nicht lösen konnten.\",\"audience\":\"breite Öffentlichkeit\",\"tone\":[\"ruhig\",\"hoffnungsvoll\",\"geborgen\"],\"source_notes\":[\"Aktuelle Bezüge geprüft: tagesschau.de Archiv Ausland vom 2.9.2026 nennt die andauernde Suche nach Vermissten nach der Sturzflut in Nepal und Tibet.\",\"Aktuelle Bezüge geprüft: tagesschau.de Archiv Ausland vom 2.9.2026 berichtet von erneuten heftigen Angriffen zwischen den USA und Iran sowie von Folgen für Menschen in der Region.\",\"Aktuelle Bezüge geprüft: SWR Aktuell Baden-Württemberg vom 2.9.2026 berichtet über mögliche Werksschließungen bei Audi in Neckarsulm und die Sorge um Folgen für die Region.\",\"Gebet bewusst zeitlich robust formuliert: keine Behauptung über Ereignisse des Veröffentlichungstags, sondern Bezug auf am Vortag relevante und fortdauernde Lagen.\",\"Sprache bewusst schlicht gehalten. Keine Vertröstung. Hoffnung als Loslassen in Gottes Hand.\"]},\"platforms\":{\"facebook\":{\"text\":\"Abendgebet\\n\\nGott,\\nder Tag liegt hinter uns.\\nMit allem, was gut war.\\nMit allem, was schwer war.\\nMit Sätzen, die noch in uns nachklingen.\\nMit Aufgaben, die liegen geblieben sind.\\n\\nWir danken dir für alles, was heute getragen hat.\\nFür einen freundlichen Blick.\\nFür Arbeit, die gelungen ist.\\nFür Wege, die wir nicht allein gehen mussten.\\n\\nUnd wir bringen dir, was unfertig bleibt.\\nUnsere Müdigkeit.\\nUnsere Fehler.\\nUnsere Sorge, nicht genug gewesen zu sein.\\nLass uns loslassen, was wir heute nicht mehr ordnen können.\\n\\nWir bitten dich für Menschen, die nach der Sturzflut in Nepal und Tibet weiter nach Vermissten suchen.\\nFür Familien, die auf ein Lebenszeichen warten.\\nFür Rettungskräfte, die nicht aufgeben.\\n\\nWir bitten dich für die Menschen im Nahen Osten, die unter den erneuten Angriffen zwischen den USA und Iran leben.\\nFür alle, die in dieser Nacht Angst haben.\\nFür Verletzte, für Trauernde, für die, die Schutz suchen.\\n\\nWir bitten dich auch für die Menschen in Neckarsulm und der Region, die auf die Nachrichten um mögliche Werksschließungen bei Audi schauen.\\nFür Beschäftigte und Familien, die nicht wissen, wie es weitergeht.\\n\\nSei bei allen, die heute Nacht arbeiten, wachen, pflegen, fahren, trösten oder um ihr Leben fürchten.\\n\\nGott,\\nwir müssen diese Welt nicht allein durch die Nacht tragen.\\nNimm in deine Hand,\\nwas gut war,\\nwas wehgetan hat,\\nund was offen bleibt.\\nSchenk uns Ruhe.\\nUnd halte die Hoffnung in uns wach.\\n\\nAmen.\",\"headline\":\"Abendgebet: Den Tag loslassen, Hoffnung bewahren\"},\"instagram\":{\"caption\":\"Abendgebet.\\n\\nDer Tag muss nicht fertig werden, damit wir schlafen dürfen.\\nWir legen Gott hin, was gut war. Und auch das, was offen bleibt.\\n\\nHeute beten wir besonders für Menschen, die nach der Sturzflut in Nepal und Tibet weiter nach Vermissten suchen. Und für Menschen im Nahen Osten, die nach den erneuten Angriffen zwischen den USA und Iran in Angst leben. Auch die Sorge vieler Beschäftigter in Neckarsulm und der Region um mögliche Werksschließungen bei Audi bringen wir vor Gott.\\n\\nGott,\\nwas heute war,\\nlegen wir in deine Hand.\\nWas gut war.\\nWas wehgetan hat.\\nWas unfertig bleibt.\\nUns selbst und diese unruhige Welt.\\nSchenk uns Frieden für diese Nacht.\\n\\nAmen.\",\"carousel\":[{\"type\":\"text\",\"text\":\"Abendgebet\\n\\nDer Tag liegt hinter uns.\\nMit allem,\\nwas gut war.\\nUnd mit allem,\\nwas offen bleibt.\"},{\"type\":\"text\",\"text\":\"Gott,\\nwir danken dir\\nfür alles,\\nwas heute getragen hat.\\n\\nUnd wir bringen dir\\nunsere Müdigkeit,\\nunsere Fehler,\\nunsere offenen Enden.\"},{\"type\":\"text\",\"text\":\"Wir bitten dich\\nfür Menschen,\\ndie nach der Sturzflut\\nin Nepal und Tibet\\nweiter nach Vermissten suchen.\"},{\"type\":\"text\",\"text\":\"Wir bitten dich\\nfür Menschen\\nim Nahen Osten,\\ndie nach den erneuten Angriffen\\nzwischen den USA und Iran\\nin Angst leben.\"},{\"type\":\"text\",\"text\":\"Wir bitten dich\\nfür die Beschäftigten\\nin Neckarsulm\\nund ihre Familien,\\ndie auf Klarheit hoffen.\"},{\"type\":\"text\",\"text\":\"Gott,\\nwir müssen die Welt\\nnicht allein\\ndurch diese Nacht tragen.\\n\\nSchenk uns Ruhe.\\nUnd halte Hoffnung\\nin uns wach.\\nAmen.\"}]},\"mastodon\":{\"text\":\"Abendgebet\\n\\nGott, wir legen dir diesen Tag hin. Das Gute. Das Schwere. Das Unfertige.\\n\\nWir bitten dich für Menschen, die nach der Sturzflut in Nepal und Tibet weiter nach Vermissten suchen. Für Menschen im Nahen Osten, die nach den erneuten Angriffen zwischen den USA und Iran in Angst leben. Und für Beschäftigte in Neckarsulm und der Region, die wegen möglicher Werksschließungen um ihre Zukunft bangen.\\n\\nSchenk Ruhe für diese Nacht. Und halte Hoffnung in uns wach.\\nAmen.\"},\"bluesky\":{\"text\":\"Abendgebet\\n\\nGott, wir legen dir diesen Tag hin. Das Gute. Das Schwere. Das Unfertige.\\n\\nWir bitten dich für Menschen, die nach der Sturzflut in Nepal und Tibet weiter nach Vermissten suchen. Für Menschen im Nahen Osten, die nach den erneuten Angriffen zwischen den USA und Iran in Angst leben. Und für Beschäftigte in Neckarsulm und der Region, die um ihre Zukunft bangen.\\n\\nSchenk Ruhe für diese Nacht. Amen.\"},\"story\":{\"slides\":[{\"text\":\"Abendgebet\\n\\nDer Tag liegt hinter uns.\"},{\"text\":\"Was gut war.\\nWas schwer war.\\nWas offen bleibt.\"},{\"text\":\"Wir beten für Menschen,\\ndie nach der Sturzflut\\nin Nepal und Tibet\\nweiter suchen.\"},{\"text\":\"Wir beten für Menschen\\nim Nahen Osten,\\ndie nach den Angriffen\\nin Angst leben.\"},{\"text\":\"Wir beten für Beschäftigte\\nin Neckarsulm\\nund ihre Familien.\"},{\"text\":\"Gott,\\nschenk uns Ruhe.\\nUnd halte Hoffnung\\nin uns wach.\\nAmen.\"}]},\"reel\":{\"hook\":\"Der Tag muss nicht fertig werden, damit du ihn loslassen darfst.\",\"script\":\"Der Tag liegt hinter dir. Mit allem, was gut war. Und mit allem, was offen geblieben ist. In diesem Abendgebet bringen wir Gott auch die Weltlage: Menschen, die nach der Sturzflut in Nepal und Tibet weiter nach Vermissten suchen. Menschen im Nahen Osten, die nach erneuten Angriffen zwischen den USA und Iran in Angst leben. Und Beschäftigte in Neckarsulm, die um ihre Zukunft bangen. Gott, nimm diesen Tag in deine Hand. Schenk uns Ruhe. Und halte Hoffnung in uns wach. Amen.\",\"shots\":[\"Dämmerung über einer ruhigen Stadt\",\"Eine Hand legt einen Schlüssel auf einen Tisch\",\"Licht in einem Fenster, draußen Abendhimmel\",\"Leere Straße im weichen Abendlicht\",\"Nahaufnahme von stillen Händen\",\"Langsame Fahrt in den dunkler werdenden Himmel\"],\"duration_seconds\":30}},\"visual\":{\"concept\":\"Ruhige Abendszene mit weichem Restlicht, ein offenes Fenster oder ein Tisch mit abgelegten Alltagsdingen als Bild für Loslassen und Vertrauen.\",\"flux_prompt\":\"Atmosphärische fotografische Abendszene, weiches blau-goldenes Restlicht, schlichtes Zimmer mit offenem Fenster oder Holztisch, darauf abgelegte Alltagsgegenstände wie Schlüssel oder Notizbuch, ruhige Stimmung, viel Luft im Bild, natürliche Farben, dokumentarisch, warm, hoffnungsvoll, keine Menschen frontal, keine Schrift, keine Logos\",\"negative_prompt\":\"text, letters, logo, watermark\",\"formats\":[\"4:5\",\"9:16\",\"1.91:1\"],\"alt_text\":\"Ein ruhiger Innenraum im Abendlicht. Auf einem schlichten Holztisch liegen abgelegte Alltagsdinge wie ein Schlüssel und ein geschlossenes Notizbuch. Im Hintergrund fällt kühles Dämmerungslicht durch ein offenes Fenster. Das Bild wirkt still, warm und entlastend.\"},\"qa\":{\"warnings\":[\"Aktuelle Bezüge eingebaut: Sturzflut in Nepal und Tibet; erneute Angriffe zwischen USA und Iran; Sorge um mögliche Werksschließungen bei Audi in Neckarsulm.\",\"Vor Veröffentlichung redaktionell prüfen, ob die Lage zu Audi in Neckarsulm bis zum Posting sprachlich noch ausreichend vorsichtig formuliert ist.\",\"Prüfen, ob für einzelne Plattformen Kürzungen nötig sind.\"],\"approved\":false},\"metadata\":{\"model\":\"gpt-5\",\"generated_at\":\"2026-09-03T00:00:00Z\",\"prompt_version\":\"1.0\",\"assets\":[]}}"
+}
