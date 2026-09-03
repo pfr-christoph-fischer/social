@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-03",
+    "contentDate": "2026-09-03",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-09-03T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Auf dich, HERR, sehen meine Augen; ich traue auf dich, gib mich nicht in den Tod dahin.",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Auf dich, HERR, sehen meine Augen; ich traue auf dich, gib mich nicht in den Tod dahin."
+    ],
+    "id": "253fa9a4-2061-4459-8ce0-29a4cb409400",
+    "attemptCount": 1,
+    "remoteId": "18054847565560060",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:44:59.048Z",
+    "updatedAt": "2026-09-03T05:00:27.287Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-03",
+    "contentDate": "2026-09-03",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-09-03T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Auf dich, HERR, sehen meine Augen; ich traue auf dich, gib mich nicht in den Tod dahin.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Auf dich, HERR, sehen meine Augen; ich traue auf dich, gib mich nicht in den Tod dahin."
+    ],
+    "id": "d3bde92b-23a0-420a-9d7a-9874853f04ba",
+    "attemptCount": 1,
+    "remoteId": "117205344470960696",
+    "remoteUrl": "https://kirche.social/@christoph/117205344470960696",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:44:59.051Z",
+    "updatedAt": "2026-09-03T05:00:28.390Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
