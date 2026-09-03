@@ -27,5 +27,68 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "prayer-morning-2026-09-03",
+    "contentDate": "2026-09-03",
+    "platform": "instagram",
+    "format": "default",
+    "scheduledAt": "2026-09-03T05:15:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Gott,\ndieser Morgen ist da.\n\nWir bringen dir die Menschen in Ägypten.\nNach dem Busunglück sind Menschen tot. Andere sind verletzt.\nSei den Verwundeten nah.\nStärke alle, die helfen, retten und begleiten.\n\nWir bringen dir auch unser Land.\nWir sehen den wachsenden Rechtsextremismus.\nBewahre die, die bedroht werden.\nStärke alle, die für Menschenwürde und Zusammenhalt einstehen.\n\nHalte auch uns wach.\nZeig uns den kleinen Schritt, der heute Frieden macht.\n\nDeine Zukunft kommt uns entgegen.\nDarum gehen wir mit Hoffnung in diesen Tag.\nAmen.",
+    "assets": [
+      "render-instagram-feed-01.jpg",
+      "render-instagram-feed-02.jpg",
+      "render-instagram-feed-03.jpg",
+      "render-instagram-feed-04.jpg",
+      "render-instagram-feed-05.jpg",
+      "render-instagram-feed-06.jpg",
+      "render-instagram-feed-07.jpg"
+    ],
+    "altTexts": [
+      "Ein schlichter Tisch im Morgenlicht an einem offenen Fenster. Das ruhige Bild schafft Raum für Gebet, Trauer und Wachheit gegenüber dem Leid von Menschen und den Spannungen in der Gesellschaft."
+    ],
+    "id": "f2da2845-fb7e-49da-9bec-bb4197c799f2",
+    "attemptCount": 1,
+    "remoteId": "18245349775309576",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-09-02T20:12:06.470Z",
+    "updatedAt": "2026-09-03T05:16:03.567Z",
+    "responseMetadata": {
+      "mediaCount": 7,
+      "mediaType": "CAROUSEL",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "prayer-morning-2026-09-03",
+    "contentDate": "2026-09-03",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-09-03T05:15:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Gott, dieser Morgen ist da.\n\nWir bringen dir die Menschen in Ägypten. Nach dem Busunglück sind Menschen tot, andere verletzt. Stärke alle, die helfen, retten und begleiten.\n\nWir bringen dir auch unser Land. Wir sehen den wachsenden Rechtsextremismus. Bewahre die, die bedroht werden, und stärke alle, die für Menschenwürde und Zusammenhalt einstehen.\n\nHalte auch uns wach. Zeig uns den kleinen Schritt, der heute Frieden macht.\nAmen.",
+    "assets": [
+      "render-facebook-mastodon-01.png"
+    ],
+    "altTexts": [
+      "Ein schlichter Tisch im Morgenlicht an einem offenen Fenster. Das ruhige Bild schafft Raum für Gebet, Trauer und Wachheit gegenüber dem Leid von Menschen und den Spannungen in der Gesellschaft."
+    ],
+    "id": "2f834ecd-f520-458f-82b7-28b35faec4fa",
+    "attemptCount": 1,
+    "remoteId": "117205405839454043",
+    "remoteUrl": "https://kirche.social/@christoph/117205405839454043",
+    "lastError": null,
+    "createdAt": "2026-09-02T20:12:06.566Z",
+    "updatedAt": "2026-09-03T05:16:04.968Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
