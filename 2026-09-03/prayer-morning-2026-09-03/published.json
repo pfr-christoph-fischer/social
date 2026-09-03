@@ -156,5 +156,51 @@
       "status": 201
     },
     "retryHistory": []
+  },
+  {
+    "postId": "prayer-morning-2026-09-03",
+    "contentDate": "2026-09-03",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-09-03T05:15:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Gott, dieser Morgen ist da. Wir bringen dir die Menschen in Ägypten nach dem Busunglück und alle, die trauern oder helfen. Und wir bringen dir unser Land mit der Sorge über wachsenden Rechtsextremismus. Halte uns wach für den kleinen Schritt zum Frieden heute. Amen.",
+    "assets": [
+      "render-instagram-feed-01.jpg",
+      "render-instagram-feed-02.jpg",
+      "render-instagram-feed-03.jpg",
+      "render-instagram-feed-04.jpg",
+      "render-instagram-feed-05.jpg",
+      "render-instagram-feed-06.jpg",
+      "render-instagram-feed-07.jpg"
+    ],
+    "altTexts": [
+      "Ein schlichter Tisch im Morgenlicht an einem offenen Fenster. Das ruhige Bild schafft Raum für Gebet, Trauer und Wachheit gegenüber dem Leid von Menschen und den Spannungen in der Gesellschaft."
+    ],
+    "id": "2372720e-b931-4d66-b6af-b4d39d087168",
+    "attemptCount": 3,
+    "remoteId": "17927217807166327",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-09-02T20:12:06.692Z",
+    "updatedAt": "2026-09-03T05:25:49.886Z",
+    "responseMetadata": {
+      "mediaCount": 7,
+      "mediaType": "CAROUSEL",
+      "status": 200
+    },
+    "retryHistory": [
+      {
+        "at": "2026-09-03T05:16:45.623Z",
+        "error": "threads: Container konnte nicht veröffentlicht werden (400): The requested resource does not exist (Code 24) Le contenu multimédia présentant l’ID 17978019117107901 est introuvable.",
+        "attempt": 1
+      },
+      {
+        "at": "2026-09-03T05:20:49.467Z",
+        "error": "threads: Container konnte nicht veröffentlicht werden (400): The requested resource does not exist (Code 24) Le contenu multimédia présentant l’ID 17978019375107901 est introuvable.",
+        "attempt": 2
+      }
+    ]
   }
 ]
