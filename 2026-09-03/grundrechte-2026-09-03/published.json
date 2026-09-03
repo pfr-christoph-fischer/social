@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-09-03",
+    "contentDate": "2026-09-03",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-09-03T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Alle Menschen haben das Recht, sich friedlich zu versammeln und zu Vereinigungen zusammenzuschließen. (Allgemeine Erklärung der Menschenrechte, Artikel 20 Absatz 1)",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Alle Menschen haben das Recht, sich friedlich zu versammeln und zu Vereinigungen zusammenzuschließen. (Allgemeine Erklärung der Menschenrechte, Artikel 20 Absatz 1)"
+    ],
+    "id": "f3e3faa2-7a9c-4036-9f04-ddf1ae122188",
+    "attemptCount": 1,
+    "remoteId": "18097911230367444",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:37:27.211Z",
+    "updatedAt": "2026-09-03T10:00:34.017Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-09-03",
+    "contentDate": "2026-09-03",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-09-03T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Alle Menschen haben das Recht, sich friedlich zu versammeln und zu Vereinigungen zusammenzuschließen. (Allgemeine Erklärung der Menschenrechte, Artikel 20 Absatz 1)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Alle Menschen haben das Recht, sich friedlich zu versammeln und zu Vereinigungen zusammenzuschließen. (Allgemeine Erklärung der Menschenrechte, Artikel 20 Absatz 1)"
+    ],
+    "id": "512d9922-c4ca-4c83-99fe-2625e431b822",
+    "attemptCount": 1,
+    "remoteId": "117206524637714083",
+    "remoteUrl": "https://kirche.social/@christoph/117206524637714083",
+    "lastError": null,
+    "createdAt": "2026-08-26T15:37:27.257Z",
+    "updatedAt": "2026-09-03T10:00:36.299Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
