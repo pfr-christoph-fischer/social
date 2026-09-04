@@ -27,5 +27,66 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "post-0026",
+    "contentDate": "2026-09-04",
+    "platform": "instagram",
+    "format": "default",
+    "scheduledAt": "2026-09-04T07:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Vertraut den neuen Wegen.\n\nNicht alles ist geklärt.\nNicht alles ist leicht.\nUnd doch muss ich mich nicht festkrallen an dem, was ich schon kenne.\n\nGott geht mit in das Offene.\nIn kleine Schritte.\nIn leise Entscheidungen.\nIn den Blick für den Menschen neben mir.\n\nChristus spricht: Was ihr getan habt einem von diesen meinen geringsten Brüdern, das habt ihr mir getan. (Mt 25,40b)\n\nGebet:\nGott,\nich lasse diese Woche bei dir.\nNimm den Druck aus meinen Schultern.\nÖffne meinen Blick für den Menschen vor mir.\nUnd gib mir Vertrauen für den nächsten Schritt.\nAmen.",
+    "assets": [
+      "render-instagram-feed-01.jpg",
+      "render-instagram-feed-02.jpg",
+      "render-instagram-feed-03.jpg",
+      "render-instagram-feed-04.jpg",
+      "render-instagram-feed-05.jpg"
+    ],
+    "altTexts": [
+      "Ein schmaler Weg führt durch eine ruhige Landschaft im warmen Abendlicht. Die Szene wirkt offen und still. Sie erinnert an Aufbruch, Vertrauen und einen behutsamen Schritt ins Wochenende."
+    ],
+    "id": "a33e357c-f995-4ee5-8582-28a24f8e3e17",
+    "attemptCount": 1,
+    "remoteId": "18392103100167617",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-09-04T06:20:23.877Z",
+    "updatedAt": "2026-09-04T07:00:57.057Z",
+    "responseMetadata": {
+      "mediaCount": 5,
+      "mediaType": "CAROUSEL",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "post-0026",
+    "contentDate": "2026-09-04",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-09-04T07:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Vertraut den neuen Wegen.\n\nAm Ende der Woche darf unfertig bleiben, was noch Zeit braucht. Gott geht mit in das Offene. Und er begegnet uns im Menschen neben uns.\n\nChristus spricht: Was ihr getan habt einem von diesen meinen geringsten Brüdern, das habt ihr mir getan. (Mt 25,40b)",
+    "assets": [
+      "render-facebook-mastodon-01.png"
+    ],
+    "altTexts": [
+      "Ein schmaler Weg führt durch eine ruhige Landschaft im warmen Abendlicht. Die Szene wirkt offen und still. Sie erinnert an Aufbruch, Vertrauen und einen behutsamen Schritt ins Wochenende."
+    ],
+    "id": "0e14dec4-b5c2-4c70-a9c5-c0f01b2292b9",
+    "attemptCount": 1,
+    "remoteId": "117211480598037790",
+    "remoteUrl": "https://kirche.social/@christoph/117211480598037790",
+    "lastError": null,
+    "createdAt": "2026-09-04T06:20:23.930Z",
+    "updatedAt": "2026-09-04T07:00:58.211Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
