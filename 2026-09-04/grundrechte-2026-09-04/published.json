@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-09-04",
+    "contentDate": "2026-09-04",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-09-04T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Niemand darf gezwungen werden, einer Vereinigung anzugehören. (Allgemeine Erklärung der Menschenrechte, Artikel 20 Absatz 2)",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Niemand darf gezwungen werden, einer Vereinigung anzugehören. (Allgemeine Erklärung der Menschenrechte, Artikel 20 Absatz 2)"
+    ],
+    "id": "84d1a41b-0ca8-48b6-b384-c3447bdf9830",
+    "attemptCount": 1,
+    "remoteId": "18188993488398263",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:37:30.411Z",
+    "updatedAt": "2026-09-04T10:00:24.992Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-09-04",
+    "contentDate": "2026-09-04",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-09-04T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Niemand darf gezwungen werden, einer Vereinigung anzugehören. (Allgemeine Erklärung der Menschenrechte, Artikel 20 Absatz 2)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Niemand darf gezwungen werden, einer Vereinigung anzugehören. (Allgemeine Erklärung der Menschenrechte, Artikel 20 Absatz 2)"
+    ],
+    "id": "e7d3b055-a933-445b-900a-5534277a8d1d",
+    "attemptCount": 1,
+    "remoteId": "117212186286841164",
+    "remoteUrl": "https://kirche.social/@christoph/117212186286841164",
+    "lastError": null,
+    "createdAt": "2026-08-26T15:37:30.465Z",
+    "updatedAt": "2026-09-04T10:00:26.160Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
