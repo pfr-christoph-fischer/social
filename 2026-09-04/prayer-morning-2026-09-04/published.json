@@ -27,5 +27,66 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "prayer-morning-2026-09-04",
+    "contentDate": "2026-09-04",
+    "platform": "instagram",
+    "format": "default",
+    "scheduledAt": "2026-09-04T05:15:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Gott, dieser Morgen ist da.\n\nWir beten für Menschen in Südamerika, wo die Sorge vor El Niño wächst und viele um Wetterextreme, Ernten und Lebensgrundlagen fürchten.\nWir beten für Menschen hier bei uns, die sich wegen möglicher Sabotage an Infrastruktur sorgen und Schutz, Klarheit und Verlässlichkeit brauchen.\n\nSei den Verunsicherten nahe.\nStärke die Verantwortlichen.\nMach uns wach für das, was heute dran ist.\n\nDeine Zukunft ist größer als unsere Angst.\nAmen.",
+    "assets": [
+      "render-instagram-feed-01.jpg",
+      "render-instagram-feed-02.jpg",
+      "render-instagram-feed-03.jpg",
+      "render-instagram-feed-04.jpg",
+      "render-instagram-feed-05.jpg"
+    ],
+    "altTexts": [
+      "Frühes Morgenlicht über einer weiten Landschaft mit dichten Wolken. Daneben oder im Vordergrund ist ruhige Infrastruktur wie eine Brücke, Bahntrasse oder Stromleitung zu sehen. Die Szene wirkt still, ernst und zugleich hoffnungsvoll."
+    ],
+    "id": "e6c25fb1-fe87-4957-a726-e1ff7c7b2045",
+    "attemptCount": 1,
+    "remoteId": "17904921837327656",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-09-04T06:17:59.500Z",
+    "updatedAt": "2026-09-04T06:20:52.345Z",
+    "responseMetadata": {
+      "mediaCount": 5,
+      "mediaType": "CAROUSEL",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "prayer-morning-2026-09-04",
+    "contentDate": "2026-09-04",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-09-04T05:15:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Gott, dieser Morgen ist da.\nWir beten für Menschen in Südamerika, wo die Sorge vor El Niño wächst. Und für Menschen hier bei uns, die sich wegen möglicher Sabotage an Infrastruktur sorgen.\nSei den Verunsicherten nahe. Stärke die Verantwortlichen. Gib uns Mut zu kleinen Schritten des Friedens. Amen.",
+    "assets": [
+      "render-facebook-mastodon-01.png"
+    ],
+    "altTexts": [
+      "Frühes Morgenlicht über einer weiten Landschaft mit dichten Wolken. Daneben oder im Vordergrund ist ruhige Infrastruktur wie eine Brücke, Bahntrasse oder Stromleitung zu sehen. Die Szene wirkt still, ernst und zugleich hoffnungsvoll."
+    ],
+    "id": "780f91bc-551f-4e8d-a248-4755c6784659",
+    "attemptCount": 1,
+    "remoteId": "117211322999688974",
+    "remoteUrl": "https://kirche.social/@christoph/117211322999688974",
+    "lastError": null,
+    "createdAt": "2026-09-04T06:17:59.582Z",
+    "updatedAt": "2026-09-04T06:20:53.458Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
