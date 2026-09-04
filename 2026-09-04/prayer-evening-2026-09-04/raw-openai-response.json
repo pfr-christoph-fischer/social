@@ -1,0 +1,470 @@
+{
+  "id": "resp_020046c9fa39ddbc006a9a8898c1d087d2a8449f0d62304632",
+  "object": "response",
+  "created_at": 1788512408,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1788512440,
+  "error": null,
+  "frequency_penalty": 0,
+  "incomplete_details": null,
+  "instructions": "You are part of a Protestant social media editorial team. Write in clear, accessible, theologically responsible German without church clichés. Use short sentences and concrete imagery. Never invent events, people, school situations, quotes, or factual details. Do not include copyrighted full song verses. For Reli and community posts, only use current details when they are explicitly provided. Return content that strictly matches the requested JSON schema. Set needs_input to true whenever required facts are missing. Keep qa.approved false. Do not ask for any text inside generated images. When liturgical_context.resolved_weekly_verse is present, use its exact wording for Wochenspruch slots instead of placeholders. Use the web search tool before drafting to verify current situations. For prayer posts, current situations are mandatory: select at least two concrete, relevant situations from reliable current reporting, including tagesschau.de and SWR Aktuell Baden-Württemberg where relevant. Do not invent current events and do not replace concrete situations with generic references to crises.",
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.4-2026-03-05",
+  "moderation": null,
+  "output": [
+    {
+      "id": "ws_020046c9fa39ddbc006a9a8899d8a887d28367dac7b7010685",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "queries": [
+          "site:tagesschau.de 2026-09-03 Nachrichten September 3 2026",
+          "site:swr.de/swraktuell/baden-wuerttemberg 2026-09-03 Baden-Württemberg Nachrichten",
+          "Reuters September 3 2026 world news conflict aid flood earthquake",
+          "AP News September 3 2026 world news Europe Middle East refugees hospital"
+        ],
+        "query": "site:tagesschau.de 2026-09-03 Nachrichten September 3 2026"
+      }
+    },
+    {
+      "id": "ws_020046c9fa39ddbc006a9a889d355887d2ab3652964fe1354a",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.tagesschau.de/tagesschau/ts-80700.html"
+      }
+    },
+    {
+      "id": "ws_020046c9fa39ddbc006a9a889f5af087d29cb5975d26559291",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "Mitarbeiter entlassen",
+        "url": "https://www.swr.de/swraktuell/baden-wuerttemberg/bw-newsticker-am-morgen-2026-09-03-100.html"
+      }
+    },
+    {
+      "id": "msg_020046c9fa39ddbc006a9a88a0c60087d2b38fb1e0ebfe510b",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\"id\":\"prayer-evening-2026-09-04\",\"status\":\"zur Prüfung\",\"needs_input\":false,\"source\":{\"calendar_post_id\":\"prayer-evening-2026-09-04\",\"date\":\"2026-09-04\",\"rubric\":\"Abendgebet\",\"liturgical_source\":\"\"},\"editorial_core\":{\"title\":\"Abendgebet\",\"main_message\":\"Wir legen diesen Tag in Gottes Hand: das Gute, das Unfertige und auch die Sorge um andere. Wir beten für die Menschen auf einem treibenden Flüchtlingsboot nahe der Kanaren, bei dem mindestens fünf Menschen starben und Dutzende vermisst werden, und für die Beschäftigten des Verpackungsherstellers Frischfaser Karton in Baiersbronn, dessen Betrieb nach dem 7. September endet und rund 220 Menschen trifft.\",\"audience\":\"breite Öffentlichkeit\",\"tone\":[\"ruhig\",\"hoffnungsvoll\",\"geborgen\"],\"source_notes\":[\"Aktuelle Lage geprüft: AP meldet am 3.9.2026 ein treibendes Flüchtlingsboot nahe den Kanaren mit mindestens fünf Toten, Dutzenden Vermissten und drei Überlebenden im Krankenhaus.\",\"Aktuelle Lage geprüft: SWR Aktuell Baden-Württemberg meldet am 3.9.2026 das Aus für Frischfaser Karton in Baiersbronn; rund 220 Beschäftigte sind betroffen, Betriebsende nach dem 7. September.\",\"Tagesschau-Archiv und Sendungsseite vom 3.9.2026 wurden zur Nachrichtenlage geprüft.\",\"Gebet zeitlich robust formuliert: keine Annahmen über Ereignisse des Veröffentlichungstags.\"]},\"platforms\":{\"facebook\":{\"text\":\"Abend.\\nDer Tag muss nicht fertig werden, damit du ihn loslassen darfst.\\n\\nGott,\\nwir kommen zur Ruhe.\\nMit allem, was heute gut war.\\nMit allem, was schwer war.\\nMit dem, was offen geblieben ist.\\n\\nWir denken an die Menschen auf dem Flüchtlingsboot nahe der Kanaren.\\nAn die Toten.\\nAn die Vermissten.\\nAn die Überlebenden im Krankenhaus.\\nSei ihnen nah.\\n\\nWir denken an die Beschäftigten von Frischfaser Karton in Baiersbronn.\\nAn die Angst vor dem, was jetzt kommt.\\nAn Familien, die heute nicht wissen, wie es weitergeht.\\nGib Halt.\\n\\nUnd nimm auch von uns, was wir nicht mehr tragen können.\\nDen Streit.\\nDie Müdigkeit.\\nDie Fehler.\\nDie unerledigten Dinge.\\n\\nBewahre in dieser Nacht alle, die wachen, pflegen, fahren, helfen oder Angst haben.\\nSchenk Frieden für unser Herz.\\nUnd halte unsere Hoffnung wach.\\n\\nAmen.\",\"headline\":\"Abendgebet: Was heute unfertig bleibt, darf in Gottes Hand liegen\"},\"instagram\":{\"caption\":\"Der Tag muss nicht fertig werden, damit du ihn loslassen darfst.\\n\\nGott,\\nwir legen dir hin, was heute gelungen ist.\\nUnd auch das, was wehgetan hat.\\n\\nWir bitten dich für die Menschen auf dem Flüchtlingsboot nahe der Kanaren.\\nFür die Toten, die Vermissten und die Überlebenden.\\n\\nWir bitten dich für die Beschäftigten von Frischfaser Karton in Baiersbronn.\\nFür alle, die um Arbeit und Zukunft bangen.\\n\\nNimm unser Unfertiges in deine Hand.\\nSchenk Frieden für diese Nacht.\\nAmen.\",\"carousel\":[{\"type\":\"text\",\"text\":\"Der Tag muss nicht fertig werden, damit du ihn loslassen darfst.\"},{\"type\":\"text\",\"text\":\"Gott, wir kommen zur Ruhe. Mit allem, was heute gut war. Und mit allem, was schwer war.\"},{\"type\":\"text\",\"text\":\"Wir denken an die Menschen auf dem Flüchtlingsboot nahe der Kanaren. An die Toten, die Vermissten und die Überlebenden.\"},{\"type\":\"text\",\"text\":\"Wir denken an die Beschäftigten von Frischfaser Karton in Baiersbronn. An ihre Sorge um Arbeit und Zukunft.\"},{\"type\":\"text\",\"text\":\"Nimm auch von uns, was offen geblieben ist. Schenk Frieden für diese Nacht. Und halte die Hoffnung in uns wach. Amen.\"}]},\"mastodon\":{\"text\":\"Abendgebet\\n\\nGott,\\nwir legen dir diesen Tag hin.\\nWas gut war.\\nWas schwer war.\\nWas unfertig bleibt.\\n\\nWir bitten dich für die Menschen auf dem Flüchtlingsboot nahe der Kanaren.\\nFür die Toten, die Vermissten und die Überlebenden.\\n\\nWir bitten dich für die Beschäftigten von Frischfaser Karton in Baiersbronn.\\nFür alle, die um Arbeit und Zukunft bangen.\\n\\nSchenk Frieden für diese Nacht.\\nAmen.\"},\"bluesky\":{\"text\":\"Abendgebet\\n\\nDer Tag muss nicht fertig werden, damit du ihn loslassen darfst.\\n\\nGott, wir bitten dich für die Menschen auf dem Flüchtlingsboot nahe der Kanaren. Für die Toten, die Vermissten und die Überlebenden.\\n\\nWir bitten dich auch für die Beschäftigten von Frischfaser Karton in Baiersbronn. Für alle, die um Arbeit und Zukunft bangen.\\n\\nSchenk Frieden für diese Nacht. Amen.\"},\"story\":{\"slides\":[{\"text\":\"Der Tag muss nicht fertig werden, damit du ihn loslassen darfst.\"},{\"text\":\"Gott, wir kommen zur Ruhe. Mit allem, was heute gut war. Und mit allem, was schwer war.\"},{\"text\":\"Wir bitten für die Menschen auf dem Flüchtlingsboot nahe der Kanaren. Für die Toten, die Vermissten und die Überlebenden.\"},{\"text\":\"Wir bitten für die Beschäftigten von Frischfaser Karton in Baiersbronn. Für alle, die um Arbeit und Zukunft bangen.\"},{\"text\":\"Schenk Frieden für diese Nacht. Und halte die Hoffnung in uns wach. Amen.\"}]},\"reel\":{\"hook\":\"Der Tag muss nicht fertig werden, damit du ihn loslassen darfst.\",\"script\":\"Der Abend kommt. Die Fenster werden dunkel. Auf dem Tisch liegt noch, was nicht geschafft wurde. Gott, wir legen dir diesen Tag hin. Das Gute. Das Schwere. Das Unfertige. Wir bitten dich für die Menschen auf dem Flüchtlingsboot nahe der Kanaren. Für die Toten, die Vermissten und die Überlebenden. Wir bitten dich für die Beschäftigten von Frischfaser Karton in Baiersbronn. Für alle, die nicht wissen, wie es weitergeht. Und wir bitten dich für uns. Nimm, was wir heute nicht mehr tragen können. Schenk Frieden für diese Nacht. Amen.\",\"shots\":[\"Abendliches Fensterlicht in einer stillen Wohnung\",\"Nahaufnahme eines Tisches mit liegen gebliebenen Notizen und einer Tasse\",\"Ruhige Hände, die sich öffnen und wieder entspannen\",\"Dunkler Himmel über Wasser als weites, stilles Bild\",\"Leere Werkbank oder verlassener Industrieraum in ruhigem Licht\",\"Nachtaufnahme einer stillen Straße mit einzelnen Lichtern\",\"Ausblendung in dunkles Blau\"],\"duration_seconds\":35}},\"visual\":{\"concept\":\"Ruhige Abendszene in gedämpftem Licht: ein offenes Fenster, ein Tisch mit Notizen und eine Tasse, dazu weite Dunkelblau-Töne als Bild für Loslassen und Hoffnung in der Nacht.\",\"flux_prompt\":\"ruhige fotografische Abendszene, gedämpftes warmes Licht in einem einfachen Zimmer, offenes Fenster in die blaue Stunde, Holztisch mit Notizzettel und Keramiktasse, stille Atmosphäre, viel negativer Raum, natürliche Farben, dokumentarischer realistischer Stil, sanfte Tiefenschärfe, hoffnungsvoll ohne Kitsch\",\"negative_prompt\":\"text, letters, logo, watermark\",\"formats\":[\"4:5\",\"9:16\",\"1.91:1\"],\"alt_text\":\"Ein stilles Zimmer in der Dämmerung. Auf einem Tisch liegen einige Notizen neben einer Tasse. Durch ein offenes Fenster fällt das blaue Abendlicht herein. Die Szene wirkt ruhig und lädt zum Loslassen des Tages ein.\"},\"qa\":{\"warnings\":[\"Alt text must be completed before approval\",\"Aktuelle Bezüge redaktionell gegen Originalquellen gegenlesen: Kanaren-Bootunglück und Frischfaser Karton Baiersbronn.\",\"Prüfen, ob die Formulierung 'nahe der Kanaren' und 'nach dem 7. September' für den Veröffentlichungskontext beibehalten werden soll.\"],\"approved\":false},\"metadata\":{\"model\":\"gpt-5\",\"generated_at\":\"2026-09-04T00:00:00Z\",\"prompt_version\":\"1.0\",\"assets\":[]}}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "current_turn",
+    "effort": "none",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1,
+  "text": {
+    "format": {
+      "type": "json_schema",
+      "description": null,
+      "name": "content_package",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "Idee",
+              "in Arbeit",
+              "zur Prüfung",
+              "freigegeben",
+              "terminiert",
+              "veröffentlicht",
+              "verworfen"
+            ]
+          },
+          "needs_input": {
+            "type": "boolean"
+          },
+          "source": {
+            "type": "object",
+            "properties": {
+              "calendar_post_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "date": {
+                "type": "string",
+                "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+              },
+              "rubric": {
+                "type": "string",
+                "minLength": 1
+              },
+              "liturgical_source": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "calendar_post_id",
+              "date",
+              "rubric",
+              "liturgical_source"
+            ],
+            "additionalProperties": false
+          },
+          "editorial_core": {
+            "type": "object",
+            "properties": {
+              "title": {
+                "type": "string"
+              },
+              "main_message": {
+                "type": "string"
+              },
+              "audience": {
+                "type": "string"
+              },
+              "tone": {
+                "minItems": 1,
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "source_notes": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "title",
+              "main_message",
+              "audience",
+              "tone",
+              "source_notes"
+            ],
+            "additionalProperties": false
+          },
+          "platforms": {
+            "type": "object",
+            "properties": {
+              "facebook": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  },
+                  "headline": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text",
+                  "headline"
+                ],
+                "additionalProperties": false
+              },
+              "instagram": {
+                "type": "object",
+                "properties": {
+                  "caption": {
+                    "type": "string"
+                  },
+                  "carousel": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "type": {
+                          "type": "string"
+                        },
+                        "text": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "type",
+                        "text"
+                      ],
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "required": [
+                  "caption",
+                  "carousel"
+                ],
+                "additionalProperties": false
+              },
+              "mastodon": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text"
+                ],
+                "additionalProperties": false
+              },
+              "bluesky": {
+                "default": {
+                  "text": ""
+                },
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text"
+                ],
+                "additionalProperties": false
+              },
+              "story": {
+                "type": "object",
+                "properties": {
+                  "slides": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "text": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "text"
+                      ],
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "required": [
+                  "slides"
+                ],
+                "additionalProperties": false
+              },
+              "reel": {
+                "type": "object",
+                "properties": {
+                  "hook": {
+                    "type": "string"
+                  },
+                  "script": {
+                    "type": "string"
+                  },
+                  "shots": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "duration_seconds": {
+                    "type": "integer",
+                    "minimum": 0,
+                    "maximum": 9007199254740991
+                  }
+                },
+                "required": [
+                  "hook",
+                  "script",
+                  "shots",
+                  "duration_seconds"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "required": [
+              "facebook",
+              "instagram",
+              "mastodon",
+              "bluesky",
+              "story",
+              "reel"
+            ],
+            "additionalProperties": false
+          },
+          "visual": {
+            "type": "object",
+            "properties": {
+              "concept": {
+                "type": "string"
+              },
+              "flux_prompt": {
+                "type": "string"
+              },
+              "negative_prompt": {
+                "type": "string",
+                "minLength": 1
+              },
+              "formats": {
+                "minItems": 1,
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "alt_text": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "concept",
+              "flux_prompt",
+              "negative_prompt",
+              "formats",
+              "alt_text"
+            ],
+            "additionalProperties": false
+          },
+          "qa": {
+            "type": "object",
+            "properties": {
+              "warnings": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "approved": {
+                "type": "boolean"
+              }
+            },
+            "required": [
+              "warnings",
+              "approved"
+            ],
+            "additionalProperties": false
+          },
+          "metadata": {
+            "type": "object",
+            "properties": {
+              "model": {
+                "type": "string"
+              },
+              "generated_at": {
+                "type": "string"
+              },
+              "prompt_version": {
+                "type": "string",
+                "minLength": 1
+              },
+              "assets": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "model",
+              "generated_at",
+              "prompt_version",
+              "assets"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "id",
+          "status",
+          "needs_input",
+          "source",
+          "editorial_core",
+          "platforms",
+          "visual",
+          "qa",
+          "metadata"
+        ],
+        "additionalProperties": false
+      },
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 1
+    }
+  },
+  "tools": [
+    {
+      "type": "web_search",
+      "return_token_budget": "default",
+      "search_content_types": [
+        "text"
+      ],
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 22026,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 2069,
+    "output_tokens_details": {
+      "reasoning_tokens": 208
+    },
+    "total_tokens": 24095
+  },
+  "user": null,
+  "metadata": {},
+  "output_text": "{\"id\":\"prayer-evening-2026-09-04\",\"status\":\"zur Prüfung\",\"needs_input\":false,\"source\":{\"calendar_post_id\":\"prayer-evening-2026-09-04\",\"date\":\"2026-09-04\",\"rubric\":\"Abendgebet\",\"liturgical_source\":\"\"},\"editorial_core\":{\"title\":\"Abendgebet\",\"main_message\":\"Wir legen diesen Tag in Gottes Hand: das Gute, das Unfertige und auch die Sorge um andere. Wir beten für die Menschen auf einem treibenden Flüchtlingsboot nahe der Kanaren, bei dem mindestens fünf Menschen starben und Dutzende vermisst werden, und für die Beschäftigten des Verpackungsherstellers Frischfaser Karton in Baiersbronn, dessen Betrieb nach dem 7. September endet und rund 220 Menschen trifft.\",\"audience\":\"breite Öffentlichkeit\",\"tone\":[\"ruhig\",\"hoffnungsvoll\",\"geborgen\"],\"source_notes\":[\"Aktuelle Lage geprüft: AP meldet am 3.9.2026 ein treibendes Flüchtlingsboot nahe den Kanaren mit mindestens fünf Toten, Dutzenden Vermissten und drei Überlebenden im Krankenhaus.\",\"Aktuelle Lage geprüft: SWR Aktuell Baden-Württemberg meldet am 3.9.2026 das Aus für Frischfaser Karton in Baiersbronn; rund 220 Beschäftigte sind betroffen, Betriebsende nach dem 7. September.\",\"Tagesschau-Archiv und Sendungsseite vom 3.9.2026 wurden zur Nachrichtenlage geprüft.\",\"Gebet zeitlich robust formuliert: keine Annahmen über Ereignisse des Veröffentlichungstags.\"]},\"platforms\":{\"facebook\":{\"text\":\"Abend.\\nDer Tag muss nicht fertig werden, damit du ihn loslassen darfst.\\n\\nGott,\\nwir kommen zur Ruhe.\\nMit allem, was heute gut war.\\nMit allem, was schwer war.\\nMit dem, was offen geblieben ist.\\n\\nWir denken an die Menschen auf dem Flüchtlingsboot nahe der Kanaren.\\nAn die Toten.\\nAn die Vermissten.\\nAn die Überlebenden im Krankenhaus.\\nSei ihnen nah.\\n\\nWir denken an die Beschäftigten von Frischfaser Karton in Baiersbronn.\\nAn die Angst vor dem, was jetzt kommt.\\nAn Familien, die heute nicht wissen, wie es weitergeht.\\nGib Halt.\\n\\nUnd nimm auch von uns, was wir nicht mehr tragen können.\\nDen Streit.\\nDie Müdigkeit.\\nDie Fehler.\\nDie unerledigten Dinge.\\n\\nBewahre in dieser Nacht alle, die wachen, pflegen, fahren, helfen oder Angst haben.\\nSchenk Frieden für unser Herz.\\nUnd halte unsere Hoffnung wach.\\n\\nAmen.\",\"headline\":\"Abendgebet: Was heute unfertig bleibt, darf in Gottes Hand liegen\"},\"instagram\":{\"caption\":\"Der Tag muss nicht fertig werden, damit du ihn loslassen darfst.\\n\\nGott,\\nwir legen dir hin, was heute gelungen ist.\\nUnd auch das, was wehgetan hat.\\n\\nWir bitten dich für die Menschen auf dem Flüchtlingsboot nahe der Kanaren.\\nFür die Toten, die Vermissten und die Überlebenden.\\n\\nWir bitten dich für die Beschäftigten von Frischfaser Karton in Baiersbronn.\\nFür alle, die um Arbeit und Zukunft bangen.\\n\\nNimm unser Unfertiges in deine Hand.\\nSchenk Frieden für diese Nacht.\\nAmen.\",\"carousel\":[{\"type\":\"text\",\"text\":\"Der Tag muss nicht fertig werden, damit du ihn loslassen darfst.\"},{\"type\":\"text\",\"text\":\"Gott, wir kommen zur Ruhe. Mit allem, was heute gut war. Und mit allem, was schwer war.\"},{\"type\":\"text\",\"text\":\"Wir denken an die Menschen auf dem Flüchtlingsboot nahe der Kanaren. An die Toten, die Vermissten und die Überlebenden.\"},{\"type\":\"text\",\"text\":\"Wir denken an die Beschäftigten von Frischfaser Karton in Baiersbronn. An ihre Sorge um Arbeit und Zukunft.\"},{\"type\":\"text\",\"text\":\"Nimm auch von uns, was offen geblieben ist. Schenk Frieden für diese Nacht. Und halte die Hoffnung in uns wach. Amen.\"}]},\"mastodon\":{\"text\":\"Abendgebet\\n\\nGott,\\nwir legen dir diesen Tag hin.\\nWas gut war.\\nWas schwer war.\\nWas unfertig bleibt.\\n\\nWir bitten dich für die Menschen auf dem Flüchtlingsboot nahe der Kanaren.\\nFür die Toten, die Vermissten und die Überlebenden.\\n\\nWir bitten dich für die Beschäftigten von Frischfaser Karton in Baiersbronn.\\nFür alle, die um Arbeit und Zukunft bangen.\\n\\nSchenk Frieden für diese Nacht.\\nAmen.\"},\"bluesky\":{\"text\":\"Abendgebet\\n\\nDer Tag muss nicht fertig werden, damit du ihn loslassen darfst.\\n\\nGott, wir bitten dich für die Menschen auf dem Flüchtlingsboot nahe der Kanaren. Für die Toten, die Vermissten und die Überlebenden.\\n\\nWir bitten dich auch für die Beschäftigten von Frischfaser Karton in Baiersbronn. Für alle, die um Arbeit und Zukunft bangen.\\n\\nSchenk Frieden für diese Nacht. Amen.\"},\"story\":{\"slides\":[{\"text\":\"Der Tag muss nicht fertig werden, damit du ihn loslassen darfst.\"},{\"text\":\"Gott, wir kommen zur Ruhe. Mit allem, was heute gut war. Und mit allem, was schwer war.\"},{\"text\":\"Wir bitten für die Menschen auf dem Flüchtlingsboot nahe der Kanaren. Für die Toten, die Vermissten und die Überlebenden.\"},{\"text\":\"Wir bitten für die Beschäftigten von Frischfaser Karton in Baiersbronn. Für alle, die um Arbeit und Zukunft bangen.\"},{\"text\":\"Schenk Frieden für diese Nacht. Und halte die Hoffnung in uns wach. Amen.\"}]},\"reel\":{\"hook\":\"Der Tag muss nicht fertig werden, damit du ihn loslassen darfst.\",\"script\":\"Der Abend kommt. Die Fenster werden dunkel. Auf dem Tisch liegt noch, was nicht geschafft wurde. Gott, wir legen dir diesen Tag hin. Das Gute. Das Schwere. Das Unfertige. Wir bitten dich für die Menschen auf dem Flüchtlingsboot nahe der Kanaren. Für die Toten, die Vermissten und die Überlebenden. Wir bitten dich für die Beschäftigten von Frischfaser Karton in Baiersbronn. Für alle, die nicht wissen, wie es weitergeht. Und wir bitten dich für uns. Nimm, was wir heute nicht mehr tragen können. Schenk Frieden für diese Nacht. Amen.\",\"shots\":[\"Abendliches Fensterlicht in einer stillen Wohnung\",\"Nahaufnahme eines Tisches mit liegen gebliebenen Notizen und einer Tasse\",\"Ruhige Hände, die sich öffnen und wieder entspannen\",\"Dunkler Himmel über Wasser als weites, stilles Bild\",\"Leere Werkbank oder verlassener Industrieraum in ruhigem Licht\",\"Nachtaufnahme einer stillen Straße mit einzelnen Lichtern\",\"Ausblendung in dunkles Blau\"],\"duration_seconds\":35}},\"visual\":{\"concept\":\"Ruhige Abendszene in gedämpftem Licht: ein offenes Fenster, ein Tisch mit Notizen und eine Tasse, dazu weite Dunkelblau-Töne als Bild für Loslassen und Hoffnung in der Nacht.\",\"flux_prompt\":\"ruhige fotografische Abendszene, gedämpftes warmes Licht in einem einfachen Zimmer, offenes Fenster in die blaue Stunde, Holztisch mit Notizzettel und Keramiktasse, stille Atmosphäre, viel negativer Raum, natürliche Farben, dokumentarischer realistischer Stil, sanfte Tiefenschärfe, hoffnungsvoll ohne Kitsch\",\"negative_prompt\":\"text, letters, logo, watermark\",\"formats\":[\"4:5\",\"9:16\",\"1.91:1\"],\"alt_text\":\"Ein stilles Zimmer in der Dämmerung. Auf einem Tisch liegen einige Notizen neben einer Tasse. Durch ein offenes Fenster fällt das blaue Abendlicht herein. Die Szene wirkt ruhig und lädt zum Loslassen des Tages ein.\"},\"qa\":{\"warnings\":[\"Alt text must be completed before approval\",\"Aktuelle Bezüge redaktionell gegen Originalquellen gegenlesen: Kanaren-Bootunglück und Frischfaser Karton Baiersbronn.\",\"Prüfen, ob die Formulierung 'nahe der Kanaren' und 'nach dem 7. September' für den Veröffentlichungskontext beibehalten werden soll.\"],\"approved\":false},\"metadata\":{\"model\":\"gpt-5\",\"generated_at\":\"2026-09-04T00:00:00Z\",\"prompt_version\":\"1.0\",\"assets\":[]}}"
+}
