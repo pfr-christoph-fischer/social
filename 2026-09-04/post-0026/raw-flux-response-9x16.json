@@ -1,0 +1,44 @@
+{
+  "delivery_url": "https://delivery.us2.bfl.ai/durable/2026090406/5e1f69ea-538b-4d66-962e-9be995966f07/54/772137e593ca4e/e593ca4eb0ba45febc92961dcf6b4db9/sample.jpeg?se=2026-09-04T06%3A29%3A32Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=S3SmU4ClW7jZ%2BB%2Bw4eap6E9fgrfpcccSWixoyhuOXrY%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "bbe2b49b-8731-4f72-ab78-ee4ff0a12337",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "bbe2b49b-8731-4f72-ab78-ee4ff0a12337",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "bbe2b49b-8731-4f72-ab78-ee4ff0a12337",
+      "status": "Ready",
+      "result": {
+        "start_time": 1788502770.2971518,
+        "prompt": "Ein ruhiger schmaler Weg in natürlicher Landschaft am späten Abend, warmes weiches Licht, stille friedliche Atmosphäre, dezente Bewegung in Gräsern, natürliche Farben, dokumentarisch-poetische Bildsprache, offen wirkender Horizont, zurückhaltend, glaubwürdig, ohne Menschenmenge, ohne inszenierten Kitsch, no text, no letters, no typography, no logo, no watermark",
+        "seed": 345454160,
+        "sample": "https://delivery.us2.bfl.ai/durable/2026090406/5e1f69ea-538b-4d66-962e-9be995966f07/54/772137e593ca4e/e593ca4eb0ba45febc92961dcf6b4db9/sample.jpeg?se=2026-09-04T06%3A29%3A32Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=S3SmU4ClW7jZ%2BB%2Bw4eap6E9fgrfpcccSWixoyhuOXrY%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "bbe2b49b-8731-4f72-ab78-ee4ff0a12337",
+    "polling_url": "https://api.us2.bfl.ai/v1/get_result?id=bbe2b49b-8731-4f72-ab78-ee4ff0a12337",
+    "cost": 1.5,
+    "input_mp": 0,
+    "output_mp": 1.98
+  }
+}

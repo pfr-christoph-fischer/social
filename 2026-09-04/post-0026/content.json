@@ -108,16 +108,20 @@
     "alt_text": "Ein schmaler Weg führt durch eine ruhige Landschaft im warmen Abendlicht. Die Szene wirkt offen und still. Sie erinnert an Aufbruch, Vertrauen und einen behutsamen Schritt ins Wochenende."
   },
   "qa": {
-    "approved": true,
     "warnings": [
       "Song lyric copyright must be checked manually before publication.",
       "Public copy may contain quoted or verse-like lyrics. Confirm that no protected full lyrics are published."
-    ]
+    ],
+    "approved": true
   },
   "metadata": {
     "model": "gpt-5.4-2026-03-05",
     "generated_at": "2026-09-04T06:18:36.947Z",
     "prompt_version": "1.0",
-    "assets": []
+    "assets": [
+      "assets/background-1.91x1.webp",
+      "assets/background-4x5.webp",
+      "assets/background-9x16.webp"
+    ]
   }
 }

@@ -1,0 +1,52 @@
+{
+  "delivery_url": "https://delivery.eu2.bfl.ai/durable/2026090406/5e1f69ea-538b-4d66-962e-9be995966f07/e0/7679172b4e940c/2b4e940c72c8475d8d90c0e513833d65/sample.jpeg?se=2026-09-04T06%3A29%3A28Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=jnhsNftO40eVWEEqxH0hdg4AyA1mpkg8VkhD26yB71Y%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "f89b79ae-8723-4218-af23-05eb92016cac",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "f89b79ae-8723-4218-af23-05eb92016cac",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "f89b79ae-8723-4218-af23-05eb92016cac",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "f89b79ae-8723-4218-af23-05eb92016cac",
+      "status": "Ready",
+      "result": {
+        "start_time": 1788502766.7628863,
+        "prompt": "Ein ruhiger schmaler Weg in natürlicher Landschaft am späten Abend, warmes weiches Licht, stille friedliche Atmosphäre, dezente Bewegung in Gräsern, natürliche Farben, dokumentarisch-poetische Bildsprache, offen wirkender Horizont, zurückhaltend, glaubwürdig, ohne Menschenmenge, ohne inszenierten Kitsch, no text, no letters, no typography, no logo, no watermark",
+        "seed": 2649423441,
+        "sample": "https://delivery.eu2.bfl.ai/durable/2026090406/5e1f69ea-538b-4d66-962e-9be995966f07/e0/7679172b4e940c/2b4e940c72c8475d8d90c0e513833d65/sample.jpeg?se=2026-09-04T06%3A29%3A28Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=jnhsNftO40eVWEEqxH0hdg4AyA1mpkg8VkhD26yB71Y%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "f89b79ae-8723-4218-af23-05eb92016cac",
+    "polling_url": "https://api.eu2.bfl.ai/v1/get_result?id=f89b79ae-8723-4218-af23-05eb92016cac",
+    "cost": 1.5,
+    "input_mp": 0,
+    "output_mp": 1.39
+  }
+}
