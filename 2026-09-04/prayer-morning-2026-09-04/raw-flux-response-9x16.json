@@ -1,0 +1,44 @@
+{
+  "delivery_url": "https://delivery.us7.bfl.ai/durable/2026090406/5e1f69ea-538b-4d66-962e-9be995966f07/b4/6322548032ee8a/8032ee8a039349c89669c1c214caa2f9/sample.jpeg?se=2026-09-04T06%3A27%3A12Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=hWxAduZvG2Eqj84rJA8nABLowjFJ88xzZDCy0zWV1lo%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "5ce9c38f-0b42-4801-a6a0-5f1ec6d472b0",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "5ce9c38f-0b42-4801-a6a0-5f1ec6d472b0",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "5ce9c38f-0b42-4801-a6a0-5f1ec6d472b0",
+      "status": "Ready",
+      "result": {
+        "start_time": 1788502630.5814996,
+        "prompt": "Früher Morgen mit weiter Landschaft und aufziehenden Wolken, kombiniert mit einer ruhigen, sachlichen Ansicht von Infrastruktur wie Brücke, Gleisen oder Stromleitungen; nüchterne und hoffnungsvolle Stimmung., no text, no letters, no typography, no logo, no watermark",
+        "seed": 429478005,
+        "sample": "https://delivery.us7.bfl.ai/durable/2026090406/5e1f69ea-538b-4d66-962e-9be995966f07/b4/6322548032ee8a/8032ee8a039349c89669c1c214caa2f9/sample.jpeg?se=2026-09-04T06%3A27%3A12Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=hWxAduZvG2Eqj84rJA8nABLowjFJ88xzZDCy0zWV1lo%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "5ce9c38f-0b42-4801-a6a0-5f1ec6d472b0",
+    "polling_url": "https://api.us7.bfl.ai/v1/get_result?id=5ce9c38f-0b42-4801-a6a0-5f1ec6d472b0",
+    "cost": 1.5,
+    "input_mp": 0,
+    "output_mp": 1.98
+  }
+}
