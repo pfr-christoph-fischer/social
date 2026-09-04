@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-04",
+    "contentDate": "2026-09-04",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-09-04T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Vom Aufgang der Sonne bis zu ihrem Niedergang sei gelobet der Name des HERRN!",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Vom Aufgang der Sonne bis zu ihrem Niedergang sei gelobet der Name des HERRN!"
+    ],
+    "id": "c4141364-f4b5-4f60-8f78-0c4231b33319",
+    "attemptCount": 1,
+    "remoteId": "18179332222421214",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:45:01.794Z",
+    "updatedAt": "2026-09-04T05:00:32.073Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-04",
+    "contentDate": "2026-09-04",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-09-04T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Vom Aufgang der Sonne bis zu ihrem Niedergang sei gelobet der Name des HERRN!",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Vom Aufgang der Sonne bis zu ihrem Niedergang sei gelobet der Name des HERRN!"
+    ],
+    "id": "5f94492b-2c5e-4f7c-93f6-f6bdb1a27860",
+    "attemptCount": 1,
+    "remoteId": "117211007904056167",
+    "remoteUrl": "https://kirche.social/@christoph/117211007904056167",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:45:01.829Z",
+    "updatedAt": "2026-09-04T05:00:45.887Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
