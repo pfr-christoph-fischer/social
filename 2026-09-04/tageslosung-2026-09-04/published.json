@@ -84,5 +84,91 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-04",
+    "contentDate": "2026-09-04",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-09-04T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Vom Aufgang der Sonne bis zu ihrem Niedergang sei gelobet der Name des HERRN!",
+    "assets": [
+      "render-square-01.jpg"
+    ],
+    "altTexts": [
+      "Vom Aufgang der Sonne bis zu ihrem Niedergang sei gelobet der Name des HERRN!"
+    ],
+    "id": "287b8636-e5df-4550-9e6b-da0098f10ebe",
+    "attemptCount": 1,
+    "remoteId": "17955220368240091",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:45:01.849Z",
+    "updatedAt": "2026-09-04T05:00:57.619Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-04",
+    "contentDate": "2026-09-04",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-09-04T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Vom Aufgang der Sonne bis zu ihrem Niedergang sei gelobet der Name des HERRN!",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Vom Aufgang der Sonne bis zu ihrem Niedergang sei gelobet der Name des HERRN!"
+    ],
+    "id": "a0acb280-2942-49fe-bb4d-2cac3457db67",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3muo6nsgxwr2h",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3muo6nsgxwr2h",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:45:01.870Z",
+    "updatedAt": "2026-09-04T05:01:00.179Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-04",
+    "contentDate": "2026-09-04",
+    "platform": "linkedin",
+    "format": "default",
+    "scheduledAt": "2026-09-04T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Vom Aufgang der Sonne bis zu ihrem Niedergang sei gelobet der Name des HERRN!",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Vom Aufgang der Sonne bis zu ihrem Niedergang sei gelobet der Name des HERRN!"
+    ],
+    "id": "87cbd18b-5e1f-4518-8f11-04d12b66aef7",
+    "attemptCount": 1,
+    "remoteId": "urn:li:share:7501504575162703872",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:45:01.878Z",
+    "updatedAt": "2026-09-04T05:01:02.480Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 201
+    },
+    "retryHistory": []
   }
 ]
