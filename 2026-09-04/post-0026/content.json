@@ -10,7 +10,7 @@
   },
   "editorial_core": {
     "title": "Liedgedanke: EG 395 – Vertraut den neuen Wegen",
-    "main_message": "Keine vollständige urheberrechtlich geschützte Strophe abdrucken; Titel, kurze zulässige Zeile oder eigene Paraphrase verwenden.",
+    "main_message": "Am Ende der Woche darf offenbleiben, was noch nicht fertig ist. Gott geht mit auf Wegen, die wir noch nicht kennen. Christus spricht: Was ihr getan habt einem von diesen meinen geringsten Brüdern, das habt ihr mir getan.",
     "audience": "breite Öffentlichkeit",
     "tone": [
       "klar",
@@ -23,55 +23,102 @@
       "Production mode: vollständig vorproduzierbar",
       "Structure: ein konkretes Lebensthema | knappe geistliche Sprache | kein Erklärton",
       "AI support notes: Gebetsentwurf | sprachliche Verdichtung | Reel-Sprechtext | Alt-Text",
-      "Liturgical source: https://kirchenjahr.pfarr.tools/api/jahr/2026 (2026-08-30, $.Tage['2026-08-30'])"
+      "Liturgical source: https://kirchenjahr.pfarr.tools/api/jahr/2026 (2026-08-30, $.Tage['2026-08-30'])",
+      "Bezug auf EG 395 nur über Titel und freie Paraphrase, keine vollständige urheberrechtlich geschützte Strophe.",
+      "Wochenspruch: Christus spricht: Was ihr getan habt einem von diesen meinen geringsten Brüdern, das habt ihr mir getan. (Mt 25,40b)"
     ]
   },
   "platforms": {
     "facebook": {
-      "text": "",
-      "headline": ""
+      "text": "Vertraut den neuen Wegen.\n\nManches bleibt am Freitag offen: ein Gespräch, eine Sorge, eine Entscheidung. Nicht alles muss heute fertig werden.\n\nGott kennt auch die Wege, die wir noch nicht sehen. Er geht nicht nur mit den Starken. Er ist da, wo ein Mensch Hilfe braucht, wo jemand nicht übersehen wird, wo eine Hand offen bleibt.\n\nChristus spricht: Was ihr getan habt einem von diesen meinen geringsten Brüdern, das habt ihr mir getan. (Mt 25,40b)\n\nGebet:\nGott,\nvor dir lege ich diese Woche ab.\nDas Gelungene.\nDas Schwere.\nDas, was unfertig geblieben ist.\nGib mir Mut für neue Wege.\nHalte mein Herz weich für Menschen, die mich brauchen.\nUnd lass mich darauf vertrauen:\nDu gehst schon vor mir her.\nAmen.",
+      "headline": "Liedgedanke zum Wochenende: Vertraut den neuen Wegen"
     },
     "instagram": {
-      "caption": "",
-      "carousel": []
+      "caption": "Vertraut den neuen Wegen.\n\nNicht alles ist geklärt.\nNicht alles ist leicht.\nUnd doch muss ich mich nicht festkrallen an dem, was ich schon kenne.\n\nGott geht mit in das Offene.\nIn kleine Schritte.\nIn leise Entscheidungen.\nIn den Blick für den Menschen neben mir.\n\nChristus spricht: Was ihr getan habt einem von diesen meinen geringsten Brüdern, das habt ihr mir getan. (Mt 25,40b)\n\nGebet:\nGott,\nich lasse diese Woche bei dir.\nNimm den Druck aus meinen Schultern.\nÖffne meinen Blick für den Menschen vor mir.\nUnd gib mir Vertrauen für den nächsten Schritt.\nAmen.",
+      "carousel": [
+        {
+          "type": "slide",
+          "text": "Vertraut den neuen Wegen."
+        },
+        {
+          "type": "slide",
+          "text": "Nicht alles muss heute fertig werden."
+        },
+        {
+          "type": "slide",
+          "text": "Gott geht mit in das Offene."
+        },
+        {
+          "type": "slide",
+          "text": "Der nächste Schritt reicht."
+        },
+        {
+          "type": "slide",
+          "text": "Was ihr getan habt einem von diesen meinen geringsten Brüdern, das habt ihr mir getan. Mt 25,40b"
+        }
+      ]
     },
     "mastodon": {
-      "text": ""
+      "text": "Vertraut den neuen Wegen.\n\nAm Ende der Woche darf unfertig bleiben, was noch Zeit braucht. Gott geht mit in das Offene. Und er begegnet uns im Menschen neben uns.\n\nChristus spricht: Was ihr getan habt einem von diesen meinen geringsten Brüdern, das habt ihr mir getan. (Mt 25,40b)"
     },
     "bluesky": {
-      "text": ""
+      "text": "Vertraut den neuen Wegen.\n\nNicht alles muss heute fertig werden. Gott geht mit in das Offene. Und er begegnet uns im Menschen neben uns.\n\nChristus spricht: Was ihr getan habt einem von diesen meinen geringsten Brüdern, das habt ihr mir getan. (Mt 25,40b)"
     },
     "story": {
-      "slides": []
+      "slides": [
+        {
+          "text": "Vertraut den neuen Wegen."
+        },
+        {
+          "text": "Nicht alles muss heute fertig werden."
+        },
+        {
+          "text": "Gott geht mit in das Offene."
+        },
+        {
+          "text": "Der Mensch neben dir ist nicht zu übersehen."
+        },
+        {
+          "text": "Was ihr getan habt einem von diesen meinen geringsten Brüdern, das habt ihr mir getan. Mt 25,40b"
+        }
+      ]
     },
     "reel": {
-      "hook": "",
-      "script": "",
-      "shots": [],
-      "duration_seconds": 0
+      "hook": "Wenn diese Woche unfertig endet, ist das nicht das Ende.",
+      "script": "Vertraut den neuen Wegen. Am Ende der Woche bleibt oft etwas offen. Ein Satz. Eine Sorge. Eine Entscheidung. Nicht alles muss heute fertig werden. Gott geht mit in das, was vor dir liegt. Schritt für Schritt. Leise. Nah. Und mitten auf diesem Weg steht ein Mensch, der nicht übersehen werden will. Christus spricht: Was ihr getan habt einem von diesen meinen geringsten Brüdern, das habt ihr mir getan. Geh behütet ins Wochenende.",
+      "shots": [
+        "Ruhiger Weg im weichen Abendlicht",
+        "Nahaufnahme von Schritten auf einem Weg",
+        "Hand streicht über einen Tisch mit wenigen offenen Dingen",
+        "Blick auf eine geöffnete Tür oder einen Pfad ins Freie",
+        "Stilles Licht am Ende des Weges"
+      ],
+      "duration_seconds": 24
     }
   },
   "visual": {
-    "concept": "",
-    "flux_prompt": "",
+    "concept": "Ruhige, offene Wegszene zum Wochenende: ein schmaler Weg im warmen Abendlicht, natürliche Umgebung, stille Atmosphäre, Bildsprache von Aufbruch und Vertrauen ohne Kitsch.",
+    "flux_prompt": "Ein ruhiger schmaler Weg in natürlicher Landschaft am späten Abend, warmes weiches Licht, stille friedliche Atmosphäre, dezente Bewegung in Gräsern, natürliche Farben, dokumentarisch-poetische Bildsprache, offen wirkender Horizont, zurückhaltend, glaubwürdig, ohne Menschenmenge, ohne inszenierten Kitsch",
     "negative_prompt": "text, letters, logo, watermark",
     "formats": [
       "4:5",
       "9:16",
       "1.91:1"
     ],
-    "alt_text": ""
+    "alt_text": "Ein schmaler Weg führt durch eine ruhige Landschaft im warmen Abendlicht. Die Szene wirkt offen und still. Sie erinnert an Aufbruch, Vertrauen und einen behutsamen Schritt ins Wochenende."
   },
   "qa": {
     "warnings": [
       "Alt text must be completed before approval",
-      "Check song lyric copyright before publication"
+      "Check song lyric copyright before publication",
+      "Prüfen, ob die Nennung von EG 395 in der jeweiligen Plattformgrafik ohne Liedtext erfolgt",
+      "Wochenspruchzitat auf korrekte Schreibweise und Bibelstellenangabe gegenlesen"
     ],
     "approved": false
   },
   "metadata": {
-    "model": "",
-    "generated_at": "",
+    "model": "gpt-5.4-2026-03-05",
+    "generated_at": "2026-09-04T06:18:36.947Z",
     "prompt_version": "1.0",
     "assets": []
   }
