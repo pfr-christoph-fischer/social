@@ -84,5 +84,91 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-09-04",
+    "contentDate": "2026-09-04",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-09-04T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Niemand darf gezwungen werden, einer Vereinigung anzugehören. (Allgemeine Erklärung der Menschenrechte, Artikel 20 Absatz 2)",
+    "assets": [
+      "render-square-01.jpg"
+    ],
+    "altTexts": [
+      "Niemand darf gezwungen werden, einer Vereinigung anzugehören. (Allgemeine Erklärung der Menschenrechte, Artikel 20 Absatz 2)"
+    ],
+    "id": "fab6a4f1-97df-4ad0-80ad-8e679ea81c20",
+    "attemptCount": 1,
+    "remoteId": "18210771883357298",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:37:30.519Z",
+    "updatedAt": "2026-09-04T10:00:36.232Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-09-04",
+    "contentDate": "2026-09-04",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-09-04T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Niemand darf gezwungen werden, einer Vereinigung anzugehören. (Allgemeine Erklärung der Menschenrechte, Artikel 20 Absatz 2)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Niemand darf gezwungen werden, einer Vereinigung anzugehören. (Allgemeine Erklärung der Menschenrechte, Artikel 20 Absatz 2)"
+    ],
+    "id": "7029a99b-635c-45c1-acc7-b8f64b32a373",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3muopflw3x42h",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3muopflw3x42h",
+    "lastError": null,
+    "createdAt": "2026-08-26T15:37:30.566Z",
+    "updatedAt": "2026-09-04T10:00:38.508Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-09-04",
+    "contentDate": "2026-09-04",
+    "platform": "linkedin",
+    "format": "default",
+    "scheduledAt": "2026-09-04T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Niemand darf gezwungen werden, einer Vereinigung anzugehören. (Allgemeine Erklärung der Menschenrechte, Artikel 20 Absatz 2)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Niemand darf gezwungen werden, einer Vereinigung anzugehören. (Allgemeine Erklärung der Menschenrechte, Artikel 20 Absatz 2)"
+    ],
+    "id": "e52619d2-1abb-45c8-aed9-2e36971bda96",
+    "attemptCount": 1,
+    "remoteId": "urn:li:share:7501579981161000960",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:37:30.606Z",
+    "updatedAt": "2026-09-04T10:00:40.685Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 201
+    },
+    "retryHistory": []
   }
 ]
