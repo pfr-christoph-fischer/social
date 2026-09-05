@@ -25,35 +25,35 @@
   },
   "platforms": {
     "facebook": {
-      "text": "Gott,\ndieser Morgen ist dein Geschenk.\n\nWir danken dir für das Licht,\nfür den Atem,\nfür das Leben,\nfür alles Gute, das du neu wachsen lässt.\n\nWir loben dich,\nweil deine Güte jeden Morgen neu ist\nund deine Treue uns trägt.\n\nDu bist da,\nnoch bevor wir Worte finden.\nDu gehst mit,\nnoch bevor dieser Tag beginnt.\n\nDarum öffnen wir dir unser Herz.\nMit Dank.\nMit Vertrauen.\nMit Freude an deiner Nähe.\n\nAmen.",
-      "headline": "Morgengebet: Dank und Lob für diesen neuen Tag"
+      "headline": "Morgengebet: Dank und Lob für diesen neuen Tag",
+      "text": "Gott,\ndieser Morgen ist dein Geschenk.\n\nWir danken dir für das Licht,\nfür den Atem,\nfür das Leben,\nfür alles Gute, das du neu wachsen lässt.\n\nWir loben dich,\nweil deine Güte jeden Morgen neu ist\nund deine Treue uns trägt.\n\nDu bist da,\nnoch bevor wir Worte finden.\nDu gehst mit,\nnoch bevor dieser Tag beginnt.\n\nDarum öffnen wir dir unser Herz.\nMit Dank.\nMit Vertrauen.\nMit Freude an deiner Nähe.\n\nAmen."
     },
     "instagram": {
       "caption": "Gott,\n\nDieser Morgen ist dein Geschenk.\nWir danken dir für das Licht, für den Atem und für das Leben.\nWir loben dich, weil deine Güte jeden Morgen neu ist und deine Treue uns trägt.\n\nLass uns diesen Tag mit offenem Herzen beginnen,\nmit Dank,\nmit Vertrauen,\nmit Freude an deiner Nähe.\n\nAmen.",
       "carousel": [
         {
-          "type": "text",
-          "text": "Gott,\ndieser Morgen ist dein Geschenk."
+          "text": "Gott,\ndieser Morgen ist dein Geschenk.",
+          "type": "text"
         },
         {
-          "type": "text",
-          "text": "Wir danken dir für das Licht,\nfür den Atem,\nfür das Leben."
+          "text": "Wir danken dir für das Licht,\nfür den Atem,\nfür das Leben.",
+          "type": "text"
         },
         {
-          "type": "text",
-          "text": "Wir danken dir\nfür alles Gute,\ndas du neu wachsen lässt."
+          "text": "Wir danken dir\nfür alles Gute,\ndas du neu wachsen lässt.",
+          "type": "text"
         },
         {
-          "type": "text",
-          "text": "Wir loben dich,\nweil deine Güte\njeden Morgen neu ist."
+          "text": "Wir loben dich,\nweil deine Güte\njeden Morgen neu ist.",
+          "type": "text"
         },
         {
-          "type": "text",
-          "text": "Deine Treue trägt uns.\nDeine Nähe geht mit uns\nin diesen Tag."
+          "text": "Deine Treue trägt uns.\nDeine Nähe geht mit uns\nin diesen Tag.",
+          "type": "text"
         },
         {
-          "type": "text",
-          "text": "Darum beginnen wir\nmit Dank,\nmit Vertrauen,\nmit Freude.\nAmen."
+          "text": "Darum beginnen wir\nmit Dank,\nmit Vertrauen,\nmit Freude.\nAmen.",
+          "type": "text"
         }
       ]
     },
@@ -100,7 +100,7 @@
   },
   "visual": {
     "concept": "Ruhige Morgenszene mit offenem Fenster, weichem Licht und einem schlichten Tisch. Ergänzend natürliche Elemente wie Blätter, Himmel oder ein heller Weg im Morgenlicht. Die Bildsprache soll Dank, Weite, Ruhe und vertrauensvolle Gegenwart vermitteln.",
-    "flux_prompt": "",
+    "flux_prompt": "Ruhige Morgenszene mit offenem Fenster, weichem Licht und einem schlichten Tisch. Ergänzend natürliche Elemente wie Blätter, Himmel oder ein heller Weg im Morgenlicht. Die Bildsprache soll Dank, Weite, Ruhe und vertrauensvolle Gegenwart vermitteln.",
     "negative_prompt": "text, letters, logo, watermark",
     "formats": [
       "4:5",
@@ -110,12 +110,12 @@
     "alt_text": "Ein stiller Tisch am Morgen vor einem offenen Fenster im weichen Licht. Draußen sind helle Naturtöne und frisches Grün zu sehen. Die Szene wirkt ruhig, weit und hoffnungsvoll."
   },
   "qa": {
+    "approved": false,
     "warnings": [
       "Alt text must be completed before approval",
       "Keine Textbestandteile in die Bildgestaltung setzen.",
       "Alt-Text redaktionell gegen finales Motiv gegenprüfen."
-    ],
-    "approved": false
+    ]
   },
   "metadata": {
     "model": "gpt-5.4-2026-03-05",
