@@ -1,0 +1,79 @@
+{
+  "id": "post-0032",
+  "status": "in Arbeit",
+  "needs_input": true,
+  "source": {
+    "calendar_post_id": "post-0032",
+    "date": "2026-09-10",
+    "rubric": "Reli fragt",
+    "liturgical_source": ""
+  },
+  "editorial_core": {
+    "title": "Eine Methode oder ein Unterrichtsprodukt zeigen – ohne personenbezogene Daten",
+    "main_message": "Mit einer echten, aber vollständig anonymisierten Frage beginnen.",
+    "audience": "[TODO: define audience after current inputs are available]",
+    "tone": [
+      "klar",
+      "ruhig",
+      "zugänglich"
+    ],
+    "source_notes": [
+      "Goal: Eine Frage, Beobachtung oder Lernerfahrung aus dem Religionsunterricht aufnehmen, ohne Schüler:innen erkennbar zu machen.",
+      "Column: Schule und religiöse Bildung",
+      "Production mode: Rahmen vorproduzierbar; konkreten Anlass aktuell ergänzen",
+      "Structure: anonymisierte Frage | warum sie mich beschäftigt | eine offene Antwort | Rückfrage an die Community",
+      "AI support notes: Anonymisierung prüfen | altersgerechte Erklärung | Antwortvarianten | Symbolbild-Prompt",
+      "Current inputs required: anonymisierte Unterrichtsbeobachtung | Klassenstufe nur nennen, wenn unproblematisch"
+    ]
+  },
+  "platforms": {
+    "facebook": {
+      "text": "",
+      "headline": ""
+    },
+    "instagram": {
+      "caption": "",
+      "carousel": []
+    },
+    "mastodon": {
+      "text": ""
+    },
+    "bluesky": {
+      "text": ""
+    },
+    "story": {
+      "slides": []
+    },
+    "reel": {
+      "hook": "",
+      "script": "",
+      "shots": [],
+      "duration_seconds": 0
+    }
+  },
+  "visual": {
+    "concept": "",
+    "flux_prompt": "",
+    "negative_prompt": "text, letters, logo, watermark",
+    "formats": [
+      "4:5",
+      "9:16",
+      "1.91:1"
+    ],
+    "alt_text": ""
+  },
+  "qa": {
+    "warnings": [
+      "Alt text must be completed before approval",
+      "Current source inputs are still required before publication",
+      "Review privacy and factual accuracy before drafting"
+    ],
+    "approved": false
+  },
+  "metadata": {
+    "model": "",
+    "generated_at": "",
+    "prompt_version": "1.0",
+    "assets": []
+  }
+}

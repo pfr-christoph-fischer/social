@@ -1,0 +1,76 @@
+{
+  "id": "post-0031",
+  "status": "in Arbeit",
+  "needs_input": false,
+  "source": {
+    "calendar_post_id": "post-0031",
+    "date": "2026-09-09",
+    "rubric": "Mittwochsserie",
+    "liturgical_source": ""
+  },
+  "editorial_core": {
+    "title": "Was bedeutet eigentlich Amen?",
+    "main_message": "Serie: Was bedeutet eigentlich Amen?",
+    "audience": "breite Öffentlichkeit",
+    "tone": [
+      "klar",
+      "ruhig",
+      "zugänglich"
+    ],
+    "source_notes": [
+      "Goal: Eine verlässliche, wiedererkennbare Serie mit verständlicher theologischer Bildung.",
+      "Column: Glauben verstehen",
+      "Production mode: in Monatsblöcken vollständig vorproduzierbar",
+      "Structure: Frage als Einstieg | verständliche Erklärung | Bedeutung für heute | Gesprächsfrage",
+      "AI support notes: Skript | Karussellkarten | Reel-Hook | Untertitel | Alt-Text"
+    ]
+  },
+  "platforms": {
+    "facebook": {
+      "text": "",
+      "headline": ""
+    },
+    "instagram": {
+      "caption": "",
+      "carousel": []
+    },
+    "mastodon": {
+      "text": ""
+    },
+    "bluesky": {
+      "text": ""
+    },
+    "story": {
+      "slides": []
+    },
+    "reel": {
+      "hook": "",
+      "script": "",
+      "shots": [],
+      "duration_seconds": 0
+    }
+  },
+  "visual": {
+    "concept": "",
+    "flux_prompt": "",
+    "negative_prompt": "text, letters, logo, watermark",
+    "formats": [
+      "4:5",
+      "9:16",
+      "1.91:1"
+    ],
+    "alt_text": ""
+  },
+  "qa": {
+    "warnings": [
+      "Alt text must be completed before approval"
+    ],
+    "approved": false
+  },
+  "metadata": {
+    "model": "",
+    "generated_at": "",
+    "prompt_version": "1.0",
+    "assets": []
+  }
+}
