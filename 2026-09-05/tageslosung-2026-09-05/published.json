@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-05",
+    "contentDate": "2026-09-05",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-09-05T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Keiner wird zuschanden, der auf dich harret; aber zuschanden werden die leichtfertigen Verächter.",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Keiner wird zuschanden, der auf dich harret; aber zuschanden werden die leichtfertigen Verächter."
+    ],
+    "id": "ef07311a-93b0-4ca4-9ba5-2b2408f5ca41",
+    "attemptCount": 1,
+    "remoteId": "17938874685097445",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:45:05.045Z",
+    "updatedAt": "2026-09-05T05:00:32.385Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-05",
+    "contentDate": "2026-09-05",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-09-05T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Keiner wird zuschanden, der auf dich harret; aber zuschanden werden die leichtfertigen Verächter.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Keiner wird zuschanden, der auf dich harret; aber zuschanden werden die leichtfertigen Verächter."
+    ],
+    "id": "06c0fcc3-0d8c-4806-9045-e1acbe6d127c",
+    "attemptCount": 1,
+    "remoteId": "117216669427203667",
+    "remoteUrl": "https://kirche.social/@christoph/117216669427203667",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:45:05.050Z",
+    "updatedAt": "2026-09-05T05:00:33.465Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
