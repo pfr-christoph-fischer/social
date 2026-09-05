@@ -1,0 +1,44 @@
+{
+  "delivery_url": "https://delivery.eu2.bfl.ai/durable/2026090515/5e1f69ea-538b-4d66-962e-9be995966f07/37/8861083d1ef0ba/3d1ef0baf48a4de994a4edf368b0d941/sample.jpeg?se=2026-09-05T16%3A08%3A06Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=ZKM/vxaEdtbpRBkotoeS3ZJiT5ac33bUHsM6nHLI/RU%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "d6b5ddb4-1ebf-4bbc-a0ed-eee73515508b",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "d6b5ddb4-1ebf-4bbc-a0ed-eee73515508b",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "d6b5ddb4-1ebf-4bbc-a0ed-eee73515508b",
+      "status": "Ready",
+      "result": {
+        "start_time": 1788623885.1769013,
+        "prompt": "Ruhige Morgenszene mit offenem Fenster, weichem Licht und einem schlichten Tisch. Ergänzend natürliche Elemente wie Blätter, Himmel oder ein heller Weg im Morgenlicht. Die Bildsprache soll Dank, Weite, Ruhe und vertrauensvolle Gegenwart vermitteln., no text, no letters, no typography, no logo, no watermark",
+        "seed": 1945839569,
+        "sample": "https://delivery.eu2.bfl.ai/durable/2026090515/5e1f69ea-538b-4d66-962e-9be995966f07/37/8861083d1ef0ba/3d1ef0baf48a4de994a4edf368b0d941/sample.jpeg?se=2026-09-05T16%3A08%3A06Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=ZKM/vxaEdtbpRBkotoeS3ZJiT5ac33bUHsM6nHLI/RU%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "d6b5ddb4-1ebf-4bbc-a0ed-eee73515508b",
+    "polling_url": "https://api.eu2.bfl.ai/v1/get_result?id=d6b5ddb4-1ebf-4bbc-a0ed-eee73515508b",
+    "cost": 1.4000000000000001,
+    "input_mp": 0,
+    "output_mp": 0.72
+  }
+}
