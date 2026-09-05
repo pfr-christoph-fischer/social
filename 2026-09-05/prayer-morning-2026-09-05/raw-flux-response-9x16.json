@@ -1,0 +1,52 @@
+{
+  "delivery_url": "https://delivery.eu2.bfl.ai/durable/2026090509/5e1f69ea-538b-4d66-962e-9be995966f07/89/046709b1d22ffe/b1d22ffe5e1d475a8bb87f7df1e8ace5/sample.jpeg?se=2026-09-05T09%3A14%3A07Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=DAXLpGdszexXntyQEK6rqRCwPePKA2TXwqlvBZhu7cs%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "afd1ddfb-8328-4330-8e53-db9babe653c8",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "afd1ddfb-8328-4330-8e53-db9babe653c8",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "afd1ddfb-8328-4330-8e53-db9babe653c8",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "afd1ddfb-8328-4330-8e53-db9babe653c8",
+      "status": "Ready",
+      "result": {
+        "start_time": 1788599045.2642772,
+        "prompt": "Ruhige Morgenszene mit weichem Licht, offenem Fenster, schlichter Tischfläche, einer Tasse und dem Eindruck von Wachheit, Fürbitte und zivilcouragierter Hoffnung; zurückhaltende Bildsprache ohne konkrete politische Symbole., no text, no letters, no typography, no logo, no watermark",
+        "seed": 1267315590,
+        "sample": "https://delivery.eu2.bfl.ai/durable/2026090509/5e1f69ea-538b-4d66-962e-9be995966f07/89/046709b1d22ffe/b1d22ffe5e1d475a8bb87f7df1e8ace5/sample.jpeg?se=2026-09-05T09%3A14%3A07Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=DAXLpGdszexXntyQEK6rqRCwPePKA2TXwqlvBZhu7cs%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "afd1ddfb-8328-4330-8e53-db9babe653c8",
+    "polling_url": "https://api.eu2.bfl.ai/v1/get_result?id=afd1ddfb-8328-4330-8e53-db9babe653c8",
+    "cost": 1.5,
+    "input_mp": 0,
+    "output_mp": 1.98
+  }
+}

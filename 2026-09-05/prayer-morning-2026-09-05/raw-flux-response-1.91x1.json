@@ -1,0 +1,28 @@
+{
+  "delivery_url": "https://delivery.us8.bfl.ai/durable/2026090509/5e1f69ea-538b-4d66-962e-9be995966f07/7f/040338225459aa/225459aa73ca4319bffdb18ef17ec72e/sample.jpeg?se=2026-09-05T09%3A14%3A00Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=rFdU3PeTQ76%2BMSdT9TTpnsVyr/FfyxJ5kcTlmpI3lOI%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "8a3201a2-757a-4d18-b44f-d9f601ff16d5",
+      "status": "Ready",
+      "result": {
+        "start_time": 1788599039.3676713,
+        "prompt": "Ruhige Morgenszene mit weichem Licht, offenem Fenster, schlichter Tischfläche, einer Tasse und dem Eindruck von Wachheit, Fürbitte und zivilcouragierter Hoffnung; zurückhaltende Bildsprache ohne konkrete politische Symbole., no text, no letters, no typography, no logo, no watermark",
+        "seed": 2861598195,
+        "sample": "https://delivery.us8.bfl.ai/durable/2026090509/5e1f69ea-538b-4d66-962e-9be995966f07/7f/040338225459aa/225459aa73ca4319bffdb18ef17ec72e/sample.jpeg?se=2026-09-05T09%3A14%3A00Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=rFdU3PeTQ76%2BMSdT9TTpnsVyr/FfyxJ5kcTlmpI3lOI%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "8a3201a2-757a-4d18-b44f-d9f601ff16d5",
+    "polling_url": "https://api.us8.bfl.ai/v1/get_result?id=8a3201a2-757a-4d18-b44f-d9f601ff16d5",
+    "cost": 1.4000000000000001,
+    "input_mp": 0,
+    "output_mp": 0.72
+  }
+}
