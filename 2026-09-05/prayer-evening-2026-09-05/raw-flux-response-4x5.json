@@ -1,0 +1,52 @@
+{
+  "delivery_url": "https://delivery.eu2.bfl.ai/durable/2026090515/5e1f69ea-538b-4d66-962e-9be995966f07/40/319407c8b7bbf6/c8b7bbf69dc94d7fadd6bae85cb4044d/sample.jpeg?se=2026-09-05T15%3A58%3A39Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=iqrO1PTgV5IsPjjzNqIzqIQFP/KYaK5xsiOLaaZjBZU%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "7171e5b8-6f90-4fc3-9906-920e414ba7be",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "7171e5b8-6f90-4fc3-9906-920e414ba7be",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "7171e5b8-6f90-4fc3-9906-920e414ba7be",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "7171e5b8-6f90-4fc3-9906-920e414ba7be",
+      "status": "Ready",
+      "result": {
+        "start_time": 1788623318.0817075,
+        "prompt": "Fotorealistisches ruhiges Abendmotiv in einem schlichten Innenraum, offenes Fenster mit blau-goldener Dämmerung, warmes weiches Licht, Holztisch mit abgelegten Alltagsgegenständen wie Schlüssel und geschlossenem Notizbuch, stille friedliche Atmosphäre, natürliche Farben, viel Raum, zurückhaltende Komposition, keine Menschen im Vordergrund, hoffnungsvoll und geerdet, no text, no letters, no typography, no logo, no watermark",
+        "seed": 2777802689,
+        "sample": "https://delivery.eu2.bfl.ai/durable/2026090515/5e1f69ea-538b-4d66-962e-9be995966f07/40/319407c8b7bbf6/c8b7bbf69dc94d7fadd6bae85cb4044d/sample.jpeg?se=2026-09-05T15%3A58%3A39Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=iqrO1PTgV5IsPjjzNqIzqIQFP/KYaK5xsiOLaaZjBZU%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "7171e5b8-6f90-4fc3-9906-920e414ba7be",
+    "polling_url": "https://api.eu2.bfl.ai/v1/get_result?id=7171e5b8-6f90-4fc3-9906-920e414ba7be",
+    "cost": 1.5,
+    "input_mp": 0,
+    "output_mp": 1.39
+  }
+}

@@ -105,13 +105,17 @@
     "alt_text": "Ein schlichter Tisch an einem offenen Fenster in der Abenddämmerung. Warmes Licht fällt in den Raum. Auf dem Tisch liegen einige Alltagsdinge. Die Szene wirkt still und lässt an Loslassen und Ruhe für die Nacht denken."
   },
   "qa": {
-    "approved": true,
-    "warnings": []
+    "warnings": [],
+    "approved": true
   },
   "metadata": {
     "model": "gpt-5.4-2026-03-05",
     "generated_at": "2026-09-05T09:00:46.450Z",
     "prompt_version": "1.0",
-    "assets": []
+    "assets": [
+      "assets/background-1.91x1.webp",
+      "assets/background-4x5.webp",
+      "assets/background-9x16.webp"
+    ]
   }
 }

@@ -1,0 +1,36 @@
+{
+  "delivery_url": "https://delivery.us2.bfl.ai/durable/2026090515/5e1f69ea-538b-4d66-962e-9be995966f07/2c/316073a7dfa94b/a7dfa94b53254eff95f238aa5a88dd76/sample.jpeg?se=2026-09-05T15%3A58%3A36Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=9fitZEutWFlyshMh59sWZasN0PlrSBwCV0EKAuw0DVE%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "87e1474f-ed59-49bc-afeb-5cf35f264125",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "87e1474f-ed59-49bc-afeb-5cf35f264125",
+      "status": "Ready",
+      "result": {
+        "start_time": 1788623314.783123,
+        "prompt": "Fotorealistisches ruhiges Abendmotiv in einem schlichten Innenraum, offenes Fenster mit blau-goldener Dämmerung, warmes weiches Licht, Holztisch mit abgelegten Alltagsgegenständen wie Schlüssel und geschlossenem Notizbuch, stille friedliche Atmosphäre, natürliche Farben, viel Raum, zurückhaltende Komposition, keine Menschen im Vordergrund, hoffnungsvoll und geerdet, no text, no letters, no typography, no logo, no watermark",
+        "seed": 2190234334,
+        "sample": "https://delivery.us2.bfl.ai/durable/2026090515/5e1f69ea-538b-4d66-962e-9be995966f07/2c/316073a7dfa94b/a7dfa94b53254eff95f238aa5a88dd76/sample.jpeg?se=2026-09-05T15%3A58%3A36Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=9fitZEutWFlyshMh59sWZasN0PlrSBwCV0EKAuw0DVE%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "87e1474f-ed59-49bc-afeb-5cf35f264125",
+    "polling_url": "https://api.us2.bfl.ai/v1/get_result?id=87e1474f-ed59-49bc-afeb-5cf35f264125",
+    "cost": 1.4000000000000001,
+    "input_mp": 0,
+    "output_mp": 0.72
+  }
+}
