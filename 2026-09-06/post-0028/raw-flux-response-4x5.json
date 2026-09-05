@@ -1,0 +1,52 @@
+{
+  "delivery_url": "https://delivery.eu2.bfl.ai/durable/2026090515/5e1f69ea-538b-4d66-962e-9be995966f07/f9/598413815567ec/815567ec9cca4232bbcc2ee36595a14a/sample.jpeg?se=2026-09-05T16%3A03%3A18Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=bYYqskMjcS5hOr27z69owQALGkVlEwL6IGeXpIBfKEo%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "d3abbbc9-1bea-43aa-83e0-2fae46998b41",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "d3abbbc9-1bea-43aa-83e0-2fae46998b41",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "d3abbbc9-1bea-43aa-83e0-2fae46998b41",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "d3abbbc9-1bea-43aa-83e0-2fae46998b41",
+      "status": "Ready",
+      "result": {
+        "start_time": 1788623597.1172807,
+        "prompt": "Fotorealistisches ruhiges Morgenmotiv in der Natur, weiches goldenes Licht, feiner Tau auf Gräsern oder Blättern, sanfte Tiefenschärfe, klare natürliche Farben, stille meditative Atmosphäre, minimalistische Komposition, viel freier Raum, glaubwürdige Lichtstimmung, hochwertig, unaufgeregt, kein Mensch im Fokus., no text, no letters, no typography, no logo, no watermark",
+        "seed": 85845150,
+        "sample": "https://delivery.eu2.bfl.ai/durable/2026090515/5e1f69ea-538b-4d66-962e-9be995966f07/f9/598413815567ec/815567ec9cca4232bbcc2ee36595a14a/sample.jpeg?se=2026-09-05T16%3A03%3A18Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=bYYqskMjcS5hOr27z69owQALGkVlEwL6IGeXpIBfKEo%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "d3abbbc9-1bea-43aa-83e0-2fae46998b41",
+    "polling_url": "https://api.eu2.bfl.ai/v1/get_result?id=d3abbbc9-1bea-43aa-83e0-2fae46998b41",
+    "cost": 1.5,
+    "input_mp": 0,
+    "output_mp": 1.39
+  }
+}

@@ -103,13 +103,17 @@
     "alt_text": "Ein ruhiges Naturbild im weichen Morgenlicht. Auf Gräsern oder Blättern liegt feiner Tau. Die Farben sind sanft, der Hintergrund unscharf. Das Bild wirkt still und offen und lädt zum Innehalten ein."
   },
   "qa": {
-    "approved": true,
-    "warnings": []
+    "warnings": [],
+    "approved": true
   },
   "metadata": {
     "model": "gpt-5.4-2026-03-05",
     "generated_at": "2026-09-05T15:52:39.299Z",
     "prompt_version": "1.0",
-    "assets": []
+    "assets": [
+      "assets/background-1.91x1.webp",
+      "assets/background-4x5.webp",
+      "assets/background-9x16.webp"
+    ]
   }
 }
