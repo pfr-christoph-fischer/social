@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-09-05",
+    "contentDate": "2026-09-05",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-09-05T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Alle Deutschen haben das Recht, sich ohne Anmeldung oder Erlaubnis friedlich und ohne Waffen zu versammeln. (Grundgesetz, Artikel 8 Absatz 1)",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Alle Deutschen haben das Recht, sich ohne Anmeldung oder Erlaubnis friedlich und ohne Waffen zu versammeln. (Grundgesetz, Artikel 8 Absatz 1)"
+    ],
+    "id": "9e736bf4-7566-4d24-8e1b-ecafd0599ad6",
+    "attemptCount": 1,
+    "remoteId": "18067916003726704",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:37:33.140Z",
+    "updatedAt": "2026-09-05T10:00:29.259Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-09-05",
+    "contentDate": "2026-09-05",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-09-05T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Alle Deutschen haben das Recht, sich ohne Anmeldung oder Erlaubnis friedlich und ohne Waffen zu versammeln. (Grundgesetz, Artikel 8 Absatz 1)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Alle Deutschen haben das Recht, sich ohne Anmeldung oder Erlaubnis friedlich und ohne Waffen zu versammeln. (Grundgesetz, Artikel 8 Absatz 1)"
+    ],
+    "id": "6edc6931-b2da-4916-885f-8b49bb84cea1",
+    "attemptCount": 1,
+    "remoteId": "117217848897419962",
+    "remoteUrl": "https://kirche.social/@christoph/117217848897419962",
+    "lastError": null,
+    "createdAt": "2026-08-26T15:37:33.180Z",
+    "updatedAt": "2026-09-05T10:00:30.808Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
