@@ -27,5 +27,66 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "prayer-evening-2026-09-05",
+    "contentDate": "2026-09-05",
+    "platform": "instagram",
+    "format": "default",
+    "scheduledAt": "2026-09-05T18:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Der Tag muss nicht fertig werden, damit du schlafen darfst.\n\nGott,\nwir legen dir hin, was gelungen ist. Und was offen blieb.\nWir bitten dich für die neuen Verhandlungen über einen Waffenstillstand in der Ukraine in Moskau.\nFür die Menschen, die von den Schüssen in einer Bar in Köln betroffen sind.\nUnd für alle Opfer von Gewalt.\n\nWas wir heute nicht mehr tragen können, legen wir in deine Hand.\nSchenk Frieden für diese Nacht. Amen.",
+    "assets": [
+      "render-instagram-feed-01.jpg",
+      "render-instagram-feed-02.jpg",
+      "render-instagram-feed-03.jpg",
+      "render-instagram-feed-04.jpg",
+      "render-instagram-feed-05.jpg"
+    ],
+    "altTexts": [
+      "Ein schlichter Tisch an einem offenen Fenster in der Abenddämmerung. Warmes Licht fällt in den Raum. Auf dem Tisch liegen einige Alltagsdinge. Die Szene wirkt still und lässt an Loslassen und Ruhe für die Nacht denken."
+    ],
+    "id": "7140252b-5557-4eca-b5d5-cd0acc0be8f6",
+    "attemptCount": 1,
+    "remoteId": "17987413230027990",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-09-05T15:52:09.156Z",
+    "updatedAt": "2026-09-05T18:00:59.821Z",
+    "responseMetadata": {
+      "mediaCount": 5,
+      "mediaType": "CAROUSEL",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "prayer-evening-2026-09-05",
+    "contentDate": "2026-09-05",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-09-05T18:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Abendgebet\n\nGott,\nwir legen dir diesen Tag hin.\nWas gut war. Was weh tat. Was offen blieb.\n\nWir bitten dich für die neuen Verhandlungen über einen Waffenstillstand in der Ukraine in Moskau.\nFür die Menschen, die von den Schüssen in einer Bar in Köln betroffen sind.\nFür alle Opfer von Gewalt.\n\nWas wir heute nicht mehr tragen können, legen wir in deine Hand.\nSchenk Frieden für diese Nacht. Amen.",
+    "assets": [
+      "render-facebook-mastodon-01.png"
+    ],
+    "altTexts": [
+      "Ein schlichter Tisch an einem offenen Fenster in der Abenddämmerung. Warmes Licht fällt in den Raum. Auf dem Tisch liegen einige Alltagsdinge. Die Szene wirkt still und lässt an Loslassen und Ruhe für die Nacht denken."
+    ],
+    "id": "a04b11f9-aad1-47d3-bb9f-f75d958327b3",
+    "attemptCount": 1,
+    "remoteId": "117219738291467159",
+    "remoteUrl": "https://kirche.social/@christoph/117219738291467159",
+    "lastError": null,
+    "createdAt": "2026-09-05T15:52:09.252Z",
+    "updatedAt": "2026-09-05T18:01:00.606Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
