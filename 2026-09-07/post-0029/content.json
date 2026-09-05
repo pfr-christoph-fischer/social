@@ -23,44 +23,88 @@
       "Production mode: vollständig vorproduzierbar",
       "Structure: Wochenspruch | ein alltagsnaher Gedanke | eine kleine Übung | eine Frage",
       "AI support notes: Rohentwurf in einfacher Sprache | Varianten der Wochenübung | Caption kürzen | Alt-Text",
-      "Liturgical source: https://kirchenjahr.pfarr.tools/api/jahr/2026 (2026-09-06, $.Tage['2026-09-06'])"
+      "Liturgical source: https://kirchenjahr.pfarr.tools/api/jahr/2026 (2026-09-06, $.Tage['2026-09-06'])",
+      "Wochenspruch: Lobe den HERRN, meine Seele, und vergiss nicht, was er dir Gutes getan hat. (Ps 103,2)"
     ]
   },
   "platforms": {
     "facebook": {
-      "text": "",
-      "headline": ""
+      "text": "Wochenspruch der Woche:\n„Lobe den HERRN, meine Seele, und vergiss nicht, was er dir Gutes getan hat.“ (Ps 103,2)\n\nMitten im Streit vergessen wir schnell, was gut ist. Dann zählt nur noch der eine Satz, der uns getroffen hat. Nur noch der Ärger. Nur noch die schnelle Antwort.\n\nDer Wochenspruch lenkt den Blick anders. Er sagt nicht: Rede Probleme klein. Er sagt auch nicht: Schluck alles runter. Aber er erinnert daran, dass unser Leben mehr ist als der aktuelle Konflikt. Da ist auch das Gute. Da sind Menschen, die uns tragen. Da ist Zeit zum Atmen.\n\nDie kleine Übung für diese Woche:\nWenn dich eine Nachricht ärgert, antworte nicht sofort. Lies sie. Lege das Handy weg. Schlaf eine Nacht darüber. Am nächsten Tag frag dich: Was ist hier mein nächster guter Schritt?\n\nVielleicht wird die Antwort kürzer. Vielleicht freundlicher. Vielleicht klarer.\n\nFrage für die Woche:\nWo würde es dir guttun, nicht sofort zurückzuschreiben?",
+      "headline": "Nicht sofort antworten"
     },
     "instagram": {
-      "caption": "",
-      "carousel": []
+      "caption": "„Lobe den HERRN, meine Seele, und vergiss nicht, was er dir Gutes getan hat.“ (Ps 103,2)\n\nWenn ein Konflikt hochkocht, ist die schnelle Antwort oft schnell bereut.\nDiese Wochenübung ist schlicht: nicht sofort reagieren. Eine Nacht warten. Dann neu hinschauen.\n\nVielleicht wird die Antwort ruhiger.\nVielleicht klarer.\nVielleicht bleibt sie auch ganz aus.\n\nFrage für dich: Wo würde es dir guttun, erst morgen zu antworten?",
+      "carousel": [
+        {
+          "type": "text",
+          "text": "Wochenspruch\n„Lobe den HERRN, meine Seele, und vergiss nicht, was er dir Gutes getan hat.“\nPs 103,2"
+        },
+        {
+          "type": "text",
+          "text": "Im Streit wird der Blick eng.\nDann sehen wir oft nur noch den verletzenden Satz.\nDas Gute gerät aus dem Blick."
+        },
+        {
+          "type": "text",
+          "text": "Wochenübung:\nWenn dich eine Nachricht ärgert,\nantworte nicht sofort.\nLege das Handy weg.\nSchlaf eine Nacht darüber."
+        },
+        {
+          "type": "text",
+          "text": "Frag am nächsten Tag:\nWas ist jetzt mein nächster guter Schritt?"
+        },
+        {
+          "type": "text",
+          "text": "Frage:\nWo würde es dir guttun,\nnicht sofort zurückzuschreiben?"
+        }
+      ]
     },
     "mastodon": {
-      "text": ""
+      "text": "Wochenspruch der Woche:\n„Lobe den HERRN, meine Seele, und vergiss nicht, was er dir Gutes getan hat.“ (Ps 103,2)\n\nEine kleine Praxis dazu:\nWenn dich eine Nachricht ärgert, antworte nicht sofort. Lege das Handy weg. Schlaf eine Nacht darüber.\n\nDer Streit ist dann nicht weg. Aber der Blick wird oft weiter. Und die Antwort kann klarer werden.\n\nWo würde es dir guttun, erst morgen zu antworten?"
     },
     "bluesky": {
-      "text": ""
+      "text": "„Lobe den HERRN, meine Seele, und vergiss nicht, was er dir Gutes getan hat.“ (Ps 103,2)\n\nWochenübung:\nBei Ärger nicht sofort antworten. Eine Nacht warten. Dann fragen: Was ist jetzt mein nächster guter Schritt?\n\nWo würde dir das diese Woche guttun?"
     },
     "story": {
-      "slides": []
+      "slides": [
+        {
+          "text": "Wochenspruch der Woche\n„Lobe den HERRN, meine Seele, und vergiss nicht, was er dir Gutes getan hat.“\nPs 103,2"
+        },
+        {
+          "text": "Im Streit wird der Blick schnell eng.\nDann zählt oft nur noch die schnelle Antwort."
+        },
+        {
+          "text": "Kleine Übung:\nÄrgerliche Nachricht lesen.\nHandy weglegen.\nEine Nacht warten."
+        },
+        {
+          "text": "Am nächsten Tag fragen:\nWas ist jetzt mein nächster guter Schritt?"
+        },
+        {
+          "text": "Und du?\nWo würde es dir guttun,\nnicht sofort zurückzuschreiben?"
+        }
+      ]
     },
     "reel": {
-      "hook": "",
-      "script": "",
-      "shots": [],
-      "duration_seconds": 0
+      "hook": "Nicht jede Nachricht braucht sofort eine Antwort.",
+      "script": "Wochenspruch der Woche: „Lobe den HERRN, meine Seele, und vergiss nicht, was er dir Gutes getan hat.“ Manchmal vergessen wir das Gute genau dann, wenn ein Konflikt hochkocht. Dann wollen wir sofort reagieren. Diese Woche probier etwas Kleines: Wenn dich eine Nachricht ärgert, antworte nicht sofort. Lege das Handy weg. Schlaf eine Nacht darüber. Und frag am nächsten Tag: Was ist jetzt mein nächster guter Schritt?",
+      "shots": [
+        "Nahaufnahme eines stumm liegenden Smartphones auf einem Tisch",
+        "Eine Hand liest eine Nachricht und legt das Gerät bewusst weg",
+        "Abendlicht am Fenster oder eine ruhige Zimmerszene",
+        "Morgenszene mit Tasse oder offenem Notizbuch",
+        "Ruhige Handbewegung beim erneuten Aufnehmen des Smartphones"
+      ],
+      "duration_seconds": 24
     }
   },
   "visual": {
-    "concept": "",
-    "flux_prompt": "",
+    "concept": "Ruhige Alltagsszene mit Smartphone, das bewusst zur Seite gelegt wird; warmes Abendlicht und viel freier Raum erzeugen den Eindruck von Pause, Nachdenken und innerer Weite.",
+    "flux_prompt": "A calm everyday scene on a wooden table with a smartphone placed face down to one side, warm evening light through a window, minimal interior, peaceful atmosphere, gentle shadows, natural colors, reflective mood, realistic photography, no people clearly identifiable, lots of negative space, no typography",
     "negative_prompt": "text, letters, logo, watermark",
     "formats": [
       "4:5",
       "9:16",
       "1.91:1"
     ],
-    "alt_text": ""
+    "alt_text": "Ein Smartphone liegt auf einem schlichten Holztisch bewusst zur Seite gedreht. Warmes Licht fällt von einem Fenster herein. Die Szene wirkt ruhig und lädt dazu ein, erst einmal zu warten statt sofort zu reagieren."
   },
   "qa": {
     "warnings": [
@@ -69,8 +113,8 @@
     "approved": false
   },
   "metadata": {
-    "model": "",
-    "generated_at": "",
+    "model": "gpt-5.4-2026-03-05",
+    "generated_at": "2026-09-05T16:43:16.629Z",
     "prompt_version": "1.0",
     "assets": []
   }
