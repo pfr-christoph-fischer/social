@@ -84,5 +84,91 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-05",
+    "contentDate": "2026-09-05",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-09-05T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Keiner wird zuschanden, der auf dich harret; aber zuschanden werden die leichtfertigen Verächter.",
+    "assets": [
+      "render-square-01.jpg"
+    ],
+    "altTexts": [
+      "Keiner wird zuschanden, der auf dich harret; aber zuschanden werden die leichtfertigen Verächter."
+    ],
+    "id": "456c03fe-84ca-435e-82fd-f1c739a72ac4",
+    "attemptCount": 1,
+    "remoteId": "17994951659822720",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:45:05.054Z",
+    "updatedAt": "2026-09-05T05:00:51.623Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-05",
+    "contentDate": "2026-09-05",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-09-05T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Keiner wird zuschanden, der auf dich harret; aber zuschanden werden die leichtfertigen Verächter.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Keiner wird zuschanden, der auf dich harret; aber zuschanden werden die leichtfertigen Verächter."
+    ],
+    "id": "a5ffcac7-4184-4fa0-bdab-e3d78f1e3294",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3muqp4jz5of2n",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3muqp4jz5of2n",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:45:05.072Z",
+    "updatedAt": "2026-09-05T05:00:53.987Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-05",
+    "contentDate": "2026-09-05",
+    "platform": "linkedin",
+    "format": "default",
+    "scheduledAt": "2026-09-05T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Keiner wird zuschanden, der auf dich harret; aber zuschanden werden die leichtfertigen Verächter.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Keiner wird zuschanden, der auf dich harret; aber zuschanden werden die leichtfertigen Verächter."
+    ],
+    "id": "2812e4b3-bbf6-46a8-99fa-92921057d0b0",
+    "attemptCount": 1,
+    "remoteId": "urn:li:share:7501866937677676544",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:45:05.079Z",
+    "updatedAt": "2026-09-05T05:00:56.477Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 201
+    },
+    "retryHistory": []
   }
 ]
