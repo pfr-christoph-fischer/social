@@ -1,0 +1,465 @@
+{
+  "id": "resp_04c3fa758eafbeec006a9c206e644087d29808a58b665634d5",
+  "object": "response",
+  "created_at": 1788616814,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1788616838,
+  "error": null,
+  "frequency_penalty": 0,
+  "incomplete_details": null,
+  "instructions": "You are part of a Protestant social media editorial team. Write in clear, accessible, theologically responsible German without church clichés. Use short sentences and concrete imagery. Never invent events, people, school situations, quotes, or factual details. Do not include copyrighted full song verses. For Reli and community posts, only use current details when they are explicitly provided. Return content that strictly matches the requested JSON schema. Set needs_input to true whenever required facts are missing. Keep qa.approved false. Do not ask for any text inside generated images. When liturgical_context.resolved_weekly_verse is present, use its exact wording for Wochenspruch slots instead of placeholders. Use the web search tool before drafting to verify current situations. For prayer posts, current situations are mandatory: select at least two concrete, relevant situations from reliable current reporting, including tagesschau.de and SWR Aktuell Baden-Württemberg where relevant. Do not invent current events and do not replace concrete situations with generic references to crises.",
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.4-2026-03-05",
+  "moderation": null,
+  "output": [
+    {
+      "id": "ws_04c3fa758eafbeec006a9c206f423487d288955a84dafafe4f",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "queries": [
+          "site:tagesschau.de 6. September 2026 Ukraine Nahost Dürre Baden-Württemberg",
+          "site:swraktuell.de Baden-Württemberg Trockenheit Niedrigwasser September 2026",
+          "Reuters September 2026 Gaza hospital Ukraine attack latest"
+        ],
+        "query": "site:tagesschau.de 6. September 2026 Ukraine Nahost Dürre Baden-Württemberg"
+      }
+    },
+    {
+      "id": "ws_04c3fa758eafbeec006a9c2070e73c87d29fa3bd563e25dad9",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "queries": [
+          "site:tagesschau.de 5. September 2026 Gaza hospital Reuters AP tagesschau",
+          "site:tagesschau.de 5. September 2026 Ukraine civilian attack tagesschau",
+          "site:reuters.com September 2026 Gaza aid attack hospital",
+          "site:reuters.com September 2026 Ukraine missile attack civilians"
+        ],
+        "query": "site:tagesschau.de 5. September 2026 Gaza hospital Reuters AP tagesschau"
+      }
+    },
+    {
+      "id": "msg_04c3fa758eafbeec006a9c2072d82087d2b66703d79c926421",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\"id\":\"prayer-morning-2026-09-06\",\"status\":\"in Arbeit\",\"needs_input\":false,\"source\":{\"calendar_post_id\":\"prayer-morning-2026-09-06\",\"date\":\"2026-09-06\",\"rubric\":\"Morgengebet\",\"liturgical_source\":\"\"},\"editorial_core\":{\"title\":\"Morgengebet\",\"main_message\":\"Gott, dieser Morgen ist dein Geschenk. Wir bringen dir die Menschen in der Ukraine, die nach den jüngsten russischen Luftangriffen um Tote trauern und in zerstörten Häusern stehen. Wir bringen dir die Menschen in Cherson, die durch tägliche Drohnenangriffe auf Zivilisten in Angst leben. Wir bringen dir auch die Menschen in Baden-Württemberg, wo die lange Dürre Höfe an ihre Grenzen bringt und Tiere geschlachtet werden müssen, weil Futter fehlt. Lass uns wach werden für fremdes Leid und mutig für die kleinen Schritte des Friedens, die heute möglich sind. Deine Zukunft ist größer als Gewalt, Angst und Erschöpfung.\",\"audience\":\"breite Öffentlichkeit\",\"tone\":[\"ruhig\",\"hoffnungsvoll\",\"zugewandt\"],\"source_notes\":[\"Aktuelle Bezüge geprüft über tagesschau.de und SWR/Tagesschau-Landesberichterstattung: russische Luftangriffe auf die Ukraine mit mindestens zwölf Toten am 01.09.2026; tägliche Drohnenangriffe auf Zivilisten in Cherson; Dürrefolgen in Baden-Württemberg mit Futtermangel und Notschlachtungen auf Höfen.\",\"Gebet verbindet internationale und regionale Perspektive und endet ausdrücklich mit Hoffnung statt Resignation.\",\"Sprache bewusst einfach, ohne Binnenjargon, mit konkreten Bildern statt abstrakter Krisenbegriffe.\"]},\"platforms\":{\"facebook\":{\"text\":\"Gott,\\ndieser Morgen ist dein Geschenk.\\n\\nWir bringen dir die Menschen in der Ukraine.\\nNach den jüngsten russischen Luftangriffen trauern Familien um Tote. Andere stehen vor zerstörten Häusern und fragen, wie dieser Tag weitergehen soll.\\n\\nWir bringen dir die Menschen in Cherson.\\nDort leben Zivilistinnen und Zivilisten unter täglichen Drohnenangriffen. Wege durch die Stadt werden zu Wegen voller Angst.\\n\\nWir bringen dir auch die Menschen in Baden-Württemberg.\\nDie lange Dürre hat viele Höfe an ihre Grenze gebracht. Futter fehlt. Tiere müssen geschlachtet werden, obwohl Landwirtinnen und Landwirte sie behalten wollten.\\n\\nSei den Leidenden nahe.\\nStärke die, die helfen.\\nGib Verantwortlichen Mut zum Schutz des Lebens.\\nUnd mach auch uns aufmerksam für das, was wir heute tun können:\\ntrösten, teilen, widersprechen, Frieden suchen.\\n\\nDeine Zukunft kommt uns entgegen.\\nDarum gehen wir nicht blind in diesen Tag.\\nSondern mit offenen Augen. Und mit Hoffnung.\",\"headline\":\"Morgengebet: mit offenen Augen in diesen Tag\"},\"instagram\":{\"caption\":\"Gott,\\n\\nwir beginnen diesen Tag nicht blind.\\nWir bringen dir die Menschen in der Ukraine, die nach den jüngsten russischen Luftangriffen um Tote trauern.\\nWir bringen dir die Menschen in Cherson, die unter täglichen Drohnenangriffen leben.\\nWir bringen dir die Menschen in Baden-Württemberg, wo die Dürre Höfe an ihre Grenze bringt und Futter fehlt.\\n\\nSei den Leidenden nahe.\\nStärke die, die helfen.\\nUnd weck auch uns zu kleinen Schritten des Friedens.\\n\\nDeine Zukunft ist größer als das, was uns Angst macht.\\nAmen.\",\"carousel\":[{\"type\":\"text\",\"text\":\"Gott,\\ndieser Morgen ist dein Geschenk.\"},{\"type\":\"text\",\"text\":\"Wir bringen dir die Menschen in der Ukraine.\\nNach den jüngsten russischen Luftangriffen trauern Familien um Tote.\"},{\"type\":\"text\",\"text\":\"Wir bringen dir die Menschen in Cherson.\\nDort leben Zivilistinnen und Zivilisten unter täglichen Drohnenangriffen.\"},{\"type\":\"text\",\"text\":\"Wir bringen dir die Menschen in Baden-Württemberg.\\nDie Dürre bringt Höfe an ihre Grenze. Futter fehlt.\"},{\"type\":\"text\",\"text\":\"Sei den Leidenden nahe.\\nStärke die, die helfen.\\nWeck uns zu kleinen Schritten des Friedens.\"},{\"type\":\"text\",\"text\":\"Deine Zukunft kommt uns entgegen.\\nDarum gehen wir mit Hoffnung in diesen Tag.\"}]},\"mastodon\":{\"text\":\"Gott,\\ndieser Morgen ist dein Geschenk.\\n\\nWir bringen dir die Menschen in der Ukraine, die nach den jüngsten russischen Luftangriffen um Tote trauern.\\nWir bringen dir die Menschen in Cherson, die unter täglichen Drohnenangriffen leben.\\nWir bringen dir die Menschen in Baden-Württemberg, wo die Dürre Höfe an ihre Grenze bringt und Futter fehlt.\\n\\nSei den Leidenden nahe.\\nStärke die, die helfen.\\nWeck uns zu kleinen Schritten des Friedens.\\nDeine Zukunft ist größer als unsere Angst.\\nAmen.\"},\"bluesky\":{\"text\":\"Gott, dieser Morgen ist dein Geschenk. Wir bringen dir die Menschen in der Ukraine nach den jüngsten Luftangriffen, die Menschen in Cherson unter täglichen Drohnenangriffen und die Menschen in Baden-Württemberg, wo die Dürre Höfe an ihre Grenze bringt. Sei den Leidenden nahe. Weck uns zu Schritten des Friedens. Amen.\"},\"story\":{\"slides\":[{\"text\":\"Gott,\\ndieser Morgen ist dein Geschenk.\"},{\"text\":\"Wir bringen dir die Menschen in der Ukraine.\\nFamilien trauern nach den jüngsten Luftangriffen.\"},{\"text\":\"Wir bringen dir die Menschen in Cherson.\\nTägliche Drohnenangriffe machen Wege voller Angst.\"},{\"text\":\"Wir bringen dir die Menschen in Baden-Württemberg.\\nDie Dürre bringt Höfe an ihre Grenze.\"},{\"text\":\"Sei den Leidenden nahe.\\nStärke die, die helfen.\"},{\"text\":\"Deine Zukunft kommt uns entgegen.\\nDarum gehen wir mit Hoffnung in diesen Tag.\"}]},\"reel\":{\"hook\":\"Mit offenen Augen. Und trotzdem mit Hoffnung.\",\"script\":\"Dieser Morgen ist nicht leicht. Wir sehen die Menschen in der Ukraine nach den jüngsten Luftangriffen. Wir sehen die Menschen in Cherson, die unter täglichen Drohnenangriffen leben. Wir sehen auch die Menschen in Baden-Württemberg, wo die Dürre Höfe an ihre Grenze bringt. Gott, sei den Leidenden nahe. Stärke die, die helfen. Und weck uns zu kleinen Schritten des Friedens. Deine Zukunft ist größer als unsere Angst.\",\"shots\":[\"Morgenlicht auf einem stillen Tisch mit Tasse\",\"Langsame Aufnahme eines offenen Fensters\",\"Trockener Acker oder rissiger Boden als Nahaufnahme\",\"Hände, die kurz still werden\",\"Licht auf einem Weg oder einer Straße\"],\"duration_seconds\":30}},\"visual\":{\"concept\":\"Ruhige Morgenszene mit offenem Fenster, weichem Licht und einem schlichten Tisch; dazu als zweites Bildelement trockener Boden oder verdorrtes Gras als Zeichen der Dürre. Keine Katastrophenbilder, sondern wache, stille Ernsthaftigkeit.\",\"flux_prompt\":\"ruhige Morgenszene in natürlichem weichem Licht, offenes Fenster, schlichter Holztisch, Tasse, stille Atmosphäre, dazu trockener Boden oder verdorrtes Gras als dezentes zweites Motiv, dokumentarischer realistischer Stil, warme aber zurückhaltende Farben, viel Raum, keine Menschenmenge, keine Schrift, keine Logos\",\"negative_prompt\":\"text, letters, logo, watermark\",\"formats\":[\"4:5\",\"9:16\",\"1.91:1\"],\"alt_text\":\"Ein stiller Tisch am Morgen vor einem offenen Fenster im weichen Licht. Daneben trockenes Gras und rissiger Boden als Zeichen von Dürre. Die Szene wirkt ruhig und ernst zugleich.\"},\"qa\":{\"warnings\":[\"Aktuelle Bezüge vor Veröffentlichung am Morgen des 06.09.2026 erneut kurz gegen tagesschau.de und SWR Aktuell Baden-Württemberg prüfen, da das Format tagesaktuell ist.\",\"Keine Textbestandteile in die Bildgestaltung setzen.\",\"Alt-Text redaktionell gegen finales Motiv gegenprüfen.\"],\"approved\":false},\"metadata\":{\"model\":\"gpt-5\",\"generated_at\":\"2026-09-05T00:00:00Z\",\"prompt_version\":\"1.0\",\"assets\":[]}}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "current_turn",
+    "effort": "none",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1,
+  "text": {
+    "format": {
+      "type": "json_schema",
+      "description": null,
+      "name": "content_package",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "Idee",
+              "in Arbeit",
+              "zur Prüfung",
+              "freigegeben",
+              "terminiert",
+              "veröffentlicht",
+              "verworfen"
+            ]
+          },
+          "needs_input": {
+            "type": "boolean"
+          },
+          "source": {
+            "type": "object",
+            "properties": {
+              "calendar_post_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "date": {
+                "type": "string",
+                "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+              },
+              "rubric": {
+                "type": "string",
+                "minLength": 1
+              },
+              "liturgical_source": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "calendar_post_id",
+              "date",
+              "rubric",
+              "liturgical_source"
+            ],
+            "additionalProperties": false
+          },
+          "editorial_core": {
+            "type": "object",
+            "properties": {
+              "title": {
+                "type": "string"
+              },
+              "main_message": {
+                "type": "string"
+              },
+              "audience": {
+                "type": "string"
+              },
+              "tone": {
+                "minItems": 1,
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "source_notes": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "title",
+              "main_message",
+              "audience",
+              "tone",
+              "source_notes"
+            ],
+            "additionalProperties": false
+          },
+          "platforms": {
+            "type": "object",
+            "properties": {
+              "facebook": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  },
+                  "headline": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text",
+                  "headline"
+                ],
+                "additionalProperties": false
+              },
+              "instagram": {
+                "type": "object",
+                "properties": {
+                  "caption": {
+                    "type": "string"
+                  },
+                  "carousel": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "type": {
+                          "type": "string"
+                        },
+                        "text": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "type",
+                        "text"
+                      ],
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "required": [
+                  "caption",
+                  "carousel"
+                ],
+                "additionalProperties": false
+              },
+              "mastodon": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text"
+                ],
+                "additionalProperties": false
+              },
+              "bluesky": {
+                "default": {
+                  "text": ""
+                },
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text"
+                ],
+                "additionalProperties": false
+              },
+              "story": {
+                "type": "object",
+                "properties": {
+                  "slides": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "text": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "text"
+                      ],
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "required": [
+                  "slides"
+                ],
+                "additionalProperties": false
+              },
+              "reel": {
+                "type": "object",
+                "properties": {
+                  "hook": {
+                    "type": "string"
+                  },
+                  "script": {
+                    "type": "string"
+                  },
+                  "shots": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "duration_seconds": {
+                    "type": "integer",
+                    "minimum": 0,
+                    "maximum": 9007199254740991
+                  }
+                },
+                "required": [
+                  "hook",
+                  "script",
+                  "shots",
+                  "duration_seconds"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "required": [
+              "facebook",
+              "instagram",
+              "mastodon",
+              "bluesky",
+              "story",
+              "reel"
+            ],
+            "additionalProperties": false
+          },
+          "visual": {
+            "type": "object",
+            "properties": {
+              "concept": {
+                "type": "string"
+              },
+              "flux_prompt": {
+                "type": "string"
+              },
+              "negative_prompt": {
+                "type": "string",
+                "minLength": 1
+              },
+              "formats": {
+                "minItems": 1,
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "alt_text": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "concept",
+              "flux_prompt",
+              "negative_prompt",
+              "formats",
+              "alt_text"
+            ],
+            "additionalProperties": false
+          },
+          "qa": {
+            "type": "object",
+            "properties": {
+              "warnings": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "approved": {
+                "type": "boolean"
+              }
+            },
+            "required": [
+              "warnings",
+              "approved"
+            ],
+            "additionalProperties": false
+          },
+          "metadata": {
+            "type": "object",
+            "properties": {
+              "model": {
+                "type": "string"
+              },
+              "generated_at": {
+                "type": "string"
+              },
+              "prompt_version": {
+                "type": "string",
+                "minLength": 1
+              },
+              "assets": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "model",
+              "generated_at",
+              "prompt_version",
+              "assets"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "id",
+          "status",
+          "needs_input",
+          "source",
+          "editorial_core",
+          "platforms",
+          "visual",
+          "qa",
+          "metadata"
+        ],
+        "additionalProperties": false
+      },
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 2
+    }
+  },
+  "tools": [
+    {
+      "type": "web_search",
+      "return_token_budget": "default",
+      "search_content_types": [
+        "text"
+      ],
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 15444,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 2031,
+    "output_tokens_details": {
+      "reasoning_tokens": 229
+    },
+    "total_tokens": 17475
+  },
+  "user": null,
+  "metadata": {},
+  "output_text": "{\"id\":\"prayer-morning-2026-09-06\",\"status\":\"in Arbeit\",\"needs_input\":false,\"source\":{\"calendar_post_id\":\"prayer-morning-2026-09-06\",\"date\":\"2026-09-06\",\"rubric\":\"Morgengebet\",\"liturgical_source\":\"\"},\"editorial_core\":{\"title\":\"Morgengebet\",\"main_message\":\"Gott, dieser Morgen ist dein Geschenk. Wir bringen dir die Menschen in der Ukraine, die nach den jüngsten russischen Luftangriffen um Tote trauern und in zerstörten Häusern stehen. Wir bringen dir die Menschen in Cherson, die durch tägliche Drohnenangriffe auf Zivilisten in Angst leben. Wir bringen dir auch die Menschen in Baden-Württemberg, wo die lange Dürre Höfe an ihre Grenzen bringt und Tiere geschlachtet werden müssen, weil Futter fehlt. Lass uns wach werden für fremdes Leid und mutig für die kleinen Schritte des Friedens, die heute möglich sind. Deine Zukunft ist größer als Gewalt, Angst und Erschöpfung.\",\"audience\":\"breite Öffentlichkeit\",\"tone\":[\"ruhig\",\"hoffnungsvoll\",\"zugewandt\"],\"source_notes\":[\"Aktuelle Bezüge geprüft über tagesschau.de und SWR/Tagesschau-Landesberichterstattung: russische Luftangriffe auf die Ukraine mit mindestens zwölf Toten am 01.09.2026; tägliche Drohnenangriffe auf Zivilisten in Cherson; Dürrefolgen in Baden-Württemberg mit Futtermangel und Notschlachtungen auf Höfen.\",\"Gebet verbindet internationale und regionale Perspektive und endet ausdrücklich mit Hoffnung statt Resignation.\",\"Sprache bewusst einfach, ohne Binnenjargon, mit konkreten Bildern statt abstrakter Krisenbegriffe.\"]},\"platforms\":{\"facebook\":{\"text\":\"Gott,\\ndieser Morgen ist dein Geschenk.\\n\\nWir bringen dir die Menschen in der Ukraine.\\nNach den jüngsten russischen Luftangriffen trauern Familien um Tote. Andere stehen vor zerstörten Häusern und fragen, wie dieser Tag weitergehen soll.\\n\\nWir bringen dir die Menschen in Cherson.\\nDort leben Zivilistinnen und Zivilisten unter täglichen Drohnenangriffen. Wege durch die Stadt werden zu Wegen voller Angst.\\n\\nWir bringen dir auch die Menschen in Baden-Württemberg.\\nDie lange Dürre hat viele Höfe an ihre Grenze gebracht. Futter fehlt. Tiere müssen geschlachtet werden, obwohl Landwirtinnen und Landwirte sie behalten wollten.\\n\\nSei den Leidenden nahe.\\nStärke die, die helfen.\\nGib Verantwortlichen Mut zum Schutz des Lebens.\\nUnd mach auch uns aufmerksam für das, was wir heute tun können:\\ntrösten, teilen, widersprechen, Frieden suchen.\\n\\nDeine Zukunft kommt uns entgegen.\\nDarum gehen wir nicht blind in diesen Tag.\\nSondern mit offenen Augen. Und mit Hoffnung.\",\"headline\":\"Morgengebet: mit offenen Augen in diesen Tag\"},\"instagram\":{\"caption\":\"Gott,\\n\\nwir beginnen diesen Tag nicht blind.\\nWir bringen dir die Menschen in der Ukraine, die nach den jüngsten russischen Luftangriffen um Tote trauern.\\nWir bringen dir die Menschen in Cherson, die unter täglichen Drohnenangriffen leben.\\nWir bringen dir die Menschen in Baden-Württemberg, wo die Dürre Höfe an ihre Grenze bringt und Futter fehlt.\\n\\nSei den Leidenden nahe.\\nStärke die, die helfen.\\nUnd weck auch uns zu kleinen Schritten des Friedens.\\n\\nDeine Zukunft ist größer als das, was uns Angst macht.\\nAmen.\",\"carousel\":[{\"type\":\"text\",\"text\":\"Gott,\\ndieser Morgen ist dein Geschenk.\"},{\"type\":\"text\",\"text\":\"Wir bringen dir die Menschen in der Ukraine.\\nNach den jüngsten russischen Luftangriffen trauern Familien um Tote.\"},{\"type\":\"text\",\"text\":\"Wir bringen dir die Menschen in Cherson.\\nDort leben Zivilistinnen und Zivilisten unter täglichen Drohnenangriffen.\"},{\"type\":\"text\",\"text\":\"Wir bringen dir die Menschen in Baden-Württemberg.\\nDie Dürre bringt Höfe an ihre Grenze. Futter fehlt.\"},{\"type\":\"text\",\"text\":\"Sei den Leidenden nahe.\\nStärke die, die helfen.\\nWeck uns zu kleinen Schritten des Friedens.\"},{\"type\":\"text\",\"text\":\"Deine Zukunft kommt uns entgegen.\\nDarum gehen wir mit Hoffnung in diesen Tag.\"}]},\"mastodon\":{\"text\":\"Gott,\\ndieser Morgen ist dein Geschenk.\\n\\nWir bringen dir die Menschen in der Ukraine, die nach den jüngsten russischen Luftangriffen um Tote trauern.\\nWir bringen dir die Menschen in Cherson, die unter täglichen Drohnenangriffen leben.\\nWir bringen dir die Menschen in Baden-Württemberg, wo die Dürre Höfe an ihre Grenze bringt und Futter fehlt.\\n\\nSei den Leidenden nahe.\\nStärke die, die helfen.\\nWeck uns zu kleinen Schritten des Friedens.\\nDeine Zukunft ist größer als unsere Angst.\\nAmen.\"},\"bluesky\":{\"text\":\"Gott, dieser Morgen ist dein Geschenk. Wir bringen dir die Menschen in der Ukraine nach den jüngsten Luftangriffen, die Menschen in Cherson unter täglichen Drohnenangriffen und die Menschen in Baden-Württemberg, wo die Dürre Höfe an ihre Grenze bringt. Sei den Leidenden nahe. Weck uns zu Schritten des Friedens. Amen.\"},\"story\":{\"slides\":[{\"text\":\"Gott,\\ndieser Morgen ist dein Geschenk.\"},{\"text\":\"Wir bringen dir die Menschen in der Ukraine.\\nFamilien trauern nach den jüngsten Luftangriffen.\"},{\"text\":\"Wir bringen dir die Menschen in Cherson.\\nTägliche Drohnenangriffe machen Wege voller Angst.\"},{\"text\":\"Wir bringen dir die Menschen in Baden-Württemberg.\\nDie Dürre bringt Höfe an ihre Grenze.\"},{\"text\":\"Sei den Leidenden nahe.\\nStärke die, die helfen.\"},{\"text\":\"Deine Zukunft kommt uns entgegen.\\nDarum gehen wir mit Hoffnung in diesen Tag.\"}]},\"reel\":{\"hook\":\"Mit offenen Augen. Und trotzdem mit Hoffnung.\",\"script\":\"Dieser Morgen ist nicht leicht. Wir sehen die Menschen in der Ukraine nach den jüngsten Luftangriffen. Wir sehen die Menschen in Cherson, die unter täglichen Drohnenangriffen leben. Wir sehen auch die Menschen in Baden-Württemberg, wo die Dürre Höfe an ihre Grenze bringt. Gott, sei den Leidenden nahe. Stärke die, die helfen. Und weck uns zu kleinen Schritten des Friedens. Deine Zukunft ist größer als unsere Angst.\",\"shots\":[\"Morgenlicht auf einem stillen Tisch mit Tasse\",\"Langsame Aufnahme eines offenen Fensters\",\"Trockener Acker oder rissiger Boden als Nahaufnahme\",\"Hände, die kurz still werden\",\"Licht auf einem Weg oder einer Straße\"],\"duration_seconds\":30}},\"visual\":{\"concept\":\"Ruhige Morgenszene mit offenem Fenster, weichem Licht und einem schlichten Tisch; dazu als zweites Bildelement trockener Boden oder verdorrtes Gras als Zeichen der Dürre. Keine Katastrophenbilder, sondern wache, stille Ernsthaftigkeit.\",\"flux_prompt\":\"ruhige Morgenszene in natürlichem weichem Licht, offenes Fenster, schlichter Holztisch, Tasse, stille Atmosphäre, dazu trockener Boden oder verdorrtes Gras als dezentes zweites Motiv, dokumentarischer realistischer Stil, warme aber zurückhaltende Farben, viel Raum, keine Menschenmenge, keine Schrift, keine Logos\",\"negative_prompt\":\"text, letters, logo, watermark\",\"formats\":[\"4:5\",\"9:16\",\"1.91:1\"],\"alt_text\":\"Ein stiller Tisch am Morgen vor einem offenen Fenster im weichen Licht. Daneben trockenes Gras und rissiger Boden als Zeichen von Dürre. Die Szene wirkt ruhig und ernst zugleich.\"},\"qa\":{\"warnings\":[\"Aktuelle Bezüge vor Veröffentlichung am Morgen des 06.09.2026 erneut kurz gegen tagesschau.de und SWR Aktuell Baden-Württemberg prüfen, da das Format tagesaktuell ist.\",\"Keine Textbestandteile in die Bildgestaltung setzen.\",\"Alt-Text redaktionell gegen finales Motiv gegenprüfen.\"],\"approved\":false},\"metadata\":{\"model\":\"gpt-5\",\"generated_at\":\"2026-09-05T00:00:00Z\",\"prompt_version\":\"1.0\",\"assets\":[]}}"
+}
