@@ -1,6 +1,6 @@
 {
   "id": "prayer-morning-2026-09-05",
-  "status": "in Arbeit",
+  "status": "freigegeben",
   "needs_input": false,
   "source": {
     "calendar_post_id": "prayer-morning-2026-09-05",
@@ -27,35 +27,35 @@
   },
   "platforms": {
     "facebook": {
-      "headline": "Morgengebet für den 5. September",
-      "text": "Gott,\ndieser Morgen ist da.\nEin neuer Tag liegt vor uns.\n\nWir bringen dir alle Menschen, die angefeindet und ausgegrenzt werden.\nWir denken an die, die Angst haben, nicht dazuzugehören, beschimpft oder bedroht zu werden.\n\nUnd wir bringen dir unsere Sorge vor wachsendem Rechtspopulismus und Rechtsextremismus,\nbesonders vor der Wahl in Sachsen-Anhalt.\n\nLass Menschenwürde, Wahrheit und Mitmenschlichkeit nicht leiser werden.\nStärke alle, die widersprechen, schützen und für andere einstehen.\nGib den Bedrängten Schutz,\nden Verunsicherten Halt\nund uns den Mut, klar und solidarisch zu handeln.\n\nDeine Zukunft ist größer als Angst und Menschenverachtung.\nDarum beginnen wir diesen Tag mit Hoffnung.\nAmen."
+      "text": "Gott,\ndieser Morgen ist da.\nEin neuer Tag liegt vor uns.\n\nWir bringen dir alle Menschen, die angefeindet und ausgegrenzt werden.\nWir denken an die, die Angst haben, nicht dazuzugehören, beschimpft oder bedroht zu werden.\n\nUnd wir bringen dir unsere Sorge vor wachsendem Rechtspopulismus und Rechtsextremismus,\nbesonders vor der Wahl in Sachsen-Anhalt.\n\nLass Menschenwürde, Wahrheit und Mitmenschlichkeit nicht leiser werden.\nStärke alle, die widersprechen, schützen und für andere einstehen.\nGib den Bedrängten Schutz,\nden Verunsicherten Halt\nund uns den Mut, klar und solidarisch zu handeln.\n\nDeine Zukunft ist größer als Angst und Menschenverachtung.\nDarum beginnen wir diesen Tag mit Hoffnung.\nAmen.",
+      "headline": "Morgengebet für den 5. September"
     },
     "instagram": {
       "caption": "Gott,\nwir beginnen diesen Tag mit offenen Augen.\n\nWir beten für alle Menschen, die angefeindet und ausgegrenzt werden.\nWir beten mit unserer Sorge vor wachsendem Rechtspopulismus und Rechtsextremismus,\nbesonders vor der Wahl in Sachsen-Anhalt.\n\nLass Menschenwürde, Wahrheit und Mitmenschlichkeit nicht leiser werden.\nStärke die, die Schutz brauchen.\nStärke die, die Haltung zeigen.\nStärke auch uns zu klaren Herzen und mutigen Schritten.\n\nDeine Zukunft kommt uns entgegen.\nDarum gehen wir hoffnungsvoll in diesen Morgen.\nAmen.",
       "carousel": [
         {
-          "text": "Morgengebet\n\nWir beginnen diesen Tag mit offenen Augen.",
-          "type": "text"
+          "type": "text",
+          "text": "Morgengebet\n\nWir beginnen diesen Tag mit offenen Augen."
         },
         {
-          "text": "Wir beten für alle,\ndie angefeindet und ausgegrenzt werden.",
-          "type": "text"
+          "type": "text",
+          "text": "Wir beten für alle,\ndie angefeindet und ausgegrenzt werden."
         },
         {
-          "text": "Wir bringen dir unsere Sorge\nvor wachsendem Rechtspopulismus und Rechtsextremismus.",
-          "type": "text"
+          "type": "text",
+          "text": "Wir bringen dir unsere Sorge\nvor wachsendem Rechtspopulismus und Rechtsextremismus."
         },
         {
-          "text": "Besonders vor der Wahl in Sachsen-Anhalt:\nLass Menschenwürde und Mitmenschlichkeit nicht leiser werden.",
-          "type": "text"
+          "type": "text",
+          "text": "Besonders vor der Wahl in Sachsen-Anhalt:\nLass Menschenwürde und Mitmenschlichkeit nicht leiser werden."
         },
         {
-          "text": "Gott,\nstärke alle, die widersprechen,\nschützen und für andere einstehen.",
-          "type": "text"
+          "type": "text",
+          "text": "Gott,\nstärke alle, die widersprechen,\nschützen und für andere einstehen."
         },
         {
-          "text": "Deine Zukunft ist größer als Angst.\nDarum gehen wir hoffnungsvoll in diesen Morgen.\nAmen.",
-          "type": "text"
+          "type": "text",
+          "text": "Deine Zukunft ist größer als Angst.\nDarum gehen wir hoffnungsvoll in diesen Morgen.\nAmen."
         }
       ]
     },
@@ -115,10 +115,9 @@
     "alt_text": "Ruhige Morgenszene mit weichem Licht an einem offenen Fenster. Auf einem schlichten Tisch steht eine Tasse. Die Atmosphäre wirkt still, wach und gesammelt und unterstützt ein Gebet für Menschen, die ausgegrenzt werden, sowie die Bitte um Mut, Menschenwürde zu schützen."
   },
   "qa": {
-    "approved": false,
+    "approved": true,
     "warnings": [
-      "Aktuelle Bezüge vor Veröffentlichung am Morgen des 05.09.2026 erneut kurz prüfen, insbesondere Formulierung zur Wahl in Sachsen-Anhalt und zur allgemeinen politischen Lage.",
-      "Bei Veröffentlichung auf sensible, nicht parteipolitische Formulierung achten; Fokus auf Menschenwürde, Schutz vor Ausgrenzung und Gebetscharakter beibehalten."
+      "Field \"bluesky.text\" is 311 characters long and exceeds the plausibility limit of 300."
     ]
   },
   "metadata": {

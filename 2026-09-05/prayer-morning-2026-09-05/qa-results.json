@@ -1,0 +1,64 @@
+{
+  "checks": [
+    {
+      "check": "alt-text-present",
+      "findings": [],
+      "status": "passed"
+    },
+    {
+      "check": "flux-prompt-no-text",
+      "findings": [],
+      "status": "passed"
+    },
+    {
+      "check": "required-fields",
+      "findings": [],
+      "status": "passed"
+    },
+    {
+      "check": "platform-lengths",
+      "findings": [
+        {
+          "check": "platform-lengths",
+          "message": "Field \"bluesky.text\" is 311 characters long and exceeds the plausibility limit of 300.",
+          "severity": "warning"
+        }
+      ],
+      "status": "warning"
+    },
+    {
+      "check": "current-events",
+      "findings": [],
+      "status": "passed"
+    },
+    {
+      "check": "privacy",
+      "findings": [],
+      "status": "passed"
+    },
+    {
+      "check": "song-lyrics",
+      "findings": [],
+      "status": "passed"
+    },
+    {
+      "check": "scripture-citation",
+      "findings": [],
+      "status": "passed"
+    },
+    {
+      "check": "predigt-preview-input",
+      "findings": [],
+      "status": "passed"
+    }
+  ],
+  "content_path": "content/2026-09-05/prayer-morning-2026-09-05/content.json",
+  "errors": [],
+  "post_id": "prayer-morning-2026-09-05",
+  "ready_for_approval": true,
+  "status_after_run": "zur Prüfung",
+  "status_before_run": "in Arbeit",
+  "warnings": [
+    "Field \"bluesky.text\" is 311 characters long and exceeds the plausibility limit of 300."
+  ]
+}
