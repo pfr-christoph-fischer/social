@@ -1,0 +1,60 @@
+{
+  "delivery_url": "https://delivery.eu2.bfl.ai/durable/2026090516/5e1f69ea-538b-4d66-962e-9be995966f07/08/89934092b35cd3/92b35cd3370a436a91436a2db2a67468/sample.jpeg?se=2026-09-05T16%3A58%3A19Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=wIJ271Qg40lwMyzbSB4SMke3AUeIhX31w%2Be4pf9qzn4%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "0a2ebcc0-c4e1-43ee-9834-9612ecc69c32",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "0a2ebcc0-c4e1-43ee-9834-9612ecc69c32",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "0a2ebcc0-c4e1-43ee-9834-9612ecc69c32",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "0a2ebcc0-c4e1-43ee-9834-9612ecc69c32",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "0a2ebcc0-c4e1-43ee-9834-9612ecc69c32",
+      "status": "Ready",
+      "result": {
+        "start_time": 1788626897.9475033,
+        "prompt": "A calm everyday scene on a wooden table with a smartphone placed face down to one side, warm evening light through a window, minimal interior, peaceful atmosphere, gentle shadows, natural colors, reflective mood, realistic photography, no people clearly identifiable, lots of negative space, no typography, no text, no letters, no typography, no logo, no watermark",
+        "seed": 1073450819,
+        "sample": "https://delivery.eu2.bfl.ai/durable/2026090516/5e1f69ea-538b-4d66-962e-9be995966f07/08/89934092b35cd3/92b35cd3370a436a91436a2db2a67468/sample.jpeg?se=2026-09-05T16%3A58%3A19Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=wIJ271Qg40lwMyzbSB4SMke3AUeIhX31w%2Be4pf9qzn4%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "0a2ebcc0-c4e1-43ee-9834-9612ecc69c32",
+    "polling_url": "https://api.eu2.bfl.ai/v1/get_result?id=0a2ebcc0-c4e1-43ee-9834-9612ecc69c32",
+    "cost": 1.5,
+    "input_mp": 0,
+    "output_mp": 1.98
+  }
+}

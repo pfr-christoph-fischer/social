@@ -1,0 +1,44 @@
+{
+  "delivery_url": "https://delivery.eu2.bfl.ai/durable/2026090516/5e1f69ea-538b-4d66-962e-9be995966f07/e5/893691431e9698/431e969898b84e00932e6b381b01f669/sample.jpeg?se=2026-09-05T16%3A58%3A14Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=aPKvFiZ4bc1tMaavnXCyE8u0V5qavCAaoeDFy27r%2BvQ%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "d05ba406-77db-43ab-b285-2a9ab1185a3e",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "d05ba406-77db-43ab-b285-2a9ab1185a3e",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "d05ba406-77db-43ab-b285-2a9ab1185a3e",
+      "status": "Ready",
+      "result": {
+        "start_time": 1788626892.9060352,
+        "prompt": "A calm everyday scene on a wooden table with a smartphone placed face down to one side, warm evening light through a window, minimal interior, peaceful atmosphere, gentle shadows, natural colors, reflective mood, realistic photography, no people clearly identifiable, lots of negative space, no typography, no text, no letters, no typography, no logo, no watermark",
+        "seed": 179685270,
+        "sample": "https://delivery.eu2.bfl.ai/durable/2026090516/5e1f69ea-538b-4d66-962e-9be995966f07/e5/893691431e9698/431e969898b84e00932e6b381b01f669/sample.jpeg?se=2026-09-05T16%3A58%3A14Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=aPKvFiZ4bc1tMaavnXCyE8u0V5qavCAaoeDFy27r%2BvQ%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "d05ba406-77db-43ab-b285-2a9ab1185a3e",
+    "polling_url": "https://api.eu2.bfl.ai/v1/get_result?id=d05ba406-77db-43ab-b285-2a9ab1185a3e",
+    "cost": 1.4000000000000001,
+    "input_mp": 0,
+    "output_mp": 0.72
+  }
+}
