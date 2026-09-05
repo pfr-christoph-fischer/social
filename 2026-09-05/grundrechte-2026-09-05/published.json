@@ -84,5 +84,91 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-09-05",
+    "contentDate": "2026-09-05",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-09-05T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Alle Deutschen haben das Recht, sich ohne Anmeldung oder Erlaubnis friedlich und ohne Waffen zu versammeln. (Grundgesetz, Artikel 8 Absatz 1)",
+    "assets": [
+      "render-square-01.jpg"
+    ],
+    "altTexts": [
+      "Alle Deutschen haben das Recht, sich ohne Anmeldung oder Erlaubnis friedlich und ohne Waffen zu versammeln. (Grundgesetz, Artikel 8 Absatz 1)"
+    ],
+    "id": "db3c9b9e-2534-4c36-8a0e-6417d0b1ee2f",
+    "attemptCount": 1,
+    "remoteId": "17954979531014481",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:37:33.220Z",
+    "updatedAt": "2026-09-05T10:00:41.994Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-09-05",
+    "contentDate": "2026-09-05",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-09-05T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Alle Deutschen haben das Recht, sich ohne Anmeldung oder Erlaubnis friedlich und ohne Waffen zu versammeln. (Grundgesetz, Artikel 8 Absatz 1)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Alle Deutschen haben das Recht, sich ohne Anmeldung oder Erlaubnis friedlich und ohne Waffen zu versammeln. (Grundgesetz, Artikel 8 Absatz 1)"
+    ],
+    "id": "b47e4230-bd8b-4731-987b-086eb9e1d42d",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3mur7up4c6e2i",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3mur7up4c6e2i",
+    "lastError": null,
+    "createdAt": "2026-08-26T15:37:33.257Z",
+    "updatedAt": "2026-09-05T10:00:44.441Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-09-05",
+    "contentDate": "2026-09-05",
+    "platform": "linkedin",
+    "format": "default",
+    "scheduledAt": "2026-09-05T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Alle Deutschen haben das Recht, sich ohne Anmeldung oder Erlaubnis friedlich und ohne Waffen zu versammeln. (Grundgesetz, Artikel 8 Absatz 1)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Alle Deutschen haben das Recht, sich ohne Anmeldung oder Erlaubnis friedlich und ohne Waffen zu versammeln. (Grundgesetz, Artikel 8 Absatz 1)"
+    ],
+    "id": "c61d1536-a2bd-41fa-b020-21094183f22e",
+    "attemptCount": 1,
+    "remoteId": "urn:li:share:7501942393542180864",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:37:33.318Z",
+    "updatedAt": "2026-09-05T10:00:46.254Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 201
+    },
+    "retryHistory": []
   }
 ]
