@@ -1,0 +1,465 @@
+{
+  "id": "resp_08610c08a3f5193c006a9bda1bb83087d29c2dca7ed993bc8f",
+  "object": "response",
+  "created_at": 1788598812,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1788598845,
+  "error": null,
+  "frequency_penalty": 0,
+  "incomplete_details": null,
+  "instructions": "You are part of a Protestant social media editorial team. Write in clear, accessible, theologically responsible German without church clichés. Use short sentences and concrete imagery. Never invent events, people, school situations, quotes, or factual details. Do not include copyrighted full song verses. For Reli and community posts, only use current details when they are explicitly provided. Return content that strictly matches the requested JSON schema. Set needs_input to true whenever required facts are missing. Keep qa.approved false. Do not ask for any text inside generated images. When liturgical_context.resolved_weekly_verse is present, use its exact wording for Wochenspruch slots instead of placeholders. Use the web search tool before drafting to verify current situations. For prayer posts, current situations are mandatory: select at least two concrete, relevant situations from reliable current reporting, including tagesschau.de and SWR Aktuell Baden-Württemberg where relevant. Do not invent current events and do not replace concrete situations with generic references to crises.",
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.4-2026-03-05",
+  "moderation": null,
+  "output": [
+    {
+      "id": "ws_08610c08a3f5193c006a9bda1d551887d29c664dcca4e53373",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "queries": [
+          "site:tagesschau.de 5. September 2026 Nachrichten",
+          "site:swr.de/swraktuell/baden-wuerttemberg 5. September 2026 Baden-Württemberg Nachrichten",
+          "Reuters September 5 2026 world news latest"
+        ],
+        "query": "site:tagesschau.de 5. September 2026 Nachrichten"
+      }
+    },
+    {
+      "id": "ws_08610c08a3f5193c006a9bda21dd7087d2b62f474f5f8bf4ca",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "queries": [
+          "site:tagesschau.de 4.9.2026 Ukraine Gaza Sudan Nachrichten",
+          "site:tagesschau.de 4. September 2026 tagesschau nachrichten",
+          "site:reuters.com September 4 2026 Gaza aid Reuters",
+          "site:reuters.com September 4 2026 Ukraine Reuters civilians"
+        ],
+        "query": "site:tagesschau.de 4.9.2026 Ukraine Gaza Sudan Nachrichten"
+      }
+    },
+    {
+      "id": "msg_08610c08a3f5193c006a9bda28029487d28678dff43f7a3884",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\"id\":\"prayer-evening-2026-09-05\",\"status\":\"zur Prüfung\",\"needs_input\":false,\"source\":{\"calendar_post_id\":\"prayer-evening-2026-09-05\",\"date\":\"2026-09-05\",\"rubric\":\"Abendgebet\",\"liturgical_source\":\"\"},\"editorial_core\":{\"title\":\"Abendgebet\",\"main_message\":\"Den vergangenen Tag mit allem Gelungenen und Unvollendeten in Gottes Hand legen. Zugleich beten wir konkret für Menschen, die von den veröffentlichten Daten nach dem Hackerangriff auf die Berliner Landesverwaltung betroffen sind, für Menschen in Kiew nach dem Drohnenangriff auf die Geheimdienstzentrale und für Verletzte und Einsatzkräfte nach den schweren Unfällen auf A5 und A8 in Baden-Württemberg. Gottes Zukunft beginnt auch dort, wo unsere Möglichkeiten für heute enden.\",\"audience\":\"breite Öffentlichkeit\",\"tone\":[\"ruhig\",\"hoffnungsvoll\",\"geborgen\"],\"source_notes\":[\"Aktuelle Bezüge geprüft über tagesschau.de-Archiv vom 04.09.2026 und SWR Aktuell Baden-Württemberg vom 04.09.2026.\",\"Konkrete Situationen ausgewählt: veröffentlichte Daten nach Hackerangriff auf Berliner Landesverwaltung; Drohnenangriff auf die Geheimdienstzentrale in Kiew; schwere Unfälle auf A5 bei Rastatt und A8 bei Merklingen mit Verletzten.\",\"Zeitlich robust formuliert: keine Annahmen über Entwicklungen am Veröffentlichungstag.\",\"Gebetssprache bewusst schlicht gehalten.\"]},\"platforms\":{\"facebook\":{\"text\":\"Abendgebet\\n\\nGott,\\nder Tag liegt hinter uns.\\nMit allem, was gut war.\\nMit allem, was offen blieb.\\nMit Worten, die getragen haben.\\nUnd mit Momenten, die schwer auf uns liegen.\\n\\nWir danken dir für das, was heute gelungen ist.\\nFür Menschen, die uns freundlich begegnet sind.\\nFür Arbeit, die geschafft wurde.\\nFür kleine Augenblicke, in denen wir aufatmen konnten.\\n\\nUnd wir bringen dir, was wir nicht mehr ordnen können.\\nDas Unfertige.\\nDie Müdigkeit.\\nDen Streit.\\nDie Sorge.\\nDas, was wir heute nicht mehr heilen können.\\n\\nWir denken an die Menschen, deren Daten nach dem Hackerangriff auf die Berliner Landesverwaltung veröffentlicht wurden.\\nSchütze die, die jetzt Angst haben, was mit ihren Informationen geschieht.\\n\\nWir denken an die Menschen in Kiew nach dem Drohnenangriff auf die Geheimdienstzentrale.\\nSei bei denen, die in einer unruhigen Nacht leben müssen.\\n\\nWir denken an die Verletzten nach den Unfällen auf der A5 bei Rastatt und auf der A8 bei Merklingen.\\nSei bei ihnen und bei allen, die helfen, versorgen und wachen.\\n\\nUnd wir legen dir alle ans Herz, für die die Nacht keine Ruhe bringt.\\nMenschen in Kliniken.\\nMenschen im Dienst.\\nMenschen mit Angst.\\nMenschen, die weinen.\\n\\nWir müssen diese Welt heute Nacht nicht festhalten.\\nDu hältst sie.\\nWas gut war, bewahre.\\nWas weh tut, trage.\\nWas unfertig bleibt, nimm in deine Zukunft.\\n\\nSchenk uns Frieden für diese Nacht.\\nUnd morgen den Mut für den nächsten Schritt.\\nAmen.\",\"headline\":\"Abendgebet: Den Tag loslassen\"},\"instagram\":{\"caption\":\"Der Tag muss nicht fertig werden, damit du schlafen darfst.\\n\\nGott,\\nwir legen dir hin, was gelungen ist. Und was offen blieb.\\nWir bitten dich für die Menschen, deren Daten nach dem Hackerangriff auf die Berliner Landesverwaltung veröffentlicht wurden.\\nFür die Menschen in Kiew nach dem Drohnenangriff.\\nFür die Verletzten nach den Unfällen auf der A5 bei Rastatt und auf der A8 bei Merklingen.\\n\\nWas wir heute nicht mehr tragen können, legen wir in deine Hand.\\nSchenk Frieden für diese Nacht. Amen.\",\"carousel\":[{\"type\":\"text\",\"text\":\"Der Tag liegt hinter dir. Du musst ihn nicht zu Ende retten.\"},{\"type\":\"text\",\"text\":\"Dank für das Gute. Raum für das Schwere. Auch das Unfertige darf vor Gott bleiben.\"},{\"type\":\"text\",\"text\":\"Wir bitten für die Menschen, deren Daten nach dem Hackerangriff auf die Berliner Landesverwaltung veröffentlicht wurden.\"},{\"type\":\"text\",\"text\":\"Wir bitten für die Menschen in Kiew nach dem Drohnenangriff. Und für die Verletzten nach den Unfällen auf A5 und A8 in Baden-Württemberg.\"},{\"type\":\"text\",\"text\":\"Schenk uns Frieden für diese Nacht. Und halte die Hoffnung in uns wach.\"}]}, \"mastodon\":{\"text\":\"Abendgebet\\n\\nGott,\\nwir legen dir diesen Tag hin.\\nWas gut war. Was weh tat. Was offen blieb.\\n\\nWir bitten dich für die Menschen, deren Daten nach dem Hackerangriff auf die Berliner Landesverwaltung veröffentlicht wurden.\\nFür die Menschen in Kiew nach dem Drohnenangriff.\\nFür die Verletzten nach den Unfällen auf der A5 bei Rastatt und auf der A8 bei Merklingen.\\n\\nWas wir heute nicht mehr tragen können, legen wir in deine Hand.\\nSchenk Frieden für diese Nacht. Amen.\"},\"bluesky\":{\"text\":\"Abendgebet\\n\\nGott, wir legen dir diesen Tag hin. Was gut war. Was weh tat. Was offen blieb.\\n\\nWir bitten für die Menschen, deren Daten nach dem Hackerangriff auf die Berliner Landesverwaltung veröffentlicht wurden. Für die Menschen in Kiew nach dem Drohnenangriff. Für die Verletzten nach den Unfällen auf A5 und A8 in Baden-Württemberg.\\n\\nSchenk Frieden für diese Nacht. Amen.\"},\"story\":{\"slides\":[{\"text\":\"Der Tag liegt hinter dir. Du musst ihn nicht fertig machen.\"},{\"text\":\"Was gut war: Danke. Was schwer war: Auch das darf vor Gott sein.\"},{\"text\":\"Wir beten für Menschen, deren Daten nach dem Hackerangriff auf die Berliner Landesverwaltung veröffentlicht wurden.\"},{\"text\":\"Wir beten für Menschen in Kiew nach dem Drohnenangriff. Und für Verletzte nach den Unfällen auf A5 und A8.\"},{\"text\":\"Schenk uns Frieden für diese Nacht. Amen.\"}]},\"reel\":{\"hook\":\"Du musst den Tag nicht fertig lösen, bevor du schlafen gehst.\",\"script\":\"Der Tag liegt hinter dir. Vielleicht war nicht alles gut. Vielleicht ist vieles offen geblieben. Im Abendgebet darf beides da sein. Dank für das, was getragen hat. Und Bitte für das, was schwer ist. Wir beten für Menschen, deren Daten nach dem Hackerangriff auf die Berliner Landesverwaltung veröffentlicht wurden. Für Menschen in Kiew nach dem Drohnenangriff. Für Verletzte und Einsatzkräfte nach den Unfällen auf A5 und A8 in Baden-Württemberg. Und wir legen auch unser Eigenes in Gottes Hand. Was gut war. Was weh tat. Was unfertig bleibt. Gott hält die Welt auch durch diese Nacht.\",\"shots\":[\"Abendlicht an einem offenen Fenster\",\"Ruhige Hand legt Handy und Schlüssel auf einen Tisch\",\"Leere Straße in der Dämmerung\",\"Brennendes warmes Licht in einem Zimmer\",\"Nahaufnahme von Händen, die still werden\",\"Dunkler Himmel mit ersten Sternen\"],\"duration_seconds\":30}},\"visual\":{\"concept\":\"Ruhige Abendstimmung in einem einfachen Innenraum am Fenster. Warmes Restlicht. Ein Tisch, auf dem Alltagsdinge abgelegt sind. Das Bild soll Loslassen und Geborgenheit zeigen, ohne Kitsch.\",\"flux_prompt\":\"Fotorealistisches ruhiges Abendmotiv in einem schlichten Innenraum, offenes Fenster mit blau-goldener Dämmerung, warmes weiches Licht, Holztisch mit abgelegten Alltagsgegenständen wie Schlüssel und geschlossenem Notizbuch, stille friedliche Atmosphäre, natürliche Farben, viel Raum, zurückhaltende Komposition, keine Menschen im Vordergrund, hoffnungsvoll und geerdet\",\"negative_prompt\":\"text, letters, logo, watermark\",\"formats\":[\"4:5\",\"9:16\",\"1.91:1\"],\"alt_text\":\"Ein schlichter Tisch an einem offenen Fenster in der Abenddämmerung. Warmes Licht fällt in den Raum. Auf dem Tisch liegen einige Alltagsdinge. Die Szene wirkt still und lässt an Loslassen und Ruhe für die Nacht denken.\"},\"qa\":{\"warnings\":[\"Aktuelle Bezüge verwendet: Berliner Landesverwaltung/Hackerangriff, Kiew/Drohnenangriff, A5 und A8 Unfälle in Baden-Württemberg.\",\"Vor Freigabe bitte Tonalität der politischen bzw. gewaltbezogenen Nachrichtenbezüge redaktionell gegenlesen.\",\"Alt text redaktionell final prüfen.\"],\"approved\":false},\"metadata\":{\"model\":\"gpt-5\",\"generated_at\":\"2026-09-05T00:00:00Z\",\"prompt_version\":\"1.0\",\"assets\":[]}}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "current_turn",
+    "effort": "none",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1,
+  "text": {
+    "format": {
+      "type": "json_schema",
+      "description": null,
+      "name": "content_package",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "Idee",
+              "in Arbeit",
+              "zur Prüfung",
+              "freigegeben",
+              "terminiert",
+              "veröffentlicht",
+              "verworfen"
+            ]
+          },
+          "needs_input": {
+            "type": "boolean"
+          },
+          "source": {
+            "type": "object",
+            "properties": {
+              "calendar_post_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "date": {
+                "type": "string",
+                "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+              },
+              "rubric": {
+                "type": "string",
+                "minLength": 1
+              },
+              "liturgical_source": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "calendar_post_id",
+              "date",
+              "rubric",
+              "liturgical_source"
+            ],
+            "additionalProperties": false
+          },
+          "editorial_core": {
+            "type": "object",
+            "properties": {
+              "title": {
+                "type": "string"
+              },
+              "main_message": {
+                "type": "string"
+              },
+              "audience": {
+                "type": "string"
+              },
+              "tone": {
+                "minItems": 1,
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "source_notes": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "title",
+              "main_message",
+              "audience",
+              "tone",
+              "source_notes"
+            ],
+            "additionalProperties": false
+          },
+          "platforms": {
+            "type": "object",
+            "properties": {
+              "facebook": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  },
+                  "headline": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text",
+                  "headline"
+                ],
+                "additionalProperties": false
+              },
+              "instagram": {
+                "type": "object",
+                "properties": {
+                  "caption": {
+                    "type": "string"
+                  },
+                  "carousel": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "type": {
+                          "type": "string"
+                        },
+                        "text": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "type",
+                        "text"
+                      ],
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "required": [
+                  "caption",
+                  "carousel"
+                ],
+                "additionalProperties": false
+              },
+              "mastodon": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text"
+                ],
+                "additionalProperties": false
+              },
+              "bluesky": {
+                "default": {
+                  "text": ""
+                },
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text"
+                ],
+                "additionalProperties": false
+              },
+              "story": {
+                "type": "object",
+                "properties": {
+                  "slides": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "text": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "text"
+                      ],
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "required": [
+                  "slides"
+                ],
+                "additionalProperties": false
+              },
+              "reel": {
+                "type": "object",
+                "properties": {
+                  "hook": {
+                    "type": "string"
+                  },
+                  "script": {
+                    "type": "string"
+                  },
+                  "shots": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "duration_seconds": {
+                    "type": "integer",
+                    "minimum": 0,
+                    "maximum": 9007199254740991
+                  }
+                },
+                "required": [
+                  "hook",
+                  "script",
+                  "shots",
+                  "duration_seconds"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "required": [
+              "facebook",
+              "instagram",
+              "mastodon",
+              "bluesky",
+              "story",
+              "reel"
+            ],
+            "additionalProperties": false
+          },
+          "visual": {
+            "type": "object",
+            "properties": {
+              "concept": {
+                "type": "string"
+              },
+              "flux_prompt": {
+                "type": "string"
+              },
+              "negative_prompt": {
+                "type": "string",
+                "minLength": 1
+              },
+              "formats": {
+                "minItems": 1,
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "alt_text": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "concept",
+              "flux_prompt",
+              "negative_prompt",
+              "formats",
+              "alt_text"
+            ],
+            "additionalProperties": false
+          },
+          "qa": {
+            "type": "object",
+            "properties": {
+              "warnings": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "approved": {
+                "type": "boolean"
+              }
+            },
+            "required": [
+              "warnings",
+              "approved"
+            ],
+            "additionalProperties": false
+          },
+          "metadata": {
+            "type": "object",
+            "properties": {
+              "model": {
+                "type": "string"
+              },
+              "generated_at": {
+                "type": "string"
+              },
+              "prompt_version": {
+                "type": "string",
+                "minLength": 1
+              },
+              "assets": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "model",
+              "generated_at",
+              "prompt_version",
+              "assets"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "id",
+          "status",
+          "needs_input",
+          "source",
+          "editorial_core",
+          "platforms",
+          "visual",
+          "qa",
+          "metadata"
+        ],
+        "additionalProperties": false
+      },
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 2
+    }
+  },
+  "tools": [
+    {
+      "type": "web_search",
+      "return_token_budget": "default",
+      "search_content_types": [
+        "text"
+      ],
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 16329,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 4736
+    },
+    "output_tokens": 2110,
+    "output_tokens_details": {
+      "reasoning_tokens": 224
+    },
+    "total_tokens": 18439
+  },
+  "user": null,
+  "metadata": {},
+  "output_text": "{\"id\":\"prayer-evening-2026-09-05\",\"status\":\"zur Prüfung\",\"needs_input\":false,\"source\":{\"calendar_post_id\":\"prayer-evening-2026-09-05\",\"date\":\"2026-09-05\",\"rubric\":\"Abendgebet\",\"liturgical_source\":\"\"},\"editorial_core\":{\"title\":\"Abendgebet\",\"main_message\":\"Den vergangenen Tag mit allem Gelungenen und Unvollendeten in Gottes Hand legen. Zugleich beten wir konkret für Menschen, die von den veröffentlichten Daten nach dem Hackerangriff auf die Berliner Landesverwaltung betroffen sind, für Menschen in Kiew nach dem Drohnenangriff auf die Geheimdienstzentrale und für Verletzte und Einsatzkräfte nach den schweren Unfällen auf A5 und A8 in Baden-Württemberg. Gottes Zukunft beginnt auch dort, wo unsere Möglichkeiten für heute enden.\",\"audience\":\"breite Öffentlichkeit\",\"tone\":[\"ruhig\",\"hoffnungsvoll\",\"geborgen\"],\"source_notes\":[\"Aktuelle Bezüge geprüft über tagesschau.de-Archiv vom 04.09.2026 und SWR Aktuell Baden-Württemberg vom 04.09.2026.\",\"Konkrete Situationen ausgewählt: veröffentlichte Daten nach Hackerangriff auf Berliner Landesverwaltung; Drohnenangriff auf die Geheimdienstzentrale in Kiew; schwere Unfälle auf A5 bei Rastatt und A8 bei Merklingen mit Verletzten.\",\"Zeitlich robust formuliert: keine Annahmen über Entwicklungen am Veröffentlichungstag.\",\"Gebetssprache bewusst schlicht gehalten.\"]},\"platforms\":{\"facebook\":{\"text\":\"Abendgebet\\n\\nGott,\\nder Tag liegt hinter uns.\\nMit allem, was gut war.\\nMit allem, was offen blieb.\\nMit Worten, die getragen haben.\\nUnd mit Momenten, die schwer auf uns liegen.\\n\\nWir danken dir für das, was heute gelungen ist.\\nFür Menschen, die uns freundlich begegnet sind.\\nFür Arbeit, die geschafft wurde.\\nFür kleine Augenblicke, in denen wir aufatmen konnten.\\n\\nUnd wir bringen dir, was wir nicht mehr ordnen können.\\nDas Unfertige.\\nDie Müdigkeit.\\nDen Streit.\\nDie Sorge.\\nDas, was wir heute nicht mehr heilen können.\\n\\nWir denken an die Menschen, deren Daten nach dem Hackerangriff auf die Berliner Landesverwaltung veröffentlicht wurden.\\nSchütze die, die jetzt Angst haben, was mit ihren Informationen geschieht.\\n\\nWir denken an die Menschen in Kiew nach dem Drohnenangriff auf die Geheimdienstzentrale.\\nSei bei denen, die in einer unruhigen Nacht leben müssen.\\n\\nWir denken an die Verletzten nach den Unfällen auf der A5 bei Rastatt und auf der A8 bei Merklingen.\\nSei bei ihnen und bei allen, die helfen, versorgen und wachen.\\n\\nUnd wir legen dir alle ans Herz, für die die Nacht keine Ruhe bringt.\\nMenschen in Kliniken.\\nMenschen im Dienst.\\nMenschen mit Angst.\\nMenschen, die weinen.\\n\\nWir müssen diese Welt heute Nacht nicht festhalten.\\nDu hältst sie.\\nWas gut war, bewahre.\\nWas weh tut, trage.\\nWas unfertig bleibt, nimm in deine Zukunft.\\n\\nSchenk uns Frieden für diese Nacht.\\nUnd morgen den Mut für den nächsten Schritt.\\nAmen.\",\"headline\":\"Abendgebet: Den Tag loslassen\"},\"instagram\":{\"caption\":\"Der Tag muss nicht fertig werden, damit du schlafen darfst.\\n\\nGott,\\nwir legen dir hin, was gelungen ist. Und was offen blieb.\\nWir bitten dich für die Menschen, deren Daten nach dem Hackerangriff auf die Berliner Landesverwaltung veröffentlicht wurden.\\nFür die Menschen in Kiew nach dem Drohnenangriff.\\nFür die Verletzten nach den Unfällen auf der A5 bei Rastatt und auf der A8 bei Merklingen.\\n\\nWas wir heute nicht mehr tragen können, legen wir in deine Hand.\\nSchenk Frieden für diese Nacht. Amen.\",\"carousel\":[{\"type\":\"text\",\"text\":\"Der Tag liegt hinter dir. Du musst ihn nicht zu Ende retten.\"},{\"type\":\"text\",\"text\":\"Dank für das Gute. Raum für das Schwere. Auch das Unfertige darf vor Gott bleiben.\"},{\"type\":\"text\",\"text\":\"Wir bitten für die Menschen, deren Daten nach dem Hackerangriff auf die Berliner Landesverwaltung veröffentlicht wurden.\"},{\"type\":\"text\",\"text\":\"Wir bitten für die Menschen in Kiew nach dem Drohnenangriff. Und für die Verletzten nach den Unfällen auf A5 und A8 in Baden-Württemberg.\"},{\"type\":\"text\",\"text\":\"Schenk uns Frieden für diese Nacht. Und halte die Hoffnung in uns wach.\"}]}, \"mastodon\":{\"text\":\"Abendgebet\\n\\nGott,\\nwir legen dir diesen Tag hin.\\nWas gut war. Was weh tat. Was offen blieb.\\n\\nWir bitten dich für die Menschen, deren Daten nach dem Hackerangriff auf die Berliner Landesverwaltung veröffentlicht wurden.\\nFür die Menschen in Kiew nach dem Drohnenangriff.\\nFür die Verletzten nach den Unfällen auf der A5 bei Rastatt und auf der A8 bei Merklingen.\\n\\nWas wir heute nicht mehr tragen können, legen wir in deine Hand.\\nSchenk Frieden für diese Nacht. Amen.\"},\"bluesky\":{\"text\":\"Abendgebet\\n\\nGott, wir legen dir diesen Tag hin. Was gut war. Was weh tat. Was offen blieb.\\n\\nWir bitten für die Menschen, deren Daten nach dem Hackerangriff auf die Berliner Landesverwaltung veröffentlicht wurden. Für die Menschen in Kiew nach dem Drohnenangriff. Für die Verletzten nach den Unfällen auf A5 und A8 in Baden-Württemberg.\\n\\nSchenk Frieden für diese Nacht. Amen.\"},\"story\":{\"slides\":[{\"text\":\"Der Tag liegt hinter dir. Du musst ihn nicht fertig machen.\"},{\"text\":\"Was gut war: Danke. Was schwer war: Auch das darf vor Gott sein.\"},{\"text\":\"Wir beten für Menschen, deren Daten nach dem Hackerangriff auf die Berliner Landesverwaltung veröffentlicht wurden.\"},{\"text\":\"Wir beten für Menschen in Kiew nach dem Drohnenangriff. Und für Verletzte nach den Unfällen auf A5 und A8.\"},{\"text\":\"Schenk uns Frieden für diese Nacht. Amen.\"}]},\"reel\":{\"hook\":\"Du musst den Tag nicht fertig lösen, bevor du schlafen gehst.\",\"script\":\"Der Tag liegt hinter dir. Vielleicht war nicht alles gut. Vielleicht ist vieles offen geblieben. Im Abendgebet darf beides da sein. Dank für das, was getragen hat. Und Bitte für das, was schwer ist. Wir beten für Menschen, deren Daten nach dem Hackerangriff auf die Berliner Landesverwaltung veröffentlicht wurden. Für Menschen in Kiew nach dem Drohnenangriff. Für Verletzte und Einsatzkräfte nach den Unfällen auf A5 und A8 in Baden-Württemberg. Und wir legen auch unser Eigenes in Gottes Hand. Was gut war. Was weh tat. Was unfertig bleibt. Gott hält die Welt auch durch diese Nacht.\",\"shots\":[\"Abendlicht an einem offenen Fenster\",\"Ruhige Hand legt Handy und Schlüssel auf einen Tisch\",\"Leere Straße in der Dämmerung\",\"Brennendes warmes Licht in einem Zimmer\",\"Nahaufnahme von Händen, die still werden\",\"Dunkler Himmel mit ersten Sternen\"],\"duration_seconds\":30}},\"visual\":{\"concept\":\"Ruhige Abendstimmung in einem einfachen Innenraum am Fenster. Warmes Restlicht. Ein Tisch, auf dem Alltagsdinge abgelegt sind. Das Bild soll Loslassen und Geborgenheit zeigen, ohne Kitsch.\",\"flux_prompt\":\"Fotorealistisches ruhiges Abendmotiv in einem schlichten Innenraum, offenes Fenster mit blau-goldener Dämmerung, warmes weiches Licht, Holztisch mit abgelegten Alltagsgegenständen wie Schlüssel und geschlossenem Notizbuch, stille friedliche Atmosphäre, natürliche Farben, viel Raum, zurückhaltende Komposition, keine Menschen im Vordergrund, hoffnungsvoll und geerdet\",\"negative_prompt\":\"text, letters, logo, watermark\",\"formats\":[\"4:5\",\"9:16\",\"1.91:1\"],\"alt_text\":\"Ein schlichter Tisch an einem offenen Fenster in der Abenddämmerung. Warmes Licht fällt in den Raum. Auf dem Tisch liegen einige Alltagsdinge. Die Szene wirkt still und lässt an Loslassen und Ruhe für die Nacht denken.\"},\"qa\":{\"warnings\":[\"Aktuelle Bezüge verwendet: Berliner Landesverwaltung/Hackerangriff, Kiew/Drohnenangriff, A5 und A8 Unfälle in Baden-Württemberg.\",\"Vor Freigabe bitte Tonalität der politischen bzw. gewaltbezogenen Nachrichtenbezüge redaktionell gegenlesen.\",\"Alt text redaktionell final prüfen.\"],\"approved\":false},\"metadata\":{\"model\":\"gpt-5\",\"generated_at\":\"2026-09-05T00:00:00Z\",\"prompt_version\":\"1.0\",\"assets\":[]}}"
+}
