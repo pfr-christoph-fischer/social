@@ -10,12 +10,13 @@
   },
   "editorial_core": {
     "title": "Neuer Wochenspruch: 14. Sonntag nach Trinitatis",
-    "main_message": "Ruhiges Motiv, wenig Text im Bild, meditativer Begleittext.",
+    "main_message": "Der Wochenspruch eröffnet die Woche mit einem stillen Impuls zur Dankbarkeit und zum Erinnern an Gottes Güte.",
     "audience": "breite Öffentlichkeit",
     "tone": [
       "klar",
       "ruhig",
-      "zugänglich"
+      "zugänglich",
+      "meditativ"
     ],
     "source_notes": [
       "Goal: Den neuen Wochenspruch als ruhigen Auftakt der liturgischen Woche veröffentlichen.",
@@ -23,44 +24,83 @@
       "Production mode: für Monate im Voraus vollständig vorproduzierbar",
       "Structure: Wochenspruch | ein Bild oder eine Beobachtung | ein meditativer Satz | offene Schlussfrage oder Segenswunsch",
       "AI support notes: meditativer Rohentwurf | KI-Bildprompt | Reel-Sprechtext | Alt-Text",
-      "Liturgical source: https://kirchenjahr.pfarr.tools/api/jahr/2026 (2026-09-06, $.Tage['2026-09-06'])"
+      "Liturgical source: https://kirchenjahr.pfarr.tools/api/jahr/2026 (2026-09-06, $.Tage['2026-09-06'])",
+      "14. Sonntag nach Trinitatis",
+      "Tagesthema laut Kandidateneintrag: Der dankbare Samariter",
+      "Wochenspruch: Lobe den HERRN, meine Seele, und vergiss nicht, was er dir Gutes getan hat. (Ps 103,2)"
     ]
   },
   "platforms": {
     "facebook": {
-      "text": "",
-      "headline": ""
+      "text": "Lobe den HERRN, meine Seele, und vergiss nicht, was er dir Gutes getan hat. (Ps 103,2)\n\nManche Wochen beginnen laut. Termine, Nachrichten, offene Listen. Dieser Satz setzt einen anderen Ton. Er drängt nicht. Er erinnert.\n\nDankbarkeit ist nicht immer ein großes Gefühl. Manchmal ist sie klein und leise. Ein Atemzug frische Luft. Ein Lichtstreifen am Morgen. Ein Mensch, der mit Geduld spricht. Ein Moment, in dem das Herz nicht festhalten muss, sondern wahrnimmt.\n\nDer Wochenspruch lädt nicht dazu ein, das Schwierige zu überdecken. Er lädt dazu ein, das Gute nicht zu vergessen. Beides kann nebeneinander stehen: das, was schwer ist, und das, was trägt.\n\nVielleicht beginnt diese Woche mit einer einfachen Übung: kurz anhalten und erinnern. Was hat dir gutgetan? Wo war Raum zum Aufatmen? Was war ein Zeichen von Güte?\n\nIch wünsche dir einen stillen Blick für das Gute, das schon da ist.",
+      "headline": "Wochenspruch für die neue Woche"
     },
     "instagram": {
-      "caption": "",
-      "carousel": []
+      "caption": "Lobe den HERRN, meine Seele, und vergiss nicht, was er dir Gutes getan hat. (Ps 103,2)\n\nEin ruhiger Satz zum Wochenbeginn.\n\nDankbarkeit muss nicht groß klingen. Manchmal beginnt sie damit, dass wir einen Augenblick länger hinschauen: auf Licht, auf Atem, auf das, was trägt.\n\nDer Wochenspruch lädt ein, das Gute nicht zu übersehen. Nicht als Pflicht. Eher als leise Erinnerung.\n\nWas hat dir gutgetan?\n\n#Wochenspruch #Kirchenjahr #Psalm103 #Dankbarkeit #Achtsamkeit #GlaubeImAlltag",
+      "carousel": [
+        {
+          "type": "slide",
+          "text": "Lobe den HERRN, meine Seele, und vergiss nicht, was er dir Gutes getan hat. (Ps 103,2)"
+        },
+        {
+          "type": "slide",
+          "text": "Manche Tage sind voll. Dieser Satz öffnet einen stillen Raum."
+        },
+        {
+          "type": "slide",
+          "text": "Dankbarkeit beginnt oft klein: Licht. Atem. Ein freundliches Wort."
+        },
+        {
+          "type": "slide",
+          "text": "Was hat dir gutgetan?"
+        }
+      ]
     },
     "mastodon": {
-      "text": ""
+      "text": "Lobe den HERRN, meine Seele, und vergiss nicht, was er dir Gutes getan hat. (Ps 103,2)\n\nEin stiller Satz zum Wochenbeginn. Nicht alles ist leicht. Aber das Gute muss nicht übersehen werden.\n\nWas hat dir heute gutgetan?"
     },
     "bluesky": {
-      "text": ""
+      "text": "Lobe den HERRN, meine Seele, und vergiss nicht, was er dir Gutes getan hat. (Ps 103,2)\n\nEin stiller Satz zum Wochenbeginn. Was hat dir heute gutgetan?"
     },
     "story": {
-      "slides": []
+      "slides": [
+        {
+          "text": "Neuer Wochenspruch"
+        },
+        {
+          "text": "Lobe den HERRN, meine Seele, und vergiss nicht, was er dir Gutes getan hat. (Ps 103,2)"
+        },
+        {
+          "text": "Dankbarkeit beginnt oft klein."
+        },
+        {
+          "text": "Was hat dir gutgetan?"
+        }
+      ]
     },
     "reel": {
-      "hook": "",
-      "script": "",
-      "shots": [],
-      "duration_seconds": 0
+      "hook": "Ein ruhiger Satz für den Anfang der Woche.",
+      "script": "Lobe den HERRN, meine Seele, und vergiss nicht, was er dir Gutes getan hat.\n\nDieser Wochenspruch aus Psalm 103 beginnt leise. Er fordert nichts Großes. Er erinnert.\n\nVielleicht ist Dankbarkeit heute nur ein kurzer Moment. Ein heller Morgen. Ein tiefer Atemzug. Ein Mensch, der dir gut begegnet.\n\nNicht alles wird leicht. Aber das Gute darf einen Platz bekommen.\n\nWas hat dir gutgetan?\n\nIch wünsche dir eine Woche mit wachen Augen und einem ruhigen Herzen.",
+      "shots": [
+        "Nahaufnahme von morgendlichem Licht auf einer Fensterbank",
+        "Langsame Bewegung über taunasses Gras oder Blätter",
+        "Eine Hand an einer warmen Tasse",
+        "Ruhiger Blick in den Himmel oder auf ziehende Wolken",
+        "Abblendung in weiches Licht"
+      ],
+      "duration_seconds": 28
     }
   },
   "visual": {
-    "concept": "",
-    "flux_prompt": "",
+    "concept": "Ruhiges Naturmotiv zum Wochenbeginn: weiches Morgenlicht, klare Luft, wenig Ablenkung. Das Bild soll Stille und Aufmerksamkeit ausstrahlen, ohne illustriert oder kitschig zu wirken.",
+    "flux_prompt": "Fotorealistisches ruhiges Morgenmotiv in der Natur, weiches goldenes Licht, feiner Tau auf Gräsern oder Blättern, sanfte Tiefenschärfe, klare natürliche Farben, stille meditative Atmosphäre, minimalistische Komposition, viel freier Raum, glaubwürdige Lichtstimmung, hochwertig, unaufgeregt, kein Mensch im Fokus, keine Schrift im Bild",
     "negative_prompt": "text, letters, logo, watermark",
     "formats": [
       "4:5",
       "9:16",
       "1.91:1"
     ],
-    "alt_text": ""
+    "alt_text": "Ein ruhiges Naturbild im weichen Morgenlicht. Auf Gräsern oder Blättern liegt feiner Tau. Die Farben sind sanft, der Hintergrund unscharf. Das Bild wirkt still und offen und lädt zum Innehalten ein."
   },
   "qa": {
     "warnings": [
@@ -69,8 +109,8 @@
     "approved": false
   },
   "metadata": {
-    "model": "",
-    "generated_at": "",
+    "model": "gpt-5.4-2026-03-05",
+    "generated_at": "2026-09-05T15:52:39.299Z",
     "prompt_version": "1.0",
     "assets": []
   }

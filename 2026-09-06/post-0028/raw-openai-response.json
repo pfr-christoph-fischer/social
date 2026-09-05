@@ -1,0 +1,420 @@
+{
+  "id": "resp_02ecb8e381f0a20c006a9c3ab6069087d291f36bccd0bf7969",
+  "object": "response",
+  "created_at": 1788623542,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1788623559,
+  "error": null,
+  "frequency_penalty": 0,
+  "incomplete_details": null,
+  "instructions": "You are part of a Protestant social media editorial team. Write in clear, accessible, theologically responsible German without church clichés. Use short sentences and concrete imagery. Never invent events, people, school situations, quotes, or factual details. Do not include copyrighted full song verses. For Reli and community posts, only use current details when they are explicitly provided. Return content that strictly matches the requested JSON schema. Set needs_input to true whenever required facts are missing. Keep qa.approved false. Do not ask for any text inside generated images. When liturgical_context.resolved_weekly_verse is present, use its exact wording for Wochenspruch slots instead of placeholders.",
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.4-2026-03-05",
+  "moderation": null,
+  "output": [
+    {
+      "id": "msg_02ecb8e381f0a20c006a9c3ab7136887d2b5f8285cbc3e6fab",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\"id\":\"post-0028\",\"status\":\"in Arbeit\",\"needs_input\":false,\"source\":{\"calendar_post_id\":\"post-0028\",\"date\":\"2026-09-06\",\"rubric\":\"Wochenspruch – meditativ\",\"liturgical_source\":\"https://kirchenjahr.pfarr.tools/api/jahr/2026\"},\"editorial_core\":{\"title\":\"Neuer Wochenspruch: 14. Sonntag nach Trinitatis\",\"main_message\":\"Der Wochenspruch eröffnet die Woche mit einem stillen Impuls zur Dankbarkeit und zum Erinnern an Gottes Güte.\",\"audience\":\"breite Öffentlichkeit\",\"tone\":[\"klar\",\"ruhig\",\"zugänglich\",\"meditativ\"],\"source_notes\":[\"Goal: Den neuen Wochenspruch als ruhigen Auftakt der liturgischen Woche veröffentlichen.\",\"Column: Bibel und Spiritualität\",\"Production mode: für Monate im Voraus vollständig vorproduzierbar\",\"Structure: Wochenspruch | ein Bild oder eine Beobachtung | ein meditativer Satz | offene Schlussfrage oder Segenswunsch\",\"AI support notes: meditativer Rohentwurf | KI-Bildprompt | Reel-Sprechtext | Alt-Text\",\"Liturgical source: https://kirchenjahr.pfarr.tools/api/jahr/2026 (2026-09-06, $.Tage['2026-09-06'])\",\"14. Sonntag nach Trinitatis\",\"Tagesthema laut Kandidateneintrag: Der dankbare Samariter\",\"Wochenspruch: Lobe den HERRN, meine Seele, und vergiss nicht, was er dir Gutes getan hat. (Ps 103,2)\"]},\"platforms\":{\"facebook\":{\"text\":\"Lobe den HERRN, meine Seele, und vergiss nicht, was er dir Gutes getan hat. (Ps 103,2)\\n\\nManche Wochen beginnen laut. Termine, Nachrichten, offene Listen. Dieser Satz setzt einen anderen Ton. Er drängt nicht. Er erinnert.\\n\\nDankbarkeit ist nicht immer ein großes Gefühl. Manchmal ist sie klein und leise. Ein Atemzug frische Luft. Ein Lichtstreifen am Morgen. Ein Mensch, der mit Geduld spricht. Ein Moment, in dem das Herz nicht festhalten muss, sondern wahrnimmt.\\n\\nDer Wochenspruch lädt nicht dazu ein, das Schwierige zu überdecken. Er lädt dazu ein, das Gute nicht zu vergessen. Beides kann nebeneinander stehen: das, was schwer ist, und das, was trägt.\\n\\nVielleicht beginnt diese Woche mit einer einfachen Übung: kurz anhalten und erinnern. Was hat dir gutgetan? Wo war Raum zum Aufatmen? Was war ein Zeichen von Güte?\\n\\nIch wünsche dir einen stillen Blick für das Gute, das schon da ist.\",\"headline\":\"Wochenspruch für die neue Woche\"},\"instagram\":{\"caption\":\"Lobe den HERRN, meine Seele, und vergiss nicht, was er dir Gutes getan hat. (Ps 103,2)\\n\\nEin ruhiger Satz zum Wochenbeginn.\\n\\nDankbarkeit muss nicht groß klingen. Manchmal beginnt sie damit, dass wir einen Augenblick länger hinschauen: auf Licht, auf Atem, auf das, was trägt.\\n\\nDer Wochenspruch lädt ein, das Gute nicht zu übersehen. Nicht als Pflicht. Eher als leise Erinnerung.\\n\\nWas hat dir gutgetan?\\n\\n#Wochenspruch #Kirchenjahr #Psalm103 #Dankbarkeit #Achtsamkeit #GlaubeImAlltag\",\"carousel\":[{\"type\":\"slide\",\"text\":\"Lobe den HERRN, meine Seele, und vergiss nicht, was er dir Gutes getan hat. (Ps 103,2)\"},{\"type\":\"slide\",\"text\":\"Manche Tage sind voll. Dieser Satz öffnet einen stillen Raum.\"},{\"type\":\"slide\",\"text\":\"Dankbarkeit beginnt oft klein: Licht. Atem. Ein freundliches Wort.\"},{\"type\":\"slide\",\"text\":\"Was hat dir gutgetan?\"}]},\"mastodon\":{\"text\":\"Lobe den HERRN, meine Seele, und vergiss nicht, was er dir Gutes getan hat. (Ps 103,2)\\n\\nEin stiller Satz zum Wochenbeginn. Nicht alles ist leicht. Aber das Gute muss nicht übersehen werden.\\n\\nWas hat dir heute gutgetan?\"},\"bluesky\":{\"text\":\"Lobe den HERRN, meine Seele, und vergiss nicht, was er dir Gutes getan hat. (Ps 103,2)\\n\\nEin stiller Satz zum Wochenbeginn. Was hat dir heute gutgetan?\"},\"story\":{\"slides\":[{\"text\":\"Neuer Wochenspruch\"},{\"text\":\"Lobe den HERRN, meine Seele, und vergiss nicht, was er dir Gutes getan hat. (Ps 103,2)\"},{\"text\":\"Dankbarkeit beginnt oft klein.\"},{\"text\":\"Was hat dir gutgetan?\"}]},\"reel\":{\"hook\":\"Ein ruhiger Satz für den Anfang der Woche.\",\"script\":\"Lobe den HERRN, meine Seele, und vergiss nicht, was er dir Gutes getan hat.\\n\\nDieser Wochenspruch aus Psalm 103 beginnt leise. Er fordert nichts Großes. Er erinnert.\\n\\nVielleicht ist Dankbarkeit heute nur ein kurzer Moment. Ein heller Morgen. Ein tiefer Atemzug. Ein Mensch, der dir gut begegnet.\\n\\nNicht alles wird leicht. Aber das Gute darf einen Platz bekommen.\\n\\nWas hat dir gutgetan?\\n\\nIch wünsche dir eine Woche mit wachen Augen und einem ruhigen Herzen.\",\"shots\":[\"Nahaufnahme von morgendlichem Licht auf einer Fensterbank\",\"Langsame Bewegung über taunasses Gras oder Blätter\",\"Eine Hand an einer warmen Tasse\",\"Ruhiger Blick in den Himmel oder auf ziehende Wolken\",\"Abblendung in weiches Licht\"],\"duration_seconds\":28}},\"visual\":{\"concept\":\"Ruhiges Naturmotiv zum Wochenbeginn: weiches Morgenlicht, klare Luft, wenig Ablenkung. Das Bild soll Stille und Aufmerksamkeit ausstrahlen, ohne illustriert oder kitschig zu wirken.\",\"flux_prompt\":\"Fotorealistisches ruhiges Morgenmotiv in der Natur, weiches goldenes Licht, feiner Tau auf Gräsern oder Blättern, sanfte Tiefenschärfe, klare natürliche Farben, stille meditative Atmosphäre, minimalistische Komposition, viel freier Raum, glaubwürdige Lichtstimmung, hochwertig, unaufgeregt, kein Mensch im Fokus, keine Schrift im Bild\",\"negative_prompt\":\"text, letters, logo, watermark\",\"formats\":[\"4:5\",\"9:16\",\"1.91:1\"],\"alt_text\":\"Ein ruhiges Naturbild im weichen Morgenlicht. Auf Gräsern oder Blättern liegt feiner Tau. Die Farben sind sanft, der Hintergrund unscharf. Das Bild wirkt still und offen und lädt zum Innehalten ein.\"},\"qa\":{\"warnings\":[\"Alt text must be completed before approval\"],\"approved\":false},\"metadata\":{\"model\":\"gpt-5\",\"generated_at\":\"2026-09-05T00:00:00Z\",\"prompt_version\":\"1.0\",\"assets\":[\"Bildmotiv Natur im Morgenlicht\",\"Feed-Grafik 4:5\",\"Story-Format 9:16\",\"Reel mit ruhigen Naturclips\"]}}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "current_turn",
+    "effort": "none",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1,
+  "text": {
+    "format": {
+      "type": "json_schema",
+      "description": null,
+      "name": "content_package",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "Idee",
+              "in Arbeit",
+              "zur Prüfung",
+              "freigegeben",
+              "terminiert",
+              "veröffentlicht",
+              "verworfen"
+            ]
+          },
+          "needs_input": {
+            "type": "boolean"
+          },
+          "source": {
+            "type": "object",
+            "properties": {
+              "calendar_post_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "date": {
+                "type": "string",
+                "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+              },
+              "rubric": {
+                "type": "string",
+                "minLength": 1
+              },
+              "liturgical_source": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "calendar_post_id",
+              "date",
+              "rubric",
+              "liturgical_source"
+            ],
+            "additionalProperties": false
+          },
+          "editorial_core": {
+            "type": "object",
+            "properties": {
+              "title": {
+                "type": "string"
+              },
+              "main_message": {
+                "type": "string"
+              },
+              "audience": {
+                "type": "string"
+              },
+              "tone": {
+                "minItems": 1,
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "source_notes": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "title",
+              "main_message",
+              "audience",
+              "tone",
+              "source_notes"
+            ],
+            "additionalProperties": false
+          },
+          "platforms": {
+            "type": "object",
+            "properties": {
+              "facebook": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  },
+                  "headline": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text",
+                  "headline"
+                ],
+                "additionalProperties": false
+              },
+              "instagram": {
+                "type": "object",
+                "properties": {
+                  "caption": {
+                    "type": "string"
+                  },
+                  "carousel": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "type": {
+                          "type": "string"
+                        },
+                        "text": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "type",
+                        "text"
+                      ],
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "required": [
+                  "caption",
+                  "carousel"
+                ],
+                "additionalProperties": false
+              },
+              "mastodon": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text"
+                ],
+                "additionalProperties": false
+              },
+              "bluesky": {
+                "default": {
+                  "text": ""
+                },
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text"
+                ],
+                "additionalProperties": false
+              },
+              "story": {
+                "type": "object",
+                "properties": {
+                  "slides": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "text": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "text"
+                      ],
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "required": [
+                  "slides"
+                ],
+                "additionalProperties": false
+              },
+              "reel": {
+                "type": "object",
+                "properties": {
+                  "hook": {
+                    "type": "string"
+                  },
+                  "script": {
+                    "type": "string"
+                  },
+                  "shots": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "duration_seconds": {
+                    "type": "integer",
+                    "minimum": 0,
+                    "maximum": 9007199254740991
+                  }
+                },
+                "required": [
+                  "hook",
+                  "script",
+                  "shots",
+                  "duration_seconds"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "required": [
+              "facebook",
+              "instagram",
+              "mastodon",
+              "bluesky",
+              "story",
+              "reel"
+            ],
+            "additionalProperties": false
+          },
+          "visual": {
+            "type": "object",
+            "properties": {
+              "concept": {
+                "type": "string"
+              },
+              "flux_prompt": {
+                "type": "string"
+              },
+              "negative_prompt": {
+                "type": "string",
+                "minLength": 1
+              },
+              "formats": {
+                "minItems": 1,
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "alt_text": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "concept",
+              "flux_prompt",
+              "negative_prompt",
+              "formats",
+              "alt_text"
+            ],
+            "additionalProperties": false
+          },
+          "qa": {
+            "type": "object",
+            "properties": {
+              "warnings": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "approved": {
+                "type": "boolean"
+              }
+            },
+            "required": [
+              "warnings",
+              "approved"
+            ],
+            "additionalProperties": false
+          },
+          "metadata": {
+            "type": "object",
+            "properties": {
+              "model": {
+                "type": "string"
+              },
+              "generated_at": {
+                "type": "string"
+              },
+              "prompt_version": {
+                "type": "string",
+                "minLength": 1
+              },
+              "assets": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "model",
+              "generated_at",
+              "prompt_version",
+              "assets"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "id",
+          "status",
+          "needs_input",
+          "source",
+          "editorial_core",
+          "platforms",
+          "visual",
+          "qa",
+          "metadata"
+        ],
+        "additionalProperties": false
+      },
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 1957,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1537,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 3494
+  },
+  "user": null,
+  "metadata": {},
+  "output_text": "{\"id\":\"post-0028\",\"status\":\"in Arbeit\",\"needs_input\":false,\"source\":{\"calendar_post_id\":\"post-0028\",\"date\":\"2026-09-06\",\"rubric\":\"Wochenspruch – meditativ\",\"liturgical_source\":\"https://kirchenjahr.pfarr.tools/api/jahr/2026\"},\"editorial_core\":{\"title\":\"Neuer Wochenspruch: 14. Sonntag nach Trinitatis\",\"main_message\":\"Der Wochenspruch eröffnet die Woche mit einem stillen Impuls zur Dankbarkeit und zum Erinnern an Gottes Güte.\",\"audience\":\"breite Öffentlichkeit\",\"tone\":[\"klar\",\"ruhig\",\"zugänglich\",\"meditativ\"],\"source_notes\":[\"Goal: Den neuen Wochenspruch als ruhigen Auftakt der liturgischen Woche veröffentlichen.\",\"Column: Bibel und Spiritualität\",\"Production mode: für Monate im Voraus vollständig vorproduzierbar\",\"Structure: Wochenspruch | ein Bild oder eine Beobachtung | ein meditativer Satz | offene Schlussfrage oder Segenswunsch\",\"AI support notes: meditativer Rohentwurf | KI-Bildprompt | Reel-Sprechtext | Alt-Text\",\"Liturgical source: https://kirchenjahr.pfarr.tools/api/jahr/2026 (2026-09-06, $.Tage['2026-09-06'])\",\"14. Sonntag nach Trinitatis\",\"Tagesthema laut Kandidateneintrag: Der dankbare Samariter\",\"Wochenspruch: Lobe den HERRN, meine Seele, und vergiss nicht, was er dir Gutes getan hat. (Ps 103,2)\"]},\"platforms\":{\"facebook\":{\"text\":\"Lobe den HERRN, meine Seele, und vergiss nicht, was er dir Gutes getan hat. (Ps 103,2)\\n\\nManche Wochen beginnen laut. Termine, Nachrichten, offene Listen. Dieser Satz setzt einen anderen Ton. Er drängt nicht. Er erinnert.\\n\\nDankbarkeit ist nicht immer ein großes Gefühl. Manchmal ist sie klein und leise. Ein Atemzug frische Luft. Ein Lichtstreifen am Morgen. Ein Mensch, der mit Geduld spricht. Ein Moment, in dem das Herz nicht festhalten muss, sondern wahrnimmt.\\n\\nDer Wochenspruch lädt nicht dazu ein, das Schwierige zu überdecken. Er lädt dazu ein, das Gute nicht zu vergessen. Beides kann nebeneinander stehen: das, was schwer ist, und das, was trägt.\\n\\nVielleicht beginnt diese Woche mit einer einfachen Übung: kurz anhalten und erinnern. Was hat dir gutgetan? Wo war Raum zum Aufatmen? Was war ein Zeichen von Güte?\\n\\nIch wünsche dir einen stillen Blick für das Gute, das schon da ist.\",\"headline\":\"Wochenspruch für die neue Woche\"},\"instagram\":{\"caption\":\"Lobe den HERRN, meine Seele, und vergiss nicht, was er dir Gutes getan hat. (Ps 103,2)\\n\\nEin ruhiger Satz zum Wochenbeginn.\\n\\nDankbarkeit muss nicht groß klingen. Manchmal beginnt sie damit, dass wir einen Augenblick länger hinschauen: auf Licht, auf Atem, auf das, was trägt.\\n\\nDer Wochenspruch lädt ein, das Gute nicht zu übersehen. Nicht als Pflicht. Eher als leise Erinnerung.\\n\\nWas hat dir gutgetan?\\n\\n#Wochenspruch #Kirchenjahr #Psalm103 #Dankbarkeit #Achtsamkeit #GlaubeImAlltag\",\"carousel\":[{\"type\":\"slide\",\"text\":\"Lobe den HERRN, meine Seele, und vergiss nicht, was er dir Gutes getan hat. (Ps 103,2)\"},{\"type\":\"slide\",\"text\":\"Manche Tage sind voll. Dieser Satz öffnet einen stillen Raum.\"},{\"type\":\"slide\",\"text\":\"Dankbarkeit beginnt oft klein: Licht. Atem. Ein freundliches Wort.\"},{\"type\":\"slide\",\"text\":\"Was hat dir gutgetan?\"}]},\"mastodon\":{\"text\":\"Lobe den HERRN, meine Seele, und vergiss nicht, was er dir Gutes getan hat. (Ps 103,2)\\n\\nEin stiller Satz zum Wochenbeginn. Nicht alles ist leicht. Aber das Gute muss nicht übersehen werden.\\n\\nWas hat dir heute gutgetan?\"},\"bluesky\":{\"text\":\"Lobe den HERRN, meine Seele, und vergiss nicht, was er dir Gutes getan hat. (Ps 103,2)\\n\\nEin stiller Satz zum Wochenbeginn. Was hat dir heute gutgetan?\"},\"story\":{\"slides\":[{\"text\":\"Neuer Wochenspruch\"},{\"text\":\"Lobe den HERRN, meine Seele, und vergiss nicht, was er dir Gutes getan hat. (Ps 103,2)\"},{\"text\":\"Dankbarkeit beginnt oft klein.\"},{\"text\":\"Was hat dir gutgetan?\"}]},\"reel\":{\"hook\":\"Ein ruhiger Satz für den Anfang der Woche.\",\"script\":\"Lobe den HERRN, meine Seele, und vergiss nicht, was er dir Gutes getan hat.\\n\\nDieser Wochenspruch aus Psalm 103 beginnt leise. Er fordert nichts Großes. Er erinnert.\\n\\nVielleicht ist Dankbarkeit heute nur ein kurzer Moment. Ein heller Morgen. Ein tiefer Atemzug. Ein Mensch, der dir gut begegnet.\\n\\nNicht alles wird leicht. Aber das Gute darf einen Platz bekommen.\\n\\nWas hat dir gutgetan?\\n\\nIch wünsche dir eine Woche mit wachen Augen und einem ruhigen Herzen.\",\"shots\":[\"Nahaufnahme von morgendlichem Licht auf einer Fensterbank\",\"Langsame Bewegung über taunasses Gras oder Blätter\",\"Eine Hand an einer warmen Tasse\",\"Ruhiger Blick in den Himmel oder auf ziehende Wolken\",\"Abblendung in weiches Licht\"],\"duration_seconds\":28}},\"visual\":{\"concept\":\"Ruhiges Naturmotiv zum Wochenbeginn: weiches Morgenlicht, klare Luft, wenig Ablenkung. Das Bild soll Stille und Aufmerksamkeit ausstrahlen, ohne illustriert oder kitschig zu wirken.\",\"flux_prompt\":\"Fotorealistisches ruhiges Morgenmotiv in der Natur, weiches goldenes Licht, feiner Tau auf Gräsern oder Blättern, sanfte Tiefenschärfe, klare natürliche Farben, stille meditative Atmosphäre, minimalistische Komposition, viel freier Raum, glaubwürdige Lichtstimmung, hochwertig, unaufgeregt, kein Mensch im Fokus, keine Schrift im Bild\",\"negative_prompt\":\"text, letters, logo, watermark\",\"formats\":[\"4:5\",\"9:16\",\"1.91:1\"],\"alt_text\":\"Ein ruhiges Naturbild im weichen Morgenlicht. Auf Gräsern oder Blättern liegt feiner Tau. Die Farben sind sanft, der Hintergrund unscharf. Das Bild wirkt still und offen und lädt zum Innehalten ein.\"},\"qa\":{\"warnings\":[\"Alt text must be completed before approval\"],\"approved\":false},\"metadata\":{\"model\":\"gpt-5\",\"generated_at\":\"2026-09-05T00:00:00Z\",\"prompt_version\":\"1.0\",\"assets\":[\"Bildmotiv Natur im Morgenlicht\",\"Feed-Grafik 4:5\",\"Story-Format 9:16\",\"Reel mit ruhigen Naturclips\"]}}"
+}
