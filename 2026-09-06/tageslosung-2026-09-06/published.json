@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-06",
+    "contentDate": "2026-09-06",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-09-06T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Fürchtet euch nicht, wenn euch die Leute schmähen, und entsetzt euch nicht, wenn sie euch verhöhnen!",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Fürchtet euch nicht, wenn euch die Leute schmähen, und entsetzt euch nicht, wenn sie euch verhöhnen!"
+    ],
+    "id": "fc836f60-f3e4-4b20-9bf4-6019d757c954",
+    "attemptCount": 1,
+    "remoteId": "18089115341451224",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:45:07.477Z",
+    "updatedAt": "2026-09-06T05:00:30.999Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-06",
+    "contentDate": "2026-09-06",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-09-06T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Fürchtet euch nicht, wenn euch die Leute schmähen, und entsetzt euch nicht, wenn sie euch verhöhnen!",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Fürchtet euch nicht, wenn euch die Leute schmähen, und entsetzt euch nicht, wenn sie euch verhöhnen!"
+    ],
+    "id": "8f2019a0-0331-4c4f-94ab-439ac01226c4",
+    "attemptCount": 1,
+    "remoteId": "117222331637388207",
+    "remoteUrl": "https://kirche.social/@christoph/117222331637388207",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:45:07.483Z",
+    "updatedAt": "2026-09-06T05:00:31.922Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
