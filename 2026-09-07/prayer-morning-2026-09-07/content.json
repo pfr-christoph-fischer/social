@@ -1,0 +1,101 @@
+{
+  "id": "prayer-morning-2026-09-07",
+  "status": "in Arbeit",
+  "needs_input": true,
+  "source": {
+    "calendar_post_id": "prayer-morning-2026-09-07",
+    "date": "2026-09-07",
+    "rubric": "Morgengebet",
+    "liturgical_source": ""
+  },
+  "editorial_core": {
+    "title": "Morgengebet",
+    "main_message": "Für den Morgen des 7. September 2026 fehlen belastbar verifizierte tagesaktuelle Nachrichtenbezüge aus mindestens zwei konkreten Situationen. Recherchierbar sind derzeit nur teils ältere Übersichts- und Themenseiten zu Trockenheit in Baden-Württemberg, Angriffen im Libanon und zur Ukraine. Für ein verantwortbares Morgengebet müssen am Morgen der Veröffentlichung zwei bis vier konkret bestätigte Lagen ausgewählt und dann ausdrücklich als Fürbitte aufgenommen werden.",
+    "audience": "breite Öffentlichkeit",
+    "tone": [
+      "ruhig",
+      "hoffnungsvoll",
+      "zugewandt"
+    ],
+    "source_notes": [
+      "Websuche durchgeführt. Verlässliche aktuelle Treffer gefunden zu anhaltender Trockenheit und Niedrigwasser in Baden-Württemberg bei SWR Aktuell sowie zu tagesschau-Übersichten vom 6. September 2026.",
+      "Für die verpflichtenden aktuellen Gebetsbezüge reichen die vorliegenden Treffer noch nicht aus, weil für den 7. September 2026 am Morgen der Veröffentlichung mindestens zwei konkret verifizierte Situationen belastbar benannt werden müssen.",
+      "SWR Aktuell bestätigt für Baden-Württemberg flächendeckende Trockenheit und Niedrigwasserfolgen; die Treffer sind jedoch überwiegend aus August 2026 und damit für einen tagesaktuellen Morgengebets-Post nur eingeschränkt geeignet.",
+      "tagesschau listet am 6. September 2026 unter anderem neue Angriffe Israels im Libanon sowie laufende Gespräche zum Krieg in der Ukraine; ohne Öffnung und Prüfung der jeweiligen Einzelmeldungen sollte daraus kein konkretes Gebetsanliegen formuliert werden.",
+      "Redaktionell nachtragen am Morgen der Veröffentlichung: zwei bis vier verifizierte Lagen, idealerweise 1x international und 1x regional Baden-Württemberg, dann Gebetstext und Kurzfassungen finalisieren."
+    ]
+  },
+  "platforms": {
+    "facebook": {
+      "text": "Für diesen Post fehlen noch die verbindlichen tagesaktuellen Bezüge. Am Morgen des 7. September 2026 bitte zwei konkret verifizierte Situationen aus den Nachrichten prüfen und erst dann den Gebetstext freigeben.",
+      "headline": "Morgengebet"
+    },
+    "instagram": {
+      "caption": "Dieser Beitrag braucht vor der Veröffentlichung noch zwei konkret verifizierte aktuelle Gebetsanliegen vom Morgen des 7. September 2026. Bitte Nachrichtenlage prüfen und Text danach finalisieren.",
+      "carousel": [
+        {
+          "type": "slide",
+          "text": "Morgengebet"
+        },
+        {
+          "type": "slide",
+          "text": "Vor Veröffentlichung: zwei aktuelle Situationen verifizieren."
+        }
+      ]
+    },
+    "mastodon": {
+      "text": "Für dieses Morgengebet fehlen noch die verpflichtenden tagesaktuellen Bezüge. Bitte am 7. September 2026 morgens mindestens zwei konkrete Situationen verifizieren und dann den Post finalisieren."
+    },
+    "bluesky": {
+      "text": "Dieser Morgengebet-Post braucht vor Freigabe noch zwei konkret verifizierte aktuelle Situationen aus der Nachrichtenlage am 7. September 2026."
+    },
+    "story": {
+      "slides": [
+        {
+          "text": "Morgengebet"
+        },
+        {
+          "text": "Vor Freigabe: aktuelle Nachrichten prüfen."
+        },
+        {
+          "text": "Mindestens zwei konkrete Gebetsanliegen ergänzen."
+        }
+      ]
+    },
+    "reel": {
+      "hook": "Morgengebet",
+      "script": "Vor der Veröffentlichung braucht dieser Beitrag noch zwei konkret verifizierte aktuelle Gebetsanliegen vom Morgen des 7. September 2026.",
+      "shots": [
+        "Ruhiger Morgenhimmel",
+        "Hände an einer Kaffeetasse",
+        "Fensterblick in den Tag"
+      ],
+      "duration_seconds": 12
+    }
+  },
+  "visual": {
+    "concept": "Schlichter Morgenbeginn mit offenem Fenster, weichem Licht und einer stillen, wachen Atmosphäre. Keine Nachrichtenillustration, keine Katastrophenbilder.",
+    "flux_prompt": "Ein ruhiger Morgen in natürlichem Licht, Blick aus einem offenen Fenster, schlichte Tischkante mit Tasse, klare Luft, zurückhaltende Farben, dokumentarisch, hoffnungsvoll, still, realistisch, keine Menschenmenge, keine Symbole, keine Schrift",
+    "negative_prompt": "text, letters, logo, watermark",
+    "formats": [
+      "4:5",
+      "9:16",
+      "1.91:1"
+    ],
+    "alt_text": "Ruhige Morgenszene mit offenem Fenster, weichem Licht und einer Tasse auf einem schlichten Tisch."
+  },
+  "qa": {
+    "warnings": [
+      "Alt text must be completed before approval",
+      "Verpflichtende tagesaktuelle Gebetsbezüge fehlen noch.",
+      "Mindestens zwei konkrete Situationen müssen am Morgen des 7. September 2026 verifiziert und in Haupttext sowie Plattformtexte eingearbeitet werden."
+    ],
+    "approved": false
+  },
+  "metadata": {
+    "model": "gpt-5.4-2026-03-05",
+    "generated_at": "2026-09-06T14:00:28.179Z",
+    "prompt_version": "1.0",
+    "assets": []
+  }
+}
