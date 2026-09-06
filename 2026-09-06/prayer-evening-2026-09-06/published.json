@@ -27,5 +27,66 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "prayer-evening-2026-09-06",
+    "contentDate": "2026-09-06",
+    "platform": "instagram",
+    "format": "default",
+    "scheduledAt": "2026-09-06T18:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Abendgebet.\n\nHeute nur dieses eine Anliegen:\nSchock, Bestürzung, Fragen, Sorgen und Angst angesichts der riesigen Zahl von Stimmen für eine gesichert rechtsextreme Partei in Sachsen-Anhalt.\n\nMir fehlen die Worte.\nDarum bete ich tastend:\n„Du, Herr, bist mein Fels, meine Burg, mein Retter.“ (Psalm 18,3)\n\nHerr, erbarme dich.\nKyrie eleison.",
+    "assets": [
+      "render-instagram-feed-01.jpg",
+      "render-instagram-feed-02.jpg",
+      "render-instagram-feed-03.jpg",
+      "render-instagram-feed-04.jpg",
+      "render-instagram-feed-05.jpg"
+    ],
+    "altTexts": [
+      "Eine stille Abendszene in gedämpftem Licht. Zu sehen ist eine einzelne Kerze oder ein leerer Platz an einem Tisch. Das Bild wirkt ernst, zurückhaltend und nachdenklich."
+    ],
+    "id": "f5994fc5-6557-48e3-8c1b-daa7432e1d27",
+    "attemptCount": 1,
+    "remoteId": "17912117325457942",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-09-06T17:44:34.369Z",
+    "updatedAt": "2026-09-06T18:00:52.605Z",
+    "responseMetadata": {
+      "mediaCount": 5,
+      "mediaType": "CAROUSEL",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "prayer-evening-2026-09-06",
+    "contentDate": "2026-09-06",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-09-06T18:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Abendgebet\n\nHeute nur dieses eine Anliegen: Schock, Bestürzung, Fragen, Sorgen und Angst angesichts der riesigen Zahl von Stimmen für eine gesichert rechtsextreme Partei in Sachsen-Anhalt.\n\nMir fehlen die Worte. Darum halte ich micj leise an Psalm 18,3: „Du, Herr, bist mein Fels, meine Burg, mein Retter.“ \n\nHerr, erbarme dich. Kyrie eleison.",
+    "assets": [
+      "render-facebook-mastodon-01.png"
+    ],
+    "altTexts": [
+      "Eine stille Abendszene in gedämpftem Licht. Zu sehen ist eine einzelne Kerze oder ein leerer Platz an einem Tisch. Das Bild wirkt ernst, zurückhaltend und nachdenklich."
+    ],
+    "id": "78df3f78-0a2c-4c96-bf65-8589d6f3cb78",
+    "attemptCount": 1,
+    "remoteId": "117225400157098596",
+    "remoteUrl": "https://kirche.social/@christoph/117225400157098596",
+    "lastError": null,
+    "createdAt": "2026-09-06T17:44:34.420Z",
+    "updatedAt": "2026-09-06T18:00:53.882Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
