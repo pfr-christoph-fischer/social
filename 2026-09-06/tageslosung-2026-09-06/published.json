@@ -84,5 +84,91 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-06",
+    "contentDate": "2026-09-06",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-09-06T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Fürchtet euch nicht, wenn euch die Leute schmähen, und entsetzt euch nicht, wenn sie euch verhöhnen!",
+    "assets": [
+      "render-square-01.jpg"
+    ],
+    "altTexts": [
+      "Fürchtet euch nicht, wenn euch die Leute schmähen, und entsetzt euch nicht, wenn sie euch verhöhnen!"
+    ],
+    "id": "4b12d754-25fb-444c-9810-d436bfc4694d",
+    "attemptCount": 1,
+    "remoteId": "18110396234087178",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:45:07.490Z",
+    "updatedAt": "2026-09-06T05:00:49.537Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-06",
+    "contentDate": "2026-09-06",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-09-06T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Fürchtet euch nicht, wenn euch die Leute schmähen, und entsetzt euch nicht, wenn sie euch verhöhnen!",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Fürchtet euch nicht, wenn euch die Leute schmähen, und entsetzt euch nicht, wenn sie euch verhöhnen!"
+    ],
+    "id": "f0cc5cdd-7598-4aaa-95a3-f79dee7f2468",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3mut7lfdwdr2l",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3mut7lfdwdr2l",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:45:07.497Z",
+    "updatedAt": "2026-09-06T05:00:51.939Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-06",
+    "contentDate": "2026-09-06",
+    "platform": "linkedin",
+    "format": "default",
+    "scheduledAt": "2026-09-06T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Fürchtet euch nicht, wenn euch die Leute schmähen, und entsetzt euch nicht, wenn sie euch verhöhnen!",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Fürchtet euch nicht, wenn euch die Leute schmähen, und entsetzt euch nicht, wenn sie euch verhöhnen!"
+    ],
+    "id": "7a95f238-dbda-426f-8a9e-b28b07df126e",
+    "attemptCount": 1,
+    "remoteId": "urn:li:share:7502229314646491137",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:45:07.505Z",
+    "updatedAt": "2026-09-06T05:00:53.941Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 201
+    },
+    "retryHistory": []
   }
 ]
