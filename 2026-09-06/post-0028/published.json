@@ -150,5 +150,43 @@
       "status": 201
     },
     "retryHistory": []
+  },
+  {
+    "postId": "post-0028",
+    "contentDate": "2026-09-06",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-09-06T07:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Lobe den HERRN, meine Seele, und vergiss nicht, was er dir Gutes getan hat. (Ps 103,2)\n\nEin stiller Satz zum Wochenbeginn. Was hat dir heute gutgetan?",
+    "assets": [
+      "render-instagram-feed-01.jpg",
+      "render-instagram-feed-02.jpg",
+      "render-instagram-feed-03.jpg",
+      "render-instagram-feed-04.jpg"
+    ],
+    "altTexts": [
+      "Ein ruhiges Naturbild im weichen Morgenlicht. Auf Gräsern oder Blättern liegt feiner Tau. Die Farben sind sanft, der Hintergrund unscharf. Das Bild wirkt still und offen und lädt zum Innehalten ein."
+    ],
+    "id": "0abf70aa-6dbd-460f-9341-a77b80d81828",
+    "attemptCount": 2,
+    "remoteId": "18364883830246542",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-09-05T15:54:20.852Z",
+    "updatedAt": "2026-09-06T07:05:34.939Z",
+    "responseMetadata": {
+      "mediaCount": 4,
+      "mediaType": "CAROUSEL",
+      "status": 200
+    },
+    "retryHistory": [
+      {
+        "at": "2026-09-06T07:02:04.392Z",
+        "error": "threads: Container konnte nicht veröffentlicht werden (400): The requested resource does not exist (Code 24) Le contenu multimédia présentant l’ID 17978453730107901 est introuvable.",
+        "attempt": 1
+      }
+    ]
   }
 ]
