@@ -27,5 +27,65 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "post-0028",
+    "contentDate": "2026-09-06",
+    "platform": "instagram",
+    "format": "default",
+    "scheduledAt": "2026-09-06T07:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Lobe den HERRN, meine Seele, und vergiss nicht, was er dir Gutes getan hat. (Ps 103,2)\n\nEin ruhiger Satz zum Wochenbeginn.\n\nDankbarkeit muss nicht groß klingen. Manchmal beginnt sie damit, dass wir einen Augenblick länger hinschauen: auf Licht, auf Atem, auf das, was trägt.\n\nDer Wochenspruch lädt ein, das Gute nicht zu übersehen. Nicht als Pflicht. Eher als leise Erinnerung.\n\nWas hat dir gutgetan?\n\n#Wochenspruch #Kirchenjahr #Psalm103 #Dankbarkeit #Achtsamkeit #GlaubeImAlltag",
+    "assets": [
+      "render-instagram-feed-01.jpg",
+      "render-instagram-feed-02.jpg",
+      "render-instagram-feed-03.jpg",
+      "render-instagram-feed-04.jpg"
+    ],
+    "altTexts": [
+      "Ein ruhiges Naturbild im weichen Morgenlicht. Auf Gräsern oder Blättern liegt feiner Tau. Die Farben sind sanft, der Hintergrund unscharf. Das Bild wirkt still und offen und lädt zum Innehalten ein."
+    ],
+    "id": "7e0d13d2-6ab1-45c2-bbfa-5fa325e1efaa",
+    "attemptCount": 1,
+    "remoteId": "18060859019532109",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-09-05T15:54:20.730Z",
+    "updatedAt": "2026-09-06T07:01:35.960Z",
+    "responseMetadata": {
+      "mediaCount": 4,
+      "mediaType": "CAROUSEL",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "post-0028",
+    "contentDate": "2026-09-06",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-09-06T07:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Lobe den HERRN, meine Seele, und vergiss nicht, was er dir Gutes getan hat. (Ps 103,2)\n\nEin stiller Satz zum Wochenbeginn. Nicht alles ist leicht. Aber das Gute muss nicht übersehen werden.\n\nWas hat dir heute gutgetan?",
+    "assets": [
+      "render-facebook-mastodon-01.png"
+    ],
+    "altTexts": [
+      "Ein ruhiges Naturbild im weichen Morgenlicht. Auf Gräsern oder Blättern liegt feiner Tau. Die Farben sind sanft, der Hintergrund unscharf. Das Bild wirkt still und offen und lädt zum Innehalten ein."
+    ],
+    "id": "304ba962-0af7-4dff-b2da-ff56acc379a1",
+    "attemptCount": 1,
+    "remoteId": "117222807743482872",
+    "remoteUrl": "https://kirche.social/@christoph/117222807743482872",
+    "lastError": null,
+    "createdAt": "2026-09-05T15:54:20.791Z",
+    "updatedAt": "2026-09-06T07:01:36.736Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
