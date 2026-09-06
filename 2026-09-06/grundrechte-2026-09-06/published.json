@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-09-06",
+    "contentDate": "2026-09-06",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-09-06T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Alle Deutschen haben das Recht, Vereine und Gesellschaften zu bilden. (Grundgesetz, Artikel 9 Absatz 1)",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Alle Deutschen haben das Recht, Vereine und Gesellschaften zu bilden. (Grundgesetz, Artikel 9 Absatz 1)"
+    ],
+    "id": "557c35a5-1551-4505-a432-77ce16255476",
+    "attemptCount": 1,
+    "remoteId": "17961232230186842",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:37:36.406Z",
+    "updatedAt": "2026-09-06T10:00:25.234Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-09-06",
+    "contentDate": "2026-09-06",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-09-06T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Alle Deutschen haben das Recht, Vereine und Gesellschaften zu bilden. (Grundgesetz, Artikel 9 Absatz 1)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Alle Deutschen haben das Recht, Vereine und Gesellschaften zu bilden. (Grundgesetz, Artikel 9 Absatz 1)"
+    ],
+    "id": "8ff16c17-8648-445e-b388-b34a01e460d9",
+    "attemptCount": 1,
+    "remoteId": "117223510925429763",
+    "remoteUrl": "https://kirche.social/@christoph/117223510925429763",
+    "lastError": null,
+    "createdAt": "2026-08-26T15:37:36.444Z",
+    "updatedAt": "2026-09-06T10:00:26.449Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
