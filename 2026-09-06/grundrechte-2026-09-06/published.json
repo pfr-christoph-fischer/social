@@ -84,5 +84,91 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-09-06",
+    "contentDate": "2026-09-06",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-09-06T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Alle Deutschen haben das Recht, Vereine und Gesellschaften zu bilden. (Grundgesetz, Artikel 9 Absatz 1)",
+    "assets": [
+      "render-square-01.jpg"
+    ],
+    "altTexts": [
+      "Alle Deutschen haben das Recht, Vereine und Gesellschaften zu bilden. (Grundgesetz, Artikel 9 Absatz 1)"
+    ],
+    "id": "27590c86-f3a2-4bb2-913a-bd0bd776cf85",
+    "attemptCount": 1,
+    "remoteId": "18132036787638406",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:37:36.499Z",
+    "updatedAt": "2026-09-06T10:00:39.478Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-09-06",
+    "contentDate": "2026-09-06",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-09-06T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Alle Deutschen haben das Recht, Vereine und Gesellschaften zu bilden. (Grundgesetz, Artikel 9 Absatz 1)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Alle Deutschen haben das Recht, Vereine und Gesellschaften zu bilden. (Grundgesetz, Artikel 9 Absatz 1)"
+    ],
+    "id": "f23ade2a-1772-4541-a9c3-0667dbe15f51",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3mutqdk4r6v27",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3mutqdk4r6v27",
+    "lastError": null,
+    "createdAt": "2026-08-26T15:37:36.536Z",
+    "updatedAt": "2026-09-06T10:00:42.114Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-09-06",
+    "contentDate": "2026-09-06",
+    "platform": "linkedin",
+    "format": "default",
+    "scheduledAt": "2026-09-06T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Alle Deutschen haben das Recht, Vereine und Gesellschaften zu bilden. (Grundgesetz, Artikel 9 Absatz 1)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Alle Deutschen haben das Recht, Vereine und Gesellschaften zu bilden. (Grundgesetz, Artikel 9 Absatz 1)"
+    ],
+    "id": "8c103cea-08b5-4fad-8d0d-da0380a83eab",
+    "attemptCount": 1,
+    "remoteId": "urn:li:share:7502304771916095489",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:37:36.574Z",
+    "updatedAt": "2026-09-06T10:00:44.006Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 201
+    },
+    "retryHistory": []
   }
 ]
