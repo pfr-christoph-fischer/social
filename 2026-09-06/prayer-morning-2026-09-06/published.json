@@ -154,5 +154,45 @@
       "status": 201
     },
     "retryHistory": []
+  },
+  {
+    "postId": "prayer-morning-2026-09-06",
+    "contentDate": "2026-09-06",
+    "platform": "instagram",
+    "format": "default",
+    "scheduledAt": "2026-09-06T05:15:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Gott,\n\nDieser Morgen ist dein Geschenk.\nWir danken dir für das Licht, für den Atem und für das Leben.\nWir loben dich, weil deine Güte jeden Morgen neu ist und deine Treue uns trägt.\n\nLass uns diesen Tag mit offenem Herzen beginnen,\nmit Dank,\nmit Vertrauen,\nmit Freude an deiner Nähe.\n\nAmen.",
+    "assets": [
+      "render-instagram-feed-01.jpg",
+      "render-instagram-feed-02.jpg",
+      "render-instagram-feed-03.jpg",
+      "render-instagram-feed-04.jpg",
+      "render-instagram-feed-05.jpg",
+      "render-instagram-feed-06.jpg"
+    ],
+    "altTexts": [
+      "Ein stiller Tisch am Morgen vor einem offenen Fenster im weichen Licht. Draußen sind helle Naturtöne und frisches Grün zu sehen. Die Szene wirkt ruhig, weit und hoffnungsvoll."
+    ],
+    "id": "0200d8aa-8fed-420d-afe7-abdddf9137c1",
+    "attemptCount": 2,
+    "remoteId": "18126059203811890",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-09-05T16:03:43.364Z",
+    "updatedAt": "2026-09-06T05:21:15.270Z",
+    "responseMetadata": {
+      "mediaCount": 6,
+      "mediaType": "CAROUSEL",
+      "status": 200
+    },
+    "retryHistory": [
+      {
+        "at": "2026-09-06T05:15:46.536Z",
+        "error": "instagram: Medien-Container konnte nicht erstellt werden (400): Only photo or video can be accepted as media type.",
+        "attempt": 1
+      }
+    ]
   }
 ]
