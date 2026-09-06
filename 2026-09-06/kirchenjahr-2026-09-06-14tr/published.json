@@ -56,5 +56,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "kirchenjahr-2026-09-06-14tr",
+    "contentDate": "2026-09-06",
+    "platform": "facebook",
+    "format": "square",
+    "scheduledAt": "2026-09-06T07:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "14. Sonntag nach Trinitatis\n\nTitel: Der dankbare Samariter\n\nWochenspruch: „Lobe den HERRN, meine Seele, und vergiss nicht, was er dir Gutes getan hat.“ (Ps 103,2)\n\nPsalm: Ps 146\n\nAltes Testament: 1. Mose 28,10-19a(19b-22)\n\nEvangelium: Lk 17,11-19\n\nEpistel: Röm 8,14-17\n\nPredigttext: Lk 19,1-10\n\nLieder: Danket dem Herrn! Wir danken dem Herrn, EG 333; Lobe den Herrn, meine Seele, EGE 14",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "14. So. n. Trinitatis"
+    ],
+    "id": "d88cee9c-2fb9-4541-8e67-c138c2b8fbd1",
+    "attemptCount": 1,
+    "remoteId": "1289703740890525_122116745595426121",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-15T16:58:38.404Z",
+    "updatedAt": "2026-09-06T07:00:43.195Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "PHOTO",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "kirchenjahr-2026-09-06-14tr",
+    "contentDate": "2026-09-06",
+    "platform": "mastodon",
+    "format": "square",
+    "scheduledAt": "2026-09-06T07:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "14. Sonntag nach Trinitatis\n\nTitel: Der dankbare Samariter\n\nWochenspruch: „Lobe den HERRN, meine Seele, und vergiss nicht, was er dir Gutes getan hat.“ (Ps 103,2)\n\nPsalm: Ps 146\n\nAltes Testament: 1. Mose 28,10-19a(19b-22)\n\nEvangelium: Lk 17,11-19\n\nEpistel: Röm 8,14-17\n\nPredigttext: Lk 19,1-10\n\nLieder: Danket dem Herrn! Wir danken dem Herrn, EG 333; Lobe den Herrn, meine Seele, EGE 14",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "14. So. n. Trinitatis"
+    ],
+    "id": "8817a0ae-adc7-4d08-87ef-5c3718484a73",
+    "attemptCount": 1,
+    "remoteId": "117222804392780476",
+    "remoteUrl": "https://kirche.social/@christoph/117222804392780476",
+    "lastError": null,
+    "createdAt": "2026-08-15T16:58:38.440Z",
+    "updatedAt": "2026-09-06T07:00:45.981Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
