@@ -1,0 +1,44 @@
+{
+  "delivery_url": "https://delivery.eu2.bfl.ai/durable/2026090617/5e1f69ea-538b-4d66-962e-9be995966f07/0b/476338ddb0a5fc/ddb0a5fcb9bc4f7593ab1c3169a7b0e5/sample.jpeg?se=2026-09-06T17%3A51%3A16Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=EFrPSmj5L6eyeciskRSfvvpOsBjBCdNjxXAQoIpJAnM%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "4f559c9a-fee9-4f19-970b-3b4f9460fade",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "4f559c9a-fee9-4f19-970b-3b4f9460fade",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "4f559c9a-fee9-4f19-970b-3b4f9460fade",
+      "status": "Ready",
+      "result": {
+        "start_time": 1788716475.4657776,
+        "prompt": "Photorealistic very quiet evening interior, dim warm light, single candle or empty place at a table, subdued atmosphere, contemplative silence, sense of shock and restrained hope, minimal composition, natural colors, no people facing camera, no text, no letters, no typography, no logo, no watermark",
+        "seed": 4267793892,
+        "sample": "https://delivery.eu2.bfl.ai/durable/2026090617/5e1f69ea-538b-4d66-962e-9be995966f07/0b/476338ddb0a5fc/ddb0a5fcb9bc4f7593ab1c3169a7b0e5/sample.jpeg?se=2026-09-06T17%3A51%3A16Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=EFrPSmj5L6eyeciskRSfvvpOsBjBCdNjxXAQoIpJAnM%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "4f559c9a-fee9-4f19-970b-3b4f9460fade",
+    "polling_url": "https://api.eu2.bfl.ai/v1/get_result?id=4f559c9a-fee9-4f19-970b-3b4f9460fade",
+    "cost": 1.4000000000000001,
+    "input_mp": 0,
+    "output_mp": 0.72
+  }
+}
