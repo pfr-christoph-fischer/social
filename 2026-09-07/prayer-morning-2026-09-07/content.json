@@ -1,6 +1,6 @@
 {
   "id": "prayer-morning-2026-09-07",
-  "status": "freigegeben",
+  "status": "in Arbeit",
   "needs_input": true,
   "source": {
     "calendar_post_id": "prayer-morning-2026-09-07",
@@ -27,27 +27,27 @@
   },
   "platforms": {
     "facebook": {
-      "text": "Heute muss der Tag mit Hoffnung beginnen. Die Güte des Herrn hat kein Ende. In allem, was uns bedrängt, trägt uns seine Treue. Herr, hilf uns, gerade angesichts von Hass und Härte, von Dunkelheit und Furcht, Menschen der Hoffnung zu sein. Deiner Hoffnung.",
-      "headline": "Morgengebet"
+      "headline": "Morgengebet",
+      "text": "Heute muss der Tag mit Hoffnung beginnen. Die Güte des Herrn hat kein Ende. In allem, was uns bedrängt, trägt uns seine Treue. Herr, hilf uns, gerade angesichts von Hass und Härte, von Dunkelheit und Furcht, Menschen der Hoffnung zu sein. Deiner Hoffnung."
     },
     "instagram": {
       "caption": "Heute muss der Tag mit Hoffnung beginnen. Die Güte des Herrn hat kein Ende. In allem, was uns bedrängt, trägt uns seine Treue. Hilf uns, gerade angesichts von Hass und Härte, von Dunkelheit und Furcht, Menschen der Hoffnung zu sein. Deiner Hoffnung.",
       "carousel": [
         {
-          "type": "slide",
-          "text": "Morgengebet"
+          "text": "Morgengebet",
+          "type": "slide"
         },
         {
-          "type": "slide",
-          "text": "Heute muss der Tag mit Hoffnung beginnen."
+          "text": "Heute muss der Tag mit Hoffnung beginnen.",
+          "type": "slide"
         },
         {
-          "type": "slide",
-          "text": "Die Güte des Herrn hat kein Ende."
+          "text": "Die Güte des Herrn hat kein Ende.",
+          "type": "slide"
         },
         {
-          "type": "content",
-          "text": "Hilf uns, gerade angesichts von Hass und Härte, von Dunkelheit und Furcht, Menschen der Hoffnung zu sein. Deiner Hoffnung."
+          "text": "Hilf uns, gerade angesichts von Hass und Härte, von Dunkelheit und Furcht, Menschen der Hoffnung zu sein. Deiner Hoffnung.",
+          "type": "content"
         }
       ]
     },
@@ -59,9 +59,6 @@
     },
     "story": {
       "slides": [
-        {
-          "text": "Morgengebet"
-        },
         {
           "text": "Heute muss der Tag mit Hoffnung beginnen."
         },
@@ -93,10 +90,10 @@
     "alt_text": "Ruhige Morgenszene mit offenem Fenster, weichem Licht und einer Tasse auf einem schlichten Tisch."
   },
   "qa": {
+    "approved": false,
     "warnings": [
       "Current-event or local factual details are still required. Verify that no details were invented."
-    ],
-    "approved": true
+    ]
   },
   "metadata": {
     "model": "gpt-5.4-2026-03-05",
