@@ -27,23 +27,27 @@
   },
   "platforms": {
     "facebook": {
-      "text": "Heute muss der Tag mit Hoffnung beginnen. Die Güte des Herrn hat kein Ende. In allem, was uns bedrängt, trägt uns seine Treue. Herr, hilf uns, gerade angesichts von Hass und Härte, von Dunkelheit und Furcht, Menschen der Hoffnung zu sein. Deiner Hoffnung.",
-      "headline": "Morgengebet"
+      "headline": "Morgengebet",
+      "text": "Heute muss der Tag mit Hoffnung beginnen. Die Güte des Herrn hat kein Ende. In allem, was uns bedrängt, trägt uns seine Treue. Herr, hilf uns, gerade angesichts von Hass und Härte, von Dunkelheit und Furcht, Menschen der Hoffnung zu sein. Deiner Hoffnung."
     },
     "instagram": {
       "caption": "Heute muss der Tag mit Hoffnung beginnen. Die Güte des Herrn hat kein Ende. In allem, was uns bedrängt, trägt uns seine Treue. Hilf uns, gerade angesichts von Hass und Härte, von Dunkelheit und Furcht, Menschen der Hoffnung zu sein. Deiner Hoffnung.",
       "carousel": [
         {
-          "type": "slide",
-          "text": "Morgengebet"
+          "text": "Morgengebet",
+          "type": "slide"
         },
         {
-          "type": "slide",
-          "text": "Heute muss der Tag mit Hoffnung beginnen."
+          "text": "Heute muss der Tag mit Hoffnung beginnen.",
+          "type": "slide"
         },
         {
-          "type": "slide",
-          "text": "Die Güte des Herrn hat kein Ende."
+          "text": "Die Güte des Herrn hat kein Ende.",
+          "type": "slide"
+        },
+        {
+          "text": "Hilf uns, gerade angesichts von Hass und Härte, von Dunkelheit und Furcht, Menschen der Hoffnung zu sein. Deiner Hoffnung.",
+          "type": "content"
         }
       ]
     },
@@ -79,7 +83,7 @@
   },
   "visual": {
     "concept": "Schlichter Morgenbeginn mit offenem Fenster, weichem Licht und einer stillen, wachen Atmosphäre. Keine Nachrichtenillustration, keine Katastrophenbilder.",
-    "flux_prompt": "Ein ruhiger Morgen in natürlichem Licht, Blick aus einem offenen Fenster, schlichte Tischkante mit Tasse, klare Luft, zurückhaltende Farben, dokumentarisch, hoffnungsvoll, still, realistisch, keine Menschenmenge, keine Symbole, keine Schrift",
+    "flux_prompt": "Ein ruhiger Morgen in natürlichem Licht, Blick aus einem offenen Fenster, schlichte Tischkante mit Tasse, klare Luft, zurückhaltende Farben, dokumentarisch, hoffnungsvoll, still, realistisch, keine Menschenmenge, keine Symbole. Sonnenaufgang. ",
     "negative_prompt": "text, letters, logo, watermark",
     "formats": [
       "4:5",
@@ -89,12 +93,12 @@
     "alt_text": "Ruhige Morgenszene mit offenem Fenster, weichem Licht und einer Tasse auf einem schlichten Tisch."
   },
   "qa": {
+    "approved": false,
     "warnings": [
       "Alt text must be completed before approval",
       "Verpflichtende tagesaktuelle Gebetsbezüge fehlen noch.",
       "Mindestens zwei konkrete Situationen müssen am Morgen des 7. September 2026 verifiziert und in Haupttext sowie Plattformtexte eingearbeitet werden."
-    ],
-    "approved": false
+    ]
   },
   "metadata": {
     "model": "gpt-5.4-2026-03-05",
