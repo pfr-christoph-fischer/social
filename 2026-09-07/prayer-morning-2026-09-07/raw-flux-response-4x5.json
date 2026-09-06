@@ -1,0 +1,52 @@
+{
+  "delivery_url": "https://delivery.eu2.bfl.ai/durable/2026090620/5e1f69ea-538b-4d66-962e-9be995966f07/24/747747ec3d98f5/ec3d98f53ada43e4be2145fbb4940234/sample.jpeg?se=2026-09-06T20%3A25%3A48Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=gNF0umAizisyYT7gPkdBXxiosIWEm/N03uvkv%2BtHD1g%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "950e4d91-7b62-4ddb-a4e1-0c2bde109ea1",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "950e4d91-7b62-4ddb-a4e1-0c2bde109ea1",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "950e4d91-7b62-4ddb-a4e1-0c2bde109ea1",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "950e4d91-7b62-4ddb-a4e1-0c2bde109ea1",
+      "status": "Ready",
+      "result": {
+        "start_time": 1788725746.6359675,
+        "prompt": "Ein ruhiger Morgen in natürlichem Licht, Blick aus einem offenen Fenster, schlichte Tischkante mit Tasse, klare Luft, zurückhaltende Farben, dokumentarisch, hoffnungsvoll, still, realistisch, keine Menschenmenge, keine Symbole. Sonnenaufgang., no text, no letters, no typography, no logo, no watermark",
+        "seed": 3020366452,
+        "sample": "https://delivery.eu2.bfl.ai/durable/2026090620/5e1f69ea-538b-4d66-962e-9be995966f07/24/747747ec3d98f5/ec3d98f53ada43e4be2145fbb4940234/sample.jpeg?se=2026-09-06T20%3A25%3A48Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=gNF0umAizisyYT7gPkdBXxiosIWEm/N03uvkv%2BtHD1g%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "950e4d91-7b62-4ddb-a4e1-0c2bde109ea1",
+    "polling_url": "https://api.eu2.bfl.ai/v1/get_result?id=950e4d91-7b62-4ddb-a4e1-0c2bde109ea1",
+    "cost": 1.5,
+    "input_mp": 0,
+    "output_mp": 1.39
+  }
+}

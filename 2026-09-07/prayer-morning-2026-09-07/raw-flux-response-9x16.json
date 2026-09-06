@@ -1,0 +1,52 @@
+{
+  "delivery_url": "https://delivery.eu2.bfl.ai/durable/2026090620/5e1f69ea-538b-4d66-962e-9be995966f07/35/75063951271c41/51271c41266f48d0abd4a406a2be7807/sample.jpeg?se=2026-09-06T20%3A25%3A51Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=99bTNu8DFkNIvO25qa1kv80%2BFrwP4b61u%2BvT1shZjpQ%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "59e7a8e0-6622-4b77-8604-03bfc83a91dc",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "59e7a8e0-6622-4b77-8604-03bfc83a91dc",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "59e7a8e0-6622-4b77-8604-03bfc83a91dc",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "59e7a8e0-6622-4b77-8604-03bfc83a91dc",
+      "status": "Ready",
+      "result": {
+        "start_time": 1788725749.4461517,
+        "prompt": "Ein ruhiger Morgen in natürlichem Licht, Blick aus einem offenen Fenster, schlichte Tischkante mit Tasse, klare Luft, zurückhaltende Farben, dokumentarisch, hoffnungsvoll, still, realistisch, keine Menschenmenge, keine Symbole. Sonnenaufgang., no text, no letters, no typography, no logo, no watermark",
+        "seed": 146398888,
+        "sample": "https://delivery.eu2.bfl.ai/durable/2026090620/5e1f69ea-538b-4d66-962e-9be995966f07/35/75063951271c41/51271c41266f48d0abd4a406a2be7807/sample.jpeg?se=2026-09-06T20%3A25%3A51Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=99bTNu8DFkNIvO25qa1kv80%2BFrwP4b61u%2BvT1shZjpQ%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "59e7a8e0-6622-4b77-8604-03bfc83a91dc",
+    "polling_url": "https://api.eu2.bfl.ai/v1/get_result?id=59e7a8e0-6622-4b77-8604-03bfc83a91dc",
+    "cost": 1.5,
+    "input_mp": 0,
+    "output_mp": 1.98
+  }
+}
