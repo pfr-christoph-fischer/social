@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-07",
+    "contentDate": "2026-09-07",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-09-07T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Ich preise dich, HERR; denn du hast mich aus der Tiefe gezogen.",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Ich preise dich, HERR; denn du hast mich aus der Tiefe gezogen."
+    ],
+    "id": "8b155c45-1d9a-4f77-9029-f392911b3e33",
+    "attemptCount": 1,
+    "remoteId": "18109045820336922",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:45:09.736Z",
+    "updatedAt": "2026-09-07T05:00:30.095Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-07",
+    "contentDate": "2026-09-07",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-09-07T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Ich preise dich, HERR; denn du hast mich aus der Tiefe gezogen.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Ich preise dich, HERR; denn du hast mich aus der Tiefe gezogen."
+    ],
+    "id": "5e6d2f7d-177a-4d4f-b1bf-c5a867546169",
+    "attemptCount": 1,
+    "remoteId": "117227993919376401",
+    "remoteUrl": "https://kirche.social/@christoph/117227993919376401",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:45:09.740Z",
+    "updatedAt": "2026-09-07T05:00:31.553Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
