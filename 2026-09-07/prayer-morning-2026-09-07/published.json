@@ -27,5 +27,64 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "prayer-morning-2026-09-07",
+    "contentDate": "2026-09-07",
+    "platform": "instagram",
+    "format": "default",
+    "scheduledAt": "2026-09-07T05:15:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Heute muss der Tag mit Hoffnung beginnen. Die Güte des Herrn hat kein Ende. In allem, was uns bedrängt, trägt uns seine Treue. Hilf uns, gerade angesichts von Hass und Härte, von Dunkelheit und Furcht, Menschen der Hoffnung zu sein. Deiner Hoffnung.",
+    "assets": [
+      "render-instagram-feed-01.jpg",
+      "render-instagram-feed-02.jpg",
+      "render-instagram-feed-03.jpg"
+    ],
+    "altTexts": [
+      "Ruhige Morgenszene mit offenem Fenster, weichem Licht und einer Tasse auf einem schlichten Tisch."
+    ],
+    "id": "2593e9b3-2535-4604-b04f-056da82556b8",
+    "attemptCount": 1,
+    "remoteId": "18083480768315133",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-09-06T20:18:10.706Z",
+    "updatedAt": "2026-09-07T05:15:41.718Z",
+    "responseMetadata": {
+      "mediaCount": 3,
+      "mediaType": "CAROUSEL",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "prayer-morning-2026-09-07",
+    "contentDate": "2026-09-07",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-09-07T05:15:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Heute muss der Tag mit Hoffnung beginnen. Die Güte des Herrn hat kein Ende. Hilf uns, gerade angesichts von Hass und Härte, von Dunkelheit und Furcht, Menschen der Hoffnung zu sein. Deiner Hoffnung.",
+    "assets": [
+      "render-facebook-mastodon-01.png"
+    ],
+    "altTexts": [
+      "Ruhige Morgenszene mit offenem Fenster, weichem Licht und einer Tasse auf einem schlichten Tisch."
+    ],
+    "id": "6251963e-b813-43c3-9884-9d714a313b98",
+    "attemptCount": 1,
+    "remoteId": "117228053644425543",
+    "remoteUrl": "https://kirche.social/@christoph/117228053644425543",
+    "lastError": null,
+    "createdAt": "2026-09-06T20:18:10.755Z",
+    "updatedAt": "2026-09-07T05:15:42.824Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
