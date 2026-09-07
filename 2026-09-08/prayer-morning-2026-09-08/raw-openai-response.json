@@ -1,0 +1,450 @@
+{
+  "id": "resp_060a94a20481b7d8006a9ec36b2dc087d288431644df2e1ec4",
+  "object": "response",
+  "created_at": 1788789611,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1788789639,
+  "error": null,
+  "frequency_penalty": 0,
+  "incomplete_details": null,
+  "instructions": "You are part of a Protestant social media editorial team. Write in clear, accessible, theologically responsible German without church clichés. Use short sentences and concrete imagery. Never invent events, people, school situations, quotes, or factual details. Do not include copyrighted full song verses. For Reli and community posts, only use current details when they are explicitly provided. Return content that strictly matches the requested JSON schema. Set needs_input to true whenever required facts are missing. Keep qa.approved false. Do not ask for any text inside generated images. When liturgical_context.resolved_weekly_verse is present, use its exact wording for Wochenspruch slots instead of placeholders. Use the web search tool before drafting to verify current situations. For prayer posts, current situations are mandatory: select at least two concrete, relevant situations from reliable current reporting, including tagesschau.de and SWR Aktuell Baden-Württemberg where relevant. Do not invent current events and do not replace concrete situations with generic references to crises.",
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.4-2026-03-05",
+  "moderation": null,
+  "output": [
+    {
+      "id": "ws_060a94a20481b7d8006a9ec36ccae087d2931711233c6b9f59",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "queries": [
+          "site:tagesschau.de Ukraine Krieg 8. September 2026 aktuelle Lage",
+          "site:swr.de Baden-Württemberg Dürre Niedrigwasser 8. September 2026",
+          "site:tagesschau.de Nahost Gaza 8. September 2026 aktuelle Lage"
+        ],
+        "query": "site:tagesschau.de Ukraine Krieg 8. September 2026 aktuelle Lage"
+      }
+    },
+    {
+      "id": "msg_060a94a20481b7d8006a9ec36eda4c87d28bdd8628ab116ce0",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\"id\":\"prayer-morning-2026-09-08\",\"status\":\"in Arbeit\",\"needs_input\":false,\"source\":{\"calendar_post_id\":\"prayer-morning-2026-09-08\",\"date\":\"2026-09-08\",\"rubric\":\"Morgengebet\",\"liturgical_source\":\"\"},\"editorial_core\":{\"title\":\"Morgengebet\",\"main_message\":\"Wir beginnen diesen Morgen vor Gott. Wir bringen die Menschen im Libanon vor ihn, die nach neuen israelischen Angriffen Tote, Verletzte und zerstörte Häuser beklagen. Wir denken an die Menschen in der Ukraine, die weiter unter russischen Angriffen leben und um Tote, Verletzte und beschädigte Infrastruktur fürchten. Und wir vergessen die Menschen in Baden-Württemberg nicht, wo Niedrigwasser, trockene Böden und sinkende Pegel Natur, Landwirtschaft und Alltag belasten. Mit offenen Augen nennen wir die Not beim Namen. Mit Hoffnung bitten wir um Mut zu helfen, aufmerksam zu bleiben und kleine Schritte des Friedens zu gehen.\",\"audience\":\"breite Öffentlichkeit\",\"tone\":[\"ruhig\",\"hoffnungsvoll\",\"zugewandt\"],\"source_notes\":[\"Aktuelle Bezüge geprüft über tagesschau.de und SWR Aktuell Baden-Württemberg.\",\"Ausgewählte Situationen: neue israelische Angriffe im Libanon mit Toten und Verletzten; anhaltende russische Angriffe auf die Ukraine; extremes Niedrigwasser in Baden-Württemberg.\",\"Gebet soll Leid klar benennen, ohne in Resignation zu enden.\",\"Hoffnung als Vertrauen auf Gottes Zukunft, nicht als Verharmlosung der Lage.\"]},\"platforms\":{\"facebook\":{\"text\":\"Gott,\\ndieser Morgen ist da.\\nDie Luft ist kühl. Der Tag liegt noch offen vor uns.\\n\\nWir bringen dir die Menschen im Libanon.\\nNach neuen Angriffen trauern Familien um Tote.\\nAndere versorgen Verletzte.\\nKinder und Erwachsene suchen Schutz.\\n\\nWir bringen dir die Menschen in der Ukraine.\\nWieder gehen Menschen durch Nächte mit Sirenen.\\nWieder werden Häuser und Wege des Lebens getroffen.\\nBleib bei denen, die Angst haben, trauern und weitermachen müssen.\\n\\nWir bringen dir auch unser Land.\\nIn Baden-Württemberg führen Flüsse wenig Wasser.\\nBöden trocknen aus. Tiere, Pflanzen und Felder leiden.\\nGib Verantwortlichen Klarheit. Gib uns einen wachen Blick für das, was wir schützen können.\\n\\nUnd uns selbst nimm mit in diesen Tag.\\nMach uns nicht hart.\\nMach uns aufmerksam.\\nZeig uns den kleinen Schritt, der heute Frieden stiftet.\\n\\nDenn Leid hat nicht das letzte Wort.\\nDeine Zukunft kommt uns entgegen.\\nDarum gehen wir in diesen Tag.\\nAmen.\",\"headline\":\"Morgengebet: Mit offenen Augen in diesen Tag\"},\"instagram\":{\"caption\":\"Ein neuer Morgen.\\nNicht blind für das, was Menschen gerade tragen müssen.\\n\\nWir beten für Menschen im Libanon nach neuen Angriffen.\\nWir beten für Menschen in der Ukraine unter weiterem Beschuss.\\nWir beten für Baden-Württemberg, wo Niedrigwasser Natur und Alltag belastet.\\n\\nUnd wir bitten um einen wachen Blick, Mut und kleine Schritte des Friedens heute.\\n\\nAmen.\",\"carousel\":[{\"type\":\"intro\",\"text\":\"Ein neuer Morgen. Wir beginnen ihn nicht allein.\"},{\"type\":\"prayer\",\"text\":\"Gott, wir bringen dir die Menschen im Libanon. Nach neuen Angriffen trauern Familien, Verletzte werden versorgt, Menschen suchen Schutz.\"},{\"type\":\"prayer\",\"text\":\"Wir bringen dir die Menschen in der Ukraine. Wieder leben sie unter Angriffen, Angst und zerstörten Wegen des Alltags.\"},{\"type\":\"prayer\",\"text\":\"Wir bringen dir Baden-Württemberg. Niedrige Pegel, trockene Böden und zu wenig Wasser belasten Tiere, Pflanzen und Felder.\"},{\"type\":\"prayer\",\"text\":\"Mach uns aufmerksam. Zeig uns heute den kleinen Schritt, der Frieden schützt und Leben stärkt.\"},{\"type\":\"outro\",\"text\":\"Leid hat nicht das letzte Wort. Gottes Zukunft kommt uns entgegen.\"}]},\"mastodon\":{\"text\":\"Gott,\\nwir beginnen diesen Morgen vor dir.\\n\\nWir beten für Menschen im Libanon nach neuen Angriffen.\\nFür Menschen in der Ukraine unter weiterem Beschuss.\\nFür Baden-Württemberg, wo Niedrigwasser Böden, Flüsse und Leben belastet.\\n\\nMach uns aufmerksam und mutig für den kleinen Schritt des Friedens heute.\\nAmen.\"},\"bluesky\":{\"text\":\"Gott, wir beginnen diesen Morgen vor dir. Wir beten für Menschen im Libanon nach neuen Angriffen, für Menschen in der Ukraine unter weiterem Beschuss und für Baden-Württemberg, wo Niedrigwasser Natur und Alltag belastet. Mach uns aufmerksam und mutig für den kleinen Schritt des Friedens heute. Amen.\"},\"story\":{\"slides\":[{\"text\":\"Guten Morgen. Dieser Tag beginnt nicht nur mit Aufgaben, sondern auch mit offenen Augen.\"},{\"text\":\"Wir beten für Menschen im Libanon. Nach neuen Angriffen trauern Familien und Verletzte brauchen Hilfe.\"},{\"text\":\"Wir beten für Menschen in der Ukraine. Wieder prägen Angriffe, Angst und zerstörte Lebenswege den Alltag.\"},{\"text\":\"Wir beten für Baden-Württemberg. Niedrigwasser und trockene Böden belasten Flüsse, Felder, Tiere und Pflanzen.\"},{\"text\":\"Gott, mach uns aufmerksam. Zeig uns heute den kleinen Schritt zum Frieden.\"},{\"text\":\"Leid hat nicht das letzte Wort. Gottes Zukunft kommt uns entgegen.\"}]},\"reel\":{\"hook\":\"Ein Morgen mit offenen Augen.\",\"script\":\"Dieser Tag beginnt. Wir atmen durch. Und wir sehen hin. Auf Menschen im Libanon nach neuen Angriffen. Auf Menschen in der Ukraine unter weiterem Beschuss. Auf Baden-Württemberg, wo Niedrigwasser Flüsse und Felder belastet. Gott, mach unser Herz nicht eng. Mach uns aufmerksam. Zeig uns heute den kleinen Schritt, der Frieden schützt. Denn Leid hat nicht das letzte Wort.\",\"shots\":[\"Morgenlicht auf einem stillen Tisch mit Tasse und offenem Fenster\",\"Langsame Nahaufnahme von Wasser in einem fast trockenen Flussbett\",\"Ruhige Hände, die eine Kerze anzünden\",\"Blick in den hell werdenden Himmel\",\"Schritte auf einem Weg am Morgen\"],\"duration_seconds\":26}},\"visual\":{\"concept\":\"Ruhige Morgenszene mit offenem Fenster, weichem Frühlicht und einer schlichten Tasse auf einem Tisch; dazu ein zweites natürliches Motiv mit niedrigem Wasserstand an einem Flussufer. Die Bildsprache verbindet Stille, Wachheit und verletzliche Hoffnung.\",\"flux_prompt\":\"A calm early morning scene in natural light, open window, simple wooden table, plain mug, soft shadows, subtle atmosphere of prayerful reflection, documentary realism, gentle hopeful mood, paired with a quiet riverbank showing low water levels, dry stones and exposed ground, no people facing camera, no typography, no symbols added, natural colors, high detail\",\"negative_prompt\":\"text, letters, logo, watermark\",\"formats\":[\"4:5\",\"9:16\",\"1.91:1\"],\"alt_text\":\"Frühes Morgenlicht fällt durch ein offenes Fenster auf einen schlichten Tisch mit einer Tasse. Daneben ein ruhiges Flussufer mit sichtbar niedrigem Wasserstand, trockenen Steinen und freiliegendem Boden. Die Szene wirkt still, wach und hoffnungsvoll.\"},\"qa\":{\"warnings\":[\"Alt text must be completed before approval\",\"Aktuelle Bezüge vor Veröffentlichung am Morgen des 08.09.2026 nochmals gegen tagesschau.de und SWR Aktuell Baden-Württemberg prüfen, da tagesaktuelle Produktion gefordert ist.\",\"Nahost-Bezug im Gebet auf Libanon fokussiert; vor Veröffentlichung prüfen, ob eine andere konkrete Lage am Morgen relevanter und verlässlicher ist.\"],\"approved\":false},\"metadata\":{\"model\":\"OpenAI\",\"generated_at\":\"2026-09-07T00:00:00Z\",\"prompt_version\":\"1.0\",\"assets\":[]}}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "current_turn",
+    "effort": "none",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1,
+  "text": {
+    "format": {
+      "type": "json_schema",
+      "description": null,
+      "name": "content_package",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "Idee",
+              "in Arbeit",
+              "zur Prüfung",
+              "freigegeben",
+              "terminiert",
+              "veröffentlicht",
+              "verworfen"
+            ]
+          },
+          "needs_input": {
+            "type": "boolean"
+          },
+          "source": {
+            "type": "object",
+            "properties": {
+              "calendar_post_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "date": {
+                "type": "string",
+                "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+              },
+              "rubric": {
+                "type": "string",
+                "minLength": 1
+              },
+              "liturgical_source": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "calendar_post_id",
+              "date",
+              "rubric",
+              "liturgical_source"
+            ],
+            "additionalProperties": false
+          },
+          "editorial_core": {
+            "type": "object",
+            "properties": {
+              "title": {
+                "type": "string"
+              },
+              "main_message": {
+                "type": "string"
+              },
+              "audience": {
+                "type": "string"
+              },
+              "tone": {
+                "minItems": 1,
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "source_notes": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "title",
+              "main_message",
+              "audience",
+              "tone",
+              "source_notes"
+            ],
+            "additionalProperties": false
+          },
+          "platforms": {
+            "type": "object",
+            "properties": {
+              "facebook": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  },
+                  "headline": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text",
+                  "headline"
+                ],
+                "additionalProperties": false
+              },
+              "instagram": {
+                "type": "object",
+                "properties": {
+                  "caption": {
+                    "type": "string"
+                  },
+                  "carousel": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "type": {
+                          "type": "string"
+                        },
+                        "text": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "type",
+                        "text"
+                      ],
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "required": [
+                  "caption",
+                  "carousel"
+                ],
+                "additionalProperties": false
+              },
+              "mastodon": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text"
+                ],
+                "additionalProperties": false
+              },
+              "bluesky": {
+                "default": {
+                  "text": ""
+                },
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text"
+                ],
+                "additionalProperties": false
+              },
+              "story": {
+                "type": "object",
+                "properties": {
+                  "slides": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "text": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "text"
+                      ],
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "required": [
+                  "slides"
+                ],
+                "additionalProperties": false
+              },
+              "reel": {
+                "type": "object",
+                "properties": {
+                  "hook": {
+                    "type": "string"
+                  },
+                  "script": {
+                    "type": "string"
+                  },
+                  "shots": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "duration_seconds": {
+                    "type": "integer",
+                    "minimum": 0,
+                    "maximum": 9007199254740991
+                  }
+                },
+                "required": [
+                  "hook",
+                  "script",
+                  "shots",
+                  "duration_seconds"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "required": [
+              "facebook",
+              "instagram",
+              "mastodon",
+              "bluesky",
+              "story",
+              "reel"
+            ],
+            "additionalProperties": false
+          },
+          "visual": {
+            "type": "object",
+            "properties": {
+              "concept": {
+                "type": "string"
+              },
+              "flux_prompt": {
+                "type": "string"
+              },
+              "negative_prompt": {
+                "type": "string",
+                "minLength": 1
+              },
+              "formats": {
+                "minItems": 1,
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "alt_text": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "concept",
+              "flux_prompt",
+              "negative_prompt",
+              "formats",
+              "alt_text"
+            ],
+            "additionalProperties": false
+          },
+          "qa": {
+            "type": "object",
+            "properties": {
+              "warnings": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "approved": {
+                "type": "boolean"
+              }
+            },
+            "required": [
+              "warnings",
+              "approved"
+            ],
+            "additionalProperties": false
+          },
+          "metadata": {
+            "type": "object",
+            "properties": {
+              "model": {
+                "type": "string"
+              },
+              "generated_at": {
+                "type": "string"
+              },
+              "prompt_version": {
+                "type": "string",
+                "minLength": 1
+              },
+              "assets": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "model",
+              "generated_at",
+              "prompt_version",
+              "assets"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "id",
+          "status",
+          "needs_input",
+          "source",
+          "editorial_core",
+          "platforms",
+          "visual",
+          "qa",
+          "metadata"
+        ],
+        "additionalProperties": false
+      },
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 1
+    }
+  },
+  "tools": [
+    {
+      "type": "web_search",
+      "return_token_budget": "default",
+      "search_content_types": [
+        "text"
+      ],
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 11508,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1799,
+    "output_tokens_details": {
+      "reasoning_tokens": 106
+    },
+    "total_tokens": 13307
+  },
+  "user": null,
+  "metadata": {},
+  "output_text": "{\"id\":\"prayer-morning-2026-09-08\",\"status\":\"in Arbeit\",\"needs_input\":false,\"source\":{\"calendar_post_id\":\"prayer-morning-2026-09-08\",\"date\":\"2026-09-08\",\"rubric\":\"Morgengebet\",\"liturgical_source\":\"\"},\"editorial_core\":{\"title\":\"Morgengebet\",\"main_message\":\"Wir beginnen diesen Morgen vor Gott. Wir bringen die Menschen im Libanon vor ihn, die nach neuen israelischen Angriffen Tote, Verletzte und zerstörte Häuser beklagen. Wir denken an die Menschen in der Ukraine, die weiter unter russischen Angriffen leben und um Tote, Verletzte und beschädigte Infrastruktur fürchten. Und wir vergessen die Menschen in Baden-Württemberg nicht, wo Niedrigwasser, trockene Böden und sinkende Pegel Natur, Landwirtschaft und Alltag belasten. Mit offenen Augen nennen wir die Not beim Namen. Mit Hoffnung bitten wir um Mut zu helfen, aufmerksam zu bleiben und kleine Schritte des Friedens zu gehen.\",\"audience\":\"breite Öffentlichkeit\",\"tone\":[\"ruhig\",\"hoffnungsvoll\",\"zugewandt\"],\"source_notes\":[\"Aktuelle Bezüge geprüft über tagesschau.de und SWR Aktuell Baden-Württemberg.\",\"Ausgewählte Situationen: neue israelische Angriffe im Libanon mit Toten und Verletzten; anhaltende russische Angriffe auf die Ukraine; extremes Niedrigwasser in Baden-Württemberg.\",\"Gebet soll Leid klar benennen, ohne in Resignation zu enden.\",\"Hoffnung als Vertrauen auf Gottes Zukunft, nicht als Verharmlosung der Lage.\"]},\"platforms\":{\"facebook\":{\"text\":\"Gott,\\ndieser Morgen ist da.\\nDie Luft ist kühl. Der Tag liegt noch offen vor uns.\\n\\nWir bringen dir die Menschen im Libanon.\\nNach neuen Angriffen trauern Familien um Tote.\\nAndere versorgen Verletzte.\\nKinder und Erwachsene suchen Schutz.\\n\\nWir bringen dir die Menschen in der Ukraine.\\nWieder gehen Menschen durch Nächte mit Sirenen.\\nWieder werden Häuser und Wege des Lebens getroffen.\\nBleib bei denen, die Angst haben, trauern und weitermachen müssen.\\n\\nWir bringen dir auch unser Land.\\nIn Baden-Württemberg führen Flüsse wenig Wasser.\\nBöden trocknen aus. Tiere, Pflanzen und Felder leiden.\\nGib Verantwortlichen Klarheit. Gib uns einen wachen Blick für das, was wir schützen können.\\n\\nUnd uns selbst nimm mit in diesen Tag.\\nMach uns nicht hart.\\nMach uns aufmerksam.\\nZeig uns den kleinen Schritt, der heute Frieden stiftet.\\n\\nDenn Leid hat nicht das letzte Wort.\\nDeine Zukunft kommt uns entgegen.\\nDarum gehen wir in diesen Tag.\\nAmen.\",\"headline\":\"Morgengebet: Mit offenen Augen in diesen Tag\"},\"instagram\":{\"caption\":\"Ein neuer Morgen.\\nNicht blind für das, was Menschen gerade tragen müssen.\\n\\nWir beten für Menschen im Libanon nach neuen Angriffen.\\nWir beten für Menschen in der Ukraine unter weiterem Beschuss.\\nWir beten für Baden-Württemberg, wo Niedrigwasser Natur und Alltag belastet.\\n\\nUnd wir bitten um einen wachen Blick, Mut und kleine Schritte des Friedens heute.\\n\\nAmen.\",\"carousel\":[{\"type\":\"intro\",\"text\":\"Ein neuer Morgen. Wir beginnen ihn nicht allein.\"},{\"type\":\"prayer\",\"text\":\"Gott, wir bringen dir die Menschen im Libanon. Nach neuen Angriffen trauern Familien, Verletzte werden versorgt, Menschen suchen Schutz.\"},{\"type\":\"prayer\",\"text\":\"Wir bringen dir die Menschen in der Ukraine. Wieder leben sie unter Angriffen, Angst und zerstörten Wegen des Alltags.\"},{\"type\":\"prayer\",\"text\":\"Wir bringen dir Baden-Württemberg. Niedrige Pegel, trockene Böden und zu wenig Wasser belasten Tiere, Pflanzen und Felder.\"},{\"type\":\"prayer\",\"text\":\"Mach uns aufmerksam. Zeig uns heute den kleinen Schritt, der Frieden schützt und Leben stärkt.\"},{\"type\":\"outro\",\"text\":\"Leid hat nicht das letzte Wort. Gottes Zukunft kommt uns entgegen.\"}]},\"mastodon\":{\"text\":\"Gott,\\nwir beginnen diesen Morgen vor dir.\\n\\nWir beten für Menschen im Libanon nach neuen Angriffen.\\nFür Menschen in der Ukraine unter weiterem Beschuss.\\nFür Baden-Württemberg, wo Niedrigwasser Böden, Flüsse und Leben belastet.\\n\\nMach uns aufmerksam und mutig für den kleinen Schritt des Friedens heute.\\nAmen.\"},\"bluesky\":{\"text\":\"Gott, wir beginnen diesen Morgen vor dir. Wir beten für Menschen im Libanon nach neuen Angriffen, für Menschen in der Ukraine unter weiterem Beschuss und für Baden-Württemberg, wo Niedrigwasser Natur und Alltag belastet. Mach uns aufmerksam und mutig für den kleinen Schritt des Friedens heute. Amen.\"},\"story\":{\"slides\":[{\"text\":\"Guten Morgen. Dieser Tag beginnt nicht nur mit Aufgaben, sondern auch mit offenen Augen.\"},{\"text\":\"Wir beten für Menschen im Libanon. Nach neuen Angriffen trauern Familien und Verletzte brauchen Hilfe.\"},{\"text\":\"Wir beten für Menschen in der Ukraine. Wieder prägen Angriffe, Angst und zerstörte Lebenswege den Alltag.\"},{\"text\":\"Wir beten für Baden-Württemberg. Niedrigwasser und trockene Böden belasten Flüsse, Felder, Tiere und Pflanzen.\"},{\"text\":\"Gott, mach uns aufmerksam. Zeig uns heute den kleinen Schritt zum Frieden.\"},{\"text\":\"Leid hat nicht das letzte Wort. Gottes Zukunft kommt uns entgegen.\"}]},\"reel\":{\"hook\":\"Ein Morgen mit offenen Augen.\",\"script\":\"Dieser Tag beginnt. Wir atmen durch. Und wir sehen hin. Auf Menschen im Libanon nach neuen Angriffen. Auf Menschen in der Ukraine unter weiterem Beschuss. Auf Baden-Württemberg, wo Niedrigwasser Flüsse und Felder belastet. Gott, mach unser Herz nicht eng. Mach uns aufmerksam. Zeig uns heute den kleinen Schritt, der Frieden schützt. Denn Leid hat nicht das letzte Wort.\",\"shots\":[\"Morgenlicht auf einem stillen Tisch mit Tasse und offenem Fenster\",\"Langsame Nahaufnahme von Wasser in einem fast trockenen Flussbett\",\"Ruhige Hände, die eine Kerze anzünden\",\"Blick in den hell werdenden Himmel\",\"Schritte auf einem Weg am Morgen\"],\"duration_seconds\":26}},\"visual\":{\"concept\":\"Ruhige Morgenszene mit offenem Fenster, weichem Frühlicht und einer schlichten Tasse auf einem Tisch; dazu ein zweites natürliches Motiv mit niedrigem Wasserstand an einem Flussufer. Die Bildsprache verbindet Stille, Wachheit und verletzliche Hoffnung.\",\"flux_prompt\":\"A calm early morning scene in natural light, open window, simple wooden table, plain mug, soft shadows, subtle atmosphere of prayerful reflection, documentary realism, gentle hopeful mood, paired with a quiet riverbank showing low water levels, dry stones and exposed ground, no people facing camera, no typography, no symbols added, natural colors, high detail\",\"negative_prompt\":\"text, letters, logo, watermark\",\"formats\":[\"4:5\",\"9:16\",\"1.91:1\"],\"alt_text\":\"Frühes Morgenlicht fällt durch ein offenes Fenster auf einen schlichten Tisch mit einer Tasse. Daneben ein ruhiges Flussufer mit sichtbar niedrigem Wasserstand, trockenen Steinen und freiliegendem Boden. Die Szene wirkt still, wach und hoffnungsvoll.\"},\"qa\":{\"warnings\":[\"Alt text must be completed before approval\",\"Aktuelle Bezüge vor Veröffentlichung am Morgen des 08.09.2026 nochmals gegen tagesschau.de und SWR Aktuell Baden-Württemberg prüfen, da tagesaktuelle Produktion gefordert ist.\",\"Nahost-Bezug im Gebet auf Libanon fokussiert; vor Veröffentlichung prüfen, ob eine andere konkrete Lage am Morgen relevanter und verlässlicher ist.\"],\"approved\":false},\"metadata\":{\"model\":\"OpenAI\",\"generated_at\":\"2026-09-07T00:00:00Z\",\"prompt_version\":\"1.0\",\"assets\":[]}}"
+}
