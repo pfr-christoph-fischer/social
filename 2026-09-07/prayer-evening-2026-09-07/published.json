@@ -27,5 +27,67 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "prayer-evening-2026-09-07",
+    "contentDate": "2026-09-07",
+    "platform": "instagram",
+    "format": "default",
+    "scheduledAt": "2026-09-07T18:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Abendgebet.\n\nGott,\nwir legen dir diesen Tag hin.\nDas Gute.\nDas Schwere.\nDas Unfertige.\n\nWir bitten dich:\nSchenk Mut, Stärke, Schutz und Hoffnung.\nFür Menschen.\nFür Kirchen.\nFür alle demokratischen Kräfte in Sachsen-Anhalt und überall.\n\nLass Hoffnung wachsen.\nLass Gutes Boden gewinnen.\n\nSchenk Frieden für diese Nacht.\nAmen.",
+    "assets": [
+      "render-instagram-feed-01.jpg",
+      "render-instagram-feed-02.jpg",
+      "render-instagram-feed-03.jpg",
+      "render-instagram-feed-04.jpg",
+      "render-instagram-feed-05.jpg",
+      "render-instagram-feed-06.jpg"
+    ],
+    "altTexts": [
+      "Ein schlichter Tisch an einem Fenster in der Abenddämmerung. Auf dem Tisch steht eine Tasse. Blaues Abendlicht und warmes Restlicht treffen sich im Raum. Die Szene wirkt still und ruhig."
+    ],
+    "id": "4466ca38-b03f-465b-8793-60f42b7b5ac7",
+    "attemptCount": 1,
+    "remoteId": "18177919075437072",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-09-07T15:37:23.123Z",
+    "updatedAt": "2026-09-07T18:01:14.358Z",
+    "responseMetadata": {
+      "mediaCount": 6,
+      "mediaType": "CAROUSEL",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "prayer-evening-2026-09-07",
+    "contentDate": "2026-09-07",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-09-07T18:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Abendgebet\n\nGott, wir legen dir diesen Tag hin. Das Gute. Das Schwere. Das Unfertige.\n\nWir bitten dich um Mut, Stärke, Schutz und Hoffnung: für Menschen, für Kirchen und für alle demokratischen Kräfte in Sachsen-Anhalt und überall.\n\nLass Hoffnung wachsen. Lass Gutes Boden gewinnen.\n\nSchenk Frieden für diese Nacht. Amen.",
+    "assets": [
+      "render-facebook-mastodon-01.png"
+    ],
+    "altTexts": [
+      "Ein schlichter Tisch an einem Fenster in der Abenddämmerung. Auf dem Tisch steht eine Tasse. Blaues Abendlicht und warmes Restlicht treffen sich im Raum. Die Szene wirkt still und ruhig."
+    ],
+    "id": "8c32029c-fcb0-4f14-9c1c-3db439fc1604",
+    "attemptCount": 1,
+    "remoteId": "117231063990779120",
+    "remoteUrl": "https://kirche.social/@christoph/117231063990779120",
+    "lastError": null,
+    "createdAt": "2026-09-07T15:37:23.205Z",
+    "updatedAt": "2026-09-07T18:01:17.070Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
