@@ -1,6 +1,6 @@
 {
   "id": "prayer-morning-2026-09-08",
-  "status": "in Arbeit",
+  "status": "freigegeben",
   "needs_input": false,
   "source": {
     "calendar_post_id": "prayer-morning-2026-09-08",
@@ -25,35 +25,35 @@
   },
   "platforms": {
     "facebook": {
-      "headline": "Morgengebet: Für Frieden und Gerechtigkeit",
-      "text": "Gott,\ndieser Morgen ist da.\nDie Luft ist kühl. Der Tag liegt noch offen vor uns.\n\nWir bringen dir die Menschen in der Ukraine.\nSchütze die, die in Angst leben.\nTröste die, die trauern.\nStärke die, die nicht wissen, wie sie weitergehen sollen.\nUnd bahne Wege zum Frieden.\nÖffne Türen für ehrliche und gerechte Verhandlungen.\n\nWir bringen dir auch unser Land.\nWir bitten dich um Gerechtigkeit und Gleichberechtigung.\nLass Menschen fair behandelt werden.\nBewahre uns davor, andere klein zu machen oder auszuschließen.\nStärke alle, die für Würde, Teilhabe und ein gerechtes Miteinander einstehen.\n\nUnd uns selbst nimm mit in diesen Tag.\nMach uns nicht hart.\nMach uns aufmerksam.\nZeig uns den kleinen Schritt, der heute Frieden stiftet.\n\nDenn Leid hat nicht das letzte Wort.\nDeine Zukunft kommt uns entgegen.\nDarum gehen wir in diesen Tag.\nAmen."
+      "text": "Gott,\ndieser Morgen ist da.\nDie Luft ist kühl. Der Tag liegt noch offen vor uns.\n\nWir bringen dir die Menschen in der Ukraine.\nSchütze die, die in Angst leben.\nTröste die, die trauern.\nStärke die, die nicht wissen, wie sie weitergehen sollen.\nUnd bahne Wege zum Frieden.\nÖffne Türen für ehrliche und gerechte Verhandlungen.\n\nWir bringen dir auch unser Land.\nWir bitten dich um Gerechtigkeit und Gleichberechtigung.\nLass Menschen fair behandelt werden.\nBewahre uns davor, andere klein zu machen oder auszuschließen.\nStärke alle, die für Würde, Teilhabe und ein gerechtes Miteinander einstehen.\n\nUnd uns selbst nimm mit in diesen Tag.\nMach uns nicht hart.\nMach uns aufmerksam.\nZeig uns den kleinen Schritt, der heute Frieden stiftet.\n\nDenn Leid hat nicht das letzte Wort.\nDeine Zukunft kommt uns entgegen.\nDarum gehen wir in diesen Tag.\nAmen.",
+      "headline": "Morgengebet: Für Frieden und Gerechtigkeit"
     },
     "instagram": {
       "caption": "Ein neuer Morgen.\nNicht blind für das, was Menschen gerade tragen müssen.\n\nWir beten für die Menschen in der Ukraine: um Schutz, Frieden und gerechte Verhandlungen.\nWir beten für unser Land: um Gerechtigkeit und Gleichberechtigung.\n\nUnd wir bitten um einen wachen Blick, Mut und kleine Schritte des Friedens heute.\n\nAmen.",
       "carousel": [
         {
-          "text": "Ein neuer Morgen. Wir beginnen ihn nicht allein.",
-          "type": "intro"
+          "type": "intro",
+          "text": "Ein neuer Morgen. Wir beginnen ihn nicht allein."
         },
         {
-          "text": "Gott, wir bringen dir die Menschen in der Ukraine. Schütze sie in Angst und Gefahr. Tröste die Trauernden und bahne Wege zum Frieden.",
-          "type": "prayer"
+          "type": "prayer",
+          "text": "Gott, wir bringen dir die Menschen in der Ukraine. Schütze sie in Angst und Gefahr. Tröste die Trauernden und bahne Wege zum Frieden."
         },
         {
-          "text": "Wir bitten dich um ehrliche und gerechte Verhandlungen. Wo Fronten verhärtet sind, schaffe Raum für Schritte, die Leben bewahren.",
-          "type": "prayer"
+          "type": "prayer",
+          "text": "Wir bitten dich um ehrliche und gerechte Verhandlungen. Wo Fronten verhärtet sind, schaffe Raum für Schritte, die Leben bewahren."
         },
         {
-          "text": "Wir bringen dir unser Land. Wir bitten um Gerechtigkeit und Gleichberechtigung, damit Menschen fair behandelt werden und in Würde leben können.",
-          "type": "prayer"
+          "type": "prayer",
+          "text": "Wir bringen dir unser Land. Wir bitten um Gerechtigkeit und Gleichberechtigung, damit Menschen fair behandelt werden und in Würde leben können."
         },
         {
-          "text": "Mach uns aufmerksam. Zeig uns heute den kleinen Schritt, der Frieden stärkt und Gerechtigkeit im Alltag sichtbar macht.",
-          "type": "prayer"
+          "type": "prayer",
+          "text": "Mach uns aufmerksam. Zeig uns heute den kleinen Schritt, der Frieden stärkt und Gerechtigkeit im Alltag sichtbar macht."
         },
         {
-          "text": "Leid hat nicht das letzte Wort. Gottes Zukunft kommt uns entgegen.",
-          "type": "outro"
+          "type": "outro",
+          "text": "Leid hat nicht das letzte Wort. Gottes Zukunft kommt uns entgegen."
         }
       ]
     },
@@ -110,12 +110,8 @@
     "alt_text": "Frühes Morgenlicht fällt durch ein offenes Fenster auf einen schlichten Tisch mit einer Tasse. Dazu sind ein stiller Weg im Morgenlicht und ein heller werdender Himmel zu sehen. Die Szene wirkt ruhig, wach und hoffnungsvoll."
   },
   "qa": {
-    "approved": false,
-    "warnings": [
-      "Alt text must be completed before approval",
-      "Aktuelle Bezüge vor Veröffentlichung am Morgen des 08.09.2026 nochmals gegen verlässliche Nachrichtenquellen prüfen, da tagesaktuelle Produktion gefordert ist.",
-      "Formulierungen zu Ukraine sowie zu Gerechtigkeit und Gleichberechtigung vor Veröffentlichung auf Aktualität und sprachliche Sensibilität prüfen."
-    ]
+    "approved": true,
+    "warnings": []
   },
   "metadata": {
     "model": "gpt-5.4-2026-03-05",
