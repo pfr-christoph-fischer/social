@@ -84,5 +84,91 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-07",
+    "contentDate": "2026-09-07",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-09-07T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Ich preise dich, HERR; denn du hast mich aus der Tiefe gezogen.",
+    "assets": [
+      "render-square-01.jpg"
+    ],
+    "altTexts": [
+      "Ich preise dich, HERR; denn du hast mich aus der Tiefe gezogen."
+    ],
+    "id": "39d47289-5dff-40a7-90f2-6402c042be48",
+    "attemptCount": 1,
+    "remoteId": "18132037471736270",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:45:09.749Z",
+    "updatedAt": "2026-09-07T05:00:41.072Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-07",
+    "contentDate": "2026-09-07",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-09-07T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Ich preise dich, HERR; denn du hast mich aus der Tiefe gezogen.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Ich preise dich, HERR; denn du hast mich aus der Tiefe gezogen."
+    ],
+    "id": "304a891c-606a-4428-9c05-e7e8d881d29b",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3muvq22rsdg2l",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3muvq22rsdg2l",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:45:09.754Z",
+    "updatedAt": "2026-09-07T05:00:43.244Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-07",
+    "contentDate": "2026-09-07",
+    "platform": "linkedin",
+    "format": "default",
+    "scheduledAt": "2026-09-07T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Ich preise dich, HERR; denn du hast mich aus der Tiefe gezogen.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Ich preise dich, HERR; denn du hast mich aus der Tiefe gezogen."
+    ],
+    "id": "45c1782f-0d82-460c-a3a7-a6bd770e7055",
+    "attemptCount": 1,
+    "remoteId": "urn:li:share:7502591667787636736",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:45:09.764Z",
+    "updatedAt": "2026-09-07T05:00:45.563Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 201
+    },
+    "retryHistory": []
   }
 ]
