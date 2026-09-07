@@ -110,13 +110,17 @@
     "alt_text": "Frühes Morgenlicht fällt durch ein offenes Fenster auf einen schlichten Tisch mit einer Tasse. Dazu sind ein stiller Weg im Morgenlicht und ein heller werdender Himmel zu sehen. Die Szene wirkt ruhig, wach und hoffnungsvoll."
   },
   "qa": {
-    "approved": true,
-    "warnings": []
+    "warnings": [],
+    "approved": true
   },
   "metadata": {
     "model": "gpt-5.4-2026-03-05",
     "generated_at": "2026-09-07T14:00:39.951Z",
     "prompt_version": "1.0",
-    "assets": []
+    "assets": [
+      "assets/background-1.91x1.webp",
+      "assets/background-4x5.webp",
+      "assets/background-9x16.webp"
+    ]
   }
 }
