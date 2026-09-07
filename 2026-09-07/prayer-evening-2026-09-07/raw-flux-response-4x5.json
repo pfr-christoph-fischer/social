@@ -1,0 +1,52 @@
+{
+  "delivery_url": "https://delivery.eu2.bfl.ai/durable/2026090715/5e1f69ea-538b-4d66-962e-9be995966f07/92/332702b8e1c942/b8e1c942e56e4e6cbb3eaf9e74c9526b/sample.jpeg?se=2026-09-07T15%3A45%3A33Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=O3W2NijXSJzG99pA59c0vUt/mnG%2BqTPokUKLw6Fp7aA%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "a3059d0d-33a0-4e7d-af10-e514f9818671",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "a3059d0d-33a0-4e7d-af10-e514f9818671",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "a3059d0d-33a0-4e7d-af10-e514f9818671",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "a3059d0d-33a0-4e7d-af10-e514f9818671",
+      "status": "Ready",
+      "result": {
+        "start_time": 1788795331.555862,
+        "prompt": "Fotorealistische ruhige Abendszene in einer schlichten Wohnung, Blick zu einem Fenster mit blauem Abendhimmel, warmes Restlicht auf einem Holztisch, eine einfache Tasse, stille Atmosphäre, feine Schatten, zurückhaltende Farben, Gefühl von Loslassen und Hoffnung, authentisch, unaufgeregt, editorial photography, no text, no letters, no typography, no logo, no watermark",
+        "seed": 3862771653,
+        "sample": "https://delivery.eu2.bfl.ai/durable/2026090715/5e1f69ea-538b-4d66-962e-9be995966f07/92/332702b8e1c942/b8e1c942e56e4e6cbb3eaf9e74c9526b/sample.jpeg?se=2026-09-07T15%3A45%3A33Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=O3W2NijXSJzG99pA59c0vUt/mnG%2BqTPokUKLw6Fp7aA%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "a3059d0d-33a0-4e7d-af10-e514f9818671",
+    "polling_url": "https://api.eu2.bfl.ai/v1/get_result?id=a3059d0d-33a0-4e7d-af10-e514f9818671",
+    "cost": 1.5,
+    "input_mp": 0,
+    "output_mp": 1.39
+  }
+}

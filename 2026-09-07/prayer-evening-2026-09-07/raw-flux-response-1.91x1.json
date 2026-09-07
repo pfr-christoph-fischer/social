@@ -1,0 +1,36 @@
+{
+  "delivery_url": "https://delivery.us7.bfl.ai/durable/2026090715/5e1f69ea-538b-4d66-962e-9be995966f07/c1/329371b14203d7/b14203d71b2742cc8bb7159714f42bcd/sample.jpeg?se=2026-09-07T15%3A45%3A29Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=ajLN085CVsLaHNWwyCna7rTAV6rFU6vBUBPjs0jKAiY%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "f682b870-d78e-465c-b071-81e0e41ec264",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "f682b870-d78e-465c-b071-81e0e41ec264",
+      "status": "Ready",
+      "result": {
+        "start_time": 1788795328.141419,
+        "prompt": "Fotorealistische ruhige Abendszene in einer schlichten Wohnung, Blick zu einem Fenster mit blauem Abendhimmel, warmes Restlicht auf einem Holztisch, eine einfache Tasse, stille Atmosphäre, feine Schatten, zurückhaltende Farben, Gefühl von Loslassen und Hoffnung, authentisch, unaufgeregt, editorial photography, no text, no letters, no typography, no logo, no watermark",
+        "seed": 3681282190,
+        "sample": "https://delivery.us7.bfl.ai/durable/2026090715/5e1f69ea-538b-4d66-962e-9be995966f07/c1/329371b14203d7/b14203d71b2742cc8bb7159714f42bcd/sample.jpeg?se=2026-09-07T15%3A45%3A29Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=ajLN085CVsLaHNWwyCna7rTAV6rFU6vBUBPjs0jKAiY%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "f682b870-d78e-465c-b071-81e0e41ec264",
+    "polling_url": "https://api.us7.bfl.ai/v1/get_result?id=f682b870-d78e-465c-b071-81e0e41ec264",
+    "cost": 1.4000000000000001,
+    "input_mp": 0,
+    "output_mp": 0.72
+  }
+}
