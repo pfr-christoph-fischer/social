@@ -86,5 +86,97 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "prayer-morning-2026-09-07",
+    "contentDate": "2026-09-07",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-09-07T05:15:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Heute muss der Tag mit Hoffnung beginnen. Die Güte des Herrn hat kein Ende. Hilf uns, gerade angesichts von Hass und Härte, von Dunkelheit und Furcht, Menschen der Hoffnung zu sein. Deiner Hoffnung.",
+    "assets": [
+      "render-instagram-feed-01.jpg",
+      "render-instagram-feed-02.jpg",
+      "render-instagram-feed-03.jpg"
+    ],
+    "altTexts": [
+      "Ruhige Morgenszene mit offenem Fenster, weichem Licht und einer Tasse auf einem schlichten Tisch."
+    ],
+    "id": "fbe7a889-bf7b-4497-80be-5293ccdf8a67",
+    "attemptCount": 1,
+    "remoteId": "18090759515654192",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-09-06T20:18:10.826Z",
+    "updatedAt": "2026-09-07T05:16:09.783Z",
+    "responseMetadata": {
+      "mediaCount": 3,
+      "mediaType": "CAROUSEL",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "prayer-morning-2026-09-07",
+    "contentDate": "2026-09-07",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-09-07T05:15:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Heute muss der Tag mit Hoffnung beginnen. Die Güte des Herrn hat kein Ende. Hilf uns, gerade angesichts von Hass und Härte, von Dunkelheit und Furcht, Menschen der Hoffnung zu sein. Deiner Hoffnung.",
+    "assets": [
+      "render-instagram-feed-01.png",
+      "render-instagram-feed-02.png",
+      "render-instagram-feed-03.png"
+    ],
+    "altTexts": [
+      "Ruhige Morgenszene mit offenem Fenster, weichem Licht und einer Tasse auf einem schlichten Tisch."
+    ],
+    "id": "ad8aad6e-4942-4038-ba12-7e6e7fd180b4",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3muvqvrpecv2i",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3muvqvrpecv2i",
+    "lastError": null,
+    "createdAt": "2026-09-06T20:18:10.877Z",
+    "updatedAt": "2026-09-07T05:16:13.389Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 3
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "prayer-morning-2026-09-07",
+    "contentDate": "2026-09-07",
+    "platform": "linkedin",
+    "format": "default",
+    "scheduledAt": "2026-09-07T05:15:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Heute muss der Tag mit Hoffnung beginnen. Die Güte des Herrn hat kein Ende. In allem, was uns bedrängt, trägt uns seine Treue. Hilf uns, gerade angesichts von Hass und Härte, von Dunkelheit und Furcht, Menschen der Hoffnung zu sein. Deiner Hoffnung.",
+    "assets": [
+      "render-instagram-feed-01.png",
+      "render-instagram-feed-02.png",
+      "render-instagram-feed-03.png"
+    ],
+    "altTexts": [
+      "Ruhige Morgenszene mit offenem Fenster, weichem Licht und einer Tasse auf einem schlichten Tisch."
+    ],
+    "id": "1bbdd77f-7926-4f46-abcd-b4a6b4288a38",
+    "attemptCount": 1,
+    "remoteId": "urn:li:ugcPost:7502595577151479808",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-09-06T20:18:10.930Z",
+    "updatedAt": "2026-09-07T05:16:17.527Z",
+    "responseMetadata": {
+      "mediaCount": 3,
+      "mediaType": "MULTI_IMAGE",
+      "status": 201
+    },
+    "retryHistory": []
   }
 ]
