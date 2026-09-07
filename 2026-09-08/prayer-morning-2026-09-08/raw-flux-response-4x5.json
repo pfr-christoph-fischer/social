@@ -1,0 +1,52 @@
+{
+  "delivery_url": "https://delivery.eu2.bfl.ai/durable/2026090717/5e1f69ea-538b-4d66-962e-9be995966f07/9b/58349543972c70/43972c7067fd4378b03472a4bad32006/sample.jpeg?se=2026-09-07T18%3A03%3A03Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=q8UvYCjLH80ALuOA89U%2BIOaae0l02tm7C/gsAwNPoSM%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "7717d659-02a4-4941-be5f-ac04b44f4a34",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "7717d659-02a4-4941-be5f-ac04b44f4a34",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "7717d659-02a4-4941-be5f-ac04b44f4a34",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "7717d659-02a4-4941-be5f-ac04b44f4a34",
+      "status": "Ready",
+      "result": {
+        "start_time": 1788803582.427002,
+        "prompt": "A calm early morning scene in natural light, open window, simple wooden table, plain mug, soft shadows, subtle atmosphere of prayerful reflection, documentary realism, gentle hopeful mood, paired with a quiet empty path and a brightening sky, no people facing camera, no typography, no symbols added, natural colors, high detail, no text, no letters, no typography, no logo, no watermark",
+        "seed": 3116500071,
+        "sample": "https://delivery.eu2.bfl.ai/durable/2026090717/5e1f69ea-538b-4d66-962e-9be995966f07/9b/58349543972c70/43972c7067fd4378b03472a4bad32006/sample.jpeg?se=2026-09-07T18%3A03%3A03Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=q8UvYCjLH80ALuOA89U%2BIOaae0l02tm7C/gsAwNPoSM%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "7717d659-02a4-4941-be5f-ac04b44f4a34",
+    "polling_url": "https://api.eu2.bfl.ai/v1/get_result?id=7717d659-02a4-4941-be5f-ac04b44f4a34",
+    "cost": 1.5,
+    "input_mp": 0,
+    "output_mp": 1.39
+  }
+}
