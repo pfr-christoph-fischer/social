@@ -157,5 +157,47 @@
       "status": 201
     },
     "retryHistory": []
+  },
+  {
+    "postId": "prayer-morning-2026-09-08",
+    "contentDate": "2026-09-08",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-09-08T05:15:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Gott, wir beginnen diesen Morgen vor dir. Wir beten für die Menschen in der Ukraine: um Schutz, Frieden und gerechte Verhandlungen. Wir beten für unser Land: um Gerechtigkeit und Gleichberechtigung. Mach uns aufmerksam und mutig für den kleinen Schritt des Friedens heute. Amen.",
+    "assets": [
+      "render-instagram-feed-01.png",
+      "render-instagram-feed-02.png",
+      "render-instagram-feed-03.png",
+      "render-instagram-feed-04.png"
+    ],
+    "altTexts": [
+      "Frühes Morgenlicht fällt durch ein offenes Fenster auf einen schlichten Tisch mit einer Tasse. Dazu sind ein stiller Weg im Morgenlicht und ein heller werdender Himmel zu sehen. Die Szene wirkt ruhig, wach und hoffnungsvoll."
+    ],
+    "id": "8c41e1d2-f4cf-4292-926b-b7b0d14a78b8",
+    "attemptCount": 3,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3muybumth6g2b",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3muybumth6g2b",
+    "lastError": null,
+    "createdAt": "2026-09-07T17:58:39.156Z",
+    "updatedAt": "2026-09-08T05:25:07.926Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 4
+    },
+    "retryHistory": [
+      {
+        "at": "2026-09-08T05:17:08.417Z",
+        "error": "bluesky: Beitrag konnte nicht veröffentlicht werden (500): Internal Server Error",
+        "attempt": 1
+      },
+      {
+        "at": "2026-09-08T05:20:08.321Z",
+        "error": "bluesky: Beitrag konnte nicht veröffentlicht werden (500): Internal Server Error",
+        "attempt": 2
+      }
+    ]
   }
 ]
