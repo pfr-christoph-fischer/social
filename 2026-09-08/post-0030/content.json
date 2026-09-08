@@ -10,7 +10,7 @@
   },
   "editorial_core": {
     "title": "Gungor – Beautiful Things",
-    "main_message": "Kurzes, am Originaltext geprüftes Liedfragment als Meditation wählen. Persönlich erzählen, was mich daran berührt; Schwerpunkt: Neuanfang nicht aus dem Nichts, sondern Verwandlung dessen, was schon da ist. Spotify: https://open.spotify.com/track/06wxyCQFJOT0bjvSPMQj7x",
+    "main_message": "Kurzes, am Originaltext geprüftes Liedfragment als Meditation wählen. Persönlich erzählen, was mich daran berührt; Schwerpunkt: Neuanfang nicht aus dem Nichts, sondern Verwandlung dessen, was schon da ist. Spotify: https://open.spotify.com/track/06wxyCQFJOT0bjvSPMQj7x\n\nYou make beautiful things\nYou make beautiful things out of the dust\nYou make beautiful things\nYou make beautiful things out of us",
     "audience": "[TODO: define audience after current inputs are available]",
     "tone": [
       "klar",
@@ -28,12 +28,17 @@
   },
   "platforms": {
     "facebook": {
-      "text": "",
-      "headline": ""
+      "headline": "",
+      "text": ""
     },
     "instagram": {
       "caption": "",
-      "carousel": []
+      "carousel": [
+        {
+          "text": "",
+          "type": "content"
+        }
+      ]
     },
     "mastodon": {
       "text": ""
@@ -42,7 +47,11 @@
       "text": ""
     },
     "story": {
-      "slides": []
+      "slides": [
+        {
+          "text": ""
+        }
+      ]
     },
     "reel": {
       "hook": "",
@@ -63,11 +72,11 @@
     "alt_text": ""
   },
   "qa": {
+    "approved": false,
     "warnings": [
       "Alt text must be completed before approval",
       "Current source inputs are still required before publication"
-    ],
-    "approved": false
+    ]
   },
   "metadata": {
     "model": "",
