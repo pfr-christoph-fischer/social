@@ -27,5 +27,67 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "prayer-morning-2026-09-08",
+    "contentDate": "2026-09-08",
+    "platform": "instagram",
+    "format": "default",
+    "scheduledAt": "2026-09-08T05:15:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Ein neuer Morgen.\nNicht blind für das, was Menschen gerade tragen müssen.\n\nWir beten für die Menschen in der Ukraine: um Schutz, Frieden und gerechte Verhandlungen.\nWir beten für unser Land: um Gerechtigkeit und Gleichberechtigung.\n\nUnd wir bitten um einen wachen Blick, Mut und kleine Schritte des Friedens heute.\n\nAmen.",
+    "assets": [
+      "render-instagram-feed-01.jpg",
+      "render-instagram-feed-02.jpg",
+      "render-instagram-feed-03.jpg",
+      "render-instagram-feed-04.jpg",
+      "render-instagram-feed-05.jpg",
+      "render-instagram-feed-06.jpg"
+    ],
+    "altTexts": [
+      "Frühes Morgenlicht fällt durch ein offenes Fenster auf einen schlichten Tisch mit einer Tasse. Dazu sind ein stiller Weg im Morgenlicht und ein heller werdender Himmel zu sehen. Die Szene wirkt ruhig, wach und hoffnungsvoll."
+    ],
+    "id": "85221f66-c7ce-475c-87f2-9d5496161850",
+    "attemptCount": 1,
+    "remoteId": "18622280452019267",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-09-07T17:58:38.973Z",
+    "updatedAt": "2026-09-08T05:16:12.039Z",
+    "responseMetadata": {
+      "mediaCount": 6,
+      "mediaType": "CAROUSEL",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "prayer-morning-2026-09-08",
+    "contentDate": "2026-09-08",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-09-08T05:15:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Gott,\nwir beginnen diesen Morgen vor dir.\n\nWir beten für die Menschen in der Ukraine:\num Schutz, um Frieden und um gerechte Verhandlungen.\n\nWir beten für unser Land:\num Gerechtigkeit und Gleichberechtigung.\n\nMach uns aufmerksam und mutig für den kleinen Schritt des Friedens heute.\nAmen.",
+    "assets": [
+      "render-facebook-mastodon-01.png"
+    ],
+    "altTexts": [
+      "Frühes Morgenlicht fällt durch ein offenes Fenster auf einen schlichten Tisch mit einer Tasse. Dazu sind ein stiller Weg im Morgenlicht und ein heller werdender Himmel zu sehen. Die Szene wirkt ruhig, wach und hoffnungsvoll."
+    ],
+    "id": "5589fa16-ab4e-48c2-a093-9a5be114a4cd",
+    "attemptCount": 1,
+    "remoteId": "117233717926033624",
+    "remoteUrl": "https://kirche.social/@christoph/117233717926033624",
+    "lastError": null,
+    "createdAt": "2026-09-07T17:58:39.035Z",
+    "updatedAt": "2026-09-08T05:16:12.893Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
