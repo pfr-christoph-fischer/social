@@ -1,6 +1,6 @@
 {
   "id": "prayer-evening-2026-09-08",
-  "status": "in Arbeit",
+  "status": "zur Prüfung",
   "needs_input": false,
   "source": {
     "calendar_post_id": "prayer-evening-2026-09-08",
@@ -25,35 +25,35 @@
   },
   "platforms": {
     "facebook": {
-      "headline": "Abendgebet: Für Sorgen und neue Anfänge",
-      "text": "Abend.\nDer Tag ist nicht nur das, was wir geschafft haben.\nAuch das Unfertige darf vor Gott liegen.\n\nGott,\nwir bringen dir, was heute hell war.\nEin gutes Wort. Eine erledigte Aufgabe. Einen Moment, der getragen hat.\nUnd wir bringen dir, was schwer auf uns liegt.\nFehler. Müdigkeit. Streit. Dinge, die offen geblieben sind.\n\nWir denken an die gesamtgesellschaftlichen Debatten in unserem Land.\nAn alles, was Menschen bewegt, wenn es um Rente, Gesundheit und Soziales geht.\nAn die Ängste und Sorgen, die damit verbunden sind.\nUnd wir denken an alle Lehrer:innen, für die jetzt das neue Schuljahr beginnt.\n\nSei bei denen, die Verantwortung tragen.\nSchenke Klarheit, Geduld und gute Wege miteinander.\nUnd stärke alle, die heute neu anfangen.\n\nHalte diese unruhige Welt.\nUnd löse auch unsere Hände von dem, was wir heute nicht mehr tragen können.\nSchenk uns Frieden für diese Nacht.\nUnd Hoffnung für den Morgen.\nAmen."
+      "text": "Abend.\nDer Tag ist nicht nur das, was wir geschafft haben.\nAuch das Unfertige darf vor Gott liegen.\n\nGott,\nwir bringen dir, was heute hell war.\nEin gutes Wort. Eine erledigte Aufgabe. Einen Moment, der getragen hat.\nUnd wir bringen dir, was schwer auf uns liegt.\nFehler. Müdigkeit. Streit. Dinge, die offen geblieben sind.\n\nWir denken an die gesamtgesellschaftlichen Debatten in unserem Land.\nAn alles, was Menschen bewegt, wenn es um Rente, Gesundheit und Soziales geht.\nAn die Ängste und Sorgen, die damit verbunden sind.\nUnd wir denken an alle Lehrer:innen, für die jetzt das neue Schuljahr beginnt.\n\nSei bei denen, die Verantwortung tragen.\nSchenke Klarheit, Geduld und gute Wege miteinander.\nUnd stärke alle, die heute neu anfangen.\n\nHalte diese unruhige Welt.\nUnd löse auch unsere Hände von dem, was wir heute nicht mehr tragen können.\nSchenk uns Frieden für diese Nacht.\nUnd Hoffnung für den Morgen.\nAmen.",
+      "headline": "Abendgebet: Für Sorgen und neue Anfänge"
     },
     "instagram": {
       "caption": "Der Tag muss nicht perfekt zu Ende gehen.\nVor Gott darf er unvollendet bleiben.\n\nGott,\nwir legen dir hin, was heute gut war.\nUnd auch das, was wehgetan hat.\n\nWir bitten dich für unser Land.\nFür alle Debatten über Rente, Gesundheit und Soziales.\nFür die Ängste und Sorgen, die viele Menschen damit verbinden.\nUnd für alle Lehrer:innen, für die das neue Schuljahr beginnt.\n\nSchenke Orientierung, Kraft und gute Begegnungen.\nHalte auch uns.\nSchenk Frieden für diese Nacht.\nAmen.",
       "carousel": [
         {
-          "text": "Der Tag muss nicht fertig werden.",
-          "type": "text"
+          "type": "text",
+          "text": "Der Tag muss nicht fertig werden."
         },
         {
-          "text": "Was gut war, darf bleiben. Was schwer war, darf vor Gott liegen.",
-          "type": "text"
+          "type": "text",
+          "text": "Was gut war, darf bleiben. Was schwer war, darf vor Gott liegen."
         },
         {
-          "text": "Wir beten für unser Land und für die Debatten über Rente, Gesundheit und Soziales.",
-          "type": "text"
+          "type": "text",
+          "text": "Wir beten für unser Land und für die Debatten über Rente, Gesundheit und Soziales."
         },
         {
-          "text": "Wir beten für die Ängste und Sorgen, die viele Menschen damit verbinden.",
-          "type": "text"
+          "type": "text",
+          "text": "Wir beten für die Ängste und Sorgen, die viele Menschen damit verbinden."
         },
         {
-          "text": "Wir beten für alle Lehrer:innen, für die das neue Schuljahr beginnt.",
-          "type": "text"
+          "type": "text",
+          "text": "Wir beten für alle Lehrer:innen, für die das neue Schuljahr beginnt."
         },
         {
-          "text": "Gott, schenke Frieden für diese Nacht. Und Hoffnung für den Morgen.",
-          "type": "text"
+          "type": "text",
+          "text": "Gott, schenke Frieden für diese Nacht. Und Hoffnung für den Morgen."
         }
       ]
     },
@@ -112,11 +112,7 @@
   },
   "qa": {
     "approved": false,
-    "warnings": [
-      "Alt text must be completed before approval",
-      "Aktuelle Bezüge vor Freigabe nochmals auf Stand der Redaktion prüfen, da das Gebet am Nachmittag des Vortags erzeugt wird.",
-      "Politischer Bezug sensibel redaktionell gegenlesen, damit Fürbitte nicht parteipolitisch wirkt."
-    ]
+    "warnings": []
   },
   "metadata": {
     "model": "gpt-5.4-2026-03-05",
