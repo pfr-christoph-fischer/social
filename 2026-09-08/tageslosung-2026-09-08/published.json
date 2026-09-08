@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-08",
+    "contentDate": "2026-09-08",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-09-08T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Wer auf den HERRN hofft, den wird die Güte umfangen.",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Wer auf den HERRN hofft, den wird die Güte umfangen."
+    ],
+    "id": "81571937-b30f-4b7f-a5be-dc0530950df9",
+    "attemptCount": 1,
+    "remoteId": "17885493630479313",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:45:12.053Z",
+    "updatedAt": "2026-09-08T05:00:27.814Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-08",
+    "contentDate": "2026-09-08",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-09-08T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Wer auf den HERRN hofft, den wird die Güte umfangen.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Wer auf den HERRN hofft, den wird die Güte umfangen."
+    ],
+    "id": "e1b96e5d-6369-4105-8020-1ddeb5fe9129",
+    "attemptCount": 1,
+    "remoteId": "117233656090193947",
+    "remoteUrl": "https://kirche.social/@christoph/117233656090193947",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:45:12.060Z",
+    "updatedAt": "2026-09-08T05:00:29.395Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
