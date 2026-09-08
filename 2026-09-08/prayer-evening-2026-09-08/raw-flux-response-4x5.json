@@ -1,0 +1,36 @@
+{
+  "delivery_url": "https://delivery.us7.bfl.ai/durable/2026090815/5e1f69ea-538b-4d66-962e-9be995966f07/30/676365ec7f409a/ec7f409ae69b409b888ffee941d52061/sample.jpeg?se=2026-09-08T15%3A27%3A56Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=5o0BP5GloQGfCH7wzM3jnUfLRNxrgPbcWqyiDyQpC8Y%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "67bc60fd-cc4e-454e-b38e-ba6712e4c147",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "67bc60fd-cc4e-454e-b38e-ba6712e4c147",
+      "status": "Ready",
+      "result": {
+        "start_time": 1788880674.8768106,
+        "prompt": "Ruhige Abendszene in einem schlichten Zimmer, offenes Fenster, weiches blau-goldenes Dämmerlicht, einfacher Holztisch mit Wasserglas und geschlossenem Notizbuch, sanfte Schatten, stille hoffnungsvolle Atmosphäre, natürliche Farben, fotografisch, unaufgeregt, kein Mensch im Vordergrund, no text, no letters, no typography, no logo, no watermark",
+        "seed": 3595534217,
+        "sample": "https://delivery.us7.bfl.ai/durable/2026090815/5e1f69ea-538b-4d66-962e-9be995966f07/30/676365ec7f409a/ec7f409ae69b409b888ffee941d52061/sample.jpeg?se=2026-09-08T15%3A27%3A56Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=5o0BP5GloQGfCH7wzM3jnUfLRNxrgPbcWqyiDyQpC8Y%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "67bc60fd-cc4e-454e-b38e-ba6712e4c147",
+    "polling_url": "https://api.us7.bfl.ai/v1/get_result?id=67bc60fd-cc4e-454e-b38e-ba6712e4c147",
+    "cost": 1.5,
+    "input_mp": 0,
+    "output_mp": 1.39
+  }
+}
