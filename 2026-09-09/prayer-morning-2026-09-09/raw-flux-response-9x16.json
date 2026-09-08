@@ -1,0 +1,52 @@
+{
+  "delivery_url": "https://delivery.eu2.bfl.ai/durable/2026090816/5e1f69ea-538b-4d66-962e-9be995966f07/27/212616ef05eeab/ef05eeab4cb24cb1980f8dbafc5d7e2a/sample.jpeg?se=2026-09-08T17%3A00%3A13Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=RIXiJnB7WaU3v6W1pjWOhas0s88xF7cCR9DJBOGl/k4%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "9d734062-0f6c-45b5-a900-57a2b876fd31",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "9d734062-0f6c-45b5-a900-57a2b876fd31",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "9d734062-0f6c-45b5-a900-57a2b876fd31",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "9d734062-0f6c-45b5-a900-57a2b876fd31",
+      "status": "Ready",
+      "result": {
+        "start_time": 1788886211.3301437,
+        "prompt": "Early morning on a quiet path near a school or campus, soft cool dawn light, calm atmosphere, subtle sense of a new beginning, realistic photography, natural colors, contemplative mood, gentle hope, no people, no symbols, no typography, no text, no letters, no typography, no logo, no watermark",
+        "seed": 3630404479,
+        "sample": "https://delivery.eu2.bfl.ai/durable/2026090816/5e1f69ea-538b-4d66-962e-9be995966f07/27/212616ef05eeab/ef05eeab4cb24cb1980f8dbafc5d7e2a/sample.jpeg?se=2026-09-08T17%3A00%3A13Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=RIXiJnB7WaU3v6W1pjWOhas0s88xF7cCR9DJBOGl/k4%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "9d734062-0f6c-45b5-a900-57a2b876fd31",
+    "polling_url": "https://api.eu2.bfl.ai/v1/get_result?id=9d734062-0f6c-45b5-a900-57a2b876fd31",
+    "cost": 1.5,
+    "input_mp": 0,
+    "output_mp": 1.98
+  }
+}

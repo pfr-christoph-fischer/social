@@ -1,0 +1,52 @@
+{
+  "delivery_url": "https://delivery.eu2.bfl.ai/durable/2026090816/5e1f69ea-538b-4d66-962e-9be995966f07/e9/2040174f63770b/4f63770b62e542ceb818425ea234f114/sample.jpeg?se=2026-09-08T17%3A00%3A04Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=11anhWP9ITInB5yakTfjkIzmhgTYAcjQZVpSr%2BZkX6I%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "e060c897-519c-439f-bd9d-d9b01626e040",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "e060c897-519c-439f-bd9d-d9b01626e040",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "e060c897-519c-439f-bd9d-d9b01626e040",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "e060c897-519c-439f-bd9d-d9b01626e040",
+      "status": "Ready",
+      "result": {
+        "start_time": 1788886203.0752475,
+        "prompt": "Early morning on a quiet path near a school or campus, soft cool dawn light, calm atmosphere, subtle sense of a new beginning, realistic photography, natural colors, contemplative mood, gentle hope, no people, no symbols, no typography, no text, no letters, no typography, no logo, no watermark",
+        "seed": 3245338391,
+        "sample": "https://delivery.eu2.bfl.ai/durable/2026090816/5e1f69ea-538b-4d66-962e-9be995966f07/e9/2040174f63770b/4f63770b62e542ceb818425ea234f114/sample.jpeg?se=2026-09-08T17%3A00%3A04Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=11anhWP9ITInB5yakTfjkIzmhgTYAcjQZVpSr%2BZkX6I%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "e060c897-519c-439f-bd9d-d9b01626e040",
+    "polling_url": "https://api.eu2.bfl.ai/v1/get_result?id=e060c897-519c-439f-bd9d-d9b01626e040",
+    "cost": 1.4000000000000001,
+    "input_mp": 0,
+    "output_mp": 0.72
+  }
+}
