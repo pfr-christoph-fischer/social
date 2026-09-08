@@ -28,39 +28,39 @@
   },
   "platforms": {
     "facebook": {
-      "text": "Was bedeutet eigentlich „Amen“?\n\nViele kennen das Wort aus Gebeten. Oft ist es einfach das letzte Wort. Aber „Amen“ ist mehr als ein Schlusspunkt.\n\nDas Wort kommt aus dem Hebräischen. Es bedeutet so viel wie: Das ist gewiss. So ist es. So soll es sein.\n\nWer „Amen“ sagt, stimmt nicht nur zu. Da steckt Vertrauen drin. Ein Gebet endet also nicht bloß mit einer Formel. Es endet mit Halt.\n\nFür heute kann das heißen: Ich muss nicht alles in der Hand haben. Aber ich kann aussprechen, worauf ich hoffe. Und ich kann sagen: Gott, darauf vertraue ich.\n\nGesprächsfrage: Ist „Amen“ für dich eher Zustimmung, Hoffnung oder Vertrauen?",
-      "headline": "Was bedeutet eigentlich Amen?"
+      "headline": "Was bedeutet eigentlich Amen?",
+      "text": "Was bedeutet eigentlich „Amen“?\n\nViele kennen das Wort aus Gebeten. Oft ist es einfach das letzte Wort. Aber „Amen“ ist mehr als ein Schlusspunkt.\n\nDas Wort kommt aus dem Hebräischen. Es bedeutet so viel wie: Das ist gewiss. So ist es. So soll es sein.\n\nWer „Amen“ sagt, stimmt nicht nur zu. Da steckt Vertrauen drin. Ein Gebet endet also nicht bloß mit einer Formel. Es endet mit Halt.\n\nFür heute kann das heißen: Ich muss nicht alles in der Hand haben. Aber ich kann aussprechen, worauf ich hoffe. Und ich kann sagen: Gott, darauf vertraue ich.\n\nGesprächsfrage: Ist „Amen“ für dich eher Zustimmung, Hoffnung oder Vertrauen?"
     },
     "instagram": {
       "caption": "Was bedeutet eigentlich „Amen“?\n\nAmen ist mehr als das letzte Wort eines Gebets.\nEs heißt: So ist es. So soll es sein.\nDarin steckt Vertrauen.\n\nWenn wir „Amen“ sagen, geben wir etwas nicht einfach ab. Wir sprechen aus, worauf wir hoffen.\n\nFrage an dich: Was klingt für dich in „Amen“ mit – Zustimmung, Hoffnung oder Vertrauen?\n\n#Amen #GlaubenVerstehen #Mittwochsserie #TheologieEinfach #Gebet",
       "carousel": [
         {
-          "type": "title",
-          "text": "Was bedeutet eigentlich Amen?"
+          "text": "Was bedeutet eigentlich Amen?",
+          "type": "title"
         },
         {
-          "type": "explanation",
-          "text": "„Amen“ ist nicht nur ein Abschluss. Es ist ein starkes Wort mit Gewicht."
+          "text": "„Amen“ ist nicht nur ein Abschluss. Es ist ein starkes Wort mit Gewicht.",
+          "type": "explanation"
         },
         {
-          "type": "explanation",
-          "text": "Das Wort kommt aus dem Hebräischen. Es heißt so viel wie: Das ist gewiss. So ist es. So soll es sein."
+          "text": "Das Wort kommt aus dem Hebräischen. Es heißt so viel wie: Das ist gewiss. So ist es. So soll es sein.",
+          "type": "explanation"
         },
         {
-          "type": "meaning",
-          "text": "Wenn Menschen „Amen“ sagen, drücken sie Zustimmung und Vertrauen aus."
+          "text": "Wenn Menschen „Amen“ sagen, drücken sie Zustimmung und Vertrauen aus.",
+          "type": "meaning"
         },
         {
-          "type": "meaning",
-          "text": "Am Ende eines Gebets heißt das: Ich halte mich an das, was ich vor Gott gesagt habe."
+          "text": "Am Ende eines Gebets heißt das: Ich halte mich an das, was ich vor Gott gesagt habe.",
+          "type": "meaning"
         },
         {
-          "type": "application",
-          "text": "Für heute kann das bedeuten: Nicht alles ist sicher. Aber Vertrauen kann einen festen Boden geben."
+          "text": "Für heute kann das bedeuten: Nicht alles ist sicher. Aber Vertrauen kann einen festen Boden geben.",
+          "type": "application"
         },
         {
-          "type": "question",
-          "text": "Welche Bedeutung hat „Amen“ für dich: Zustimmung, Hoffnung oder Vertrauen?"
+          "text": "Welche Bedeutung hat „Amen“ für dich: Zustimmung, Hoffnung oder Vertrauen?",
+          "type": "question"
         }
       ]
     },
@@ -117,11 +117,11 @@
     "alt_text": "Eine Person sitzt in ruhiger Haltung am Fenster. Die Hände sind entspannt ineinandergelegt. Warmes Licht fällt in einen schlichten Raum und erzeugt eine stille, konzentrierte Stimmung."
   },
   "qa": {
+    "approved": false,
     "warnings": [
       "Alt text must be completed before approval",
       "Theologische Kurzform bewusst einfach gehalten; bei Grafikabnahme auf präzise Formulierungen achten."
-    ],
-    "approved": false
+    ]
   },
   "metadata": {
     "model": "gpt-5.4-2026-03-05",
