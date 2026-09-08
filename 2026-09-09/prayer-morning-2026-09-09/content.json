@@ -1,6 +1,6 @@
 {
   "id": "prayer-morning-2026-09-09",
-  "status": "in Arbeit",
+  "status": "freigegeben",
   "needs_input": false,
   "source": {
     "calendar_post_id": "prayer-morning-2026-09-09",
@@ -25,27 +25,27 @@
   },
   "platforms": {
     "facebook": {
-      "headline": "Morgengebet am 9. September 2026",
-      "text": "Gott,\ndieser Morgen ist da. Die Luft ist kühl. Der Tag liegt noch offen vor uns.\n\nWir bringen dir unsere Welt.\nWir beten für die Menschen im Nahen Osten, besonders im Libanon, wo Gewalt, Angst und Spannungen den Alltag prägen.\n\nSei den Bedrängten nah.\nStärke alle, die Schutz suchen, die trösten, helfen und Verantwortung tragen.\n\nUnd wir bitten dich für alle, für die in diesen Tagen etwas neu beginnt:\nfür Kinder und Jugendliche im neuen Schuljahr,\nfür alle im Studium,\nfür alle in Ausbildung und auf neuen Wegen.\n\nGib Mut für den ersten Schritt.\nSchenke Klarheit, gute Begegnungen und Frieden im Herzen.\n\nDenn das, was uns Angst macht, hat nicht das letzte Wort.\nDeine Zukunft kommt. Darum gehen wir in diesen Tag.\nAmen."
+      "text": "Gott,\ndieser Morgen ist da. Die Luft ist kühl. Der Tag liegt noch offen vor uns.\n\nWir bringen dir unsere Welt.\nWir beten für die Menschen im Nahen Osten, besonders im Libanon, wo Gewalt, Angst und Spannungen den Alltag prägen.\n\nSei den Bedrängten nah.\nStärke alle, die Schutz suchen, die trösten, helfen und Verantwortung tragen.\n\nUnd wir bitten dich für alle, für die in diesen Tagen etwas neu beginnt:\nfür Kinder und Jugendliche im neuen Schuljahr,\nfür alle im Studium,\nfür alle in Ausbildung und auf neuen Wegen.\n\nGib Mut für den ersten Schritt.\nSchenke Klarheit, gute Begegnungen und Frieden im Herzen.\n\nDenn das, was uns Angst macht, hat nicht das letzte Wort.\nDeine Zukunft kommt. Darum gehen wir in diesen Tag.\nAmen.",
+      "headline": "Morgengebet am 9. September 2026"
     },
     "instagram": {
       "caption": "Gott,\ndieser Morgen ist da.\n\nWir beten für die Menschen im Nahen Osten, besonders im Libanon, wo Gewalt, Angst und Spannungen den Alltag prägen.\n\nUnd wir bitten für alle, für die in diesen Tagen etwas neu beginnt:\nSchuljahr, Studium, Ausbildung.\n\nSchenke Schutz, Mut und Frieden.\nBegleite die ersten Schritte.\n\nDenn das Gegenwärtige hat nicht das letzte Wort.\nDeine Zukunft kommt uns entgegen.\nAmen.",
       "carousel": [
         {
-          "text": "Gott, dieser Morgen ist da. Der Tag liegt offen vor uns.",
-          "type": "body"
+          "type": "body",
+          "text": "Gott, dieser Morgen ist da. Der Tag liegt offen vor uns."
         },
         {
-          "text": "Wir beten für die Menschen im Nahen Osten, besonders im Libanon. Gewalt, Angst und Spannungen prägen den Alltag.",
-          "type": "body"
+          "type": "body",
+          "text": "Wir beten für die Menschen im Nahen Osten, besonders im Libanon. Gewalt, Angst und Spannungen prägen den Alltag."
         },
         {
-          "text": "Wir bitten für alle, für die jetzt etwas neu beginnt: Schule, Studium, Ausbildung. Schenke Mut und Frieden.",
-          "type": "body"
+          "type": "body",
+          "text": "Wir bitten für alle, für die jetzt etwas neu beginnt: Schule, Studium, Ausbildung. Schenke Mut und Frieden."
         },
         {
-          "text": "Deine Zukunft kommt. Darum gehen wir in diesen Tag. Amen.",
-          "type": "outro"
+          "type": "outro",
+          "text": "Deine Zukunft kommt. Darum gehen wir in diesen Tag. Amen."
         }
       ]
     },
@@ -99,7 +99,7 @@
     "alt_text": "Ein ruhiger Weg am frühen Morgen in kühlem Licht. Die Szene wirkt offen und still und erinnert an einen neuen Anfang, etwa vor Schule oder Studium. Die Stimmung ist nachdenklich und hoffnungsvoll."
   },
   "qa": {
-    "approved": false,
+    "approved": true,
     "warnings": []
   },
   "metadata": {
