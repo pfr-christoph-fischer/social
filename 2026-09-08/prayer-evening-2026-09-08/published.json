@@ -27,5 +27,67 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "prayer-evening-2026-09-08",
+    "contentDate": "2026-09-08",
+    "platform": "instagram",
+    "format": "default",
+    "scheduledAt": "2026-09-08T18:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Der Tag muss nicht perfekt zu Ende gehen.\nVor Gott darf er unvollendet bleiben.\n\nGott,\nwir legen dir hin, was heute gut war.\nUnd auch das, was wehgetan hat.\n\nWir bitten dich für unser Land.\nFür alle Debatten über Rente, Gesundheit und Soziales.\nFür die Ängste und Sorgen, die viele Menschen damit verbinden.\nUnd für alle Lehrer:innen, für die das neue Schuljahr beginnt.\n\nSchenke Orientierung, Kraft und gute Begegnungen.\nHalte auch uns.\nSchenk Frieden für diese Nacht.\nAmen.",
+    "assets": [
+      "render-instagram-feed-01.jpg",
+      "render-instagram-feed-02.jpg",
+      "render-instagram-feed-03.jpg",
+      "render-instagram-feed-04.jpg",
+      "render-instagram-feed-05.jpg",
+      "render-instagram-feed-06.jpg"
+    ],
+    "altTexts": [
+      "Ein schlichtes Zimmer im Abendlicht. Vor einem offenen Fenster steht ein Holztisch mit einem Glas Wasser und einem geschlossenen Notizbuch. Die Szene wirkt still, warm und ruhig."
+    ],
+    "id": "25383295-fb8b-475b-8f03-989730a0547c",
+    "attemptCount": 1,
+    "remoteId": "18085779611682245",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-09-08T15:21:46.764Z",
+    "updatedAt": "2026-09-08T18:01:06.240Z",
+    "responseMetadata": {
+      "mediaCount": 6,
+      "mediaType": "CAROUSEL",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "prayer-evening-2026-09-08",
+    "contentDate": "2026-09-08",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-09-08T18:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Abendgebet\n\nGott,\nwir legen dir diesen Tag hin.\nWas gelungen ist.\nWas offen blieb.\nWas wehgetan hat.\n\nWir bitten dich für unser Land.\nFür die Debatten über Rente, Gesundheit und Soziales.\nFür die Ängste und Sorgen, die damit verbunden sind.\nFür alle Lehrer:innen, für die das neue Schuljahr beginnt.\n\nHalte diese Welt.\nUnd schenke uns Frieden für diese Nacht.\nAmen.",
+    "assets": [
+      "render-facebook-mastodon-01.png"
+    ],
+    "altTexts": [
+      "Ein schlichtes Zimmer im Abendlicht. Vor einem offenen Fenster steht ein Holztisch mit einem Glas Wasser und einem geschlossenen Notizbuch. Die Szene wirkt still, warm und ruhig."
+    ],
+    "id": "07bd7c93-f807-4ee2-b224-f3538b75148d",
+    "attemptCount": 1,
+    "remoteId": "117236725749250708",
+    "remoteUrl": "https://kirche.social/@christoph/117236725749250708",
+    "lastError": null,
+    "createdAt": "2026-09-08T15:21:46.853Z",
+    "updatedAt": "2026-09-08T18:01:08.648Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
