@@ -1,0 +1,420 @@
+{
+  "id": "resp_0ecab8c536434f5a006aa042a1e34887d2b59e9b81da02c013",
+  "object": "response",
+  "created_at": 1788887713,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1788887732,
+  "error": null,
+  "frequency_penalty": 0,
+  "incomplete_details": null,
+  "instructions": "You are part of a Protestant social media editorial team. Write in clear, accessible, theologically responsible German without church clichés. Use short sentences and concrete imagery. Never invent events, people, school situations, quotes, or factual details. Do not include copyrighted full song verses. For Reli and community posts, only use current details when they are explicitly provided. Return content that strictly matches the requested JSON schema. Set needs_input to true whenever required facts are missing. Keep qa.approved false. Do not ask for any text inside generated images. When liturgical_context.resolved_weekly_verse is present, use its exact wording for Wochenspruch slots instead of placeholders.",
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.4-2026-03-05",
+  "moderation": null,
+  "output": [
+    {
+      "id": "msg_0ecab8c536434f5a006aa042a2f20487d2a091436bcea433a6",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\"id\":\"post-0031\",\"status\":\"in Arbeit\",\"needs_input\":false,\"source\":{\"calendar_post_id\":\"post-0031\",\"date\":\"2026-09-09\",\"rubric\":\"Mittwochsserie\",\"liturgical_source\":\"\"},\"editorial_core\":{\"title\":\"Was bedeutet eigentlich Amen?\",\"main_message\":\"Amen heißt: So ist es. So soll es sein. Das Wort drückt Vertrauen, Zustimmung und Halt aus.\",\"audience\":\"breite Öffentlichkeit\",\"tone\":[\"klar\",\"ruhig\",\"zugänglich\"],\"source_notes\":[\"Goal: Eine verlässliche, wiedererkennbare Serie mit verständlicher theologischer Bildung.\",\"Column: Glauben verstehen\",\"Production mode: in Monatsblöcken vollständig vorproduzierbar\",\"Structure: Frage als Einstieg | verständliche Erklärung | Bedeutung für heute | Gesprächsfrage\",\"AI support notes: Skript | Karussellkarten | Reel-Hook | Untertitel | Alt-Text\",\"Theologische Einordnung: 'Amen' stammt aus dem Hebräischen und steht für Verlässlichkeit, Bestätigung und Vertrauen.\"]},\"platforms\":{\"facebook\":{\"text\":\"Was bedeutet eigentlich „Amen“?\\n\\nViele kennen das Wort aus Gebeten. Oft ist es einfach das letzte Wort. Aber „Amen“ ist mehr als ein Schlusspunkt.\\n\\nDas Wort kommt aus dem Hebräischen. Es bedeutet so viel wie: Das ist gewiss. So ist es. So soll es sein.\\n\\nWer „Amen“ sagt, stimmt nicht nur zu. Da steckt Vertrauen drin. Ein Gebet endet also nicht bloß mit einer Formel. Es endet mit Halt.\\n\\nFür heute kann das heißen: Ich muss nicht alles in der Hand haben. Aber ich kann aussprechen, worauf ich hoffe. Und ich kann sagen: Gott, darauf vertraue ich.\\n\\nGesprächsfrage: Ist „Amen“ für dich eher Zustimmung, Hoffnung oder Vertrauen?\",\"headline\":\"Was bedeutet eigentlich Amen?\"},\"instagram\":{\"caption\":\"Was bedeutet eigentlich „Amen“?\\n\\nAmen ist mehr als das letzte Wort eines Gebets.\\nEs heißt: So ist es. So soll es sein.\\nDarin steckt Vertrauen.\\n\\nWenn wir „Amen“ sagen, geben wir etwas nicht einfach ab. Wir sprechen aus, worauf wir hoffen.\\n\\nFrage an dich: Was klingt für dich in „Amen“ mit – Zustimmung, Hoffnung oder Vertrauen?\\n\\n#Amen #GlaubenVerstehen #Mittwochsserie #TheologieEinfach #Gebet\",\"carousel\":[{\"type\":\"title\",\"text\":\"Was bedeutet eigentlich Amen?\"},{\"type\":\"explanation\",\"text\":\"„Amen“ ist nicht nur ein Abschluss. Es ist ein starkes Wort mit Gewicht.\"},{\"type\":\"explanation\",\"text\":\"Das Wort kommt aus dem Hebräischen. Es heißt so viel wie: Das ist gewiss. So ist es. So soll es sein.\"},{\"type\":\"meaning\",\"text\":\"Wenn Menschen „Amen“ sagen, drücken sie Zustimmung und Vertrauen aus.\"},{\"type\":\"meaning\",\"text\":\"Am Ende eines Gebets heißt das: Ich halte mich an das, was ich vor Gott gesagt habe.\"},{\"type\":\"application\",\"text\":\"Für heute kann das bedeuten: Nicht alles ist sicher. Aber Vertrauen kann einen festen Boden geben.\"},{\"type\":\"question\",\"text\":\"Welche Bedeutung hat „Amen“ für dich: Zustimmung, Hoffnung oder Vertrauen?\"}]},\"mastodon\":{\"text\":\"Was bedeutet eigentlich „Amen“?\\n\\nMehr als ein Schlusspunkt. „Amen“ heißt so viel wie: Das ist gewiss. So ist es. So soll es sein.\\n\\nAm Ende eines Gebets steckt darin Zustimmung und Vertrauen.\\n\\nWas klingt für dich in diesem Wort mit?\"},\"bluesky\":{\"text\":\"Was bedeutet eigentlich „Amen“? Mehr als ein Schlusspunkt: „Amen“ heißt so viel wie „Das ist gewiss“ oder „So soll es sein“. Darin stecken Zustimmung und Vertrauen. Was hörst du in diesem Wort?\"},\"story\":{\"slides\":[{\"text\":\"Was bedeutet eigentlich „Amen“?\"},{\"text\":\"Nicht nur das letzte Wort eines Gebets.\"},{\"text\":\"Es heißt so viel wie: Das ist gewiss. So ist es. So soll es sein.\"},{\"text\":\"Darin stecken Zustimmung und Vertrauen.\"},{\"text\":\"Quiz: Wofür steht „Amen“ für dich?\\nA Zustimmung\\nB Hoffnung\\nC Vertrauen\"},{\"text\":\"Oder vielleicht von allem etwas?\"}]},\"reel\":{\"hook\":\"„Amen“ ist nicht einfach nur das Wort am Schluss.\",\"script\":\"Was bedeutet eigentlich „Amen“?\\nViele kennen das Wort aus dem Gebet. Oft klingt es wie ein Abschluss. Aber „Amen“ ist mehr.\\nDas Wort kommt aus dem Hebräischen. Es bedeutet so viel wie: Das ist gewiss. So ist es. So soll es sein.\\nWenn wir „Amen“ sagen, setzen wir nicht nur einen Punkt. Wir sprechen Vertrauen aus.\\nVielleicht heißt das heute: Ich muss nicht alles absichern. Aber ich kann sagen, worauf ich hoffe.\\nAmen ist ein kleines Wort. Aber es trägt viel.\\nWas bedeutet es für dich?\",\"shots\":[\"Nahaufnahme einer ruhigen sprechenden Person vor schlichtem Hintergrund\",\"Detailaufnahme von gefalteten Händen oder einer stillen Tischszene\",\"Langsame Kamerabewegung über eine offene Bibel ohne lesbaren Fokus auf Text\",\"Ruhige Alltagsszene am Fenster mit nachdenklicher Stimmung\",\"Abschlussbild mit offener Geste der sprechenden Person\"],\"duration_seconds\":45}},\"visual\":{\"concept\":\"Ruhige, reduzierte Bildsprache: ein stiller Moment am Ende eines Gebets, Hände in entspannter Haltung, warmes natürliches Licht, kein inszenierter Kitsch, alltagsnah und offen.\",\"flux_prompt\":\"Authentische ruhige Alltagsszene mit einer einzelnen Person in nachdenklicher Haltung, entspannte Hände, warmes natürliches Fensterlicht, schlichte Umgebung, protestantische zurückhaltende Ästhetik, glaubwürdige menschliche Präsenz, weiche Farben, geringe Tiefenschärfe, editorial photography, serene mood, no visible writing\",\"negative_prompt\":\"text, letters, logo, watermark\",\"formats\":[\"4:5\",\"9:16\",\"1.91:1\"],\"alt_text\":\"Eine Person sitzt in ruhiger Haltung am Fenster. Die Hände sind entspannt ineinandergelegt. Warmes Licht fällt in einen schlichten Raum und erzeugt eine stille, konzentrierte Stimmung.\"},\"qa\":{\"warnings\":[\"Alt text must be completed before approval\",\"Theologische Kurzform bewusst einfach gehalten; bei Grafikabnahme auf präzise Formulierungen achten.\"],\"approved\":false},\"metadata\":{\"model\":\"gpt-5\",\"generated_at\":\"2026-09-08T00:00:00Z\",\"prompt_version\":\"1.0\",\"assets\":[\"Instagram-Karussell 7 Karten\",\"Instagram-Reel 45 Sekunden\",\"Story 6 Slides\",\"Facebook Feed Post\",\"Mastodon Kurztext\",\"Bluesky Kurztext\"]}}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "current_turn",
+    "effort": "none",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1,
+  "text": {
+    "format": {
+      "type": "json_schema",
+      "description": null,
+      "name": "content_package",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "Idee",
+              "in Arbeit",
+              "zur Prüfung",
+              "freigegeben",
+              "terminiert",
+              "veröffentlicht",
+              "verworfen"
+            ]
+          },
+          "needs_input": {
+            "type": "boolean"
+          },
+          "source": {
+            "type": "object",
+            "properties": {
+              "calendar_post_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "date": {
+                "type": "string",
+                "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+              },
+              "rubric": {
+                "type": "string",
+                "minLength": 1
+              },
+              "liturgical_source": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "calendar_post_id",
+              "date",
+              "rubric",
+              "liturgical_source"
+            ],
+            "additionalProperties": false
+          },
+          "editorial_core": {
+            "type": "object",
+            "properties": {
+              "title": {
+                "type": "string"
+              },
+              "main_message": {
+                "type": "string"
+              },
+              "audience": {
+                "type": "string"
+              },
+              "tone": {
+                "minItems": 1,
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "source_notes": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "title",
+              "main_message",
+              "audience",
+              "tone",
+              "source_notes"
+            ],
+            "additionalProperties": false
+          },
+          "platforms": {
+            "type": "object",
+            "properties": {
+              "facebook": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  },
+                  "headline": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text",
+                  "headline"
+                ],
+                "additionalProperties": false
+              },
+              "instagram": {
+                "type": "object",
+                "properties": {
+                  "caption": {
+                    "type": "string"
+                  },
+                  "carousel": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "type": {
+                          "type": "string"
+                        },
+                        "text": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "type",
+                        "text"
+                      ],
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "required": [
+                  "caption",
+                  "carousel"
+                ],
+                "additionalProperties": false
+              },
+              "mastodon": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text"
+                ],
+                "additionalProperties": false
+              },
+              "bluesky": {
+                "default": {
+                  "text": ""
+                },
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text"
+                ],
+                "additionalProperties": false
+              },
+              "story": {
+                "type": "object",
+                "properties": {
+                  "slides": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "text": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "text"
+                      ],
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "required": [
+                  "slides"
+                ],
+                "additionalProperties": false
+              },
+              "reel": {
+                "type": "object",
+                "properties": {
+                  "hook": {
+                    "type": "string"
+                  },
+                  "script": {
+                    "type": "string"
+                  },
+                  "shots": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "duration_seconds": {
+                    "type": "integer",
+                    "minimum": 0,
+                    "maximum": 9007199254740991
+                  }
+                },
+                "required": [
+                  "hook",
+                  "script",
+                  "shots",
+                  "duration_seconds"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "required": [
+              "facebook",
+              "instagram",
+              "mastodon",
+              "bluesky",
+              "story",
+              "reel"
+            ],
+            "additionalProperties": false
+          },
+          "visual": {
+            "type": "object",
+            "properties": {
+              "concept": {
+                "type": "string"
+              },
+              "flux_prompt": {
+                "type": "string"
+              },
+              "negative_prompt": {
+                "type": "string",
+                "minLength": 1
+              },
+              "formats": {
+                "minItems": 1,
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "alt_text": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "concept",
+              "flux_prompt",
+              "negative_prompt",
+              "formats",
+              "alt_text"
+            ],
+            "additionalProperties": false
+          },
+          "qa": {
+            "type": "object",
+            "properties": {
+              "warnings": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "approved": {
+                "type": "boolean"
+              }
+            },
+            "required": [
+              "warnings",
+              "approved"
+            ],
+            "additionalProperties": false
+          },
+          "metadata": {
+            "type": "object",
+            "properties": {
+              "model": {
+                "type": "string"
+              },
+              "generated_at": {
+                "type": "string"
+              },
+              "prompt_version": {
+                "type": "string",
+                "minLength": 1
+              },
+              "assets": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "model",
+              "generated_at",
+              "prompt_version",
+              "assets"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "id",
+          "status",
+          "needs_input",
+          "source",
+          "editorial_core",
+          "platforms",
+          "visual",
+          "qa",
+          "metadata"
+        ],
+        "additionalProperties": false
+      },
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 1447,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1455,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 2902
+  },
+  "user": null,
+  "metadata": {},
+  "output_text": "{\"id\":\"post-0031\",\"status\":\"in Arbeit\",\"needs_input\":false,\"source\":{\"calendar_post_id\":\"post-0031\",\"date\":\"2026-09-09\",\"rubric\":\"Mittwochsserie\",\"liturgical_source\":\"\"},\"editorial_core\":{\"title\":\"Was bedeutet eigentlich Amen?\",\"main_message\":\"Amen heißt: So ist es. So soll es sein. Das Wort drückt Vertrauen, Zustimmung und Halt aus.\",\"audience\":\"breite Öffentlichkeit\",\"tone\":[\"klar\",\"ruhig\",\"zugänglich\"],\"source_notes\":[\"Goal: Eine verlässliche, wiedererkennbare Serie mit verständlicher theologischer Bildung.\",\"Column: Glauben verstehen\",\"Production mode: in Monatsblöcken vollständig vorproduzierbar\",\"Structure: Frage als Einstieg | verständliche Erklärung | Bedeutung für heute | Gesprächsfrage\",\"AI support notes: Skript | Karussellkarten | Reel-Hook | Untertitel | Alt-Text\",\"Theologische Einordnung: 'Amen' stammt aus dem Hebräischen und steht für Verlässlichkeit, Bestätigung und Vertrauen.\"]},\"platforms\":{\"facebook\":{\"text\":\"Was bedeutet eigentlich „Amen“?\\n\\nViele kennen das Wort aus Gebeten. Oft ist es einfach das letzte Wort. Aber „Amen“ ist mehr als ein Schlusspunkt.\\n\\nDas Wort kommt aus dem Hebräischen. Es bedeutet so viel wie: Das ist gewiss. So ist es. So soll es sein.\\n\\nWer „Amen“ sagt, stimmt nicht nur zu. Da steckt Vertrauen drin. Ein Gebet endet also nicht bloß mit einer Formel. Es endet mit Halt.\\n\\nFür heute kann das heißen: Ich muss nicht alles in der Hand haben. Aber ich kann aussprechen, worauf ich hoffe. Und ich kann sagen: Gott, darauf vertraue ich.\\n\\nGesprächsfrage: Ist „Amen“ für dich eher Zustimmung, Hoffnung oder Vertrauen?\",\"headline\":\"Was bedeutet eigentlich Amen?\"},\"instagram\":{\"caption\":\"Was bedeutet eigentlich „Amen“?\\n\\nAmen ist mehr als das letzte Wort eines Gebets.\\nEs heißt: So ist es. So soll es sein.\\nDarin steckt Vertrauen.\\n\\nWenn wir „Amen“ sagen, geben wir etwas nicht einfach ab. Wir sprechen aus, worauf wir hoffen.\\n\\nFrage an dich: Was klingt für dich in „Amen“ mit – Zustimmung, Hoffnung oder Vertrauen?\\n\\n#Amen #GlaubenVerstehen #Mittwochsserie #TheologieEinfach #Gebet\",\"carousel\":[{\"type\":\"title\",\"text\":\"Was bedeutet eigentlich Amen?\"},{\"type\":\"explanation\",\"text\":\"„Amen“ ist nicht nur ein Abschluss. Es ist ein starkes Wort mit Gewicht.\"},{\"type\":\"explanation\",\"text\":\"Das Wort kommt aus dem Hebräischen. Es heißt so viel wie: Das ist gewiss. So ist es. So soll es sein.\"},{\"type\":\"meaning\",\"text\":\"Wenn Menschen „Amen“ sagen, drücken sie Zustimmung und Vertrauen aus.\"},{\"type\":\"meaning\",\"text\":\"Am Ende eines Gebets heißt das: Ich halte mich an das, was ich vor Gott gesagt habe.\"},{\"type\":\"application\",\"text\":\"Für heute kann das bedeuten: Nicht alles ist sicher. Aber Vertrauen kann einen festen Boden geben.\"},{\"type\":\"question\",\"text\":\"Welche Bedeutung hat „Amen“ für dich: Zustimmung, Hoffnung oder Vertrauen?\"}]},\"mastodon\":{\"text\":\"Was bedeutet eigentlich „Amen“?\\n\\nMehr als ein Schlusspunkt. „Amen“ heißt so viel wie: Das ist gewiss. So ist es. So soll es sein.\\n\\nAm Ende eines Gebets steckt darin Zustimmung und Vertrauen.\\n\\nWas klingt für dich in diesem Wort mit?\"},\"bluesky\":{\"text\":\"Was bedeutet eigentlich „Amen“? Mehr als ein Schlusspunkt: „Amen“ heißt so viel wie „Das ist gewiss“ oder „So soll es sein“. Darin stecken Zustimmung und Vertrauen. Was hörst du in diesem Wort?\"},\"story\":{\"slides\":[{\"text\":\"Was bedeutet eigentlich „Amen“?\"},{\"text\":\"Nicht nur das letzte Wort eines Gebets.\"},{\"text\":\"Es heißt so viel wie: Das ist gewiss. So ist es. So soll es sein.\"},{\"text\":\"Darin stecken Zustimmung und Vertrauen.\"},{\"text\":\"Quiz: Wofür steht „Amen“ für dich?\\nA Zustimmung\\nB Hoffnung\\nC Vertrauen\"},{\"text\":\"Oder vielleicht von allem etwas?\"}]},\"reel\":{\"hook\":\"„Amen“ ist nicht einfach nur das Wort am Schluss.\",\"script\":\"Was bedeutet eigentlich „Amen“?\\nViele kennen das Wort aus dem Gebet. Oft klingt es wie ein Abschluss. Aber „Amen“ ist mehr.\\nDas Wort kommt aus dem Hebräischen. Es bedeutet so viel wie: Das ist gewiss. So ist es. So soll es sein.\\nWenn wir „Amen“ sagen, setzen wir nicht nur einen Punkt. Wir sprechen Vertrauen aus.\\nVielleicht heißt das heute: Ich muss nicht alles absichern. Aber ich kann sagen, worauf ich hoffe.\\nAmen ist ein kleines Wort. Aber es trägt viel.\\nWas bedeutet es für dich?\",\"shots\":[\"Nahaufnahme einer ruhigen sprechenden Person vor schlichtem Hintergrund\",\"Detailaufnahme von gefalteten Händen oder einer stillen Tischszene\",\"Langsame Kamerabewegung über eine offene Bibel ohne lesbaren Fokus auf Text\",\"Ruhige Alltagsszene am Fenster mit nachdenklicher Stimmung\",\"Abschlussbild mit offener Geste der sprechenden Person\"],\"duration_seconds\":45}},\"visual\":{\"concept\":\"Ruhige, reduzierte Bildsprache: ein stiller Moment am Ende eines Gebets, Hände in entspannter Haltung, warmes natürliches Licht, kein inszenierter Kitsch, alltagsnah und offen.\",\"flux_prompt\":\"Authentische ruhige Alltagsszene mit einer einzelnen Person in nachdenklicher Haltung, entspannte Hände, warmes natürliches Fensterlicht, schlichte Umgebung, protestantische zurückhaltende Ästhetik, glaubwürdige menschliche Präsenz, weiche Farben, geringe Tiefenschärfe, editorial photography, serene mood, no visible writing\",\"negative_prompt\":\"text, letters, logo, watermark\",\"formats\":[\"4:5\",\"9:16\",\"1.91:1\"],\"alt_text\":\"Eine Person sitzt in ruhiger Haltung am Fenster. Die Hände sind entspannt ineinandergelegt. Warmes Licht fällt in einen schlichten Raum und erzeugt eine stille, konzentrierte Stimmung.\"},\"qa\":{\"warnings\":[\"Alt text must be completed before approval\",\"Theologische Kurzform bewusst einfach gehalten; bei Grafikabnahme auf präzise Formulierungen achten.\"],\"approved\":false},\"metadata\":{\"model\":\"gpt-5\",\"generated_at\":\"2026-09-08T00:00:00Z\",\"prompt_version\":\"1.0\",\"assets\":[\"Instagram-Karussell 7 Karten\",\"Instagram-Reel 45 Sekunden\",\"Story 6 Slides\",\"Facebook Feed Post\",\"Mastodon Kurztext\",\"Bluesky Kurztext\"]}}"
+}

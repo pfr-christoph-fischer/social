@@ -10,7 +10,7 @@
   },
   "editorial_core": {
     "title": "Was bedeutet eigentlich Amen?",
-    "main_message": "Serie: Was bedeutet eigentlich Amen?",
+    "main_message": "Amen heißt: So ist es. So soll es sein. Das Wort drückt Vertrauen, Zustimmung und Halt aus.",
     "audience": "breite Öffentlichkeit",
     "tone": [
       "klar",
@@ -22,54 +22,110 @@
       "Column: Glauben verstehen",
       "Production mode: in Monatsblöcken vollständig vorproduzierbar",
       "Structure: Frage als Einstieg | verständliche Erklärung | Bedeutung für heute | Gesprächsfrage",
-      "AI support notes: Skript | Karussellkarten | Reel-Hook | Untertitel | Alt-Text"
+      "AI support notes: Skript | Karussellkarten | Reel-Hook | Untertitel | Alt-Text",
+      "Theologische Einordnung: 'Amen' stammt aus dem Hebräischen und steht für Verlässlichkeit, Bestätigung und Vertrauen."
     ]
   },
   "platforms": {
     "facebook": {
-      "text": "",
-      "headline": ""
+      "text": "Was bedeutet eigentlich „Amen“?\n\nViele kennen das Wort aus Gebeten. Oft ist es einfach das letzte Wort. Aber „Amen“ ist mehr als ein Schlusspunkt.\n\nDas Wort kommt aus dem Hebräischen. Es bedeutet so viel wie: Das ist gewiss. So ist es. So soll es sein.\n\nWer „Amen“ sagt, stimmt nicht nur zu. Da steckt Vertrauen drin. Ein Gebet endet also nicht bloß mit einer Formel. Es endet mit Halt.\n\nFür heute kann das heißen: Ich muss nicht alles in der Hand haben. Aber ich kann aussprechen, worauf ich hoffe. Und ich kann sagen: Gott, darauf vertraue ich.\n\nGesprächsfrage: Ist „Amen“ für dich eher Zustimmung, Hoffnung oder Vertrauen?",
+      "headline": "Was bedeutet eigentlich Amen?"
     },
     "instagram": {
-      "caption": "",
-      "carousel": []
+      "caption": "Was bedeutet eigentlich „Amen“?\n\nAmen ist mehr als das letzte Wort eines Gebets.\nEs heißt: So ist es. So soll es sein.\nDarin steckt Vertrauen.\n\nWenn wir „Amen“ sagen, geben wir etwas nicht einfach ab. Wir sprechen aus, worauf wir hoffen.\n\nFrage an dich: Was klingt für dich in „Amen“ mit – Zustimmung, Hoffnung oder Vertrauen?\n\n#Amen #GlaubenVerstehen #Mittwochsserie #TheologieEinfach #Gebet",
+      "carousel": [
+        {
+          "type": "title",
+          "text": "Was bedeutet eigentlich Amen?"
+        },
+        {
+          "type": "explanation",
+          "text": "„Amen“ ist nicht nur ein Abschluss. Es ist ein starkes Wort mit Gewicht."
+        },
+        {
+          "type": "explanation",
+          "text": "Das Wort kommt aus dem Hebräischen. Es heißt so viel wie: Das ist gewiss. So ist es. So soll es sein."
+        },
+        {
+          "type": "meaning",
+          "text": "Wenn Menschen „Amen“ sagen, drücken sie Zustimmung und Vertrauen aus."
+        },
+        {
+          "type": "meaning",
+          "text": "Am Ende eines Gebets heißt das: Ich halte mich an das, was ich vor Gott gesagt habe."
+        },
+        {
+          "type": "application",
+          "text": "Für heute kann das bedeuten: Nicht alles ist sicher. Aber Vertrauen kann einen festen Boden geben."
+        },
+        {
+          "type": "question",
+          "text": "Welche Bedeutung hat „Amen“ für dich: Zustimmung, Hoffnung oder Vertrauen?"
+        }
+      ]
     },
     "mastodon": {
-      "text": ""
+      "text": "Was bedeutet eigentlich „Amen“?\n\nMehr als ein Schlusspunkt. „Amen“ heißt so viel wie: Das ist gewiss. So ist es. So soll es sein.\n\nAm Ende eines Gebets steckt darin Zustimmung und Vertrauen.\n\nWas klingt für dich in diesem Wort mit?"
     },
     "bluesky": {
-      "text": ""
+      "text": "Was bedeutet eigentlich „Amen“? Mehr als ein Schlusspunkt: „Amen“ heißt so viel wie „Das ist gewiss“ oder „So soll es sein“. Darin stecken Zustimmung und Vertrauen. Was hörst du in diesem Wort?"
     },
     "story": {
-      "slides": []
+      "slides": [
+        {
+          "text": "Was bedeutet eigentlich „Amen“?"
+        },
+        {
+          "text": "Nicht nur das letzte Wort eines Gebets."
+        },
+        {
+          "text": "Es heißt so viel wie: Das ist gewiss. So ist es. So soll es sein."
+        },
+        {
+          "text": "Darin stecken Zustimmung und Vertrauen."
+        },
+        {
+          "text": "Quiz: Wofür steht „Amen“ für dich?\nA Zustimmung\nB Hoffnung\nC Vertrauen"
+        },
+        {
+          "text": "Oder vielleicht von allem etwas?"
+        }
+      ]
     },
     "reel": {
-      "hook": "",
-      "script": "",
-      "shots": [],
-      "duration_seconds": 0
+      "hook": "„Amen“ ist nicht einfach nur das Wort am Schluss.",
+      "script": "Was bedeutet eigentlich „Amen“?\nViele kennen das Wort aus dem Gebet. Oft klingt es wie ein Abschluss. Aber „Amen“ ist mehr.\nDas Wort kommt aus dem Hebräischen. Es bedeutet so viel wie: Das ist gewiss. So ist es. So soll es sein.\nWenn wir „Amen“ sagen, setzen wir nicht nur einen Punkt. Wir sprechen Vertrauen aus.\nVielleicht heißt das heute: Ich muss nicht alles absichern. Aber ich kann sagen, worauf ich hoffe.\nAmen ist ein kleines Wort. Aber es trägt viel.\nWas bedeutet es für dich?",
+      "shots": [
+        "Nahaufnahme einer ruhigen sprechenden Person vor schlichtem Hintergrund",
+        "Detailaufnahme von gefalteten Händen oder einer stillen Tischszene",
+        "Langsame Kamerabewegung über eine offene Bibel ohne lesbaren Fokus auf Text",
+        "Ruhige Alltagsszene am Fenster mit nachdenklicher Stimmung",
+        "Abschlussbild mit offener Geste der sprechenden Person"
+      ],
+      "duration_seconds": 45
     }
   },
   "visual": {
-    "concept": "",
-    "flux_prompt": "",
+    "concept": "Ruhige, reduzierte Bildsprache: ein stiller Moment am Ende eines Gebets, Hände in entspannter Haltung, warmes natürliches Licht, kein inszenierter Kitsch, alltagsnah und offen.",
+    "flux_prompt": "Authentische ruhige Alltagsszene mit einer einzelnen Person in nachdenklicher Haltung, entspannte Hände, warmes natürliches Fensterlicht, schlichte Umgebung, protestantische zurückhaltende Ästhetik, glaubwürdige menschliche Präsenz, weiche Farben, geringe Tiefenschärfe, editorial photography, serene mood, no visible writing",
     "negative_prompt": "text, letters, logo, watermark",
     "formats": [
       "4:5",
       "9:16",
       "1.91:1"
     ],
-    "alt_text": ""
+    "alt_text": "Eine Person sitzt in ruhiger Haltung am Fenster. Die Hände sind entspannt ineinandergelegt. Warmes Licht fällt in einen schlichten Raum und erzeugt eine stille, konzentrierte Stimmung."
   },
   "qa": {
     "warnings": [
-      "Alt text must be completed before approval"
+      "Alt text must be completed before approval",
+      "Theologische Kurzform bewusst einfach gehalten; bei Grafikabnahme auf präzise Formulierungen achten."
     ],
     "approved": false
   },
   "metadata": {
-    "model": "",
-    "generated_at": "",
+    "model": "gpt-5.4-2026-03-05",
+    "generated_at": "2026-09-08T17:15:32.552Z",
     "prompt_version": "1.0",
     "assets": []
   }
