@@ -1,0 +1,52 @@
+{
+  "delivery_url": "https://delivery.eu2.bfl.ai/durable/2026090814/5e1f69ea-538b-4d66-962e-9be995966f07/eb/01774614970131/1497013163e845a1a5b584a7b087d010/sample.jpeg?se=2026-09-08T14%3A26%3A58Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=cOsGk9rmR67JGfpJEHfuffEGFaGN5vFnybAkhxePLWw%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "7d942306-5e2b-48c2-b9c1-2cdf4a713f4b",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "7d942306-5e2b-48c2-b9c1-2cdf4a713f4b",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "7d942306-5e2b-48c2-b9c1-2cdf4a713f4b",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "7d942306-5e2b-48c2-b9c1-2cdf4a713f4b",
+      "status": "Ready",
+      "result": {
+        "start_time": 1788877016.6087952,
+        "prompt": "Ruhige fotografische Szene, weiches Morgen- oder Abendlicht, ein alltägliches nicht perfektes Detail mit sichtbaren Spuren von Gebrauch, poetische Stimmung, natürliche Farben, stille Hoffnung, minimalistisch, dokumentarisch, hohe Authentizität, keine Menschenmenge, keine Inszenierung, Fokus auf Verwandlung im Kleinen, geeignet fuer Social Media Post und Story, no text, no letters, no typography, no logo, no watermark",
+        "seed": 1859241156,
+        "sample": "https://delivery.eu2.bfl.ai/durable/2026090814/5e1f69ea-538b-4d66-962e-9be995966f07/eb/01774614970131/1497013163e845a1a5b584a7b087d010/sample.jpeg?se=2026-09-08T14%3A26%3A58Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=cOsGk9rmR67JGfpJEHfuffEGFaGN5vFnybAkhxePLWw%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "7d942306-5e2b-48c2-b9c1-2cdf4a713f4b",
+    "polling_url": "https://api.eu2.bfl.ai/v1/get_result?id=7d942306-5e2b-48c2-b9c1-2cdf4a713f4b",
+    "cost": 1.5,
+    "input_mp": 0,
+    "output_mp": 1.39
+  }
+}

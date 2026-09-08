@@ -1,0 +1,36 @@
+{
+  "delivery_url": "https://delivery.us2.bfl.ai/durable/2026090814/5e1f69ea-538b-4d66-962e-9be995966f07/83/0141954dbfe333/4dbfe333fb9844c0abc4be2c59eeb4d8/sample.jpeg?se=2026-09-08T14%3A26%3A54Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=wEOmRMGrDSgOTsET02Uq3duuiSmtfCVfiA6ZGCqxccM%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "e14eba04-f43d-4b2f-b7a4-31faf5a338f4",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "e14eba04-f43d-4b2f-b7a4-31faf5a338f4",
+      "status": "Ready",
+      "result": {
+        "start_time": 1788877012.9101524,
+        "prompt": "Ruhige fotografische Szene, weiches Morgen- oder Abendlicht, ein alltägliches nicht perfektes Detail mit sichtbaren Spuren von Gebrauch, poetische Stimmung, natürliche Farben, stille Hoffnung, minimalistisch, dokumentarisch, hohe Authentizität, keine Menschenmenge, keine Inszenierung, Fokus auf Verwandlung im Kleinen, geeignet fuer Social Media Post und Story, no text, no letters, no typography, no logo, no watermark",
+        "seed": 110126965,
+        "sample": "https://delivery.us2.bfl.ai/durable/2026090814/5e1f69ea-538b-4d66-962e-9be995966f07/83/0141954dbfe333/4dbfe333fb9844c0abc4be2c59eeb4d8/sample.jpeg?se=2026-09-08T14%3A26%3A54Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=wEOmRMGrDSgOTsET02Uq3duuiSmtfCVfiA6ZGCqxccM%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "e14eba04-f43d-4b2f-b7a4-31faf5a338f4",
+    "polling_url": "https://api.us2.bfl.ai/v1/get_result?id=e14eba04-f43d-4b2f-b7a4-31faf5a338f4",
+    "cost": 1.4000000000000001,
+    "input_mp": 0,
+    "output_mp": 0.72
+  }
+}
