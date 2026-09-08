@@ -1,0 +1,44 @@
+{
+  "delivery_url": "https://delivery.eu2.bfl.ai/durable/2026090817/5e1f69ea-538b-4d66-962e-9be995966f07/e1/0009853a141005/3a1410053a6a48ae80db9a18ccfe84ef/sample.jpeg?se=2026-09-08T17%3A30%3A01Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=e0x1krEmx821gw1ca531Yqv/IMCtlqXefsDzH7fVX/g%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "34f4097e-f79c-4952-a34a-14f9933c171d",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "34f4097e-f79c-4952-a34a-14f9933c171d",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "34f4097e-f79c-4952-a34a-14f9933c171d",
+      "status": "Ready",
+      "result": {
+        "start_time": 1788888000.192539,
+        "prompt": "Authentische ruhige Alltagsszene mit einer einzelnen Person in nachdenklicher Haltung, entspannte Hände, warmes natürliches Fensterlicht, schlichte Umgebung, protestantische zurückhaltende Ästhetik, glaubwürdige menschliche Präsenz, weiche Farben, geringe Tiefenschärfe, editorial photography, serene mood, no visible writing, no text, no letters, no typography, no logo, no watermark",
+        "seed": 3939809355,
+        "sample": "https://delivery.eu2.bfl.ai/durable/2026090817/5e1f69ea-538b-4d66-962e-9be995966f07/e1/0009853a141005/3a1410053a6a48ae80db9a18ccfe84ef/sample.jpeg?se=2026-09-08T17%3A30%3A01Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=e0x1krEmx821gw1ca531Yqv/IMCtlqXefsDzH7fVX/g%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "34f4097e-f79c-4952-a34a-14f9933c171d",
+    "polling_url": "https://api.eu2.bfl.ai/v1/get_result?id=34f4097e-f79c-4952-a34a-14f9933c171d",
+    "cost": 1.4000000000000001,
+    "input_mp": 0,
+    "output_mp": 0.72
+  }
+}
