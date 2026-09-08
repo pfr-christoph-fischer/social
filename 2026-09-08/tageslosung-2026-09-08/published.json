@@ -84,5 +84,91 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-08",
+    "contentDate": "2026-09-08",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-09-08T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Wer auf den HERRN hofft, den wird die Güte umfangen.",
+    "assets": [
+      "render-square-01.jpg"
+    ],
+    "altTexts": [
+      "Wer auf den HERRN hofft, den wird die Güte umfangen."
+    ],
+    "id": "d2c1e646-4162-4d1e-a8b2-b216dfb485b5",
+    "attemptCount": 1,
+    "remoteId": "17876557362628040",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:45:12.064Z",
+    "updatedAt": "2026-09-08T05:00:37.681Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-08",
+    "contentDate": "2026-09-08",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-09-08T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Wer auf den HERRN hofft, den wird die Güte umfangen.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Wer auf den HERRN hofft, den wird die Güte umfangen."
+    ],
+    "id": "48462d7b-9a89-42e1-8fd0-e306e058821e",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3muyaivdghv23",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3muyaivdghv23",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:45:12.068Z",
+    "updatedAt": "2026-09-08T05:00:40.276Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-08",
+    "contentDate": "2026-09-08",
+    "platform": "linkedin",
+    "format": "default",
+    "scheduledAt": "2026-09-08T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Wer auf den HERRN hofft, den wird die Güte umfangen.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Wer auf den HERRN hofft, den wird die Güte umfangen."
+    ],
+    "id": "f10aaa23-6b69-462c-b905-59702f0fcde6",
+    "attemptCount": 1,
+    "remoteId": "urn:li:share:7502954043200167936",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:45:12.072Z",
+    "updatedAt": "2026-09-08T05:00:42.320Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 201
+    },
+    "retryHistory": []
   }
 ]
