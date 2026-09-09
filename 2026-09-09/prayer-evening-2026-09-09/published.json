@@ -27,5 +27,67 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "prayer-evening-2026-09-09",
+    "contentDate": "2026-09-09",
+    "platform": "instagram",
+    "format": "default",
+    "scheduledAt": "2026-09-09T18:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Gott,\nwas heute war,\nlegen wir in deine Hand.\n\nWas gut war.\nWas wehgetan hat.\nWas unfertig bleibt.\n\nWir beten für die Menschen in Kiew nach den erneuten russischen Angriffen.\nUnd für Kinder und Jugendliche, deren Zukunft in den neuen PISA-Ergebnissen so brüchig sichtbar wird.\n\nSchenk Ruhe für diese Nacht.\nUnd halte Hoffnung in uns wach.\n\nAmen.",
+    "assets": [
+      "render-instagram-feed-01.jpg",
+      "render-instagram-feed-02.jpg",
+      "render-instagram-feed-03.jpg",
+      "render-instagram-feed-04.jpg",
+      "render-instagram-feed-05.jpg",
+      "render-instagram-feed-06.jpg"
+    ],
+    "altTexts": [
+      "Ein ruhiger Tisch am Abend vor einem Fenster. Draußen ist es schon dämmerig. Auf dem Tisch liegen ein geschlossener Notizblock und ein Stift neben einer kleinen warmen Lichtquelle. Das Bild wirkt still und entlastend."
+    ],
+    "id": "27519810-0760-4b0b-9a70-ccb6f22cd0ab",
+    "attemptCount": 1,
+    "remoteId": "18007814591976603",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-09-09T16:13:33.558Z",
+    "updatedAt": "2026-09-09T18:01:04.734Z",
+    "responseMetadata": {
+      "mediaCount": 6,
+      "mediaType": "CAROUSEL",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "prayer-evening-2026-09-09",
+    "contentDate": "2026-09-09",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-09-09T18:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Gott,\nwir legen dir diesen Tag hin.\nDas Gute.\nDas Schwere.\nDas Unfertige.\n\nWir beten für die Menschen in Kiew nach den erneuten russischen Angriffen.\nUnd für Kinder und Jugendliche, deren Zukunft in den neuen PISA-Ergebnissen so brüchig sichtbar wird.\n\nSchenk Ruhe für diese Nacht.\nUnd halte Hoffnung in uns wach.\nAmen.",
+    "assets": [
+      "render-facebook-mastodon-01.png"
+    ],
+    "altTexts": [
+      "Ein ruhiger Tisch am Abend vor einem Fenster. Draußen ist es schon dämmerig. Auf dem Tisch liegen ein geschlossener Notizblock und ein Stift neben einer kleinen warmen Lichtquelle. Das Bild wirkt still und entlastend."
+    ],
+    "id": "2cc8195c-b8b9-4ea0-85d8-122b2125b106",
+    "attemptCount": 1,
+    "remoteId": "117242387987655690",
+    "remoteUrl": "https://kirche.social/@christoph/117242387987655690",
+    "lastError": null,
+    "createdAt": "2026-09-09T16:13:33.646Z",
+    "updatedAt": "2026-09-09T18:01:07.541Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
