@@ -27,5 +27,68 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "post-0031",
+    "contentDate": "2026-09-09",
+    "platform": "instagram",
+    "format": "default",
+    "scheduledAt": "2026-09-09T07:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Was bedeutet eigentlich „Amen“?\n\nAmen ist mehr als das letzte Wort eines Gebets.\nEs heißt: So ist es. So soll es sein.\nDarin steckt Vertrauen.\n\nWenn wir „Amen“ sagen, geben wir etwas nicht einfach ab. Wir sprechen aus, worauf wir hoffen.\n\nFrage an dich: Was klingt für dich in „Amen“ mit – Zustimmung, Hoffnung oder Vertrauen?\n\n#Amen #GlaubenVerstehen #Mittwochsserie #TheologieEinfach #Gebet",
+    "assets": [
+      "render-instagram-feed-01.jpg",
+      "render-instagram-feed-02.jpg",
+      "render-instagram-feed-03.jpg",
+      "render-instagram-feed-04.jpg",
+      "render-instagram-feed-05.jpg",
+      "render-instagram-feed-06.jpg",
+      "render-instagram-feed-07.jpg"
+    ],
+    "altTexts": [
+      "Eine Person sitzt in ruhiger Haltung am Fenster. Die Hände sind entspannt ineinandergelegt. Warmes Licht fällt in einen schlichten Raum und erzeugt eine stille, konzentrierte Stimmung."
+    ],
+    "id": "7ceab84b-b408-41d4-a916-fa9c542b4ff7",
+    "attemptCount": 1,
+    "remoteId": "18371034805213337",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-09-08T17:24:16.680Z",
+    "updatedAt": "2026-09-09T07:01:16.702Z",
+    "responseMetadata": {
+      "mediaCount": 7,
+      "mediaType": "CAROUSEL",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "post-0031",
+    "contentDate": "2026-09-09",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-09-09T07:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Was bedeutet eigentlich „Amen“?\n\nMehr als ein Schlusspunkt. „Amen“ heißt so viel wie: Das ist gewiss. So ist es. So soll es sein.\n\nAm Ende eines Gebets steckt darin Zustimmung und Vertrauen.\n\nWas klingt für dich in diesem Wort mit?",
+    "assets": [
+      "render-facebook-mastodon-01.png"
+    ],
+    "altTexts": [
+      "Eine Person sitzt in ruhiger Haltung am Fenster. Die Hände sind entspannt ineinandergelegt. Warmes Licht fällt in einen schlichten Raum und erzeugt eine stille, konzentrierte Stimmung."
+    ],
+    "id": "1f77f4ec-7918-4922-8dfd-af92239bacd0",
+    "attemptCount": 1,
+    "remoteId": "117239793444716707",
+    "remoteUrl": "https://kirche.social/@christoph/117239793444716707",
+    "lastError": null,
+    "createdAt": "2026-09-08T17:24:16.744Z",
+    "updatedAt": "2026-09-09T07:01:17.966Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
