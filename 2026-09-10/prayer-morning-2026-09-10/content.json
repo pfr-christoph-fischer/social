@@ -105,13 +105,17 @@
     "alt_text": "Ein heller Morgenraum mit weichem Licht am Fenster. Auf einem schlichten Tisch steht eine Tasse. Draußen glitzert Tau auf Blättern. Die Szene wirkt ruhig, klar und hoffnungsvoll."
   },
   "qa": {
-    "approved": true,
-    "warnings": []
+    "warnings": [],
+    "approved": true
   },
   "metadata": {
     "model": "gpt-5.4-2026-03-05",
     "generated_at": "2026-09-09T16:30:29.317Z",
     "prompt_version": "1.1",
-    "assets": []
+    "assets": [
+      "assets/background-1.91x1.webp",
+      "assets/background-4x5.webp",
+      "assets/background-9x16.webp"
+    ]
   }
 }

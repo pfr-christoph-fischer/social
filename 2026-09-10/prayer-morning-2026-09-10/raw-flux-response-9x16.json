@@ -1,0 +1,52 @@
+{
+  "delivery_url": "https://delivery.eu2.bfl.ai/durable/2026090916/5e1f69ea-538b-4d66-962e-9be995966f07/b6/57412490a4a2b1/90a4a2b19b7e4429aea3598292518779/sample.jpeg?se=2026-09-09T16%3A42%3A54Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=21bFlcOG79rzpfjy9tMe9U/WFzZ141WJWiH6eJZSHE4%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "85cd9308-78f6-46b8-9edb-afdca2072712",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "85cd9308-78f6-46b8-9edb-afdca2072712",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "85cd9308-78f6-46b8-9edb-afdca2072712",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "85cd9308-78f6-46b8-9edb-afdca2072712",
+      "status": "Ready",
+      "result": {
+        "start_time": 1788971572.8344467,
+        "prompt": "ruhige Morgenszene, weiches natürliches Frühlicht, Fenster mit hellem Himmel, Tau auf Blättern, schlichter Holztisch mit Tasse, klare protestantische Bildsprache, minimalistisch, echt, warm, poetisch, hoffnungsvoll, hohe fotografische Glaubwürdigkeit, sanfte Farben, viel Raum, keine Menschenmenge, no text, no letters, no typography, no logo, no watermark",
+        "seed": 56171531,
+        "sample": "https://delivery.eu2.bfl.ai/durable/2026090916/5e1f69ea-538b-4d66-962e-9be995966f07/b6/57412490a4a2b1/90a4a2b19b7e4429aea3598292518779/sample.jpeg?se=2026-09-09T16%3A42%3A54Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=21bFlcOG79rzpfjy9tMe9U/WFzZ141WJWiH6eJZSHE4%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "85cd9308-78f6-46b8-9edb-afdca2072712",
+    "polling_url": "https://api.eu2.bfl.ai/v1/get_result?id=85cd9308-78f6-46b8-9edb-afdca2072712",
+    "cost": 1.5,
+    "input_mp": 0,
+    "output_mp": 1.98
+  }
+}

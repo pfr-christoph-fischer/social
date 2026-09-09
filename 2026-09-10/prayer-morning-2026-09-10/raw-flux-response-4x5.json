@@ -1,0 +1,36 @@
+{
+  "delivery_url": "https://delivery.us8.bfl.ai/durable/2026090916/5e1f69ea-538b-4d66-962e-9be995966f07/dc/57076829805683/29805683e45248ea90d1c14485dd61ba/sample.jpeg?se=2026-09-09T16%3A42%3A51Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=fv2/ZdsEUadNebtqncjdoExz4hrdWx5xgcVSBenGPos%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "da3df0ae-305e-4766-aac9-8a1698d52501",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "da3df0ae-305e-4766-aac9-8a1698d52501",
+      "status": "Ready",
+      "result": {
+        "start_time": 1788971569.5050511,
+        "prompt": "ruhige Morgenszene, weiches natürliches Frühlicht, Fenster mit hellem Himmel, Tau auf Blättern, schlichter Holztisch mit Tasse, klare protestantische Bildsprache, minimalistisch, echt, warm, poetisch, hoffnungsvoll, hohe fotografische Glaubwürdigkeit, sanfte Farben, viel Raum, keine Menschenmenge, no text, no letters, no typography, no logo, no watermark",
+        "seed": 3987737662,
+        "sample": "https://delivery.us8.bfl.ai/durable/2026090916/5e1f69ea-538b-4d66-962e-9be995966f07/dc/57076829805683/29805683e45248ea90d1c14485dd61ba/sample.jpeg?se=2026-09-09T16%3A42%3A51Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=fv2/ZdsEUadNebtqncjdoExz4hrdWx5xgcVSBenGPos%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "da3df0ae-305e-4766-aac9-8a1698d52501",
+    "polling_url": "https://api.us8.bfl.ai/v1/get_result?id=da3df0ae-305e-4766-aac9-8a1698d52501",
+    "cost": 1.5,
+    "input_mp": 0,
+    "output_mp": 1.39
+  }
+}
