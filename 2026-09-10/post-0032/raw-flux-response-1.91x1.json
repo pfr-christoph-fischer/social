@@ -1,0 +1,44 @@
+{
+  "delivery_url": "https://delivery.eu2.bfl.ai/durable/2026090916/5e1f69ea-538b-4d66-962e-9be995966f07/53/887842f8f7fd6a/f8f7fd6a7cfa4e098cdd240d73a9474e/sample.jpeg?se=2026-09-09T17%3A04%3A48Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=VGVXR/HqUulOWa0wrE9hIfalMjIGi0XE3TNE2hsa3yY%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "36df54b9-ec86-4cb4-9d05-abc5ca893c2e",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "36df54b9-ec86-4cb4-9d05-abc5ca893c2e",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "36df54b9-ec86-4cb4-9d05-abc5ca893c2e",
+      "status": "Ready",
+      "result": {
+        "start_time": 1788972887.0310988,
+        "prompt": "Minimalistische, ruhige Szene zum Thema Lernen und Nachdenken, offene Hefte, Licht, symbolische Atmosphäre von Bildung und Reflexion, keine erkennbaren Personen, kein Klassenraum mit identifizierenden Details, editorial style, no text, no letters, no typography, no logo, no watermark",
+        "seed": 2273519318,
+        "sample": "https://delivery.eu2.bfl.ai/durable/2026090916/5e1f69ea-538b-4d66-962e-9be995966f07/53/887842f8f7fd6a/f8f7fd6a7cfa4e098cdd240d73a9474e/sample.jpeg?se=2026-09-09T17%3A04%3A48Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=VGVXR/HqUulOWa0wrE9hIfalMjIGi0XE3TNE2hsa3yY%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "36df54b9-ec86-4cb4-9d05-abc5ca893c2e",
+    "polling_url": "https://api.eu2.bfl.ai/v1/get_result?id=36df54b9-ec86-4cb4-9d05-abc5ca893c2e",
+    "cost": 1.4000000000000001,
+    "input_mp": 0,
+    "output_mp": 0.72
+  }
+}
