@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-09",
+    "contentDate": "2026-09-09",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-09-09T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Unser Gott wandte den Fluch in einen Segen.",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Unser Gott wandte den Fluch in einen Segen."
+    ],
+    "id": "5b79d914-a106-41cd-8b90-d9beb53b74c8",
+    "attemptCount": 1,
+    "remoteId": "18101602046250739",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:45:14.092Z",
+    "updatedAt": "2026-09-09T05:00:27.158Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-09",
+    "contentDate": "2026-09-09",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-09-09T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Unser Gott wandte den Fluch in einen Segen.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Unser Gott wandte den Fluch in einen Segen."
+    ],
+    "id": "f8c92c62-d145-4ea3-a28f-d4b4c8544530",
+    "attemptCount": 1,
+    "remoteId": "117239318329622297",
+    "remoteUrl": "https://kirche.social/@christoph/117239318329622297",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:45:14.095Z",
+    "updatedAt": "2026-09-09T05:00:28.273Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
