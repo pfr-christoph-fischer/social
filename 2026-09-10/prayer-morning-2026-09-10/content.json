@@ -1,0 +1,121 @@
+{
+  "id": "prayer-morning-2026-09-10",
+  "status": "in Arbeit",
+  "needs_input": false,
+  "source": {
+    "calendar_post_id": "prayer-morning-2026-09-10",
+    "date": "2026-09-10",
+    "rubric": "Morgengebet",
+    "liturgical_source": ""
+  },
+  "editorial_core": {
+    "title": "Morgengebet",
+    "main_message": "Der neue Tag ist Gottes Gabe. Wir beginnen ihn mit Lob, Dank und ruhigem Vertrauen.",
+    "audience": "breite Öffentlichkeit",
+    "tone": [
+      "lobend",
+      "hoffnungsvoll",
+      "zugewandt"
+    ],
+    "source_notes": [
+      "Gebet am Morgen mit Fokus auf Gottes Gegenwart, Güte und Treue.",
+      "Kein Bezug auf aktuelle Nachrichten oder konkrete Fürbitten.",
+      "Kurzer biblischer Gebetsschnipsel: „Dies ist der Tag, den der HERR macht“ (Psalm 118,24, Lutherbibel 2017; via Bibleserver geprüft).",
+      "Sprache bewusst einfach, bildhaft und zugänglich.",
+      "Schlusssatz soll als Satz des Vertrauens in den Tag mitgehen."
+    ]
+  },
+  "platforms": {
+    "facebook": {
+      "text": "Gott, du Licht dieses Morgens,\ndu weckst die Welt und auch mein Herz.\nDieser neue Tag ist nicht mein Werk. Er ist deine Gabe.\n\n„Dies ist der Tag, den der HERR macht“ (Psalm 118,24).\nDarum komme ich zu dir mit allem, was heute vor mir liegt.\nMit dem Klaren. Mit dem Offenen. Mit dem, was mich noch drückt.\n\nDanke für den Atem.\nDanke für das Licht am Fenster.\nDanke für alles, was heute wachsen darf.\n\nGib mir einen wachen Blick für das Gute.\nGib mir Ruhe, wenn es laut wird.\nGib mir Mut, freundlich zu bleiben.\n\nIch nehme diesen Tag aus deiner Hand.\nDu gehst mit.\nDas ist genug.\n\nAmen.",
+      "headline": "Morgengebet"
+    },
+    "instagram": {
+      "caption": "Gott, du Licht dieses Morgens.\nDieser Tag ist deine Gabe.\n\n„Dies ist der Tag, den der HERR macht“ (Psalm 118,24).\nDarum beginne ich nicht mit Druck, sondern mit Vertrauen.\n\nDanke für Atem, Licht und Leben.\nGeh du mit mir durch alles, was heute kommt.\nDu gehst mit. Das ist genug.\n\nAmen.",
+      "carousel": [
+        {
+          "type": "text",
+          "text": "Gott, du Licht dieses Morgens."
+        },
+        {
+          "type": "text",
+          "text": "Dieser Tag ist deine Gabe."
+        },
+        {
+          "type": "text",
+          "text": "„Dies ist der Tag, den der HERR macht“ (Psalm 118,24)."
+        },
+        {
+          "type": "text",
+          "text": "Ich beginne nicht mit Druck, sondern mit Vertrauen."
+        },
+        {
+          "type": "text",
+          "text": "Du gehst mit. Das ist genug."
+        }
+      ]
+    },
+    "mastodon": {
+      "text": "Gott, du Licht dieses Morgens,\ndieser Tag ist deine Gabe.\n\n„Dies ist der Tag, den der HERR macht“ (Psalm 118,24).\nDarum beginne ich nicht mit Druck, sondern mit Vertrauen.\n\nDanke für Atem, Licht und Leben.\nGeh mit mir durch alles, was heute kommt.\nDu gehst mit. Das ist genug.\n\nAmen."
+    },
+    "bluesky": {
+      "text": "Gott, du Licht dieses Morgens. Dieser Tag ist deine Gabe.\n\n„Dies ist der Tag, den der HERR macht“ (Psalm 118,24).\nIch beginne nicht mit Druck, sondern mit Vertrauen.\n\nDu gehst mit. Das ist genug.\nAmen."
+    },
+    "story": {
+      "slides": [
+        {
+          "text": "Gott, du Licht dieses Morgens."
+        },
+        {
+          "text": "Dieser Tag ist deine Gabe."
+        },
+        {
+          "text": "„Dies ist der Tag, den der HERR macht“ (Psalm 118,24)."
+        },
+        {
+          "text": "Ich beginne nicht mit Druck, sondern mit Vertrauen."
+        },
+        {
+          "text": "Du gehst mit. Das ist genug."
+        }
+      ]
+    },
+    "reel": {
+      "hook": "Dieser Tag ist nicht nur voll. Er ist zuerst Gottes Gabe.",
+      "script": "Gott, du Licht dieses Morgens. Du weckst die Welt und auch mein Herz. Dieser Tag ist deine Gabe. „Dies ist der Tag, den der HERR macht.“ Darum beginne ich nicht mit Druck, sondern mit Vertrauen. Danke für Atem, Licht und Leben. Geh mit mir durch alles, was heute kommt. Du gehst mit. Das ist genug. Amen.",
+      "shots": [
+        "Morgenlicht am Fenster",
+        "Tau auf Blättern im frühen Licht",
+        "Eine Tasse auf einem ruhigen Tisch",
+        "Langsame Schritte auf einem stillen Weg",
+        "Heller Himmel am frühen Morgen"
+      ],
+      "duration_seconds": 28
+    }
+  },
+  "visual": {
+    "concept": "Ruhiger Morgenbeginn mit natürlichem Licht: ein schlichtes Fenster, weiches Frühlicht, Tau, Tischszene und offene Weite. Die Bildsprache soll Dankbarkeit, Ruhe und erwartungsvolle Zuversicht vermitteln.",
+    "flux_prompt": "ruhige Morgenszene, weiches natürliches Frühlicht, Fenster mit hellem Himmel, Tau auf Blättern, schlichter Holztisch mit Tasse, klare protestantische Bildsprache, minimalistisch, echt, warm, poetisch, hoffnungsvoll, hohe fotografische Glaubwürdigkeit, sanfte Farben, viel Raum, keine Menschenmenge",
+    "negative_prompt": "text, letters, logo, watermark",
+    "formats": [
+      "4:5",
+      "9:16",
+      "1.91:1"
+    ],
+    "alt_text": "Ein heller Morgenraum mit weichem Licht am Fenster. Auf einem schlichten Tisch steht eine Tasse. Draußen glitzert Tau auf Blättern. Die Szene wirkt ruhig, klar und hoffnungsvoll."
+  },
+  "qa": {
+    "warnings": [
+      "Alt text must be completed before approval",
+      "Bibelzitat geprüft: Psalm 118,24 auf Bibleserver (Lutherbibel 2017).",
+      "Vor Veröffentlichung am Morgen kurz auf stimmigen Tagesbezug prüfen."
+    ],
+    "approved": false
+  },
+  "metadata": {
+    "model": "gpt-5.4-2026-03-05",
+    "generated_at": "2026-09-09T16:30:29.317Z",
+    "prompt_version": "1.1",
+    "assets": []
+  }
+}
