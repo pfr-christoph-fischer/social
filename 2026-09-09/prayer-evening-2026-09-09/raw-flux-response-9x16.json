@@ -1,0 +1,44 @@
+{
+  "delivery_url": "https://delivery.us2.bfl.ai/durable/2026090916/5e1f69ea-538b-4d66-962e-9be995966f07/73/367043383fd79b/383fd79b8b2a4d0aa0ab04dac4a41919/sample.jpeg?se=2026-09-09T16%3A22%3A47Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=WdgLy0gC8gg5NgOysqNbKzxQRQu%2BQuykbbYlmMhB0nU%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "7b2c51aa-c6c4-4fd4-9c2f-ad69dd1c47e8",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "7b2c51aa-c6c4-4fd4-9c2f-ad69dd1c47e8",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "7b2c51aa-c6c4-4fd4-9c2f-ad69dd1c47e8",
+      "status": "Ready",
+      "result": {
+        "start_time": 1788970365.1975222,
+        "prompt": "Fotorealistische ruhige Abendszene in einem schlichten Innenraum, Fenster mit blauem Dämmerlicht, warmes weiches Licht einer kleinen Lampe oder Kerze, auf einem Tisch liegt ein geschlossener Notizblock und ein Stift, stille aufgeräumte Atmosphäre, dezente Tiefe, natürliche Farben, hoffnungsvoll, unaufgeregt, keine Menschen im Fokus, no text, no letters, no typography, no logo, no watermark",
+        "seed": 3098169303,
+        "sample": "https://delivery.us2.bfl.ai/durable/2026090916/5e1f69ea-538b-4d66-962e-9be995966f07/73/367043383fd79b/383fd79b8b2a4d0aa0ab04dac4a41919/sample.jpeg?se=2026-09-09T16%3A22%3A47Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=WdgLy0gC8gg5NgOysqNbKzxQRQu%2BQuykbbYlmMhB0nU%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "7b2c51aa-c6c4-4fd4-9c2f-ad69dd1c47e8",
+    "polling_url": "https://api.us2.bfl.ai/v1/get_result?id=7b2c51aa-c6c4-4fd4-9c2f-ad69dd1c47e8",
+    "cost": 1.5,
+    "input_mp": 0,
+    "output_mp": 1.98
+  }
+}

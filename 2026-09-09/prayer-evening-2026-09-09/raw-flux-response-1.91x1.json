@@ -1,0 +1,76 @@
+{
+  "delivery_url": "https://delivery.eu2.bfl.ai/durable/2026090916/5e1f69ea-538b-4d66-962e-9be995966f07/58/3601475184f566/5184f566a1bb40baab761866125a5371/sample.jpeg?se=2026-09-09T16%3A22%3A40Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=YWJBrkf9F0RgLD75ZTP8Scrn0hxoETcNu6fgdlZuTU0%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "e6cd6d9a-b60a-4cfd-a75b-75d05e819d6f",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "e6cd6d9a-b60a-4cfd-a75b-75d05e819d6f",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "e6cd6d9a-b60a-4cfd-a75b-75d05e819d6f",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "e6cd6d9a-b60a-4cfd-a75b-75d05e819d6f",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "e6cd6d9a-b60a-4cfd-a75b-75d05e819d6f",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "e6cd6d9a-b60a-4cfd-a75b-75d05e819d6f",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "e6cd6d9a-b60a-4cfd-a75b-75d05e819d6f",
+      "status": "Ready",
+      "result": {
+        "start_time": 1788970357.2967126,
+        "prompt": "Fotorealistische ruhige Abendszene in einem schlichten Innenraum, Fenster mit blauem Dämmerlicht, warmes weiches Licht einer kleinen Lampe oder Kerze, auf einem Tisch liegt ein geschlossener Notizblock und ein Stift, stille aufgeräumte Atmosphäre, dezente Tiefe, natürliche Farben, hoffnungsvoll, unaufgeregt, keine Menschen im Fokus, no text, no letters, no typography, no logo, no watermark",
+        "seed": 2601315962,
+        "sample": "https://delivery.eu2.bfl.ai/durable/2026090916/5e1f69ea-538b-4d66-962e-9be995966f07/58/3601475184f566/5184f566a1bb40baab761866125a5371/sample.jpeg?se=2026-09-09T16%3A22%3A40Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=YWJBrkf9F0RgLD75ZTP8Scrn0hxoETcNu6fgdlZuTU0%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "e6cd6d9a-b60a-4cfd-a75b-75d05e819d6f",
+    "polling_url": "https://api.eu2.bfl.ai/v1/get_result?id=e6cd6d9a-b60a-4cfd-a75b-75d05e819d6f",
+    "cost": 1.4000000000000001,
+    "input_mp": 0,
+    "output_mp": 0.72
+  }
+}
