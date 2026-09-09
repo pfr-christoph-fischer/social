@@ -84,5 +84,91 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-09",
+    "contentDate": "2026-09-09",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-09-09T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Unser Gott wandte den Fluch in einen Segen.",
+    "assets": [
+      "render-square-01.jpg"
+    ],
+    "altTexts": [
+      "Unser Gott wandte den Fluch in einen Segen."
+    ],
+    "id": "d36eb09e-f79c-4510-aabf-8783e0043cc3",
+    "attemptCount": 1,
+    "remoteId": "18126693835685989",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:45:14.098Z",
+    "updatedAt": "2026-09-09T05:00:37.462Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-09",
+    "contentDate": "2026-09-09",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-09-09T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Unser Gott wandte den Fluch in einen Segen.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Unser Gott wandte den Fluch in einen Segen."
+    ],
+    "id": "906c823c-e881-4650-9e30-4ee3769c1a63",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3mv2qxsbldx2x",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3mv2qxsbldx2x",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:45:14.101Z",
+    "updatedAt": "2026-09-09T05:00:39.676Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-09",
+    "contentDate": "2026-09-09",
+    "platform": "linkedin",
+    "format": "default",
+    "scheduledAt": "2026-09-09T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Unser Gott wandte den Fluch in einen Segen.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Unser Gott wandte den Fluch in einen Segen."
+    ],
+    "id": "02eebc2f-ceaa-477b-828e-c7c1c8b8a6f3",
+    "attemptCount": 1,
+    "remoteId": "urn:li:share:7503316427324551169",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:45:14.104Z",
+    "updatedAt": "2026-09-09T05:00:41.442Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 201
+    },
+    "retryHistory": []
   }
 ]
