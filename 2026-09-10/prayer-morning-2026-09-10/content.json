@@ -1,6 +1,6 @@
 {
   "id": "prayer-morning-2026-09-10",
-  "status": "in Arbeit",
+  "status": "freigegeben",
   "needs_input": false,
   "source": {
     "calendar_post_id": "prayer-morning-2026-09-10",
@@ -27,31 +27,31 @@
   },
   "platforms": {
     "facebook": {
-      "headline": "Morgengebet",
-      "text": "Gott, du Licht dieses Morgens,\ndu weckst die Welt und auch mein Herz.\nDieser neue Tag ist nicht mein Werk. Er ist deine Gabe.\n\n„Dies ist der Tag, den der HERR macht“ (Psalm 118,24).\nDarum komme ich zu dir mit allem, was heute vor mir liegt.\nMit dem Klaren. Mit dem Offenen. Mit dem, was mich noch drückt.\n\nDanke für den Atem.\nDanke für das Licht am Fenster.\nDanke für alles, was heute wachsen darf.\n\nGib mir einen wachen Blick für das Gute.\nGib mir Ruhe, wenn es laut wird.\nGib mir Mut, freundlich zu bleiben.\n\nIch nehme diesen Tag aus deiner Hand.\nDu gehst mit.\nDas ist genug.\n\nAmen."
+      "text": "Gott, du Licht dieses Morgens,\ndu weckst die Welt und auch mein Herz.\nDieser neue Tag ist nicht mein Werk. Er ist deine Gabe.\n\n„Dies ist der Tag, den der HERR macht“ (Psalm 118,24).\nDarum komme ich zu dir mit allem, was heute vor mir liegt.\nMit dem Klaren. Mit dem Offenen. Mit dem, was mich noch drückt.\n\nDanke für den Atem.\nDanke für das Licht am Fenster.\nDanke für alles, was heute wachsen darf.\n\nGib mir einen wachen Blick für das Gute.\nGib mir Ruhe, wenn es laut wird.\nGib mir Mut, freundlich zu bleiben.\n\nIch nehme diesen Tag aus deiner Hand.\nDu gehst mit.\nDas ist genug.\n\nAmen.",
+      "headline": "Morgengebet"
     },
     "instagram": {
       "caption": "Gott, du Licht dieses Morgens.\nDieser Tag ist deine Gabe.\n\n„Dies ist der Tag, den der HERR macht“ (Psalm 118,24).\nDarum beginne ich nicht mit Druck, sondern mit Vertrauen.\n\nDanke für Atem, Licht und Leben.\nGeh du mit mir durch alles, was heute kommt.\nDu gehst mit. Das ist genug.\n\nAmen.",
       "carousel": [
         {
-          "text": "Gott, du Licht dieses Morgens.",
-          "type": "text"
+          "type": "text",
+          "text": "Gott, du Licht dieses Morgens."
         },
         {
-          "text": "Dieser Tag ist deine Gabe.",
-          "type": "text"
+          "type": "text",
+          "text": "Dieser Tag ist deine Gabe."
         },
         {
-          "text": "„Dies ist der Tag, den der HERR macht“ (Psalm 118,24).",
-          "type": "text"
+          "type": "text",
+          "text": "„Dies ist der Tag, den der HERR macht“ (Psalm 118,24)."
         },
         {
-          "text": "Ich beginne nicht mit Druck, sondern mit Vertrauen.",
-          "type": "text"
+          "type": "text",
+          "text": "Ich beginne nicht mit Druck, sondern mit Vertrauen."
         },
         {
-          "text": "Du gehst mit. Das ist genug.",
-          "type": "text"
+          "type": "text",
+          "text": "Du gehst mit. Das ist genug."
         }
       ]
     },
@@ -105,12 +105,8 @@
     "alt_text": "Ein heller Morgenraum mit weichem Licht am Fenster. Auf einem schlichten Tisch steht eine Tasse. Draußen glitzert Tau auf Blättern. Die Szene wirkt ruhig, klar und hoffnungsvoll."
   },
   "qa": {
-    "approved": false,
-    "warnings": [
-      "Alt text must be completed before approval",
-      "Bibelzitat geprüft: Psalm 118,24 auf Bibleserver (Lutherbibel 2017).",
-      "Vor Veröffentlichung am Morgen kurz auf stimmigen Tagesbezug prüfen."
-    ]
+    "approved": true,
+    "warnings": []
   },
   "metadata": {
     "model": "gpt-5.4-2026-03-05",
