@@ -27,5 +27,65 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "prayer-evening-2026-09-10",
+    "contentDate": "2026-09-10",
+    "platform": "instagram",
+    "format": "default",
+    "scheduledAt": "2026-09-10T18:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Der Tag muss vor Gott nicht fertig werden.\n\nGott,\nwir legen dir hin, was gelungen ist. Und was offen blieb.\nWir bitten dich für Menschen im Gazastreifen in großer Not, für Familien in Bangladesch angesichts vieler Masern-Infektionen und für Betroffene der Unwetter in Baden-Württemberg.\n\nSchenk Frieden für diese Nacht. Und halte die Hoffnung wach.\nAmen.",
+    "assets": [
+      "render-instagram-feed-01.jpg",
+      "render-instagram-feed-02.jpg",
+      "render-instagram-feed-03.jpg",
+      "render-instagram-feed-04.jpg"
+    ],
+    "altTexts": [
+      "Ruhige Abendszene in einem Zimmer mit weichem Dämmerlicht, offenem Fenster und stiller, geschützter Atmosphäre."
+    ],
+    "id": "b1c62995-8b5f-402b-ba41-21abb9ee32c7",
+    "attemptCount": 1,
+    "remoteId": "18132098521732327",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-09-10T16:50:59.347Z",
+    "updatedAt": "2026-09-10T18:00:48.260Z",
+    "responseMetadata": {
+      "mediaCount": 4,
+      "mediaType": "CAROUSEL",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "prayer-evening-2026-09-10",
+    "contentDate": "2026-09-10",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-09-10T18:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Gott, der Tag liegt hinter uns. Mit allem, was gut war. Und mit allem, was offen blieb.\n\nWir bitten dich für Menschen im Gazastreifen in großer Not. Für Familien in Bangladesch angesichts vieler Masern-Infektionen. Für Betroffene der Unwetter in Baden-Württemberg.\n\nSchenk Frieden für diese Nacht. Und halte die Hoffnung wach. Amen.",
+    "assets": [
+      "render-facebook-mastodon-01.png"
+    ],
+    "altTexts": [
+      "Ruhige Abendszene in einem Zimmer mit weichem Dämmerlicht, offenem Fenster und stiller, geschützter Atmosphäre."
+    ],
+    "id": "56d18cc9-ef9e-41d1-bd7a-c6fc2a908b4d",
+    "attemptCount": 1,
+    "remoteId": "117248049109815986",
+    "remoteUrl": "https://kirche.social/@christoph/117248049109815986",
+    "lastError": null,
+    "createdAt": "2026-09-10T16:50:59.403Z",
+    "updatedAt": "2026-09-10T18:00:49.968Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
