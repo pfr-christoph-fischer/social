@@ -1,0 +1,44 @@
+{
+  "delivery_url": "https://delivery.eu2.bfl.ai/durable/2026091011/5e1f69ea-538b-4d66-962e-9be995966f07/0d/12755162cac753/62cac753c7ae4459a21268509a662916/sample.jpeg?se=2026-09-10T11%3A12%3A07Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=6pBgnkr6vcTThk6iDGIUPn20DQx56zQqvG6qH0nFVVs%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "448f0fa0-4221-4718-a255-6f4e6cdae89f",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "448f0fa0-4221-4718-a255-6f4e6cdae89f",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "448f0fa0-4221-4718-a255-6f4e6cdae89f",
+      "status": "Ready",
+      "result": {
+        "start_time": 1789038126.7252953,
+        "prompt": "A quiet evening interior with soft twilight light, open window, calm sky after rain, simple wooden table, gentle shadows, peaceful reflective mood, realistic photography style, warm muted colors, atmosphere of rest, hope, and surrender, no people in focus, no typography, no text, no letters, no typography, no logo, no watermark",
+        "seed": 3888110520,
+        "sample": "https://delivery.eu2.bfl.ai/durable/2026091011/5e1f69ea-538b-4d66-962e-9be995966f07/0d/12755162cac753/62cac753c7ae4459a21268509a662916/sample.jpeg?se=2026-09-10T11%3A12%3A07Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=6pBgnkr6vcTThk6iDGIUPn20DQx56zQqvG6qH0nFVVs%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "448f0fa0-4221-4718-a255-6f4e6cdae89f",
+    "polling_url": "https://api.eu2.bfl.ai/v1/get_result?id=448f0fa0-4221-4718-a255-6f4e6cdae89f",
+    "cost": 1.4000000000000001,
+    "input_mp": 0,
+    "output_mp": 0.72
+  }
+}
