@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-09-10",
+    "contentDate": "2026-09-10",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-09-10T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Wenn ein Fremdling bei euch wohnt in eurem Lande, den sollt ihr nicht bedrücken. (Die Bibel, Levitikus 19,33)",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Wenn ein Fremdling bei euch wohnt in eurem Lande, den sollt ihr nicht bedrücken. (Die Bibel, Levitikus 19,33)"
+    ],
+    "id": "6a0b517a-5d38-431c-b0d1-d49d638541fc",
+    "attemptCount": 1,
+    "remoteId": "18344628889267141",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:37:48.012Z",
+    "updatedAt": "2026-09-10T10:00:26.176Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-09-10",
+    "contentDate": "2026-09-10",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-09-10T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Wenn ein Fremdling bei euch wohnt in eurem Lande, den sollt ihr nicht bedrücken. (Die Bibel, Levitikus 19,33)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Wenn ein Fremdling bei euch wohnt in eurem Lande, den sollt ihr nicht bedrücken. (Die Bibel, Levitikus 19,33)"
+    ],
+    "id": "fc8a24a3-dbeb-4990-a82d-a79400d6aad8",
+    "attemptCount": 1,
+    "remoteId": "117246160241897335",
+    "remoteUrl": "https://kirche.social/@christoph/117246160241897335",
+    "lastError": null,
+    "createdAt": "2026-08-26T15:37:48.071Z",
+    "updatedAt": "2026-09-10T10:00:27.601Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
