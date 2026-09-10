@@ -1,6 +1,6 @@
 {
   "id": "prayer-morning-2026-09-11",
-  "status": "in Arbeit",
+  "status": "freigegeben",
   "needs_input": false,
   "source": {
     "calendar_post_id": "prayer-morning-2026-09-11",
@@ -38,31 +38,31 @@
   },
   "platforms": {
     "facebook": {
-      "headline": "Morgengebet",
-      "text": "Gott,\ndieser Morgen ist nicht mein Werk.\nEr ist deine Gabe.\nLicht fällt auf Dächer und Bäume.\nAtem füllt die Lungen.\nDer Tag liegt noch offen vor mir.\n\n\"Dies ist der Tag, den der Herr macht\" (Psalm 118,24).\nDaran halte ich mich.\nNicht alles wird leicht sein.\nAber ich gehe nicht allein.\n\nDu bist da.\nDu bleibst treu.\nWecke in mir Dankbarkeit.\nGib meinen Worten Frieden.\nGib meinen Schritten Ruhe.\nLass mich das Gute sehen, das du heute wachsen lässt.\n\nIch nehme diesen Tag aus deiner Hand.\nMit Hoffnung.\nMit offenem Herzen.\nMit Lob.\nAmen."
+      "text": "Gott,\ndieser Morgen ist nicht mein Werk.\nEr ist deine Gabe.\nLicht fällt auf Dächer und Bäume.\nAtem füllt die Lungen.\nDer Tag liegt noch offen vor mir.\n\n\"Dies ist der Tag, den der Herr macht\" (Psalm 118,24).\nDaran halte ich mich.\nNicht alles wird leicht sein.\nAber ich gehe nicht allein.\n\nDu bist da.\nDu bleibst treu.\nWecke in mir Dankbarkeit.\nGib meinen Worten Frieden.\nGib meinen Schritten Ruhe.\nLass mich das Gute sehen, das du heute wachsen lässt.\n\nIch nehme diesen Tag aus deiner Hand.\nMit Hoffnung.\nMit offenem Herzen.\nMit Lob.\nAmen.",
+      "headline": "Morgengebet"
     },
     "instagram": {
       "caption": "Gott,\ndieser Morgen ist deine Gabe.\n\n\"Dies ist der Tag, den der Herr macht\" (Psalm 118,24).\nNicht alles wird leicht sein.\nAber ich gehe nicht allein.\n\nWecke in mir Dankbarkeit.\nGib meinen Worten Frieden.\nGib meinen Schritten Ruhe.\nIch nehme diesen Tag aus deiner Hand.\nAmen.",
       "carousel": [
         {
-          "text": "Gott,\ndieser Morgen ist deine Gabe.",
-          "type": "text"
+          "type": "text",
+          "text": "Gott,\ndieser Morgen ist deine Gabe."
         },
         {
-          "text": "\"Dies ist der Tag, den der Herr macht\".\nPsalm 118,24",
-          "type": "text"
+          "type": "text",
+          "text": "\"Dies ist der Tag, den der Herr macht\".\nPsalm 118,24"
         },
         {
-          "text": "Nicht alles wird leicht sein.\nAber ich gehe nicht allein.",
-          "type": "text"
+          "type": "text",
+          "text": "Nicht alles wird leicht sein.\nAber ich gehe nicht allein."
         },
         {
-          "text": "Gib meinen Worten Frieden.\nGib meinen Schritten Ruhe.",
-          "type": "text"
+          "type": "text",
+          "text": "Gib meinen Worten Frieden.\nGib meinen Schritten Ruhe."
         },
         {
-          "text": "Ich nehme diesen Tag aus deiner Hand.\nAmen.",
-          "type": "text"
+          "type": "text",
+          "text": "Ich nehme diesen Tag aus deiner Hand.\nAmen."
         }
       ]
     },
@@ -117,12 +117,8 @@
     "alt_text": "Sanftes Morgenlicht fällt in einen schlichten Raum und macht den Beginn eines neuen Tages sichtbar."
   },
   "qa": {
-    "approved": false,
-    "warnings": [
-      "Alt text must be completed before approval",
-      "Am Morgen des 2026-09-11 nur noch auf stimmigen Tagesbezug und letzte Sprachglättung prüfen.",
-      "Verwendeter Gebetsschnipsel ist biblisch und knapp; Quelle intern vermerkt: Psalm 118,24."
-    ]
+    "approved": true,
+    "warnings": []
   },
   "metadata": {
     "model": "gpt-5.4-2026-03-05",
