@@ -1,0 +1,52 @@
+{
+  "delivery_url": "https://delivery.eu2.bfl.ai/durable/2026091011/5e1f69ea-538b-4d66-962e-9be995966f07/cc/134123f2626711/f2626711340b46e28e8b750dc600c82f/sample.jpeg?se=2026-09-10T11%3A12%3A14Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=b9YHmvRT3Ka8mGm8eQ13IL2o6HsKW434U8mQwZqpS2c%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "7c292813-9776-4141-b1a2-8e1735e8a2d3",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "7c292813-9776-4141-b1a2-8e1735e8a2d3",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "7c292813-9776-4141-b1a2-8e1735e8a2d3",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "7c292813-9776-4141-b1a2-8e1735e8a2d3",
+      "status": "Ready",
+      "result": {
+        "start_time": 1789038132.8982973,
+        "prompt": "A quiet evening interior with soft twilight light, open window, calm sky after rain, simple wooden table, gentle shadows, peaceful reflective mood, realistic photography style, warm muted colors, atmosphere of rest, hope, and surrender, no people in focus, no typography, no text, no letters, no typography, no logo, no watermark",
+        "seed": 2674324620,
+        "sample": "https://delivery.eu2.bfl.ai/durable/2026091011/5e1f69ea-538b-4d66-962e-9be995966f07/cc/134123f2626711/f2626711340b46e28e8b750dc600c82f/sample.jpeg?se=2026-09-10T11%3A12%3A14Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=b9YHmvRT3Ka8mGm8eQ13IL2o6HsKW434U8mQwZqpS2c%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "7c292813-9776-4141-b1a2-8e1735e8a2d3",
+    "polling_url": "https://api.eu2.bfl.ai/v1/get_result?id=7c292813-9776-4141-b1a2-8e1735e8a2d3",
+    "cost": 1.5,
+    "input_mp": 0,
+    "output_mp": 1.98
+  }
+}
