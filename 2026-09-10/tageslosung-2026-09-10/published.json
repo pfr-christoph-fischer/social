@@ -84,5 +84,91 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-10",
+    "contentDate": "2026-09-10",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-09-10T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Ein Geduldiger ist besser als ein Starker und wer sich selbst beherrscht, besser als einer, der Städte einnimmt.",
+    "assets": [
+      "render-square-01.jpg"
+    ],
+    "altTexts": [
+      "Ein Geduldiger ist besser als ein Starker und wer sich selbst beherrscht, besser als einer, der Städte einnimmt."
+    ],
+    "id": "71d0b2e2-1b06-44eb-96a6-d28ee645dc79",
+    "attemptCount": 1,
+    "remoteId": "17943511968325169",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:45:16.266Z",
+    "updatedAt": "2026-09-10T05:00:37.733Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-10",
+    "contentDate": "2026-09-10",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-09-10T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Ein Geduldiger ist besser als ein Starker und wer sich selbst beherrscht, besser als einer, der Städte einnimmt.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Ein Geduldiger ist besser als ein Starker und wer sich selbst beherrscht, besser als einer, der Städte einnimmt."
+    ],
+    "id": "db841171-03ce-4de3-b786-7607a14d6c6a",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3mv5bgq5uem2o",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3mv5bgq5uem2o",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:45:16.271Z",
+    "updatedAt": "2026-09-10T05:00:40.157Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-10",
+    "contentDate": "2026-09-10",
+    "platform": "linkedin",
+    "format": "default",
+    "scheduledAt": "2026-09-10T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Ein Geduldiger ist besser als ein Starker und wer sich selbst beherrscht, besser als einer, der Städte einnimmt.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Ein Geduldiger ist besser als ein Starker und wer sich selbst beherrscht, besser als einer, der Städte einnimmt."
+    ],
+    "id": "2d8b3a58-37cc-44b0-b0d7-23e5080b220c",
+    "attemptCount": 1,
+    "remoteId": "urn:li:share:7503678819178852352",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:45:16.276Z",
+    "updatedAt": "2026-09-10T05:00:42.695Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 201
+    },
+    "retryHistory": []
   }
 ]
