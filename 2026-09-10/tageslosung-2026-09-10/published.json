@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-10",
+    "contentDate": "2026-09-10",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-09-10T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Ein Geduldiger ist besser als ein Starker und wer sich selbst beherrscht, besser als einer, der Städte einnimmt.",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Ein Geduldiger ist besser als ein Starker und wer sich selbst beherrscht, besser als einer, der Städte einnimmt."
+    ],
+    "id": "ed6e49e2-6dfc-4cf9-9978-ab3d7f193462",
+    "attemptCount": 1,
+    "remoteId": "18112671272129230",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:45:16.234Z",
+    "updatedAt": "2026-09-10T05:00:24.028Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-10",
+    "contentDate": "2026-09-10",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-09-10T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Ein Geduldiger ist besser als ein Starker und wer sich selbst beherrscht, besser als einer, der Städte einnimmt.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Ein Geduldiger ist besser als ein Starker und wer sich selbst beherrscht, besser als einer, der Städte einnimmt."
+    ],
+    "id": "f6927e98-153f-48cb-b8ec-92825f3e518e",
+    "attemptCount": 1,
+    "remoteId": "117244980465903686",
+    "remoteUrl": "https://kirche.social/@christoph/117244980465903686",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:45:16.254Z",
+    "updatedAt": "2026-09-10T05:00:25.643Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
