@@ -27,5 +27,66 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "prayer-morning-2026-09-10",
+    "contentDate": "2026-09-10",
+    "platform": "instagram",
+    "format": "default",
+    "scheduledAt": "2026-09-10T05:15:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Gott, du Licht dieses Morgens.\nDieser Tag ist deine Gabe.\n\n„Dies ist der Tag, den der HERR macht“ (Psalm 118,24).\nDarum beginne ich nicht mit Druck, sondern mit Vertrauen.\n\nDanke für Atem, Licht und Leben.\nGeh du mit mir durch alles, was heute kommt.\nDu gehst mit. Das ist genug.\n\nAmen.",
+    "assets": [
+      "render-instagram-feed-01.jpg",
+      "render-instagram-feed-02.jpg",
+      "render-instagram-feed-03.jpg",
+      "render-instagram-feed-04.jpg",
+      "render-instagram-feed-05.jpg"
+    ],
+    "altTexts": [
+      "Ein heller Morgenraum mit weichem Licht am Fenster. Auf einem schlichten Tisch steht eine Tasse. Draußen glitzert Tau auf Blättern. Die Szene wirkt ruhig, klar und hoffnungsvoll."
+    ],
+    "id": "86bd1bb5-5d35-4623-a1b2-c922c91abf34",
+    "attemptCount": 1,
+    "remoteId": "17946488781322049",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-09-09T16:34:46.530Z",
+    "updatedAt": "2026-09-10T05:15:51.897Z",
+    "responseMetadata": {
+      "mediaCount": 5,
+      "mediaType": "CAROUSEL",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "prayer-morning-2026-09-10",
+    "contentDate": "2026-09-10",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-09-10T05:15:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Gott, du Licht dieses Morgens,\ndieser Tag ist deine Gabe.\n\n„Dies ist der Tag, den der HERR macht“ (Psalm 118,24).\nDarum beginne ich nicht mit Druck, sondern mit Vertrauen.\n\nDanke für Atem, Licht und Leben.\nGeh mit mir durch alles, was heute kommt.\nDu gehst mit. Das ist genug.\n\nAmen.",
+    "assets": [
+      "render-facebook-mastodon-01.png"
+    ],
+    "altTexts": [
+      "Ein heller Morgenraum mit weichem Licht am Fenster. Auf einem schlichten Tisch steht eine Tasse. Draußen glitzert Tau auf Blättern. Die Szene wirkt ruhig, klar und hoffnungsvoll."
+    ],
+    "id": "c0ff0f3a-7755-4d9c-bb53-4e06e1e0fc2a",
+    "attemptCount": 1,
+    "remoteId": "117245041218369334",
+    "remoteUrl": "https://kirche.social/@christoph/117245041218369334",
+    "lastError": null,
+    "createdAt": "2026-09-09T16:34:46.589Z",
+    "updatedAt": "2026-09-10T05:15:52.627Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
