@@ -27,5 +27,69 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "post-0032",
+    "contentDate": "2026-09-10",
+    "platform": "instagram",
+    "format": "default",
+    "scheduledAt": "2026-09-10T07:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Rolf Arnold sagt: Lernen ist Eigenaktivität. Das bringt mich ins Nachdenken über den Religionsunterricht.\n\nDenn Fragen nach Gott, Sinn, Hoffnung oder Verantwortung lassen sich nicht einfach vermitteln wie fertiges Wissen. Sie brauchen Beteiligung, eigene Deutungen und echtes Nachdenken.\n\nVielleicht ist guter Religionsunterricht deshalb nicht zuerst der Ort fertiger Antworten, sondern ein Raum, in dem Lernen persönlich wird.\n\nWie seht ihr das: Was heißt „Lernen als Eigenaktivität“ im Religionsunterricht?",
+    "assets": [
+      "render-instagram-feed-01.jpg",
+      "render-instagram-feed-02.jpg",
+      "render-instagram-feed-03.jpg",
+      "render-instagram-feed-04.jpg",
+      "render-instagram-feed-05.jpg",
+      "render-instagram-feed-06.jpg",
+      "render-instagram-feed-07.jpg",
+      "render-instagram-feed-08.jpg"
+    ],
+    "altTexts": [
+      "Grafisch ruhige Darstellung mit Heft oder Buch als Symbol für Lernen und Nachdenken im Religionsunterricht."
+    ],
+    "id": "5ffed837-65a5-4a82-b437-4299a2c4efa5",
+    "attemptCount": 1,
+    "remoteId": "18081264956701567",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-09-09T16:59:06.490Z",
+    "updatedAt": "2026-09-10T07:01:21.278Z",
+    "responseMetadata": {
+      "mediaCount": 8,
+      "mediaType": "CAROUSEL",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "post-0032",
+    "contentDate": "2026-09-10",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-09-10T07:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Rolf Arnold beschreibt Lernen als Eigenaktivität. Gerade im Religionsunterricht leuchtet mir das ein: Fragen nach Gott, Sinn, Hoffnung oder Verantwortung lassen sich nicht einfach „vermitteln“. Sie brauchen eigenes Deuten, Fragen und Mitdenken. Was heißt das für guten Reli aus eurer Sicht?",
+    "assets": [
+      "render-facebook-mastodon-01.png"
+    ],
+    "altTexts": [
+      "Grafisch ruhige Darstellung mit Heft oder Buch als Symbol für Lernen und Nachdenken im Religionsunterricht."
+    ],
+    "id": "ca6bb2d6-8fde-4206-ad41-bbd2ea20aee5",
+    "attemptCount": 1,
+    "remoteId": "117245456069017646",
+    "remoteUrl": "https://kirche.social/@christoph/117245456069017646",
+    "lastError": null,
+    "createdAt": "2026-09-09T16:59:06.576Z",
+    "updatedAt": "2026-09-10T07:01:22.762Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
