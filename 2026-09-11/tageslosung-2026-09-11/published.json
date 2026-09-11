@@ -84,5 +84,91 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-11",
+    "contentDate": "2026-09-11",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-09-11T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "David und ganz Israel tanzten mit aller Macht vor Gott her, mit Liedern, mit Harfen, mit Psaltern, mit Pauken, mit Zimbeln und mit Trompeten.",
+    "assets": [
+      "render-square-01.jpg"
+    ],
+    "altTexts": [
+      "David und ganz Israel tanzten mit aller Macht vor Gott her, mit Liedern, mit Harfen, mit Psaltern, mit Pauken, mit Zimbeln und mit Trompeten."
+    ],
+    "id": "38050787-ce62-493a-aee4-2dec8189ed87",
+    "attemptCount": 1,
+    "remoteId": "18365579758210385",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:45:18.712Z",
+    "updatedAt": "2026-09-11T05:00:37.739Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-11",
+    "contentDate": "2026-09-11",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-09-11T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "David und ganz Israel tanzten mit aller Macht vor Gott her, mit Liedern, mit Harfen, mit Psaltern, mit Pauken, mit Zimbeln und mit Trompeten.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "David und ganz Israel tanzten mit aller Macht vor Gott her, mit Liedern, mit Harfen, mit Psaltern, mit Pauken, mit Zimbeln und mit Trompeten."
+    ],
+    "id": "a57b768c-a44c-4ff5-9501-ce7cac203753",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3mv7rvnm3do2x",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3mv7rvnm3do2x",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:45:18.721Z",
+    "updatedAt": "2026-09-11T05:00:40.144Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-11",
+    "contentDate": "2026-09-11",
+    "platform": "linkedin",
+    "format": "default",
+    "scheduledAt": "2026-09-11T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "David und ganz Israel tanzten mit aller Macht vor Gott her, mit Liedern, mit Harfen, mit Psaltern, mit Pauken, mit Zimbeln und mit Trompeten.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "David und ganz Israel tanzten mit aller Macht vor Gott her, mit Liedern, mit Harfen, mit Psaltern, mit Pauken, mit Zimbeln und mit Trompeten."
+    ],
+    "id": "7753b250-9831-4662-94da-06a50d1604ca",
+    "attemptCount": 1,
+    "remoteId": "urn:li:share:7504041206230761472",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:45:18.729Z",
+    "updatedAt": "2026-09-11T05:00:42.456Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 201
+    },
+    "retryHistory": []
   }
 ]
