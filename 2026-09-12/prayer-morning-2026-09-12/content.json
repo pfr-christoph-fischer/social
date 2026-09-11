@@ -38,27 +38,27 @@
   },
   "platforms": {
     "facebook": {
-      "text": "Gott, du Ursprung dieses Morgens,\ndu weckst das Licht\nund schenkst mir diesen neuen Tag.\n\nNoch ist nicht alles klar.\nManches liegt vor mir wie Nebel.\nAber du bist schon da.\nDeine Güte ist vor mir wach.\n\n„Herr, frühe wollest du meine Stimme hören.“\nPsalm 5,4\n\nNimm mein Denken in deine Ruhe.\nNimm meine Schritte in deinen Frieden.\nNimm meine Freude und meine Sorge in deine Hand.\n\nLass mich heute sehen, was Leben schafft.\nLass mich hören, was gut tut.\nLass mich tun, was dem Frieden dient.\n\nIch gehe nicht allein in diesen Tag.\nDu gehst mit.\nDafür lobe ich dich.\nAmen.",
-      "headline": "Morgengebet: Du gehst mit"
+      "headline": "Morgengebet: Du gehst mit",
+      "text": "Gott, du Ursprung dieses Morgens,\ndu weckst das Licht\nund schenkst mir diesen neuen Tag.\n\nNoch ist nicht alles klar.\nManches liegt vor mir wie Nebel.\nAber du bist schon da.\nDeine Güte ist vor mir wach.\n\n„Herr, frühe wollest du meine Stimme hören.“\nPsalm 5,4\n\nNimm mein Denken in deine Ruhe.\nNimm meine Schritte in deinen Frieden.\nNimm meine Freude und meine Sorge in deine Hand.\n\nLass mich heute sehen, was Leben schafft.\nLass mich hören, was gut tut.\nLass mich tun, was dem Frieden dient.\n\nIch gehe nicht allein in diesen Tag.\nDu gehst mit.\nDafür lobe ich dich.\nAmen."
     },
     "instagram": {
       "caption": "Gott, du Ursprung dieses Morgens,\ndu weckst das Licht und schenkst mir diesen neuen Tag.\n\nNoch ist nicht alles klar.\nManches liegt vor mir wie Nebel.\nAber du bist schon da.\n\n„Herr, frühe wollest du meine Stimme hören.“\nPsalm 5,4\n\nIch gehe nicht allein in diesen Tag.\nDu gehst mit.\nAmen.",
       "carousel": [
         {
-          "type": "text",
-          "text": "Gott, du Ursprung dieses Morgens,\ndu weckst das Licht und schenkst mir diesen neuen Tag."
+          "text": "Gott, du Ursprung dieses Morgens,\ndu weckst das Licht und schenkst mir diesen neuen Tag.",
+          "type": "text"
         },
         {
-          "type": "text",
-          "text": "Noch ist nicht alles klar.\nManches liegt vor mir wie Nebel.\nAber du bist schon da."
+          "text": "Noch ist nicht alles klar.\nManches liegt vor mir wie Nebel.\nAber du bist schon da.",
+          "type": "text"
         },
         {
-          "type": "text",
-          "text": "„Herr, frühe wollest du meine Stimme hören.“\nPsalm 5,4"
+          "text": "„Herr, frühe wollest du meine Stimme hören.“\nPsalm 5,4",
+          "type": "text"
         },
         {
-          "type": "text",
-          "text": "Ich gehe nicht allein in diesen Tag.\nDu gehst mit.\nAmen."
+          "text": "Ich gehe nicht allein in diesen Tag.\nDu gehst mit.\nAmen.",
+          "type": "text"
         }
       ]
     },
@@ -99,7 +99,7 @@
   },
   "visual": {
     "concept": "Ruhige Morgenszene mit erstem Licht, weichem Nebel und einem einfachen Weg oder Blick aus dem Fenster. Die Bildstimmung trägt Ruhe, Neubeginn und Vertrauen.",
-    "flux_prompt": "Eine ruhige natürliche Morgenszene bei Sonnenaufgang, weiches goldenes Licht, leichter Nebel, taufeuchte Pflanzen, stiller Weg oder Blick aus einem schlichten Fenster ins Freie, zurückhaltende Farbigkeit, dokumentarisch-poetisch, authentisch, warm, hoffnungsvoll, keine Menschen im Fokus, keine Schrift im Bild",
+    "flux_prompt": "Eine ruhige natürliche Morgenszene bei Sonnenaufgang, weiches goldenes Licht, leichter Nebel, taufeuchte Pflanzen, stiller Weg oder Blick aus einem schlichten Fenster ins Freie, zurückhaltende Farbigkeit, dokumentarisch-poetisch, authentisch, warm, hoffnungsvoll, keine Menschen im Fokus.",
     "negative_prompt": "text, letters, logo, watermark",
     "formats": [
       "4:5",
