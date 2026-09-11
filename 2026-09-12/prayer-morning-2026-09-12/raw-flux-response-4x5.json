@@ -1,0 +1,44 @@
+{
+  "delivery_url": "https://delivery.us2.bfl.ai/durable/2026091116/5e1f69ea-538b-4d66-962e-9be995966f07/19/538750bf84f968/bf84f96831a44f15be816c11a1e54381/sample.jpeg?se=2026-09-11T17%3A02%3A18Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=f71qRGBAR7xtwWtMxbAS4K6teJ/ZATOO1p5O3MD1Ipk%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "713bbff6-cbee-4a4b-8a8f-32a37a27ae7e",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "713bbff6-cbee-4a4b-8a8f-32a37a27ae7e",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "713bbff6-cbee-4a4b-8a8f-32a37a27ae7e",
+      "status": "Ready",
+      "result": {
+        "start_time": 1789145536.9403608,
+        "prompt": "Eine ruhige natürliche Morgenszene bei Sonnenaufgang, weiches goldenes Licht, leichter Nebel, taufeuchte Pflanzen, stiller Weg oder Blick aus einem schlichten Fenster ins Freie, zurückhaltende Farbigkeit, dokumentarisch-poetisch, authentisch, warm, hoffnungsvoll, keine Menschen im Fokus., no text, no letters, no typography, no logo, no watermark",
+        "seed": 4173723165,
+        "sample": "https://delivery.us2.bfl.ai/durable/2026091116/5e1f69ea-538b-4d66-962e-9be995966f07/19/538750bf84f968/bf84f96831a44f15be816c11a1e54381/sample.jpeg?se=2026-09-11T17%3A02%3A18Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=f71qRGBAR7xtwWtMxbAS4K6teJ/ZATOO1p5O3MD1Ipk%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "713bbff6-cbee-4a4b-8a8f-32a37a27ae7e",
+    "polling_url": "https://api.us2.bfl.ai/v1/get_result?id=713bbff6-cbee-4a4b-8a8f-32a37a27ae7e",
+    "cost": 1.5,
+    "input_mp": 0,
+    "output_mp": 1.39
+  }
+}
