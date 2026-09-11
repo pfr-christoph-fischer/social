@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-11",
+    "contentDate": "2026-09-11",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-09-11T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "David und ganz Israel tanzten mit aller Macht vor Gott her, mit Liedern, mit Harfen, mit Psaltern, mit Pauken, mit Zimbeln und mit Trompeten.",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "David und ganz Israel tanzten mit aller Macht vor Gott her, mit Liedern, mit Harfen, mit Psaltern, mit Pauken, mit Zimbeln und mit Trompeten."
+    ],
+    "id": "6255dfb9-05bb-4f0a-a3fe-fb2a76faa856",
+    "attemptCount": 1,
+    "remoteId": "17920584522428379",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:45:18.700Z",
+    "updatedAt": "2026-09-11T05:00:25.511Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-11",
+    "contentDate": "2026-09-11",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-09-11T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "David und ganz Israel tanzten mit aller Macht vor Gott her, mit Liedern, mit Harfen, mit Psaltern, mit Pauken, mit Zimbeln und mit Trompeten.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "David und ganz Israel tanzten mit aller Macht vor Gott her, mit Liedern, mit Harfen, mit Psaltern, mit Pauken, mit Zimbeln und mit Trompeten."
+    ],
+    "id": "b62f5217-b83d-4e51-8650-daa3df81b8d1",
+    "attemptCount": 1,
+    "remoteId": "117250642858134875",
+    "remoteUrl": "https://kirche.social/@christoph/117250642858134875",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:45:18.706Z",
+    "updatedAt": "2026-09-11T05:00:26.874Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
