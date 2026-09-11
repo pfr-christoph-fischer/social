@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-09-11",
+    "contentDate": "2026-09-11",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-09-11T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Er soll bei euch wohnen wie ein Einheimischer unter euch, und du sollst ihn lieben wie dich selbst; denn ihr seid auch Fremdlinge gewesen in Ägyptenland. (Die Bibel, Levitikus 19,34)",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Er soll bei euch wohnen wie ein Einheimischer unter euch, und du sollst ihn lieben wie dich selbst; denn ihr seid auch Fremdlinge gewesen in Ägyptenland. (Die Bibel, Levitikus 19,34)"
+    ],
+    "id": "c9225d56-c395-4f3c-a6a2-b3884b65e7c9",
+    "attemptCount": 1,
+    "remoteId": "17895132363399242",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:37:50.874Z",
+    "updatedAt": "2026-09-11T10:00:27.206Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-09-11",
+    "contentDate": "2026-09-11",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-09-11T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Er soll bei euch wohnen wie ein Einheimischer unter euch, und du sollst ihn lieben wie dich selbst; denn ihr seid auch Fremdlinge gewesen in Ägyptenland. (Die Bibel, Levitikus 19,34)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Er soll bei euch wohnen wie ein Einheimischer unter euch, und du sollst ihn lieben wie dich selbst; denn ihr seid auch Fremdlinge gewesen in Ägyptenland. (Die Bibel, Levitikus 19,34)"
+    ],
+    "id": "5a0771f5-246b-4e17-aa8c-4a52acc206d7",
+    "attemptCount": 1,
+    "remoteId": "117251822622744352",
+    "remoteUrl": "https://kirche.social/@christoph/117251822622744352",
+    "lastError": null,
+    "createdAt": "2026-08-26T15:37:50.921Z",
+    "updatedAt": "2026-09-11T10:00:28.642Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
