@@ -1,6 +1,6 @@
 {
   "id": "prayer-evening-2026-09-11",
-  "status": "in Arbeit",
+  "status": "freigegeben",
   "needs_input": false,
   "source": {
     "calendar_post_id": "prayer-evening-2026-09-11",
@@ -25,31 +25,31 @@
   },
   "platforms": {
     "facebook": {
-      "headline": "Abendgebet: Den Tag loslassen. Die Welt Gott hinhalten.",
-      "text": "Abendgebet\n\nGott,\nder Tag liegt hinter uns.\nMit allem, was gut war.\nMit allem, was offen blieb.\nMit den Sätzen, die getragen haben.\nUnd mit denen, die wehgetan haben.\n\nWir legen dir hin,\nwas wir geschafft haben.\nUnd auch das,\nwas wir heute nicht mehr ordnen konnten.\n\nWir denken an die Menschen in Pawlohrad,\nwo ein Angriff ein Einkaufszentrum getroffen hat\nund Menschen getötet wurden.\nWir denken an die Menschen in Gaza,\ndie weiter in Zerstörung, Mangel und Angst leben.\nWir denken an die Betroffenen der Messerangriffe in Freiburg,\nan den getöteten Mann,\nan den lebensgefährlich verletzten Menschen\nund an alle, die jetzt unter Schock stehen.\n\nSei bei denen,\ndie in dieser Nacht nicht schlafen können.\nBei Kranken.\nBei Trauernden.\nBei Menschen auf der Flucht.\nBei allen, die wachen, pflegen, fahren, helfen.\n\nNimm uns die Last,\nalles selbst festhalten zu müssen.\nBewahre in uns die Hoffnung,\ndass deine Zukunft weiter reicht\nals dieser Tag.\n\nSchenk Frieden für diese Nacht.\nUnd einen stillen Mut für morgen.\nAmen."
+      "text": "Abendgebet\n\nGott,\nder Tag liegt hinter uns.\nMit allem, was gut war.\nMit allem, was offen blieb.\nMit den Sätzen, die getragen haben.\nUnd mit denen, die wehgetan haben.\n\nWir legen dir hin,\nwas wir geschafft haben.\nUnd auch das,\nwas wir heute nicht mehr ordnen konnten.\n\nWir denken an die Menschen in Pawlohrad,\nwo ein Angriff ein Einkaufszentrum getroffen hat\nund Menschen getötet wurden.\nWir denken an die Menschen in Gaza,\ndie weiter in Zerstörung, Mangel und Angst leben.\nWir denken an die Betroffenen der Messerangriffe in Freiburg,\nan den getöteten Mann,\nan den lebensgefährlich verletzten Menschen\nund an alle, die jetzt unter Schock stehen.\n\nSei bei denen,\ndie in dieser Nacht nicht schlafen können.\nBei Kranken.\nBei Trauernden.\nBei Menschen auf der Flucht.\nBei allen, die wachen, pflegen, fahren, helfen.\n\nNimm uns die Last,\nalles selbst festhalten zu müssen.\nBewahre in uns die Hoffnung,\ndass deine Zukunft weiter reicht\nals dieser Tag.\n\nSchenk Frieden für diese Nacht.\nUnd einen stillen Mut für morgen.\nAmen.",
+      "headline": "Abendgebet: Den Tag loslassen. Die Welt Gott hinhalten."
     },
     "instagram": {
       "caption": "Abendgebet.\n\nDer Tag muss vor Gott nicht fertig sein.\nWir legen hin, was gut war. Und was offen blieb.\n\nWir beten für die Menschen in Pawlohrad nach dem tödlichen Angriff auf ein Einkaufszentrum. Für die Menschen in Gaza in anhaltender Not. Für die Betroffenen der Messerangriffe in Freiburg und ihre Angehörigen.\n\nGott, halte diese Nacht. Und halte unsere Hoffnung wach.\n\nAmen.",
       "carousel": [
         {
-          "text": "Der Tag liegt hinter dir.\nDu musst ihn jetzt nicht mehr festhalten.",
-          "type": "text"
+          "type": "text",
+          "text": "Der Tag liegt hinter dir.\nDu musst ihn jetzt nicht mehr festhalten."
         },
         {
-          "text": "Bring Gott,\nwas gut war.\nUnd auch das,\nwas offen blieb.",
-          "type": "text"
+          "type": "text",
+          "text": "Bring Gott,\nwas gut war.\nUnd auch das,\nwas offen blieb."
         },
         {
-          "text": "Wir beten für Menschen in Pawlohrad.\nFür Menschen in Gaza.\nFür die Betroffenen der Messerangriffe in Freiburg.",
-          "type": "text"
+          "type": "text",
+          "text": "Wir beten für Menschen in Pawlohrad.\nFür Menschen in Gaza.\nFür die Betroffenen der Messerangriffe in Freiburg."
         },
         {
-          "text": "Gottes Zukunft endet nicht\nan den Grenzen dieses Tages.",
-          "type": "text"
+          "type": "text",
+          "text": "Gottes Zukunft endet nicht\nan den Grenzen dieses Tages."
         },
         {
-          "text": "Friede für diese Nacht.\nUnd Hoffnung für morgen.",
-          "type": "text"
+          "type": "text",
+          "text": "Friede für diese Nacht.\nUnd Hoffnung für morgen."
         }
       ]
     },
@@ -103,10 +103,8 @@
     "alt_text": "Ein ruhiger Raum am Abend mit Blick zu einem Fenster im blauen Dämmerlicht. Die Szene wirkt still und gesammelt, als würde der Tag zur Ruhe kommen."
   },
   "qa": {
-    "approved": false,
-    "warnings": [
-      "Field \"bluesky.text\" is 307 characters long and exceeds the plausibility limit of 300."
-    ]
+    "approved": true,
+    "warnings": []
   },
   "metadata": {
     "model": "gpt-5.4-2026-03-05",
