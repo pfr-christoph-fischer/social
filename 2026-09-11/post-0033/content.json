@@ -10,7 +10,7 @@
   },
   "editorial_core": {
     "title": "Kurzes Wochengebet zum Schwerpunkt „Neuanfang und Segen“",
-    "main_message": "5–8 kurze Zeilen; konkrete Lebenswelt; am Ende eine tragende Bitte.",
+    "main_message": "Ein kurzes Wochengebet sammelt die Woche, nimmt einen tastenden Neuanfang in den Blick und bittet um Segen für die nächsten Schritte.",
     "audience": "breite Öffentlichkeit",
     "tone": [
       "klar",
@@ -23,44 +23,88 @@
       "Production mode: vollständig vorproduzierbar",
       "Structure: ein konkretes Lebensthema | knappe geistliche Sprache | kein Erklärton",
       "AI support notes: Gebetsentwurf | sprachliche Verdichtung | Reel-Sprechtext | Alt-Text",
-      "Liturgical source: https://kirchenjahr.pfarr.tools/api/jahr/2026 (2026-09-06, $.Tage['2026-09-06'])"
+      "Liturgical source: https://kirchenjahr.pfarr.tools/api/jahr/2026 (2026-09-06, $.Tage['2026-09-06'])",
+      "Wochenspruch: Lobe den HERRN, meine Seele, und vergiss nicht, was er dir Gutes getan hat. (Ps 103,2)"
     ]
   },
   "platforms": {
     "facebook": {
-      "text": "",
-      "headline": ""
+      "text": "Lobe den HERRN, meine Seele, und vergiss nicht, was er dir Gutes getan hat. (Ps 103,2)\n\nGott,\nzwischen offenen Listen und müden Gedanken\nlege ich dir diese Woche hin.\nWas schwer war, nimm in deine Hand.\nWas neu beginnt, segne mit Mut.\nWas ich kaum sehen kann,\nlass in deinem Licht wachsen.\nBleib bei mir und geh mit in die nächsten Schritte.",
+      "headline": "Wochengebet: Neuanfang und Segen"
     },
     "instagram": {
-      "caption": "",
-      "carousel": []
+      "caption": "Lobe den HERRN, meine Seele, und vergiss nicht, was er dir Gutes getan hat. (Ps 103,2)\n\nGott,\nzwischen offenen Listen und müden Gedanken\nlege ich dir diese Woche hin.\nWas schwer war, nimm in deine Hand.\nWas neu beginnt, segne mit Mut.\nWas ich kaum sehen kann,\nlass in deinem Licht wachsen.\nBleib bei mir und geh mit in die nächsten Schritte.\n\n#Gebet #Neuanfang #Segen #Wochenende #Psalm103",
+      "carousel": [
+        {
+          "type": "slide",
+          "text": "Lobe den HERRN, meine Seele, und vergiss nicht, was er dir Gutes getan hat. (Ps 103,2)"
+        },
+        {
+          "type": "slide",
+          "text": "Gott,\nzwischen offenen Listen und müden Gedanken\nlege ich dir diese Woche hin."
+        },
+        {
+          "type": "slide",
+          "text": "Was schwer war, nimm in deine Hand.\nWas neu beginnt, segne mit Mut."
+        },
+        {
+          "type": "slide",
+          "text": "Was ich kaum sehen kann,\nlass in deinem Licht wachsen."
+        },
+        {
+          "type": "slide",
+          "text": "Bleib bei mir\nund geh mit in die nächsten Schritte."
+        }
+      ]
     },
     "mastodon": {
-      "text": ""
+      "text": "Lobe den HERRN, meine Seele, und vergiss nicht, was er dir Gutes getan hat. (Ps 103,2)\n\nGott,\nzwischen offenen Listen und müden Gedanken\nlege ich dir diese Woche hin.\nWas schwer war, nimm in deine Hand.\nWas neu beginnt, segne mit Mut.\nWas ich kaum sehen kann,\nlass in deinem Licht wachsen.\nBleib bei mir und geh mit in die nächsten Schritte."
     },
     "bluesky": {
-      "text": ""
+      "text": "Lobe den HERRN, meine Seele, und vergiss nicht, was er dir Gutes getan hat. (Ps 103,2)\n\nGott,\nzwischen offenen Listen und müden Gedanken lege ich dir diese Woche hin. Was schwer war, nimm in deine Hand. Was neu beginnt, segne mit Mut. Bleib bei mir und geh mit in die nächsten Schritte."
     },
     "story": {
-      "slides": []
+      "slides": [
+        {
+          "text": "Wochengebet\nfür Neuanfang und Segen"
+        },
+        {
+          "text": "Lobe den HERRN, meine Seele, und vergiss nicht, was er dir Gutes getan hat. (Ps 103,2)"
+        },
+        {
+          "text": "Gott,\nzwischen offenen Listen und müden Gedanken\nlege ich dir diese Woche hin."
+        },
+        {
+          "text": "Was schwer war,\nnimm in deine Hand.\nWas neu beginnt,\nsegne mit Mut."
+        },
+        {
+          "text": "Bleib bei mir\nund geh mit\nin die nächsten Schritte."
+        }
+      ]
     },
     "reel": {
-      "hook": "",
-      "script": "",
-      "shots": [],
-      "duration_seconds": 0
+      "hook": "Wenn die Woche noch in dir nachklingt: dieses kurze Gebet nimmt sie mit vor Gott.",
+      "script": "Lobe den HERRN, meine Seele, und vergiss nicht, was er dir Gutes getan hat.\n\nGott,\nzwischen offenen Listen und müden Gedanken\nlege ich dir diese Woche hin.\nWas schwer war,\nnimm in deine Hand.\nWas neu beginnt,\nsegne mit Mut.\nWas ich kaum sehen kann,\nlass in deinem Licht wachsen.\nBleib bei mir\nund geh mit in die nächsten Schritte.",
+      "shots": [
+        "Ruhige Nahaufnahme eines Tisches am Abend mit einer Tasse und weichem Fensterlicht",
+        "Langsame Bewegung über einen offenen Notizblock mit leeren Zeilen, unscharfer Hintergrund",
+        "Hände, die still am Fensterrahmen liegen, Blick nach draußen in sanftes Abendlicht",
+        "Detailaufnahme von Licht auf einer Wand oder auf Stoff, ruhige Atmosphäre",
+        "Abschluss mit einem stillen Weg oder einer Tür im warmen Licht, ohne Personenfokus"
+      ],
+      "duration_seconds": 25
     }
   },
   "visual": {
-    "concept": "",
-    "flux_prompt": "",
+    "concept": "Ruhige, reduzierte Bildsprache zum Wochenausklang: Alltagsnähe, Abendlicht, ein Moment zwischen Erschöpfung und neuer Hoffnung. Keine inszenierte Frömmigkeit, sondern stille Sammlung.",
+    "flux_prompt": "Minimalistische, warme Szene zum Wochenausklang, weiches Abendlicht in einem schlichten Innenraum, Holztisch mit Tasse, offener Notizblock ohne lesbare Schrift, ruhige Atmosphäre, natürliche Farben, feine Schatten, hoffnungsvoller stiller Neuanfang, authentisch, ungekünstelt, editorial photography, soft focus, high detail",
     "negative_prompt": "text, letters, logo, watermark",
     "formats": [
       "4:5",
       "9:16",
       "1.91:1"
     ],
-    "alt_text": ""
+    "alt_text": "Ein schlichter Tisch im warmen Abendlicht. Darauf stehen eine Tasse und ein offener Notizblock ohne lesbare Schrift. Die ruhige Szene wirkt gesammelt und hoffnungsvoll."
   },
   "qa": {
     "warnings": [
@@ -70,8 +114,8 @@
     "approved": false
   },
   "metadata": {
-    "model": "",
-    "generated_at": "",
+    "model": "gpt-5.4-2026-03-05",
+    "generated_at": "2026-09-11T07:21:38.737Z",
     "prompt_version": "1.0",
     "assets": []
   }
