@@ -27,5 +27,66 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "prayer-evening-2026-09-11",
+    "contentDate": "2026-09-11",
+    "platform": "instagram",
+    "format": "default",
+    "scheduledAt": "2026-09-11T18:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Abendgebet.\n\nDer Tag muss vor Gott nicht fertig sein.\nWir legen hin, was gut war. Und was offen blieb.\n\nWir beten für die Menschen in Pawlohrad nach dem tödlichen Angriff auf ein Einkaufszentrum. Für die Menschen in Gaza in anhaltender Not. Für die Betroffenen der Messerangriffe in Freiburg und ihre Angehörigen.\n\nGott, halte diese Nacht. Und halte unsere Hoffnung wach.\n\nAmen.",
+    "assets": [
+      "render-instagram-feed-01.jpg",
+      "render-instagram-feed-02.jpg",
+      "render-instagram-feed-03.jpg",
+      "render-instagram-feed-04.jpg",
+      "render-instagram-feed-05.jpg"
+    ],
+    "altTexts": [
+      "Ein ruhiger Raum am Abend mit Blick zu einem Fenster im blauen Dämmerlicht. Die Szene wirkt still und gesammelt, als würde der Tag zur Ruhe kommen."
+    ],
+    "id": "244cfca6-bf54-46c8-98ff-fd8438322b90",
+    "attemptCount": 1,
+    "remoteId": "18148404232548316",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-09-11T16:51:23.350Z",
+    "updatedAt": "2026-09-11T18:00:57.104Z",
+    "responseMetadata": {
+      "mediaCount": 5,
+      "mediaType": "CAROUSEL",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "prayer-evening-2026-09-11",
+    "contentDate": "2026-09-11",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-09-11T18:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Abendgebet\n\nGott, wir legen dir diesen Tag hin. Was gut war. Was wehgetan hat. Was offen blieb.\n\nWir beten für die Menschen in Pawlohrad nach dem tödlichen Angriff auf ein Einkaufszentrum. Für die Menschen in Gaza in anhaltender Not. Für die Betroffenen der Messerangriffe in Freiburg.\n\nSchenk Frieden für diese Nacht. Und halte die Hoffnung in uns wach. Amen.",
+    "assets": [
+      "render-facebook-mastodon-01.png"
+    ],
+    "altTexts": [
+      "Ein ruhiger Raum am Abend mit Blick zu einem Fenster im blauen Dämmerlicht. Die Szene wirkt still und gesammelt, als würde der Tag zur Ruhe kommen."
+    ],
+    "id": "4dc0f0f1-f740-4c86-b12b-c44c7458a32a",
+    "attemptCount": 1,
+    "remoteId": "117253712046014978",
+    "remoteUrl": "https://kirche.social/@christoph/117253712046014978",
+    "lastError": null,
+    "createdAt": "2026-09-11T16:51:23.409Z",
+    "updatedAt": "2026-09-11T18:00:58.976Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
