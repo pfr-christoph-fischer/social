@@ -1,0 +1,60 @@
+{
+  "delivery_url": "https://delivery.eu2.bfl.ai/durable/2026091218/5e1f69ea-538b-4d66-962e-9be995966f07/30/5206918fc5e8a6/8fc5e8a6bdc54806a024d2ed73807a82/sample.jpeg?se=2026-09-12T19%3A08%3A41Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=uBTczjEMNYcQzT5uqT8a6pkNBGXo3t8veocZ4h2csoM%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "d580e179-7842-42dc-b115-9a3f6ebe6f8e",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "d580e179-7842-42dc-b115-9a3f6ebe6f8e",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "d580e179-7842-42dc-b115-9a3f6ebe6f8e",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "d580e179-7842-42dc-b115-9a3f6ebe6f8e",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "d580e179-7842-42dc-b115-9a3f6ebe6f8e",
+      "status": "Ready",
+      "result": {
+        "start_time": 1789239519.215583,
+        "prompt": "Fotorealistische ruhige Abendszene in einem schlichten Zimmer am Fenster, weiches blau-goldenes Dämmerlicht, eine Tasse und ein offenes Notizbuch auf dem Fensterbrett, stille Straße unscharf im Hintergrund, zurückhaltende warme Atmosphäre, realistische Details, Hoffnung und Ruhe, kein Mensch im Vordergrund, natürliche Farben, editorial photography, no text, no letters, no typography, no logo, no watermark",
+        "seed": 842587330,
+        "sample": "https://delivery.eu2.bfl.ai/durable/2026091218/5e1f69ea-538b-4d66-962e-9be995966f07/30/5206918fc5e8a6/8fc5e8a6bdc54806a024d2ed73807a82/sample.jpeg?se=2026-09-12T19%3A08%3A41Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=uBTczjEMNYcQzT5uqT8a6pkNBGXo3t8veocZ4h2csoM%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "d580e179-7842-42dc-b115-9a3f6ebe6f8e",
+    "polling_url": "https://api.eu2.bfl.ai/v1/get_result?id=d580e179-7842-42dc-b115-9a3f6ebe6f8e",
+    "cost": 1.5,
+    "input_mp": 0,
+    "output_mp": 1.98
+  }
+}
