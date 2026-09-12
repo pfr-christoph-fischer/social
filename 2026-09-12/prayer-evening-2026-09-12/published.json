@@ -61,5 +61,33 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "prayer-evening-2026-09-12",
+    "contentDate": "2026-09-12",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-09-12T18:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Gott,\nwir legen dir diesen Tag hin.\nWas gut war. Was offen blieb.\n\nWir bitten für Menschen, die 25 Jahre nach 9/11 weiter mit Trauer leben.\nFür Menschen im Jemen, die neue Gewalt am Roten Meer fürchten.\nFür Menschen hier bei uns ohne sichere Wohnung.\n\nSchenk Frieden für diese Nacht.\nAmen.",
+    "assets": [
+      "render-facebook-mastodon-01.png"
+    ],
+    "altTexts": [
+      "Ein schlichtes Fensterbrett im Abendlicht. Darauf stehen eine Tasse und ein offenes Notizbuch. Draußen wird der Himmel dunkel. Das Bild wirkt ruhig und lädt zum Innehalten ein."
+    ],
+    "id": "d4e526c1-f456-4a5e-bd3b-f73cb651933d",
+    "attemptCount": 1,
+    "remoteId": "117259610993292212",
+    "remoteUrl": "https://kirche.social/@christoph/117259610993292212",
+    "lastError": null,
+    "createdAt": "2026-09-12T18:59:30.962Z",
+    "updatedAt": "2026-09-12T19:01:09.774Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
