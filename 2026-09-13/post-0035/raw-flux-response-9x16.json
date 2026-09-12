@@ -1,0 +1,36 @@
+{
+  "delivery_url": "https://delivery.us8.bfl.ai/durable/2026091219/5e1f69ea-538b-4d66-962e-9be995966f07/3c/785200f3a0875f/f3a0875f70674db8b88112183b07997b/sample.jpeg?se=2026-09-12T19%3A13%3A05Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=j%2BCWtw1EXdnFG3C4qUsJA2uIkkUJxSlQK1aLlxqALIE%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "202a877d-ee4a-41b6-98b1-120ebb2cfaac",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "202a877d-ee4a-41b6-98b1-120ebb2cfaac",
+      "status": "Ready",
+      "result": {
+        "start_time": 1789239783.752532,
+        "prompt": "Fotorealistisches ruhiges Morgenmotiv in der Natur, weiches diffuses Frühlicht, ein schmaler stiller Weg oder offene Wiese, leichte Bewegung in Gräsern durch Wind, zurückhaltende Farben, viel negativer Raum, meditative Stimmung, natürliche Perspektive, hohe Bildqualität, keine Menschen im Fokus, no text, no letters, no typography, no logo, no watermark",
+        "seed": 3044214292,
+        "sample": "https://delivery.us8.bfl.ai/durable/2026091219/5e1f69ea-538b-4d66-962e-9be995966f07/3c/785200f3a0875f/f3a0875f70674db8b88112183b07997b/sample.jpeg?se=2026-09-12T19%3A13%3A05Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=j%2BCWtw1EXdnFG3C4qUsJA2uIkkUJxSlQK1aLlxqALIE%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "202a877d-ee4a-41b6-98b1-120ebb2cfaac",
+    "polling_url": "https://api.us8.bfl.ai/v1/get_result?id=202a877d-ee4a-41b6-98b1-120ebb2cfaac",
+    "cost": 1.5,
+    "input_mp": 0,
+    "output_mp": 1.98
+  }
+}

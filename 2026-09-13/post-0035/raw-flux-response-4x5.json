@@ -1,0 +1,52 @@
+{
+  "delivery_url": "https://delivery.eu2.bfl.ai/durable/2026091219/5e1f69ea-538b-4d66-962e-9be995966f07/28/7810970d0991ee/0d0991eedd43406fb17e4ccd819fed20/sample.jpeg?se=2026-09-12T19%3A13%3A01Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=quq4alfHC/QLc4f7WJB9kmNFyH8exijYoOYNEV6ZRPc%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "14f22857-543f-47f6-8559-d3e8d55c2efe",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "14f22857-543f-47f6-8559-d3e8d55c2efe",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "14f22857-543f-47f6-8559-d3e8d55c2efe",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "14f22857-543f-47f6-8559-d3e8d55c2efe",
+      "status": "Ready",
+      "result": {
+        "start_time": 1789239780.071666,
+        "prompt": "Fotorealistisches ruhiges Morgenmotiv in der Natur, weiches diffuses Frühlicht, ein schmaler stiller Weg oder offene Wiese, leichte Bewegung in Gräsern durch Wind, zurückhaltende Farben, viel negativer Raum, meditative Stimmung, natürliche Perspektive, hohe Bildqualität, keine Menschen im Fokus, no text, no letters, no typography, no logo, no watermark",
+        "seed": 2209420232,
+        "sample": "https://delivery.eu2.bfl.ai/durable/2026091219/5e1f69ea-538b-4d66-962e-9be995966f07/28/7810970d0991ee/0d0991eedd43406fb17e4ccd819fed20/sample.jpeg?se=2026-09-12T19%3A13%3A01Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=quq4alfHC/QLc4f7WJB9kmNFyH8exijYoOYNEV6ZRPc%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "14f22857-543f-47f6-8559-d3e8d55c2efe",
+    "polling_url": "https://api.eu2.bfl.ai/v1/get_result?id=14f22857-543f-47f6-8559-d3e8d55c2efe",
+    "cost": 1.5,
+    "input_mp": 0,
+    "output_mp": 1.39
+  }
+}
