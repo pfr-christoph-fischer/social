@@ -1,0 +1,420 @@
+{
+  "id": "resp_0c8553ef5dfa6852006aa5a178762487d2871d760d90f0ac8b",
+  "object": "response",
+  "created_at": 1789239672,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1789239690,
+  "error": null,
+  "frequency_penalty": 0,
+  "incomplete_details": null,
+  "instructions": "You are part of a Protestant social media editorial team. Write in clear, accessible, theologically responsible German without church clichés. Use short sentences and concrete imagery. Never invent events, people, school situations, quotes, or factual details. Do not include copyrighted full song verses. For Reli and community posts, only use current details when they are explicitly provided. Return content that strictly matches the requested JSON schema. Set needs_input to true whenever required facts are missing. Keep qa.approved false. Do not ask for any text inside generated images. When liturgical_context.resolved_weekly_verse is present, use its exact wording for Wochenspruch slots instead of placeholders.",
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.4-2026-03-05",
+  "moderation": null,
+  "output": [
+    {
+      "id": "msg_0c8553ef5dfa6852006aa5a179816487d2beef782760378567",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\"id\":\"post-0035\",\"status\":\"in Arbeit\",\"needs_input\":false,\"source\":{\"calendar_post_id\":\"post-0035\",\"date\":\"2026-09-13\",\"rubric\":\"Wochenspruch – meditativ\",\"liturgical_source\":\"https://kirchenjahr.pfarr.tools/api/jahr/2026\"},\"editorial_core\":{\"title\":\"Neuer Wochenspruch: 15. Sonntag nach Trinitatis\",\"main_message\":\"Der Wochenspruch lädt dazu ein, Sorgen nicht festzuhalten, sondern sie Gott anzuvertrauen.\",\"audience\":\"breite Öffentlichkeit\",\"tone\":[\"klar\",\"ruhig\",\"zugänglich\",\"meditativ\"],\"source_notes\":[\"Goal: Den neuen Wochenspruch als ruhigen Auftakt der liturgischen Woche veröffentlichen.\",\"Production mode: für Monate im Voraus vollständig vorproduzierbar\",\"Structure: Wochenspruch | ein Bild oder eine Beobachtung | ein meditativer Satz | offene Schlussfrage oder Segenswunsch\",\"Wochenspruch: „Alle eure Sorge werft auf ihn; denn er sorgt für euch.“ (1. Petr 5,7)\",\"Liturgischer Anlass: 15. Sonntag nach Trinitatis\",\"Keine aktuellen Ereignisse oder lokalen Details erforderlich.\"]},\"platforms\":{\"facebook\":{\"text\":\"„Alle eure Sorge werft auf ihn; denn er sorgt für euch.“\\n1. Petr 5,7\\n\\nManchmal trägt ein Mensch mehr mit sich herum, als andere sehen. Gedanken kreisen. Aufgaben drücken. Eine Sorge hängt am Morgen schon da, noch bevor der Tag richtig begonnen hat.\\n\\nDer Wochenspruch malt kein großes Bild. Eher eine einfache Bewegung: loslassen. Nicht verdrängen. Nicht kleinreden. Sondern abgeben. Gott nimmt ernst, was uns schwer wird. Und er bleibt nicht auf Abstand. „Denn er sorgt für euch.“ Das ist kein schneller Trost. Es ist eine leise Zusage für diese Woche.\\n\\nVielleicht hilft heute ein kleiner Moment: einmal tief atmen. Die Schultern senken. Einen Gedanken vor Gott bringen, der gerade zu schwer ist.\\n\\nWas möchtest du in dieser Woche nicht allein tragen?\\n\\n#Wochenspruch #Kirchenjahr #1Petrus57 #GlaubeImAlltag\",\"headline\":\"Wochenspruch für die neue Woche\"},\"instagram\":{\"caption\":\"„Alle eure Sorge werft auf ihn; denn er sorgt für euch.“\\n1. Petr 5,7\\n\\nSorge sitzt oft still neben uns. Beim Aufstehen. Auf dem Weg. Mitten im Tag.\\n\\nDer Wochenspruch lädt zu einer einfachen Bewegung ein: abgeben, was drückt. Gott hört nicht nur zu. Er sorgt.\\n\\nVielleicht beginnt diese Woche damit, die Schultern einen Moment sinken zu lassen.\\n\\nWas möchtest du heute nicht allein tragen?\\n\\n#Wochenspruch #Kirchenjahr #Meditation #GlaubeImAlltag #1Petrus57\",\"carousel\":[{\"type\":\"slide\",\"text\":\"„Alle eure Sorge werft auf ihn; denn er sorgt für euch.“\\n1. Petr 5,7\"},{\"type\":\"slide\",\"text\":\"Sorge sitzt oft still neben uns.\\nBeim Aufstehen.\\nAuf dem Weg.\\nMitten im Tag.\"},{\"type\":\"slide\",\"text\":\"Der Wochenspruch lädt ein:\\nGib ab, was dich drückt.\"},{\"type\":\"slide\",\"text\":\"Gott bleibt nicht auf Abstand.\\nEr sorgt für euch.\"},{\"type\":\"slide\",\"text\":\"Was möchtest du heute\\nnicht allein tragen?\"}]},\"mastodon\":{\"text\":\"„Alle eure Sorge werft auf ihn; denn er sorgt für euch.“ (1. Petr 5,7)\\n\\nSorgen machen das Herz oft eng. Dieser Wochenspruch öffnet eine andere Bewegung: nicht festhalten, sondern abgeben. Gott bleibt nicht fern. Er sorgt.\\n\\nWas möchtest du heute nicht allein tragen?\\n\\n#Wochenspruch #Kirchenjahr #1Petrus57\"},\"bluesky\":{\"text\":\"„Alle eure Sorge werft auf ihn; denn er sorgt für euch.“ (1. Petr 5,7)\\n\\nNicht alles muss in deiner Hand bleiben. Der Wochenspruch für diese Woche lädt ein, Sorgen abzugeben und Gottes Fürsorge zu vertrauen.\\n\\nWas möchtest du heute nicht allein tragen? #Wochenspruch\"},\"story\":{\"slides\":[{\"text\":\"Wochenspruch der Woche\\n\\n„Alle eure Sorge werft auf ihn; denn er sorgt für euch.“\\n1. Petr 5,7\"},{\"text\":\"Sorge ist oft leise.\\nAber sie kann schwer werden.\"},{\"text\":\"Du musst nicht alles festhalten.\"},{\"text\":\"Gott sorgt für euch.\"},{\"text\":\"Was möchtest du heute\\nnicht allein tragen?\"}]},\"reel\":{\"hook\":\"Wenn Sorgen den Tag schon vor dem Morgen beginnen.\",\"script\":\"„Alle eure Sorge werft auf ihn; denn er sorgt für euch.“\\n\\nManche Sorgen sind laut. Andere gehen einfach mit.\\nSchon beim Aufstehen.\\nSchon auf dem ersten Weg.\\n\\nDer Wochenspruch für diese Woche schenkt eine einfache Bewegung:\\nNicht alles festhalten.\\nNicht alles allein tragen.\\nSondern abgeben.\\n\\nGott hört nicht nur.\\nEr sorgt.\\n\\nVielleicht ist das heute genug:\\nEin Atemzug.\\nEin stilles Gebet.\\nEin Gedanke, den du Gott hinlegst.\\n\\nWas möchtest du heute nicht allein tragen?\",\"shots\":[\"Ruhiger Morgenhimmel mit weichem Licht\",\"Nahaufnahme von Händen, die einen kleinen Stein loslassen\",\"Gräser oder Blätter bewegen sich leicht im Wind\",\"Stiller Weg oder leere Bank im weichen Morgenlicht\",\"Offener Himmel als Abschlussbild\"],\"duration_seconds\":25}},\"visual\":{\"concept\":\"Ruhige Naturszene am frühen Morgen. Ein stiller Weg, weiches Licht, viel Raum im Bild. Die Stimmung soll Last und Loslassen andeuten, ohne dramatisch zu wirken.\",\"flux_prompt\":\"Fotorealistisches ruhiges Morgenmotiv in der Natur, weiches diffuses Frühlicht, ein schmaler stiller Weg oder offene Wiese, leichte Bewegung in Gräsern durch Wind, zurückhaltende Farben, viel negativer Raum, meditative Stimmung, natürliche Perspektive, hohe Bildqualität, keine Menschen im Fokus, keine Schrift im Bild\",\"negative_prompt\":\"text, letters, logo, watermark\",\"formats\":[\"4:5\",\"9:16\",\"1.91:1\"],\"alt_text\":\"Ruhige Naturszene im frühen Morgenlicht: ein schmaler Weg oder eine offene Wiese mit sanft bewegten Gräsern, weiche Farben und viel freier Raum vermitteln Stille und Entlastung.\"},\"qa\":{\"warnings\":[\"Alt text must be completed before approval\"],\"approved\":false},\"metadata\":{\"model\":\"gpt-5\",\"generated_at\":\"2026-09-12T00:00:00Z\",\"prompt_version\":\"1.0\",\"assets\":[\"bildmotiv-morgenweg\",\"story-5-slides\",\"reel-25s-script\"]}}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "current_turn",
+    "effort": "none",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1,
+  "text": {
+    "format": {
+      "type": "json_schema",
+      "description": null,
+      "name": "content_package",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "Idee",
+              "in Arbeit",
+              "zur Prüfung",
+              "freigegeben",
+              "terminiert",
+              "veröffentlicht",
+              "verworfen"
+            ]
+          },
+          "needs_input": {
+            "type": "boolean"
+          },
+          "source": {
+            "type": "object",
+            "properties": {
+              "calendar_post_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "date": {
+                "type": "string",
+                "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+              },
+              "rubric": {
+                "type": "string",
+                "minLength": 1
+              },
+              "liturgical_source": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "calendar_post_id",
+              "date",
+              "rubric",
+              "liturgical_source"
+            ],
+            "additionalProperties": false
+          },
+          "editorial_core": {
+            "type": "object",
+            "properties": {
+              "title": {
+                "type": "string"
+              },
+              "main_message": {
+                "type": "string"
+              },
+              "audience": {
+                "type": "string"
+              },
+              "tone": {
+                "minItems": 1,
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "source_notes": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "title",
+              "main_message",
+              "audience",
+              "tone",
+              "source_notes"
+            ],
+            "additionalProperties": false
+          },
+          "platforms": {
+            "type": "object",
+            "properties": {
+              "facebook": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  },
+                  "headline": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text",
+                  "headline"
+                ],
+                "additionalProperties": false
+              },
+              "instagram": {
+                "type": "object",
+                "properties": {
+                  "caption": {
+                    "type": "string"
+                  },
+                  "carousel": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "type": {
+                          "type": "string"
+                        },
+                        "text": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "type",
+                        "text"
+                      ],
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "required": [
+                  "caption",
+                  "carousel"
+                ],
+                "additionalProperties": false
+              },
+              "mastodon": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text"
+                ],
+                "additionalProperties": false
+              },
+              "bluesky": {
+                "default": {
+                  "text": ""
+                },
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text"
+                ],
+                "additionalProperties": false
+              },
+              "story": {
+                "type": "object",
+                "properties": {
+                  "slides": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "text": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "text"
+                      ],
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "required": [
+                  "slides"
+                ],
+                "additionalProperties": false
+              },
+              "reel": {
+                "type": "object",
+                "properties": {
+                  "hook": {
+                    "type": "string"
+                  },
+                  "script": {
+                    "type": "string"
+                  },
+                  "shots": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "duration_seconds": {
+                    "type": "integer",
+                    "minimum": 0,
+                    "maximum": 9007199254740991
+                  }
+                },
+                "required": [
+                  "hook",
+                  "script",
+                  "shots",
+                  "duration_seconds"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "required": [
+              "facebook",
+              "instagram",
+              "mastodon",
+              "bluesky",
+              "story",
+              "reel"
+            ],
+            "additionalProperties": false
+          },
+          "visual": {
+            "type": "object",
+            "properties": {
+              "concept": {
+                "type": "string"
+              },
+              "flux_prompt": {
+                "type": "string"
+              },
+              "negative_prompt": {
+                "type": "string",
+                "minLength": 1
+              },
+              "formats": {
+                "minItems": 1,
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "alt_text": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "concept",
+              "flux_prompt",
+              "negative_prompt",
+              "formats",
+              "alt_text"
+            ],
+            "additionalProperties": false
+          },
+          "qa": {
+            "type": "object",
+            "properties": {
+              "warnings": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "approved": {
+                "type": "boolean"
+              }
+            },
+            "required": [
+              "warnings",
+              "approved"
+            ],
+            "additionalProperties": false
+          },
+          "metadata": {
+            "type": "object",
+            "properties": {
+              "model": {
+                "type": "string"
+              },
+              "generated_at": {
+                "type": "string"
+              },
+              "prompt_version": {
+                "type": "string",
+                "minLength": 1
+              },
+              "assets": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "model",
+              "generated_at",
+              "prompt_version",
+              "assets"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "id",
+          "status",
+          "needs_input",
+          "source",
+          "editorial_core",
+          "platforms",
+          "visual",
+          "qa",
+          "metadata"
+        ],
+        "additionalProperties": false
+      },
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 1936,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1510,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 3446
+  },
+  "user": null,
+  "metadata": {},
+  "output_text": "{\"id\":\"post-0035\",\"status\":\"in Arbeit\",\"needs_input\":false,\"source\":{\"calendar_post_id\":\"post-0035\",\"date\":\"2026-09-13\",\"rubric\":\"Wochenspruch – meditativ\",\"liturgical_source\":\"https://kirchenjahr.pfarr.tools/api/jahr/2026\"},\"editorial_core\":{\"title\":\"Neuer Wochenspruch: 15. Sonntag nach Trinitatis\",\"main_message\":\"Der Wochenspruch lädt dazu ein, Sorgen nicht festzuhalten, sondern sie Gott anzuvertrauen.\",\"audience\":\"breite Öffentlichkeit\",\"tone\":[\"klar\",\"ruhig\",\"zugänglich\",\"meditativ\"],\"source_notes\":[\"Goal: Den neuen Wochenspruch als ruhigen Auftakt der liturgischen Woche veröffentlichen.\",\"Production mode: für Monate im Voraus vollständig vorproduzierbar\",\"Structure: Wochenspruch | ein Bild oder eine Beobachtung | ein meditativer Satz | offene Schlussfrage oder Segenswunsch\",\"Wochenspruch: „Alle eure Sorge werft auf ihn; denn er sorgt für euch.“ (1. Petr 5,7)\",\"Liturgischer Anlass: 15. Sonntag nach Trinitatis\",\"Keine aktuellen Ereignisse oder lokalen Details erforderlich.\"]},\"platforms\":{\"facebook\":{\"text\":\"„Alle eure Sorge werft auf ihn; denn er sorgt für euch.“\\n1. Petr 5,7\\n\\nManchmal trägt ein Mensch mehr mit sich herum, als andere sehen. Gedanken kreisen. Aufgaben drücken. Eine Sorge hängt am Morgen schon da, noch bevor der Tag richtig begonnen hat.\\n\\nDer Wochenspruch malt kein großes Bild. Eher eine einfache Bewegung: loslassen. Nicht verdrängen. Nicht kleinreden. Sondern abgeben. Gott nimmt ernst, was uns schwer wird. Und er bleibt nicht auf Abstand. „Denn er sorgt für euch.“ Das ist kein schneller Trost. Es ist eine leise Zusage für diese Woche.\\n\\nVielleicht hilft heute ein kleiner Moment: einmal tief atmen. Die Schultern senken. Einen Gedanken vor Gott bringen, der gerade zu schwer ist.\\n\\nWas möchtest du in dieser Woche nicht allein tragen?\\n\\n#Wochenspruch #Kirchenjahr #1Petrus57 #GlaubeImAlltag\",\"headline\":\"Wochenspruch für die neue Woche\"},\"instagram\":{\"caption\":\"„Alle eure Sorge werft auf ihn; denn er sorgt für euch.“\\n1. Petr 5,7\\n\\nSorge sitzt oft still neben uns. Beim Aufstehen. Auf dem Weg. Mitten im Tag.\\n\\nDer Wochenspruch lädt zu einer einfachen Bewegung ein: abgeben, was drückt. Gott hört nicht nur zu. Er sorgt.\\n\\nVielleicht beginnt diese Woche damit, die Schultern einen Moment sinken zu lassen.\\n\\nWas möchtest du heute nicht allein tragen?\\n\\n#Wochenspruch #Kirchenjahr #Meditation #GlaubeImAlltag #1Petrus57\",\"carousel\":[{\"type\":\"slide\",\"text\":\"„Alle eure Sorge werft auf ihn; denn er sorgt für euch.“\\n1. Petr 5,7\"},{\"type\":\"slide\",\"text\":\"Sorge sitzt oft still neben uns.\\nBeim Aufstehen.\\nAuf dem Weg.\\nMitten im Tag.\"},{\"type\":\"slide\",\"text\":\"Der Wochenspruch lädt ein:\\nGib ab, was dich drückt.\"},{\"type\":\"slide\",\"text\":\"Gott bleibt nicht auf Abstand.\\nEr sorgt für euch.\"},{\"type\":\"slide\",\"text\":\"Was möchtest du heute\\nnicht allein tragen?\"}]},\"mastodon\":{\"text\":\"„Alle eure Sorge werft auf ihn; denn er sorgt für euch.“ (1. Petr 5,7)\\n\\nSorgen machen das Herz oft eng. Dieser Wochenspruch öffnet eine andere Bewegung: nicht festhalten, sondern abgeben. Gott bleibt nicht fern. Er sorgt.\\n\\nWas möchtest du heute nicht allein tragen?\\n\\n#Wochenspruch #Kirchenjahr #1Petrus57\"},\"bluesky\":{\"text\":\"„Alle eure Sorge werft auf ihn; denn er sorgt für euch.“ (1. Petr 5,7)\\n\\nNicht alles muss in deiner Hand bleiben. Der Wochenspruch für diese Woche lädt ein, Sorgen abzugeben und Gottes Fürsorge zu vertrauen.\\n\\nWas möchtest du heute nicht allein tragen? #Wochenspruch\"},\"story\":{\"slides\":[{\"text\":\"Wochenspruch der Woche\\n\\n„Alle eure Sorge werft auf ihn; denn er sorgt für euch.“\\n1. Petr 5,7\"},{\"text\":\"Sorge ist oft leise.\\nAber sie kann schwer werden.\"},{\"text\":\"Du musst nicht alles festhalten.\"},{\"text\":\"Gott sorgt für euch.\"},{\"text\":\"Was möchtest du heute\\nnicht allein tragen?\"}]},\"reel\":{\"hook\":\"Wenn Sorgen den Tag schon vor dem Morgen beginnen.\",\"script\":\"„Alle eure Sorge werft auf ihn; denn er sorgt für euch.“\\n\\nManche Sorgen sind laut. Andere gehen einfach mit.\\nSchon beim Aufstehen.\\nSchon auf dem ersten Weg.\\n\\nDer Wochenspruch für diese Woche schenkt eine einfache Bewegung:\\nNicht alles festhalten.\\nNicht alles allein tragen.\\nSondern abgeben.\\n\\nGott hört nicht nur.\\nEr sorgt.\\n\\nVielleicht ist das heute genug:\\nEin Atemzug.\\nEin stilles Gebet.\\nEin Gedanke, den du Gott hinlegst.\\n\\nWas möchtest du heute nicht allein tragen?\",\"shots\":[\"Ruhiger Morgenhimmel mit weichem Licht\",\"Nahaufnahme von Händen, die einen kleinen Stein loslassen\",\"Gräser oder Blätter bewegen sich leicht im Wind\",\"Stiller Weg oder leere Bank im weichen Morgenlicht\",\"Offener Himmel als Abschlussbild\"],\"duration_seconds\":25}},\"visual\":{\"concept\":\"Ruhige Naturszene am frühen Morgen. Ein stiller Weg, weiches Licht, viel Raum im Bild. Die Stimmung soll Last und Loslassen andeuten, ohne dramatisch zu wirken.\",\"flux_prompt\":\"Fotorealistisches ruhiges Morgenmotiv in der Natur, weiches diffuses Frühlicht, ein schmaler stiller Weg oder offene Wiese, leichte Bewegung in Gräsern durch Wind, zurückhaltende Farben, viel negativer Raum, meditative Stimmung, natürliche Perspektive, hohe Bildqualität, keine Menschen im Fokus, keine Schrift im Bild\",\"negative_prompt\":\"text, letters, logo, watermark\",\"formats\":[\"4:5\",\"9:16\",\"1.91:1\"],\"alt_text\":\"Ruhige Naturszene im frühen Morgenlicht: ein schmaler Weg oder eine offene Wiese mit sanft bewegten Gräsern, weiche Farben und viel freier Raum vermitteln Stille und Entlastung.\"},\"qa\":{\"warnings\":[\"Alt text must be completed before approval\"],\"approved\":false},\"metadata\":{\"model\":\"gpt-5\",\"generated_at\":\"2026-09-12T00:00:00Z\",\"prompt_version\":\"1.0\",\"assets\":[\"bildmotiv-morgenweg\",\"story-5-slides\",\"reel-25s-script\"]}}"
+}
