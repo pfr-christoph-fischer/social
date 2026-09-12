@@ -1,0 +1,120 @@
+{
+  "id": "prayer-morning-2026-09-13",
+  "status": "in Arbeit",
+  "needs_input": false,
+  "source": {
+    "calendar_post_id": "prayer-morning-2026-09-13",
+    "date": "2026-09-13",
+    "rubric": "Morgengebet",
+    "liturgical_source": ""
+  },
+  "editorial_core": {
+    "title": "Morgengebet",
+    "main_message": "Der Tag beginnt nicht mit dem, was ich leisten muss, sondern mit Gottes Güte. In seinem Licht darf ich den Morgen als Gabe empfangen und hoffnungsvoll in den Tag gehen.",
+    "audience": "breite Öffentlichkeit",
+    "tone": [
+      "lobend",
+      "hoffnungsvoll",
+      "zugewandt"
+    ],
+    "source_notes": [
+      "Biblischer Gebetsschnipsel geprüft: „Dies ist der Tag, den der HERR macht; lasst uns freuen und fröhlich an ihm sein.“ (Psalm 118,24, Lutherbibel 2017).",
+      "Morgenlob ohne Nachrichtenschau und ohne konkrete Fürbitten für aktuelle Ereignisse.",
+      "Sprache bewusst einfach, bildhaft und niedrigschwellig gehalten.",
+      "Tagesbezug allgemein gehalten, damit der Beitrag am Morgen der Veröffentlichung stimmig bleibt."
+    ]
+  },
+  "platforms": {
+    "facebook": {
+      "text": "Gott,\ndieser Morgen ist nicht leer.\nLicht liegt auf den Dächern. Luft füllt die Lungen. Der Tag steht vor mir wie eine offene Tür.\n\n„Dies ist der Tag, den der HERR macht“ (Psalm 118,24).\n\nIch danke dir für das Leben heute.\nFür alles, was wächst.\nFür alles, was neu werden kann.\nBleib bei mir in dem, was klar ist.\nBleib bei mir in dem, was ungewiss ist.\nRichte meinen Blick auf deine Güte.\nGib meinem Herzen Ruhe und meinem Schritt Vertrauen.\n\nIch nehme diesen Tag aus deiner Hand.\nDu bist da. Das ist genug.",
+      "headline": "Morgengebet: Dies ist der Tag"
+    },
+    "instagram": {
+      "caption": "Gott,\ndieser Morgen ist deine Gabe.\n\n„Dies ist der Tag, den der HERR macht“ (Psalm 118,24).\n\nDanke für Licht.\nDanke für Atem.\nDanke für alles, was heute wachsen darf.\nBleib bei mir in der Freude und im Ungewissen.\nRichte meinen Blick auf deine Güte.\n\nIch nehme diesen Tag aus deiner Hand.\nDu bist da. Das ist genug.",
+      "carousel": [
+        {
+          "type": "slide",
+          "text": "Gott,\ndieser Morgen ist deine Gabe."
+        },
+        {
+          "type": "slide",
+          "text": "„Dies ist der Tag,\nden der HERR macht“\nPsalm 118,24"
+        },
+        {
+          "type": "slide",
+          "text": "Danke für Licht.\nDanke für Atem.\nDanke für alles,\nwas heute wachsen darf."
+        },
+        {
+          "type": "slide",
+          "text": "Bleib bei mir\nin der Freude\nund im Ungewissen."
+        },
+        {
+          "type": "slide",
+          "text": "Ich nehme diesen Tag\naus deiner Hand.\nDu bist da.\nDas ist genug."
+        }
+      ]
+    },
+    "mastodon": {
+      "text": "Gott,\ndieser Morgen ist deine Gabe.\n\n„Dies ist der Tag, den der HERR macht“ (Psalm 118,24).\n\nDanke für Licht und Atem. Danke für alles, was heute wachsen darf. Bleib bei mir in der Freude und im Ungewissen. Ich nehme diesen Tag aus deiner Hand. Du bist da. Das ist genug."
+    },
+    "bluesky": {
+      "text": "Gott, dieser Morgen ist deine Gabe.\n\n„Dies ist der Tag, den der HERR macht“ (Psalm 118,24).\n\nDanke für Licht und Atem. Bleib bei mir in der Freude und im Ungewissen. Ich nehme diesen Tag aus deiner Hand. Du bist da. Das ist genug."
+    },
+    "story": {
+      "slides": [
+        {
+          "text": "Gott,\ndieser Morgen ist\ndeine Gabe."
+        },
+        {
+          "text": "„Dies ist der Tag,\nden der HERR macht“\nPsalm 118,24"
+        },
+        {
+          "text": "Danke für Licht.\nDanke für Atem."
+        },
+        {
+          "text": "Bleib bei mir\nin der Freude\nund im Ungewissen."
+        },
+        {
+          "text": "Ich nehme diesen Tag\naus deiner Hand.\nDu bist da.\nDas ist genug."
+        }
+      ]
+    },
+    "reel": {
+      "hook": "Dieser Morgen beginnt nicht mit Druck, sondern mit Gottes Güte.",
+      "script": "Gott, dieser Morgen ist deine Gabe. Licht liegt auf den Dächern. Luft füllt die Lungen. „Dies ist der Tag, den der HERR macht.“ Danke für alles, was heute wachsen darf. Bleib bei mir in der Freude und im Ungewissen. Ich nehme diesen Tag aus deiner Hand. Du bist da. Das ist genug.",
+      "shots": [
+        "Frühes Morgenlicht an einem Fenster",
+        "Tau auf Gras oder Blättern",
+        "Ruhige Hände an einer Kaffeetasse",
+        "Blick in den hell werdenden Himmel",
+        "Langsamer Schritt auf einem Weg"
+      ],
+      "duration_seconds": 20
+    }
+  },
+  "visual": {
+    "concept": "Ruhiger Morgen mit weichem Licht, einfache Alltagsnähe, ein neuer Tag als offene und hoffnungsvolle Gabe.",
+    "flux_prompt": "Fotorealistischer stiller Morgen in einer deutschen Wohnumgebung, weiches goldenes Frühlicht auf Fensterbank und Tisch, Blick nach draußen mit Himmel und dezentem Grün, ruhige Atmosphäre, natürliche Farben, wenig Menschen, alltagsnah, hoffnungsvoll, schlicht, protestantische Bildsprache ohne Kitsch, hohe Authentizität, sanfte Tiefenschärfe",
+    "negative_prompt": "text, letters, logo, watermark",
+    "formats": [
+      "4:5",
+      "9:16",
+      "1.91:1"
+    ],
+    "alt_text": "Sanftes Morgenlicht fällt durch ein Fenster in einen schlichten Raum. Draußen sind Himmel und etwas Grün zu sehen. Die Szene wirkt ruhig, warm und offen für einen neuen Tag."
+  },
+  "qa": {
+    "warnings": [
+      "Alt text must be completed before approval",
+      "Bibelzitat kurz gehalten und Quelle in den Texten genannt.",
+      "Am Morgen der Veröffentlichung nur auf stimmigen allgemeinen Tagesbezug prüfen."
+    ],
+    "approved": false
+  },
+  "metadata": {
+    "model": "gpt-5.4-2026-03-05",
+    "generated_at": "2026-09-12T14:00:28.430Z",
+    "prompt_version": "1.1",
+    "assets": []
+  }
+}
