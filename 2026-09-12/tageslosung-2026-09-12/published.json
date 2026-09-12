@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-12",
+    "contentDate": "2026-09-12",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-09-12T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Hüte dich nur und bewahre deine Seele gut, dass du nicht vergisst, was deine Augen gesehen haben.",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Hüte dich nur und bewahre deine Seele gut, dass du nicht vergisst, was deine Augen gesehen haben."
+    ],
+    "id": "7fa5cbdd-9662-445e-80fd-bb0ca790dc07",
+    "attemptCount": 1,
+    "remoteId": "18123300143484400",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:45:21.278Z",
+    "updatedAt": "2026-09-12T05:00:32.992Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-12",
+    "contentDate": "2026-09-12",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-09-12T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Hüte dich nur und bewahre deine Seele gut, dass du nicht vergisst, was deine Augen gesehen haben.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Hüte dich nur und bewahre deine Seele gut, dass du nicht vergisst, was deine Augen gesehen haben."
+    ],
+    "id": "5c04a239-708f-49f4-8228-7828957f67a9",
+    "attemptCount": 1,
+    "remoteId": "117256305654609278",
+    "remoteUrl": "https://kirche.social/@christoph/117256305654609278",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:45:21.287Z",
+    "updatedAt": "2026-09-12T05:00:34.291Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
