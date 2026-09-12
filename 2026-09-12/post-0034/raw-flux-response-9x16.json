@@ -1,11 +1,11 @@
 {
-  "delivery_url": "https://delivery.us2.bfl.ai/durable/2026091215/5e1f69ea-538b-4d66-962e-9be995966f07/9e/5239885df5aaab/5df5aaabaf3a4ac597f1c192bc37d412/sample.jpeg?se=2026-09-12T15%3A48%3A44Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=iukbF%2BbRL//tcNjz7OsX%2Bmt2tEabfbMoB6Win9s64HM%3D",
+  "delivery_url": "https://delivery.us2.bfl.ai/durable/2026091215/5e1f69ea-538b-4d66-962e-9be995966f07/e4/59881495ce38a3/95ce38a31e6246a092b9ba06cfb9549b/sample.jpeg?se=2026-09-12T15%3A49%3A58Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=mHcHac9PZqLWZLa6dqGCzKrKu57w8SXNiBXTUY74zSA%3D",
   "download_headers": {
     "content_type": "image/jpeg"
   },
   "polls": [
     {
-      "id": "47678f62-7d50-4b12-a0a3-7e58201c4aca",
+      "id": "5e5213fd-c6bc-415f-995a-b492cc4e210f",
       "status": "Pending",
       "result": null,
       "progress": null,
@@ -13,7 +13,7 @@
       "preview": null
     },
     {
-      "id": "47678f62-7d50-4b12-a0a3-7e58201c4aca",
+      "id": "5e5213fd-c6bc-415f-995a-b492cc4e210f",
       "status": "Pending",
       "result": null,
       "progress": null,
@@ -21,13 +21,13 @@
       "preview": null
     },
     {
-      "id": "47678f62-7d50-4b12-a0a3-7e58201c4aca",
+      "id": "5e5213fd-c6bc-415f-995a-b492cc4e210f",
       "status": "Ready",
       "result": {
-        "start_time": 1789227522.3855147,
-        "prompt": "Manuell hochgeladene Assets, no text, no letters, no typography, no logo, no watermark",
-        "seed": 1989858922,
-        "sample": "https://delivery.us2.bfl.ai/durable/2026091215/5e1f69ea-538b-4d66-962e-9be995966f07/9e/5239885df5aaab/5df5aaabaf3a4ac597f1c192bc37d412/sample.jpeg?se=2026-09-12T15%3A48%3A44Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=iukbF%2BbRL//tcNjz7OsX%2Bmt2tEabfbMoB6Win9s64HM%3D"
+        "start_time": 1789227596.9117813,
+        "prompt": "Ein weiter, noch unberührter Garten am frühen Morgen. Im Vordergrund steht ein einzelner Mensch von hinten an einer Schwelle und ist gerade dabei, den ersten Schritt in den Garten zu machen. Vor ihm ist die Welt bereits da: feuchter Boden, Wasser, unterschiedliche Bäume und Pflanzen, Licht zwischen den Zweigen, Weite und Schönheit. Die Person wirkt klein, aber nicht verloren. Das Bild soll ausdrücken: Bevor der Mensch seinen ersten Schritt macht, ist schon für Leben gesorgt. Keine Darstellung Gottes, keine religiösen Symbole, kein Kitsch, keine Eden-Idylle mit exotischen Tieren. Ruhig, realistisch, atmosphärisch, hoffnungsvoll, natürliches Morgenlicht., no text, no letters, no typography, no logo, no watermark",
+        "seed": 1336454437,
+        "sample": "https://delivery.us2.bfl.ai/durable/2026091215/5e1f69ea-538b-4d66-962e-9be995966f07/e4/59881495ce38a3/95ce38a31e6246a092b9ba06cfb9549b/sample.jpeg?se=2026-09-12T15%3A49%3A58Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=mHcHac9PZqLWZLa6dqGCzKrKu57w8SXNiBXTUY74zSA%3D"
       },
       "progress": null,
       "details": null,
@@ -35,8 +35,8 @@
     }
   ],
   "submission": {
-    "id": "47678f62-7d50-4b12-a0a3-7e58201c4aca",
-    "polling_url": "https://api.us2.bfl.ai/v1/get_result?id=47678f62-7d50-4b12-a0a3-7e58201c4aca",
+    "id": "5e5213fd-c6bc-415f-995a-b492cc4e210f",
+    "polling_url": "https://api.us2.bfl.ai/v1/get_result?id=5e5213fd-c6bc-415f-995a-b492cc4e210f",
     "cost": 1.5,
     "input_mp": 0,
     "output_mp": 1.98
