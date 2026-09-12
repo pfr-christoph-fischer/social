@@ -9,9 +9,9 @@
     "liturgical_source": "https://kirchenjahr.pfarr.tools/api/jahr/2026"
   },
   "editorial_core": {
-    "title": "Bevor du anfängst...",
-    "main_message": "Wie wird das wohl? Wenn etwas Neues beginnt, schauen wir schnell auf das, was uns noch fehlt. Die Geschichte vom Garten erzählt von einer anderen Blickrichtung: Bevor der Mensch etwas tun kann, hat Gott längst angefangen. Er gibt Leben. Er schafft Raum. Er kommt uns entgegen. Eine Predigt über Sorge und Segen – und über den Mut zum ersten Schritt.",
-    "audience": "Predigt-Preview für morgen",
+    "title": "Predigt-Preview auf 15. Sonntag nach Trinitatis",
+    "main_message": "Erst nach Fertigstellung der Predigt: eine Spannung, eine Frage und eine Einladung.",
+    "audience": "Menschen aus der Gemeinde und Interessierte, die sich mit einem kurzen Impuls auf den Sonntagsgottesdienst einstimmen möchten.",
     "tone": [
       "klar",
       "ruhig",
@@ -24,69 +24,88 @@
       "Structure: überraschende Frage oder Spannung | ein Satz zum Predigttext | Ort und Zeit aus Terminquelle ergänzen",
       "AI support notes: Hook-Varianten | Reel-Skript | Caption | Untertitel",
       "Current inputs required: Predigtmanuskript oder Kerngedanke | Gottesdienstort | Uhrzeit | Besonderheiten",
-      "Liturgical source: https://kirchenjahr.pfarr.tools/api/jahr/2026 (2026-09-13, $.Tage['2026-09-13'])",
-      "Wochenspruch: Alle eure Sorge werft auf ihn; denn er sorgt für euch. (1. Petr 5,7)"
+      "Liturgical source: https://kirchenjahr.pfarr.tools/api/jahr/2026 (2026-09-13, $.Tage['2026-09-13'])"
     ]
   },
   "platforms": {
     "facebook": {
-      "text": "",
-      "headline": ""
+      "text": "Am Samstag entsteht hier noch ein kurzer Predigt-Preview zum 15. Sonntag nach Trinitatis: mit einer Frage, einer Spannung und einer Einladung zum Gottesdienst. Ort, Uhrzeit und inhaltlicher Akzent werden ergänzt, sobald die Predigt fertig ist.",
+      "headline": "Predigt-Preview folgt nach Fertigstellung der Predigt"
     },
     "instagram": {
-      "caption": "",
+      "caption": "Noch in Arbeit: Der Predigt-Preview zum 15. Sonntag nach Trinitatis wird nach Fertigstellung der Predigt ergänzt – mit einer ehrlichen Frage, einem Gedanken zum Predigttext und einer Einladung zum Gottesdienst. Ort und Uhrzeit folgen mit den finalen Angaben.",
       "carousel": [
         {
-          "type": "content",
-          "text": ""
+          "type": "Text",
+          "text": "Predigt-Preview in Arbeit"
+        },
+        {
+          "type": "Text",
+          "text": "Nach Fertigstellung der Predigt ergänzen wir eine Frage, die nachgeht."
+        },
+        {
+          "type": "Text",
+          "text": "Dazu kommt ein kurzer Gedanke zum Predigttext des Sonntags."
+        },
+        {
+          "type": "Text",
+          "text": "Ort und Uhrzeit des Gottesdienstes werden mit den finalen Angaben ergänzt."
         }
       ]
     },
     "mastodon": {
-      "text": ""
+      "text": "Der Predigt-Preview zum 15. Sonntag nach Trinitatis wird ergänzt, sobald die Predigt fertig ist: mit einer Frage, einem Gedanken zum Predigttext und der Einladung zum Gottesdienst. Ort und Uhrzeit folgen mit den finalen Angaben."
     },
     "bluesky": {
-      "text": ""
+      "text": "Der Predigt-Preview zum 15. Sonntag nach Trinitatis folgt nach Fertigstellung der Predigt: mit Frage, kurzem Gedanken zum Predigttext und Einladung zum Gottesdienst. Ort und Uhrzeit werden ergänzt."
     },
     "story": {
       "slides": [
         {
-          "text": ""
+          "text": "Predigt-Preview in Arbeit"
+        },
+        {
+          "text": "Nach Fertigstellung der Predigt folgt eine Frage, die neugierig macht."
+        },
+        {
+          "text": "Ort und Uhrzeit ergänzen wir mit den finalen Angaben."
         }
       ]
     },
     "reel": {
-      "hook": "",
-      "script": "",
-      "shots": [],
-      "duration_seconds": 0
+      "hook": "Eine Frage zum Sonntag folgt, sobald die Predigt fertig ist.",
+      "script": "Kurzer Blick in die Vorbereitung zum 15. Sonntag nach Trinitatis. Der eigentliche Predigt-Preview entsteht erst nach Fertigstellung der Predigt: mit einer Frage, einer Spannung und einer Einladung zum Gottesdienst. Ort, Uhrzeit und inhaltlicher Akzent werden dann ergänzt.",
+      "shots": [
+        "Notizen oder Predigtmanuskript auf einem Tisch",
+        "ruhige Aufnahme aus dem Kirchenraum oder vom Vorbereitungsplatz",
+        "Texteinblendung: Preview folgt nach Fertigstellung der Predigt"
+      ],
+      "duration_seconds": 20
     }
   },
   "visual": {
-    "concept": "",
-    "flux_prompt": "",
+    "concept": "Ruhige, konzentrierte Szene der Predigtvorbereitung: offene Notizen, warmes Licht, zurückhaltende Kirchenatmosphäre, ohne konkrete liturgische Details zu behaupten.",
+    "flux_prompt": "Ruhige redaktionelle Szene zur Vorbereitung einer Sonntagspredigt, offene Notizen auf einem Holztisch, warmes natürliches Licht, dezente unscharfe Kirchenatmosphäre im Hintergrund, konzentrierte und einladende Stimmung, fotorealistisch, hochwertige Komposition",
     "negative_prompt": "text, letters, logo, watermark",
     "formats": [
       "4:5",
       "9:16",
       "1.91:1"
     ],
-    "alt_text": ""
+    "alt_text": "Offene Notizen liegen auf einem Holztisch im warmen Licht; im Hintergrund ist eine ruhige, unscharfe Kirchenatmosphäre zu erkennen."
   },
   "qa": {
-    "approved": false,
     "warnings": [
-      "Current-event or local factual details are still required. Verify that no details were invented."
-    ]
+      "Alt text must be completed before approval",
+      "Current source inputs are still required before publication",
+      "Predigt-Preview requires sermon input before final drafting"
+    ],
+    "approved": false
   },
   "metadata": {
-    "model": "gpt-5.4",
-    "generated_at": "2026-09-12T15:27:28.078Z",
+    "model": "gpt-5",
+    "generated_at": "2026-09-12T00:00:00Z",
     "prompt_version": "1.0",
-    "assets": [
-      "assets/background-1.91x1.webp",
-      "assets/background-4x5.webp",
-      "assets/background-9x16.webp"
-    ]
+    "assets": []
   }
 }
