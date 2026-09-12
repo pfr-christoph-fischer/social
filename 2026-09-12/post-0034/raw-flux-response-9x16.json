@@ -1,0 +1,44 @@
+{
+  "delivery_url": "https://delivery.us2.bfl.ai/durable/2026091215/5e1f69ea-538b-4d66-962e-9be995966f07/9e/5239885df5aaab/5df5aaabaf3a4ac597f1c192bc37d412/sample.jpeg?se=2026-09-12T15%3A48%3A44Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=iukbF%2BbRL//tcNjz7OsX%2Bmt2tEabfbMoB6Win9s64HM%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "47678f62-7d50-4b12-a0a3-7e58201c4aca",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "47678f62-7d50-4b12-a0a3-7e58201c4aca",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "47678f62-7d50-4b12-a0a3-7e58201c4aca",
+      "status": "Ready",
+      "result": {
+        "start_time": 1789227522.3855147,
+        "prompt": "Manuell hochgeladene Assets, no text, no letters, no typography, no logo, no watermark",
+        "seed": 1989858922,
+        "sample": "https://delivery.us2.bfl.ai/durable/2026091215/5e1f69ea-538b-4d66-962e-9be995966f07/9e/5239885df5aaab/5df5aaabaf3a4ac597f1c192bc37d412/sample.jpeg?se=2026-09-12T15%3A48%3A44Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=iukbF%2BbRL//tcNjz7OsX%2Bmt2tEabfbMoB6Win9s64HM%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "47678f62-7d50-4b12-a0a3-7e58201c4aca",
+    "polling_url": "https://api.us2.bfl.ai/v1/get_result?id=47678f62-7d50-4b12-a0a3-7e58201c4aca",
+    "cost": 1.5,
+    "input_mp": 0,
+    "output_mp": 1.98
+  }
+}
