@@ -27,5 +27,65 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "post-0034",
+    "contentDate": "2026-09-12",
+    "platform": "instagram",
+    "format": "default",
+    "scheduledAt": "2026-09-12T07:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Wie wird das wohl, wenn etwas Neues beginnt? Neue Schule, Studium, Ausbildung, Beruf – oder ein ganz anderer Lebensabschnitt. Schnell sehen wir, was uns noch fehlt und was schiefgehen könnte.\n\nDie alte Geschichte vom Garten erzählt von einer anderen Blickrichtung: Bevor du anfängst, hat Gott längst angefangen. Er gibt Leben. Er schafft Raum. Er kommt uns entgegen.\n\nEine Predigt über Sorge und Segen, über das, was uns schon gegeben ist – und über den Mut zum ersten Schritt -- morgen im Gottesdienst, mit Segensangebot im Anschluss.",
+    "assets": [
+      "render-instagram-feed-01.jpg",
+      "render-instagram-feed-02.jpg",
+      "render-instagram-feed-03.jpg",
+      "render-instagram-feed-04.jpg"
+    ],
+    "altTexts": [
+      "Ein Mensch steht am Rand eines weiten, grünen Gartens und macht den ersten Schritt hinein. Vor ihm liegen Wasser, Bäume und Pflanzen im Morgenlicht."
+    ],
+    "id": "71024428-844c-47dc-b0af-c01f8ba93767",
+    "attemptCount": 1,
+    "remoteId": "17956954329011591",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-09-12T15:41:04.534Z",
+    "updatedAt": "2026-09-12T15:45:45.486Z",
+    "responseMetadata": {
+      "mediaCount": 4,
+      "mediaType": "CAROUSEL",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "post-0034",
+    "contentDate": "2026-09-12",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-09-12T07:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Wie wird das wohl, wenn etwas Neues beginnt? Schnell sehen wir, was uns fehlt und was schiefgehen könnte. Die Geschichte vom Garten erzählt von einer anderen Blickrichtung: Bevor du anfängst, hat Gott längst angefangen. Du gehst nicht mit leeren Händen. Eine Predigt über Sorge und Segen, Gottes vorausgehendes Geben – und den Mut zum ersten Schritt. Morgen im Gottesdienst, mit Segensangebot im Anschluss.",
+    "assets": [
+      "render-facebook-mastodon-01.png"
+    ],
+    "altTexts": [
+      "Ein Mensch steht am Rand eines weiten, grünen Gartens und macht den ersten Schritt hinein. Vor ihm liegen Wasser, Bäume und Pflanzen im Morgenlicht."
+    ],
+    "id": "3279532d-e58f-4d19-9361-913de48b4595",
+    "attemptCount": 1,
+    "remoteId": "117258842759323862",
+    "remoteUrl": "https://kirche.social/@christoph/117258842759323862",
+    "lastError": null,
+    "createdAt": "2026-09-12T15:41:04.594Z",
+    "updatedAt": "2026-09-12T15:45:47.438Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
