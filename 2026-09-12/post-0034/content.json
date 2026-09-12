@@ -95,15 +95,17 @@
     "alt_text": "Offene Notizen liegen auf einem Holztisch im warmen Licht; im Hintergrund ist eine ruhige, unscharfe Kirchenatmosphäre zu erkennen."
   },
   "qa": {
-    "approved": false,
     "warnings": [
       "Current-event or local factual details are still required. Verify that no details were invented."
-    ]
+    ],
+    "approved": false
   },
   "metadata": {
     "model": "gpt-5",
     "generated_at": "2026-09-12T00:00:00Z",
     "prompt_version": "1.0",
-    "assets": []
+    "assets": [
+      "assets/background-1.91x1.webp"
+    ]
   }
 }
