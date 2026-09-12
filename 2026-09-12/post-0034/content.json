@@ -29,27 +29,27 @@
   },
   "platforms": {
     "facebook": {
-      "headline": "Predigt-Preview folgt nach Fertigstellung der Predigt",
-      "text": "Am Samstag entsteht hier noch ein kurzer Predigt-Preview zum 15. Sonntag nach Trinitatis: mit einer Frage, einer Spannung und einer Einladung zum Gottesdienst. Ort, Uhrzeit und inhaltlicher Akzent werden ergänzt, sobald die Predigt fertig ist."
+      "text": "Am Samstag entsteht hier noch ein kurzer Predigt-Preview zum 15. Sonntag nach Trinitatis: mit einer Frage, einer Spannung und einer Einladung zum Gottesdienst. Ort, Uhrzeit und inhaltlicher Akzent werden ergänzt, sobald die Predigt fertig ist.",
+      "headline": "Predigt-Preview folgt nach Fertigstellung der Predigt"
     },
     "instagram": {
       "caption": "Noch in Arbeit: Der Predigt-Preview zum 15. Sonntag nach Trinitatis wird nach Fertigstellung der Predigt ergänzt – mit einer ehrlichen Frage, einem Gedanken zum Predigttext und einer Einladung zum Gottesdienst. Ort und Uhrzeit folgen mit den finalen Angaben.",
       "carousel": [
         {
-          "text": "Predigt-Preview in Arbeit",
-          "type": "Text"
+          "type": "Text",
+          "text": "Predigt-Preview in Arbeit"
         },
         {
-          "text": "Nach Fertigstellung der Predigt ergänzen wir eine Frage, die nachgeht.",
-          "type": "Text"
+          "type": "Text",
+          "text": "Nach Fertigstellung der Predigt ergänzen wir eine Frage, die nachgeht."
         },
         {
-          "text": "Dazu kommt ein kurzer Gedanke zum Predigttext des Sonntags.",
-          "type": "Text"
+          "type": "Text",
+          "text": "Dazu kommt ein kurzer Gedanke zum Predigttext des Sonntags."
         },
         {
-          "text": "Ort und Uhrzeit des Gottesdienstes werden mit den finalen Angaben ergänzt.",
-          "type": "Text"
+          "type": "Text",
+          "text": "Ort und Uhrzeit des Gottesdienstes werden mit den finalen Angaben ergänzt."
         }
       ]
     },
@@ -97,9 +97,7 @@
   "qa": {
     "approved": false,
     "warnings": [
-      "Alt text must be completed before approval",
-      "Current source inputs are still required before publication",
-      "Predigt-Preview requires sermon input before final drafting"
+      "Current-event or local factual details are still required. Verify that no details were invented."
     ]
   },
   "metadata": {
