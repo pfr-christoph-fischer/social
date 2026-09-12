@@ -1,6 +1,6 @@
 {
   "id": "prayer-morning-2026-09-13",
-  "status": "in Arbeit",
+  "status": "freigegeben",
   "needs_input": false,
   "source": {
     "calendar_post_id": "prayer-morning-2026-09-13",
@@ -26,31 +26,31 @@
   },
   "platforms": {
     "facebook": {
-      "headline": "Morgengebet: Dies ist der Tag",
-      "text": "Gott,\ndieser Morgen ist nicht leer.\nLicht liegt auf den Dächern. Luft füllt die Lungen. Der Tag steht vor mir wie eine offene Tür.\n\n„Dies ist der Tag, den der HERR macht“ (Psalm 118,24).\n\nIch danke dir für das Leben heute.\nFür alles, was wächst.\nFür alles, was neu werden kann.\nBleib bei mir in dem, was klar ist.\nBleib bei mir in dem, was ungewiss ist.\nRichte meinen Blick auf deine Güte.\nGib meinem Herzen Ruhe und meinem Schritt Vertrauen.\n\nIch nehme diesen Tag aus deiner Hand.\nDu bist da. Das ist genug."
+      "text": "Gott,\ndieser Morgen ist nicht leer.\nLicht liegt auf den Dächern. Luft füllt die Lungen. Der Tag steht vor mir wie eine offene Tür.\n\n„Dies ist der Tag, den der HERR macht“ (Psalm 118,24).\n\nIch danke dir für das Leben heute.\nFür alles, was wächst.\nFür alles, was neu werden kann.\nBleib bei mir in dem, was klar ist.\nBleib bei mir in dem, was ungewiss ist.\nRichte meinen Blick auf deine Güte.\nGib meinem Herzen Ruhe und meinem Schritt Vertrauen.\n\nIch nehme diesen Tag aus deiner Hand.\nDu bist da. Das ist genug.",
+      "headline": "Morgengebet: Dies ist der Tag"
     },
     "instagram": {
       "caption": "Gott,\ndieser Morgen ist deine Gabe.\n\n„Dies ist der Tag, den der HERR macht“ (Psalm 118,24).\n\nDanke für Licht.\nDanke für Atem.\nDanke für alles, was heute wachsen darf.\nBleib bei mir in der Freude und im Ungewissen.\nRichte meinen Blick auf deine Güte.\n\nIch nehme diesen Tag aus deiner Hand.\nDu bist da. Das ist genug.",
       "carousel": [
         {
-          "text": "Gott,\ndieser Morgen ist deine Gabe.",
-          "type": "slide"
+          "type": "slide",
+          "text": "Gott,\ndieser Morgen ist deine Gabe."
         },
         {
-          "text": "„Dies ist der Tag,\nden der HERR macht“\nPsalm 118,24",
-          "type": "slide"
+          "type": "slide",
+          "text": "„Dies ist der Tag,\nden der HERR macht“\nPsalm 118,24"
         },
         {
-          "text": "Danke für Licht.\nDanke für Atem.\nDanke für alles,\nwas heute wachsen darf.",
-          "type": "slide"
+          "type": "slide",
+          "text": "Danke für Licht.\nDanke für Atem.\nDanke für alles,\nwas heute wachsen darf."
         },
         {
-          "text": "Bleib bei mir\nin der Freude\nund im Ungewissen.",
-          "type": "slide"
+          "type": "slide",
+          "text": "Bleib bei mir\nin der Freude\nund im Ungewissen."
         },
         {
-          "text": "Ich nehme diesen Tag\naus deiner Hand.\nDu bist da.\nDas ist genug.",
-          "type": "slide"
+          "type": "slide",
+          "text": "Ich nehme diesen Tag\naus deiner Hand.\nDu bist da.\nDas ist genug."
         }
       ]
     },
@@ -104,12 +104,8 @@
     "alt_text": "Sanftes Morgenlicht fällt durch ein Fenster in einen schlichten Raum. Draußen sind Himmel und etwas Grün zu sehen. Die Szene wirkt ruhig, warm und offen für einen neuen Tag."
   },
   "qa": {
-    "approved": false,
-    "warnings": [
-      "Alt text must be completed before approval",
-      "Bibelzitat kurz gehalten und Quelle in den Texten genannt.",
-      "Am Morgen der Veröffentlichung nur auf stimmigen allgemeinen Tagesbezug prüfen."
-    ]
+    "approved": true,
+    "warnings": []
   },
   "metadata": {
     "model": "gpt-5.4-2026-03-05",
