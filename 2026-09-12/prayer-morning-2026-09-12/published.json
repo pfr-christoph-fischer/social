@@ -27,5 +27,65 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "prayer-morning-2026-09-12",
+    "contentDate": "2026-09-12",
+    "platform": "instagram",
+    "format": "default",
+    "scheduledAt": "2026-09-12T05:15:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Gott, du Ursprung dieses Morgens,\ndu weckst das Licht und schenkst mir diesen neuen Tag.\n\nNoch ist nicht alles klar.\nManches liegt vor mir wie Nebel.\nAber du bist schon da.\n\n„Herr, frühe wollest du meine Stimme hören.“\nPsalm 5,4\n\nIch gehe nicht allein in diesen Tag.\nDu gehst mit.\nAmen.",
+    "assets": [
+      "render-instagram-feed-01.jpg",
+      "render-instagram-feed-02.jpg",
+      "render-instagram-feed-03.jpg",
+      "render-instagram-feed-04.jpg"
+    ],
+    "altTexts": [
+      "Sanftes Morgenlicht fällt über einen stillen Weg und taufeuchte Pflanzen. Ein leichter Nebel liegt in der Luft. Die Szene wirkt ruhig, offen und hoffnungsvoll."
+    ],
+    "id": "bd7c6b32-a0c8-40a1-913c-850609a9f3fa",
+    "attemptCount": 1,
+    "remoteId": "18141745273575786",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-09-11T16:58:10.093Z",
+    "updatedAt": "2026-09-12T05:15:43.431Z",
+    "responseMetadata": {
+      "mediaCount": 4,
+      "mediaType": "CAROUSEL",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "prayer-morning-2026-09-12",
+    "contentDate": "2026-09-12",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-09-12T05:15:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Gott, du Ursprung dieses Morgens,\ndu weckst das Licht und schenkst mir diesen neuen Tag.\n\nNoch ist nicht alles klar.\nManches liegt vor mir wie Nebel.\nAber du bist schon da.\n\n„Herr, frühe wollest du meine Stimme hören.“\nPsalm 5,4\n\nIch gehe nicht allein in diesen Tag.\nDu gehst mit.\nAmen.",
+    "assets": [
+      "render-facebook-mastodon-01.png"
+    ],
+    "altTexts": [
+      "Sanftes Morgenlicht fällt über einen stillen Weg und taufeuchte Pflanzen. Ein leichter Nebel liegt in der Luft. Die Szene wirkt ruhig, offen und hoffnungsvoll."
+    ],
+    "id": "beee80d3-3f92-4e89-a9c2-60c28ef722d8",
+    "attemptCount": 1,
+    "remoteId": "117256365292213145",
+    "remoteUrl": "https://kirche.social/@christoph/117256365292213145",
+    "lastError": null,
+    "createdAt": "2026-09-11T16:58:10.159Z",
+    "updatedAt": "2026-09-12T05:15:44.267Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
