@@ -29,35 +29,35 @@
   },
   "platforms": {
     "facebook": {
-      "text": "Am Samstag entsteht hier noch ein kurzer Predigt-Preview zum 15. Sonntag nach Trinitatis: mit einer Frage, einer Spannung und einer Einladung zum Gottesdienst. Ort, Uhrzeit und inhaltlicher Akzent werden ergänzt, sobald die Predigt fertig ist.",
-      "headline": "Predigt-Preview folgt nach Fertigstellung der Predigt"
+      "headline": "Predigt-Preview: \"Bevor du anfängst...\"",
+      "text": "Wie wird das wohl, wenn etwas Neues beginnt? Neue Schule, Studium, Ausbildung, Beruf – oder ein ganz anderer Lebensabschnitt. Schnell sehen wir, was uns noch fehlt und was schiefgehen könnte.\n\nDie alte Geschichte vom Garten erzählt von einer anderen Blickrichtung: Bevor du anfängst, hat Gott längst angefangen. Er gibt Leben. Er schafft Raum. Er kommt uns entgegen.\n\nEine Predigt über Sorge und Segen, über das, was uns schon gegeben ist – und über den Mut zum ersten Schritt -- morgen im Gottesdienst, mit Segensangebot im Anschluss."
     },
     "instagram": {
-      "caption": "Noch in Arbeit: Der Predigt-Preview zum 15. Sonntag nach Trinitatis wird nach Fertigstellung der Predigt ergänzt – mit einer ehrlichen Frage, einem Gedanken zum Predigttext und einer Einladung zum Gottesdienst. Ort und Uhrzeit folgen mit den finalen Angaben.",
+      "caption": "Wie wird das wohl, wenn etwas Neues beginnt? Neue Schule, Studium, Ausbildung, Beruf – oder ein ganz anderer Lebensabschnitt. Schnell sehen wir, was uns noch fehlt und was schiefgehen könnte.\n\nDie alte Geschichte vom Garten erzählt von einer anderen Blickrichtung: Bevor du anfängst, hat Gott längst angefangen. Er gibt Leben. Er schafft Raum. Er kommt uns entgegen.\n\nEine Predigt über Sorge und Segen, über das, was uns schon gegeben ist – und über den Mut zum ersten Schritt -- morgen im Gottesdienst, mit Segensangebot im Anschluss.",
       "carousel": [
         {
-          "type": "Text",
-          "text": "Predigt-Preview in Arbeit"
+          "text": "Wie wird das wohl?",
+          "type": "Text"
         },
         {
-          "type": "Text",
-          "text": "Nach Fertigstellung der Predigt ergänzen wir eine Frage, die nachgeht."
+          "text": "Sorge sieht, was fehlt.",
+          "type": "Text"
         },
         {
-          "type": "Text",
-          "text": "Dazu kommt ein kurzer Gedanke zum Predigttext des Sonntags."
+          "text": "Bevor du anfängst, hat Gott längst angefangen.\nDu gehst nicht mit leeren Händen in diesen Weg.",
+          "type": "Text"
         },
         {
-          "type": "Text",
-          "text": "Ort und Uhrzeit des Gottesdienstes werden mit den finalen Angaben ergänzt."
+          "text": "Morgen im Gottesdienst:\nPredigt \"Bevor du anfängst\" und Segensangebot",
+          "type": "Text"
         }
       ]
     },
     "mastodon": {
-      "text": "Der Predigt-Preview zum 15. Sonntag nach Trinitatis wird ergänzt, sobald die Predigt fertig ist: mit einer Frage, einem Gedanken zum Predigttext und der Einladung zum Gottesdienst. Ort und Uhrzeit folgen mit den finalen Angaben."
+      "text": "Wie wird das wohl, wenn etwas Neues beginnt? Schnell sehen wir, was uns fehlt und was schiefgehen könnte. Die Geschichte vom Garten erzählt von einer anderen Blickrichtung: Bevor du anfängst, hat Gott längst angefangen. Du gehst nicht mit leeren Händen. Eine Predigt über Sorge und Segen, Gottes vorausgehendes Geben – und den Mut zum ersten Schritt. Morgen im Gottesdienst, mit Segensangebot im Anschluss."
     },
     "bluesky": {
-      "text": "Der Predigt-Preview zum 15. Sonntag nach Trinitatis folgt nach Fertigstellung der Predigt: mit Frage, kurzem Gedanken zum Predigttext und Einladung zum Gottesdienst. Ort und Uhrzeit werden ergänzt."
+      "text": "Wie wird das wohl, wenn etwas Neues beginnt? Sorge sieht, was fehlt. Die Geschichte vom Garten erinnert an das, was schon gegeben ist: Bevor du anfängst, hat Gott längst angefangen. Eine Predigt über Sorge, Segen und den ersten Schritt. Morgen im Gottesdienst, mit Segensangebot im Anschluss."
     },
     "story": {
       "slides": [
@@ -95,10 +95,10 @@
     "alt_text": "Offene Notizen liegen auf einem Holztisch im warmen Licht; im Hintergrund ist eine ruhige, unscharfe Kirchenatmosphäre zu erkennen."
   },
   "qa": {
+    "approved": false,
     "warnings": [
       "Current-event or local factual details are still required. Verify that no details were invented."
-    ],
-    "approved": false
+    ]
   },
   "metadata": {
     "model": "gpt-5",
