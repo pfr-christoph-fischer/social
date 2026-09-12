@@ -30,15 +30,15 @@
   },
   "platforms": {
     "facebook": {
-      "headline": "",
-      "text": ""
+      "text": "",
+      "headline": ""
     },
     "instagram": {
       "caption": "",
       "carousel": [
         {
-          "text": "",
-          "type": "content"
+          "type": "content",
+          "text": ""
         }
       ]
     },
@@ -76,10 +76,7 @@
   "qa": {
     "approved": false,
     "warnings": [
-      "Alt text must be completed before approval",
-      "Current source inputs are still required before publication",
-      "Predigt-Preview requires sermon input before final drafting",
-      "Missing sermon input for Predigt-Preview"
+      "Current-event or local factual details are still required. Verify that no details were invented."
     ]
   },
   "metadata": {
