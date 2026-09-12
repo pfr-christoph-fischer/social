@@ -1,0 +1,44 @@
+{
+  "delivery_url": "https://delivery.us2.bfl.ai/durable/2026091219/5e1f69ea-538b-4d66-962e-9be995966f07/a8/601202d25108b8/d25108b8788444fdb65fc3897b7588aa/sample.jpeg?se=2026-09-12T19%3A10%3A01Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=/AibHGxgq8loV0djDtb2uj6Z9J5snpLvPkbp3pgUQDs%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "793f54db-2f29-4122-9422-97a2d1d98a30",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "793f54db-2f29-4122-9422-97a2d1d98a30",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "793f54db-2f29-4122-9422-97a2d1d98a30",
+      "status": "Ready",
+      "result": {
+        "start_time": 1789239599.7501495,
+        "prompt": "Fotorealistischer stiller Morgen in einer deutschen Wohnumgebung, weiches goldenes Frühlicht auf Fensterbank und Tisch, Blick nach draußen mit Himmel und dezentem Grün, ruhige Atmosphäre, natürliche Farben, wenig Menschen, alltagsnah, hoffnungsvoll, schlicht, protestantische Bildsprache ohne Kitsch, hohe Authentizität, sanfte Tiefenschärfe, no text, no letters, no typography, no logo, no watermark",
+        "seed": 1297091038,
+        "sample": "https://delivery.us2.bfl.ai/durable/2026091219/5e1f69ea-538b-4d66-962e-9be995966f07/a8/601202d25108b8/d25108b8788444fdb65fc3897b7588aa/sample.jpeg?se=2026-09-12T19%3A10%3A01Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=/AibHGxgq8loV0djDtb2uj6Z9J5snpLvPkbp3pgUQDs%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "793f54db-2f29-4122-9422-97a2d1d98a30",
+    "polling_url": "https://api.us2.bfl.ai/v1/get_result?id=793f54db-2f29-4122-9422-97a2d1d98a30",
+    "cost": 1.5,
+    "input_mp": 0,
+    "output_mp": 1.98
+  }
+}

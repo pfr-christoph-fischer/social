@@ -1,0 +1,52 @@
+{
+  "delivery_url": "https://delivery.eu2.bfl.ai/durable/2026091218/5e1f69ea-538b-4d66-962e-9be995966f07/38/5981563d4c76dd/3d4c76ddd84d416eb80495dc8acb455a/sample.jpeg?se=2026-09-12T19%3A09%3A58Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=kJVKDyUOyL0ID0oX%2BM4vYbLoMseW0/quNQVjoOm5Q7U%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "c7f22ded-a2e1-4f32-9c78-f949683f781d",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "c7f22ded-a2e1-4f32-9c78-f949683f781d",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "c7f22ded-a2e1-4f32-9c78-f949683f781d",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "c7f22ded-a2e1-4f32-9c78-f949683f781d",
+      "status": "Ready",
+      "result": {
+        "start_time": 1789239596.864243,
+        "prompt": "Fotorealistischer stiller Morgen in einer deutschen Wohnumgebung, weiches goldenes Frühlicht auf Fensterbank und Tisch, Blick nach draußen mit Himmel und dezentem Grün, ruhige Atmosphäre, natürliche Farben, wenig Menschen, alltagsnah, hoffnungsvoll, schlicht, protestantische Bildsprache ohne Kitsch, hohe Authentizität, sanfte Tiefenschärfe, no text, no letters, no typography, no logo, no watermark",
+        "seed": 2285415525,
+        "sample": "https://delivery.eu2.bfl.ai/durable/2026091218/5e1f69ea-538b-4d66-962e-9be995966f07/38/5981563d4c76dd/3d4c76ddd84d416eb80495dc8acb455a/sample.jpeg?se=2026-09-12T19%3A09%3A58Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=kJVKDyUOyL0ID0oX%2BM4vYbLoMseW0/quNQVjoOm5Q7U%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "c7f22ded-a2e1-4f32-9c78-f949683f781d",
+    "polling_url": "https://api.eu2.bfl.ai/v1/get_result?id=c7f22ded-a2e1-4f32-9c78-f949683f781d",
+    "cost": 1.5,
+    "input_mp": 0,
+    "output_mp": 1.39
+  }
+}

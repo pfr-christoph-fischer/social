@@ -1,0 +1,36 @@
+{
+  "delivery_url": "https://delivery.us2.bfl.ai/durable/2026091218/5e1f69ea-538b-4d66-962e-9be995966f07/0c/594986479c4240/479c42401b614c008436921b7ff05e4b/sample.jpeg?se=2026-09-12T19%3A09%3A55Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=telOyax97Ig7qHby0yGtIa%2BBljoEPpSeOLhWiJZlwl4%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "89fce736-be5b-4b2e-b263-1b750b79adab",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "89fce736-be5b-4b2e-b263-1b750b79adab",
+      "status": "Ready",
+      "result": {
+        "start_time": 1789239593.713122,
+        "prompt": "Fotorealistischer stiller Morgen in einer deutschen Wohnumgebung, weiches goldenes Frühlicht auf Fensterbank und Tisch, Blick nach draußen mit Himmel und dezentem Grün, ruhige Atmosphäre, natürliche Farben, wenig Menschen, alltagsnah, hoffnungsvoll, schlicht, protestantische Bildsprache ohne Kitsch, hohe Authentizität, sanfte Tiefenschärfe, no text, no letters, no typography, no logo, no watermark",
+        "seed": 176312482,
+        "sample": "https://delivery.us2.bfl.ai/durable/2026091218/5e1f69ea-538b-4d66-962e-9be995966f07/0c/594986479c4240/479c42401b614c008436921b7ff05e4b/sample.jpeg?se=2026-09-12T19%3A09%3A55Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=telOyax97Ig7qHby0yGtIa%2BBljoEPpSeOLhWiJZlwl4%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "89fce736-be5b-4b2e-b263-1b750b79adab",
+    "polling_url": "https://api.us2.bfl.ai/v1/get_result?id=89fce736-be5b-4b2e-b263-1b750b79adab",
+    "cost": 1.4000000000000001,
+    "input_mp": 0,
+    "output_mp": 0.72
+  }
+}
