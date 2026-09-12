@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-09-12",
+    "contentDate": "2026-09-12",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-09-12T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Jeder hat das Recht, in anderen Ländern vor Verfolgung Asyl zu suchen und zu genießen. (Allgemeine Erklärung der Menschenrechte, Artikel 14 Absatz 1)",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Jeder hat das Recht, in anderen Ländern vor Verfolgung Asyl zu suchen und zu genießen. (Allgemeine Erklärung der Menschenrechte, Artikel 14 Absatz 1)"
+    ],
+    "id": "71c5002d-067d-4bb8-a3fc-c363dee3ac83",
+    "attemptCount": 1,
+    "remoteId": "18143907079562700",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:37:54.077Z",
+    "updatedAt": "2026-09-12T10:00:26.496Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-09-12",
+    "contentDate": "2026-09-12",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-09-12T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Jeder hat das Recht, in anderen Ländern vor Verfolgung Asyl zu suchen und zu genießen. (Allgemeine Erklärung der Menschenrechte, Artikel 14 Absatz 1)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Jeder hat das Recht, in anderen Ländern vor Verfolgung Asyl zu suchen und zu genießen. (Allgemeine Erklärung der Menschenrechte, Artikel 14 Absatz 1)"
+    ],
+    "id": "ac32b9a3-1b44-424e-94d4-313c6705af48",
+    "attemptCount": 1,
+    "remoteId": "117257484878492379",
+    "remoteUrl": "https://kirche.social/@christoph/117257484878492379",
+    "lastError": null,
+    "createdAt": "2026-08-26T15:37:54.123Z",
+    "updatedAt": "2026-09-12T10:00:28.246Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
