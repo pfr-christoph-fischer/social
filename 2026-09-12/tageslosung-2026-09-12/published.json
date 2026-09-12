@@ -84,5 +84,91 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-12",
+    "contentDate": "2026-09-12",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-09-12T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Hüte dich nur und bewahre deine Seele gut, dass du nicht vergisst, was deine Augen gesehen haben.",
+    "assets": [
+      "render-square-01.jpg"
+    ],
+    "altTexts": [
+      "Hüte dich nur und bewahre deine Seele gut, dass du nicht vergisst, was deine Augen gesehen haben."
+    ],
+    "id": "ce152c07-b3e9-43c5-93f6-601d55de6de0",
+    "attemptCount": 1,
+    "remoteId": "17886580077683169",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:45:21.298Z",
+    "updatedAt": "2026-09-12T05:00:51.876Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-12",
+    "contentDate": "2026-09-12",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-09-12T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Hüte dich nur und bewahre deine Seele gut, dass du nicht vergisst, was deine Augen gesehen haben.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Hüte dich nur und bewahre deine Seele gut, dass du nicht vergisst, was deine Augen gesehen haben."
+    ],
+    "id": "fff3a7cc-3816-4978-908b-a575d112a38f",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3mvcceyfbn62h",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3mvcceyfbn62h",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:45:21.306Z",
+    "updatedAt": "2026-09-12T05:00:54.079Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-12",
+    "contentDate": "2026-09-12",
+    "platform": "linkedin",
+    "format": "default",
+    "scheduledAt": "2026-09-12T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Hüte dich nur und bewahre deine Seele gut, dass du nicht vergisst, was deine Augen gesehen haben.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Hüte dich nur und bewahre deine Seele gut, dass du nicht vergisst, was deine Augen gesehen haben."
+    ],
+    "id": "c7b26717-1087-4eb9-b248-db2806a33619",
+    "attemptCount": 1,
+    "remoteId": "urn:li:share:7504403651466096640",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:45:21.314Z",
+    "updatedAt": "2026-09-12T05:00:55.896Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 201
+    },
+    "retryHistory": []
   }
 ]
