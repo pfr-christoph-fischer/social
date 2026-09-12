@@ -1,6 +1,6 @@
 {
   "id": "post-0034",
-  "status": "freigegeben",
+  "status": "in Arbeit",
   "needs_input": true,
   "source": {
     "calendar_post_id": "post-0034",
@@ -29,27 +29,27 @@
   },
   "platforms": {
     "facebook": {
-      "text": "Wie wird das wohl, wenn etwas Neues beginnt? Neue Schule, Studium, Ausbildung, Beruf – oder ein ganz anderer Lebensabschnitt. Schnell sehen wir, was uns noch fehlt und was schiefgehen könnte.\n\nDie alte Geschichte vom Garten erzählt von einer anderen Blickrichtung: Bevor du anfängst, hat Gott längst angefangen. Er gibt Leben. Er schafft Raum. Er kommt uns entgegen.\n\nEine Predigt über Sorge und Segen, über das, was uns schon gegeben ist – und über den Mut zum ersten Schritt -- morgen im Gottesdienst, mit Segensangebot im Anschluss.",
-      "headline": "Predigt-Preview: \"Bevor du anfängst...\""
+      "headline": "Predigt-Preview: \"Bevor du anfängst...\"",
+      "text": "Wie wird das wohl, wenn etwas Neues beginnt? Neue Schule, Studium, Ausbildung, Beruf – oder ein ganz anderer Lebensabschnitt. Schnell sehen wir, was uns noch fehlt und was schiefgehen könnte.\n\nDie alte Geschichte vom Garten erzählt von einer anderen Blickrichtung: Bevor du anfängst, hat Gott längst angefangen. Er gibt Leben. Er schafft Raum. Er kommt uns entgegen.\n\nEine Predigt über Sorge und Segen, über das, was uns schon gegeben ist – und über den Mut zum ersten Schritt -- morgen im Gottesdienst, mit Segensangebot im Anschluss."
     },
     "instagram": {
       "caption": "Wie wird das wohl, wenn etwas Neues beginnt? Neue Schule, Studium, Ausbildung, Beruf – oder ein ganz anderer Lebensabschnitt. Schnell sehen wir, was uns noch fehlt und was schiefgehen könnte.\n\nDie alte Geschichte vom Garten erzählt von einer anderen Blickrichtung: Bevor du anfängst, hat Gott längst angefangen. Er gibt Leben. Er schafft Raum. Er kommt uns entgegen.\n\nEine Predigt über Sorge und Segen, über das, was uns schon gegeben ist – und über den Mut zum ersten Schritt -- morgen im Gottesdienst, mit Segensangebot im Anschluss.",
       "carousel": [
         {
-          "type": "Text",
-          "text": "Wie wird das wohl?"
+          "text": "Wie wird das wohl?",
+          "type": "Text"
         },
         {
-          "type": "Text",
-          "text": "Sorge sieht, was fehlt."
+          "text": "Sorge sieht, was fehlt.",
+          "type": "Text"
         },
         {
-          "type": "Text",
-          "text": "Bevor du anfängst, hat Gott längst angefangen.\nDu gehst nicht mit leeren Händen in diesen Weg."
+          "text": "Bevor du anfängst, hat Gott längst angefangen.\nDu gehst nicht mit leeren Händen in diesen Weg.",
+          "type": "Text"
         },
         {
-          "type": "Text",
-          "text": "Morgen im Gottesdienst:\nPredigt \"Bevor du anfängst\" und Segensangebot"
+          "text": "Morgen im Gottesdienst:\nPredigt \"Bevor du anfängst\" und Segensangebot",
+          "type": "Text"
         }
       ]
     },
@@ -84,8 +84,8 @@
     }
   },
   "visual": {
-    "concept": "",
-    "flux_prompt": "Manuell hochgeladene Assets",
+    "concept": "Ein weiter, noch unberührter Garten am frühen Morgen. Im Vordergrund steht ein einzelner Mensch von hinten an einer Schwelle und ist gerade dabei, den ersten Schritt in den Garten zu machen. Vor ihm ist die Welt bereits da: feuchter Boden, Wasser, unterschiedliche Bäume und Pflanzen, Licht zwischen den Zweigen, Weite und Schönheit. Die Person wirkt klein, aber nicht verloren. Das Bild soll ausdrücken: Bevor der Mensch seinen ersten Schritt macht, ist schon für Leben gesorgt. Keine Darstellung Gottes, keine religiösen Symbole, kein Kitsch, keine Eden-Idylle mit exotischen Tieren. Ruhig, realistisch, atmosphärisch, hoffnungsvoll, natürliches Morgenlicht. Viel freie, ruhige Fläche für eine Titelzeile. Querformat 16:9. Kein Text im Bild.",
+    "flux_prompt": "Ein weiter, noch unberührter Garten am frühen Morgen. Im Vordergrund steht ein einzelner Mensch von hinten an einer Schwelle und ist gerade dabei, den ersten Schritt in den Garten zu machen. Vor ihm ist die Welt bereits da: feuchter Boden, Wasser, unterschiedliche Bäume und Pflanzen, Licht zwischen den Zweigen, Weite und Schönheit. Die Person wirkt klein, aber nicht verloren. Das Bild soll ausdrücken: Bevor der Mensch seinen ersten Schritt macht, ist schon für Leben gesorgt. Keine Darstellung Gottes, keine religiösen Symbole, kein Kitsch, keine Eden-Idylle mit exotischen Tieren. Ruhig, realistisch, atmosphärisch, hoffnungsvoll, natürliches Morgenlicht. Viel freie, ruhige Fläche für eine Titelzeile. Querformat 16:9. Kein Text im Bild.",
     "negative_prompt": "text, letters, logo, watermark",
     "formats": [
       "4:5",
@@ -95,10 +95,10 @@
     "alt_text": "Ein Mensch steht am Rand eines weiten, grünen Gartens und macht den ersten Schritt hinein. Vor ihm liegen Wasser, Bäume und Pflanzen im Morgenlicht."
   },
   "qa": {
+    "approved": false,
     "warnings": [
       "Current-event or local factual details are still required. Verify that no details were invented."
-    ],
-    "approved": true
+    ]
   },
   "metadata": {
     "model": "gpt-5",
