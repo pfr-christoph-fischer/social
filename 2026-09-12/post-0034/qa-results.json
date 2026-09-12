@@ -7,19 +7,19 @@
     },
     {
       "check": "flux-prompt-no-text",
-      "findings": [],
-      "status": "passed"
-    },
-    {
-      "check": "required-fields",
       "findings": [
         {
-          "check": "required-fields",
-          "message": "Required field \"visual.concept\" is empty.",
+          "check": "flux-prompt-no-text",
+          "message": "Flux prompt appears to ask for text inside the image.",
           "severity": "error"
         }
       ],
       "status": "failed"
+    },
+    {
+      "check": "required-fields",
+      "findings": [],
+      "status": "passed"
     },
     {
       "check": "platform-lengths",
@@ -72,7 +72,7 @@
   ],
   "content_path": "content/2026-09-12/post-0034/content.json",
   "errors": [
-    "Required field \"visual.concept\" is empty.",
+    "Flux prompt appears to ask for text inside the image.",
     "A biblical citation is required but was not found in the public platform copy.",
     "Predigt-Preview still requires sermon input before approval."
   ],
