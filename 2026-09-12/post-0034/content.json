@@ -9,8 +9,8 @@
     "liturgical_source": "https://kirchenjahr.pfarr.tools/api/jahr/2026"
   },
   "editorial_core": {
-    "title": "Predigt-Preview auf 15. Sonntag nach Trinitatis",
-    "main_message": "Erst nach Fertigstellung der Predigt: eine Spannung, eine Frage und eine Einladung.",
+    "title": "Predigt-Preview: \"Bevor du anfängst...\"",
+    "main_message": "Wie wird das wohl? Wenn etwas Neues beginnt, schauen wir schnell auf das, was uns noch fehlt. Die Geschichte vom Garten erzählt von einer anderen Blickrichtung: Bevor der Mensch etwas tun kann, hat Gott längst angefangen. Er gibt Leben. Er schafft Raum. Er kommt uns entgegen. Eine Predigt über Sorge und Segen – und über den Mut zum ersten Schritt.",
     "audience": "Menschen aus der Gemeinde und Interessierte, die sich mit einem kurzen Impuls auf den Sonntagsgottesdienst einstimmen möchten.",
     "tone": [
       "klar",
@@ -29,27 +29,27 @@
   },
   "platforms": {
     "facebook": {
-      "text": "Am Samstag entsteht hier noch ein kurzer Predigt-Preview zum 15. Sonntag nach Trinitatis: mit einer Frage, einer Spannung und einer Einladung zum Gottesdienst. Ort, Uhrzeit und inhaltlicher Akzent werden ergänzt, sobald die Predigt fertig ist.",
-      "headline": "Predigt-Preview folgt nach Fertigstellung der Predigt"
+      "headline": "Predigt-Preview folgt nach Fertigstellung der Predigt",
+      "text": "Am Samstag entsteht hier noch ein kurzer Predigt-Preview zum 15. Sonntag nach Trinitatis: mit einer Frage, einer Spannung und einer Einladung zum Gottesdienst. Ort, Uhrzeit und inhaltlicher Akzent werden ergänzt, sobald die Predigt fertig ist."
     },
     "instagram": {
       "caption": "Noch in Arbeit: Der Predigt-Preview zum 15. Sonntag nach Trinitatis wird nach Fertigstellung der Predigt ergänzt – mit einer ehrlichen Frage, einem Gedanken zum Predigttext und einer Einladung zum Gottesdienst. Ort und Uhrzeit folgen mit den finalen Angaben.",
       "carousel": [
         {
-          "type": "Text",
-          "text": "Predigt-Preview in Arbeit"
+          "text": "Predigt-Preview in Arbeit",
+          "type": "Text"
         },
         {
-          "type": "Text",
-          "text": "Nach Fertigstellung der Predigt ergänzen wir eine Frage, die nachgeht."
+          "text": "Nach Fertigstellung der Predigt ergänzen wir eine Frage, die nachgeht.",
+          "type": "Text"
         },
         {
-          "type": "Text",
-          "text": "Dazu kommt ein kurzer Gedanke zum Predigttext des Sonntags."
+          "text": "Dazu kommt ein kurzer Gedanke zum Predigttext des Sonntags.",
+          "type": "Text"
         },
         {
-          "type": "Text",
-          "text": "Ort und Uhrzeit des Gottesdienstes werden mit den finalen Angaben ergänzt."
+          "text": "Ort und Uhrzeit des Gottesdienstes werden mit den finalen Angaben ergänzt.",
+          "type": "Text"
         }
       ]
     },
@@ -84,8 +84,8 @@
     }
   },
   "visual": {
-    "concept": "Ruhige, konzentrierte Szene der Predigtvorbereitung: offene Notizen, warmes Licht, zurückhaltende Kirchenatmosphäre, ohne konkrete liturgische Details zu behaupten.",
-    "flux_prompt": "Ruhige redaktionelle Szene zur Vorbereitung einer Sonntagspredigt, offene Notizen auf einem Holztisch, warmes natürliches Licht, dezente unscharfe Kirchenatmosphäre im Hintergrund, konzentrierte und einladende Stimmung, fotorealistisch, hochwertige Komposition",
+    "concept": "",
+    "flux_prompt": "Manuell hochgeladene Assets",
     "negative_prompt": "text, letters, logo, watermark",
     "formats": [
       "4:5",
@@ -95,12 +95,12 @@
     "alt_text": "Offene Notizen liegen auf einem Holztisch im warmen Licht; im Hintergrund ist eine ruhige, unscharfe Kirchenatmosphäre zu erkennen."
   },
   "qa": {
+    "approved": false,
     "warnings": [
       "Alt text must be completed before approval",
       "Current source inputs are still required before publication",
       "Predigt-Preview requires sermon input before final drafting"
-    ],
-    "approved": false
+    ]
   },
   "metadata": {
     "model": "gpt-5",
