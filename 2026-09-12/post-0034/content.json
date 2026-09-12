@@ -9,9 +9,9 @@
     "liturgical_source": "https://kirchenjahr.pfarr.tools/api/jahr/2026"
   },
   "editorial_core": {
-    "title": "Predigt-Preview auf 15. Sonntag nach Trinitatis",
-    "main_message": "Erst nach Fertigstellung der Predigt: eine Spannung, eine Frage und eine Einladung.",
-    "audience": "[TODO: define audience after current inputs are available]",
+    "title": "Bevor du anfängst...",
+    "main_message": "Wie wird das wohl? Wenn etwas Neues beginnt, schauen wir schnell auf das, was uns noch fehlt. Die Geschichte vom Garten erzählt von einer anderen Blickrichtung: Bevor der Mensch etwas tun kann, hat Gott längst angefangen. Er gibt Leben. Er schafft Raum. Er kommt uns entgegen. Eine Predigt über Sorge und Segen – und über den Mut zum ersten Schritt.",
+    "audience": "Predigt-Preview für morgen",
     "tone": [
       "klar",
       "ruhig",
@@ -30,12 +30,17 @@
   },
   "platforms": {
     "facebook": {
-      "text": "",
-      "headline": ""
+      "headline": "",
+      "text": ""
     },
     "instagram": {
       "caption": "",
-      "carousel": []
+      "carousel": [
+        {
+          "text": "",
+          "type": "content"
+        }
+      ]
     },
     "mastodon": {
       "text": ""
@@ -44,7 +49,11 @@
       "text": ""
     },
     "story": {
-      "slides": []
+      "slides": [
+        {
+          "text": ""
+        }
+      ]
     },
     "reel": {
       "hook": "",
@@ -65,13 +74,13 @@
     "alt_text": ""
   },
   "qa": {
+    "approved": false,
     "warnings": [
       "Alt text must be completed before approval",
       "Current source inputs are still required before publication",
       "Predigt-Preview requires sermon input before final drafting",
       "Missing sermon input for Predigt-Preview"
-    ],
-    "approved": false
+    ]
   },
   "metadata": {
     "model": "gpt-5.4",
