@@ -1,0 +1,44 @@
+{
+  "delivery_url": "https://delivery.eu2.bfl.ai/durable/2026091218/5e1f69ea-538b-4d66-962e-9be995966f07/5e/513798ed9abdba/ed9abdba0cd04efe869ade523d02d613/sample.jpeg?se=2026-09-12T19%3A08%3A34Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=pD%2B7CUerWH7X4jTnQob6soOfD2S/EGsu2aVc9s5nU1Q%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "2a741104-85af-46f6-92e8-d91a246441d1",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "2a741104-85af-46f6-92e8-d91a246441d1",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "2a741104-85af-46f6-92e8-d91a246441d1",
+      "status": "Ready",
+      "result": {
+        "start_time": 1789239512.9616294,
+        "prompt": "Fotorealistische ruhige Abendszene in einem schlichten Zimmer am Fenster, weiches blau-goldenes Dämmerlicht, eine Tasse und ein offenes Notizbuch auf dem Fensterbrett, stille Straße unscharf im Hintergrund, zurückhaltende warme Atmosphäre, realistische Details, Hoffnung und Ruhe, kein Mensch im Vordergrund, natürliche Farben, editorial photography, no text, no letters, no typography, no logo, no watermark",
+        "seed": 101559810,
+        "sample": "https://delivery.eu2.bfl.ai/durable/2026091218/5e1f69ea-538b-4d66-962e-9be995966f07/5e/513798ed9abdba/ed9abdba0cd04efe869ade523d02d613/sample.jpeg?se=2026-09-12T19%3A08%3A34Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=pD%2B7CUerWH7X4jTnQob6soOfD2S/EGsu2aVc9s5nU1Q%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "2a741104-85af-46f6-92e8-d91a246441d1",
+    "polling_url": "https://api.eu2.bfl.ai/v1/get_result?id=2a741104-85af-46f6-92e8-d91a246441d1",
+    "cost": 1.4000000000000001,
+    "input_mp": 0,
+    "output_mp": 0.72
+  }
+}
