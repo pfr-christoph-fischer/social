@@ -150,5 +150,43 @@
       "status": 201
     },
     "retryHistory": []
+  },
+  {
+    "postId": "prayer-morning-2026-09-12",
+    "contentDate": "2026-09-12",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-09-12T05:15:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Gott, du Ursprung dieses Morgens, du weckst das Licht und schenkst mir diesen neuen Tag. Noch ist nicht alles klar. Manches liegt vor mir wie Nebel. Aber du bist schon da. „Herr, frühe wollest du meine Stimme hören.“ Psalm 5,4. Ich gehe nicht allein in diesen Tag. Du gehst mit. Amen.",
+    "assets": [
+      "render-instagram-feed-01.jpg",
+      "render-instagram-feed-02.jpg",
+      "render-instagram-feed-03.jpg",
+      "render-instagram-feed-04.jpg"
+    ],
+    "altTexts": [
+      "Sanftes Morgenlicht fällt über einen stillen Weg und taufeuchte Pflanzen. Ein leichter Nebel liegt in der Luft. Die Szene wirkt ruhig, offen und hoffnungsvoll."
+    ],
+    "id": "a5402303-5e99-4a3b-82aa-7d52c7fd8676",
+    "attemptCount": 2,
+    "remoteId": "18129080971738641",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-09-11T16:58:10.234Z",
+    "updatedAt": "2026-09-12T05:20:38.513Z",
+    "responseMetadata": {
+      "mediaCount": 4,
+      "mediaType": "CAROUSEL",
+      "status": 200
+    },
+    "retryHistory": [
+      {
+        "at": "2026-09-12T05:15:55.526Z",
+        "error": "threads: Container konnte nicht erstellt werden (400): An unknown error occurred (Code 1) Impossible de récupérer le contenu multimédia à partir de cette URI : https://influence.christoph-fischer.de/files/2026-09-12/prayer-morning-2026-09-12/render-instagram-feed-03.jpg.Consultez la section sur les limitations dans notre document relatif au développement pour en savoir plus : https://developers.facebook.com/docs/instagram-platform/instagram-graph-api/reference/ig-user/media#creating",
+        "attempt": 1
+      }
+    ]
   }
 ]
