@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-13",
+    "contentDate": "2026-09-13",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-09-13T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Der HERR ist des Armen Schutz, ein Schutz in Zeiten der Not.",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Der HERR ist des Armen Schutz, ein Schutz in Zeiten der Not."
+    ],
+    "id": "10c9a4bf-2a4f-457e-8e4d-861fa78a15e0",
+    "attemptCount": 1,
+    "remoteId": "17868377316645367",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:45:23.634Z",
+    "updatedAt": "2026-09-13T05:00:32.512Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-13",
+    "contentDate": "2026-09-13",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-09-13T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Der HERR ist des Armen Schutz, ein Schutz in Zeiten der Not.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Der HERR ist des Armen Schutz, ein Schutz in Zeiten der Not."
+    ],
+    "id": "7f19a422-0d49-456e-bf14-39b6e353be23",
+    "attemptCount": 1,
+    "remoteId": "117261967942564940",
+    "remoteUrl": "https://kirche.social/@christoph/117261967942564940",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:45:23.642Z",
+    "updatedAt": "2026-09-13T05:00:33.950Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
