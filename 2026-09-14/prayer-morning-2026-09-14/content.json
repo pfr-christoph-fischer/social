@@ -10,117 +10,67 @@
   },
   "editorial_core": {
     "title": "Morgengebet",
-    "main_message": "Der Tag beginnt nicht mit Druck, sondern mit Gottes Güte. Im Morgenlob richten wir uns auf Gott aus und nehmen diesen Tag als Gabe aus seiner Hand an.",
+    "main_message": "Den neuen Tag als Morgenlob beginnen: sich auf Gott ausrichten, Gottes Gegenwart und Güte wahrnehmen und aus christlicher Hoffnung in den Tag gehen.",
     "audience": "breite Öffentlichkeit",
     "tone": [
-      "lobend",
-      "hoffnungsvoll",
-      "zugewandt"
+      "klar",
+      "ruhig",
+      "zugänglich"
     ],
     "source_notes": [
-      "Biblischer Gebetsschnipsel geprüft: „Lass mich am Morgen hören deine Gnade; denn ich hoffe auf dich.“ (Psalm 143,8, Lutherbibel 2017)",
-      "Morgenlob ohne Nachrichtenschau und ohne konkrete Fürbitten für aktuelle Ereignisse.",
-      "Sprache bewusst einfach, bildhaft und offen für Menschen mit wenig Gebetserfahrung."
+      "Goal: Den neuen Tag als Morgenlob beginnen: sich auf Gott ausrichten, Gottes Gegenwart und Güte wahrnehmen und aus christlicher Hoffnung in den Tag gehen.",
+      "Column: Gebet am Morgen",
+      "Production mode: am Morgen der Veröffentlichung",
+      "Structure: Goal: Ein kurzes Morgenlob, das den neuen Tag bewusst vor Gott beginnt und die Aufmerksamkeit zuerst auf Gott richtet. | Column: Gebet am Morgen | Production mode: weitgehend vorproduzierbar; am Morgen der Veröffentlichung nur auf stimmigen Tagesbezug prüfen. | Ausrichtung: Gott anreden und loben. Gottes Gegenwart, Treue, Güte, Schöpferkraft, Barmherzigkeit oder verheißene Zukunft in den Mittelpunkt stellen. | Abgrenzung: Keine Nachrichtenschau und keine konkreten Fürbitten für aktuelle Ereignisse, Länder, Gruppen oder Einzelne. Solche Anliegen gehören in das Abendgebet. | Prayer structure: Vor Gott ankommen | Gott mit einem Namen oder Bild anreden | den neuen Morgen und das Leben als Gabe wahrnehmen | einen kurzen Gebetsschnipsel aufnehmen | Hoffnung und Vertrauen aussprechen | den Tag offen und zuversichtlich aus Gottes Hand annehmen. | Prayer fragment: Wenn passend, einen sehr kurzen, erkennbaren Schnipsel aus einem bekannten Gebet aufnehmen, zum Beispiel aus einem Psalm, einem biblischen Gebet oder der Tradition von Taizé oder Iona. | Source handling: Quelle des Gebetsschnipsels zuverlässig prüfen und knapp nennen. Biblische Worte mit Bibelstelle kennzeichnen. Bei modernen Gebeten und Gesängen nur ein kurzes zulässiges Zitat verwenden; sonst den Gedanken in eigenen Worten aufnehmen. | Theological key: Christliche Hoffnung gründet in Gott und seiner verheißenen Zukunft. Sie ist mehr als gute Stimmung und trägt auch dann, wenn der Tag ungewiss beginnt. | Theological key: Das Morgenlob verschweigt Dunkelheit und Leid nicht, macht sie aber nicht zum Mittelpunkt. Es beginnt mit Gott, von dem Licht, Leben und Erneuerung erwartet werden. | Spiritual tone: Lob, Dank, Staunen, Vertrauen, Erwartung und ruhige Zuversicht. Keine Leistungsforderung und kein Appellkatalog. | Language: Kurze, einfache und poetisch klare Sätze. Konkrete Bilder des Morgens und der Schöpfung verwenden, ohne kitschig zu werden. | Language: Möglichst wenig kirchliche Binnenbegriffe. Das Gebet soll auch für Menschen zugänglich sein, die mit traditioneller Gebetssprache wenig anfangen können. | Ending: Mit einem Satz des Vertrauens oder Lobes enden, der in den Tag mitgenommen werden kann. | AI support notes: Passenden geistlichen Leitgedanken wählen | gegebenenfalls einen kurzen Gebetsschnipsel samt Quelle prüfen | Morgenlob in einfacher Sprache entwerfen | konkrete Fürbitten konsequent dem Abendgebet überlassen | Caption kürzen | Alt-Text",
+      "AI support notes: Aktuelle Nachrichten prüfen | Gebet und Plattformtexte generieren | redaktionell prüfen"
     ]
   },
   "platforms": {
     "facebook": {
-      "text": "Gott,\ndieser Morgen ist nicht leer.\nLicht liegt auf den Dächern.\nDer Himmel wird weit.\nMein Atem geht.\nDas Leben ist da.\n\nIch danke dir für diesen neuen Tag.\nFür alles, was heute wachsen darf.\nFür Wege, die ich noch nicht kenne.\nFür Menschen, denen ich begegnen werde.\n\n„Lass mich am Morgen hören deine Gnade; denn ich hoffe auf dich.“\nPsalm 143,8\n\nLass deine Freundlichkeit mein Herz zuerst erreichen.\nNicht die Eile.\nNicht die Sorge.\nNicht das, was ich leisten muss.\n\nGib mir einen wachen Blick für das Gute.\nMut für das, was schwer ist.\nUnd Ruhe für den nächsten Schritt.\n\nIch nehme diesen Tag aus deiner Hand.\nDu bist da.\nDas genügt.\n\nAmen.",
-      "headline": "Morgengebet"
+      "text": "",
+      "headline": ""
     },
     "instagram": {
-      "caption": "Gott,\ndieser Morgen ist ein Geschenk.\nLicht fällt in den Tag.\nMein Atem geht.\nDas Leben ist da.\n\n„Lass mich am Morgen hören deine Gnade; denn ich hoffe auf dich.“\nPsalm 143,8\n\nLass deine Freundlichkeit heute zuerst bei mir ankommen.\nNicht die Eile.\nNicht die Sorge.\n\nGib mir Mut für das Schwere.\nUnd Ruhe für den nächsten Schritt.\n\nIch nehme diesen Tag aus deiner Hand.\nDu bist da.\nAmen.",
-      "carousel": [
-        {
-          "type": "text",
-          "text": "Gott,\ndieser Morgen ist ein Geschenk."
-        },
-        {
-          "type": "text",
-          "text": "Licht fällt in den Tag.\nMein Atem geht.\nDas Leben ist da."
-        },
-        {
-          "type": "text",
-          "text": "„Lass mich am Morgen hören deine Gnade; denn ich hoffe auf dich.“\nPsalm 143,8"
-        },
-        {
-          "type": "text",
-          "text": "Lass deine Freundlichkeit heute zuerst bei mir ankommen.\nNicht die Eile.\nNicht die Sorge."
-        },
-        {
-          "type": "text",
-          "text": "Gib mir Mut für das Schwere.\nUnd Ruhe für den nächsten Schritt."
-        },
-        {
-          "type": "text",
-          "text": "Ich nehme diesen Tag aus deiner Hand.\nDu bist da.\nAmen."
-        }
-      ]
+      "caption": "",
+      "carousel": []
     },
     "mastodon": {
-      "text": "Gott,\ndieser Morgen ist ein Geschenk.\nLicht fällt in den Tag. Mein Atem geht. Das Leben ist da.\n\n„Lass mich am Morgen hören deine Gnade; denn ich hoffe auf dich.“\nPsalm 143,8\n\nLass deine Freundlichkeit heute zuerst bei mir ankommen. Nicht die Eile. Nicht die Sorge.\nGib mir Mut für das Schwere und Ruhe für den nächsten Schritt.\nIch nehme diesen Tag aus deiner Hand.\nDu bist da.\nAmen."
+      "text": ""
     },
     "bluesky": {
-      "text": "Gott, dieser Morgen ist ein Geschenk. Licht fällt in den Tag. Mein Atem geht. Das Leben ist da.\n\n„Lass mich am Morgen hören deine Gnade; denn ich hoffe auf dich.“ Psalm 143,8\n\nLass deine Freundlichkeit heute zuerst bei mir ankommen. Gib mir Mut für das Schwere und Ruhe für den nächsten Schritt. Amen."
+      "text": ""
     },
     "story": {
-      "slides": [
-        {
-          "text": "Gott,\ndieser Morgen ist ein Geschenk."
-        },
-        {
-          "text": "Licht fällt in den Tag.\nMein Atem geht.\nDas Leben ist da."
-        },
-        {
-          "text": "„Lass mich am Morgen hören deine Gnade; denn ich hoffe auf dich.“\nPsalm 143,8"
-        },
-        {
-          "text": "Lass deine Freundlichkeit heute zuerst bei mir ankommen."
-        },
-        {
-          "text": "Gib mir Mut für das Schwere.\nUnd Ruhe für den nächsten Schritt."
-        },
-        {
-          "text": "Ich nehme diesen Tag aus deiner Hand.\nDu bist da.\nAmen."
-        }
-      ]
+      "slides": []
     },
     "reel": {
-      "hook": "Dieser Morgen beginnt mit Gottes Güte.",
-      "script": "Gott, dieser Morgen ist ein Geschenk. Licht fällt in den Tag. Mein Atem geht. Das Leben ist da. Lass mich am Morgen hören deine Gnade; denn ich hoffe auf dich. Lass deine Freundlichkeit heute zuerst bei mir ankommen. Nicht die Eile. Nicht die Sorge. Gib mir Mut für das Schwere und Ruhe für den nächsten Schritt. Ich nehme diesen Tag aus deiner Hand. Du bist da. Amen.",
-      "shots": [
-        "Frühes Morgenlicht an einem Fenster",
-        "Tau auf Gras oder Blättern",
-        "Ruhige Hände mit einer Tasse",
-        "Weite Himmelsszene am Morgen",
-        "Langsamer Weg auf einem Gehweg oder Feldweg"
-      ],
-      "duration_seconds": 25
+      "hook": "",
+      "script": "",
+      "shots": [],
+      "duration_seconds": 0
     }
   },
   "visual": {
-    "concept": "Ruhiger Morgenbeginn mit natürlichem Licht, Weite und kleinen Zeichen von Leben: Fensterlicht, Tau, Himmel, Weg. Die Bildsprache soll still, hoffnungsvoll und ungekünstelt wirken.",
-    "flux_prompt": "A quiet early morning scene with soft natural light, dew on grass, gentle sky, a simple path, warm and calm atmosphere, minimal composition, realistic photography, subtle hope, no people facing camera, no typography",
+    "concept": "",
+    "flux_prompt": "",
     "negative_prompt": "text, letters, logo, watermark",
     "formats": [
       "4:5",
       "9:16",
       "1.91:1"
     ],
-    "alt_text": "Ruhige Morgenszene mit weichem Licht, Tau auf Pflanzen und weitem Himmel. Das Bild vermittelt Stille, Neubeginn und Hoffnung zu Tagesbeginn."
+    "alt_text": ""
   },
   "qa": {
     "warnings": [
-      "Alt text must be completed before approval",
-      "Bibelzitatquelle redaktionell gegen finale Ausgabe prüfen: Psalm 143,8, Lutherbibel 2017.",
-      "Am Morgen des 14. September 2026 nur auf stimmigen Tagesbezug und finale Zeichensetzung prüfen."
+      "Alt text must be completed before approval"
     ],
     "approved": false
   },
   "metadata": {
-    "model": "gpt-5.4-2026-03-05",
-    "generated_at": "2026-09-13T14:00:31.578Z",
-    "prompt_version": "1.1",
+    "model": "",
+    "generated_at": "",
+    "prompt_version": "1.0",
     "assets": []
   }
 }
