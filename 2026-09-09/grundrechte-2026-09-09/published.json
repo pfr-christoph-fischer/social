@@ -142,5 +142,44 @@
       "status": 201
     },
     "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-09-09",
+    "contentDate": "2026-09-09",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-09-09T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Bei der Ausarbeitung und Umsetzung von Rechtsvorschriften und politischen Konzepten zur Durchführung dieses Übereinkommens und bei anderen Entscheidungsprozessen in Fragen, die Menschen mit Behinderungen betreffen, führen die Vertragsstaaten mit den Menschen mit Behinderungen, einschließlich Kind...",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Bei der Ausarbeitung und Umsetzung von Rechtsvorschriften und politischen Konzepten zur Durchführung dieses Übereinkommens und bei anderen Entscheidungsprozessen in Fragen, die Menschen mit Behinderungen betreffen, führen die Vertragsstaaten mit den Menschen mit Behinderungen, einschließlich Kindern mit Behinderungen, über die sie vertretenden Organisationen enge Konsultationen und beziehen sie aktiv ein. (UN-Behindertenrechtskonvention, Artikel 4 Absatz 3)"
+    ],
+    "id": "a31193f8-8600-42fe-a5b6-090695340c40",
+    "attemptCount": 3,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3mvg5bikczm23",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3mvg5bikczm23",
+    "lastError": null,
+    "createdAt": "2026-09-13T17:30:03.962Z",
+    "updatedAt": "2026-09-13T17:40:06.989Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": [
+      {
+        "at": "2026-09-13T17:30:05.996Z",
+        "error": "bluesky: Der Beitrag darf höchstens 300 Zeichen enthalten.",
+        "attempt": 1
+      },
+      {
+        "at": "2026-09-13T17:35:03.867Z",
+        "error": "bluesky: Der Beitrag darf höchstens 300 Zeichen enthalten.",
+        "attempt": 2
+      }
+    ]
   }
 ]
