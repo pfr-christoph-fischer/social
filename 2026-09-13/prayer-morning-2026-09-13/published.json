@@ -27,5 +27,66 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "prayer-morning-2026-09-13",
+    "contentDate": "2026-09-13",
+    "platform": "instagram",
+    "format": "default",
+    "scheduledAt": "2026-09-13T05:15:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Gott,\ndieser Morgen ist deine Gabe.\n\n„Dies ist der Tag, den der HERR macht“ (Psalm 118,24).\n\nDanke für Licht.\nDanke für Atem.\nDanke für alles, was heute wachsen darf.\nBleib bei mir in der Freude und im Ungewissen.\nRichte meinen Blick auf deine Güte.\n\nIch nehme diesen Tag aus deiner Hand.\nDu bist da. Das ist genug.",
+    "assets": [
+      "render-instagram-feed-01.jpg",
+      "render-instagram-feed-02.jpg",
+      "render-instagram-feed-03.jpg",
+      "render-instagram-feed-04.jpg",
+      "render-instagram-feed-05.jpg"
+    ],
+    "altTexts": [
+      "Sanftes Morgenlicht fällt durch ein Fenster in einen schlichten Raum. Draußen sind Himmel und etwas Grün zu sehen. Die Szene wirkt ruhig, warm und offen für einen neuen Tag."
+    ],
+    "id": "4072aa57-2c6b-4b5d-9152-94edd809a090",
+    "attemptCount": 1,
+    "remoteId": "18114114151996199",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-09-12T19:00:56.807Z",
+    "updatedAt": "2026-09-13T05:15:49.283Z",
+    "responseMetadata": {
+      "mediaCount": 5,
+      "mediaType": "CAROUSEL",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "prayer-morning-2026-09-13",
+    "contentDate": "2026-09-13",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-09-13T05:15:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Gott,\ndieser Morgen ist deine Gabe.\n\n„Dies ist der Tag, den der HERR macht“ (Psalm 118,24).\n\nDanke für Licht und Atem. Danke für alles, was heute wachsen darf. Bleib bei mir in der Freude und im Ungewissen. Ich nehme diesen Tag aus deiner Hand. Du bist da. Das ist genug.",
+    "assets": [
+      "render-facebook-mastodon-01.png"
+    ],
+    "altTexts": [
+      "Sanftes Morgenlicht fällt durch ein Fenster in einen schlichten Raum. Draußen sind Himmel und etwas Grün zu sehen. Die Szene wirkt ruhig, warm und offen für einen neuen Tag."
+    ],
+    "id": "921c6728-d0f8-4746-b6d3-31576ab6e09a",
+    "attemptCount": 1,
+    "remoteId": "117262027978560907",
+    "remoteUrl": "https://kirche.social/@christoph/117262027978560907",
+    "lastError": null,
+    "createdAt": "2026-09-12T19:00:56.955Z",
+    "updatedAt": "2026-09-13T05:15:50.033Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
