@@ -84,5 +84,62 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-13",
+    "contentDate": "2026-09-13",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-09-13T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Der HERR ist des Armen Schutz, ein Schutz in Zeiten der Not.",
+    "assets": [
+      "render-square-01.jpg"
+    ],
+    "altTexts": [
+      "Der HERR ist des Armen Schutz, ein Schutz in Zeiten der Not."
+    ],
+    "id": "4c06577b-3a87-4db1-a01e-f4531c7b51ba",
+    "attemptCount": 1,
+    "remoteId": "18103066628199386",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:45:23.651Z",
+    "updatedAt": "2026-09-13T05:00:54.234Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-13",
+    "contentDate": "2026-09-13",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-09-13T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Der HERR ist des Armen Schutz, ein Schutz in Zeiten der Not.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Der HERR ist des Armen Schutz, ein Schutz in Zeiten der Not."
+    ],
+    "id": "1179c1ca-3903-4538-98dd-96d788f814f7",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3mvesty543o2v",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3mvesty543o2v",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:45:23.657Z",
+    "updatedAt": "2026-09-13T05:00:56.730Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
