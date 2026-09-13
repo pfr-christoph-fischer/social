@@ -10,48 +10,82 @@
   },
   "editorial_core": {
     "title": "Morgengebet",
-    "main_message": "Den neuen Tag als Morgenlob beginnen: sich auf Gott ausrichten, Gottes Gegenwart und Güte wahrnehmen und aus christlicher Hoffnung in den Tag gehen.",
+    "main_message": "Der neue Tag beginnt als Geschenk Gottes. Im Morgenlob richtet sich der Blick zuerst auf Gottes Güte, Licht und Treue.",
     "audience": "breite Öffentlichkeit",
     "tone": [
       "klar",
       "ruhig",
-      "zugänglich"
+      "zugänglich",
+      "poetisch"
     ],
     "source_notes": [
-      "Goal: Den neuen Tag als Morgenlob beginnen: sich auf Gott ausrichten, Gottes Gegenwart und Güte wahrnehmen und aus christlicher Hoffnung in den Tag gehen.",
-      "Column: Gebet am Morgen",
-      "Production mode: am Morgen der Veröffentlichung",
-      "Structure: Goal: Ein kurzes Morgenlob, das den neuen Tag bewusst vor Gott beginnt und die Aufmerksamkeit zuerst auf Gott richtet. | Column: Gebet am Morgen | Production mode: weitgehend vorproduzierbar; am Morgen der Veröffentlichung nur auf stimmigen Tagesbezug prüfen. | Ausrichtung: Gott anreden und loben. Gottes Gegenwart, Treue, Güte, Schöpferkraft, Barmherzigkeit oder verheißene Zukunft in den Mittelpunkt stellen. | Abgrenzung: Keine Nachrichtenschau und keine konkreten Fürbitten für aktuelle Ereignisse, Länder, Gruppen oder Einzelne. Solche Anliegen gehören in das Abendgebet. | Prayer structure: Vor Gott ankommen | Gott mit einem Namen oder Bild anreden | den neuen Morgen und das Leben als Gabe wahrnehmen | einen kurzen Gebetsschnipsel aufnehmen | Hoffnung und Vertrauen aussprechen | den Tag offen und zuversichtlich aus Gottes Hand annehmen. | Prayer fragment: Wenn passend, einen sehr kurzen, erkennbaren Schnipsel aus einem bekannten Gebet aufnehmen, zum Beispiel aus einem Psalm, einem biblischen Gebet oder der Tradition von Taizé oder Iona. | Source handling: Quelle des Gebetsschnipsels zuverlässig prüfen und knapp nennen. Biblische Worte mit Bibelstelle kennzeichnen. Bei modernen Gebeten und Gesängen nur ein kurzes zulässiges Zitat verwenden; sonst den Gedanken in eigenen Worten aufnehmen. | Theological key: Christliche Hoffnung gründet in Gott und seiner verheißenen Zukunft. Sie ist mehr als gute Stimmung und trägt auch dann, wenn der Tag ungewiss beginnt. | Theological key: Das Morgenlob verschweigt Dunkelheit und Leid nicht, macht sie aber nicht zum Mittelpunkt. Es beginnt mit Gott, von dem Licht, Leben und Erneuerung erwartet werden. | Spiritual tone: Lob, Dank, Staunen, Vertrauen, Erwartung und ruhige Zuversicht. Keine Leistungsforderung und kein Appellkatalog. | Language: Kurze, einfache und poetisch klare Sätze. Konkrete Bilder des Morgens und der Schöpfung verwenden, ohne kitschig zu werden. | Language: Möglichst wenig kirchliche Binnenbegriffe. Das Gebet soll auch für Menschen zugänglich sein, die mit traditioneller Gebetssprache wenig anfangen können. | Ending: Mit einem Satz des Vertrauens oder Lobes enden, der in den Tag mitgenommen werden kann. | AI support notes: Passenden geistlichen Leitgedanken wählen | gegebenenfalls einen kurzen Gebetsschnipsel samt Quelle prüfen | Morgenlob in einfacher Sprache entwerfen | konkrete Fürbitten konsequent dem Abendgebet überlassen | Caption kürzen | Alt-Text",
-      "AI support notes: Aktuelle Nachrichten prüfen | Gebet und Plattformtexte generieren | redaktionell prüfen"
+      "Morgenlob ohne Nachrichtenschau und ohne konkrete Fürbitten für aktuelle Ereignisse.",
+      "Kurzer biblischer Gebetsschnipsel geprüft: Psalm 118,24: „Dies ist der Tag, den der HERR macht; lasst uns freuen und fröhlich an ihm sein.“ (Lutherbibel 2017).",
+      "Gebet in einfacher, offener Sprache mit Vertrauen und Hoffnung für den Tag."
     ]
   },
   "platforms": {
     "facebook": {
-      "text": "",
-      "headline": ""
+      "text": "Gott, du Ursprung dieses Morgens,\ndu öffnest die Nacht und gibst Licht.\nDieser Tag liegt nicht nur vor mir. Er kommt aus deiner Hand.\n\n„Dies ist der Tag, den der HERR macht“ (Psalm 118,24).\nIch danke dir für Atem, Zeit und alles, was heute wachsen darf.\nBleib mir nah in allem, was vor mir liegt.\nGib meinem Herzen Ruhe, meinen Worten Freundlichkeit und meinen Schritten Vertrauen.\n\nIch nehme diesen Tag aus deiner Güte an.\nAmen.",
+      "headline": "Morgengebet"
     },
     "instagram": {
-      "caption": "",
-      "carousel": []
+      "caption": "Gott, du Ursprung dieses Morgens,\ndu öffnest die Nacht und gibst Licht.\nDieser Tag liegt nicht nur vor mir. Er kommt aus deiner Hand.\n\n„Dies ist der Tag, den der HERR macht“ (Psalm 118,24).\nIch danke dir für Atem, Zeit und alles, was heute wachsen darf.\nBleib mir nah in allem, was vor mir liegt.\nGib meinem Herzen Ruhe, meinen Worten Freundlichkeit und meinen Schritten Vertrauen.\n\nIch nehme diesen Tag aus deiner Güte an.\nAmen.",
+      "carousel": [
+        {
+          "type": "text",
+          "text": "Gott, du Ursprung dieses Morgens, du öffnest die Nacht und gibst Licht."
+        },
+        {
+          "type": "text",
+          "text": "„Dies ist der Tag, den der HERR macht“ (Psalm 118,24)."
+        },
+        {
+          "type": "text",
+          "text": "Ich danke dir für Atem, Zeit und alles, was heute wachsen darf."
+        },
+        {
+          "type": "text",
+          "text": "Ich nehme diesen Tag aus deiner Güte an. Amen."
+        }
+      ]
     },
     "mastodon": {
-      "text": ""
+      "text": "Gott, du Ursprung dieses Morgens,\ndu öffnest die Nacht und gibst Licht.\nDieser Tag liegt nicht nur vor mir. Er kommt aus deiner Hand.\n\n„Dies ist der Tag, den der HERR macht“ (Psalm 118,24).\nIch danke dir für Atem, Zeit und alles, was heute wachsen darf.\nBleib mir nah in allem, was vor mir liegt.\n\nIch nehme diesen Tag aus deiner Güte an.\nAmen."
     },
     "bluesky": {
-      "text": ""
+      "text": "Gott, du Ursprung dieses Morgens, du öffnest die Nacht und gibst Licht. „Dies ist der Tag, den der HERR macht“ (Psalm 118,24). Ich danke dir für Atem, Zeit und alles, was heute wachsen darf. Ich nehme diesen Tag aus deiner Güte an. Amen."
     },
     "story": {
-      "slides": []
+      "slides": [
+        {
+          "text": "Gott, du Ursprung dieses Morgens, du öffnest die Nacht und gibst Licht."
+        },
+        {
+          "text": "„Dies ist der Tag, den der HERR macht“ (Psalm 118,24)."
+        },
+        {
+          "text": "Ich danke dir für Atem, Zeit und alles, was heute wachsen darf."
+        },
+        {
+          "text": "Ich nehme diesen Tag aus deiner Güte an. Amen."
+        }
+      ]
     },
     "reel": {
-      "hook": "",
-      "script": "",
-      "shots": [],
-      "duration_seconds": 0
+      "hook": "Der Tag beginnt nicht mit Druck, sondern mit einem Gebet.",
+      "script": "Gott, du Ursprung dieses Morgens, du öffnest die Nacht und gibst Licht. Dieser Tag liegt nicht nur vor mir. Er kommt aus deiner Hand. Dies ist der Tag, den der Herr macht. Ich danke dir für Atem, Zeit und alles, was heute wachsen darf. Bleib mir nah in allem, was vor mir liegt. Ich nehme diesen Tag aus deiner Güte an. Amen.",
+      "shots": [
+        "Frühes Morgenlicht am Fenster",
+        "Tau auf Blättern oder Gras",
+        "Ruhige Hände an einer Tasse",
+        "Langsamer Blick in den hell werdenden Himmel"
+      ],
+      "duration_seconds": 28
     }
   },
   "visual": {
-    "concept": "",
+    "concept": "Ruhiger Morgenbeginn mit weichem Licht, offenes Fenster, feine Spuren von Tau, schlichte und hoffnungsvolle Stimmung.",
     "flux_prompt": "",
     "negative_prompt": "text, letters, logo, watermark",
     "formats": [
@@ -59,17 +93,20 @@
       "9:16",
       "1.91:1"
     ],
-    "alt_text": ""
+    "alt_text": "Sanftes Morgenlicht fällt durch ein offenes Fenster. Draußen glitzert Tau auf Blättern. Die Szene wirkt still, schlicht und hoffnungsvoll."
   },
   "qa": {
     "warnings": [
-      "Alt text must be completed before approval"
+      "Alt text must be completed before approval",
+      "Bibelzitat aus Psalm 118,24 geprüft.",
+      "Keine konkreten Fürbitten zu aktuellen Ereignissen aufgenommen; entspricht der Rubrik Morgengebet.",
+      "Alt text redaktionell gegen finales Motiv prüfen."
     ],
     "approved": false
   },
   "metadata": {
-    "model": "",
-    "generated_at": "",
+    "model": "gpt-5.4-2026-03-05",
+    "generated_at": "2026-09-13T17:34:12.559Z",
     "prompt_version": "1.0",
     "assets": []
   }
