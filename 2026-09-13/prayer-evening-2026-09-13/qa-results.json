@@ -22,11 +22,6 @@
           "check": "platform-lengths",
           "message": "Field \"mastodon.text\" is 506 characters long and exceeds the plausibility limit of 500.",
           "severity": "warning"
-        },
-        {
-          "check": "platform-lengths",
-          "message": "Field \"bluesky.text\" is 389 characters long and exceeds the plausibility limit of 300.",
-          "severity": "warning"
         }
       ],
       "status": "warning"
@@ -64,7 +59,6 @@
   "status_after_run": "zur Prüfung",
   "status_before_run": "in Arbeit",
   "warnings": [
-    "Field \"mastodon.text\" is 506 characters long and exceeds the plausibility limit of 500.",
-    "Field \"bluesky.text\" is 389 characters long and exceeds the plausibility limit of 300."
+    "Field \"mastodon.text\" is 506 characters long and exceeds the plausibility limit of 500."
   ]
 }
