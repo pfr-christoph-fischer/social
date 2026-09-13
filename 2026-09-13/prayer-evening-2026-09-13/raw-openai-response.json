@@ -1,0 +1,478 @@
+{
+  "id": "resp_070b4642b915add7006aa6661cb62887d283d7db57c5f35784",
+  "object": "response",
+  "created_at": 1789290012,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1789290040,
+  "error": null,
+  "frequency_penalty": 0,
+  "incomplete_details": null,
+  "instructions": "You are part of a Protestant social media editorial team. Write in clear, accessible, theologically responsible German without church clichés. Use short sentences and concrete imagery. Never invent events, people, school situations, quotes, or factual details. Do not include copyrighted full song verses. For Reli and community posts, only use current details when they are explicitly provided. Return content that strictly matches the requested JSON schema. Set needs_input to true whenever required facts are missing. Keep qa.approved false. Do not ask for any text inside generated images. When liturgical_context.resolved_weekly_verse is present, use its exact wording for Wochenspruch slots instead of placeholders. Use the web search tool before drafting to verify current situations. For prayer posts, current situations are mandatory: select at least two concrete, relevant situations from reliable current reporting, including tagesschau.de and SWR Aktuell Baden-Württemberg where relevant. Do not invent current events and do not replace concrete situations with generic references to crises.",
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.4-2026-03-05",
+  "moderation": null,
+  "output": [
+    {
+      "id": "ws_070b4642b915add7006aa6661e674087d2b3ba222fcdf66a80",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "queries": [
+          "site:tagesschau.de 12. September 2026 Nachrichten",
+          "site:swr.de/swraktuell/baden-wuerttemberg 12. September 2026 Baden-Württemberg Nachrichten",
+          "Reuters September 12 2026 world news"
+        ],
+        "query": "site:tagesschau.de 12. September 2026 Nachrichten"
+      }
+    },
+    {
+      "id": "ws_070b4642b915add7006aa666204f5087d2945e9f132bc0e2e0",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "queries": [
+          "site:tagesschau.de 12.09.2026 Gaza Ukraine Sudan news",
+          "site:reuters.com September 12 2026 Gaza Ukraine Reuters",
+          "site:swr.de/swraktuell/baden-wuerttemberg 12.09.2026 Demonstrationen Rechtsextremismus Baden-Württemberg"
+        ],
+        "query": "site:tagesschau.de 12.09.2026 Gaza Ukraine Sudan news"
+      }
+    },
+    {
+      "id": "ws_070b4642b915add7006aa66623266887d297b917ffa7883909",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "queries": [
+          "site:tagesschau.de 12.09.2026 Gaza civilians hospital Ukraine attacks",
+          "site:tagesschau.de 12.09.2026 Sudan hunger refugees",
+          "site:reuters.com September 12 2026 civilians Reuters September 12 2026"
+        ],
+        "query": "site:tagesschau.de 12.09.2026 Gaza civilians hospital Ukraine attacks"
+      }
+    },
+    {
+      "id": "msg_070b4642b915add7006aa666251e0487d29a7e44e69cef3f57",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\"id\":\"prayer-evening-2026-09-13\",\"status\":\"zur Prüfung\",\"needs_input\":false,\"source\":{\"calendar_post_id\":\"prayer-evening-2026-09-13\",\"date\":\"2026-09-13\",\"rubric\":\"Abendgebet\",\"liturgical_source\":\"\"},\"editorial_core\":{\"title\":\"Abendgebet\",\"main_message\":\"Ein Abendgebet für den 13. September 2026: Wir legen Gott hin, was heute gut war und was offen geblieben ist. Wir bitten für Menschen in der Ukraine nach russischen Angriffen mit Toten und Verletzten. Wir bitten für die vielen Menschen in Baden-Württemberg, die nach dem AfD-Wahlsieg in Sachsen-Anhalt gegen Rechtsextremismus auf die Straße gehen, und für alle, die jetzt Angst um Menschenwürde und Zusammenhalt haben. So darf der Tag unvollendet in Gottes Hand ruhen.\",\"audience\":\"breite Öffentlichkeit\",\"tone\":[\"ruhig\",\"hoffnungsvoll\",\"geborgen\"],\"source_notes\":[\"Aktuelle Bezüge geprüft über tagesschau.de und SWR Aktuell Baden-Württemberg.\",\"Konkreter Weltbezug 1: Russische Angriffe in mehreren Regionen der Ukraine mit Toten, Verletzten und beschädigter ziviler Infrastruktur.\",\"Konkreter Regionalbezug 2: Demonstrationen in mehreren Städten Baden-Württembergs gegen Rechtsextremismus nach dem AfD-Wahlsieg in Sachsen-Anhalt.\",\"Zeitlich robust formuliert: keine Behauptungen über Entwicklungen des Veröffentlichungstags nach Redaktionsschluss.\",\"Gebetston bewusst schlicht, ohne billigen Optimismus und ohne Allmachtsklischees.\"]},\"platforms\":{\"facebook\":{\"text\":\"Abendgebet\\n\\nGott,\\nder Tag liegt hinter uns.\\nMit allem, was leicht war.\\nUnd mit allem, was schwer auf uns liegen bleibt.\\n\\nWir denken an das, was heute gelungen ist.\\nAn freundliche Worte.\\nAn Arbeit, die geschafft wurde.\\nAn Menschen, die uns gutgetan haben.\\nDafür danken wir dir.\\n\\nUnd wir bringen dir, was unfertig blieb.\\nFehler.\\nMüdigkeit.\\nSätze, die wehgetan haben.\\nAufgaben, die wir heute nicht mehr tragen können.\\nNimm du sie in deine Hand.\\n\\nWir bitten dich für die Menschen in der Ukraine.\\nFür Familien, die nach russischen Angriffen um Tote trauern.\\nFür Verletzte.\\nFür alle, deren Häuser, Wege und Alltag wieder von Gewalt getroffen wurden.\\n\\nWir bitten dich für die Menschen, die in Baden-Württemberg gegen Rechtsextremismus auf die Straße gehen.\\nFür alle, die sich um Demokratie, Menschenwürde und ein friedliches Miteinander sorgen.\\nGib Mut ohne Hass.\\nKlarheit ohne Verachtung.\\nUnd langen Atem für das Gute.\\n\\nWir bitten dich auch für alle, für die die Nacht keine Ruhe bringt.\\nFür Menschen in Krankenhäusern.\\nFür Pflegende, Rettungskräfte und alle, die heute Nacht arbeiten.\\nFür Menschen, die Angst haben.\\n\\nWas heute war, legen wir in deine Hand.\\nWas gut war.\\nWas wehgetan hat.\\nWas offen bleibt.\\nBewahre uns in dieser Nacht.\\nUnd halte die Hoffnung in uns wach.\\n\\nAmen.\",\"headline\":\"Abendgebet: Den Tag loslassen\"},\"instagram\":{\"caption\":\"Abendgebet.\\nFür alles, was heute gut war.\\nUnd für alles, was offen bleibt.\\n\\nWir beten heute auch für Menschen in der Ukraine nach neuen russischen Angriffen. Und für alle, die in Baden-Württemberg gegen Rechtsextremismus auf die Straße gehen und sich um Menschenwürde und Zusammenhalt sorgen.\\n\\nGott,\\nwas heute war,\\nlegen wir in deine Hand.\\nSchenk uns Frieden für diese Nacht.\\n\\nAmen.\",\"carousel\":[{\"type\":\"text\",\"text\":\"Abendgebet\\n\\nDer Tag liegt hinter uns.\\nMit allem, was leicht war.\\nUnd mit allem, was schwer blieb.\"},{\"type\":\"text\",\"text\":\"Wir danken dir für das Gute.\\nFür freundliche Worte.\\nFür Menschen, die uns gutgetan haben.\\nFür das, was heute getragen hat.\"},{\"type\":\"text\",\"text\":\"Wir legen dir hin,\\nwas unfertig blieb.\\nFehler.\\nMüdigkeit.\\nSorge.\\nUnerledigte Dinge.\"},{\"type\":\"text\",\"text\":\"Wir bitten für die Menschen in der Ukraine.\\nFür Familien nach russischen Angriffen.\\nFür Verletzte.\\nFür alle, die wieder von Gewalt getroffen wurden.\"},{\"type\":\"text\",\"text\":\"Wir bitten für die Menschen,\\ndie in Baden-Württemberg gegen Rechtsextremismus auf die Straße gehen.\\nFür Mut.\\nFür Menschenwürde.\\nFür ein friedliches Miteinander.\"},{\"type\":\"text\",\"text\":\"Bewahre uns in dieser Nacht.\\nUnd halte die Hoffnung in uns wach.\\nAmen.\"}]},\"mastodon\":{\"text\":\"Abendgebet\\n\\nGott,\\nwir legen dir diesen Tag hin.\\nDas Gute. Das Schwere. Das Unfertige.\\n\\nWir bitten für Menschen in der Ukraine nach neuen russischen Angriffen. Für Trauernde, Verletzte und alle, deren Alltag wieder von Gewalt getroffen wurde.\\n\\nWir bitten für die vielen Menschen in Baden-Württemberg, die gegen Rechtsextremismus auf die Straße gehen. Stärke alle, die für Menschenwürde und Zusammenhalt eintreten.\\n\\nSchenk Frieden für diese Nacht.\\nAmen.\"},\"bluesky\":{\"text\":\"Abendgebet:\\nGott, wir legen dir diesen Tag hin. Das Gute. Das Schwere. Das Unfertige.\\n\\nWir bitten für Menschen in der Ukraine nach neuen russischen Angriffen. Und für alle, die in Baden-Württemberg gegen Rechtsextremismus auf die Straße gehen und für Menschenwürde eintreten.\\n\\nSchenk Frieden für diese Nacht. Amen.\"},\"story\":{\"slides\":[{\"text\":\"Abendgebet\\n\\nDer Tag liegt hinter uns.\"},{\"text\":\"Dank für das Gute.\\nRaum für das Unfertige.\"},{\"text\":\"Gebet für Menschen in der Ukraine nach neuen Angriffen.\"},{\"text\":\"Gebet für alle,\\ndie gegen Rechtsextremismus aufstehen.\"},{\"text\":\"Gott,\\nhalte deine Hoffnung in uns wach.\\nAmen.\"}]},\"reel\":{\"hook\":\"Der Tag muss nicht perfekt sein, um ihn Gott hinzulegen.\",\"script\":\"Der Tag liegt hinter dir. Vielleicht war manches gut. Vielleicht ist manches offen geblieben. In diesem Abendgebet ist Raum für beides. Wir beten für Menschen in der Ukraine nach neuen russischen Angriffen. Und für alle, die in Baden-Württemberg gegen Rechtsextremismus aufstehen. Gott, nimm das Gute, das Schwere und das Unfertige in deine Hand. Schenk uns Frieden für diese Nacht.\",\"shots\":[\"Abendliches Fensterlicht\",\"Ruhiger Tisch mit brennender Kerze\",\"Leere Straße in der Dämmerung\",\"Hände auf einer Tischplatte\",\"Langsame Nachtaufnahme mit weichem Licht\"],\"duration_seconds\":30}},\"visual\":{\"concept\":\"Ruhige Abendszene mit offenem Fenster, weichem Restlicht und einem schlichten Tisch als Bild für Loslassen und Vertrauen.\",\"flux_prompt\":\"ruhige abendszene in einer einfachen wohnung, offenes fenster, weiches blaues dämmerlicht, schlichter holztisch, kleine kerze ohne text, stille atmosphäre, natürliche farben, hoffnungsvoll, dokumentarisch, keine menschen im fokus, viel raum, photorealistisch\",\"negative_prompt\":\"text, letters, logo, watermark\",\"formats\":[\"4:5\",\"9:16\",\"1.91:1\"],\"alt_text\":\"Ein schlichter Tisch in einer ruhigen Abendszene. Durch ein offenes Fenster fällt blaues Dämmerlicht. Die Stimmung ist still und geborgen und passt zu einem Abendgebet über Loslassen, Sorge und Hoffnung.\"},\"qa\":{\"warnings\":[\"Alt text must be completed before approval\",\"Aktuelle Bezüge vor Freigabe nochmals auf Stand kurz vor Veröffentlichung prüfen, da Nachrichtenlage veränderlich ist.\",\"Formulierung zum Protestgeschehen regional sensibel prüfen, damit Fürbitte nicht parteipolitisch wirkt.\"],\"approved\":false},\"metadata\":{\"model\":\"gpt-5\",\"generated_at\":\"2026-09-13T00:00:00Z\",\"prompt_version\":\"1.0\",\"assets\":[]}}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "current_turn",
+    "effort": "none",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1,
+  "text": {
+    "format": {
+      "type": "json_schema",
+      "description": null,
+      "name": "content_package",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "Idee",
+              "in Arbeit",
+              "zur Prüfung",
+              "freigegeben",
+              "terminiert",
+              "veröffentlicht",
+              "verworfen"
+            ]
+          },
+          "needs_input": {
+            "type": "boolean"
+          },
+          "source": {
+            "type": "object",
+            "properties": {
+              "calendar_post_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "date": {
+                "type": "string",
+                "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+              },
+              "rubric": {
+                "type": "string",
+                "minLength": 1
+              },
+              "liturgical_source": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "calendar_post_id",
+              "date",
+              "rubric",
+              "liturgical_source"
+            ],
+            "additionalProperties": false
+          },
+          "editorial_core": {
+            "type": "object",
+            "properties": {
+              "title": {
+                "type": "string"
+              },
+              "main_message": {
+                "type": "string"
+              },
+              "audience": {
+                "type": "string"
+              },
+              "tone": {
+                "minItems": 1,
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "source_notes": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "title",
+              "main_message",
+              "audience",
+              "tone",
+              "source_notes"
+            ],
+            "additionalProperties": false
+          },
+          "platforms": {
+            "type": "object",
+            "properties": {
+              "facebook": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  },
+                  "headline": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text",
+                  "headline"
+                ],
+                "additionalProperties": false
+              },
+              "instagram": {
+                "type": "object",
+                "properties": {
+                  "caption": {
+                    "type": "string"
+                  },
+                  "carousel": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "type": {
+                          "type": "string"
+                        },
+                        "text": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "type",
+                        "text"
+                      ],
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "required": [
+                  "caption",
+                  "carousel"
+                ],
+                "additionalProperties": false
+              },
+              "mastodon": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text"
+                ],
+                "additionalProperties": false
+              },
+              "bluesky": {
+                "default": {
+                  "text": ""
+                },
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text"
+                ],
+                "additionalProperties": false
+              },
+              "story": {
+                "type": "object",
+                "properties": {
+                  "slides": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "text": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "text"
+                      ],
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "required": [
+                  "slides"
+                ],
+                "additionalProperties": false
+              },
+              "reel": {
+                "type": "object",
+                "properties": {
+                  "hook": {
+                    "type": "string"
+                  },
+                  "script": {
+                    "type": "string"
+                  },
+                  "shots": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "duration_seconds": {
+                    "type": "integer",
+                    "minimum": 0,
+                    "maximum": 9007199254740991
+                  }
+                },
+                "required": [
+                  "hook",
+                  "script",
+                  "shots",
+                  "duration_seconds"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "required": [
+              "facebook",
+              "instagram",
+              "mastodon",
+              "bluesky",
+              "story",
+              "reel"
+            ],
+            "additionalProperties": false
+          },
+          "visual": {
+            "type": "object",
+            "properties": {
+              "concept": {
+                "type": "string"
+              },
+              "flux_prompt": {
+                "type": "string"
+              },
+              "negative_prompt": {
+                "type": "string",
+                "minLength": 1
+              },
+              "formats": {
+                "minItems": 1,
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "alt_text": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "concept",
+              "flux_prompt",
+              "negative_prompt",
+              "formats",
+              "alt_text"
+            ],
+            "additionalProperties": false
+          },
+          "qa": {
+            "type": "object",
+            "properties": {
+              "warnings": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "approved": {
+                "type": "boolean"
+              }
+            },
+            "required": [
+              "warnings",
+              "approved"
+            ],
+            "additionalProperties": false
+          },
+          "metadata": {
+            "type": "object",
+            "properties": {
+              "model": {
+                "type": "string"
+              },
+              "generated_at": {
+                "type": "string"
+              },
+              "prompt_version": {
+                "type": "string",
+                "minLength": 1
+              },
+              "assets": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "model",
+              "generated_at",
+              "prompt_version",
+              "assets"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "id",
+          "status",
+          "needs_input",
+          "source",
+          "editorial_core",
+          "platforms",
+          "visual",
+          "qa",
+          "metadata"
+        ],
+        "additionalProperties": false
+      },
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 3
+    }
+  },
+  "tools": [
+    {
+      "type": "web_search",
+      "return_token_budget": "default",
+      "search_content_types": [
+        "text"
+      ],
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 20181,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 2119,
+    "output_tokens_details": {
+      "reasoning_tokens": 315
+    },
+    "total_tokens": 22300
+  },
+  "user": null,
+  "metadata": {},
+  "output_text": "{\"id\":\"prayer-evening-2026-09-13\",\"status\":\"zur Prüfung\",\"needs_input\":false,\"source\":{\"calendar_post_id\":\"prayer-evening-2026-09-13\",\"date\":\"2026-09-13\",\"rubric\":\"Abendgebet\",\"liturgical_source\":\"\"},\"editorial_core\":{\"title\":\"Abendgebet\",\"main_message\":\"Ein Abendgebet für den 13. September 2026: Wir legen Gott hin, was heute gut war und was offen geblieben ist. Wir bitten für Menschen in der Ukraine nach russischen Angriffen mit Toten und Verletzten. Wir bitten für die vielen Menschen in Baden-Württemberg, die nach dem AfD-Wahlsieg in Sachsen-Anhalt gegen Rechtsextremismus auf die Straße gehen, und für alle, die jetzt Angst um Menschenwürde und Zusammenhalt haben. So darf der Tag unvollendet in Gottes Hand ruhen.\",\"audience\":\"breite Öffentlichkeit\",\"tone\":[\"ruhig\",\"hoffnungsvoll\",\"geborgen\"],\"source_notes\":[\"Aktuelle Bezüge geprüft über tagesschau.de und SWR Aktuell Baden-Württemberg.\",\"Konkreter Weltbezug 1: Russische Angriffe in mehreren Regionen der Ukraine mit Toten, Verletzten und beschädigter ziviler Infrastruktur.\",\"Konkreter Regionalbezug 2: Demonstrationen in mehreren Städten Baden-Württembergs gegen Rechtsextremismus nach dem AfD-Wahlsieg in Sachsen-Anhalt.\",\"Zeitlich robust formuliert: keine Behauptungen über Entwicklungen des Veröffentlichungstags nach Redaktionsschluss.\",\"Gebetston bewusst schlicht, ohne billigen Optimismus und ohne Allmachtsklischees.\"]},\"platforms\":{\"facebook\":{\"text\":\"Abendgebet\\n\\nGott,\\nder Tag liegt hinter uns.\\nMit allem, was leicht war.\\nUnd mit allem, was schwer auf uns liegen bleibt.\\n\\nWir denken an das, was heute gelungen ist.\\nAn freundliche Worte.\\nAn Arbeit, die geschafft wurde.\\nAn Menschen, die uns gutgetan haben.\\nDafür danken wir dir.\\n\\nUnd wir bringen dir, was unfertig blieb.\\nFehler.\\nMüdigkeit.\\nSätze, die wehgetan haben.\\nAufgaben, die wir heute nicht mehr tragen können.\\nNimm du sie in deine Hand.\\n\\nWir bitten dich für die Menschen in der Ukraine.\\nFür Familien, die nach russischen Angriffen um Tote trauern.\\nFür Verletzte.\\nFür alle, deren Häuser, Wege und Alltag wieder von Gewalt getroffen wurden.\\n\\nWir bitten dich für die Menschen, die in Baden-Württemberg gegen Rechtsextremismus auf die Straße gehen.\\nFür alle, die sich um Demokratie, Menschenwürde und ein friedliches Miteinander sorgen.\\nGib Mut ohne Hass.\\nKlarheit ohne Verachtung.\\nUnd langen Atem für das Gute.\\n\\nWir bitten dich auch für alle, für die die Nacht keine Ruhe bringt.\\nFür Menschen in Krankenhäusern.\\nFür Pflegende, Rettungskräfte und alle, die heute Nacht arbeiten.\\nFür Menschen, die Angst haben.\\n\\nWas heute war, legen wir in deine Hand.\\nWas gut war.\\nWas wehgetan hat.\\nWas offen bleibt.\\nBewahre uns in dieser Nacht.\\nUnd halte die Hoffnung in uns wach.\\n\\nAmen.\",\"headline\":\"Abendgebet: Den Tag loslassen\"},\"instagram\":{\"caption\":\"Abendgebet.\\nFür alles, was heute gut war.\\nUnd für alles, was offen bleibt.\\n\\nWir beten heute auch für Menschen in der Ukraine nach neuen russischen Angriffen. Und für alle, die in Baden-Württemberg gegen Rechtsextremismus auf die Straße gehen und sich um Menschenwürde und Zusammenhalt sorgen.\\n\\nGott,\\nwas heute war,\\nlegen wir in deine Hand.\\nSchenk uns Frieden für diese Nacht.\\n\\nAmen.\",\"carousel\":[{\"type\":\"text\",\"text\":\"Abendgebet\\n\\nDer Tag liegt hinter uns.\\nMit allem, was leicht war.\\nUnd mit allem, was schwer blieb.\"},{\"type\":\"text\",\"text\":\"Wir danken dir für das Gute.\\nFür freundliche Worte.\\nFür Menschen, die uns gutgetan haben.\\nFür das, was heute getragen hat.\"},{\"type\":\"text\",\"text\":\"Wir legen dir hin,\\nwas unfertig blieb.\\nFehler.\\nMüdigkeit.\\nSorge.\\nUnerledigte Dinge.\"},{\"type\":\"text\",\"text\":\"Wir bitten für die Menschen in der Ukraine.\\nFür Familien nach russischen Angriffen.\\nFür Verletzte.\\nFür alle, die wieder von Gewalt getroffen wurden.\"},{\"type\":\"text\",\"text\":\"Wir bitten für die Menschen,\\ndie in Baden-Württemberg gegen Rechtsextremismus auf die Straße gehen.\\nFür Mut.\\nFür Menschenwürde.\\nFür ein friedliches Miteinander.\"},{\"type\":\"text\",\"text\":\"Bewahre uns in dieser Nacht.\\nUnd halte die Hoffnung in uns wach.\\nAmen.\"}]},\"mastodon\":{\"text\":\"Abendgebet\\n\\nGott,\\nwir legen dir diesen Tag hin.\\nDas Gute. Das Schwere. Das Unfertige.\\n\\nWir bitten für Menschen in der Ukraine nach neuen russischen Angriffen. Für Trauernde, Verletzte und alle, deren Alltag wieder von Gewalt getroffen wurde.\\n\\nWir bitten für die vielen Menschen in Baden-Württemberg, die gegen Rechtsextremismus auf die Straße gehen. Stärke alle, die für Menschenwürde und Zusammenhalt eintreten.\\n\\nSchenk Frieden für diese Nacht.\\nAmen.\"},\"bluesky\":{\"text\":\"Abendgebet:\\nGott, wir legen dir diesen Tag hin. Das Gute. Das Schwere. Das Unfertige.\\n\\nWir bitten für Menschen in der Ukraine nach neuen russischen Angriffen. Und für alle, die in Baden-Württemberg gegen Rechtsextremismus auf die Straße gehen und für Menschenwürde eintreten.\\n\\nSchenk Frieden für diese Nacht. Amen.\"},\"story\":{\"slides\":[{\"text\":\"Abendgebet\\n\\nDer Tag liegt hinter uns.\"},{\"text\":\"Dank für das Gute.\\nRaum für das Unfertige.\"},{\"text\":\"Gebet für Menschen in der Ukraine nach neuen Angriffen.\"},{\"text\":\"Gebet für alle,\\ndie gegen Rechtsextremismus aufstehen.\"},{\"text\":\"Gott,\\nhalte deine Hoffnung in uns wach.\\nAmen.\"}]},\"reel\":{\"hook\":\"Der Tag muss nicht perfekt sein, um ihn Gott hinzulegen.\",\"script\":\"Der Tag liegt hinter dir. Vielleicht war manches gut. Vielleicht ist manches offen geblieben. In diesem Abendgebet ist Raum für beides. Wir beten für Menschen in der Ukraine nach neuen russischen Angriffen. Und für alle, die in Baden-Württemberg gegen Rechtsextremismus aufstehen. Gott, nimm das Gute, das Schwere und das Unfertige in deine Hand. Schenk uns Frieden für diese Nacht.\",\"shots\":[\"Abendliches Fensterlicht\",\"Ruhiger Tisch mit brennender Kerze\",\"Leere Straße in der Dämmerung\",\"Hände auf einer Tischplatte\",\"Langsame Nachtaufnahme mit weichem Licht\"],\"duration_seconds\":30}},\"visual\":{\"concept\":\"Ruhige Abendszene mit offenem Fenster, weichem Restlicht und einem schlichten Tisch als Bild für Loslassen und Vertrauen.\",\"flux_prompt\":\"ruhige abendszene in einer einfachen wohnung, offenes fenster, weiches blaues dämmerlicht, schlichter holztisch, kleine kerze ohne text, stille atmosphäre, natürliche farben, hoffnungsvoll, dokumentarisch, keine menschen im fokus, viel raum, photorealistisch\",\"negative_prompt\":\"text, letters, logo, watermark\",\"formats\":[\"4:5\",\"9:16\",\"1.91:1\"],\"alt_text\":\"Ein schlichter Tisch in einer ruhigen Abendszene. Durch ein offenes Fenster fällt blaues Dämmerlicht. Die Stimmung ist still und geborgen und passt zu einem Abendgebet über Loslassen, Sorge und Hoffnung.\"},\"qa\":{\"warnings\":[\"Alt text must be completed before approval\",\"Aktuelle Bezüge vor Freigabe nochmals auf Stand kurz vor Veröffentlichung prüfen, da Nachrichtenlage veränderlich ist.\",\"Formulierung zum Protestgeschehen regional sensibel prüfen, damit Fürbitte nicht parteipolitisch wirkt.\"],\"approved\":false},\"metadata\":{\"model\":\"gpt-5\",\"generated_at\":\"2026-09-13T00:00:00Z\",\"prompt_version\":\"1.0\",\"assets\":[]}}"
+}
