@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-09-13",
+    "contentDate": "2026-09-13",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-09-13T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Politisch Verfolgte genießen Asylrecht. (Grundgesetz, Artikel 16a Absatz 1)",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Politisch Verfolgte genießen Asylrecht. (Grundgesetz, Artikel 16a Absatz 1)"
+    ],
+    "id": "b5c229fe-2a7c-40ad-b8e8-fff837222253",
+    "attemptCount": 1,
+    "remoteId": "18112904336518863",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:37:57.250Z",
+    "updatedAt": "2026-09-13T10:00:31.405Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-09-13",
+    "contentDate": "2026-09-13",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-09-13T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Politisch Verfolgte genießen Asylrecht. (Grundgesetz, Artikel 16a Absatz 1)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Politisch Verfolgte genießen Asylrecht. (Grundgesetz, Artikel 16a Absatz 1)"
+    ],
+    "id": "543cdb32-bd44-4f43-b78d-f5a078aa12cb",
+    "attemptCount": 1,
+    "remoteId": "117263147557740413",
+    "remoteUrl": "https://kirche.social/@christoph/117263147557740413",
+    "lastError": null,
+    "createdAt": "2026-08-26T15:37:57.290Z",
+    "updatedAt": "2026-09-13T10:00:33.472Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
