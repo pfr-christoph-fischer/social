@@ -1,0 +1,448 @@
+{
+  "id": "resp_061a1af88284a669006aa6ac6ea04887d2852b1b8f41578ba7",
+  "object": "response",
+  "created_at": 1789308014,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1789308031,
+  "error": null,
+  "frequency_penalty": 0,
+  "incomplete_details": null,
+  "instructions": "You are part of a Protestant social media editorial team. Write in clear, accessible, theologically responsible German without church clichés. Use short sentences and concrete imagery. Never invent events, people, school situations, quotes, or factual details. Do not include copyrighted full song verses. For Reli and community posts, only use current details when they are explicitly provided. Return content that strictly matches the requested JSON schema. Set needs_input to true whenever required facts are missing. Keep qa.approved false. Do not ask for any text inside generated images. When liturgical_context.resolved_weekly_verse is present, use its exact wording for Wochenspruch slots instead of placeholders. Use the web search tool before drafting to verify current situations. For prayer posts, current situations are mandatory: select at least two concrete, relevant situations from reliable current reporting, including tagesschau.de and SWR Aktuell Baden-Württemberg where relevant. Do not invent current events and do not replace concrete situations with generic references to crises.",
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.4-2026-03-05",
+  "moderation": null,
+  "output": [
+    {
+      "id": "ws_061a1af88284a669006aa6ac6f8d1087d2bdaaf0cea119a35f",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "queries": [
+          "Psalm 143,8 denn ich hoffe auf dich Lutherbibel 2017 offizieller Text"
+        ],
+        "query": "Psalm 143,8 denn ich hoffe auf dich Lutherbibel 2017 offizieller Text"
+      }
+    },
+    {
+      "id": "msg_061a1af88284a669006aa6ac725c1487d2bdc648e5f6f06ce3",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\"id\":\"prayer-morning-2026-09-14\",\"status\":\"in Arbeit\",\"needs_input\":false,\"source\":{\"calendar_post_id\":\"prayer-morning-2026-09-14\",\"date\":\"2026-09-14\",\"rubric\":\"Morgengebet\",\"liturgical_source\":\"Psalm 143,8\"},\"editorial_core\":{\"title\":\"Morgengebet\",\"main_message\":\"Der Tag beginnt nicht mit Druck, sondern mit Gottes Güte. Im Morgenlob richten wir uns auf Gott aus und nehmen diesen Tag als Gabe aus seiner Hand an.\",\"audience\":\"breite Öffentlichkeit\",\"tone\":[\"lobend\",\"hoffnungsvoll\",\"zugewandt\"],\"source_notes\":[\"Biblischer Gebetsschnipsel geprüft: „Lass mich am Morgen hören deine Gnade; denn ich hoffe auf dich.“ (Psalm 143,8, Lutherbibel 2017)\",\"Morgenlob ohne Nachrichtenschau und ohne konkrete Fürbitten für aktuelle Ereignisse.\",\"Sprache bewusst einfach, bildhaft und offen für Menschen mit wenig Gebetserfahrung.\"]},\"platforms\":{\"facebook\":{\"text\":\"Gott,\\ndieser Morgen ist nicht leer.\\nLicht liegt auf den Dächern.\\nDer Himmel wird weit.\\nMein Atem geht.\\nDas Leben ist da.\\n\\nIch danke dir für diesen neuen Tag.\\nFür alles, was heute wachsen darf.\\nFür Wege, die ich noch nicht kenne.\\nFür Menschen, denen ich begegnen werde.\\n\\n„Lass mich am Morgen hören deine Gnade; denn ich hoffe auf dich.“\\nPsalm 143,8\\n\\nLass deine Freundlichkeit mein Herz zuerst erreichen.\\nNicht die Eile.\\nNicht die Sorge.\\nNicht das, was ich leisten muss.\\n\\nGib mir einen wachen Blick für das Gute.\\nMut für das, was schwer ist.\\nUnd Ruhe für den nächsten Schritt.\\n\\nIch nehme diesen Tag aus deiner Hand.\\nDu bist da.\\nDas genügt.\\n\\nAmen.\",\"headline\":\"Morgengebet\"},\"instagram\":{\"caption\":\"Gott,\\ndieser Morgen ist ein Geschenk.\\nLicht fällt in den Tag.\\nMein Atem geht.\\nDas Leben ist da.\\n\\n„Lass mich am Morgen hören deine Gnade; denn ich hoffe auf dich.“\\nPsalm 143,8\\n\\nLass deine Freundlichkeit heute zuerst bei mir ankommen.\\nNicht die Eile.\\nNicht die Sorge.\\n\\nGib mir Mut für das Schwere.\\nUnd Ruhe für den nächsten Schritt.\\n\\nIch nehme diesen Tag aus deiner Hand.\\nDu bist da.\\nAmen.\",\"carousel\":[{\"type\":\"text\",\"text\":\"Gott,\\ndieser Morgen ist ein Geschenk.\"},{\"type\":\"text\",\"text\":\"Licht fällt in den Tag.\\nMein Atem geht.\\nDas Leben ist da.\"},{\"type\":\"text\",\"text\":\"„Lass mich am Morgen hören deine Gnade; denn ich hoffe auf dich.“\\nPsalm 143,8\"},{\"type\":\"text\",\"text\":\"Lass deine Freundlichkeit heute zuerst bei mir ankommen.\\nNicht die Eile.\\nNicht die Sorge.\"},{\"type\":\"text\",\"text\":\"Gib mir Mut für das Schwere.\\nUnd Ruhe für den nächsten Schritt.\"},{\"type\":\"text\",\"text\":\"Ich nehme diesen Tag aus deiner Hand.\\nDu bist da.\\nAmen.\"}]},\"mastodon\":{\"text\":\"Gott,\\ndieser Morgen ist ein Geschenk.\\nLicht fällt in den Tag. Mein Atem geht. Das Leben ist da.\\n\\n„Lass mich am Morgen hören deine Gnade; denn ich hoffe auf dich.“\\nPsalm 143,8\\n\\nLass deine Freundlichkeit heute zuerst bei mir ankommen. Nicht die Eile. Nicht die Sorge.\\nGib mir Mut für das Schwere und Ruhe für den nächsten Schritt.\\nIch nehme diesen Tag aus deiner Hand.\\nDu bist da.\\nAmen.\"},\"bluesky\":{\"text\":\"Gott, dieser Morgen ist ein Geschenk. Licht fällt in den Tag. Mein Atem geht. Das Leben ist da.\\n\\n„Lass mich am Morgen hören deine Gnade; denn ich hoffe auf dich.“ Psalm 143,8\\n\\nLass deine Freundlichkeit heute zuerst bei mir ankommen. Gib mir Mut für das Schwere und Ruhe für den nächsten Schritt. Amen.\"},\"story\":{\"slides\":[{\"text\":\"Gott,\\ndieser Morgen ist ein Geschenk.\"},{\"text\":\"Licht fällt in den Tag.\\nMein Atem geht.\\nDas Leben ist da.\"},{\"text\":\"„Lass mich am Morgen hören deine Gnade; denn ich hoffe auf dich.“\\nPsalm 143,8\"},{\"text\":\"Lass deine Freundlichkeit heute zuerst bei mir ankommen.\"},{\"text\":\"Gib mir Mut für das Schwere.\\nUnd Ruhe für den nächsten Schritt.\"},{\"text\":\"Ich nehme diesen Tag aus deiner Hand.\\nDu bist da.\\nAmen.\"}]},\"reel\":{\"hook\":\"Dieser Morgen beginnt mit Gottes Güte.\",\"script\":\"Gott, dieser Morgen ist ein Geschenk. Licht fällt in den Tag. Mein Atem geht. Das Leben ist da. Lass mich am Morgen hören deine Gnade; denn ich hoffe auf dich. Lass deine Freundlichkeit heute zuerst bei mir ankommen. Nicht die Eile. Nicht die Sorge. Gib mir Mut für das Schwere und Ruhe für den nächsten Schritt. Ich nehme diesen Tag aus deiner Hand. Du bist da. Amen.\",\"shots\":[\"Frühes Morgenlicht an einem Fenster\",\"Tau auf Gras oder Blättern\",\"Ruhige Hände mit einer Tasse\",\"Weite Himmelsszene am Morgen\",\"Langsamer Weg auf einem Gehweg oder Feldweg\"],\"duration_seconds\":25}},\"visual\":{\"concept\":\"Ruhiger Morgenbeginn mit natürlichem Licht, Weite und kleinen Zeichen von Leben: Fensterlicht, Tau, Himmel, Weg. Die Bildsprache soll still, hoffnungsvoll und ungekünstelt wirken.\",\"flux_prompt\":\"A quiet early morning scene with soft natural light, dew on grass, gentle sky, a simple path, warm and calm atmosphere, minimal composition, realistic photography, subtle hope, no people facing camera, no typography\",\"negative_prompt\":\"text, letters, logo, watermark\",\"formats\":[\"4:5\",\"9:16\",\"1.91:1\"],\"alt_text\":\"Ruhige Morgenszene mit weichem Licht, Tau auf Pflanzen und weitem Himmel. Das Bild vermittelt Stille, Neubeginn und Hoffnung zu Tagesbeginn.\"},\"qa\":{\"warnings\":[\"Alt text must be completed before approval\",\"Bibelzitatquelle redaktionell gegen finale Ausgabe prüfen: Psalm 143,8, Lutherbibel 2017.\",\"Am Morgen des 14. September 2026 nur auf stimmigen Tagesbezug und finale Zeichensetzung prüfen.\"],\"approved\":false},\"metadata\":{\"model\":\"gpt-5\",\"generated_at\":\"2026-09-13\",\"prompt_version\":\"1.1\",\"assets\":[]}}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "current_turn",
+    "effort": "none",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1,
+  "text": {
+    "format": {
+      "type": "json_schema",
+      "description": null,
+      "name": "content_package",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "Idee",
+              "in Arbeit",
+              "zur Prüfung",
+              "freigegeben",
+              "terminiert",
+              "veröffentlicht",
+              "verworfen"
+            ]
+          },
+          "needs_input": {
+            "type": "boolean"
+          },
+          "source": {
+            "type": "object",
+            "properties": {
+              "calendar_post_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "date": {
+                "type": "string",
+                "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+              },
+              "rubric": {
+                "type": "string",
+                "minLength": 1
+              },
+              "liturgical_source": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "calendar_post_id",
+              "date",
+              "rubric",
+              "liturgical_source"
+            ],
+            "additionalProperties": false
+          },
+          "editorial_core": {
+            "type": "object",
+            "properties": {
+              "title": {
+                "type": "string"
+              },
+              "main_message": {
+                "type": "string"
+              },
+              "audience": {
+                "type": "string"
+              },
+              "tone": {
+                "minItems": 1,
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "source_notes": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "title",
+              "main_message",
+              "audience",
+              "tone",
+              "source_notes"
+            ],
+            "additionalProperties": false
+          },
+          "platforms": {
+            "type": "object",
+            "properties": {
+              "facebook": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  },
+                  "headline": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text",
+                  "headline"
+                ],
+                "additionalProperties": false
+              },
+              "instagram": {
+                "type": "object",
+                "properties": {
+                  "caption": {
+                    "type": "string"
+                  },
+                  "carousel": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "type": {
+                          "type": "string"
+                        },
+                        "text": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "type",
+                        "text"
+                      ],
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "required": [
+                  "caption",
+                  "carousel"
+                ],
+                "additionalProperties": false
+              },
+              "mastodon": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text"
+                ],
+                "additionalProperties": false
+              },
+              "bluesky": {
+                "default": {
+                  "text": ""
+                },
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text"
+                ],
+                "additionalProperties": false
+              },
+              "story": {
+                "type": "object",
+                "properties": {
+                  "slides": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "text": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "text"
+                      ],
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "required": [
+                  "slides"
+                ],
+                "additionalProperties": false
+              },
+              "reel": {
+                "type": "object",
+                "properties": {
+                  "hook": {
+                    "type": "string"
+                  },
+                  "script": {
+                    "type": "string"
+                  },
+                  "shots": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "duration_seconds": {
+                    "type": "integer",
+                    "minimum": 0,
+                    "maximum": 9007199254740991
+                  }
+                },
+                "required": [
+                  "hook",
+                  "script",
+                  "shots",
+                  "duration_seconds"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "required": [
+              "facebook",
+              "instagram",
+              "mastodon",
+              "bluesky",
+              "story",
+              "reel"
+            ],
+            "additionalProperties": false
+          },
+          "visual": {
+            "type": "object",
+            "properties": {
+              "concept": {
+                "type": "string"
+              },
+              "flux_prompt": {
+                "type": "string"
+              },
+              "negative_prompt": {
+                "type": "string",
+                "minLength": 1
+              },
+              "formats": {
+                "minItems": 1,
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "alt_text": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "concept",
+              "flux_prompt",
+              "negative_prompt",
+              "formats",
+              "alt_text"
+            ],
+            "additionalProperties": false
+          },
+          "qa": {
+            "type": "object",
+            "properties": {
+              "warnings": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "approved": {
+                "type": "boolean"
+              }
+            },
+            "required": [
+              "warnings",
+              "approved"
+            ],
+            "additionalProperties": false
+          },
+          "metadata": {
+            "type": "object",
+            "properties": {
+              "model": {
+                "type": "string"
+              },
+              "generated_at": {
+                "type": "string"
+              },
+              "prompt_version": {
+                "type": "string",
+                "minLength": 1
+              },
+              "assets": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "model",
+              "generated_at",
+              "prompt_version",
+              "assets"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "id",
+          "status",
+          "needs_input",
+          "source",
+          "editorial_core",
+          "platforms",
+          "visual",
+          "qa",
+          "metadata"
+        ],
+        "additionalProperties": false
+      },
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 1
+    }
+  },
+  "tools": [
+    {
+      "type": "web_search",
+      "return_token_budget": "default",
+      "search_content_types": [
+        "text"
+      ],
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 11110,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1508,
+    "output_tokens_details": {
+      "reasoning_tokens": 55
+    },
+    "total_tokens": 12618
+  },
+  "user": null,
+  "metadata": {},
+  "output_text": "{\"id\":\"prayer-morning-2026-09-14\",\"status\":\"in Arbeit\",\"needs_input\":false,\"source\":{\"calendar_post_id\":\"prayer-morning-2026-09-14\",\"date\":\"2026-09-14\",\"rubric\":\"Morgengebet\",\"liturgical_source\":\"Psalm 143,8\"},\"editorial_core\":{\"title\":\"Morgengebet\",\"main_message\":\"Der Tag beginnt nicht mit Druck, sondern mit Gottes Güte. Im Morgenlob richten wir uns auf Gott aus und nehmen diesen Tag als Gabe aus seiner Hand an.\",\"audience\":\"breite Öffentlichkeit\",\"tone\":[\"lobend\",\"hoffnungsvoll\",\"zugewandt\"],\"source_notes\":[\"Biblischer Gebetsschnipsel geprüft: „Lass mich am Morgen hören deine Gnade; denn ich hoffe auf dich.“ (Psalm 143,8, Lutherbibel 2017)\",\"Morgenlob ohne Nachrichtenschau und ohne konkrete Fürbitten für aktuelle Ereignisse.\",\"Sprache bewusst einfach, bildhaft und offen für Menschen mit wenig Gebetserfahrung.\"]},\"platforms\":{\"facebook\":{\"text\":\"Gott,\\ndieser Morgen ist nicht leer.\\nLicht liegt auf den Dächern.\\nDer Himmel wird weit.\\nMein Atem geht.\\nDas Leben ist da.\\n\\nIch danke dir für diesen neuen Tag.\\nFür alles, was heute wachsen darf.\\nFür Wege, die ich noch nicht kenne.\\nFür Menschen, denen ich begegnen werde.\\n\\n„Lass mich am Morgen hören deine Gnade; denn ich hoffe auf dich.“\\nPsalm 143,8\\n\\nLass deine Freundlichkeit mein Herz zuerst erreichen.\\nNicht die Eile.\\nNicht die Sorge.\\nNicht das, was ich leisten muss.\\n\\nGib mir einen wachen Blick für das Gute.\\nMut für das, was schwer ist.\\nUnd Ruhe für den nächsten Schritt.\\n\\nIch nehme diesen Tag aus deiner Hand.\\nDu bist da.\\nDas genügt.\\n\\nAmen.\",\"headline\":\"Morgengebet\"},\"instagram\":{\"caption\":\"Gott,\\ndieser Morgen ist ein Geschenk.\\nLicht fällt in den Tag.\\nMein Atem geht.\\nDas Leben ist da.\\n\\n„Lass mich am Morgen hören deine Gnade; denn ich hoffe auf dich.“\\nPsalm 143,8\\n\\nLass deine Freundlichkeit heute zuerst bei mir ankommen.\\nNicht die Eile.\\nNicht die Sorge.\\n\\nGib mir Mut für das Schwere.\\nUnd Ruhe für den nächsten Schritt.\\n\\nIch nehme diesen Tag aus deiner Hand.\\nDu bist da.\\nAmen.\",\"carousel\":[{\"type\":\"text\",\"text\":\"Gott,\\ndieser Morgen ist ein Geschenk.\"},{\"type\":\"text\",\"text\":\"Licht fällt in den Tag.\\nMein Atem geht.\\nDas Leben ist da.\"},{\"type\":\"text\",\"text\":\"„Lass mich am Morgen hören deine Gnade; denn ich hoffe auf dich.“\\nPsalm 143,8\"},{\"type\":\"text\",\"text\":\"Lass deine Freundlichkeit heute zuerst bei mir ankommen.\\nNicht die Eile.\\nNicht die Sorge.\"},{\"type\":\"text\",\"text\":\"Gib mir Mut für das Schwere.\\nUnd Ruhe für den nächsten Schritt.\"},{\"type\":\"text\",\"text\":\"Ich nehme diesen Tag aus deiner Hand.\\nDu bist da.\\nAmen.\"}]},\"mastodon\":{\"text\":\"Gott,\\ndieser Morgen ist ein Geschenk.\\nLicht fällt in den Tag. Mein Atem geht. Das Leben ist da.\\n\\n„Lass mich am Morgen hören deine Gnade; denn ich hoffe auf dich.“\\nPsalm 143,8\\n\\nLass deine Freundlichkeit heute zuerst bei mir ankommen. Nicht die Eile. Nicht die Sorge.\\nGib mir Mut für das Schwere und Ruhe für den nächsten Schritt.\\nIch nehme diesen Tag aus deiner Hand.\\nDu bist da.\\nAmen.\"},\"bluesky\":{\"text\":\"Gott, dieser Morgen ist ein Geschenk. Licht fällt in den Tag. Mein Atem geht. Das Leben ist da.\\n\\n„Lass mich am Morgen hören deine Gnade; denn ich hoffe auf dich.“ Psalm 143,8\\n\\nLass deine Freundlichkeit heute zuerst bei mir ankommen. Gib mir Mut für das Schwere und Ruhe für den nächsten Schritt. Amen.\"},\"story\":{\"slides\":[{\"text\":\"Gott,\\ndieser Morgen ist ein Geschenk.\"},{\"text\":\"Licht fällt in den Tag.\\nMein Atem geht.\\nDas Leben ist da.\"},{\"text\":\"„Lass mich am Morgen hören deine Gnade; denn ich hoffe auf dich.“\\nPsalm 143,8\"},{\"text\":\"Lass deine Freundlichkeit heute zuerst bei mir ankommen.\"},{\"text\":\"Gib mir Mut für das Schwere.\\nUnd Ruhe für den nächsten Schritt.\"},{\"text\":\"Ich nehme diesen Tag aus deiner Hand.\\nDu bist da.\\nAmen.\"}]},\"reel\":{\"hook\":\"Dieser Morgen beginnt mit Gottes Güte.\",\"script\":\"Gott, dieser Morgen ist ein Geschenk. Licht fällt in den Tag. Mein Atem geht. Das Leben ist da. Lass mich am Morgen hören deine Gnade; denn ich hoffe auf dich. Lass deine Freundlichkeit heute zuerst bei mir ankommen. Nicht die Eile. Nicht die Sorge. Gib mir Mut für das Schwere und Ruhe für den nächsten Schritt. Ich nehme diesen Tag aus deiner Hand. Du bist da. Amen.\",\"shots\":[\"Frühes Morgenlicht an einem Fenster\",\"Tau auf Gras oder Blättern\",\"Ruhige Hände mit einer Tasse\",\"Weite Himmelsszene am Morgen\",\"Langsamer Weg auf einem Gehweg oder Feldweg\"],\"duration_seconds\":25}},\"visual\":{\"concept\":\"Ruhiger Morgenbeginn mit natürlichem Licht, Weite und kleinen Zeichen von Leben: Fensterlicht, Tau, Himmel, Weg. Die Bildsprache soll still, hoffnungsvoll und ungekünstelt wirken.\",\"flux_prompt\":\"A quiet early morning scene with soft natural light, dew on grass, gentle sky, a simple path, warm and calm atmosphere, minimal composition, realistic photography, subtle hope, no people facing camera, no typography\",\"negative_prompt\":\"text, letters, logo, watermark\",\"formats\":[\"4:5\",\"9:16\",\"1.91:1\"],\"alt_text\":\"Ruhige Morgenszene mit weichem Licht, Tau auf Pflanzen und weitem Himmel. Das Bild vermittelt Stille, Neubeginn und Hoffnung zu Tagesbeginn.\"},\"qa\":{\"warnings\":[\"Alt text must be completed before approval\",\"Bibelzitatquelle redaktionell gegen finale Ausgabe prüfen: Psalm 143,8, Lutherbibel 2017.\",\"Am Morgen des 14. September 2026 nur auf stimmigen Tagesbezug und finale Zeichensetzung prüfen.\"],\"approved\":false},\"metadata\":{\"model\":\"gpt-5\",\"generated_at\":\"2026-09-13\",\"prompt_version\":\"1.1\",\"assets\":[]}}"
+}
