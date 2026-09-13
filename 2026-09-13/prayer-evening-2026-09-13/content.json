@@ -119,15 +119,19 @@
     "alt_text": "Abendliche Straße im blauen Dämmerlicht. Auf nassem Asphalt spiegeln sich warme Lichter aus wenigen Fenstern. Die Szene wirkt ruhig und offen und passt zu einem Gebet zum Tagesende."
   },
   "qa": {
-    "approved": true,
     "warnings": [
       "Field \"mastodon.text\" is 506 characters long and exceeds the plausibility limit of 500."
-    ]
+    ],
+    "approved": true
   },
   "metadata": {
     "model": "gpt-5.4-2026-03-05",
     "generated_at": "2026-09-13T16:46:00.201Z",
     "prompt_version": "1.0",
-    "assets": []
+    "assets": [
+      "assets/background-1.91x1.webp",
+      "assets/background-4x5.webp",
+      "assets/background-9x16.webp"
+    ]
   }
 }

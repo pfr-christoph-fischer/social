@@ -1,0 +1,60 @@
+{
+  "delivery_url": "https://delivery.eu2.bfl.ai/durable/2026091316/5e1f69ea-538b-4d66-962e-9be995966f07/ea/152560db964ad0/db964ad0728f49998af10ad83790c5f8/sample.jpeg?se=2026-09-13T16%3A59%3A13Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=IJPQao8ze7P00numRR%2BS/wOSS171tdwktf8HuvQ4Ho0%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "91d3b369-5a5e-4428-b80f-ffbbff08464b",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "91d3b369-5a5e-4428-b80f-ffbbff08464b",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "91d3b369-5a5e-4428-b80f-ffbbff08464b",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "91d3b369-5a5e-4428-b80f-ffbbff08464b",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "91d3b369-5a5e-4428-b80f-ffbbff08464b",
+      "status": "Ready",
+      "result": {
+        "start_time": 1789318150.9668612,
+        "prompt": "Atmosphärische Abendstimmung in einer mitteleuropäischen Stadt, blauer Himmel kurz nach Sonnenuntergang, einzelne warme Lichter in Fenstern, nasser Asphalt reflektiert Licht, ruhige leere Straße, tiefe Perspektive, fotografisch, natürliches Licht, zurückhaltend, hoffnungsvoll, contemplative mood, no people in focus, no signage, no text, no letters, no typography, no logo, no watermark",
+        "seed": 235982928,
+        "sample": "https://delivery.eu2.bfl.ai/durable/2026091316/5e1f69ea-538b-4d66-962e-9be995966f07/ea/152560db964ad0/db964ad0728f49998af10ad83790c5f8/sample.jpeg?se=2026-09-13T16%3A59%3A13Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=IJPQao8ze7P00numRR%2BS/wOSS171tdwktf8HuvQ4Ho0%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "91d3b369-5a5e-4428-b80f-ffbbff08464b",
+    "polling_url": "https://api.eu2.bfl.ai/v1/get_result?id=91d3b369-5a5e-4428-b80f-ffbbff08464b",
+    "cost": 1.5,
+    "input_mp": 0,
+    "output_mp": 1.98
+  }
+}

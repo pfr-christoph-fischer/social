@@ -1,0 +1,36 @@
+{
+  "delivery_url": "https://delivery.us8.bfl.ai/durable/2026091316/5e1f69ea-538b-4d66-962e-9be995966f07/93/149871b3e4b00c/b3e4b00c88744fe999bfd8288443901d/sample.jpeg?se=2026-09-13T16%3A59%3A10Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=pMut7GwfrFC5RR%2B32G4rCRVgPdGPoIW6R33lBLy%2BOaE%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "e19e14aa-bce4-403a-ad4f-fd7c49f6b57b",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "e19e14aa-bce4-403a-ad4f-fd7c49f6b57b",
+      "status": "Ready",
+      "result": {
+        "start_time": 1789318148.9644368,
+        "prompt": "Atmosphärische Abendstimmung in einer mitteleuropäischen Stadt, blauer Himmel kurz nach Sonnenuntergang, einzelne warme Lichter in Fenstern, nasser Asphalt reflektiert Licht, ruhige leere Straße, tiefe Perspektive, fotografisch, natürliches Licht, zurückhaltend, hoffnungsvoll, contemplative mood, no people in focus, no signage, no text, no letters, no typography, no logo, no watermark",
+        "seed": 3301992526,
+        "sample": "https://delivery.us8.bfl.ai/durable/2026091316/5e1f69ea-538b-4d66-962e-9be995966f07/93/149871b3e4b00c/b3e4b00c88744fe999bfd8288443901d/sample.jpeg?se=2026-09-13T16%3A59%3A10Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=pMut7GwfrFC5RR%2B32G4rCRVgPdGPoIW6R33lBLy%2BOaE%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "e19e14aa-bce4-403a-ad4f-fd7c49f6b57b",
+    "polling_url": "https://api.us8.bfl.ai/v1/get_result?id=e19e14aa-bce4-403a-ad4f-fd7c49f6b57b",
+    "cost": 1.5,
+    "input_mp": 0,
+    "output_mp": 1.39
+  }
+}
