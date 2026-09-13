@@ -171,5 +171,49 @@
       "status": 201
     },
     "retryHistory": []
+  },
+  {
+    "postId": "kirchenjahr-2026-09-13-15tr",
+    "contentDate": "2026-09-13",
+    "platform": "bluesky",
+    "format": "square",
+    "scheduledAt": "2026-09-13T07:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "15. Sonntag nach Trinitatis\n\nTitel: Irdische Güter\n\nWochenspruch: „Alle eure Sorge werft auf ihn; denn er sorgt für euch.“ (1. Petr 5,7)\n\nPsalm: Ps 127,1-2\n\nAltes Testament: 1. Mose 2,4b-9(10-14)15(18-25)\n\nEvangelium: Mt 6,25-34\n\nEpistel: 1. Petr 5,5b-11\n\nPredigttext: 1. Mose 2,4b-9(10-14)15(18-2...",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "15. So. n. Trinitatis"
+    ],
+    "id": "ecc7f037-3bdd-4bd7-985d-852f13232d21",
+    "attemptCount": 4,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3mvg7ql2hzt2b",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3mvg7ql2hzt2b",
+    "lastError": null,
+    "createdAt": "2026-08-15T16:58:39.548Z",
+    "updatedAt": "2026-09-13T18:24:20.780Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": [
+      {
+        "at": "2026-09-13T07:00:47.777Z",
+        "error": "bluesky: Der Beitrag darf höchstens 300 Zeichen enthalten.",
+        "attempt": 1
+      },
+      {
+        "at": "2026-09-13T07:05:06.103Z",
+        "error": "bluesky: Der Beitrag darf höchstens 300 Zeichen enthalten.",
+        "attempt": 2
+      },
+      {
+        "at": "2026-09-13T07:10:04.111Z",
+        "error": "bluesky: Der Beitrag darf höchstens 300 Zeichen enthalten.",
+        "attempt": 3
+      }
+    ]
   }
 ]
