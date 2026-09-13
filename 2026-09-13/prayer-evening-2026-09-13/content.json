@@ -1,6 +1,6 @@
 {
   "id": "prayer-evening-2026-09-13",
-  "status": "in Arbeit",
+  "status": "zur Prüfung",
   "needs_input": false,
   "source": {
     "calendar_post_id": "prayer-evening-2026-09-13",
@@ -27,35 +27,35 @@
   },
   "platforms": {
     "facebook": {
-      "headline": "Abendgebet: Den Tag loslassen, die Welt Gott anvertrauen",
-      "text": "Abendgebet\n\nGott,\ndieser Tag liegt hinter uns.\nMit allem, was gelungen ist.\nMit allem, was wehgetan hat.\nMit allem, was offen blieb.\n\nWir legen dir die Menschen ans Herz, die heute nicht einfach zur Ruhe kommen.\nDie 206 Fahrgäste in dem Zug von Kiew nach Warschau, der nahe der polnischen Grenze von einer russischen Drohne getroffen wurde.\nDie Menschen in der Ukraine, die wieder mit Angriffen und Angst leben müssen.\n\nWir bitten dich auch für die Verletzten des Zugunglücks in Nordfrankreich.\nFür alle, die jetzt im Krankenhaus sind.\nFür Familien, die auf Nachrichten warten.\n\nWir denken an die Menschen in Baden-Württemberg, die gegen Rechtsextremismus auf die Straße gehen.\nUnd an wohnungslose Menschen hier, deren Alltag härter wird, weil Hilfen knapper werden.\n\nNimm von uns, was wir heute nicht mehr tragen können.\nBewahre das Gute.\nHeile, was zerbrochen ist.\nUnd halte unsere Hoffnung wach.\n\nSchenk uns Frieden für diese Nacht.\nUnd gib uns Vertrauen, dass deine Zukunft weiter reicht als dieser Tag.\nAmen."
+      "text": "Abendgebet\n\nGott,\ndieser Tag liegt hinter uns.\nMit allem, was gelungen ist.\nMit allem, was wehgetan hat.\nMit allem, was offen blieb.\n\nWir legen dir die Menschen ans Herz, die heute nicht einfach zur Ruhe kommen.\nDie 206 Fahrgäste in dem Zug von Kiew nach Warschau, der nahe der polnischen Grenze von einer russischen Drohne getroffen wurde.\nDie Menschen in der Ukraine, die wieder mit Angriffen und Angst leben müssen.\n\nWir bitten dich auch für die Verletzten des Zugunglücks in Nordfrankreich.\nFür alle, die jetzt im Krankenhaus sind.\nFür Familien, die auf Nachrichten warten.\n\nWir denken an die Menschen in Baden-Württemberg, die gegen Rechtsextremismus auf die Straße gehen.\nUnd an wohnungslose Menschen hier, deren Alltag härter wird, weil Hilfen knapper werden.\n\nNimm von uns, was wir heute nicht mehr tragen können.\nBewahre das Gute.\nHeile, was zerbrochen ist.\nUnd halte unsere Hoffnung wach.\n\nSchenk uns Frieden für diese Nacht.\nUnd gib uns Vertrauen, dass deine Zukunft weiter reicht als dieser Tag.\nAmen.",
+      "headline": "Abendgebet: Den Tag loslassen, die Welt Gott anvertrauen"
     },
     "instagram": {
       "caption": "Abendgebet.\n\nGott,\nwir legen dir diesen Tag hin.\nDas Gute.\nDas Schwere.\nDas Unfertige.\n\nWir bitten dich für die Menschen in dem Zug von Kiew nach Warschau, der nahe der polnischen Grenze von einer russischen Drohne getroffen wurde.\nFür die Menschen in der Ukraine, die mit Angst leben.\n\nWir bitten dich für die Verletzten des Zugunglücks in Nordfrankreich.\nFür alle, die jetzt helfen, warten und hoffen.\n\nWir denken an die Menschen in Baden-Württemberg, die gegen Rechtsextremismus auf die Straße gehen.\nUnd an wohnungslose Menschen hier, deren Lage härter wird.\n\nWas wir nicht mehr festhalten können, legen wir in deine Hand.\nSchenk Frieden für diese Nacht.\nUnd halte Hoffnung in uns wach.\nAmen.",
       "carousel": [
         {
-          "text": "Gott, dieser Tag liegt in deiner Hand.",
-          "type": "image"
+          "type": "image",
+          "text": "Gott, dieser Tag liegt in deiner Hand."
         },
         {
-          "text": "Was gut war. Was schwer war. Was offen blieb.",
-          "type": "image"
+          "type": "image",
+          "text": "Was gut war. Was schwer war. Was offen blieb."
         },
         {
-          "text": "Wir bitten für Menschen in Angst: in der Ukraine, nach Angriffen nahe der polnischen Grenze.",
-          "type": "image"
+          "type": "image",
+          "text": "Wir bitten für Menschen in Angst: in der Ukraine, nach Angriffen nahe der polnischen Grenze."
         },
         {
-          "text": "Wir bitten für Verletzte und Wartende nach dem Zugunglück in Nordfrankreich.",
-          "type": "image"
+          "type": "image",
+          "text": "Wir bitten für Verletzte und Wartende nach dem Zugunglück in Nordfrankreich."
         },
         {
-          "text": "Wir bitten für Menschen, die gegen Rechtsextremismus aufstehen. Und für wohnungslose Menschen, deren Nacht nicht sicher ist.",
-          "type": "image"
+          "type": "image",
+          "text": "Wir bitten für Menschen, die gegen Rechtsextremismus aufstehen. Und für wohnungslose Menschen, deren Nacht nicht sicher ist."
         },
         {
-          "text": "Schenk uns Frieden für diese Nacht. Und Hoffnung für morgen.",
-          "type": "image"
+          "type": "image",
+          "text": "Schenk uns Frieden für diese Nacht. Und Hoffnung für morgen."
         }
       ]
     },
@@ -121,9 +121,8 @@
   "qa": {
     "approved": false,
     "warnings": [
-      "Alt text must be completed before approval",
-      "Aktuelle Bezüge enthalten: Ukraine-Drohnenangriff auf Zug nach Warschau; Zugunglück in Nordfrankreich; Proteste gegen Rechtsextremismus in Baden-Württemberg; wachsende Not wohnungsloser Menschen in Stuttgart und Esslingen.",
-      "Vor Freigabe bitte prüfen, ob die Auswahl von vier aktuellen Bezügen für die Zielkanäle nicht zu dicht wirkt; ggf. auf zwei bis drei Anliegen kürzen."
+      "Field \"mastodon.text\" is 506 characters long and exceeds the plausibility limit of 500.",
+      "Field \"bluesky.text\" is 389 characters long and exceeds the plausibility limit of 300."
     ]
   },
   "metadata": {

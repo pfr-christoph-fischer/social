@@ -1,0 +1,70 @@
+{
+  "checks": [
+    {
+      "check": "alt-text-present",
+      "findings": [],
+      "status": "passed"
+    },
+    {
+      "check": "flux-prompt-no-text",
+      "findings": [],
+      "status": "passed"
+    },
+    {
+      "check": "required-fields",
+      "findings": [],
+      "status": "passed"
+    },
+    {
+      "check": "platform-lengths",
+      "findings": [
+        {
+          "check": "platform-lengths",
+          "message": "Field \"mastodon.text\" is 506 characters long and exceeds the plausibility limit of 500.",
+          "severity": "warning"
+        },
+        {
+          "check": "platform-lengths",
+          "message": "Field \"bluesky.text\" is 389 characters long and exceeds the plausibility limit of 300.",
+          "severity": "warning"
+        }
+      ],
+      "status": "warning"
+    },
+    {
+      "check": "current-events",
+      "findings": [],
+      "status": "passed"
+    },
+    {
+      "check": "privacy",
+      "findings": [],
+      "status": "passed"
+    },
+    {
+      "check": "song-lyrics",
+      "findings": [],
+      "status": "passed"
+    },
+    {
+      "check": "scripture-citation",
+      "findings": [],
+      "status": "passed"
+    },
+    {
+      "check": "predigt-preview-input",
+      "findings": [],
+      "status": "passed"
+    }
+  ],
+  "content_path": "content/2026-09-13/prayer-evening-2026-09-13/content.json",
+  "errors": [],
+  "post_id": "prayer-evening-2026-09-13",
+  "ready_for_approval": true,
+  "status_after_run": "zur Prüfung",
+  "status_before_run": "in Arbeit",
+  "warnings": [
+    "Field \"mastodon.text\" is 506 characters long and exceeds the plausibility limit of 500.",
+    "Field \"bluesky.text\" is 389 characters long and exceeds the plausibility limit of 300."
+  ]
+}
