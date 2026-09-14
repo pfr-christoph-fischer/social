@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-09-14",
+    "contentDate": "2026-09-14",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-09-14T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Jeder hat das Recht, sich innerhalb eines Staates frei zu bewegen und seinen Aufenthaltsort frei zu wählen. (Allgemeine Erklärung der Menschenrechte, Artikel 13 Absatz 1)",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Jeder hat das Recht, sich innerhalb eines Staates frei zu bewegen und seinen Aufenthaltsort frei zu wählen. (Allgemeine Erklärung der Menschenrechte, Artikel 13 Absatz 1)"
+    ],
+    "id": "2491f0f0-a72e-498d-82aa-2c6e9d046895",
+    "attemptCount": 1,
+    "remoteId": "18170560210401542",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:38:00.279Z",
+    "updatedAt": "2026-09-14T10:00:32.966Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-09-14",
+    "contentDate": "2026-09-14",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-09-14T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Jeder hat das Recht, sich innerhalb eines Staates frei zu bewegen und seinen Aufenthaltsort frei zu wählen. (Allgemeine Erklärung der Menschenrechte, Artikel 13 Absatz 1)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Jeder hat das Recht, sich innerhalb eines Staates frei zu bewegen und seinen Aufenthaltsort frei zu wählen. (Allgemeine Erklärung der Menschenrechte, Artikel 13 Absatz 1)"
+    ],
+    "id": "85d6e001-e19e-43c2-baf4-037cae39a9d9",
+    "attemptCount": 1,
+    "remoteId": "117268809965454044",
+    "remoteUrl": "https://kirche.social/@christoph/117268809965454044",
+    "lastError": null,
+    "createdAt": "2026-08-26T15:38:00.337Z",
+    "updatedAt": "2026-09-14T10:00:34.924Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
