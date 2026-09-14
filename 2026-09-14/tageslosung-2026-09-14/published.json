@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-14",
+    "contentDate": "2026-09-14",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-09-14T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Siehe, es kommt die Zeit, spricht der HERR, da will ich mit dem Hause Israel und mit dem Hause Juda einen neuen Bund schließen.",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Siehe, es kommt die Zeit, spricht der HERR, da will ich mit dem Hause Israel und mit dem Hause Juda einen neuen Bund schließen."
+    ],
+    "id": "f877e976-9214-4461-a880-9bad22776450",
+    "attemptCount": 1,
+    "remoteId": "18017717825937393",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:45:25.757Z",
+    "updatedAt": "2026-09-14T05:00:27.318Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-14",
+    "contentDate": "2026-09-14",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-09-14T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Siehe, es kommt die Zeit, spricht der HERR, da will ich mit dem Hause Israel und mit dem Hause Juda einen neuen Bund schließen.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Siehe, es kommt die Zeit, spricht der HERR, da will ich mit dem Hause Israel und mit dem Hause Juda einen neuen Bund schließen."
+    ],
+    "id": "cf4fda73-7a8c-4465-9d24-ee060f76426f",
+    "attemptCount": 1,
+    "remoteId": "117267629879139987",
+    "remoteUrl": "https://kirche.social/@christoph/117267629879139987",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:45:25.779Z",
+    "updatedAt": "2026-09-14T05:00:28.231Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
