@@ -1,6 +1,6 @@
 {
   "id": "prayer-morning-2026-09-15",
-  "status": "in Arbeit",
+  "status": "freigegeben",
   "needs_input": false,
   "source": {
     "calendar_post_id": "prayer-morning-2026-09-15",
@@ -37,27 +37,27 @@
   },
   "platforms": {
     "facebook": {
-      "headline": "Morgengebet: Dieser Tag ist Gottes Gabe",
-      "text": "Gott, du Licht dieses Morgens,\ndu weckst die Welt und auch mich.\nDie Luft ist neu. Der Tag liegt offen vor mir.\n\n„Dies ist der Tag, den der HERR macht“ (Psalm 118,24).\nIch danke dir für diesen Anfang.\nFür Atem. Für Licht. Für alles, was heute wachsen darf.\n\nWo ich unruhig bin, gib mir Frieden.\nWo ich müde bin, gib mir Kraft.\nWo ich nicht weiß, was kommt, halte mich fest.\n\nLass mich diesen Tag aus deiner Hand nehmen.\nMit wachem Herzen. Mit offenen Augen. Mit Hoffnung.\nDu bist da. Das ist genug.\nAmen."
+      "text": "Gott, du Licht dieses Morgens,\ndu weckst die Welt und auch mich.\nDie Luft ist neu. Der Tag liegt offen vor mir.\n\n„Dies ist der Tag, den der HERR macht“ (Psalm 118,24).\nIch danke dir für diesen Anfang.\nFür Atem. Für Licht. Für alles, was heute wachsen darf.\n\nWo ich unruhig bin, gib mir Frieden.\nWo ich müde bin, gib mir Kraft.\nWo ich nicht weiß, was kommt, halte mich fest.\n\nLass mich diesen Tag aus deiner Hand nehmen.\nMit wachem Herzen. Mit offenen Augen. Mit Hoffnung.\nDu bist da. Das ist genug.\nAmen.",
+      "headline": "Morgengebet: Dieser Tag ist Gottes Gabe"
     },
     "instagram": {
       "caption": "Gott, du Licht dieses Morgens,\ndu weckst die Welt und auch mich.\n\n„Dies ist der Tag, den der HERR macht“ (Psalm 118,24).\nIch danke dir für diesen Anfang.\nFür Licht. Für Atem. Für Hoffnung.\n\nNimm diesen Tag in deine guten Hände.\nUnd geh mit mir.\nAmen.",
       "carousel": [
         {
-          "text": "Gott, du Licht dieses Morgens, du weckst die Welt und auch mich.",
-          "type": "prayer"
+          "type": "prayer",
+          "text": "Gott, du Licht dieses Morgens, du weckst die Welt und auch mich."
         },
         {
-          "text": "„Dies ist der Tag, den der HERR macht“ (Psalm 118,24).",
-          "type": "prayer"
+          "type": "prayer",
+          "text": "„Dies ist der Tag, den der HERR macht“ (Psalm 118,24)."
         },
         {
-          "text": "Ich danke dir für diesen Anfang. Für Licht. Für Atem. Für Hoffnung.",
-          "type": "prayer"
+          "type": "prayer",
+          "text": "Ich danke dir für diesen Anfang. Für Licht. Für Atem. Für Hoffnung."
         },
         {
-          "text": "Nimm diesen Tag in deine guten Hände. Und geh mit mir. Amen.",
-          "type": "prayer"
+          "type": "prayer",
+          "text": "Nimm diesen Tag in deine guten Hände. Und geh mit mir. Amen."
         }
       ]
     },
@@ -111,12 +111,8 @@
     "alt_text": "Sanftes Morgenlicht fällt durch ein offenes Fenster. Draußen sind Blätter mit Tau zu sehen. Die Szene wirkt still, hell und hoffnungsvoll."
   },
   "qa": {
-    "approved": false,
-    "warnings": [
-      "Alt text must be completed before approval",
-      "Bibelzitat geprüft: Psalm 118,24 (Lutherbibel 2017).",
-      "Am Morgen der Veröffentlichung nur auf stimmigen Tagesbezug prüfen."
-    ]
+    "approved": true,
+    "warnings": []
   },
   "metadata": {
     "model": "gpt-5.4-2026-03-05",
