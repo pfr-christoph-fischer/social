@@ -1,0 +1,36 @@
+{
+  "delivery_url": "https://delivery.us2.bfl.ai/durable/2026091420/5e1f69ea-538b-4d66-962e-9be995966f07/a3/2234327f3979d5/7f3979d5ac704832b931cfcd206c084a/sample.jpeg?se=2026-09-14T20%3A47%3A03Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=gW9tQsvEO6QbcRuYbtqbOBqF89UDmh/p/fgVuG0Sp1Q%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "f2ebb41a-6afa-4fc2-9be7-2b63dcedf2cf",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "f2ebb41a-6afa-4fc2-9be7-2b63dcedf2cf",
+      "status": "Ready",
+      "result": {
+        "start_time": 1789418222.0292768,
+        "prompt": "A calm early morning scene with soft natural sunrise light, open window or view into a quiet garden, dew on leaves, gentle shadows, minimal composition, hopeful and serene atmosphere, realistic photography, warm neutral colors, contemplative mood, no typography, no text, no letters, no typography, no logo, no watermark",
+        "seed": 3866495364,
+        "sample": "https://delivery.us2.bfl.ai/durable/2026091420/5e1f69ea-538b-4d66-962e-9be995966f07/a3/2234327f3979d5/7f3979d5ac704832b931cfcd206c084a/sample.jpeg?se=2026-09-14T20%3A47%3A03Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=gW9tQsvEO6QbcRuYbtqbOBqF89UDmh/p/fgVuG0Sp1Q%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "f2ebb41a-6afa-4fc2-9be7-2b63dcedf2cf",
+    "polling_url": "https://api.us2.bfl.ai/v1/get_result?id=f2ebb41a-6afa-4fc2-9be7-2b63dcedf2cf",
+    "cost": 1.5,
+    "input_mp": 0,
+    "output_mp": 1.39
+  }
+}
