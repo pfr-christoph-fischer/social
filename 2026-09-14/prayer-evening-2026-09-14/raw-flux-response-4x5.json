@@ -1,0 +1,52 @@
+{
+  "delivery_url": "https://delivery.eu2.bfl.ai/durable/2026091420/5e1f69ea-538b-4d66-962e-9be995966f07/83/091785ae0a1ea7/ae0a1ea7b29d4e9b858209b2bc9eeba2/sample.jpeg?se=2026-09-14T20%3A44%3A52Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=5kEi0uvhqkqRfIgZxl1ECB4ENtwqjIvajqOUUVlptGg%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "f79d9340-1f65-4609-9dda-0cf7ace8a60e",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "f79d9340-1f65-4609-9dda-0cf7ace8a60e",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "f79d9340-1f65-4609-9dda-0cf7ace8a60e",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "f79d9340-1f65-4609-9dda-0cf7ace8a60e",
+      "status": "Ready",
+      "result": {
+        "start_time": 1789418090.3001704,
+        "prompt": "A calm evening interior, soft natural dusk light through a window, simple room, subtle human presence without visible face, hands resting on a table, quiet atmosphere, realistic photography, warm muted colors, gentle shadows, contemplative mood, hope in the night, no symbols in foreground, no typography, no text, no letters, no typography, no logo, no watermark",
+        "seed": 3165303036,
+        "sample": "https://delivery.eu2.bfl.ai/durable/2026091420/5e1f69ea-538b-4d66-962e-9be995966f07/83/091785ae0a1ea7/ae0a1ea7b29d4e9b858209b2bc9eeba2/sample.jpeg?se=2026-09-14T20%3A44%3A52Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=5kEi0uvhqkqRfIgZxl1ECB4ENtwqjIvajqOUUVlptGg%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "f79d9340-1f65-4609-9dda-0cf7ace8a60e",
+    "polling_url": "https://api.eu2.bfl.ai/v1/get_result?id=f79d9340-1f65-4609-9dda-0cf7ace8a60e",
+    "cost": 1.5,
+    "input_mp": 0,
+    "output_mp": 1.39
+  }
+}
