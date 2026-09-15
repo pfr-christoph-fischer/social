@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-09-15",
+    "contentDate": "2026-09-15",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-09-15T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Jeder hat das Recht, jedes Land, einschließlich seines eigenen, zu verlassen und in sein Land zurückzukehren. (Allgemeine Erklärung der Menschenrechte, Artikel 13 Absatz 2)",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Jeder hat das Recht, jedes Land, einschließlich seines eigenen, zu verlassen und in sein Land zurückzukehren. (Allgemeine Erklärung der Menschenrechte, Artikel 13 Absatz 2)"
+    ],
+    "id": "3aadb8aa-e3ce-406e-af67-a30212ee4e8a",
+    "attemptCount": 1,
+    "remoteId": "18025303610919069",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:38:04.085Z",
+    "updatedAt": "2026-09-15T10:00:27.680Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-09-15",
+    "contentDate": "2026-09-15",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-09-15T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Jeder hat das Recht, jedes Land, einschließlich seines eigenen, zu verlassen und in sein Land zurückzukehren. (Allgemeine Erklärung der Menschenrechte, Artikel 13 Absatz 2)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Jeder hat das Recht, jedes Land, einschließlich seines eigenen, zu verlassen und in sein Land zurückzukehren. (Allgemeine Erklärung der Menschenrechte, Artikel 13 Absatz 2)"
+    ],
+    "id": "383f482b-c2f5-42f0-8db2-e7a87a346115",
+    "attemptCount": 1,
+    "remoteId": "117274471904655487",
+    "remoteUrl": "https://kirche.social/@christoph/117274471904655487",
+    "lastError": null,
+    "createdAt": "2026-08-26T15:38:04.130Z",
+    "updatedAt": "2026-09-15T10:00:29.260Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
