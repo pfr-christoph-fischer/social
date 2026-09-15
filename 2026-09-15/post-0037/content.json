@@ -10,68 +10,112 @@
   },
   "editorial_core": {
     "title": "Audrey Assad – Still Making Me (Live)",
-    "main_message": "Kurzes, am Originaltext geprüftes Liedfragment als Meditation wählen. Persönlich erzählen, was mich daran berührt; Schwerpunkt: Segen als Zusage, dass Werden und Veränderung weitergehen dürfen. Spotify: https://open.spotify.com/track/2X1UAmhs4LnVaPOKJOw3th",
-    "audience": "[TODO: define audience after current inputs are available]",
+    "main_message": "Ein Lied kann wie ein stiller Segen sein: Ich bin nicht fertig. Ich darf werden. Veränderung muss nicht gegen mich arbeiten, sondern kann Raum sein, in dem Gott weiter an mir wirkt.",
+    "audience": "Menschen, die persönliche Glaubensimpulse auf Social Media suchen und offen sind für weniger bekannte christliche Künstler:innen.",
     "tone": [
       "klar",
       "ruhig",
-      "zugänglich"
+      "zugänglich",
+      "persönlich"
     ],
     "source_notes": [
       "Goal: Persönlich teilen, welche Liedzeile mich gerade begleitet, und dabei unbekanntere, progressive christliche Künstler:innen vorstellen.",
-      "Column: Persönlicher Glaube und Spiritualität",
-      "Production mode: weitgehend vorproduzierbar; persönlichen Bezug vor Veröffentlichung aktuell formulieren",
-      "Structure: kurzer persönlicher Einstieg | Liedfragment als Meditation und eigener geistlicher Gedanke | Künstler:in kurz vorstellen und Spotify-Link",
-      "AI support notes: persönliche Notizen sprachlich verdichten | Meditationsimpuls und plattformgerechte Kurzfassungen | Alt-Text",
-      "Current inputs required: persönliche Beobachtung oder Erfahrung aus dieser Woche | am Originaltext geprüftes kurzes Liedfragment | Spotify: https://open.spotify.com/track/2X1UAmhs4LnVaPOKJOw3th"
+      "Production mode: weitgehend vorproduzierbar; persönlichen Bezug vor Veröffentlichung aktuell formulieren.",
+      "Es fehlt noch eine konkrete persönliche Beobachtung oder Erfahrung aus dieser Woche.",
+      "Es fehlt noch ein am Originaltext geprüftes kurzes Liedfragment.",
+      "Spotify-Link liegt vor: https://open.spotify.com/track/2X1UAmhs4LnVaPOKJOw3th",
+      "Kein Liedtext erfinden oder paraphrasieren, wenn er nicht geprüft vorliegt.",
+      "Künstlerinnenvorstellung nur allgemein und vorsichtig halten; keine unbelegten Biografiedetails ergänzen."
     ]
   },
   "platforms": {
     "facebook": {
-      "text": "",
-      "headline": ""
+      "text": "Diese Woche begleitet mich ein Lied über das Werden.\n\n[HIER persönlicher Einstieg aus dieser Woche einfügen]\n\nMich tröstet daran der Gedanke: Ich muss nicht schon fertig sein. Segen heißt manchmal nicht, dass alles sofort gut ist. Sondern dass ich auf dem Weg gehalten bin. Dass Veränderung weitergehen darf. Und dass Gott mit diesem unfertigen Leben noch nicht am Ende ist.\n\nLiedfragment:\n„[HIER am Originaltext geprüftes kurzes Liedfragment einfügen]“\n\nDas Lied ist von Audrey Assad: „Still Making Me (Live)“.\nSpotify: https://open.spotify.com/track/2X1UAmhs4LnVaPOKJOw3th",
+      "headline": "Noch nicht fertig. Und trotzdem gehalten."
     },
     "instagram": {
-      "caption": "",
-      "carousel": []
+      "caption": "Diese Woche begleitet mich ein Lied über das Werden.\n\n[HIER persönlicher Einstieg aus dieser Woche einfügen]\n\nMich berührt daran: Ich muss nicht fertig sein, um gesegnet zu sein. Vielleicht heißt Segen manchmal einfach: Du darfst weiter werden. Du bist auf dem Weg nicht allein.\n\nLiedfragment:\n„[HIER am Originaltext geprüftes kurzes Liedfragment einfügen]“\n\nAudrey Assad – Still Making Me (Live)\nSpotify-Link in Story / Bio.",
+      "carousel": [
+        {
+          "type": "cover",
+          "text": "Ein Lied, das mich begleitet"
+        },
+        {
+          "type": "quote",
+          "text": "[HIER am Originaltext geprüftes kurzes Liedfragment einfügen]"
+        },
+        {
+          "type": "impulse",
+          "text": "Ich muss nicht fertig sein, um gehalten zu sein."
+        },
+        {
+          "type": "artist",
+          "text": "Audrey Assad – Still Making Me (Live)"
+        }
+      ]
     },
     "mastodon": {
-      "text": ""
+      "text": "Diese Woche begleitet mich ein Lied über das Werden.\n\n[HIER persönlicher Einstieg aus dieser Woche einfügen]\n\nDer Gedanke dahinter tut mir gut: Ich muss nicht fertig sein. Veränderung darf weitergehen. Und Gott hat mit mir noch nicht aufgehört.\n\n„[HIER am Originaltext geprüftes kurzes Liedfragment einfügen]“\n\nAudrey Assad – Still Making Me (Live)\nhttps://open.spotify.com/track/2X1UAmhs4LnVaPOKJOw3th"
     },
     "bluesky": {
-      "text": ""
+      "text": "Diese Woche begleitet mich ein Lied über das Werden.\n\nIch muss nicht fertig sein, um gehalten zu sein. Veränderung darf weitergehen.\n\n„[HIER am Originaltext geprüftes kurzes Liedfragment einfügen]“\n\nAudrey Assad – Still Making Me (Live)\nhttps://open.spotify.com/track/2X1UAmhs4LnVaPOKJOw3th"
     },
     "story": {
-      "slides": []
+      "slides": [
+        {
+          "text": "Ein Lied, das mich begleitet"
+        },
+        {
+          "text": "[HIER kurzer persönlicher Satz aus dieser Woche einfügen]"
+        },
+        {
+          "text": "Ich muss nicht fertig sein, um gesegnet zu sein."
+        },
+        {
+          "text": "Audrey Assad – Still Making Me (Live) | Spotify-Link"
+        }
+      ]
     },
     "reel": {
-      "hook": "",
-      "script": "",
-      "shots": [],
-      "duration_seconds": 0
+      "hook": "Manchmal ist Segen einfach dies: Ich bin noch im Werden.",
+      "script": "Kurzer ruhiger Einstieg in die Kamera oder als Voiceover: [HIER persönlicher Bezug aus dieser Woche]. Dann der geistliche Gedanke: Ich muss nicht schon fertig sein. Veränderung ist nicht nur anstrengend. Sie kann auch ein Ort sein, an dem Gott weiter an mir arbeitet. Danach Einblendung oder Voiceover mit einem am Originaltext geprüften kurzen Liedfragment. Abschluss: Audrey Assad – Still Making Me (Live), Hinweis auf den Spotify-Link.",
+      "shots": [
+        "ruhige Nahaufnahme",
+        "Hände mit Tasse oder am Fenster",
+        "langsamer Blick nach draußen",
+        "Detail eines stillen Alltagsmoments",
+        "schlichter Abschlussshot ohne Text im Bild"
+      ],
+      "duration_seconds": 20
     }
   },
   "visual": {
-    "concept": "",
-    "flux_prompt": "",
+    "concept": "Ruhiger, persönlicher Alltagsmoment mit offenem Fenster, weichem Morgenlicht und einer nachdenklichen, aber nicht traurigen Stimmung. Das Bild soll Werden, Offenheit und sanfte Bewegung andeuten.",
+    "flux_prompt": "A calm everyday scene with soft morning light near an open window, a simple table, a mug, gentle shadows, contemplative atmosphere, natural colors, minimal composition, sense of quiet becoming, subtle movement in curtains, photographic realism, warm and honest mood, no typography",
     "negative_prompt": "text, letters, logo, watermark",
     "formats": [
       "4:5",
       "9:16",
       "1.91:1"
     ],
-    "alt_text": ""
+    "alt_text": "Ruhiger Alltagsmoment an einem offenen Fenster. Weiches Licht fällt auf einen einfachen Tisch mit einer Tasse. Die Stimmung ist still und nachdenklich und vermittelt Offenheit für Veränderung."
   },
   "qa": {
     "warnings": [
       "Alt text must be completed before approval",
-      "Current source inputs are still required before publication"
+      "Current source inputs are still required before publication",
+      "Es fehlt noch eine persönliche Beobachtung oder Erfahrung aus dieser Woche.",
+      "Es fehlt noch ein am Originaltext geprüftes kurzes Liedfragment.",
+      "Vor Veröffentlichung alle Platzhalter ersetzen.",
+      "Keinen ungeprüften Liedtext verwenden.",
+      "Spotify-Link vor Veröffentlichung testen.",
+      "Alt-Text bei finalem Motiv ggf. an das tatsächliche Bild anpassen."
     ],
     "approved": false
   },
   "metadata": {
-    "model": "",
-    "generated_at": "",
+    "model": "gpt-5.4-2026-03-05",
+    "generated_at": "2026-09-15T15:24:21.826Z",
     "prompt_version": "1.0",
     "assets": []
   }
