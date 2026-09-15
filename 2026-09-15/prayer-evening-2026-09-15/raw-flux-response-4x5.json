@@ -1,0 +1,52 @@
+{
+  "delivery_url": "https://delivery.eu2.bfl.ai/durable/2026091520/5e1f69ea-538b-4d66-962e-9be995966f07/db/9930639366d7bf/9366d7bfe9c14559b9c49ee5330be825/sample.jpeg?se=2026-09-15T20%3A19%3A53Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=L6CAWaRuOeGnW3ymP8BXRrb75asljt5Z27721yvasyM%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "71d4c931-8218-495f-bb78-4763d5821416",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "71d4c931-8218-495f-bb78-4763d5821416",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "71d4c931-8218-495f-bb78-4763d5821416",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "71d4c931-8218-495f-bb78-4763d5821416",
+      "status": "Ready",
+      "result": {
+        "start_time": 1789502991.9417965,
+        "prompt": "Ruhige Abendszene an einem Fenster. Warmes Restlicht. Ein schlichter Tisch mit Kerze, offenes leeres Notizbuch und eine Hand in Ruhe. Stimmung von Loslassen und Geborgenheit, ohne Kitsch., no text, no letters, no typography, no logo, no watermark",
+        "seed": 613576437,
+        "sample": "https://delivery.eu2.bfl.ai/durable/2026091520/5e1f69ea-538b-4d66-962e-9be995966f07/db/9930639366d7bf/9366d7bfe9c14559b9c49ee5330be825/sample.jpeg?se=2026-09-15T20%3A19%3A53Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=L6CAWaRuOeGnW3ymP8BXRrb75asljt5Z27721yvasyM%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "71d4c931-8218-495f-bb78-4763d5821416",
+    "polling_url": "https://api.eu2.bfl.ai/v1/get_result?id=71d4c931-8218-495f-bb78-4763d5821416",
+    "cost": 1.5,
+    "input_mp": 0,
+    "output_mp": 1.39
+  }
+}
