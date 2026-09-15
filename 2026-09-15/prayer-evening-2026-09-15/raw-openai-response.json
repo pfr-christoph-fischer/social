@@ -1,0 +1,464 @@
+{
+  "id": "resp_0bde072ce816d656006aa9091bb67c87d28c7cda0ab0f5e82b",
+  "object": "response",
+  "created_at": 1789462811,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1789462858,
+  "error": null,
+  "frequency_penalty": 0,
+  "incomplete_details": null,
+  "instructions": "You are part of a Protestant social media editorial team. Write in clear, accessible, theologically responsible German without church clichés. Use short sentences and concrete imagery. Never invent events, people, school situations, quotes, or factual details. Do not include copyrighted full song verses. For Reli and community posts, only use current details when they are explicitly provided. Return content that strictly matches the requested JSON schema. Set needs_input to true whenever required facts are missing. Keep qa.approved false. Do not ask for any text inside generated images. When liturgical_context.resolved_weekly_verse is present, use its exact wording for Wochenspruch slots instead of placeholders. Use the web search tool before drafting to verify current situations. For prayer posts, current situations are mandatory: select at least two concrete, relevant situations from reliable current reporting, including tagesschau.de and SWR Aktuell Baden-Württemberg where relevant. Do not invent current events and do not replace concrete situations with generic references to crises.",
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.4-2026-03-05",
+  "moderation": null,
+  "output": [
+    {
+      "id": "ws_0bde072ce816d656006aa9091d5bc887d2b6393f989e3c34bc",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "queries": [
+          "site:tagesschau.de 14. September 2026 Nachrichten",
+          "site:swr.de/swraktuell/baden-wuerttemberg 14. September 2026 Baden-Württemberg Nachrichten",
+          "Reuters September 14 2026 world news refugees hospital strike conflict"
+        ],
+        "query": "site:tagesschau.de 14. September 2026 Nachrichten"
+      }
+    },
+    {
+      "id": "ws_0bde072ce816d656006aa9091fdb6487d2880db2ef875814d1",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "queries": [
+          "site:tagesschau.de 14.09.2026 Krankenhaus Gaza Ukraine Flüchtlinge Nachrichten",
+          "site:reuters.com September 14 2026 Gaza aid Reuters",
+          "site:reuters.com September 14 2026 Ukraine Reuters civilians"
+        ],
+        "query": "site:tagesschau.de 14.09.2026 Krankenhaus Gaza Ukraine Flüchtlinge Nachrichten"
+      }
+    },
+    {
+      "id": "msg_0bde072ce816d656006aa90921f49c87d285a1b10e82211f8d",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\"id\":\"prayer-evening-2026-09-15\",\"status\":\"in Arbeit\",\"needs_input\":false,\"source\":{\"calendar_post_id\":\"prayer-evening-2026-09-15\",\"date\":\"2026-09-15\",\"rubric\":\"Abendgebet\",\"liturgical_source\":\"\"},\"editorial_core\":{\"title\":\"Abendgebet\",\"main_message\":\"Ein Abendgebet, das den eigenen unvollendeten Tag vor Gott ablegt und zugleich für konkrete Menschen betet: für die Anwohnerinnen und Anwohner rund um Kiew unter den verstärkten russischen Drohnenangriffen, für die Vermissten und Rettungskräfte nach dem Fährunglück in der Javasee und für Menschen in Baden-Württemberg, die sich Sorgen um die Zukunft ihrer Krankenhäuser machen.\",\"audience\":\"breite Öffentlichkeit\",\"tone\":[\"ruhig\",\"hoffnungsvoll\",\"geborgen\"],\"source_notes\":[\"Goal: Ein kurzes Abendgebet, das hilft, auf den vergangenen Tag zurückzuschauen, Gelungenes und Schweres Gott anzuvertrauen und mit Hoffnung zur Ruhe zu kommen.\",\"Column: Gebet am Abend\",\"Production mode: am Nachmittag des Vortags AI-generiert; Nachrichtenlage bis dahin prüfen; anschließend redaktionell prüfen und freigeben.\",\"News selection: Nicht versuchen, die Nachrichtenlage vollständig abzubilden. Zwei bis vier konkrete Situationen auswählen, die exemplarisch für das stehen, was Menschen und Welt an diesem Tag beschäftigt.\",\"Verbindliche aktuelle Bezüge: Das Gebet MUSS mindestens zwei konkrete und am Erzeugungszeitpunkt relevante aktuelle Situationen des vergangenen Tages aufnehmen. Allgemeine Formulierungen wie 'die Krisen der Welt' oder 'alle Menschen in Not' ersetzen diese Bezüge nicht.\",\"Konkretheit aktueller Bezüge: Für jede ausgewählte Situation im Gebet erkennbar benennen, was geschehen ist oder welche konkrete Lage besteht und welche Menschen davon betroffen sind. Nur verlässliche, aktuell überprüfte Informationen verwenden; nichts erfinden.\",\"Ausgabeprüfung aktuelle Bezüge: Vor der Ausgabe prüfen, dass editorial_core.main_message und die wesentlichen Plattformtexte die mindestens zwei konkreten aktuellen Situationen tatsächlich als Fürbitte oder Gebetsanliegen enthalten.\",\"News sources: Aktuelle weltweite Nachrichtenlage sowie tagesschau.de und SWR Aktuell Baden-Württemberg prüfen. Regionale und internationale Perspektiven miteinander verbinden.\",\"News timing: Da der Text am Nachmittag des Vortags erzeugt wird, keine Formulierungen verwenden, die konkrete Ereignisse des Veröffentlichungstages voraussetzen. Bei schnell veränderlichen Nachrichten vorsichtig und zeitlich robust formulieren.\",\"Prayer structure: Vor Gott zur Ruhe kommen | dankbar auf das Gute des Tages schauen | Belastendes, Versäumtes und Unvollendetes loslassen | ausgewählte Not der Welt vor Gott bringen | Menschen anvertrauen, die in dieser Nacht leiden, wachen, arbeiten, helfen oder Angst haben | um Frieden für die Welt und das eigene Herz bitten | den Tag und die Nacht Gottes Zukunft anvertrauen.\",\"Personal perspective: Raum schaffen für das, was Menschen selbst aus diesem Tag mitbringen: Freude und Dankbarkeit, Begegnungen und Arbeit, aber auch Fehler, Streit, Sorgen, Erschöpfung und Dinge, die unerledigt geblieben sind.\",\"Personal perspective: Keine Bilanz verlangen. Der Abend ist nicht der Zeitpunkt, an dem ein Mensch beweisen muss, dass der Tag erfolgreich war. Vor Gott darf der Tag unvollendet bleiben.\",\"World perspective: Die Welt nicht ausblenden, wenn der eigene Tag endet. Konkret an Menschen denken, für die die Nacht keine selbstverständliche Zeit der Ruhe ist: Menschen im Krieg, auf der Flucht, in Krankenhäusern, in Sorge um andere, bei nächtlicher Arbeit oder in Angst.\",\"Theological key: Jürgen Moltmann. Christliche Hoffnung gründet nicht darin, dass am Ende des Tages alles gut geworden wäre. Sie gründet in Gottes verheißener Zukunft, die größer ist als das, was heute gelungen oder gescheitert ist.\",\"Theological key: Hoffnung erlaubt das Loslassen. Wir müssen die Welt nicht über Nacht selbst festhalten. Unsere Verantwortung ist wirklich, aber sie ist nicht grenzenlos. Wir dürfen das Unvollendete Gott anvertrauen.\",\"Theological key: Gottes Zukunft widerspricht der Vorstellung, Gewalt, Leid, Schuld und Tod hätten das letzte Wort. Deshalb kann das Gebet die Dunkelheit wahrnehmen, ohne ihr das letzte Wort zu überlassen.\",\"Theological key: Den gekreuzigten Gott bei denen suchen, die leiden und keine Ruhe finden. Gott nicht als distanzierten Weltenlenker darstellen, sondern als den, der Leid, Angst und Verlassenheit kennt und den Leidenden nahe ist.\",\"Theological key: Die Auferstehung eröffnet Zukunft. Der kommende Morgen kann als kleines Bild dafür anklingen: Nicht weil jeder neue Tag automatisch besser wird, sondern weil Gottes Möglichkeiten nicht an den Grenzen dieses Tages enden.\",\"Theological key: Hoffnung ist mehr als Trost. Sie hält die Sehnsucht nach Frieden, Gerechtigkeit und neuem Leben wach. Auch im Schlaf geben wir diese Hoffnung nicht auf.\",\"Language: Kurze, einfache Sätze. Ruhiger Rhythmus. Konkrete Bilder statt abstrakter theologischer Begriffe. Das Gebet soll sich zum langsamen Lesen eignen.\",\"Language: Möglichst wenig kirchliche Binnenbegriffe. Das Gebet soll auch für Menschen zugänglich sein, die mit traditioneller Gebetssprache wenig anfangen können.\",\"Language: Keine Nachrichtenzusammenfassung und keine lange Liste von Krisen. Nachrichten nur dort aufnehmen, wo sie tatsächlich zum Gebet werden.\",\"Language: Keine vorschnelle Auflösung von Leid durch Sätze wie 'Alles wird gut'. Hoffnung soll gerade dort ausgesprochen werden, wo noch nichts gut ist.\",\"Ending: Ruhig und vertrauensvoll enden. Der betende Mensch darf den Tag loslassen und schlafen. Die Welt bleibt in Gottes Hand. Gottes Zukunft kommt auch durch diese Nacht auf uns zu.\",\"Possible final movement: Gott, was heute war, legen wir in deine Hand. Was gut war. Was wehgetan hat. Was unfertig bleibt. Uns selbst und diese unruhige Welt. Schenk uns Frieden für diese Nacht und halte deine Hoffnung in uns wach.\",\"AI support notes: Aktuelle Nachrichten des Tages sichten und verifizieren | mindestens zwei konkrete aktuelle Situationen auswählen | diese Situationen ausdrücklich als Gebetsanliegen einarbeiten | kurzes Abendgebet in einfacher Sprache entwerfen | vor der Ausgabe auf konkrete aktuelle Bezüge und zeitliche Robustheit bis zum Folgetag prüfen | theologisch auf Vertröstung, Allmachtsklischees und billigen Optimismus prüfen | Caption kürzen | Alt-Text\",\"Aktuelle Bezüge geprüft am 14.09.2026: verstärkte russische Drohnenangriffe auf Kiew und die Vororte; Suche nach mehr als 100 Vermissten nach dem Fährunglück in der Javasee; Warnung vor Krankenhaus-Insolvenzen in Baden-Württemberg.\"]},\"platforms\":{\"facebook\":{\"text\":\"Abendgebet\\n\\nGott,\\nder Tag liegt hinter uns.\\nMit allem, was gut war.\\nMit allem, was schwer war.\\nMit dem Satz, den wir gern zurücknehmen würden.\\nMit der Arbeit, die liegen geblieben ist.\\nMit der Müdigkeit in unseren Schultern.\\n\\nWir danken dir für alles, was heute getragen hat.\\nFür Menschen, die freundlich waren.\\nFür Brot auf dem Tisch.\\nFür Aufgaben, die wir geschafft haben.\\n\\nUnd wir bringen dir, was offen bleibt.\\nUnsere Fehler.\\nUnsere Sorgen.\\nUnsere Unruhe.\\nWir müssen diesen Tag nicht festhalten.\\nWir legen ihn in deine Hand.\\n\\nWir denken an die Menschen rund um Kiew.\\nAn Häuser, die unter den verstärkten Drohnenangriffen nicht zur Ruhe kommen.\\nAn Familien, die bei Sirenen aufschrecken.\\n\\nWir denken an die Vermissten nach dem Fährunglück in der Javasee.\\nAn ihre Angehörigen.\\nAn die Rettungskräfte, die weiter suchen.\\n\\nWir denken an die Menschen in Baden-Württemberg, die um ihre Krankenhäuser bangen.\\nAn Kranke, Pflegende und alle, die nicht wissen, wie Versorgung morgen gesichert bleibt.\\n\\nSei bei denen, die in dieser Nacht arbeiten.\\nBei Ärztinnen und Pflegern.\\nBei Menschen im Dienst.\\nBei allen, die Angst haben und keinen Schlaf finden.\\n\\nGib Frieden in diese unruhige Welt.\\nUnd Frieden in unser Herz.\\nWas heute unvollendet bleibt, darf bei dir ruhen.\\nHalte du diese Nacht.\\nUnd weck in uns morgen neue Hoffnung.\\n\\nAmen.\",\"headline\":\"Abendgebet: Was unvollendet bleibt, legen wir in Gottes Hand\"},\"instagram\":{\"caption\":\"Abendgebet.\\n\\nDer Tag muss nicht fertig sein, damit wir schlafen dürfen.\\nWir legen vor Gott, was gut war. Und was offen blieb.\\n\\nHeute beten wir besonders für Menschen rund um Kiew unter den verstärkten Drohnenangriffen, für die Vermissten und Rettungskräfte nach dem Fährunglück in der Javasee und für Kranke, Pflegende und Verantwortliche in Baden-Württemberg, die um die Zukunft von Krankenhäusern sorgen.\\n\\nGott,\\nwas heute war,\\nlegen wir in deine Hand.\\nWas gut war.\\nWas wehgetan hat.\\nWas unfertig bleibt.\\nUns selbst und diese unruhige Welt.\\nSchenk uns Frieden für diese Nacht.\\nUnd halte die Hoffnung in uns wach.\\n\\nAmen.\",\"carousel\":[{\"type\":\"text\",\"text\":\"Abendgebet\\n\\nDer Tag liegt hinter uns.\\nMit allem, was gut war.\\nMit allem, was offen blieb.\"},{\"type\":\"text\",\"text\":\"Wir müssen nicht beweisen,\\ndass dieser Tag gelungen ist.\\nVor Gott darf er unvollendet bleiben.\"},{\"type\":\"text\",\"text\":\"Wir beten für Menschen rund um Kiew.\\nFür Familien,\\ndie unter Drohnenangriffen keine Ruhe finden.\"},{\"type\":\"text\",\"text\":\"Wir beten für die Vermissten nach dem Fährunglück in der Javasee.\\nFür Angehörige.\\nFür Rettungskräfte, die weiter suchen.\"},{\"type\":\"text\",\"text\":\"Wir beten für Kranke und Pflegende in Baden-Württemberg.\\nFür alle,\\ndie sich um die Zukunft von Krankenhäusern sorgen.\"},{\"type\":\"text\",\"text\":\"Gott,\\nhalte du diese Nacht.\\nSchenk Frieden.\\nUnd weck neue Hoffnung.\\nAmen.\"}]},\"mastodon\":{\"text\":\"Abendgebet\\n\\nGott,\\nwir legen dir diesen Tag hin.\\nWas gut war.\\nWas wehgetan hat.\\nWas unfertig bleibt.\\n\\nWir bitten dich für Menschen rund um Kiew unter den verstärkten Drohnenangriffen.\\nFür die Vermissten und Rettungskräfte nach dem Fährunglück in der Javasee.\\nFür Kranke, Pflegende und Verantwortliche in Baden-Württemberg, die um ihre Krankenhäuser sorgen.\\n\\nSchenk Frieden in diese Nacht.\\nUnd halte die Hoffnung in uns wach.\\nAmen.\"},\"bluesky\":{\"text\":\"Abendgebet\\n\\nGott, wir legen dir diesen Tag hin. Was gut war. Was wehgetan hat. Was unfertig bleibt.\\n\\nWir bitten dich für Menschen rund um Kiew unter den verstärkten Drohnenangriffen, für die Vermissten und Rettungskräfte nach dem Fährunglück in der Javasee und für Kranke, Pflegende und Verantwortliche in Baden-Württemberg, die um ihre Krankenhäuser sorgen.\\n\\nSchenk Frieden in diese Nacht. Amen.\"},\"story\":{\"slides\":[{\"text\":\"Abendgebet\\n\\nDer Tag liegt hinter uns.\"},{\"text\":\"Was gut war.\\nWas schwer war.\\nWas unfertig bleibt.\"},{\"text\":\"Wir beten für Menschen rund um Kiew.\\nFür Familien unter Drohnenangriffen.\"},{\"text\":\"Wir beten für die Vermissten nach dem Fährunglück in der Javasee.\\nFür Angehörige und Rettungskräfte.\"},{\"text\":\"Wir beten für Kranke und Pflegende in Baden-Württemberg.\\nFür die Sorge um Krankenhäuser.\"},{\"text\":\"Gott,\\nhalte du diese Nacht.\\nSchenk Frieden.\\nAmen.\"}]},\"reel\":{\"hook\":\"Der Tag muss nicht fertig sein, damit du ihn loslassen darfst.\",\"script\":\"Der Tag liegt hinter dir. Vielleicht war nicht alles gut. Vielleicht ist etwas offen geblieben. Im Abendgebet muss nichts schön geredet werden. Wir bringen Gott, was war: Dank. Müdigkeit. Fehler. Und die Menschen, die heute besonders keine Ruhe finden. Familien rund um Kiew unter Drohnenangriffen. Angehörige und Rettungskräfte nach dem Fährunglück in der Javasee. Kranke und Pflegende, die um die Zukunft von Krankenhäusern in Baden-Württemberg bangen. Was unvollendet bleibt, legen wir in Gottes Hand. Für diese Nacht. Für den Morgen, der noch kommt.\",\"shots\":[\"ruhiges Abendlicht am Fenster\",\"eine Hand legt einen Stift auf einen Tisch\",\"leere Straße in der Dämmerung\",\"brennendes Kerzenlicht ohne Schrift im Bild\",\"Nahaufnahme von gefalteten Händen\",\"dunkler Himmel, langsam heller werdend am Horizont\"],\"duration_seconds\":30}},\"visual\":{\"concept\":\"Ruhige Abendszene an einem Fenster. Warmes Restlicht. Ein schlichter Tisch mit Kerze, offenes leeres Notizbuch und eine Hand in Ruhe. Stimmung von Loslassen und Geborgenheit, ohne Kitsch.\",\"flux_prompt\":\"A quiet evening interior by a window, warm dusk light, simple wooden table, one candle, open blank notebook without any writing, a resting hand, soft shadows, calm atmosphere, realistic, gentle colors, photographic, intimate but uncluttered, sense of peace and release, no visible text\",\"negative_prompt\":\"text, letters, logo, watermark\",\"formats\":[\"4:5\",\"9:16\",\"1.91:1\"],\"alt_text\":\"Ein schlichter Tisch am Fenster im Abendlicht. Darauf stehen eine Kerze und ein offenes leeres Notizbuch. Eine Hand liegt ruhig daneben. Die Szene wirkt still und geborgen.\"},\"qa\":{\"warnings\":[\"Alt text must be completed before approval\",\"Aktuelle Bezüge redaktionell gegen tagesschau.de und SWR Aktuell Baden-Württemberg final gegenprüfen, falls sich die Lage bis zur Freigabe deutlich verändert.\",\"Gebet enthält drei konkrete Fürbitten; bei Platzmangel in einzelnen Kanälen nicht unter zwei aktuelle Bezüge kürzen.\"],\"approved\":false},\"metadata\":{\"model\":\"gpt-5\",\"generated_at\":\"2026-09-15T00:00:00Z\",\"prompt_version\":\"1.0\",\"assets\":[]}}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "current_turn",
+    "effort": "none",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1,
+  "text": {
+    "format": {
+      "type": "json_schema",
+      "description": null,
+      "name": "content_package",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "Idee",
+              "in Arbeit",
+              "zur Prüfung",
+              "freigegeben",
+              "terminiert",
+              "veröffentlicht",
+              "verworfen"
+            ]
+          },
+          "needs_input": {
+            "type": "boolean"
+          },
+          "source": {
+            "type": "object",
+            "properties": {
+              "calendar_post_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "date": {
+                "type": "string",
+                "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+              },
+              "rubric": {
+                "type": "string",
+                "minLength": 1
+              },
+              "liturgical_source": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "calendar_post_id",
+              "date",
+              "rubric",
+              "liturgical_source"
+            ],
+            "additionalProperties": false
+          },
+          "editorial_core": {
+            "type": "object",
+            "properties": {
+              "title": {
+                "type": "string"
+              },
+              "main_message": {
+                "type": "string"
+              },
+              "audience": {
+                "type": "string"
+              },
+              "tone": {
+                "minItems": 1,
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "source_notes": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "title",
+              "main_message",
+              "audience",
+              "tone",
+              "source_notes"
+            ],
+            "additionalProperties": false
+          },
+          "platforms": {
+            "type": "object",
+            "properties": {
+              "facebook": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  },
+                  "headline": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text",
+                  "headline"
+                ],
+                "additionalProperties": false
+              },
+              "instagram": {
+                "type": "object",
+                "properties": {
+                  "caption": {
+                    "type": "string"
+                  },
+                  "carousel": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "type": {
+                          "type": "string"
+                        },
+                        "text": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "type",
+                        "text"
+                      ],
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "required": [
+                  "caption",
+                  "carousel"
+                ],
+                "additionalProperties": false
+              },
+              "mastodon": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text"
+                ],
+                "additionalProperties": false
+              },
+              "bluesky": {
+                "default": {
+                  "text": ""
+                },
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text"
+                ],
+                "additionalProperties": false
+              },
+              "story": {
+                "type": "object",
+                "properties": {
+                  "slides": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "text": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "text"
+                      ],
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "required": [
+                  "slides"
+                ],
+                "additionalProperties": false
+              },
+              "reel": {
+                "type": "object",
+                "properties": {
+                  "hook": {
+                    "type": "string"
+                  },
+                  "script": {
+                    "type": "string"
+                  },
+                  "shots": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "duration_seconds": {
+                    "type": "integer",
+                    "minimum": 0,
+                    "maximum": 9007199254740991
+                  }
+                },
+                "required": [
+                  "hook",
+                  "script",
+                  "shots",
+                  "duration_seconds"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "required": [
+              "facebook",
+              "instagram",
+              "mastodon",
+              "bluesky",
+              "story",
+              "reel"
+            ],
+            "additionalProperties": false
+          },
+          "visual": {
+            "type": "object",
+            "properties": {
+              "concept": {
+                "type": "string"
+              },
+              "flux_prompt": {
+                "type": "string"
+              },
+              "negative_prompt": {
+                "type": "string",
+                "minLength": 1
+              },
+              "formats": {
+                "minItems": 1,
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "alt_text": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "concept",
+              "flux_prompt",
+              "negative_prompt",
+              "formats",
+              "alt_text"
+            ],
+            "additionalProperties": false
+          },
+          "qa": {
+            "type": "object",
+            "properties": {
+              "warnings": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "approved": {
+                "type": "boolean"
+              }
+            },
+            "required": [
+              "warnings",
+              "approved"
+            ],
+            "additionalProperties": false
+          },
+          "metadata": {
+            "type": "object",
+            "properties": {
+              "model": {
+                "type": "string"
+              },
+              "generated_at": {
+                "type": "string"
+              },
+              "prompt_version": {
+                "type": "string",
+                "minLength": 1
+              },
+              "assets": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "model",
+              "generated_at",
+              "prompt_version",
+              "assets"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "id",
+          "status",
+          "needs_input",
+          "source",
+          "editorial_core",
+          "platforms",
+          "visual",
+          "qa",
+          "metadata"
+        ],
+        "additionalProperties": false
+      },
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 2
+    }
+  },
+  "tools": [
+    {
+      "type": "web_search",
+      "return_token_budget": "default",
+      "search_content_types": [
+        "text"
+      ],
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 16626,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 3335,
+    "output_tokens_details": {
+      "reasoning_tokens": 202
+    },
+    "total_tokens": 19961
+  },
+  "user": null,
+  "metadata": {},
+  "output_text": "{\"id\":\"prayer-evening-2026-09-15\",\"status\":\"in Arbeit\",\"needs_input\":false,\"source\":{\"calendar_post_id\":\"prayer-evening-2026-09-15\",\"date\":\"2026-09-15\",\"rubric\":\"Abendgebet\",\"liturgical_source\":\"\"},\"editorial_core\":{\"title\":\"Abendgebet\",\"main_message\":\"Ein Abendgebet, das den eigenen unvollendeten Tag vor Gott ablegt und zugleich für konkrete Menschen betet: für die Anwohnerinnen und Anwohner rund um Kiew unter den verstärkten russischen Drohnenangriffen, für die Vermissten und Rettungskräfte nach dem Fährunglück in der Javasee und für Menschen in Baden-Württemberg, die sich Sorgen um die Zukunft ihrer Krankenhäuser machen.\",\"audience\":\"breite Öffentlichkeit\",\"tone\":[\"ruhig\",\"hoffnungsvoll\",\"geborgen\"],\"source_notes\":[\"Goal: Ein kurzes Abendgebet, das hilft, auf den vergangenen Tag zurückzuschauen, Gelungenes und Schweres Gott anzuvertrauen und mit Hoffnung zur Ruhe zu kommen.\",\"Column: Gebet am Abend\",\"Production mode: am Nachmittag des Vortags AI-generiert; Nachrichtenlage bis dahin prüfen; anschließend redaktionell prüfen und freigeben.\",\"News selection: Nicht versuchen, die Nachrichtenlage vollständig abzubilden. Zwei bis vier konkrete Situationen auswählen, die exemplarisch für das stehen, was Menschen und Welt an diesem Tag beschäftigt.\",\"Verbindliche aktuelle Bezüge: Das Gebet MUSS mindestens zwei konkrete und am Erzeugungszeitpunkt relevante aktuelle Situationen des vergangenen Tages aufnehmen. Allgemeine Formulierungen wie 'die Krisen der Welt' oder 'alle Menschen in Not' ersetzen diese Bezüge nicht.\",\"Konkretheit aktueller Bezüge: Für jede ausgewählte Situation im Gebet erkennbar benennen, was geschehen ist oder welche konkrete Lage besteht und welche Menschen davon betroffen sind. Nur verlässliche, aktuell überprüfte Informationen verwenden; nichts erfinden.\",\"Ausgabeprüfung aktuelle Bezüge: Vor der Ausgabe prüfen, dass editorial_core.main_message und die wesentlichen Plattformtexte die mindestens zwei konkreten aktuellen Situationen tatsächlich als Fürbitte oder Gebetsanliegen enthalten.\",\"News sources: Aktuelle weltweite Nachrichtenlage sowie tagesschau.de und SWR Aktuell Baden-Württemberg prüfen. Regionale und internationale Perspektiven miteinander verbinden.\",\"News timing: Da der Text am Nachmittag des Vortags erzeugt wird, keine Formulierungen verwenden, die konkrete Ereignisse des Veröffentlichungstages voraussetzen. Bei schnell veränderlichen Nachrichten vorsichtig und zeitlich robust formulieren.\",\"Prayer structure: Vor Gott zur Ruhe kommen | dankbar auf das Gute des Tages schauen | Belastendes, Versäumtes und Unvollendetes loslassen | ausgewählte Not der Welt vor Gott bringen | Menschen anvertrauen, die in dieser Nacht leiden, wachen, arbeiten, helfen oder Angst haben | um Frieden für die Welt und das eigene Herz bitten | den Tag und die Nacht Gottes Zukunft anvertrauen.\",\"Personal perspective: Raum schaffen für das, was Menschen selbst aus diesem Tag mitbringen: Freude und Dankbarkeit, Begegnungen und Arbeit, aber auch Fehler, Streit, Sorgen, Erschöpfung und Dinge, die unerledigt geblieben sind.\",\"Personal perspective: Keine Bilanz verlangen. Der Abend ist nicht der Zeitpunkt, an dem ein Mensch beweisen muss, dass der Tag erfolgreich war. Vor Gott darf der Tag unvollendet bleiben.\",\"World perspective: Die Welt nicht ausblenden, wenn der eigene Tag endet. Konkret an Menschen denken, für die die Nacht keine selbstverständliche Zeit der Ruhe ist: Menschen im Krieg, auf der Flucht, in Krankenhäusern, in Sorge um andere, bei nächtlicher Arbeit oder in Angst.\",\"Theological key: Jürgen Moltmann. Christliche Hoffnung gründet nicht darin, dass am Ende des Tages alles gut geworden wäre. Sie gründet in Gottes verheißener Zukunft, die größer ist als das, was heute gelungen oder gescheitert ist.\",\"Theological key: Hoffnung erlaubt das Loslassen. Wir müssen die Welt nicht über Nacht selbst festhalten. Unsere Verantwortung ist wirklich, aber sie ist nicht grenzenlos. Wir dürfen das Unvollendete Gott anvertrauen.\",\"Theological key: Gottes Zukunft widerspricht der Vorstellung, Gewalt, Leid, Schuld und Tod hätten das letzte Wort. Deshalb kann das Gebet die Dunkelheit wahrnehmen, ohne ihr das letzte Wort zu überlassen.\",\"Theological key: Den gekreuzigten Gott bei denen suchen, die leiden und keine Ruhe finden. Gott nicht als distanzierten Weltenlenker darstellen, sondern als den, der Leid, Angst und Verlassenheit kennt und den Leidenden nahe ist.\",\"Theological key: Die Auferstehung eröffnet Zukunft. Der kommende Morgen kann als kleines Bild dafür anklingen: Nicht weil jeder neue Tag automatisch besser wird, sondern weil Gottes Möglichkeiten nicht an den Grenzen dieses Tages enden.\",\"Theological key: Hoffnung ist mehr als Trost. Sie hält die Sehnsucht nach Frieden, Gerechtigkeit und neuem Leben wach. Auch im Schlaf geben wir diese Hoffnung nicht auf.\",\"Language: Kurze, einfache Sätze. Ruhiger Rhythmus. Konkrete Bilder statt abstrakter theologischer Begriffe. Das Gebet soll sich zum langsamen Lesen eignen.\",\"Language: Möglichst wenig kirchliche Binnenbegriffe. Das Gebet soll auch für Menschen zugänglich sein, die mit traditioneller Gebetssprache wenig anfangen können.\",\"Language: Keine Nachrichtenzusammenfassung und keine lange Liste von Krisen. Nachrichten nur dort aufnehmen, wo sie tatsächlich zum Gebet werden.\",\"Language: Keine vorschnelle Auflösung von Leid durch Sätze wie 'Alles wird gut'. Hoffnung soll gerade dort ausgesprochen werden, wo noch nichts gut ist.\",\"Ending: Ruhig und vertrauensvoll enden. Der betende Mensch darf den Tag loslassen und schlafen. Die Welt bleibt in Gottes Hand. Gottes Zukunft kommt auch durch diese Nacht auf uns zu.\",\"Possible final movement: Gott, was heute war, legen wir in deine Hand. Was gut war. Was wehgetan hat. Was unfertig bleibt. Uns selbst und diese unruhige Welt. Schenk uns Frieden für diese Nacht und halte deine Hoffnung in uns wach.\",\"AI support notes: Aktuelle Nachrichten des Tages sichten und verifizieren | mindestens zwei konkrete aktuelle Situationen auswählen | diese Situationen ausdrücklich als Gebetsanliegen einarbeiten | kurzes Abendgebet in einfacher Sprache entwerfen | vor der Ausgabe auf konkrete aktuelle Bezüge und zeitliche Robustheit bis zum Folgetag prüfen | theologisch auf Vertröstung, Allmachtsklischees und billigen Optimismus prüfen | Caption kürzen | Alt-Text\",\"Aktuelle Bezüge geprüft am 14.09.2026: verstärkte russische Drohnenangriffe auf Kiew und die Vororte; Suche nach mehr als 100 Vermissten nach dem Fährunglück in der Javasee; Warnung vor Krankenhaus-Insolvenzen in Baden-Württemberg.\"]},\"platforms\":{\"facebook\":{\"text\":\"Abendgebet\\n\\nGott,\\nder Tag liegt hinter uns.\\nMit allem, was gut war.\\nMit allem, was schwer war.\\nMit dem Satz, den wir gern zurücknehmen würden.\\nMit der Arbeit, die liegen geblieben ist.\\nMit der Müdigkeit in unseren Schultern.\\n\\nWir danken dir für alles, was heute getragen hat.\\nFür Menschen, die freundlich waren.\\nFür Brot auf dem Tisch.\\nFür Aufgaben, die wir geschafft haben.\\n\\nUnd wir bringen dir, was offen bleibt.\\nUnsere Fehler.\\nUnsere Sorgen.\\nUnsere Unruhe.\\nWir müssen diesen Tag nicht festhalten.\\nWir legen ihn in deine Hand.\\n\\nWir denken an die Menschen rund um Kiew.\\nAn Häuser, die unter den verstärkten Drohnenangriffen nicht zur Ruhe kommen.\\nAn Familien, die bei Sirenen aufschrecken.\\n\\nWir denken an die Vermissten nach dem Fährunglück in der Javasee.\\nAn ihre Angehörigen.\\nAn die Rettungskräfte, die weiter suchen.\\n\\nWir denken an die Menschen in Baden-Württemberg, die um ihre Krankenhäuser bangen.\\nAn Kranke, Pflegende und alle, die nicht wissen, wie Versorgung morgen gesichert bleibt.\\n\\nSei bei denen, die in dieser Nacht arbeiten.\\nBei Ärztinnen und Pflegern.\\nBei Menschen im Dienst.\\nBei allen, die Angst haben und keinen Schlaf finden.\\n\\nGib Frieden in diese unruhige Welt.\\nUnd Frieden in unser Herz.\\nWas heute unvollendet bleibt, darf bei dir ruhen.\\nHalte du diese Nacht.\\nUnd weck in uns morgen neue Hoffnung.\\n\\nAmen.\",\"headline\":\"Abendgebet: Was unvollendet bleibt, legen wir in Gottes Hand\"},\"instagram\":{\"caption\":\"Abendgebet.\\n\\nDer Tag muss nicht fertig sein, damit wir schlafen dürfen.\\nWir legen vor Gott, was gut war. Und was offen blieb.\\n\\nHeute beten wir besonders für Menschen rund um Kiew unter den verstärkten Drohnenangriffen, für die Vermissten und Rettungskräfte nach dem Fährunglück in der Javasee und für Kranke, Pflegende und Verantwortliche in Baden-Württemberg, die um die Zukunft von Krankenhäusern sorgen.\\n\\nGott,\\nwas heute war,\\nlegen wir in deine Hand.\\nWas gut war.\\nWas wehgetan hat.\\nWas unfertig bleibt.\\nUns selbst und diese unruhige Welt.\\nSchenk uns Frieden für diese Nacht.\\nUnd halte die Hoffnung in uns wach.\\n\\nAmen.\",\"carousel\":[{\"type\":\"text\",\"text\":\"Abendgebet\\n\\nDer Tag liegt hinter uns.\\nMit allem, was gut war.\\nMit allem, was offen blieb.\"},{\"type\":\"text\",\"text\":\"Wir müssen nicht beweisen,\\ndass dieser Tag gelungen ist.\\nVor Gott darf er unvollendet bleiben.\"},{\"type\":\"text\",\"text\":\"Wir beten für Menschen rund um Kiew.\\nFür Familien,\\ndie unter Drohnenangriffen keine Ruhe finden.\"},{\"type\":\"text\",\"text\":\"Wir beten für die Vermissten nach dem Fährunglück in der Javasee.\\nFür Angehörige.\\nFür Rettungskräfte, die weiter suchen.\"},{\"type\":\"text\",\"text\":\"Wir beten für Kranke und Pflegende in Baden-Württemberg.\\nFür alle,\\ndie sich um die Zukunft von Krankenhäusern sorgen.\"},{\"type\":\"text\",\"text\":\"Gott,\\nhalte du diese Nacht.\\nSchenk Frieden.\\nUnd weck neue Hoffnung.\\nAmen.\"}]},\"mastodon\":{\"text\":\"Abendgebet\\n\\nGott,\\nwir legen dir diesen Tag hin.\\nWas gut war.\\nWas wehgetan hat.\\nWas unfertig bleibt.\\n\\nWir bitten dich für Menschen rund um Kiew unter den verstärkten Drohnenangriffen.\\nFür die Vermissten und Rettungskräfte nach dem Fährunglück in der Javasee.\\nFür Kranke, Pflegende und Verantwortliche in Baden-Württemberg, die um ihre Krankenhäuser sorgen.\\n\\nSchenk Frieden in diese Nacht.\\nUnd halte die Hoffnung in uns wach.\\nAmen.\"},\"bluesky\":{\"text\":\"Abendgebet\\n\\nGott, wir legen dir diesen Tag hin. Was gut war. Was wehgetan hat. Was unfertig bleibt.\\n\\nWir bitten dich für Menschen rund um Kiew unter den verstärkten Drohnenangriffen, für die Vermissten und Rettungskräfte nach dem Fährunglück in der Javasee und für Kranke, Pflegende und Verantwortliche in Baden-Württemberg, die um ihre Krankenhäuser sorgen.\\n\\nSchenk Frieden in diese Nacht. Amen.\"},\"story\":{\"slides\":[{\"text\":\"Abendgebet\\n\\nDer Tag liegt hinter uns.\"},{\"text\":\"Was gut war.\\nWas schwer war.\\nWas unfertig bleibt.\"},{\"text\":\"Wir beten für Menschen rund um Kiew.\\nFür Familien unter Drohnenangriffen.\"},{\"text\":\"Wir beten für die Vermissten nach dem Fährunglück in der Javasee.\\nFür Angehörige und Rettungskräfte.\"},{\"text\":\"Wir beten für Kranke und Pflegende in Baden-Württemberg.\\nFür die Sorge um Krankenhäuser.\"},{\"text\":\"Gott,\\nhalte du diese Nacht.\\nSchenk Frieden.\\nAmen.\"}]},\"reel\":{\"hook\":\"Der Tag muss nicht fertig sein, damit du ihn loslassen darfst.\",\"script\":\"Der Tag liegt hinter dir. Vielleicht war nicht alles gut. Vielleicht ist etwas offen geblieben. Im Abendgebet muss nichts schön geredet werden. Wir bringen Gott, was war: Dank. Müdigkeit. Fehler. Und die Menschen, die heute besonders keine Ruhe finden. Familien rund um Kiew unter Drohnenangriffen. Angehörige und Rettungskräfte nach dem Fährunglück in der Javasee. Kranke und Pflegende, die um die Zukunft von Krankenhäusern in Baden-Württemberg bangen. Was unvollendet bleibt, legen wir in Gottes Hand. Für diese Nacht. Für den Morgen, der noch kommt.\",\"shots\":[\"ruhiges Abendlicht am Fenster\",\"eine Hand legt einen Stift auf einen Tisch\",\"leere Straße in der Dämmerung\",\"brennendes Kerzenlicht ohne Schrift im Bild\",\"Nahaufnahme von gefalteten Händen\",\"dunkler Himmel, langsam heller werdend am Horizont\"],\"duration_seconds\":30}},\"visual\":{\"concept\":\"Ruhige Abendszene an einem Fenster. Warmes Restlicht. Ein schlichter Tisch mit Kerze, offenes leeres Notizbuch und eine Hand in Ruhe. Stimmung von Loslassen und Geborgenheit, ohne Kitsch.\",\"flux_prompt\":\"A quiet evening interior by a window, warm dusk light, simple wooden table, one candle, open blank notebook without any writing, a resting hand, soft shadows, calm atmosphere, realistic, gentle colors, photographic, intimate but uncluttered, sense of peace and release, no visible text\",\"negative_prompt\":\"text, letters, logo, watermark\",\"formats\":[\"4:5\",\"9:16\",\"1.91:1\"],\"alt_text\":\"Ein schlichter Tisch am Fenster im Abendlicht. Darauf stehen eine Kerze und ein offenes leeres Notizbuch. Eine Hand liegt ruhig daneben. Die Szene wirkt still und geborgen.\"},\"qa\":{\"warnings\":[\"Alt text must be completed before approval\",\"Aktuelle Bezüge redaktionell gegen tagesschau.de und SWR Aktuell Baden-Württemberg final gegenprüfen, falls sich die Lage bis zur Freigabe deutlich verändert.\",\"Gebet enthält drei konkrete Fürbitten; bei Platzmangel in einzelnen Kanälen nicht unter zwei aktuelle Bezüge kürzen.\"],\"approved\":false},\"metadata\":{\"model\":\"gpt-5\",\"generated_at\":\"2026-09-15T00:00:00Z\",\"prompt_version\":\"1.0\",\"assets\":[]}}"
+}
