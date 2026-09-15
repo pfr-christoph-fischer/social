@@ -1,0 +1,44 @@
+{
+  "delivery_url": "https://delivery.eu2.bfl.ai/durable/2026091515/5e1f69ea-538b-4d66-962e-9be995966f07/04/2363920c882121/0c8821217b094f608eea2f6cf8ae28a6/sample.jpeg?se=2026-09-15T15%3A40%3A36Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=Y7JWxywIFKXvV6d2VW4H4kCqraPXzkx2K21l%2BZzxoqM%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "d16fc642-d93f-4d34-9c10-0b20fb928f13",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "d16fc642-d93f-4d34-9c10-0b20fb928f13",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "d16fc642-d93f-4d34-9c10-0b20fb928f13",
+      "status": "Ready",
+      "result": {
+        "start_time": 1789486235.4624465,
+        "prompt": "A calm everyday scene with soft morning light near an open window, a simple table, a mug, gentle shadows, contemplative atmosphere, natural colors, minimal composition, sense of quiet becoming, subtle movement in curtains, photographic realism, warm and honest mood, no typography, no text, no letters, no typography, no logo, no watermark",
+        "seed": 2075725856,
+        "sample": "https://delivery.eu2.bfl.ai/durable/2026091515/5e1f69ea-538b-4d66-962e-9be995966f07/04/2363920c882121/0c8821217b094f608eea2f6cf8ae28a6/sample.jpeg?se=2026-09-15T15%3A40%3A36Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=Y7JWxywIFKXvV6d2VW4H4kCqraPXzkx2K21l%2BZzxoqM%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "d16fc642-d93f-4d34-9c10-0b20fb928f13",
+    "polling_url": "https://api.eu2.bfl.ai/v1/get_result?id=d16fc642-d93f-4d34-9c10-0b20fb928f13",
+    "cost": 1.4000000000000001,
+    "input_mp": 0,
+    "output_mp": 0.72
+  }
+}
