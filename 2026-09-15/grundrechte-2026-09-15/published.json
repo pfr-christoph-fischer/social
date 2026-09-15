@@ -84,5 +84,91 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-09-15",
+    "contentDate": "2026-09-15",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-09-15T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Jeder hat das Recht, jedes Land, einschließlich seines eigenen, zu verlassen und in sein Land zurückzukehren. (Allgemeine Erklärung der Menschenrechte, Artikel 13 Absatz 2)",
+    "assets": [
+      "render-square-01.jpg"
+    ],
+    "altTexts": [
+      "Jeder hat das Recht, jedes Land, einschließlich seines eigenen, zu verlassen und in sein Land zurückzukehren. (Allgemeine Erklärung der Menschenrechte, Artikel 13 Absatz 2)"
+    ],
+    "id": "695a1f5d-92cb-4d53-a985-28d2275451b4",
+    "attemptCount": 1,
+    "remoteId": "18129328576775292",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:38:04.173Z",
+    "updatedAt": "2026-09-15T10:00:41.574Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-09-15",
+    "contentDate": "2026-09-15",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-09-15T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Jeder hat das Recht, jedes Land, einschließlich seines eigenen, zu verlassen und in sein Land zurückzukehren. (Allgemeine Erklärung der Menschenrechte, Artikel 13 Absatz 2)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Jeder hat das Recht, jedes Land, einschließlich seines eigenen, zu verlassen und in sein Land zurückzukehren. (Allgemeine Erklärung der Menschenrechte, Artikel 13 Absatz 2)"
+    ],
+    "id": "af983a13-a272-4610-a5de-3a97434d9096",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3mvkejvizzy2v",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3mvkejvizzy2v",
+    "lastError": null,
+    "createdAt": "2026-08-26T15:38:04.221Z",
+    "updatedAt": "2026-09-15T10:00:44.526Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-09-15",
+    "contentDate": "2026-09-15",
+    "platform": "linkedin",
+    "format": "default",
+    "scheduledAt": "2026-09-15T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Jeder hat das Recht, jedes Land, einschließlich seines eigenen, zu verlassen und in sein Land zurückzukehren. (Allgemeine Erklärung der Menschenrechte, Artikel 13 Absatz 2)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Jeder hat das Recht, jedes Land, einschließlich seines eigenen, zu verlassen und in sein Land zurückzukehren. (Allgemeine Erklärung der Menschenrechte, Artikel 13 Absatz 2)"
+    ],
+    "id": "a8354151-5a81-4c70-9a56-e34f07caf439",
+    "attemptCount": 1,
+    "remoteId": "urn:li:share:7505566273989238786",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:38:04.283Z",
+    "updatedAt": "2026-09-15T10:00:46.683Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 201
+    },
+    "retryHistory": []
   }
 ]
