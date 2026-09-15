@@ -27,5 +27,67 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "prayer-evening-2026-09-15",
+    "contentDate": "2026-09-15",
+    "platform": "instagram",
+    "format": "default",
+    "scheduledAt": "2026-09-15T18:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Abendgebet.\n\nDer Tag muss nicht fertig sein, damit wir schlafen dürfen.\nWir legen vor Gott, was gut war. Und was offen blieb.\n\nHeute beten wir besonders für Menschen rund um Kiew unter den verstärkten Drohnenangriffen, für die Vermissten und Rettungskräfte nach dem Fährunglück in der Javasee und für Kranke, Pflegende und Verantwortliche in Baden-Württemberg, die um die Zukunft von Krankenhäusern sorgen.\n\nGott,\nwas heute war,\nlegen wir in deine Hand.\nWas gut war.\nWas wehgetan hat.\nWas unfertig bleibt.\nUns selbst und diese unruhige Welt.\nSchenk uns Frieden für diese Nacht.\nUnd halte die Hoffnung in uns wach.\n\nAmen.",
+    "assets": [
+      "render-instagram-feed-01.jpg",
+      "render-instagram-feed-02.jpg",
+      "render-instagram-feed-03.jpg",
+      "render-instagram-feed-04.jpg",
+      "render-instagram-feed-05.jpg",
+      "render-instagram-feed-06.jpg"
+    ],
+    "altTexts": [
+      "Ein schlichter Tisch am Fenster im Abendlicht. Darauf stehen eine Kerze und ein offenes leeres Notizbuch. Eine Hand liegt ruhig daneben. Die Szene wirkt still und geborgen."
+    ],
+    "id": "4ec5b061-551f-4e56-891b-3151f97e108a",
+    "attemptCount": 1,
+    "remoteId": "17936866242373556",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-09-15T20:10:54.613Z",
+    "updatedAt": "2026-09-15T20:15:58.869Z",
+    "responseMetadata": {
+      "mediaCount": 6,
+      "mediaType": "CAROUSEL",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "prayer-evening-2026-09-15",
+    "contentDate": "2026-09-15",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-09-15T18:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Abendgebet\n\nGott,\nwir legen dir diesen Tag hin.\nWas gut war.\nWas wehgetan hat.\nWas unfertig bleibt.\n\nWir bitten dich für Menschen rund um Kiew unter den verstärkten Drohnenangriffen.\nFür die Vermissten und Rettungskräfte nach dem Fährunglück in der Javasee.\nFür Kranke, Pflegende und Verantwortliche in Baden-Württemberg, die um ihre Krankenhäuser sorgen.\n\nSchenk Frieden in diese Nacht.\nUnd halte die Hoffnung in uns wach.\nAmen.",
+    "assets": [
+      "render-facebook-mastodon-01.png"
+    ],
+    "altTexts": [
+      "Ein schlichter Tisch am Fenster im Abendlicht. Darauf stehen eine Kerze und ein offenes leeres Notizbuch. Eine Hand liegt ruhig daneben. Die Szene wirkt still und geborgen."
+    ],
+    "id": "7db2573f-3cc3-4d7c-9239-ec839f485f64",
+    "attemptCount": 1,
+    "remoteId": "117276892222392452",
+    "remoteUrl": "https://kirche.social/@christoph/117276892222392452",
+    "lastError": null,
+    "createdAt": "2026-09-15T20:10:54.672Z",
+    "updatedAt": "2026-09-15T20:16:00.399Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
