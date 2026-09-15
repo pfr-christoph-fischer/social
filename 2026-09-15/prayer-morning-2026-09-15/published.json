@@ -27,5 +27,65 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "prayer-morning-2026-09-15",
+    "contentDate": "2026-09-15",
+    "platform": "instagram",
+    "format": "default",
+    "scheduledAt": "2026-09-15T05:15:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Gott, du Licht dieses Morgens,\ndu weckst die Welt und auch mich.\n\n„Dies ist der Tag, den der HERR macht“ (Psalm 118,24).\nIch danke dir für diesen Anfang.\nFür Licht. Für Atem. Für Hoffnung.\n\nNimm diesen Tag in deine guten Hände.\nUnd geh mit mir.\nAmen.",
+    "assets": [
+      "render-instagram-feed-01.jpg",
+      "render-instagram-feed-02.jpg",
+      "render-instagram-feed-03.jpg",
+      "render-instagram-feed-04.jpg"
+    ],
+    "altTexts": [
+      "Sanftes Morgenlicht fällt durch ein offenes Fenster. Draußen sind Blätter mit Tau zu sehen. Die Szene wirkt still, hell und hoffnungsvoll."
+    ],
+    "id": "98eff7a8-1dc0-43b8-836c-736442c2f393",
+    "attemptCount": 1,
+    "remoteId": "18133093423635654",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-09-14T20:41:45.261Z",
+    "updatedAt": "2026-09-15T05:15:44.690Z",
+    "responseMetadata": {
+      "mediaCount": 4,
+      "mediaType": "CAROUSEL",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "prayer-morning-2026-09-15",
+    "contentDate": "2026-09-15",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-09-15T05:15:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Gott, du Licht dieses Morgens,\ndu weckst die Welt und auch mich.\n\n„Dies ist der Tag, den der HERR macht“ (Psalm 118,24).\nIch danke dir für diesen Anfang.\nFür Licht. Für Atem. Für Hoffnung.\n\nNimm diesen Tag in deine guten Hände.\nUnd geh mit mir.\nAmen.",
+    "assets": [
+      "render-facebook-mastodon-01.png"
+    ],
+    "altTexts": [
+      "Sanftes Morgenlicht fällt durch ein offenes Fenster. Draußen sind Blätter mit Tau zu sehen. Die Szene wirkt still, hell und hoffnungsvoll."
+    ],
+    "id": "939cfd63-cab3-4e6c-9bb7-b0d3589a48ff",
+    "attemptCount": 1,
+    "remoteId": "117273352311258549",
+    "remoteUrl": "https://kirche.social/@christoph/117273352311258549",
+    "lastError": null,
+    "createdAt": "2026-09-14T20:41:45.335Z",
+    "updatedAt": "2026-09-15T05:15:45.633Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
