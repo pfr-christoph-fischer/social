@@ -1,0 +1,52 @@
+{
+  "delivery_url": "https://delivery.eu2.bfl.ai/durable/2026091515/5e1f69ea-538b-4d66-962e-9be995966f07/75/2386933c5969c3/3c5969c388b148f68c569bc5374a7c97/sample.jpeg?se=2026-09-15T15%3A40%3A39Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=GZrVwwT5/GNtmFc9NnqjBH5QPYeUnYpBOEg6coFOUpA%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "f072d779-f3f1-4d40-b523-fd0245fc29de",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "f072d779-f3f1-4d40-b523-fd0245fc29de",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "f072d779-f3f1-4d40-b523-fd0245fc29de",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "f072d779-f3f1-4d40-b523-fd0245fc29de",
+      "status": "Ready",
+      "result": {
+        "start_time": 1789486237.7235518,
+        "prompt": "A calm everyday scene with soft morning light near an open window, a simple table, a mug, gentle shadows, contemplative atmosphere, natural colors, minimal composition, sense of quiet becoming, subtle movement in curtains, photographic realism, warm and honest mood, no typography, no text, no letters, no typography, no logo, no watermark",
+        "seed": 2568989878,
+        "sample": "https://delivery.eu2.bfl.ai/durable/2026091515/5e1f69ea-538b-4d66-962e-9be995966f07/75/2386933c5969c3/3c5969c388b148f68c569bc5374a7c97/sample.jpeg?se=2026-09-15T15%3A40%3A39Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=GZrVwwT5/GNtmFc9NnqjBH5QPYeUnYpBOEg6coFOUpA%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "f072d779-f3f1-4d40-b523-fd0245fc29de",
+    "polling_url": "https://api.eu2.bfl.ai/v1/get_result?id=f072d779-f3f1-4d40-b523-fd0245fc29de",
+    "cost": 1.5,
+    "input_mp": 0,
+    "output_mp": 1.39
+  }
+}
