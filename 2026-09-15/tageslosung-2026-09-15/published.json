@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-15",
+    "contentDate": "2026-09-15",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-09-15T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Der HERR wird für euch streiten, und ihr werdet stille sein.",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Der HERR wird für euch streiten, und ihr werdet stille sein."
+    ],
+    "id": "09c494c1-b15b-425e-9396-9de81bca74d6",
+    "attemptCount": 1,
+    "remoteId": "18128309437701885",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:45:28.157Z",
+    "updatedAt": "2026-09-15T05:00:27.436Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-15",
+    "contentDate": "2026-09-15",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-09-15T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Der HERR wird für euch streiten, und ihr werdet stille sein.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Der HERR wird für euch streiten, und ihr werdet stille sein."
+    ],
+    "id": "377ca9e9-19e1-4225-82a3-d3bc6053412a",
+    "attemptCount": 1,
+    "remoteId": "117273292233074995",
+    "remoteUrl": "https://kirche.social/@christoph/117273292233074995",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:45:28.164Z",
+    "updatedAt": "2026-09-15T05:00:28.906Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
