@@ -84,5 +84,91 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-15",
+    "contentDate": "2026-09-15",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-09-15T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Der HERR wird für euch streiten, und ihr werdet stille sein.",
+    "assets": [
+      "render-square-01.jpg"
+    ],
+    "altTexts": [
+      "Der HERR wird für euch streiten, und ihr werdet stille sein."
+    ],
+    "id": "67528bb0-8dc6-423d-b159-132e01dd9439",
+    "attemptCount": 1,
+    "remoteId": "18138217930716787",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:45:28.170Z",
+    "updatedAt": "2026-09-15T05:00:40.404Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-15",
+    "contentDate": "2026-09-15",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-09-15T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Der HERR wird für euch streiten, und ihr werdet stille sein.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Der HERR wird für euch streiten, und ihr werdet stille sein."
+    ],
+    "id": "4458fdf1-099a-41d1-b44d-1bd5e61cff57",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3mvjtrivi322i",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3mvjtrivi322i",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:45:28.176Z",
+    "updatedAt": "2026-09-15T05:00:45.799Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-15",
+    "contentDate": "2026-09-15",
+    "platform": "linkedin",
+    "format": "default",
+    "scheduledAt": "2026-09-15T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Der HERR wird für euch streiten, und ihr werdet stille sein.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Der HERR wird für euch streiten, und ihr werdet stille sein."
+    ],
+    "id": "619bb69b-86d8-4d34-892e-474a0fde0832",
+    "attemptCount": 1,
+    "remoteId": "urn:li:share:7505490779713298432",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:45:28.182Z",
+    "updatedAt": "2026-09-15T05:00:47.469Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 201
+    },
+    "retryHistory": []
   }
 ]
