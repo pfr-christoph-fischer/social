@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-16",
+    "contentDate": "2026-09-16",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-09-16T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Deine Güte, HERR, sei über uns, wie wir auf dich hoffen.",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Deine Güte, HERR, sei über uns, wie wir auf dich hoffen."
+    ],
+    "id": "6828cb39-7738-4a5c-958a-1ad1a2a1d0ae",
+    "attemptCount": 1,
+    "remoteId": "18357528160218318",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:45:30.215Z",
+    "updatedAt": "2026-09-16T05:00:29.731Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-16",
+    "contentDate": "2026-09-16",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-09-16T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Deine Güte, HERR, sei über uns, wie wir auf dich hoffen.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Deine Güte, HERR, sei über uns, wie wir auf dich hoffen."
+    ],
+    "id": "02bd0ed3-d962-4c1d-9da0-f29bc4e5f1b1",
+    "attemptCount": 1,
+    "remoteId": "117278954705468793",
+    "remoteUrl": "https://kirche.social/@christoph/117278954705468793",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:45:30.220Z",
+    "updatedAt": "2026-09-16T05:00:31.380Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
