@@ -1,0 +1,60 @@
+{
+  "delivery_url": "https://delivery.eu2.bfl.ai/durable/2026091616/5e1f69ea-538b-4d66-962e-9be995966f07/59/3004099cbd5ba6/9cbd5ba6aad643d7bef104999448363e/sample.jpeg?se=2026-09-16T16%3A25%3A01Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=EhixPwaDxORSXAcg1Sju8FY29GS5CRvlSkKbTjYu5Mc%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "99d213c7-0cbe-4a13-85eb-91e586667774",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "99d213c7-0cbe-4a13-85eb-91e586667774",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "99d213c7-0cbe-4a13-85eb-91e586667774",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "99d213c7-0cbe-4a13-85eb-91e586667774",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "99d213c7-0cbe-4a13-85eb-91e586667774",
+      "status": "Ready",
+      "result": {
+        "start_time": 1789575299.3484688,
+        "prompt": "Fotorealistische, ruhige Szene mit warmem natürlichem Licht: ein stiller Andachtsmoment in schlichtem Kirchenraum oder neutralem Innenraum, Hände in entspannter Haltung, unscharfer Hintergrund, Atmosphäre von Sammlung, Mitgefühl und Hoffnung, dezente Kerze oder weiches Licht, zurückhaltende Farbpalette, viel negativer Raum, authentisch, würdevoll, keine inszenierte Dramatik, no text, no letters, no typography, no logo, no watermark",
+        "seed": 4114699120,
+        "sample": "https://delivery.eu2.bfl.ai/durable/2026091616/5e1f69ea-538b-4d66-962e-9be995966f07/59/3004099cbd5ba6/9cbd5ba6aad643d7bef104999448363e/sample.jpeg?se=2026-09-16T16%3A25%3A01Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=EhixPwaDxORSXAcg1Sju8FY29GS5CRvlSkKbTjYu5Mc%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "99d213c7-0cbe-4a13-85eb-91e586667774",
+    "polling_url": "https://api.eu2.bfl.ai/v1/get_result?id=99d213c7-0cbe-4a13-85eb-91e586667774",
+    "cost": 1.5,
+    "input_mp": 0,
+    "output_mp": 1.39
+  }
+}
