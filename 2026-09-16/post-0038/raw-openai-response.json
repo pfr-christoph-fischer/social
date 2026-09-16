@@ -1,0 +1,420 @@
+{
+  "id": "resp_05872a839123cc6d006aaac01d79dc87d29bab26562ddc77c7",
+  "object": "response",
+  "created_at": 1789575197,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1789575222,
+  "error": null,
+  "frequency_penalty": 0,
+  "incomplete_details": null,
+  "instructions": "You are part of a Protestant social media editorial team. Write in clear, accessible, theologically responsible German without church clichés. Use short sentences and concrete imagery. Never invent events, people, school situations, quotes, or factual details. Do not include copyrighted full song verses. For Reli and community posts, only use current details when they are explicitly provided. Return content that strictly matches the requested JSON schema. Set needs_input to true whenever required facts are missing. Keep qa.approved false. Do not ask for any text inside generated images. When liturgical_context.resolved_weekly_verse is present, use its exact wording for Wochenspruch slots instead of placeholders.",
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.4-2026-03-05",
+  "moderation": null,
+  "output": [
+    {
+      "id": "msg_05872a839123cc6d006aaac01e787887d2a4c67df8e981fe17",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\"id\":\"post-0038\",\"status\":\"in Arbeit\",\"needs_input\":false,\"source\":{\"calendar_post_id\":\"post-0038\",\"date\":\"2026-09-16\",\"rubric\":\"Mittwochsserie\",\"liturgical_source\":\"\"},\"editorial_core\":{\"title\":\"Warum gibt es Fürbitten?\",\"main_message\":\"Fürbitten geben dem, was uns und andere bewegt, einen Platz vor Gott. Sie verbinden persönliches Beten mit Verantwortung füreinander und für die Welt.\",\"audience\":\"breite Öffentlichkeit\",\"tone\":[\"klar\",\"ruhig\",\"zugänglich\"],\"source_notes\":[\"Goal: Eine verlässliche, wiedererkennbare Serie mit verständlicher theologischer Bildung.\",\"Column: Glauben verstehen\",\"Production mode: in Monatsblöcken vollständig vorproduzierbar\",\"Structure: Frage als Einstieg | verständliche Erklärung | Bedeutung für heute | Gesprächsfrage\",\"AI support notes: Skript | Karussellkarten | Reel-Hook | Untertitel | Alt-Text\"]},\"platforms\":{\"facebook\":{\"text\":\"Warum gibt es Fürbitten?\\n\\nIn vielen Gottesdiensten kommt der Moment, in dem für andere gebetet wird. Für Kranke. Für Menschen in Sorge. Für die, die Verantwortung tragen. Fürbitten bedeuten: Ich kreise nicht nur um mich selbst. Ich bringe vor Gott, was andere brauchen und was diese Welt belastet.\\n\\nDabei sind Fürbitten keine Zauberformel. Sie ersetzen kein Handeln. Aber sie verändern den Blick. Wer für andere betet, nimmt sie ernst. Wer ihre Not vor Gott bringt, übt Mitgefühl und Verantwortung.\\n\\nFürbitten haben auch etwas Tröstliches: Ich muss nicht alles lösen. Aber ich kann Menschen und Situationen Gott anvertrauen. Das ist wenig und viel zugleich.\\n\\nVielleicht ist das der Sinn: Beten öffnet das Herz. Und manchmal auch den nächsten Schritt.\\n\\nGesprächsfrage: Für wen würdest du heute eine Fürbitte sprechen?\",\"headline\":\"Warum gibt es Fürbitten?\"},\"instagram\":{\"caption\":\"Warum gibt es Fürbitten?\\n\\nFürbitten geben dem, was andere brauchen, einen Platz im Gebet. Sie weiten den Blick. Weg vom eigenen Kreis. Hin zu Menschen, die Trost, Hilfe oder Gerechtigkeit brauchen.\\n\\nFürbitten ersetzen kein Handeln. Aber sie können Haltung verändern. Wer für andere betet, schaut genauer hin. Und fragt vielleicht auch: Was kann ich tun?\\n\\nGesprächsfrage: Für wen würdest du heute eine Fürbitte sprechen?\\n\\n#Mittwochsserie #GlaubenVerstehen #Fürbitte #Gebet #Kirche\",\"carousel\":[{\"type\":\"title\",\"text\":\"Warum gibt es Fürbitten?\"},{\"type\":\"body\",\"text\":\"Fürbitten sind Gebete für andere Menschen und für die Welt.\"},{\"type\":\"body\",\"text\":\"Sie sagen: Mein Glaube dreht sich nicht nur um mich selbst.\"},{\"type\":\"body\",\"text\":\"In Fürbitten kommen Sorge, Hoffnung und Verantwortung zur Sprache.\"},{\"type\":\"body\",\"text\":\"Fürbitten sind keine Zauberformel. Sie ersetzen kein Handeln.\"},{\"type\":\"body\",\"text\":\"Aber sie verändern den Blick: Wer betet, nimmt andere bewusst wahr.\"},{\"type\":\"body\",\"text\":\"Manchmal ist eine Fürbitte der Anfang für Mitgefühl und den nächsten Schritt.\"},{\"type\":\"question\",\"text\":\"Für wen würdest du heute eine Fürbitte sprechen?\"}]},\"mastodon\":{\"text\":\"Warum gibt es Fürbitten?\\n\\nWeil Glaube nicht nur um das eigene Leben kreist. In Fürbitten bringen Menschen andere und die Welt vor Gott: Sorge, Hoffnung, Verantwortung.\\n\\nFürbitten ersetzen kein Handeln. Aber sie können den Blick verändern.\\n\\nFür wen würdest du heute eine Fürbitte sprechen?\"},\"bluesky\":{\"text\":\"Warum gibt es Fürbitten? Damit im Gebet nicht nur das eigene Leben Platz hat. Fürbitten bringen andere Menschen und die Welt vor Gott. Sie ersetzen kein Handeln. Aber sie können den Blick verändern. Für wen würdest du heute eine Fürbitte sprechen?\"},\"story\":{\"slides\":[{\"text\":\"Warum gibt es Fürbitten?\"},{\"text\":\"Weil im Gebet nicht nur ich selbst Platz habe.\"},{\"text\":\"Fürbitten bringen andere Menschen und die Welt vor Gott.\"},{\"text\":\"Quiz: Ersetzen Fürbitten das Handeln? A: Ja B: Nein\"},{\"text\":\"Antwort: Nein. Aber sie können den Blick und die Haltung verändern.\"}]},\"reel\":{\"hook\":\"Warum beten Christinnen und Christen eigentlich für andere?\",\"script\":\"Warum gibt es Fürbitten?\\n\\nFürbitten sind Gebete für andere Menschen und für die Welt.\\nSie sagen: Glaube kreist nicht nur um mein eigenes Leben.\\n\\nIn einer Fürbitte bekommen Sorge, Hoffnung und Verantwortung Worte.\\nFür Kranke. Für Einsame. Für Frieden. Für Gerechtigkeit.\\n\\nWichtig ist: Fürbitten sind keine Zauberformel.\\nSie ersetzen kein Handeln.\\nAber sie können etwas bewegen.\\nOft zuerst in mir selbst.\\n\\nWer für andere betet, schaut genauer hin.\\nUnd fragt vielleicht auch:\\nWas kann ich tun?\\n\\nFürbitten verbinden beides:\\nVertrauen auf Gott und Aufmerksamkeit für Menschen.\\n\\nFür wen würdest du heute eine Fürbitte sprechen?\",\"shots\":[\"Nahaufnahme einer ruhigen Kerze oder gefalteter Hände\",\"Langsame Einstellung eines leeren Kirchenraums oder eines stillen Raums\",\"Detailaufnahme eines offenen Gesangbuchs oder einer Bibel ohne lesbaren Text\",\"Hände legen einen kleinen Stein oder eine Karte behutsam ab\",\"Ruhige Außenaufnahme von Himmel, Bäumen oder Weg\",\"Abschlussbild mit stiller Nahaufnahme und Sprechpause\"],\"duration_seconds\":45}},\"visual\":{\"concept\":\"Ruhige, reduzierte Bildwelt zum Thema Fürbitte: ein stiller Moment, der Sammlung, Mitgefühl und Weite andeutet, ohne konkrete aktuelle Situation zu behaupten.\",\"flux_prompt\":\"Fotorealistische, ruhige Szene mit warmem natürlichem Licht: ein stiller Andachtsmoment in schlichtem Kirchenraum oder neutralem Innenraum, Hände in entspannter Haltung, unscharfer Hintergrund, Atmosphäre von Sammlung, Mitgefühl und Hoffnung, dezente Kerze oder weiches Licht, zurückhaltende Farbpalette, viel negativer Raum, authentisch, würdevoll, keine inszenierte Dramatik\",\"negative_prompt\":\"text, letters, logo, watermark\",\"formats\":[\"4:5\",\"9:16\",\"1.91:1\"],\"alt_text\":\"Ruhige Szene in warmem Licht: Eine Person hält die Hände still vor sich, im Hintergrund verschwimmt ein schlichter Raum. Das Bild vermittelt Sammlung, Mitgefühl und Gebet für andere.\"},\"qa\":{\"warnings\":[\"Alt text must be completed before approval\",\"Theologische Kurzform beachten: Fürbitte ersetzt kein Handeln, sondern begleitet Verantwortung.\"],\"approved\":false},\"metadata\":{\"model\":\"gpt-5\",\"generated_at\":\"2026-09-16T00:00:00Z\",\"prompt_version\":\"1.0\",\"assets\":[\"instagram-carousel-copy\",\"reel-script\",\"story-quiz-copy\",\"alt-text\"]}}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "current_turn",
+    "effort": "none",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1,
+  "text": {
+    "format": {
+      "type": "json_schema",
+      "description": null,
+      "name": "content_package",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "Idee",
+              "in Arbeit",
+              "zur Prüfung",
+              "freigegeben",
+              "terminiert",
+              "veröffentlicht",
+              "verworfen"
+            ]
+          },
+          "needs_input": {
+            "type": "boolean"
+          },
+          "source": {
+            "type": "object",
+            "properties": {
+              "calendar_post_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "date": {
+                "type": "string",
+                "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+              },
+              "rubric": {
+                "type": "string",
+                "minLength": 1
+              },
+              "liturgical_source": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "calendar_post_id",
+              "date",
+              "rubric",
+              "liturgical_source"
+            ],
+            "additionalProperties": false
+          },
+          "editorial_core": {
+            "type": "object",
+            "properties": {
+              "title": {
+                "type": "string"
+              },
+              "main_message": {
+                "type": "string"
+              },
+              "audience": {
+                "type": "string"
+              },
+              "tone": {
+                "minItems": 1,
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "source_notes": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "title",
+              "main_message",
+              "audience",
+              "tone",
+              "source_notes"
+            ],
+            "additionalProperties": false
+          },
+          "platforms": {
+            "type": "object",
+            "properties": {
+              "facebook": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  },
+                  "headline": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text",
+                  "headline"
+                ],
+                "additionalProperties": false
+              },
+              "instagram": {
+                "type": "object",
+                "properties": {
+                  "caption": {
+                    "type": "string"
+                  },
+                  "carousel": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "type": {
+                          "type": "string"
+                        },
+                        "text": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "type",
+                        "text"
+                      ],
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "required": [
+                  "caption",
+                  "carousel"
+                ],
+                "additionalProperties": false
+              },
+              "mastodon": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text"
+                ],
+                "additionalProperties": false
+              },
+              "bluesky": {
+                "default": {
+                  "text": ""
+                },
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text"
+                ],
+                "additionalProperties": false
+              },
+              "story": {
+                "type": "object",
+                "properties": {
+                  "slides": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "text": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "text"
+                      ],
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "required": [
+                  "slides"
+                ],
+                "additionalProperties": false
+              },
+              "reel": {
+                "type": "object",
+                "properties": {
+                  "hook": {
+                    "type": "string"
+                  },
+                  "script": {
+                    "type": "string"
+                  },
+                  "shots": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "duration_seconds": {
+                    "type": "integer",
+                    "minimum": 0,
+                    "maximum": 9007199254740991
+                  }
+                },
+                "required": [
+                  "hook",
+                  "script",
+                  "shots",
+                  "duration_seconds"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "required": [
+              "facebook",
+              "instagram",
+              "mastodon",
+              "bluesky",
+              "story",
+              "reel"
+            ],
+            "additionalProperties": false
+          },
+          "visual": {
+            "type": "object",
+            "properties": {
+              "concept": {
+                "type": "string"
+              },
+              "flux_prompt": {
+                "type": "string"
+              },
+              "negative_prompt": {
+                "type": "string",
+                "minLength": 1
+              },
+              "formats": {
+                "minItems": 1,
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "alt_text": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "concept",
+              "flux_prompt",
+              "negative_prompt",
+              "formats",
+              "alt_text"
+            ],
+            "additionalProperties": false
+          },
+          "qa": {
+            "type": "object",
+            "properties": {
+              "warnings": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "approved": {
+                "type": "boolean"
+              }
+            },
+            "required": [
+              "warnings",
+              "approved"
+            ],
+            "additionalProperties": false
+          },
+          "metadata": {
+            "type": "object",
+            "properties": {
+              "model": {
+                "type": "string"
+              },
+              "generated_at": {
+                "type": "string"
+              },
+              "prompt_version": {
+                "type": "string",
+                "minLength": 1
+              },
+              "assets": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "model",
+              "generated_at",
+              "prompt_version",
+              "assets"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "id",
+          "status",
+          "needs_input",
+          "source",
+          "editorial_core",
+          "platforms",
+          "visual",
+          "qa",
+          "metadata"
+        ],
+        "additionalProperties": false
+      },
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 1455,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1534,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 2989
+  },
+  "user": null,
+  "metadata": {},
+  "output_text": "{\"id\":\"post-0038\",\"status\":\"in Arbeit\",\"needs_input\":false,\"source\":{\"calendar_post_id\":\"post-0038\",\"date\":\"2026-09-16\",\"rubric\":\"Mittwochsserie\",\"liturgical_source\":\"\"},\"editorial_core\":{\"title\":\"Warum gibt es Fürbitten?\",\"main_message\":\"Fürbitten geben dem, was uns und andere bewegt, einen Platz vor Gott. Sie verbinden persönliches Beten mit Verantwortung füreinander und für die Welt.\",\"audience\":\"breite Öffentlichkeit\",\"tone\":[\"klar\",\"ruhig\",\"zugänglich\"],\"source_notes\":[\"Goal: Eine verlässliche, wiedererkennbare Serie mit verständlicher theologischer Bildung.\",\"Column: Glauben verstehen\",\"Production mode: in Monatsblöcken vollständig vorproduzierbar\",\"Structure: Frage als Einstieg | verständliche Erklärung | Bedeutung für heute | Gesprächsfrage\",\"AI support notes: Skript | Karussellkarten | Reel-Hook | Untertitel | Alt-Text\"]},\"platforms\":{\"facebook\":{\"text\":\"Warum gibt es Fürbitten?\\n\\nIn vielen Gottesdiensten kommt der Moment, in dem für andere gebetet wird. Für Kranke. Für Menschen in Sorge. Für die, die Verantwortung tragen. Fürbitten bedeuten: Ich kreise nicht nur um mich selbst. Ich bringe vor Gott, was andere brauchen und was diese Welt belastet.\\n\\nDabei sind Fürbitten keine Zauberformel. Sie ersetzen kein Handeln. Aber sie verändern den Blick. Wer für andere betet, nimmt sie ernst. Wer ihre Not vor Gott bringt, übt Mitgefühl und Verantwortung.\\n\\nFürbitten haben auch etwas Tröstliches: Ich muss nicht alles lösen. Aber ich kann Menschen und Situationen Gott anvertrauen. Das ist wenig und viel zugleich.\\n\\nVielleicht ist das der Sinn: Beten öffnet das Herz. Und manchmal auch den nächsten Schritt.\\n\\nGesprächsfrage: Für wen würdest du heute eine Fürbitte sprechen?\",\"headline\":\"Warum gibt es Fürbitten?\"},\"instagram\":{\"caption\":\"Warum gibt es Fürbitten?\\n\\nFürbitten geben dem, was andere brauchen, einen Platz im Gebet. Sie weiten den Blick. Weg vom eigenen Kreis. Hin zu Menschen, die Trost, Hilfe oder Gerechtigkeit brauchen.\\n\\nFürbitten ersetzen kein Handeln. Aber sie können Haltung verändern. Wer für andere betet, schaut genauer hin. Und fragt vielleicht auch: Was kann ich tun?\\n\\nGesprächsfrage: Für wen würdest du heute eine Fürbitte sprechen?\\n\\n#Mittwochsserie #GlaubenVerstehen #Fürbitte #Gebet #Kirche\",\"carousel\":[{\"type\":\"title\",\"text\":\"Warum gibt es Fürbitten?\"},{\"type\":\"body\",\"text\":\"Fürbitten sind Gebete für andere Menschen und für die Welt.\"},{\"type\":\"body\",\"text\":\"Sie sagen: Mein Glaube dreht sich nicht nur um mich selbst.\"},{\"type\":\"body\",\"text\":\"In Fürbitten kommen Sorge, Hoffnung und Verantwortung zur Sprache.\"},{\"type\":\"body\",\"text\":\"Fürbitten sind keine Zauberformel. Sie ersetzen kein Handeln.\"},{\"type\":\"body\",\"text\":\"Aber sie verändern den Blick: Wer betet, nimmt andere bewusst wahr.\"},{\"type\":\"body\",\"text\":\"Manchmal ist eine Fürbitte der Anfang für Mitgefühl und den nächsten Schritt.\"},{\"type\":\"question\",\"text\":\"Für wen würdest du heute eine Fürbitte sprechen?\"}]},\"mastodon\":{\"text\":\"Warum gibt es Fürbitten?\\n\\nWeil Glaube nicht nur um das eigene Leben kreist. In Fürbitten bringen Menschen andere und die Welt vor Gott: Sorge, Hoffnung, Verantwortung.\\n\\nFürbitten ersetzen kein Handeln. Aber sie können den Blick verändern.\\n\\nFür wen würdest du heute eine Fürbitte sprechen?\"},\"bluesky\":{\"text\":\"Warum gibt es Fürbitten? Damit im Gebet nicht nur das eigene Leben Platz hat. Fürbitten bringen andere Menschen und die Welt vor Gott. Sie ersetzen kein Handeln. Aber sie können den Blick verändern. Für wen würdest du heute eine Fürbitte sprechen?\"},\"story\":{\"slides\":[{\"text\":\"Warum gibt es Fürbitten?\"},{\"text\":\"Weil im Gebet nicht nur ich selbst Platz habe.\"},{\"text\":\"Fürbitten bringen andere Menschen und die Welt vor Gott.\"},{\"text\":\"Quiz: Ersetzen Fürbitten das Handeln? A: Ja B: Nein\"},{\"text\":\"Antwort: Nein. Aber sie können den Blick und die Haltung verändern.\"}]},\"reel\":{\"hook\":\"Warum beten Christinnen und Christen eigentlich für andere?\",\"script\":\"Warum gibt es Fürbitten?\\n\\nFürbitten sind Gebete für andere Menschen und für die Welt.\\nSie sagen: Glaube kreist nicht nur um mein eigenes Leben.\\n\\nIn einer Fürbitte bekommen Sorge, Hoffnung und Verantwortung Worte.\\nFür Kranke. Für Einsame. Für Frieden. Für Gerechtigkeit.\\n\\nWichtig ist: Fürbitten sind keine Zauberformel.\\nSie ersetzen kein Handeln.\\nAber sie können etwas bewegen.\\nOft zuerst in mir selbst.\\n\\nWer für andere betet, schaut genauer hin.\\nUnd fragt vielleicht auch:\\nWas kann ich tun?\\n\\nFürbitten verbinden beides:\\nVertrauen auf Gott und Aufmerksamkeit für Menschen.\\n\\nFür wen würdest du heute eine Fürbitte sprechen?\",\"shots\":[\"Nahaufnahme einer ruhigen Kerze oder gefalteter Hände\",\"Langsame Einstellung eines leeren Kirchenraums oder eines stillen Raums\",\"Detailaufnahme eines offenen Gesangbuchs oder einer Bibel ohne lesbaren Text\",\"Hände legen einen kleinen Stein oder eine Karte behutsam ab\",\"Ruhige Außenaufnahme von Himmel, Bäumen oder Weg\",\"Abschlussbild mit stiller Nahaufnahme und Sprechpause\"],\"duration_seconds\":45}},\"visual\":{\"concept\":\"Ruhige, reduzierte Bildwelt zum Thema Fürbitte: ein stiller Moment, der Sammlung, Mitgefühl und Weite andeutet, ohne konkrete aktuelle Situation zu behaupten.\",\"flux_prompt\":\"Fotorealistische, ruhige Szene mit warmem natürlichem Licht: ein stiller Andachtsmoment in schlichtem Kirchenraum oder neutralem Innenraum, Hände in entspannter Haltung, unscharfer Hintergrund, Atmosphäre von Sammlung, Mitgefühl und Hoffnung, dezente Kerze oder weiches Licht, zurückhaltende Farbpalette, viel negativer Raum, authentisch, würdevoll, keine inszenierte Dramatik\",\"negative_prompt\":\"text, letters, logo, watermark\",\"formats\":[\"4:5\",\"9:16\",\"1.91:1\"],\"alt_text\":\"Ruhige Szene in warmem Licht: Eine Person hält die Hände still vor sich, im Hintergrund verschwimmt ein schlichter Raum. Das Bild vermittelt Sammlung, Mitgefühl und Gebet für andere.\"},\"qa\":{\"warnings\":[\"Alt text must be completed before approval\",\"Theologische Kurzform beachten: Fürbitte ersetzt kein Handeln, sondern begleitet Verantwortung.\"],\"approved\":false},\"metadata\":{\"model\":\"gpt-5\",\"generated_at\":\"2026-09-16T00:00:00Z\",\"prompt_version\":\"1.0\",\"assets\":[\"instagram-carousel-copy\",\"reel-script\",\"story-quiz-copy\",\"alt-text\"]}}"
+}
