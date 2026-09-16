@@ -27,5 +27,66 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "prayer-morning-2026-09-16",
+    "contentDate": "2026-09-16",
+    "platform": "instagram",
+    "format": "default",
+    "scheduledAt": "2026-09-16T05:15:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Gott, du Ursprung dieses Morgens,\ndu bist schon da, bevor ich Worte finde.\n\n„Dies ist der Tag, den der HERR macht“ (Psalm 118,24).\nNicht weil alles leicht ist.\nSondern weil du da bist.\n\nGib mir einen wachen Blick,\nMut für das Nötige\nund ein ruhiges Herz.\n\nIch gehe nicht allein in diesen Tag.\nDu gehst mit.\nAmen.",
+    "assets": [
+      "render-instagram-feed-01.jpg",
+      "render-instagram-feed-02.jpg",
+      "render-instagram-feed-03.jpg",
+      "render-instagram-feed-04.jpg",
+      "render-instagram-feed-05.jpg"
+    ],
+    "altTexts": [
+      "Sanftes Morgenlicht liegt über Dächern und Bäumen. Ein offenes Fenster und ein heller Himmel vermitteln Ruhe, Neubeginn und einen stillen Start in den Tag."
+    ],
+    "id": "77f3eef5-04d9-49c7-8bcc-36d32bca2c62",
+    "attemptCount": 1,
+    "remoteId": "18090227951460614",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-09-15T20:12:36.265Z",
+    "updatedAt": "2026-09-16T05:15:51.160Z",
+    "responseMetadata": {
+      "mediaCount": 5,
+      "mediaType": "CAROUSEL",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "prayer-morning-2026-09-16",
+    "contentDate": "2026-09-16",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-09-16T05:15:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Gott, du Ursprung dieses Morgens,\ndu bist schon da, bevor ich Worte finde.\n\n„Dies ist der Tag, den der HERR macht“ (Psalm 118,24).\nNicht weil alles leicht ist.\nSondern weil du da bist.\n\nGib mir einen wachen Blick, Mut für das Nötige und ein ruhiges Herz.\nIch gehe nicht allein in diesen Tag.\nDu gehst mit.\nAmen.",
+    "assets": [
+      "render-facebook-mastodon-01.png"
+    ],
+    "altTexts": [
+      "Sanftes Morgenlicht liegt über Dächern und Bäumen. Ein offenes Fenster und ein heller Himmel vermitteln Ruhe, Neubeginn und einen stillen Start in den Tag."
+    ],
+    "id": "bfbbac01-1f16-4e12-9f1b-a962987721fd",
+    "attemptCount": 1,
+    "remoteId": "117279015039886049",
+    "remoteUrl": "https://kirche.social/@christoph/117279015039886049",
+    "lastError": null,
+    "createdAt": "2026-09-15T20:12:36.305Z",
+    "updatedAt": "2026-09-16T05:15:52.044Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
