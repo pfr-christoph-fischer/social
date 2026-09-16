@@ -27,43 +27,43 @@
   },
   "platforms": {
     "facebook": {
-      "text": "Warum gibt es Fürbitten?\n\nIn vielen Gottesdiensten kommt der Moment, in dem für andere gebetet wird. Für Kranke. Für Menschen in Sorge. Für die, die Verantwortung tragen. Fürbitten bedeuten: Ich kreise nicht nur um mich selbst. Ich bringe vor Gott, was andere brauchen und was diese Welt belastet.\n\nDabei sind Fürbitten keine Zauberformel. Sie ersetzen kein Handeln. Aber sie verändern den Blick. Wer für andere betet, nimmt sie ernst. Wer ihre Not vor Gott bringt, übt Mitgefühl und Verantwortung.\n\nFürbitten haben auch etwas Tröstliches: Ich muss nicht alles lösen. Aber ich kann Menschen und Situationen Gott anvertrauen. Das ist wenig und viel zugleich.\n\nVielleicht ist das der Sinn: Beten öffnet das Herz. Und manchmal auch den nächsten Schritt.\n\nGesprächsfrage: Für wen würdest du heute eine Fürbitte sprechen?",
-      "headline": "Warum gibt es Fürbitten?"
+      "headline": "Warum gibt es Fürbitten?",
+      "text": "Warum gibt es Fürbitten?\n\nIn vielen Gottesdiensten kommt der Moment, in dem für andere gebetet wird. Für Kranke. Für Menschen in Sorge. Für die, die Verantwortung tragen. Fürbitten bedeuten: Ich kreise nicht nur um mich selbst. Ich bringe vor Gott, was andere brauchen und was diese Welt belastet.\n\nDabei sind Fürbitten keine Zauberformel. Sie ersetzen kein Handeln. Aber sie verändern den Blick. Wer für andere betet, nimmt sie ernst. Wer ihre Not vor Gott bringt, übt Mitgefühl und Verantwortung.\n\nFürbitten haben auch etwas Tröstliches: Ich muss nicht alles lösen. Aber ich kann Menschen und Situationen Gott anvertrauen. Das ist wenig und viel zugleich.\n\nVielleicht ist das der Sinn: Beten öffnet das Herz. Und manchmal auch den nächsten Schritt.\n\nGesprächsfrage: Für wen würdest du heute eine Fürbitte sprechen?"
     },
     "instagram": {
       "caption": "Warum gibt es Fürbitten?\n\nFürbitten geben dem, was andere brauchen, einen Platz im Gebet. Sie weiten den Blick. Weg vom eigenen Kreis. Hin zu Menschen, die Trost, Hilfe oder Gerechtigkeit brauchen.\n\nFürbitten ersetzen kein Handeln. Aber sie können Haltung verändern. Wer für andere betet, schaut genauer hin. Und fragt vielleicht auch: Was kann ich tun?\n\nGesprächsfrage: Für wen würdest du heute eine Fürbitte sprechen?\n\n#Mittwochsserie #GlaubenVerstehen #Fürbitte #Gebet #Kirche",
       "carousel": [
         {
-          "type": "title",
-          "text": "Warum gibt es Fürbitten?"
+          "text": "Warum gibt es Fürbitten?",
+          "type": "title"
         },
         {
-          "type": "body",
-          "text": "Fürbitten sind Gebete für andere Menschen und für die Welt."
+          "text": "Fürbitten sind Gebete für andere Menschen und für die Welt.",
+          "type": "body"
         },
         {
-          "type": "body",
-          "text": "Sie sagen: Mein Glaube dreht sich nicht nur um mich selbst."
+          "text": "Sie sagen: Mein Glaube dreht sich nicht nur um mich selbst.",
+          "type": "body"
         },
         {
-          "type": "body",
-          "text": "In Fürbitten kommen Sorge, Hoffnung und Verantwortung zur Sprache."
+          "text": "In Fürbitten kommen Sorge, Hoffnung und Verantwortung zur Sprache.",
+          "type": "body"
         },
         {
-          "type": "body",
-          "text": "Fürbitten sind keine Zauberformel. Sie ersetzen kein Handeln."
+          "text": "Fürbitten sind keine Zauberformel. Sie ersetzen kein Handeln.",
+          "type": "body"
         },
         {
-          "type": "body",
-          "text": "Aber sie verändern den Blick: Wer betet, nimmt andere bewusst wahr."
+          "text": "Aber sie verändern den Blick: Wer betet, nimmt andere bewusst wahr.",
+          "type": "body"
         },
         {
-          "type": "body",
-          "text": "Manchmal ist eine Fürbitte der Anfang für Mitgefühl und den nächsten Schritt."
+          "text": "Manchmal ist eine Fürbitte der Anfang für Mitgefühl und den nächsten Schritt.",
+          "type": "body"
         },
         {
-          "type": "question",
-          "text": "Für wen würdest du heute eine Fürbitte sprechen?"
+          "text": "Für wen würdest du heute eine Fürbitte sprechen?",
+          "type": "question"
         }
       ]
     },
@@ -118,11 +118,11 @@
     "alt_text": "Ruhige Szene in warmem Licht: Eine Person hält die Hände still vor sich, im Hintergrund verschwimmt ein schlichter Raum. Das Bild vermittelt Sammlung, Mitgefühl und Gebet für andere."
   },
   "qa": {
+    "approved": false,
     "warnings": [
       "Alt text must be completed before approval",
       "Theologische Kurzform beachten: Fürbitte ersetzt kein Handeln, sondern begleitet Verantwortung."
-    ],
-    "approved": false
+    ]
   },
   "metadata": {
     "model": "gpt-5.4-2026-03-05",
