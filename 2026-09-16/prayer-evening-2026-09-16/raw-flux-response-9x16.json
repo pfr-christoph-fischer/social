@@ -1,0 +1,76 @@
+{
+  "delivery_url": "https://delivery.eu2.bfl.ai/durable/2026091616/5e1f69ea-538b-4d66-962e-9be995966f07/2d/7083067e3f4a28/7e3f4a28f25d4cb78c628190bb019783/sample.jpeg?se=2026-09-16T16%3A48%3A28Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=pLciq6hTwYcRouuf1UMtzI74Xm6pZJ0ZROVxrk/Zltk%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "d5e74f53-4d3a-4b89-841f-c51941cde859",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "d5e74f53-4d3a-4b89-841f-c51941cde859",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "d5e74f53-4d3a-4b89-841f-c51941cde859",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "d5e74f53-4d3a-4b89-841f-c51941cde859",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "d5e74f53-4d3a-4b89-841f-c51941cde859",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "d5e74f53-4d3a-4b89-841f-c51941cde859",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "d5e74f53-4d3a-4b89-841f-c51941cde859",
+      "status": "Ready",
+      "result": {
+        "start_time": 1789576706.1435485,
+        "prompt": "Ruhige Abendszene an einem Fenster. Warmes Restlicht. Ein schlichter Tisch, darauf eine Kerze und eine offene Hand. Stimmung: still, getragen, ohne Kitsch., no text, no letters, no typography, no logo, no watermark",
+        "seed": 4170580714,
+        "sample": "https://delivery.eu2.bfl.ai/durable/2026091616/5e1f69ea-538b-4d66-962e-9be995966f07/2d/7083067e3f4a28/7e3f4a28f25d4cb78c628190bb019783/sample.jpeg?se=2026-09-16T16%3A48%3A28Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=pLciq6hTwYcRouuf1UMtzI74Xm6pZJ0ZROVxrk/Zltk%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "d5e74f53-4d3a-4b89-841f-c51941cde859",
+    "polling_url": "https://api.eu2.bfl.ai/v1/get_result?id=d5e74f53-4d3a-4b89-841f-c51941cde859",
+    "cost": 1.5,
+    "input_mp": 0,
+    "output_mp": 1.98
+  }
+}
