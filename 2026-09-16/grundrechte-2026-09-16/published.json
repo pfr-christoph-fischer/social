@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-09-16",
+    "contentDate": "2026-09-16",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-09-16T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Alle Deutschen genießen Freizügigkeit im ganzen Bundesgebiet. (Grundgesetz, Artikel 11 Absatz 1)",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Alle Deutschen genießen Freizügigkeit im ganzen Bundesgebiet. (Grundgesetz, Artikel 11 Absatz 1)"
+    ],
+    "id": "8ac1544a-68d9-432b-8901-446a74ddb56f",
+    "attemptCount": 1,
+    "remoteId": "18086422727303953",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:38:07.478Z",
+    "updatedAt": "2026-09-16T10:00:28.249Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-09-16",
+    "contentDate": "2026-09-16",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-09-16T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Alle Deutschen genießen Freizügigkeit im ganzen Bundesgebiet. (Grundgesetz, Artikel 11 Absatz 1)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Alle Deutschen genießen Freizügigkeit im ganzen Bundesgebiet. (Grundgesetz, Artikel 11 Absatz 1)"
+    ],
+    "id": "934de2ac-afbb-43af-b47b-c8e1d53fe1ff",
+    "attemptCount": 1,
+    "remoteId": "117280134274301175",
+    "remoteUrl": "https://kirche.social/@christoph/117280134274301175",
+    "lastError": null,
+    "createdAt": "2026-08-26T15:38:07.528Z",
+    "updatedAt": "2026-09-16T10:00:30.183Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
