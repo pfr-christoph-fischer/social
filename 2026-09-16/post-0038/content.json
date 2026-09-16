@@ -118,13 +118,17 @@
     "alt_text": "Ruhige Szene in warmem Licht: Eine Person hält die Hände still vor sich, im Hintergrund verschwimmt ein schlichter Raum. Das Bild vermittelt Sammlung, Mitgefühl und Gebet für andere."
   },
   "qa": {
-    "approved": true,
-    "warnings": []
+    "warnings": [],
+    "approved": true
   },
   "metadata": {
     "model": "gpt-5.4-2026-03-05",
     "generated_at": "2026-09-16T16:13:42.573Z",
     "prompt_version": "1.0",
-    "assets": []
+    "assets": [
+      "assets/background-1.91x1.webp",
+      "assets/background-4x5.webp",
+      "assets/background-9x16.webp"
+    ]
   }
 }

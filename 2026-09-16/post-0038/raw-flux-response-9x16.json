@@ -1,0 +1,44 @@
+{
+  "delivery_url": "https://delivery.us2.bfl.ai/durable/2026091616/5e1f69ea-538b-4d66-962e-9be995966f07/7b/3059955b842033/5b842033808d4e8fab198123278d9e93/sample.jpeg?se=2026-09-16T16%3A25%3A06Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=2H/51kyeIChGbqUZML6TecWj6XGN2irep/OHEMHsloY%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "76d04b3c-4abb-492a-8c30-afe7ac6619a5",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "76d04b3c-4abb-492a-8c30-afe7ac6619a5",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "76d04b3c-4abb-492a-8c30-afe7ac6619a5",
+      "status": "Ready",
+      "result": {
+        "start_time": 1789575304.098457,
+        "prompt": "Fotorealistische, ruhige Szene mit warmem natürlichem Licht: ein stiller Andachtsmoment in schlichtem Kirchenraum oder neutralem Innenraum, Hände in entspannter Haltung, unscharfer Hintergrund, Atmosphäre von Sammlung, Mitgefühl und Hoffnung, dezente Kerze oder weiches Licht, zurückhaltende Farbpalette, viel negativer Raum, authentisch, würdevoll, keine inszenierte Dramatik, no text, no letters, no typography, no logo, no watermark",
+        "seed": 3355695636,
+        "sample": "https://delivery.us2.bfl.ai/durable/2026091616/5e1f69ea-538b-4d66-962e-9be995966f07/7b/3059955b842033/5b842033808d4e8fab198123278d9e93/sample.jpeg?se=2026-09-16T16%3A25%3A06Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=2H/51kyeIChGbqUZML6TecWj6XGN2irep/OHEMHsloY%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "76d04b3c-4abb-492a-8c30-afe7ac6619a5",
+    "polling_url": "https://api.us2.bfl.ai/v1/get_result?id=76d04b3c-4abb-492a-8c30-afe7ac6619a5",
+    "cost": 1.5,
+    "input_mp": 0,
+    "output_mp": 1.98
+  }
+}
