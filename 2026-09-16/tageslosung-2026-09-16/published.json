@@ -84,5 +84,91 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-16",
+    "contentDate": "2026-09-16",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-09-16T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Deine Güte, HERR, sei über uns, wie wir auf dich hoffen.",
+    "assets": [
+      "render-square-01.jpg"
+    ],
+    "altTexts": [
+      "Deine Güte, HERR, sei über uns, wie wir auf dich hoffen."
+    ],
+    "id": "2613b296-6c08-4dd9-bef2-c0e5d7d254ce",
+    "attemptCount": 1,
+    "remoteId": "18209165692364280",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:45:30.226Z",
+    "updatedAt": "2026-09-16T05:00:41.063Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-16",
+    "contentDate": "2026-09-16",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-09-16T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Deine Güte, HERR, sei über uns, wie wir auf dich hoffen.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Deine Güte, HERR, sei über uns, wie wir auf dich hoffen."
+    ],
+    "id": "a5985576-0267-4f74-b396-cdc8035d61cd",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3mvmeaepjph2a",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3mvmeaepjph2a",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:45:30.232Z",
+    "updatedAt": "2026-09-16T05:00:43.980Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-16",
+    "contentDate": "2026-09-16",
+    "platform": "linkedin",
+    "format": "default",
+    "scheduledAt": "2026-09-16T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Deine Güte, HERR, sei über uns, wie wir auf dich hoffen.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Deine Güte, HERR, sei über uns, wie wir auf dich hoffen."
+    ],
+    "id": "8c61db6f-b803-435c-b942-38ac5e47c02e",
+    "attemptCount": 1,
+    "remoteId": "urn:li:share:7505853162910793728",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:45:30.246Z",
+    "updatedAt": "2026-09-16T05:00:46.376Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 201
+    },
+    "retryHistory": []
   }
 ]
