@@ -84,5 +84,91 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-09-16",
+    "contentDate": "2026-09-16",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-09-16T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Alle Deutschen genießen Freizügigkeit im ganzen Bundesgebiet. (Grundgesetz, Artikel 11 Absatz 1)",
+    "assets": [
+      "render-square-01.jpg"
+    ],
+    "altTexts": [
+      "Alle Deutschen genießen Freizügigkeit im ganzen Bundesgebiet. (Grundgesetz, Artikel 11 Absatz 1)"
+    ],
+    "id": "11012c25-3a12-4f56-ad3d-f09e50e93fbd",
+    "attemptCount": 1,
+    "remoteId": "18134195044629285",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:38:07.569Z",
+    "updatedAt": "2026-09-16T10:00:42.701Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-09-16",
+    "contentDate": "2026-09-16",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-09-16T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Alle Deutschen genießen Freizügigkeit im ganzen Bundesgebiet. (Grundgesetz, Artikel 11 Absatz 1)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Alle Deutschen genießen Freizügigkeit im ganzen Bundesgebiet. (Grundgesetz, Artikel 11 Absatz 1)"
+    ],
+    "id": "b3a5cdbe-6842-4429-b2fc-02a2c7a3ea19",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3mvmuyu3gnk23",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3mvmuyu3gnk23",
+    "lastError": null,
+    "createdAt": "2026-08-26T15:38:07.643Z",
+    "updatedAt": "2026-09-16T10:00:45.867Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-09-16",
+    "contentDate": "2026-09-16",
+    "platform": "linkedin",
+    "format": "default",
+    "scheduledAt": "2026-09-16T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Alle Deutschen genießen Freizügigkeit im ganzen Bundesgebiet. (Grundgesetz, Artikel 11 Absatz 1)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Alle Deutschen genießen Freizügigkeit im ganzen Bundesgebiet. (Grundgesetz, Artikel 11 Absatz 1)"
+    ],
+    "id": "855ae96b-e81b-4afa-8668-c8a38aea7a95",
+    "attemptCount": 1,
+    "remoteId": "urn:li:share:7505928670302228480",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:38:07.701Z",
+    "updatedAt": "2026-09-16T10:00:48.711Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 201
+    },
+    "retryHistory": []
   }
 ]
