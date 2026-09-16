@@ -1,0 +1,472 @@
+{
+  "id": "resp_0cfdcee410cb1d0d006aaa5a9e1d5887d2a6bfeb70aaab0169",
+  "object": "response",
+  "created_at": 1789549214,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1789549249,
+  "error": null,
+  "frequency_penalty": 0,
+  "incomplete_details": null,
+  "instructions": "You are part of a Protestant social media editorial team. Write in clear, accessible, theologically responsible German without church clichés. Use short sentences and concrete imagery. Never invent events, people, school situations, quotes, or factual details. Do not include copyrighted full song verses. For Reli and community posts, only use current details when they are explicitly provided. Return content that strictly matches the requested JSON schema. Set needs_input to true whenever required facts are missing. Keep qa.approved false. Do not ask for any text inside generated images. When liturgical_context.resolved_weekly_verse is present, use its exact wording for Wochenspruch slots instead of placeholders. Use the web search tool before drafting to verify current situations. For prayer posts, current situations are mandatory: select at least two concrete, relevant situations from reliable current reporting, including tagesschau.de and SWR Aktuell Baden-Württemberg where relevant. Do not invent current events and do not replace concrete situations with generic references to crises.",
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.4-2026-03-05",
+  "moderation": null,
+  "output": [
+    {
+      "id": "ws_0cfdcee410cb1d0d006aaa5aa0fe3087d282a358a82c45b273",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "queries": [
+          "site:tagesschau.de 15.09.2026 Nachrichten",
+          "site:swr.de/swraktuell/baden-wuerttemberg 15.09.2026 Baden-Württemberg Nachrichten",
+          "Reuters September 15 2026 world news refugees conflict health"
+        ],
+        "query": "site:tagesschau.de 15.09.2026 Nachrichten"
+      }
+    },
+    {
+      "id": "ws_0cfdcee410cb1d0d006aaa5aa3597487d2ab6d03b142c91f58",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.tagesschau.de/tagesschau/ts-80956.html"
+      }
+    },
+    {
+      "id": "ws_0cfdcee410cb1d0d006aaa5aa4842087d2b09d3ff55965b9ad",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "queries": [
+          "site:tagesschau.de 15.09.2026 Ukraine Gaza Sudan Erdbeben 15.09.2026 tagesschau",
+          "site:reuters.com September 15 2026 civilians hospital refugees Reuters"
+        ],
+        "query": "site:tagesschau.de 15.09.2026 Ukraine Gaza Sudan Erdbeben 15.09.2026 tagesschau"
+      }
+    },
+    {
+      "id": "msg_0cfdcee410cb1d0d006aaa5aa7896c87d2ae0a736c0abafdc1",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\"id\":\"prayer-evening-2026-09-16\",\"status\":\"in Arbeit\",\"needs_input\":false,\"source\":{\"calendar_post_id\":\"prayer-evening-2026-09-16\",\"date\":\"2026-09-16\",\"rubric\":\"Abendgebet\",\"liturgical_source\":\"\"},\"editorial_core\":{\"title\":\"Abendgebet\",\"main_message\":\"Am Abend legen wir Gott hin, was heute gelungen ist und was offen blieb. Wir beten für Menschen, die unter neuer Gefahr an der NATO-Ostflanke leben, nachdem über Litauen eine Drohne abgeschossen wurde, und für alle, die unter wachsender organisierter Gewalt in Deutschland leiden. Wir denken auch an Baden-Württemberg: an die Menschen in Baindt nach dem Stallbrand und an die Beschäftigten und Familien am Audi-Standort Neckarsulm, die um ihre Zukunft bangen.\",\"audience\":\"breite Öffentlichkeit\",\"tone\":[\"ruhig\",\"hoffnungsvoll\",\"geborgen\"],\"source_notes\":[\"Aktuelle Bezüge geprüft auf Basis von tagesschau.de vom 15.09.2026 und SWR Aktuell Baden-Württemberg vom 15.09.2026.\",\"Konkrete Situationen aufgenommen: NATO-Jets schießen Drohne über Litauen ab; BKA-Lagebild meldet wachsende organisierte Kriminalität in Deutschland; Stallbrand in Baindt mit großem Schaden und fünf toten Tieren; Sorge um den Audi-Standort in Neckarsulm.\",\"Zeitlich robust formuliert: keine Behauptungen über Entwicklungen des Veröffentlichungstags 16.09.2026.\",\"Gebetssprache bewusst schlicht gehalten; keine Vertröstung, keine Allmachtsklischees.\"]},\"platforms\":{\"facebook\":{\"text\":\"Gott,\\nder Tag liegt hinter uns.\\nMit dem, was gut war.\\nMit dem, was schwer war.\\nMit dem, was unfertig bleibt.\\n\\nWir bringen dir Menschen in Litauen, nachdem über ihrem Land eine Drohne abgeschossen wurde. Schütze alle, die jetzt wieder genauer auf den Himmel schauen und Angst vor neuer Gewalt haben.\\n\\nWir bringen dir die Menschen, die unter organisierter Gewalt leiden. Die bedroht werden. Die ausgenutzt werden. Die nachts nicht ruhig schlafen können.\\n\\nWir denken an Baindt. An die Menschen nach dem Stallbrand. An den Schaden. An das Erschrecken. An das, was nicht mehr gutzumachen ist.\\n\\nWir denken an Neckarsulm. An Beschäftigte bei Audi und an ihre Familien. Wo Arbeitsplätze und Zukunft unsicher sind, gib Halt und Besonnenheit.\\n\\nUnd wir bringen dir unseren eigenen Tag.\\nUnsere Freude.\\nUnsere Fehler.\\nUnsere Müdigkeit.\\n\\nWas wir heute nicht geschafft haben, legen wir in deine Hand.\\nHalte du diese unruhige Welt.\\nSchenk uns Frieden für diese Nacht.\\nUnd lass deine Hoffnung weiter atmen, wenn wir schlafen.\\nAmen.\",\"headline\":\"Abendgebet: Was offen bleibt, darf in Gottes Hand ruhen\"},\"instagram\":{\"caption\":\"Gott,\\nder Tag liegt hinter uns.\\nMit dem, was gut war.\\nMit dem, was schwer war.\\nMit dem, was offen blieb.\\n\\nWir bitten dich für Menschen in Litauen nach dem Abschuss einer Drohne über ihrem Land.\\nFür Menschen in Deutschland, die unter organisierter Gewalt leiden.\\nFür Baindt nach dem Stallbrand.\\nFür Beschäftigte und Familien in Neckarsulm, die um ihre Zukunft bangen.\\n\\nWas wir heute nicht tragen können, legen wir in deine Hand.\\nSchenk Frieden für diese Nacht.\\nAmen.\",\"carousel\":[{\"type\":\"intro\",\"text\":\"Abendgebet\"},{\"type\":\"text\",\"text\":\"Der Tag liegt hinter uns. Mit dem, was gut war. Mit dem, was schwer war. Mit dem, was offen blieb.\"},{\"type\":\"text\",\"text\":\"Wir bitten dich für Menschen in Litauen nach dem Abschuss einer Drohne über ihrem Land. Schütze alle, die mit neuer Angst leben.\"},{\"type\":\"text\",\"text\":\"Wir bitten dich für Menschen, die unter organisierter Gewalt leiden. Für alle, die bedroht werden und heute Nacht nicht ruhig schlafen können.\"},{\"type\":\"text\",\"text\":\"Wir denken an Baindt nach dem Stallbrand. Und an Beschäftigte und Familien in Neckarsulm, die um ihre Zukunft bangen.\"},{\"type\":\"text\",\"text\":\"Was wir heute nicht geschafft haben, legen wir in deine Hand. Schenk Frieden für diese Nacht. Amen.\"}]},\"mastodon\":{\"text\":\"Gott,\\nder Tag liegt hinter uns.\\nMit dem, was gut war. Mit dem, was schwer war. Mit dem, was offen blieb.\\n\\nWir bitten dich für Menschen in Litauen nach dem Abschuss einer Drohne über ihrem Land. Für Menschen, die unter organisierter Gewalt leiden. Für Baindt nach dem Stallbrand. Für Beschäftigte und Familien in Neckarsulm, die um ihre Zukunft bangen.\\n\\nWas wir nicht tragen können, legen wir in deine Hand.\\nSchenk Frieden für diese Nacht.\\nAmen.\"},\"bluesky\":{\"text\":\"Der Tag liegt hinter uns. Mit dem, was gut war. Mit dem, was schwer war. Mit dem, was offen blieb. Wir bitten für Menschen in Litauen nach dem Abschuss einer Drohne, für Betroffene organisierter Gewalt, für Baindt nach dem Stallbrand und für Familien in Neckarsulm. Schenk Frieden für diese Nacht. Amen.\"},\"story\":{\"slides\":[{\"text\":\"Abendgebet\"},{\"text\":\"Der Tag liegt hinter uns. Mit dem, was gut war. Mit dem, was schwer war. Mit dem, was offen blieb.\"},{\"text\":\"Wir bitten für Menschen in Litauen nach dem Abschuss einer Drohne über ihrem Land.\"},{\"text\":\"Wir bitten für Menschen, die unter organisierter Gewalt leiden.\"},{\"text\":\"Wir denken an Baindt nach dem Stallbrand und an Familien in Neckarsulm mit Sorge um ihre Zukunft.\"},{\"text\":\"Was offen bleibt, legen wir in Gottes Hand. Frieden für diese Nacht. Amen.\"}]},\"reel\":{\"hook\":\"Was heute offen blieb, musst du nicht mit in den Schlaf nehmen.\",\"script\":\"Der Tag ist fast vorbei. Nicht alles ist gelungen. Nicht alles ist heil. In Litauen leben Menschen nach dem Abschuss einer Drohne mit neuer Angst. In Deutschland leiden Menschen unter organisierter Gewalt. In Baindt sitzen Menschen nach dem Stallbrand vor dem Schaden. In Neckarsulm bangen Beschäftigte und Familien um ihre Zukunft. Und auch dein eigener Tag ist vielleicht nicht fertig geworden. Im Gebet darf er unvollendet bleiben. Leg ihn in Gottes Hand. Bitte um Frieden. Für die Welt. Und für dein Herz.\",\"shots\":[\"Abendlicht an einem offenen Fenster\",\"Ruhige Hände auf einem Tisch\",\"Leere Straße in der Dämmerung\",\"Nahaufnahme einer brennenden Kerze ohne Text im Bild\",\"Langsame Kamerafahrt über einen stillen Raum\",\"Schließende Augen, ruhiger Atem\"],\"duration_seconds\":30}},\"visual\":{\"concept\":\"Ruhige Abendszene an einem Fenster. Warmes Restlicht. Ein schlichter Tisch, darauf eine Kerze und eine offene Hand. Stimmung: still, getragen, ohne Kitsch.\",\"flux_prompt\":\"A calm evening interior near a window, soft warm dusk light, simple wooden table, one lit candle, an open resting hand, quiet atmosphere, natural colors, gentle shadows, contemplative mood, realistic photography, no people facing camera, no text, no symbols, no logos\",\"negative_prompt\":\"text, letters, logo, watermark\",\"formats\":[\"4:5\",\"9:16\",\"1.91:1\"],\"alt_text\":\"Eine ruhige Abendszene an einem Fenster: warmes Dämmerlicht fällt auf einen schlichten Holztisch mit einer brennenden Kerze und einer geöffneten Hand. Die Stimmung ist still und tröstlich.\"},\"qa\":{\"warnings\":[\"Aktuelle Bezüge enthalten; vor Freigabe am 16.09.2026 morgens erneut auf Tragfähigkeit prüfen.\",\"Alt text redaktionell gegen finales Motiv prüfen.\",\"Gebetsformulierung zu organisierter Kriminalität sensibel gegen mögliche Stigmatisierung gegenlesen.\"],\"approved\":false},\"metadata\":{\"model\":\"gpt-5\",\"generated_at\":\"2026-09-16T00:00:00Z\",\"prompt_version\":\"1.0\",\"assets\":[]}}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "current_turn",
+    "effort": "none",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1,
+  "text": {
+    "format": {
+      "type": "json_schema",
+      "description": null,
+      "name": "content_package",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "Idee",
+              "in Arbeit",
+              "zur Prüfung",
+              "freigegeben",
+              "terminiert",
+              "veröffentlicht",
+              "verworfen"
+            ]
+          },
+          "needs_input": {
+            "type": "boolean"
+          },
+          "source": {
+            "type": "object",
+            "properties": {
+              "calendar_post_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "date": {
+                "type": "string",
+                "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+              },
+              "rubric": {
+                "type": "string",
+                "minLength": 1
+              },
+              "liturgical_source": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "calendar_post_id",
+              "date",
+              "rubric",
+              "liturgical_source"
+            ],
+            "additionalProperties": false
+          },
+          "editorial_core": {
+            "type": "object",
+            "properties": {
+              "title": {
+                "type": "string"
+              },
+              "main_message": {
+                "type": "string"
+              },
+              "audience": {
+                "type": "string"
+              },
+              "tone": {
+                "minItems": 1,
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "source_notes": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "title",
+              "main_message",
+              "audience",
+              "tone",
+              "source_notes"
+            ],
+            "additionalProperties": false
+          },
+          "platforms": {
+            "type": "object",
+            "properties": {
+              "facebook": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  },
+                  "headline": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text",
+                  "headline"
+                ],
+                "additionalProperties": false
+              },
+              "instagram": {
+                "type": "object",
+                "properties": {
+                  "caption": {
+                    "type": "string"
+                  },
+                  "carousel": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "type": {
+                          "type": "string"
+                        },
+                        "text": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "type",
+                        "text"
+                      ],
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "required": [
+                  "caption",
+                  "carousel"
+                ],
+                "additionalProperties": false
+              },
+              "mastodon": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text"
+                ],
+                "additionalProperties": false
+              },
+              "bluesky": {
+                "default": {
+                  "text": ""
+                },
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text"
+                ],
+                "additionalProperties": false
+              },
+              "story": {
+                "type": "object",
+                "properties": {
+                  "slides": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "text": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "text"
+                      ],
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "required": [
+                  "slides"
+                ],
+                "additionalProperties": false
+              },
+              "reel": {
+                "type": "object",
+                "properties": {
+                  "hook": {
+                    "type": "string"
+                  },
+                  "script": {
+                    "type": "string"
+                  },
+                  "shots": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "duration_seconds": {
+                    "type": "integer",
+                    "minimum": 0,
+                    "maximum": 9007199254740991
+                  }
+                },
+                "required": [
+                  "hook",
+                  "script",
+                  "shots",
+                  "duration_seconds"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "required": [
+              "facebook",
+              "instagram",
+              "mastodon",
+              "bluesky",
+              "story",
+              "reel"
+            ],
+            "additionalProperties": false
+          },
+          "visual": {
+            "type": "object",
+            "properties": {
+              "concept": {
+                "type": "string"
+              },
+              "flux_prompt": {
+                "type": "string"
+              },
+              "negative_prompt": {
+                "type": "string",
+                "minLength": 1
+              },
+              "formats": {
+                "minItems": 1,
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "alt_text": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "concept",
+              "flux_prompt",
+              "negative_prompt",
+              "formats",
+              "alt_text"
+            ],
+            "additionalProperties": false
+          },
+          "qa": {
+            "type": "object",
+            "properties": {
+              "warnings": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "approved": {
+                "type": "boolean"
+              }
+            },
+            "required": [
+              "warnings",
+              "approved"
+            ],
+            "additionalProperties": false
+          },
+          "metadata": {
+            "type": "object",
+            "properties": {
+              "model": {
+                "type": "string"
+              },
+              "generated_at": {
+                "type": "string"
+              },
+              "prompt_version": {
+                "type": "string",
+                "minLength": 1
+              },
+              "assets": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "model",
+              "generated_at",
+              "prompt_version",
+              "assets"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "id",
+          "status",
+          "needs_input",
+          "source",
+          "editorial_core",
+          "platforms",
+          "visual",
+          "qa",
+          "metadata"
+        ],
+        "additionalProperties": false
+      },
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 2
+    }
+  },
+  "tools": [
+    {
+      "type": "web_search",
+      "return_token_budget": "default",
+      "search_content_types": [
+        "text"
+      ],
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 21187,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1985,
+    "output_tokens_details": {
+      "reasoning_tokens": 234
+    },
+    "total_tokens": 23172
+  },
+  "user": null,
+  "metadata": {},
+  "output_text": "{\"id\":\"prayer-evening-2026-09-16\",\"status\":\"in Arbeit\",\"needs_input\":false,\"source\":{\"calendar_post_id\":\"prayer-evening-2026-09-16\",\"date\":\"2026-09-16\",\"rubric\":\"Abendgebet\",\"liturgical_source\":\"\"},\"editorial_core\":{\"title\":\"Abendgebet\",\"main_message\":\"Am Abend legen wir Gott hin, was heute gelungen ist und was offen blieb. Wir beten für Menschen, die unter neuer Gefahr an der NATO-Ostflanke leben, nachdem über Litauen eine Drohne abgeschossen wurde, und für alle, die unter wachsender organisierter Gewalt in Deutschland leiden. Wir denken auch an Baden-Württemberg: an die Menschen in Baindt nach dem Stallbrand und an die Beschäftigten und Familien am Audi-Standort Neckarsulm, die um ihre Zukunft bangen.\",\"audience\":\"breite Öffentlichkeit\",\"tone\":[\"ruhig\",\"hoffnungsvoll\",\"geborgen\"],\"source_notes\":[\"Aktuelle Bezüge geprüft auf Basis von tagesschau.de vom 15.09.2026 und SWR Aktuell Baden-Württemberg vom 15.09.2026.\",\"Konkrete Situationen aufgenommen: NATO-Jets schießen Drohne über Litauen ab; BKA-Lagebild meldet wachsende organisierte Kriminalität in Deutschland; Stallbrand in Baindt mit großem Schaden und fünf toten Tieren; Sorge um den Audi-Standort in Neckarsulm.\",\"Zeitlich robust formuliert: keine Behauptungen über Entwicklungen des Veröffentlichungstags 16.09.2026.\",\"Gebetssprache bewusst schlicht gehalten; keine Vertröstung, keine Allmachtsklischees.\"]},\"platforms\":{\"facebook\":{\"text\":\"Gott,\\nder Tag liegt hinter uns.\\nMit dem, was gut war.\\nMit dem, was schwer war.\\nMit dem, was unfertig bleibt.\\n\\nWir bringen dir Menschen in Litauen, nachdem über ihrem Land eine Drohne abgeschossen wurde. Schütze alle, die jetzt wieder genauer auf den Himmel schauen und Angst vor neuer Gewalt haben.\\n\\nWir bringen dir die Menschen, die unter organisierter Gewalt leiden. Die bedroht werden. Die ausgenutzt werden. Die nachts nicht ruhig schlafen können.\\n\\nWir denken an Baindt. An die Menschen nach dem Stallbrand. An den Schaden. An das Erschrecken. An das, was nicht mehr gutzumachen ist.\\n\\nWir denken an Neckarsulm. An Beschäftigte bei Audi und an ihre Familien. Wo Arbeitsplätze und Zukunft unsicher sind, gib Halt und Besonnenheit.\\n\\nUnd wir bringen dir unseren eigenen Tag.\\nUnsere Freude.\\nUnsere Fehler.\\nUnsere Müdigkeit.\\n\\nWas wir heute nicht geschafft haben, legen wir in deine Hand.\\nHalte du diese unruhige Welt.\\nSchenk uns Frieden für diese Nacht.\\nUnd lass deine Hoffnung weiter atmen, wenn wir schlafen.\\nAmen.\",\"headline\":\"Abendgebet: Was offen bleibt, darf in Gottes Hand ruhen\"},\"instagram\":{\"caption\":\"Gott,\\nder Tag liegt hinter uns.\\nMit dem, was gut war.\\nMit dem, was schwer war.\\nMit dem, was offen blieb.\\n\\nWir bitten dich für Menschen in Litauen nach dem Abschuss einer Drohne über ihrem Land.\\nFür Menschen in Deutschland, die unter organisierter Gewalt leiden.\\nFür Baindt nach dem Stallbrand.\\nFür Beschäftigte und Familien in Neckarsulm, die um ihre Zukunft bangen.\\n\\nWas wir heute nicht tragen können, legen wir in deine Hand.\\nSchenk Frieden für diese Nacht.\\nAmen.\",\"carousel\":[{\"type\":\"intro\",\"text\":\"Abendgebet\"},{\"type\":\"text\",\"text\":\"Der Tag liegt hinter uns. Mit dem, was gut war. Mit dem, was schwer war. Mit dem, was offen blieb.\"},{\"type\":\"text\",\"text\":\"Wir bitten dich für Menschen in Litauen nach dem Abschuss einer Drohne über ihrem Land. Schütze alle, die mit neuer Angst leben.\"},{\"type\":\"text\",\"text\":\"Wir bitten dich für Menschen, die unter organisierter Gewalt leiden. Für alle, die bedroht werden und heute Nacht nicht ruhig schlafen können.\"},{\"type\":\"text\",\"text\":\"Wir denken an Baindt nach dem Stallbrand. Und an Beschäftigte und Familien in Neckarsulm, die um ihre Zukunft bangen.\"},{\"type\":\"text\",\"text\":\"Was wir heute nicht geschafft haben, legen wir in deine Hand. Schenk Frieden für diese Nacht. Amen.\"}]},\"mastodon\":{\"text\":\"Gott,\\nder Tag liegt hinter uns.\\nMit dem, was gut war. Mit dem, was schwer war. Mit dem, was offen blieb.\\n\\nWir bitten dich für Menschen in Litauen nach dem Abschuss einer Drohne über ihrem Land. Für Menschen, die unter organisierter Gewalt leiden. Für Baindt nach dem Stallbrand. Für Beschäftigte und Familien in Neckarsulm, die um ihre Zukunft bangen.\\n\\nWas wir nicht tragen können, legen wir in deine Hand.\\nSchenk Frieden für diese Nacht.\\nAmen.\"},\"bluesky\":{\"text\":\"Der Tag liegt hinter uns. Mit dem, was gut war. Mit dem, was schwer war. Mit dem, was offen blieb. Wir bitten für Menschen in Litauen nach dem Abschuss einer Drohne, für Betroffene organisierter Gewalt, für Baindt nach dem Stallbrand und für Familien in Neckarsulm. Schenk Frieden für diese Nacht. Amen.\"},\"story\":{\"slides\":[{\"text\":\"Abendgebet\"},{\"text\":\"Der Tag liegt hinter uns. Mit dem, was gut war. Mit dem, was schwer war. Mit dem, was offen blieb.\"},{\"text\":\"Wir bitten für Menschen in Litauen nach dem Abschuss einer Drohne über ihrem Land.\"},{\"text\":\"Wir bitten für Menschen, die unter organisierter Gewalt leiden.\"},{\"text\":\"Wir denken an Baindt nach dem Stallbrand und an Familien in Neckarsulm mit Sorge um ihre Zukunft.\"},{\"text\":\"Was offen bleibt, legen wir in Gottes Hand. Frieden für diese Nacht. Amen.\"}]},\"reel\":{\"hook\":\"Was heute offen blieb, musst du nicht mit in den Schlaf nehmen.\",\"script\":\"Der Tag ist fast vorbei. Nicht alles ist gelungen. Nicht alles ist heil. In Litauen leben Menschen nach dem Abschuss einer Drohne mit neuer Angst. In Deutschland leiden Menschen unter organisierter Gewalt. In Baindt sitzen Menschen nach dem Stallbrand vor dem Schaden. In Neckarsulm bangen Beschäftigte und Familien um ihre Zukunft. Und auch dein eigener Tag ist vielleicht nicht fertig geworden. Im Gebet darf er unvollendet bleiben. Leg ihn in Gottes Hand. Bitte um Frieden. Für die Welt. Und für dein Herz.\",\"shots\":[\"Abendlicht an einem offenen Fenster\",\"Ruhige Hände auf einem Tisch\",\"Leere Straße in der Dämmerung\",\"Nahaufnahme einer brennenden Kerze ohne Text im Bild\",\"Langsame Kamerafahrt über einen stillen Raum\",\"Schließende Augen, ruhiger Atem\"],\"duration_seconds\":30}},\"visual\":{\"concept\":\"Ruhige Abendszene an einem Fenster. Warmes Restlicht. Ein schlichter Tisch, darauf eine Kerze und eine offene Hand. Stimmung: still, getragen, ohne Kitsch.\",\"flux_prompt\":\"A calm evening interior near a window, soft warm dusk light, simple wooden table, one lit candle, an open resting hand, quiet atmosphere, natural colors, gentle shadows, contemplative mood, realistic photography, no people facing camera, no text, no symbols, no logos\",\"negative_prompt\":\"text, letters, logo, watermark\",\"formats\":[\"4:5\",\"9:16\",\"1.91:1\"],\"alt_text\":\"Eine ruhige Abendszene an einem Fenster: warmes Dämmerlicht fällt auf einen schlichten Holztisch mit einer brennenden Kerze und einer geöffneten Hand. Die Stimmung ist still und tröstlich.\"},\"qa\":{\"warnings\":[\"Aktuelle Bezüge enthalten; vor Freigabe am 16.09.2026 morgens erneut auf Tragfähigkeit prüfen.\",\"Alt text redaktionell gegen finales Motiv prüfen.\",\"Gebetsformulierung zu organisierter Kriminalität sensibel gegen mögliche Stigmatisierung gegenlesen.\"],\"approved\":false},\"metadata\":{\"model\":\"gpt-5\",\"generated_at\":\"2026-09-16T00:00:00Z\",\"prompt_version\":\"1.0\",\"assets\":[]}}"
+}
