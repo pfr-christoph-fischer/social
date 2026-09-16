@@ -1,6 +1,6 @@
 {
   "id": "prayer-morning-2026-09-17",
-  "status": "in Arbeit",
+  "status": "freigegeben",
   "needs_input": false,
   "source": {
     "calendar_post_id": "prayer-morning-2026-09-17",
@@ -27,31 +27,31 @@
   },
   "platforms": {
     "facebook": {
-      "headline": "Morgengebet",
-      "text": "Gott,\ndies ist der Tag, den du machst.\nDu weckst das Licht.\nDu gibst Atem, Zeit und neuen Anfang.\n\nWas vor mir liegt, kenne ich nicht.\nAber ich gehe nicht allein.\nDeine Güte ist schon da,\nnoch bevor ich Worte finde.\n\nLass mein Herz ruhig werden.\nLass meinen Blick offen sein\nfür das, was heute trägt,\nfür Menschen, für kleine Zeichen der Freude,\nfür den Mut zum Nächsten.\n\nDies ist der Tag, den der HERR macht. (Psalm 118,24)\nIch nehme ihn aus deiner Hand.\nAmen."
+      "text": "Gott,\ndies ist der Tag, den du machst.\nDu weckst das Licht.\nDu gibst Atem, Zeit und neuen Anfang.\n\nWas vor mir liegt, kenne ich nicht.\nAber ich gehe nicht allein.\nDeine Güte ist schon da,\nnoch bevor ich Worte finde.\n\nLass mein Herz ruhig werden.\nLass meinen Blick offen sein\nfür das, was heute trägt,\nfür Menschen, für kleine Zeichen der Freude,\nfür den Mut zum Nächsten.\n\nDies ist der Tag, den der HERR macht. (Psalm 118,24)\nIch nehme ihn aus deiner Hand.\nAmen.",
+      "headline": "Morgengebet"
     },
     "instagram": {
       "caption": "Gott,\ndies ist der Tag, den du machst.\nDu weckst das Licht.\nDu gibst Atem, Zeit und neuen Anfang.\n\nWas vor mir liegt, kenne ich nicht.\nAber ich gehe nicht allein.\nDeine Güte ist schon da.\n\n„Dies ist der Tag, den der HERR macht.“\nPsalm 118,24\n\nIch nehme diesen Tag aus deiner Hand.\nAmen.",
       "carousel": [
         {
-          "text": "Gott,\ndies ist der Tag, den du machst.",
-          "type": "text"
+          "type": "text",
+          "text": "Gott,\ndies ist der Tag, den du machst."
         },
         {
-          "text": "Du weckst das Licht.\nDu gibst Atem, Zeit und neuen Anfang.",
-          "type": "text"
+          "type": "text",
+          "text": "Du weckst das Licht.\nDu gibst Atem, Zeit und neuen Anfang."
         },
         {
-          "text": "Was vor mir liegt, kenne ich nicht.\nAber ich gehe nicht allein.",
-          "type": "text"
+          "type": "text",
+          "text": "Was vor mir liegt, kenne ich nicht.\nAber ich gehe nicht allein."
         },
         {
-          "text": "„Dies ist der Tag, den der HERR macht.“\nPsalm 118,24",
-          "type": "text"
+          "type": "text",
+          "text": "„Dies ist der Tag, den der HERR macht.“\nPsalm 118,24"
         },
         {
-          "text": "Ich nehme diesen Tag aus deiner Hand.\nAmen.",
-          "type": "text"
+          "type": "text",
+          "text": "Ich nehme diesen Tag aus deiner Hand.\nAmen."
         }
       ]
     },
@@ -105,11 +105,8 @@
     "alt_text": "Ein heller Morgenraum mit offenem Fenster. Weiches Licht fällt auf einen schlichten Tisch. Draußen ist der Himmel klar und der Tag beginnt ruhig."
   },
   "qa": {
-    "approved": false,
-    "warnings": [
-      "Alt text must be completed before approval",
-      "Bibelzitat vor Veröffentlichung noch einmal in der verwendeten Übersetzung redaktionell abgleichen."
-    ]
+    "approved": true,
+    "warnings": []
   },
   "metadata": {
     "model": "gpt-5.4-2026-03-05",
