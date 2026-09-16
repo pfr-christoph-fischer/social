@@ -26,35 +26,35 @@
   },
   "platforms": {
     "facebook": {
-      "text": "Gott,\nder Tag liegt hinter uns.\nMit dem, was gut war.\nMit dem, was schwer war.\nMit dem, was unfertig bleibt.\n\nWir bringen dir Menschen in Litauen, nachdem über ihrem Land eine Drohne abgeschossen wurde. Schütze alle, die jetzt wieder genauer auf den Himmel schauen und Angst vor neuer Gewalt haben.\n\nWir bringen dir die Menschen, die unter organisierter Gewalt leiden. Die bedroht werden. Die ausgenutzt werden. Die nachts nicht ruhig schlafen können.\n\nWir denken an Baindt. An die Menschen nach dem Stallbrand. An den Schaden. An das Erschrecken. An das, was nicht mehr gutzumachen ist.\n\nWir denken an Neckarsulm. An Beschäftigte bei Audi und an ihre Familien. Wo Arbeitsplätze und Zukunft unsicher sind, gib Halt und Besonnenheit.\n\nUnd wir bringen dir unseren eigenen Tag.\nUnsere Freude.\nUnsere Fehler.\nUnsere Müdigkeit.\n\nWas wir heute nicht geschafft haben, legen wir in deine Hand.\nHalte du diese unruhige Welt.\nSchenk uns Frieden für diese Nacht.\nUnd lass deine Hoffnung weiter atmen, wenn wir schlafen.\nAmen.",
-      "headline": "Abendgebet: Was offen bleibt, darf in Gottes Hand ruhen"
+      "headline": "Abendgebet: Was offen bleibt, darf in Gottes Hand ruhen",
+      "text": "Gott,\nder Tag liegt hinter uns.\nMit dem, was gut war.\nMit dem, was schwer war.\nMit dem, was unfertig bleibt.\n\nWir bringen dir Menschen in Litauen, nachdem über ihrem Land eine Drohne abgeschossen wurde. Schütze alle, die jetzt wieder genauer auf den Himmel schauen und Angst vor neuer Gewalt haben.\n\nWir bringen dir die Menschen, die unter organisierter Gewalt leiden. Die bedroht werden. Die ausgenutzt werden. Die nachts nicht ruhig schlafen können.\n\nWir denken an Baindt. An die Menschen nach dem Stallbrand. An den Schaden. An das Erschrecken. An das, was nicht mehr gutzumachen ist.\n\nWir denken an Neckarsulm. An Beschäftigte bei Audi und an ihre Familien. Wo Arbeitsplätze und Zukunft unsicher sind, gib Halt und Besonnenheit.\n\nUnd wir bringen dir unseren eigenen Tag.\nUnsere Freude.\nUnsere Fehler.\nUnsere Müdigkeit.\n\nWas wir heute nicht geschafft haben, legen wir in deine Hand.\nHalte du diese unruhige Welt.\nSchenk uns Frieden für diese Nacht.\nUnd lass deine Hoffnung weiter atmen, wenn wir schlafen.\nAmen."
     },
     "instagram": {
       "caption": "Gott,\nder Tag liegt hinter uns.\nMit dem, was gut war.\nMit dem, was schwer war.\nMit dem, was offen blieb.\n\nWir bitten dich für Menschen in Litauen nach dem Abschuss einer Drohne über ihrem Land.\nFür Menschen in Deutschland, die unter organisierter Gewalt leiden.\nFür Baindt nach dem Stallbrand.\nFür Beschäftigte und Familien in Neckarsulm, die um ihre Zukunft bangen.\n\nWas wir heute nicht tragen können, legen wir in deine Hand.\nSchenk Frieden für diese Nacht.\nAmen.",
       "carousel": [
         {
-          "type": "intro",
-          "text": "Abendgebet"
+          "text": "Abendgebet",
+          "type": "intro"
         },
         {
-          "type": "text",
-          "text": "Der Tag liegt hinter uns. Mit dem, was gut war. Mit dem, was schwer war. Mit dem, was offen blieb."
+          "text": "Der Tag liegt hinter uns. Mit dem, was gut war. Mit dem, was schwer war. Mit dem, was offen blieb.",
+          "type": "text"
         },
         {
-          "type": "text",
-          "text": "Wir bitten dich für Menschen in Litauen nach dem Abschuss einer Drohne über ihrem Land. Schütze alle, die mit neuer Angst leben."
+          "text": "Wir bitten dich für Menschen in Litauen nach dem Abschuss einer Drohne über ihrem Land. Schütze alle, die mit neuer Angst leben.",
+          "type": "text"
         },
         {
-          "type": "text",
-          "text": "Wir bitten dich für Menschen, die unter organisierter Gewalt leiden. Für alle, die bedroht werden und heute Nacht nicht ruhig schlafen können."
+          "text": "Wir bitten dich für Menschen, die unter organisierter Gewalt leiden. Für alle, die bedroht werden und heute Nacht nicht ruhig schlafen können.",
+          "type": "text"
         },
         {
-          "type": "text",
-          "text": "Wir denken an Baindt nach dem Stallbrand. Und an Beschäftigte und Familien in Neckarsulm, die um ihre Zukunft bangen."
+          "text": "Wir denken an Baindt nach dem Stallbrand. Und an Beschäftigte und Familien in Neckarsulm, die um ihre Zukunft bangen.",
+          "type": "text"
         },
         {
-          "type": "text",
-          "text": "Was wir heute nicht geschafft haben, legen wir in deine Hand. Schenk Frieden für diese Nacht. Amen."
+          "text": "Was wir heute nicht geschafft haben, legen wir in deine Hand. Schenk Frieden für diese Nacht. Amen.",
+          "type": "text"
         }
       ]
     },
@@ -112,13 +112,13 @@
     "alt_text": "Eine ruhige Abendszene an einem Fenster: warmes Dämmerlicht fällt auf einen schlichten Holztisch mit einer brennenden Kerze und einer geöffneten Hand. Die Stimmung ist still und tröstlich."
   },
   "qa": {
+    "approved": false,
     "warnings": [
       "Alt text must be completed before approval",
       "Aktuelle Bezüge enthalten; vor Freigabe am 16.09.2026 morgens erneut auf Tragfähigkeit prüfen.",
       "Alt text redaktionell gegen finales Motiv prüfen.",
       "Gebetsformulierung zu organisierter Kriminalität sensibel gegen mögliche Stigmatisierung gegenlesen."
-    ],
-    "approved": false
+    ]
   },
   "metadata": {
     "model": "gpt-5.4-2026-03-05",
