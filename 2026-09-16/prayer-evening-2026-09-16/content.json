@@ -1,6 +1,6 @@
 {
   "id": "prayer-evening-2026-09-16",
-  "status": "zur Prüfung",
+  "status": "freigegeben",
   "needs_input": false,
   "source": {
     "calendar_post_id": "prayer-evening-2026-09-16",
@@ -108,7 +108,7 @@
     "alt_text": "Eine ruhige Abendszene an einem Fenster: warmes Dämmerlicht fällt auf einen schlichten Holztisch mit einer brennenden Kerze und einer geöffneten Hand. Die Stimmung ist still und tröstlich."
   },
   "qa": {
-    "approved": false,
+    "approved": true,
     "warnings": [
       "Field \"bluesky.text\" is 303 characters long and exceeds the plausibility limit of 300."
     ]
