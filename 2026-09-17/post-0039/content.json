@@ -11,7 +11,7 @@
   "editorial_core": {
     "title": "Eine offene Glaubensfrage, auf die es keine schnelle Antwort gibt",
     "main_message": "Mit einer echten, aber vollständig anonymisierten Frage beginnen.",
-    "audience": "[TODO: define audience after current inputs are available]",
+    "audience": "Menschen aus der Community, die über Glaubensfragen aus dem Religionsunterricht mitdenken möchten; genauer Zuschnitt erst nach Vorliegen der anonymisierten Unterrichtsbeobachtung.",
     "tone": [
       "klar",
       "ruhig",
@@ -23,56 +23,100 @@
       "Production mode: Rahmen vorproduzierbar; konkreten Anlass aktuell ergänzen",
       "Structure: anonymisierte Frage | warum sie mich beschäftigt | eine offene Antwort | Rückfrage an die Community",
       "AI support notes: Anonymisierung prüfen | altersgerechte Erklärung | Antwortvarianten | Symbolbild-Prompt",
-      "Current inputs required: anonymisierte Unterrichtsbeobachtung | Klassenstufe nur nennen, wenn unproblematisch"
+      "Current inputs required: anonymisierte Unterrichtsbeobachtung | Klassenstufe nur nennen, wenn unproblematisch",
+      "Kein konkreter Unterrichtsanlass vorhanden; daher nur vorproduzierbarer Rahmen ohne ausformulierte echte Frage.",
+      "Vor Veröffentlichung muss eine echte, vollständig anonymisierte Frage eingefügt und auf Rückverfolgbarkeit geprüft werden."
     ]
   },
   "platforms": {
     "facebook": {
-      "text": "",
-      "headline": ""
+      "text": "Heute geht es um eine Glaubensfrage aus dem Religionsunterricht.\n\nHier fehlt noch der konkrete, vollständig anonymisierte Anlass.\n\nAufbau für den finalen Post:\n1. eine echte anonymisierte Frage\n2. warum sie mich beschäftigt\n3. eine offene Antwort ohne schnelle Lösung\n4. eine Rückfrage an die Community\n\nWichtig vor Veröffentlichung: Keine erkennbaren Details zu Personen, Lerngruppen oder Situationen nennen.",
+      "headline": "Reli fragt: Eine offene Glaubensfrage"
     },
     "instagram": {
-      "caption": "",
-      "carousel": []
+      "caption": "Reli fragt.\n\nFür diesen Beitrag steht der Rahmen schon. Der konkrete Anlass fehlt noch, weil nur eine echte und vollständig anonymisierte Frage veröffentlicht werden soll.\n\nGeplanter Aufbau:\n• anonymisierte Frage\n• warum sie mich beschäftigt\n• eine offene Antwort\n• eure Gedanken dazu\n\nVor Veröffentlichung ergänzen:\n– anonymisierte Unterrichtsbeobachtung\n– Klassenstufe nur, wenn unproblematisch\n– alle erkennbaren Details streichen",
+      "carousel": [
+        {
+          "type": "title",
+          "text": "Reli fragt"
+        },
+        {
+          "type": "text",
+          "text": "Hier kommt eine echte Glaubensfrage aus dem Religionsunterricht hin. Vollständig anonymisiert."
+        },
+        {
+          "type": "text",
+          "text": "Warum mich diese Frage beschäftigt: Sie berührt mehr als eine schnelle richtige Antwort."
+        },
+        {
+          "type": "text",
+          "text": "Eine offene Antwort: Im Glauben gibt es Fragen, die man aushalten und gemeinsam bedenken muss."
+        },
+        {
+          "type": "text",
+          "text": "Rückfrage an die Community: Wie geht ihr mit Fragen um, die offen bleiben?"
+        }
+      ]
     },
     "mastodon": {
-      "text": ""
+      "text": "Reli fragt: Für diesen Post steht der Rahmen. Die konkrete Frage fehlt noch, weil sie echt und vollständig anonymisiert sein muss. Manche Glaubensfragen haben keine schnelle Antwort. Gerade deshalb lohnt es sich, ihnen Raum zu geben."
     },
     "bluesky": {
-      "text": ""
+      "text": "Reli fragt: Der Rahmen steht, die konkrete Frage wird erst mit einer echten und vollständig anonymisierten Unterrichtsbeobachtung ergänzt. Manche Glaubensfragen brauchen keine schnelle Lösung, sondern ehrliches Nachdenken."
     },
     "story": {
-      "slides": []
+      "slides": [
+        {
+          "text": "Reli fragt"
+        },
+        {
+          "text": "Hier fehlt noch eine echte, anonymisierte Glaubensfrage aus dem Unterricht."
+        },
+        {
+          "text": "Nicht jede Glaubensfrage hat eine schnelle Antwort."
+        },
+        {
+          "text": "Was hilft dir, offene Fragen im Glauben auszuhalten?"
+        }
+      ]
     },
     "reel": {
-      "hook": "",
-      "script": "",
-      "shots": [],
-      "duration_seconds": 0
+      "hook": "Nicht jede Glaubensfrage lässt sich in einem Satz beantworten.",
+      "script": "Für diesen Reel steht nur der Rahmen. Vor Veröffentlichung braucht es eine echte, vollständig anonymisierte Frage aus dem Religionsunterricht. Dann folgt kurz: die Frage, warum sie nachgeht, eine offene Antwort und eine ehrliche Rückfrage an die Community.",
+      "shots": [
+        "Neutrales Symbolbild: offenes Heft auf Tisch",
+        "Ruhige Nahaufnahme von einer Hand, die eine Seite umblättert",
+        "Detail von Licht auf leerem Klassen- oder Arbeitsraum ohne Menschen",
+        "Abschluss mit nachdenklicher, offener Stimmung"
+      ],
+      "duration_seconds": 20
     }
   },
   "visual": {
-    "concept": "",
-    "flux_prompt": "",
+    "concept": "Neutrales Symbolbild für eine offene Frage im Religionsunterricht: ruhige Lernatmosphäre ohne Personen, mit offenen Materialien und viel Raum für Nachdenken.",
+    "flux_prompt": "Ein schlichtes, ruhiges Symbolbild zu einer offenen Glaubensfrage im Religionsunterricht: offenes leeres Heft auf einem Tisch, daneben ein Stift, weiches Tageslicht, sachliche Lernatmosphäre, keine Menschen, keine erkennbaren Schulnamen, keine personenbezogenen Details, dokumentarischer Stil, natürliche Farben, viel Freiraum im Bild, nachdenkliche Stimmung.",
     "negative_prompt": "text, letters, logo, watermark",
     "formats": [
       "4:5",
       "9:16",
       "1.91:1"
     ],
-    "alt_text": ""
+    "alt_text": "Symbolbild: Ein offenes leeres Heft liegt mit einem Stift auf einem schlichten Tisch im weichen Tageslicht. Die Szene wirkt ruhig und nachdenklich."
   },
   "qa": {
     "warnings": [
       "Alt text must be completed before approval",
       "Current source inputs are still required before publication",
-      "Review privacy and factual accuracy before drafting"
+      "Review privacy and factual accuracy before drafting",
+      "Konkrete anonymisierte Unterrichtsbeobachtung fehlt; deshalb keine publikationsreife Endfassung.",
+      "Keine Klassenstufe nennen, wenn dadurch Rückschlüsse auf Personen oder Lerngruppen möglich werden.",
+      "Vor Veröffentlichung prüfen, ob die echte Frage auch indirekt niemanden erkennbar macht."
     ],
     "approved": false
   },
   "metadata": {
-    "model": "",
-    "generated_at": "",
+    "model": "gpt-5.4-2026-03-05",
+    "generated_at": "2026-09-16T16:51:56.731Z",
     "prompt_version": "1.0",
     "assets": []
   }
