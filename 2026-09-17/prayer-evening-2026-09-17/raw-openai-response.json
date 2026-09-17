@@ -1,0 +1,481 @@
+{
+  "id": "resp_06ac8ab9ff6ef0b5006aabac19bbf087d29e75713720727595",
+  "object": "response",
+  "created_at": 1789635609,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1789635645,
+  "error": null,
+  "frequency_penalty": 0,
+  "incomplete_details": null,
+  "instructions": "You are part of a Protestant social media editorial team. Write in clear, accessible, theologically responsible German without church clichés. Use short sentences and concrete imagery. Never invent events, people, school situations, quotes, or factual details. Do not include copyrighted full song verses. For Reli and community posts, only use current details when they are explicitly provided. Return content that strictly matches the requested JSON schema. Set needs_input to true whenever required facts are missing. Keep qa.approved false. Do not ask for any text inside generated images. When liturgical_context.resolved_weekly_verse is present, use its exact wording for Wochenspruch slots instead of placeholders. Use the web search tool before drafting to verify current situations. For prayer posts, current situations are mandatory: select at least two concrete, relevant situations from reliable current reporting, including tagesschau.de and SWR Aktuell Baden-Württemberg where relevant. Do not invent current events and do not replace concrete situations with generic references to crises.",
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.4-2026-03-05",
+  "moderation": null,
+  "output": [
+    {
+      "id": "ws_06ac8ab9ff6ef0b5006aabac1afddc87d2b7d6e20215bdf8be",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "queries": [
+          "site:tagesschau.de 16. September 2026 aktuelle Nachrichten",
+          "site:swr.de/swraktuell/baden-wuerttemberg 16. September 2026 Baden-Württemberg Nachrichten",
+          "Reuters September 16 2026 world news humanitarian conflict weather"
+        ],
+        "query": "site:tagesschau.de 16. September 2026 aktuelle Nachrichten"
+      }
+    },
+    {
+      "id": "ws_06ac8ab9ff6ef0b5006aabac1d45a487d2845a7488e5871545",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.tagesschau.de/archiv?datum=2026-09-16&filter=nachrichten"
+      }
+    },
+    {
+      "id": "ws_06ac8ab9ff6ef0b5006aabac1e652c87d2bb99b0e8b312af03",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.swr.de/swraktuell/baden-wuerttemberg/bw-newsticker-am-morgen-2026-09-16-100.html"
+      }
+    },
+    {
+      "id": "ws_06ac8ab9ff6ef0b5006aabac1f91f887d2b81b0526f8a68ff8",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "queries": [
+          "site:tagesschau.de 16.09.2026 Ukraine Russland aktuelle Nachrichten tagesschau",
+          "site:tagesschau.de 16.09.2026 Sudan Goldmine tagesschau"
+        ],
+        "query": "site:tagesschau.de 16.09.2026 Ukraine Russland aktuelle Nachrichten tagesschau"
+      }
+    },
+    {
+      "id": "msg_06ac8ab9ff6ef0b5006aabac22b4a487d2b8a64984298ef605",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\"id\":\"prayer-evening-2026-09-17\",\"status\":\"zur Prüfung\",\"needs_input\":false,\"source\":{\"calendar_post_id\":\"prayer-evening-2026-09-17\",\"date\":\"2026-09-17\",\"rubric\":\"Abendgebet\",\"liturgical_source\":\"\"},\"editorial_core\":{\"title\":\"Abendgebet\",\"main_message\":\"Ein ruhiges Abendgebet für alles, was heute gelungen ist und was offen blieb. Es nimmt konkrete Not in den Blick: die schwer verletzte einjährige Person nach dem Unfall mit einem Radlader in Ruppertshofen, die Menschen im Sudan nach dem Einsturz einer Goldmine mit vielen Toten und Vermissten, und es bittet um Gottes Nähe für alle, die heute Nacht nicht einfach zur Ruhe kommen.\",\"audience\":\"breite Öffentlichkeit\",\"tone\":[\"ruhig\",\"hoffnungsvoll\",\"geborgen\"],\"source_notes\":[\"Aktuelle Bezüge geprüft: SWR Aktuell Baden-Württemberg, 16.09.2026: schwer verletztes Kleinkind nach Unfall mit Radlader in Ruppertshofen; tagesschau.de, 16.09.2026: Einsturz einer Goldmine im Sudan mit mindestens 60 Toten und weiteren Vermissten.\",\"Zeitlich robust formuliert: keine Annahmen über Ereignisse am Veröffentlichungstag 17.09.2026.\",\"Gebet fokussiert auf zwei konkrete Situationen statt auf eine vollständige Nachrichtenlage.\",\"Theologisch: Hoffnung ohne billigen Optimismus; der Tag darf unvollendet bleiben.\"]},\"platforms\":{\"facebook\":{\"text\":\"Abend.\\nDer Tag muss nicht fertig sein.\\nNicht bei dir. Nicht in der Welt.\\n\\nGott,\\nwir kommen zur Ruhe.\\nMit allem, was heute gut war.\\nMit allem, was schwer war.\\nMit Sätzen, die noch nachklingen.\\nMit Aufgaben, die liegen geblieben sind.\\n\\nWir danken dir für das, was uns getragen hat.\\nFür Menschen, die freundlich waren.\\nFür Arbeit, die gelungen ist.\\nFür kleine lichte Momente.\\n\\nUnd wir legen dir hin, was unfertig bleibt.\\nUnsere Müdigkeit.\\nUnsere Fehler.\\nUnsere Sorge.\\nDen Streit, den wir nicht lösen konnten.\\nDie Nachricht, die uns nicht loslässt.\\n\\nWir bitten dich für das schwer verletzte einjährige Kind in Ruppertshofen.\\nFür seine Familie.\\nFür den Jungen, der den Radlader gefahren hat.\\nFür alle, die den Schreck dieses Unfalls mit in die Nacht nehmen.\\n\\nWir bitten dich für die Menschen im Sudan.\\nFür die Familien der Bergarbeiter, die beim Einsturz einer Goldmine gestorben sind.\\nFür die, die noch auf Nachricht über Vermisste warten.\\n\\nSei bei allen, die heute Nacht im Krankenhaus wachen.\\nBei Menschen im Dienst.\\nBei denen, die Angst haben.\\nBei denen, die nicht schlafen können.\\n\\nGib Frieden in unruhige Herzen.\\nUnd halte unsere Hoffnung wach.\\nDenn deine Zukunft endet nicht dort, wo unsere Kraft zu Ende ist.\\n\\nAmen.\",\"headline\":\"Abendgebet: Den Tag loslassen\"},\"instagram\":{\"caption\":\"Der Tag muss nicht fertig sein.\\n\\nGott,\\nwir legen dir hin, was heute gut war.\\nUnd was offen blieb.\\n\\nWir bitten dich für das schwer verletzte einjährige Kind nach dem Unfall in Ruppertshofen. Für seine Familie. Und für den Jungen, der den Radlader gefahren hat.\\n\\nWir bitten dich für die Menschen im Sudan. Für die Familien der Bergarbeiter, die beim Einsturz einer Goldmine Angehörige verloren haben. Und für alle, die auf Nachricht über Vermisste warten.\\n\\nSei bei allen, die heute Nacht wachen, arbeiten, helfen oder Angst haben.\\nSchenk Frieden für diese Nacht.\\nUnd halte Hoffnung in uns wach.\\n\\nAmen.\",\"carousel\":[{\"type\":\"text\",\"text\":\"Der Tag muss nicht fertig sein.\"},{\"type\":\"text\",\"text\":\"Gott, wir legen dir hin, was heute gut war. Und was offen blieb.\"},{\"type\":\"text\",\"text\":\"Wir bitten dich für das schwer verletzte einjährige Kind nach dem Unfall in Ruppertshofen. Für seine Familie. Und für den Jungen, der den Radlader gefahren hat.\"},{\"type\":\"text\",\"text\":\"Wir bitten dich für die Menschen im Sudan. Für die Familien der Bergarbeiter, die beim Einsturz einer Goldmine Angehörige verloren haben. Und für alle, die auf Nachricht über Vermisste warten.\"},{\"type\":\"text\",\"text\":\"Sei bei allen, die heute Nacht wachen, arbeiten, helfen oder Angst haben. Schenk Frieden für diese Nacht. Und halte Hoffnung in uns wach.\"}]},\"mastodon\":{\"text\":\"Abendgebet\\n\\nDer Tag muss nicht fertig sein.\\n\\nGott, wir legen dir hin, was heute gut war. Und was offen blieb.\\nWir bitten dich für das schwer verletzte einjährige Kind nach dem Unfall in Ruppertshofen. Für seine Familie. Und für den Jungen, der den Radlader gefahren hat.\\nWir bitten dich für die Menschen im Sudan. Für die Familien der Bergarbeiter, die beim Einsturz einer Goldmine Angehörige verloren haben. Und für alle, die auf Nachricht über Vermisste warten.\\n\\nSei bei allen, die heute Nacht wachen, helfen oder Angst haben.\\nSchenk Frieden für diese Nacht.\\nAmen.\"},\"bluesky\":{\"text\":\"Der Tag muss nicht fertig sein. Gott, wir legen dir hin, was heute gut war. Und was offen blieb. Wir bitten dich für das schwer verletzte Kind nach dem Unfall in Ruppertshofen und für die Menschen im Sudan nach dem Einsturz einer Goldmine. Schenk Frieden für diese Nacht. Amen.\"},\"story\":{\"slides\":[{\"text\":\"Der Tag muss nicht fertig sein.\"},{\"text\":\"Gott, wir legen dir hin, was heute gut war. Und was offen blieb.\"},{\"text\":\"Wir bitten dich für das schwer verletzte Kind nach dem Unfall in Ruppertshofen.\"},{\"text\":\"Wir bitten dich für die Menschen im Sudan nach dem Einsturz einer Goldmine.\"},{\"text\":\"Schenk Frieden für diese Nacht. Und halte Hoffnung in uns wach.\"}]},\"reel\":{\"hook\":\"Der Tag muss nicht fertig sein.\",\"script\":\"Der Tag liegt hinter uns. Mit Lichtmomenten. Mit Fehlern. Mit Dingen, die offen geblieben sind. Im Gebet darf all das in Gottes Hand. Wir bitten für das schwer verletzte Kind nach dem Unfall in Ruppertshofen. Für seine Familie. Und für den Jungen, der den Radlader gefahren hat. Wir bitten für die Menschen im Sudan nach dem Einsturz einer Goldmine. Für die Familien der Toten. Für alle, die auf Nachricht über Vermisste warten. Gott, gib Frieden für diese Nacht. Und halte Hoffnung in uns wach.\",\"shots\":[\"Abendliches Fensterlicht in einem stillen Zimmer\",\"Nahaufnahme einer Hand auf einem Tisch\",\"Langsame Aufnahme eines leeren Weges in der Dämmerung\",\"Sanftes Licht in einem Krankenhausflur ohne erkennbare Personen\",\"Dunkler Himmel mit langsam heller werdendem Horizont\"],\"duration_seconds\":29}},\"visual\":{\"concept\":\"Stiller Abendraum mit offenem Fenster, weichem Restlicht und einer ruhigen, unaufgeregten Atmosphäre. Keine Personen im Vordergrund. Das Bild soll Loslassen, Schutz und Hoffnung durch die Nacht vermitteln.\",\"flux_prompt\":\"Ein stiller Abendraum mit offenem Fenster, weiches blau-goldenes Dämmerungslicht, schlichter Holztisch, eine ruhige Lampe, sanfte Schatten, draußen ein dunkler werdender Himmel mit zartem Licht am Horizont, reduzierte Komposition, dokumentarisch-poetische Stimmung, realistisch, warm, hoffnungsvoll, keine Personen im Fokus, keine Schrift\",\"negative_prompt\":\"text, letters, logo, watermark\",\"formats\":[\"4:5\",\"9:16\",\"1.91:1\"],\"alt_text\":\"Ein ruhiger Raum am Abend. Durch ein offenes Fenster fällt weiches Dämmerungslicht. Ein schlichter Tisch und sanfte Schatten erzeugen eine stille, geborgene Stimmung.\"},\"qa\":{\"warnings\":[\"Aktuelle Bezüge eingebaut: Ruppertshofen und Sudan.\",\"Vor Freigabe Faktenlage am Veröffentlichungstagmorgen erneut kurz gegenprüfen, da der Text am Nachmittag des Vortags erstellt wird.\",\"Alt text redaktionell final prüfen.\"],\"approved\":false},\"metadata\":{\"model\":\"gpt-5\",\"generated_at\":\"2026-09-17T00:00:00Z\",\"prompt_version\":\"1.0\",\"assets\":[]}}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "current_turn",
+    "effort": "none",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1,
+  "text": {
+    "format": {
+      "type": "json_schema",
+      "description": null,
+      "name": "content_package",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "Idee",
+              "in Arbeit",
+              "zur Prüfung",
+              "freigegeben",
+              "terminiert",
+              "veröffentlicht",
+              "verworfen"
+            ]
+          },
+          "needs_input": {
+            "type": "boolean"
+          },
+          "source": {
+            "type": "object",
+            "properties": {
+              "calendar_post_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "date": {
+                "type": "string",
+                "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+              },
+              "rubric": {
+                "type": "string",
+                "minLength": 1
+              },
+              "liturgical_source": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "calendar_post_id",
+              "date",
+              "rubric",
+              "liturgical_source"
+            ],
+            "additionalProperties": false
+          },
+          "editorial_core": {
+            "type": "object",
+            "properties": {
+              "title": {
+                "type": "string"
+              },
+              "main_message": {
+                "type": "string"
+              },
+              "audience": {
+                "type": "string"
+              },
+              "tone": {
+                "minItems": 1,
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "source_notes": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "title",
+              "main_message",
+              "audience",
+              "tone",
+              "source_notes"
+            ],
+            "additionalProperties": false
+          },
+          "platforms": {
+            "type": "object",
+            "properties": {
+              "facebook": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  },
+                  "headline": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text",
+                  "headline"
+                ],
+                "additionalProperties": false
+              },
+              "instagram": {
+                "type": "object",
+                "properties": {
+                  "caption": {
+                    "type": "string"
+                  },
+                  "carousel": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "type": {
+                          "type": "string"
+                        },
+                        "text": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "type",
+                        "text"
+                      ],
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "required": [
+                  "caption",
+                  "carousel"
+                ],
+                "additionalProperties": false
+              },
+              "mastodon": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text"
+                ],
+                "additionalProperties": false
+              },
+              "bluesky": {
+                "default": {
+                  "text": ""
+                },
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text"
+                ],
+                "additionalProperties": false
+              },
+              "story": {
+                "type": "object",
+                "properties": {
+                  "slides": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "text": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "text"
+                      ],
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "required": [
+                  "slides"
+                ],
+                "additionalProperties": false
+              },
+              "reel": {
+                "type": "object",
+                "properties": {
+                  "hook": {
+                    "type": "string"
+                  },
+                  "script": {
+                    "type": "string"
+                  },
+                  "shots": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "duration_seconds": {
+                    "type": "integer",
+                    "minimum": 0,
+                    "maximum": 9007199254740991
+                  }
+                },
+                "required": [
+                  "hook",
+                  "script",
+                  "shots",
+                  "duration_seconds"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "required": [
+              "facebook",
+              "instagram",
+              "mastodon",
+              "bluesky",
+              "story",
+              "reel"
+            ],
+            "additionalProperties": false
+          },
+          "visual": {
+            "type": "object",
+            "properties": {
+              "concept": {
+                "type": "string"
+              },
+              "flux_prompt": {
+                "type": "string"
+              },
+              "negative_prompt": {
+                "type": "string",
+                "minLength": 1
+              },
+              "formats": {
+                "minItems": 1,
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "alt_text": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "concept",
+              "flux_prompt",
+              "negative_prompt",
+              "formats",
+              "alt_text"
+            ],
+            "additionalProperties": false
+          },
+          "qa": {
+            "type": "object",
+            "properties": {
+              "warnings": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "approved": {
+                "type": "boolean"
+              }
+            },
+            "required": [
+              "warnings",
+              "approved"
+            ],
+            "additionalProperties": false
+          },
+          "metadata": {
+            "type": "object",
+            "properties": {
+              "model": {
+                "type": "string"
+              },
+              "generated_at": {
+                "type": "string"
+              },
+              "prompt_version": {
+                "type": "string",
+                "minLength": 1
+              },
+              "assets": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "model",
+              "generated_at",
+              "prompt_version",
+              "assets"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "id",
+          "status",
+          "needs_input",
+          "source",
+          "editorial_core",
+          "platforms",
+          "visual",
+          "qa",
+          "metadata"
+        ],
+        "additionalProperties": false
+      },
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 2
+    }
+  },
+  "tools": [
+    {
+      "type": "web_search",
+      "return_token_budget": "default",
+      "search_content_types": [
+        "text"
+      ],
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 25255,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 2118,
+    "output_tokens_details": {
+      "reasoning_tokens": 297
+    },
+    "total_tokens": 27373
+  },
+  "user": null,
+  "metadata": {},
+  "output_text": "{\"id\":\"prayer-evening-2026-09-17\",\"status\":\"zur Prüfung\",\"needs_input\":false,\"source\":{\"calendar_post_id\":\"prayer-evening-2026-09-17\",\"date\":\"2026-09-17\",\"rubric\":\"Abendgebet\",\"liturgical_source\":\"\"},\"editorial_core\":{\"title\":\"Abendgebet\",\"main_message\":\"Ein ruhiges Abendgebet für alles, was heute gelungen ist und was offen blieb. Es nimmt konkrete Not in den Blick: die schwer verletzte einjährige Person nach dem Unfall mit einem Radlader in Ruppertshofen, die Menschen im Sudan nach dem Einsturz einer Goldmine mit vielen Toten und Vermissten, und es bittet um Gottes Nähe für alle, die heute Nacht nicht einfach zur Ruhe kommen.\",\"audience\":\"breite Öffentlichkeit\",\"tone\":[\"ruhig\",\"hoffnungsvoll\",\"geborgen\"],\"source_notes\":[\"Aktuelle Bezüge geprüft: SWR Aktuell Baden-Württemberg, 16.09.2026: schwer verletztes Kleinkind nach Unfall mit Radlader in Ruppertshofen; tagesschau.de, 16.09.2026: Einsturz einer Goldmine im Sudan mit mindestens 60 Toten und weiteren Vermissten.\",\"Zeitlich robust formuliert: keine Annahmen über Ereignisse am Veröffentlichungstag 17.09.2026.\",\"Gebet fokussiert auf zwei konkrete Situationen statt auf eine vollständige Nachrichtenlage.\",\"Theologisch: Hoffnung ohne billigen Optimismus; der Tag darf unvollendet bleiben.\"]},\"platforms\":{\"facebook\":{\"text\":\"Abend.\\nDer Tag muss nicht fertig sein.\\nNicht bei dir. Nicht in der Welt.\\n\\nGott,\\nwir kommen zur Ruhe.\\nMit allem, was heute gut war.\\nMit allem, was schwer war.\\nMit Sätzen, die noch nachklingen.\\nMit Aufgaben, die liegen geblieben sind.\\n\\nWir danken dir für das, was uns getragen hat.\\nFür Menschen, die freundlich waren.\\nFür Arbeit, die gelungen ist.\\nFür kleine lichte Momente.\\n\\nUnd wir legen dir hin, was unfertig bleibt.\\nUnsere Müdigkeit.\\nUnsere Fehler.\\nUnsere Sorge.\\nDen Streit, den wir nicht lösen konnten.\\nDie Nachricht, die uns nicht loslässt.\\n\\nWir bitten dich für das schwer verletzte einjährige Kind in Ruppertshofen.\\nFür seine Familie.\\nFür den Jungen, der den Radlader gefahren hat.\\nFür alle, die den Schreck dieses Unfalls mit in die Nacht nehmen.\\n\\nWir bitten dich für die Menschen im Sudan.\\nFür die Familien der Bergarbeiter, die beim Einsturz einer Goldmine gestorben sind.\\nFür die, die noch auf Nachricht über Vermisste warten.\\n\\nSei bei allen, die heute Nacht im Krankenhaus wachen.\\nBei Menschen im Dienst.\\nBei denen, die Angst haben.\\nBei denen, die nicht schlafen können.\\n\\nGib Frieden in unruhige Herzen.\\nUnd halte unsere Hoffnung wach.\\nDenn deine Zukunft endet nicht dort, wo unsere Kraft zu Ende ist.\\n\\nAmen.\",\"headline\":\"Abendgebet: Den Tag loslassen\"},\"instagram\":{\"caption\":\"Der Tag muss nicht fertig sein.\\n\\nGott,\\nwir legen dir hin, was heute gut war.\\nUnd was offen blieb.\\n\\nWir bitten dich für das schwer verletzte einjährige Kind nach dem Unfall in Ruppertshofen. Für seine Familie. Und für den Jungen, der den Radlader gefahren hat.\\n\\nWir bitten dich für die Menschen im Sudan. Für die Familien der Bergarbeiter, die beim Einsturz einer Goldmine Angehörige verloren haben. Und für alle, die auf Nachricht über Vermisste warten.\\n\\nSei bei allen, die heute Nacht wachen, arbeiten, helfen oder Angst haben.\\nSchenk Frieden für diese Nacht.\\nUnd halte Hoffnung in uns wach.\\n\\nAmen.\",\"carousel\":[{\"type\":\"text\",\"text\":\"Der Tag muss nicht fertig sein.\"},{\"type\":\"text\",\"text\":\"Gott, wir legen dir hin, was heute gut war. Und was offen blieb.\"},{\"type\":\"text\",\"text\":\"Wir bitten dich für das schwer verletzte einjährige Kind nach dem Unfall in Ruppertshofen. Für seine Familie. Und für den Jungen, der den Radlader gefahren hat.\"},{\"type\":\"text\",\"text\":\"Wir bitten dich für die Menschen im Sudan. Für die Familien der Bergarbeiter, die beim Einsturz einer Goldmine Angehörige verloren haben. Und für alle, die auf Nachricht über Vermisste warten.\"},{\"type\":\"text\",\"text\":\"Sei bei allen, die heute Nacht wachen, arbeiten, helfen oder Angst haben. Schenk Frieden für diese Nacht. Und halte Hoffnung in uns wach.\"}]},\"mastodon\":{\"text\":\"Abendgebet\\n\\nDer Tag muss nicht fertig sein.\\n\\nGott, wir legen dir hin, was heute gut war. Und was offen blieb.\\nWir bitten dich für das schwer verletzte einjährige Kind nach dem Unfall in Ruppertshofen. Für seine Familie. Und für den Jungen, der den Radlader gefahren hat.\\nWir bitten dich für die Menschen im Sudan. Für die Familien der Bergarbeiter, die beim Einsturz einer Goldmine Angehörige verloren haben. Und für alle, die auf Nachricht über Vermisste warten.\\n\\nSei bei allen, die heute Nacht wachen, helfen oder Angst haben.\\nSchenk Frieden für diese Nacht.\\nAmen.\"},\"bluesky\":{\"text\":\"Der Tag muss nicht fertig sein. Gott, wir legen dir hin, was heute gut war. Und was offen blieb. Wir bitten dich für das schwer verletzte Kind nach dem Unfall in Ruppertshofen und für die Menschen im Sudan nach dem Einsturz einer Goldmine. Schenk Frieden für diese Nacht. Amen.\"},\"story\":{\"slides\":[{\"text\":\"Der Tag muss nicht fertig sein.\"},{\"text\":\"Gott, wir legen dir hin, was heute gut war. Und was offen blieb.\"},{\"text\":\"Wir bitten dich für das schwer verletzte Kind nach dem Unfall in Ruppertshofen.\"},{\"text\":\"Wir bitten dich für die Menschen im Sudan nach dem Einsturz einer Goldmine.\"},{\"text\":\"Schenk Frieden für diese Nacht. Und halte Hoffnung in uns wach.\"}]},\"reel\":{\"hook\":\"Der Tag muss nicht fertig sein.\",\"script\":\"Der Tag liegt hinter uns. Mit Lichtmomenten. Mit Fehlern. Mit Dingen, die offen geblieben sind. Im Gebet darf all das in Gottes Hand. Wir bitten für das schwer verletzte Kind nach dem Unfall in Ruppertshofen. Für seine Familie. Und für den Jungen, der den Radlader gefahren hat. Wir bitten für die Menschen im Sudan nach dem Einsturz einer Goldmine. Für die Familien der Toten. Für alle, die auf Nachricht über Vermisste warten. Gott, gib Frieden für diese Nacht. Und halte Hoffnung in uns wach.\",\"shots\":[\"Abendliches Fensterlicht in einem stillen Zimmer\",\"Nahaufnahme einer Hand auf einem Tisch\",\"Langsame Aufnahme eines leeren Weges in der Dämmerung\",\"Sanftes Licht in einem Krankenhausflur ohne erkennbare Personen\",\"Dunkler Himmel mit langsam heller werdendem Horizont\"],\"duration_seconds\":29}},\"visual\":{\"concept\":\"Stiller Abendraum mit offenem Fenster, weichem Restlicht und einer ruhigen, unaufgeregten Atmosphäre. Keine Personen im Vordergrund. Das Bild soll Loslassen, Schutz und Hoffnung durch die Nacht vermitteln.\",\"flux_prompt\":\"Ein stiller Abendraum mit offenem Fenster, weiches blau-goldenes Dämmerungslicht, schlichter Holztisch, eine ruhige Lampe, sanfte Schatten, draußen ein dunkler werdender Himmel mit zartem Licht am Horizont, reduzierte Komposition, dokumentarisch-poetische Stimmung, realistisch, warm, hoffnungsvoll, keine Personen im Fokus, keine Schrift\",\"negative_prompt\":\"text, letters, logo, watermark\",\"formats\":[\"4:5\",\"9:16\",\"1.91:1\"],\"alt_text\":\"Ein ruhiger Raum am Abend. Durch ein offenes Fenster fällt weiches Dämmerungslicht. Ein schlichter Tisch und sanfte Schatten erzeugen eine stille, geborgene Stimmung.\"},\"qa\":{\"warnings\":[\"Aktuelle Bezüge eingebaut: Ruppertshofen und Sudan.\",\"Vor Freigabe Faktenlage am Veröffentlichungstagmorgen erneut kurz gegenprüfen, da der Text am Nachmittag des Vortags erstellt wird.\",\"Alt text redaktionell final prüfen.\"],\"approved\":false},\"metadata\":{\"model\":\"gpt-5\",\"generated_at\":\"2026-09-17T00:00:00Z\",\"prompt_version\":\"1.0\",\"assets\":[]}}"
+}
