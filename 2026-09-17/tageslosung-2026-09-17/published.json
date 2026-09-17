@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-17",
+    "contentDate": "2026-09-17",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-09-17T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Führe mich aus dem Kerker, dass ich preise deinen Namen.",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Führe mich aus dem Kerker, dass ich preise deinen Namen."
+    ],
+    "id": "30408ba6-4f78-437d-a3c7-b206cade5062",
+    "attemptCount": 1,
+    "remoteId": "17992580126840574",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:45:32.312Z",
+    "updatedAt": "2026-09-17T05:00:41.960Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-17",
+    "contentDate": "2026-09-17",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-09-17T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Führe mich aus dem Kerker, dass ich preise deinen Namen.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Führe mich aus dem Kerker, dass ich preise deinen Namen."
+    ],
+    "id": "404147b4-f373-4cef-8c53-6f3cfeaf0990",
+    "attemptCount": 1,
+    "remoteId": "117284617820427017",
+    "remoteUrl": "https://kirche.social/@christoph/117284617820427017",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:45:32.317Z",
+    "updatedAt": "2026-09-17T05:00:43.646Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
