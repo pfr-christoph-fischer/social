@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-09-17",
+    "contentDate": "2026-09-17",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-09-17T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Jeder hat das Recht auf eine Staatsangehörigkeit. (Allgemeine Erklärung der Menschenrechte, Artikel 15 Absatz 1)",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Jeder hat das Recht auf eine Staatsangehörigkeit. (Allgemeine Erklärung der Menschenrechte, Artikel 15 Absatz 1)"
+    ],
+    "id": "097b031e-14f9-418c-b5ba-ccb898709282",
+    "attemptCount": 1,
+    "remoteId": "18102069119000863",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:38:10.633Z",
+    "updatedAt": "2026-09-17T10:00:28.680Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-09-17",
+    "contentDate": "2026-09-17",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-09-17T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Jeder hat das Recht auf eine Staatsangehörigkeit. (Allgemeine Erklärung der Menschenrechte, Artikel 15 Absatz 1)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Jeder hat das Recht auf eine Staatsangehörigkeit. (Allgemeine Erklärung der Menschenrechte, Artikel 15 Absatz 1)"
+    ],
+    "id": "c26b6194-be10-416d-bbbc-15fe02c36d7d",
+    "attemptCount": 1,
+    "remoteId": "117285796589837776",
+    "remoteUrl": "https://kirche.social/@christoph/117285796589837776",
+    "lastError": null,
+    "createdAt": "2026-08-26T15:38:10.687Z",
+    "updatedAt": "2026-09-17T10:00:30.619Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
