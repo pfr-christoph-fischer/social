@@ -1,0 +1,420 @@
+{
+  "id": "resp_04cb57d133724a12006aaccebb5f4487d286ba6a892b7687a8",
+  "object": "response",
+  "created_at": 1789710011,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1789710029,
+  "error": null,
+  "frequency_penalty": 0,
+  "incomplete_details": null,
+  "instructions": "You are part of a Protestant social media editorial team. Write in clear, accessible, theologically responsible German without church clichés. Use short sentences and concrete imagery. Never invent events, people, school situations, quotes, or factual details. Do not include copyrighted full song verses. For Reli and community posts, only use current details when they are explicitly provided. Return content that strictly matches the requested JSON schema. Set needs_input to true whenever required facts are missing. Keep qa.approved false. Do not ask for any text inside generated images. When liturgical_context.resolved_weekly_verse is present, use its exact wording for Wochenspruch slots instead of placeholders.",
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.4-2026-03-05",
+  "moderation": null,
+  "output": [
+    {
+      "id": "msg_04cb57d133724a12006aaccebc349087d2a63104facfcba98f",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\"id\":\"post-0040\",\"status\":\"in Arbeit\",\"needs_input\":false,\"source\":{\"calendar_post_id\":\"post-0040\",\"date\":\"2026-09-18\",\"rubric\":\"Gebet oder Lied\",\"liturgical_source\":\"https://kirchenjahr.pfarr.tools/api/jahr/2026\"},\"editorial_core\":{\"title\":\"Liedgedanke: NL 118 – Der Herr segne dich\",\"main_message\":\"Zum Wochenabschluss: Gottes Segen trägt, was schwer geworden ist. Alle eure Sorge werft auf ihn; denn er sorgt für euch.\",\"audience\":\"breite Öffentlichkeit\",\"tone\":[\"klar\",\"ruhig\",\"zugänglich\"],\"source_notes\":[\"Goal: Die Woche geistlich sammeln und auf das Wochenende hin öffnen.\",\"Column: Spiritualität\",\"Production mode: vollständig vorproduzierbar\",\"Structure: ein konkretes Lebensthema | knappe geistliche Sprache | kein Erklärton\",\"AI support notes: Gebetsentwurf | sprachliche Verdichtung | Reel-Sprechtext | Alt-Text\",\"Liturgical source: https://kirchenjahr.pfarr.tools/api/jahr/2026 (2026-09-13, $.Tage['2026-09-13'])\",\"Wochenspruch: Alle eure Sorge werft auf ihn; denn er sorgt für euch. (1. Petr 5,7)\",\"Urheberrecht beachten: keine vollständige Liedstrophe abdrucken; nur Titel und eigene Paraphrase verwenden.\"]},\"platforms\":{\"facebook\":{\"text\":\"Liedgedanke zum Wochenende.\\n\\n„Der Herr segne dich“ – ein Liedtitel wie eine offene Hand.\\nFür alles, was diese Woche liegen geblieben ist.\\nFür das, was drückt.\\nFür das, was noch keinen Namen hat.\\n\\nAlle eure Sorge werft auf ihn; denn er sorgt für euch. (1. Petr 5,7)\\n\\nGott,\\nsegne, was müde ist.\\nBehüte, was verletzt ist.\\nOrdne, was in mir durcheinanderliegt.\\nGib mir Ruhe für diese Nacht\\nund Mut für den nächsten Schritt.\\nAmen.\",\"headline\":\"Liedgedanke: Der Herr segne dich\"},\"instagram\":{\"caption\":\"Zum Wochenende ein Liedgedanke.\\n\\n„Der Herr segne dich“.\\nKein großes Wort. Eher wie ein Atemzug.\\nFür volle Tage.\\nFür schwere Gedanken.\\nFür alles, was noch nachklingt.\\n\\nAlle eure Sorge werft auf ihn; denn er sorgt für euch. (1. Petr 5,7)\\n\\nGott,\\nsegne, was müde ist.\\nBehüte, was verletzt ist.\\nOrdne, was in mir durcheinanderliegt.\\nGib mir Ruhe und einen klaren nächsten Schritt.\\nAmen.\",\"carousel\":[{\"type\":\"cover\",\"text\":\"Zum Wochenende: Segen für alles, was schwer geworden ist.\"},{\"type\":\"quote\",\"text\":\"Alle eure Sorge werft auf ihn; denn er sorgt für euch. (1. Petr 5,7)\"},{\"type\":\"prayer\",\"text\":\"Gott, segne, was müde ist. Behüte, was verletzt ist. Ordne, was in mir durcheinanderliegt.\"},{\"type\":\"closing\",\"text\":\"Gib mir Ruhe und einen klaren nächsten Schritt. Amen.\"}]},\"mastodon\":{\"text\":\"Zum Wochenende ein Liedgedanke: „Der Herr segne dich“.\\n\\nFür alles, was diese Woche schwer geworden ist.\\n\\nAlle eure Sorge werft auf ihn; denn er sorgt für euch. (1. Petr 5,7)\\n\\nGott, segne, was müde ist. Behüte, was verletzt ist. Gib Ruhe und einen klaren nächsten Schritt. Amen.\"},\"bluesky\":{\"text\":\"Zum Wochenende ein Liedgedanke: „Der Herr segne dich“.\\n\\nAlle eure Sorge werft auf ihn; denn er sorgt für euch. (1. Petr 5,7)\\n\\nGott, segne, was müde ist. Behüte, was verletzt ist. Gib Ruhe und einen klaren nächsten Schritt. Amen.\"},\"story\":{\"slides\":[{\"text\":\"Zum Wochenende: ein Liedgedanke.\"},{\"text\":\"„Der Herr segne dich“ – für alles, was schwer geworden ist.\"},{\"text\":\"Alle eure Sorge werft auf ihn; denn er sorgt für euch. (1. Petr 5,7)\"},{\"text\":\"Gott, segne, was müde ist. Gib Ruhe und einen klaren nächsten Schritt. Amen.\"}]},\"reel\":{\"hook\":\"Wenn die Woche noch in den Schultern sitzt.\",\"script\":\"Wenn die Woche noch in den Schultern sitzt, darf dieser Segen bleiben.\\n„Der Herr segne dich“.\\nNicht laut. Nicht fern.\\nNah für das, was drückt.\\nNah für müde Gedanken.\\nNah für den nächsten Schritt.\\n\\nAlle eure Sorge werft auf ihn; denn er sorgt für euch.\\n\\nGott,\\nsegne, was müde ist.\\nBehüte, was verletzt ist.\\nOrdne, was in mir durcheinanderliegt.\\nGib mir Ruhe und Mut.\\nAmen.\",\"shots\":[\"Ruhige Totale eines stillen Weges im Abendlicht\",\"Nahaufnahme von Händen, die still aufeinanderliegen\",\"Langsame Bewegung über einen Tisch mit brennender Kerze und offenem Raum\",\"Blick in den Himmel oder in Baumkronen im weichen Licht\",\"Abblendung in eine ruhige, leere Szene\"],\"duration_seconds\":24}},\"visual\":{\"concept\":\"Ruhige, warme Wochenendstimmung: ein stiller Weg oder offener Raum im Abendlicht als Bild für Loslassen, Segen und einen behüteten Übergang in das Wochenende.\",\"flux_prompt\":\"Fotorealistisches ruhiges Motiv im warmen Abendlicht, stiller Weg oder schlichter offener Raum, weiche Schatten, natürliche Farben, zurückhaltende protestantische Bildsprache, Atmosphäre von Ruhe, Loslassen und Segen, minimalistisch, menschenleer oder nur angedeutete Hände ohne Gesichter, hohe Bildqualität\",\"negative_prompt\":\"text, letters, logo, watermark\",\"formats\":[\"4:5\",\"9:16\",\"1.91:1\"],\"alt_text\":\"Ein ruhiger Weg im warmen Abendlicht mit weichen Schatten. Die Szene wirkt still und offen und vermittelt Ruhe, Loslassen und einen behüteten Übergang ins Wochenende.\"},\"qa\":{\"warnings\":[\"Check song lyric copyright before publication\",\"Prüfen, ob „NL 118“ in der jeweiligen Veröffentlichung erklärt werden muss\",\"Alt-Text redaktionell gegen finales Motiv abgleichen\"],\"approved\":false},\"metadata\":{\"model\":\"gpt-5\",\"generated_at\":\"2026-09-18T00:00:00Z\",\"prompt_version\":\"1.0\",\"assets\":[]}}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "current_turn",
+    "effort": "none",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1,
+  "text": {
+    "format": {
+      "type": "json_schema",
+      "description": null,
+      "name": "content_package",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "Idee",
+              "in Arbeit",
+              "zur Prüfung",
+              "freigegeben",
+              "terminiert",
+              "veröffentlicht",
+              "verworfen"
+            ]
+          },
+          "needs_input": {
+            "type": "boolean"
+          },
+          "source": {
+            "type": "object",
+            "properties": {
+              "calendar_post_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "date": {
+                "type": "string",
+                "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+              },
+              "rubric": {
+                "type": "string",
+                "minLength": 1
+              },
+              "liturgical_source": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "calendar_post_id",
+              "date",
+              "rubric",
+              "liturgical_source"
+            ],
+            "additionalProperties": false
+          },
+          "editorial_core": {
+            "type": "object",
+            "properties": {
+              "title": {
+                "type": "string"
+              },
+              "main_message": {
+                "type": "string"
+              },
+              "audience": {
+                "type": "string"
+              },
+              "tone": {
+                "minItems": 1,
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "source_notes": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "title",
+              "main_message",
+              "audience",
+              "tone",
+              "source_notes"
+            ],
+            "additionalProperties": false
+          },
+          "platforms": {
+            "type": "object",
+            "properties": {
+              "facebook": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  },
+                  "headline": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text",
+                  "headline"
+                ],
+                "additionalProperties": false
+              },
+              "instagram": {
+                "type": "object",
+                "properties": {
+                  "caption": {
+                    "type": "string"
+                  },
+                  "carousel": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "type": {
+                          "type": "string"
+                        },
+                        "text": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "type",
+                        "text"
+                      ],
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "required": [
+                  "caption",
+                  "carousel"
+                ],
+                "additionalProperties": false
+              },
+              "mastodon": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text"
+                ],
+                "additionalProperties": false
+              },
+              "bluesky": {
+                "default": {
+                  "text": ""
+                },
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text"
+                ],
+                "additionalProperties": false
+              },
+              "story": {
+                "type": "object",
+                "properties": {
+                  "slides": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "text": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "text"
+                      ],
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "required": [
+                  "slides"
+                ],
+                "additionalProperties": false
+              },
+              "reel": {
+                "type": "object",
+                "properties": {
+                  "hook": {
+                    "type": "string"
+                  },
+                  "script": {
+                    "type": "string"
+                  },
+                  "shots": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "duration_seconds": {
+                    "type": "integer",
+                    "minimum": 0,
+                    "maximum": 9007199254740991
+                  }
+                },
+                "required": [
+                  "hook",
+                  "script",
+                  "shots",
+                  "duration_seconds"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "required": [
+              "facebook",
+              "instagram",
+              "mastodon",
+              "bluesky",
+              "story",
+              "reel"
+            ],
+            "additionalProperties": false
+          },
+          "visual": {
+            "type": "object",
+            "properties": {
+              "concept": {
+                "type": "string"
+              },
+              "flux_prompt": {
+                "type": "string"
+              },
+              "negative_prompt": {
+                "type": "string",
+                "minLength": 1
+              },
+              "formats": {
+                "minItems": 1,
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "alt_text": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "concept",
+              "flux_prompt",
+              "negative_prompt",
+              "formats",
+              "alt_text"
+            ],
+            "additionalProperties": false
+          },
+          "qa": {
+            "type": "object",
+            "properties": {
+              "warnings": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "approved": {
+                "type": "boolean"
+              }
+            },
+            "required": [
+              "warnings",
+              "approved"
+            ],
+            "additionalProperties": false
+          },
+          "metadata": {
+            "type": "object",
+            "properties": {
+              "model": {
+                "type": "string"
+              },
+              "generated_at": {
+                "type": "string"
+              },
+              "prompt_version": {
+                "type": "string",
+                "minLength": 1
+              },
+              "assets": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "model",
+              "generated_at",
+              "prompt_version",
+              "assets"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "id",
+          "status",
+          "needs_input",
+          "source",
+          "editorial_core",
+          "platforms",
+          "visual",
+          "qa",
+          "metadata"
+        ],
+        "additionalProperties": false
+      },
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 1914,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1440,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 3354
+  },
+  "user": null,
+  "metadata": {},
+  "output_text": "{\"id\":\"post-0040\",\"status\":\"in Arbeit\",\"needs_input\":false,\"source\":{\"calendar_post_id\":\"post-0040\",\"date\":\"2026-09-18\",\"rubric\":\"Gebet oder Lied\",\"liturgical_source\":\"https://kirchenjahr.pfarr.tools/api/jahr/2026\"},\"editorial_core\":{\"title\":\"Liedgedanke: NL 118 – Der Herr segne dich\",\"main_message\":\"Zum Wochenabschluss: Gottes Segen trägt, was schwer geworden ist. Alle eure Sorge werft auf ihn; denn er sorgt für euch.\",\"audience\":\"breite Öffentlichkeit\",\"tone\":[\"klar\",\"ruhig\",\"zugänglich\"],\"source_notes\":[\"Goal: Die Woche geistlich sammeln und auf das Wochenende hin öffnen.\",\"Column: Spiritualität\",\"Production mode: vollständig vorproduzierbar\",\"Structure: ein konkretes Lebensthema | knappe geistliche Sprache | kein Erklärton\",\"AI support notes: Gebetsentwurf | sprachliche Verdichtung | Reel-Sprechtext | Alt-Text\",\"Liturgical source: https://kirchenjahr.pfarr.tools/api/jahr/2026 (2026-09-13, $.Tage['2026-09-13'])\",\"Wochenspruch: Alle eure Sorge werft auf ihn; denn er sorgt für euch. (1. Petr 5,7)\",\"Urheberrecht beachten: keine vollständige Liedstrophe abdrucken; nur Titel und eigene Paraphrase verwenden.\"]},\"platforms\":{\"facebook\":{\"text\":\"Liedgedanke zum Wochenende.\\n\\n„Der Herr segne dich“ – ein Liedtitel wie eine offene Hand.\\nFür alles, was diese Woche liegen geblieben ist.\\nFür das, was drückt.\\nFür das, was noch keinen Namen hat.\\n\\nAlle eure Sorge werft auf ihn; denn er sorgt für euch. (1. Petr 5,7)\\n\\nGott,\\nsegne, was müde ist.\\nBehüte, was verletzt ist.\\nOrdne, was in mir durcheinanderliegt.\\nGib mir Ruhe für diese Nacht\\nund Mut für den nächsten Schritt.\\nAmen.\",\"headline\":\"Liedgedanke: Der Herr segne dich\"},\"instagram\":{\"caption\":\"Zum Wochenende ein Liedgedanke.\\n\\n„Der Herr segne dich“.\\nKein großes Wort. Eher wie ein Atemzug.\\nFür volle Tage.\\nFür schwere Gedanken.\\nFür alles, was noch nachklingt.\\n\\nAlle eure Sorge werft auf ihn; denn er sorgt für euch. (1. Petr 5,7)\\n\\nGott,\\nsegne, was müde ist.\\nBehüte, was verletzt ist.\\nOrdne, was in mir durcheinanderliegt.\\nGib mir Ruhe und einen klaren nächsten Schritt.\\nAmen.\",\"carousel\":[{\"type\":\"cover\",\"text\":\"Zum Wochenende: Segen für alles, was schwer geworden ist.\"},{\"type\":\"quote\",\"text\":\"Alle eure Sorge werft auf ihn; denn er sorgt für euch. (1. Petr 5,7)\"},{\"type\":\"prayer\",\"text\":\"Gott, segne, was müde ist. Behüte, was verletzt ist. Ordne, was in mir durcheinanderliegt.\"},{\"type\":\"closing\",\"text\":\"Gib mir Ruhe und einen klaren nächsten Schritt. Amen.\"}]},\"mastodon\":{\"text\":\"Zum Wochenende ein Liedgedanke: „Der Herr segne dich“.\\n\\nFür alles, was diese Woche schwer geworden ist.\\n\\nAlle eure Sorge werft auf ihn; denn er sorgt für euch. (1. Petr 5,7)\\n\\nGott, segne, was müde ist. Behüte, was verletzt ist. Gib Ruhe und einen klaren nächsten Schritt. Amen.\"},\"bluesky\":{\"text\":\"Zum Wochenende ein Liedgedanke: „Der Herr segne dich“.\\n\\nAlle eure Sorge werft auf ihn; denn er sorgt für euch. (1. Petr 5,7)\\n\\nGott, segne, was müde ist. Behüte, was verletzt ist. Gib Ruhe und einen klaren nächsten Schritt. Amen.\"},\"story\":{\"slides\":[{\"text\":\"Zum Wochenende: ein Liedgedanke.\"},{\"text\":\"„Der Herr segne dich“ – für alles, was schwer geworden ist.\"},{\"text\":\"Alle eure Sorge werft auf ihn; denn er sorgt für euch. (1. Petr 5,7)\"},{\"text\":\"Gott, segne, was müde ist. Gib Ruhe und einen klaren nächsten Schritt. Amen.\"}]},\"reel\":{\"hook\":\"Wenn die Woche noch in den Schultern sitzt.\",\"script\":\"Wenn die Woche noch in den Schultern sitzt, darf dieser Segen bleiben.\\n„Der Herr segne dich“.\\nNicht laut. Nicht fern.\\nNah für das, was drückt.\\nNah für müde Gedanken.\\nNah für den nächsten Schritt.\\n\\nAlle eure Sorge werft auf ihn; denn er sorgt für euch.\\n\\nGott,\\nsegne, was müde ist.\\nBehüte, was verletzt ist.\\nOrdne, was in mir durcheinanderliegt.\\nGib mir Ruhe und Mut.\\nAmen.\",\"shots\":[\"Ruhige Totale eines stillen Weges im Abendlicht\",\"Nahaufnahme von Händen, die still aufeinanderliegen\",\"Langsame Bewegung über einen Tisch mit brennender Kerze und offenem Raum\",\"Blick in den Himmel oder in Baumkronen im weichen Licht\",\"Abblendung in eine ruhige, leere Szene\"],\"duration_seconds\":24}},\"visual\":{\"concept\":\"Ruhige, warme Wochenendstimmung: ein stiller Weg oder offener Raum im Abendlicht als Bild für Loslassen, Segen und einen behüteten Übergang in das Wochenende.\",\"flux_prompt\":\"Fotorealistisches ruhiges Motiv im warmen Abendlicht, stiller Weg oder schlichter offener Raum, weiche Schatten, natürliche Farben, zurückhaltende protestantische Bildsprache, Atmosphäre von Ruhe, Loslassen und Segen, minimalistisch, menschenleer oder nur angedeutete Hände ohne Gesichter, hohe Bildqualität\",\"negative_prompt\":\"text, letters, logo, watermark\",\"formats\":[\"4:5\",\"9:16\",\"1.91:1\"],\"alt_text\":\"Ein ruhiger Weg im warmen Abendlicht mit weichen Schatten. Die Szene wirkt still und offen und vermittelt Ruhe, Loslassen und einen behüteten Übergang ins Wochenende.\"},\"qa\":{\"warnings\":[\"Check song lyric copyright before publication\",\"Prüfen, ob „NL 118“ in der jeweiligen Veröffentlichung erklärt werden muss\",\"Alt-Text redaktionell gegen finales Motiv abgleichen\"],\"approved\":false},\"metadata\":{\"model\":\"gpt-5\",\"generated_at\":\"2026-09-18T00:00:00Z\",\"prompt_version\":\"1.0\",\"assets\":[]}}"
+}

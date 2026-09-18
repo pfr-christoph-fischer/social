@@ -10,7 +10,7 @@
   },
   "editorial_core": {
     "title": "Liedgedanke: NL 118 – Der Herr segne dich",
-    "main_message": "Keine vollständige urheberrechtlich geschützte Strophe abdrucken; Titel, kurze zulässige Zeile oder eigene Paraphrase verwenden.",
+    "main_message": "Zum Wochenabschluss: Gottes Segen trägt, was schwer geworden ist. Alle eure Sorge werft auf ihn; denn er sorgt für euch.",
     "audience": "breite Öffentlichkeit",
     "tone": [
       "klar",
@@ -23,55 +23,95 @@
       "Production mode: vollständig vorproduzierbar",
       "Structure: ein konkretes Lebensthema | knappe geistliche Sprache | kein Erklärton",
       "AI support notes: Gebetsentwurf | sprachliche Verdichtung | Reel-Sprechtext | Alt-Text",
-      "Liturgical source: https://kirchenjahr.pfarr.tools/api/jahr/2026 (2026-09-13, $.Tage['2026-09-13'])"
+      "Liturgical source: https://kirchenjahr.pfarr.tools/api/jahr/2026 (2026-09-13, $.Tage['2026-09-13'])",
+      "Wochenspruch: Alle eure Sorge werft auf ihn; denn er sorgt für euch. (1. Petr 5,7)",
+      "Urheberrecht beachten: keine vollständige Liedstrophe abdrucken; nur Titel und eigene Paraphrase verwenden."
     ]
   },
   "platforms": {
     "facebook": {
-      "text": "",
-      "headline": ""
+      "text": "Liedgedanke zum Wochenende.\n\n„Der Herr segne dich“ – ein Liedtitel wie eine offene Hand.\nFür alles, was diese Woche liegen geblieben ist.\nFür das, was drückt.\nFür das, was noch keinen Namen hat.\n\nAlle eure Sorge werft auf ihn; denn er sorgt für euch. (1. Petr 5,7)\n\nGott,\nsegne, was müde ist.\nBehüte, was verletzt ist.\nOrdne, was in mir durcheinanderliegt.\nGib mir Ruhe für diese Nacht\nund Mut für den nächsten Schritt.\nAmen.",
+      "headline": "Liedgedanke: Der Herr segne dich"
     },
     "instagram": {
-      "caption": "",
-      "carousel": []
+      "caption": "Zum Wochenende ein Liedgedanke.\n\n„Der Herr segne dich“.\nKein großes Wort. Eher wie ein Atemzug.\nFür volle Tage.\nFür schwere Gedanken.\nFür alles, was noch nachklingt.\n\nAlle eure Sorge werft auf ihn; denn er sorgt für euch. (1. Petr 5,7)\n\nGott,\nsegne, was müde ist.\nBehüte, was verletzt ist.\nOrdne, was in mir durcheinanderliegt.\nGib mir Ruhe und einen klaren nächsten Schritt.\nAmen.",
+      "carousel": [
+        {
+          "type": "cover",
+          "text": "Zum Wochenende: Segen für alles, was schwer geworden ist."
+        },
+        {
+          "type": "quote",
+          "text": "Alle eure Sorge werft auf ihn; denn er sorgt für euch. (1. Petr 5,7)"
+        },
+        {
+          "type": "prayer",
+          "text": "Gott, segne, was müde ist. Behüte, was verletzt ist. Ordne, was in mir durcheinanderliegt."
+        },
+        {
+          "type": "closing",
+          "text": "Gib mir Ruhe und einen klaren nächsten Schritt. Amen."
+        }
+      ]
     },
     "mastodon": {
-      "text": ""
+      "text": "Zum Wochenende ein Liedgedanke: „Der Herr segne dich“.\n\nFür alles, was diese Woche schwer geworden ist.\n\nAlle eure Sorge werft auf ihn; denn er sorgt für euch. (1. Petr 5,7)\n\nGott, segne, was müde ist. Behüte, was verletzt ist. Gib Ruhe und einen klaren nächsten Schritt. Amen."
     },
     "bluesky": {
-      "text": ""
+      "text": "Zum Wochenende ein Liedgedanke: „Der Herr segne dich“.\n\nAlle eure Sorge werft auf ihn; denn er sorgt für euch. (1. Petr 5,7)\n\nGott, segne, was müde ist. Behüte, was verletzt ist. Gib Ruhe und einen klaren nächsten Schritt. Amen."
     },
     "story": {
-      "slides": []
+      "slides": [
+        {
+          "text": "Zum Wochenende: ein Liedgedanke."
+        },
+        {
+          "text": "„Der Herr segne dich“ – für alles, was schwer geworden ist."
+        },
+        {
+          "text": "Alle eure Sorge werft auf ihn; denn er sorgt für euch. (1. Petr 5,7)"
+        },
+        {
+          "text": "Gott, segne, was müde ist. Gib Ruhe und einen klaren nächsten Schritt. Amen."
+        }
+      ]
     },
     "reel": {
-      "hook": "",
-      "script": "",
-      "shots": [],
-      "duration_seconds": 0
+      "hook": "Wenn die Woche noch in den Schultern sitzt.",
+      "script": "Wenn die Woche noch in den Schultern sitzt, darf dieser Segen bleiben.\n„Der Herr segne dich“.\nNicht laut. Nicht fern.\nNah für das, was drückt.\nNah für müde Gedanken.\nNah für den nächsten Schritt.\n\nAlle eure Sorge werft auf ihn; denn er sorgt für euch.\n\nGott,\nsegne, was müde ist.\nBehüte, was verletzt ist.\nOrdne, was in mir durcheinanderliegt.\nGib mir Ruhe und Mut.\nAmen.",
+      "shots": [
+        "Ruhige Totale eines stillen Weges im Abendlicht",
+        "Nahaufnahme von Händen, die still aufeinanderliegen",
+        "Langsame Bewegung über einen Tisch mit brennender Kerze und offenem Raum",
+        "Blick in den Himmel oder in Baumkronen im weichen Licht",
+        "Abblendung in eine ruhige, leere Szene"
+      ],
+      "duration_seconds": 24
     }
   },
   "visual": {
-    "concept": "",
-    "flux_prompt": "",
+    "concept": "Ruhige, warme Wochenendstimmung: ein stiller Weg oder offener Raum im Abendlicht als Bild für Loslassen, Segen und einen behüteten Übergang in das Wochenende.",
+    "flux_prompt": "Fotorealistisches ruhiges Motiv im warmen Abendlicht, stiller Weg oder schlichter offener Raum, weiche Schatten, natürliche Farben, zurückhaltende protestantische Bildsprache, Atmosphäre von Ruhe, Loslassen und Segen, minimalistisch, menschenleer oder nur angedeutete Hände ohne Gesichter, hohe Bildqualität",
     "negative_prompt": "text, letters, logo, watermark",
     "formats": [
       "4:5",
       "9:16",
       "1.91:1"
     ],
-    "alt_text": ""
+    "alt_text": "Ein ruhiger Weg im warmen Abendlicht mit weichen Schatten. Die Szene wirkt still und offen und vermittelt Ruhe, Loslassen und einen behüteten Übergang ins Wochenende."
   },
   "qa": {
     "warnings": [
       "Alt text must be completed before approval",
-      "Check song lyric copyright before publication"
+      "Check song lyric copyright before publication",
+      "Prüfen, ob „NL 118“ in der jeweiligen Veröffentlichung erklärt werden muss",
+      "Alt-Text redaktionell gegen finales Motiv abgleichen"
     ],
     "approved": false
   },
   "metadata": {
-    "model": "",
-    "generated_at": "",
+    "model": "gpt-5.4-2026-03-05",
+    "generated_at": "2026-09-18T05:40:29.605Z",
     "prompt_version": "1.0",
     "assets": []
   }
