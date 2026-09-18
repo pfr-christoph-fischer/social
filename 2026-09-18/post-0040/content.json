@@ -1,6 +1,6 @@
 {
   "id": "post-0040",
-  "status": "in Arbeit",
+  "status": "freigegeben",
   "needs_input": false,
   "source": {
     "calendar_post_id": "post-0040",
@@ -30,27 +30,27 @@
   },
   "platforms": {
     "facebook": {
-      "headline": "Liedgedanke: Der Herr segne dich",
-      "text": "Liedgedanke zum Wochenende.\n\n„Der Herr segne dich“ – ein Liedtitel wie eine offene Hand.\nFür alles, was diese Woche liegen geblieben ist.\nFür das, was drückt.\nFür das, was noch keinen Namen hat.\n\nAlle eure Sorge werft auf ihn; denn er sorgt für euch. (1. Petr 5,7)\n\nGott,\nsegne, was müde ist.\nBehüte, was verletzt ist.\nOrdne, was in mir durcheinanderliegt.\nGib mir Ruhe für diese Nacht\nund Mut für den nächsten Schritt.\nAmen."
+      "text": "Liedgedanke zum Wochenende.\n\n„Der Herr segne dich“ – ein Liedtitel wie eine offene Hand.\nFür alles, was diese Woche liegen geblieben ist.\nFür das, was drückt.\nFür das, was noch keinen Namen hat.\n\nAlle eure Sorge werft auf ihn; denn er sorgt für euch. (1. Petr 5,7)\n\nGott,\nsegne, was müde ist.\nBehüte, was verletzt ist.\nOrdne, was in mir durcheinanderliegt.\nGib mir Ruhe für diese Nacht\nund Mut für den nächsten Schritt.\nAmen.",
+      "headline": "Liedgedanke: Der Herr segne dich"
     },
     "instagram": {
       "caption": "Zum Wochenende ein Liedgedanke.\n\n„Der Herr segne dich“.\nKein großes Wort. Eher wie ein Atemzug.\nFür volle Tage.\nFür schwere Gedanken.\nFür alles, was noch nachklingt.\n\nAlle eure Sorge werft auf ihn; denn er sorgt für euch. (1. Petr 5,7)\n\nGott,\nsegne, was müde ist.\nBehüte, was verletzt ist.\nOrdne, was in mir durcheinanderliegt.\nGib mir Ruhe und einen klaren nächsten Schritt.\nAmen.",
       "carousel": [
         {
-          "text": "Zum Wochenende: Segen für alles, was schwer geworden ist.",
-          "type": "cover"
+          "type": "cover",
+          "text": "Zum Wochenende: Segen für alles, was schwer geworden ist."
         },
         {
-          "text": "Alle eure Sorge werft auf ihn; denn er sorgt für euch. (1. Petr 5,7)",
-          "type": "quote"
+          "type": "quote",
+          "text": "Alle eure Sorge werft auf ihn; denn er sorgt für euch. (1. Petr 5,7)"
         },
         {
-          "text": "Gott, segne, was müde ist. Behüte, was verletzt ist. Ordne, was in mir durcheinanderliegt.",
-          "type": "prayer"
+          "type": "prayer",
+          "text": "Gott, segne, was müde ist. Behüte, was verletzt ist. Ordne, was in mir durcheinanderliegt."
         },
         {
-          "text": "Gib mir Ruhe und einen klaren nächsten Schritt. Amen.",
-          "type": "closing"
+          "type": "closing",
+          "text": "Gib mir Ruhe und einen klaren nächsten Schritt. Amen."
         }
       ]
     },
@@ -101,12 +101,10 @@
     "alt_text": "Ein ruhiger Weg im warmen Abendlicht mit weichen Schatten. Die Szene wirkt still und offen und vermittelt Ruhe, Loslassen und einen behüteten Übergang ins Wochenende."
   },
   "qa": {
-    "approved": false,
+    "approved": true,
     "warnings": [
-      "Alt text must be completed before approval",
-      "Check song lyric copyright before publication",
-      "Prüfen, ob „NL 118“ in der jeweiligen Veröffentlichung erklärt werden muss",
-      "Alt-Text redaktionell gegen finales Motiv abgleichen"
+      "Song lyric copyright must be checked manually before publication.",
+      "Public copy may contain quoted or verse-like lyrics. Confirm that no protected full lyrics are published."
     ]
   },
   "metadata": {
