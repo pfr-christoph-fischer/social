@@ -1,0 +1,36 @@
+{
+  "delivery_url": "https://delivery.us7.bfl.ai/durable/2026091819/5e1f69ea-538b-4d66-962e-9be995966f07/34/105471d4425098/d4425098d9e74eefbc3868965b4ed0e0/sample.jpeg?se=2026-09-18T19%3A28%3A25Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=TElpTL%2BGbKZloylKDdpzitXN33Z9PmXD3uK1MTleNjA%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "c140e4dd-89d0-4382-a863-63f468e2212c",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "c140e4dd-89d0-4382-a863-63f468e2212c",
+      "status": "Ready",
+      "result": {
+        "start_time": 1789759104.1907907,
+        "prompt": "Ruhige Abendstimmung an einem Fenster. Warmes Innenlicht trifft auf dunkler werdenden Himmel. Schlichte, tröstliche Szene ohne Menschenmenge, mit Raum für Stille und Gebet., no text, no letters, no typography, no logo, no watermark",
+        "seed": 1729313558,
+        "sample": "https://delivery.us7.bfl.ai/durable/2026091819/5e1f69ea-538b-4d66-962e-9be995966f07/34/105471d4425098/d4425098d9e74eefbc3868965b4ed0e0/sample.jpeg?se=2026-09-18T19%3A28%3A25Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=TElpTL%2BGbKZloylKDdpzitXN33Z9PmXD3uK1MTleNjA%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "c140e4dd-89d0-4382-a863-63f468e2212c",
+    "polling_url": "https://api.us7.bfl.ai/v1/get_result?id=c140e4dd-89d0-4382-a863-63f468e2212c",
+    "cost": 1.5,
+    "input_mp": 0,
+    "output_mp": 1.98
+  }
+}
