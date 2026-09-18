@@ -1,6 +1,6 @@
 {
   "id": "prayer-morning-2026-09-18",
-  "status": "in Arbeit",
+  "status": "freigegeben",
   "needs_input": false,
   "source": {
     "calendar_post_id": "prayer-morning-2026-09-18",
@@ -38,31 +38,31 @@
   },
   "platforms": {
     "facebook": {
-      "headline": "Morgengebet: Diesen Tag empfangen",
-      "text": "Gott,\ndieser Morgen ist nicht mein Werk.\nEr ist Geschenk.\nDas erste Licht liegt auf den Dächern.\nDie Luft ist kühl. Der Tag ist offen.\n\nDu Gott des Lebens,\ndu warst da, bevor ich wach wurde.\nDu bleibst, wenn Stunden unruhig werden.\nIch halte dir diesen neuen Tag hin.\nMit allem, was klar ist.\nUnd mit allem, was schwer in mir liegt.\n\n\"Dies ist der Tag, den der HERR macht\" (Psalm 118,24).\nDarum will ich ihn nicht nur füllen.\nIch will ihn empfangen.\n\nGib meinen Gedanken Ruhe.\nGib meinen Worten Freundlichkeit.\nGib meinen Schritten Richtung.\nLass mich heute etwas von deiner Güte sehen.\nIm Licht.\nIm Atem.\nIm Menschen neben mir.\n\nIch gehe nicht allein los.\nDeine Treue ist schon da.\nDarauf hoffe ich.\nAmen."
+      "text": "Gott,\ndieser Morgen ist nicht mein Werk.\nEr ist Geschenk.\nDas erste Licht liegt auf den Dächern.\nDie Luft ist kühl. Der Tag ist offen.\n\nDu Gott des Lebens,\ndu warst da, bevor ich wach wurde.\nDu bleibst, wenn Stunden unruhig werden.\nIch halte dir diesen neuen Tag hin.\nMit allem, was klar ist.\nUnd mit allem, was schwer in mir liegt.\n\n\"Dies ist der Tag, den der HERR macht\" (Psalm 118,24).\nDarum will ich ihn nicht nur füllen.\nIch will ihn empfangen.\n\nGib meinen Gedanken Ruhe.\nGib meinen Worten Freundlichkeit.\nGib meinen Schritten Richtung.\nLass mich heute etwas von deiner Güte sehen.\nIm Licht.\nIm Atem.\nIm Menschen neben mir.\n\nIch gehe nicht allein los.\nDeine Treue ist schon da.\nDarauf hoffe ich.\nAmen.",
+      "headline": "Morgengebet: Diesen Tag empfangen"
     },
     "instagram": {
       "caption": "Gott,\ndieser Morgen ist Geschenk.\n\nDas erste Licht liegt auf den Dächern.\nDie Luft ist kühl. Der Tag ist offen.\nDu warst da, bevor ich wach wurde.\n\n\"Dies ist der Tag, den der HERR macht\" (Psalm 118,24).\nDarum will ich ihn empfangen.\n\nGib meinen Gedanken Ruhe.\nMeinen Worten Freundlichkeit.\nMeinen Schritten Richtung.\n\nIch gehe nicht allein los.\nDeine Treue ist schon da.\nAmen.",
       "carousel": [
         {
-          "text": "Gott,\ndieser Morgen ist Geschenk.",
-          "type": "text"
+          "type": "text",
+          "text": "Gott,\ndieser Morgen ist Geschenk."
         },
         {
-          "text": "Das erste Licht liegt auf den Dächern.\nDie Luft ist kühl.\nDer Tag ist offen.",
-          "type": "text"
+          "type": "text",
+          "text": "Das erste Licht liegt auf den Dächern.\nDie Luft ist kühl.\nDer Tag ist offen."
         },
         {
-          "text": "\"Dies ist der Tag, den der HERR macht\"\nPsalm 118,24",
-          "type": "text"
+          "type": "text",
+          "text": "\"Dies ist der Tag, den der HERR macht\"\nPsalm 118,24"
         },
         {
-          "text": "Gib meinen Gedanken Ruhe.\nMeinen Worten Freundlichkeit.\nMeinen Schritten Richtung.",
-          "type": "text"
+          "type": "text",
+          "text": "Gib meinen Gedanken Ruhe.\nMeinen Worten Freundlichkeit.\nMeinen Schritten Richtung."
         },
         {
-          "text": "Ich gehe nicht allein los.\nDeine Treue ist schon da.\nAmen.",
-          "type": "text"
+          "type": "text",
+          "text": "Ich gehe nicht allein los.\nDeine Treue ist schon da.\nAmen."
         }
       ]
     },
@@ -116,12 +116,8 @@
     "alt_text": "Frühes Morgenlicht fällt über Dächer und durch ein offenes Fenster in einen schlichten Raum. Auf einem Tisch steht eine Tasse. Die Szene wirkt ruhig, klar und hoffnungsvoll."
   },
   "qa": {
-    "approved": false,
-    "warnings": [
-      "Alt text must be completed before approval",
-      "Aktuelle Lage am 17.09.2026 wurde nur auf grundsätzliche Stimmigkeit geprüft; vor Veröffentlichung am 18.09.2026 morgens noch einmal kurz gegenlesen.",
-      "Bibelzitat geprüft als kurzer Gebetsschnipsel: Psalm 118,24."
-    ]
+    "approved": true,
+    "warnings": []
   },
   "metadata": {
     "model": "gpt-5.4-2026-03-05",
