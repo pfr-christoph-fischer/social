@@ -27,5 +27,66 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "prayer-morning-2026-09-18",
+    "contentDate": "2026-09-18",
+    "platform": "instagram",
+    "format": "default",
+    "scheduledAt": "2026-09-18T05:15:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Gott,\ndieser Morgen ist Geschenk.\n\nDas erste Licht liegt auf den Dächern.\nDie Luft ist kühl. Der Tag ist offen.\nDu warst da, bevor ich wach wurde.\n\n\"Dies ist der Tag, den der HERR macht\" (Psalm 118,24).\nDarum will ich ihn empfangen.\n\nGib meinen Gedanken Ruhe.\nMeinen Worten Freundlichkeit.\nMeinen Schritten Richtung.\n\nIch gehe nicht allein los.\nDeine Treue ist schon da.\nAmen.",
+    "assets": [
+      "render-instagram-feed-01.jpg",
+      "render-instagram-feed-02.jpg",
+      "render-instagram-feed-03.jpg",
+      "render-instagram-feed-04.jpg",
+      "render-instagram-feed-05.jpg"
+    ],
+    "altTexts": [
+      "Frühes Morgenlicht fällt über Dächer und durch ein offenes Fenster in einen schlichten Raum. Auf einem Tisch steht eine Tasse. Die Szene wirkt ruhig, klar und hoffnungsvoll."
+    ],
+    "id": "1a0457dc-c7b8-4308-97f8-fbb573cac369",
+    "attemptCount": 1,
+    "remoteId": "17880774567527685",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-09-18T05:39:55.677Z",
+    "updatedAt": "2026-09-18T05:40:51.374Z",
+    "responseMetadata": {
+      "mediaCount": 5,
+      "mediaType": "CAROUSEL",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "prayer-morning-2026-09-18",
+    "contentDate": "2026-09-18",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-09-18T05:15:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Gott,\ndieser Morgen ist Geschenk.\nDas erste Licht liegt auf den Dächern. Die Luft ist kühl. Der Tag ist offen.\n\n\"Dies ist der Tag, den der HERR macht\" (Psalm 118,24).\nDarum will ich ihn empfangen.\n\nGib meinen Gedanken Ruhe, meinen Worten Freundlichkeit und meinen Schritten Richtung.\nIch gehe nicht allein los.\nDeine Treue ist schon da.\nAmen.",
+    "assets": [
+      "render-facebook-mastodon-01.png"
+    ],
+    "altTexts": [
+      "Frühes Morgenlicht fällt über Dächer und durch ein offenes Fenster in einen schlichten Raum. Auf einem Tisch steht eine Tasse. Die Szene wirkt ruhig, klar und hoffnungsvoll."
+    ],
+    "id": "80d41a0a-51ac-4b18-a004-34c5954506a5",
+    "attemptCount": 1,
+    "remoteId": "117290437970657033",
+    "remoteUrl": "https://kirche.social/@christoph/117290437970657033",
+    "lastError": null,
+    "createdAt": "2026-09-18T05:39:55.762Z",
+    "updatedAt": "2026-09-18T05:40:52.116Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
