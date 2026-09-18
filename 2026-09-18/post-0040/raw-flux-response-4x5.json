@@ -1,0 +1,36 @@
+{
+  "delivery_url": "https://delivery.us7.bfl.ai/durable/2026091805/5e1f69ea-538b-4d66-962e-9be995966f07/78/069498a44aae09/a44aae0961c547c1ac8a3b5834765679/sample.jpeg?se=2026-09-18T05%3A51%3A09Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=UmWpckngTnlZ4aDSQ1L9hFGL5hu/vFzlEavFuqUWC3s%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "3b2c1536-8525-45ee-8e48-4bf786866137",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "3b2c1536-8525-45ee-8e48-4bf786866137",
+      "status": "Ready",
+      "result": {
+        "start_time": 1789710068.498903,
+        "prompt": "Fotorealistisches ruhiges Motiv im warmen Abendlicht, stiller Weg oder schlichter offener Raum, weiche Schatten, natürliche Farben, zurückhaltende protestantische Bildsprache, Atmosphäre von Ruhe, Loslassen und Segen, minimalistisch, menschenleer oder nur angedeutete Hände ohne Gesichter, hohe Bildqualität, no text, no letters, no typography, no logo, no watermark",
+        "seed": 1370198317,
+        "sample": "https://delivery.us7.bfl.ai/durable/2026091805/5e1f69ea-538b-4d66-962e-9be995966f07/78/069498a44aae09/a44aae0961c547c1ac8a3b5834765679/sample.jpeg?se=2026-09-18T05%3A51%3A09Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=UmWpckngTnlZ4aDSQ1L9hFGL5hu/vFzlEavFuqUWC3s%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "3b2c1536-8525-45ee-8e48-4bf786866137",
+    "polling_url": "https://api.us7.bfl.ai/v1/get_result?id=3b2c1536-8525-45ee-8e48-4bf786866137",
+    "cost": 1.5,
+    "input_mp": 0,
+    "output_mp": 1.39
+  }
+}
