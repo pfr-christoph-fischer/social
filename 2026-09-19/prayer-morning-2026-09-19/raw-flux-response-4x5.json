@@ -1,0 +1,52 @@
+{
+  "delivery_url": "https://delivery.eu2.bfl.ai/durable/2026091819/5e1f69ea-538b-4d66-962e-9be995966f07/b7/2429268d448ee8/8d448ee8c00543e4b5b85c1b4006a7dd/sample.jpeg?se=2026-09-18T19%3A30%3A43Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=qANa6jg9W0tIwx1GdZ9FBSSC3ptRM/xQM2WY5aNZUbc%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "57c130e7-6d31-45a6-b394-071057fd1ab1",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "57c130e7-6d31-45a6-b394-071057fd1ab1",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "57c130e7-6d31-45a6-b394-071057fd1ab1",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "57c130e7-6d31-45a6-b394-071057fd1ab1",
+      "status": "Ready",
+      "result": {
+        "start_time": 1789759241.8998797,
+        "prompt": "A quiet early morning scene in natural soft dawn light, modest urban or village rooftops with trees, gentle atmosphere, realistic photography style, calm hopeful mood, subtle golden-blue tones, everyday perspective, minimal composition, no people facing camera, no staged religiosity, no typography, no text, no letters, no typography, no logo, no watermark",
+        "seed": 1223263208,
+        "sample": "https://delivery.eu2.bfl.ai/durable/2026091819/5e1f69ea-538b-4d66-962e-9be995966f07/b7/2429268d448ee8/8d448ee8c00543e4b5b85c1b4006a7dd/sample.jpeg?se=2026-09-18T19%3A30%3A43Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=qANa6jg9W0tIwx1GdZ9FBSSC3ptRM/xQM2WY5aNZUbc%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "57c130e7-6d31-45a6-b394-071057fd1ab1",
+    "polling_url": "https://api.eu2.bfl.ai/v1/get_result?id=57c130e7-6d31-45a6-b394-071057fd1ab1",
+    "cost": 1.5,
+    "input_mp": 0,
+    "output_mp": 1.39
+  }
+}
