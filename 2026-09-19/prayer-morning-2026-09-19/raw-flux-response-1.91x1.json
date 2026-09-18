@@ -1,0 +1,44 @@
+{
+  "delivery_url": "https://delivery.eu2.bfl.ai/durable/2026091819/5e1f69ea-538b-4d66-962e-9be995966f07/a7/240403727ed777/727ed7772d3642f494914a228da7f964/sample.jpeg?se=2026-09-18T19%3A30%3A40Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=sh02%2BWb%2B4ICT5ADTBCdQyQpM6RKMsfmoqyyN8F788dM%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "44b39942-d70a-4877-a7cd-2ca0c58f27e2",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "44b39942-d70a-4877-a7cd-2ca0c58f27e2",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "44b39942-d70a-4877-a7cd-2ca0c58f27e2",
+      "status": "Ready",
+      "result": {
+        "start_time": 1789759239.6023226,
+        "prompt": "A quiet early morning scene in natural soft dawn light, modest urban or village rooftops with trees, gentle atmosphere, realistic photography style, calm hopeful mood, subtle golden-blue tones, everyday perspective, minimal composition, no people facing camera, no staged religiosity, no typography, no text, no letters, no typography, no logo, no watermark",
+        "seed": 2302307662,
+        "sample": "https://delivery.eu2.bfl.ai/durable/2026091819/5e1f69ea-538b-4d66-962e-9be995966f07/a7/240403727ed777/727ed7772d3642f494914a228da7f964/sample.jpeg?se=2026-09-18T19%3A30%3A40Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=sh02%2BWb%2B4ICT5ADTBCdQyQpM6RKMsfmoqyyN8F788dM%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "44b39942-d70a-4877-a7cd-2ca0c58f27e2",
+    "polling_url": "https://api.eu2.bfl.ai/v1/get_result?id=44b39942-d70a-4877-a7cd-2ca0c58f27e2",
+    "cost": 1.4000000000000001,
+    "input_mp": 0,
+    "output_mp": 0.72
+  }
+}
