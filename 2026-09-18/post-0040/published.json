@@ -27,5 +27,65 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "post-0040",
+    "contentDate": "2026-09-18",
+    "platform": "instagram",
+    "format": "default",
+    "scheduledAt": "2026-09-18T07:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Zum Wochenende ein Liedgedanke.\n\n„Der Herr segne dich“.\nKein großes Wort. Eher wie ein Atemzug.\nFür volle Tage.\nFür schwere Gedanken.\nFür alles, was noch nachklingt.\n\nAlle eure Sorge werft auf ihn; denn er sorgt für euch. (1. Petr 5,7)\n\nGott,\nsegne, was müde ist.\nBehüte, was verletzt ist.\nOrdne, was in mir durcheinanderliegt.\nGib mir Ruhe und einen klaren nächsten Schritt.\nAmen.",
+    "assets": [
+      "render-instagram-feed-01.jpg",
+      "render-instagram-feed-02.jpg",
+      "render-instagram-feed-03.jpg",
+      "render-instagram-feed-04.jpg"
+    ],
+    "altTexts": [
+      "Ein ruhiger Weg im warmen Abendlicht mit weichen Schatten. Die Szene wirkt still und offen und vermittelt Ruhe, Loslassen und einen behüteten Übergang ins Wochenende."
+    ],
+    "id": "f8749ad4-b857-4f0e-b903-ebe3d04ecc27",
+    "attemptCount": 1,
+    "remoteId": "18128686807701099",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-09-18T05:41:35.389Z",
+    "updatedAt": "2026-09-18T07:00:49.950Z",
+    "responseMetadata": {
+      "mediaCount": 4,
+      "mediaType": "CAROUSEL",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "post-0040",
+    "contentDate": "2026-09-18",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-09-18T07:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Zum Wochenende ein Liedgedanke: „Der Herr segne dich“.\n\nFür alles, was diese Woche schwer geworden ist.\n\nAlle eure Sorge werft auf ihn; denn er sorgt für euch. (1. Petr 5,7)\n\nGott, segne, was müde ist. Behüte, was verletzt ist. Gib Ruhe und einen klaren nächsten Schritt. Amen.",
+    "assets": [
+      "render-facebook-mastodon-01.png"
+    ],
+    "altTexts": [
+      "Ein ruhiger Weg im warmen Abendlicht mit weichen Schatten. Die Szene wirkt still und offen und vermittelt Ruhe, Loslassen und einen behüteten Übergang ins Wochenende."
+    ],
+    "id": "622fa04a-0e84-40b1-8534-11aff05ee7fb",
+    "attemptCount": 1,
+    "remoteId": "117290752476677627",
+    "remoteUrl": "https://kirche.social/@christoph/117290752476677627",
+    "lastError": null,
+    "createdAt": "2026-09-18T05:41:35.425Z",
+    "updatedAt": "2026-09-18T07:00:51.084Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
