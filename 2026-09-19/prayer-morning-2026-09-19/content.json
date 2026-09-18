@@ -26,31 +26,31 @@
   },
   "platforms": {
     "facebook": {
-      "text": "Gott, du Schöpfer des Morgens,\ndas erste Licht fällt auf Dächer, Bäume und Wege. Und auch auf mich.\n\nDieser Tag ist nicht leer. Er kommt aus deiner Hand.\n„Deine Güte ist jeden Morgen neu“ (Klagelieder 3,22–23).\n\nDarum will ich ihn nicht zuerst mit Sorge füllen, sondern mit Vertrauen.\nSei in meinen Gedanken, in meinen Worten, in dem, was heute vor mir liegt.\nGib mir ein waches Herz für das Gute.\nGib mir Ruhe, wenn ich unruhig werde.\nGib mir Freude an dem, was lebt.\n\nIch nehme diesen Morgen aus deiner Güte an.\nDu bist da. Das ist genug für heute.\nAmen.",
-      "headline": "Morgengebet"
+      "headline": "Morgengebet",
+      "text": "Gott, du Schöpfer des Morgens,\ndas erste Licht fällt auf Dächer, Bäume und Wege. Und auch auf mich.\n\nDieser Tag ist nicht leer. Er kommt aus deiner Hand.\n„Deine Güte ist jeden Morgen neu“ (Klagelieder 3,22–23).\n\nDarum will ich ihn nicht zuerst mit Sorge füllen, sondern mit Vertrauen.\nSei in meinen Gedanken, in meinen Worten, in dem, was heute vor mir liegt.\nGib mir ein waches Herz für das Gute.\nGib mir Ruhe, wenn ich unruhig werde.\nGib mir Freude an dem, was lebt.\n\nIch nehme diesen Morgen aus deiner Güte an.\nDu bist da. Das ist genug für heute.\nAmen."
     },
     "instagram": {
       "caption": "Gott, du Schöpfer des Morgens,\ndas erste Licht fällt auf die Welt. Und auch auf mich.\n\n„Deine Güte ist jeden Morgen neu“ (Klagelieder 3,22–23).\n\nIch will diesen Tag aus deiner Hand annehmen.\nMit Vertrauen.\nMit offenem Herzen.\nMit Hoffnung.\n\nSei bei mir in allem, was kommt.\nDu bist da. Das ist genug für heute.\nAmen.",
       "carousel": [
         {
-          "type": "text",
-          "text": "Gott, du Schöpfer des Morgens,"
+          "text": "Gott, du Schöpfer des Morgens,",
+          "type": "text"
         },
         {
-          "type": "text",
-          "text": "das erste Licht fällt auf die Welt. Und auch auf mich."
+          "text": "das erste Licht fällt auf die Welt. Und auch auf mich.",
+          "type": "text"
         },
         {
-          "type": "text",
-          "text": "„Deine Güte ist jeden Morgen neu“ (Klagelieder 3,22–23)."
+          "text": "„Deine Güte ist jeden Morgen neu“ (Klagelieder 3,22–23).",
+          "type": "text"
         },
         {
-          "type": "text",
-          "text": "Ich will diesen Tag aus deiner Hand annehmen."
+          "text": "Ich will diesen Tag aus deiner Hand annehmen.",
+          "type": "text"
         },
         {
-          "type": "text",
-          "text": "Du bist da. Das ist genug für heute. Amen."
+          "text": "Du bist da. Das ist genug für heute. Amen.",
+          "type": "text"
         }
       ]
     },
@@ -104,12 +104,12 @@
     "alt_text": "Ein stiller Morgen mit weichem Frühlicht über Dächern und Bäumen. Die Szene wirkt ruhig, klar und hoffnungsvoll und erinnert an einen neuen Tag, der behutsam beginnt."
   },
   "qa": {
+    "approved": false,
     "warnings": [
       "Alt text must be completed before approval",
       "Aktuelle Nachrichten wurden geprüft; für das Morgengebet bewusst kein konkreter Nachrichtenbezug verwendet.",
       "Bibelzitat kurz gehalten und Quelle genannt: Klagelieder 3,22–23 (LU17)."
-    ],
-    "approved": false
+    ]
   },
   "metadata": {
     "model": "gpt-5.4-2026-03-05",
