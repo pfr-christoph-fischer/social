@@ -1,0 +1,44 @@
+{
+  "delivery_url": "https://delivery.us2.bfl.ai/durable/2026091805/5e1f69ea-538b-4d66-962e-9be995966f07/13/9421658f2d3c28/8f2d3c2847b94aac9491b24194579d39/sample.jpeg?se=2026-09-18T05%3A49%3A02Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=Ls8B/xNMRCRGI/Pr/c9xWFWhORV9%2B/olCOVGp08Vfwg%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "377080d5-6f67-4360-ad86-e558be5f1df0",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "377080d5-6f67-4360-ad86-e558be5f1df0",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "377080d5-6f67-4360-ad86-e558be5f1df0",
+      "status": "Ready",
+      "result": {
+        "start_time": 1789709940.5144665,
+        "prompt": "A calm early morning urban scene with soft first light over rooftops, an open window, cool clear air, subtle curtain movement, a simple table with a cup, natural colors, gentle contrast, contemplative mood, realistic photography, intimate and hopeful atmosphere, no typography, no text, no letters, no typography, no logo, no watermark",
+        "seed": 1149431486,
+        "sample": "https://delivery.us2.bfl.ai/durable/2026091805/5e1f69ea-538b-4d66-962e-9be995966f07/13/9421658f2d3c28/8f2d3c2847b94aac9491b24194579d39/sample.jpeg?se=2026-09-18T05%3A49%3A02Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=Ls8B/xNMRCRGI/Pr/c9xWFWhORV9%2B/olCOVGp08Vfwg%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "377080d5-6f67-4360-ad86-e558be5f1df0",
+    "polling_url": "https://api.us2.bfl.ai/v1/get_result?id=377080d5-6f67-4360-ad86-e558be5f1df0",
+    "cost": 1.5,
+    "input_mp": 0,
+    "output_mp": 1.98
+  }
+}
