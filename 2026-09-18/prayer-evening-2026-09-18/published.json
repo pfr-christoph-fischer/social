@@ -60,5 +60,33 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "prayer-evening-2026-09-18",
+    "contentDate": "2026-09-18",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-09-18T18:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Abendgebet.\n\nGott, wir legen dir diesen Tag hin. Das Gute. Das Schwere. Das Unfertige.\n\nWir bitten dich für Menschen, denen die steigenden Energiekosten Sorgen machen. Für alle, die nicht wissen, wie weit ihr Geld reicht.\n\nWir bitten dich für die jüdische Gemeinschaft in Wuppertal und für alle, die von Antisemitismus betroffen sind.\n\nSchenk Frieden für diese Nacht. Amen.",
+    "assets": [
+      "render-facebook-mastodon-01.png"
+    ],
+    "altTexts": [
+      "Ein ruhig beleuchtetes Fenster am Abend. Innen fällt warmes Licht auf einen schlichten Tisch, draußen wird der Himmel dunkelblau. Die Szene wirkt still, schlicht und tröstlich."
+    ],
+    "id": "48d09223-7e92-4331-a8a9-304dd4b374ec",
+    "attemptCount": 1,
+    "remoteId": "117293662178498130",
+    "remoteUrl": "https://kirche.social/@christoph/117293662178498130",
+    "lastError": null,
+    "createdAt": "2026-09-18T19:19:09.174Z",
+    "updatedAt": "2026-09-18T19:20:49.782Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
