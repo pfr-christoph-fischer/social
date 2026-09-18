@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-09-18",
+    "contentDate": "2026-09-18",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-09-18T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Niemandem darf seine Staatsangehörigkeit willkürlich entzogen noch das Recht versagt werden, seine Staatsangehörigkeit zu wechseln. (Allgemeine Erklärung der Menschenrechte, Artikel 15 Absatz 2)",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Niemandem darf seine Staatsangehörigkeit willkürlich entzogen noch das Recht versagt werden, seine Staatsangehörigkeit zu wechseln. (Allgemeine Erklärung der Menschenrechte, Artikel 15 Absatz 2)"
+    ],
+    "id": "6ffcc658-2175-46d2-853c-485b50302b69",
+    "attemptCount": 1,
+    "remoteId": "18079034207341166",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:38:13.775Z",
+    "updatedAt": "2026-09-18T10:00:27.114Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-09-18",
+    "contentDate": "2026-09-18",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-09-18T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Niemandem darf seine Staatsangehörigkeit willkürlich entzogen noch das Recht versagt werden, seine Staatsangehörigkeit zu wechseln. (Allgemeine Erklärung der Menschenrechte, Artikel 15 Absatz 2)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Niemandem darf seine Staatsangehörigkeit willkürlich entzogen noch das Recht versagt werden, seine Staatsangehörigkeit zu wechseln. (Allgemeine Erklärung der Menschenrechte, Artikel 15 Absatz 2)"
+    ],
+    "id": "44e135b0-4466-48a9-8eea-3255509a7c7b",
+    "attemptCount": 1,
+    "remoteId": "117291458792254615",
+    "remoteUrl": "https://kirche.social/@christoph/117291458792254615",
+    "lastError": null,
+    "createdAt": "2026-08-26T15:38:13.811Z",
+    "updatedAt": "2026-09-18T10:00:28.607Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
