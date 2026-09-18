@@ -84,5 +84,91 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-18",
+    "contentDate": "2026-09-18",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-09-18T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Ihr sollt einer mit dem andern reden: »Was hat der HERR geantwortet?«, und: »Was hat der HERR gesagt?«",
+    "assets": [
+      "render-square-01.jpg"
+    ],
+    "altTexts": [
+      "Ihr sollt einer mit dem andern reden: »Was hat der HERR geantwortet?«, und: »Was hat der HERR gesagt?«"
+    ],
+    "id": "432d475c-8db5-489b-a5e8-1336aef18d1f",
+    "attemptCount": 1,
+    "remoteId": "18072787271722373",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:45:34.411Z",
+    "updatedAt": "2026-09-18T05:00:38.484Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-18",
+    "contentDate": "2026-09-18",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-09-18T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Ihr sollt einer mit dem andern reden: »Was hat der HERR geantwortet?«, und: »Was hat der HERR gesagt?«",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Ihr sollt einer mit dem andern reden: »Was hat der HERR geantwortet?«, und: »Was hat der HERR gesagt?«"
+    ],
+    "id": "94451a3f-5420-4618-ad22-f42ee1ce5620",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3mvrf64i5w52a",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3mvrf64i5w52a",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:45:34.421Z",
+    "updatedAt": "2026-09-18T05:00:40.662Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-18",
+    "contentDate": "2026-09-18",
+    "platform": "linkedin",
+    "format": "default",
+    "scheduledAt": "2026-09-18T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Ihr sollt einer mit dem andern reden: »Was hat der HERR geantwortet?«, und: »Was hat der HERR gesagt?«",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Ihr sollt einer mit dem andern reden: »Was hat der HERR geantwortet?«, und: »Was hat der HERR gesagt?«"
+    ],
+    "id": "b8a9f74f-8957-41ab-ae45-25ecb14f32fd",
+    "attemptCount": 1,
+    "remoteId": "urn:li:share:7506577922884042753",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:45:34.431Z",
+    "updatedAt": "2026-09-18T05:00:42.649Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 201
+    },
+    "retryHistory": []
   }
 ]
