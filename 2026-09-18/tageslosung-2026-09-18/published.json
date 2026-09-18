@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-18",
+    "contentDate": "2026-09-18",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-09-18T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Ihr sollt einer mit dem andern reden: »Was hat der HERR geantwortet?«, und: »Was hat der HERR gesagt?«",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Ihr sollt einer mit dem andern reden: »Was hat der HERR geantwortet?«, und: »Was hat der HERR gesagt?«"
+    ],
+    "id": "bcb28c29-f777-4f71-81c3-7b9df1fd8591",
+    "attemptCount": 1,
+    "remoteId": "18459047116137051",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:45:34.394Z",
+    "updatedAt": "2026-09-18T05:00:25.689Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-18",
+    "contentDate": "2026-09-18",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-09-18T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Ihr sollt einer mit dem andern reden: »Was hat der HERR geantwortet?«, und: »Was hat der HERR gesagt?«",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Ihr sollt einer mit dem andern reden: »Was hat der HERR geantwortet?«, und: »Was hat der HERR gesagt?«"
+    ],
+    "id": "028f9b73-aa26-4953-b0e1-54de33881a21",
+    "attemptCount": 1,
+    "remoteId": "117290279010365363",
+    "remoteUrl": "https://kirche.social/@christoph/117290279010365363",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:45:34.402Z",
+    "updatedAt": "2026-09-18T05:00:26.564Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
