@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-09-19",
+    "contentDate": "2026-09-19",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-09-19T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Das Kind ist unverzüglich nach seiner Geburt in ein Register einzutragen und hat das Recht auf einen Namen von Geburt an, das Recht, eine Staatsangehörigkeit zu erwerben, und soweit möglich das Recht, seine Eltern zu kennen und von ihnen betreut zu werden. (UN-Kinderrechtskonvention, Artikel 7 Absatz 1)",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Das Kind ist unverzüglich nach seiner Geburt in ein Register einzutragen und hat das Recht auf einen Namen von Geburt an, das Recht, eine Staatsangehörigkeit zu erwerben, und soweit möglich das Recht, seine Eltern zu kennen und von ihnen betreut zu werden. (UN-Kinderrechtskonvention, Artikel 7 Absatz 1)"
+    ],
+    "id": "4a61165c-1df1-4e97-8376-1a3aac739711",
+    "attemptCount": 1,
+    "remoteId": "18111779489037066",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:38:16.413Z",
+    "updatedAt": "2026-09-19T10:00:30.536Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-09-19",
+    "contentDate": "2026-09-19",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-09-19T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Das Kind ist unverzüglich nach seiner Geburt in ein Register einzutragen und hat das Recht auf einen Namen von Geburt an, das Recht, eine Staatsangehörigkeit zu erwerben, und soweit möglich das Recht, seine Eltern zu kennen und von ihnen betreut zu werden. (UN-Kinderrechtskonvention, Artikel 7 Absatz 1)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Das Kind ist unverzüglich nach seiner Geburt in ein Register einzutragen und hat das Recht auf einen Namen von Geburt an, das Recht, eine Staatsangehörigkeit zu erwerben, und soweit möglich das Recht, seine Eltern zu kennen und von ihnen betreut zu werden. (UN-Kinderrechtskonvention, Artikel 7 Absatz 1)"
+    ],
+    "id": "a4532fff-fe94-4e05-a483-b3be6921a128",
+    "attemptCount": 1,
+    "remoteId": "117297121336244979",
+    "remoteUrl": "https://kirche.social/@christoph/117297121336244979",
+    "lastError": null,
+    "createdAt": "2026-08-26T15:38:16.454Z",
+    "updatedAt": "2026-09-19T10:00:32.175Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
