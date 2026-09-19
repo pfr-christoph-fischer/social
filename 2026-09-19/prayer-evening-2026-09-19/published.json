@@ -27,5 +27,66 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "prayer-evening-2026-09-19",
+    "contentDate": "2026-09-19",
+    "platform": "instagram",
+    "format": "default",
+    "scheduledAt": "2026-09-19T18:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Der Tag muss vor Gott nicht perfekt sein.\n\nEin Abendgebet für alles, was gelungen ist. Und für das, was offen blieb.\n\nWir denken heute an Menschen, die unter hohen Spritpreisen und knappen Kassen leiden. Und an die Menschen, die nach den Waldbränden dieses Sommers weiter mit den Folgen leben.\n\nGott, nimm diesen Tag in deine Hand. Schenk Ruhe. Und halte die Hoffnung in uns wach.\n\nAmen.",
+    "assets": [
+      "render-instagram-feed-01.jpg",
+      "render-instagram-feed-02.jpg",
+      "render-instagram-feed-03.jpg",
+      "render-instagram-feed-04.jpg",
+      "render-instagram-feed-05.jpg"
+    ],
+    "altTexts": [
+      "Ein schlichter Tisch an einem Fenster im warmen Abendlicht. Auf dem Tisch liegen ein geschlossener Notizblock und eine Tasse. Draußen sind Bäume in der Dämmerung zu sehen."
+    ],
+    "id": "abd62d53-4725-43d4-aef9-f90e809823ec",
+    "attemptCount": 1,
+    "remoteId": "18128259178779942",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-09-19T16:29:38.409Z",
+    "updatedAt": "2026-09-19T18:00:57.042Z",
+    "responseMetadata": {
+      "mediaCount": 5,
+      "mediaType": "CAROUSEL",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "prayer-evening-2026-09-19",
+    "contentDate": "2026-09-19",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-09-19T18:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Gott, wir legen dir diesen Tag hin. Das Gute. Das Schwere. Das Offene.\n\nWir bitten für Menschen, die unter hohen Spritpreisen und knappen Kassen leiden. Und für die Menschen, die nach den Waldbränden dieses Sommers weiter mit den Folgen leben.\n\nSchenk Frieden für diese Nacht. Amen.",
+    "assets": [
+      "render-facebook-mastodon-01.png"
+    ],
+    "altTexts": [
+      "Ein schlichter Tisch an einem Fenster im warmen Abendlicht. Auf dem Tisch liegen ein geschlossener Notizblock und eine Tasse. Draußen sind Bäume in der Dämmerung zu sehen."
+    ],
+    "id": "00f6f436-bbca-4e8d-b6eb-996f05363e19",
+    "attemptCount": 1,
+    "remoteId": "117299010489643008",
+    "remoteUrl": "https://kirche.social/@christoph/117299010489643008",
+    "lastError": null,
+    "createdAt": "2026-09-19T16:29:38.455Z",
+    "updatedAt": "2026-09-19T18:00:58.398Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
