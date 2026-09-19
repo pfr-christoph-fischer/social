@@ -1,0 +1,36 @@
+{
+  "delivery_url": "https://delivery.us8.bfl.ai/durable/2026091916/5e1f69ea-538b-4d66-962e-9be995966f07/9a/496583d56b881d/d56b881dc9464d709d687ea96eb4d8ed/sample.jpeg?se=2026-09-19T16%3A41%3A36Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=EA7Z0yPFXPPt%2BKSaaR412N%2B3iuumP1khlZohnuhztf4%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "a3116828-bc54-4caa-832d-b3ff5feb85dd",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "a3116828-bc54-4caa-832d-b3ff5feb85dd",
+      "status": "Ready",
+      "result": {
+        "start_time": 1789835495.2803185,
+        "prompt": "Fotorealistischer stiller Morgen mit weichem goldenem Licht, Tau auf Blättern, offenes Fenster oder ruhige Straßenszene im frühen Tagesanbruch, klare natürliche Farben, schlichte protestantische Ästhetik, viel Raum, hoffnungsvoll, ungekünstelt, editorial photography, gentle contrast, calm atmosphere, no staged worship, no dramatic effects, no text, no letters, no typography, no logo, no watermark",
+        "seed": 1222234939,
+        "sample": "https://delivery.us8.bfl.ai/durable/2026091916/5e1f69ea-538b-4d66-962e-9be995966f07/9a/496583d56b881d/d56b881dc9464d709d687ea96eb4d8ed/sample.jpeg?se=2026-09-19T16%3A41%3A36Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=EA7Z0yPFXPPt%2BKSaaR412N%2B3iuumP1khlZohnuhztf4%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "a3116828-bc54-4caa-832d-b3ff5feb85dd",
+    "polling_url": "https://api.us8.bfl.ai/v1/get_result?id=a3116828-bc54-4caa-832d-b3ff5feb85dd",
+    "cost": 1.5,
+    "input_mp": 0,
+    "output_mp": 1.39
+  }
+}
