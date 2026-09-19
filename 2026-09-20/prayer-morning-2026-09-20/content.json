@@ -26,31 +26,31 @@
   },
   "platforms": {
     "facebook": {
-      "text": "Gott,\ndu bist da, noch bevor ich ganz wach bin.\nDas erste Licht fällt auf Häuser, Bäume, Gesichter.\nUnd dieser Tag ist nicht leer.\nEr kommt aus deiner Hand.\n\n„Lass mich am Morgen hören deine Gnade“ (Psalm 143,8).\n\nIch danke dir für Atem, für Licht, für alles, was heute wachsen darf.\nSei in meiner Freude.\nSei in meiner Unruhe.\nSei in allem, was vor mir liegt.\n\nGib mir ein waches Herz.\nLass mich dein Gutes sehen.\nUnd wenn der Tag schwer wird, halte mich fest.\n\nIch gehe nicht allein.\nDu bist Gott. Du bist treu.\nAmen.",
-      "headline": "Morgengebet"
+      "headline": "Morgengebet",
+      "text": "Gott,\ndu bist da, noch bevor ich ganz wach bin.\nDas erste Licht fällt auf Häuser, Bäume, Gesichter.\nUnd dieser Tag ist nicht leer.\nEr kommt aus deiner Hand.\n\n„Lass mich am Morgen hören deine Gnade“ (Psalm 143,8).\n\nIch danke dir für Atem, für Licht, für alles, was heute wachsen darf.\nSei in meiner Freude.\nSei in meiner Unruhe.\nSei in allem, was vor mir liegt.\n\nGib mir ein waches Herz.\nLass mich dein Gutes sehen.\nUnd wenn der Tag schwer wird, halte mich fest.\n\nIch gehe nicht allein.\nDu bist Gott. Du bist treu.\nAmen."
     },
     "instagram": {
       "caption": "Gott,\ndu bist da, noch bevor ich ganz wach bin.\n\n„Lass mich am Morgen hören deine Gnade“ (Psalm 143,8).\n\nDanke für Licht, Atem und Leben.\nGeh mit mir in alles, was heute vor mir liegt.\nWenn es leicht wird, freue ich mich mit dir.\nWenn es schwer wird, halte mich fest.\n\nIch gehe nicht allein.\nDu bist treu.\nAmen.",
       "carousel": [
         {
-          "type": "text",
-          "text": "Gott,\ndu bist da,\nnoch bevor ich ganz wach bin."
+          "text": "Gott,\ndu bist da,\nnoch bevor ich ganz wach bin.",
+          "type": "text"
         },
         {
-          "type": "text",
-          "text": "„Lass mich am Morgen\nhören deine Gnade“\n(Psalm 143,8)."
+          "text": "„Lass mich am Morgen\nhören deine Gnade“\n(Psalm 143,8).",
+          "type": "text"
         },
         {
-          "type": "text",
-          "text": "Danke für Licht,\nAtem und Leben."
+          "text": "Danke für Licht,\nAtem und Leben.",
+          "type": "text"
         },
         {
-          "type": "text",
-          "text": "Wenn es schwer wird,\nhalte mich fest."
+          "text": "Wenn es schwer wird,\nhalte mich fest.",
+          "type": "text"
         },
         {
-          "type": "text",
-          "text": "Ich gehe nicht allein.\nDu bist treu.\nAmen."
+          "text": "Ich gehe nicht allein.\nDu bist treu.\nAmen.",
+          "type": "text"
         }
       ]
     },
@@ -104,12 +104,12 @@
     "alt_text": "Frühes Morgenlicht fällt weich auf Blätter mit Tau und auf eine ruhige Szene zum Tagesbeginn. Das Bild wirkt still, klar und hoffnungsvoll."
   },
   "qa": {
+    "approved": false,
     "warnings": [
       "Alt text must be completed before approval",
       "Gebetsschnipsel biblisch geprüft: Psalm 143,8 in Lutherbibel 2017.",
       "Am Morgen der Veröffentlichung nur auf stimmigen Tagesbezug prüfen."
-    ],
-    "approved": false
+    ]
   },
   "metadata": {
     "model": "gpt-5.4-2026-03-05",
