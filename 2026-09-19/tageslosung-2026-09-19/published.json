@@ -84,5 +84,91 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-19",
+    "contentDate": "2026-09-19",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-09-19T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "/Gott spricht:/ Ich will nicht immerdar hadern und nicht ewiglich zürnen.",
+    "assets": [
+      "render-square-01.jpg"
+    ],
+    "altTexts": [
+      "/Gott spricht:/ Ich will nicht immerdar hadern und nicht ewiglich zürnen."
+    ],
+    "id": "2b15b78b-cecf-4bad-9456-35d47e738ad2",
+    "attemptCount": 1,
+    "remoteId": "18111086378145623",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:45:36.588Z",
+    "updatedAt": "2026-09-19T05:01:02.975Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-19",
+    "contentDate": "2026-09-19",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-09-19T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "/Gott spricht:/ Ich will nicht immerdar hadern und nicht ewiglich zürnen.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "/Gott spricht:/ Ich will nicht immerdar hadern und nicht ewiglich zürnen."
+    ],
+    "id": "000d49f8-6e95-483a-b1a6-0e440d803b8d",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3mvtvnr6bob2o",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3mvtvnr6bob2o",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:45:36.604Z",
+    "updatedAt": "2026-09-19T05:01:05.143Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-19",
+    "contentDate": "2026-09-19",
+    "platform": "linkedin",
+    "format": "default",
+    "scheduledAt": "2026-09-19T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "/Gott spricht:/ Ich will nicht immerdar hadern und nicht ewiglich zürnen.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "/Gott spricht:/ Ich will nicht immerdar hadern und nicht ewiglich zürnen."
+    ],
+    "id": "384fefa3-4906-4e9b-8a9b-cbcc58f2357c",
+    "attemptCount": 1,
+    "remoteId": "urn:li:share:7506940413014925312",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:45:36.611Z",
+    "updatedAt": "2026-09-19T05:01:07.011Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 201
+    },
+    "retryHistory": []
   }
 ]
