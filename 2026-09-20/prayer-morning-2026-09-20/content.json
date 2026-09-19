@@ -1,0 +1,120 @@
+{
+  "id": "prayer-morning-2026-09-20",
+  "status": "in Arbeit",
+  "needs_input": false,
+  "source": {
+    "calendar_post_id": "prayer-morning-2026-09-20",
+    "date": "2026-09-20",
+    "rubric": "Morgengebet",
+    "liturgical_source": ""
+  },
+  "editorial_core": {
+    "title": "Morgengebet",
+    "main_message": "Der Tag beginnt nicht bei meiner To-do-Liste, sondern bei Gott. Sein Licht, seine Güte und seine Treue tragen in den Morgen.",
+    "audience": "breite Öffentlichkeit",
+    "tone": [
+      "lobend",
+      "hoffnungsvoll",
+      "zugewandt"
+    ],
+    "source_notes": [
+      "Morgenlob ohne Nachrichtenschau und ohne konkrete Fürbitten für aktuelle Ereignisse.",
+      "Kurzer Gebetsschnipsel aus Psalm 118,24: „Dies ist der Tag, den der HERR macht“ (Lutherbibel 2017, geprüft).",
+      "Bildsprache: Licht, Atem, geöffneter Morgen, empfangener Tag.",
+      "Sprache bewusst einfach, ruhig und zugänglich gehalten."
+    ]
+  },
+  "platforms": {
+    "facebook": {
+      "text": "Gott,\ndu bist da, noch bevor ich ganz wach bin.\nDas erste Licht fällt auf Häuser, Bäume, Gesichter.\nUnd dieser Tag ist nicht leer.\nEr kommt aus deiner Hand.\n\n„Dies ist der Tag, den der HERR macht“ (Psalm 118,24).\n\nIch danke dir für Atem, für Licht, für alles, was heute wachsen darf.\nSei in meiner Freude.\nSei in meiner Unruhe.\nSei in allem, was vor mir liegt.\n\nGib mir ein waches Herz.\nLass mich dein Gutes sehen.\nUnd wenn der Tag schwer wird, halte mich fest.\n\nIch gehe nicht allein.\nDu bist Gott. Du bist treu.\nAmen.",
+      "headline": "Morgengebet"
+    },
+    "instagram": {
+      "caption": "Gott,\ndu bist da, noch bevor ich ganz wach bin.\n\n„Dies ist der Tag, den der HERR macht“ (Psalm 118,24).\n\nDanke für Licht, Atem und Leben.\nGeh mit mir in alles, was heute vor mir liegt.\nWenn es leicht wird, freue ich mich mit dir.\nWenn es schwer wird, halte mich fest.\n\nIch gehe nicht allein.\nDu bist treu.\nAmen.",
+      "carousel": [
+        {
+          "type": "text",
+          "text": "Gott,\ndu bist da,\nnoch bevor ich ganz wach bin."
+        },
+        {
+          "type": "text",
+          "text": "„Dies ist der Tag,\nden der HERR macht“\n(Psalm 118,24)."
+        },
+        {
+          "type": "text",
+          "text": "Danke für Licht,\nAtem und Leben."
+        },
+        {
+          "type": "text",
+          "text": "Wenn es schwer wird,\nhalte mich fest."
+        },
+        {
+          "type": "text",
+          "text": "Ich gehe nicht allein.\nDu bist treu.\nAmen."
+        }
+      ]
+    },
+    "mastodon": {
+      "text": "Gott,\ndu bist da, noch bevor ich ganz wach bin.\n\n„Dies ist der Tag, den der HERR macht“ (Psalm 118,24).\n\nDanke für Licht, Atem und Leben. Geh mit mir in alles, was heute vor mir liegt. Wenn es schwer wird, halte mich fest.\n\nIch gehe nicht allein.\nDu bist treu.\nAmen."
+    },
+    "bluesky": {
+      "text": "Gott, du bist da, noch bevor ich ganz wach bin.\n\n„Dies ist der Tag, den der HERR macht“ (Psalm 118,24).\n\nDanke für Licht, Atem und Leben. Geh mit mir in alles, was heute vor mir liegt. Wenn es schwer wird, halte mich fest. Ich gehe nicht allein. Du bist treu. Amen."
+    },
+    "story": {
+      "slides": [
+        {
+          "text": "Gott,\ndu bist da,\nnoch bevor ich ganz wach bin."
+        },
+        {
+          "text": "„Dies ist der Tag,\nden der HERR macht“\nPsalm 118,24"
+        },
+        {
+          "text": "Danke für Licht,\nAtem und Leben."
+        },
+        {
+          "text": "Wenn es schwer wird,\nhalte mich fest."
+        },
+        {
+          "text": "Ich gehe nicht allein.\nDu bist treu.\nAmen."
+        }
+      ]
+    },
+    "reel": {
+      "hook": "Bevor der Tag laut wird: ein kurzes Morgengebet.",
+      "script": "Gott, du bist da, noch bevor ich ganz wach bin. Das erste Licht fällt auf den Morgen. Und dieser Tag kommt aus deiner Hand. „Dies ist der Tag, den der HERR macht.“ Danke für Licht, Atem und Leben. Geh mit mir in alles, was heute vor mir liegt. Wenn es schwer wird, halte mich fest. Ich gehe nicht allein. Du bist treu. Amen.",
+      "shots": [
+        "Frühes Morgenlicht an einem Fenster",
+        "Tau auf Blättern oder Gras",
+        "Eine Hand an einer warmen Tasse",
+        "Ruhige Straße oder stiller Weg im Morgenlicht",
+        "Weite Himmelsszene mit aufziehendem Licht"
+      ],
+      "duration_seconds": 25
+    }
+  },
+  "visual": {
+    "concept": "Ruhiger Morgen mit weichem Licht: ein einfacher, echter Tagesanfang ohne Menscheninszenierung im Vordergrund. Natur und Stadt dürfen leise zusammenkommen.",
+    "flux_prompt": "Fotorealistischer stiller Morgen mit weichem goldenem Licht, Tau auf Blättern, offenes Fenster oder ruhige Straßenszene im frühen Tagesanbruch, klare natürliche Farben, schlichte protestantische Ästhetik, viel Raum, hoffnungsvoll, ungekünstelt, editorial photography, gentle contrast, calm atmosphere, no staged worship, no dramatic effects",
+    "negative_prompt": "text, letters, logo, watermark, typografie, schrift im bild, überinszeniert, kitsch, fantasy, neon, people posing, exaggerated sun rays",
+    "formats": [
+      "4:5",
+      "9:16",
+      "1.91:1"
+    ],
+    "alt_text": "Frühes Morgenlicht fällt weich auf Blätter mit Tau und auf eine ruhige Szene zum Tagesbeginn. Das Bild wirkt still, klar und hoffnungsvoll."
+  },
+  "qa": {
+    "warnings": [
+      "Alt text must be completed before approval",
+      "Gebetsschnipsel biblisch geprüft: Psalm 118,24 in Lutherbibel 2017.",
+      "Am Morgen der Veröffentlichung nur auf stimmigen Tagesbezug prüfen."
+    ],
+    "approved": false
+  },
+  "metadata": {
+    "model": "gpt-5.4-2026-03-05",
+    "generated_at": "2026-09-19T14:00:29.032Z",
+    "prompt_version": "1.1",
+    "assets": []
+  }
+}
