@@ -1,0 +1,52 @@
+{
+  "delivery_url": "https://delivery.eu2.bfl.ai/durable/2026091916/5e1f69ea-538b-4d66-962e-9be995966f07/90/93973914c9b3a0/14c9b3a0180146f3b76b2109a0802c9e/sample.jpeg?se=2026-09-19T16%3A15%3A40Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=6YoZwc6EtOBNXegFiHeRkU5jisjrw834h7dunA7OJac%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "ca07ec61-f16f-4ccb-86b1-83c38cd0c943",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "ca07ec61-f16f-4ccb-86b1-83c38cd0c943",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "ca07ec61-f16f-4ccb-86b1-83c38cd0c943",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "ca07ec61-f16f-4ccb-86b1-83c38cd0c943",
+      "status": "Ready",
+      "result": {
+        "start_time": 1789833938.9253147,
+        "prompt": "ruhige Abendszene in einem schlichten Zimmer am Fenster, weiches warmes Licht, auf einem Tisch liegen ein geschlossener Notizblock und eine Tasse, draußen Bäume in der Dämmerung, stille hoffnungsvolle Atmosphäre, fotografisch, natürliches Licht, unaufgeregt, menschennah, editorial style, no text, no letters, no typography, no logo, no watermark",
+        "seed": 157991729,
+        "sample": "https://delivery.eu2.bfl.ai/durable/2026091916/5e1f69ea-538b-4d66-962e-9be995966f07/90/93973914c9b3a0/14c9b3a0180146f3b76b2109a0802c9e/sample.jpeg?se=2026-09-19T16%3A15%3A40Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=6YoZwc6EtOBNXegFiHeRkU5jisjrw834h7dunA7OJac%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "ca07ec61-f16f-4ccb-86b1-83c38cd0c943",
+    "polling_url": "https://api.eu2.bfl.ai/v1/get_result?id=ca07ec61-f16f-4ccb-86b1-83c38cd0c943",
+    "cost": 1.4000000000000001,
+    "input_mp": 0,
+    "output_mp": 0.72
+  }
+}

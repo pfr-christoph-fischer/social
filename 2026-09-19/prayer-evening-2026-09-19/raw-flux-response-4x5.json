@@ -1,0 +1,52 @@
+{
+  "delivery_url": "https://delivery.eu2.bfl.ai/durable/2026091916/5e1f69ea-538b-4d66-962e-9be995966f07/80/942542e3a8dcaf/e3a8dcaf579842d589d1350afb924b16/sample.jpeg?se=2026-09-19T16%3A15%3A43Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=J6U0Rrn086IDiFdYnfh/ogTeLhxbPDmJ4wXH4U1gim8%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "f705e3e7-0f2d-4111-99cd-57b759e37f8b",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "f705e3e7-0f2d-4111-99cd-57b759e37f8b",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "f705e3e7-0f2d-4111-99cd-57b759e37f8b",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "f705e3e7-0f2d-4111-99cd-57b759e37f8b",
+      "status": "Ready",
+      "result": {
+        "start_time": 1789833941.5565999,
+        "prompt": "ruhige Abendszene in einem schlichten Zimmer am Fenster, weiches warmes Licht, auf einem Tisch liegen ein geschlossener Notizblock und eine Tasse, draußen Bäume in der Dämmerung, stille hoffnungsvolle Atmosphäre, fotografisch, natürliches Licht, unaufgeregt, menschennah, editorial style, no text, no letters, no typography, no logo, no watermark",
+        "seed": 4230216287,
+        "sample": "https://delivery.eu2.bfl.ai/durable/2026091916/5e1f69ea-538b-4d66-962e-9be995966f07/80/942542e3a8dcaf/e3a8dcaf579842d589d1350afb924b16/sample.jpeg?se=2026-09-19T16%3A15%3A43Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=J6U0Rrn086IDiFdYnfh/ogTeLhxbPDmJ4wXH4U1gim8%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "f705e3e7-0f2d-4111-99cd-57b759e37f8b",
+    "polling_url": "https://api.eu2.bfl.ai/v1/get_result?id=f705e3e7-0f2d-4111-99cd-57b759e37f8b",
+    "cost": 1.5,
+    "input_mp": 0,
+    "output_mp": 1.39
+  }
+}

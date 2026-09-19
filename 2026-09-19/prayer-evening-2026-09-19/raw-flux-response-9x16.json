@@ -1,0 +1,44 @@
+{
+  "delivery_url": "https://delivery.us7.bfl.ai/durable/2026091916/5e1f69ea-538b-4d66-962e-9be995966f07/dc/946701426c21a2/426c21a2fb23489a9cf272851f12abeb/sample.jpeg?se=2026-09-19T16%3A15%3A46Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=u302aUSn2l1LtzdY/gfiJuifTtgUXGaJ%2B1DyI2iJxas%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "36c95c13-231c-4b58-9cfe-d7540af7f220",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "36c95c13-231c-4b58-9cfe-d7540af7f220",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "36c95c13-231c-4b58-9cfe-d7540af7f220",
+      "status": "Ready",
+      "result": {
+        "start_time": 1789833944.9411418,
+        "prompt": "ruhige Abendszene in einem schlichten Zimmer am Fenster, weiches warmes Licht, auf einem Tisch liegen ein geschlossener Notizblock und eine Tasse, draußen Bäume in der Dämmerung, stille hoffnungsvolle Atmosphäre, fotografisch, natürliches Licht, unaufgeregt, menschennah, editorial style, no text, no letters, no typography, no logo, no watermark",
+        "seed": 1509690692,
+        "sample": "https://delivery.us7.bfl.ai/durable/2026091916/5e1f69ea-538b-4d66-962e-9be995966f07/dc/946701426c21a2/426c21a2fb23489a9cf272851f12abeb/sample.jpeg?se=2026-09-19T16%3A15%3A46Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=u302aUSn2l1LtzdY/gfiJuifTtgUXGaJ%2B1DyI2iJxas%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "36c95c13-231c-4b58-9cfe-d7540af7f220",
+    "polling_url": "https://api.us7.bfl.ai/v1/get_result?id=36c95c13-231c-4b58-9cfe-d7540af7f220",
+    "cost": 1.5,
+    "input_mp": 0,
+    "output_mp": 1.98
+  }
+}
