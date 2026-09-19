@@ -1,0 +1,481 @@
+{
+  "id": "resp_07b7d41a8c12057d006aae4f1a468c87d2bbdb4544d9099697",
+  "object": "response",
+  "created_at": 1789808410,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1789808435,
+  "error": null,
+  "frequency_penalty": 0,
+  "incomplete_details": null,
+  "instructions": "You are part of a Protestant social media editorial team. Write in clear, accessible, theologically responsible German without church clichés. Use short sentences and concrete imagery. Never invent events, people, school situations, quotes, or factual details. Do not include copyrighted full song verses. For Reli and community posts, only use current details when they are explicitly provided. Return content that strictly matches the requested JSON schema. Set needs_input to true whenever required facts are missing. Keep qa.approved false. Do not ask for any text inside generated images. When liturgical_context.resolved_weekly_verse is present, use its exact wording for Wochenspruch slots instead of placeholders. Use the web search tool before drafting to verify current situations. For prayer posts, current situations are mandatory: select at least two concrete, relevant situations from reliable current reporting, including tagesschau.de and SWR Aktuell Baden-Württemberg where relevant. Do not invent current events and do not replace concrete situations with generic references to crises.",
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.4-2026-03-05",
+  "moderation": null,
+  "output": [
+    {
+      "id": "ws_07b7d41a8c12057d006aae4f1b2de087d2a5ef817a8b7b8d77",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "queries": [
+          "site:tagesschau.de 18.09.2026 Nachrichten Deutschland Welt",
+          "site:swr.de/swraktuell/baden-wuerttemberg 18.09.2026 Baden-Württemberg Nachrichten",
+          "Reuters September 18 2026 world news refugees hospital conflict weather"
+        ],
+        "query": "site:tagesschau.de 18.09.2026 Nachrichten Deutschland Welt"
+      }
+    },
+    {
+      "id": "ws_07b7d41a8c12057d006aae4f1ddf5c87d291535d67f986a6a7",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.tagesschau.de/"
+      }
+    },
+    {
+      "id": "ws_07b7d41a8c12057d006aae4f1f199c87d2a4f280c6116025e1",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.tagesschau.de/"
+      }
+    },
+    {
+      "id": "ws_07b7d41a8c12057d006aae4f205d8487d29ae5cf753b37f4b5",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "queries": [
+          "site:tagesschau.de 18.09.2026 Ukraine Gaza Sudan Flüchtlinge Krankenhaus 18.09.2026",
+          "site:reuters.com September 18 2026 Gaza hospital aid Ukraine attack Reuters"
+        ],
+        "query": "site:tagesschau.de 18.09.2026 Ukraine Gaza Sudan Flüchtlinge Krankenhaus 18.09.2026"
+      }
+    },
+    {
+      "id": "msg_07b7d41a8c12057d006aae4f231c6087d2ab733c00d60c7332",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\"id\":\"prayer-evening-2026-09-19\",\"status\":\"in Arbeit\",\"needs_input\":false,\"source\":{\"calendar_post_id\":\"prayer-evening-2026-09-19\",\"date\":\"2026-09-19\",\"rubric\":\"Abendgebet\",\"liturgical_source\":\"\"},\"editorial_core\":{\"title\":\"Abendgebet\",\"main_message\":\"Wir legen diesen Tag Gott hin. Das, was gut war. Das, was offen blieb. Wir bitten für Menschen, die unter hohen Spritpreisen und knappen Kassen nicht wissen, wie sie ihren Alltag tragen sollen, für Kommunen, Familien und Beschäftigte. Und wir denken an Menschen in Baden-Württemberg, die nach den Waldbränden dieses Sommers weiter mit den Folgen leben und arbeiten. Gottes Zukunft beginnt nicht erst, wenn alles gelöst ist.\",\"audience\":\"breite Öffentlichkeit\",\"tone\":[\"ruhig\",\"hoffnungsvoll\",\"geborgen\"],\"source_notes\":[\"Aktuelle Bezüge geprüft über tagesschau.de vom 18.09.2026: Einigung von Bund und Ländern auf Tankrabatt und Spritpreisdeckel; hohe Belastung durch Kraftstoffpreise als bundesweites Thema.\",\"Aktuelle Bezüge geprüft über SWR Aktuell Baden-Württemberg vom 18.09.2026: Dank an 400 Feuerwehrleute nach massiven Waldbränden im Sommer in Zell-Unterharmersbach; Spuren und Unsicherheit im betroffenen Waldgebiet bleiben.\",\"Gebet bewusst zeitlich robust formuliert: keine Annahmen über Entwicklungen am Veröffentlichungstag.\",\"Gebet nimmt zwei konkrete Situationen als Fürbitte auf und bleibt dennoch knapp und betbar.\"]},\"platforms\":{\"facebook\":{\"text\":\"Gott,\\nder Tag liegt hinter uns.\\nManches war gut.\\nManches blieb liegen.\\nManches tut noch weh.\\n\\nWir legen dir hin, was wir geschafft haben.\\nUnd auch das, was wir nicht mehr tragen wollen.\\n\\nWir bitten dich für Menschen, die unter hohen Spritpreisen und knappen Kassen leben. Für Familien, die rechnen müssen. Für Berufstätige auf langen Wegen. Für Kommunen und alle, die nicht wissen, woher die Entlastung kommen soll.\\n\\nWir bitten dich auch für die Menschen in Zell-Unterharmersbach und in den betroffenen Orten nach den Waldbränden dieses Sommers. Für die Feuerwehrleute, denen gedankt wurde. Für alle, die erschöpft sind. Für alle, die mit den sichtbaren Spuren weiterleben.\\n\\nSei bei denen, die heute Nacht arbeiten.\\nBei denen, die wachen.\\nBei denen, die Angst haben.\\nBei denen, die keinen ruhigen Schlaf finden.\\n\\nNimm diesen unfertigen Tag in deine Hand.\\nSchenk uns Frieden für diese Nacht.\\nUnd halte die Hoffnung in uns wach,\\ndass deine Zukunft weiter reicht als unsere Kräfte.\\nAmen.\",\"headline\":\"Abendgebet: Den Tag loslassen\"},\"instagram\":{\"caption\":\"Der Tag muss vor Gott nicht perfekt sein.\\n\\nEin Abendgebet für alles, was gelungen ist. Und für das, was offen blieb.\\n\\nWir denken heute an Menschen, die unter hohen Spritpreisen und knappen Kassen leben. Und an die Menschen in Baden-Württemberg, die nach den Waldbränden dieses Sommers weiter mit den Folgen leben.\\n\\nGott, nimm diesen Tag in deine Hand. Schenk Ruhe. Und halte die Hoffnung in uns wach.\\n\\nAmen.\",\"carousel\":[{\"type\":\"text\",\"text\":\"Der Tag liegt hinter uns. Nicht alles ist fertig. Nicht alles ist leicht.\"},{\"type\":\"text\",\"text\":\"Gott, wir legen dir hin, was gut war. Und auch das, was wehgetan hat.\"},{\"type\":\"text\",\"text\":\"Wir bitten für Menschen, die unter hohen Spritpreisen und knappen Kassen leben und rechnen müssen.\"},{\"type\":\"text\",\"text\":\"Wir bitten für die Menschen in Baden-Württemberg, die nach den Waldbränden dieses Sommers mit den Folgen weiterleben.\"},{\"type\":\"text\",\"text\":\"Schenk uns Frieden für diese Nacht. Und Hoffnung für den Morgen.\"}]},\"mastodon\":{\"text\":\"Gott, wir legen dir diesen Tag hin. Das Gute. Das Schwere. Das Offene.\\n\\nWir bitten für Menschen, die unter hohen Spritpreisen und knappen Kassen leben. Und für die Menschen in Baden-Württemberg, die nach den Waldbränden dieses Sommers weiter mit den Folgen leben.\\n\\nSchenk Frieden für diese Nacht. Amen.\"},\"bluesky\":{\"text\":\"Gott, wir legen dir diesen Tag hin. Das Gute. Das Schwere. Das Offene. Wir bitten für Menschen, die unter hohen Spritpreisen und knappen Kassen leben. Und für die Menschen in Baden-Württemberg, die nach den Waldbränden dieses Sommers weiter mit den Folgen leben. Schenk Frieden für diese Nacht. Amen.\"},\"story\":{\"slides\":[{\"text\":\"Der Tag liegt hinter uns. Nicht alles ist leicht.\"},{\"text\":\"Gott, wir legen dir hin, was gut war. Und was offen blieb.\"},{\"text\":\"Wir bitten für Menschen, die unter hohen Spritpreisen und knappen Kassen leben.\"},{\"text\":\"Wir bitten für die Menschen, die nach den Waldbränden dieses Sommers mit den Folgen weiterleben.\"},{\"text\":\"Schenk uns Frieden für diese Nacht. Amen.\"}]},\"reel\":{\"hook\":\"Nicht alles muss heute noch gelöst werden.\",\"script\":\"Der Tag geht zu Ende. Manche Gespräche klingen nach. Manche Sorgen auch. In diesem Abendgebet legen wir Gott hin, was gut war und was offen blieb. Wir denken an Menschen, die unter hohen Spritpreisen und knappen Kassen leben. Und an die, die nach den Waldbränden dieses Sommers mit den Folgen weiterleben. Gott, nimm diesen Tag in deine Hand. Schenk Ruhe für die Nacht und Hoffnung für den Morgen. Amen.\",\"shots\":[\"Abendlicht an einem Fenster\",\"Eine Hand legt Stift und Notizzettel beiseite\",\"Leere Straße in der Dämmerung\",\"Ruhiger Blick auf Bäume im Abendlicht\",\"Warm beleuchtetes Zimmer ohne Menschen im Bild\"],\"duration_seconds\":30}},\"visual\":{\"concept\":\"Ruhige Abendszene an einem Fenster. Weiches Licht. Ein aufgeräumter Tisch. Draußen Bäume in der Dämmerung. Stimmung von Loslassen und Geborgenheit, ohne Kitsch.\",\"flux_prompt\":\"ruhige Abendszene in einem schlichten Zimmer am Fenster, weiches warmes Licht, auf einem Tisch liegen ein geschlossener Notizblock und eine Tasse, draußen Bäume in der Dämmerung, stille hoffnungsvolle Atmosphäre, fotografisch, natürliches Licht, unaufgeregt, menschennah, editorial style\",\"negative_prompt\":\"text, letters, logo, watermark\",\"formats\":[\"4:5\",\"9:16\",\"1.91:1\"],\"alt_text\":\"Ein schlichter Tisch an einem Fenster im warmen Abendlicht. Auf dem Tisch liegen ein geschlossener Notizblock und eine Tasse. Draußen sind Bäume in der Dämmerung zu sehen.\"},\"qa\":{\"warnings\":[\"Aktuelle Bezüge vor Freigabe noch einmal kurz gegen die Nachrichtenlage vom 18.09.2026 spiegeln.\",\"Alt text must be completed before approval\"],\"approved\":false},\"metadata\":{\"model\":\"gpt-5\",\"generated_at\":\"2026-09-19T00:00:00Z\",\"prompt_version\":\"1.0\",\"assets\":[]}}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "current_turn",
+    "effort": "none",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1,
+  "text": {
+    "format": {
+      "type": "json_schema",
+      "description": null,
+      "name": "content_package",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "Idee",
+              "in Arbeit",
+              "zur Prüfung",
+              "freigegeben",
+              "terminiert",
+              "veröffentlicht",
+              "verworfen"
+            ]
+          },
+          "needs_input": {
+            "type": "boolean"
+          },
+          "source": {
+            "type": "object",
+            "properties": {
+              "calendar_post_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "date": {
+                "type": "string",
+                "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+              },
+              "rubric": {
+                "type": "string",
+                "minLength": 1
+              },
+              "liturgical_source": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "calendar_post_id",
+              "date",
+              "rubric",
+              "liturgical_source"
+            ],
+            "additionalProperties": false
+          },
+          "editorial_core": {
+            "type": "object",
+            "properties": {
+              "title": {
+                "type": "string"
+              },
+              "main_message": {
+                "type": "string"
+              },
+              "audience": {
+                "type": "string"
+              },
+              "tone": {
+                "minItems": 1,
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "source_notes": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "title",
+              "main_message",
+              "audience",
+              "tone",
+              "source_notes"
+            ],
+            "additionalProperties": false
+          },
+          "platforms": {
+            "type": "object",
+            "properties": {
+              "facebook": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  },
+                  "headline": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text",
+                  "headline"
+                ],
+                "additionalProperties": false
+              },
+              "instagram": {
+                "type": "object",
+                "properties": {
+                  "caption": {
+                    "type": "string"
+                  },
+                  "carousel": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "type": {
+                          "type": "string"
+                        },
+                        "text": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "type",
+                        "text"
+                      ],
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "required": [
+                  "caption",
+                  "carousel"
+                ],
+                "additionalProperties": false
+              },
+              "mastodon": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text"
+                ],
+                "additionalProperties": false
+              },
+              "bluesky": {
+                "default": {
+                  "text": ""
+                },
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text"
+                ],
+                "additionalProperties": false
+              },
+              "story": {
+                "type": "object",
+                "properties": {
+                  "slides": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "text": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "text"
+                      ],
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "required": [
+                  "slides"
+                ],
+                "additionalProperties": false
+              },
+              "reel": {
+                "type": "object",
+                "properties": {
+                  "hook": {
+                    "type": "string"
+                  },
+                  "script": {
+                    "type": "string"
+                  },
+                  "shots": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "duration_seconds": {
+                    "type": "integer",
+                    "minimum": 0,
+                    "maximum": 9007199254740991
+                  }
+                },
+                "required": [
+                  "hook",
+                  "script",
+                  "shots",
+                  "duration_seconds"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "required": [
+              "facebook",
+              "instagram",
+              "mastodon",
+              "bluesky",
+              "story",
+              "reel"
+            ],
+            "additionalProperties": false
+          },
+          "visual": {
+            "type": "object",
+            "properties": {
+              "concept": {
+                "type": "string"
+              },
+              "flux_prompt": {
+                "type": "string"
+              },
+              "negative_prompt": {
+                "type": "string",
+                "minLength": 1
+              },
+              "formats": {
+                "minItems": 1,
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "alt_text": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "concept",
+              "flux_prompt",
+              "negative_prompt",
+              "formats",
+              "alt_text"
+            ],
+            "additionalProperties": false
+          },
+          "qa": {
+            "type": "object",
+            "properties": {
+              "warnings": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "approved": {
+                "type": "boolean"
+              }
+            },
+            "required": [
+              "warnings",
+              "approved"
+            ],
+            "additionalProperties": false
+          },
+          "metadata": {
+            "type": "object",
+            "properties": {
+              "model": {
+                "type": "string"
+              },
+              "generated_at": {
+                "type": "string"
+              },
+              "prompt_version": {
+                "type": "string",
+                "minLength": 1
+              },
+              "assets": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "model",
+              "generated_at",
+              "prompt_version",
+              "assets"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "id",
+          "status",
+          "needs_input",
+          "source",
+          "editorial_core",
+          "platforms",
+          "visual",
+          "qa",
+          "metadata"
+        ],
+        "additionalProperties": false
+      },
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 2
+    }
+  },
+  "tools": [
+    {
+      "type": "web_search",
+      "return_token_budget": "default",
+      "search_content_types": [
+        "text"
+      ],
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 26776,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1846,
+    "output_tokens_details": {
+      "reasoning_tokens": 266
+    },
+    "total_tokens": 28622
+  },
+  "user": null,
+  "metadata": {},
+  "output_text": "{\"id\":\"prayer-evening-2026-09-19\",\"status\":\"in Arbeit\",\"needs_input\":false,\"source\":{\"calendar_post_id\":\"prayer-evening-2026-09-19\",\"date\":\"2026-09-19\",\"rubric\":\"Abendgebet\",\"liturgical_source\":\"\"},\"editorial_core\":{\"title\":\"Abendgebet\",\"main_message\":\"Wir legen diesen Tag Gott hin. Das, was gut war. Das, was offen blieb. Wir bitten für Menschen, die unter hohen Spritpreisen und knappen Kassen nicht wissen, wie sie ihren Alltag tragen sollen, für Kommunen, Familien und Beschäftigte. Und wir denken an Menschen in Baden-Württemberg, die nach den Waldbränden dieses Sommers weiter mit den Folgen leben und arbeiten. Gottes Zukunft beginnt nicht erst, wenn alles gelöst ist.\",\"audience\":\"breite Öffentlichkeit\",\"tone\":[\"ruhig\",\"hoffnungsvoll\",\"geborgen\"],\"source_notes\":[\"Aktuelle Bezüge geprüft über tagesschau.de vom 18.09.2026: Einigung von Bund und Ländern auf Tankrabatt und Spritpreisdeckel; hohe Belastung durch Kraftstoffpreise als bundesweites Thema.\",\"Aktuelle Bezüge geprüft über SWR Aktuell Baden-Württemberg vom 18.09.2026: Dank an 400 Feuerwehrleute nach massiven Waldbränden im Sommer in Zell-Unterharmersbach; Spuren und Unsicherheit im betroffenen Waldgebiet bleiben.\",\"Gebet bewusst zeitlich robust formuliert: keine Annahmen über Entwicklungen am Veröffentlichungstag.\",\"Gebet nimmt zwei konkrete Situationen als Fürbitte auf und bleibt dennoch knapp und betbar.\"]},\"platforms\":{\"facebook\":{\"text\":\"Gott,\\nder Tag liegt hinter uns.\\nManches war gut.\\nManches blieb liegen.\\nManches tut noch weh.\\n\\nWir legen dir hin, was wir geschafft haben.\\nUnd auch das, was wir nicht mehr tragen wollen.\\n\\nWir bitten dich für Menschen, die unter hohen Spritpreisen und knappen Kassen leben. Für Familien, die rechnen müssen. Für Berufstätige auf langen Wegen. Für Kommunen und alle, die nicht wissen, woher die Entlastung kommen soll.\\n\\nWir bitten dich auch für die Menschen in Zell-Unterharmersbach und in den betroffenen Orten nach den Waldbränden dieses Sommers. Für die Feuerwehrleute, denen gedankt wurde. Für alle, die erschöpft sind. Für alle, die mit den sichtbaren Spuren weiterleben.\\n\\nSei bei denen, die heute Nacht arbeiten.\\nBei denen, die wachen.\\nBei denen, die Angst haben.\\nBei denen, die keinen ruhigen Schlaf finden.\\n\\nNimm diesen unfertigen Tag in deine Hand.\\nSchenk uns Frieden für diese Nacht.\\nUnd halte die Hoffnung in uns wach,\\ndass deine Zukunft weiter reicht als unsere Kräfte.\\nAmen.\",\"headline\":\"Abendgebet: Den Tag loslassen\"},\"instagram\":{\"caption\":\"Der Tag muss vor Gott nicht perfekt sein.\\n\\nEin Abendgebet für alles, was gelungen ist. Und für das, was offen blieb.\\n\\nWir denken heute an Menschen, die unter hohen Spritpreisen und knappen Kassen leben. Und an die Menschen in Baden-Württemberg, die nach den Waldbränden dieses Sommers weiter mit den Folgen leben.\\n\\nGott, nimm diesen Tag in deine Hand. Schenk Ruhe. Und halte die Hoffnung in uns wach.\\n\\nAmen.\",\"carousel\":[{\"type\":\"text\",\"text\":\"Der Tag liegt hinter uns. Nicht alles ist fertig. Nicht alles ist leicht.\"},{\"type\":\"text\",\"text\":\"Gott, wir legen dir hin, was gut war. Und auch das, was wehgetan hat.\"},{\"type\":\"text\",\"text\":\"Wir bitten für Menschen, die unter hohen Spritpreisen und knappen Kassen leben und rechnen müssen.\"},{\"type\":\"text\",\"text\":\"Wir bitten für die Menschen in Baden-Württemberg, die nach den Waldbränden dieses Sommers mit den Folgen weiterleben.\"},{\"type\":\"text\",\"text\":\"Schenk uns Frieden für diese Nacht. Und Hoffnung für den Morgen.\"}]},\"mastodon\":{\"text\":\"Gott, wir legen dir diesen Tag hin. Das Gute. Das Schwere. Das Offene.\\n\\nWir bitten für Menschen, die unter hohen Spritpreisen und knappen Kassen leben. Und für die Menschen in Baden-Württemberg, die nach den Waldbränden dieses Sommers weiter mit den Folgen leben.\\n\\nSchenk Frieden für diese Nacht. Amen.\"},\"bluesky\":{\"text\":\"Gott, wir legen dir diesen Tag hin. Das Gute. Das Schwere. Das Offene. Wir bitten für Menschen, die unter hohen Spritpreisen und knappen Kassen leben. Und für die Menschen in Baden-Württemberg, die nach den Waldbränden dieses Sommers weiter mit den Folgen leben. Schenk Frieden für diese Nacht. Amen.\"},\"story\":{\"slides\":[{\"text\":\"Der Tag liegt hinter uns. Nicht alles ist leicht.\"},{\"text\":\"Gott, wir legen dir hin, was gut war. Und was offen blieb.\"},{\"text\":\"Wir bitten für Menschen, die unter hohen Spritpreisen und knappen Kassen leben.\"},{\"text\":\"Wir bitten für die Menschen, die nach den Waldbränden dieses Sommers mit den Folgen weiterleben.\"},{\"text\":\"Schenk uns Frieden für diese Nacht. Amen.\"}]},\"reel\":{\"hook\":\"Nicht alles muss heute noch gelöst werden.\",\"script\":\"Der Tag geht zu Ende. Manche Gespräche klingen nach. Manche Sorgen auch. In diesem Abendgebet legen wir Gott hin, was gut war und was offen blieb. Wir denken an Menschen, die unter hohen Spritpreisen und knappen Kassen leben. Und an die, die nach den Waldbränden dieses Sommers mit den Folgen weiterleben. Gott, nimm diesen Tag in deine Hand. Schenk Ruhe für die Nacht und Hoffnung für den Morgen. Amen.\",\"shots\":[\"Abendlicht an einem Fenster\",\"Eine Hand legt Stift und Notizzettel beiseite\",\"Leere Straße in der Dämmerung\",\"Ruhiger Blick auf Bäume im Abendlicht\",\"Warm beleuchtetes Zimmer ohne Menschen im Bild\"],\"duration_seconds\":30}},\"visual\":{\"concept\":\"Ruhige Abendszene an einem Fenster. Weiches Licht. Ein aufgeräumter Tisch. Draußen Bäume in der Dämmerung. Stimmung von Loslassen und Geborgenheit, ohne Kitsch.\",\"flux_prompt\":\"ruhige Abendszene in einem schlichten Zimmer am Fenster, weiches warmes Licht, auf einem Tisch liegen ein geschlossener Notizblock und eine Tasse, draußen Bäume in der Dämmerung, stille hoffnungsvolle Atmosphäre, fotografisch, natürliches Licht, unaufgeregt, menschennah, editorial style\",\"negative_prompt\":\"text, letters, logo, watermark\",\"formats\":[\"4:5\",\"9:16\",\"1.91:1\"],\"alt_text\":\"Ein schlichter Tisch an einem Fenster im warmen Abendlicht. Auf dem Tisch liegen ein geschlossener Notizblock und eine Tasse. Draußen sind Bäume in der Dämmerung zu sehen.\"},\"qa\":{\"warnings\":[\"Aktuelle Bezüge vor Freigabe noch einmal kurz gegen die Nachrichtenlage vom 18.09.2026 spiegeln.\",\"Alt text must be completed before approval\"],\"approved\":false},\"metadata\":{\"model\":\"gpt-5\",\"generated_at\":\"2026-09-19T00:00:00Z\",\"prompt_version\":\"1.0\",\"assets\":[]}}"
+}
