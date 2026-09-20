@@ -27,5 +27,66 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "prayer-morning-2026-09-20",
+    "contentDate": "2026-09-20",
+    "platform": "instagram",
+    "format": "default",
+    "scheduledAt": "2026-09-20T05:15:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Gott,\ndu bist da, noch bevor ich ganz wach bin.\n\n„Lass mich am Morgen hören deine Gnade“ (Psalm 143,8).\n\nDanke für Licht, Atem und Leben.\nGeh mit mir in alles, was heute vor mir liegt.\nWenn es leicht wird, freue ich mich mit dir.\nWenn es schwer wird, halte mich fest.\n\nIch gehe nicht allein.\nDu bist treu.\nAmen.",
+    "assets": [
+      "render-instagram-feed-01.jpg",
+      "render-instagram-feed-02.jpg",
+      "render-instagram-feed-03.jpg",
+      "render-instagram-feed-04.jpg",
+      "render-instagram-feed-05.jpg"
+    ],
+    "altTexts": [
+      "Frühes Morgenlicht fällt weich auf Blätter mit Tau und auf eine ruhige Szene zum Tagesbeginn. Das Bild wirkt still, klar und hoffnungsvoll."
+    ],
+    "id": "347b5568-fcad-4681-8749-1efebc9a1c20",
+    "attemptCount": 1,
+    "remoteId": "18110010746162166",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-09-19T16:32:21.585Z",
+    "updatedAt": "2026-09-20T05:16:19.124Z",
+    "responseMetadata": {
+      "mediaCount": 5,
+      "mediaType": "CAROUSEL",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "prayer-morning-2026-09-20",
+    "contentDate": "2026-09-20",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-09-20T05:15:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Gott,\ndu bist da, noch bevor ich ganz wach bin.\n\n„Lass mich am Morgen hören deine Gnade“ (Psalm 143,8).\n\nDanke für Licht, Atem und Leben. Geh mit mir in alles, was heute vor mir liegt. Wenn es schwer wird, halte mich fest.\n\nIch gehe nicht allein.\nDu bist treu.\nAmen.",
+    "assets": [
+      "render-facebook-mastodon-01.png"
+    ],
+    "altTexts": [
+      "Frühes Morgenlicht fällt weich auf Blätter mit Tau und auf eine ruhige Szene zum Tagesbeginn. Das Bild wirkt still, klar und hoffnungsvoll."
+    ],
+    "id": "edaa6b23-aaf0-41ec-8e08-d0c27a2a9fcc",
+    "attemptCount": 1,
+    "remoteId": "117301666361531622",
+    "remoteUrl": "https://kirche.social/@christoph/117301666361531622",
+    "lastError": null,
+    "createdAt": "2026-09-19T16:32:21.638Z",
+    "updatedAt": "2026-09-20T05:16:23.793Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
