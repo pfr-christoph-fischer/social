@@ -56,5 +56,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "kirchenjahr-2026-09-20-16tr",
+    "contentDate": "2026-09-20",
+    "platform": "facebook",
+    "format": "square",
+    "scheduledAt": "2026-09-20T07:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "16. Sonntag nach Trinitatis\n\nTitel: Der starke Trost\n\nWochenspruch: „Jesus Christus hat dem Tode die Macht genommen und das Leben und ein unvergängliches Wesen ans Licht gebracht durch das Evangelium.“ (2. Tim 1,10b)\n\nPsalm: Ps 68,4-7.20-21.35-36\n\nAltes Testament: 1. Mose 2,4b-9(10-14)15(18-25)\n\nEvangelium: Mt 6,25-34\n\nEpistel: 1. Petr 5,5b-11\n\nPredigttext: 2. Tim 1,7-10\n\nLieder: Jesus lebt, mit ihm auch ich, EG 115; Gelobt sei deine Treu, EG 665",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "16. So. n. Trinitatis"
+    ],
+    "id": "14d8094f-bfac-4cb0-bfa6-2cf2dfcc33cf",
+    "attemptCount": 1,
+    "remoteId": "1289703740890525_122120674683426121",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-15T16:58:40.493Z",
+    "updatedAt": "2026-09-20T07:00:32.160Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "PHOTO",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "kirchenjahr-2026-09-20-16tr",
+    "contentDate": "2026-09-20",
+    "platform": "mastodon",
+    "format": "square",
+    "scheduledAt": "2026-09-20T07:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "16. Sonntag nach Trinitatis\n\nTitel: Der starke Trost\n\nWochenspruch: „Jesus Christus hat dem Tode die Macht genommen und das Leben und ein unvergängliches Wesen ans Licht gebracht durch das Evangelium.“ (2. Tim 1,10b)\n\nPsalm: Ps 68,4-7.20-21.35-36\n\nAltes Testament: 1. Mose 2,4b-9(10-14)15(18-25)\n\nEvangelium: Mt 6,25-34\n\nEpistel: 1. Petr 5,5b-11\n\nPredigttext: 2. Tim 1,7-10\n\nLieder: Jesus lebt, mit ihm auch ich, EG 115; Gelobt sei deine Treu, EG 665",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "16. So. n. Trinitatis"
+    ],
+    "id": "d72a32d0-644f-4d57-8aab-e9d11f6606a3",
+    "attemptCount": 1,
+    "remoteId": "117302075924317000",
+    "remoteUrl": "https://kirche.social/@christoph/117302075924317000",
+    "lastError": null,
+    "createdAt": "2026-08-15T16:58:40.519Z",
+    "updatedAt": "2026-09-20T07:00:33.195Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
