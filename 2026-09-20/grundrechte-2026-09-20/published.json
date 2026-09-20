@@ -84,5 +84,91 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-09-20",
+    "contentDate": "2026-09-20",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-09-20T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Jeder hat das Recht, überall als rechtsfähig anerkannt zu werden. (Allgemeine Erklärung der Menschenrechte, Artikel 6)",
+    "assets": [
+      "render-square-01.jpg"
+    ],
+    "altTexts": [
+      "Jeder hat das Recht, überall als rechtsfähig anerkannt zu werden. (Allgemeine Erklärung der Menschenrechte, Artikel 6)"
+    ],
+    "id": "eba1ddda-a411-409b-92af-68c42fae6bed",
+    "attemptCount": 1,
+    "remoteId": "18128451745783200",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:38:19.401Z",
+    "updatedAt": "2026-09-20T10:00:39.310Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-09-20",
+    "contentDate": "2026-09-20",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-09-20T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Jeder hat das Recht, überall als rechtsfähig anerkannt zu werden. (Allgemeine Erklärung der Menschenrechte, Artikel 6)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Jeder hat das Recht, überall als rechtsfähig anerkannt zu werden. (Allgemeine Erklärung der Menschenrechte, Artikel 6)"
+    ],
+    "id": "c5200d0e-7a59-42d4-91ea-5a4e484cb236",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3mvwwug6toy2o",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3mvwwug6toy2o",
+    "lastError": null,
+    "createdAt": "2026-08-26T15:38:19.443Z",
+    "updatedAt": "2026-09-20T10:00:41.573Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-09-20",
+    "contentDate": "2026-09-20",
+    "platform": "linkedin",
+    "format": "default",
+    "scheduledAt": "2026-09-20T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Jeder hat das Recht, überall als rechtsfähig anerkannt zu werden. (Allgemeine Erklärung der Menschenrechte, Artikel 6)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Jeder hat das Recht, überall als rechtsfähig anerkannt zu werden. (Allgemeine Erklärung der Menschenrechte, Artikel 6)"
+    ],
+    "id": "3cce214d-caf1-4978-9edc-c73cc19a772d",
+    "attemptCount": 1,
+    "remoteId": "urn:li:share:7507378200935841792",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:38:19.508Z",
+    "updatedAt": "2026-09-20T10:00:43.800Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 201
+    },
+    "retryHistory": []
   }
 ]
