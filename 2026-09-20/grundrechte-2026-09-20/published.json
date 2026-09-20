@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-09-20",
+    "contentDate": "2026-09-20",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-09-20T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Jeder hat das Recht, überall als rechtsfähig anerkannt zu werden. (Allgemeine Erklärung der Menschenrechte, Artikel 6)",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Jeder hat das Recht, überall als rechtsfähig anerkannt zu werden. (Allgemeine Erklärung der Menschenrechte, Artikel 6)"
+    ],
+    "id": "3ab2a74b-222c-4812-8364-d4d22a19ff5c",
+    "attemptCount": 1,
+    "remoteId": "18103152503625771",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:38:19.312Z",
+    "updatedAt": "2026-09-20T10:00:27.695Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-09-20",
+    "contentDate": "2026-09-20",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-09-20T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Jeder hat das Recht, überall als rechtsfähig anerkannt zu werden. (Allgemeine Erklärung der Menschenrechte, Artikel 6)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Jeder hat das Recht, überall als rechtsfähig anerkannt zu werden. (Allgemeine Erklärung der Menschenrechte, Artikel 6)"
+    ],
+    "id": "100f5d6f-65d1-42b5-b57c-6ba5a5b0597f",
+    "attemptCount": 1,
+    "remoteId": "117302783472129112",
+    "remoteUrl": "https://kirche.social/@christoph/117302783472129112",
+    "lastError": null,
+    "createdAt": "2026-08-26T15:38:19.355Z",
+    "updatedAt": "2026-09-20T10:00:29.523Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
