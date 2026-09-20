@@ -1,0 +1,459 @@
+{
+  "id": "resp_0f71aa22d5c12cda006aafa09d828887d28fab0f0231f94753",
+  "object": "response",
+  "created_at": 1789894813,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1789894837,
+  "error": null,
+  "frequency_penalty": 0,
+  "incomplete_details": null,
+  "instructions": "You are part of a Protestant social media editorial team. Write in clear, accessible, theologically responsible German without church clichés. Use short sentences and concrete imagery. Never invent events, people, school situations, quotes, or factual details. Do not include copyrighted full song verses. For Reli and community posts, only use current details when they are explicitly provided. Return content that strictly matches the requested JSON schema. Set needs_input to true whenever required facts are missing. Keep qa.approved false. Do not ask for any text inside generated images. When liturgical_context.resolved_weekly_verse is present, use its exact wording for Wochenspruch slots instead of placeholders. Use the web search tool before drafting to verify current situations. For prayer posts, current situations are mandatory: select at least two concrete, relevant situations from reliable current reporting, including tagesschau.de and SWR Aktuell Baden-Württemberg where relevant. Do not invent current events and do not replace concrete situations with generic references to crises.",
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.4-2026-03-05",
+  "moderation": null,
+  "output": [
+    {
+      "id": "ws_0f71aa22d5c12cda006aafa09ede5487d290ec4899915f55bc",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "queries": [
+          "site:tagesschau.de 19. September 2026 Nachrichten Deutschland Welt",
+          "site:swr.de/swraktuell/baden-wuerttemberg 19. September 2026 Baden-Württemberg Nachrichten",
+          "Reuters September 19 2026 world news refugees hospital attack storm"
+        ],
+        "query": "site:tagesschau.de 19. September 2026 Nachrichten Deutschland Welt"
+      }
+    },
+    {
+      "id": "ws_0f71aa22d5c12cda006aafa0a1594487d293e7fc3d8920a361",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.tagesschau.de/archiv?datum=2026-09-19&filter=tagesschau"
+      }
+    },
+    {
+      "id": "msg_0f71aa22d5c12cda006aafa0a2993087d2b8849fc323f559f5",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\"id\":\"prayer-evening-2026-09-20\",\"status\":\"in Arbeit\",\"needs_input\":false,\"source\":{\"calendar_post_id\":\"prayer-evening-2026-09-20\",\"date\":\"2026-09-20\",\"rubric\":\"Abendgebet\",\"liturgical_source\":\"\"},\"editorial_core\":{\"title\":\"Abendgebet\",\"main_message\":\"Den vergangenen Tag mit allem Gelungenen und Unvollendeten in Gottes Hand legen. Dabei auch an Menschen denken, die unter den weiterhin historisch niedrigen Wasserständen am Bodensee leiden, und an Beschäftigte in Baden-Württemberg, die wegen möglicher Stellenstreichungen bei Porsche und Verlagerungsplänen bei Walter um ihre Arbeit bangen. Gottes Zukunft beginnt nicht erst, wenn alles gelöst ist.\",\"audience\":\"breite Öffentlichkeit\",\"tone\":[\"ruhig\",\"hoffnungsvoll\",\"geborgen\"],\"source_notes\":[\"Aktuelle Bezüge geprüft über tagesschau.de-Archiv vom 19.09.2026 sowie SWR Aktuell Baden-Württemberg.\",\"Konkrete aktuelle Situationen aufgenommen: historisch niedriger Bodenseepegel; mögliche weitere 4.000 Stellenstreichungen bei Porsche; Proteste wegen geplanter Verlagerung von 160 Arbeitsplätzen bei Walter in Münsingen.\",\"Zeitlich robust formuliert: keine Behauptung über Entwicklungen des Veröffentlichungstags.\",\"Gebet in einfacher, ruhiger Sprache mit Raum für Dank, Erschöpfung und Unvollendetes.\"]},\"platforms\":{\"facebook\":{\"text\":\"Abend.\\nDer Tag ist nicht nur das, was gelungen ist. Auch das Unfertige darf bleiben.\\n\\nGott,\\nwir bringen dir, was heute leicht war.\\nUnd was schwer auf uns liegt.\\nFür Begegnungen danken wir dir.\\nFür alles, was offen blieb, bitten wir um Ruhe.\\n\\nWir denken an Menschen am Bodensee, wo das Wasser nach dem trockenen Sommer weiter historisch niedrig steht.\\nWir denken an Beschäftigte und Familien in Baden-Württemberg, die wegen möglicher Stellenstreichungen bei Porsche oder wegen geplanter Verlagerungen bei Walter in Münsingen nicht ruhig schlafen.\\n\\nSei bei allen, die heute Abend Sorgen nicht ablegen können.\\nBei Kranken.\\nBei Pflegenden.\\nBei Menschen im Nachtdienst.\\nBei denen, die Angst vor morgen haben.\\n\\nNimm in deine Hand,\\nwas wir nicht mehr ordnen können.\\nBewahre in uns die Hoffnung,\\ndass deine Zukunft weiter reicht als dieser Tag.\\nSchenk uns Frieden für diese Nacht.\\nAmen.\",\"headline\":\"Abendgebet: Was heute unvollendet bleibt\"},\"instagram\":{\"caption\":\"Der Tag muss nicht perfekt gewesen sein.\\nAuch das Unfertige darf in Gottes Hand ruhen.\\n\\nWir beten heute Abend für Menschen am Bodensee, wo das Wasser weiter historisch niedrig steht. Und für Beschäftigte und Familien in Baden-Württemberg, die wegen möglicher Stellenstreichungen und Verlagerungen um ihre Arbeit bangen.\\n\\nGott, nimm, was heute war.\\nDas Gute. Das Schwere. Das Offene.\\nUnd halte deine Hoffnung in uns wach.\\n\\nAmen.\",\"carousel\":[{\"type\":\"text\",\"text\":\"Der Tag geht zu Ende. Du musst ihn nicht fertig bekommen.\"},{\"type\":\"text\",\"text\":\"Dank für das Gute. Raum für das Schwere. Ruhe für das, was offen blieb.\"},{\"type\":\"text\",\"text\":\"Wir beten für Menschen am Bodensee. Das Wasser steht weiter historisch niedrig.\"},{\"type\":\"text\",\"text\":\"Wir beten für Beschäftigte und Familien, die um ihre Arbeit bangen.\"},{\"type\":\"text\",\"text\":\"Gott, halte diese Nacht. Und wecke Hoffnung für morgen.\"}]},\"mastodon\":{\"text\":\"Abendgebet\\n\\nGott,\\nwir legen dir diesen Tag hin.\\nWas gut war.\\nWas wehgetan hat.\\nWas offen blieb.\\n\\nWir denken an Menschen am Bodensee, wo das Wasser weiter historisch niedrig steht.\\nWir denken an Beschäftigte und Familien in Baden-Württemberg, die wegen möglicher Stellenstreichungen und Verlagerungen um ihre Arbeit bangen.\\n\\nSchenk Ruhe, wo Sorgen laut sind.\\nUnd Hoffnung, die weiter reicht als dieser Tag.\\nAmen.\"},\"bluesky\":{\"text\":\"Abendgebet\\n\\nGott, wir legen dir diesen Tag hin: das Gute, das Schwere, das Offene.\\nWir beten für Menschen am Bodensee, wo das Wasser weiter historisch niedrig steht. Und für Beschäftigte und Familien in Baden-Württemberg, die um ihre Arbeit bangen.\\nSchenk Ruhe für diese Nacht und Hoffnung für morgen. Amen.\"},\"story\":{\"slides\":[{\"text\":\"Abend.\\nDu musst den Tag nicht fertig bekommen.\"},{\"text\":\"Dank für das Gute.\\nRaum für das Schwere.\\nRuhe für das Offene.\"},{\"text\":\"Wir beten für Menschen am Bodensee.\\nDas Wasser steht weiter historisch niedrig.\"},{\"text\":\"Wir beten für Beschäftigte und Familien,\\ndie um ihre Arbeit bangen.\"},{\"text\":\"Gott,\\nhalte diese Nacht.\\nUnd halte die Hoffnung wach.\"}]},\"reel\":{\"hook\":\"Du musst diesen Tag nicht zu Ende lösen.\",\"script\":\"Der Tag geht zu Ende. Nicht alles ist geschafft. Nicht alles ist heil. Im Abendgebet darf beides vor Gott liegen: das Gute und das Offene. Wir denken an Menschen am Bodensee, wo das Wasser weiter historisch niedrig steht. Und an Beschäftigte und Familien in Baden-Württemberg, die wegen möglicher Stellenstreichungen und Verlagerungen Sorgen um ihre Zukunft haben. Gott, nimm, was heute war. Schenk Ruhe für diese Nacht. Und Hoffnung für morgen.\",\"shots\":[\"Ruhiges Abendlicht an einem Fenster\",\"Eine Hand legt ein Handy beiseite\",\"Stilles Wasserufer ohne Menschen\",\"Leerer Arbeitsplatz oder stiller Flur\",\"Dunkler werdender Himmel\"],\"duration_seconds\":25}},\"visual\":{\"concept\":\"Ruhige Abendstimmung an einem schlichten Fensterplatz; weiches Licht, eine abgelegte Alltagsnotiz oder geschlossene Hände, draußen Dämmerung. Stimmung von Loslassen und Geborgenheit ohne Kitsch.\",\"flux_prompt\":\"Fotorealistische ruhige Abendstimmung in einem schlichten Innenraum, Blick auf einen Fensterplatz in der Dämmerung, weiches warmes Restlicht, einfache alltägliche Gegenstände, Atmosphäre von Loslassen, Stille und Hoffnung, natürliche Farben, keine Menschenmenge, kein Text im Bild, journalistisch unaufgeregt, emotional zurückhaltend\",\"negative_prompt\":\"text, letters, logo, watermark\",\"formats\":[\"4:5\",\"9:16\",\"1.91:1\"],\"alt_text\":\"Ein schlichter Platz am Fenster in der Abenddämmerung. Weiches Licht fällt in einen ruhigen Raum. Die Szene wirkt still, warm und offen und lädt dazu ein, den Tag loszulassen.\"},\"qa\":{\"warnings\":[\"Alt text must be completed before approval\",\"Aktuelle Bezüge vor Freigabe nochmals gegen die Nachrichtenlage vom Produktionszeitpunkt prüfen.\",\"Mögliche Stellenstreichungen bei Porsche sind als unbestätigter Medienbericht vorsichtig formuliert.\"],\"approved\":false},\"metadata\":{\"model\":\"gpt-5\",\"generated_at\":\"2026-09-20T00:00:00Z\",\"prompt_version\":\"1.0\",\"assets\":[]}}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "current_turn",
+    "effort": "none",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1,
+  "text": {
+    "format": {
+      "type": "json_schema",
+      "description": null,
+      "name": "content_package",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "Idee",
+              "in Arbeit",
+              "zur Prüfung",
+              "freigegeben",
+              "terminiert",
+              "veröffentlicht",
+              "verworfen"
+            ]
+          },
+          "needs_input": {
+            "type": "boolean"
+          },
+          "source": {
+            "type": "object",
+            "properties": {
+              "calendar_post_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "date": {
+                "type": "string",
+                "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+              },
+              "rubric": {
+                "type": "string",
+                "minLength": 1
+              },
+              "liturgical_source": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "calendar_post_id",
+              "date",
+              "rubric",
+              "liturgical_source"
+            ],
+            "additionalProperties": false
+          },
+          "editorial_core": {
+            "type": "object",
+            "properties": {
+              "title": {
+                "type": "string"
+              },
+              "main_message": {
+                "type": "string"
+              },
+              "audience": {
+                "type": "string"
+              },
+              "tone": {
+                "minItems": 1,
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "source_notes": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "title",
+              "main_message",
+              "audience",
+              "tone",
+              "source_notes"
+            ],
+            "additionalProperties": false
+          },
+          "platforms": {
+            "type": "object",
+            "properties": {
+              "facebook": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  },
+                  "headline": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text",
+                  "headline"
+                ],
+                "additionalProperties": false
+              },
+              "instagram": {
+                "type": "object",
+                "properties": {
+                  "caption": {
+                    "type": "string"
+                  },
+                  "carousel": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "type": {
+                          "type": "string"
+                        },
+                        "text": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "type",
+                        "text"
+                      ],
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "required": [
+                  "caption",
+                  "carousel"
+                ],
+                "additionalProperties": false
+              },
+              "mastodon": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text"
+                ],
+                "additionalProperties": false
+              },
+              "bluesky": {
+                "default": {
+                  "text": ""
+                },
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text"
+                ],
+                "additionalProperties": false
+              },
+              "story": {
+                "type": "object",
+                "properties": {
+                  "slides": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "text": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "text"
+                      ],
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "required": [
+                  "slides"
+                ],
+                "additionalProperties": false
+              },
+              "reel": {
+                "type": "object",
+                "properties": {
+                  "hook": {
+                    "type": "string"
+                  },
+                  "script": {
+                    "type": "string"
+                  },
+                  "shots": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "duration_seconds": {
+                    "type": "integer",
+                    "minimum": 0,
+                    "maximum": 9007199254740991
+                  }
+                },
+                "required": [
+                  "hook",
+                  "script",
+                  "shots",
+                  "duration_seconds"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "required": [
+              "facebook",
+              "instagram",
+              "mastodon",
+              "bluesky",
+              "story",
+              "reel"
+            ],
+            "additionalProperties": false
+          },
+          "visual": {
+            "type": "object",
+            "properties": {
+              "concept": {
+                "type": "string"
+              },
+              "flux_prompt": {
+                "type": "string"
+              },
+              "negative_prompt": {
+                "type": "string",
+                "minLength": 1
+              },
+              "formats": {
+                "minItems": 1,
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "alt_text": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "concept",
+              "flux_prompt",
+              "negative_prompt",
+              "formats",
+              "alt_text"
+            ],
+            "additionalProperties": false
+          },
+          "qa": {
+            "type": "object",
+            "properties": {
+              "warnings": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "approved": {
+                "type": "boolean"
+              }
+            },
+            "required": [
+              "warnings",
+              "approved"
+            ],
+            "additionalProperties": false
+          },
+          "metadata": {
+            "type": "object",
+            "properties": {
+              "model": {
+                "type": "string"
+              },
+              "generated_at": {
+                "type": "string"
+              },
+              "prompt_version": {
+                "type": "string",
+                "minLength": 1
+              },
+              "assets": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "model",
+              "generated_at",
+              "prompt_version",
+              "assets"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "id",
+          "status",
+          "needs_input",
+          "source",
+          "editorial_core",
+          "platforms",
+          "visual",
+          "qa",
+          "metadata"
+        ],
+        "additionalProperties": false
+      },
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 1
+    }
+  },
+  "tools": [
+    {
+      "type": "web_search",
+      "return_token_budget": "default",
+      "search_content_types": [
+        "text"
+      ],
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 17234,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1696,
+    "output_tokens_details": {
+      "reasoning_tokens": 139
+    },
+    "total_tokens": 18930
+  },
+  "user": null,
+  "metadata": {},
+  "output_text": "{\"id\":\"prayer-evening-2026-09-20\",\"status\":\"in Arbeit\",\"needs_input\":false,\"source\":{\"calendar_post_id\":\"prayer-evening-2026-09-20\",\"date\":\"2026-09-20\",\"rubric\":\"Abendgebet\",\"liturgical_source\":\"\"},\"editorial_core\":{\"title\":\"Abendgebet\",\"main_message\":\"Den vergangenen Tag mit allem Gelungenen und Unvollendeten in Gottes Hand legen. Dabei auch an Menschen denken, die unter den weiterhin historisch niedrigen Wasserständen am Bodensee leiden, und an Beschäftigte in Baden-Württemberg, die wegen möglicher Stellenstreichungen bei Porsche und Verlagerungsplänen bei Walter um ihre Arbeit bangen. Gottes Zukunft beginnt nicht erst, wenn alles gelöst ist.\",\"audience\":\"breite Öffentlichkeit\",\"tone\":[\"ruhig\",\"hoffnungsvoll\",\"geborgen\"],\"source_notes\":[\"Aktuelle Bezüge geprüft über tagesschau.de-Archiv vom 19.09.2026 sowie SWR Aktuell Baden-Württemberg.\",\"Konkrete aktuelle Situationen aufgenommen: historisch niedriger Bodenseepegel; mögliche weitere 4.000 Stellenstreichungen bei Porsche; Proteste wegen geplanter Verlagerung von 160 Arbeitsplätzen bei Walter in Münsingen.\",\"Zeitlich robust formuliert: keine Behauptung über Entwicklungen des Veröffentlichungstags.\",\"Gebet in einfacher, ruhiger Sprache mit Raum für Dank, Erschöpfung und Unvollendetes.\"]},\"platforms\":{\"facebook\":{\"text\":\"Abend.\\nDer Tag ist nicht nur das, was gelungen ist. Auch das Unfertige darf bleiben.\\n\\nGott,\\nwir bringen dir, was heute leicht war.\\nUnd was schwer auf uns liegt.\\nFür Begegnungen danken wir dir.\\nFür alles, was offen blieb, bitten wir um Ruhe.\\n\\nWir denken an Menschen am Bodensee, wo das Wasser nach dem trockenen Sommer weiter historisch niedrig steht.\\nWir denken an Beschäftigte und Familien in Baden-Württemberg, die wegen möglicher Stellenstreichungen bei Porsche oder wegen geplanter Verlagerungen bei Walter in Münsingen nicht ruhig schlafen.\\n\\nSei bei allen, die heute Abend Sorgen nicht ablegen können.\\nBei Kranken.\\nBei Pflegenden.\\nBei Menschen im Nachtdienst.\\nBei denen, die Angst vor morgen haben.\\n\\nNimm in deine Hand,\\nwas wir nicht mehr ordnen können.\\nBewahre in uns die Hoffnung,\\ndass deine Zukunft weiter reicht als dieser Tag.\\nSchenk uns Frieden für diese Nacht.\\nAmen.\",\"headline\":\"Abendgebet: Was heute unvollendet bleibt\"},\"instagram\":{\"caption\":\"Der Tag muss nicht perfekt gewesen sein.\\nAuch das Unfertige darf in Gottes Hand ruhen.\\n\\nWir beten heute Abend für Menschen am Bodensee, wo das Wasser weiter historisch niedrig steht. Und für Beschäftigte und Familien in Baden-Württemberg, die wegen möglicher Stellenstreichungen und Verlagerungen um ihre Arbeit bangen.\\n\\nGott, nimm, was heute war.\\nDas Gute. Das Schwere. Das Offene.\\nUnd halte deine Hoffnung in uns wach.\\n\\nAmen.\",\"carousel\":[{\"type\":\"text\",\"text\":\"Der Tag geht zu Ende. Du musst ihn nicht fertig bekommen.\"},{\"type\":\"text\",\"text\":\"Dank für das Gute. Raum für das Schwere. Ruhe für das, was offen blieb.\"},{\"type\":\"text\",\"text\":\"Wir beten für Menschen am Bodensee. Das Wasser steht weiter historisch niedrig.\"},{\"type\":\"text\",\"text\":\"Wir beten für Beschäftigte und Familien, die um ihre Arbeit bangen.\"},{\"type\":\"text\",\"text\":\"Gott, halte diese Nacht. Und wecke Hoffnung für morgen.\"}]},\"mastodon\":{\"text\":\"Abendgebet\\n\\nGott,\\nwir legen dir diesen Tag hin.\\nWas gut war.\\nWas wehgetan hat.\\nWas offen blieb.\\n\\nWir denken an Menschen am Bodensee, wo das Wasser weiter historisch niedrig steht.\\nWir denken an Beschäftigte und Familien in Baden-Württemberg, die wegen möglicher Stellenstreichungen und Verlagerungen um ihre Arbeit bangen.\\n\\nSchenk Ruhe, wo Sorgen laut sind.\\nUnd Hoffnung, die weiter reicht als dieser Tag.\\nAmen.\"},\"bluesky\":{\"text\":\"Abendgebet\\n\\nGott, wir legen dir diesen Tag hin: das Gute, das Schwere, das Offene.\\nWir beten für Menschen am Bodensee, wo das Wasser weiter historisch niedrig steht. Und für Beschäftigte und Familien in Baden-Württemberg, die um ihre Arbeit bangen.\\nSchenk Ruhe für diese Nacht und Hoffnung für morgen. Amen.\"},\"story\":{\"slides\":[{\"text\":\"Abend.\\nDu musst den Tag nicht fertig bekommen.\"},{\"text\":\"Dank für das Gute.\\nRaum für das Schwere.\\nRuhe für das Offene.\"},{\"text\":\"Wir beten für Menschen am Bodensee.\\nDas Wasser steht weiter historisch niedrig.\"},{\"text\":\"Wir beten für Beschäftigte und Familien,\\ndie um ihre Arbeit bangen.\"},{\"text\":\"Gott,\\nhalte diese Nacht.\\nUnd halte die Hoffnung wach.\"}]},\"reel\":{\"hook\":\"Du musst diesen Tag nicht zu Ende lösen.\",\"script\":\"Der Tag geht zu Ende. Nicht alles ist geschafft. Nicht alles ist heil. Im Abendgebet darf beides vor Gott liegen: das Gute und das Offene. Wir denken an Menschen am Bodensee, wo das Wasser weiter historisch niedrig steht. Und an Beschäftigte und Familien in Baden-Württemberg, die wegen möglicher Stellenstreichungen und Verlagerungen Sorgen um ihre Zukunft haben. Gott, nimm, was heute war. Schenk Ruhe für diese Nacht. Und Hoffnung für morgen.\",\"shots\":[\"Ruhiges Abendlicht an einem Fenster\",\"Eine Hand legt ein Handy beiseite\",\"Stilles Wasserufer ohne Menschen\",\"Leerer Arbeitsplatz oder stiller Flur\",\"Dunkler werdender Himmel\"],\"duration_seconds\":25}},\"visual\":{\"concept\":\"Ruhige Abendstimmung an einem schlichten Fensterplatz; weiches Licht, eine abgelegte Alltagsnotiz oder geschlossene Hände, draußen Dämmerung. Stimmung von Loslassen und Geborgenheit ohne Kitsch.\",\"flux_prompt\":\"Fotorealistische ruhige Abendstimmung in einem schlichten Innenraum, Blick auf einen Fensterplatz in der Dämmerung, weiches warmes Restlicht, einfache alltägliche Gegenstände, Atmosphäre von Loslassen, Stille und Hoffnung, natürliche Farben, keine Menschenmenge, kein Text im Bild, journalistisch unaufgeregt, emotional zurückhaltend\",\"negative_prompt\":\"text, letters, logo, watermark\",\"formats\":[\"4:5\",\"9:16\",\"1.91:1\"],\"alt_text\":\"Ein schlichter Platz am Fenster in der Abenddämmerung. Weiches Licht fällt in einen ruhigen Raum. Die Szene wirkt still, warm und offen und lädt dazu ein, den Tag loszulassen.\"},\"qa\":{\"warnings\":[\"Alt text must be completed before approval\",\"Aktuelle Bezüge vor Freigabe nochmals gegen die Nachrichtenlage vom Produktionszeitpunkt prüfen.\",\"Mögliche Stellenstreichungen bei Porsche sind als unbestätigter Medienbericht vorsichtig formuliert.\"],\"approved\":false},\"metadata\":{\"model\":\"gpt-5\",\"generated_at\":\"2026-09-20T00:00:00Z\",\"prompt_version\":\"1.0\",\"assets\":[]}}"
+}
