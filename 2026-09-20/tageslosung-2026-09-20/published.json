@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-20",
+    "contentDate": "2026-09-20",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-09-20T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Die dein Heil lieben, lass allewege sagen: Der HERR sei hoch gelobt!",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Die dein Heil lieben, lass allewege sagen: Der HERR sei hoch gelobt!"
+    ],
+    "id": "4e3a0628-d12a-4612-a5c4-3757a0a789fb",
+    "attemptCount": 1,
+    "remoteId": "17908559556519123",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:45:38.677Z",
+    "updatedAt": "2026-09-20T05:00:32.339Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-20",
+    "contentDate": "2026-09-20",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-09-20T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Die dein Heil lieben, lass allewege sagen: Der HERR sei hoch gelobt!",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Die dein Heil lieben, lass allewege sagen: Der HERR sei hoch gelobt!"
+    ],
+    "id": "0f0c82b0-bdce-4387-92db-5b637ab9d324",
+    "attemptCount": 1,
+    "remoteId": "117301604110574802",
+    "remoteUrl": "https://kirche.social/@christoph/117301604110574802",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:45:38.682Z",
+    "updatedAt": "2026-09-20T05:00:33.888Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
