@@ -84,5 +84,91 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-20",
+    "contentDate": "2026-09-20",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-09-20T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Die dein Heil lieben, lass allewege sagen: Der HERR sei hoch gelobt!",
+    "assets": [
+      "render-square-01.jpg"
+    ],
+    "altTexts": [
+      "Die dein Heil lieben, lass allewege sagen: Der HERR sei hoch gelobt!"
+    ],
+    "id": "f06ad4bd-d592-4002-99e6-e45b8901d868",
+    "attemptCount": 1,
+    "remoteId": "18127472473702451",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:45:38.687Z",
+    "updatedAt": "2026-09-20T05:00:50.949Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-20",
+    "contentDate": "2026-09-20",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-09-20T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Die dein Heil lieben, lass allewege sagen: Der HERR sei hoch gelobt!",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Die dein Heil lieben, lass allewege sagen: Der HERR sei hoch gelobt!"
+    ],
+    "id": "6664ec41-4a0b-49d3-9737-1fe45adb6fe4",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3mvwg4dl54f2x",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3mvwg4dl54f2x",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:45:38.691Z",
+    "updatedAt": "2026-09-20T05:00:53.522Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-20",
+    "contentDate": "2026-09-20",
+    "platform": "linkedin",
+    "format": "default",
+    "scheduledAt": "2026-09-20T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Die dein Heil lieben, lass allewege sagen: Der HERR sei hoch gelobt!",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Die dein Heil lieben, lass allewege sagen: Der HERR sei hoch gelobt!"
+    ],
+    "id": "c419fcd7-5d57-48ed-b226-a63de5fa568f",
+    "attemptCount": 1,
+    "remoteId": "urn:li:share:7507302752637607937",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:45:38.695Z",
+    "updatedAt": "2026-09-20T05:00:55.456Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 201
+    },
+    "retryHistory": []
   }
 ]
