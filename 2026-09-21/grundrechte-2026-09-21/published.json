@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-09-21",
+    "contentDate": "2026-09-21",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-09-21T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Die Vertragsstaaten bekräftigen, dass Menschen mit Behinderungen das Recht haben, überall als Rechtssubjekt anerkannt zu werden. (UN-Behindertenrechtskonvention, Artikel 12 Absatz 1)",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Die Vertragsstaaten bekräftigen, dass Menschen mit Behinderungen das Recht haben, überall als Rechtssubjekt anerkannt zu werden. (UN-Behindertenrechtskonvention, Artikel 12 Absatz 1)"
+    ],
+    "id": "a82d31c4-8884-42fe-8201-37a97d5dc3c6",
+    "attemptCount": 1,
+    "remoteId": "18090618926655906",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:38:22.270Z",
+    "updatedAt": "2026-09-21T10:00:21.381Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-09-21",
+    "contentDate": "2026-09-21",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-09-21T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Die Vertragsstaaten bekräftigen, dass Menschen mit Behinderungen das Recht haben, überall als Rechtssubjekt anerkannt zu werden. (UN-Behindertenrechtskonvention, Artikel 12 Absatz 1)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Die Vertragsstaaten bekräftigen, dass Menschen mit Behinderungen das Recht haben, überall als Rechtssubjekt anerkannt zu werden. (UN-Behindertenrechtskonvention, Artikel 12 Absatz 1)"
+    ],
+    "id": "dec1247d-0fe6-439b-b447-d4f9f54c64e7",
+    "attemptCount": 1,
+    "remoteId": "117308445345090210",
+    "remoteUrl": "https://kirche.social/@christoph/117308445345090210",
+    "lastError": null,
+    "createdAt": "2026-08-26T15:38:22.327Z",
+    "updatedAt": "2026-09-21T10:00:22.839Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
