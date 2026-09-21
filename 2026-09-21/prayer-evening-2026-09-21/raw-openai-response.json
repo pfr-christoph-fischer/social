@@ -1,0 +1,472 @@
+{
+  "id": "resp_0d406ca459b3bd82006ab0f21a391087d28119d8c0e08486db",
+  "object": "response",
+  "created_at": 1789981210,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1789981242,
+  "error": null,
+  "frequency_penalty": 0,
+  "incomplete_details": null,
+  "instructions": "You are part of a Protestant social media editorial team. Write in clear, accessible, theologically responsible German without church clichés. Use short sentences and concrete imagery. Never invent events, people, school situations, quotes, or factual details. Do not include copyrighted full song verses. For Reli and community posts, only use current details when they are explicitly provided. Return content that strictly matches the requested JSON schema. Set needs_input to true whenever required facts are missing. Keep qa.approved false. Do not ask for any text inside generated images. When liturgical_context.resolved_weekly_verse is present, use its exact wording for Wochenspruch slots instead of placeholders. Use the web search tool before drafting to verify current situations. For prayer posts, current situations are mandatory: select at least two concrete, relevant situations from reliable current reporting, including tagesschau.de and SWR Aktuell Baden-Württemberg where relevant. Do not invent current events and do not replace concrete situations with generic references to crises.",
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.4-2026-03-05",
+  "moderation": null,
+  "output": [
+    {
+      "id": "ws_0d406ca459b3bd82006ab0f21b8a4487d29391441aa2ec7336",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "queries": [
+          "site:tagesschau.de 2026-09-20 Nachrichten Deutschland Welt 20 September 2026",
+          "site:swr.de/swraktuell/baden-wuerttemberg 2026-09-20 Baden-Württemberg Nachrichten 20 September 2026",
+          "Reuters September 20 2026 world news humanitarian latest"
+        ],
+        "query": "site:tagesschau.de 2026-09-20 Nachrichten Deutschland Welt 20 September 2026"
+      }
+    },
+    {
+      "id": "ws_0d406ca459b3bd82006ab0f21de2e887d2a2564fdaf11d9a0b",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.tagesschau.de/tagesschau_20_uhr/ts-80968.html"
+      }
+    },
+    {
+      "id": "ws_0d406ca459b3bd82006ab0f21f303487d28c883be930b823a7",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "queries": [
+          "site:reuters.com September 20 2026 humanitarian Reuters Gaza Sudan aid earthquake flood 20 2026",
+          "site:reuters.com September 20 2026 Ukraine drone attacks Reuters 20 2026"
+        ],
+        "query": "site:reuters.com September 20 2026 humanitarian Reuters Gaza Sudan aid earthquake flood 20 2026"
+      }
+    },
+    {
+      "id": "msg_0d406ca459b3bd82006ab0f221c23887d28c70ddb9252c3300",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\"id\":\"prayer-evening-2026-09-21\",\"status\":\"zur Prüfung\",\"needs_input\":false,\"source\":{\"calendar_post_id\":\"prayer-evening-2026-09-21\",\"date\":\"2026-09-21\",\"rubric\":\"Abendgebet\",\"liturgical_source\":\"\"},\"editorial_core\":{\"title\":\"Abendgebet\",\"main_message\":\"Dieser Abend lädt dazu ein, den Tag nicht festhalten zu müssen: das Gute mit Dank, das Schwere ohne Beschönigung. Im Gebet kommen auch Menschen vor, die heute von den Wahlen in Berlin und Mecklenburg-Vorpommern bewegt oder verunsichert sind, und Menschen im Zollernalbkreis, die nach dem Brand auf einem Geflügelhof vor Schaden und Verlust stehen. So darf der eigene unfertige Tag in Gottes Hand ruhen, zusammen mit einer unruhigen Welt.\",\"audience\":\"breite Öffentlichkeit\",\"tone\":[\"ruhig\",\"hoffnungsvoll\",\"geborgen\"],\"source_notes\":[\"Aktuelle Bezüge geprüft auf tagesschau.de und SWR Aktuell Baden-Württemberg.\",\"Konkrete Situation 1: Vorläufige Ergebnisse der Wahlen in Berlin und Mecklenburg-Vorpommern; viele Menschen schauen auf politische Verschiebungen und Unsicherheit.\",\"Konkrete Situation 2: Brand auf einem Geflügelhof im Zollernalbkreis; hunderte Tiere kamen ums Leben, Menschen vor Ort tragen Folgen und Belastung.\",\"Zeitlich robust formuliert: keine Annahmen über Entwicklungen des Veröffentlichungstages.\",\"Gebetssprache bewusst einfach, ohne billigen Optimismus, mit Fokus auf Loslassen und Hoffnung.\"]},\"platforms\":{\"facebook\":{\"text\":\"**Abendgebet**\\n\\nGott,\\nder Tag liegt hinter uns.\\nManches war gut.\\nManches ist offen geblieben.\\nManches sitzt uns noch in den Schultern.\\n\\nWir danken dir für alles,\\nwas heute getragen hat.\\nFür freundliche Worte.\\nFür Arbeit, die gelungen ist.\\nFür kleine Momente, in denen wir aufatmen konnten.\\n\\nUnd wir legen dir hin,\\nwas unfertig bleibt.\\nFehler.\\nStreit.\\nMüdigkeit.\\nSorgen, die sich nicht mehr lösen lassen,\\nnicht heute.\\n\\nWir denken heute Abend auch an die Menschen,\\ndie auf die Wahlen in Berlin und Mecklenburg-Vorpommern schauen.\\nAn alle, die hoffen.\\nAn alle, die enttäuscht sind.\\nAn alle, die sich fragen, wohin dieses Land geht.\\nGib Besonnenheit.\\nBewahre vor Härte.\\nHalte die Sehnsucht nach Gerechtigkeit und Frieden wach.\\n\\nWir denken an die Menschen im Zollernalbkreis,\\nbei denen nach dem Brand auf einem Geflügelhof Schaden und Erschrecken bleiben.\\nUnd wir denken an die zerstörten Tiere.\\nSei den Menschen nahe,\\ndie aufräumen, trösten und neu anfangen müssen.\\n\\nWir bringen dir auch die,\\nfür die die Nacht keine Ruhezeit ist:\\nMenschen in Krankenhäusern.\\nMenschen bei der Arbeit.\\nMenschen, die wachen.\\nMenschen, die Angst haben.\\n\\nWas heute war, legen wir in deine Hand.\\nWas gut war.\\nWas wehgetan hat.\\nWas unfertig bleibt.\\nUns selbst und diese unruhige Welt.\\n\\nSchenk uns Frieden für diese Nacht.\\nUnd halte deine Hoffnung in uns wach.\\nAmen.\",\"headline\":\"Abendgebet: Den unfertigen Tag loslassen\"},\"instagram\":{\"caption\":\"Abendgebet.\\n\\nDer Tag muss nicht perfekt zu Ende gehen.\\nWas gut war, darf dankbar bleiben.\\nWas schwer war, darf in Gottes Hand ruhen.\\n\\nHeute denken wir auch an Menschen, die auf die Wahlen in Berlin und Mecklenburg-Vorpommern schauen. Und an die Menschen im Zollernalbkreis nach dem Brand auf einem Geflügelhof.\\n\\nGott, schenke Frieden für diese Nacht. Amen.\",\"carousel\":[{\"type\":\"text\",\"text\":\"Abendgebet\\n\\nDer Tag liegt hinter uns.\"},{\"type\":\"text\",\"text\":\"Manches war gut.\\nManches blieb offen.\\nManches tut noch weh.\"},{\"type\":\"text\",\"text\":\"Wir denken an Menschen,\\ndie auf die Wahlen in Berlin und Mecklenburg-Vorpommern schauen.\\nGib Besonnenheit und Frieden.\"},{\"type\":\"text\",\"text\":\"Wir denken an die Menschen im Zollernalbkreis nach dem Brand auf einem Geflügelhof.\\nSei ihnen nahe.\"},{\"type\":\"text\",\"text\":\"Was heute war,\\nlegen wir in deine Hand.\\nSchenk uns Frieden für diese Nacht.\"}]},\"mastodon\":{\"text\":\"Abendgebet\\n\\nGott,\\nder Tag liegt hinter uns. Wir danken dir für das Gute. Und wir legen dir hin, was offen, schwer und unfertig bleibt.\\n\\nWir denken an Menschen, die auf die Wahlen in Berlin und Mecklenburg-Vorpommern schauen. Gib Besonnenheit und halte die Sehnsucht nach Gerechtigkeit wach.\\n\\nWir denken an die Menschen im Zollernalbkreis nach dem Brand auf einem Geflügelhof. Sei nahe bei allen, die mit Schaden und Erschrecken leben müssen.\\n\\nSchenk Frieden für diese Nacht. Amen.\"},\"bluesky\":{\"text\":\"Abendgebet\\n\\nDer Tag muss nicht perfekt enden. Was gut war, darf dankbar bleiben. Was schwer war, darf in Gottes Hand ruhen.\\n\\nWir denken an Menschen, die auf die Wahlen in Berlin und Mecklenburg-Vorpommern schauen. Und an die Menschen im Zollernalbkreis nach dem Brand auf einem Geflügelhof.\\n\\nSchenk Frieden für diese Nacht. Amen.\"},\"story\":{\"slides\":[{\"text\":\"Abendgebet\\n\\nDer Tag liegt hinter uns.\"},{\"text\":\"Manches war gut.\\nManches blieb offen.\\nDu musst es nicht festhalten.\"},{\"text\":\"Wir denken an Menschen,\\ndie auf die Wahlen in Berlin und Mecklenburg-Vorpommern schauen.\"},{\"text\":\"Wir denken an die Menschen im Zollernalbkreis nach dem Brand auf einem Geflügelhof.\"},{\"text\":\"Gott,\\nschenk uns Frieden für diese Nacht.\\nAmen.\"}]},\"reel\":{\"hook\":\"Der Tag muss nicht perfekt zu Ende gehen.\",\"script\":\"Der Tag liegt hinter dir. Vielleicht war Gutes dabei. Vielleicht auch Streit, Müdigkeit oder etwas, das nicht mehr fertig geworden ist. Du musst es heute Abend nicht lösen. Im Gebet darf es liegen. Wir denken auch an Menschen, die auf die Wahlen in Berlin und Mecklenburg-Vorpommern schauen. Und an die Menschen im Zollernalbkreis nach dem Brand auf einem Geflügelhof. Gott, nimm unseren unfertigen Tag und diese unruhige Welt in deine Hand. Schenk Frieden für diese Nacht.\",\"shots\":[\"Abendliches Fensterlicht in einem ruhigen Zimmer\",\"Eine Tasse auf einem Tisch, daneben offene Hände\",\"Dunkler werdender Himmel über Häusern\",\"Leere Straße mit warmem Licht aus einzelnen Fenstern\",\"Ruhige Nahaufnahme von Händen, die loslassen\"],\"duration_seconds\":30}},\"visual\":{\"concept\":\"Ruhige Abendszene in einem einfachen Innenraum mit Fenster, warmem Licht und stiller Atmosphäre. Das Bild soll Loslassen und Geborgenheit zeigen, ohne Menschen eindeutig erkennbar in einer konkreten Nachrichtenszene darzustellen.\",\"flux_prompt\":\"Ein schlichter, ruhiger Innenraum am Abend, warmes weiches Licht, Blick auf ein Fenster mit einsetzender Dämmerung, eine Tasse auf einem Holztisch, offene Hände in entspannter Haltung, stille Atmosphäre, natürliche Farben, fotografischer Stil, zurückhaltend, hoffnungsvoll, realistisch\",\"negative_prompt\":\"text, letters, logo, watermark\",\"formats\":[\"4:5\",\"9:16\",\"1.91:1\"],\"alt_text\":\"Ein ruhiger Raum am Abend: warmes Licht fällt auf einen Holztisch mit einer Tasse, im Hintergrund ein Fenster in der Dämmerung. Die Szene wirkt still und geborgen.\"},\"qa\":{\"warnings\":[\"Aktuelle Bezüge redaktionell gegen Endstand vor Veröffentlichung prüfen.\",\"Gebet nennt politische Wahlergebnisse als Gebetsanliegen; auf parteipolitische Neutralität in der Freigabe achten.\",\"Alt text must be completed before approval\"],\"approved\":false},\"metadata\":{\"model\":\"OpenAI\",\"generated_at\":\"2026-09-21T00:00:00Z\",\"prompt_version\":\"1.0\",\"assets\":[]}}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "current_turn",
+    "effort": "none",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1,
+  "text": {
+    "format": {
+      "type": "json_schema",
+      "description": null,
+      "name": "content_package",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "Idee",
+              "in Arbeit",
+              "zur Prüfung",
+              "freigegeben",
+              "terminiert",
+              "veröffentlicht",
+              "verworfen"
+            ]
+          },
+          "needs_input": {
+            "type": "boolean"
+          },
+          "source": {
+            "type": "object",
+            "properties": {
+              "calendar_post_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "date": {
+                "type": "string",
+                "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+              },
+              "rubric": {
+                "type": "string",
+                "minLength": 1
+              },
+              "liturgical_source": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "calendar_post_id",
+              "date",
+              "rubric",
+              "liturgical_source"
+            ],
+            "additionalProperties": false
+          },
+          "editorial_core": {
+            "type": "object",
+            "properties": {
+              "title": {
+                "type": "string"
+              },
+              "main_message": {
+                "type": "string"
+              },
+              "audience": {
+                "type": "string"
+              },
+              "tone": {
+                "minItems": 1,
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "source_notes": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "title",
+              "main_message",
+              "audience",
+              "tone",
+              "source_notes"
+            ],
+            "additionalProperties": false
+          },
+          "platforms": {
+            "type": "object",
+            "properties": {
+              "facebook": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  },
+                  "headline": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text",
+                  "headline"
+                ],
+                "additionalProperties": false
+              },
+              "instagram": {
+                "type": "object",
+                "properties": {
+                  "caption": {
+                    "type": "string"
+                  },
+                  "carousel": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "type": {
+                          "type": "string"
+                        },
+                        "text": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "type",
+                        "text"
+                      ],
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "required": [
+                  "caption",
+                  "carousel"
+                ],
+                "additionalProperties": false
+              },
+              "mastodon": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text"
+                ],
+                "additionalProperties": false
+              },
+              "bluesky": {
+                "default": {
+                  "text": ""
+                },
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text"
+                ],
+                "additionalProperties": false
+              },
+              "story": {
+                "type": "object",
+                "properties": {
+                  "slides": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "text": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "text"
+                      ],
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "required": [
+                  "slides"
+                ],
+                "additionalProperties": false
+              },
+              "reel": {
+                "type": "object",
+                "properties": {
+                  "hook": {
+                    "type": "string"
+                  },
+                  "script": {
+                    "type": "string"
+                  },
+                  "shots": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "duration_seconds": {
+                    "type": "integer",
+                    "minimum": 0,
+                    "maximum": 9007199254740991
+                  }
+                },
+                "required": [
+                  "hook",
+                  "script",
+                  "shots",
+                  "duration_seconds"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "required": [
+              "facebook",
+              "instagram",
+              "mastodon",
+              "bluesky",
+              "story",
+              "reel"
+            ],
+            "additionalProperties": false
+          },
+          "visual": {
+            "type": "object",
+            "properties": {
+              "concept": {
+                "type": "string"
+              },
+              "flux_prompt": {
+                "type": "string"
+              },
+              "negative_prompt": {
+                "type": "string",
+                "minLength": 1
+              },
+              "formats": {
+                "minItems": 1,
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "alt_text": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "concept",
+              "flux_prompt",
+              "negative_prompt",
+              "formats",
+              "alt_text"
+            ],
+            "additionalProperties": false
+          },
+          "qa": {
+            "type": "object",
+            "properties": {
+              "warnings": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "approved": {
+                "type": "boolean"
+              }
+            },
+            "required": [
+              "warnings",
+              "approved"
+            ],
+            "additionalProperties": false
+          },
+          "metadata": {
+            "type": "object",
+            "properties": {
+              "model": {
+                "type": "string"
+              },
+              "generated_at": {
+                "type": "string"
+              },
+              "prompt_version": {
+                "type": "string",
+                "minLength": 1
+              },
+              "assets": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "model",
+              "generated_at",
+              "prompt_version",
+              "assets"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "id",
+          "status",
+          "needs_input",
+          "source",
+          "editorial_core",
+          "platforms",
+          "visual",
+          "qa",
+          "metadata"
+        ],
+        "additionalProperties": false
+      },
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 2
+    }
+  },
+  "tools": [
+    {
+      "type": "web_search",
+      "return_token_budget": "default",
+      "search_content_types": [
+        "text"
+      ],
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 17286,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 2032,
+    "output_tokens_details": {
+      "reasoning_tokens": 225
+    },
+    "total_tokens": 19318
+  },
+  "user": null,
+  "metadata": {},
+  "output_text": "{\"id\":\"prayer-evening-2026-09-21\",\"status\":\"zur Prüfung\",\"needs_input\":false,\"source\":{\"calendar_post_id\":\"prayer-evening-2026-09-21\",\"date\":\"2026-09-21\",\"rubric\":\"Abendgebet\",\"liturgical_source\":\"\"},\"editorial_core\":{\"title\":\"Abendgebet\",\"main_message\":\"Dieser Abend lädt dazu ein, den Tag nicht festhalten zu müssen: das Gute mit Dank, das Schwere ohne Beschönigung. Im Gebet kommen auch Menschen vor, die heute von den Wahlen in Berlin und Mecklenburg-Vorpommern bewegt oder verunsichert sind, und Menschen im Zollernalbkreis, die nach dem Brand auf einem Geflügelhof vor Schaden und Verlust stehen. So darf der eigene unfertige Tag in Gottes Hand ruhen, zusammen mit einer unruhigen Welt.\",\"audience\":\"breite Öffentlichkeit\",\"tone\":[\"ruhig\",\"hoffnungsvoll\",\"geborgen\"],\"source_notes\":[\"Aktuelle Bezüge geprüft auf tagesschau.de und SWR Aktuell Baden-Württemberg.\",\"Konkrete Situation 1: Vorläufige Ergebnisse der Wahlen in Berlin und Mecklenburg-Vorpommern; viele Menschen schauen auf politische Verschiebungen und Unsicherheit.\",\"Konkrete Situation 2: Brand auf einem Geflügelhof im Zollernalbkreis; hunderte Tiere kamen ums Leben, Menschen vor Ort tragen Folgen und Belastung.\",\"Zeitlich robust formuliert: keine Annahmen über Entwicklungen des Veröffentlichungstages.\",\"Gebetssprache bewusst einfach, ohne billigen Optimismus, mit Fokus auf Loslassen und Hoffnung.\"]},\"platforms\":{\"facebook\":{\"text\":\"**Abendgebet**\\n\\nGott,\\nder Tag liegt hinter uns.\\nManches war gut.\\nManches ist offen geblieben.\\nManches sitzt uns noch in den Schultern.\\n\\nWir danken dir für alles,\\nwas heute getragen hat.\\nFür freundliche Worte.\\nFür Arbeit, die gelungen ist.\\nFür kleine Momente, in denen wir aufatmen konnten.\\n\\nUnd wir legen dir hin,\\nwas unfertig bleibt.\\nFehler.\\nStreit.\\nMüdigkeit.\\nSorgen, die sich nicht mehr lösen lassen,\\nnicht heute.\\n\\nWir denken heute Abend auch an die Menschen,\\ndie auf die Wahlen in Berlin und Mecklenburg-Vorpommern schauen.\\nAn alle, die hoffen.\\nAn alle, die enttäuscht sind.\\nAn alle, die sich fragen, wohin dieses Land geht.\\nGib Besonnenheit.\\nBewahre vor Härte.\\nHalte die Sehnsucht nach Gerechtigkeit und Frieden wach.\\n\\nWir denken an die Menschen im Zollernalbkreis,\\nbei denen nach dem Brand auf einem Geflügelhof Schaden und Erschrecken bleiben.\\nUnd wir denken an die zerstörten Tiere.\\nSei den Menschen nahe,\\ndie aufräumen, trösten und neu anfangen müssen.\\n\\nWir bringen dir auch die,\\nfür die die Nacht keine Ruhezeit ist:\\nMenschen in Krankenhäusern.\\nMenschen bei der Arbeit.\\nMenschen, die wachen.\\nMenschen, die Angst haben.\\n\\nWas heute war, legen wir in deine Hand.\\nWas gut war.\\nWas wehgetan hat.\\nWas unfertig bleibt.\\nUns selbst und diese unruhige Welt.\\n\\nSchenk uns Frieden für diese Nacht.\\nUnd halte deine Hoffnung in uns wach.\\nAmen.\",\"headline\":\"Abendgebet: Den unfertigen Tag loslassen\"},\"instagram\":{\"caption\":\"Abendgebet.\\n\\nDer Tag muss nicht perfekt zu Ende gehen.\\nWas gut war, darf dankbar bleiben.\\nWas schwer war, darf in Gottes Hand ruhen.\\n\\nHeute denken wir auch an Menschen, die auf die Wahlen in Berlin und Mecklenburg-Vorpommern schauen. Und an die Menschen im Zollernalbkreis nach dem Brand auf einem Geflügelhof.\\n\\nGott, schenke Frieden für diese Nacht. Amen.\",\"carousel\":[{\"type\":\"text\",\"text\":\"Abendgebet\\n\\nDer Tag liegt hinter uns.\"},{\"type\":\"text\",\"text\":\"Manches war gut.\\nManches blieb offen.\\nManches tut noch weh.\"},{\"type\":\"text\",\"text\":\"Wir denken an Menschen,\\ndie auf die Wahlen in Berlin und Mecklenburg-Vorpommern schauen.\\nGib Besonnenheit und Frieden.\"},{\"type\":\"text\",\"text\":\"Wir denken an die Menschen im Zollernalbkreis nach dem Brand auf einem Geflügelhof.\\nSei ihnen nahe.\"},{\"type\":\"text\",\"text\":\"Was heute war,\\nlegen wir in deine Hand.\\nSchenk uns Frieden für diese Nacht.\"}]},\"mastodon\":{\"text\":\"Abendgebet\\n\\nGott,\\nder Tag liegt hinter uns. Wir danken dir für das Gute. Und wir legen dir hin, was offen, schwer und unfertig bleibt.\\n\\nWir denken an Menschen, die auf die Wahlen in Berlin und Mecklenburg-Vorpommern schauen. Gib Besonnenheit und halte die Sehnsucht nach Gerechtigkeit wach.\\n\\nWir denken an die Menschen im Zollernalbkreis nach dem Brand auf einem Geflügelhof. Sei nahe bei allen, die mit Schaden und Erschrecken leben müssen.\\n\\nSchenk Frieden für diese Nacht. Amen.\"},\"bluesky\":{\"text\":\"Abendgebet\\n\\nDer Tag muss nicht perfekt enden. Was gut war, darf dankbar bleiben. Was schwer war, darf in Gottes Hand ruhen.\\n\\nWir denken an Menschen, die auf die Wahlen in Berlin und Mecklenburg-Vorpommern schauen. Und an die Menschen im Zollernalbkreis nach dem Brand auf einem Geflügelhof.\\n\\nSchenk Frieden für diese Nacht. Amen.\"},\"story\":{\"slides\":[{\"text\":\"Abendgebet\\n\\nDer Tag liegt hinter uns.\"},{\"text\":\"Manches war gut.\\nManches blieb offen.\\nDu musst es nicht festhalten.\"},{\"text\":\"Wir denken an Menschen,\\ndie auf die Wahlen in Berlin und Mecklenburg-Vorpommern schauen.\"},{\"text\":\"Wir denken an die Menschen im Zollernalbkreis nach dem Brand auf einem Geflügelhof.\"},{\"text\":\"Gott,\\nschenk uns Frieden für diese Nacht.\\nAmen.\"}]},\"reel\":{\"hook\":\"Der Tag muss nicht perfekt zu Ende gehen.\",\"script\":\"Der Tag liegt hinter dir. Vielleicht war Gutes dabei. Vielleicht auch Streit, Müdigkeit oder etwas, das nicht mehr fertig geworden ist. Du musst es heute Abend nicht lösen. Im Gebet darf es liegen. Wir denken auch an Menschen, die auf die Wahlen in Berlin und Mecklenburg-Vorpommern schauen. Und an die Menschen im Zollernalbkreis nach dem Brand auf einem Geflügelhof. Gott, nimm unseren unfertigen Tag und diese unruhige Welt in deine Hand. Schenk Frieden für diese Nacht.\",\"shots\":[\"Abendliches Fensterlicht in einem ruhigen Zimmer\",\"Eine Tasse auf einem Tisch, daneben offene Hände\",\"Dunkler werdender Himmel über Häusern\",\"Leere Straße mit warmem Licht aus einzelnen Fenstern\",\"Ruhige Nahaufnahme von Händen, die loslassen\"],\"duration_seconds\":30}},\"visual\":{\"concept\":\"Ruhige Abendszene in einem einfachen Innenraum mit Fenster, warmem Licht und stiller Atmosphäre. Das Bild soll Loslassen und Geborgenheit zeigen, ohne Menschen eindeutig erkennbar in einer konkreten Nachrichtenszene darzustellen.\",\"flux_prompt\":\"Ein schlichter, ruhiger Innenraum am Abend, warmes weiches Licht, Blick auf ein Fenster mit einsetzender Dämmerung, eine Tasse auf einem Holztisch, offene Hände in entspannter Haltung, stille Atmosphäre, natürliche Farben, fotografischer Stil, zurückhaltend, hoffnungsvoll, realistisch\",\"negative_prompt\":\"text, letters, logo, watermark\",\"formats\":[\"4:5\",\"9:16\",\"1.91:1\"],\"alt_text\":\"Ein ruhiger Raum am Abend: warmes Licht fällt auf einen Holztisch mit einer Tasse, im Hintergrund ein Fenster in der Dämmerung. Die Szene wirkt still und geborgen.\"},\"qa\":{\"warnings\":[\"Aktuelle Bezüge redaktionell gegen Endstand vor Veröffentlichung prüfen.\",\"Gebet nennt politische Wahlergebnisse als Gebetsanliegen; auf parteipolitische Neutralität in der Freigabe achten.\",\"Alt text must be completed before approval\"],\"approved\":false},\"metadata\":{\"model\":\"OpenAI\",\"generated_at\":\"2026-09-21T00:00:00Z\",\"prompt_version\":\"1.0\",\"assets\":[]}}"
+}
