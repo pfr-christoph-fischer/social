@@ -84,5 +84,91 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-21",
+    "contentDate": "2026-09-21",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-09-21T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Nun hat der HERR mir gegeben, was ich von ihm erbeten habe.",
+    "assets": [
+      "render-square-01.jpg"
+    ],
+    "altTexts": [
+      "Nun hat der HERR mir gegeben, was ich von ihm erbeten habe."
+    ],
+    "id": "7a530c42-9682-47c9-b84e-94a3b7d9314c",
+    "attemptCount": 1,
+    "remoteId": "18189005566361176",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:45:40.692Z",
+    "updatedAt": "2026-09-21T05:00:44.338Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-21",
+    "contentDate": "2026-09-21",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-09-21T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Nun hat der HERR mir gegeben, was ich von ihm erbeten habe.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Nun hat der HERR mir gegeben, was ich von ihm erbeten habe."
+    ],
+    "id": "850089fe-175d-4194-9232-80916c283b3f",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3mvywl27fux2b",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3mvywl27fux2b",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:45:40.698Z",
+    "updatedAt": "2026-09-21T05:00:46.245Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-21",
+    "contentDate": "2026-09-21",
+    "platform": "linkedin",
+    "format": "default",
+    "scheduledAt": "2026-09-21T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Nun hat der HERR mir gegeben, was ich von ihm erbeten habe.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Nun hat der HERR mir gegeben, was ich von ihm erbeten habe."
+    ],
+    "id": "c24ca582-debc-453a-a5b9-8e90b4b5ceeb",
+    "attemptCount": 1,
+    "remoteId": "urn:li:share:7507665109914218496",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:45:40.704Z",
+    "updatedAt": "2026-09-21T05:00:48.169Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 201
+    },
+    "retryHistory": []
   }
 ]
