@@ -1,0 +1,121 @@
+{
+  "id": "prayer-morning-2026-09-22",
+  "status": "in Arbeit",
+  "needs_input": false,
+  "source": {
+    "calendar_post_id": "prayer-morning-2026-09-22",
+    "date": "2026-09-22",
+    "rubric": "Morgengebet",
+    "liturgical_source": ""
+  },
+  "editorial_core": {
+    "title": "Morgengebet",
+    "main_message": "Der neue Tag beginnt nicht mit Druck, sondern mit Gottes Güte. Im Morgenlob richtet sich der Blick auf den, der Licht schenkt, Wege öffnet und Hoffnung trägt.",
+    "audience": "breite Öffentlichkeit",
+    "tone": [
+      "lobend",
+      "hoffnungsvoll",
+      "zugewandt"
+    ],
+    "source_notes": [
+      "Morgenlob ohne Nachrichtenschau und ohne konkrete Fürbitten für aktuelle Ereignisse.",
+      "Kurzer biblischer Gebetsschnipsel aufgenommen: „Dies ist der Tag, den der Herr macht“ (Psalm 118,24) sowie der Morgenruf aus Psalm 143,8.",
+      "Bibelstellen geprüft an der Lutherbibel 2017 über die-bibel.de.",
+      "Sprache bewusst schlicht, bildhaft und offen gehalten.",
+      "Schluss mit einem Satz des Vertrauens für den Tag."
+    ]
+  },
+  "platforms": {
+    "facebook": {
+      "text": "**Morgengebet**\n\nGott, du Licht dieses Morgens,\ndu öffnest den Tag wie ein Fenster.\nDie Luft ist neu. Das Licht fällt auf Dächer, Bäume und Wege.\nUnd ich bin da. Vor dir.\n\n„Dies ist der Tag, den der Herr macht“ (Psalm 118,24).\nIch danke dir für diesen neuen Anfang.\nFür Atem. Für Kraft. Für alles, was heute wachsen darf.\n\nLass mich am Morgen deine Güte hören (Psalm 143,8).\nWenn ich unruhig bin, werde du meine Ruhe.\nWenn ich nicht weiß, was kommt, halte du meinen Schritt.\nWenn Freude auf mich wartet, lass sie mich nicht übersehen.\n\nIch nehme diesen Tag aus deiner Hand.\nNicht, weil ich alles im Griff habe.\nSondern weil du da bist.\n\nDu gehst mit.\nDarauf will ich vertrauen.",
+      "headline": "Morgengebet: Diesen Tag aus Gottes Hand annehmen"
+    },
+    "instagram": {
+      "caption": "Gott, du Licht dieses Morgens,\ndu öffnest den Tag wie ein Fenster.\n\n„Dies ist der Tag, den der Herr macht“ (Psalm 118,24).\nLass mich am Morgen deine Güte hören (Psalm 143,8).\n\nIch nehme diesen Tag aus deiner Hand.\nDu gehst mit.\nDarauf will ich vertrauen.",
+      "carousel": [
+        {
+          "type": "intro",
+          "text": "Gott, du Licht dieses Morgens,\ndu öffnest den Tag wie ein Fenster."
+        },
+        {
+          "type": "quote",
+          "text": "„Dies ist der Tag, den der Herr macht“\nPsalm 118,24"
+        },
+        {
+          "type": "prayer",
+          "text": "Lass mich am Morgen deine Güte hören.\nPsalm 143,8"
+        },
+        {
+          "type": "prayer",
+          "text": "Ich nehme diesen Tag aus deiner Hand.\nNicht, weil ich alles im Griff habe.\nSondern weil du da bist."
+        },
+        {
+          "type": "closing",
+          "text": "Du gehst mit.\nDarauf will ich vertrauen."
+        }
+      ]
+    },
+    "mastodon": {
+      "text": "Morgengebet\n\nGott, du Licht dieses Morgens,\ndu öffnest den Tag wie ein Fenster.\n\n„Dies ist der Tag, den der Herr macht“ (Psalm 118,24).\nLass mich am Morgen deine Güte hören (Psalm 143,8).\n\nIch nehme diesen Tag aus deiner Hand.\nDu gehst mit.\nDarauf will ich vertrauen."
+    },
+    "bluesky": {
+      "text": "Gott, du Licht dieses Morgens, du öffnest den Tag wie ein Fenster. „Dies ist der Tag, den der Herr macht“ (Psalm 118,24). Lass mich am Morgen deine Güte hören (Psalm 143,8). Ich nehme diesen Tag aus deiner Hand. Du gehst mit."
+    },
+    "story": {
+      "slides": [
+        {
+          "text": "Gott, du Licht dieses Morgens,\ndu öffnest den Tag wie ein Fenster."
+        },
+        {
+          "text": "„Dies ist der Tag,\nden der Herr macht“\nPsalm 118,24"
+        },
+        {
+          "text": "Lass mich am Morgen\ndeine Güte hören.\nPsalm 143,8"
+        },
+        {
+          "text": "Ich nehme diesen Tag\naus deiner Hand."
+        },
+        {
+          "text": "Du gehst mit.\nDarauf will ich vertrauen."
+        }
+      ]
+    },
+    "reel": {
+      "hook": "Der Tag beginnt. Nicht mit Druck. Mit Gott.",
+      "script": "Gott, du Licht dieses Morgens, du öffnest den Tag wie ein Fenster. Dies ist der Tag, den der Herr macht. Lass mich am Morgen deine Güte hören. Ich nehme diesen Tag aus deiner Hand. Du gehst mit. Darauf will ich vertrauen.",
+      "shots": [
+        "Frühes Morgenlicht an einem Fenster",
+        "Tau auf Blättern oder Gras",
+        "Ruhige Straße oder Weg im weichen Licht",
+        "Hände an einer warmen Tasse",
+        "Weite Himmelsaufnahme am Morgen"
+      ],
+      "duration_seconds": 20
+    }
+  },
+  "visual": {
+    "concept": "Ruhige Morgenszene mit erstem Licht, geöffnetem Fenster oder Blick ins Freie, klare Luft, natürliche Farben, stiller hoffnungsvoller Tagesanfang.",
+    "flux_prompt": "A quiet early morning scene with soft natural sunrise light, an open window or gentle view into a garden or treetops, fresh air atmosphere, dew, calm composition, realistic photography, warm and clear tones, contemplative mood, subtle Protestant devotional aesthetic, no people required, no typography",
+    "negative_prompt": "text, letters, logo, watermark",
+    "formats": [
+      "4:5",
+      "9:16",
+      "1.91:1"
+    ],
+    "alt_text": "Sanftes Morgenlicht fällt durch ein geöffnetes Fenster. Draußen sind Bäume oder Blätter im weichen Licht zu sehen. Die Szene wirkt ruhig, frisch und hoffnungsvoll."
+  },
+  "qa": {
+    "warnings": [
+      "Alt text must be completed before approval",
+      "Bibelzitate kurz halten und Schreibweise vor Veröffentlichung noch einmal gegen die genutzte Ausgabe prüfen.",
+      "Am Morgen der Veröffentlichung nur noch auf stimmigen Tagesbezug prüfen; keine aktuellen Fürbitten ergänzen."
+    ],
+    "approved": false
+  },
+  "metadata": {
+    "model": "gpt-5.4-2026-03-05",
+    "generated_at": "2026-09-21T14:00:36.836Z",
+    "prompt_version": "1.1",
+    "assets": []
+  }
+}
