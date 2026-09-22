@@ -84,5 +84,91 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-22",
+    "contentDate": "2026-09-22",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-09-22T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Sie gaben’s dem HERRN freiwillig von ganzem Herzen.",
+    "assets": [
+      "render-square-01.jpg"
+    ],
+    "altTexts": [
+      "Sie gaben’s dem HERRN freiwillig von ganzem Herzen."
+    ],
+    "id": "5adceea6-51a7-408c-8d52-d6be99fd37a2",
+    "attemptCount": 1,
+    "remoteId": "18341723269282879",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:45:42.759Z",
+    "updatedAt": "2026-09-22T05:00:43.943Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-22",
+    "contentDate": "2026-09-22",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-09-22T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Sie gaben’s dem HERRN freiwillig von ganzem Herzen.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Sie gaben’s dem HERRN freiwillig von ganzem Herzen."
+    ],
+    "id": "58f7ee10-b406-43c9-af9c-8275ff835438",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3mw3gzxe4hz2n",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3mw3gzxe4hz2n",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:45:42.771Z",
+    "updatedAt": "2026-09-22T05:00:45.977Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-22",
+    "contentDate": "2026-09-22",
+    "platform": "linkedin",
+    "format": "default",
+    "scheduledAt": "2026-09-22T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Sie gaben’s dem HERRN freiwillig von ganzem Herzen.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Sie gaben’s dem HERRN freiwillig von ganzem Herzen."
+    ],
+    "id": "bb34deee-586d-47fe-83ea-167e8e5ce549",
+    "attemptCount": 1,
+    "remoteId": "urn:li:share:7508027497259753472",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:45:42.779Z",
+    "updatedAt": "2026-09-22T05:00:48.068Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 201
+    },
+    "retryHistory": []
   }
 ]
