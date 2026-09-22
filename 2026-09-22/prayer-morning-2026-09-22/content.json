@@ -1,6 +1,6 @@
 {
   "id": "prayer-morning-2026-09-22",
-  "status": "in Arbeit",
+  "status": "freigegeben",
   "needs_input": false,
   "source": {
     "calendar_post_id": "prayer-morning-2026-09-22",
@@ -27,31 +27,31 @@
   },
   "platforms": {
     "facebook": {
-      "headline": "Morgengebet: Dieser Tag liegt in Gottes Hand",
-      "text": "Gott,\ndieser Morgen ist nicht leer.\nLicht fällt auf Dächer und Wege.\nAtem füllt unsere Lungen.\nDer Tag liegt noch ungeöffnet vor uns.\n\n„Dies ist der Tag, den der HERR macht.“ (Psalm 118,24)\n\nDu bist da.\nVor jedem Termin.\nVor jeder Sorge.\nVor allem, was heute gelingt oder schwer wird.\n\nWir loben dich für das Leben.\nFür deinen neuen Anfang in diesem Morgen.\nMach unser Herz weit für deine Güte.\nGib uns Ruhe im Denken.\nKlarheit für die nächsten Schritte.\nUnd Vertrauen, das tiefer reicht als unsere Stimmung.\n\nWir nehmen diesen Tag aus deiner Hand.\nDu bist gut.\nUnd dein Licht geht mit.\nAmen."
+      "text": "Gott,\ndieser Morgen ist nicht leer.\nLicht fällt auf Dächer und Wege.\nAtem füllt unsere Lungen.\nDer Tag liegt noch ungeöffnet vor uns.\n\n„Dies ist der Tag, den der HERR macht.“ (Psalm 118,24)\n\nDu bist da.\nVor jedem Termin.\nVor jeder Sorge.\nVor allem, was heute gelingt oder schwer wird.\n\nWir loben dich für das Leben.\nFür deinen neuen Anfang in diesem Morgen.\nMach unser Herz weit für deine Güte.\nGib uns Ruhe im Denken.\nKlarheit für die nächsten Schritte.\nUnd Vertrauen, das tiefer reicht als unsere Stimmung.\n\nWir nehmen diesen Tag aus deiner Hand.\nDu bist gut.\nUnd dein Licht geht mit.\nAmen.",
+      "headline": "Morgengebet: Dieser Tag liegt in Gottes Hand"
     },
     "instagram": {
       "caption": "Gott,\nLicht fällt auf Wege und Fenster.\nDer Tag liegt noch ungeöffnet vor uns.\n\n„Dies ist der Tag, den der HERR macht.“ (Psalm 118,24)\n\nDu bist da.\nVor jeder Aufgabe.\nVor jeder Unruhe.\nVor allem, was heute kommt.\n\nWir loben dich für das Leben.\nMach unser Herz weit für deine Güte.\nGib uns Ruhe, Klarheit und Vertrauen.\n\nWir nehmen diesen Tag aus deiner Hand.\nDein Licht geht mit.\nAmen.",
       "carousel": [
         {
-          "text": "Gott,\nLicht fällt auf Wege und Fenster.\nDer Tag liegt noch ungeöffnet vor uns.",
-          "type": "text"
+          "type": "text",
+          "text": "Gott,\nLicht fällt auf Wege und Fenster.\nDer Tag liegt noch ungeöffnet vor uns."
         },
         {
-          "text": "„Dies ist der Tag, den der HERR macht.“\nPsalm 118,24",
-          "type": "text"
+          "type": "text",
+          "text": "„Dies ist der Tag, den der HERR macht.“\nPsalm 118,24"
         },
         {
-          "text": "Du bist da.\nVor jeder Aufgabe.\nVor jeder Unruhe.\nVor allem, was heute kommt.",
-          "type": "text"
+          "type": "text",
+          "text": "Du bist da.\nVor jeder Aufgabe.\nVor jeder Unruhe.\nVor allem, was heute kommt."
         },
         {
-          "text": "Mach unser Herz weit für deine Güte.\nGib uns Ruhe, Klarheit und Vertrauen.",
-          "type": "text"
+          "type": "text",
+          "text": "Mach unser Herz weit für deine Güte.\nGib uns Ruhe, Klarheit und Vertrauen."
         },
         {
-          "text": "Wir nehmen diesen Tag aus deiner Hand.\nDein Licht geht mit.\nAmen.",
-          "type": "text"
+          "type": "text",
+          "text": "Wir nehmen diesen Tag aus deiner Hand.\nDein Licht geht mit.\nAmen."
         }
       ]
     },
@@ -105,12 +105,8 @@
     "alt_text": "Sanftes Morgenlicht fällt durch ein offenes Fenster. Draußen sind Himmel und Dächer im frühen Tageslicht zu sehen. Die Szene wirkt ruhig, klar und hoffnungsvoll."
   },
   "qa": {
-    "approved": false,
-    "warnings": [
-      "Alt text must be completed before approval",
-      "Bibelzitat geprüft: Psalm 118,24.",
-      "Aktuelle Nachrichtenlage geprüft; bewusst nicht im Gebet verarbeitet, da Morgengebet ohne konkrete Fürbitten angelegt ist."
-    ]
+    "approved": true,
+    "warnings": []
   },
   "metadata": {
     "model": "gpt-5.4-2026-03-05",
