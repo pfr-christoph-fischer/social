@@ -1,0 +1,36 @@
+{
+  "delivery_url": "https://delivery.us2.bfl.ai/durable/2026092218/5e1f69ea-538b-4d66-962e-9be995966f07/94/0243471d79c402/1d79c402050044f7a862eb965c43e878/sample.jpeg?se=2026-09-22T18%3A10%3A24Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=njdN5/1642sDhbIIMzL2WCy9QPpPzzrzzbh1EfOPils%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "5a3c4a21-50c7-41ce-861b-3b63e1dbba92",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "5a3c4a21-50c7-41ce-861b-3b63e1dbba92",
+      "status": "Ready",
+      "result": {
+        "start_time": 1790100022.9220421,
+        "prompt": "Ruhige, klare Bildsprache: gemeinschaftliche und persönliche Dimension des Glaubensbekenntnisses. Schlichte Kirchenatmosphäre, Hände, Licht, ein offener Raum als Bild für gemeinsame Sprache und Halt., no text, no letters, no typography, no logo, no watermark",
+        "seed": 2769043932,
+        "sample": "https://delivery.us2.bfl.ai/durable/2026092218/5e1f69ea-538b-4d66-962e-9be995966f07/94/0243471d79c402/1d79c402050044f7a862eb965c43e878/sample.jpeg?se=2026-09-22T18%3A10%3A24Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=njdN5/1642sDhbIIMzL2WCy9QPpPzzrzzbh1EfOPils%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "5a3c4a21-50c7-41ce-861b-3b63e1dbba92",
+    "polling_url": "https://api.us2.bfl.ai/v1/get_result?id=5a3c4a21-50c7-41ce-861b-3b63e1dbba92",
+    "cost": 1.5,
+    "input_mp": 0,
+    "output_mp": 1.39
+  }
+}
