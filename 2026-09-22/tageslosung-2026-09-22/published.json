@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-22",
+    "contentDate": "2026-09-22",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-09-22T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Sie gaben’s dem HERRN freiwillig von ganzem Herzen.",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Sie gaben’s dem HERRN freiwillig von ganzem Herzen."
+    ],
+    "id": "79f64d89-015a-4eca-9ab9-34f3b5ca340c",
+    "attemptCount": 1,
+    "remoteId": "17908532649516767",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:45:42.739Z",
+    "updatedAt": "2026-09-22T05:00:31.176Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-22",
+    "contentDate": "2026-09-22",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-09-22T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Sie gaben’s dem HERRN freiwillig von ganzem Herzen.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Sie gaben’s dem HERRN freiwillig von ganzem Herzen."
+    ],
+    "id": "569d3562-a41e-4af3-83db-a855b6dcf580",
+    "attemptCount": 1,
+    "remoteId": "117312928643897582",
+    "remoteUrl": "https://kirche.social/@christoph/117312928643897582",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:45:42.749Z",
+    "updatedAt": "2026-09-22T05:00:32.549Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
