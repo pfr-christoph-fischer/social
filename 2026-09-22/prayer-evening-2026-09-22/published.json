@@ -27,5 +27,67 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "prayer-evening-2026-09-22",
+    "contentDate": "2026-09-22",
+    "platform": "instagram",
+    "format": "default",
+    "scheduledAt": "2026-09-22T18:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Abendgebet.\nDer Tag muss nicht fertig werden, bevor wir schlafen.\nWir legen Gott hin, was gelungen ist und was offen blieb.\nUnd wir beten für Menschen in der Region Kiew nach den russischen Angriffen, für Betroffene des Taifuns „Dujuan“ bei Tokio und für Menschen in Baden-Württemberg, die wegen Stellenabbaus um ihre Arbeit bangen.\n\nGott,\nwas heute war,\nlegen wir in deine Hand.\nSchenk uns Frieden für diese Nacht.\nAmen.",
+    "assets": [
+      "render-instagram-feed-01.jpg",
+      "render-instagram-feed-02.jpg",
+      "render-instagram-feed-03.jpg",
+      "render-instagram-feed-04.jpg",
+      "render-instagram-feed-05.jpg",
+      "render-instagram-feed-06.jpg"
+    ],
+    "altTexts": [
+      "Ein stiller Tisch an einem Fenster im Abendlicht. Daneben liegt ein geschlossenes Notizbuch, warmes Kerzenlicht trifft auf die kühle blaue Dämmerung. Die Szene wirkt ruhig und lädt zum Loslassen des Tages ein."
+    ],
+    "id": "6813b40a-2946-4843-8b6a-d5ba9b21c8ff",
+    "attemptCount": 1,
+    "remoteId": "17899992456656917",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-09-22T17:52:48.705Z",
+    "updatedAt": "2026-09-22T18:01:10.075Z",
+    "responseMetadata": {
+      "mediaCount": 6,
+      "mediaType": "CAROUSEL",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "prayer-evening-2026-09-22",
+    "contentDate": "2026-09-22",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-09-22T18:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Abendgebet\n\nGott,\nder Tag muss nicht fertig werden, bevor wir schlafen.\nWir legen dir hin, was gut war und was schwer war.\n\nWir bitten dich für Menschen in der Region Kiew nach den russischen Angriffen.\nFür Betroffene des Taifuns „Dujuan“ im Großraum Tokio.\nFür Menschen in Baden-Württemberg, die wegen Stellenabbaus um ihre Arbeit bangen.\n\nSchenk Frieden für diese Nacht.\nUnd halte die Hoffnung in uns wach.\nAmen.",
+    "assets": [
+      "render-facebook-mastodon-01.png"
+    ],
+    "altTexts": [
+      "Ein stiller Tisch an einem Fenster im Abendlicht. Daneben liegt ein geschlossenes Notizbuch, warmes Kerzenlicht trifft auf die kühle blaue Dämmerung. Die Szene wirkt ruhig und lädt zum Loslassen des Tages ein."
+    ],
+    "id": "68a1dbdc-b4ac-4dae-8ead-e44eb3c4a1b3",
+    "attemptCount": 1,
+    "remoteId": "117315998306326654",
+    "remoteUrl": "https://kirche.social/@christoph/117315998306326654",
+    "lastError": null,
+    "createdAt": "2026-09-22T17:52:48.790Z",
+    "updatedAt": "2026-09-22T18:01:11.907Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
