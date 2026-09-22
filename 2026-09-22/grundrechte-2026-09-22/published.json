@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-09-22",
+    "contentDate": "2026-09-22",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-09-22T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Alle Menschen sind vor dem Gesetz gleich und haben ohne Unterschied Anspruch auf gleichen Schutz durch das Gesetz. (Allgemeine Erklärung der Menschenrechte, Artikel 7)",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Alle Menschen sind vor dem Gesetz gleich und haben ohne Unterschied Anspruch auf gleichen Schutz durch das Gesetz. (Allgemeine Erklärung der Menschenrechte, Artikel 7)"
+    ],
+    "id": "94f2411e-74b5-44c5-809a-caf34ee18941",
+    "attemptCount": 1,
+    "remoteId": "18117867737473105",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:38:25.856Z",
+    "updatedAt": "2026-09-22T10:00:37.953Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-09-22",
+    "contentDate": "2026-09-22",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-09-22T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Alle Menschen sind vor dem Gesetz gleich und haben ohne Unterschied Anspruch auf gleichen Schutz durch das Gesetz. (Allgemeine Erklärung der Menschenrechte, Artikel 7)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Alle Menschen sind vor dem Gesetz gleich und haben ohne Unterschied Anspruch auf gleichen Schutz durch das Gesetz. (Allgemeine Erklärung der Menschenrechte, Artikel 7)"
+    ],
+    "id": "4789098f-5400-443a-81e5-92d25777d5e7",
+    "attemptCount": 1,
+    "remoteId": "117314108782093374",
+    "remoteUrl": "https://kirche.social/@christoph/117314108782093374",
+    "lastError": null,
+    "createdAt": "2026-08-26T15:38:25.899Z",
+    "updatedAt": "2026-09-22T10:00:40.689Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
