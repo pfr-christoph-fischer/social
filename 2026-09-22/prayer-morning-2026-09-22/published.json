@@ -27,5 +27,66 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "prayer-morning-2026-09-22",
+    "contentDate": "2026-09-22",
+    "platform": "instagram",
+    "format": "default",
+    "scheduledAt": "2026-09-22T05:15:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Gott,\nLicht fällt auf Wege und Fenster.\nDer Tag liegt noch ungeöffnet vor uns.\n\n„Dies ist der Tag, den der HERR macht.“ (Psalm 118,24)\n\nDu bist da.\nVor jeder Aufgabe.\nVor jeder Unruhe.\nVor allem, was heute kommt.\n\nWir loben dich für das Leben.\nMach unser Herz weit für deine Güte.\nGib uns Ruhe, Klarheit und Vertrauen.\n\nWir nehmen diesen Tag aus deiner Hand.\nDein Licht geht mit.\nAmen.",
+    "assets": [
+      "render-instagram-feed-01.jpg",
+      "render-instagram-feed-02.jpg",
+      "render-instagram-feed-03.jpg",
+      "render-instagram-feed-04.jpg",
+      "render-instagram-feed-05.jpg"
+    ],
+    "altTexts": [
+      "Sanftes Morgenlicht fällt durch ein offenes Fenster. Draußen sind Himmel und Dächer im frühen Tageslicht zu sehen. Die Szene wirkt ruhig, klar und hoffnungsvoll."
+    ],
+    "id": "e1395295-bb15-4a79-be9c-a121e22f51ec",
+    "attemptCount": 1,
+    "remoteId": "18037338842834293",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-09-22T05:53:32.251Z",
+    "updatedAt": "2026-09-22T05:55:51.342Z",
+    "responseMetadata": {
+      "mediaCount": 5,
+      "mediaType": "CAROUSEL",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "prayer-morning-2026-09-22",
+    "contentDate": "2026-09-22",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-09-22T05:15:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Gott,\nLicht fällt auf Wege und Fenster. Der Tag liegt noch ungeöffnet vor uns.\n\n„Dies ist der Tag, den der HERR macht.“ (Psalm 118,24)\n\nDu bist da. Vor jeder Aufgabe. Vor jeder Unruhe. Vor allem, was heute kommt.\n\nMach unser Herz weit für deine Güte. Gib uns Ruhe, Klarheit und Vertrauen.\n\nWir nehmen diesen Tag aus deiner Hand. Dein Licht geht mit. Amen.",
+    "assets": [
+      "render-facebook-mastodon-01.png"
+    ],
+    "altTexts": [
+      "Sanftes Morgenlicht fällt durch ein offenes Fenster. Draußen sind Himmel und Dächer im frühen Tageslicht zu sehen. Die Szene wirkt ruhig, klar und hoffnungsvoll."
+    ],
+    "id": "33af26a6-9391-49f0-a54e-9ec8263cd4ba",
+    "attemptCount": 1,
+    "remoteId": "117313146239434565",
+    "remoteUrl": "https://kirche.social/@christoph/117313146239434565",
+    "lastError": null,
+    "createdAt": "2026-09-22T05:53:32.297Z",
+    "updatedAt": "2026-09-22T05:55:52.784Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
