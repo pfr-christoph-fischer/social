@@ -1,0 +1,36 @@
+{
+  "delivery_url": "https://delivery.us2.bfl.ai/durable/2026092217/5e1f69ea-538b-4d66-962e-9be995966f07/00/5277968095a188/8095a188ed044a33ae5c8256b2a94af8/sample.jpeg?se=2026-09-22T18%3A02%3A07Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=AFfqVGeI9a3sgpyBF0Hj2ODV%2BvPYDnOKm3n2MOiwIaw%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "6bd54e6b-90a6-4bc7-9468-f4622ff2e3f8",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "6bd54e6b-90a6-4bc7-9468-f4622ff2e3f8",
+      "status": "Ready",
+      "result": {
+        "start_time": 1790099526.3931186,
+        "prompt": "Ruhige Abendszene an einem Fenster mit weichem Licht, ein offenes aber beiseite gelegtes Notizbuch, stille Atmosphäre des Loslassens und Vertrauens., no text, no letters, no typography, no logo, no watermark",
+        "seed": 2974156849,
+        "sample": "https://delivery.us2.bfl.ai/durable/2026092217/5e1f69ea-538b-4d66-962e-9be995966f07/00/5277968095a188/8095a188ed044a33ae5c8256b2a94af8/sample.jpeg?se=2026-09-22T18%3A02%3A07Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=AFfqVGeI9a3sgpyBF0Hj2ODV%2BvPYDnOKm3n2MOiwIaw%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "6bd54e6b-90a6-4bc7-9468-f4622ff2e3f8",
+    "polling_url": "https://api.us2.bfl.ai/v1/get_result?id=6bd54e6b-90a6-4bc7-9468-f4622ff2e3f8",
+    "cost": 1.5,
+    "input_mp": 0,
+    "output_mp": 1.39
+  }
+}

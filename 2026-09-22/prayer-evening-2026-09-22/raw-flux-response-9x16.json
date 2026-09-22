@@ -1,0 +1,44 @@
+{
+  "delivery_url": "https://delivery.us2.bfl.ai/durable/2026092217/5e1f69ea-538b-4d66-962e-9be995966f07/ab/530886ffa4962d/ffa4962dc89e414fb065b1882868c5f7/sample.jpeg?se=2026-09-22T18%3A02%3A11Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=%2B/Yu87xTsJvtgz5PEzy0pedc6xOmRMEpjjd66ozni9g%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "bde8eb10-fa06-465f-9602-2f6b39b740f5",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "bde8eb10-fa06-465f-9602-2f6b39b740f5",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "bde8eb10-fa06-465f-9602-2f6b39b740f5",
+      "status": "Ready",
+      "result": {
+        "start_time": 1790099529.5714307,
+        "prompt": "Ruhige Abendszene an einem Fenster mit weichem Licht, ein offenes aber beiseite gelegtes Notizbuch, stille Atmosphäre des Loslassens und Vertrauens., no text, no letters, no typography, no logo, no watermark",
+        "seed": 2062884938,
+        "sample": "https://delivery.us2.bfl.ai/durable/2026092217/5e1f69ea-538b-4d66-962e-9be995966f07/ab/530886ffa4962d/ffa4962dc89e414fb065b1882868c5f7/sample.jpeg?se=2026-09-22T18%3A02%3A11Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=%2B/Yu87xTsJvtgz5PEzy0pedc6xOmRMEpjjd66ozni9g%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "bde8eb10-fa06-465f-9602-2f6b39b740f5",
+    "polling_url": "https://api.us2.bfl.ai/v1/get_result?id=bde8eb10-fa06-465f-9602-2f6b39b740f5",
+    "cost": 1.5,
+    "input_mp": 0,
+    "output_mp": 1.98
+  }
+}
