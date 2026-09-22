@@ -36,31 +36,31 @@
   },
   "platforms": {
     "facebook": {
-      "text": "Gott, du Ursprung dieses Morgens,\ndu öffnest den Tag wie ein Fenster zum Licht.\nIch danke dir für Atem, Zeit und alles, was heute wachsen darf.\n\n„Dies ist der Tag, den der HERR macht; lasst uns freuen und fröhlich an ihm sein.“\nPsalm 118,24\n\nLass mein Herz ruhig werden.\nLass meinen Blick weit werden.\nLass mich sehen, was gut ist, und tun, was dem Leben dient.\n\nIch muss diesen Tag nicht allein tragen.\nDu gehst mit.\nDeine Güte ist schon da, bevor ich anfange.\n\nSo nehme ich diesen Morgen aus deiner Hand.\nMit Vertrauen.\nMit Dank.\nMit Hoffnung.\nAmen.",
-      "headline": "Morgengebet"
+      "headline": "Morgengebet",
+      "text": "Gott, du Ursprung dieses Morgens,\ndu öffnest den Tag wie ein Fenster zum Licht.\nIch danke dir für Atem, Zeit und alles, was heute wachsen darf.\n\n„Dies ist der Tag, den der HERR macht; lasst uns freuen und fröhlich an ihm sein.“\nPsalm 118,24\n\nLass mein Herz ruhig werden.\nLass meinen Blick weit werden.\nLass mich sehen, was gut ist, und tun, was dem Leben dient.\n\nIch muss diesen Tag nicht allein tragen.\nDu gehst mit.\nDeine Güte ist schon da, bevor ich anfange.\n\nSo nehme ich diesen Morgen aus deiner Hand.\nMit Vertrauen.\nMit Dank.\nMit Hoffnung.\nAmen."
     },
     "instagram": {
       "caption": "Gott, du Ursprung dieses Morgens,\ndu öffnest den Tag wie ein Fenster zum Licht.\nIch danke dir für Atem, Zeit und alles, was heute wachsen darf.\n\n„Dies ist der Tag, den der HERR macht; lasst uns freuen und fröhlich an ihm sein.“\nPsalm 118,24\n\nIch muss diesen Tag nicht allein tragen.\nDu gehst mit.\nDeine Güte ist schon da, bevor ich anfange.\n\nAmen.",
       "carousel": [
         {
-          "type": "text",
-          "text": "Gott, du Ursprung dieses Morgens,\ndu öffnest den Tag wie ein Fenster zum Licht."
+          "text": "Gott, du Ursprung dieses Morgens,\ndu öffnest den Tag wie ein Fenster zum Licht.",
+          "type": "text"
         },
         {
-          "type": "text",
-          "text": "Ich danke dir für Atem, Zeit und alles, was heute wachsen darf."
+          "text": "Ich danke dir für Atem, Zeit und alles, was heute wachsen darf.",
+          "type": "text"
         },
         {
-          "type": "text",
-          "text": "„Dies ist der Tag, den der HERR macht; lasst uns freuen und fröhlich an ihm sein.“\nPsalm 118,24"
+          "text": "„Dies ist der Tag, den der HERR macht; lasst uns freuen und fröhlich an ihm sein.“\nPsalm 118,24",
+          "type": "text"
         },
         {
-          "type": "text",
-          "text": "Ich muss diesen Tag nicht allein tragen.\nDu gehst mit."
+          "text": "Ich muss diesen Tag nicht allein tragen.\nDu gehst mit.",
+          "type": "text"
         },
         {
-          "type": "text",
-          "text": "Deine Güte ist schon da, bevor ich anfange.\nAmen."
+          "text": "Deine Güte ist schon da, bevor ich anfange.\nAmen.",
+          "type": "text"
         }
       ]
     },
@@ -114,12 +114,12 @@
     "alt_text": "Sanftes Morgenlicht fällt durch ein offenes Fenster in einen schlichten Raum. Draußen sind Himmel und etwas Grün zu sehen. Die Szene wirkt ruhig, hell und hoffnungsvoll."
   },
   "qa": {
+    "approved": false,
     "warnings": [
       "Alt text must be completed before approval",
       "Biblical fragment included; reference checked: Psalm 118,24 (Lutherbibel 2017).",
       "Am Morgen der Veröffentlichung nur auf stimmigen Tagesbezug prüfen."
-    ],
-    "approved": false
+    ]
   },
   "metadata": {
     "model": "gpt-5.4-2026-03-05",
