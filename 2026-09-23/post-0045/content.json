@@ -113,13 +113,17 @@
     "alt_text": "Schlichter Kirchenraum in warmem Licht. Einige Menschen sind ruhig versammelt, sichtbar sind vor allem Hände und Rückenansichten. Die Szene wirkt offen, gemeinschaftlich und nachdenklich."
   },
   "qa": {
-    "approved": true,
-    "warnings": []
+    "warnings": [],
+    "approved": true
   },
   "metadata": {
     "model": "gpt-5.4-2026-03-05",
     "generated_at": "2026-09-22T17:58:51.389Z",
     "prompt_version": "1.0",
-    "assets": []
+    "assets": [
+      "assets/background-1.91x1.webp",
+      "assets/background-4x5.webp",
+      "assets/background-9x16.webp"
+    ]
   }
 }
