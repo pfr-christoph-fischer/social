@@ -27,39 +27,39 @@
   },
   "platforms": {
     "facebook": {
-      "text": "Warum sprechen wir im Gottesdienst ein Glaubensbekenntnis?\n\nKurz gesagt: Weil Glaube nicht nur Gefühl ist. Ein Glaubensbekenntnis gibt Worten, was Christinnen und Christen trägt.\n\nEs erzählt in konzentrierter Form, worauf sich der christliche Glaube richtet: auf Gott, auf Jesus Christus und auf den Heiligen Geist. Es erinnert daran: Ich glaube nicht nur für mich allein. Ich stehe in einer Gemeinschaft von Glaubenden – heute und durch die Jahrhunderte.\n\nDas Bekenntnis ist kein Test, den man perfekt bestehen muss. Es ist eher wie ein Geländer. Es gibt Halt. Es hilft, wenn eigene Worte fehlen. Und es lädt dazu ein, mitzusprechen, mitzudenken oder auch erst einmal zuzuhören.\n\nDarum sprechen viele Gemeinden es gemeinsam: als Zeichen der Verbundenheit und als gemeinsame Sprache des Glaubens.\n\nGesprächsfrage: Gibt es Sätze des Glaubens, die dir Halt geben – oder eher Fragen auslösen?",
-      "headline": "Warum sprechen wir ein Glaubensbekenntnis?"
+      "headline": "Warum sprechen wir ein Glaubensbekenntnis?",
+      "text": "Warum sprechen wir im Gottesdienst ein Glaubensbekenntnis?\n\nKurz gesagt: Weil Glaube nicht nur Gefühl ist. Ein Glaubensbekenntnis gibt Worten, was Christinnen und Christen trägt.\n\nEs erzählt in konzentrierter Form, worauf sich der christliche Glaube richtet: auf Gott, auf Jesus Christus und auf den Heiligen Geist. Es erinnert daran: Ich glaube nicht nur für mich allein. Ich stehe in einer Gemeinschaft von Glaubenden – heute und durch die Jahrhunderte.\n\nDas Bekenntnis ist kein Test, den man perfekt bestehen muss. Es ist eher wie ein Geländer. Es gibt Halt. Es hilft, wenn eigene Worte fehlen. Und es lädt dazu ein, mitzusprechen, mitzudenken oder auch erst einmal zuzuhören.\n\nDarum sprechen viele Gemeinden es gemeinsam: als Zeichen der Verbundenheit und als gemeinsame Sprache des Glaubens.\n\nGesprächsfrage: Gibt es Sätze des Glaubens, die dir Halt geben – oder eher Fragen auslösen?"
     },
     "instagram": {
       "caption": "Warum sprechen wir ein Glaubensbekenntnis?\n\nWeil Glaube Worte braucht. Nicht perfekte Worte. Aber gemeinsame.\n\nEin Glaubensbekenntnis fasst zusammen, was Christinnen und Christen trägt. Es verbindet Menschen im Gottesdienst. Und es hilft, wenn der eigene Glaube klar ist – oder gerade tastend.\n\nEs ist kein Leistungstest. Eher ein Geländer.\n\nGesprächsfrage: Welche Worte des Glaubens geben dir Halt – und welche bleiben für dich offen?",
       "carousel": [
         {
-          "type": "title",
-          "text": "Warum sprechen wir ein Glaubensbekenntnis?"
+          "text": "Warum sprechen wir ein Glaubensbekenntnis?",
+          "type": "title"
         },
         {
-          "type": "body",
-          "text": "Ein Glaubensbekenntnis fasst den christlichen Glauben in wenigen Sätzen zusammen."
+          "text": "Ein Glaubensbekenntnis fasst den christlichen Glauben in wenigen Sätzen zusammen.",
+          "type": "body"
         },
         {
-          "type": "body",
-          "text": "Es gibt Worte für das, was viele gemeinsam glauben und hoffen."
+          "text": "Es gibt Worte für das, was viele gemeinsam glauben und hoffen.",
+          "type": "body"
         },
         {
-          "type": "body",
-          "text": "Im Gottesdienst zeigt es: Glaube ist nicht nur privat. Wir stehen miteinander vor Gott."
+          "text": "Im Gottesdienst zeigt es: Glaube ist nicht nur privat. Wir stehen miteinander vor Gott.",
+          "type": "body"
         },
         {
-          "type": "body",
-          "text": "Es ist kein Test für perfekten Glauben. Es kann auch tragen, wenn Fragen offen sind."
+          "text": "Es ist kein Test für perfekten Glauben. Es kann auch tragen, wenn Fragen offen sind.",
+          "type": "body"
         },
         {
-          "type": "body",
-          "text": "Wie ein Geländer gibt es Halt, wenn eigene Worte fehlen."
+          "text": "Wie ein Geländer gibt es Halt, wenn eigene Worte fehlen.",
+          "type": "body"
         },
         {
-          "type": "question",
-          "text": "Welche Worte des Glaubens geben dir Halt – und welche lösen bei dir Fragen aus?"
+          "text": "Welche Worte des Glaubens geben dir Halt – und welche lösen bei dir Fragen aus?",
+          "type": "question"
         }
       ]
     },
@@ -103,7 +103,7 @@
   },
   "visual": {
     "concept": "Ruhige, klare Bildsprache: gemeinschaftliche und persönliche Dimension des Glaubensbekenntnisses. Schlichte Kirchenatmosphäre, Hände, Licht, ein offener Raum als Bild für gemeinsame Sprache und Halt.",
-    "flux_prompt": "",
+    "flux_prompt": "Ruhige, klare Bildsprache: gemeinschaftliche und persönliche Dimension des Glaubensbekenntnisses. Schlichte Kirchenatmosphäre, Hände, Licht, ein offener Raum als Bild für gemeinsame Sprache und Halt.",
     "negative_prompt": "text, letters, logo, watermark",
     "formats": [
       "4:5",
