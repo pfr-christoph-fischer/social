@@ -1,0 +1,52 @@
+{
+  "delivery_url": "https://delivery.eu2.bfl.ai/durable/2026092205/5e1f69ea-538b-4d66-962e-9be995966f07/5b/361797d8a57189/d8a57189dbb3429680d373670b7c508e/sample.jpeg?se=2026-09-22T06%3A02%3A42Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=j9K5izpGUQcQO5m4eJbxV%2BewnONIu8AmLvupCFOeBHg%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "4b1b5721-e738-48e2-896d-d54acdd281c4",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "4b1b5721-e738-48e2-896d-d54acdd281c4",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "4b1b5721-e738-48e2-896d-d54acdd281c4",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "4b1b5721-e738-48e2-896d-d54acdd281c4",
+      "status": "Ready",
+      "result": {
+        "start_time": 1790056360.7307775,
+        "prompt": "A quiet early morning scene with soft natural light, open window, gentle sky, subtle urban or village rooftops, calm atmosphere, realistic photography, warm but restrained colors, sense of fresh air and hope, minimal composition, no people facing camera, no typography, no text, no letters, no typography, no logo, no watermark",
+        "seed": 2163063683,
+        "sample": "https://delivery.eu2.bfl.ai/durable/2026092205/5e1f69ea-538b-4d66-962e-9be995966f07/5b/361797d8a57189/d8a57189dbb3429680d373670b7c508e/sample.jpeg?se=2026-09-22T06%3A02%3A42Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=j9K5izpGUQcQO5m4eJbxV%2BewnONIu8AmLvupCFOeBHg%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "4b1b5721-e738-48e2-896d-d54acdd281c4",
+    "polling_url": "https://api.eu2.bfl.ai/v1/get_result?id=4b1b5721-e738-48e2-896d-d54acdd281c4",
+    "cost": 1.5,
+    "input_mp": 0,
+    "output_mp": 1.39
+  }
+}

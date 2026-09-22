@@ -1,0 +1,36 @@
+{
+  "delivery_url": "https://delivery.us7.bfl.ai/durable/2026092205/5e1f69ea-538b-4d66-962e-9be995966f07/12/35764604a51af9/04a51af9b0ab4ff09d0d0c1d3e7e6a7e/sample.jpeg?se=2026-09-22T06%3A02%3A37Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=ntGuGlkXQkYnFAQlt3qx0yGpSR2lt9OOHW%2Bm/j%2BwUcU%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "eda60381-67c9-4dc2-b12f-874650f940f6",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "eda60381-67c9-4dc2-b12f-874650f940f6",
+      "status": "Ready",
+      "result": {
+        "start_time": 1790056356.4992309,
+        "prompt": "A quiet early morning scene with soft natural light, open window, gentle sky, subtle urban or village rooftops, calm atmosphere, realistic photography, warm but restrained colors, sense of fresh air and hope, minimal composition, no people facing camera, no typography, no text, no letters, no typography, no logo, no watermark",
+        "seed": 671325721,
+        "sample": "https://delivery.us7.bfl.ai/durable/2026092205/5e1f69ea-538b-4d66-962e-9be995966f07/12/35764604a51af9/04a51af9b0ab4ff09d0d0c1d3e7e6a7e/sample.jpeg?se=2026-09-22T06%3A02%3A37Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=ntGuGlkXQkYnFAQlt3qx0yGpSR2lt9OOHW%2Bm/j%2BwUcU%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "eda60381-67c9-4dc2-b12f-874650f940f6",
+    "polling_url": "https://api.us7.bfl.ai/v1/get_result?id=eda60381-67c9-4dc2-b12f-874650f940f6",
+    "cost": 1.4000000000000001,
+    "input_mp": 0,
+    "output_mp": 0.72
+  }
+}
