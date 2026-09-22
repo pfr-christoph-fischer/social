@@ -1,0 +1,36 @@
+{
+  "delivery_url": "https://delivery.us7.bfl.ai/durable/2026092217/5e1f69ea-538b-4d66-962e-9be995966f07/0b/8466931547d3bc/1547d3bc21c84be7b50a686e9b45242a/sample.jpeg?se=2026-09-22T18%3A07%3A26Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=7hZHEV1a872w7I6CBRz9pL3eGQD0BkFvpMx4hahUStc%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "787c1ec5-49df-4d4d-9bdf-fae33eb5dbbd",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "787c1ec5-49df-4d4d-9bdf-fae33eb5dbbd",
+      "status": "Ready",
+      "result": {
+        "start_time": 1790099845.4269028,
+        "prompt": "Ruhiger Morgen mit weichem natürlichem Licht, offenes Fenster, schlichte Alltagsszene, die Hoffnung und Neubeginn zeigt., no text, no letters, no typography, no logo, no watermark",
+        "seed": 3602548673,
+        "sample": "https://delivery.us7.bfl.ai/durable/2026092217/5e1f69ea-538b-4d66-962e-9be995966f07/0b/8466931547d3bc/1547d3bc21c84be7b50a686e9b45242a/sample.jpeg?se=2026-09-22T18%3A07%3A26Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=7hZHEV1a872w7I6CBRz9pL3eGQD0BkFvpMx4hahUStc%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "787c1ec5-49df-4d4d-9bdf-fae33eb5dbbd",
+    "polling_url": "https://api.us7.bfl.ai/v1/get_result?id=787c1ec5-49df-4d4d-9bdf-fae33eb5dbbd",
+    "cost": 1.4000000000000001,
+    "input_mp": 0,
+    "output_mp": 0.72
+  }
+}
