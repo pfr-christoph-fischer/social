@@ -90,5 +90,106 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "post-0045",
+    "contentDate": "2026-09-23",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-09-23T07:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Warum sprechen wir ein Glaubensbekenntnis? Weil Glaube Worte braucht. Das Bekenntnis verbindet, gibt Halt und erinnert: Ich glaube nicht nur für mich allein. Es ist kein Test. Eher ein Geländer. Welche Worte des Glaubens geben dir Halt?",
+    "assets": [
+      "render-instagram-feed-01.jpg",
+      "render-instagram-feed-02.jpg",
+      "render-instagram-feed-03.jpg",
+      "render-instagram-feed-04.jpg",
+      "render-instagram-feed-05.jpg",
+      "render-instagram-feed-06.jpg",
+      "render-instagram-feed-07.jpg"
+    ],
+    "altTexts": [
+      "Schlichter Kirchenraum in warmem Licht. Einige Menschen sind ruhig versammelt, sichtbar sind vor allem Hände und Rückenansichten. Die Szene wirkt offen, gemeinschaftlich und nachdenklich."
+    ],
+    "id": "d2a58d27-ec46-402d-8957-163d1bb6522d",
+    "attemptCount": 1,
+    "remoteId": "18127616764765880",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-09-22T18:02:12.986Z",
+    "updatedAt": "2026-09-23T07:02:03.241Z",
+    "responseMetadata": {
+      "mediaCount": 7,
+      "mediaType": "CAROUSEL",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "post-0045",
+    "contentDate": "2026-09-23",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-09-23T07:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Warum sprechen wir ein Glaubensbekenntnis? Weil Glaube Worte braucht. Das Bekenntnis verbindet, gibt Halt und erinnert: Ich glaube nicht nur für mich allein. Es ist kein Test. Eher ein Geländer. Welche Worte des Glaubens geben dir Halt?",
+    "assets": [
+      "render-instagram-feed-01.png",
+      "render-instagram-feed-02.png",
+      "render-instagram-feed-03.png",
+      "render-instagram-feed-04.png"
+    ],
+    "altTexts": [
+      "Schlichter Kirchenraum in warmem Licht. Einige Menschen sind ruhig versammelt, sichtbar sind vor allem Hände und Rückenansichten. Die Szene wirkt offen, gemeinschaftlich und nachdenklich."
+    ],
+    "id": "7f805595-591b-46be-be7b-e450a148880d",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3mw66bubs4u2a",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3mw66bubs4u2a",
+    "lastError": null,
+    "createdAt": "2026-09-22T18:02:13.035Z",
+    "updatedAt": "2026-09-23T07:02:06.804Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 4
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "post-0045",
+    "contentDate": "2026-09-23",
+    "platform": "linkedin",
+    "format": "default",
+    "scheduledAt": "2026-09-23T07:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Warum sprechen wir ein Glaubensbekenntnis?\n\nWeil Glaube Worte braucht. Nicht perfekte Worte. Aber gemeinsame.\n\nEin Glaubensbekenntnis fasst zusammen, was Christinnen und Christen trägt. Es verbindet Menschen im Gottesdienst. Und es hilft, wenn der eigene Glaube klar ist – oder gerade tastend.\n\nEs ist kein Leistungstest. Eher ein Geländer.\n\nGesprächsfrage: Welche Worte des Glaubens geben dir Halt – und welche bleiben für dich offen?",
+    "assets": [
+      "render-instagram-feed-01.png",
+      "render-instagram-feed-02.png",
+      "render-instagram-feed-03.png",
+      "render-instagram-feed-04.png",
+      "render-instagram-feed-05.png",
+      "render-instagram-feed-06.png",
+      "render-instagram-feed-07.png"
+    ],
+    "altTexts": [
+      "Schlichter Kirchenraum in warmem Licht. Einige Menschen sind ruhig versammelt, sichtbar sind vor allem Hände und Rückenansichten. Die Szene wirkt offen, gemeinschaftlich und nachdenklich."
+    ],
+    "id": "71738996-f57d-4730-90c5-0c262b2487fa",
+    "attemptCount": 1,
+    "remoteId": "urn:li:ugcPost:7508420449295364097",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-09-22T18:02:13.089Z",
+    "updatedAt": "2026-09-23T07:02:15.364Z",
+    "responseMetadata": {
+      "mediaCount": 7,
+      "mediaType": "MULTI_IMAGE",
+      "status": 201
+    },
+    "retryHistory": []
   }
 ]
