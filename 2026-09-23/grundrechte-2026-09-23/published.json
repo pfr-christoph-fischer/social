@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-09-23",
+    "contentDate": "2026-09-23",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-09-23T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Jeder hat Anspruch auf einen wirksamen Rechtsbehelf bei den zuständigen innerstaatlichen Gerichten gegen Handlungen, durch die seine ihm nach der Verfassung oder nach dem Gesetz zustehenden Grundrechte verletzt werden. (Allgemeine Erklärung der Menschenrechte, Artikel 8)",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Jeder hat Anspruch auf einen wirksamen Rechtsbehelf bei den zuständigen innerstaatlichen Gerichten gegen Handlungen, durch die seine ihm nach der Verfassung oder nach dem Gesetz zustehenden Grundrechte verletzt werden. (Allgemeine Erklärung der Menschenrechte, Artikel 8)"
+    ],
+    "id": "a9f2733d-7025-46c9-a482-ebb3c5db6974",
+    "attemptCount": 1,
+    "remoteId": "18482164540129916",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:38:29.284Z",
+    "updatedAt": "2026-09-23T10:00:29.571Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-09-23",
+    "contentDate": "2026-09-23",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-09-23T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Jeder hat Anspruch auf einen wirksamen Rechtsbehelf bei den zuständigen innerstaatlichen Gerichten gegen Handlungen, durch die seine ihm nach der Verfassung oder nach dem Gesetz zustehenden Grundrechte verletzt werden. (Allgemeine Erklärung der Menschenrechte, Artikel 8)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Jeder hat Anspruch auf einen wirksamen Rechtsbehelf bei den zuständigen innerstaatlichen Gerichten gegen Handlungen, durch die seine ihm nach der Verfassung oder nach dem Gesetz zustehenden Grundrechte verletzt werden. (Allgemeine Erklärung der Menschenrechte, Artikel 8)"
+    ],
+    "id": "2263df6c-8425-46c6-a160-2ca2e3cc6d5a",
+    "attemptCount": 1,
+    "remoteId": "117319770477581260",
+    "remoteUrl": "https://kirche.social/@christoph/117319770477581260",
+    "lastError": null,
+    "createdAt": "2026-08-26T15:38:29.377Z",
+    "updatedAt": "2026-09-23T10:00:30.647Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
