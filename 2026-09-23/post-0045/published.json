@@ -27,5 +27,68 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "post-0045",
+    "contentDate": "2026-09-23",
+    "platform": "instagram",
+    "format": "default",
+    "scheduledAt": "2026-09-23T07:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Warum sprechen wir ein Glaubensbekenntnis?\n\nWeil Glaube Worte braucht. Nicht perfekte Worte. Aber gemeinsame.\n\nEin Glaubensbekenntnis fasst zusammen, was Christinnen und Christen trägt. Es verbindet Menschen im Gottesdienst. Und es hilft, wenn der eigene Glaube klar ist – oder gerade tastend.\n\nEs ist kein Leistungstest. Eher ein Geländer.\n\nGesprächsfrage: Welche Worte des Glaubens geben dir Halt – und welche bleiben für dich offen?",
+    "assets": [
+      "render-instagram-feed-01.jpg",
+      "render-instagram-feed-02.jpg",
+      "render-instagram-feed-03.jpg",
+      "render-instagram-feed-04.jpg",
+      "render-instagram-feed-05.jpg",
+      "render-instagram-feed-06.jpg",
+      "render-instagram-feed-07.jpg"
+    ],
+    "altTexts": [
+      "Schlichter Kirchenraum in warmem Licht. Einige Menschen sind ruhig versammelt, sichtbar sind vor allem Hände und Rückenansichten. Die Szene wirkt offen, gemeinschaftlich und nachdenklich."
+    ],
+    "id": "745b7f44-e093-48dd-8058-e41c3dccad4c",
+    "attemptCount": 1,
+    "remoteId": "18630221182053577",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-09-22T18:02:12.895Z",
+    "updatedAt": "2026-09-23T07:01:07.728Z",
+    "responseMetadata": {
+      "mediaCount": 7,
+      "mediaType": "CAROUSEL",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "post-0045",
+    "contentDate": "2026-09-23",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-09-23T07:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Warum sprechen wir ein Glaubensbekenntnis?\n\nWeil Glaube Worte braucht. Ein Glaubensbekenntnis fasst den christlichen Glauben zusammen, verbindet Menschen im Gottesdienst und gibt Halt, wenn eigene Worte fehlen.\n\nEs ist kein Test für perfekten Glauben. Eher ein Geländer.\n\nFrage: Welche Worte des Glaubens geben dir Halt?",
+    "assets": [
+      "render-facebook-mastodon-01.png"
+    ],
+    "altTexts": [
+      "Schlichter Kirchenraum in warmem Licht. Einige Menschen sind ruhig versammelt, sichtbar sind vor allem Hände und Rückenansichten. Die Szene wirkt offen, gemeinschaftlich und nachdenklich."
+    ],
+    "id": "52668efe-830b-4cbe-99de-3965a98c48ff",
+    "attemptCount": 1,
+    "remoteId": "117319065203524866",
+    "remoteUrl": "https://kirche.social/@christoph/117319065203524866",
+    "lastError": null,
+    "createdAt": "2026-09-22T18:02:12.937Z",
+    "updatedAt": "2026-09-23T07:01:09.025Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
