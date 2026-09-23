@@ -27,5 +27,66 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "prayer-morning-2026-09-23",
+    "contentDate": "2026-09-23",
+    "platform": "instagram",
+    "format": "default",
+    "scheduledAt": "2026-09-23T05:15:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Gott, du Ursprung dieses Morgens,\ndu öffnest den Tag wie ein Fenster zum Licht.\nIch danke dir für Atem, Zeit und alles, was heute wachsen darf.\n\n„Dies ist der Tag, den der HERR macht; lasst uns freuen und fröhlich an ihm sein.“\nPsalm 118,24\n\nIch muss diesen Tag nicht allein tragen.\nDu gehst mit.\nDeine Güte ist schon da, bevor ich anfange.\n\nAmen.",
+    "assets": [
+      "render-instagram-feed-01.jpg",
+      "render-instagram-feed-02.jpg",
+      "render-instagram-feed-03.jpg",
+      "render-instagram-feed-04.jpg",
+      "render-instagram-feed-05.jpg"
+    ],
+    "altTexts": [
+      "Sanftes Morgenlicht fällt durch ein offenes Fenster in einen schlichten Raum. Draußen sind Himmel und etwas Grün zu sehen. Die Szene wirkt ruhig, hell und hoffnungsvoll."
+    ],
+    "id": "73e34c55-5773-4bda-9445-dc400bae4af1",
+    "attemptCount": 1,
+    "remoteId": "18117223945980829",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-09-22T17:58:10.337Z",
+    "updatedAt": "2026-09-23T05:15:52.724Z",
+    "responseMetadata": {
+      "mediaCount": 5,
+      "mediaType": "CAROUSEL",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "prayer-morning-2026-09-23",
+    "contentDate": "2026-09-23",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-09-23T05:15:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Gott, du Ursprung dieses Morgens,\ndu öffnest den Tag wie ein Fenster zum Licht.\n\n„Dies ist der Tag, den der HERR macht; lasst uns freuen und fröhlich an ihm sein.“\nPsalm 118,24\n\nIch muss diesen Tag nicht allein tragen.\nDu gehst mit.\nDeine Güte ist schon da, bevor ich anfange.\nAmen.",
+    "assets": [
+      "render-facebook-mastodon-01.png"
+    ],
+    "altTexts": [
+      "Sanftes Morgenlicht fällt durch ein offenes Fenster in einen schlichten Raum. Draußen sind Himmel und etwas Grün zu sehen. Die Szene wirkt ruhig, hell und hoffnungsvoll."
+    ],
+    "id": "31183f44-3d51-4a78-843b-8d5e73e8ba43",
+    "attemptCount": 1,
+    "remoteId": "117318651311023166",
+    "remoteUrl": "https://kirche.social/@christoph/117318651311023166",
+    "lastError": null,
+    "createdAt": "2026-09-22T17:58:10.384Z",
+    "updatedAt": "2026-09-23T05:15:53.549Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
