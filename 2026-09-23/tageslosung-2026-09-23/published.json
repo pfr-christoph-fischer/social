@@ -84,5 +84,91 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-23",
+    "contentDate": "2026-09-23",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-09-23T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Lobe den HERRN, meine Seele, und vergiss nicht, was er dir Gutes getan hat.",
+    "assets": [
+      "render-square-01.jpg"
+    ],
+    "altTexts": [
+      "Lobe den HERRN, meine Seele, und vergiss nicht, was er dir Gutes getan hat."
+    ],
+    "id": "7642c4e2-f738-4765-8571-560061e4cdc9",
+    "attemptCount": 1,
+    "remoteId": "18111376160236473",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:45:44.931Z",
+    "updatedAt": "2026-09-23T05:00:42.498Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-23",
+    "contentDate": "2026-09-23",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-09-23T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Lobe den HERRN, meine Seele, und vergiss nicht, was er dir Gutes getan hat.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Lobe den HERRN, meine Seele, und vergiss nicht, was er dir Gutes getan hat."
+    ],
+    "id": "df501e12-b9e6-46cf-8485-8ca7494eca86",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3mw5xitiddd2r",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3mw5xitiddd2r",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:45:44.938Z",
+    "updatedAt": "2026-09-23T05:00:44.586Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-23",
+    "contentDate": "2026-09-23",
+    "platform": "linkedin",
+    "format": "default",
+    "scheduledAt": "2026-09-23T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Lobe den HERRN, meine Seele, und vergiss nicht, was er dir Gutes getan hat.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Lobe den HERRN, meine Seele, und vergiss nicht, was er dir Gutes getan hat."
+    ],
+    "id": "564e3713-62ea-4dd8-8e63-a023ef2a108d",
+    "attemptCount": 1,
+    "remoteId": "urn:li:share:7508389877546184704",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:45:44.945Z",
+    "updatedAt": "2026-09-23T05:00:46.449Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 201
+    },
+    "retryHistory": []
   }
 ]
