@@ -37,31 +37,31 @@
   },
   "platforms": {
     "facebook": {
-      "text": "Gott,\ndieser Morgen liegt still vor mir.\nDas erste Licht fällt auf Fenster, Wege und Gesichter.\nUnd mein Leben ist heute wieder deine Gabe.\n\n„Dies ist der Tag, den der Herr macht.“\nPsalm 118,24\n\nIch lobe dich für deinen Atem in der Schöpfung.\nFür Güte, die mich nicht antreibt, sondern trägt.\nFür Hoffnung, die größer ist als meine Pläne.\n\nGeh mit mir in alles, was dieser Tag bringt.\nIn Freude und in Unruhe.\nIn Arbeit und in Pausen.\nLass mein Herz weit werden für dein Licht.\n\nIch nehme diesen Tag aus deiner Hand.\nDu bist da. Das ist genug.",
-      "headline": "Morgengebet zum Start in den Tag"
+      "headline": "Morgengebet zum Start in den Tag",
+      "text": "Gott,\ndieser Morgen liegt still vor mir.\nDas erste Licht fällt auf Fenster, Wege und Gesichter.\nUnd mein Leben ist heute wieder deine Gabe.\n\n„Dies ist der Tag, den der Herr macht.“\nPsalm 118,24\n\nIch lobe dich für deinen Atem in der Schöpfung.\nFür Güte, die mich nicht antreibt, sondern trägt.\nFür Hoffnung, die größer ist als meine Pläne.\n\nGeh mit mir in alles, was dieser Tag bringt.\nIn Freude und in Unruhe.\nIn Arbeit und in Pausen.\nLass mein Herz weit werden für dein Licht.\n\nIch nehme diesen Tag aus deiner Hand.\nDu bist da. Das ist genug."
     },
     "instagram": {
       "caption": "Gott,\ndieser Morgen liegt still vor mir.\nDas erste Licht fällt auf Fenster, Wege und Gesichter.\nUnd mein Leben ist heute wieder deine Gabe.\n\n„Dies ist der Tag, den der Herr macht.“\nPsalm 118,24\n\nIch lobe dich für deine Güte.\nFür Hoffnung, die größer ist als meine Pläne.\nGeh mit mir in alles, was kommt.\nIch nehme diesen Tag aus deiner Hand.\nDu bist da. Das ist genug.",
       "carousel": [
         {
-          "type": "text",
-          "text": "Gott,\ndieser Morgen liegt still vor mir."
+          "text": "Gott,\ndieser Morgen liegt still vor mir.",
+          "type": "text"
         },
         {
-          "type": "text",
-          "text": "Das erste Licht fällt auf Fenster, Wege und Gesichter.\nUnd mein Leben ist heute wieder deine Gabe."
+          "text": "Das erste Licht fällt auf Fenster, Wege und Gesichter.\nUnd mein Leben ist heute wieder deine Gabe.",
+          "type": "text"
         },
         {
-          "type": "text",
-          "text": "„Dies ist der Tag, den der Herr macht.“\nPsalm 118,24"
+          "text": "„Dies ist der Tag, den der Herr macht.“\nPsalm 118,24",
+          "type": "text"
         },
         {
-          "type": "text",
-          "text": "Ich lobe dich für deine Güte.\nFür Hoffnung, die größer ist als meine Pläne."
+          "text": "Ich lobe dich für deine Güte.\nFür Hoffnung, die größer ist als meine Pläne.",
+          "type": "text"
         },
         {
-          "type": "text",
-          "text": "Ich nehme diesen Tag aus deiner Hand.\nDu bist da. Das ist genug."
+          "text": "Ich nehme diesen Tag aus deiner Hand.\nDu bist da. Das ist genug.",
+          "type": "text"
         }
       ]
     },
@@ -115,12 +115,12 @@
     "alt_text": "Sanftes Morgenlicht fällt durch ein Fenster und zeichnet helle Streifen auf einen schlichten Raum. Die Szene wirkt ruhig, klar und hoffnungsvoll."
   },
   "qa": {
+    "approved": false,
     "warnings": [
       "Alt text must be completed before approval",
       "Bibelzitat und Quelle redaktionell gegen finale verwendete Übersetzung gegenprüfen",
       "Am Morgen des 25.09.2026 nur kurzen Tagesbezug und Tonalität prüfen; keine aktuellen Fürbitten ergänzen"
-    ],
-    "approved": false
+    ]
   },
   "metadata": {
     "model": "gpt-5.4-2026-03-05",
