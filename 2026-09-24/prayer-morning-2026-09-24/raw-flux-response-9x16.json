@@ -1,0 +1,44 @@
+{
+  "delivery_url": "https://delivery.us2.bfl.ai/durable/2026092406/5e1f69ea-538b-4d66-962e-9be995966f07/92/738224f429912f/f429912fecc341149fb879b8f539d0df/sample.jpeg?se=2026-09-24T06%3A12%3A18Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=mr6V3OHmC3E2CoFV4DsVor7BI/Od7OYP7NHHy0JWFVA%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "51c434c9-2087-48b7-831e-09f5db8dfacc",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "51c434c9-2087-48b7-831e-09f5db8dfacc",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "51c434c9-2087-48b7-831e-09f5db8dfacc",
+      "status": "Ready",
+      "result": {
+        "start_time": 1790229736.5349367,
+        "prompt": "Ein stiller Morgenmoment mit weichem natürlichem Licht: Blick aus einem Fenster auf Dächer und Bäume, klare Luft, ruhige Atmosphäre, wenig Elemente, Hoffnung und Sammlung statt Kitsch., no text, no letters, no typography, no logo, no watermark",
+        "seed": 4147408431,
+        "sample": "https://delivery.us2.bfl.ai/durable/2026092406/5e1f69ea-538b-4d66-962e-9be995966f07/92/738224f429912f/f429912fecc341149fb879b8f539d0df/sample.jpeg?se=2026-09-24T06%3A12%3A18Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=mr6V3OHmC3E2CoFV4DsVor7BI/Od7OYP7NHHy0JWFVA%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "51c434c9-2087-48b7-831e-09f5db8dfacc",
+    "polling_url": "https://api.us2.bfl.ai/v1/get_result?id=51c434c9-2087-48b7-831e-09f5db8dfacc",
+    "cost": 1.5,
+    "input_mp": 0,
+    "output_mp": 1.98
+  }
+}

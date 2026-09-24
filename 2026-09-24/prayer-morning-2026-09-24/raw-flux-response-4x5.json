@@ -1,0 +1,52 @@
+{
+  "delivery_url": "https://delivery.eu2.bfl.ai/durable/2026092406/5e1f69ea-538b-4d66-962e-9be995966f07/7d/7335805fd930d8/5fd930d8e4884dc8a06c568ae62b19a0/sample.jpeg?se=2026-09-24T06%3A12%3A14Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=%2Bxcp0ffiO1%2BAlWmk9sqlX0cz//YlNb7Klf93361ItSk%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "70d730d5-2e81-43df-8d43-28396401ed59",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "70d730d5-2e81-43df-8d43-28396401ed59",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "70d730d5-2e81-43df-8d43-28396401ed59",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "70d730d5-2e81-43df-8d43-28396401ed59",
+      "status": "Ready",
+      "result": {
+        "start_time": 1790229732.3371732,
+        "prompt": "Ein stiller Morgenmoment mit weichem natürlichem Licht: Blick aus einem Fenster auf Dächer und Bäume, klare Luft, ruhige Atmosphäre, wenig Elemente, Hoffnung und Sammlung statt Kitsch., no text, no letters, no typography, no logo, no watermark",
+        "seed": 1631371450,
+        "sample": "https://delivery.eu2.bfl.ai/durable/2026092406/5e1f69ea-538b-4d66-962e-9be995966f07/7d/7335805fd930d8/5fd930d8e4884dc8a06c568ae62b19a0/sample.jpeg?se=2026-09-24T06%3A12%3A14Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=%2Bxcp0ffiO1%2BAlWmk9sqlX0cz//YlNb7Klf93361ItSk%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "70d730d5-2e81-43df-8d43-28396401ed59",
+    "polling_url": "https://api.eu2.bfl.ai/v1/get_result?id=70d730d5-2e81-43df-8d43-28396401ed59",
+    "cost": 1.5,
+    "input_mp": 0,
+    "output_mp": 1.39
+  }
+}
