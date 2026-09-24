@@ -1,0 +1,36 @@
+{
+  "delivery_url": "https://delivery.us7.bfl.ai/durable/2026092421/5e1f69ea-538b-4d66-962e-9be995966f07/d7/9430795dad9eb9/5dad9eb9b6334552abbc566a6f0159bd/sample.jpeg?se=2026-09-24T21%3A15%3A43Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=0UBQn8qf0ACQl5gW/MN/eo4PI3g8PPgSbZMU8rofMFs%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "e2e82276-8fd0-4357-814b-40e2e594cd39",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "e2e82276-8fd0-4357-814b-40e2e594cd39",
+      "status": "Ready",
+      "result": {
+        "start_time": 1790283941.6381674,
+        "prompt": "Soft early morning light, quiet peaceful atmosphere, simple window with dawn light falling across a table or floor, subtle natural details like dew or leaves, minimal composition, warm realistic tones, contemplative mood, photographic style, no people facing camera, no typography, no text, no letters, no typography, no logo, no watermark",
+        "seed": 417940658,
+        "sample": "https://delivery.us7.bfl.ai/durable/2026092421/5e1f69ea-538b-4d66-962e-9be995966f07/d7/9430795dad9eb9/5dad9eb9b6334552abbc566a6f0159bd/sample.jpeg?se=2026-09-24T21%3A15%3A43Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=0UBQn8qf0ACQl5gW/MN/eo4PI3g8PPgSbZMU8rofMFs%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "e2e82276-8fd0-4357-814b-40e2e594cd39",
+    "polling_url": "https://api.us7.bfl.ai/v1/get_result?id=e2e82276-8fd0-4357-814b-40e2e594cd39",
+    "cost": 1.5,
+    "input_mp": 0,
+    "output_mp": 1.39
+  }
+}

@@ -115,13 +115,17 @@
     "alt_text": "Sanftes Morgenlicht fällt durch ein Fenster und zeichnet helle Streifen auf einen schlichten Raum. Die Szene wirkt ruhig, klar und hoffnungsvoll."
   },
   "qa": {
-    "approved": true,
-    "warnings": []
+    "warnings": [],
+    "approved": true
   },
   "metadata": {
     "model": "gpt-5.4-2026-03-05",
     "generated_at": "2026-09-24T14:00:33.394Z",
     "prompt_version": "1.1",
-    "assets": []
+    "assets": [
+      "assets/background-1.91x1.webp",
+      "assets/background-4x5.webp",
+      "assets/background-9x16.webp"
+    ]
   }
 }
