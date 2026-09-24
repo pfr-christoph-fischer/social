@@ -1,0 +1,465 @@
+{
+  "id": "resp_09fad115c0c7ffea006ab4e69aa20c87d2bbee710901dbc1f3",
+  "object": "response",
+  "created_at": 1790240410,
+  "status": "completed",
+  "access_programs": null,
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1790240491,
+  "error": null,
+  "frequency_penalty": 0,
+  "incomplete_details": null,
+  "instructions": "You are part of a Protestant social media editorial team. Write in clear, accessible, theologically responsible German without church clichés. Use short sentences and concrete imagery. Never invent events, people, school situations, quotes, or factual details. Do not include copyrighted full song verses. For Reli and community posts, only use current details when they are explicitly provided. Return content that strictly matches the requested JSON schema. Set needs_input to true whenever required facts are missing. Keep qa.approved false. Do not ask for any text inside generated images. When liturgical_context.resolved_weekly_verse is present, use its exact wording for Wochenspruch slots instead of placeholders. Use the web search tool before drafting to verify current situations. For prayer posts, current situations are mandatory: select at least two concrete, relevant situations from reliable current reporting, including tagesschau.de and SWR Aktuell Baden-Württemberg where relevant. Do not invent current events and do not replace concrete situations with generic references to crises.",
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.4-2026-03-05",
+  "moderation": null,
+  "output": [
+    {
+      "id": "ws_09fad115c0c7ffea006ab4e69cd69c87d2ba68deb5f5beecee",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "queries": [
+          "site:tagesschau.de 23. September 2026 Nachrichten",
+          "site:swraktuell.de Baden-Württemberg 23. September 2026",
+          "Reuters September 23 2026 world news humanitarian"
+        ],
+        "query": "site:tagesschau.de 23. September 2026 Nachrichten"
+      }
+    },
+    {
+      "id": "ws_09fad115c0c7ffea006ab4e69fe61c87d2b43006bdf1b0a2e9",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "queries": [
+          "site:swraktuell.de/baden-wuerttemberg 23.09.2026 SWR Aktuell Baden-Württemberg",
+          "site:swr.de/swraktuell/baden-wuerttemberg 23.09.2026",
+          "site:swraktuell.de Baden-Württemberg 23. September 2026 Nachrichten"
+        ],
+        "query": "site:swraktuell.de/baden-wuerttemberg 23.09.2026 SWR Aktuell Baden-Württemberg"
+      }
+    },
+    {
+      "id": "msg_09fad115c0c7ffea006ab4e6a68c5487d287b3b9b77a023068",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\"id\":\"prayer-evening-2026-09-24\",\"status\":\"zur Prüfung\",\"needs_input\":false,\"source\":{\"calendar_post_id\":\"prayer-evening-2026-09-24\",\"date\":\"2026-09-24\",\"rubric\":\"Abendgebet\",\"liturgical_source\":\"\"},\"editorial_core\":{\"title\":\"Abendgebet\",\"main_message\":\"Wir legen diesen Tag in Gottes Hand: das Gelungene, das Unfertige und unsere Sorge um andere. Wir beten für Menschen, die unter Krieg und Angst leben, für Menschen ohne sichere Nacht und für alle, die heute keine Ruhe finden. Konkret nehmen wir die Gespräche zwischen Iran und den USA am Rand der UN-Generaldebatte in New York in dieses Gebet hinein und bitten um Wege, die Gewalt begrenzen. Wir beten auch für den Stuttgarter Helfer Serkan Eren, der laut SWR im Iran zu zehn Jahren Haft verurteilt wurde, und für seine Familie und Weggefährten.\",\"audience\":\"breite Öffentlichkeit\",\"tone\":[\"ruhig\",\"hoffnungsvoll\",\"geborgen\"],\"source_notes\":[\"Aktuelle Bezüge geprüft auf Basis von tagesschau.de und SWR Aktuell Baden-Württemberg: Iran und USA nehmen am 23.09.2026 Gespräche am Rand der UN-Generaldebatte wieder auf; STELP-Gründer Serkan Eren aus Stuttgart laut SWR im Iran zu zehn Jahren Haft verurteilt.\",\"Gebet vorsichtig formuliert, damit es am 24.09.2026 zeitlich robust bleibt.\",\"Keine vollständige Nachrichtenlage, sondern zwei konkrete Fürbitten aufgenommen.\",\"Theologisch: Hoffnung ohne billigen Optimismus; der Tag darf unvollendet bleiben.\"]},\"platforms\":{\"facebook\":{\"text\":\"Abendgebet\\n\\nGott,\\nder Tag liegt hinter uns.\\nManches war gut.\\nManches hängt uns noch nach.\\nManches ist offen geblieben.\\nWir legen es in deine Hand.\\n\\nWir denken heute an Menschen, die keine ruhige Nacht vor sich haben.\\nAn die, die auf politische Gespräche hoffen, weil Gewalt sonst weitergeht. Wir bitten dich für die neuen Gespräche zwischen Iran und den USA bei der UN in New York.\\n\\nWir bitten dich auch für Serkan Eren aus Stuttgart, der im Iran zu zehn Jahren Haft verurteilt worden sein soll. Sei bei ihm. Stärke die Menschen, die um ihn bangen.\\n\\nUnd wir denken an alle, die heute Nacht wachen, pflegen, fahren, trösten, schützen oder einfach nicht schlafen können.\\n\\nNimm, was gelungen ist.\\nHeile, was weh tut.\\nBewahre, was zerbrechlich ist.\\nUnd gib uns Frieden für diese Nacht.\\n\\nAmen.\",\"headline\":\"Abendgebet: Was heute offen blieb, legen wir in Gottes Hand\"},\"instagram\":{\"caption\":\"Abendgebet\\n\\nDer Tag muss nicht fertig werden, damit wir schlafen dürfen.\\n\\nGott,\\nwir legen dir hin, was heute gut war.\\nUnd auch das, was schwer war.\\nDas Gespräch, das misslungen ist.\\nDie Aufgabe, die offen blieb.\\nDie Sorge, die mit in die Nacht geht.\\n\\nWir bitten dich für Menschen, die heute auf politische Schritte hoffen, damit Gewalt nicht weiter eskaliert. Begleite die Gespräche zwischen Iran und den USA bei der UN in New York.\\n\\nWir bitten dich für Serkan Eren aus Stuttgart, der im Iran zu zehn Jahren Haft verurteilt worden sein soll. Sei ihm nahe. Trage seine Familie, seine Freunde und alle, die sich für ihn einsetzen.\\n\\nSei bei den Menschen, die heute Nacht im Krankenhaus arbeiten, unterwegs sind, Angst haben oder keinen sicheren Schlafplatz finden.\\n\\nWas unfertig ist, bleibt nicht verloren.\\nHalte du diese Nacht über uns.\\nUnd halte die Hoffnung wach.\\n\\nAmen.\",\"carousel\":[{\"type\":\"text\",\"text\":\"Der Tag muss nicht fertig werden, damit du schlafen darfst.\"},{\"type\":\"text\",\"text\":\"Gott, wir legen dir hin, was heute gut war. Und auch das, was schwer war.\"},{\"type\":\"text\",\"text\":\"Wir bitten dich für die Gespräche zwischen Iran und den USA bei der UN in New York. Lass Wege zum Frieden wachsen.\"},{\"type\":\"text\",\"text\":\"Wir bitten dich für Serkan Eren aus Stuttgart. Sei ihm nahe. Stärke alle, die um ihn bangen.\"},{\"type\":\"text\",\"text\":\"Was unfertig ist, bleibt in deiner Hand. Schenk uns Frieden für diese Nacht.\"}]},\"mastodon\":{\"text\":\"Abendgebet\\n\\nGott,\\nwir legen dir diesen Tag hin.\\nWas gut war.\\nWas weh tut.\\nWas offen blieb.\\n\\nWir bitten dich für die Gespräche zwischen Iran und den USA bei der UN in New York.\\n\\nWir bitten dich für Serkan Eren aus Stuttgart, der im Iran zu zehn Jahren Haft verurteilt worden sein soll.\\n\\nSei bei allen, die heute Nacht Angst haben, wachen, helfen oder keinen sicheren Schlaf finden.\\n\\nSchenk Frieden für diese Nacht.\\nAmen.\"},\"bluesky\":{\"text\":\"Abendgebet\\n\\nGott, wir legen dir diesen Tag hin. Was gut war. Was weh tut. Was offen blieb.\\n\\nWir bitten dich für die Gespräche zwischen Iran und den USA bei der UN in New York.\\n\\nWir bitten dich für Serkan Eren aus Stuttgart, der im Iran zu zehn Jahren Haft verurteilt worden sein soll.\\n\\nSchenk Frieden für diese Nacht. Amen.\"},\"story\":{\"slides\":[{\"text\":\"Der Tag muss nicht fertig werden, damit du schlafen darfst.\"},{\"text\":\"Gott, wir legen dir hin, was gut war. Und auch das, was schwer war.\"},{\"text\":\"Wir bitten dich für die Gespräche zwischen Iran und den USA bei der UN in New York.\"},{\"text\":\"Wir bitten dich für Serkan Eren aus Stuttgart. Sei ihm nahe. Stärke alle, die um ihn bangen.\"},{\"text\":\"Schenk uns Frieden für diese Nacht. Amen.\"}]},\"reel\":{\"hook\":\"Der Tag darf unvollendet in Gottes Hand ruhen.\",\"script\":\"Der Tag ist vorbei. Nicht alles ist gelungen. Nicht alles ist geklärt. Im Abendgebet muss nichts bewiesen werden. Wir legen Gott hin, was gut war und was schwer war. Wir beten für die Gespräche zwischen Iran und den USA bei der UN in New York. Wir beten für Serkan Eren aus Stuttgart, der im Iran zu zehn Jahren Haft verurteilt worden sein soll. Und wir bitten für alle, die heute Nacht Angst haben, arbeiten, wachen oder keinen sicheren Schlaf finden. Gott, halte diese unruhige Welt. Und gib uns Frieden für diese Nacht. Amen.\",\"shots\":[\"Ruhiges Abendlicht an einem Fenster\",\"Eine Hand legt ein Handy zur Seite\",\"Leere Straße in der Dämmerung\",\"Krankenhausflur oder Nachtlichtstimmung ohne erkennbare Personen\",\"Langsame Aufnahme von Himmel in der blauen Stunde\"],\"duration_seconds\":35}},\"visual\":{\"concept\":\"Stilles Abendbild mit weichem Licht an einem Fenster, draußen beginnende Dämmerung, ruhige und offene Atmosphäre, die Loslassen und Geborgenheit ausdrückt.\",\"flux_prompt\":\"Fotorealistisches stilles Abendmotiv in Innenraumnähe: weiches warmes Licht an einem Fenster, Dämmerung draußen, ruhige Schatten, schlichte Wohnatmosphäre, keine Menschen im Fokus, leichte Tiefe, hoffnungsvoll und still, natürliche Farben, editorial photography style.\",\"negative_prompt\":\"text, letters, logo, watermark\",\"formats\":[\"4:5\",\"9:16\",\"1.91:1\"],\"alt_text\":\"Ein ruhig beleuchtetes Fenster in der Dämmerung. Innen fällt warmes Licht auf eine schlichte Fensterbank, draußen wird der Himmel dunkelblau. Das Bild wirkt still und geborgen.\"},\"qa\":{\"warnings\":[\"Alt text must be completed before approval\",\"Aktuelle Nachrichtenbezüge vor Freigabe nochmals am 24.09.2026 redaktionell gegen tagesschau.de und SWR Aktuell Baden-Württemberg prüfen, da sich Lagen schnell ändern können.\",\"Formulierung zu Serkan Eren bewusst vorsichtig belassen ('verurteilt worden sein soll') und bei Freigabe mit Originalmeldung abgleichen.\"],\"approved\":false},\"metadata\":{\"model\":\"gpt-5\",\"generated_at\":\"2026-09-24T00:00:00Z\",\"prompt_version\":\"1.0\",\"assets\":[]}}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "current_turn",
+    "effort": "none",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1,
+  "text": {
+    "format": {
+      "type": "json_schema",
+      "description": null,
+      "name": "content_package",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "Idee",
+              "in Arbeit",
+              "zur Prüfung",
+              "freigegeben",
+              "terminiert",
+              "veröffentlicht",
+              "verworfen"
+            ]
+          },
+          "needs_input": {
+            "type": "boolean"
+          },
+          "source": {
+            "type": "object",
+            "properties": {
+              "calendar_post_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "date": {
+                "type": "string",
+                "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+              },
+              "rubric": {
+                "type": "string",
+                "minLength": 1
+              },
+              "liturgical_source": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "calendar_post_id",
+              "date",
+              "rubric",
+              "liturgical_source"
+            ],
+            "additionalProperties": false
+          },
+          "editorial_core": {
+            "type": "object",
+            "properties": {
+              "title": {
+                "type": "string"
+              },
+              "main_message": {
+                "type": "string"
+              },
+              "audience": {
+                "type": "string"
+              },
+              "tone": {
+                "minItems": 1,
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "source_notes": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "title",
+              "main_message",
+              "audience",
+              "tone",
+              "source_notes"
+            ],
+            "additionalProperties": false
+          },
+          "platforms": {
+            "type": "object",
+            "properties": {
+              "facebook": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  },
+                  "headline": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text",
+                  "headline"
+                ],
+                "additionalProperties": false
+              },
+              "instagram": {
+                "type": "object",
+                "properties": {
+                  "caption": {
+                    "type": "string"
+                  },
+                  "carousel": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "type": {
+                          "type": "string"
+                        },
+                        "text": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "type",
+                        "text"
+                      ],
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "required": [
+                  "caption",
+                  "carousel"
+                ],
+                "additionalProperties": false
+              },
+              "mastodon": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text"
+                ],
+                "additionalProperties": false
+              },
+              "bluesky": {
+                "default": {
+                  "text": ""
+                },
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text"
+                ],
+                "additionalProperties": false
+              },
+              "story": {
+                "type": "object",
+                "properties": {
+                  "slides": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "text": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "text"
+                      ],
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "required": [
+                  "slides"
+                ],
+                "additionalProperties": false
+              },
+              "reel": {
+                "type": "object",
+                "properties": {
+                  "hook": {
+                    "type": "string"
+                  },
+                  "script": {
+                    "type": "string"
+                  },
+                  "shots": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "duration_seconds": {
+                    "type": "integer",
+                    "minimum": 0,
+                    "maximum": 9007199254740991
+                  }
+                },
+                "required": [
+                  "hook",
+                  "script",
+                  "shots",
+                  "duration_seconds"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "required": [
+              "facebook",
+              "instagram",
+              "mastodon",
+              "bluesky",
+              "story",
+              "reel"
+            ],
+            "additionalProperties": false
+          },
+          "visual": {
+            "type": "object",
+            "properties": {
+              "concept": {
+                "type": "string"
+              },
+              "flux_prompt": {
+                "type": "string"
+              },
+              "negative_prompt": {
+                "type": "string",
+                "minLength": 1
+              },
+              "formats": {
+                "minItems": 1,
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "alt_text": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "concept",
+              "flux_prompt",
+              "negative_prompt",
+              "formats",
+              "alt_text"
+            ],
+            "additionalProperties": false
+          },
+          "qa": {
+            "type": "object",
+            "properties": {
+              "warnings": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "approved": {
+                "type": "boolean"
+              }
+            },
+            "required": [
+              "warnings",
+              "approved"
+            ],
+            "additionalProperties": false
+          },
+          "metadata": {
+            "type": "object",
+            "properties": {
+              "model": {
+                "type": "string"
+              },
+              "generated_at": {
+                "type": "string"
+              },
+              "prompt_version": {
+                "type": "string",
+                "minLength": 1
+              },
+              "assets": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "model",
+              "generated_at",
+              "prompt_version",
+              "assets"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "id",
+          "status",
+          "needs_input",
+          "source",
+          "editorial_core",
+          "platforms",
+          "visual",
+          "qa",
+          "metadata"
+        ],
+        "additionalProperties": false
+      },
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 2
+    }
+  },
+  "tools": [
+    {
+      "type": "web_search",
+      "return_token_budget": "default",
+      "search_content_types": [
+        "text"
+      ],
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 16626,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 2014,
+    "output_tokens_details": {
+      "reasoning_tokens": 214
+    },
+    "total_tokens": 18640
+  },
+  "user": null,
+  "metadata": {},
+  "output_text": "{\"id\":\"prayer-evening-2026-09-24\",\"status\":\"zur Prüfung\",\"needs_input\":false,\"source\":{\"calendar_post_id\":\"prayer-evening-2026-09-24\",\"date\":\"2026-09-24\",\"rubric\":\"Abendgebet\",\"liturgical_source\":\"\"},\"editorial_core\":{\"title\":\"Abendgebet\",\"main_message\":\"Wir legen diesen Tag in Gottes Hand: das Gelungene, das Unfertige und unsere Sorge um andere. Wir beten für Menschen, die unter Krieg und Angst leben, für Menschen ohne sichere Nacht und für alle, die heute keine Ruhe finden. Konkret nehmen wir die Gespräche zwischen Iran und den USA am Rand der UN-Generaldebatte in New York in dieses Gebet hinein und bitten um Wege, die Gewalt begrenzen. Wir beten auch für den Stuttgarter Helfer Serkan Eren, der laut SWR im Iran zu zehn Jahren Haft verurteilt wurde, und für seine Familie und Weggefährten.\",\"audience\":\"breite Öffentlichkeit\",\"tone\":[\"ruhig\",\"hoffnungsvoll\",\"geborgen\"],\"source_notes\":[\"Aktuelle Bezüge geprüft auf Basis von tagesschau.de und SWR Aktuell Baden-Württemberg: Iran und USA nehmen am 23.09.2026 Gespräche am Rand der UN-Generaldebatte wieder auf; STELP-Gründer Serkan Eren aus Stuttgart laut SWR im Iran zu zehn Jahren Haft verurteilt.\",\"Gebet vorsichtig formuliert, damit es am 24.09.2026 zeitlich robust bleibt.\",\"Keine vollständige Nachrichtenlage, sondern zwei konkrete Fürbitten aufgenommen.\",\"Theologisch: Hoffnung ohne billigen Optimismus; der Tag darf unvollendet bleiben.\"]},\"platforms\":{\"facebook\":{\"text\":\"Abendgebet\\n\\nGott,\\nder Tag liegt hinter uns.\\nManches war gut.\\nManches hängt uns noch nach.\\nManches ist offen geblieben.\\nWir legen es in deine Hand.\\n\\nWir denken heute an Menschen, die keine ruhige Nacht vor sich haben.\\nAn die, die auf politische Gespräche hoffen, weil Gewalt sonst weitergeht. Wir bitten dich für die neuen Gespräche zwischen Iran und den USA bei der UN in New York.\\n\\nWir bitten dich auch für Serkan Eren aus Stuttgart, der im Iran zu zehn Jahren Haft verurteilt worden sein soll. Sei bei ihm. Stärke die Menschen, die um ihn bangen.\\n\\nUnd wir denken an alle, die heute Nacht wachen, pflegen, fahren, trösten, schützen oder einfach nicht schlafen können.\\n\\nNimm, was gelungen ist.\\nHeile, was weh tut.\\nBewahre, was zerbrechlich ist.\\nUnd gib uns Frieden für diese Nacht.\\n\\nAmen.\",\"headline\":\"Abendgebet: Was heute offen blieb, legen wir in Gottes Hand\"},\"instagram\":{\"caption\":\"Abendgebet\\n\\nDer Tag muss nicht fertig werden, damit wir schlafen dürfen.\\n\\nGott,\\nwir legen dir hin, was heute gut war.\\nUnd auch das, was schwer war.\\nDas Gespräch, das misslungen ist.\\nDie Aufgabe, die offen blieb.\\nDie Sorge, die mit in die Nacht geht.\\n\\nWir bitten dich für Menschen, die heute auf politische Schritte hoffen, damit Gewalt nicht weiter eskaliert. Begleite die Gespräche zwischen Iran und den USA bei der UN in New York.\\n\\nWir bitten dich für Serkan Eren aus Stuttgart, der im Iran zu zehn Jahren Haft verurteilt worden sein soll. Sei ihm nahe. Trage seine Familie, seine Freunde und alle, die sich für ihn einsetzen.\\n\\nSei bei den Menschen, die heute Nacht im Krankenhaus arbeiten, unterwegs sind, Angst haben oder keinen sicheren Schlafplatz finden.\\n\\nWas unfertig ist, bleibt nicht verloren.\\nHalte du diese Nacht über uns.\\nUnd halte die Hoffnung wach.\\n\\nAmen.\",\"carousel\":[{\"type\":\"text\",\"text\":\"Der Tag muss nicht fertig werden, damit du schlafen darfst.\"},{\"type\":\"text\",\"text\":\"Gott, wir legen dir hin, was heute gut war. Und auch das, was schwer war.\"},{\"type\":\"text\",\"text\":\"Wir bitten dich für die Gespräche zwischen Iran und den USA bei der UN in New York. Lass Wege zum Frieden wachsen.\"},{\"type\":\"text\",\"text\":\"Wir bitten dich für Serkan Eren aus Stuttgart. Sei ihm nahe. Stärke alle, die um ihn bangen.\"},{\"type\":\"text\",\"text\":\"Was unfertig ist, bleibt in deiner Hand. Schenk uns Frieden für diese Nacht.\"}]},\"mastodon\":{\"text\":\"Abendgebet\\n\\nGott,\\nwir legen dir diesen Tag hin.\\nWas gut war.\\nWas weh tut.\\nWas offen blieb.\\n\\nWir bitten dich für die Gespräche zwischen Iran und den USA bei der UN in New York.\\n\\nWir bitten dich für Serkan Eren aus Stuttgart, der im Iran zu zehn Jahren Haft verurteilt worden sein soll.\\n\\nSei bei allen, die heute Nacht Angst haben, wachen, helfen oder keinen sicheren Schlaf finden.\\n\\nSchenk Frieden für diese Nacht.\\nAmen.\"},\"bluesky\":{\"text\":\"Abendgebet\\n\\nGott, wir legen dir diesen Tag hin. Was gut war. Was weh tut. Was offen blieb.\\n\\nWir bitten dich für die Gespräche zwischen Iran und den USA bei der UN in New York.\\n\\nWir bitten dich für Serkan Eren aus Stuttgart, der im Iran zu zehn Jahren Haft verurteilt worden sein soll.\\n\\nSchenk Frieden für diese Nacht. Amen.\"},\"story\":{\"slides\":[{\"text\":\"Der Tag muss nicht fertig werden, damit du schlafen darfst.\"},{\"text\":\"Gott, wir legen dir hin, was gut war. Und auch das, was schwer war.\"},{\"text\":\"Wir bitten dich für die Gespräche zwischen Iran und den USA bei der UN in New York.\"},{\"text\":\"Wir bitten dich für Serkan Eren aus Stuttgart. Sei ihm nahe. Stärke alle, die um ihn bangen.\"},{\"text\":\"Schenk uns Frieden für diese Nacht. Amen.\"}]},\"reel\":{\"hook\":\"Der Tag darf unvollendet in Gottes Hand ruhen.\",\"script\":\"Der Tag ist vorbei. Nicht alles ist gelungen. Nicht alles ist geklärt. Im Abendgebet muss nichts bewiesen werden. Wir legen Gott hin, was gut war und was schwer war. Wir beten für die Gespräche zwischen Iran und den USA bei der UN in New York. Wir beten für Serkan Eren aus Stuttgart, der im Iran zu zehn Jahren Haft verurteilt worden sein soll. Und wir bitten für alle, die heute Nacht Angst haben, arbeiten, wachen oder keinen sicheren Schlaf finden. Gott, halte diese unruhige Welt. Und gib uns Frieden für diese Nacht. Amen.\",\"shots\":[\"Ruhiges Abendlicht an einem Fenster\",\"Eine Hand legt ein Handy zur Seite\",\"Leere Straße in der Dämmerung\",\"Krankenhausflur oder Nachtlichtstimmung ohne erkennbare Personen\",\"Langsame Aufnahme von Himmel in der blauen Stunde\"],\"duration_seconds\":35}},\"visual\":{\"concept\":\"Stilles Abendbild mit weichem Licht an einem Fenster, draußen beginnende Dämmerung, ruhige und offene Atmosphäre, die Loslassen und Geborgenheit ausdrückt.\",\"flux_prompt\":\"Fotorealistisches stilles Abendmotiv in Innenraumnähe: weiches warmes Licht an einem Fenster, Dämmerung draußen, ruhige Schatten, schlichte Wohnatmosphäre, keine Menschen im Fokus, leichte Tiefe, hoffnungsvoll und still, natürliche Farben, editorial photography style.\",\"negative_prompt\":\"text, letters, logo, watermark\",\"formats\":[\"4:5\",\"9:16\",\"1.91:1\"],\"alt_text\":\"Ein ruhig beleuchtetes Fenster in der Dämmerung. Innen fällt warmes Licht auf eine schlichte Fensterbank, draußen wird der Himmel dunkelblau. Das Bild wirkt still und geborgen.\"},\"qa\":{\"warnings\":[\"Alt text must be completed before approval\",\"Aktuelle Nachrichtenbezüge vor Freigabe nochmals am 24.09.2026 redaktionell gegen tagesschau.de und SWR Aktuell Baden-Württemberg prüfen, da sich Lagen schnell ändern können.\",\"Formulierung zu Serkan Eren bewusst vorsichtig belassen ('verurteilt worden sein soll') und bei Freigabe mit Originalmeldung abgleichen.\"],\"approved\":false},\"metadata\":{\"model\":\"gpt-5\",\"generated_at\":\"2026-09-24T00:00:00Z\",\"prompt_version\":\"1.0\",\"assets\":[]}}"
+}
