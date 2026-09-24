@@ -84,5 +84,91 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-24",
+    "contentDate": "2026-09-24",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-09-24T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Die Völker, die um euch her übrig geblieben sind, sollen erfahren, dass ich der HERR bin, der da baut, was niedergerissen ist, und pflanzt, was verheert war.",
+    "assets": [
+      "render-square-01.jpg"
+    ],
+    "altTexts": [
+      "Die Völker, die um euch her übrig geblieben sind, sollen erfahren, dass ich der HERR bin, der da baut, was niedergerissen ist, und pflanzt, was verheert war."
+    ],
+    "id": "c634e944-2804-466a-88f8-200d01f2ddef",
+    "attemptCount": 1,
+    "remoteId": "18105805232065917",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:45:47.003Z",
+    "updatedAt": "2026-09-24T05:00:43.884Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-24",
+    "contentDate": "2026-09-24",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-09-24T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Die Völker, die um euch her übrig geblieben sind, sollen erfahren, dass ich der HERR bin, der da baut, was niedergerissen ist, und pflanzt, was verheert war.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Die Völker, die um euch her übrig geblieben sind, sollen erfahren, dass ich der HERR bin, der da baut, was niedergerissen ist, und pflanzt, was verheert war."
+    ],
+    "id": "b859097b-4973-4bf9-9f72-d5a7f68e6f49",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3mwahxslt2b2a",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3mwahxslt2b2a",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:45:47.017Z",
+    "updatedAt": "2026-09-24T05:00:46.330Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-24",
+    "contentDate": "2026-09-24",
+    "platform": "linkedin",
+    "format": "default",
+    "scheduledAt": "2026-09-24T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Die Völker, die um euch her übrig geblieben sind, sollen erfahren, dass ich der HERR bin, der da baut, was niedergerissen ist, und pflanzt, was verheert war.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Die Völker, die um euch her übrig geblieben sind, sollen erfahren, dass ich der HERR bin, der da baut, was niedergerissen ist, und pflanzt, was verheert war."
+    ],
+    "id": "a9c0c578-afcc-457e-b386-e52094c07574",
+    "attemptCount": 1,
+    "remoteId": "urn:li:share:7508752273645142016",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:45:47.027Z",
+    "updatedAt": "2026-09-24T05:00:48.249Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 201
+    },
+    "retryHistory": []
   }
 ]
