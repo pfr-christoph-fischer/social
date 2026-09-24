@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-09-24",
+    "contentDate": "2026-09-24",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-09-24T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Wird jemand durch die öffentliche Gewalt in seinen Rechten verletzt, so steht ihm der Rechtsweg offen. (Grundgesetz, Artikel 19 Absatz 4)",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Wird jemand durch die öffentliche Gewalt in seinen Rechten verletzt, so steht ihm der Rechtsweg offen. (Grundgesetz, Artikel 19 Absatz 4)"
+    ],
+    "id": "6845a64b-c8f7-4df6-abc7-79ddfa3334a7",
+    "attemptCount": 1,
+    "remoteId": "18115430057470135",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:38:32.520Z",
+    "updatedAt": "2026-09-24T10:00:27.887Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-09-24",
+    "contentDate": "2026-09-24",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-09-24T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Wird jemand durch die öffentliche Gewalt in seinen Rechten verletzt, so steht ihm der Rechtsweg offen. (Grundgesetz, Artikel 19 Absatz 4)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Wird jemand durch die öffentliche Gewalt in seinen Rechten verletzt, so steht ihm der Rechtsweg offen. (Grundgesetz, Artikel 19 Absatz 4)"
+    ],
+    "id": "b4c83a3a-27bb-4f1c-b707-92133d79eff0",
+    "attemptCount": 1,
+    "remoteId": "117325432726513119",
+    "remoteUrl": "https://kirche.social/@christoph/117325432726513119",
+    "lastError": null,
+    "createdAt": "2026-08-26T15:38:32.565Z",
+    "updatedAt": "2026-09-24T10:00:29.720Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
