@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-24",
+    "contentDate": "2026-09-24",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-09-24T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Die Völker, die um euch her übrig geblieben sind, sollen erfahren, dass ich der HERR bin, der da baut, was niedergerissen ist, und pflanzt, was verheert war.",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Die Völker, die um euch her übrig geblieben sind, sollen erfahren, dass ich der HERR bin, der da baut, was niedergerissen ist, und pflanzt, was verheert war."
+    ],
+    "id": "24324dd6-59c7-4168-975a-97a3f75fd13f",
+    "attemptCount": 1,
+    "remoteId": "18004981476003119",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:45:46.980Z",
+    "updatedAt": "2026-09-24T05:00:29.976Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-24",
+    "contentDate": "2026-09-24",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-09-24T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Die Völker, die um euch her übrig geblieben sind, sollen erfahren, dass ich der HERR bin, der da baut, was niedergerissen ist, und pflanzt, was verheert war.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Die Völker, die um euch her übrig geblieben sind, sollen erfahren, dass ich der HERR bin, der da baut, was niedergerissen ist, und pflanzt, was verheert war."
+    ],
+    "id": "346daed0-8ebd-4ebc-bab2-05594314f3a7",
+    "attemptCount": 1,
+    "remoteId": "117324253208105646",
+    "remoteUrl": "https://kirche.social/@christoph/117324253208105646",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:45:46.990Z",
+    "updatedAt": "2026-09-24T05:00:31.684Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
