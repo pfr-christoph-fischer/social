@@ -27,5 +27,66 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "prayer-morning-2026-09-25",
+    "contentDate": "2026-09-25",
+    "platform": "instagram",
+    "format": "default",
+    "scheduledAt": "2026-09-25T05:15:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Gott,\ndieser Morgen liegt still vor mir.\nDas erste Licht fällt auf Fenster, Wege und Gesichter.\nUnd mein Leben ist heute wieder deine Gabe.\n\n„Dies ist der Tag, den der Herr macht.“\nPsalm 118,24\n\nIch lobe dich für deine Güte.\nFür Hoffnung, die größer ist als meine Pläne.\nGeh mit mir in alles, was kommt.\nIch nehme diesen Tag aus deiner Hand.\nDu bist da. Das ist genug.",
+    "assets": [
+      "render-instagram-feed-01.jpg",
+      "render-instagram-feed-02.jpg",
+      "render-instagram-feed-03.jpg",
+      "render-instagram-feed-04.jpg",
+      "render-instagram-feed-05.jpg"
+    ],
+    "altTexts": [
+      "Sanftes Morgenlicht fällt durch ein Fenster und zeichnet helle Streifen auf einen schlichten Raum. Die Szene wirkt ruhig, klar und hoffnungsvoll."
+    ],
+    "id": "b9fa63b8-58a2-46fd-869b-82e71b95bb96",
+    "attemptCount": 1,
+    "remoteId": "18472738171117935",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-09-24T21:06:29.146Z",
+    "updatedAt": "2026-09-25T05:15:50.510Z",
+    "responseMetadata": {
+      "mediaCount": 5,
+      "mediaType": "CAROUSEL",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "prayer-morning-2026-09-25",
+    "contentDate": "2026-09-25",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-09-25T05:15:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Gott,\ndieser Morgen liegt still vor mir.\nDas erste Licht fällt auf Fenster, Wege und Gesichter.\nUnd mein Leben ist heute wieder deine Gabe.\n\n„Dies ist der Tag, den der Herr macht.“\nPsalm 118,24\n\nIch lobe dich für deine Güte.\nFür Hoffnung, die größer ist als meine Pläne.\nIch nehme diesen Tag aus deiner Hand.\nDu bist da. Das ist genug.",
+    "assets": [
+      "render-facebook-mastodon-01.png"
+    ],
+    "altTexts": [
+      "Sanftes Morgenlicht fällt durch ein Fenster und zeichnet helle Streifen auf einen schlichten Raum. Die Szene wirkt ruhig, klar und hoffnungsvoll."
+    ],
+    "id": "182dc953-37db-4c85-a53f-ac1e969fcd84",
+    "attemptCount": 1,
+    "remoteId": "117329975826488508",
+    "remoteUrl": "https://kirche.social/@christoph/117329975826488508",
+    "lastError": null,
+    "createdAt": "2026-09-24T21:06:29.186Z",
+    "updatedAt": "2026-09-25T05:15:51.891Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
