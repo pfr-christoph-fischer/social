@@ -1,0 +1,114 @@
+{
+  "id": "prayer-morning-2026-09-26",
+  "status": "in Arbeit",
+  "needs_input": false,
+  "source": {
+    "calendar_post_id": "prayer-morning-2026-09-26",
+    "date": "2026-09-26",
+    "rubric": "Morgengebet",
+    "liturgical_source": ""
+  },
+  "editorial_core": {
+    "title": "Morgengebet",
+    "main_message": "Der neue Tag wird als Gabe Gottes empfangen. Das Gebet beginnt mit Lob, nimmt den Morgen wahr und spricht Vertrauen für den Tag aus.",
+    "audience": "breite Öffentlichkeit",
+    "tone": [
+      "lobend",
+      "hoffnungsvoll",
+      "zugewandt"
+    ],
+    "source_notes": [
+      "Kurzes Morgenlob ohne Nachrichtenschau und ohne konkrete Fürbitten für aktuelle Ereignisse.",
+      "Gebetsschnipsel aus Psalm 118,24: „Dies ist der Tag, den der HERR gemacht hat“ (Lutherbibel 2017, via Bibleserver geprüft).",
+      "Aktuelle Lage kurz geprüft: keine Übernahme konkreter Nachrichtenlagen ins Morgengebet, gemäß Rubrikprofil.",
+      "SWR Aktuell Baden-Württemberg und Tagesschau vor Veröffentlichung noch auf stimmigen Tagesbezug gegenprüfen."
+    ]
+  },
+  "platforms": {
+    "facebook": {
+      "text": "Gott, du Ursprung dieses Morgens,\ndu hast die Nacht getragen und lässt uns neu aufwachen.\nLicht fällt auf Dächer, Bäume und Gesichter.\nUnd mit ihm kommt dieser Tag zu uns.\n\n„Dies ist der Tag, den der HERR gemacht hat“ (Psalm 118,24).\n\nWir danken dir für Atem, Zeit und alles, was heute wachsen darf.\nWenn der Tag unruhig wird, bleib du unsere Ruhe.\nWenn wir uns verlieren, ruf uns zurück ins Leben.\nWenn Freude aufblitzt, öffne unser Herz dafür.\n\nWir nehmen diesen Tag aus deiner Hand.\nDu bist da.\nDas genügt.\n\n#Morgengebet #Gebet #Psalm118",
+      "headline": "Morgengebet zum Start in den Tag"
+    },
+    "instagram": {
+      "caption": "Gott, du Ursprung dieses Morgens.\nDu hast uns durch die Nacht getragen.\nNun liegt der Tag vor uns.\n\n„Dies ist der Tag, den der HERR gemacht hat“ (Psalm 118,24).\n\nSchenk uns offene Augen für dein Licht.\nSchenk uns ein ruhiges Herz.\nUnd Vertrauen für alles, was kommt.\n\nWir nehmen diesen Tag aus deiner Hand.\nDu bist da.\nDas genügt.\n\n#Morgengebet #Gebet #Tagesanfang #Psalm118",
+      "carousel": [
+        {
+          "type": "text",
+          "text": "Gott, du Ursprung dieses Morgens."
+        },
+        {
+          "type": "text",
+          "text": "„Dies ist der Tag, den der HERR gemacht hat“ (Psalm 118,24)."
+        },
+        {
+          "type": "text",
+          "text": "Schenk uns offene Augen für dein Licht."
+        },
+        {
+          "type": "text",
+          "text": "Wir nehmen diesen Tag aus deiner Hand. Du bist da. Das genügt."
+        }
+      ]
+    },
+    "mastodon": {
+      "text": "Gott, du Ursprung dieses Morgens,\ndu hast uns durch die Nacht getragen.\n\n„Dies ist der Tag, den der HERR gemacht hat“ (Psalm 118,24).\n\nSchenk uns offene Augen für dein Licht, ein ruhiges Herz und Vertrauen für alles, was kommt.\nWir nehmen diesen Tag aus deiner Hand.\nDu bist da. Das genügt.\n\n#Morgengebet #Gebet"
+    },
+    "bluesky": {
+      "text": "Gott, du Ursprung dieses Morgens: „Dies ist der Tag, den der HERR gemacht hat“ (Psalm 118,24). Schenk uns offene Augen für dein Licht, ein ruhiges Herz und Vertrauen für alles, was kommt. Du bist da. Das genügt. #Morgengebet"
+    },
+    "story": {
+      "slides": [
+        {
+          "text": "Gott, du Ursprung dieses Morgens."
+        },
+        {
+          "text": "„Dies ist der Tag, den der HERR gemacht hat“ (Psalm 118,24)."
+        },
+        {
+          "text": "Schenk uns offene Augen für dein Licht."
+        },
+        {
+          "text": "Du bist da. Das genügt."
+        }
+      ]
+    },
+    "reel": {
+      "hook": "So kann ein Tag beginnen.",
+      "script": "Gott, du Ursprung dieses Morgens. Du hast uns durch die Nacht getragen. Nun liegt der Tag vor uns. Dies ist der Tag, den der Herr gemacht hat. Schenk uns offene Augen für dein Licht, ein ruhiges Herz und Vertrauen für alles, was kommt. Wir nehmen diesen Tag aus deiner Hand. Du bist da. Das genügt.",
+      "shots": [
+        "Frühes Morgenlicht an einem Fenster",
+        "Tau auf Blättern oder Gras",
+        "Eine Hand öffnet den Vorhang",
+        "Ruhige Straßenszene im ersten Licht",
+        "Nahaufnahme von atmendem Menschen in Stille",
+        "Heller Himmel am Morgen"
+      ],
+      "duration_seconds": 23
+    }
+  },
+  "visual": {
+    "concept": "Ruhige Morgenszene mit erstem Licht, natürlicher Weite und einem einfachen, hoffnungsvollen Anfang des Tages.",
+    "flux_prompt": "Photorealistische ruhige Morgenszene, erstes warmes Tageslicht, leichter Tau auf Gras oder Blättern, weicher Himmel, schlichte natürliche Umgebung, stiller hoffnungsvoller Bildaufbau, keine Menschenmenge, keine Dramatik, authentisch, editorial photography, soft light, gentle contrast",
+    "negative_prompt": "text, letters, logo, watermark",
+    "formats": [
+      "4:5",
+      "9:16",
+      "1.91:1"
+    ],
+    "alt_text": "Ein ruhiger Morgen mit weichem Licht. Tau liegt auf Gras oder Blättern, der Himmel wird hell. Die Szene wirkt still, offen und hoffnungsvoll."
+  },
+  "qa": {
+    "warnings": [
+      "Alt text must be completed before approval",
+      "Tagesbezug am Morgen des 26.09.2026 kurz gegen aktuelle Nachrichtenlage prüfen, ohne daraus konkrete Fürbitten zu machen.",
+      "Bibelstellenangabe und Wortlaut vor Veröffentlichung final redaktionell abgleichen."
+    ],
+    "approved": false
+  },
+  "metadata": {
+    "model": "gpt-5.4-2026-03-05",
+    "generated_at": "2026-09-25T14:00:30.260Z",
+    "prompt_version": "1.1",
+    "assets": []
+  }
+}
