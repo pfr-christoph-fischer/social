@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-25",
+    "contentDate": "2026-09-25",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-09-25T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Wohl dem Volk, dessen Gott der HERR ist!",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Wohl dem Volk, dessen Gott der HERR ist!"
+    ],
+    "id": "a5cd4926-c69d-49f4-8db1-115c4f0d13e8",
+    "attemptCount": 1,
+    "remoteId": "18116009098995409",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:45:49.164Z",
+    "updatedAt": "2026-09-25T05:00:25.917Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-25",
+    "contentDate": "2026-09-25",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-09-25T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Wohl dem Volk, dessen Gott der HERR ist!",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Wohl dem Volk, dessen Gott der HERR ist!"
+    ],
+    "id": "e08af765-0fb1-4b25-932d-e6a9cb5ed9c2",
+    "attemptCount": 1,
+    "remoteId": "117329915239262786",
+    "remoteUrl": "https://kirche.social/@christoph/117329915239262786",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:45:49.174Z",
+    "updatedAt": "2026-09-25T05:00:27.413Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
