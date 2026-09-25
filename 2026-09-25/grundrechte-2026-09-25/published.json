@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-09-25",
+    "contentDate": "2026-09-25",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-09-25T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "In keinem Falle darf ein Grundrecht in seinem Wesensgehalt angetastet werden. (Grundgesetz, Artikel 19 Absatz 2)",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "In keinem Falle darf ein Grundrecht in seinem Wesensgehalt angetastet werden. (Grundgesetz, Artikel 19 Absatz 2)"
+    ],
+    "id": "7f11fe1b-bcce-4b34-8899-5d0e56d605c9",
+    "attemptCount": 1,
+    "remoteId": "18140636185721090",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:38:35.293Z",
+    "updatedAt": "2026-09-25T10:00:26.832Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-09-25",
+    "contentDate": "2026-09-25",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-09-25T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "In keinem Falle darf ein Grundrecht in seinem Wesensgehalt angetastet werden. (Grundgesetz, Artikel 19 Absatz 2)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "In keinem Falle darf ein Grundrecht in seinem Wesensgehalt angetastet werden. (Grundgesetz, Artikel 19 Absatz 2)"
+    ],
+    "id": "54815319-c2a8-424e-91f0-a6a6127ba64e",
+    "attemptCount": 1,
+    "remoteId": "117331094958769810",
+    "remoteUrl": "https://kirche.social/@christoph/117331094958769810",
+    "lastError": null,
+    "createdAt": "2026-08-26T15:38:35.344Z",
+    "updatedAt": "2026-09-25T10:00:28.522Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
