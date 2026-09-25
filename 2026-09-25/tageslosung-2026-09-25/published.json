@@ -84,5 +84,91 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-25",
+    "contentDate": "2026-09-25",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-09-25T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Wohl dem Volk, dessen Gott der HERR ist!",
+    "assets": [
+      "render-square-01.jpg"
+    ],
+    "altTexts": [
+      "Wohl dem Volk, dessen Gott der HERR ist!"
+    ],
+    "id": "a20934b4-5ae0-41ca-8328-bf9b751221ea",
+    "attemptCount": 1,
+    "remoteId": "18226492054334476",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:45:49.185Z",
+    "updatedAt": "2026-09-25T05:00:37.398Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-25",
+    "contentDate": "2026-09-25",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-09-25T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Wohl dem Volk, dessen Gott der HERR ist!",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Wohl dem Volk, dessen Gott der HERR ist!"
+    ],
+    "id": "82ad060c-6e89-4dc5-93bb-056db3e6011f",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3mwcygjhgt62t",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3mwcygjhgt62t",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:45:49.201Z",
+    "updatedAt": "2026-09-25T05:00:39.457Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-25",
+    "contentDate": "2026-09-25",
+    "platform": "linkedin",
+    "format": "default",
+    "scheduledAt": "2026-09-25T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Wohl dem Volk, dessen Gott der HERR ist!",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Wohl dem Volk, dessen Gott der HERR ist!"
+    ],
+    "id": "c1fb5e9f-d475-438b-bd8d-4223973a067e",
+    "attemptCount": 1,
+    "remoteId": "urn:li:share:7509114634084220929",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:45:49.212Z",
+    "updatedAt": "2026-09-25T05:00:41.917Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 201
+    },
+    "retryHistory": []
   }
 ]
