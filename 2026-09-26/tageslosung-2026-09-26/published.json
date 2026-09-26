@@ -84,5 +84,91 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-26",
+    "contentDate": "2026-09-26",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-09-26T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Seine Herrschaft wird sein von einem Meer bis zum andern und bis an die Enden der Erde.",
+    "assets": [
+      "render-square-01.jpg"
+    ],
+    "altTexts": [
+      "Seine Herrschaft wird sein von einem Meer bis zum andern und bis an die Enden der Erde."
+    ],
+    "id": "92cb077c-ce88-4e30-ad50-88f31787690a",
+    "attemptCount": 1,
+    "remoteId": "18110264555595784",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:45:51.453Z",
+    "updatedAt": "2026-09-26T05:01:01.722Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-26",
+    "contentDate": "2026-09-26",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-09-26T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Seine Herrschaft wird sein von einem Meer bis zum andern und bis an die Enden der Erde.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Seine Herrschaft wird sein von einem Meer bis zum andern und bis an die Enden der Erde."
+    ],
+    "id": "c8d7de90-e763-4032-99b8-7744d57f41c2",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3mwfiw6ajqz2a",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3mwfiw6ajqz2a",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:45:51.468Z",
+    "updatedAt": "2026-09-26T05:01:04.716Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-26",
+    "contentDate": "2026-09-26",
+    "platform": "linkedin",
+    "format": "default",
+    "scheduledAt": "2026-09-26T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Seine Herrschaft wird sein von einem Meer bis zum andern und bis an die Enden der Erde.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Seine Herrschaft wird sein von einem Meer bis zum andern und bis an die Enden der Erde."
+    ],
+    "id": "0e964c64-9426-4b26-821f-b39f5a3d19c3",
+    "attemptCount": 1,
+    "remoteId": "urn:li:share:7509477127055142912",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:45:51.479Z",
+    "updatedAt": "2026-09-26T05:01:06.718Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 201
+    },
+    "retryHistory": []
   }
 ]
