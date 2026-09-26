@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-09-26",
+    "contentDate": "2026-09-26",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-09-26T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Niemand darf willkürlich festgenommen, in Haft gehalten oder des Landes verwiesen werden. (Allgemeine Erklärung der Menschenrechte, Artikel 9)",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Niemand darf willkürlich festgenommen, in Haft gehalten oder des Landes verwiesen werden. (Allgemeine Erklärung der Menschenrechte, Artikel 9)"
+    ],
+    "id": "c836eb66-f5d5-43a8-a832-1dae4b3ed885",
+    "attemptCount": 1,
+    "remoteId": "18129350842811986",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:38:38.682Z",
+    "updatedAt": "2026-09-26T10:00:27.951Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-09-26",
+    "contentDate": "2026-09-26",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-09-26T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Niemand darf willkürlich festgenommen, in Haft gehalten oder des Landes verwiesen werden. (Allgemeine Erklärung der Menschenrechte, Artikel 9)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Niemand darf willkürlich festgenommen, in Haft gehalten oder des Landes verwiesen werden. (Allgemeine Erklärung der Menschenrechte, Artikel 9)"
+    ],
+    "id": "cf2a9b9e-39c5-4848-b9bf-36ebec482c37",
+    "attemptCount": 1,
+    "remoteId": "117336757377708433",
+    "remoteUrl": "https://kirche.social/@christoph/117336757377708433",
+    "lastError": null,
+    "createdAt": "2026-08-26T15:38:38.794Z",
+    "updatedAt": "2026-09-26T10:00:30.180Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
