@@ -84,5 +84,91 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-09-26",
+    "contentDate": "2026-09-26",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-09-26T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Niemand darf willkürlich festgenommen, in Haft gehalten oder des Landes verwiesen werden. (Allgemeine Erklärung der Menschenrechte, Artikel 9)",
+    "assets": [
+      "render-square-01.jpg"
+    ],
+    "altTexts": [
+      "Niemand darf willkürlich festgenommen, in Haft gehalten oder des Landes verwiesen werden. (Allgemeine Erklärung der Menschenrechte, Artikel 9)"
+    ],
+    "id": "273b6329-96bd-49a7-b25c-39d863824e3f",
+    "attemptCount": 1,
+    "remoteId": "18118461742792684",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:38:38.872Z",
+    "updatedAt": "2026-09-26T10:00:42.387Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-09-26",
+    "contentDate": "2026-09-26",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-09-26T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Niemand darf willkürlich festgenommen, in Haft gehalten oder des Landes verwiesen werden. (Allgemeine Erklärung der Menschenrechte, Artikel 9)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Niemand darf willkürlich festgenommen, in Haft gehalten oder des Landes verwiesen werden. (Allgemeine Erklärung der Menschenrechte, Artikel 9)"
+    ],
+    "id": "c366d841-dedd-43b0-b43f-a832c959885c",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3mwfznzx5iw2a",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3mwfznzx5iw2a",
+    "lastError": null,
+    "createdAt": "2026-08-26T15:38:38.952Z",
+    "updatedAt": "2026-09-26T10:00:44.778Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-09-26",
+    "contentDate": "2026-09-26",
+    "platform": "linkedin",
+    "format": "default",
+    "scheduledAt": "2026-09-26T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Niemand darf willkürlich festgenommen, in Haft gehalten oder des Landes verwiesen werden. (Allgemeine Erklärung der Menschenrechte, Artikel 9)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Niemand darf willkürlich festgenommen, in Haft gehalten oder des Landes verwiesen werden. (Allgemeine Erklärung der Menschenrechte, Artikel 9)"
+    ],
+    "id": "a1e40bc6-208d-4795-9173-b34fce817ec1",
+    "attemptCount": 1,
+    "remoteId": "urn:li:share:7509552542519910400",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:38:39.012Z",
+    "updatedAt": "2026-09-26T10:00:47.159Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 201
+    },
+    "retryHistory": []
   }
 ]
