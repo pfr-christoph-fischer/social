@@ -1,0 +1,460 @@
+{
+  "id": "resp_07fede8bd5753802006ab7899b9cdc87d1b8f52f2bdf4b1881",
+  "object": "response",
+  "created_at": 1790413211,
+  "status": "completed",
+  "access_programs": null,
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1790413245,
+  "error": null,
+  "frequency_penalty": 0,
+  "incomplete_details": null,
+  "instructions": "You are part of a Protestant social media editorial team. Write in clear, accessible, theologically responsible German without church clichés. Use short sentences and concrete imagery. Never invent events, people, school situations, quotes, or factual details. Do not include copyrighted full song verses. For Reli and community posts, only use current details when they are explicitly provided. Return content that strictly matches the requested JSON schema. Set needs_input to true whenever required facts are missing. Keep qa.approved false. Do not ask for any text inside generated images. When liturgical_context.resolved_weekly_verse is present, use its exact wording for Wochenspruch slots instead of placeholders. Use the web search tool before drafting to verify current situations. For prayer posts, current situations are mandatory: select at least two concrete, relevant situations from reliable current reporting, including tagesschau.de and SWR Aktuell Baden-Württemberg where relevant. Do not invent current events and do not replace concrete situations with generic references to crises.",
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.4-2026-03-05",
+  "moderation": null,
+  "output": [
+    {
+      "id": "ws_07fede8bd5753802006ab7899cd77487d19a257db3def2e49f",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "queries": [
+          "site:tagesschau.de 25. September 2026 Nachrichten",
+          "site:swr.de/swraktuell/baden-wuerttemberg 25. September 2026 Baden-Württemberg Nachrichten",
+          "Reuters September 25 2026 world news"
+        ],
+        "query": "site:tagesschau.de 25. September 2026 Nachrichten"
+      }
+    },
+    {
+      "id": "ws_07fede8bd5753802006ab7899ed29887d1b26bcaf6b03c3e1f",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.swr.de/swraktuell/baden-wuerttemberg/index.html"
+      }
+    },
+    {
+      "id": "msg_07fede8bd5753802006ab7899fe56c87d185aab8251ef9c50e",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\"id\":\"prayer-evening-2026-09-26\",\"status\":\"in Arbeit\",\"needs_input\":false,\"source\":{\"calendar_post_id\":\"prayer-evening-2026-09-26\",\"date\":\"2026-09-26\",\"rubric\":\"Abendgebet\",\"liturgical_source\":\"\"},\"editorial_core\":{\"title\":\"Abendgebet\",\"main_message\":\"Der Tag darf unvollendet vor Gott liegen. Wir bringen ihm, was heute gut war und was schwer geblieben ist. Und wir bitten für Menschen, die von konkreter Not betroffen sind: für die Verletzten nach dem Salzsäureaustritt bei Magna in Assamstadt und für alle, die dort im Einsatz waren; für die Menschen in der Ägäis, wo die Spannungen zwischen Griechenland und der Türkei zunehmen; und für alle, die heute Nacht nicht zur Ruhe kommen. Gottes Zukunft endet nicht an den Grenzen dieses Tages.\",\"audience\":\"breite Öffentlichkeit\",\"tone\":[\"ruhig\",\"hoffnungsvoll\",\"geborgen\"],\"source_notes\":[\"Aktueller Bezug 1 verifiziert: SWR Aktuell Baden-Württemberg meldet für Freitag, 25.09.2026, einen Salzsäureaustritt bei Magna in Assamstadt; rund 200 Liter Salzsäure liefen aus, drei Menschen wurden leicht verletzt, mehrere Feuerwehren waren im Einsatz.\",\"Aktueller Bezug 2 verifiziert: tagesschau meldet am 25.09.2026 zunehmende Spannungen zwischen Griechenland und der Türkei in der Ägäis.\",\"Optionaler weiterer Nachrichtenhintergrund gesichtet, aber nicht zentral verwendet: tagesschau 20 Uhr vom 25.09.2026 nennt Proteste bei der UN-Vollversammlung gegen die Rede von Israels Premierminister Netanjahu.\",\"Gebetslinie: Dank für das Gute des Tages, Loslassen des Unfertigen, konkrete Fürbitte für Betroffene aktueller Ereignisse, Bitte um Frieden für die Nacht.\",\"Sprachregel: keine Vertröstung, keine Nachrichtenzusammenfassung, sondern knappe und konkrete Fürbitte.\"]},\"platforms\":{\"facebook\":{\"text\":\"Abend.\\nDer Tag muss nicht fertig sein.\\nNicht glatt. Nicht erfolgreich. Nicht erklärt.\\nWas gut war, dürfen wir dankbar ansehen. Was schwer war, dürfen wir ablegen.\\n\\nGott,\\nich komme zur Ruhe.\\nMit allem, was dieser Tag war.\\nMit Momenten, die getragen haben.\\nUnd mit Worten, die ich gern zurücknehmen würde.\\nMit Aufgaben, die offen geblieben sind.\\n\\nIch danke dir für das Gute.\\nFür Menschen, die da waren.\\nFür Arbeit, die gelungen ist.\\nFür kleine Lichtblicke.\\n\\nUnd ich bringe dir, was mich noch festhält.\\nMeine Müdigkeit.\\nMeine Unruhe.\\nMein unfertiges Leben.\\n\\nIch bitte dich für die Menschen in Assamstadt.\\nFür die Verletzten nach dem Salzsäureaustritt bei Magna.\\nFür ihre Familien.\\nFür alle, die dort geholfen und abgesichert haben.\\n\\nIch bitte dich auch für die Menschen in der Ägäis.\\nWo die Spannungen zwischen Griechenland und der Türkei zunehmen.\\nBewahre die, die jetzt in Angst leben.\\nHalte Verantwortliche von neuer Gewalt zurück.\\n\\nUnd ich denke an alle, für die diese Nacht keine Ruhe bringt.\\nAn Kranke und Wache.\\nAn Menschen im Dienst.\\nAn Menschen mit Sorgen im Kopf.\\nAn Menschen, die sich nach Frieden sehnen.\\n\\nWas heute war, lege ich in deine Hand.\\nWas gut war.\\nWas wehgetan hat.\\nWas offen bleibt.\\nSchenk mir Frieden für diese Nacht.\\nUnd halte die Hoffnung in mir wach.\\nAmen.\",\"headline\":\"Abendgebet: Der Tag darf unvollendet vor Gott liegen\"},\"instagram\":{\"caption\":\"Der Tag muss nicht fertig sein.\\nDu darfst ihn Gott hinlegen.\\nMit dem Guten. Mit dem Schweren. Mit dem, was offen blieb.\\n\\nHeute beten wir konkret für die Verletzten nach dem Salzsäureaustritt in Assamstadt und für die Menschen in der Ägäis, wo die Spannungen zwischen Griechenland und der Türkei zunehmen.\\n\\nGott,\\nwas heute war,\\nlege ich in deine Hand.\\nSchenk mir Frieden für diese Nacht.\\nUnd halte die Hoffnung in mir wach.\\nAmen.\",\"carousel\":[{\"type\":\"text\",\"text\":\"Der Tag muss nicht fertig sein.\"},{\"type\":\"text\",\"text\":\"Was gut war, darf dankbar vor Gott liegen.\"},{\"type\":\"text\",\"text\":\"Was schwer war, muss ich nicht festhalten.\"},{\"type\":\"text\",\"text\":\"Wir bitten für die Verletzten nach dem Salzsäureaustritt in Assamstadt.\"},{\"type\":\"text\",\"text\":\"Wir bitten für die Menschen in der Ägäis, wo die Spannungen zunehmen.\"},{\"type\":\"text\",\"text\":\"Gott, schenk Frieden für diese Nacht und halte die Hoffnung in uns wach.\"}]},\"mastodon\":{\"text\":\"Abendgebet\\n\\nDer Tag muss nicht fertig sein. Wir dürfen Gott bringen, was gelungen ist und was offen blieb.\\n\\nHeute bitten wir konkret für die Verletzten nach dem Salzsäureaustritt in Assamstadt und für die Menschen in der Ägäis, wo die Spannungen zwischen Griechenland und der Türkei zunehmen.\\n\\nGott, was heute war, legen wir in deine Hand. Schenk Frieden für diese Nacht. Amen.\"},\"bluesky\":{\"text\":\"Abendgebet: Der Tag muss nicht fertig sein. Wir bitten heute für die Verletzten nach dem Salzsäureaustritt in Assamstadt und für die Menschen in der Ägäis, wo die Spannungen zwischen Griechenland und der Türkei zunehmen. Gott, schenk Frieden für diese Nacht. Amen.\"},\"story\":{\"slides\":[{\"text\":\"Abend.\\nDu musst den Tag nicht zu Ende erklären.\"},{\"text\":\"Was gut war, darf dankbar bleiben.\"},{\"text\":\"Was schwer war, darfst du loslassen.\"},{\"text\":\"Wir beten für die Verletzten nach dem Salzsäureaustritt in Assamstadt.\"},{\"text\":\"Wir beten für die Menschen in der Ägäis, wo die Spannungen zunehmen.\"},{\"text\":\"Gott, schenk Frieden für diese Nacht.\\nHalte die Hoffnung in uns wach.\"}]},\"reel\":{\"hook\":\"Der Tag muss nicht fertig sein.\",\"script\":\"Der Tag geht zu Ende. Nicht alles ist gelungen. Nicht alles ist geklärt. Im Abendgebet darf beides vor Gott liegen: das Gute und das Schwere. Wir bitten heute für die Verletzten nach dem Salzsäureaustritt in Assamstadt. Und für die Menschen in der Ägäis, wo die Spannungen zwischen Griechenland und der Türkei zunehmen. Gott, was heute war, legen wir in deine Hand. Schenk Frieden für diese Nacht. Und halte die Hoffnung in uns wach.\",\"shots\":[\"Abendlicht an einem Fenster\",\"Ruhiger Tisch mit Tasse und ausgeschaltetem Handy\",\"Hände, die sich öffnen statt festhalten\",\"Leere Straße in der Dämmerung\",\"Langsame Aufnahme eines Himmels im Übergang zur Nacht\"],\"duration_seconds\":30}},\"visual\":{\"concept\":\"Ruhige Abendszene am Fenster. Weiches Licht. Ein einfacher Tisch, eine Tasse, offene Hände. Stimmung von Loslassen und Geborgenheit ohne Kitsch.\",\"flux_prompt\":\"A calm evening interior by a window, soft fading daylight, simple wooden table with a cup, quiet lived-in room, open hands resting gently, peaceful atmosphere, natural light, subtle shadows, realistic photography, warm muted colors, contemplative mood, no people facing camera, no text elements\",\"negative_prompt\":\"text, letters, logo, watermark\",\"formats\":[\"4:5\",\"9:16\",\"1.91:1\"],\"alt_text\":\"Eine ruhige Abendszene an einem Fenster. Auf einem schlichten Tisch steht eine Tasse. Weiches Licht fällt in den Raum. Die Stimmung wirkt still, warm und gesammelt.\"},\"qa\":{\"warnings\":[\"Aktuelle Bezüge vor finaler Freigabe erneut gegen tagesschau.de und SWR Aktuell Baden-Württemberg prüfen, falls zwischen Erstellung und Veröffentlichung neue Lageänderungen eintreten.\",\"Alt text must be completed before approval\"],\"approved\":false},\"metadata\":{\"model\":\"gpt-5\",\"generated_at\":\"2026-09-26T00:00:00Z\",\"prompt_version\":\"1.0\",\"assets\":[]}}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "current_turn",
+    "effort": "none",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1,
+  "text": {
+    "format": {
+      "type": "json_schema",
+      "description": null,
+      "name": "content_package",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "Idee",
+              "in Arbeit",
+              "zur Prüfung",
+              "freigegeben",
+              "terminiert",
+              "veröffentlicht",
+              "verworfen"
+            ]
+          },
+          "needs_input": {
+            "type": "boolean"
+          },
+          "source": {
+            "type": "object",
+            "properties": {
+              "calendar_post_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "date": {
+                "type": "string",
+                "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+              },
+              "rubric": {
+                "type": "string",
+                "minLength": 1
+              },
+              "liturgical_source": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "calendar_post_id",
+              "date",
+              "rubric",
+              "liturgical_source"
+            ],
+            "additionalProperties": false
+          },
+          "editorial_core": {
+            "type": "object",
+            "properties": {
+              "title": {
+                "type": "string"
+              },
+              "main_message": {
+                "type": "string"
+              },
+              "audience": {
+                "type": "string"
+              },
+              "tone": {
+                "minItems": 1,
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "source_notes": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "title",
+              "main_message",
+              "audience",
+              "tone",
+              "source_notes"
+            ],
+            "additionalProperties": false
+          },
+          "platforms": {
+            "type": "object",
+            "properties": {
+              "facebook": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  },
+                  "headline": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text",
+                  "headline"
+                ],
+                "additionalProperties": false
+              },
+              "instagram": {
+                "type": "object",
+                "properties": {
+                  "caption": {
+                    "type": "string"
+                  },
+                  "carousel": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "type": {
+                          "type": "string"
+                        },
+                        "text": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "type",
+                        "text"
+                      ],
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "required": [
+                  "caption",
+                  "carousel"
+                ],
+                "additionalProperties": false
+              },
+              "mastodon": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text"
+                ],
+                "additionalProperties": false
+              },
+              "bluesky": {
+                "default": {
+                  "text": ""
+                },
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text"
+                ],
+                "additionalProperties": false
+              },
+              "story": {
+                "type": "object",
+                "properties": {
+                  "slides": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "text": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "text"
+                      ],
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "required": [
+                  "slides"
+                ],
+                "additionalProperties": false
+              },
+              "reel": {
+                "type": "object",
+                "properties": {
+                  "hook": {
+                    "type": "string"
+                  },
+                  "script": {
+                    "type": "string"
+                  },
+                  "shots": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "duration_seconds": {
+                    "type": "integer",
+                    "minimum": 0,
+                    "maximum": 9007199254740991
+                  }
+                },
+                "required": [
+                  "hook",
+                  "script",
+                  "shots",
+                  "duration_seconds"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "required": [
+              "facebook",
+              "instagram",
+              "mastodon",
+              "bluesky",
+              "story",
+              "reel"
+            ],
+            "additionalProperties": false
+          },
+          "visual": {
+            "type": "object",
+            "properties": {
+              "concept": {
+                "type": "string"
+              },
+              "flux_prompt": {
+                "type": "string"
+              },
+              "negative_prompt": {
+                "type": "string",
+                "minLength": 1
+              },
+              "formats": {
+                "minItems": 1,
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "alt_text": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "concept",
+              "flux_prompt",
+              "negative_prompt",
+              "formats",
+              "alt_text"
+            ],
+            "additionalProperties": false
+          },
+          "qa": {
+            "type": "object",
+            "properties": {
+              "warnings": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "approved": {
+                "type": "boolean"
+              }
+            },
+            "required": [
+              "warnings",
+              "approved"
+            ],
+            "additionalProperties": false
+          },
+          "metadata": {
+            "type": "object",
+            "properties": {
+              "model": {
+                "type": "string"
+              },
+              "generated_at": {
+                "type": "string"
+              },
+              "prompt_version": {
+                "type": "string",
+                "minLength": 1
+              },
+              "assets": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "model",
+              "generated_at",
+              "prompt_version",
+              "assets"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "id",
+          "status",
+          "needs_input",
+          "source",
+          "editorial_core",
+          "platforms",
+          "visual",
+          "qa",
+          "metadata"
+        ],
+        "additionalProperties": false
+      },
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 1
+    }
+  },
+  "tools": [
+    {
+      "type": "web_search",
+      "return_token_budget": "default",
+      "search_content_types": [
+        "text"
+      ],
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 17121,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1927,
+    "output_tokens_details": {
+      "reasoning_tokens": 141
+    },
+    "total_tokens": 19048
+  },
+  "user": null,
+  "metadata": {},
+  "output_text": "{\"id\":\"prayer-evening-2026-09-26\",\"status\":\"in Arbeit\",\"needs_input\":false,\"source\":{\"calendar_post_id\":\"prayer-evening-2026-09-26\",\"date\":\"2026-09-26\",\"rubric\":\"Abendgebet\",\"liturgical_source\":\"\"},\"editorial_core\":{\"title\":\"Abendgebet\",\"main_message\":\"Der Tag darf unvollendet vor Gott liegen. Wir bringen ihm, was heute gut war und was schwer geblieben ist. Und wir bitten für Menschen, die von konkreter Not betroffen sind: für die Verletzten nach dem Salzsäureaustritt bei Magna in Assamstadt und für alle, die dort im Einsatz waren; für die Menschen in der Ägäis, wo die Spannungen zwischen Griechenland und der Türkei zunehmen; und für alle, die heute Nacht nicht zur Ruhe kommen. Gottes Zukunft endet nicht an den Grenzen dieses Tages.\",\"audience\":\"breite Öffentlichkeit\",\"tone\":[\"ruhig\",\"hoffnungsvoll\",\"geborgen\"],\"source_notes\":[\"Aktueller Bezug 1 verifiziert: SWR Aktuell Baden-Württemberg meldet für Freitag, 25.09.2026, einen Salzsäureaustritt bei Magna in Assamstadt; rund 200 Liter Salzsäure liefen aus, drei Menschen wurden leicht verletzt, mehrere Feuerwehren waren im Einsatz.\",\"Aktueller Bezug 2 verifiziert: tagesschau meldet am 25.09.2026 zunehmende Spannungen zwischen Griechenland und der Türkei in der Ägäis.\",\"Optionaler weiterer Nachrichtenhintergrund gesichtet, aber nicht zentral verwendet: tagesschau 20 Uhr vom 25.09.2026 nennt Proteste bei der UN-Vollversammlung gegen die Rede von Israels Premierminister Netanjahu.\",\"Gebetslinie: Dank für das Gute des Tages, Loslassen des Unfertigen, konkrete Fürbitte für Betroffene aktueller Ereignisse, Bitte um Frieden für die Nacht.\",\"Sprachregel: keine Vertröstung, keine Nachrichtenzusammenfassung, sondern knappe und konkrete Fürbitte.\"]},\"platforms\":{\"facebook\":{\"text\":\"Abend.\\nDer Tag muss nicht fertig sein.\\nNicht glatt. Nicht erfolgreich. Nicht erklärt.\\nWas gut war, dürfen wir dankbar ansehen. Was schwer war, dürfen wir ablegen.\\n\\nGott,\\nich komme zur Ruhe.\\nMit allem, was dieser Tag war.\\nMit Momenten, die getragen haben.\\nUnd mit Worten, die ich gern zurücknehmen würde.\\nMit Aufgaben, die offen geblieben sind.\\n\\nIch danke dir für das Gute.\\nFür Menschen, die da waren.\\nFür Arbeit, die gelungen ist.\\nFür kleine Lichtblicke.\\n\\nUnd ich bringe dir, was mich noch festhält.\\nMeine Müdigkeit.\\nMeine Unruhe.\\nMein unfertiges Leben.\\n\\nIch bitte dich für die Menschen in Assamstadt.\\nFür die Verletzten nach dem Salzsäureaustritt bei Magna.\\nFür ihre Familien.\\nFür alle, die dort geholfen und abgesichert haben.\\n\\nIch bitte dich auch für die Menschen in der Ägäis.\\nWo die Spannungen zwischen Griechenland und der Türkei zunehmen.\\nBewahre die, die jetzt in Angst leben.\\nHalte Verantwortliche von neuer Gewalt zurück.\\n\\nUnd ich denke an alle, für die diese Nacht keine Ruhe bringt.\\nAn Kranke und Wache.\\nAn Menschen im Dienst.\\nAn Menschen mit Sorgen im Kopf.\\nAn Menschen, die sich nach Frieden sehnen.\\n\\nWas heute war, lege ich in deine Hand.\\nWas gut war.\\nWas wehgetan hat.\\nWas offen bleibt.\\nSchenk mir Frieden für diese Nacht.\\nUnd halte die Hoffnung in mir wach.\\nAmen.\",\"headline\":\"Abendgebet: Der Tag darf unvollendet vor Gott liegen\"},\"instagram\":{\"caption\":\"Der Tag muss nicht fertig sein.\\nDu darfst ihn Gott hinlegen.\\nMit dem Guten. Mit dem Schweren. Mit dem, was offen blieb.\\n\\nHeute beten wir konkret für die Verletzten nach dem Salzsäureaustritt in Assamstadt und für die Menschen in der Ägäis, wo die Spannungen zwischen Griechenland und der Türkei zunehmen.\\n\\nGott,\\nwas heute war,\\nlege ich in deine Hand.\\nSchenk mir Frieden für diese Nacht.\\nUnd halte die Hoffnung in mir wach.\\nAmen.\",\"carousel\":[{\"type\":\"text\",\"text\":\"Der Tag muss nicht fertig sein.\"},{\"type\":\"text\",\"text\":\"Was gut war, darf dankbar vor Gott liegen.\"},{\"type\":\"text\",\"text\":\"Was schwer war, muss ich nicht festhalten.\"},{\"type\":\"text\",\"text\":\"Wir bitten für die Verletzten nach dem Salzsäureaustritt in Assamstadt.\"},{\"type\":\"text\",\"text\":\"Wir bitten für die Menschen in der Ägäis, wo die Spannungen zunehmen.\"},{\"type\":\"text\",\"text\":\"Gott, schenk Frieden für diese Nacht und halte die Hoffnung in uns wach.\"}]},\"mastodon\":{\"text\":\"Abendgebet\\n\\nDer Tag muss nicht fertig sein. Wir dürfen Gott bringen, was gelungen ist und was offen blieb.\\n\\nHeute bitten wir konkret für die Verletzten nach dem Salzsäureaustritt in Assamstadt und für die Menschen in der Ägäis, wo die Spannungen zwischen Griechenland und der Türkei zunehmen.\\n\\nGott, was heute war, legen wir in deine Hand. Schenk Frieden für diese Nacht. Amen.\"},\"bluesky\":{\"text\":\"Abendgebet: Der Tag muss nicht fertig sein. Wir bitten heute für die Verletzten nach dem Salzsäureaustritt in Assamstadt und für die Menschen in der Ägäis, wo die Spannungen zwischen Griechenland und der Türkei zunehmen. Gott, schenk Frieden für diese Nacht. Amen.\"},\"story\":{\"slides\":[{\"text\":\"Abend.\\nDu musst den Tag nicht zu Ende erklären.\"},{\"text\":\"Was gut war, darf dankbar bleiben.\"},{\"text\":\"Was schwer war, darfst du loslassen.\"},{\"text\":\"Wir beten für die Verletzten nach dem Salzsäureaustritt in Assamstadt.\"},{\"text\":\"Wir beten für die Menschen in der Ägäis, wo die Spannungen zunehmen.\"},{\"text\":\"Gott, schenk Frieden für diese Nacht.\\nHalte die Hoffnung in uns wach.\"}]},\"reel\":{\"hook\":\"Der Tag muss nicht fertig sein.\",\"script\":\"Der Tag geht zu Ende. Nicht alles ist gelungen. Nicht alles ist geklärt. Im Abendgebet darf beides vor Gott liegen: das Gute und das Schwere. Wir bitten heute für die Verletzten nach dem Salzsäureaustritt in Assamstadt. Und für die Menschen in der Ägäis, wo die Spannungen zwischen Griechenland und der Türkei zunehmen. Gott, was heute war, legen wir in deine Hand. Schenk Frieden für diese Nacht. Und halte die Hoffnung in uns wach.\",\"shots\":[\"Abendlicht an einem Fenster\",\"Ruhiger Tisch mit Tasse und ausgeschaltetem Handy\",\"Hände, die sich öffnen statt festhalten\",\"Leere Straße in der Dämmerung\",\"Langsame Aufnahme eines Himmels im Übergang zur Nacht\"],\"duration_seconds\":30}},\"visual\":{\"concept\":\"Ruhige Abendszene am Fenster. Weiches Licht. Ein einfacher Tisch, eine Tasse, offene Hände. Stimmung von Loslassen und Geborgenheit ohne Kitsch.\",\"flux_prompt\":\"A calm evening interior by a window, soft fading daylight, simple wooden table with a cup, quiet lived-in room, open hands resting gently, peaceful atmosphere, natural light, subtle shadows, realistic photography, warm muted colors, contemplative mood, no people facing camera, no text elements\",\"negative_prompt\":\"text, letters, logo, watermark\",\"formats\":[\"4:5\",\"9:16\",\"1.91:1\"],\"alt_text\":\"Eine ruhige Abendszene an einem Fenster. Auf einem schlichten Tisch steht eine Tasse. Weiches Licht fällt in den Raum. Die Stimmung wirkt still, warm und gesammelt.\"},\"qa\":{\"warnings\":[\"Aktuelle Bezüge vor finaler Freigabe erneut gegen tagesschau.de und SWR Aktuell Baden-Württemberg prüfen, falls zwischen Erstellung und Veröffentlichung neue Lageänderungen eintreten.\",\"Alt text must be completed before approval\"],\"approved\":false},\"metadata\":{\"model\":\"gpt-5\",\"generated_at\":\"2026-09-26T00:00:00Z\",\"prompt_version\":\"1.0\",\"assets\":[]}}"
+}
