@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-26",
+    "contentDate": "2026-09-26",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-09-26T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Seine Herrschaft wird sein von einem Meer bis zum andern und bis an die Enden der Erde.",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Seine Herrschaft wird sein von einem Meer bis zum andern und bis an die Enden der Erde."
+    ],
+    "id": "7d4f1269-0f3e-485e-b8af-bbb7ccd226c7",
+    "attemptCount": 1,
+    "remoteId": "18113624387589550",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:45:51.426Z",
+    "updatedAt": "2026-09-26T05:00:40.763Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-26",
+    "contentDate": "2026-09-26",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-09-26T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Seine Herrschaft wird sein von einem Meer bis zum andern und bis an die Enden der Erde.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Seine Herrschaft wird sein von einem Meer bis zum andern und bis an die Enden der Erde."
+    ],
+    "id": "7ce5aa99-5a61-4be3-b611-cd52ce3f8deb",
+    "attemptCount": 1,
+    "remoteId": "117335578520538695",
+    "remoteUrl": "https://kirche.social/@christoph/117335578520538695",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:45:51.441Z",
+    "updatedAt": "2026-09-26T05:00:42.234Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
