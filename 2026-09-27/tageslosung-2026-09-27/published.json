@@ -84,5 +84,91 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-27",
+    "contentDate": "2026-09-27",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-09-27T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Der HERR verstößt sein Volk nicht um seines großen Namens willen.",
+    "assets": [
+      "render-square-01.jpg"
+    ],
+    "altTexts": [
+      "Der HERR verstößt sein Volk nicht um seines großen Namens willen."
+    ],
+    "id": "bc7e4278-995b-462d-9b19-5fe8503b2f6d",
+    "attemptCount": 1,
+    "remoteId": "17900349795604967",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:45:53.844Z",
+    "updatedAt": "2026-09-27T05:00:57.818Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-27",
+    "contentDate": "2026-09-27",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-09-27T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Der HERR verstößt sein Volk nicht um seines großen Namens willen.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Der HERR verstößt sein Volk nicht um seines großen Namens willen."
+    ],
+    "id": "8a9470b7-2107-45e5-af26-0f9052b60e7b",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3mwhzexzpc52w",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3mwhzexzpc52w",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:45:53.855Z",
+    "updatedAt": "2026-09-27T05:01:00.125Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-27",
+    "contentDate": "2026-09-27",
+    "platform": "linkedin",
+    "format": "default",
+    "scheduledAt": "2026-09-27T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Der HERR verstößt sein Volk nicht um seines großen Namens willen.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Der HERR verstößt sein Volk nicht um seines großen Namens willen."
+    ],
+    "id": "b3e5d62e-0f59-4c97-9179-3ee39b36f00e",
+    "attemptCount": 1,
+    "remoteId": "urn:li:share:7509839499091177472",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:45:53.870Z",
+    "updatedAt": "2026-09-27T05:01:03.196Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 201
+    },
+    "retryHistory": []
   }
 ]
