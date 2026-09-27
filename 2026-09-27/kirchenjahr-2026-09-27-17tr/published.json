@@ -56,5 +56,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "kirchenjahr-2026-09-27-17tr",
+    "contentDate": "2026-09-27",
+    "platform": "facebook",
+    "format": "square",
+    "scheduledAt": "2026-09-27T07:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "17. Sonntag nach Trinitatis\n\nTitel: Sieghafter Glaube\n\nWochenspruch: „Unser Glaube ist der Sieg, der die Welt überwunden hat.“ (1. Joh 5,4c)\n\nPsalm: Ps 138\n\nAltes Testament: Jes 49,1-6\n\nEvangelium: Mt 15,21-28\n\nEpistel: Röm 10,9-17(18)\n\nPredigttext: Mt 15,21-28\n\nLieder: Such, wer da will, ein ander Ziel, EG 346; Mit dir, o Herr, die Grenzen überschreiten, EGE 26",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "17. So. n. Trinitatis"
+    ],
+    "id": "1b0c3d20-c98b-4027-ae17-7801b0e9fd73",
+    "attemptCount": 1,
+    "remoteId": "1289703740890525_122122888491426121",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-15T16:58:41.523Z",
+    "updatedAt": "2026-09-27T07:00:34.020Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "PHOTO",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "kirchenjahr-2026-09-27-17tr",
+    "contentDate": "2026-09-27",
+    "platform": "mastodon",
+    "format": "square",
+    "scheduledAt": "2026-09-27T07:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "17. Sonntag nach Trinitatis\n\nTitel: Sieghafter Glaube\n\nWochenspruch: „Unser Glaube ist der Sieg, der die Welt überwunden hat.“ (1. Joh 5,4c)\n\nPsalm: Ps 138\n\nAltes Testament: Jes 49,1-6\n\nEvangelium: Mt 15,21-28\n\nEpistel: Röm 10,9-17(18)\n\nPredigttext: Mt 15,21-28\n\nLieder: Such, wer da will, ein ander Ziel, EG 346; Mit dir, o Herr, die Grenzen überschreiten, EGE 26",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "17. So. n. Trinitatis"
+    ],
+    "id": "ce6f14a1-3112-425c-a9c1-964adba9bd23",
+    "attemptCount": 1,
+    "remoteId": "117341712239344365",
+    "remoteUrl": "https://kirche.social/@christoph/117341712239344365",
+    "lastError": null,
+    "createdAt": "2026-08-15T16:58:41.549Z",
+    "updatedAt": "2026-09-27T07:00:35.353Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
