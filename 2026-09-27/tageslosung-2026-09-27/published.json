@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-27",
+    "contentDate": "2026-09-27",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-09-27T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Der HERR verstößt sein Volk nicht um seines großen Namens willen.",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Der HERR verstößt sein Volk nicht um seines großen Namens willen."
+    ],
+    "id": "473e3731-dd0a-45f2-98b7-7df62cd38d68",
+    "attemptCount": 1,
+    "remoteId": "17928518964412326",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:45:53.793Z",
+    "updatedAt": "2026-09-27T05:00:37.354Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-27",
+    "contentDate": "2026-09-27",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-09-27T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Der HERR verstößt sein Volk nicht um seines großen Namens willen.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Der HERR verstößt sein Volk nicht um seines großen Namens willen."
+    ],
+    "id": "e8ed579c-61c1-4a05-873e-1f06f98f4faf",
+    "attemptCount": 1,
+    "remoteId": "117341240651217887",
+    "remoteUrl": "https://kirche.social/@christoph/117341240651217887",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:45:53.811Z",
+    "updatedAt": "2026-09-27T05:00:39.544Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
