@@ -10,12 +10,13 @@
   },
   "editorial_core": {
     "title": "Neuer Wochenspruch: 16. Sonntag nach Trinitatis",
-    "main_message": "Ruhiges Motiv, wenig Text im Bild, meditativer Begleittext.",
+    "main_message": "Der Wochenspruch eröffnet die Woche mit einem stillen Bild der Hoffnung: Was dunkel und endgültig wirkt, bleibt nicht das Letzte.",
     "audience": "breite Öffentlichkeit",
     "tone": [
       "klar",
       "ruhig",
-      "zugänglich"
+      "zugänglich",
+      "meditativ"
     ],
     "source_notes": [
       "Goal: Den neuen Wochenspruch als ruhigen Auftakt der liturgischen Woche veröffentlichen.",
@@ -23,44 +24,84 @@
       "Production mode: für Monate im Voraus vollständig vorproduzierbar",
       "Structure: Wochenspruch | ein Bild oder eine Beobachtung | ein meditativer Satz | offene Schlussfrage oder Segenswunsch",
       "AI support notes: meditativer Rohentwurf | KI-Bildprompt | Reel-Sprechtext | Alt-Text",
-      "Liturgical source: https://kirchenjahr.pfarr.tools/api/jahr/2026 (2026-09-20, $.Tage['2026-09-20'])"
+      "Liturgical source: https://kirchenjahr.pfarr.tools/api/jahr/2026 (2026-09-20, $.Tage['2026-09-20'])",
+      "Wochenspruch: Jesus Christus hat dem Tode die Macht genommen und das Leben und ein unvergängliches Wesen ans Licht gebracht durch das Evangelium. (2. Tim 1,10b)"
     ]
   },
   "platforms": {
     "facebook": {
-      "text": "",
-      "headline": ""
+      "text": "Jesus Christus hat dem Tode die Macht genommen und das Leben und ein unvergängliches Wesen ans Licht gebracht durch das Evangelium. (2. Tim 1,10b)\n\nManchmal verändert schon ein erster Lichtstreifen einen ganzen Raum. Die Nacht ist noch da. Die Schatten auch. Aber sie bestimmen nicht mehr alles.\n\nSo spricht dieser Wochenspruch von Christus. Er blendet das Schwere nicht aus. Er redet den Tod nicht klein. Aber er setzt ihm eine Grenze. Nicht der Tod hat das letzte Wort. Das Leben kommt ans Licht.\n\nVielleicht ist das zu Beginn dieser Woche ein Satz zum Festhalten. Nicht alles muss sofort hell werden. Nicht jede Sorge löst sich auf. Aber das Evangelium öffnet einen Blick: Auf das, was trägt. Auf das, was bleibt. Auf das Leben, das Gott schenkt.\n\nWas könnte in deiner Woche heute ein kleiner Lichtstreifen sein?\n\nOder: Gottes Licht begleite dich durch diese Woche.",
+      "headline": "Wochenspruch für die neue Woche"
     },
     "instagram": {
-      "caption": "",
-      "carousel": []
+      "caption": "Jesus Christus hat dem Tode die Macht genommen und das Leben und ein unvergängliches Wesen ans Licht gebracht durch das Evangelium. (2. Tim 1,10b)\n\nEin schmaler Lichtstreifen am Morgen genügt, um einen Raum zu verändern.\n\nDieser Wochenspruch sagt: Nicht der Tod behält das letzte Wort. Christus bringt Leben ans Licht.\n\nVielleicht trägst du etwas Schweres mit dir. Vielleicht ist noch nicht alles hell. Aber Hoffnung beginnt oft leise.\n\nWas könnte heute dein kleiner Lichtstreifen sein?\n\n#Wochenspruch #Kirchenjahr #Trinitatiszeit #Hoffnung #Licht #Evangelium",
+      "carousel": [
+        {
+          "type": "text",
+          "text": "Jesus Christus hat dem Tode die Macht genommen und das Leben und ein unvergängliches Wesen ans Licht gebracht durch das Evangelium. (2. Tim 1,10b)"
+        },
+        {
+          "type": "text",
+          "text": "Ein schmaler Lichtstreifen am Morgen verändert einen Raum."
+        },
+        {
+          "type": "text",
+          "text": "Nicht alles ist schon hell. Aber das Dunkel hat nicht das letzte Wort."
+        },
+        {
+          "type": "text",
+          "text": "Was könnte heute dein kleiner Lichtstreifen sein?"
+        }
+      ]
     },
     "mastodon": {
-      "text": ""
+      "text": "Jesus Christus hat dem Tode die Macht genommen und das Leben und ein unvergängliches Wesen ans Licht gebracht durch das Evangelium. (2. Tim 1,10b)\n\nEin schmaler Lichtstreifen am Morgen verändert einen Raum. So spricht dieser Wochenspruch von Hoffnung: Das Dunkel ist nicht das Letzte.\n\nWas könnte heute dein kleiner Lichtstreifen sein?"
     },
     "bluesky": {
-      "text": ""
+      "text": "Jesus Christus hat dem Tode die Macht genommen und das Leben und ein unvergängliches Wesen ans Licht gebracht durch das Evangelium. (2. Tim 1,10b)\n\nEin schmaler Lichtstreifen am Morgen verändert einen Raum. Das Dunkel ist nicht das Letzte.\n\nWas könnte heute dein kleiner Lichtstreifen sein?"
     },
     "story": {
-      "slides": []
+      "slides": [
+        {
+          "text": "Neuer Wochenspruch"
+        },
+        {
+          "text": "Jesus Christus hat dem Tode die Macht genommen und das Leben und ein unvergängliches Wesen ans Licht gebracht durch das Evangelium. (2. Tim 1,10b)"
+        },
+        {
+          "text": "Ein schmaler Lichtstreifen am Morgen verändert einen Raum."
+        },
+        {
+          "text": "Nicht alles ist schon hell. Aber das Dunkel hat nicht das letzte Wort."
+        },
+        {
+          "text": "Was könnte heute dein kleiner Lichtstreifen sein?"
+        }
+      ]
     },
     "reel": {
-      "hook": "",
-      "script": "",
-      "shots": [],
-      "duration_seconds": 0
+      "hook": "Ein Lichtstreifen genügt.",
+      "script": "Jesus Christus hat dem Tode die Macht genommen und das Leben und ein unvergängliches Wesen ans Licht gebracht durch das Evangelium.\n\nManchmal ist es nur ein schmaler Streifen Licht am Morgen. Und doch verändert er den ganzen Raum.\n\nSo klingt dieser Wochenspruch. Das Dunkel wird nicht geleugnet. Aber es behält nicht das letzte Wort.\n\nChristus bringt Leben ans Licht.\n\nVielleicht gehst du mit Fragen in diese Woche. Vielleicht mit Müdigkeit. Vielleicht mit Hoffnung.\n\nDann nimm diesen Satz mit:\nNicht der Tod hat das letzte Wort.\n\nWas könnte heute dein kleiner Lichtstreifen sein?",
+      "shots": [
+        "Frühes Morgenlicht fällt durch ein Fenster in einen stillen Raum.",
+        "Nahaufnahme von Licht auf Boden oder Wand.",
+        "Langsame Bewegung über einen schlichten Tisch mit ruhiger Atmosphäre.",
+        "Helles Detail in ansonsten gedämpfter Umgebung.",
+        "Abschlussbild mit weitem, ruhigem Lichtmoment."
+      ],
+      "duration_seconds": 25
     }
   },
   "visual": {
-    "concept": "",
-    "flux_prompt": "",
+    "concept": "Stilles Morgenmotiv mit einem einzelnen Lichtstreifen in einem schlichten Raum oder auf einer ruhigen Fläche. Das Bild soll Trost und Weite ausstrahlen, ohne dramatisch zu wirken.",
+    "flux_prompt": "Ruhige, meditative Szene im frühen Morgenlicht, ein schmaler goldener Lichtstreifen fällt durch ein Fenster auf einen schlichten Innenraum oder eine helle Wand und den Boden, minimalistisch, still, sanfte Schatten, natürliche Farben, protestantische Zurückhaltung, fotografischer Stil, hohe Detailtreue, warme aber dezente Stimmung, viel freie Fläche, kein Mensch im Fokus",
     "negative_prompt": "text, letters, logo, watermark",
     "formats": [
       "4:5",
       "9:16",
       "1.91:1"
     ],
-    "alt_text": ""
+    "alt_text": "Ein stiller Raum im Morgenlicht. Durch ein Fenster fällt ein schmaler heller Lichtstreifen auf Wand und Boden. Die Szene wirkt ruhig, schlicht und hoffnungsvoll."
   },
   "qa": {
     "warnings": [
@@ -69,8 +110,8 @@
     "approved": false
   },
   "metadata": {
-    "model": "",
-    "generated_at": "",
+    "model": "gpt-5.4-2026-03-05",
+    "generated_at": "2026-09-27T16:42:38.266Z",
     "prompt_version": "1.0",
     "assets": []
   }

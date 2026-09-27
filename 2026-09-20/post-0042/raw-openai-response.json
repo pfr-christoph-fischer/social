@@ -1,0 +1,421 @@
+{
+  "id": "resp_0e19836fbfb9d4ae006ab9476ce8ec87d1b1305d7f771f5c75",
+  "object": "response",
+  "created_at": 1790527340,
+  "status": "completed",
+  "access_programs": null,
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1790527357,
+  "error": null,
+  "frequency_penalty": 0,
+  "incomplete_details": null,
+  "instructions": "You are part of a Protestant social media editorial team. Write in clear, accessible, theologically responsible German without church clichés. Use short sentences and concrete imagery. Never invent events, people, school situations, quotes, or factual details. Do not include copyrighted full song verses. For Reli and community posts, only use current details when they are explicitly provided. Return content that strictly matches the requested JSON schema. Set needs_input to true whenever required facts are missing. Keep qa.approved false. Do not ask for any text inside generated images. When liturgical_context.resolved_weekly_verse is present, use its exact wording for Wochenspruch slots instead of placeholders.",
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.4-2026-03-05",
+  "moderation": null,
+  "output": [
+    {
+      "id": "msg_0e19836fbfb9d4ae006ab9476dc81087d1ba0bcc76c4f21073",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\"id\":\"post-0042\",\"status\":\"in Arbeit\",\"needs_input\":false,\"source\":{\"calendar_post_id\":\"post-0042\",\"date\":\"2026-09-20\",\"rubric\":\"Wochenspruch – meditativ\",\"liturgical_source\":\"https://kirchenjahr.pfarr.tools/api/jahr/2026\"},\"editorial_core\":{\"title\":\"Neuer Wochenspruch: 16. Sonntag nach Trinitatis\",\"main_message\":\"Der Wochenspruch eröffnet die Woche mit einem stillen Bild der Hoffnung: Was dunkel und endgültig wirkt, bleibt nicht das Letzte.\",\"audience\":\"breite Öffentlichkeit\",\"tone\":[\"klar\",\"ruhig\",\"zugänglich\",\"meditativ\"],\"source_notes\":[\"Goal: Den neuen Wochenspruch als ruhigen Auftakt der liturgischen Woche veröffentlichen.\",\"Column: Bibel und Spiritualität\",\"Production mode: für Monate im Voraus vollständig vorproduzierbar\",\"Structure: Wochenspruch | ein Bild oder eine Beobachtung | ein meditativer Satz | offene Schlussfrage oder Segenswunsch\",\"AI support notes: meditativer Rohentwurf | KI-Bildprompt | Reel-Sprechtext | Alt-Text\",\"Liturgical source: https://kirchenjahr.pfarr.tools/api/jahr/2026 (2026-09-20, $.Tage['2026-09-20'])\",\"Wochenspruch: Jesus Christus hat dem Tode die Macht genommen und das Leben und ein unvergängliches Wesen ans Licht gebracht durch das Evangelium. (2. Tim 1,10b)\"]},\"platforms\":{\"facebook\":{\"text\":\"Jesus Christus hat dem Tode die Macht genommen und das Leben und ein unvergängliches Wesen ans Licht gebracht durch das Evangelium. (2. Tim 1,10b)\\n\\nManchmal verändert schon ein erster Lichtstreifen einen ganzen Raum. Die Nacht ist noch da. Die Schatten auch. Aber sie bestimmen nicht mehr alles.\\n\\nSo spricht dieser Wochenspruch von Christus. Er blendet das Schwere nicht aus. Er redet den Tod nicht klein. Aber er setzt ihm eine Grenze. Nicht der Tod hat das letzte Wort. Das Leben kommt ans Licht.\\n\\nVielleicht ist das zu Beginn dieser Woche ein Satz zum Festhalten. Nicht alles muss sofort hell werden. Nicht jede Sorge löst sich auf. Aber das Evangelium öffnet einen Blick: Auf das, was trägt. Auf das, was bleibt. Auf das Leben, das Gott schenkt.\\n\\nWas könnte in deiner Woche heute ein kleiner Lichtstreifen sein?\\n\\nOder: Gottes Licht begleite dich durch diese Woche.\",\"headline\":\"Wochenspruch für die neue Woche\"},\"instagram\":{\"caption\":\"Jesus Christus hat dem Tode die Macht genommen und das Leben und ein unvergängliches Wesen ans Licht gebracht durch das Evangelium. (2. Tim 1,10b)\\n\\nEin schmaler Lichtstreifen am Morgen genügt, um einen Raum zu verändern.\\n\\nDieser Wochenspruch sagt: Nicht der Tod behält das letzte Wort. Christus bringt Leben ans Licht.\\n\\nVielleicht trägst du etwas Schweres mit dir. Vielleicht ist noch nicht alles hell. Aber Hoffnung beginnt oft leise.\\n\\nWas könnte heute dein kleiner Lichtstreifen sein?\\n\\n#Wochenspruch #Kirchenjahr #Trinitatiszeit #Hoffnung #Licht #Evangelium\",\"carousel\":[{\"type\":\"text\",\"text\":\"Jesus Christus hat dem Tode die Macht genommen und das Leben und ein unvergängliches Wesen ans Licht gebracht durch das Evangelium. (2. Tim 1,10b)\"},{\"type\":\"text\",\"text\":\"Ein schmaler Lichtstreifen am Morgen verändert einen Raum.\"},{\"type\":\"text\",\"text\":\"Nicht alles ist schon hell. Aber das Dunkel hat nicht das letzte Wort.\"},{\"type\":\"text\",\"text\":\"Was könnte heute dein kleiner Lichtstreifen sein?\"}]},\"mastodon\":{\"text\":\"Jesus Christus hat dem Tode die Macht genommen und das Leben und ein unvergängliches Wesen ans Licht gebracht durch das Evangelium. (2. Tim 1,10b)\\n\\nEin schmaler Lichtstreifen am Morgen verändert einen Raum. So spricht dieser Wochenspruch von Hoffnung: Das Dunkel ist nicht das Letzte.\\n\\nWas könnte heute dein kleiner Lichtstreifen sein?\"},\"bluesky\":{\"text\":\"Jesus Christus hat dem Tode die Macht genommen und das Leben und ein unvergängliches Wesen ans Licht gebracht durch das Evangelium. (2. Tim 1,10b)\\n\\nEin schmaler Lichtstreifen am Morgen verändert einen Raum. Das Dunkel ist nicht das Letzte.\\n\\nWas könnte heute dein kleiner Lichtstreifen sein?\"},\"story\":{\"slides\":[{\"text\":\"Neuer Wochenspruch\"},{\"text\":\"Jesus Christus hat dem Tode die Macht genommen und das Leben und ein unvergängliches Wesen ans Licht gebracht durch das Evangelium. (2. Tim 1,10b)\"},{\"text\":\"Ein schmaler Lichtstreifen am Morgen verändert einen Raum.\"},{\"text\":\"Nicht alles ist schon hell. Aber das Dunkel hat nicht das letzte Wort.\"},{\"text\":\"Was könnte heute dein kleiner Lichtstreifen sein?\"}]},\"reel\":{\"hook\":\"Ein Lichtstreifen genügt.\",\"script\":\"Jesus Christus hat dem Tode die Macht genommen und das Leben und ein unvergängliches Wesen ans Licht gebracht durch das Evangelium.\\n\\nManchmal ist es nur ein schmaler Streifen Licht am Morgen. Und doch verändert er den ganzen Raum.\\n\\nSo klingt dieser Wochenspruch. Das Dunkel wird nicht geleugnet. Aber es behält nicht das letzte Wort.\\n\\nChristus bringt Leben ans Licht.\\n\\nVielleicht gehst du mit Fragen in diese Woche. Vielleicht mit Müdigkeit. Vielleicht mit Hoffnung.\\n\\nDann nimm diesen Satz mit:\\nNicht der Tod hat das letzte Wort.\\n\\nWas könnte heute dein kleiner Lichtstreifen sein?\",\"shots\":[\"Frühes Morgenlicht fällt durch ein Fenster in einen stillen Raum.\",\"Nahaufnahme von Licht auf Boden oder Wand.\",\"Langsame Bewegung über einen schlichten Tisch mit ruhiger Atmosphäre.\",\"Helles Detail in ansonsten gedämpfter Umgebung.\",\"Abschlussbild mit weitem, ruhigem Lichtmoment.\"],\"duration_seconds\":25}},\"visual\":{\"concept\":\"Stilles Morgenmotiv mit einem einzelnen Lichtstreifen in einem schlichten Raum oder auf einer ruhigen Fläche. Das Bild soll Trost und Weite ausstrahlen, ohne dramatisch zu wirken.\",\"flux_prompt\":\"Ruhige, meditative Szene im frühen Morgenlicht, ein schmaler goldener Lichtstreifen fällt durch ein Fenster auf einen schlichten Innenraum oder eine helle Wand und den Boden, minimalistisch, still, sanfte Schatten, natürliche Farben, protestantische Zurückhaltung, fotografischer Stil, hohe Detailtreue, warme aber dezente Stimmung, viel freie Fläche, kein Mensch im Fokus\",\"negative_prompt\":\"text, letters, logo, watermark\",\"formats\":[\"4:5\",\"9:16\",\"1.91:1\"],\"alt_text\":\"Ein stiller Raum im Morgenlicht. Durch ein Fenster fällt ein schmaler heller Lichtstreifen auf Wand und Boden. Die Szene wirkt ruhig, schlicht und hoffnungsvoll.\"},\"qa\":{\"warnings\":[\"Alt text must be completed before approval\"],\"approved\":false},\"metadata\":{\"model\":\"gpt-5\",\"generated_at\":\"2026-09-27T00:00:00Z\",\"prompt_version\":\"1.0\",\"assets\":[]}}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "current_turn",
+    "effort": "none",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1,
+  "text": {
+    "format": {
+      "type": "json_schema",
+      "description": null,
+      "name": "content_package",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "Idee",
+              "in Arbeit",
+              "zur Prüfung",
+              "freigegeben",
+              "terminiert",
+              "veröffentlicht",
+              "verworfen"
+            ]
+          },
+          "needs_input": {
+            "type": "boolean"
+          },
+          "source": {
+            "type": "object",
+            "properties": {
+              "calendar_post_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "date": {
+                "type": "string",
+                "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+              },
+              "rubric": {
+                "type": "string",
+                "minLength": 1
+              },
+              "liturgical_source": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "calendar_post_id",
+              "date",
+              "rubric",
+              "liturgical_source"
+            ],
+            "additionalProperties": false
+          },
+          "editorial_core": {
+            "type": "object",
+            "properties": {
+              "title": {
+                "type": "string"
+              },
+              "main_message": {
+                "type": "string"
+              },
+              "audience": {
+                "type": "string"
+              },
+              "tone": {
+                "minItems": 1,
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "source_notes": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "title",
+              "main_message",
+              "audience",
+              "tone",
+              "source_notes"
+            ],
+            "additionalProperties": false
+          },
+          "platforms": {
+            "type": "object",
+            "properties": {
+              "facebook": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  },
+                  "headline": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text",
+                  "headline"
+                ],
+                "additionalProperties": false
+              },
+              "instagram": {
+                "type": "object",
+                "properties": {
+                  "caption": {
+                    "type": "string"
+                  },
+                  "carousel": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "type": {
+                          "type": "string"
+                        },
+                        "text": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "type",
+                        "text"
+                      ],
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "required": [
+                  "caption",
+                  "carousel"
+                ],
+                "additionalProperties": false
+              },
+              "mastodon": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text"
+                ],
+                "additionalProperties": false
+              },
+              "bluesky": {
+                "default": {
+                  "text": ""
+                },
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text"
+                ],
+                "additionalProperties": false
+              },
+              "story": {
+                "type": "object",
+                "properties": {
+                  "slides": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "text": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "text"
+                      ],
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "required": [
+                  "slides"
+                ],
+                "additionalProperties": false
+              },
+              "reel": {
+                "type": "object",
+                "properties": {
+                  "hook": {
+                    "type": "string"
+                  },
+                  "script": {
+                    "type": "string"
+                  },
+                  "shots": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "duration_seconds": {
+                    "type": "integer",
+                    "minimum": 0,
+                    "maximum": 9007199254740991
+                  }
+                },
+                "required": [
+                  "hook",
+                  "script",
+                  "shots",
+                  "duration_seconds"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "required": [
+              "facebook",
+              "instagram",
+              "mastodon",
+              "bluesky",
+              "story",
+              "reel"
+            ],
+            "additionalProperties": false
+          },
+          "visual": {
+            "type": "object",
+            "properties": {
+              "concept": {
+                "type": "string"
+              },
+              "flux_prompt": {
+                "type": "string"
+              },
+              "negative_prompt": {
+                "type": "string",
+                "minLength": 1
+              },
+              "formats": {
+                "minItems": 1,
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "alt_text": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "concept",
+              "flux_prompt",
+              "negative_prompt",
+              "formats",
+              "alt_text"
+            ],
+            "additionalProperties": false
+          },
+          "qa": {
+            "type": "object",
+            "properties": {
+              "warnings": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "approved": {
+                "type": "boolean"
+              }
+            },
+            "required": [
+              "warnings",
+              "approved"
+            ],
+            "additionalProperties": false
+          },
+          "metadata": {
+            "type": "object",
+            "properties": {
+              "model": {
+                "type": "string"
+              },
+              "generated_at": {
+                "type": "string"
+              },
+              "prompt_version": {
+                "type": "string",
+                "minLength": 1
+              },
+              "assets": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "model",
+              "generated_at",
+              "prompt_version",
+              "assets"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "id",
+          "status",
+          "needs_input",
+          "source",
+          "editorial_core",
+          "platforms",
+          "visual",
+          "qa",
+          "metadata"
+        ],
+        "additionalProperties": false
+      },
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 1977,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1569,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 3546
+  },
+  "user": null,
+  "metadata": {},
+  "output_text": "{\"id\":\"post-0042\",\"status\":\"in Arbeit\",\"needs_input\":false,\"source\":{\"calendar_post_id\":\"post-0042\",\"date\":\"2026-09-20\",\"rubric\":\"Wochenspruch – meditativ\",\"liturgical_source\":\"https://kirchenjahr.pfarr.tools/api/jahr/2026\"},\"editorial_core\":{\"title\":\"Neuer Wochenspruch: 16. Sonntag nach Trinitatis\",\"main_message\":\"Der Wochenspruch eröffnet die Woche mit einem stillen Bild der Hoffnung: Was dunkel und endgültig wirkt, bleibt nicht das Letzte.\",\"audience\":\"breite Öffentlichkeit\",\"tone\":[\"klar\",\"ruhig\",\"zugänglich\",\"meditativ\"],\"source_notes\":[\"Goal: Den neuen Wochenspruch als ruhigen Auftakt der liturgischen Woche veröffentlichen.\",\"Column: Bibel und Spiritualität\",\"Production mode: für Monate im Voraus vollständig vorproduzierbar\",\"Structure: Wochenspruch | ein Bild oder eine Beobachtung | ein meditativer Satz | offene Schlussfrage oder Segenswunsch\",\"AI support notes: meditativer Rohentwurf | KI-Bildprompt | Reel-Sprechtext | Alt-Text\",\"Liturgical source: https://kirchenjahr.pfarr.tools/api/jahr/2026 (2026-09-20, $.Tage['2026-09-20'])\",\"Wochenspruch: Jesus Christus hat dem Tode die Macht genommen und das Leben und ein unvergängliches Wesen ans Licht gebracht durch das Evangelium. (2. Tim 1,10b)\"]},\"platforms\":{\"facebook\":{\"text\":\"Jesus Christus hat dem Tode die Macht genommen und das Leben und ein unvergängliches Wesen ans Licht gebracht durch das Evangelium. (2. Tim 1,10b)\\n\\nManchmal verändert schon ein erster Lichtstreifen einen ganzen Raum. Die Nacht ist noch da. Die Schatten auch. Aber sie bestimmen nicht mehr alles.\\n\\nSo spricht dieser Wochenspruch von Christus. Er blendet das Schwere nicht aus. Er redet den Tod nicht klein. Aber er setzt ihm eine Grenze. Nicht der Tod hat das letzte Wort. Das Leben kommt ans Licht.\\n\\nVielleicht ist das zu Beginn dieser Woche ein Satz zum Festhalten. Nicht alles muss sofort hell werden. Nicht jede Sorge löst sich auf. Aber das Evangelium öffnet einen Blick: Auf das, was trägt. Auf das, was bleibt. Auf das Leben, das Gott schenkt.\\n\\nWas könnte in deiner Woche heute ein kleiner Lichtstreifen sein?\\n\\nOder: Gottes Licht begleite dich durch diese Woche.\",\"headline\":\"Wochenspruch für die neue Woche\"},\"instagram\":{\"caption\":\"Jesus Christus hat dem Tode die Macht genommen und das Leben und ein unvergängliches Wesen ans Licht gebracht durch das Evangelium. (2. Tim 1,10b)\\n\\nEin schmaler Lichtstreifen am Morgen genügt, um einen Raum zu verändern.\\n\\nDieser Wochenspruch sagt: Nicht der Tod behält das letzte Wort. Christus bringt Leben ans Licht.\\n\\nVielleicht trägst du etwas Schweres mit dir. Vielleicht ist noch nicht alles hell. Aber Hoffnung beginnt oft leise.\\n\\nWas könnte heute dein kleiner Lichtstreifen sein?\\n\\n#Wochenspruch #Kirchenjahr #Trinitatiszeit #Hoffnung #Licht #Evangelium\",\"carousel\":[{\"type\":\"text\",\"text\":\"Jesus Christus hat dem Tode die Macht genommen und das Leben und ein unvergängliches Wesen ans Licht gebracht durch das Evangelium. (2. Tim 1,10b)\"},{\"type\":\"text\",\"text\":\"Ein schmaler Lichtstreifen am Morgen verändert einen Raum.\"},{\"type\":\"text\",\"text\":\"Nicht alles ist schon hell. Aber das Dunkel hat nicht das letzte Wort.\"},{\"type\":\"text\",\"text\":\"Was könnte heute dein kleiner Lichtstreifen sein?\"}]},\"mastodon\":{\"text\":\"Jesus Christus hat dem Tode die Macht genommen und das Leben und ein unvergängliches Wesen ans Licht gebracht durch das Evangelium. (2. Tim 1,10b)\\n\\nEin schmaler Lichtstreifen am Morgen verändert einen Raum. So spricht dieser Wochenspruch von Hoffnung: Das Dunkel ist nicht das Letzte.\\n\\nWas könnte heute dein kleiner Lichtstreifen sein?\"},\"bluesky\":{\"text\":\"Jesus Christus hat dem Tode die Macht genommen und das Leben und ein unvergängliches Wesen ans Licht gebracht durch das Evangelium. (2. Tim 1,10b)\\n\\nEin schmaler Lichtstreifen am Morgen verändert einen Raum. Das Dunkel ist nicht das Letzte.\\n\\nWas könnte heute dein kleiner Lichtstreifen sein?\"},\"story\":{\"slides\":[{\"text\":\"Neuer Wochenspruch\"},{\"text\":\"Jesus Christus hat dem Tode die Macht genommen und das Leben und ein unvergängliches Wesen ans Licht gebracht durch das Evangelium. (2. Tim 1,10b)\"},{\"text\":\"Ein schmaler Lichtstreifen am Morgen verändert einen Raum.\"},{\"text\":\"Nicht alles ist schon hell. Aber das Dunkel hat nicht das letzte Wort.\"},{\"text\":\"Was könnte heute dein kleiner Lichtstreifen sein?\"}]},\"reel\":{\"hook\":\"Ein Lichtstreifen genügt.\",\"script\":\"Jesus Christus hat dem Tode die Macht genommen und das Leben und ein unvergängliches Wesen ans Licht gebracht durch das Evangelium.\\n\\nManchmal ist es nur ein schmaler Streifen Licht am Morgen. Und doch verändert er den ganzen Raum.\\n\\nSo klingt dieser Wochenspruch. Das Dunkel wird nicht geleugnet. Aber es behält nicht das letzte Wort.\\n\\nChristus bringt Leben ans Licht.\\n\\nVielleicht gehst du mit Fragen in diese Woche. Vielleicht mit Müdigkeit. Vielleicht mit Hoffnung.\\n\\nDann nimm diesen Satz mit:\\nNicht der Tod hat das letzte Wort.\\n\\nWas könnte heute dein kleiner Lichtstreifen sein?\",\"shots\":[\"Frühes Morgenlicht fällt durch ein Fenster in einen stillen Raum.\",\"Nahaufnahme von Licht auf Boden oder Wand.\",\"Langsame Bewegung über einen schlichten Tisch mit ruhiger Atmosphäre.\",\"Helles Detail in ansonsten gedämpfter Umgebung.\",\"Abschlussbild mit weitem, ruhigem Lichtmoment.\"],\"duration_seconds\":25}},\"visual\":{\"concept\":\"Stilles Morgenmotiv mit einem einzelnen Lichtstreifen in einem schlichten Raum oder auf einer ruhigen Fläche. Das Bild soll Trost und Weite ausstrahlen, ohne dramatisch zu wirken.\",\"flux_prompt\":\"Ruhige, meditative Szene im frühen Morgenlicht, ein schmaler goldener Lichtstreifen fällt durch ein Fenster auf einen schlichten Innenraum oder eine helle Wand und den Boden, minimalistisch, still, sanfte Schatten, natürliche Farben, protestantische Zurückhaltung, fotografischer Stil, hohe Detailtreue, warme aber dezente Stimmung, viel freie Fläche, kein Mensch im Fokus\",\"negative_prompt\":\"text, letters, logo, watermark\",\"formats\":[\"4:5\",\"9:16\",\"1.91:1\"],\"alt_text\":\"Ein stiller Raum im Morgenlicht. Durch ein Fenster fällt ein schmaler heller Lichtstreifen auf Wand und Boden. Die Szene wirkt ruhig, schlicht und hoffnungsvoll.\"},\"qa\":{\"warnings\":[\"Alt text must be completed before approval\"],\"approved\":false},\"metadata\":{\"model\":\"gpt-5\",\"generated_at\":\"2026-09-27T00:00:00Z\",\"prompt_version\":\"1.0\",\"assets\":[]}}"
+}
