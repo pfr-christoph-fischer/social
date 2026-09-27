@@ -61,5 +61,33 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "prayer-evening-2026-09-20",
+    "contentDate": "2026-09-20",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-09-20T18:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Abendgebet\n\nGott,\nwir legen dir diesen Tag hin.\nWas gut war.\nWas schwer war.\nWas offen bleibt.\n\nWir bitten für die Menschen in Riad nach den Explosionen nahe dem Flughafen.\nUnd für die Menschen am Bodensee, wo das Wasser historisch niedrig bleibt.\n\nSei bei allen, die heute Nacht Angst haben, helfen, wachen oder arbeiten.\nSchenk Frieden für diese Nacht.\nAmen.",
+    "assets": [
+      "render-facebook-mastodon-01.png"
+    ],
+    "altTexts": [
+      "Ein ruhiges Ufer in der Abenddämmerung. Das Wasser ist niedrig, Steine liegen frei. Der Himmel ist weich blau und warm grau. Die Szene wirkt still und lädt zum Innehalten und Beten am Abend ein."
+    ],
+    "id": "22698e40-fd0c-4f05-a6d6-e50e4e885757",
+    "attemptCount": 1,
+    "remoteId": "117344014082206465",
+    "remoteUrl": "https://kirche.social/@christoph/117344014082206465",
+    "lastError": null,
+    "createdAt": "2026-09-27T16:42:12.494Z",
+    "updatedAt": "2026-09-27T16:45:58.694Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
