@@ -27,5 +27,65 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "post-0049",
+    "contentDate": "2026-09-27",
+    "platform": "instagram",
+    "format": "default",
+    "scheduledAt": "2026-09-27T07:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "„Unser Glaube ist der Sieg, der die Welt überwunden hat.“\n1. Joh 5,4c\n\nNicht jeder Sieg ist laut. Mancher Sieg beginnt still: mit Hoffnung, mit Vertrauen, mit dem Mut, den nächsten Schritt zu gehen.\n\nVielleicht ist Glaube heute genau das: eine leise Kraft, die trägt.\n\nWas gibt dir heute Halt?\n\n#Wochenspruch #Kirchenjahr #Glaube #Hoffnung #Meditation",
+    "assets": [
+      "render-instagram-feed-01.jpg",
+      "render-instagram-feed-02.jpg",
+      "render-instagram-feed-03.jpg",
+      "render-instagram-feed-04.jpg"
+    ],
+    "altTexts": [
+      "Ruhige Landschaft im weichen Morgenlicht. Ein schmaler Weg oder eine offene Fläche führt in die Tiefe des Bildes. Die Szene wirkt still, klar und weit."
+    ],
+    "id": "1a7eb2e7-bb1d-455f-8478-074f107d2719",
+    "attemptCount": 1,
+    "remoteId": "18231226441324737",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-09-27T16:54:30.429Z",
+    "updatedAt": "2026-09-27T16:55:49.902Z",
+    "responseMetadata": {
+      "mediaCount": 4,
+      "mediaType": "CAROUSEL",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "post-0049",
+    "contentDate": "2026-09-27",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-09-27T07:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "„Unser Glaube ist der Sieg, der die Welt überwunden hat.“ (1. Joh 5,4c)\n\nNicht jeder Sieg ist laut. Mancher beginnt still: mit Vertrauen, das trägt.\n\nWas gibt dir heute Halt?",
+    "assets": [
+      "render-facebook-mastodon-01.png"
+    ],
+    "altTexts": [
+      "Ruhige Landschaft im weichen Morgenlicht. Ein schmaler Weg oder eine offene Fläche führt in die Tiefe des Bildes. Die Szene wirkt still, klar und weit."
+    ],
+    "id": "ea826cc9-c3c5-4c5a-9962-82505db3e9e2",
+    "attemptCount": 1,
+    "remoteId": "117344052935127783",
+    "remoteUrl": "https://kirche.social/@christoph/117344052935127783",
+    "lastError": null,
+    "createdAt": "2026-09-27T16:54:30.469Z",
+    "updatedAt": "2026-09-27T16:55:51.582Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
