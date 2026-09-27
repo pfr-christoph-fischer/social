@@ -1,0 +1,44 @@
+{
+  "delivery_url": "https://delivery.us2.bfl.ai/durable/2026092716/5e1f69ea-538b-4d66-962e-9be995966f07/66/045097e8ada366/e8ada3662ce3412fba13a17de7e90d20/sample.jpeg?se=2026-09-27T17%3A04%3A05Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=OaVVUvwWpWUbcfoj8wwqebchZxDqbZmgJUneqCuRhtU%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "21d1310b-2667-43cc-bcc6-540f5d2a825a",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "21d1310b-2667-43cc-bcc6-540f5d2a825a",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "21d1310b-2667-43cc-bcc6-540f5d2a825a",
+      "status": "Ready",
+      "result": {
+        "start_time": 1790528043.3697314,
+        "prompt": "Eine ruhige Landschaft am frühen Morgen mit sanftem Licht, schmalem Weg oder offener Fläche, feine Nebelspuren, natürliche gedeckte Farben, klare einfache Komposition, meditative Stimmung, protestantische Zurückhaltung, fotografisch, realistisch, hohe Detailtreue, weiches Licht, viel negativer Raum, keine Menschen, keine Gebäude im Vordergrund, no text, no letters, no typography, no logo, no watermark",
+        "seed": 4093823609,
+        "sample": "https://delivery.us2.bfl.ai/durable/2026092716/5e1f69ea-538b-4d66-962e-9be995966f07/66/045097e8ada366/e8ada3662ce3412fba13a17de7e90d20/sample.jpeg?se=2026-09-27T17%3A04%3A05Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=OaVVUvwWpWUbcfoj8wwqebchZxDqbZmgJUneqCuRhtU%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "21d1310b-2667-43cc-bcc6-540f5d2a825a",
+    "polling_url": "https://api.us2.bfl.ai/v1/get_result?id=21d1310b-2667-43cc-bcc6-540f5d2a825a",
+    "cost": 1.5,
+    "input_mp": 0,
+    "output_mp": 1.98
+  }
+}

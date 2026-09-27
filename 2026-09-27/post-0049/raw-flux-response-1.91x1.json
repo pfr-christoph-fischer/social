@@ -1,0 +1,36 @@
+{
+  "delivery_url": "https://delivery.us7.bfl.ai/durable/2026092716/5e1f69ea-538b-4d66-962e-9be995966f07/ba/03642646c31d18/46c31d18db25472399a4325ac3658b56/sample.jpeg?se=2026-09-27T17%3A03%3A56Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=gXZkOIpR4GZoXhg8yMSMpAHSXF3GRweOEWc63h4sSFY%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "66554dd8-f72f-4f68-b14b-bd4dbedb0b91",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "66554dd8-f72f-4f68-b14b-bd4dbedb0b91",
+      "status": "Ready",
+      "result": {
+        "start_time": 1790528035.287958,
+        "prompt": "Eine ruhige Landschaft am frühen Morgen mit sanftem Licht, schmalem Weg oder offener Fläche, feine Nebelspuren, natürliche gedeckte Farben, klare einfache Komposition, meditative Stimmung, protestantische Zurückhaltung, fotografisch, realistisch, hohe Detailtreue, weiches Licht, viel negativer Raum, keine Menschen, keine Gebäude im Vordergrund, no text, no letters, no typography, no logo, no watermark",
+        "seed": 1865566015,
+        "sample": "https://delivery.us7.bfl.ai/durable/2026092716/5e1f69ea-538b-4d66-962e-9be995966f07/ba/03642646c31d18/46c31d18db25472399a4325ac3658b56/sample.jpeg?se=2026-09-27T17%3A03%3A56Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=gXZkOIpR4GZoXhg8yMSMpAHSXF3GRweOEWc63h4sSFY%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "66554dd8-f72f-4f68-b14b-bd4dbedb0b91",
+    "polling_url": "https://api.us7.bfl.ai/v1/get_result?id=66554dd8-f72f-4f68-b14b-bd4dbedb0b91",
+    "cost": 1.4000000000000001,
+    "input_mp": 0,
+    "output_mp": 0.72
+  }
+}

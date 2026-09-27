@@ -100,13 +100,17 @@
     "alt_text": "Ruhige Landschaft im weichen Morgenlicht. Ein schmaler Weg oder eine offene Fläche führt in die Tiefe des Bildes. Die Szene wirkt still, klar und weit."
   },
   "qa": {
-    "approved": true,
-    "warnings": []
+    "warnings": [],
+    "approved": true
   },
   "metadata": {
     "model": "gpt-5.4-2026-03-05",
     "generated_at": "2026-09-27T16:47:16.480Z",
     "prompt_version": "1.0",
-    "assets": []
+    "assets": [
+      "assets/background-1.91x1.webp",
+      "assets/background-4x5.webp",
+      "assets/background-9x16.webp"
+    ]
   }
 }
