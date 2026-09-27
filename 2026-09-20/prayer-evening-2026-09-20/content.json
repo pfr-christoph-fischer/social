@@ -26,35 +26,35 @@
   },
   "platforms": {
     "facebook": {
-      "text": "Abendgebet\n\nGott,\nder Tag liegt hinter uns.\nWas gut war, danken wir dir.\nWas schwer war, sagen wir dir.\nWas offen geblieben ist, müssen wir dir nicht schönreden.\n\nWir denken an die Menschen in Riad,\ndie nach den Explosionen nahe dem Flughafen nicht einfach zur Ruhe kommen.\nSei bei denen, die Angst haben,\nbei Familien,\nbei Verletzten\nund bei allen, die helfen.\n\nWir denken auch an die Menschen am Bodensee.\nDer See führt weiter historisch wenig Wasser.\nWas trocken fällt, macht Sorgen.\nStärke alle, die Verantwortung tragen,\nund alle, die spüren, wie verletzlich unsere Lebensgrundlagen sind.\n\nUnd wir bringen dir, was nur wir selbst kennen:\nErschöpfung.\nStreit.\nFehler.\nDankbare Momente.\nMenschen, die uns heute gutgetan haben.\n\nSei in dieser Nacht bei Kranken,\nbei Pflegenden,\nbei Einsatzkräften,\nbei allen, die arbeiten,\nwachen oder nicht schlafen können.\n\nGib uns Frieden für diese Nacht.\nUnd halte die Hoffnung in uns wach,\ndass deine Zukunft weiter reicht als das,\nwas wir heute geschafft haben.\nAmen.",
-      "headline": "Abendgebet: Den Tag loslassen. Die Welt Gott anvertrauen."
+      "headline": "Abendgebet: Den Tag loslassen. Die Welt Gott anvertrauen.",
+      "text": "Abendgebet\n\nGott,\nder Tag liegt hinter uns.\nWas gut war, danken wir dir.\nWas schwer war, sagen wir dir.\nWas offen geblieben ist, müssen wir dir nicht schönreden.\n\nWir denken an die Menschen in Riad,\ndie nach den Explosionen nahe dem Flughafen nicht einfach zur Ruhe kommen.\nSei bei denen, die Angst haben,\nbei Familien,\nbei Verletzten\nund bei allen, die helfen.\n\nWir denken auch an die Menschen am Bodensee.\nDer See führt weiter historisch wenig Wasser.\nWas trocken fällt, macht Sorgen.\nStärke alle, die Verantwortung tragen,\nund alle, die spüren, wie verletzlich unsere Lebensgrundlagen sind.\n\nUnd wir bringen dir, was nur wir selbst kennen:\nErschöpfung.\nStreit.\nFehler.\nDankbare Momente.\nMenschen, die uns heute gutgetan haben.\n\nSei in dieser Nacht bei Kranken,\nbei Pflegenden,\nbei Einsatzkräften,\nbei allen, die arbeiten,\nwachen oder nicht schlafen können.\n\nGib uns Frieden für diese Nacht.\nUnd halte die Hoffnung in uns wach,\ndass deine Zukunft weiter reicht als das,\nwas wir heute geschafft haben.\nAmen."
     },
     "instagram": {
       "caption": "Abendgebet\n\nGott,\nwir legen dir diesen Tag hin.\nDas Gute.\nDas Schwere.\nDas Unfertige.\n\nWir bitten für die Menschen in Riad nach den Explosionen nahe dem Flughafen.\nUnd für die Menschen am Bodensee, wo das Wasser historisch niedrig bleibt.\n\nSei auch bei allen,\ndie heute Nacht wachen, helfen, arbeiten oder Angst haben.\nSchenk Ruhe.\nSchenk Frieden.\nHalte die Hoffnung in uns wach.\nAmen.",
       "carousel": [
         {
-          "type": "text",
-          "text": "Abendgebet\n\nDer Tag liegt hinter uns.\nWir müssen ihn nicht festhalten."
+          "text": "Abendgebet\n\nDer Tag liegt hinter uns.\nWir müssen ihn nicht festhalten.",
+          "type": "text"
         },
         {
-          "type": "text",
-          "text": "Gott,\nwas gut war,\ndanken wir dir.\nWas schwer war,\nsagen wir dir."
+          "text": "Gott,\nwas gut war,\ndanken wir dir.\nWas schwer war,\nsagen wir dir.",
+          "type": "text"
         },
         {
-          "type": "text",
-          "text": "Wir bitten für die Menschen in Riad\nnach den Explosionen nahe dem Flughafen.\nSei bei allen,\ndie Angst haben und helfen."
+          "text": "Wir bitten für die Menschen in Riad\nnach den Explosionen nahe dem Flughafen.\nSei bei allen,\ndie Angst haben und helfen.",
+          "type": "text"
         },
         {
-          "type": "text",
-          "text": "Wir bitten für die Menschen am Bodensee.\nDas Wasser bleibt historisch niedrig.\nStärke alle,\ndie mit den Folgen leben und Verantwortung tragen."
+          "text": "Wir bitten für die Menschen am Bodensee.\nDas Wasser bleibt historisch niedrig.\nStärke alle,\ndie mit den Folgen leben und Verantwortung tragen.",
+          "type": "text"
         },
         {
-          "type": "text",
-          "text": "Sei in dieser Nacht bei Kranken,\nPflegenden,\nEinsatzkräften\nund allen,\ndie nicht schlafen können."
+          "text": "Sei in dieser Nacht bei Kranken,\nPflegenden,\nEinsatzkräften\nund allen,\ndie nicht schlafen können.",
+          "type": "text"
         },
         {
-          "type": "text",
-          "text": "Gib uns Frieden für diese Nacht.\nUnd Hoffnung,\ndie weiter reicht\nals dieser Tag.\nAmen."
+          "text": "Gib uns Frieden für diese Nacht.\nUnd Hoffnung,\ndie weiter reicht\nals dieser Tag.\nAmen.",
+          "type": "text"
         }
       ]
     },
@@ -67,7 +67,7 @@
     "story": {
       "slides": [
         {
-          "text": "Abendgebet\n\nDer Tag liegt hinter uns."
+          "text": "Der Tag liegt hinter uns."
         },
         {
           "text": "Was gut war.\nWas schwer war.\nWas offen bleibt."
@@ -112,13 +112,13 @@
     "alt_text": "Ein ruhiges Ufer in der Abenddämmerung. Das Wasser ist niedrig, Steine liegen frei. Der Himmel ist weich blau und warm grau. Die Szene wirkt still und lädt zum Innehalten und Beten am Abend ein."
   },
   "qa": {
+    "approved": false,
     "warnings": [
       "Alt text must be completed before approval",
       "Aktuelle Bezüge enthalten: Explosionen nahe dem Flughafen in Riad; historisch niedriger Bodenseepegel.",
       "Vor Freigabe nochmals Nachrichtenlage vom Erzeugungszeitpunkt gegenprüfen, da schnell veränderliche Lage in Riad.",
       "Alt text redaktionell prüfen, ob Motiv zur finalen Gestaltung passt."
-    ],
-    "approved": false
+    ]
   },
   "metadata": {
     "model": "gpt-5.4-2026-03-05",
