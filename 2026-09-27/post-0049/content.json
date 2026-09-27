@@ -10,12 +10,13 @@
   },
   "editorial_core": {
     "title": "Neuer Wochenspruch: 17. Sonntag nach Trinitatis",
-    "main_message": "Ruhiges Motiv, wenig Text im Bild, meditativer Begleittext.",
+    "main_message": "Der Wochenspruch eröffnet die Woche mit einem ruhigen Bild und einem leisen Impuls über Glauben, der trägt.",
     "audience": "breite Öffentlichkeit",
     "tone": [
       "klar",
       "ruhig",
-      "zugänglich"
+      "zugänglich",
+      "meditativ"
     ],
     "source_notes": [
       "Goal: Den neuen Wochenspruch als ruhigen Auftakt der liturgischen Woche veröffentlichen.",
@@ -23,44 +24,80 @@
       "Production mode: für Monate im Voraus vollständig vorproduzierbar",
       "Structure: Wochenspruch | ein Bild oder eine Beobachtung | ein meditativer Satz | offene Schlussfrage oder Segenswunsch",
       "AI support notes: meditativer Rohentwurf | KI-Bildprompt | Reel-Sprechtext | Alt-Text",
-      "Liturgical source: https://kirchenjahr.pfarr.tools/api/jahr/2026 (2026-09-27, $.Tage['2026-09-27'])"
+      "Liturgical source: https://kirchenjahr.pfarr.tools/api/jahr/2026 (2026-09-27, $.Tage['2026-09-27'])",
+      "Wochenspruch: Unser Glaube ist der Sieg, der die Welt überwunden hat. (1. Joh 5,4c)"
     ]
   },
   "platforms": {
     "facebook": {
-      "text": "",
-      "headline": ""
+      "text": "„Unser Glaube ist der Sieg, der die Welt überwunden hat.“\n1. Joh 5,4c\n\nManchmal zeigt sich Stärke nicht im Lauten. Sondern in einem kleinen Schritt. In einem ruhigen Atemzug. Im Weitergehen, obwohl nicht alles leicht ist.\n\nDieser Satz spricht von Sieg. Aber nicht von Triumph und Glanz. Eher von einer Kraft, die trägt. Von Vertrauen, das nicht alles sofort verändert, aber Menschen innerlich fest macht.\n\nVielleicht ist Glaube manchmal wie ein Licht am frühen Morgen. Die Nacht ist noch spürbar. Aber der Tag beginnt schon.\n\nIch wünsche dir für diese Woche einen Glauben, der nicht drängt, sondern hält. Einen Glauben, der dir Mut gibt für das, was vor dir liegt.\n\nWas gibt dir heute Halt?",
+      "headline": "Wochenspruch zur neuen Woche"
     },
     "instagram": {
-      "caption": "",
-      "carousel": []
+      "caption": "„Unser Glaube ist der Sieg, der die Welt überwunden hat.“\n1. Joh 5,4c\n\nNicht jeder Sieg ist laut. Mancher Sieg beginnt still: mit Hoffnung, mit Vertrauen, mit dem Mut, den nächsten Schritt zu gehen.\n\nVielleicht ist Glaube heute genau das: eine leise Kraft, die trägt.\n\nWas gibt dir heute Halt?\n\n#Wochenspruch #Kirchenjahr #Glaube #Hoffnung #Meditation",
+      "carousel": [
+        {
+          "type": "text",
+          "text": "„Unser Glaube ist der Sieg, der die Welt überwunden hat.“\n1. Joh 5,4c"
+        },
+        {
+          "type": "text",
+          "text": "Nicht jeder Sieg ist laut. Mancher beginnt still."
+        },
+        {
+          "type": "text",
+          "text": "Glaube kann eine leise Kraft sein, die trägt."
+        },
+        {
+          "type": "text",
+          "text": "Was gibt dir heute Halt?"
+        }
+      ]
     },
     "mastodon": {
-      "text": ""
+      "text": "„Unser Glaube ist der Sieg, der die Welt überwunden hat.“ (1. Joh 5,4c)\n\nNicht jeder Sieg ist laut. Mancher beginnt still: mit Vertrauen, das trägt.\n\nWas gibt dir heute Halt?"
     },
     "bluesky": {
-      "text": ""
+      "text": "„Unser Glaube ist der Sieg, der die Welt überwunden hat.“ (1. Joh 5,4c)\n\nNicht jeder Sieg ist laut. Mancher beginnt still: mit Vertrauen, das trägt.\n\nWas gibt dir heute Halt?"
     },
     "story": {
-      "slides": []
+      "slides": [
+        {
+          "text": "„Unser Glaube ist der Sieg, der die Welt überwunden hat.“\n1. Joh 5,4c"
+        },
+        {
+          "text": "Nicht jeder Sieg ist laut."
+        },
+        {
+          "text": "Mancher beginnt still: mit Vertrauen, das trägt."
+        },
+        {
+          "text": "Was gibt dir heute Halt?"
+        }
+      ]
     },
     "reel": {
-      "hook": "",
-      "script": "",
-      "shots": [],
-      "duration_seconds": 0
+      "hook": "Nicht jeder Sieg ist laut.",
+      "script": "„Unser Glaube ist der Sieg, der die Welt überwunden hat.“\n\nSo beginnt diese Woche.\n\nNicht jeder Sieg ist laut.\nMancher zeigt sich ganz still.\nIm Mut zum nächsten Schritt.\nIm Atemholen.\nIm Vertrauen, das trägt.\n\nVielleicht ist Glaube genau das:\nkeine große Geste,\nsondern eine leise Kraft.\n\nWas gibt dir heute Halt?",
+      "shots": [
+        "Nahaufnahme von weichem Morgenlicht auf einem ruhigen Weg oder einer stillen Landschaft",
+        "Langsame Bewegung über Gras, Blätter oder Wasser im frühen Licht",
+        "Detailaufnahme von Licht und Schatten auf einem schlichten Untergrund",
+        "Ruhiger weiter Blick in den Himmel oder über ein offenes Feld"
+      ],
+      "duration_seconds": 22
     }
   },
   "visual": {
-    "concept": "",
-    "flux_prompt": "",
+    "concept": "Ruhige Morgenstimmung in der Natur. Ein einfacher Weg, sanftes Licht, klare Komposition. Das Bild soll Weite, Ruhe und tragende Hoffnung ausstrahlen.",
+    "flux_prompt": "Eine ruhige Landschaft am frühen Morgen mit sanftem Licht, schmalem Weg oder offener Fläche, feine Nebelspuren, natürliche gedeckte Farben, klare einfache Komposition, meditative Stimmung, protestantische Zurückhaltung, fotografisch, realistisch, hohe Detailtreue, weiches Licht, viel negativer Raum, keine Menschen, keine Gebäude im Vordergrund",
     "negative_prompt": "text, letters, logo, watermark",
     "formats": [
       "4:5",
       "9:16",
       "1.91:1"
     ],
-    "alt_text": ""
+    "alt_text": "Ruhige Landschaft im weichen Morgenlicht. Ein schmaler Weg oder eine offene Fläche führt in die Tiefe des Bildes. Die Szene wirkt still, klar und weit."
   },
   "qa": {
     "warnings": [
@@ -69,8 +106,8 @@
     "approved": false
   },
   "metadata": {
-    "model": "",
-    "generated_at": "",
+    "model": "gpt-5.4-2026-03-05",
+    "generated_at": "2026-09-27T16:47:16.480Z",
     "prompt_version": "1.0",
     "assets": []
   }
