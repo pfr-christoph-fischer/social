@@ -84,5 +84,62 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-28",
+    "contentDate": "2026-09-28",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-09-28T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Ich will dich mir verloben auf ewig, ich will dich mir verloben in Gerechtigkeit und Recht, in Gnade und Barmherzigkeit.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Ich will dich mir verloben auf ewig, ich will dich mir verloben in Gerechtigkeit und Recht, in Gnade und Barmherzigkeit."
+    ],
+    "id": "9a4acb29-488c-448b-b5b9-7e56c06b7ed1",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3mwkjtb63pq2w",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3mwkjtb63pq2w",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:45:56.068Z",
+    "updatedAt": "2026-09-28T05:00:38.826Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-28",
+    "contentDate": "2026-09-28",
+    "platform": "linkedin",
+    "format": "default",
+    "scheduledAt": "2026-09-28T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Ich will dich mir verloben auf ewig, ich will dich mir verloben in Gerechtigkeit und Recht, in Gnade und Barmherzigkeit.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Ich will dich mir verloben auf ewig, ich will dich mir verloben in Gerechtigkeit und Recht, in Gnade und Barmherzigkeit."
+    ],
+    "id": "ff4fafde-3eb6-4c3c-8746-604bf371be19",
+    "attemptCount": 1,
+    "remoteId": "urn:li:share:7510201793079836672",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:45:56.077Z",
+    "updatedAt": "2026-09-28T05:00:40.570Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 201
+    },
+    "retryHistory": []
   }
 ]
