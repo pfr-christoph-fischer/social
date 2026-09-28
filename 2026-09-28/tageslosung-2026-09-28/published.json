@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-28",
+    "contentDate": "2026-09-28",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-09-28T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Ich will dich mir verloben auf ewig, ich will dich mir verloben in Gerechtigkeit und Recht, in Gnade und Barmherzigkeit.",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Ich will dich mir verloben auf ewig, ich will dich mir verloben in Gerechtigkeit und Recht, in Gnade und Barmherzigkeit."
+    ],
+    "id": "bfda30eb-be9f-4f7e-a9ac-d1924a99d8d7",
+    "attemptCount": 1,
+    "remoteId": "18102224054167336",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:45:56.047Z",
+    "updatedAt": "2026-09-28T05:00:30.494Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-28",
+    "contentDate": "2026-09-28",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-09-28T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Ich will dich mir verloben auf ewig, ich will dich mir verloben in Gerechtigkeit und Recht, in Gnade und Barmherzigkeit.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Ich will dich mir verloben auf ewig, ich will dich mir verloben in Gerechtigkeit und Recht, in Gnade und Barmherzigkeit."
+    ],
+    "id": "1d4296e7-251e-426f-8ad5-907a5c8e7b8b",
+    "attemptCount": 1,
+    "remoteId": "117346902471585212",
+    "remoteUrl": "https://kirche.social/@christoph/117346902471585212",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:45:56.054Z",
+    "updatedAt": "2026-09-28T05:00:32.366Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
