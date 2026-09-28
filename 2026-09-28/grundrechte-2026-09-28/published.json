@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-09-28",
+    "contentDate": "2026-09-28",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-09-28T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Jeder, der wegen einer strafbaren Handlung beschuldigt wird, hat das Recht, als unschuldig zu gelten, solange seine Schuld nicht in einem öffentlichen Verfahren, in dem er alle für seine Verteidigung notwendigen Garantien gehabt hat, gemäß dem Gesetz nachgewiesen ist. (Allgemeine Erklärung der Menschenrechte, Artikel 11 Absatz 1)",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Jeder, der wegen einer strafbaren Handlung beschuldigt wird, hat das Recht, als unschuldig zu gelten, solange seine Schuld nicht in einem öffentlichen Verfahren, in dem er alle für seine Verteidigung notwendigen Garantien gehabt hat, gemäß dem Gesetz nachgewiesen ist. (Allgemeine Erklärung der Menschenrechte, Artikel 11 Absatz 1)"
+    ],
+    "id": "56f7bb55-8dba-42fc-a74b-3e96f60cebea",
+    "attemptCount": 1,
+    "remoteId": "18560175694078873",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:38:44.830Z",
+    "updatedAt": "2026-09-28T10:00:31.839Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-09-28",
+    "contentDate": "2026-09-28",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-09-28T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Jeder, der wegen einer strafbaren Handlung beschuldigt wird, hat das Recht, als unschuldig zu gelten, solange seine Schuld nicht in einem öffentlichen Verfahren, in dem er alle für seine Verteidigung notwendigen Garantien gehabt hat, gemäß dem Gesetz nachgewiesen ist. (Allgemeine Erklärung der Menschenrechte, Artikel 11 Absatz 1)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Jeder, der wegen einer strafbaren Handlung beschuldigt wird, hat das Recht, als unschuldig zu gelten, solange seine Schuld nicht in einem öffentlichen Verfahren, in dem er alle für seine Verteidigung notwendigen Garantien gehabt hat, gemäß dem Gesetz nachgewiesen ist. (Allgemeine Erklärung der Menschenrechte, Artikel 11 Absatz 1)"
+    ],
+    "id": "b08811c4-cb1b-4c74-97fa-40ace8b9abf6",
+    "attemptCount": 1,
+    "remoteId": "117348082265465156",
+    "remoteUrl": "https://kirche.social/@christoph/117348082265465156",
+    "lastError": null,
+    "createdAt": "2026-08-26T15:38:44.888Z",
+    "updatedAt": "2026-09-28T10:00:34.281Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
