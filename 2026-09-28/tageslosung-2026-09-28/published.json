@@ -141,5 +141,45 @@
       "status": 201
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-28",
+    "contentDate": "2026-09-28",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-09-28T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Ich will dich mir verloben auf ewig, ich will dich mir verloben in Gerechtigkeit und Recht, in Gnade und Barmherzigkeit.",
+    "assets": [
+      "render-square-01.jpg"
+    ],
+    "altTexts": [
+      "Ich will dich mir verloben auf ewig, ich will dich mir verloben in Gerechtigkeit und Recht, in Gnade und Barmherzigkeit."
+    ],
+    "id": "69be8a6d-b076-47f3-af01-86d0751f2bdc",
+    "attemptCount": 3,
+    "remoteId": "18115810132979279",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:45:56.061Z",
+    "updatedAt": "2026-09-28T05:10:16.038Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 200
+    },
+    "retryHistory": [
+      {
+        "at": "2026-09-28T05:00:36.621Z",
+        "error": "threads: Container konnte nicht erstellt werden (500): An unexpected error has occurred. Please retry your request later. (Code 2)",
+        "attempt": 1
+      },
+      {
+        "at": "2026-09-28T05:05:07.352Z",
+        "error": "threads: Container konnte nicht erstellt werden (500): An unexpected error has occurred. Please retry your request later. (Code 2)",
+        "attempt": 2
+      }
+    ]
   }
 ]
