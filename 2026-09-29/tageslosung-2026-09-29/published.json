@@ -141,5 +141,40 @@
       "status": 201
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-29",
+    "contentDate": "2026-09-29",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-09-29T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Gelobet sei der Name Gottes von Ewigkeit zu Ewigkeit, denn ihm gehören Weisheit und Stärke!",
+    "assets": [
+      "render-square-01.jpg"
+    ],
+    "altTexts": [
+      "Gelobet sei der Name Gottes von Ewigkeit zu Ewigkeit, denn ihm gehören Weisheit und Stärke!"
+    ],
+    "id": "ecc7340f-bbfd-4158-aa1a-72c00089c7f4",
+    "attemptCount": 2,
+    "remoteId": "18025780580879084",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:45:58.326Z",
+    "updatedAt": "2026-09-29T05:05:17.773Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 200
+    },
+    "retryHistory": [
+      {
+        "at": "2026-09-29T05:00:35.284Z",
+        "error": "threads: Container konnte nicht erstellt werden (500): An unexpected error has occurred. Please retry your request later. (Code 2)",
+        "attempt": 1
+      }
+    ]
   }
 ]
