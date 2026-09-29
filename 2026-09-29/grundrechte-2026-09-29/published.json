@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-09-29",
+    "contentDate": "2026-09-29",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-09-29T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Niemand darf wegen einer Handlung oder Unterlassung verurteilt werden, die zur Zeit ihrer Begehung nach innerstaatlichem oder internationalem Recht nicht strafbar war. (Allgemeine Erklärung der Menschenrechte, Artikel 11 Absatz 2)",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Niemand darf wegen einer Handlung oder Unterlassung verurteilt werden, die zur Zeit ihrer Begehung nach innerstaatlichem oder internationalem Recht nicht strafbar war. (Allgemeine Erklärung der Menschenrechte, Artikel 11 Absatz 2)"
+    ],
+    "id": "0c68f354-aa67-470d-90f4-2951bc5000d8",
+    "attemptCount": 1,
+    "remoteId": "17908795167550994",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:38:48.100Z",
+    "updatedAt": "2026-09-29T10:00:27.901Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-09-29",
+    "contentDate": "2026-09-29",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-09-29T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Niemand darf wegen einer Handlung oder Unterlassung verurteilt werden, die zur Zeit ihrer Begehung nach innerstaatlichem oder internationalem Recht nicht strafbar war. (Allgemeine Erklärung der Menschenrechte, Artikel 11 Absatz 2)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Niemand darf wegen einer Handlung oder Unterlassung verurteilt werden, die zur Zeit ihrer Begehung nach innerstaatlichem oder internationalem Recht nicht strafbar war. (Allgemeine Erklärung der Menschenrechte, Artikel 11 Absatz 2)"
+    ],
+    "id": "e50813d4-9605-42bd-8566-801080eb04fe",
+    "attemptCount": 1,
+    "remoteId": "117353744266560085",
+    "remoteUrl": "https://kirche.social/@christoph/117353744266560085",
+    "lastError": null,
+    "createdAt": "2026-08-26T15:38:48.140Z",
+    "updatedAt": "2026-09-29T10:00:29.527Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
