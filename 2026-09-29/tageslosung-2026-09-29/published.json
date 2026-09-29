@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-29",
+    "contentDate": "2026-09-29",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-09-29T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Gelobet sei der Name Gottes von Ewigkeit zu Ewigkeit, denn ihm gehören Weisheit und Stärke!",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Gelobet sei der Name Gottes von Ewigkeit zu Ewigkeit, denn ihm gehören Weisheit und Stärke!"
+    ],
+    "id": "cf11d1da-a911-4c91-be45-2df48af4a119",
+    "attemptCount": 1,
+    "remoteId": "17997235233011953",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:45:58.310Z",
+    "updatedAt": "2026-09-29T05:00:28.876Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-29",
+    "contentDate": "2026-09-29",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-09-29T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Gelobet sei der Name Gottes von Ewigkeit zu Ewigkeit, denn ihm gehören Weisheit und Stärke!",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Gelobet sei der Name Gottes von Ewigkeit zu Ewigkeit, denn ihm gehören Weisheit und Stärke!"
+    ],
+    "id": "2bf190e4-f005-45e2-896c-633ead27c967",
+    "attemptCount": 1,
+    "remoteId": "117352564686881000",
+    "remoteUrl": "https://kirche.social/@christoph/117352564686881000",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:45:58.317Z",
+    "updatedAt": "2026-09-29T05:00:30.587Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
