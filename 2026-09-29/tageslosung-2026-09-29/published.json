@@ -84,5 +84,62 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-29",
+    "contentDate": "2026-09-29",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-09-29T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Gelobet sei der Name Gottes von Ewigkeit zu Ewigkeit, denn ihm gehören Weisheit und Stärke!",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Gelobet sei der Name Gottes von Ewigkeit zu Ewigkeit, denn ihm gehören Weisheit und Stärke!"
+    ],
+    "id": "987646bb-c8db-4218-a28f-8563123800e7",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3mwn2c5huta2r",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3mwn2c5huta2r",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:45:58.336Z",
+    "updatedAt": "2026-09-29T05:00:37.585Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-29",
+    "contentDate": "2026-09-29",
+    "platform": "linkedin",
+    "format": "default",
+    "scheduledAt": "2026-09-29T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Gelobet sei der Name Gottes von Ewigkeit zu Ewigkeit, denn ihm gehören Weisheit und Stärke!",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Gelobet sei der Name Gottes von Ewigkeit zu Ewigkeit, denn ihm gehören Weisheit und Stärke!"
+    ],
+    "id": "fc899fe1-2d0f-4995-a592-43667f022d4a",
+    "attemptCount": 1,
+    "remoteId": "urn:li:share:7510564177632174080",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:45:58.346Z",
+    "updatedAt": "2026-09-29T05:00:40.033Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 201
+    },
+    "retryHistory": []
   }
 ]
