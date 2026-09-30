@@ -1,0 +1,460 @@
+{
+  "id": "resp_08583bf4207719fa006abccfa1734887d1a55cf9c2e9783180",
+  "object": "response",
+  "created_at": 1790758817,
+  "status": "completed",
+  "access_programs": null,
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1790758854,
+  "error": null,
+  "frequency_penalty": 0,
+  "incomplete_details": null,
+  "instructions": "You are part of a Protestant social media editorial team. Write in clear, accessible, theologically responsible German without church clichés. Use short sentences and concrete imagery. Never invent events, people, school situations, quotes, or factual details. Do not include copyrighted full song verses. For Reli and community posts, only use current details when they are explicitly provided. Return content that strictly matches the requested JSON schema. Set needs_input to true whenever required facts are missing. Keep qa.approved false. Do not ask for any text inside generated images. When liturgical_context.resolved_weekly_verse is present, use its exact wording for Wochenspruch slots instead of placeholders. Use the web search tool before drafting to verify current situations. For prayer posts, current situations are mandatory: select at least two concrete, relevant situations from reliable current reporting, including tagesschau.de and SWR Aktuell Baden-Württemberg where relevant. Do not invent current events and do not replace concrete situations with generic references to crises.",
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.4-2026-03-05",
+  "moderation": null,
+  "output": [
+    {
+      "id": "ws_08583bf4207719fa006abccfa3470087d1af0d410105135533",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "queries": [
+          "site:tagesschau.de 29.09.2026 Nachrichten Deutschland Welt",
+          "site:swr.de/swraktuell/baden-wuerttemberg 29.09.2026 Baden-Württemberg Nachrichten",
+          "Reuters September 29 2026 world news latest"
+        ],
+        "query": "site:tagesschau.de 29.09.2026 Nachrichten Deutschland Welt"
+      }
+    },
+    {
+      "id": "ws_08583bf4207719fa006abccfa5db9087d1ba7002355007766c",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.swr.de/swraktuell/baden-wuerttemberg/bw-newsticker-am-morgen-2026-09-30-100.html"
+      }
+    },
+    {
+      "id": "msg_08583bf4207719fa006abccfa7173c87d185347ba2faa02f87",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\"id\":\"prayer-evening-2026-09-30\",\"status\":\"in Arbeit\",\"needs_input\":false,\"source\":{\"calendar_post_id\":\"prayer-evening-2026-09-30\",\"date\":\"2026-09-30\",\"rubric\":\"Abendgebet\",\"liturgical_source\":\"\"},\"editorial_core\":{\"title\":\"Abendgebet\",\"main_message\":\"Gott, wir legen diesen Tag in deine Hand. Das, was gut war. Das, was offen blieb. Wir bitten dich für Menschen auf der Flucht vor den Kämpfen im Jemen, für die Menschen in der Ukraine unter erneuten russischen Angriffen und für alle, die in Baden-Württemberg wegen der Warnstreiks nicht wissen, wie sie zur Arbeit, zur Schule oder nach Hause kommen. Wenn unsere Kraft für heute endet, lass deine Zukunft nicht enden.\",\"audience\":\"breite Öffentlichkeit\",\"tone\":[\"ruhig\",\"hoffnungsvoll\",\"geborgen\"],\"source_notes\":[\"Aktuelle Lage geprüft: tagesschau vom 29.09.2026 nennt mehr als 145.000 Menschen auf der Flucht vor Kämpfen im Jemen.\",\"Aktuelle Lage geprüft: tagesschau vom 29.09.2026 nennt erneute russische Angriffsserien auf die Ukraine.\",\"Aktuelle Lage geprüft: SWR Aktuell Baden-Württemberg vom 30.09.2026, mit Bezug auf 29.09.2026, berichtet über Warnstreiks bei der SWEG mit Ausfällen bei Bussen und Zügen in mehreren Städten Baden-Württembergs.\",\"Zeitlich robust formuliert: keine Behauptung über Entwicklungen des Veröffentlichungstags, sondern Gebetsanliegen aus der bis zum Nachmittag des Vortags erkennbaren Lage.\",\"Sprache bewusst einfach und ohne kirchliche Binnenbegriffe gehalten.\",\"Theologische Linie: Hoffnung nicht als billige Auflösung, sondern als Vertrauen darauf, dass Gottes Zukunft größer ist als das, was heute gelungen oder gescheitert ist.\"]},\"platforms\":{\"facebook\":{\"text\":\"Gott,\\nder Tag liegt hinter uns.\\nMit allem, was gelungen ist.\\nUnd mit allem, was offen blieb.\\n\\nWir denken heute Abend an die Menschen im Jemen, die vor Kämpfen fliehen mussten.\\nWir denken an die Menschen in der Ukraine, die erneut russische Angriffe erleben.\\nUnd wir denken an alle in Baden-Württemberg, deren Wege durch die Warnstreiks bei Bussen und Zügen unsicher geworden sind.\\n\\nSei bei denen, die heute Nacht Angst haben.\\nBei denen, die wachen, pflegen, fahren, trösten und helfen.\\n\\nNimm von uns, was wir nicht mehr tragen können.\\nBewahre das Gute.\\nHeile, was wehgetan hat.\\nUnd halte deine Hoffnung in uns wach,\\nwenn unsere Kraft für heute zu Ende ist.\\n\\nSchenk uns Frieden für diese Nacht.\\nAmen.\",\"headline\":\"Abendgebet: Den Tag loslassen\"},\"instagram\":{\"caption\":\"Gott,\\nwir legen dir diesen Tag hin.\\nDas Gute. Das Schwere. Das Unfertige.\\n\\nWir bitten dich für Menschen im Jemen auf der Flucht vor Kämpfen.\\nFür Menschen in der Ukraine unter neuen Angriffen.\\nFür alle in Baden-Württemberg, deren Wege durch die Warnstreiks bei Bus und Bahn unsicher geworden sind.\\n\\nSchenk dieser unruhigen Welt und unseren müden Herzen Frieden für die Nacht.\\nAmen.\",\"carousel\":[{\"type\":\"text\",\"text\":\"Der Tag liegt hinter dir.\\nDu musst ihn nicht festhalten.\"},{\"type\":\"text\",\"text\":\"Bring vor Gott,\\nwas gut war.\\nUnd was offen blieb.\"},{\"type\":\"text\",\"text\":\"Bete für Menschen im Jemen,\\ndie vor Kämpfen fliehen.\"},{\"type\":\"text\",\"text\":\"Bete für Menschen in der Ukraine,\\ndie neue Angriffe erleben.\"},{\"type\":\"text\",\"text\":\"Bete für alle,\\nderen Wege in Baden-Württemberg\\nheute unsicher sind.\"},{\"type\":\"text\",\"text\":\"Gottes Zukunft endet nicht dort,\\nwo deine Kraft für heute endet.\"}]},\"mastodon\":{\"text\":\"Gott, wir legen diesen Tag in deine Hand. Wir bitten dich für Menschen im Jemen auf der Flucht vor Kämpfen, für Menschen in der Ukraine unter erneuten Angriffen und für alle in Baden-Württemberg, deren Wege durch Warnstreiks bei Bus und Bahn unsicher geworden sind. Schenk Frieden für diese Nacht. Amen.\"},\"bluesky\":{\"text\":\"Gott, wir legen diesen Tag in deine Hand. Wir bitten dich für Menschen im Jemen auf der Flucht vor Kämpfen, für Menschen in der Ukraine unter erneuten Angriffen und für alle in Baden-Württemberg, deren Wege durch Warnstreiks bei Bus und Bahn unsicher geworden sind. Schenk Frieden für diese Nacht. Amen.\"},\"story\":{\"slides\":[{\"text\":\"Der Tag liegt hinter dir.\\nDu darfst ihn loslassen.\"},{\"text\":\"Was gut war.\\nWas schwer war.\\nWas offen blieb.\"},{\"text\":\"Wir beten für Menschen im Jemen auf der Flucht.\"},{\"text\":\"Wir beten für Menschen in der Ukraine unter neuen Angriffen.\"},{\"text\":\"Wir beten für alle,\\nderen Wege heute unsicher sind.\"},{\"text\":\"Gott,\\nschenk Frieden für diese Nacht.\"}]},\"reel\":{\"hook\":\"Wenn der Tag nicht fertig geworden ist.\",\"script\":\"Wenn der Tag nicht fertig geworden ist, darfst du ihn trotzdem aus der Hand legen. Vor Gott muss heute nichts perfekt sein. Wir beten für Menschen im Jemen auf der Flucht vor Kämpfen. Für Menschen in der Ukraine unter neuen Angriffen. Für alle in Baden-Württemberg, deren Wege durch Warnstreiks bei Bus und Bahn unsicher geworden sind. Gott, nimm das Gute und das Schwere dieses Tages in deine Hand. Schenk uns Frieden für diese Nacht und halte Hoffnung in uns wach.\",\"shots\":[\"Abendlicht auf einem offenen Fenster\",\"Eine Hand legt ein Handy und einen Schlüsselbund auf einen Tisch\",\"Leere Straße in der Dämmerung\",\"Nahaufnahme von ruhigem Atem und stillen Händen\",\"Licht in einem Krankenhausflur oder auf einem nächtlichen Weg\",\"Dunkler Himmel, dann ein weicher heller Streifen am Morgenhorizont\"],\"duration_seconds\":30}},\"visual\":{\"concept\":\"Ruhige Abendszene an einem Fenster. Warmes Restlicht. Ein schlichter Tisch mit abgelegten Alltagsdingen. Stimmung von Loslassen, ohne Weltflucht.\",\"flux_prompt\":\"Fotorealistische ruhige Abendszene in einem schlichten Zimmer am Fenster, warmes spätes Abendlicht, ein kleiner Tisch mit abgelegtem Schlüsselbund, geschlossenem Notizbuch und ausgeschaltetem Handy, weiche Schatten, zurückhaltende Farbigkeit, still, menschlich, hoffnungsvoll, keine Menschenmenge, keine dramatische Inszenierung, natürliche Details, editorial photography\",\"negative_prompt\":\"text, letters, logo, watermark, typography, caption, poster, signage\",\"formats\":[\"4:5\",\"9:16\",\"1.91:1\"],\"alt_text\":\"Ein ruhiger Tisch an einem Fenster im Abendlicht. Darauf liegen ein Schlüsselbund, ein geschlossenes Notizbuch und ein ausgeschaltetes Handy. Die Szene wirkt still und lädt dazu ein, den Tag loszulassen.\"},\"qa\":{\"warnings\":[\"Alt text must be completed before approval\",\"Aktuelle Bezüge vor Freigabe nochmals gegen die Nachrichtenlage vom Nachmittag des 29.09.2026 prüfen.\",\"Gebet nennt drei konkrete Situationen; bei Lageänderungen am Veröffentlichungstag nicht nachträglich zuspitzen ohne erneute Prüfung.\"],\"approved\":false},\"metadata\":{\"model\":\"gpt-5\",\"generated_at\":\"2026-09-30T00:00:00Z\",\"prompt_version\":\"1.0\",\"assets\":[]}}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "current_turn",
+    "effort": "none",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1,
+  "text": {
+    "format": {
+      "type": "json_schema",
+      "description": null,
+      "name": "content_package",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "Idee",
+              "in Arbeit",
+              "zur Prüfung",
+              "freigegeben",
+              "terminiert",
+              "veröffentlicht",
+              "verworfen"
+            ]
+          },
+          "needs_input": {
+            "type": "boolean"
+          },
+          "source": {
+            "type": "object",
+            "properties": {
+              "calendar_post_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "date": {
+                "type": "string",
+                "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+              },
+              "rubric": {
+                "type": "string",
+                "minLength": 1
+              },
+              "liturgical_source": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "calendar_post_id",
+              "date",
+              "rubric",
+              "liturgical_source"
+            ],
+            "additionalProperties": false
+          },
+          "editorial_core": {
+            "type": "object",
+            "properties": {
+              "title": {
+                "type": "string"
+              },
+              "main_message": {
+                "type": "string"
+              },
+              "audience": {
+                "type": "string"
+              },
+              "tone": {
+                "minItems": 1,
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "source_notes": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "title",
+              "main_message",
+              "audience",
+              "tone",
+              "source_notes"
+            ],
+            "additionalProperties": false
+          },
+          "platforms": {
+            "type": "object",
+            "properties": {
+              "facebook": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  },
+                  "headline": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text",
+                  "headline"
+                ],
+                "additionalProperties": false
+              },
+              "instagram": {
+                "type": "object",
+                "properties": {
+                  "caption": {
+                    "type": "string"
+                  },
+                  "carousel": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "type": {
+                          "type": "string"
+                        },
+                        "text": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "type",
+                        "text"
+                      ],
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "required": [
+                  "caption",
+                  "carousel"
+                ],
+                "additionalProperties": false
+              },
+              "mastodon": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text"
+                ],
+                "additionalProperties": false
+              },
+              "bluesky": {
+                "default": {
+                  "text": ""
+                },
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text"
+                ],
+                "additionalProperties": false
+              },
+              "story": {
+                "type": "object",
+                "properties": {
+                  "slides": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "text": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "text"
+                      ],
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "required": [
+                  "slides"
+                ],
+                "additionalProperties": false
+              },
+              "reel": {
+                "type": "object",
+                "properties": {
+                  "hook": {
+                    "type": "string"
+                  },
+                  "script": {
+                    "type": "string"
+                  },
+                  "shots": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "duration_seconds": {
+                    "type": "integer",
+                    "minimum": 0,
+                    "maximum": 9007199254740991
+                  }
+                },
+                "required": [
+                  "hook",
+                  "script",
+                  "shots",
+                  "duration_seconds"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "required": [
+              "facebook",
+              "instagram",
+              "mastodon",
+              "bluesky",
+              "story",
+              "reel"
+            ],
+            "additionalProperties": false
+          },
+          "visual": {
+            "type": "object",
+            "properties": {
+              "concept": {
+                "type": "string"
+              },
+              "flux_prompt": {
+                "type": "string"
+              },
+              "negative_prompt": {
+                "type": "string",
+                "minLength": 1
+              },
+              "formats": {
+                "minItems": 1,
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "alt_text": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "concept",
+              "flux_prompt",
+              "negative_prompt",
+              "formats",
+              "alt_text"
+            ],
+            "additionalProperties": false
+          },
+          "qa": {
+            "type": "object",
+            "properties": {
+              "warnings": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "approved": {
+                "type": "boolean"
+              }
+            },
+            "required": [
+              "warnings",
+              "approved"
+            ],
+            "additionalProperties": false
+          },
+          "metadata": {
+            "type": "object",
+            "properties": {
+              "model": {
+                "type": "string"
+              },
+              "generated_at": {
+                "type": "string"
+              },
+              "prompt_version": {
+                "type": "string",
+                "minLength": 1
+              },
+              "assets": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "model",
+              "generated_at",
+              "prompt_version",
+              "assets"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "id",
+          "status",
+          "needs_input",
+          "source",
+          "editorial_core",
+          "platforms",
+          "visual",
+          "qa",
+          "metadata"
+        ],
+        "additionalProperties": false
+      },
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 1
+    }
+  },
+  "tools": [
+    {
+      "type": "web_search",
+      "return_token_budget": "default",
+      "search_content_types": [
+        "text"
+      ],
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 19280,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1793,
+    "output_tokens_details": {
+      "reasoning_tokens": 147
+    },
+    "total_tokens": 21073
+  },
+  "user": null,
+  "metadata": {},
+  "output_text": "{\"id\":\"prayer-evening-2026-09-30\",\"status\":\"in Arbeit\",\"needs_input\":false,\"source\":{\"calendar_post_id\":\"prayer-evening-2026-09-30\",\"date\":\"2026-09-30\",\"rubric\":\"Abendgebet\",\"liturgical_source\":\"\"},\"editorial_core\":{\"title\":\"Abendgebet\",\"main_message\":\"Gott, wir legen diesen Tag in deine Hand. Das, was gut war. Das, was offen blieb. Wir bitten dich für Menschen auf der Flucht vor den Kämpfen im Jemen, für die Menschen in der Ukraine unter erneuten russischen Angriffen und für alle, die in Baden-Württemberg wegen der Warnstreiks nicht wissen, wie sie zur Arbeit, zur Schule oder nach Hause kommen. Wenn unsere Kraft für heute endet, lass deine Zukunft nicht enden.\",\"audience\":\"breite Öffentlichkeit\",\"tone\":[\"ruhig\",\"hoffnungsvoll\",\"geborgen\"],\"source_notes\":[\"Aktuelle Lage geprüft: tagesschau vom 29.09.2026 nennt mehr als 145.000 Menschen auf der Flucht vor Kämpfen im Jemen.\",\"Aktuelle Lage geprüft: tagesschau vom 29.09.2026 nennt erneute russische Angriffsserien auf die Ukraine.\",\"Aktuelle Lage geprüft: SWR Aktuell Baden-Württemberg vom 30.09.2026, mit Bezug auf 29.09.2026, berichtet über Warnstreiks bei der SWEG mit Ausfällen bei Bussen und Zügen in mehreren Städten Baden-Württembergs.\",\"Zeitlich robust formuliert: keine Behauptung über Entwicklungen des Veröffentlichungstags, sondern Gebetsanliegen aus der bis zum Nachmittag des Vortags erkennbaren Lage.\",\"Sprache bewusst einfach und ohne kirchliche Binnenbegriffe gehalten.\",\"Theologische Linie: Hoffnung nicht als billige Auflösung, sondern als Vertrauen darauf, dass Gottes Zukunft größer ist als das, was heute gelungen oder gescheitert ist.\"]},\"platforms\":{\"facebook\":{\"text\":\"Gott,\\nder Tag liegt hinter uns.\\nMit allem, was gelungen ist.\\nUnd mit allem, was offen blieb.\\n\\nWir denken heute Abend an die Menschen im Jemen, die vor Kämpfen fliehen mussten.\\nWir denken an die Menschen in der Ukraine, die erneut russische Angriffe erleben.\\nUnd wir denken an alle in Baden-Württemberg, deren Wege durch die Warnstreiks bei Bussen und Zügen unsicher geworden sind.\\n\\nSei bei denen, die heute Nacht Angst haben.\\nBei denen, die wachen, pflegen, fahren, trösten und helfen.\\n\\nNimm von uns, was wir nicht mehr tragen können.\\nBewahre das Gute.\\nHeile, was wehgetan hat.\\nUnd halte deine Hoffnung in uns wach,\\nwenn unsere Kraft für heute zu Ende ist.\\n\\nSchenk uns Frieden für diese Nacht.\\nAmen.\",\"headline\":\"Abendgebet: Den Tag loslassen\"},\"instagram\":{\"caption\":\"Gott,\\nwir legen dir diesen Tag hin.\\nDas Gute. Das Schwere. Das Unfertige.\\n\\nWir bitten dich für Menschen im Jemen auf der Flucht vor Kämpfen.\\nFür Menschen in der Ukraine unter neuen Angriffen.\\nFür alle in Baden-Württemberg, deren Wege durch die Warnstreiks bei Bus und Bahn unsicher geworden sind.\\n\\nSchenk dieser unruhigen Welt und unseren müden Herzen Frieden für die Nacht.\\nAmen.\",\"carousel\":[{\"type\":\"text\",\"text\":\"Der Tag liegt hinter dir.\\nDu musst ihn nicht festhalten.\"},{\"type\":\"text\",\"text\":\"Bring vor Gott,\\nwas gut war.\\nUnd was offen blieb.\"},{\"type\":\"text\",\"text\":\"Bete für Menschen im Jemen,\\ndie vor Kämpfen fliehen.\"},{\"type\":\"text\",\"text\":\"Bete für Menschen in der Ukraine,\\ndie neue Angriffe erleben.\"},{\"type\":\"text\",\"text\":\"Bete für alle,\\nderen Wege in Baden-Württemberg\\nheute unsicher sind.\"},{\"type\":\"text\",\"text\":\"Gottes Zukunft endet nicht dort,\\nwo deine Kraft für heute endet.\"}]},\"mastodon\":{\"text\":\"Gott, wir legen diesen Tag in deine Hand. Wir bitten dich für Menschen im Jemen auf der Flucht vor Kämpfen, für Menschen in der Ukraine unter erneuten Angriffen und für alle in Baden-Württemberg, deren Wege durch Warnstreiks bei Bus und Bahn unsicher geworden sind. Schenk Frieden für diese Nacht. Amen.\"},\"bluesky\":{\"text\":\"Gott, wir legen diesen Tag in deine Hand. Wir bitten dich für Menschen im Jemen auf der Flucht vor Kämpfen, für Menschen in der Ukraine unter erneuten Angriffen und für alle in Baden-Württemberg, deren Wege durch Warnstreiks bei Bus und Bahn unsicher geworden sind. Schenk Frieden für diese Nacht. Amen.\"},\"story\":{\"slides\":[{\"text\":\"Der Tag liegt hinter dir.\\nDu darfst ihn loslassen.\"},{\"text\":\"Was gut war.\\nWas schwer war.\\nWas offen blieb.\"},{\"text\":\"Wir beten für Menschen im Jemen auf der Flucht.\"},{\"text\":\"Wir beten für Menschen in der Ukraine unter neuen Angriffen.\"},{\"text\":\"Wir beten für alle,\\nderen Wege heute unsicher sind.\"},{\"text\":\"Gott,\\nschenk Frieden für diese Nacht.\"}]},\"reel\":{\"hook\":\"Wenn der Tag nicht fertig geworden ist.\",\"script\":\"Wenn der Tag nicht fertig geworden ist, darfst du ihn trotzdem aus der Hand legen. Vor Gott muss heute nichts perfekt sein. Wir beten für Menschen im Jemen auf der Flucht vor Kämpfen. Für Menschen in der Ukraine unter neuen Angriffen. Für alle in Baden-Württemberg, deren Wege durch Warnstreiks bei Bus und Bahn unsicher geworden sind. Gott, nimm das Gute und das Schwere dieses Tages in deine Hand. Schenk uns Frieden für diese Nacht und halte Hoffnung in uns wach.\",\"shots\":[\"Abendlicht auf einem offenen Fenster\",\"Eine Hand legt ein Handy und einen Schlüsselbund auf einen Tisch\",\"Leere Straße in der Dämmerung\",\"Nahaufnahme von ruhigem Atem und stillen Händen\",\"Licht in einem Krankenhausflur oder auf einem nächtlichen Weg\",\"Dunkler Himmel, dann ein weicher heller Streifen am Morgenhorizont\"],\"duration_seconds\":30}},\"visual\":{\"concept\":\"Ruhige Abendszene an einem Fenster. Warmes Restlicht. Ein schlichter Tisch mit abgelegten Alltagsdingen. Stimmung von Loslassen, ohne Weltflucht.\",\"flux_prompt\":\"Fotorealistische ruhige Abendszene in einem schlichten Zimmer am Fenster, warmes spätes Abendlicht, ein kleiner Tisch mit abgelegtem Schlüsselbund, geschlossenem Notizbuch und ausgeschaltetem Handy, weiche Schatten, zurückhaltende Farbigkeit, still, menschlich, hoffnungsvoll, keine Menschenmenge, keine dramatische Inszenierung, natürliche Details, editorial photography\",\"negative_prompt\":\"text, letters, logo, watermark, typography, caption, poster, signage\",\"formats\":[\"4:5\",\"9:16\",\"1.91:1\"],\"alt_text\":\"Ein ruhiger Tisch an einem Fenster im Abendlicht. Darauf liegen ein Schlüsselbund, ein geschlossenes Notizbuch und ein ausgeschaltetes Handy. Die Szene wirkt still und lädt dazu ein, den Tag loszulassen.\"},\"qa\":{\"warnings\":[\"Alt text must be completed before approval\",\"Aktuelle Bezüge vor Freigabe nochmals gegen die Nachrichtenlage vom Nachmittag des 29.09.2026 prüfen.\",\"Gebet nennt drei konkrete Situationen; bei Lageänderungen am Veröffentlichungstag nicht nachträglich zuspitzen ohne erneute Prüfung.\"],\"approved\":false},\"metadata\":{\"model\":\"gpt-5\",\"generated_at\":\"2026-09-30T00:00:00Z\",\"prompt_version\":\"1.0\",\"assets\":[]}}"
+}
