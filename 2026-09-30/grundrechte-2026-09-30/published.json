@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-09-30",
+    "contentDate": "2026-09-30",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-09-30T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Niemand darf willkürlichen Eingriffen in sein Privatleben, seine Familie, seine Wohnung und seinen Schriftverkehr oder Beeinträchtigungen seiner Ehre und seines Rufes ausgesetzt werden. (Allgemeine Erklärung der Menschenrechte, Artikel 12)",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Niemand darf willkürlichen Eingriffen in sein Privatleben, seine Familie, seine Wohnung und seinen Schriftverkehr oder Beeinträchtigungen seiner Ehre und seines Rufes ausgesetzt werden. (Allgemeine Erklärung der Menschenrechte, Artikel 12)"
+    ],
+    "id": "66660308-cf5e-4ced-ba08-8cdd0fa0f9bc",
+    "attemptCount": 1,
+    "remoteId": "17994246738032261",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:38:50.919Z",
+    "updatedAt": "2026-09-30T10:00:37.101Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-09-30",
+    "contentDate": "2026-09-30",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-09-30T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Niemand darf willkürlichen Eingriffen in sein Privatleben, seine Familie, seine Wohnung und seinen Schriftverkehr oder Beeinträchtigungen seiner Ehre und seines Rufes ausgesetzt werden. (Allgemeine Erklärung der Menschenrechte, Artikel 12)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Niemand darf willkürlichen Eingriffen in sein Privatleben, seine Familie, seine Wohnung und seinen Schriftverkehr oder Beeinträchtigungen seiner Ehre und seines Rufes ausgesetzt werden. (Allgemeine Erklärung der Menschenrechte, Artikel 12)"
+    ],
+    "id": "e16866a2-7922-4966-98c2-b1e592f755f6",
+    "attemptCount": 1,
+    "remoteId": "117359407231721850",
+    "remoteUrl": "https://kirche.social/@christoph/117359407231721850",
+    "lastError": null,
+    "createdAt": "2026-08-26T15:38:50.969Z",
+    "updatedAt": "2026-09-30T10:00:39.525Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
