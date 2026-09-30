@@ -84,5 +84,91 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-30",
+    "contentDate": "2026-09-30",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-09-30T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Wenn ihr den HERRN sucht, wird er sich von euch finden lassen.",
+    "assets": [
+      "render-square-01.jpg"
+    ],
+    "altTexts": [
+      "Wenn ihr den HERRN sucht, wird er sich von euch finden lassen."
+    ],
+    "id": "6d9650c1-5b53-44e6-a446-e38f90acbafd",
+    "attemptCount": 1,
+    "remoteId": "18115428674079087",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:46:00.489Z",
+    "updatedAt": "2026-09-30T05:00:50.773Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-30",
+    "contentDate": "2026-09-30",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-09-30T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Wenn ihr den HERRN sucht, wird er sich von euch finden lassen.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Wenn ihr den HERRN sucht, wird er sich von euch finden lassen."
+    ],
+    "id": "7d30c74e-ac4c-4029-addc-5b5ba801e893",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3mwpkrjluhd2r",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3mwpkrjluhd2r",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:46:00.510Z",
+    "updatedAt": "2026-09-30T05:00:52.963Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-30",
+    "contentDate": "2026-09-30",
+    "platform": "linkedin",
+    "format": "default",
+    "scheduledAt": "2026-09-30T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Wenn ihr den HERRN sucht, wird er sich von euch finden lassen.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Wenn ihr den HERRN sucht, wird er sich von euch finden lassen."
+    ],
+    "id": "3556ddad-1804-47ec-8ac3-fe3a0c766508",
+    "attemptCount": 1,
+    "remoteId": "urn:li:share:7510926630744322049",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:46:00.530Z",
+    "updatedAt": "2026-09-30T05:00:55.355Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 201
+    },
+    "retryHistory": []
   }
 ]
