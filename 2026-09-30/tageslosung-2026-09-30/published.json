@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-30",
+    "contentDate": "2026-09-30",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-09-30T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Wenn ihr den HERRN sucht, wird er sich von euch finden lassen.",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Wenn ihr den HERRN sucht, wird er sich von euch finden lassen."
+    ],
+    "id": "1b595758-fd0a-4d36-9bc5-8589dbf5e9ba",
+    "attemptCount": 1,
+    "remoteId": "18031539260853410",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:46:00.470Z",
+    "updatedAt": "2026-09-30T05:00:33.913Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-09-30",
+    "contentDate": "2026-09-30",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-09-30T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Wenn ihr den HERRN sucht, wird er sich von euch finden lassen.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Wenn ihr den HERRN sucht, wird er sich von euch finden lassen."
+    ],
+    "id": "e5620946-2d5c-4087-a46a-63361555c9c2",
+    "attemptCount": 1,
+    "remoteId": "117358227340252509",
+    "remoteUrl": "https://kirche.social/@christoph/117358227340252509",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:46:00.480Z",
+    "updatedAt": "2026-09-30T05:00:35.872Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
