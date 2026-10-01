@@ -84,5 +84,91 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-10-01",
+    "contentDate": "2026-10-01",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-10-01T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Die Wohnung ist unverletzlich. (Grundgesetz, Artikel 13 Absatz 1)",
+    "assets": [
+      "render-square-01.jpg"
+    ],
+    "altTexts": [
+      "Die Wohnung ist unverletzlich. (Grundgesetz, Artikel 13 Absatz 1)"
+    ],
+    "id": "bc03b2c9-b1f8-4ed7-8e96-fa04f093d2e9",
+    "attemptCount": 1,
+    "remoteId": "17913156408530105",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:38:54.406Z",
+    "updatedAt": "2026-10-01T10:00:48.906Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-10-01",
+    "contentDate": "2026-10-01",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-10-01T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Die Wohnung ist unverletzlich. (Grundgesetz, Artikel 13 Absatz 1)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Die Wohnung ist unverletzlich. (Grundgesetz, Artikel 13 Absatz 1)"
+    ],
+    "id": "82fb2f58-74e3-4f22-9c45-3acebe925259",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3mwslytkqbc2d",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3mwslytkqbc2d",
+    "lastError": null,
+    "createdAt": "2026-08-26T15:38:54.457Z",
+    "updatedAt": "2026-10-01T10:00:51.129Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-10-01",
+    "contentDate": "2026-10-01",
+    "platform": "linkedin",
+    "format": "default",
+    "scheduledAt": "2026-10-01T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Die Wohnung ist unverletzlich. (Grundgesetz, Artikel 13 Absatz 1)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Die Wohnung ist unverletzlich. (Grundgesetz, Artikel 13 Absatz 1)"
+    ],
+    "id": "8552d193-daaf-43e3-a319-ce30119466ad",
+    "attemptCount": 1,
+    "remoteId": "urn:li:share:7511364508846673922",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:38:54.499Z",
+    "updatedAt": "2026-10-01T10:00:53.601Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 201
+    },
+    "retryHistory": []
   }
 ]
