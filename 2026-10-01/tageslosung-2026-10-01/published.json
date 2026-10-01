@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-10-01",
+    "contentDate": "2026-10-01",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-10-01T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Gott, der du uns viel Angst und Not hast erfahren lassen, du wirst uns wieder beleben.",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Gott, der du uns viel Angst und Not hast erfahren lassen, du wirst uns wieder beleben."
+    ],
+    "id": "0a79768e-21b6-4eb2-8ff0-529ae9db166a",
+    "attemptCount": 1,
+    "remoteId": "18105157262523502",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:46:02.941Z",
+    "updatedAt": "2026-10-01T05:00:38.051Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-10-01",
+    "contentDate": "2026-10-01",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-10-01T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Gott, der du uns viel Angst und Not hast erfahren lassen, du wirst uns wieder beleben.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Gott, der du uns viel Angst und Not hast erfahren lassen, du wirst uns wieder beleben."
+    ],
+    "id": "a6d64ad6-6c6f-47b3-a17b-8f028af74013",
+    "attemptCount": 1,
+    "remoteId": "117363889947995015",
+    "remoteUrl": "https://kirche.social/@christoph/117363889947995015",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:46:02.955Z",
+    "updatedAt": "2026-10-01T05:00:40.350Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
