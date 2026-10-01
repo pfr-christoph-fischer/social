@@ -84,5 +84,91 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-10-01",
+    "contentDate": "2026-10-01",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-10-01T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Gott, der du uns viel Angst und Not hast erfahren lassen, du wirst uns wieder beleben.",
+    "assets": [
+      "render-square-01.jpg"
+    ],
+    "altTexts": [
+      "Gott, der du uns viel Angst und Not hast erfahren lassen, du wirst uns wieder beleben."
+    ],
+    "id": "64e41f08-b270-48cd-83b9-72d3a256fbeb",
+    "attemptCount": 1,
+    "remoteId": "18229460647334137",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:46:02.973Z",
+    "updatedAt": "2026-10-01T05:00:52.512Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-10-01",
+    "contentDate": "2026-10-01",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-10-01T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Gott, der du uns viel Angst und Not hast erfahren lassen, du wirst uns wieder beleben.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Gott, der du uns viel Angst und Not hast erfahren lassen, du wirst uns wieder beleben."
+    ],
+    "id": "5b4ab0f7-2b04-4960-9125-50bfe40a7261",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3mws3aiupdx2w",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3mws3aiupdx2w",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:46:02.984Z",
+    "updatedAt": "2026-10-01T05:00:54.926Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-10-01",
+    "contentDate": "2026-10-01",
+    "platform": "linkedin",
+    "format": "default",
+    "scheduledAt": "2026-10-01T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Gott, der du uns viel Angst und Not hast erfahren lassen, du wirst uns wieder beleben.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Gott, der du uns viel Angst und Not hast erfahren lassen, du wirst uns wieder beleben."
+    ],
+    "id": "4c1e8daf-6441-4ce2-a39a-3aa7ae0693dd",
+    "attemptCount": 1,
+    "remoteId": "urn:li:share:7511289027728441345",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:46:02.993Z",
+    "updatedAt": "2026-10-01T05:00:57.520Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 201
+    },
+    "retryHistory": []
   }
 ]
