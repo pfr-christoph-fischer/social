@@ -84,5 +84,62 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-10-02",
+    "contentDate": "2026-10-02",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-10-02T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Das Briefgeheimnis sowie das Post- und Fernmeldegeheimnis sind unverletzlich. (Grundgesetz, Artikel 10 Absatz 1)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Das Briefgeheimnis sowie das Post- und Fernmeldegeheimnis sind unverletzlich. (Grundgesetz, Artikel 10 Absatz 1)"
+    ],
+    "id": "04855d0d-e18b-40bb-a92c-901e2906072d",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3mwv4hsgjak2c",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3mwv4hsgjak2c",
+    "lastError": null,
+    "createdAt": "2026-08-26T15:38:57.608Z",
+    "updatedAt": "2026-10-02T10:00:53.393Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-10-02",
+    "contentDate": "2026-10-02",
+    "platform": "linkedin",
+    "format": "default",
+    "scheduledAt": "2026-10-02T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Das Briefgeheimnis sowie das Post- und Fernmeldegeheimnis sind unverletzlich. (Grundgesetz, Artikel 10 Absatz 1)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Das Briefgeheimnis sowie das Post- und Fernmeldegeheimnis sind unverletzlich. (Grundgesetz, Artikel 10 Absatz 1)"
+    ],
+    "id": "a91b30f8-1d3b-49cb-a395-2f1b98810ea3",
+    "attemptCount": 1,
+    "remoteId": "urn:li:share:7511726906828845056",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:38:57.655Z",
+    "updatedAt": "2026-10-02T10:00:56.022Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 201
+    },
+    "retryHistory": []
   }
 ]
