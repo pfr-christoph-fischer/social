@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-10-02",
+    "contentDate": "2026-10-02",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-10-02T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Das Briefgeheimnis sowie das Post- und Fernmeldegeheimnis sind unverletzlich. (Grundgesetz, Artikel 10 Absatz 1)",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Das Briefgeheimnis sowie das Post- und Fernmeldegeheimnis sind unverletzlich. (Grundgesetz, Artikel 10 Absatz 1)"
+    ],
+    "id": "d2a8ac4d-4900-4fa5-9843-acd8dd1f2e31",
+    "attemptCount": 1,
+    "remoteId": "18100728506565913",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:38:57.460Z",
+    "updatedAt": "2026-10-02T10:00:38.620Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-10-02",
+    "contentDate": "2026-10-02",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-10-02T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Das Briefgeheimnis sowie das Post- und Fernmeldegeheimnis sind unverletzlich. (Grundgesetz, Artikel 10 Absatz 1)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Das Briefgeheimnis sowie das Post- und Fernmeldegeheimnis sind unverletzlich. (Grundgesetz, Artikel 10 Absatz 1)"
+    ],
+    "id": "3b4b466c-7cd7-42c6-9aac-35696614ab1a",
+    "attemptCount": 1,
+    "remoteId": "117370731983745092",
+    "remoteUrl": "https://kirche.social/@christoph/117370731983745092",
+    "lastError": null,
+    "createdAt": "2026-08-26T15:38:57.517Z",
+    "updatedAt": "2026-10-02T10:00:41.623Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
