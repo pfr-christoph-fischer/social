@@ -141,5 +141,40 @@
       "status": 201
     },
     "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-10-02",
+    "contentDate": "2026-10-02",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-10-02T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Das Briefgeheimnis sowie das Post- und Fernmeldegeheimnis sind unverletzlich. (Grundgesetz, Artikel 10 Absatz 1)",
+    "assets": [
+      "render-square-01.jpg"
+    ],
+    "altTexts": [
+      "Das Briefgeheimnis sowie das Post- und Fernmeldegeheimnis sind unverletzlich. (Grundgesetz, Artikel 10 Absatz 1)"
+    ],
+    "id": "7d2de40d-df2e-4467-8e6b-2aae0c0aec04",
+    "attemptCount": 2,
+    "remoteId": "18104563295005852",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:38:57.568Z",
+    "updatedAt": "2026-10-02T10:05:25.055Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 200
+    },
+    "retryHistory": [
+      {
+        "at": "2026-10-02T10:00:49.200Z",
+        "error": "threads: Container konnte nicht veröffentlicht werden (400): The requested resource does not exist (Code 24) Le contenu multimédia présentant l’ID 17982035754107901 est introuvable.",
+        "attempt": 1
+      }
+    ]
   }
 ]
