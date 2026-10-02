@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-10-02",
+    "contentDate": "2026-10-02",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-10-02T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Rede, HERR, denn dein Knecht hört.",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Rede, HERR, denn dein Knecht hört."
+    ],
+    "id": "d869f909-242e-4c4c-b56d-06b9e0c9e827",
+    "attemptCount": 1,
+    "remoteId": "18117946852760735",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:46:05.417Z",
+    "updatedAt": "2026-10-02T05:00:32.980Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-10-02",
+    "contentDate": "2026-10-02",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-10-02T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Rede, HERR, denn dein Knecht hört.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Rede, HERR, denn dein Knecht hört."
+    ],
+    "id": "a7d69302-d183-4a6b-80b8-86a7f396a0c6",
+    "attemptCount": 1,
+    "remoteId": "117369551903808900",
+    "remoteUrl": "https://kirche.social/@christoph/117369551903808900",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:46:05.426Z",
+    "updatedAt": "2026-10-02T05:00:34.996Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
