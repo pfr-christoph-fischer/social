@@ -1,0 +1,474 @@
+{
+  "id": "resp_0597898d22f7b3ff006abf72a2e05c87d1a3cef57a80e30841",
+  "object": "response",
+  "created_at": 1790931618,
+  "status": "completed",
+  "access_programs": null,
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1790931658,
+  "error": null,
+  "frequency_penalty": 0,
+  "incomplete_details": null,
+  "instructions": "You are part of a Protestant social media editorial team. Write in clear, accessible, theologically responsible German without church clichés. Use short sentences and concrete imagery. Never invent events, people, school situations, quotes, or factual details. Do not include copyrighted full song verses. For Reli and community posts, only use current details when they are explicitly provided. Return content that strictly matches the requested JSON schema. Set needs_input to true whenever required facts are missing. Keep qa.approved false. Do not ask for any text inside generated images. When liturgical_context.resolved_weekly_verse is present, use its exact wording for Wochenspruch slots instead of placeholders. Use the web search tool before drafting to verify current situations. For prayer posts, current situations are mandatory: select at least two concrete, relevant situations from reliable current reporting, including tagesschau.de and SWR Aktuell Baden-Württemberg where relevant. Do not invent current events and do not replace concrete situations with generic references to crises.",
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.4-2026-03-05",
+  "moderation": null,
+  "output": [
+    {
+      "id": "ws_0597898d22f7b3ff006abf72a46bc487d19d7eeb9c7e173dad",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "queries": [
+          "site:tagesschau.de 1. Oktober 2026 Nachrichten Deutschland Welt",
+          "site:swr.de/swraktuell/baden-wuerttemberg 1. Oktober 2026 Baden-Württemberg Nachrichten",
+          "Reuters October 1 2026 world news refugees hospital conflict"
+        ],
+        "query": "site:tagesschau.de 1. Oktober 2026 Nachrichten Deutschland Welt"
+      }
+    },
+    {
+      "id": "ws_0597898d22f7b3ff006abf72a7451487d1b472a6d45eb8194d",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.tagesschau.de/tagesschau/ts-81188.html"
+      }
+    },
+    {
+      "id": "ws_0597898d22f7b3ff006abf72a8721c87d1bc893ad4c6ef5a4f",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "queries": [
+          "site:tagesschau.de 1.10.2026 Gaza Ukraine Sudan refugees hospital aid tagesschau",
+          "site:tagesschau.de 1.10.2026 Erdbeben Überschwemmung tagesschau",
+          "site:reuters.com October 1 2026 aid hospital refugees Reuters October 1 2026"
+        ],
+        "query": "site:tagesschau.de 1.10.2026 Gaza Ukraine Sudan refugees hospital aid tagesschau"
+      }
+    },
+    {
+      "id": "msg_0597898d22f7b3ff006abf72ab815887d1a7b7c72fcf2969d9",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\"id\":\"prayer-evening-2026-10-02\",\"status\":\"in Arbeit\",\"needs_input\":false,\"source\":{\"calendar_post_id\":\"prayer-evening-2026-10-02\",\"date\":\"2026-10-02\",\"rubric\":\"Abendgebet\",\"liturgical_source\":\"\"},\"editorial_core\":{\"title\":\"Abendgebet\",\"main_message\":\"Wir legen diesen Tag in Gottes Hand. Mit dem, was gut war. Mit dem, was offen blieb. Wir beten für Menschen im Gazastreifen, wo Hilfslieferungen weiter nur schleppend ankommen, und für Menschen in Baden-Württemberg, die auf tragfähige Hilfe für finanziell bedrängte Kommunen und Krankenhäuser angewiesen sind. Gottes Zukunft beginnt auch dort, wo unsere Kraft für heute endet.\",\"audience\":\"breite Öffentlichkeit\",\"tone\":[\"ruhig\",\"hoffnungsvoll\",\"geborgen\"],\"source_notes\":[\"Aktuelle Bezüge geprüft: tagesschau.de meldet am 1.10.2026, dass Hilfsgüter-Lieferungen in den Gazastreifen weiter nur schleppend vorankommen.\",\"Aktuelle Bezüge geprüft: SWR Aktuell Baden-Württemberg meldet am 1.10.2026 zusätzliche 1,2 Milliarden Euro für Städte, Gemeinden und Landkreise in Baden-Württemberg; 140 Millionen davon sollen an kommunale Krankenhäuser gehen.\",\"Weitere tagesschau-Themen vom 1.10.2026 gesichtet, aber bewusst nicht breit im Gebet verarbeitet, um den Text nicht zur Nachrichtenzusammenfassung zu machen.\",\"Gebet zeitlich robust formuliert: keine Annahmen über Entwicklungen am Veröffentlichungstag.\"]},\"platforms\":{\"facebook\":{\"text\":\"Abendgebet\\n\\nGott,\\nder Tag ist fast still geworden.\\nWir legen ihn in deine Hand.\\nDas Gute.\\nDas Schwere.\\nDas, was offen blieb.\\n\\nWir denken an Menschen im Gazastreifen.\\nHilfsgüter kommen weiter nur langsam an.\\nViele warten auf Wasser, Nahrung und Schutz.\\nSei denen nahe, die aushalten müssen.\\nStärke alle, die helfen.\\n\\nWir denken auch an die Menschen in unseren Städten und Gemeinden.\\nIn Baden-Württemberg ringen Kommunen und Krankenhäuser um Geld und Verlässlichkeit.\\nBewahre die, die Verantwortung tragen.\\nUnd vergiss die nicht, die auf Pflege, Behandlung und Unterstützung angewiesen sind.\\n\\nNimm von uns, was heute drückt.\\nDen Streit.\\nDie Müdigkeit.\\nDie Fehler.\\nDas Unerledigte.\\n\\nSchenk dieser unruhigen Welt Frieden.\\nUnd uns ein Herz, das loslassen kann.\\nBehüte alle, die in dieser Nacht arbeiten, wachen, helfen oder Angst haben.\\n\\nWas heute war, bleibt nicht uns allein überlassen.\\nDu hältst die Nacht.\\nUnd deine Zukunft kommt auch dann, wenn wir schlafen.\\nAmen.\",\"headline\":\"Abendgebet: Den Tag loslassen\"},\"instagram\":{\"caption\":\"Abendgebet.\\n\\nGott, wir legen dir diesen Tag hin.\\nDas Gute. Das Schwere. Das Unfertige.\\n\\nWir bitten dich für Menschen im Gazastreifen, wo Hilfslieferungen weiter nur langsam ankommen. Und für Menschen in Baden-Württemberg, wo Kommunen und Krankenhäuser um verlässliche Hilfe ringen.\\n\\nSchenk Frieden für diese Nacht. Und Hoffnung, die weiter sieht als bis an den Rand dieses Tages.\\n\\nAmen.\",\"carousel\":[{\"type\":\"text\",\"text\":\"Abendgebet\\n\\nDer Tag wird still.\\nWir legen ihn in Gottes Hand.\"},{\"type\":\"text\",\"text\":\"Was gut war.\\nWas wehgetan hat.\\nWas offen blieb.\\nNichts davon müssen wir festhalten.\"},{\"type\":\"text\",\"text\":\"Wir beten für Menschen im Gazastreifen.\\nHilfslieferungen kommen weiter nur langsam an.\\nSchenk Schutz, Brot und Kraft zum Durchhalten.\"},{\"type\":\"text\",\"text\":\"Wir beten für Menschen in Baden-Württemberg.\\nKommunen und Krankenhäuser ringen um Geld und Verlässlichkeit.\\nStärke alle, die tragen und versorgen.\"},{\"type\":\"text\",\"text\":\"Behüte in dieser Nacht alle,\\ndie wachen,\\narbeiten,\\nhelfen\\noder Angst haben.\"},{\"type\":\"text\",\"text\":\"Gott,\\nschenk uns Frieden.\\nUnd halte deine Hoffnung in uns wach.\\nAmen.\"}]},\"mastodon\":{\"text\":\"Abendgebet\\n\\nGott, wir legen dir diesen Tag hin.\\nDas Gute. Das Schwere. Das Unfertige.\\n\\nWir bitten dich für Menschen im Gazastreifen, wo Hilfslieferungen weiter nur langsam ankommen. Und für Menschen in Baden-Württemberg, wo Kommunen und Krankenhäuser um verlässliche Hilfe ringen.\\n\\nBehüte alle, die in dieser Nacht wachen, helfen oder Angst haben. Schenk Frieden. Amen.\"},\"bluesky\":{\"text\":\"Abendgebet\\n\\nGott, wir legen dir diesen Tag hin. Das Gute. Das Schwere. Das Unfertige.\\n\\nWir bitten dich für Menschen im Gazastreifen, wo Hilfslieferungen weiter nur langsam ankommen. Und für Menschen in Baden-Württemberg, wo Kommunen und Krankenhäuser um verlässliche Hilfe ringen.\\n\\nSchenk Frieden für diese Nacht. Amen.\"},\"story\":{\"slides\":[{\"text\":\"Abendgebet\\n\\nDer Tag wird still.\"},{\"text\":\"Wir legen Gott hin,\\nwas gut war.\\nUnd was offen blieb.\"},{\"text\":\"Wir beten für Menschen im Gazastreifen.\\nHilfslieferungen kommen weiter nur langsam an.\"},{\"text\":\"Wir beten für Menschen in Baden-Württemberg.\\nKommunen und Krankenhäuser ringen um Hilfe.\"},{\"text\":\"Gott,\\nschenk Frieden für diese Nacht.\\nAmen.\"}]},\"reel\":{\"hook\":\"Wenn der Tag nicht fertig wird, darfst du ihn trotzdem loslassen.\",\"script\":\"Der Tag ist nicht erst dann gut genug, wenn alles geschafft ist. In diesem Abendgebet legen wir Gott hin, was gelungen ist und was offen blieb. Wir beten für Menschen im Gazastreifen, wo Hilfslieferungen weiter nur langsam ankommen. Und für Menschen in Baden-Württemberg, wo Kommunen und Krankenhäuser um verlässliche Hilfe ringen. Gott hält, was wir heute nicht mehr tragen können. Schenk uns Frieden für diese Nacht. Amen.\",\"shots\":[\"Ruhiges Abendlicht an einem Fenster\",\"Eine Hand legt ein Notizbuch beiseite\",\"Leere Krankenhausflure oder stiller Bereitschaftsraum ohne erkennbare Personen\",\"Stadtlichter in der Dämmerung\",\"Langsame Nachtaufnahme mit ruhigem Himmel\"],\"duration_seconds\":30}},\"visual\":{\"concept\":\"Stiller Abend an einem Fenster. Warmes, gedämpftes Licht. Ein Tisch mit einer Tasse, einem geschlossenen Notizbuch und einer ruhigen Handbewegung des Loslassens. Keine Menschenmenge, keine plakative Krisenillustration. Der Eindruck: Der Tag darf unvollendet enden und ist dennoch gehalten.\",\"flux_prompt\":\"ruhige abendliche szene an einem fenster, warmes gedämpftes licht, schlichter tisch mit tasse und geschlossenem notizbuch, atmosphäre von stillem loslassen und geborgenheit, natürliche farben, dokumentarisch, unaufgeregt, weiche schatten, protestantische zurückhaltung, keine schrift, keine symbole im vordergrund\",\"negative_prompt\":\"text, letters, logo, watermark\",\"formats\":[\"4:5\",\"9:16\",\"1.91:1\"],\"alt_text\":\"Ein stiller Tisch am Abend vor einem Fenster. Darauf stehen eine Tasse und ein geschlossenes Notizbuch. Warmes Licht und weiche Schatten vermitteln Ruhe und das Gefühl, den Tag loslassen zu dürfen.\"},\"qa\":{\"warnings\":[\"Alt text must be completed before approval\",\"Aktuelle Bezüge vor Freigabe nochmals gegen Stand des Nachmittags am 1. Oktober 2026 prüfen.\",\"Gebet enthält zwei konkrete aktuelle Bezüge; Redaktion sollte prüfen, ob Gewichtung regional/international für den Veröffentlichungskanal passt.\"],\"approved\":false},\"metadata\":{\"model\":\"gpt-5\",\"generated_at\":\"2026-10-02T00:00:00Z\",\"prompt_version\":\"1.0\",\"assets\":[]}}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "current_turn",
+    "effort": "none",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1,
+  "text": {
+    "format": {
+      "type": "json_schema",
+      "description": null,
+      "name": "content_package",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "Idee",
+              "in Arbeit",
+              "zur Prüfung",
+              "freigegeben",
+              "terminiert",
+              "veröffentlicht",
+              "verworfen"
+            ]
+          },
+          "needs_input": {
+            "type": "boolean"
+          },
+          "source": {
+            "type": "object",
+            "properties": {
+              "calendar_post_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "date": {
+                "type": "string",
+                "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+              },
+              "rubric": {
+                "type": "string",
+                "minLength": 1
+              },
+              "liturgical_source": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "calendar_post_id",
+              "date",
+              "rubric",
+              "liturgical_source"
+            ],
+            "additionalProperties": false
+          },
+          "editorial_core": {
+            "type": "object",
+            "properties": {
+              "title": {
+                "type": "string"
+              },
+              "main_message": {
+                "type": "string"
+              },
+              "audience": {
+                "type": "string"
+              },
+              "tone": {
+                "minItems": 1,
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "source_notes": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "title",
+              "main_message",
+              "audience",
+              "tone",
+              "source_notes"
+            ],
+            "additionalProperties": false
+          },
+          "platforms": {
+            "type": "object",
+            "properties": {
+              "facebook": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  },
+                  "headline": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text",
+                  "headline"
+                ],
+                "additionalProperties": false
+              },
+              "instagram": {
+                "type": "object",
+                "properties": {
+                  "caption": {
+                    "type": "string"
+                  },
+                  "carousel": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "type": {
+                          "type": "string"
+                        },
+                        "text": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "type",
+                        "text"
+                      ],
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "required": [
+                  "caption",
+                  "carousel"
+                ],
+                "additionalProperties": false
+              },
+              "mastodon": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text"
+                ],
+                "additionalProperties": false
+              },
+              "bluesky": {
+                "default": {
+                  "text": ""
+                },
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text"
+                ],
+                "additionalProperties": false
+              },
+              "story": {
+                "type": "object",
+                "properties": {
+                  "slides": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "text": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "text"
+                      ],
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "required": [
+                  "slides"
+                ],
+                "additionalProperties": false
+              },
+              "reel": {
+                "type": "object",
+                "properties": {
+                  "hook": {
+                    "type": "string"
+                  },
+                  "script": {
+                    "type": "string"
+                  },
+                  "shots": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "duration_seconds": {
+                    "type": "integer",
+                    "minimum": 0,
+                    "maximum": 9007199254740991
+                  }
+                },
+                "required": [
+                  "hook",
+                  "script",
+                  "shots",
+                  "duration_seconds"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "required": [
+              "facebook",
+              "instagram",
+              "mastodon",
+              "bluesky",
+              "story",
+              "reel"
+            ],
+            "additionalProperties": false
+          },
+          "visual": {
+            "type": "object",
+            "properties": {
+              "concept": {
+                "type": "string"
+              },
+              "flux_prompt": {
+                "type": "string"
+              },
+              "negative_prompt": {
+                "type": "string",
+                "minLength": 1
+              },
+              "formats": {
+                "minItems": 1,
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "alt_text": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "concept",
+              "flux_prompt",
+              "negative_prompt",
+              "formats",
+              "alt_text"
+            ],
+            "additionalProperties": false
+          },
+          "qa": {
+            "type": "object",
+            "properties": {
+              "warnings": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "approved": {
+                "type": "boolean"
+              }
+            },
+            "required": [
+              "warnings",
+              "approved"
+            ],
+            "additionalProperties": false
+          },
+          "metadata": {
+            "type": "object",
+            "properties": {
+              "model": {
+                "type": "string"
+              },
+              "generated_at": {
+                "type": "string"
+              },
+              "prompt_version": {
+                "type": "string",
+                "minLength": 1
+              },
+              "assets": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "model",
+              "generated_at",
+              "prompt_version",
+              "assets"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "id",
+          "status",
+          "needs_input",
+          "source",
+          "editorial_core",
+          "platforms",
+          "visual",
+          "qa",
+          "metadata"
+        ],
+        "additionalProperties": false
+      },
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 2
+    }
+  },
+  "tools": [
+    {
+      "type": "web_search",
+      "return_token_budget": "default",
+      "search_content_types": [
+        "text"
+      ],
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 21065,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1994,
+    "output_tokens_details": {
+      "reasoning_tokens": 233
+    },
+    "total_tokens": 23059
+  },
+  "user": null,
+  "metadata": {},
+  "output_text": "{\"id\":\"prayer-evening-2026-10-02\",\"status\":\"in Arbeit\",\"needs_input\":false,\"source\":{\"calendar_post_id\":\"prayer-evening-2026-10-02\",\"date\":\"2026-10-02\",\"rubric\":\"Abendgebet\",\"liturgical_source\":\"\"},\"editorial_core\":{\"title\":\"Abendgebet\",\"main_message\":\"Wir legen diesen Tag in Gottes Hand. Mit dem, was gut war. Mit dem, was offen blieb. Wir beten für Menschen im Gazastreifen, wo Hilfslieferungen weiter nur schleppend ankommen, und für Menschen in Baden-Württemberg, die auf tragfähige Hilfe für finanziell bedrängte Kommunen und Krankenhäuser angewiesen sind. Gottes Zukunft beginnt auch dort, wo unsere Kraft für heute endet.\",\"audience\":\"breite Öffentlichkeit\",\"tone\":[\"ruhig\",\"hoffnungsvoll\",\"geborgen\"],\"source_notes\":[\"Aktuelle Bezüge geprüft: tagesschau.de meldet am 1.10.2026, dass Hilfsgüter-Lieferungen in den Gazastreifen weiter nur schleppend vorankommen.\",\"Aktuelle Bezüge geprüft: SWR Aktuell Baden-Württemberg meldet am 1.10.2026 zusätzliche 1,2 Milliarden Euro für Städte, Gemeinden und Landkreise in Baden-Württemberg; 140 Millionen davon sollen an kommunale Krankenhäuser gehen.\",\"Weitere tagesschau-Themen vom 1.10.2026 gesichtet, aber bewusst nicht breit im Gebet verarbeitet, um den Text nicht zur Nachrichtenzusammenfassung zu machen.\",\"Gebet zeitlich robust formuliert: keine Annahmen über Entwicklungen am Veröffentlichungstag.\"]},\"platforms\":{\"facebook\":{\"text\":\"Abendgebet\\n\\nGott,\\nder Tag ist fast still geworden.\\nWir legen ihn in deine Hand.\\nDas Gute.\\nDas Schwere.\\nDas, was offen blieb.\\n\\nWir denken an Menschen im Gazastreifen.\\nHilfsgüter kommen weiter nur langsam an.\\nViele warten auf Wasser, Nahrung und Schutz.\\nSei denen nahe, die aushalten müssen.\\nStärke alle, die helfen.\\n\\nWir denken auch an die Menschen in unseren Städten und Gemeinden.\\nIn Baden-Württemberg ringen Kommunen und Krankenhäuser um Geld und Verlässlichkeit.\\nBewahre die, die Verantwortung tragen.\\nUnd vergiss die nicht, die auf Pflege, Behandlung und Unterstützung angewiesen sind.\\n\\nNimm von uns, was heute drückt.\\nDen Streit.\\nDie Müdigkeit.\\nDie Fehler.\\nDas Unerledigte.\\n\\nSchenk dieser unruhigen Welt Frieden.\\nUnd uns ein Herz, das loslassen kann.\\nBehüte alle, die in dieser Nacht arbeiten, wachen, helfen oder Angst haben.\\n\\nWas heute war, bleibt nicht uns allein überlassen.\\nDu hältst die Nacht.\\nUnd deine Zukunft kommt auch dann, wenn wir schlafen.\\nAmen.\",\"headline\":\"Abendgebet: Den Tag loslassen\"},\"instagram\":{\"caption\":\"Abendgebet.\\n\\nGott, wir legen dir diesen Tag hin.\\nDas Gute. Das Schwere. Das Unfertige.\\n\\nWir bitten dich für Menschen im Gazastreifen, wo Hilfslieferungen weiter nur langsam ankommen. Und für Menschen in Baden-Württemberg, wo Kommunen und Krankenhäuser um verlässliche Hilfe ringen.\\n\\nSchenk Frieden für diese Nacht. Und Hoffnung, die weiter sieht als bis an den Rand dieses Tages.\\n\\nAmen.\",\"carousel\":[{\"type\":\"text\",\"text\":\"Abendgebet\\n\\nDer Tag wird still.\\nWir legen ihn in Gottes Hand.\"},{\"type\":\"text\",\"text\":\"Was gut war.\\nWas wehgetan hat.\\nWas offen blieb.\\nNichts davon müssen wir festhalten.\"},{\"type\":\"text\",\"text\":\"Wir beten für Menschen im Gazastreifen.\\nHilfslieferungen kommen weiter nur langsam an.\\nSchenk Schutz, Brot und Kraft zum Durchhalten.\"},{\"type\":\"text\",\"text\":\"Wir beten für Menschen in Baden-Württemberg.\\nKommunen und Krankenhäuser ringen um Geld und Verlässlichkeit.\\nStärke alle, die tragen und versorgen.\"},{\"type\":\"text\",\"text\":\"Behüte in dieser Nacht alle,\\ndie wachen,\\narbeiten,\\nhelfen\\noder Angst haben.\"},{\"type\":\"text\",\"text\":\"Gott,\\nschenk uns Frieden.\\nUnd halte deine Hoffnung in uns wach.\\nAmen.\"}]},\"mastodon\":{\"text\":\"Abendgebet\\n\\nGott, wir legen dir diesen Tag hin.\\nDas Gute. Das Schwere. Das Unfertige.\\n\\nWir bitten dich für Menschen im Gazastreifen, wo Hilfslieferungen weiter nur langsam ankommen. Und für Menschen in Baden-Württemberg, wo Kommunen und Krankenhäuser um verlässliche Hilfe ringen.\\n\\nBehüte alle, die in dieser Nacht wachen, helfen oder Angst haben. Schenk Frieden. Amen.\"},\"bluesky\":{\"text\":\"Abendgebet\\n\\nGott, wir legen dir diesen Tag hin. Das Gute. Das Schwere. Das Unfertige.\\n\\nWir bitten dich für Menschen im Gazastreifen, wo Hilfslieferungen weiter nur langsam ankommen. Und für Menschen in Baden-Württemberg, wo Kommunen und Krankenhäuser um verlässliche Hilfe ringen.\\n\\nSchenk Frieden für diese Nacht. Amen.\"},\"story\":{\"slides\":[{\"text\":\"Abendgebet\\n\\nDer Tag wird still.\"},{\"text\":\"Wir legen Gott hin,\\nwas gut war.\\nUnd was offen blieb.\"},{\"text\":\"Wir beten für Menschen im Gazastreifen.\\nHilfslieferungen kommen weiter nur langsam an.\"},{\"text\":\"Wir beten für Menschen in Baden-Württemberg.\\nKommunen und Krankenhäuser ringen um Hilfe.\"},{\"text\":\"Gott,\\nschenk Frieden für diese Nacht.\\nAmen.\"}]},\"reel\":{\"hook\":\"Wenn der Tag nicht fertig wird, darfst du ihn trotzdem loslassen.\",\"script\":\"Der Tag ist nicht erst dann gut genug, wenn alles geschafft ist. In diesem Abendgebet legen wir Gott hin, was gelungen ist und was offen blieb. Wir beten für Menschen im Gazastreifen, wo Hilfslieferungen weiter nur langsam ankommen. Und für Menschen in Baden-Württemberg, wo Kommunen und Krankenhäuser um verlässliche Hilfe ringen. Gott hält, was wir heute nicht mehr tragen können. Schenk uns Frieden für diese Nacht. Amen.\",\"shots\":[\"Ruhiges Abendlicht an einem Fenster\",\"Eine Hand legt ein Notizbuch beiseite\",\"Leere Krankenhausflure oder stiller Bereitschaftsraum ohne erkennbare Personen\",\"Stadtlichter in der Dämmerung\",\"Langsame Nachtaufnahme mit ruhigem Himmel\"],\"duration_seconds\":30}},\"visual\":{\"concept\":\"Stiller Abend an einem Fenster. Warmes, gedämpftes Licht. Ein Tisch mit einer Tasse, einem geschlossenen Notizbuch und einer ruhigen Handbewegung des Loslassens. Keine Menschenmenge, keine plakative Krisenillustration. Der Eindruck: Der Tag darf unvollendet enden und ist dennoch gehalten.\",\"flux_prompt\":\"ruhige abendliche szene an einem fenster, warmes gedämpftes licht, schlichter tisch mit tasse und geschlossenem notizbuch, atmosphäre von stillem loslassen und geborgenheit, natürliche farben, dokumentarisch, unaufgeregt, weiche schatten, protestantische zurückhaltung, keine schrift, keine symbole im vordergrund\",\"negative_prompt\":\"text, letters, logo, watermark\",\"formats\":[\"4:5\",\"9:16\",\"1.91:1\"],\"alt_text\":\"Ein stiller Tisch am Abend vor einem Fenster. Darauf stehen eine Tasse und ein geschlossenes Notizbuch. Warmes Licht und weiche Schatten vermitteln Ruhe und das Gefühl, den Tag loslassen zu dürfen.\"},\"qa\":{\"warnings\":[\"Alt text must be completed before approval\",\"Aktuelle Bezüge vor Freigabe nochmals gegen Stand des Nachmittags am 1. Oktober 2026 prüfen.\",\"Gebet enthält zwei konkrete aktuelle Bezüge; Redaktion sollte prüfen, ob Gewichtung regional/international für den Veröffentlichungskanal passt.\"],\"approved\":false},\"metadata\":{\"model\":\"gpt-5\",\"generated_at\":\"2026-10-02T00:00:00Z\",\"prompt_version\":\"1.0\",\"assets\":[]}}"
+}
