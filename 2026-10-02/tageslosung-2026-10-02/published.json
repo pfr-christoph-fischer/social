@@ -84,5 +84,91 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-10-02",
+    "contentDate": "2026-10-02",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-10-02T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Rede, HERR, denn dein Knecht hört.",
+    "assets": [
+      "render-square-01.jpg"
+    ],
+    "altTexts": [
+      "Rede, HERR, denn dein Knecht hört."
+    ],
+    "id": "b437082d-ee7c-4c81-a67f-8b108523e68b",
+    "attemptCount": 1,
+    "remoteId": "18348992077302164",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:46:05.437Z",
+    "updatedAt": "2026-10-02T05:00:48.591Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-10-02",
+    "contentDate": "2026-10-02",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-10-02T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Rede, HERR, denn dein Knecht hört.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Rede, HERR, denn dein Knecht hört."
+    ],
+    "id": "0538bd7f-75de-47d6-976f-8fb1b4822c2a",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3mwulpcgrpa2c",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3mwulpcgrpa2c",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:46:05.447Z",
+    "updatedAt": "2026-10-02T05:00:50.873Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-10-02",
+    "contentDate": "2026-10-02",
+    "platform": "linkedin",
+    "format": "default",
+    "scheduledAt": "2026-10-02T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Rede, HERR, denn dein Knecht hört.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Rede, HERR, denn dein Knecht hört."
+    ],
+    "id": "18f5ad10-11e7-495d-a743-2fcac042b105",
+    "attemptCount": 1,
+    "remoteId": "urn:li:share:7511651400011890689",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:46:05.456Z",
+    "updatedAt": "2026-10-02T05:00:53.785Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 201
+    },
+    "retryHistory": []
   }
 ]
