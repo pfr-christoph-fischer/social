@@ -1,0 +1,118 @@
+{
+  "id": "prayer-morning-2026-10-04",
+  "status": "in Arbeit",
+  "needs_input": false,
+  "source": {
+    "calendar_post_id": "prayer-morning-2026-10-04",
+    "date": "2026-10-04",
+    "rubric": "Morgengebet",
+    "liturgical_source": ""
+  },
+  "editorial_core": {
+    "title": "Morgengebet",
+    "main_message": "Der Tag beginnt nicht mit Leistung, sondern als Gabe Gottes. Im Morgenlob richten wir uns auf Gottes Güte aus und nehmen den neuen Tag vertrauensvoll aus seiner Hand an.",
+    "audience": "breite Öffentlichkeit",
+    "tone": [
+      "lobend",
+      "hoffnungsvoll",
+      "zugewandt"
+    ],
+    "source_notes": [
+      "Kurzer Gebetsschnipsel aus Psalm 118,24 geprüft: „Dies ist der Tag, den der HERR macht“ (Lutherbibel 1984/2017-Nachweis über die-bibel.de geprüft).",
+      "Keine konkreten Fürbitten oder aktuelle Ereignisse aufgenommen, gemäß Formatvorgabe Morgengebet.",
+      "Sprache bewusst einfach, bildhaft und ohne kirchliche Binnenbegriffe gehalten."
+    ]
+  },
+  "platforms": {
+    "facebook": {
+      "text": "Gott, dieser Morgen ist nicht leer. Er ist von dir gehalten.\n\nLicht fällt auf Dächer und Wege. Der Tag öffnet sich. Und ich komme vor dich, so wie ich bin: wach oder müde, ruhig oder voller Gedanken.\n\nDu Schöpfer des Lebens, ich danke dir für diesen neuen Anfang. Für Atem. Für Licht. Für alles, was heute wachsen darf.\n\n„Dies ist der Tag, den der HERR macht.“ (Psalm 118,24)\n\nLass mich dein Licht nicht übersehen. Gib meinem Herzen Weite. Bewahre mich davor, mich vom Druck dieses Tages treiben zu lassen. Lehre mich, aus deiner Güte zu leben.\n\nWas auch kommt: Du bist schon da. Darum gehe ich nicht allein.\n\nAmen.",
+      "headline": "Morgengebet"
+    },
+    "instagram": {
+      "caption": "Gott, dieser Morgen ist von dir gehalten.\n\nLicht fällt auf Dächer und Wege. Der Tag öffnet sich. Und ich komme vor dich, so wie ich bin.\n\n„Dies ist der Tag, den der HERR macht.“ (Psalm 118,24)\n\nLass mich dein Licht nicht übersehen. Gib meinem Herzen Weite. Was auch kommt: Du bist schon da.\n\nAmen.",
+      "carousel": [
+        {
+          "type": "text",
+          "text": "Gott,\ndieser Morgen ist\nvon dir gehalten."
+        },
+        {
+          "type": "text",
+          "text": "Licht fällt auf Dächer\nund Wege.\nDer Tag öffnet sich."
+        },
+        {
+          "type": "text",
+          "text": "„Dies ist der Tag,\nden der HERR macht.“\nPsalm 118,24"
+        },
+        {
+          "type": "text",
+          "text": "Lass mich dein Licht\nheute nicht übersehen.\nGib meinem Herzen Weite."
+        },
+        {
+          "type": "text",
+          "text": "Was auch kommt:\nDu bist schon da.\nAmen."
+        }
+      ]
+    },
+    "mastodon": {
+      "text": "Gott, dieser Morgen ist nicht leer. Er ist von dir gehalten.\n\nLicht fällt auf Dächer und Wege. Der Tag öffnet sich. Und ich komme vor dich, so wie ich bin.\n\n„Dies ist der Tag, den der HERR macht.“ (Psalm 118,24)\n\nLass mich dein Licht nicht übersehen. Gib meinem Herzen Weite. Was auch kommt: Du bist schon da.\n\nAmen."
+    },
+    "bluesky": {
+      "text": "Gott, dieser Morgen ist von dir gehalten.\n\nLicht fällt auf Dächer und Wege. Der Tag öffnet sich. Und ich komme vor dich, so wie ich bin.\n\n„Dies ist der Tag, den der HERR macht.“ (Psalm 118,24)\n\nWas auch kommt: Du bist schon da.\nAmen."
+    },
+    "story": {
+      "slides": [
+        {
+          "text": "Gott,\ndieser Morgen ist\nvon dir gehalten."
+        },
+        {
+          "text": "Licht fällt auf Dächer\nund Wege.\nDer Tag öffnet sich."
+        },
+        {
+          "text": "„Dies ist der Tag,\nden der HERR macht.“\nPsalm 118,24"
+        },
+        {
+          "text": "Lass mich dein Licht\nheute nicht übersehen."
+        },
+        {
+          "text": "Was auch kommt:\nDu bist schon da.\nAmen."
+        }
+      ]
+    },
+    "reel": {
+      "hook": "Dieser Morgen ist von Gott gehalten.",
+      "script": "Licht fällt auf Dächer und Wege. Der Tag öffnet sich. Ich komme vor Gott, so wie ich bin. „Dies ist der Tag, den der HERR macht.“ Lass mich dein Licht heute nicht übersehen. Was auch kommt: Du bist schon da. Amen.",
+      "shots": [
+        "Frühes Morgenlicht über Dächern",
+        "Nahaufnahme von Tau oder Blättern im Licht",
+        "Ruhiger Weg am Morgen",
+        "Hände an einer warmen Tasse",
+        "Offener Himmel mit sanftem Licht"
+      ],
+      "duration_seconds": 20
+    }
+  },
+  "visual": {
+    "concept": "Ruhige Morgenszene mit frühem Licht über einfachen Alltagsmotiven: Dächer, Weg, Blätter, weiter Himmel. Unaufgeregt, freundlich, hoffnungsvoll.",
+    "flux_prompt": "soft early morning light over rooftops and a quiet path, dew on leaves, open sky, gentle natural colors, calm hopeful atmosphere, realistic photography, subtle depth, no people posing, no typography",
+    "negative_prompt": "text, letters, logo, watermark",
+    "formats": [
+      "4:5",
+      "9:16",
+      "1.91:1"
+    ],
+    "alt_text": "Sanftes Morgenlicht fällt über Dächer und einen ruhigen Weg. Blätter im Vordergrund leuchten leicht. Die Szene wirkt still, freundlich und hoffnungsvoll."
+  },
+  "qa": {
+    "warnings": [
+      "Alt text must be completed before approval",
+      "Bibelstelle des Gebetsschnipsels geprüft: Psalm 118,24."
+    ],
+    "approved": false
+  },
+  "metadata": {
+    "model": "gpt-5.4-2026-03-05",
+    "generated_at": "2026-10-03T14:00:44.070Z",
+    "prompt_version": "1.1",
+    "assets": []
+  }
+}
