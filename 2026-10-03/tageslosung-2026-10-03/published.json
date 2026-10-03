@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-10-03",
+    "contentDate": "2026-10-03",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-10-03T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Dies Volk naht mir mit seinem Munde und ehrt mich mit seinen Lippen, aber ihr Herz ist fern von mir.",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Dies Volk naht mir mit seinem Munde und ehrt mich mit seinen Lippen, aber ihr Herz ist fern von mir."
+    ],
+    "id": "a2b1b7c9-193c-48fd-b941-9a9437907b62",
+    "attemptCount": 1,
+    "remoteId": "18165176323495413",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:46:07.799Z",
+    "updatedAt": "2026-10-03T05:00:42.633Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-10-03",
+    "contentDate": "2026-10-03",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-10-03T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Dies Volk naht mir mit seinem Munde und ehrt mich mit seinen Lippen, aber ihr Herz ist fern von mir.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Dies Volk naht mir mit seinem Munde und ehrt mich mit seinen Lippen, aber ihr Herz ist fern von mir."
+    ],
+    "id": "a9fc7d04-26fa-4284-b75f-8109c91e392c",
+    "attemptCount": 1,
+    "remoteId": "117375214844558252",
+    "remoteUrl": "https://kirche.social/@christoph/117375214844558252",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:46:07.809Z",
+    "updatedAt": "2026-10-03T05:00:44.567Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
