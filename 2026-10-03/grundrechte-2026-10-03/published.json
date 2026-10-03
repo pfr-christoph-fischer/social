@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-10-03",
+    "contentDate": "2026-10-03",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-10-03T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Ehe und Familie stehen unter dem besonderen Schutze der staatlichen Ordnung. (Grundgesetz, Artikel 6 Absatz 1)",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Ehe und Familie stehen unter dem besonderen Schutze der staatlichen Ordnung. (Grundgesetz, Artikel 6 Absatz 1)"
+    ],
+    "id": "6e4311e6-2102-44ab-979c-877badb89b06",
+    "attemptCount": 1,
+    "remoteId": "18101997824008577",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:39:00.264Z",
+    "updatedAt": "2026-10-03T10:00:30.326Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-10-03",
+    "contentDate": "2026-10-03",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-10-03T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Ehe und Familie stehen unter dem besonderen Schutze der staatlichen Ordnung. (Grundgesetz, Artikel 6 Absatz 1)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Ehe und Familie stehen unter dem besonderen Schutze der staatlichen Ordnung. (Grundgesetz, Artikel 6 Absatz 1)"
+    ],
+    "id": "b566d56e-9519-49fe-8529-0505508a5450",
+    "attemptCount": 1,
+    "remoteId": "117376393752468046",
+    "remoteUrl": "https://kirche.social/@christoph/117376393752468046",
+    "lastError": null,
+    "createdAt": "2026-08-26T15:39:00.332Z",
+    "updatedAt": "2026-10-03T10:00:33.269Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
