@@ -141,5 +141,40 @@
       "status": 201
     },
     "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-10-03",
+    "contentDate": "2026-10-03",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-10-03T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Ehe und Familie stehen unter dem besonderen Schutze der staatlichen Ordnung. (Grundgesetz, Artikel 6 Absatz 1)",
+    "assets": [
+      "render-square-01.jpg"
+    ],
+    "altTexts": [
+      "Ehe und Familie stehen unter dem besonderen Schutze der staatlichen Ordnung. (Grundgesetz, Artikel 6 Absatz 1)"
+    ],
+    "id": "09913ec8-133e-4613-9048-6f56cf2da587",
+    "attemptCount": 2,
+    "remoteId": "18130086775751367",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:39:00.387Z",
+    "updatedAt": "2026-10-03T10:05:22.919Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 200
+    },
+    "retryHistory": [
+      {
+        "at": "2026-10-03T10:00:38.413Z",
+        "error": "threads: Container konnte nicht erstellt werden (500): An unexpected error has occurred. Please retry your request later. (Code 2)",
+        "attempt": 1
+      }
+    ]
   }
 ]
