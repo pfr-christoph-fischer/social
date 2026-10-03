@@ -56,5 +56,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "kirchenjahr-2026-10-03-deut",
+    "contentDate": "2026-10-03",
+    "platform": "facebook",
+    "format": "square",
+    "scheduledAt": "2026-10-03T07:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Tag der deutschen Einheit\n\nWochenspruch: „Ehr jedermann, habt die Brüder und Schwestern lieb, fürchtet Gott, ehret den König.“ (1. Petr 2,17)\n\nPsalm: Psalm 96\n\nAltes Testament: Mi 4,1-14\n\nEvangelium: Lk 1,46-55\n\nEpistel: Röm 13,1-7\n\nPredigttext: Röm 13,1-7\n\nLieder: Zieh ein zu deinen Toren, EG 133; Du schufst, Herr, unsre Erde gut, EG 654",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Tag der deutschen Einheit"
+    ],
+    "id": "51420a89-2cb3-438a-aec7-57b3435b5bab",
+    "attemptCount": 1,
+    "remoteId": "1289703740890525_122124682551426121",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-15T16:58:43.731Z",
+    "updatedAt": "2026-10-03T07:00:49.990Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "PHOTO",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "kirchenjahr-2026-10-03-deut",
+    "contentDate": "2026-10-03",
+    "platform": "mastodon",
+    "format": "square",
+    "scheduledAt": "2026-10-03T07:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Tag der deutschen Einheit\n\nWochenspruch: „Ehr jedermann, habt die Brüder und Schwestern lieb, fürchtet Gott, ehret den König.“ (1. Petr 2,17)\n\nPsalm: Psalm 96\n\nAltes Testament: Mi 4,1-14\n\nEvangelium: Lk 1,46-55\n\nEpistel: Röm 13,1-7\n\nPredigttext: Röm 13,1-7\n\nLieder: Zieh ein zu deinen Toren, EG 133; Du schufst, Herr, unsre Erde gut, EG 654",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Tag der deutschen Einheit"
+    ],
+    "id": "d5e5fd45-aad8-4a59-af7c-31f64f4c394c",
+    "attemptCount": 1,
+    "remoteId": "117375687151075102",
+    "remoteUrl": "https://kirche.social/@christoph/117375687151075102",
+    "lastError": null,
+    "createdAt": "2026-08-15T16:58:43.764Z",
+    "updatedAt": "2026-10-03T07:00:51.414Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
