@@ -84,5 +84,91 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-10-03",
+    "contentDate": "2026-10-03",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-10-03T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Dies Volk naht mir mit seinem Munde und ehrt mich mit seinen Lippen, aber ihr Herz ist fern von mir.",
+    "assets": [
+      "render-square-01.jpg"
+    ],
+    "altTexts": [
+      "Dies Volk naht mir mit seinem Munde und ehrt mich mit seinen Lippen, aber ihr Herz ist fern von mir."
+    ],
+    "id": "9f90b4d1-ed47-484a-a879-c849cd2ac6cb",
+    "attemptCount": 1,
+    "remoteId": "18078652811459380",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:46:07.817Z",
+    "updatedAt": "2026-10-03T05:01:05.487Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-10-03",
+    "contentDate": "2026-10-03",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-10-03T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Dies Volk naht mir mit seinem Munde und ehrt mich mit seinen Lippen, aber ihr Herz ist fern von mir.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Dies Volk naht mir mit seinem Munde und ehrt mich mit seinen Lippen, aber ihr Herz ist fern von mir."
+    ],
+    "id": "f217ec7e-ccea-4d53-8951-d82c512c7f21",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3mwx46q5oqh2v",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3mwx46q5oqh2v",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:46:07.831Z",
+    "updatedAt": "2026-10-03T05:01:07.718Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-10-03",
+    "contentDate": "2026-10-03",
+    "platform": "linkedin",
+    "format": "default",
+    "scheduledAt": "2026-10-03T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Dies Volk naht mir mit seinem Munde und ehrt mich mit seinen Lippen, aber ihr Herz ist fern von mir.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Dies Volk naht mir mit seinem Munde und ehrt mich mit seinen Lippen, aber ihr Herz ist fern von mir."
+    ],
+    "id": "5ca7eb3c-5e86-4b38-804d-c304fca37334",
+    "attemptCount": 1,
+    "remoteId": "urn:li:share:7512013853526839296",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:46:07.854Z",
+    "updatedAt": "2026-10-03T05:01:09.445Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 201
+    },
+    "retryHistory": []
   }
 ]
