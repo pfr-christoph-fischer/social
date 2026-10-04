@@ -1,7 +1,7 @@
 {
   "id": "post-0056",
   "status": "in Arbeit",
-  "needs_input": false,
+  "needs_input": true,
   "source": {
     "calendar_post_id": "post-0056",
     "date": "2026-10-04",
@@ -15,7 +15,8 @@
     "tone": [
       "klar",
       "ruhig",
-      "zugänglich"
+      "zugänglich",
+      "meditativ"
     ],
     "source_notes": [
       "Goal: Den neuen Wochenspruch als ruhigen Auftakt der liturgischen Woche veröffentlichen.",
@@ -23,54 +24,103 @@
       "Production mode: für Monate im Voraus vollständig vorproduzierbar",
       "Structure: Wochenspruch | ein Bild oder eine Beobachtung | ein meditativer Satz | offene Schlussfrage oder Segenswunsch",
       "AI support notes: meditativer Rohentwurf | KI-Bildprompt | Reel-Sprechtext | Alt-Text",
-      "Liturgical source: https://kirchenjahr.pfarr.tools/api/jahr/2026 (2026-10-04, $.Tage['2026-10-04'])"
+      "Liturgical source: https://kirchenjahr.pfarr.tools/api/jahr/2026 (2026-10-04, $.Tage['2026-10-04'])",
+      "Für den 2026-10-04 liegen zwei mögliche Wochensprüche vor: Erntedank (Ps 145,15) und 18. Sonntag nach Trinitatis (1. Joh 4,21).",
+      "Vor Veröffentlichung muss redaktionell entschieden werden, welche örtlich tatsächlich gefeierte Ordnung gilt.",
+      "Solange diese Auswahl fehlt, keine finale Veröffentlichungsversion mit festem Wochenspruch freigeben."
     ]
   },
   "platforms": {
     "facebook": {
-      "text": "",
-      "headline": ""
+      "text": "Heute beginnt eine neue Woche im Kirchenjahr. Noch ist offen, welcher Wochenspruch vor Ort gilt: der Spruch zum Erntedankfest oder der zum 18. Sonntag nach Trinitatis. Darum bleibt dieser Beitrag bis zur redaktionellen Klärung bewusst zurückhaltend.\n\nEin ruhiges Bild kann trotzdem schon eine Richtung zeigen: volle Hände, reifes Licht, ein Feldrand, ein gedeckter Tisch. Oder der stille Moment, in dem ein Mensch merkt: Liebe zu Gott bleibt nicht im Gefühl. Sie sucht den Weg zum Nächsten.\n\nBeides hat Gewicht. Dank für das, was trägt. Liebe, die nicht bei Worten stehen bleibt.\n\nVielleicht ist das ein guter Auftakt für die Woche: genau hinsehen, was uns gegeben ist. Und aufmerksam werden für den Menschen neben uns.\n\nWelcher Satz soll diese Woche bei uns eröffnen?",
+      "headline": "Neuer Wochenspruch für den 4. Oktober: Auswahl noch offen"
     },
     "instagram": {
-      "caption": "",
-      "carousel": []
+      "caption": "Neue Woche. Ein ruhiger Anfang.\n\nFür den 4. Oktober 2026 gibt es in der liturgischen Ordnung zwei mögliche Wochensprüche: zum Erntedankfest und zum 18. Sonntag nach Trinitatis. Welche Fassung vor Ort gilt, muss vor der Veröffentlichung noch entschieden werden.\n\nBis dahin bleibt der Blick offen:\nfür das, was uns nährt.\nfür das, was wir teilen.\nfür die Liebe, die konkret wird.\n\nWas soll diese Woche tragen?",
+      "carousel": [
+        {
+          "type": "slide",
+          "text": "Neue Woche. Ruhiger Anfang."
+        },
+        {
+          "type": "slide",
+          "text": "Für diesen Sonntag gibt es zwei mögliche Wochensprüche."
+        },
+        {
+          "type": "slide",
+          "text": "Erntedank: Dank für das, was uns nährt."
+        },
+        {
+          "type": "slide",
+          "text": "18. Sonntag nach Trinitatis: Liebe, die den Nächsten erreicht."
+        },
+        {
+          "type": "slide",
+          "text": "Welche Spur soll diese Woche tragen?"
+        }
+      ]
     },
     "mastodon": {
-      "text": ""
+      "text": "Neue Woche im Kirchenjahr.\nFür den 4. Oktober 2026 sind zwei mögliche Wochensprüche im Blick: Erntedank oder 18. Sonntag nach Trinitatis. Die örtliche Auswahl muss vor Veröffentlichung noch geklärt werden.\n\nBis dahin: aufmerksam werden für das, was uns trägt. Und für die Menschen neben uns."
     },
     "bluesky": {
-      "text": ""
+      "text": "Neue Woche im Kirchenjahr. Für den 4. Oktober 2026 gibt es zwei mögliche Wochensprüche: Erntedank oder 18. Sonntag nach Trinitatis. Welche Fassung vor Ort gilt, muss vor Veröffentlichung noch entschieden werden. Bis dahin: sehen, was uns trägt. Und wer uns braucht."
     },
     "story": {
-      "slides": []
+      "slides": [
+        {
+          "text": "Neue Woche. Ruhiger Anfang."
+        },
+        {
+          "text": "Für diesen Sonntag gibt es zwei mögliche Wochensprüche."
+        },
+        {
+          "text": "Noch ist die örtliche Auswahl nicht geklärt."
+        },
+        {
+          "text": "Bis dahin: sehen, was uns trägt."
+        },
+        {
+          "text": "Und sehen, wer uns braucht."
+        }
+      ]
     },
     "reel": {
-      "hook": "",
-      "script": "",
-      "shots": [],
-      "duration_seconds": 0
+      "hook": "Neue Woche. Ein stiller Anfang.",
+      "script": "Heute beginnt eine neue liturgische Woche. Für diesen Sonntag sind zwei Wochensprüche möglich. Einer lenkt den Blick auf Dank für das, was uns nährt. Der andere auf Liebe, die den Nächsten nicht vergisst. Welche Fassung vor Ort gilt, muss noch entschieden werden. Bis dahin kann dieser Gedanke mitgehen: Nimm wahr, was dir gegeben ist. Und bleib offen für den Menschen neben dir.",
+      "shots": [
+        "Nahaufnahme von reifen Ähren oder Früchten im weichen Morgenlicht",
+        "Langsame Bewegung über einen gedeckten schlichten Tisch",
+        "Detail einer Hand, die Brot hält oder weitergibt",
+        "Ruhiger Blick auf einen Weg am Feldrand",
+        "Abblendung in warmes, stilles Licht"
+      ],
+      "duration_seconds": 24
     }
   },
   "visual": {
-    "concept": "",
-    "flux_prompt": "",
+    "concept": "Ruhiges, spätherbstliches Motiv mit Natur und Nahrung als offener Bildraum, der sowohl zu Erntedank als auch zum Thema Liebe zum Nächsten passt.",
+    "flux_prompt": "Stilles spätherbstliches Morgenlicht über einem schlichten Holztisch mit Brot, Äpfeln und wenigen Feldfrüchten, daneben unscharfer Blick auf einen Feldrand, warme natürliche Farben, zurückhaltende Komposition, viel freie Fläche, meditative Stimmung, realistisch, weich, würdevoll, keine Menschenmenge, kein inszenierter Festcharakter",
     "negative_prompt": "text, letters, logo, watermark",
     "formats": [
       "4:5",
       "9:16",
       "1.91:1"
     ],
-    "alt_text": ""
+    "alt_text": "Ein schlichter Holztisch mit Brot, Äpfeln und wenigen Feldfrüchten steht im warmen Morgenlicht. Im Hintergrund ist unscharf ein Feldrand zu sehen. Das Bild wirkt ruhig und zurückhaltend."
   },
   "qa": {
     "warnings": [
-      "Alt text must be completed before approval"
+      "Alt text must be completed before approval",
+      "Multiple liturgical entries for 2026-10-04 contain different Wochenspruch values. Local selection is still required before publication.",
+      "Resolved weekly verse is missing. Final Wochenspruch wording must not be published until local liturgical selection is confirmed.",
+      "Alt text should be checked against the final selected image."
     ],
     "approved": false
   },
   "metadata": {
-    "model": "",
-    "generated_at": "",
+    "model": "gpt-5.4-2026-03-05",
+    "generated_at": "2026-10-04T14:36:10.526Z",
     "prompt_version": "1.0",
     "assets": []
   }

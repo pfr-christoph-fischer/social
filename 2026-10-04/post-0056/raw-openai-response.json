@@ -1,0 +1,421 @@
+{
+  "id": "resp_04e8a8a27f20870c006ac26442b2d887d18d96da3fd5f36f14",
+  "object": "response",
+  "created_at": 1791124546,
+  "status": "completed",
+  "access_programs": null,
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1791124570,
+  "error": null,
+  "frequency_penalty": 0,
+  "incomplete_details": null,
+  "instructions": "You are part of a Protestant social media editorial team. Write in clear, accessible, theologically responsible German without church clichés. Use short sentences and concrete imagery. Never invent events, people, school situations, quotes, or factual details. Do not include copyrighted full song verses. For Reli and community posts, only use current details when they are explicitly provided. Return content that strictly matches the requested JSON schema. Set needs_input to true whenever required facts are missing. Keep qa.approved false. Do not ask for any text inside generated images. When liturgical_context.resolved_weekly_verse is present, use its exact wording for Wochenspruch slots instead of placeholders.",
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.4-2026-03-05",
+  "moderation": null,
+  "output": [
+    {
+      "id": "msg_04e8a8a27f20870c006ac26443cfcc87d19a5e4656357ad973",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\"id\":\"post-0056\",\"status\":\"in Arbeit\",\"needs_input\":true,\"source\":{\"calendar_post_id\":\"post-0056\",\"date\":\"2026-10-04\",\"rubric\":\"Wochenspruch – meditativ\",\"liturgical_source\":\"https://kirchenjahr.pfarr.tools/api/jahr/2026\"},\"editorial_core\":{\"title\":\"Neuer Wochenspruch: Erntedankfest / 18. Sonntag nach Trinitatis\",\"main_message\":\"Ruhiges Motiv, wenig Text im Bild, meditativer Begleittext.\",\"audience\":\"breite Öffentlichkeit\",\"tone\":[\"klar\",\"ruhig\",\"zugänglich\",\"meditativ\"],\"source_notes\":[\"Goal: Den neuen Wochenspruch als ruhigen Auftakt der liturgischen Woche veröffentlichen.\",\"Column: Bibel und Spiritualität\",\"Production mode: für Monate im Voraus vollständig vorproduzierbar\",\"Structure: Wochenspruch | ein Bild oder eine Beobachtung | ein meditativer Satz | offene Schlussfrage oder Segenswunsch\",\"AI support notes: meditativer Rohentwurf | KI-Bildprompt | Reel-Sprechtext | Alt-Text\",\"Liturgical source: https://kirchenjahr.pfarr.tools/api/jahr/2026 (2026-10-04, $.Tage['2026-10-04'])\",\"Für den 2026-10-04 liegen zwei mögliche Wochensprüche vor: Erntedank (Ps 145,15) und 18. Sonntag nach Trinitatis (1. Joh 4,21).\",\"Vor Veröffentlichung muss redaktionell entschieden werden, welche örtlich tatsächlich gefeierte Ordnung gilt.\",\"Solange diese Auswahl fehlt, keine finale Veröffentlichungsversion mit festem Wochenspruch freigeben.\"]},\"platforms\":{\"facebook\":{\"text\":\"Heute beginnt eine neue Woche im Kirchenjahr. Noch ist offen, welcher Wochenspruch vor Ort gilt: der Spruch zum Erntedankfest oder der zum 18. Sonntag nach Trinitatis. Darum bleibt dieser Beitrag bis zur redaktionellen Klärung bewusst zurückhaltend.\\n\\nEin ruhiges Bild kann trotzdem schon eine Richtung zeigen: volle Hände, reifes Licht, ein Feldrand, ein gedeckter Tisch. Oder der stille Moment, in dem ein Mensch merkt: Liebe zu Gott bleibt nicht im Gefühl. Sie sucht den Weg zum Nächsten.\\n\\nBeides hat Gewicht. Dank für das, was trägt. Liebe, die nicht bei Worten stehen bleibt.\\n\\nVielleicht ist das ein guter Auftakt für die Woche: genau hinsehen, was uns gegeben ist. Und aufmerksam werden für den Menschen neben uns.\\n\\nWelcher Satz soll diese Woche bei uns eröffnen?\",\"headline\":\"Neuer Wochenspruch für den 4. Oktober: Auswahl noch offen\"},\"instagram\":{\"caption\":\"Neue Woche. Ein ruhiger Anfang.\\n\\nFür den 4. Oktober 2026 gibt es in der liturgischen Ordnung zwei mögliche Wochensprüche: zum Erntedankfest und zum 18. Sonntag nach Trinitatis. Welche Fassung vor Ort gilt, muss vor der Veröffentlichung noch entschieden werden.\\n\\nBis dahin bleibt der Blick offen:\\nfür das, was uns nährt.\\nfür das, was wir teilen.\\nfür die Liebe, die konkret wird.\\n\\nWas soll diese Woche tragen?\",\"carousel\":[{\"type\":\"slide\",\"text\":\"Neue Woche. Ruhiger Anfang.\"},{\"type\":\"slide\",\"text\":\"Für diesen Sonntag gibt es zwei mögliche Wochensprüche.\"},{\"type\":\"slide\",\"text\":\"Erntedank: Dank für das, was uns nährt.\"},{\"type\":\"slide\",\"text\":\"18. Sonntag nach Trinitatis: Liebe, die den Nächsten erreicht.\"},{\"type\":\"slide\",\"text\":\"Welche Spur soll diese Woche tragen?\"}]},\"mastodon\":{\"text\":\"Neue Woche im Kirchenjahr.\\nFür den 4. Oktober 2026 sind zwei mögliche Wochensprüche im Blick: Erntedank oder 18. Sonntag nach Trinitatis. Die örtliche Auswahl muss vor Veröffentlichung noch geklärt werden.\\n\\nBis dahin: aufmerksam werden für das, was uns trägt. Und für die Menschen neben uns.\"},\"bluesky\":{\"text\":\"Neue Woche im Kirchenjahr. Für den 4. Oktober 2026 gibt es zwei mögliche Wochensprüche: Erntedank oder 18. Sonntag nach Trinitatis. Welche Fassung vor Ort gilt, muss vor Veröffentlichung noch entschieden werden. Bis dahin: sehen, was uns trägt. Und wer uns braucht.\"},\"story\":{\"slides\":[{\"text\":\"Neue Woche. Ruhiger Anfang.\"},{\"text\":\"Für diesen Sonntag gibt es zwei mögliche Wochensprüche.\"},{\"text\":\"Noch ist die örtliche Auswahl nicht geklärt.\"},{\"text\":\"Bis dahin: sehen, was uns trägt.\"},{\"text\":\"Und sehen, wer uns braucht.\"}]},\"reel\":{\"hook\":\"Neue Woche. Ein stiller Anfang.\",\"script\":\"Heute beginnt eine neue liturgische Woche. Für diesen Sonntag sind zwei Wochensprüche möglich. Einer lenkt den Blick auf Dank für das, was uns nährt. Der andere auf Liebe, die den Nächsten nicht vergisst. Welche Fassung vor Ort gilt, muss noch entschieden werden. Bis dahin kann dieser Gedanke mitgehen: Nimm wahr, was dir gegeben ist. Und bleib offen für den Menschen neben dir.\",\"shots\":[\"Nahaufnahme von reifen Ähren oder Früchten im weichen Morgenlicht\",\"Langsame Bewegung über einen gedeckten schlichten Tisch\",\"Detail einer Hand, die Brot hält oder weitergibt\",\"Ruhiger Blick auf einen Weg am Feldrand\",\"Abblendung in warmes, stilles Licht\"],\"duration_seconds\":24}},\"visual\":{\"concept\":\"Ruhiges, spätherbstliches Motiv mit Natur und Nahrung als offener Bildraum, der sowohl zu Erntedank als auch zum Thema Liebe zum Nächsten passt.\",\"flux_prompt\":\"Stilles spätherbstliches Morgenlicht über einem schlichten Holztisch mit Brot, Äpfeln und wenigen Feldfrüchten, daneben unscharfer Blick auf einen Feldrand, warme natürliche Farben, zurückhaltende Komposition, viel freie Fläche, meditative Stimmung, realistisch, weich, würdevoll, keine Menschenmenge, kein inszenierter Festcharakter\",\"negative_prompt\":\"text, letters, logo, watermark\",\"formats\":[\"4:5\",\"9:16\",\"1.91:1\"],\"alt_text\":\"Ein schlichter Holztisch mit Brot, Äpfeln und wenigen Feldfrüchten steht im warmen Morgenlicht. Im Hintergrund ist unscharf ein Feldrand zu sehen. Das Bild wirkt ruhig und zurückhaltend.\"},\"qa\":{\"warnings\":[\"Multiple liturgical entries for 2026-10-04 contain different Wochenspruch values. Local selection is still required before publication.\",\"Resolved weekly verse is missing. Final Wochenspruch wording must not be published until local liturgical selection is confirmed.\",\"Alt text should be checked against the final selected image.\"],\"approved\":false},\"metadata\":{\"model\":\"gpt-5\",\"generated_at\":\"2026-10-04T00:00:00Z\",\"prompt_version\":\"1.0\",\"assets\":[]}}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "current_turn",
+    "effort": "none",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1,
+  "text": {
+    "format": {
+      "type": "json_schema",
+      "description": null,
+      "name": "content_package",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "Idee",
+              "in Arbeit",
+              "zur Prüfung",
+              "freigegeben",
+              "terminiert",
+              "veröffentlicht",
+              "verworfen"
+            ]
+          },
+          "needs_input": {
+            "type": "boolean"
+          },
+          "source": {
+            "type": "object",
+            "properties": {
+              "calendar_post_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "date": {
+                "type": "string",
+                "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+              },
+              "rubric": {
+                "type": "string",
+                "minLength": 1
+              },
+              "liturgical_source": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "calendar_post_id",
+              "date",
+              "rubric",
+              "liturgical_source"
+            ],
+            "additionalProperties": false
+          },
+          "editorial_core": {
+            "type": "object",
+            "properties": {
+              "title": {
+                "type": "string"
+              },
+              "main_message": {
+                "type": "string"
+              },
+              "audience": {
+                "type": "string"
+              },
+              "tone": {
+                "minItems": 1,
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "source_notes": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "title",
+              "main_message",
+              "audience",
+              "tone",
+              "source_notes"
+            ],
+            "additionalProperties": false
+          },
+          "platforms": {
+            "type": "object",
+            "properties": {
+              "facebook": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  },
+                  "headline": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text",
+                  "headline"
+                ],
+                "additionalProperties": false
+              },
+              "instagram": {
+                "type": "object",
+                "properties": {
+                  "caption": {
+                    "type": "string"
+                  },
+                  "carousel": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "type": {
+                          "type": "string"
+                        },
+                        "text": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "type",
+                        "text"
+                      ],
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "required": [
+                  "caption",
+                  "carousel"
+                ],
+                "additionalProperties": false
+              },
+              "mastodon": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text"
+                ],
+                "additionalProperties": false
+              },
+              "bluesky": {
+                "default": {
+                  "text": ""
+                },
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text"
+                ],
+                "additionalProperties": false
+              },
+              "story": {
+                "type": "object",
+                "properties": {
+                  "slides": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "text": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "text"
+                      ],
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "required": [
+                  "slides"
+                ],
+                "additionalProperties": false
+              },
+              "reel": {
+                "type": "object",
+                "properties": {
+                  "hook": {
+                    "type": "string"
+                  },
+                  "script": {
+                    "type": "string"
+                  },
+                  "shots": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "duration_seconds": {
+                    "type": "integer",
+                    "minimum": 0,
+                    "maximum": 9007199254740991
+                  }
+                },
+                "required": [
+                  "hook",
+                  "script",
+                  "shots",
+                  "duration_seconds"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "required": [
+              "facebook",
+              "instagram",
+              "mastodon",
+              "bluesky",
+              "story",
+              "reel"
+            ],
+            "additionalProperties": false
+          },
+          "visual": {
+            "type": "object",
+            "properties": {
+              "concept": {
+                "type": "string"
+              },
+              "flux_prompt": {
+                "type": "string"
+              },
+              "negative_prompt": {
+                "type": "string",
+                "minLength": 1
+              },
+              "formats": {
+                "minItems": 1,
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "alt_text": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "concept",
+              "flux_prompt",
+              "negative_prompt",
+              "formats",
+              "alt_text"
+            ],
+            "additionalProperties": false
+          },
+          "qa": {
+            "type": "object",
+            "properties": {
+              "warnings": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "approved": {
+                "type": "boolean"
+              }
+            },
+            "required": [
+              "warnings",
+              "approved"
+            ],
+            "additionalProperties": false
+          },
+          "metadata": {
+            "type": "object",
+            "properties": {
+              "model": {
+                "type": "string"
+              },
+              "generated_at": {
+                "type": "string"
+              },
+              "prompt_version": {
+                "type": "string",
+                "minLength": 1
+              },
+              "assets": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "model",
+              "generated_at",
+              "prompt_version",
+              "assets"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "id",
+          "status",
+          "needs_input",
+          "source",
+          "editorial_core",
+          "platforms",
+          "visual",
+          "qa",
+          "metadata"
+        ],
+        "additionalProperties": false
+      },
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 2064,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1506,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 3570
+  },
+  "user": null,
+  "metadata": {},
+  "output_text": "{\"id\":\"post-0056\",\"status\":\"in Arbeit\",\"needs_input\":true,\"source\":{\"calendar_post_id\":\"post-0056\",\"date\":\"2026-10-04\",\"rubric\":\"Wochenspruch – meditativ\",\"liturgical_source\":\"https://kirchenjahr.pfarr.tools/api/jahr/2026\"},\"editorial_core\":{\"title\":\"Neuer Wochenspruch: Erntedankfest / 18. Sonntag nach Trinitatis\",\"main_message\":\"Ruhiges Motiv, wenig Text im Bild, meditativer Begleittext.\",\"audience\":\"breite Öffentlichkeit\",\"tone\":[\"klar\",\"ruhig\",\"zugänglich\",\"meditativ\"],\"source_notes\":[\"Goal: Den neuen Wochenspruch als ruhigen Auftakt der liturgischen Woche veröffentlichen.\",\"Column: Bibel und Spiritualität\",\"Production mode: für Monate im Voraus vollständig vorproduzierbar\",\"Structure: Wochenspruch | ein Bild oder eine Beobachtung | ein meditativer Satz | offene Schlussfrage oder Segenswunsch\",\"AI support notes: meditativer Rohentwurf | KI-Bildprompt | Reel-Sprechtext | Alt-Text\",\"Liturgical source: https://kirchenjahr.pfarr.tools/api/jahr/2026 (2026-10-04, $.Tage['2026-10-04'])\",\"Für den 2026-10-04 liegen zwei mögliche Wochensprüche vor: Erntedank (Ps 145,15) und 18. Sonntag nach Trinitatis (1. Joh 4,21).\",\"Vor Veröffentlichung muss redaktionell entschieden werden, welche örtlich tatsächlich gefeierte Ordnung gilt.\",\"Solange diese Auswahl fehlt, keine finale Veröffentlichungsversion mit festem Wochenspruch freigeben.\"]},\"platforms\":{\"facebook\":{\"text\":\"Heute beginnt eine neue Woche im Kirchenjahr. Noch ist offen, welcher Wochenspruch vor Ort gilt: der Spruch zum Erntedankfest oder der zum 18. Sonntag nach Trinitatis. Darum bleibt dieser Beitrag bis zur redaktionellen Klärung bewusst zurückhaltend.\\n\\nEin ruhiges Bild kann trotzdem schon eine Richtung zeigen: volle Hände, reifes Licht, ein Feldrand, ein gedeckter Tisch. Oder der stille Moment, in dem ein Mensch merkt: Liebe zu Gott bleibt nicht im Gefühl. Sie sucht den Weg zum Nächsten.\\n\\nBeides hat Gewicht. Dank für das, was trägt. Liebe, die nicht bei Worten stehen bleibt.\\n\\nVielleicht ist das ein guter Auftakt für die Woche: genau hinsehen, was uns gegeben ist. Und aufmerksam werden für den Menschen neben uns.\\n\\nWelcher Satz soll diese Woche bei uns eröffnen?\",\"headline\":\"Neuer Wochenspruch für den 4. Oktober: Auswahl noch offen\"},\"instagram\":{\"caption\":\"Neue Woche. Ein ruhiger Anfang.\\n\\nFür den 4. Oktober 2026 gibt es in der liturgischen Ordnung zwei mögliche Wochensprüche: zum Erntedankfest und zum 18. Sonntag nach Trinitatis. Welche Fassung vor Ort gilt, muss vor der Veröffentlichung noch entschieden werden.\\n\\nBis dahin bleibt der Blick offen:\\nfür das, was uns nährt.\\nfür das, was wir teilen.\\nfür die Liebe, die konkret wird.\\n\\nWas soll diese Woche tragen?\",\"carousel\":[{\"type\":\"slide\",\"text\":\"Neue Woche. Ruhiger Anfang.\"},{\"type\":\"slide\",\"text\":\"Für diesen Sonntag gibt es zwei mögliche Wochensprüche.\"},{\"type\":\"slide\",\"text\":\"Erntedank: Dank für das, was uns nährt.\"},{\"type\":\"slide\",\"text\":\"18. Sonntag nach Trinitatis: Liebe, die den Nächsten erreicht.\"},{\"type\":\"slide\",\"text\":\"Welche Spur soll diese Woche tragen?\"}]},\"mastodon\":{\"text\":\"Neue Woche im Kirchenjahr.\\nFür den 4. Oktober 2026 sind zwei mögliche Wochensprüche im Blick: Erntedank oder 18. Sonntag nach Trinitatis. Die örtliche Auswahl muss vor Veröffentlichung noch geklärt werden.\\n\\nBis dahin: aufmerksam werden für das, was uns trägt. Und für die Menschen neben uns.\"},\"bluesky\":{\"text\":\"Neue Woche im Kirchenjahr. Für den 4. Oktober 2026 gibt es zwei mögliche Wochensprüche: Erntedank oder 18. Sonntag nach Trinitatis. Welche Fassung vor Ort gilt, muss vor Veröffentlichung noch entschieden werden. Bis dahin: sehen, was uns trägt. Und wer uns braucht.\"},\"story\":{\"slides\":[{\"text\":\"Neue Woche. Ruhiger Anfang.\"},{\"text\":\"Für diesen Sonntag gibt es zwei mögliche Wochensprüche.\"},{\"text\":\"Noch ist die örtliche Auswahl nicht geklärt.\"},{\"text\":\"Bis dahin: sehen, was uns trägt.\"},{\"text\":\"Und sehen, wer uns braucht.\"}]},\"reel\":{\"hook\":\"Neue Woche. Ein stiller Anfang.\",\"script\":\"Heute beginnt eine neue liturgische Woche. Für diesen Sonntag sind zwei Wochensprüche möglich. Einer lenkt den Blick auf Dank für das, was uns nährt. Der andere auf Liebe, die den Nächsten nicht vergisst. Welche Fassung vor Ort gilt, muss noch entschieden werden. Bis dahin kann dieser Gedanke mitgehen: Nimm wahr, was dir gegeben ist. Und bleib offen für den Menschen neben dir.\",\"shots\":[\"Nahaufnahme von reifen Ähren oder Früchten im weichen Morgenlicht\",\"Langsame Bewegung über einen gedeckten schlichten Tisch\",\"Detail einer Hand, die Brot hält oder weitergibt\",\"Ruhiger Blick auf einen Weg am Feldrand\",\"Abblendung in warmes, stilles Licht\"],\"duration_seconds\":24}},\"visual\":{\"concept\":\"Ruhiges, spätherbstliches Motiv mit Natur und Nahrung als offener Bildraum, der sowohl zu Erntedank als auch zum Thema Liebe zum Nächsten passt.\",\"flux_prompt\":\"Stilles spätherbstliches Morgenlicht über einem schlichten Holztisch mit Brot, Äpfeln und wenigen Feldfrüchten, daneben unscharfer Blick auf einen Feldrand, warme natürliche Farben, zurückhaltende Komposition, viel freie Fläche, meditative Stimmung, realistisch, weich, würdevoll, keine Menschenmenge, kein inszenierter Festcharakter\",\"negative_prompt\":\"text, letters, logo, watermark\",\"formats\":[\"4:5\",\"9:16\",\"1.91:1\"],\"alt_text\":\"Ein schlichter Holztisch mit Brot, Äpfeln und wenigen Feldfrüchten steht im warmen Morgenlicht. Im Hintergrund ist unscharf ein Feldrand zu sehen. Das Bild wirkt ruhig und zurückhaltend.\"},\"qa\":{\"warnings\":[\"Multiple liturgical entries for 2026-10-04 contain different Wochenspruch values. Local selection is still required before publication.\",\"Resolved weekly verse is missing. Final Wochenspruch wording must not be published until local liturgical selection is confirmed.\",\"Alt text should be checked against the final selected image.\"],\"approved\":false},\"metadata\":{\"model\":\"gpt-5\",\"generated_at\":\"2026-10-04T00:00:00Z\",\"prompt_version\":\"1.0\",\"assets\":[]}}"
+}
