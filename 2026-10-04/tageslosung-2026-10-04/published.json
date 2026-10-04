@@ -84,5 +84,91 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-10-04",
+    "contentDate": "2026-10-04",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-10-04T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Steht auf! Lobet den HERRN, euren Gott, von Ewigkeit zu Ewigkeit! Und man lobe seinen herrlichen Namen, der erhaben ist über allen Preis und Ruhm!",
+    "assets": [
+      "render-square-01.jpg"
+    ],
+    "altTexts": [
+      "Steht auf! Lobet den HERRN, euren Gott, von Ewigkeit zu Ewigkeit! Und man lobe seinen herrlichen Namen, der erhaben ist über allen Preis und Ruhm!"
+    ],
+    "id": "77ab4f8b-f8ff-48ab-ac71-bb589d4c14b1",
+    "attemptCount": 1,
+    "remoteId": "18076235300438592",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:46:10.043Z",
+    "updatedAt": "2026-10-04T05:01:08.934Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-10-04",
+    "contentDate": "2026-10-04",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-10-04T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Steht auf! Lobet den HERRN, euren Gott, von Ewigkeit zu Ewigkeit! Und man lobe seinen herrlichen Namen, der erhaben ist über allen Preis und Ruhm!",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Steht auf! Lobet den HERRN, euren Gott, von Ewigkeit zu Ewigkeit! Und man lobe seinen herrlichen Namen, der erhaben ist über allen Preis und Ruhm!"
+    ],
+    "id": "3424da38-317f-449f-9d5f-338d7efd6e14",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3mwzmnqs7bv2b",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3mwzmnqs7bv2b",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:46:10.054Z",
+    "updatedAt": "2026-10-04T05:01:11.141Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-10-04",
+    "contentDate": "2026-10-04",
+    "platform": "linkedin",
+    "format": "default",
+    "scheduledAt": "2026-10-04T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Steht auf! Lobet den HERRN, euren Gott, von Ewigkeit zu Ewigkeit! Und man lobe seinen herrlichen Namen, der erhaben ist über allen Preis und Ruhm!",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Steht auf! Lobet den HERRN, euren Gott, von Ewigkeit zu Ewigkeit! Und man lobe seinen herrlichen Namen, der erhaben ist über allen Preis und Ruhm!"
+    ],
+    "id": "3a86634a-6485-45ae-8abc-52f9473268d9",
+    "attemptCount": 1,
+    "remoteId": "urn:li:share:7512376257318195200",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:46:10.067Z",
+    "updatedAt": "2026-10-04T05:01:13.527Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 201
+    },
+    "retryHistory": []
   }
 ]
