@@ -1,0 +1,78 @@
+{
+  "id": "prayer-evening-2026-10-04",
+  "status": "in Arbeit",
+  "needs_input": true,
+  "source": {
+    "calendar_post_id": "prayer-evening-2026-10-04",
+    "date": "2026-10-04",
+    "rubric": "Abendgebet",
+    "liturgical_source": ""
+  },
+  "editorial_core": {
+    "title": "Abendgebet",
+    "main_message": "Für dieses Abendgebet fehlen noch verlässlich belegte und hinreichend konkrete aktuelle Situationen aus der geprüften Nachrichtenlage, die redaktionell verantwortbar als Fürbitten eingearbeitet werden können. Vorliegend verifiziert sind bisher nur einzelne Hinweise, etwa erneute russische Angriffe auf Brücken in Kyjiw und Demonstrationen in Stuttgart für Abrüstung am 3. Oktober 2026; für eine belastbare Endfassung sollten mindestens zwei bis vier konkrete Lagen noch gezielt aus tagesschau.de und SWR Aktuell Baden-Württemberg nachrecherchiert und redaktionell geprüft werden.",
+    "audience": "breite Öffentlichkeit",
+    "tone": [
+      "ruhig",
+      "hoffnungsvoll",
+      "geborgen"
+    ],
+    "source_notes": [
+      "Websuche durchgeführt, aber die vorliegenden Treffer liefern nur begrenzt belastbare, auszugsweise sichtbare Details zur aktuellen Nachrichtenlage.",
+      "Verifiziert aus tagesschau.de: erneute russische Angriffe auf Brücken in Kyjiw am 3. Oktober 2026; mehrere Menschen wurden getötet.",
+      "Verifiziert aus SWR Aktuell Baden-Württemberg: Demonstrationen in Stuttgart für Abrüstung am 3. Oktober 2026.",
+      "Für prayer posts sind konkrete aktuelle Situationen verpflichtend; da die Trefferlage hier zu dünn ist, wird needs_input auf true gesetzt.",
+      "Empfohlen: redaktionelle Nachrecherche in tagesschau.de, SWR Aktuell Baden-Württemberg und mindestens einer internationalen Primärquelle/Nachrichtenagentur vor Freigabe."
+    ]
+  },
+  "platforms": {
+    "facebook": {
+      "text": "Für die Veröffentlichung fehlt noch die redaktionell geprüfte Endfassung mit mindestens zwei konkreten aktuellen Fürbitten aus der Nachrichtenlage.",
+      "headline": "Abendgebet"
+    },
+    "instagram": {
+      "caption": "Für die Veröffentlichung fehlt noch die redaktionell geprüfte Endfassung mit mindestens zwei konkreten aktuellen Fürbitten aus der Nachrichtenlage.",
+      "carousel": []
+    },
+    "mastodon": {
+      "text": "Für die Veröffentlichung fehlt noch die redaktionell geprüfte Endfassung mit mindestens zwei konkreten aktuellen Fürbitten aus der Nachrichtenlage."
+    },
+    "bluesky": {
+      "text": "Für die Veröffentlichung fehlt noch die redaktionell geprüfte Endfassung mit mindestens zwei konkreten aktuellen Fürbitten aus der Nachrichtenlage."
+    },
+    "story": {
+      "slides": []
+    },
+    "reel": {
+      "hook": "",
+      "script": "",
+      "shots": [],
+      "duration_seconds": 0
+    }
+  },
+  "visual": {
+    "concept": "Ruhige Abendstimmung mit offenem Fenster, gedämpftem Licht und weitem Himmel. Keine Menschenmenge, keine Schrift im Bild. Das Motiv soll Loslassen, Schutz und Hoffnung durch die Nacht vermitteln.",
+    "flux_prompt": "Eine stille Abendstimmung in einem einfachen Zimmer mit offenem Fenster, weiches warmes Licht, tiefer werdender blauer Himmel, leichte Wolken, ein schlichter Tisch, natürliche Materialien, zurückhaltend, fotografisch, ruhig, hoffnungsvoll, keine Personen im Fokus, keine Symbole aufdringlich inszeniert, atmosphärisch, editorial photography",
+    "negative_prompt": "text, letters, logo, watermark",
+    "formats": [
+      "4:5",
+      "9:16",
+      "1.91:1"
+    ],
+    "alt_text": "Ein ruhiger Innenraum in der Abenddämmerung. Durch ein offenes Fenster ist ein dunkler werdender Himmel zu sehen. Warmes Licht fällt auf einen schlichten Tisch. Die Stimmung wirkt still und geborgen."
+  },
+  "qa": {
+    "warnings": [
+      "Alt text must be completed before approval",
+      "Aktuelle Bezüge noch nicht ausreichend redaktionell ausgearbeitet.",
+      "Mindestens zwei konkrete, verifizierte Nachrichtenlagen müssen vor Freigabe ausdrücklich in Haupttext und Plattformtexten erscheinen."
+    ],
+    "approved": false
+  },
+  "metadata": {
+    "model": "gpt-5.4-2026-03-05",
+    "generated_at": "2026-10-04T09:00:34.389Z",
+    "prompt_version": "1.0",
+    "assets": []
+  }
+}
