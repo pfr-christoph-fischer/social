@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-10-04",
+    "contentDate": "2026-10-04",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-10-04T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Pflege und Erziehung der Kinder sind das natürliche Recht der Eltern und die zuvörderst ihnen obliegende Pflicht. (Grundgesetz, Artikel 6 Absatz 2)",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Pflege und Erziehung der Kinder sind das natürliche Recht der Eltern und die zuvörderst ihnen obliegende Pflicht. (Grundgesetz, Artikel 6 Absatz 2)"
+    ],
+    "id": "14b888e1-27d9-4272-8bea-0ebde0a23d34",
+    "attemptCount": 1,
+    "remoteId": "18110784890331354",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:39:04.766Z",
+    "updatedAt": "2026-10-04T10:00:29.921Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-10-04",
+    "contentDate": "2026-10-04",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-10-04T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Pflege und Erziehung der Kinder sind das natürliche Recht der Eltern und die zuvörderst ihnen obliegende Pflicht. (Grundgesetz, Artikel 6 Absatz 2)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Pflege und Erziehung der Kinder sind das natürliche Recht der Eltern und die zuvörderst ihnen obliegende Pflicht. (Grundgesetz, Artikel 6 Absatz 2)"
+    ],
+    "id": "c88ecd64-d0cf-4928-a469-742fe38de8e1",
+    "attemptCount": 1,
+    "remoteId": "117382055976894035",
+    "remoteUrl": "https://kirche.social/@christoph/117382055976894035",
+    "lastError": null,
+    "createdAt": "2026-08-26T15:39:04.836Z",
+    "updatedAt": "2026-10-04T10:00:31.962Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
