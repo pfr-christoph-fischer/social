@@ -1,6 +1,6 @@
 {
   "id": "prayer-evening-2026-10-04",
-  "status": "zur Prüfung",
+  "status": "in Arbeit",
   "needs_input": false,
   "source": {
     "calendar_post_id": "prayer-evening-2026-10-04",
@@ -27,31 +27,31 @@
   },
   "platforms": {
     "facebook": {
-      "text": "Gott,\njetzt wird es Abend.\nWir legen dir hin, was dieser Tag war.\nDas Gute.\nDie Begegnungen.\nDie Arbeit, die gelungen ist.\n\nUnd auch das, was schwer war.\nDas falsche Wort.\nDie Müdigkeit.\nDas, was offen geblieben ist.\n\nWir bitten dich für die Menschen in Kiew,\nwo erneut Angriffe eine Brücke getroffen haben\nund Menschen um ihr Leben fürchten.\n\nWir bitten dich für die Menschen im Gazastreifen,\nwo nach einem Luftangriff Tote gemeldet wurden\nund Familien durch diese Nacht mit Angst und Trauer gehen.\n\nWir denken an die Menschen in Stuttgart,\ndie für Frieden und Abrüstung auf die Straße gegangen sind.\nHalte die Sehnsucht nach Frieden wach.\n\nSei bei allen, die heute Nacht wachen,\npflegen, fliehen, trösten oder einfach nicht schlafen können.\n\nUnd sei bei uns.\nNimm, was unfertig ist, in deine Hand.\nSchenk uns Ruhe.\nBewahre in uns die Hoffnung,\ndass deine Zukunft weiter reicht als dieser Tag.\nAmen.",
-      "headline": "Abendgebet: Was unfertig bleibt, darf in Gottes Hand ruhen"
+      "headline": "Abendgebet: Was unfertig bleibt, darf in Gottes Hand ruhen",
+      "text": "Gott,\njetzt wird es Abend.\nWir legen dir hin, was dieser Tag war.\nDas Gute.\nDie Begegnungen.\nDie Arbeit, die gelungen ist.\n\nUnd auch das, was schwer war.\nDas falsche Wort.\nDie Müdigkeit.\nDas, was offen geblieben ist.\n\nWir bitten dich für die Menschen in Kiew,\nwo erneut Angriffe eine Brücke getroffen haben\nund Menschen um ihr Leben fürchten.\n\nWir bitten dich für die Menschen im Gazastreifen,\nwo nach einem Luftangriff Tote gemeldet wurden\nund Familien durch diese Nacht mit Angst und Trauer gehen.\n\nWir denken an die Menschen in Stuttgart,\ndie für Frieden und Abrüstung auf die Straße gegangen sind.\nHalte die Sehnsucht nach Frieden wach.\n\nSei bei allen, die heute Nacht wachen,\npflegen, fliehen, trösten oder einfach nicht schlafen können.\n\nUnd sei bei uns.\nNimm, was unfertig ist, in deine Hand.\nSchenk uns Ruhe.\nBewahre in uns die Hoffnung,\ndass deine Zukunft weiter reicht als dieser Tag.\nAmen."
     },
     "instagram": {
       "caption": "Gott,\nder Tag ist nicht nur gelungen.\nUnd er ist nicht nur gescheitert.\nEr darf unvollendet bei dir liegen.\n\nWir bitten dich für die Menschen in Kiew nach den erneuten Angriffen.\nFür die Menschen im Gazastreifen nach dem Luftangriff mit Toten.\nFür alle, die weiter nach Frieden suchen – auch dort, wo Menschen in Stuttgart dafür auf die Straße gegangen sind.\n\nSchenk Ruhe für diese Nacht.\nUnd Hoffnung, die weiter sieht als heute.\nAmen.",
       "carousel": [
         {
-          "type": "text",
-          "text": "Der Tag ist vorbei.\nDu musst ihn nicht festhalten."
+          "text": "Der Tag ist vorbei.\nDu musst ihn nicht festhalten.",
+          "type": "text"
         },
         {
-          "type": "text",
-          "text": "Bring vor Gott,\nwas gut war.\nUnd was schwer war."
+          "text": "Bring vor Gott,\nwas gut war.\nUnd was schwer war.",
+          "type": "text"
         },
         {
-          "type": "text",
-          "text": "Wir beten für Menschen in Kiew,\ndie unter erneuten Angriffen leiden."
+          "text": "Wir beten für Menschen in Kiew,\ndie unter erneuten Angriffen leiden.",
+          "type": "text"
         },
         {
-          "type": "text",
-          "text": "Wir beten für Menschen im Gazastreifen,\nwo nach einem Luftangriff Tote gemeldet wurden."
+          "text": "Wir beten für Menschen im Gazastreifen,\nwo nach einem Luftangriff Tote gemeldet wurden.",
+          "type": "text"
         },
         {
-          "type": "text",
-          "text": "Wir beten für Frieden.\nUnd für eine ruhige Nacht."
+          "text": "Wir beten für Frieden.\nUnd für eine ruhige Nacht.",
+          "type": "text"
         }
       ]
     },
@@ -105,12 +105,12 @@
     "alt_text": "Ein ruhiger Raum am Abend. Auf einem Tisch steht eine einzelne Kerze. Durch ein Fenster fällt das letzte warme Licht des Tages. Die Szene wirkt still und gesammelt."
   },
   "qa": {
+    "approved": false,
     "warnings": [
       "Alt text must be completed before approval",
       "Aktuelle Bezüge vor Freigabe nochmals gegen die Nachrichtenlage bis zum Produktionszeitpunkt abgleichen.",
       "Formulierungen zu Kiew und Gazastreifen sind bewusst vorsichtig und zeitlich robust gehalten."
-    ],
-    "approved": false
+    ]
   },
   "metadata": {
     "model": "gpt-5.4-2026-03-05",
