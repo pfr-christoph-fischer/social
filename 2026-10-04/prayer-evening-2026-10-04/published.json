@@ -27,5 +27,66 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "prayer-evening-2026-10-04",
+    "contentDate": "2026-10-04",
+    "platform": "instagram",
+    "format": "default",
+    "scheduledAt": "2026-10-04T18:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Gott,\nder Tag ist nicht nur gelungen.\nUnd er ist nicht nur gescheitert.\nEr darf unvollendet bei dir liegen.\n\nWir bitten dich für die Menschen in Kiew nach den erneuten Angriffen.\nFür die Menschen in Spanien, die von Unwettern betroffen sind.\n\nSchenk Ruhe für diese Nacht.\nUnd Hoffnung, die weiter sieht als heute.\nAmen.",
+    "assets": [
+      "render-instagram-feed-01.jpg",
+      "render-instagram-feed-02.jpg",
+      "render-instagram-feed-03.jpg",
+      "render-instagram-feed-04.jpg",
+      "render-instagram-feed-05.jpg"
+    ],
+    "altTexts": [
+      "Ein ruhiger Raum am Abend. Auf einem Tisch steht eine einzelne Kerze. Durch ein Fenster fällt das letzte warme Licht des Tages. Die Szene wirkt still und gesammelt."
+    ],
+    "id": "8f66977b-5b81-4035-836e-ba32d417a115",
+    "attemptCount": 1,
+    "remoteId": "18097670291434496",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-10-04T14:58:06.870Z",
+    "updatedAt": "2026-10-04T18:01:04.734Z",
+    "responseMetadata": {
+      "mediaCount": 5,
+      "mediaType": "CAROUSEL",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "prayer-evening-2026-10-04",
+    "contentDate": "2026-10-04",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-10-04T18:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Gott,\nwir legen dir diesen Tag hin.\nDas Gute. Das Schwere. Das Unfertige.\n\nWir bitten dich für die Menschen in Kiew nach den erneuten Angriffen.\nFür die Menschen in Spanien, die von Unwettern betroffen sind.\n\nSchenk Ruhe für diese Nacht und halte die Hoffnung in uns wach.\nAmen.",
+    "assets": [
+      "render-facebook-mastodon-01.png"
+    ],
+    "altTexts": [
+      "Ein ruhiger Raum am Abend. Auf einem Tisch steht eine einzelne Kerze. Durch ein Fenster fällt das letzte warme Licht des Tages. Die Szene wirkt still und gesammelt."
+    ],
+    "id": "5fcd9877-e607-47ed-9be6-0f8f69fd25d5",
+    "attemptCount": 1,
+    "remoteId": "117383945757230622",
+    "remoteUrl": "https://kirche.social/@christoph/117383945757230622",
+    "lastError": null,
+    "createdAt": "2026-10-04T14:58:06.919Z",
+    "updatedAt": "2026-10-04T18:01:07.746Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
