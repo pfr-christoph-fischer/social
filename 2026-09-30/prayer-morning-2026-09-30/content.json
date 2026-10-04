@@ -10,111 +10,67 @@
   },
   "editorial_core": {
     "title": "Morgengebet",
-    "main_message": "Den neuen Tag als Gabe Gottes annehmen, Gottes Güte loben und mit ruhiger Hoffnung in den Morgen gehen.",
+    "main_message": "Den neuen Tag als Morgenlob beginnen: sich auf Gott ausrichten, Gottes Gegenwart und Güte wahrnehmen und aus christlicher Hoffnung in den Tag gehen.",
     "audience": "breite Öffentlichkeit",
     "tone": [
-      "lobend",
-      "hoffnungsvoll",
-      "zugewandt"
+      "klar",
+      "ruhig",
+      "zugänglich"
     ],
     "source_notes": [
-      "Gebet am Morgen. Fokus auf Lob, Dank und Vertrauen.",
-      "Kein Nachrichtenbezug und keine konkreten Fürbitten für aktuelle Ereignisse.",
-      "Kurzer Gebetsschnipsel aus der Bibel: „Dies ist der Tag, den der HERR macht“ (Psalm 118,24, Luther 2017).",
-      "Sprache kurz, klar, zugänglich und ohne kirchliche Binnenbegriffe."
+      "Goal: Den neuen Tag als Morgenlob beginnen: sich auf Gott ausrichten, Gottes Gegenwart und Güte wahrnehmen und aus christlicher Hoffnung in den Tag gehen.",
+      "Column: Gebet am Morgen",
+      "Production mode: am Morgen der Veröffentlichung",
+      "Structure: Goal: Ein kurzes Morgenlob, das den neuen Tag bewusst vor Gott beginnt und die Aufmerksamkeit zuerst auf Gott richtet. | Column: Gebet am Morgen | Production mode: weitgehend vorproduzierbar; am Morgen der Veröffentlichung nur auf stimmigen Tagesbezug prüfen. | Ausrichtung: Gott anreden und loben. Gottes Gegenwart, Treue, Güte, Schöpferkraft, Barmherzigkeit oder verheißene Zukunft in den Mittelpunkt stellen. | Abgrenzung: Keine Nachrichtenschau und keine konkreten Fürbitten für aktuelle Ereignisse, Länder, Gruppen oder Einzelne. Solche Anliegen gehören in das Abendgebet. | Prayer structure: Vor Gott ankommen | Gott mit einem Namen oder Bild anreden | den neuen Morgen und das Leben als Gabe wahrnehmen | einen kurzen Gebetsschnipsel aufnehmen | Hoffnung und Vertrauen aussprechen | den Tag offen und zuversichtlich aus Gottes Hand annehmen. | Prayer fragment: Wenn passend, einen sehr kurzen, erkennbaren Schnipsel aus einem bekannten Gebet aufnehmen, zum Beispiel aus einem Psalm, einem biblischen Gebet oder der Tradition von Taizé oder Iona. | Source handling: Quelle des Gebetsschnipsels zuverlässig prüfen und knapp nennen. Biblische Worte mit Bibelstelle kennzeichnen. Bei modernen Gebeten und Gesängen nur ein kurzes zulässiges Zitat verwenden; sonst den Gedanken in eigenen Worten aufnehmen. | Theological key: Christliche Hoffnung gründet in Gott und seiner verheißenen Zukunft. Sie ist mehr als gute Stimmung und trägt auch dann, wenn der Tag ungewiss beginnt. | Theological key: Das Morgenlob verschweigt Dunkelheit und Leid nicht, macht sie aber nicht zum Mittelpunkt. Es beginnt mit Gott, von dem Licht, Leben und Erneuerung erwartet werden. | Spiritual tone: Lob, Dank, Staunen, Vertrauen, Erwartung und ruhige Zuversicht. Keine Leistungsforderung und kein Appellkatalog. | Language: Kurze, einfache und poetisch klare Sätze. Konkrete Bilder des Morgens und der Schöpfung verwenden, ohne kitschig zu werden. | Language: Möglichst wenig kirchliche Binnenbegriffe. Das Gebet soll auch für Menschen zugänglich sein, die mit traditioneller Gebetssprache wenig anfangen können. | Ending: Mit einem Satz des Vertrauens oder Lobes enden, der in den Tag mitgenommen werden kann. | AI support notes: Passenden geistlichen Leitgedanken wählen | gegebenenfalls einen kurzen Gebetsschnipsel samt Quelle prüfen | Morgenlob in einfacher Sprache entwerfen | konkrete Fürbitten konsequent dem Abendgebet überlassen | Caption kürzen | Alt-Text",
+      "AI support notes: Aktuelle Nachrichten prüfen | Gebet und Plattformtexte generieren | redaktionell prüfen"
     ]
   },
   "platforms": {
     "facebook": {
-      "text": "Gott, du Licht dieses Morgens,\ndu weckst die Welt und auch mich.\nDieser Tag liegt nicht leer vor mir.\nEr kommt aus deiner Hand.\n\n„Dies ist der Tag, den der HERR macht“ (Psalm 118,24).\n\nDarum bitte ich nicht zuerst um Tempo,\nsondern um einen wachen Blick.\nFür das Gute.\nFür die Menschen neben mir.\nFür die Wege, die heute vor mir liegen.\n\nBleib bei mir in allem, was kommt.\nLass Hoffnung größer sein als Unruhe.\nUnd mach mein Herz weit für deinen Frieden.\n\nIch gehe in diesen Tag mit dir.\nAmen.",
-      "headline": "Morgengebet"
+      "text": "",
+      "headline": ""
     },
     "instagram": {
-      "caption": "Gott, du Licht dieses Morgens,\ndu weckst die Welt und auch mich.\nDieser Tag kommt aus deiner Hand.\n\n„Dies ist der Tag, den der HERR macht“ (Psalm 118,24).\n\nSchenk mir einen wachen Blick,\nruhiges Vertrauen\nund ein Herz, das offen bleibt.\n\nIch gehe in diesen Tag mit dir.\nAmen.",
-      "carousel": [
-        {
-          "type": "text",
-          "text": "Gott, du Licht dieses Morgens, du weckst die Welt und auch mich."
-        },
-        {
-          "type": "text",
-          "text": "Dieser Tag kommt aus deiner Hand."
-        },
-        {
-          "type": "text",
-          "text": "„Dies ist der Tag, den der HERR macht“ (Psalm 118,24)."
-        },
-        {
-          "type": "text",
-          "text": "Schenk mir einen wachen Blick, ruhiges Vertrauen und ein Herz, das offen bleibt."
-        },
-        {
-          "type": "text",
-          "text": "Ich gehe in diesen Tag mit dir. Amen."
-        }
-      ]
+      "caption": "",
+      "carousel": []
     },
     "mastodon": {
-      "text": "Gott, du Licht dieses Morgens,\ndu weckst die Welt und auch mich.\nDieser Tag kommt aus deiner Hand.\n\n„Dies ist der Tag, den der HERR macht“ (Psalm 118,24).\n\nSchenk mir einen wachen Blick, ruhiges Vertrauen und ein Herz, das offen bleibt.\nIch gehe in diesen Tag mit dir.\nAmen."
+      "text": ""
     },
     "bluesky": {
-      "text": "Gott, du Licht dieses Morgens, du weckst die Welt und auch mich. Dieser Tag kommt aus deiner Hand. „Dies ist der Tag, den der HERR macht“ (Psalm 118,24). Schenk mir einen wachen Blick, ruhiges Vertrauen und ein Herz, das offen bleibt. Ich gehe in diesen Tag mit dir. Amen."
+      "text": ""
     },
     "story": {
-      "slides": [
-        {
-          "text": "Gott, du Licht dieses Morgens, du weckst die Welt und auch mich."
-        },
-        {
-          "text": "Dieser Tag kommt aus deiner Hand."
-        },
-        {
-          "text": "„Dies ist der Tag, den der HERR macht“ (Psalm 118,24)."
-        },
-        {
-          "text": "Schenk mir ruhiges Vertrauen für alles, was heute kommt."
-        },
-        {
-          "text": "Ich gehe in diesen Tag mit dir. Amen."
-        }
-      ]
+      "slides": []
     },
     "reel": {
-      "hook": "Dieser Morgen beginnt nicht mit Druck, sondern mit Vertrauen.",
-      "script": "Gott, du Licht dieses Morgens. Du weckst die Welt und auch mich. Dieser Tag kommt aus deiner Hand. „Dies ist der Tag, den der HERR macht.“ Schenk mir einen wachen Blick, ruhiges Vertrauen und ein Herz, das offen bleibt. Ich gehe in diesen Tag mit dir. Amen.",
-      "shots": [
-        "Nahaufnahme von frühem Morgenlicht am Fenster",
-        "Tautropfen auf Blättern im ruhigen Gegenlicht",
-        "Eine Hand an einer Kaffeetasse auf einem Tisch",
-        "Langsame Schritte auf einem stillen Weg am Morgen",
-        "Heller Himmel über Bäumen"
-      ],
-      "duration_seconds": 24
+      "hook": "",
+      "script": "",
+      "shots": [],
+      "duration_seconds": 0
     }
   },
   "visual": {
-    "concept": "Ruhiger Morgenbeginn mit natürlichem Licht, schlichter Alltagsszene und weitem Himmel. Die Bildsprache soll Ruhe, Offenheit und Hoffnung vermitteln.",
-    "flux_prompt": "quiet early morning scene, soft natural sunrise light through a window, minimal everyday setting, dew on leaves, warm but gentle tones, calm atmosphere, subtle sense of hope, authentic photography style, no people facing camera, clean composition, Protestant social media aesthetic",
+    "concept": "",
+    "flux_prompt": "",
     "negative_prompt": "text, letters, logo, watermark",
     "formats": [
       "4:5",
       "9:16",
       "1.91:1"
     ],
-    "alt_text": "Sanftes Morgenlicht fällt durch ein Fenster. Draußen liegen Tautropfen auf Blättern, darüber ein heller Himmel. Die Szene wirkt ruhig, schlicht und hoffnungsvoll."
+    "alt_text": ""
   },
   "qa": {
     "warnings": [
-      "Alt text must be completed before approval",
-      "Bibelzitat geprüft: Psalm 118,24 (Luther 2017).",
-      "Am Morgen der Veröffentlichung nur kurzen Tagesbezug und Schlussredaktion prüfen."
+      "Alt text must be completed before approval"
     ],
     "approved": false
   },
   "metadata": {
-    "model": "gpt-5.4-2026-03-05",
-    "generated_at": "2026-09-29T14:00:42.583Z",
-    "prompt_version": "1.1",
+    "model": "",
+    "generated_at": "",
+    "prompt_version": "1.0",
     "assets": []
   }
 }
