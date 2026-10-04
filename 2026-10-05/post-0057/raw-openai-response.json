@@ -1,0 +1,435 @@
+{
+  "id": "resp_0408a14d03c15288006ac269ddd93487d186f968665c82a2b0",
+  "object": "response",
+  "created_at": 1791125981,
+  "status": "completed",
+  "access_programs": null,
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1791126006,
+  "error": null,
+  "frequency_penalty": 0,
+  "incomplete_details": null,
+  "instructions": "You are part of a Protestant social media editorial team. Write in clear, accessible, theologically responsible German without church clichés. Use short sentences and concrete imagery. Never invent events, people, school situations, quotes, or factual details. Do not include copyrighted full song verses. For Reli and community posts, only use current details when they are explicitly provided. Return content that strictly matches the requested JSON schema. Set needs_input to true whenever required facts are missing. Keep qa.approved false. Do not ask for any text inside generated images. When liturgical_context.resolved_weekly_verse is present, use its exact wording for Wochenspruch slots instead of placeholders.",
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.6-sol",
+  "moderation": null,
+  "output": [
+    {
+      "id": "rs_0408a14d03c15288006ac269de5aec87d1a9c5054ea44f1629",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABqwmn3PJBRaatqRw9vIDkIRS0ca7bvoJvGHx9KUMoCmDhoXIW8Yhd-Za1trpl3N76T1MkqDfZBXRI3bdayZC-726v3lc2sxfqVba4YkGEN1uVBKWYMoJ8HufPi4LNYKqrREnZn1xfNkzn-qDAJQzs_GWXC6TuS_irqpLzW2hFvblEGBVAXrn7QQ2XBhAlk8rDKDw8acsoEpbBCzob4v9whuFK-NcL_PiL7TG3ik29mHfusGDZYx4iSpVAo3071kzo3DgSO21mTfYjMN7VCojNmDAm6SXtDG7mg8JEQlJQRQ1KKW4UWWnw_VHcHKQyXox5QY9f5NV2cJ3mvqQqns5pU6jp5X5Oa1egLdsEJwNc4oa9IM2Q801ww6F-ld1ReE3V2fWQ07lXdY2t7WPbdaavDCrjYZ_qT-cLvxaogSbkPYc_cC1RWFRM4cax219otNL0EFqPFmvSLnqdUh5rw5-fQw-g4AimV1Ehlkh5c9tnfxXJBiPyRA4MMmOzeJhVfwv_JZs5yofXTskMX-tj2aczXoPwOl1NR_PvVIT6kGYOPhapeipnDsIuC27dKxN7kHi7zfYKIaM79E6KvTnOYErM3iGBWfW73it_8e-_leTAopnSl4YeWl7kevRT9BX13V9UnvCL6fJ3Ypi90bPKRqlAwPmT50V20hd0tHMXzYwBhCphN8CY0_NnqkZsFVw5nMkL70PazgvF62PCmpvuxV39xEchiNyrwmwKLh-pjWivKAA1JILEVXfD5Yj_XCLseIIiMiQVe0KNIe0qqOPddof01aBJKUAXLPckxRPSMdpwYZPettJLLh9G7lYeOX1pNRUgk7BUAHuYU71-VS8ezecSZuykxf5IjgMIWE4COroKbBJYJrLJGhrg1NS0C4aIdWvrcrpQZn6ESXSrJDWa0woOA_lGcRzR827IdZryGiWG5gyakfl2MLtvv4yzFsEgUIsgWOKxzG3mg7xMn3DM9TY4sBAFTlmdaAP7669lUJbnSv8wIGWK-v79EkAB5YOn8PgJFVGMqyTPNmusiMNgGBkZPs5VrUnWkXS1AkMMrQkCzpBeLA7d3UsnyITTeAppa9Uq5p_HztkCS4x9HMRo8CrnAqIWTJ4llxywzNfgRvE7jWOiE_K0mw46bIfcKpH28qVMzIQMPrS1ldB18lNamDxHcXbo2Hb85rjBf8cQIziWVSJxlymdeXL2RgdIP6TQHHvmlsDmW0B1z16B0BHV7w4Bneg4PbypB9h5sEzbiBvg5EycMFLpsnvgFoxaHtvqlPtyiPDKWqTHfIjzvb2QvGO5GbZuGxIgiGBdbRjBpYw4Y8PriKKPz0qD13L0yefALfs13Su8UaOccNWb-G-i1IIGJIxNXHUZZp7DjlK-5_dkw_vwvBAW3Ur3JC56LxCe2XyOSOuNsT4ZzBCvz2vIkLHTM80L7h18qwtVWUpz2KPsh6yFqUFfj96oTyHMtOGZiZ1XfrjiFBeaYMXvBfHW0Z9NRTjrR28FKliIiuEQ8hlQ7PVN51-1eprTKcHlKJ1zLGs73e7msnIUzBHh6AC3zSja9naJ6QM_CUZwuE3JqURV-_Lu8aKdffTe-cptY4QKpXheh9RYofpXK5ABbecslQTBWNA6qovTGmQ3wnT7l8IszKAkkZ00WQPWd3dxtxj6t2yEpFx8EYAVxhuF6KU9OnPOOv5vqY_31O7Yfghp33ybbB4NoN5EQgqvcCgZQ4of3y7AjyfosGTWget4eT9Xi2cUjgr8yYqSzsiRtIRTfEelRy5QKUP7F2ohg_eoFaeMePfp-7HnA7op6XOY2d4bL-hpC5IKNeVPM_vvqyarZHoUB_rgSg7RHlx3mqmjg2WfjdNE-b653JDkfbHvXUyw0z5tFqkogobGSZgNV8Hf-3FI5yBIuPvPrPiciIQruBtPt0FAOj_QZyz-Mv8Kl5cbNPNBDXVz1CCzZManswgtB4FsjwPo01ZHgrpIT9J0RYYC0KJVs-RKtyxyVQwiMUWhyTCfK_r-1A7xM2jxnYtBl6InSMwfwbnTsYgbC8urXIcYPXldtM5cOWz8aJ2MI7Ae2uUo28nVGG5yb50HfXQ7xv2BJPQjPDx-nBSA8A7x-pnqL3DwtMsmdwc5A6Sw-aO4krrZ1bvgxfHuRU22VDufCaFxCY6ZKp1Kz3gmhVXhTY8-YWaiJ6j86pDD5dn5kN2Q4-eRvzfV3XggMOT892_HAqzRXzJG5MF6NV325POcusYXKlY6ccoOJ3rOO8Tc6TLt8QlDFjj64t8u-49Nb1i15e0WD_5f-b8O-weHADsJZUQF4JzxGPaDJpd3mxt-AwRfd8fVPpHI5W5ziS02KsOYTrvUEcpcwBeVMhKnCe6f0s1ct2griSZD02_Nub3IGA2qgzESxfrjGPnyG530luDfu4MOxEQnum7bnH105cAj_GXAzg5xZ4RSHrd8lyvHfS3ZzESV20VG9eagyH37LaMpWNq4Xs2ucCf_IvnDh887vF1CIo6kz6kpj2iONoIZWvGsNwx0wWJ8umnGJ9yvEeIalv8mxrwi9KTmJksegDX2wZgDmxHEVwshw5JAc3c1oUKXNOFJB0vWC0dEvE5F0hw5PTjneoMJ1zpHiyxHOk_TaHQzJ9fZe8k8f20NTVKS7xuR9odpKuDUx39TpPjtMvM6-hG7LLlP0z_DAfqmVgTPsBX5VuQBoK8oax2oh-A2nEKU3V-_0ECSwf9Yut13QvPyoiSmD5IBEeZpd3Aogk6RP2CH0GxWJi6jNJVGyBCRwY4hooaiU8Q5EPdx9ohVj9rycFiyB2GB9c7au65sedBTW5BiGyztf3BlKPmAPUh1V2e-KrAMcNm0kT0yxCdDvP2ES74DbkpcpmpZs4pfQAHpPX1fKtIeHOA_AuORCcaN7O0FctBgM0mTDVuKri6oReqy7opJXrFk-gcR8w4dSo3e7WGuUJ9ZEGzf4Uv5b48NLs3v5upiDD6ns2umjYTjPqqf0LTdyGPzLuJThhDg6N2G5KiSAPWvMmgYnZfv_kKlmk-YOU6uN9iPShKvbSzRyVezryTavn4-OuFUS5vEnRgBeW36iRgd-fC-weePPqIkf1ioqn_U8ofvpbLTerXj22za0_l19IykTDn7FIKAzUgqN3zLh8mQIw5P-TaSifOyObgO46q5qDLGY8FtdU5f8glidKRdcrnTehJhm9Mmk3XvAaH1DOmu7WVEmz9jPXI8gT-k-ptCucaSh26ogJauyaQL-gksxzTNnBLajchdiYsMicfNT0o2m7G1NEYNMyAqO8YVSV0GxwxWVacYZU6gmgP-WXlvB9Cd-frukFtECt_lbO8-4vsOezAzIf-OKLkKQldZrE6yaxmLxQe5vTzTQaCwonwoqpOiFV_msLr-BKkZVAn6wHCbZGCanDUJvfRNSmaOBRIy8R9r2MyAa00W360KZFEPHZ6GpDfewPCiGbmMDSlbRBgTO4LY_oLjqUtOAVmnJUjELR5ABOVLw8SkaN-6--nvGk7s4I0PWH0HzDjQPsxa-1m_PUPsVjNrHvh-047Jpxp9YUTFIBKa4ByxzJf4CSUektAHs2jiNG4_BHaRqqCOZU-Yqycjqu0WyjPJ-uMsHqPA-zl6HXgSQQka7Kh_dmHOz3gPYY_PVSD4Rl-s0TVEw1FHTgRz2fUlvhmqZLrPtGfQzFb70aRUN5ZdAL78QyElRguKizxnyl2Cen9KcFWZblBDMZWXd8hwN9N4FOmKDX9KAEizi6a_y8X27mejyepcyOz9-8x5Ymrq1_ycmt9GRMXSqi-5QZF_HSonp7EugV8uDmAwdfbMLtzTLKivTnC1CcLxtklReNaaVEwMmhvqyzvsJEZqls3koN0nKJ7tjYa7-KtWleWyBf8LPyRLVySDdeZl6eAN4Kva4MB909nE9rhaLDMxP3ejy61EF2D73uXpOVal5C0uW3UwQ9xuPRD4GbtzJlt-0nLJP2afZb-8Z3hsIMqOAXjVn8uT0X08HcWEdqUYsU74yzWwusOQOfp05B7Eb4Odr0gVIC5lBDA0dLKK-3VmTLwHpXDZ23he-yK6GiWnzIIR2hfTRZJ3WYMtU-Q_h4NV7vbtX6Ev95zYwba01lqlMJs3bV9j9ztoBBpzRj-zl6g1oRWov7iJeqWclnLOr2L2dFe4Jhvk6ThXEhh_Ysa8hBfHfh-2bPX2GJTYX9Vhs_PJvWlCXAW9hikEhsVXYf4MgDEu0FbC5It-bMlyJ1JBRJL_-mjoONEGbEW2GUMUhyp3DR_zT3uJMLXd2Lnvy6nfjvF8WH1a7smbffBpfgOvl7mH1Pj_iLYbm6Cu43ZXTWdBnLOmvHfGVp9PJpG0Wh1rA8h2agCwFNIa0r-utlb37XN5swpFwv9vxaSO2_L324KAfk-hZAAH9tEQ6aaQF8lwwHwry7iCFU_Gvw_GFvZjU7eXWYciOH2o3_wqBvSK_JeFG0lXluwlBHSs1ePkaMQPeN50ILvvAHw01D9n8FsS91Rx6HPUpKL-WiIpegSzWQoUmWPVIsNglqh4kA7yrGdtWMWFf96HFW5qlwLUgkSe_fb_AqznHii02tJCqY-FSd2J6t5Yp0sgCkvvVBzkVbkBrid8Fswc7knlpazrxSrWH8DNQKmsVGVLRnANJ19CKTg==",
+      "summary": []
+    },
+    {
+      "id": "rs_0408a14d03c15288006ac269e5087887d1bd6ce99bfcbf4922",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABqwmn3bKA-Otw8sVSyAJy9C8tuSzPzUkFo3wvayNm4zreiTgpMcVtGJkT8JvQIzcmsaCoZibrQeKHz7fpgXbZD7DL7g9ZnbQdQwovUhUYEpCtWA3NbixKtVl7K466EbyVlsvadJJlNJVAnGb7X1FiSlGLKMjwva--sBSX6RVyddbuVd95slNBvzaV5DMcgtJZvZ6fSDWTlLqtm91up1kZ8B7xleIWrgCCJCjGq0Y-TeSUaYrVrpyxw4ItYsWyA4rjADHieV9LAi5vnQv-zUvbSVazUCvpsV-gyMXXphO0_UxliibgQ2r9uuA0MnAnNL7jDKT43Jw3wWOvNNS6k6pxp6ZBC7IQAzM-9lq257sG9PPqy1fi_jrBpUxWNEOB5jhDrwunuQKS8k4IxoCqImyGgWDuupNU52MZ1lAabEf7tDfswyBY-oMBTulBz4rTIWdsmkCt7jKybnX6aA4DnzzoUPS4L_cAjJSFFsAOOOz3Qf4KoHz9gTYiFzUUkSb6i7rpvu4Ezdyf3Yu3jy6xOAGuCAVlxaSKGWfKgJXbI8aJVoQGWvNVGGiLDrIWq-z4cB-J_QMn6pGRd5JjfuYY0kzUCdF7hsOwABRAjVi_ynaPajtHUBScx501k9NIb-9QtyfWNCZLNbkZ2m4iGQZAljK_I5PEHYf2IwyYgjvHfzV3Sw8pUOflSfTxhZcnHfLRwtw16yRMtXa8m0W8fmI39-JSm6DU8dTgnaReWUkFNu3Vs4Ji8gAZU9jEMFkMGFBbgeO8idXQ2gA5b5rozNeUlMkGTidtZFZpHwrCjMCgrBGaHeoIjC8NyfbKN7nqS3FS7O7AS-YKMQrwjVFPaQSOW8FjK2GEnRVUikcenFCpICtMFOiyKPoKZwSTY8Gg3ApcEvRb6tgB4aLRmYjRWA6xaaFvkC5GrfJs2NwOmphHppRICqddFJvZJmSDwApFPUq4zqgrhhFXcpU5Ycdj8AJmdQ5XyXCXXe2NGurdFWfe6JP5oXP2qGrNPWdBg3U-TNMv0w2XPDEz-mIsEZBWOpvD8kk0dOymtavIcKlAgxfZwnN441lEeDcucPRXwYzg7saPTkUE4rYmRs8AftlNmLUEpIvmnD8lCeEMztMcRmxq952kOYMWZ-GIQgDF2ee4_U1zhVqjH7GKGbofmtUPuObJ65uIw9hN8x0bB0KxaebnvMm4IsZiqz75_yujDunwZxgyoSTpFEXXn3eVXkCud6BBn1SWrSD9Eg5VI2UWk6mts5AyWarU0D-OVorUAVdo2D98_pnJGR4BlgaF7F_B5I4rbCeNlaAgtZlHqE9ElCyiD-Wst_O9vjq5Do4Py4ukO7MngR1FJXFACxrvJfv-rphbWcTOCLZqeQiFfxqqX4geN7hB-vzyA0kr8cWgqNAyXuGVUOJEGaxdj5Wo7z4xfkguH1xxEc_9dJle4kSl_lffa9MiUYJN_Ybhi_sQsAX0RSymvMtqFjHzoQj25_iB5CUZEXzVPwDFIV2hvJQ94yu5Y7yZzbfZVK1Ge0ItLK0Bxw7lDcoW6dOCFKZETeQcmINzOW6BDwVQESMLAB4tO4qtvYCwlKg0zBVwB8Lw-FkkBgyEn-Xw2E9SVvnBdMBrZLpx2Je2sI9pnM4FwWCGQAUf831IuUK0t48krqHmEEvWV8wAydhI2p0gVpzXx03WeDZpj4Oe6LUrsVz99bQ_VKRR9_TSH0yl3tI0EM3KCyfDlE5UftqjJXyj1rHdmAiM1iwwIq_iPUUGgABPh1vnNPwk57bVpYzfG4BtvVk_fuH6ByAt80wkKvmY9kZrtqN4bvZC0FwgiUA2hu9wAC4FnEWHGnVMeQpAIVU5xxdiZpvmqPUo-4R0px4yIr8NlXeWc1aoFXZYwcerpWElr8PPnWm60QpDd08yRHja9cO_igHYUWVg3PrhUlEsBwejpAAeNF3uWtKL7q1GrBpFsTn9CbzuqIDmMo7LK6DNFuqO_hA4Hm5J8DTVfi9tz_yEL3MuYTBVF9q-f40BpunwKKzoonBV19CeJkhN4810CGmBJFhsjNP9PqjpXujRT_8fp0K6K9oqfaRK55JyJ5N_-kej5wfGFAYMxAnbumiFlLQ-8J56SEzY9SsJAeEczYejnX3GxjSweDSJUKG12JuLtjuWHZZLBZtwYPdmkfsQFftBNVasbSppsL6QTf3OjN3K07f2y4eUR1ZQx70xZsSqf7VIR_AY9W39pHg_VCV0tvcvHUx6eEX102Glg5sok2Ib5A4nPEwCCuJTmihauVnqEUjEMsIBEqPl81-bdW3volIM3yiXSXmRHJTkQ8NNJXViv4ax75Y6-MNoRFReIRFMYF3fmOMlo0SQ2HThAONw0ZYQTK9MqCCtW6mePE8GIrI4JmV126ABCN11BitQ2mslaUnCOEh3Kgpek4IM2SiK9uk6VUKR7lUnKQvntWB4keDZCwNykSrQq3Dz-Vlh_M7FrQqNPDr7XGT8gxjSqZxf3gPTbbPcCMjFcHWCpnEaYS-5jAoRPM0-lQsWE5wHcEC9t2czlp_-pYlKhTpwnQP0slZuL_S9219D-2144e50veC0IMV04bnjBjvuYQmcKQXg8O5RhKgq3UN8hfRhwu1Y_Q1F2q_u8scAhH4Oc0RD1pj3ngq7Pv_LKlMZNvIgvCcgNcEKlj4kj-SKUCdcDv0MFXWM5hwR2Kt18qGz0ZahxMhsaWVgd52f8SNq4oDyZvvgN5DeAjmpg3dQ9JbFZBJSK0WDux1CuJtHESJDjp7pGvYL2zyIQ7iZNGLQ6WjCxi5cnkaQlvVnwOFtn4HZ3mWjWSdoDbCsjVBUftAP7Iuen98t1NjuM_KNlrmxh5RQVpvtKR4EKfFb-8xyHpdRU-E4IlOyv5agG8W1vzbyNWvV6M77ZXH5UcH2Q3yFwxcB68V-gZUjn9JFHWQFhdA61AieCJ0zD8bEjKzvsJjmeCFNgaTC3yyFba_QbkK3PFNPf96WIhWi8Hq0ocmeLQQ7enERuJZZKaeLzZ4u0Ppqu7ctUeUXoMDAi0mf1m5rpUmII5xTD4InkKsMApuCrtK_BgOSiq46ol7_btTCt_2dZ6wO7afYzQJ-fXcBRpo_8GhxFemCE_BTMUc2A6gZ-VcQIsbCMDlUFgyDHadHuk_yUO41paSCBaesRoz996oa1YuqdGRnpNJ3RoFAnKp_r_UlKO3Zz8y9QbHkJJkhzvKnAej03rs1YlW_XCmvATsERIJ0UZro96ZwRPFpCW5Um5yddhF3AuKiZtpd4eJfhWd_jlFaYbIwHWEl_UlQn5Ts-pWFxdw5IK0683xkxVSUUsCLBmXc83MsjEnPnYlP2A4Q0ElNTg0K7Olx0piQe9LvOKfXPmuoYk2nONN27Mlt_-ZreeJZlYuNuofPsuiE5c54S83IuvD96250Dn8_01fCrG-FX3Yl5gaTi1jXz0BkGWx2GMJ9TGvn1H7ZJC1Y5CT0oube7U3wiboxoux3RhKF9-FBrTmziRjaa6jB6x-3G_DshYf4RKtDNlVo9Pux311t9_9NrSFyzse4pgN6MvA9AeWr_TFPZKc5KRsn0F1aDTRNg7XDK4vzWj42xtZoZ5bKnETQWD5f2FWIo958JUBFQs0uZeEv-ZNO5sPVbB7l9Tq4WjbELWQNSEq00VTsL-CV2Zk9640nka36kS6-Y9zPQ1RHr088Vlw4KPtU4BLgqNv9dd-q-UKtxh-wWMJSwlKcBwexsO7A-kmY-2dKEWMy96DpIBg==",
+      "summary": []
+    },
+    {
+      "id": "msg_0408a14d03c15288006ac269ea757887d1a5f122654e35b879",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\n  \"id\": \"post-0057\",\n  \"status\": \"in Arbeit\",\n  \"needs_input\": true,\n  \"source\": {\n    \"calendar_post_id\": \"post-0057\",\n    \"date\": \"2026-10-05\",\n    \"rubric\": \"Mit dem Wochenspruch in die Woche\",\n    \"liturgical_source\": \"https://kirchenjahr.pfarr.tools/api/jahr/2026\"\n  },\n  \"editorial_core\": {\n    \"title\": \"Wochenspruch praktisch: Erntedankfest / 18. Sonntag nach Trinitatis\",\n    \"main_message\": \"Vor dem ersten Termin bewusst langsam atmen und den örtlich ausgewählten Wochenspruch lesen.\",\n    \"audience\": \"breite Öffentlichkeit\",\n    \"tone\": [\n      \"klar\",\n      \"ruhig\",\n      \"zugänglich\"\n    ],\n    \"source_notes\": [\n      \"Ziel: Den seit Sonntag geltenden Wochenspruch in eine kleine, konkrete Wochenpraxis übersetzen.\",\n      \"Vorgesehene Struktur: Wochenspruch, alltagsnaher Gedanke, kleine Übung, Frage.\",\n      \"Für den 4. Oktober 2026 liegen zwei unterschiedliche liturgische Einträge vor.\",\n      \"Kandidat Erntedank: „Aller Augen warten auf dich, und du gibst ihnen ihre Speise zur rechten Zeit.“ (Ps 145,15)\",\n      \"Kandidat 18. Sonntag nach Trinitatis: „Dies Gebot haben wir von ihm, dass, wer Gott liebt, dass der auch seinen Bruder liebe.“ (1. Joh 4,21)\",\n      \"Vor der Veröffentlichung muss redaktionell geklärt werden, welche Ordnung vor Ort gefeiert wurde.\"\n    ]\n  },\n  \"platforms\": {\n    \"facebook\": {\n      \"text\": \"Mit dem Wochenspruch in die Woche\\n\\n[Wochenspruch nach örtlicher Auswahl einsetzen]\\n[Fundstelle ergänzen]\\n\\nDer erste Termin des Tages steht an. Vielleicht ist der Kopf schon bei der nächsten Aufgabe. Vielleicht warten Nachrichten, Wege oder Entscheidungen.\\n\\nBevor es losgeht, kannst du für einen Moment anhalten. Nicht lange. Ein ruhiger Atemzug genügt, um wieder wahrzunehmen, wo du gerade bist. Der Wochenspruch gibt diesem Moment eine Richtung. Er erinnert daran: Der Tag besteht nicht nur aus dem, was erledigt werden muss.\\n\\nEine kleine Übung für diese Woche:\\n\\nLege vor deinem ersten Termin das Telefon kurz beiseite. Atme langsam ein und aus. Lies den Wochenspruch einmal aufmerksam. Nimm ein Wort daraus mit in den Tag.\\n\\nWelches Wort möchtest du heute nicht aus den Augen verlieren?\",\n      \"headline\": \"Ein Atemzug vor dem ersten Termin\"\n    },\n    \"instagram\": {\n      \"caption\": \"[Wochenspruch nach örtlicher Auswahl einsetzen]\\n[Fundstelle ergänzen]\\n\\nVor dem ersten Termin kurz anhalten. Das Telefon beiseitelegen. Langsam ein- und ausatmen. Dann den Wochenspruch einmal aufmerksam lesen.\\n\\nVielleicht bleibt ein Wort hängen. Nimm es mit in den Tag.\\n\\nWelches Wort möchtest du heute nicht aus den Augen verlieren?\",\n      \"carousel\": [\n        {\n          \"type\": \"Wochenspruch\",\n          \"text\": \"[Wochenspruch und Fundstelle nach örtlicher Auswahl einsetzen]\"\n        },\n        {\n          \"type\": \"Gedanke\",\n          \"text\": \"Der Tag beginnt schnell. Ein kurzer Halt kann helfen, wieder wahrzunehmen, wo du gerade bist.\"\n        },\n        {\n          \"type\": \"Übung\",\n          \"text\": \"Vor dem ersten Termin: Telefon beiseitelegen. Langsam ein- und ausatmen. Den Wochenspruch einmal lesen.\"\n        },\n        {\n          \"type\": \"Frage\",\n          \"text\": \"Welches Wort möchtest du heute nicht aus den Augen verlieren?\"\n        }\n      ]\n    },\n    \"mastodon\": {\n      \"text\": \"[Wochenspruch nach örtlicher Auswahl einsetzen]\\n\\nEine kleine Übung für diese Woche: Vor dem ersten Termin das Telefon kurz beiseitelegen. Langsam ein- und ausatmen. Den Vers einmal aufmerksam lesen. Ein Wort daraus mit in den Tag nehmen.\\n\\nWelches Wort möchtest du heute nicht aus den Augen verlieren?\"\n    },\n    \"bluesky\": {\n      \"text\": \"Vor dem ersten Termin: Telefon kurz beiseitelegen. Langsam ein- und ausatmen. Den Wochenspruch einmal aufmerksam lesen. Ein Wort daraus mit in den Tag nehmen.\\n\\nWelches Wort möchtest du heute nicht aus den Augen verlieren?\"\n    },\n    \"story\": {\n      \"slides\": [\n        {\n          \"text\": \"[Wochenspruch und Fundstelle nach örtlicher Auswahl einsetzen]\"\n        },\n        {\n          \"text\": \"Der erste Termin wartet. Vorher ist Zeit für einen ruhigen Atemzug.\"\n        },\n        {\n          \"text\": \"Telefon beiseitelegen. Langsam atmen. Den Vers einmal lesen.\"\n        },\n        {\n          \"text\": \"Welches Wort nimmst du heute mit?\"\n        }\n      ]\n    },\n    \"reel\": {\n      \"hook\": \"\",\n      \"script\": \"\",\n      \"shots\": [],\n      \"duration_seconds\": 0\n    }\n  },\n  \"visual\": {\n    \"concept\": \"Ein ruhiger Moment vor dem Beginn des Tages: Eine Person sitzt an einem schlichten Tisch, das Telefon liegt mit dem Display nach unten. Ein geöffnetes Buch liegt so, dass keine Schrift erkennbar ist. Weiches Morgenlicht und viel freier Bildraum vermitteln Ruhe.\",\n    \"flux_prompt\": \"Documentary-style editorial photograph of a quiet moment before the first appointment of the day, a person sitting at a simple wooden table, smartphone placed face down, an open book angled away from the camera with no visible writing, hands resting calmly, soft natural morning light, muted warm colors, realistic details, uncluttered room, generous negative space, calm and reflective atmosphere, vertical composition, no religious kitsch\",\n    \"negative_prompt\": \"text, letters, numbers, readable writing, logo, watermark, typography, quotation, poster, sign, calendar text, phone screen content, religious kitsch, halo, staged prayer pose, exaggerated emotion\",\n    \"formats\": [\n      \"4:5\",\n      \"9:16\",\n      \"1.91:1\"\n    ],\n    \"alt_text\": \"Eine Person sitzt im weichen Morgenlicht an einem schlichten Tisch. Vor ihr liegt ein geöffnetes Buch ohne erkennbare Schrift. Das Telefon liegt mit dem Display nach unten daneben. Die Hände ruhen auf dem Tisch.\"\n  },\n  \"qa\": {\n    \"warnings\": [\n      \"Veröffentlichung ist blockiert: Für den 4. Oktober 2026 stehen Erntedank und der 18. Sonntag nach Trinitatis mit unterschiedlichen Wochensprüchen zur Auswahl.\",\n      \"Die örtlich gefeierte liturgische Ordnung und damit der verbindliche Wochenspruch müssen redaktionell ausgewählt werden.\",\n      \"Alle markierten Wochenspruch-Platzhalter müssen vor der Freigabe ersetzt werden.\"\n    ],\n    \"approved\": false\n  },\n  \"metadata\": {\n    \"model\": \"OpenAI API assistant\",\n    \"generated_at\": \"\",\n    \"prompt_version\": \"1.0\",\n    \"assets\": []\n  }\n}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "all_turns",
+    "effort": "medium",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1,
+  "text": {
+    "format": {
+      "type": "json_schema",
+      "description": null,
+      "name": "content_package",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "Idee",
+              "in Arbeit",
+              "zur Prüfung",
+              "freigegeben",
+              "terminiert",
+              "veröffentlicht",
+              "verworfen"
+            ]
+          },
+          "needs_input": {
+            "type": "boolean"
+          },
+          "source": {
+            "type": "object",
+            "properties": {
+              "calendar_post_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "date": {
+                "type": "string",
+                "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+              },
+              "rubric": {
+                "type": "string",
+                "minLength": 1
+              },
+              "liturgical_source": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "calendar_post_id",
+              "date",
+              "rubric",
+              "liturgical_source"
+            ],
+            "additionalProperties": false
+          },
+          "editorial_core": {
+            "type": "object",
+            "properties": {
+              "title": {
+                "type": "string"
+              },
+              "main_message": {
+                "type": "string"
+              },
+              "audience": {
+                "type": "string"
+              },
+              "tone": {
+                "minItems": 1,
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "source_notes": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "title",
+              "main_message",
+              "audience",
+              "tone",
+              "source_notes"
+            ],
+            "additionalProperties": false
+          },
+          "platforms": {
+            "type": "object",
+            "properties": {
+              "facebook": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  },
+                  "headline": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text",
+                  "headline"
+                ],
+                "additionalProperties": false
+              },
+              "instagram": {
+                "type": "object",
+                "properties": {
+                  "caption": {
+                    "type": "string"
+                  },
+                  "carousel": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "type": {
+                          "type": "string"
+                        },
+                        "text": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "type",
+                        "text"
+                      ],
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "required": [
+                  "caption",
+                  "carousel"
+                ],
+                "additionalProperties": false
+              },
+              "mastodon": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text"
+                ],
+                "additionalProperties": false
+              },
+              "bluesky": {
+                "default": {
+                  "text": ""
+                },
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text"
+                ],
+                "additionalProperties": false
+              },
+              "story": {
+                "type": "object",
+                "properties": {
+                  "slides": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "text": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "text"
+                      ],
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "required": [
+                  "slides"
+                ],
+                "additionalProperties": false
+              },
+              "reel": {
+                "type": "object",
+                "properties": {
+                  "hook": {
+                    "type": "string"
+                  },
+                  "script": {
+                    "type": "string"
+                  },
+                  "shots": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "duration_seconds": {
+                    "type": "integer",
+                    "minimum": 0,
+                    "maximum": 9007199254740991
+                  }
+                },
+                "required": [
+                  "hook",
+                  "script",
+                  "shots",
+                  "duration_seconds"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "required": [
+              "facebook",
+              "instagram",
+              "mastodon",
+              "bluesky",
+              "story",
+              "reel"
+            ],
+            "additionalProperties": false
+          },
+          "visual": {
+            "type": "object",
+            "properties": {
+              "concept": {
+                "type": "string"
+              },
+              "flux_prompt": {
+                "type": "string"
+              },
+              "negative_prompt": {
+                "type": "string",
+                "minLength": 1
+              },
+              "formats": {
+                "minItems": 1,
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "alt_text": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "concept",
+              "flux_prompt",
+              "negative_prompt",
+              "formats",
+              "alt_text"
+            ],
+            "additionalProperties": false
+          },
+          "qa": {
+            "type": "object",
+            "properties": {
+              "warnings": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "approved": {
+                "type": "boolean"
+              }
+            },
+            "required": [
+              "warnings",
+              "approved"
+            ],
+            "additionalProperties": false
+          },
+          "metadata": {
+            "type": "object",
+            "properties": {
+              "model": {
+                "type": "string"
+              },
+              "generated_at": {
+                "type": "string"
+              },
+              "prompt_version": {
+                "type": "string",
+                "minLength": 1
+              },
+              "assets": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "model",
+              "generated_at",
+              "prompt_version",
+              "assets"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "id",
+          "status",
+          "needs_input",
+          "source",
+          "editorial_core",
+          "platforms",
+          "visual",
+          "qa",
+          "metadata"
+        ],
+        "additionalProperties": false
+      },
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 2038,
+    "input_tokens_details": {
+      "cache_write_tokens": 2035,
+      "cached_tokens": 0
+    },
+    "output_tokens": 2482,
+    "output_tokens_details": {
+      "reasoning_tokens": 915
+    },
+    "total_tokens": 4520
+  },
+  "user": null,
+  "metadata": {},
+  "output_text": "{\n  \"id\": \"post-0057\",\n  \"status\": \"in Arbeit\",\n  \"needs_input\": true,\n  \"source\": {\n    \"calendar_post_id\": \"post-0057\",\n    \"date\": \"2026-10-05\",\n    \"rubric\": \"Mit dem Wochenspruch in die Woche\",\n    \"liturgical_source\": \"https://kirchenjahr.pfarr.tools/api/jahr/2026\"\n  },\n  \"editorial_core\": {\n    \"title\": \"Wochenspruch praktisch: Erntedankfest / 18. Sonntag nach Trinitatis\",\n    \"main_message\": \"Vor dem ersten Termin bewusst langsam atmen und den örtlich ausgewählten Wochenspruch lesen.\",\n    \"audience\": \"breite Öffentlichkeit\",\n    \"tone\": [\n      \"klar\",\n      \"ruhig\",\n      \"zugänglich\"\n    ],\n    \"source_notes\": [\n      \"Ziel: Den seit Sonntag geltenden Wochenspruch in eine kleine, konkrete Wochenpraxis übersetzen.\",\n      \"Vorgesehene Struktur: Wochenspruch, alltagsnaher Gedanke, kleine Übung, Frage.\",\n      \"Für den 4. Oktober 2026 liegen zwei unterschiedliche liturgische Einträge vor.\",\n      \"Kandidat Erntedank: „Aller Augen warten auf dich, und du gibst ihnen ihre Speise zur rechten Zeit.“ (Ps 145,15)\",\n      \"Kandidat 18. Sonntag nach Trinitatis: „Dies Gebot haben wir von ihm, dass, wer Gott liebt, dass der auch seinen Bruder liebe.“ (1. Joh 4,21)\",\n      \"Vor der Veröffentlichung muss redaktionell geklärt werden, welche Ordnung vor Ort gefeiert wurde.\"\n    ]\n  },\n  \"platforms\": {\n    \"facebook\": {\n      \"text\": \"Mit dem Wochenspruch in die Woche\\n\\n[Wochenspruch nach örtlicher Auswahl einsetzen]\\n[Fundstelle ergänzen]\\n\\nDer erste Termin des Tages steht an. Vielleicht ist der Kopf schon bei der nächsten Aufgabe. Vielleicht warten Nachrichten, Wege oder Entscheidungen.\\n\\nBevor es losgeht, kannst du für einen Moment anhalten. Nicht lange. Ein ruhiger Atemzug genügt, um wieder wahrzunehmen, wo du gerade bist. Der Wochenspruch gibt diesem Moment eine Richtung. Er erinnert daran: Der Tag besteht nicht nur aus dem, was erledigt werden muss.\\n\\nEine kleine Übung für diese Woche:\\n\\nLege vor deinem ersten Termin das Telefon kurz beiseite. Atme langsam ein und aus. Lies den Wochenspruch einmal aufmerksam. Nimm ein Wort daraus mit in den Tag.\\n\\nWelches Wort möchtest du heute nicht aus den Augen verlieren?\",\n      \"headline\": \"Ein Atemzug vor dem ersten Termin\"\n    },\n    \"instagram\": {\n      \"caption\": \"[Wochenspruch nach örtlicher Auswahl einsetzen]\\n[Fundstelle ergänzen]\\n\\nVor dem ersten Termin kurz anhalten. Das Telefon beiseitelegen. Langsam ein- und ausatmen. Dann den Wochenspruch einmal aufmerksam lesen.\\n\\nVielleicht bleibt ein Wort hängen. Nimm es mit in den Tag.\\n\\nWelches Wort möchtest du heute nicht aus den Augen verlieren?\",\n      \"carousel\": [\n        {\n          \"type\": \"Wochenspruch\",\n          \"text\": \"[Wochenspruch und Fundstelle nach örtlicher Auswahl einsetzen]\"\n        },\n        {\n          \"type\": \"Gedanke\",\n          \"text\": \"Der Tag beginnt schnell. Ein kurzer Halt kann helfen, wieder wahrzunehmen, wo du gerade bist.\"\n        },\n        {\n          \"type\": \"Übung\",\n          \"text\": \"Vor dem ersten Termin: Telefon beiseitelegen. Langsam ein- und ausatmen. Den Wochenspruch einmal lesen.\"\n        },\n        {\n          \"type\": \"Frage\",\n          \"text\": \"Welches Wort möchtest du heute nicht aus den Augen verlieren?\"\n        }\n      ]\n    },\n    \"mastodon\": {\n      \"text\": \"[Wochenspruch nach örtlicher Auswahl einsetzen]\\n\\nEine kleine Übung für diese Woche: Vor dem ersten Termin das Telefon kurz beiseitelegen. Langsam ein- und ausatmen. Den Vers einmal aufmerksam lesen. Ein Wort daraus mit in den Tag nehmen.\\n\\nWelches Wort möchtest du heute nicht aus den Augen verlieren?\"\n    },\n    \"bluesky\": {\n      \"text\": \"Vor dem ersten Termin: Telefon kurz beiseitelegen. Langsam ein- und ausatmen. Den Wochenspruch einmal aufmerksam lesen. Ein Wort daraus mit in den Tag nehmen.\\n\\nWelches Wort möchtest du heute nicht aus den Augen verlieren?\"\n    },\n    \"story\": {\n      \"slides\": [\n        {\n          \"text\": \"[Wochenspruch und Fundstelle nach örtlicher Auswahl einsetzen]\"\n        },\n        {\n          \"text\": \"Der erste Termin wartet. Vorher ist Zeit für einen ruhigen Atemzug.\"\n        },\n        {\n          \"text\": \"Telefon beiseitelegen. Langsam atmen. Den Vers einmal lesen.\"\n        },\n        {\n          \"text\": \"Welches Wort nimmst du heute mit?\"\n        }\n      ]\n    },\n    \"reel\": {\n      \"hook\": \"\",\n      \"script\": \"\",\n      \"shots\": [],\n      \"duration_seconds\": 0\n    }\n  },\n  \"visual\": {\n    \"concept\": \"Ein ruhiger Moment vor dem Beginn des Tages: Eine Person sitzt an einem schlichten Tisch, das Telefon liegt mit dem Display nach unten. Ein geöffnetes Buch liegt so, dass keine Schrift erkennbar ist. Weiches Morgenlicht und viel freier Bildraum vermitteln Ruhe.\",\n    \"flux_prompt\": \"Documentary-style editorial photograph of a quiet moment before the first appointment of the day, a person sitting at a simple wooden table, smartphone placed face down, an open book angled away from the camera with no visible writing, hands resting calmly, soft natural morning light, muted warm colors, realistic details, uncluttered room, generous negative space, calm and reflective atmosphere, vertical composition, no religious kitsch\",\n    \"negative_prompt\": \"text, letters, numbers, readable writing, logo, watermark, typography, quotation, poster, sign, calendar text, phone screen content, religious kitsch, halo, staged prayer pose, exaggerated emotion\",\n    \"formats\": [\n      \"4:5\",\n      \"9:16\",\n      \"1.91:1\"\n    ],\n    \"alt_text\": \"Eine Person sitzt im weichen Morgenlicht an einem schlichten Tisch. Vor ihr liegt ein geöffnetes Buch ohne erkennbare Schrift. Das Telefon liegt mit dem Display nach unten daneben. Die Hände ruhen auf dem Tisch.\"\n  },\n  \"qa\": {\n    \"warnings\": [\n      \"Veröffentlichung ist blockiert: Für den 4. Oktober 2026 stehen Erntedank und der 18. Sonntag nach Trinitatis mit unterschiedlichen Wochensprüchen zur Auswahl.\",\n      \"Die örtlich gefeierte liturgische Ordnung und damit der verbindliche Wochenspruch müssen redaktionell ausgewählt werden.\",\n      \"Alle markierten Wochenspruch-Platzhalter müssen vor der Freigabe ersetzt werden.\"\n    ],\n    \"approved\": false\n  },\n  \"metadata\": {\n    \"model\": \"OpenAI API assistant\",\n    \"generated_at\": \"\",\n    \"prompt_version\": \"1.0\",\n    \"assets\": []\n  }\n}"
+}

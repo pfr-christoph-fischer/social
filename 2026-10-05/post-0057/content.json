@@ -1,7 +1,7 @@
 {
   "id": "post-0057",
   "status": "in Arbeit",
-  "needs_input": false,
+  "needs_input": true,
   "source": {
     "calendar_post_id": "post-0057",
     "date": "2026-10-05",
@@ -10,7 +10,7 @@
   },
   "editorial_core": {
     "title": "Wochenspruch praktisch: Erntedankfest / 18. Sonntag nach Trinitatis",
-    "main_message": "Vor dem ersten Termin bewusst einmal langsam atmen und den Vers lesen.",
+    "main_message": "Vor dem ersten Termin bewusst langsam atmen und den örtlich ausgewählten Wochenspruch lesen.",
     "audience": "breite Öffentlichkeit",
     "tone": [
       "klar",
@@ -18,31 +18,61 @@
       "zugänglich"
     ],
     "source_notes": [
-      "Goal: Den seit Sonntag geltenden Wochenspruch in eine kleine, konkrete Wochenpraxis übersetzen.",
-      "Column: Bibel und Alltag",
-      "Production mode: vollständig vorproduzierbar",
-      "Structure: Wochenspruch | ein alltagsnaher Gedanke | eine kleine Übung | eine Frage",
-      "AI support notes: Rohentwurf in einfacher Sprache | Varianten der Wochenübung | Caption kürzen | Alt-Text",
-      "Liturgical source: https://kirchenjahr.pfarr.tools/api/jahr/2026 (2026-10-04, $.Tage['2026-10-04'])"
+      "Ziel: Den seit Sonntag geltenden Wochenspruch in eine kleine, konkrete Wochenpraxis übersetzen.",
+      "Vorgesehene Struktur: Wochenspruch, alltagsnaher Gedanke, kleine Übung, Frage.",
+      "Für den 4. Oktober 2026 liegen zwei unterschiedliche liturgische Einträge vor.",
+      "Kandidat Erntedank: „Aller Augen warten auf dich, und du gibst ihnen ihre Speise zur rechten Zeit.“ (Ps 145,15)",
+      "Kandidat 18. Sonntag nach Trinitatis: „Dies Gebot haben wir von ihm, dass, wer Gott liebt, dass der auch seinen Bruder liebe.“ (1. Joh 4,21)",
+      "Vor der Veröffentlichung muss redaktionell geklärt werden, welche Ordnung vor Ort gefeiert wurde."
     ]
   },
   "platforms": {
     "facebook": {
-      "text": "",
-      "headline": ""
+      "text": "Mit dem Wochenspruch in die Woche\n\n[Wochenspruch nach örtlicher Auswahl einsetzen]\n[Fundstelle ergänzen]\n\nDer erste Termin des Tages steht an. Vielleicht ist der Kopf schon bei der nächsten Aufgabe. Vielleicht warten Nachrichten, Wege oder Entscheidungen.\n\nBevor es losgeht, kannst du für einen Moment anhalten. Nicht lange. Ein ruhiger Atemzug genügt, um wieder wahrzunehmen, wo du gerade bist. Der Wochenspruch gibt diesem Moment eine Richtung. Er erinnert daran: Der Tag besteht nicht nur aus dem, was erledigt werden muss.\n\nEine kleine Übung für diese Woche:\n\nLege vor deinem ersten Termin das Telefon kurz beiseite. Atme langsam ein und aus. Lies den Wochenspruch einmal aufmerksam. Nimm ein Wort daraus mit in den Tag.\n\nWelches Wort möchtest du heute nicht aus den Augen verlieren?",
+      "headline": "Ein Atemzug vor dem ersten Termin"
     },
     "instagram": {
-      "caption": "",
-      "carousel": []
+      "caption": "[Wochenspruch nach örtlicher Auswahl einsetzen]\n[Fundstelle ergänzen]\n\nVor dem ersten Termin kurz anhalten. Das Telefon beiseitelegen. Langsam ein- und ausatmen. Dann den Wochenspruch einmal aufmerksam lesen.\n\nVielleicht bleibt ein Wort hängen. Nimm es mit in den Tag.\n\nWelches Wort möchtest du heute nicht aus den Augen verlieren?",
+      "carousel": [
+        {
+          "type": "Wochenspruch",
+          "text": "[Wochenspruch und Fundstelle nach örtlicher Auswahl einsetzen]"
+        },
+        {
+          "type": "Gedanke",
+          "text": "Der Tag beginnt schnell. Ein kurzer Halt kann helfen, wieder wahrzunehmen, wo du gerade bist."
+        },
+        {
+          "type": "Übung",
+          "text": "Vor dem ersten Termin: Telefon beiseitelegen. Langsam ein- und ausatmen. Den Wochenspruch einmal lesen."
+        },
+        {
+          "type": "Frage",
+          "text": "Welches Wort möchtest du heute nicht aus den Augen verlieren?"
+        }
+      ]
     },
     "mastodon": {
-      "text": ""
+      "text": "[Wochenspruch nach örtlicher Auswahl einsetzen]\n\nEine kleine Übung für diese Woche: Vor dem ersten Termin das Telefon kurz beiseitelegen. Langsam ein- und ausatmen. Den Vers einmal aufmerksam lesen. Ein Wort daraus mit in den Tag nehmen.\n\nWelches Wort möchtest du heute nicht aus den Augen verlieren?"
     },
     "bluesky": {
-      "text": ""
+      "text": "Vor dem ersten Termin: Telefon kurz beiseitelegen. Langsam ein- und ausatmen. Den Wochenspruch einmal aufmerksam lesen. Ein Wort daraus mit in den Tag nehmen.\n\nWelches Wort möchtest du heute nicht aus den Augen verlieren?"
     },
     "story": {
-      "slides": []
+      "slides": [
+        {
+          "text": "[Wochenspruch und Fundstelle nach örtlicher Auswahl einsetzen]"
+        },
+        {
+          "text": "Der erste Termin wartet. Vorher ist Zeit für einen ruhigen Atemzug."
+        },
+        {
+          "text": "Telefon beiseitelegen. Langsam atmen. Den Vers einmal lesen."
+        },
+        {
+          "text": "Welches Wort nimmst du heute mit?"
+        }
+      ]
     },
     "reel": {
       "hook": "",
@@ -52,25 +82,29 @@
     }
   },
   "visual": {
-    "concept": "",
-    "flux_prompt": "",
-    "negative_prompt": "text, letters, logo, watermark",
+    "concept": "Ein ruhiger Moment vor dem Beginn des Tages: Eine Person sitzt an einem schlichten Tisch, das Telefon liegt mit dem Display nach unten. Ein geöffnetes Buch liegt so, dass keine Schrift erkennbar ist. Weiches Morgenlicht und viel freier Bildraum vermitteln Ruhe.",
+    "flux_prompt": "Documentary-style editorial photograph of a quiet moment before the first appointment of the day, a person sitting at a simple wooden table, smartphone placed face down, an open book angled away from the camera with no visible writing, hands resting calmly, soft natural morning light, muted warm colors, realistic details, uncluttered room, generous negative space, calm and reflective atmosphere, vertical composition, no religious kitsch",
+    "negative_prompt": "text, letters, numbers, readable writing, logo, watermark, typography, quotation, poster, sign, calendar text, phone screen content, religious kitsch, halo, staged prayer pose, exaggerated emotion",
     "formats": [
       "4:5",
       "9:16",
       "1.91:1"
     ],
-    "alt_text": ""
+    "alt_text": "Eine Person sitzt im weichen Morgenlicht an einem schlichten Tisch. Vor ihr liegt ein geöffnetes Buch ohne erkennbare Schrift. Das Telefon liegt mit dem Display nach unten daneben. Die Hände ruhen auf dem Tisch."
   },
   "qa": {
     "warnings": [
-      "Alt text must be completed before approval"
+      "Alt text must be completed before approval",
+      "Multiple liturgical entries for 2026-10-04 contain different Wochenspruch values. Local selection is still required before publication.",
+      "Veröffentlichung ist blockiert: Für den 4. Oktober 2026 stehen Erntedank und der 18. Sonntag nach Trinitatis mit unterschiedlichen Wochensprüchen zur Auswahl.",
+      "Die örtlich gefeierte liturgische Ordnung und damit der verbindliche Wochenspruch müssen redaktionell ausgewählt werden.",
+      "Alle markierten Wochenspruch-Platzhalter müssen vor der Freigabe ersetzt werden."
     ],
     "approved": false
   },
   "metadata": {
-    "model": "",
-    "generated_at": "",
+    "model": "gpt-5.6-sol",
+    "generated_at": "2026-10-04T15:00:09.017Z",
     "prompt_version": "1.0",
     "assets": []
   }
