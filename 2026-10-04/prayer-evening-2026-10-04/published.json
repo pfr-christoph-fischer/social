@@ -88,5 +88,102 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "prayer-evening-2026-10-04",
+    "contentDate": "2026-10-04",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-10-04T18:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Gott, wir legen dir diesen Tag hin. Das Gute. Das Schwere. Das Unfertige. Wir bitten dich für die Menschen in Kiew nach den erneuten Angriffen und für die Menschen in Spanien, die von Unwettern betroffen sind. Schenk Ruhe für diese Nacht und halte die Hoffnung in uns wach. Amen.",
+    "assets": [
+      "render-instagram-feed-01.jpg",
+      "render-instagram-feed-02.jpg",
+      "render-instagram-feed-03.jpg",
+      "render-instagram-feed-04.jpg",
+      "render-instagram-feed-05.jpg"
+    ],
+    "altTexts": [
+      "Ein ruhiger Raum am Abend. Auf einem Tisch steht eine einzelne Kerze. Durch ein Fenster fällt das letzte warme Licht des Tages. Die Szene wirkt still und gesammelt."
+    ],
+    "id": "72ba00dc-20fc-4c87-b628-3743f3dfa017",
+    "attemptCount": 1,
+    "remoteId": "18430870807145716",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-10-04T14:58:06.966Z",
+    "updatedAt": "2026-10-04T18:01:53.187Z",
+    "responseMetadata": {
+      "mediaCount": 5,
+      "mediaType": "CAROUSEL",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "prayer-evening-2026-10-04",
+    "contentDate": "2026-10-04",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-10-04T18:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Gott, wir legen dir diesen Tag hin. Das Gute. Das Schwere. Das Unfertige. Wir bitten dich für die Menschen in Kiew nach den erneuten Angriffen und für die Menschen in Spanien, die von Unwettern betroffen sind. Schenk Ruhe für diese Nacht und halte die Hoffnung in uns wach. Amen.",
+    "assets": [
+      "render-instagram-feed-01.png",
+      "render-instagram-feed-02.png",
+      "render-instagram-feed-03.png",
+      "render-instagram-feed-04.png"
+    ],
+    "altTexts": [
+      "Ein ruhiger Raum am Abend. Auf einem Tisch steht eine einzelne Kerze. Durch ein Fenster fällt das letzte warme Licht des Tages. Die Szene wirkt still und gesammelt."
+    ],
+    "id": "de55cab6-9664-4535-8c8e-63accb9b78d6",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3mx2ybv5cy223",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3mx2ybv5cy223",
+    "lastError": null,
+    "createdAt": "2026-10-04T14:58:07.016Z",
+    "updatedAt": "2026-10-04T18:01:57.894Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 4
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "prayer-evening-2026-10-04",
+    "contentDate": "2026-10-04",
+    "platform": "linkedin",
+    "format": "default",
+    "scheduledAt": "2026-10-04T18:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Gott,\nder Tag ist nicht nur gelungen.\nUnd er ist nicht nur gescheitert.\nEr darf unvollendet bei dir liegen.\n\nWir bitten dich für die Menschen in Kiew nach den erneuten Angriffen.\nFür die Menschen in Spanien, die von Unwettern betroffen sind.\n\nSchenk Ruhe für diese Nacht.\nUnd Hoffnung, die weiter sieht als heute.\nAmen.",
+    "assets": [
+      "render-instagram-feed-01.png",
+      "render-instagram-feed-02.png",
+      "render-instagram-feed-03.png",
+      "render-instagram-feed-04.png",
+      "render-instagram-feed-05.png"
+    ],
+    "altTexts": [
+      "Ein ruhiger Raum am Abend. Auf einem Tisch steht eine einzelne Kerze. Durch ein Fenster fällt das letzte warme Licht des Tages. Die Szene wirkt still und gesammelt."
+    ],
+    "id": "84f3119c-2705-4886-b430-49a7d5b0c57e",
+    "attemptCount": 1,
+    "remoteId": "urn:li:ugcPost:7512572782749253632",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-10-04T14:58:07.081Z",
+    "updatedAt": "2026-10-04T18:02:08.689Z",
+    "responseMetadata": {
+      "mediaCount": 5,
+      "mediaType": "MULTI_IMAGE",
+      "status": 201
+    },
+    "retryHistory": []
   }
 ]
