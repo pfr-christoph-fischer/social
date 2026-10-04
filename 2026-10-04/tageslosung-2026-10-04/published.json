@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-10-04",
+    "contentDate": "2026-10-04",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-10-04T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Steht auf! Lobet den HERRN, euren Gott, von Ewigkeit zu Ewigkeit! Und man lobe seinen herrlichen Namen, der erhaben ist über allen Preis und Ruhm!",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Steht auf! Lobet den HERRN, euren Gott, von Ewigkeit zu Ewigkeit! Und man lobe seinen herrlichen Namen, der erhaben ist über allen Preis und Ruhm!"
+    ],
+    "id": "b0138be0-e606-409a-b426-1c2bde066143",
+    "attemptCount": 1,
+    "remoteId": "17951604687269361",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:46:10.019Z",
+    "updatedAt": "2026-10-04T05:00:47.534Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-10-04",
+    "contentDate": "2026-10-04",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-10-04T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Steht auf! Lobet den HERRN, euren Gott, von Ewigkeit zu Ewigkeit! Und man lobe seinen herrlichen Namen, der erhaben ist über allen Preis und Ruhm!",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Steht auf! Lobet den HERRN, euren Gott, von Ewigkeit zu Ewigkeit! Und man lobe seinen herrlichen Namen, der erhaben ist über allen Preis und Ruhm!"
+    ],
+    "id": "8fbfa682-3e51-45e7-a4f1-fe60cc984ef5",
+    "attemptCount": 1,
+    "remoteId": "117380877464299175",
+    "remoteUrl": "https://kirche.social/@christoph/117380877464299175",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:46:10.032Z",
+    "updatedAt": "2026-10-04T05:00:49.267Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
