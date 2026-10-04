@@ -27,5 +27,64 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "post-0056",
+    "contentDate": "2026-10-04",
+    "platform": "instagram",
+    "format": "default",
+    "scheduledAt": "2026-10-04T07:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Erntedank lädt dazu ein, das Gute bewusst wahrzunehmen.\n\nNicht alles ist leicht. Und doch gibt es Zeichen der Fülle: Brot auf dem Tisch, Menschen an unserer Seite, Kraft für den Tag, Trost für die Seele.\n\nDankbarkeit muss nicht laut sein. Manchmal ist sie einfach ein stilles Innehalten vor Gott.\n\nWofür bist du heute dankbar?",
+    "assets": [
+      "render-instagram-feed-01.jpg",
+      "render-instagram-feed-02.jpg",
+      "render-instagram-feed-03.jpg"
+    ],
+    "altTexts": [
+      "Ein Laib Brot und Ähren liegen in warmem Herbstlicht auf einem Holztisch. Das Bild wirkt ruhig, schlicht und dankbar."
+    ],
+    "id": "b7a30b8b-1690-4634-bc0a-3af61ec6700c",
+    "attemptCount": 1,
+    "remoteId": "18073522745726519",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-10-04T14:49:38.011Z",
+    "updatedAt": "2026-10-04T14:50:45.002Z",
+    "responseMetadata": {
+      "mediaCount": 3,
+      "mediaType": "CAROUSEL",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "post-0056",
+    "contentDate": "2026-10-04",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-10-04T07:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Erntedank lädt dazu ein, das Gute bewusst wahrzunehmen. Nicht alles ist leicht. Und doch gibt es Zeichen der Fülle: Brot auf dem Tisch, Menschen an unserer Seite, Kraft für den Tag, Trost für die Seele. Wofür bist du heute dankbar?",
+    "assets": [
+      "render-facebook-mastodon-01.png"
+    ],
+    "altTexts": [
+      "Ein Laib Brot und Ähren liegen in warmem Herbstlicht auf einem Holztisch. Das Bild wirkt ruhig, schlicht und dankbar."
+    ],
+    "id": "af2c287b-d535-446e-815e-0619327a08ba",
+    "attemptCount": 1,
+    "remoteId": "117383197257556582",
+    "remoteUrl": "https://kirche.social/@christoph/117383197257556582",
+    "lastError": null,
+    "createdAt": "2026-10-04T14:49:38.055Z",
+    "updatedAt": "2026-10-04T14:50:46.502Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
