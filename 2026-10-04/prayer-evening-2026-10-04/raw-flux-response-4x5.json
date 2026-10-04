@@ -1,0 +1,44 @@
+{
+  "delivery_url": "https://delivery.us2.bfl.ai/durable/2026100414/5e1f69ea-538b-4d66-962e-9be995966f07/1b/8560419f78e7f3/9f78e7f30c1e47c8a9a8d25a2d34ff0f/sample.jpeg?se=2026-10-04T15%3A07%3A36Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=oCpSZaGXnkqDK9eOe06GWdnsnnO6QuieS7KN/JAyDKU%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "d631268a-ec4e-4cea-8853-f731c2c7a92b",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "d631268a-ec4e-4cea-8853-f731c2c7a92b",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "d631268a-ec4e-4cea-8853-f731c2c7a92b",
+      "status": "Ready",
+      "result": {
+        "start_time": 1791125854.5270064,
+        "prompt": "stille Abendszene in einem einfachen Raum, warmes Restlicht am Fenster, eine einzelne Kerze auf einem Tisch, ruhige Atmosphäre, weiche Schatten, zurückhaltende Farben, fotografisch, glaubwürdig, schlicht, hoffnungsvoll ohne Kitsch, no text, no letters, no typography, no logo, no watermark",
+        "seed": 1923415590,
+        "sample": "https://delivery.us2.bfl.ai/durable/2026100414/5e1f69ea-538b-4d66-962e-9be995966f07/1b/8560419f78e7f3/9f78e7f30c1e47c8a9a8d25a2d34ff0f/sample.jpeg?se=2026-10-04T15%3A07%3A36Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=oCpSZaGXnkqDK9eOe06GWdnsnnO6QuieS7KN/JAyDKU%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "d631268a-ec4e-4cea-8853-f731c2c7a92b",
+    "polling_url": "https://api.us2.bfl.ai/v1/get_result?id=d631268a-ec4e-4cea-8853-f731c2c7a92b",
+    "cost": 1.5,
+    "input_mp": 0,
+    "output_mp": 1.39
+  }
+}

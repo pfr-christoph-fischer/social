@@ -104,13 +104,17 @@
     "alt_text": "Ein ruhiger Raum am Abend. Auf einem Tisch steht eine einzelne Kerze. Durch ein Fenster fällt das letzte warme Licht des Tages. Die Szene wirkt still und gesammelt."
   },
   "qa": {
-    "approved": true,
-    "warnings": []
+    "warnings": [],
+    "approved": true
   },
   "metadata": {
     "model": "gpt-5.4-2026-03-05",
     "generated_at": "2026-10-04T14:53:45.035Z",
     "prompt_version": "1.0",
-    "assets": []
+    "assets": [
+      "assets/background-1.91x1.webp",
+      "assets/background-4x5.webp",
+      "assets/background-9x16.webp"
+    ]
   }
 }
