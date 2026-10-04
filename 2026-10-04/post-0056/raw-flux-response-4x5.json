@@ -1,0 +1,44 @@
+{
+  "delivery_url": "https://delivery.us2.bfl.ai/durable/2026100414/5e1f69ea-538b-4d66-962e-9be995966f07/95/321935464e4a64/464e4a64f2cc49ac96c3335577c78534/sample.jpeg?se=2026-10-04T14%3A58%3A42Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=HnxX77aCkpKxxhNPvevkpHK3G2g8wKYChbTUWJf8s2g%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "96ccd24b-ec8c-4f7e-9acd-28e28c616ee4",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "96ccd24b-ec8c-4f7e-9acd-28e28c616ee4",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "96ccd24b-ec8c-4f7e-9acd-28e28c616ee4",
+      "status": "Ready",
+      "result": {
+        "start_time": 1791125320.9377701,
+        "prompt": "Still life for Erntedank, loaf of bread and wheat ears on a wooden table, warm autumn light, calm meditative atmosphere, natural colors, soft shadows, minimal composition, gentle depth of field, serene and contemplative mood, high detail, no text",
+        "seed": 2526416187,
+        "sample": "https://delivery.us2.bfl.ai/durable/2026100414/5e1f69ea-538b-4d66-962e-9be995966f07/95/321935464e4a64/464e4a64f2cc49ac96c3335577c78534/sample.jpeg?se=2026-10-04T14%3A58%3A42Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=HnxX77aCkpKxxhNPvevkpHK3G2g8wKYChbTUWJf8s2g%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "96ccd24b-ec8c-4f7e-9acd-28e28c616ee4",
+    "polling_url": "https://api.us2.bfl.ai/v1/get_result?id=96ccd24b-ec8c-4f7e-9acd-28e28c616ee4",
+    "cost": 1.5,
+    "input_mp": 0,
+    "output_mp": 1.39
+  }
+}

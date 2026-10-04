@@ -1,0 +1,36 @@
+{
+  "delivery_url": "https://delivery.us2.bfl.ai/durable/2026100414/5e1f69ea-538b-4d66-962e-9be995966f07/53/317402eb503170/eb50317086c2472a8a30f3d5ffb5b676/sample.jpeg?se=2026-10-04T14%3A58%3A37Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=D49g1syfQ4I7WOfpn0G9yA8%2B3BzX/y86UOY9XCNcMeM%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "a93bd70c-a8ca-40bc-802f-3c86b7add1b6",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "a93bd70c-a8ca-40bc-802f-3c86b7add1b6",
+      "status": "Ready",
+      "result": {
+        "start_time": 1791125316.3297915,
+        "prompt": "Still life for Erntedank, loaf of bread and wheat ears on a wooden table, warm autumn light, calm meditative atmosphere, natural colors, soft shadows, minimal composition, gentle depth of field, serene and contemplative mood, high detail, no text",
+        "seed": 403573,
+        "sample": "https://delivery.us2.bfl.ai/durable/2026100414/5e1f69ea-538b-4d66-962e-9be995966f07/53/317402eb503170/eb50317086c2472a8a30f3d5ffb5b676/sample.jpeg?se=2026-10-04T14%3A58%3A37Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=D49g1syfQ4I7WOfpn0G9yA8%2B3BzX/y86UOY9XCNcMeM%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "a93bd70c-a8ca-40bc-802f-3c86b7add1b6",
+    "polling_url": "https://api.us2.bfl.ai/v1/get_result?id=a93bd70c-a8ca-40bc-802f-3c86b7add1b6",
+    "cost": 1.4000000000000001,
+    "input_mp": 0,
+    "output_mp": 0.72
+  }
+}
