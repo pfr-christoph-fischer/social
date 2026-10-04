@@ -1,7 +1,7 @@
 {
   "id": "prayer-morning-2026-10-05",
   "status": "in Arbeit",
-  "needs_input": false,
+  "needs_input": true,
   "source": {
     "calendar_post_id": "prayer-morning-2026-10-05",
     "date": "2026-10-05",
@@ -9,39 +9,76 @@
     "liturgical_source": ""
   },
   "editorial_core": {
-    "title": "Morgengebet",
-    "main_message": "Den neuen Tag als Morgenlob beginnen: sich auf Gott ausrichten, Gottes Gegenwart und Güte wahrnehmen und aus christlicher Hoffnung in den Tag gehen.",
+    "title": "Dieser Tag kommt aus Gottes Hand",
+    "main_message": "Der neue Morgen ist Gottes Gabe. Seine Güte trägt auch durch einen ungewissen Tag und öffnet den Blick für Licht, Leben und neue Möglichkeiten.",
     "audience": "breite Öffentlichkeit",
     "tone": [
-      "klar",
       "ruhig",
+      "poetisch klar",
+      "zuversichtlich",
       "zugänglich"
     ],
     "source_notes": [
-      "Goal: Den neuen Tag als Morgenlob beginnen: sich auf Gott ausrichten, Gottes Gegenwart und Güte wahrnehmen und aus christlicher Hoffnung in den Tag gehen.",
-      "Column: Gebet am Morgen",
-      "Production mode: am Morgen der Veröffentlichung",
-      "Structure: Goal: Ein kurzes Morgenlob, das den neuen Tag bewusst vor Gott beginnt und die Aufmerksamkeit zuerst auf Gott richtet. | Column: Gebet am Morgen | Production mode: weitgehend vorproduzierbar; am Morgen der Veröffentlichung nur auf stimmigen Tagesbezug prüfen. | Ausrichtung: Gott anreden und loben. Gottes Gegenwart, Treue, Güte, Schöpferkraft, Barmherzigkeit oder verheißene Zukunft in den Mittelpunkt stellen. | Abgrenzung: Keine Nachrichtenschau und keine konkreten Fürbitten für aktuelle Ereignisse, Länder, Gruppen oder Einzelne. Solche Anliegen gehören in das Abendgebet. | Prayer structure: Vor Gott ankommen | Gott mit einem Namen oder Bild anreden | den neuen Morgen und das Leben als Gabe wahrnehmen | einen kurzen Gebetsschnipsel aufnehmen | Hoffnung und Vertrauen aussprechen | den Tag offen und zuversichtlich aus Gottes Hand annehmen. | Prayer fragment: Wenn passend, einen sehr kurzen, erkennbaren Schnipsel aus einem bekannten Gebet aufnehmen, zum Beispiel aus einem Psalm, einem biblischen Gebet oder der Tradition von Taizé oder Iona. | Source handling: Quelle des Gebetsschnipsels zuverlässig prüfen und knapp nennen. Biblische Worte mit Bibelstelle kennzeichnen. Bei modernen Gebeten und Gesängen nur ein kurzes zulässiges Zitat verwenden; sonst den Gedanken in eigenen Worten aufnehmen. | Theological key: Christliche Hoffnung gründet in Gott und seiner verheißenen Zukunft. Sie ist mehr als gute Stimmung und trägt auch dann, wenn der Tag ungewiss beginnt. | Theological key: Das Morgenlob verschweigt Dunkelheit und Leid nicht, macht sie aber nicht zum Mittelpunkt. Es beginnt mit Gott, von dem Licht, Leben und Erneuerung erwartet werden. | Spiritual tone: Lob, Dank, Staunen, Vertrauen, Erwartung und ruhige Zuversicht. Keine Leistungsforderung und kein Appellkatalog. | Language: Kurze, einfache und poetisch klare Sätze. Konkrete Bilder des Morgens und der Schöpfung verwenden, ohne kitschig zu werden. | Language: Möglichst wenig kirchliche Binnenbegriffe. Das Gebet soll auch für Menschen zugänglich sein, die mit traditioneller Gebetssprache wenig anfangen können. | Ending: Mit einem Satz des Vertrauens oder Lobes enden, der in den Tag mitgenommen werden kann. | AI support notes: Passenden geistlichen Leitgedanken wählen | gegebenenfalls einen kurzen Gebetsschnipsel samt Quelle prüfen | Morgenlob in einfacher Sprache entwerfen | konkrete Fürbitten konsequent dem Abendgebet überlassen | Caption kürzen | Alt-Text",
-      "AI support notes: Aktuelle Nachrichten prüfen | Gebet und Plattformtexte generieren | redaktionell prüfen"
+      "Gebetsschnipsel: „Dies ist der Tag, den der Herr macht; lasst uns freuen und fröhlich an ihm sein.“ Psalm 118,24; Lutherbibel 2017. Wortlaut bei der Deutschen Bibelgesellschaft geprüft. ([die-bibel.de](https://www.die-bibel.de/bibel/LU17/PSA.118.14-PSA.118.24?utm_source=openai))",
+      "Redaktioneller Nachrichtencheck am 4. Oktober 2026: Die tagesschau berichtete unter anderem über tödliche Unwetter in Spanien. Dieses konkrete Anliegen wird entsprechend der Abgrenzung der Rubrik nicht in das Morgengebet aufgenommen. ([tagesschau.de](https://www.tagesschau.de/archiv/index.html?utm_source=openai))",
+      "Redaktioneller Nachrichtencheck am 4. Oktober 2026: SWR Aktuell berichtete über einen Brand in einer Rehaklinik in Dobel mit Evakuierung und Verletzten. Dieses konkrete Anliegen wird entsprechend der Abgrenzung der Rubrik nicht in das Morgengebet aufgenommen. ([swr.de](https://www.swr.de/?utm_source=openai))",
+      "Vor Veröffentlichung am Morgen des 5. Oktober 2026 ist der Tagesbezug erneut zu prüfen. Konkrete aktuelle Fürbitten bleiben dem Abendgebet vorbehalten."
     ]
   },
   "platforms": {
     "facebook": {
-      "text": "",
-      "headline": ""
+      "text": "Gott,\nder Morgen ist da.\nDas Licht wächst.\nEin neuer Tag liegt vor uns.\n\nDu schenkst Leben.\nDu bleibst uns nah.\nDeine Güte ist größer als unsere Unruhe.\n\n„Dies ist der Tag, den der Herr macht; lasst uns freuen und fröhlich an ihm sein.“\nPsalm 118,24\n\nWir wissen noch nicht, was dieser Tag bringt.\nAber wir müssen ihn nicht allein tragen.\nÖffne unsere Augen für das Gute.\nGib uns Mut für den nächsten Schritt.\nLass deine Hoffnung in uns wachsen.\n\nWir nehmen diesen Tag aus deiner Hand.\nDu bist da.\nDas genügt für den Anfang.\nAmen.",
+      "headline": "Morgengebet: Dieser Tag kommt aus Gottes Hand"
     },
     "instagram": {
-      "caption": "",
-      "carousel": []
+      "caption": "Gott,\nder Morgen ist da.\nDas Licht wächst.\nEin neuer Tag liegt vor uns.\n\nDu schenkst Leben.\nDeine Güte ist größer als unsere Unruhe.\n\n„Dies ist der Tag, den der Herr macht; lasst uns freuen und fröhlich an ihm sein.“\nPsalm 118,24\n\nWir wissen nicht, was dieser Tag bringt.\nAber wir müssen ihn nicht allein tragen.\nÖffne unsere Augen für das Gute.\nGib uns Mut für den nächsten Schritt.\nLass deine Hoffnung in uns wachsen.\n\nWir nehmen diesen Tag aus deiner Hand.\nDu bist da.\nDas genügt für den Anfang.\nAmen.",
+      "carousel": [
+        {
+          "type": "Titel",
+          "text": "Morgengebet"
+        },
+        {
+          "type": "Gebet",
+          "text": "Gott, der Morgen ist da. Das Licht wächst. Ein neuer Tag liegt vor uns."
+        },
+        {
+          "type": "Bibelwort",
+          "text": "„Dies ist der Tag, den der Herr macht; lasst uns freuen und fröhlich an ihm sein.“ Psalm 118,24"
+        },
+        {
+          "type": "Gebet",
+          "text": "Wir wissen nicht, was dieser Tag bringt. Aber wir müssen ihn nicht allein tragen."
+        },
+        {
+          "type": "Abschluss",
+          "text": "Wir nehmen diesen Tag aus deiner Hand. Du bist da. Das genügt für den Anfang. Amen."
+        }
+      ]
     },
     "mastodon": {
-      "text": ""
+      "text": "Gott,\nder Morgen ist da.\nDas Licht wächst.\nEin neuer Tag liegt vor uns.\n\nWir wissen nicht, was dieser Tag bringt. Aber wir müssen ihn nicht allein tragen.\n\nÖffne unsere Augen für das Gute. Gib uns Mut für den nächsten Schritt. Lass deine Hoffnung in uns wachsen.\n\nWir nehmen diesen Tag aus deiner Hand.\nDu bist da.\nDas genügt für den Anfang.\nAmen."
     },
     "bluesky": {
-      "text": ""
+      "text": "Gott, der Morgen ist da. Ein neuer Tag liegt vor uns. Wir wissen nicht, was er bringt. Aber wir müssen ihn nicht allein tragen. Öffne unsere Augen für das Gute und gib uns Mut für den nächsten Schritt. Wir nehmen diesen Tag aus deiner Hand. Amen."
     },
     "story": {
-      "slides": []
+      "slides": [
+        {
+          "text": "Gott, der Morgen ist da. Das Licht wächst."
+        },
+        {
+          "text": "Ein neuer Tag liegt vor uns. Wir wissen noch nicht, was er bringt."
+        },
+        {
+          "text": "Aber wir müssen ihn nicht allein tragen."
+        },
+        {
+          "text": "Öffne unsere Augen für das Gute. Gib uns Mut für den nächsten Schritt."
+        },
+        {
+          "text": "Wir nehmen diesen Tag aus deiner Hand. Du bist da. Amen."
+        }
+      ]
     },
     "reel": {
       "hook": "",
@@ -51,25 +88,29 @@
     }
   },
   "visual": {
-    "concept": "",
-    "flux_prompt": "",
-    "negative_prompt": "text, letters, logo, watermark",
+    "concept": "Ein stiller Herbstmorgen als Bild für einen offenen, von Gott geschenkten Tag. Natürliches Licht fällt durch ein Fenster auf einen schlichten Holztisch. Darauf steht eine kleine Tasse. Keine Menschen, keine religiösen Symbole, keine Schrift.",
+    "flux_prompt": "Quiet early autumn morning, soft natural dawn light entering through a simple window, warm light falling across a plain wooden table, one modest ceramic cup, subtle view of slightly misty trees outside, calm realistic photography, natural muted colors, spacious composition, gentle hope, no people, no religious symbols, no typography",
+    "negative_prompt": "text, letters, words, logo, watermark, signage, poster, book page, people, hands, cross, church interior, dramatic sunbeams, kitsch, oversaturated colors",
     "formats": [
       "4:5",
       "9:16",
       "1.91:1"
     ],
-    "alt_text": ""
+    "alt_text": "Sanftes Morgenlicht fällt durch ein Fenster auf einen schlichten Holztisch mit einer Tasse. Draußen sind leicht neblige Bäume zu sehen."
   },
   "qa": {
     "warnings": [
-      "Alt text must be completed before approval"
+      "Alt text must be completed before approval",
+      "Vor Veröffentlichung am Morgen des 5. Oktober 2026 ist ein erneuter Nachrichten- und Tagesbezugcheck erforderlich.",
+      "Aktuelle Ereignisse wurden geprüft, aber gemäß der Rubrik bewusst nicht als konkrete Fürbitten in das Morgengebet aufgenommen.",
+      "Das Bibelzitat ist kurz zu halten und mit Psalm 118,24 sowie der verwendeten Übersetzung zu kennzeichnen.",
+      "Reel ist nicht angefordert und bleibt deshalb leer."
     ],
     "approved": false
   },
   "metadata": {
-    "model": "",
-    "generated_at": "",
+    "model": "gpt-5.6-sol",
+    "generated_at": "2026-10-04T15:00:41.403Z",
     "prompt_version": "1.0",
     "assets": []
   }

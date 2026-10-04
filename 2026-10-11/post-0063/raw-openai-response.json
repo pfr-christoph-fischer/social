@@ -1,0 +1,435 @@
+{
+  "id": "resp_04e08cb91174508f006ac26a7d54cc87d188365517283ab53c",
+  "object": "response",
+  "created_at": 1791126141,
+  "status": "completed",
+  "access_programs": null,
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1791126169,
+  "error": null,
+  "frequency_penalty": 0,
+  "incomplete_details": null,
+  "instructions": "You are part of a Protestant social media editorial team. Write in clear, accessible, theologically responsible German without church clichés. Use short sentences and concrete imagery. Never invent events, people, school situations, quotes, or factual details. Do not include copyrighted full song verses. For Reli and community posts, only use current details when they are explicitly provided. Return content that strictly matches the requested JSON schema. Set needs_input to true whenever required facts are missing. Keep qa.approved false. Do not ask for any text inside generated images. When liturgical_context.resolved_weekly_verse is present, use its exact wording for Wochenspruch slots instead of placeholders.",
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.6-sol",
+  "moderation": null,
+  "output": [
+    {
+      "id": "rs_04e08cb91174508f006ac26a7dd9b087d1839aa382d50519db",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABqwmqad4Jq8_6yK3Ui4g02OC4f-M-IuLQNO47XR3mgAFCBxKGI00lqAfQ9nClrGDdi7s9oUIY4SWTMnsQyM9GvlMrVeZt7rFa63FJ0dVAuY5BxiRqQ8ijsIs3suIlM-jYawazmKExeIz9n34FKcrOf0tAdGVqO8jLmvjPpmiRju4R6W--AUy9Gn_g5lt-VQEbHG_KZ2UD6gQbHVp4aLN1O55SB0arRsWzr4OHx_qCwwFudqPVNVtoWWZ9qNSe18aG5pHhGWElQNOWzFfQYZAmgPYOxYma1YLoeVCjXC9JRT_FKe2RASJ5HDcDRvn82MotCNVMyWd4uq6uvSJH5oriprlCfuztcnybY_oO5NNy2bCEUkZjanLsvKV-1WQaS7FJ9Z4HdfxOY3NO4lJ9Q3QMWNzHnCxeLYHZ30-tfEklhv3HZcdzeGuqcih4FMTbppCPd6ordiZJKeqkTx5An0irBlTfZTH9Wcr4E7D0grdZmyrCC6RALxCLGNkSnHQF1YMQWVLcNLKfzqmotoLGGQshHbK35YRigBmcLVA8itQ0pr6pEdQJAfSaAXikfHT1aFdXynzkh7chkbGXxxrWI4w2lTiIG6rK5P98AWL7pwnvFMHmbfDEeuZYSktwWIYQCM8JkByTM5YkkhxBLHPNn78q4eSr6dMG1m2sV7di5OIp-2xx10uDa9K8YmCeAhjaolf0B-ou_Tv-yYvoVwk73tj73e7lfHm0zo5SuTQWWxF7xTAbYHx8hOPdktWEsiyIGsHBeUpgOu9WGJlH8ryVe8ZDnHHC599WSJTkprTtZsju3DIoDyty7ndr-w8kALLDTpK0AaF68qMt8STgzIU0GVvf0aD3hQJb_CcT2v4r7SGdnC6rmxnDrzk53iUzJtMfTKI2VZmvBHwHvyvwbGyfQ1zf4vha-eUU74IPb_mJ8KadbjX4YT7hQZb2PNy90miV2abDdZfAz68uvSKYMjhwf9z3lQxGI3Z5PcrCRqkgsEJxo3UiFT2HspinQdTgyamYNUHGGFu8Tc7232P-B4xWdlbek5Tv5Y8a3kH8JlQijLAjI4L8cJ1hGC-3QSYFgkMvCivy9gO8fOSmUsJkwsWSz6tiPUZmi6L0oVj3I4uhNT4XQg3zenYPNfcjF4lUunLhr9HZTG8LWf41pUwS0vgCG3rCQ9o_sKZ4fBuI3yttbDBIsyxDLLcXuhqbpBt4VO5S6GWOROCsv_FCTkeo_nTwT8p36V7Y0mOlFL5zFJJPAUxPls50vGY7osWwfwWfJmoFFFi9ifavj-gXTcoPmX-rfLCWdXheCMNE5I2Hn5zrwpn_9bNPVQ6esfTMDD7H35iZcaLMjg1Iu8gSlw420D3Hvbrz2DPHtWuyPgk1IuY1PUNrLduF5aPlULIB2gs93xpMVuiDdwIWugJcg2YjhbjxtOA-Jl8gnM3NvMl8Wzkf2xZxnHAc2ochTI6OEaB9ogcop3J2g6HN6mMscmY1K2ePE2X0Iecrsth1MZcUONBfbodQnhxNYOdhcwQoS0EGLkHFJ2QsiUq74uQiTToLIl33uUGE9gpcYNG5WtupJbCkwjLtiP6rmdiiXnebykUuVIRaIgMMrUXD-LzNmbA6VibAfeJjSgdbpc2MlWPMrVAu0ny26hEbbOXcTV6zM0eGBob_7IeuSJArg7BvYqFmbpWVJreoqtA7EjklCBWDn8kkbt7-E7D3qWcaGlghKsyvYLBPuFNEba9FMWWbm2_oneisHcglnxt3NlFqUjeXMPJBttmdbjIVD7r6w-5Usb3p8iGI5uMCLpvNrWyNPXV8FUbTFXftyHUFdKZxSUMOwYPfAVlvN0swXwqxWMhcOUwzCiXR3YuV7u-10UGsgGQWPYWQLiw5y6macvM2ykw5Eq6r6_cFUP4PN336X7UHoU67wlKPTAqta8ddHzwSFXYBjZ7s_ZVoZkAelJEck9uzAq0C5Ti5dHNYVrp-rPJrGdTtWB0p4ncnKzbfV4cFNH1I2sO413zE31peBAmfY5wRa7FqQzGCFo_SV8tZQiIMtYbrLUrw4Wi0Xc8IYWSE1efGrXKm9_iw7eA_AIWxe4tzGYgC2wFoOomrTLndlaxgpSOLDi5JmGKvw4i4HtDdum99s7Wj-MREAtrWksV6P0Dzx9xy9ZtnKVGPWKXTn-G4PviO1vRmOU1jMIGihMl5OVF9Pwab7Nr8IqThc-rrrJIWKmwrjwEL9rHZ5aHDy6lWEtQRbCqyWj91lyw4YfviQuCe-YsxF52sbNA2Sap1qkPIMfWej6y9_ultcvzaCvyG5e2sdf1sEzDx9Xy-wZAItIOU2rS2ktvGaq8gDVm18JJYr4qFvFmbkdlJPXoIFzuohqJOUQFhJHjB3aAkYvE6tynE23ORLeIQlj0Xi-oroOtBl6jFsSsn8lL1rnHAPQu9MJ0cQM3dNxKeQXD4a_FhfEdRdzWeF6id1X6OvCPc7T7VxPDwnHY88OoMCrSb1n6dnNzCvbeDY89tb0qN62VopqFAMSFgUzBm2NIfOXX2B8cT_LdVS-JvsCa5xxbqlbzqX9c-jWS7KFHn47FEfeWXJthvpWdoXA02i4vGH-7YD4lEQhnWEQcNC-BwZZD4og1HhENrFJ3umvEoENyDJrxAXFX51-eJI59dvhHSYDEYpgv_gydYkOTB4yh9y8_m1c_BNCkh8AvUtQJUW_OazCf6X7aTD77ou-qNa0a_PH3HHFWxNb807oJN6rNYPyRDS8oAwDEqslscBXhxzFZqoWpBiF6pxh_Q82UoJe6nyK3byMvLAy-Q18G4wbvOyQq1Rs-0Ed4DnP44J-uM13ySbuzUvMh3UQJlx0fw86QD10UbFNG6IwYJIsHwlKHvqdBIA9TWW6lbqnsbOp_1xCmFx8R20IZFwPT6IN9Eh6WzuQzl1-P3eBF_yodRN92QdGeMFU0zzVsXXrXyTFAOu5MKusYkf4_499_9BFXKPpgMoCQDRYFgWqihAv1xkYk0xG4jz47b8pViyX5iytOwdbJDiEkVXMxgdXZF0jnK6TcjeE1cvFvBQWOoj3s9tlC1tE6mKHyYBduJMCSvHBHygHNWOnmHB5wLhq66Al0dQGU7QlJNRLu1oKBBxxmzRh2yDK2bspX8ZmgI9H5tW2bF7l0AeYh0gRgkF3MuHBtFohFxJMKgA3ZFI1KH59Jgc9S2j5i_ifgOYugF2RKLA88_FMkvT-r7YLfZqEPnYvV-99WeUhcAEHybW1y-vprbEqzJ6mttfDUoPhg5gSE-dGHYwITKdi5hUlEoTYrRcWZb8mnHGHdkRrXH-9ugGB-4Xqw50MxgGfT57HyJlTNHuVNqDEPEkp_Q_pjFMzbk7eK-GoEdMvRzTRVWHOAoe265GHF_QV0zPmHI7l4Yk_63ooMdTc6L-LOdyDi_D5m0wKLvI3PJDSCJ2Qs979ao0yxshbswrNueXUsWbCApHd85Z64F1-tclQsX8-F-O8DvTko5vD5O7kv0Wd2npQ775lfsbgOpyATmsbSTbjnOv3EXra4SNRU5WfOFfOuQVHaf94qIq3vVE24isgI9l8N8cVNxZIWghb4nT60nObUQBjva38cmZMGa23lB2t8Pu_EMXA0qy3soW79j4_DPoCHiqe96nvN_qjgYI-yfre1kxPPC8v-0aHYS132lqcoPZnqQ_eUsM6rE57R-WPm3vZYx2HDUHPLiLiMOOpvBlGrjplSnGuDjUxE960_5rhfERP0tICVHPt8jo-yrSktXjUvIoXw-9YffO598GpDTK-nqYIWtV5Yc_y_-3rtLiB5XA690_rp53J1-xFiJFVyDrZ2hrbdKrMFqHqaDgimEFpht1IU0qYqos1XbgRTiQ4ly2tMUeUtCeDKNvHe205JFt2wwLlmnprQ-IbcdQmjUbv_uLYXcwPMQOKW2SQuMeEqvjbca-8Kqqe9TQY4IpEwb3He4qzBryCYjBfp_XZJUb4aOzrwzfot-T6Fpwu89UdYHnoqJFrUd-pqABO_2GVwpmZyZ9qmHyu6p4Vw3rXBJ2bAHllyOJpcacnCzxDN4rjWBcTq2Ml3XtYI2H-jp6B_ORzoMQy0AgI8Kqe2pGVEXqZD4jP4tMlkVmF6czZ38AapfDOfm47DH1OdxN13VxKGjOAA3Fsvj1tYDnkVUc7ezwUUSyVh_DTLG7YcGgEJSnfIYizvuyzwYpY-XM3XmXudEkHdzDcLkCbJ7ZHCYBIHtkPixoaNWDf7c9lWv-xEGZD224BpDuEAXQwm3VMR1P1cWwhm-VN4W1t1GKBEgXYq9vGbdtAn2vCmjlukaJtcusgHgqTyqBtZVAORjfijHoZyJ8XdAhrXJ-TZM5Cy_uw0Z3ydWPbEDiIlCCMRECL7085XAK7Fa822b6ahHgJ2I1ok0x7wgQBT9bSEXUYbkbsxfE7efpczS0qIXco0lAbojky0nrjuXDTWZaDKBnZs6vg5kQtzmPqyMRTeW8t6UScnZdLlZpr-P1w7mQICkixUuvtXAvwI2wzj5v87APDzEUYHRdi8EeqcXiZiddvKcJNM6bPxmo_--QFRRRLqR4rwxuOIWCIvwgag8w_dtN_CsPEgd0OIUhcYQJ0HF0MautHGQCVw_G9PcRjwe6Vs5oNF1aGwNoVZECZWFRia1fpw==",
+      "summary": []
+    },
+    {
+      "id": "rs_04e08cb91174508f006ac26a85681887d191771750904dd22a",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABqwmqasufIsrlCqKWiyoUSkDHasrjWy8vac6KThWxv8hQ2X6lWCqdj-YytjbeF3m8wPTiIAd3aG1oTVxltUvaqiF_Z48MuQXbu7JR-oFCuGDT3oBT77azm6iIEPVgEdozURmfppwtkox8eXe4dryr8LQnZtG7hOqfHtBVwZq0JYgphvVSn0vIMVlu-VAyI11rjYiRBYoibP0C1Mc-n3USHimAHXpYM5rwNuraU9yU_48wDXKl9qZ66EwFISXzBFWlnbWGbu59RP1fvJk-Q5F4IQ1KrtdNEfdYwMZ58zyf-Gk0m2aVmOdTRDM46Wh__go_FKsC97iGwj-6lpySQF6zP9wYA19zrGPNAQJCgBrwdHZ5e28-99hVEHbLe97Kkv4bAniDfH-_ANFD_uRCT3nJhhAT42gekeYiWhgtSFmbZ1h0HWi8q0PiWXvkp6xzZfxvto-HGdCvrHvWWd7QIp7w9Ug4EcUaqNuj1miPA4nu-f98MYYVBXvmn401R75q0hSKyhTsmh-GVNOYm2ZxDilCpLTR7smFEYRoO9Dc7JK6wERL9ZB5g2Dd43KfSLOEHxm_JX95jE2A4MBYhV8LI6lS_DeYuaFFL556LKYcXU071lI1P-mzXozVv7SMe0UALiGlxn-b8i8HArqxRtbHrJE1h11uidRMMOgquZkTfFZYcPyoKnvvM_pOZfxl31UiHHNcjzrp4PooS1Lh5IBRNu45wnOeEDi6YMJJ4OFOHGObVk2X7vIuo8Mwx3As7UzubB35tk98oBF_IDxrpc6DYwZN-8yRa9U9jRjYmoNgHCsgIgav6ToDsx3n5rYqNb8LeR7yD9id-iuJ2-CtYwv9Os7kFIn599dz-IfotiikQ7AH5BQWfJ9CEScLCM6IHphh9o0Pkg01REK1r0r1zPn8mBmgiGTInqFelciv0A8lxDt3zyh5x1Q1nRDxs11J_KioSmji2IqzzqQLGlWz0y5lBZa_QPw0fvnWjyXK9NBl1L6yAawafFDmDOfQh8n7MxiI5aPhXd6kN7szUL2aoUE5OXJzRDuD4ZcbTKMKvpL5bUJgUHsmNXdvUENLm9oHIrKAe5noEWT-trAmo4hoaslVTRgXd3ezw6I7PwXXPSR35qC2it2I8QEKIQ5BC9ncSuO1j4fV5svZOYll_7QmI9DFl7II45UEP8Jd5exYyzldFUeWG5V-CiiV0TSKp1T8BSfBSijRn_DTYghrVCmd2vgJzYE6QRoAvlfkStMWR8pQJ5BLZwieMrXriP5Zzp64IgE6SFB4DY2hIEHVNHjEiXpw3e8tUBZGmpuqUv8MqX7ZVc47PL7eoYv486v2MolNVYBHcvGT4yG6NaMXTBRWYaxZ8rhDwHLIgSWzhSozMQg7hscVoyXdrr438L32_avkoVn0vsAKDhFJZ1riLO35CUjLwYQDZnlAkryVv27aqODlGOewvav1vdArv6fs7ldUvEat8nOpZAL50qsA6cSFqrXOXNe1nsQrvOj00ZuvfsEkDeDiZuvbW9IftgKovA5Drgr-4BarFg5M6rL72T3V1YBCogkRs4CTRFL9yl_q6gqtszLRPEDtAcepeHAyC9eC5LsX1tndg8QjHKkwewYwAaEgNX1SvuY6eG6ckr4AcZKsz0WfBbKXMgInpN_DkiKUE8wJrH3Iz6UdMGWOOCnbf2-crwOYtbZLCJp1BnFiri1DcA28sXAbFQ8n-isMAWtbMpJyUC2T853kiJL1Up5OeFIfX0Mp1dXZ0YMnv324sIn4oZgCpFSWPGOrRRDPgL2YCIg9ahXES_KZSgO9UwHlTJlQQC96N0x-G779zuAQB_HISN5G_o7s1iEzqWgF4WTStr2dA0PC2awZNjRRyftF_l4_IhS1GAqvXCbfwvfcAsmzaHPyZY0E8_lsj5PsV-_et3x4B0LLzi5ipkdnIHrPD8O3frvogyK8-c1G5I3qpQMqsDWBa-xsd8L8S8EPqTS0lsycJYtNS-xO0Bw4dHCtWZvKrRRONejGDs7L5SXLt7LI4Wz_zi3D97_1e2ZGPqItZ3xSzjsFWsWu7oEfbxPMxSajYgQJGo5zRJ6LDuXvdsabCOUv4ywsbLompgTr4NGlMuLDVGSTV915dqaN22mROuA_xlx9SJqtlD9VoITxbJIsQL297TLZ8LACkDe4oqorACBzhzrzpEnLm915Dliz54YixC6rUxsiLvjA7VUhWyBlk-_Q28xi4Hm_vW195fUvHq0dgAbrsOaN6bmr3IJZtWhS54gm_VTndvfl7dBSVv2j4ywk9Pk-ad_IWMvhf_EgFvWmcGOiqc2QMNfIXJC6SFT6JflHq8A_XUTb-L6dKHQSaG7WvDyboWz6ikGDBcWchep1w7c1DqDn0WMVnoAdNmhDhxrZBMPZCQgyLPYR-iX-sODuBuw26fYl4ANLeQeeWBqeARNPJm6CBkzB4QSyo083uuj0OQCwoLVdfQJOwIgr1gaKMfI6t8hQ0DZFhCXMWB387U3hbuFdBYppqDe5USyHBHyrunsbPVt_NNM91PjYe-ghqpTCe7D_Qy3aEmuj0XnVZ-3BzXHtAKgcdLuTXtmBuJARP9IH2GRsZQ3E6iipzWO8_WfJ97SHvHnXH5sHstF7u0-uIlcD3Kw7BYYggNXh6Cvmuko6gk-hwgc3CI1UZyBKx8TlJsAjG6iLKTNqLnACKHi8mIJcnQQQzAtwLvHv8zdnElupzEApi-WKmv0GFvNsYWR0yEp-GlSjBZyXsdDI0aY05heQnonRfC5Pfl5ioBbLJfhydnyW8_gsLNjROcta6wQaNaKfkZ6-bnzB4Uhw299s9AYGQQQ9p5114OZ6NeUgPPS14XsmGlY6uDMcN0W5NFeKu8EXYtX2H8_7gFtYaik28W_5cQdAtOTbC1FVJIGnxKDnNp-otFSdkxGkq95NOEmevCnmQU1a-6ImcDgFnU3tRno6sYXbLtENUG8HQzTrW4HjyN9r4u9oxxa51UTYk_PmFRPkxgaP0Js26ekca66QG4wxUZ_f-4V5aAmkCwu15v7krz6YJ-NXdYvevuTYaVezY_u6wdUpjUKQWz0tJ1RxJ5pXmve4WPpPRXhx4rlx9HrXknGfwa1VIi5wQ4p4l77-CVD2ikpW_T3NxXbbv-W0n-JtUnO-M7YzAlhFMYSY7N-5M5T64WiJuzZeRjqszfkt9o3p0H0KeZob6JCyi2EIL0LZo44WH7VPaQgjJmE8c9ivSUjU3sCn08X3b4NP6HW41gX1QNjHXImzMoEf1hKK1SSdhe0jqrgtYTcpwG8JoFxnGIKCDvUnhZu6Smu1S_mxL3xq1zZnSfdfTfQesN4l40IpwAbRxg-Gm_rNisq1gtkLslBNtA43iHglmcNDbPBSt0nLaaVHsoUXcLA2-l2eMxwLAXKXbvUTnzz0f2GjxSusyXDqxUVNoY-kCHY_5dKwlL3jRq83jBT43gsXcx6ckTp2EhdvI5PrPU-2ZtTWST8upA9l_D-wB4m6KWz-w8av2sr53mXBTuNV_qaNxqg9V9_O426TK16ETOmP-xGO2gfTHGWS8bQb6KceKPz0dBNQLtVM8GAts2OBuMBz06ADlP_n4dr7RzXADxROf1Ot5nJ6bVz7HV-MoIv5UGoIuTy22sdJaAcNtkV1moNQLjDvv78e0MtEFYOnUCbW9tMRUO87T_kK5-kAsIvw0W2dbiojAt63GoZGX4Rm3t41MGLvFNFV1vs8zi7Ya47-ThR-oTYeChSSV1JN4qVIgw7yxDzQ9eN9b1FlK-PNtMpOMcraPnHbbChCrdWCnPZlO3U9YtUW1t6iVShZHnmiUp8Ju8AIacwyY4ZvP5t28qmIAWmhyie-odn8TCGhw4xPsOfxzhlvTHQ33gB1xIjCkRqYXMbFbg8hqM3PbRLx3oqyidhn_3CtAwmL7eICjJ4vasLgAtR6Vn7otpUGgFqJbFNeVlRfjcdvUQMRZT5mrMUk8lNKFoG5u4hBecjBEQQ57Yq69h019BLWx6DkRyrf2Tf0RVB-4enL73SFbnk36QIDvPQGaihLcQuh8ggMsteJ7b8Vp8g5gCtrgDNAQLQFV762ixNV3ZmFBcGE292DUDgIqe2bTa6C_r276ycx4MfB9H7D5r47Lhrp1PRDtO0w-NtC8Z0V6P7QaZcQaNxlEitS8nv1sSLWS2F3mRGHisljdF-PYdSGTDaiRG8cZ4EhBDxgLA7Yt6rjYC5DqioIopOCYXvWJ2PniKbJY6YAxtbzlIb_SM1Lq4tVIM67Rzja0V9spoYTeDWov-10WmdN7fwnJcGCpsJsHwfs_kmyjJJONKj8F3gFWNaZrPCok8ixKjyPLbjtsmy6UIgTXl8makke7POrds_TzWOm95B8ZDWTs9PDUCTgqOkJmGNptQAdBGkGq6I4bdb0-fHKc4szhNEeABl6kpreG_QaGTTz3KAadpIBccYrClIyrEMIjbutgtJJZKsdz7n0=",
+      "summary": []
+    },
+    {
+      "id": "msg_04e08cb91174508f006ac26a8cd07c87d1b45c8e10d17992b3",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\"id\":\"post-0063\",\"status\":\"zur Prüfung\",\"needs_input\":false,\"source\":{\"calendar_post_id\":\"post-0063\",\"date\":\"2026-10-11\",\"rubric\":\"Wochenspruch – meditativ\",\"liturgical_source\":\"https://kirchenjahr.pfarr.tools/api/jahr/2026\"},\"editorial_core\":{\"title\":\"Neuer Wochenspruch: 19. Sonntag nach Trinitatis\",\"main_message\":\"Der Wochenspruch macht Heilung und Hilfe zum Gebet. Er verspricht keine schnelle Lösung, sondern richtet Vertrauen auf Gott.\",\"audience\":\"breite Öffentlichkeit\",\"tone\":[\"klar\",\"ruhig\",\"zugänglich\",\"meditativ\"],\"source_notes\":[\"Goal: Den neuen Wochenspruch als ruhigen Auftakt der liturgischen Woche veröffentlichen.\",\"Column: Bibel und Spiritualität\",\"Production mode: für Monate im Voraus vollständig vorproduzierbar\",\"Structure: Wochenspruch | ein Bild oder eine Beobachtung | ein meditativer Satz | offene Schlussfrage oder Segenswunsch\",\"AI support notes: meditativer Rohentwurf | KI-Bildprompt | Reel-Sprechtext | Alt-Text\",\"Liturgical source: https://kirchenjahr.pfarr.tools/api/jahr/2026 (2026-10-11, $.Tage['2026-10-11'])\",\"Ausgewählte Ordnung: 19. So. n. Trinitatis – Heilung an Leib und Seele\",\"Wochenspruch: Heile du mich, HERR, so werde ich heil; hilf du mir, so ist mir geholfen. (Jer 17,14)\"]},\"platforms\":{\"facebook\":{\"text\":\"„Heile du mich, HERR, so werde ich heil; hilf du mir, so ist mir geholfen.“\\nJer 17,14\\n\\nEin Tropfen fällt ins Wasser. Von einem kleinen Punkt aus ziehen Kreise über die ruhige Fläche. So kann Hilfe beginnen: nicht immer laut und nicht immer sofort sichtbar.\\n\\nDer Wochenspruch ist ein Gebet. Er spricht aus, was fehlt. Er bittet Gott um Heilung und Hilfe. Dabei ist er keine schnelle Erklärung für Krankheit und kein Versprechen, dass jede Wunde sofort verschwindet. Er gibt der Hoffnung Worte – auch dort, wo ein Mensch noch auf Veränderung wartet.\\n\\nVielleicht muss heute nichts beschönigt werden. Vielleicht genügt der schlichte Satz: Gott, ich brauche deine Hilfe.\\n\\nWo wünschst du dir in dieser Woche Heilung, neue Kraft oder einen Menschen an deiner Seite?\\n\\nGott schenke dir Mut zum Bitten und Menschen, die dich nicht allein lassen.\",\"headline\":\"Ein Gebet um Heilung und Hilfe\"},\"instagram\":{\"caption\":\"„Heile du mich, HERR, so werde ich heil; hilf du mir, so ist mir geholfen.“\\nJer 17,14\\n\\nEin Tropfen berührt stilles Wasser. Kreise breiten sich aus.\\n\\nDer Wochenspruch ist ein Gebet. Keine schnelle Erklärung. Kein Versprechen, dass jede Wunde sofort verschwindet. Er gibt der Hoffnung Worte: Gott, ich brauche deine Hilfe.\\n\\nWo wünschst du dir in dieser Woche Heilung, neue Kraft oder Unterstützung?\\n\\nGott schenke dir Mut zum Bitten und Menschen, die dich nicht allein lassen.\",\"carousel\":[{\"type\":\"Bildmotiv\",\"text\":\"Eine einzelne feine Welle breitet sich auf einer ruhigen Wasseroberfläche aus. Das Bild bleibt ohne Schrift.\"}]},\"mastodon\":{\"text\":\"„Heile du mich, HERR, so werde ich heil; hilf du mir, so ist mir geholfen.“ (Jer 17,14)\\n\\nEin Gebet ohne Beschönigung: Gott, ich brauche deine Hilfe. Keine schnelle Antwort, aber Worte für die Hoffnung.\\n\\nWo wünschst du dir in dieser Woche Heilung oder neue Kraft?\"},\"bluesky\":{\"text\":\"„Heile du mich, HERR, so werde ich heil; hilf du mir, so ist mir geholfen.“ (Jer 17,14)\\n\\nKeine schnelle Erklärung. Ein Gebet, das der Hoffnung Worte gibt: Gott, ich brauche deine Hilfe.\\n\\nWo wünschst du dir neue Kraft?\"},\"story\":{\"slides\":[{\"text\":\"„Heile du mich, HERR, so werde ich heil; hilf du mir, so ist mir geholfen.“\\nJer 17,14\"},{\"text\":\"Ein Tropfen berührt stilles Wasser. Kreise breiten sich aus.\"},{\"text\":\"Das Gebet verspricht keine schnelle Lösung. Es gibt der Hoffnung Worte.\"},{\"text\":\"Wo wünschst du dir in dieser Woche Heilung, neue Kraft oder Unterstützung?\"}]},\"reel\":{\"hook\":\"Ein Tropfen berührt stilles Wasser.\",\"script\":\"Ein Tropfen berührt stilles Wasser. Kreise breiten sich aus.\\n\\n„Heile du mich, HERR, so werde ich heil; hilf du mir, so ist mir geholfen.“\\nJer 17,14\\n\\nKeine schnelle Erklärung. Ein Gebet, das ausspricht, was fehlt.\\n\\nWo wünschst du dir in dieser Woche Heilung oder neue Kraft?\",\"shots\":[\"Nahaufnahme einer ruhigen Wasseroberfläche im weichen Morgenlicht\",\"Ein einzelner Tropfen fällt ins Wasser\",\"Feine Kreise breiten sich langsam über die Oberfläche aus\",\"Die Kamera bleibt auf dem ruhiger werdenden Wasser\"],\"duration_seconds\":25}},\"visual\":{\"concept\":\"Eine ruhige Wasseroberfläche im weichen Morgenlicht. Ein einzelner Tropfen erzeugt feine, größer werdende Kreise. Viel freie Fläche und gedeckte Blau-, Grau- und Goldtöne. Der Wochenspruch erscheint nur im Begleittext oder als später gesetztes Plattform-Overlay, nicht im KI-generierten Bild.\",\"flux_prompt\":\"Photorealistic close-up of a calm water surface at dawn, one subtle droplet touching the water and creating delicate concentric ripples, soft diffused morning light, muted blue gray and warm gold color palette, contemplative atmosphere, minimal composition, generous negative space, natural details, gentle depth of field, no people, no objects, no typography\",\"negative_prompt\":\"text, letters, words, typography, logo, watermark, caption, signage, symbols, people, hands, dramatic storm, harsh contrast, oversaturated colors, fantasy glow, clutter\",\"formats\":[\"4:5\",\"9:16\",\"1.91:1\"],\"alt_text\":\"Eine ruhige Wasseroberfläche im weichen Morgenlicht. Von einem einzelnen Tropfen gehen feine, kreisförmige Wellen aus. Das Bild ist in gedeckten Blau-, Grau- und Goldtönen gehalten.\"},\"qa\":{\"warnings\":[\"Die visuelle Umsetzung und die finale redaktionelle Freigabe stehen noch aus.\",\"Bei der Veröffentlichung sollte der sensible Umgang mit Erfahrungen von Krankheit und ausbleibender Heilung erhalten bleiben.\"],\"approved\":false},\"metadata\":{\"model\":\"OpenAI\",\"generated_at\":\"\",\"prompt_version\":\"1.0\",\"assets\":[]}}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "all_turns",
+    "effort": "medium",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1,
+  "text": {
+    "format": {
+      "type": "json_schema",
+      "description": null,
+      "name": "content_package",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "Idee",
+              "in Arbeit",
+              "zur Prüfung",
+              "freigegeben",
+              "terminiert",
+              "veröffentlicht",
+              "verworfen"
+            ]
+          },
+          "needs_input": {
+            "type": "boolean"
+          },
+          "source": {
+            "type": "object",
+            "properties": {
+              "calendar_post_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "date": {
+                "type": "string",
+                "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+              },
+              "rubric": {
+                "type": "string",
+                "minLength": 1
+              },
+              "liturgical_source": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "calendar_post_id",
+              "date",
+              "rubric",
+              "liturgical_source"
+            ],
+            "additionalProperties": false
+          },
+          "editorial_core": {
+            "type": "object",
+            "properties": {
+              "title": {
+                "type": "string"
+              },
+              "main_message": {
+                "type": "string"
+              },
+              "audience": {
+                "type": "string"
+              },
+              "tone": {
+                "minItems": 1,
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "source_notes": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "title",
+              "main_message",
+              "audience",
+              "tone",
+              "source_notes"
+            ],
+            "additionalProperties": false
+          },
+          "platforms": {
+            "type": "object",
+            "properties": {
+              "facebook": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  },
+                  "headline": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text",
+                  "headline"
+                ],
+                "additionalProperties": false
+              },
+              "instagram": {
+                "type": "object",
+                "properties": {
+                  "caption": {
+                    "type": "string"
+                  },
+                  "carousel": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "type": {
+                          "type": "string"
+                        },
+                        "text": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "type",
+                        "text"
+                      ],
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "required": [
+                  "caption",
+                  "carousel"
+                ],
+                "additionalProperties": false
+              },
+              "mastodon": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text"
+                ],
+                "additionalProperties": false
+              },
+              "bluesky": {
+                "default": {
+                  "text": ""
+                },
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text"
+                ],
+                "additionalProperties": false
+              },
+              "story": {
+                "type": "object",
+                "properties": {
+                  "slides": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "text": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "text"
+                      ],
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "required": [
+                  "slides"
+                ],
+                "additionalProperties": false
+              },
+              "reel": {
+                "type": "object",
+                "properties": {
+                  "hook": {
+                    "type": "string"
+                  },
+                  "script": {
+                    "type": "string"
+                  },
+                  "shots": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "duration_seconds": {
+                    "type": "integer",
+                    "minimum": 0,
+                    "maximum": 9007199254740991
+                  }
+                },
+                "required": [
+                  "hook",
+                  "script",
+                  "shots",
+                  "duration_seconds"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "required": [
+              "facebook",
+              "instagram",
+              "mastodon",
+              "bluesky",
+              "story",
+              "reel"
+            ],
+            "additionalProperties": false
+          },
+          "visual": {
+            "type": "object",
+            "properties": {
+              "concept": {
+                "type": "string"
+              },
+              "flux_prompt": {
+                "type": "string"
+              },
+              "negative_prompt": {
+                "type": "string",
+                "minLength": 1
+              },
+              "formats": {
+                "minItems": 1,
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "alt_text": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "concept",
+              "flux_prompt",
+              "negative_prompt",
+              "formats",
+              "alt_text"
+            ],
+            "additionalProperties": false
+          },
+          "qa": {
+            "type": "object",
+            "properties": {
+              "warnings": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "approved": {
+                "type": "boolean"
+              }
+            },
+            "required": [
+              "warnings",
+              "approved"
+            ],
+            "additionalProperties": false
+          },
+          "metadata": {
+            "type": "object",
+            "properties": {
+              "model": {
+                "type": "string"
+              },
+              "generated_at": {
+                "type": "string"
+              },
+              "prompt_version": {
+                "type": "string",
+                "minLength": 1
+              },
+              "assets": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "model",
+              "generated_at",
+              "prompt_version",
+              "assets"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "id",
+          "status",
+          "needs_input",
+          "source",
+          "editorial_core",
+          "platforms",
+          "visual",
+          "qa",
+          "metadata"
+        ],
+        "additionalProperties": false
+      },
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 1958,
+    "input_tokens_details": {
+      "cache_write_tokens": 1955,
+      "cached_tokens": 0
+    },
+    "output_tokens": 2518,
+    "output_tokens_details": {
+      "reasoning_tokens": 1032
+    },
+    "total_tokens": 4476
+  },
+  "user": null,
+  "metadata": {},
+  "output_text": "{\"id\":\"post-0063\",\"status\":\"zur Prüfung\",\"needs_input\":false,\"source\":{\"calendar_post_id\":\"post-0063\",\"date\":\"2026-10-11\",\"rubric\":\"Wochenspruch – meditativ\",\"liturgical_source\":\"https://kirchenjahr.pfarr.tools/api/jahr/2026\"},\"editorial_core\":{\"title\":\"Neuer Wochenspruch: 19. Sonntag nach Trinitatis\",\"main_message\":\"Der Wochenspruch macht Heilung und Hilfe zum Gebet. Er verspricht keine schnelle Lösung, sondern richtet Vertrauen auf Gott.\",\"audience\":\"breite Öffentlichkeit\",\"tone\":[\"klar\",\"ruhig\",\"zugänglich\",\"meditativ\"],\"source_notes\":[\"Goal: Den neuen Wochenspruch als ruhigen Auftakt der liturgischen Woche veröffentlichen.\",\"Column: Bibel und Spiritualität\",\"Production mode: für Monate im Voraus vollständig vorproduzierbar\",\"Structure: Wochenspruch | ein Bild oder eine Beobachtung | ein meditativer Satz | offene Schlussfrage oder Segenswunsch\",\"AI support notes: meditativer Rohentwurf | KI-Bildprompt | Reel-Sprechtext | Alt-Text\",\"Liturgical source: https://kirchenjahr.pfarr.tools/api/jahr/2026 (2026-10-11, $.Tage['2026-10-11'])\",\"Ausgewählte Ordnung: 19. So. n. Trinitatis – Heilung an Leib und Seele\",\"Wochenspruch: Heile du mich, HERR, so werde ich heil; hilf du mir, so ist mir geholfen. (Jer 17,14)\"]},\"platforms\":{\"facebook\":{\"text\":\"„Heile du mich, HERR, so werde ich heil; hilf du mir, so ist mir geholfen.“\\nJer 17,14\\n\\nEin Tropfen fällt ins Wasser. Von einem kleinen Punkt aus ziehen Kreise über die ruhige Fläche. So kann Hilfe beginnen: nicht immer laut und nicht immer sofort sichtbar.\\n\\nDer Wochenspruch ist ein Gebet. Er spricht aus, was fehlt. Er bittet Gott um Heilung und Hilfe. Dabei ist er keine schnelle Erklärung für Krankheit und kein Versprechen, dass jede Wunde sofort verschwindet. Er gibt der Hoffnung Worte – auch dort, wo ein Mensch noch auf Veränderung wartet.\\n\\nVielleicht muss heute nichts beschönigt werden. Vielleicht genügt der schlichte Satz: Gott, ich brauche deine Hilfe.\\n\\nWo wünschst du dir in dieser Woche Heilung, neue Kraft oder einen Menschen an deiner Seite?\\n\\nGott schenke dir Mut zum Bitten und Menschen, die dich nicht allein lassen.\",\"headline\":\"Ein Gebet um Heilung und Hilfe\"},\"instagram\":{\"caption\":\"„Heile du mich, HERR, so werde ich heil; hilf du mir, so ist mir geholfen.“\\nJer 17,14\\n\\nEin Tropfen berührt stilles Wasser. Kreise breiten sich aus.\\n\\nDer Wochenspruch ist ein Gebet. Keine schnelle Erklärung. Kein Versprechen, dass jede Wunde sofort verschwindet. Er gibt der Hoffnung Worte: Gott, ich brauche deine Hilfe.\\n\\nWo wünschst du dir in dieser Woche Heilung, neue Kraft oder Unterstützung?\\n\\nGott schenke dir Mut zum Bitten und Menschen, die dich nicht allein lassen.\",\"carousel\":[{\"type\":\"Bildmotiv\",\"text\":\"Eine einzelne feine Welle breitet sich auf einer ruhigen Wasseroberfläche aus. Das Bild bleibt ohne Schrift.\"}]},\"mastodon\":{\"text\":\"„Heile du mich, HERR, so werde ich heil; hilf du mir, so ist mir geholfen.“ (Jer 17,14)\\n\\nEin Gebet ohne Beschönigung: Gott, ich brauche deine Hilfe. Keine schnelle Antwort, aber Worte für die Hoffnung.\\n\\nWo wünschst du dir in dieser Woche Heilung oder neue Kraft?\"},\"bluesky\":{\"text\":\"„Heile du mich, HERR, so werde ich heil; hilf du mir, so ist mir geholfen.“ (Jer 17,14)\\n\\nKeine schnelle Erklärung. Ein Gebet, das der Hoffnung Worte gibt: Gott, ich brauche deine Hilfe.\\n\\nWo wünschst du dir neue Kraft?\"},\"story\":{\"slides\":[{\"text\":\"„Heile du mich, HERR, so werde ich heil; hilf du mir, so ist mir geholfen.“\\nJer 17,14\"},{\"text\":\"Ein Tropfen berührt stilles Wasser. Kreise breiten sich aus.\"},{\"text\":\"Das Gebet verspricht keine schnelle Lösung. Es gibt der Hoffnung Worte.\"},{\"text\":\"Wo wünschst du dir in dieser Woche Heilung, neue Kraft oder Unterstützung?\"}]},\"reel\":{\"hook\":\"Ein Tropfen berührt stilles Wasser.\",\"script\":\"Ein Tropfen berührt stilles Wasser. Kreise breiten sich aus.\\n\\n„Heile du mich, HERR, so werde ich heil; hilf du mir, so ist mir geholfen.“\\nJer 17,14\\n\\nKeine schnelle Erklärung. Ein Gebet, das ausspricht, was fehlt.\\n\\nWo wünschst du dir in dieser Woche Heilung oder neue Kraft?\",\"shots\":[\"Nahaufnahme einer ruhigen Wasseroberfläche im weichen Morgenlicht\",\"Ein einzelner Tropfen fällt ins Wasser\",\"Feine Kreise breiten sich langsam über die Oberfläche aus\",\"Die Kamera bleibt auf dem ruhiger werdenden Wasser\"],\"duration_seconds\":25}},\"visual\":{\"concept\":\"Eine ruhige Wasseroberfläche im weichen Morgenlicht. Ein einzelner Tropfen erzeugt feine, größer werdende Kreise. Viel freie Fläche und gedeckte Blau-, Grau- und Goldtöne. Der Wochenspruch erscheint nur im Begleittext oder als später gesetztes Plattform-Overlay, nicht im KI-generierten Bild.\",\"flux_prompt\":\"Photorealistic close-up of a calm water surface at dawn, one subtle droplet touching the water and creating delicate concentric ripples, soft diffused morning light, muted blue gray and warm gold color palette, contemplative atmosphere, minimal composition, generous negative space, natural details, gentle depth of field, no people, no objects, no typography\",\"negative_prompt\":\"text, letters, words, typography, logo, watermark, caption, signage, symbols, people, hands, dramatic storm, harsh contrast, oversaturated colors, fantasy glow, clutter\",\"formats\":[\"4:5\",\"9:16\",\"1.91:1\"],\"alt_text\":\"Eine ruhige Wasseroberfläche im weichen Morgenlicht. Von einem einzelnen Tropfen gehen feine, kreisförmige Wellen aus. Das Bild ist in gedeckten Blau-, Grau- und Goldtönen gehalten.\"},\"qa\":{\"warnings\":[\"Die visuelle Umsetzung und die finale redaktionelle Freigabe stehen noch aus.\",\"Bei der Veröffentlichung sollte der sensible Umgang mit Erfahrungen von Krankheit und ausbleibender Heilung erhalten bleiben.\"],\"approved\":false},\"metadata\":{\"model\":\"OpenAI\",\"generated_at\":\"\",\"prompt_version\":\"1.0\",\"assets\":[]}}"
+}

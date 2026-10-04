@@ -1,7 +1,7 @@
 {
   "id": "post-0061",
   "status": "in Arbeit",
-  "needs_input": false,
+  "needs_input": true,
   "source": {
     "calendar_post_id": "post-0061",
     "date": "2026-10-09",
@@ -9,69 +9,97 @@
     "liturgical_source": "https://kirchenjahr.pfarr.tools/api/jahr/2026"
   },
   "editorial_core": {
-    "title": "Kurzes Wochengebet zum Schwerpunkt „Dank, Verantwortung und Freiheit“",
-    "main_message": "5–8 kurze Zeilen; konkrete Lebenswelt; am Ende eine tragende Bitte.",
+    "title": "Kurzes Wochengebet: Dank, Verantwortung und Freiheit",
+    "main_message": "Dank macht sichtbar, was uns trägt. Freiheit öffnet den Raum, verantwortlich zu handeln und zu teilen.",
     "audience": "breite Öffentlichkeit",
     "tone": [
       "klar",
       "ruhig",
-      "zugänglich"
+      "zugänglich",
+      "konkret"
     ],
     "source_notes": [
-      "Goal: Die Woche geistlich sammeln und auf das Wochenende hin öffnen.",
-      "Column: Spiritualität",
-      "Production mode: vollständig vorproduzierbar",
-      "Structure: ein konkretes Lebensthema | knappe geistliche Sprache | kein Erklärton",
-      "AI support notes: Gebetsentwurf | sprachliche Verdichtung | Reel-Sprechtext | Alt-Text",
-      "Liturgical source: https://kirchenjahr.pfarr.tools/api/jahr/2026 (2026-10-04, $.Tage['2026-10-04'])"
+      "Ziel: Die Woche geistlich sammeln und auf das Wochenende hin öffnen.",
+      "Das Gebet ist ein neu formulierter Originaltext.",
+      "Für den 4. Oktober 2026 liegen zwei liturgische Einträge mit unterschiedlichen Wochensprüchen vor.",
+      "Die örtlich gefeierte Ordnung muss vor der Veröffentlichung redaktionell ausgewählt werden.",
+      "Bis zur Klärung wird kein Wochenspruch verwendet."
     ]
   },
   "platforms": {
     "facebook": {
-      "text": "",
-      "headline": ""
+      "text": "Gott,\ndanke für das Brot auf dem Tisch,\nfür Zeit, Kraft und Menschen an unserer Seite.\nZeig uns, was wir teilen können.\nGib uns Mut, verantwortlich zu entscheiden.\nBewahre unsere Freiheit vor Gleichgültigkeit.\nTrag uns und alle, für die das Nötige fehlt.\nAmen.",
+      "headline": "Ein Gebet zum Ende der Woche"
     },
     "instagram": {
-      "caption": "",
-      "carousel": []
+      "caption": "Am Ende der Woche halten wir kurz inne.\n\nGott,\ndanke für das Brot auf dem Tisch,\nfür Zeit, Kraft und Menschen an unserer Seite.\nZeig uns, was wir teilen können.\nGib uns Mut, verantwortlich zu entscheiden.\nBewahre unsere Freiheit vor Gleichgültigkeit.\nTrag uns und alle, für die das Nötige fehlt.\nAmen.",
+      "carousel": [
+        {
+          "type": "Bild",
+          "text": "Ruhiges Motiv ohne Schrift: ein schlichter Tisch mit Brot und einem freien Platz."
+        }
+      ]
     },
     "mastodon": {
-      "text": ""
+      "text": "Gott, danke für das Brot auf dem Tisch, für Zeit, Kraft und Menschen an unserer Seite. Zeig uns, was wir teilen können. Gib uns Mut, verantwortlich zu entscheiden. Bewahre unsere Freiheit vor Gleichgültigkeit. Trag uns und alle, für die das Nötige fehlt. Amen."
     },
     "bluesky": {
-      "text": ""
+      "text": "Gott, danke für das Brot auf dem Tisch, für Zeit, Kraft und Menschen an unserer Seite. Zeig uns, was wir teilen können. Gib uns Mut, verantwortlich zu entscheiden. Bewahre unsere Freiheit vor Gleichgültigkeit. Trag uns und alle, für die das Nötige fehlt. Amen."
     },
     "story": {
-      "slides": []
+      "slides": [
+        {
+          "text": "Was hat dich in dieser Woche getragen?"
+        },
+        {
+          "text": "Gott, danke für das Brot auf dem Tisch, für Zeit, Kraft und Menschen an unserer Seite."
+        },
+        {
+          "text": "Zeig uns, was wir teilen können. Gib uns Mut, verantwortlich zu entscheiden."
+        },
+        {
+          "text": "Bewahre unsere Freiheit vor Gleichgültigkeit. Trag uns und alle, für die das Nötige fehlt. Amen."
+        }
+      ]
     },
     "reel": {
-      "hook": "",
-      "script": "",
-      "shots": [],
-      "duration_seconds": 0
+      "hook": "Ein kurzer Moment zum Ende der Woche.",
+      "script": "Gott,\ndanke für das Brot auf dem Tisch,\nfür Zeit, Kraft und Menschen an unserer Seite.\nZeig uns, was wir teilen können.\nGib uns Mut, verantwortlich zu entscheiden.\nBewahre unsere Freiheit vor Gleichgültigkeit.\nTrag uns und alle, für die das Nötige fehlt.\nAmen.",
+      "shots": [
+        "Ruhige Nahaufnahme eines schlichten Tisches im weichen Tageslicht",
+        "Hände legen ein Brot auf den Tisch",
+        "Ein leerer Teller wird neben einen gedeckten Platz gestellt",
+        "Licht fällt durch ein Fenster auf die Tischfläche",
+        "Ruhiges Schlussbild des gedeckten Tisches"
+      ],
+      "duration_seconds": 25
     }
   },
   "visual": {
-    "concept": "",
-    "flux_prompt": "",
-    "negative_prompt": "text, letters, logo, watermark",
+    "concept": "Ein schlichter Tisch im weichen Tageslicht. Ein Brot liegt in der Mitte. Ein zusätzlicher gedeckter Platz steht für Teilen, Verantwortung und offene Gemeinschaft. Keine Personen müssen erkennbar sein.",
+    "flux_prompt": "Documentary-style still life of a simple wooden table in soft natural autumn daylight, a loaf of bread in the center, simple ceramic plates, one additional place setting, calm contemplative atmosphere, warm muted colors, realistic photography, subtle shadows, generous negative space, no visible faces, no typography",
+    "negative_prompt": "text, letters, words, captions, logo, watermark, signage, poster, book title, distorted hands, excessive decoration, luxury tableware, dramatic religious symbols",
     "formats": [
       "4:5",
       "9:16",
       "1.91:1"
     ],
-    "alt_text": ""
+    "alt_text": "Auf einem schlichten Holztisch liegt ein Brot. Daneben stehen einfache Teller, darunter ein zusätzlich gedeckter Platz. Weiches Tageslicht fällt auf die ruhige Szene."
   },
   "qa": {
     "warnings": [
       "Alt text must be completed before approval",
-      "Check song lyric copyright before publication"
+      "Check song lyric copyright before publication",
+      "Multiple liturgical entries for 2026-10-04 contain different Wochenspruch values. Local selection is still required before publication.",
+      "Vor der Veröffentlichung muss redaktionell geklärt werden, ob vor Ort Erntedank oder der 18. Sonntag nach Trinitatis gefeiert wird.",
+      "Für den 4. Oktober 2026 liegen unterschiedliche Wochensprüche vor. Im aktuellen Entwurf wird deshalb kein Wochenspruch zitiert.",
+      "Story-Texte und Untertitel für das Reel müssen in der Plattform ergänzt und auf gute Lesbarkeit geprüft werden."
     ],
     "approved": false
   },
   "metadata": {
-    "model": "",
-    "generated_at": "",
+    "model": "gpt-5.6-sol",
+    "generated_at": "2026-10-04T15:02:21.161Z",
     "prompt_version": "1.0",
     "assets": []
   }

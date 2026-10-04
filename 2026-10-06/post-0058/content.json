@@ -10,68 +10,91 @@
   },
   "editorial_core": {
     "title": "David Lunsford – Thank God",
-    "main_message": "Kurzes, am Originaltext geprüftes Liedfragment als Meditation wählen. Persönlich erzählen, was mich daran berührt; Schwerpunkt: Dank nicht als Pflicht, sondern als persönliche geistliche Haltung. Spotify: https://open.spotify.com/track/6IcvjdIOU5I8cZZC0DZQrx",
-    "audience": "[TODO: define audience after current inputs are available]",
+    "main_message": "Dank lässt sich nicht erzwingen. Sie kann zu einer geistlichen Haltung werden, die auch kleine Zeichen von Hoffnung wahrnimmt. Der persönliche Bezug und ein am Original geprüftes kurzes Liedfragment müssen vor der Veröffentlichung ergänzt werden.",
+    "audience": "Menschen, die persönliche Zugänge zu Glaube, Musik und Spiritualität suchen und neue christliche Künstler:innen entdecken möchten.",
     "tone": [
-      "klar",
+      "persönlich",
       "ruhig",
+      "klar",
       "zugänglich"
     ],
     "source_notes": [
-      "Goal: Persönlich teilen, welche Liedzeile mich gerade begleitet, und dabei unbekanntere, progressive christliche Künstler:innen vorstellen.",
-      "Column: Persönlicher Glaube und Spiritualität",
-      "Production mode: weitgehend vorproduzierbar; persönlichen Bezug vor Veröffentlichung aktuell formulieren",
-      "Structure: kurzer persönlicher Einstieg | Liedfragment als Meditation und eigener geistlicher Gedanke | Künstler:in kurz vorstellen und Spotify-Link",
-      "AI support notes: persönliche Notizen sprachlich verdichten | Meditationsimpuls und plattformgerechte Kurzfassungen | Alt-Text",
-      "Current inputs required: persönliche Beobachtung oder Erfahrung aus dieser Woche | am Originaltext geprüftes kurzes Liedfragment | Spotify: https://open.spotify.com/track/6IcvjdIOU5I8cZZC0DZQrx"
+      "Ziel: Persönlich teilen, welche Liedzeile gerade begleitet, und dabei unbekanntere, progressive christliche Künstler:innen vorstellen.",
+      "Vor Veröffentlichung wird eine konkrete persönliche Beobachtung oder Erfahrung aus der aktuellen Woche benötigt.",
+      "Ein kurzes Liedfragment muss am Originaltext geprüft und urheberrechtlich zulässig verwendet werden.",
+      "Zum Künstler liegen keine verifizierten biografischen oder musikalischen Hintergrundinformationen vor. Deshalb wird nur die bereitgestellte Zuordnung von Song und Künstler verwendet.",
+      "Spotify: https://open.spotify.com/track/6IcvjdIOU5I8cZZC0DZQrx"
     ]
   },
   "platforms": {
     "facebook": {
-      "text": "",
-      "headline": ""
+      "text": "In dieser Woche begleitet mich [PERSÖNLICHE BEOBACHTUNG ODER ERFAHRUNG EINFÜGEN].\n\nDazu passt eine kurze Zeile aus „Thank God“ von David Lunsford:\n\n„[AM ORIGINAL GEPRÜFTES KURZES LIEDFRAGMENT EINFÜGEN]“\n\nDiese Worte erinnern mich daran: Dank ist keine Pflichtübung. Dank kann eine Haltung sein. Ein bewusstes Wahrnehmen dessen, was trägt – auch wenn nicht alles gut ist.\n\nDer Song stammt von David Lunsford. Hier könnt ihr ihn hören:\nhttps://open.spotify.com/track/6IcvjdIOU5I8cZZC0DZQrx",
+      "headline": "Ein Lied, das mich begleitet: „Thank God“"
     },
     "instagram": {
-      "caption": "",
+      "caption": "In dieser Woche begleitet mich [PERSÖNLICHE BEOBACHTUNG ODER ERFAHRUNG EINFÜGEN].\n\nEine Zeile aus „Thank God“ von David Lunsford ist dabei besonders nah:\n\n„[AM ORIGINAL GEPRÜFTES KURZES LIEDFRAGMENT EINFÜGEN]“\n\nDank ist für mich keine Pflicht. Er lässt sich nicht auf Knopfdruck herstellen. Aber manchmal öffnet er den Blick für das, was trägt – mitten in einem unruhigen Tag.\n\nSong: „Thank God“ von David Lunsford\nSpotify: https://open.spotify.com/track/6IcvjdIOU5I8cZZC0DZQrx",
       "carousel": []
     },
     "mastodon": {
-      "text": ""
+      "text": "In dieser Woche begleitet mich [PERSÖNLICHE BEOBACHTUNG EINFÜGEN]. Dazu eine Zeile aus „Thank God“ von David Lunsford: „[GEPRÜFTES KURZES LIEDFRAGMENT]“\n\nDank ist keine Pflichtübung. Er kann den Blick für das öffnen, was trägt.\n\nhttps://open.spotify.com/track/6IcvjdIOU5I8cZZC0DZQrx"
     },
     "bluesky": {
-      "text": ""
+      "text": "Diese Woche begleitet mich [PERSÖNLICHE BEOBACHTUNG]. Dazu eine geprüfte kurze Zeile aus „Thank God“ von David Lunsford: „[LIEDFRAGMENT]“ Dank ist keine Pflicht. Er kann den Blick für das öffnen, was trägt. https://open.spotify.com/track/6IcvjdIOU5I8cZZC0DZQrx"
     },
     "story": {
-      "slides": []
+      "slides": [
+        {
+          "text": "Ein Lied, das mich diese Woche begleitet: „Thank God“ von David Lunsford."
+        },
+        {
+          "text": "„[AM ORIGINAL GEPRÜFTES KURZES LIEDFRAGMENT EINFÜGEN]“"
+        },
+        {
+          "text": "Dank ist keine Pflicht. Manchmal wächst er, wenn ich wahrnehme, was mich trägt."
+        },
+        {
+          "text": "Song auf Spotify anhören. Link-Sticker mit dem bereitgestellten Spotify-Link ergänzen."
+        }
+      ]
     },
     "reel": {
-      "hook": "",
-      "script": "",
-      "shots": [],
-      "duration_seconds": 0
+      "hook": "Ein Lied, das mich gerade begleitet.",
+      "script": "In dieser Woche beschäftigt mich [PERSÖNLICHE BEOBACHTUNG ODER ERFAHRUNG EINFÜGEN]. Dazu passt eine kurze Zeile aus „Thank God“ von David Lunsford: „[AM ORIGINAL GEPRÜFTES KURZES LIEDFRAGMENT EINFÜGEN]“ Für mich steckt darin ein wichtiger Gedanke: Dank ist keine Pflicht. Er kann leise wachsen, wenn ich wahrnehme, was mich trägt.",
+      "shots": [
+        "Ruhige Nahaufnahme eines Fensters im weichen Morgenlicht",
+        "Eine Hand legt Kopfhörer neben eine Tasse",
+        "Langsame Aufnahme von Licht und Schatten auf einer schlichten Oberfläche",
+        "Ruhiger Abschluss mit Kopfhörern im Bild; Spotify-Link nur über die Plattformfunktion ergänzen"
+      ],
+      "duration_seconds": 25
     }
   },
   "visual": {
-    "concept": "",
+    "concept": "Ruhiges, warmes Stillleben mit Kopfhörern, einer schlichten Tasse und weichem Licht. Die Bildsprache wirkt persönlich und unaufgeregt. Es gibt keine eingeblendeten Wörter oder Logos.",
     "flux_prompt": "",
-    "negative_prompt": "text, letters, logo, watermark",
+    "negative_prompt": "text, letters, captions, logo, watermark, visible brand names, album cover, interface elements, distorted objects, oversaturated colors, dramatic religious symbols",
     "formats": [
       "4:5",
       "9:16",
       "1.91:1"
     ],
-    "alt_text": ""
+    "alt_text": "Kopfhörer liegen neben einer schlichten Tasse im weichen Licht eines Fensters. Warme Farben und sanfte Schatten erzeugen eine ruhige, nachdenkliche Stimmung."
   },
   "qa": {
     "warnings": [
       "Alt text must be completed before approval",
-      "Current source inputs are still required before publication"
+      "Current source inputs are still required before publication",
+      "Eine aktuelle persönliche Beobachtung oder Erfahrung muss vor der Veröffentlichung ergänzt werden.",
+      "Das Liedfragment fehlt. Es muss am Originaltext geprüft, kurz gehalten und urheberrechtlich zulässig sein.",
+      "Zum Künstler liegen keine verifizierten Hintergrundinformationen vor; keine weiteren Angaben ohne belastbare Quelle ergänzen.",
+      "Der Alt-Text muss nach Auswahl oder Erstellung des finalen Bildes mit dem tatsächlichen Motiv abgeglichen werden.",
+      "Spotify-Link und Link-Sticker vor Veröffentlichung technisch prüfen."
     ],
     "approved": false
   },
   "metadata": {
-    "model": "",
-    "generated_at": "",
+    "model": "gpt-5.6-sol",
+    "generated_at": "2026-10-04T15:01:07.418Z",
     "prompt_version": "1.0",
     "assets": []
   }

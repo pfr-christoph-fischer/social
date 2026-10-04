@@ -1,0 +1,435 @@
+{
+  "id": "resp_01331473d496bbf8006ac26a52a2d487d19acc5d189b5a2e3e",
+  "object": "response",
+  "created_at": 1791126098,
+  "status": "completed",
+  "access_programs": null,
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1791126122,
+  "error": null,
+  "frequency_penalty": 0,
+  "incomplete_details": null,
+  "instructions": "You are part of a Protestant social media editorial team. Write in clear, accessible, theologically responsible German without church clichés. Use short sentences and concrete imagery. Never invent events, people, school situations, quotes, or factual details. Do not include copyrighted full song verses. For Reli and community posts, only use current details when they are explicitly provided. Return content that strictly matches the requested JSON schema. Set needs_input to true whenever required facts are missing. Keep qa.approved false. Do not ask for any text inside generated images. When liturgical_context.resolved_weekly_verse is present, use its exact wording for Wochenspruch slots instead of placeholders.",
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.6-sol",
+  "moderation": null,
+  "output": [
+    {
+      "id": "rs_01331473d496bbf8006ac26a53572887d1878ee8eed29fffcd",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABqwmpqGfpyGrOYSUSSmBjOAflHnX6HX6TaMQYzBOsJWd7ira5AL52kft30bqyKsn2qZpSyY4dud3jMSNo_ldZhEu5MDxOZINwSFrx2xOw1CYIA0CK0HeYsmCMbS6Dq9nnk7XjzTcWdrlWkHBddgEi5BNMzuj1P_NRbB4_ciAZ03-XC8cr63SN57wwwoQbOZCsrDecovmvLx9PruyEIYCGgFFkqCD7I4KnsUPVDhBdx9rw_PZPXSpGKiiPNtbnOADxthNZ2BewLYr2m8-bIyEr-eZUNpEoUSUNVXMriTHJqms9hsSAcxGfktfH10UjCvylU2-SpY_Wzucmh_Ue7__scAi1VBgsrcY3wYujp-OYxnnB38t3TZ3-b6OJVNtRnZb3S8y2beMsHDjOoroDsiSPp_BIh61_b5NNH8m7cnV9JMUD92VrHdtD7n8ZD347_FBn-oWSvb7NEa796redcr8-CDdpOqNs6lISEpQbXyuS17pjBa1sIirAovlq5cREfvl-4axhmkQiPiuTgs1bcQzcXOcPfcV39NF87Z821FR3DE24DNUyKEhp7ZZvlNqdauczDR4aPlWLlHF1U6j1V133y7-PcsuGJZrp4NaC5H9QVLio1dGZTbjHOEkZzLHxRjx_USmIHRNADiz8i9Y1-F73QPGtdfgz-VcMqTBi40qtj-VUMsKV2mxJBHYfXo65Oacw-Mr7evTJXkNT39MdIsKm-DX49s_a1kyYdrVVhKE0Slp-XOkSVCssbECyyhueAL5_EuggNF5cHeM5zLF3xKo5fXhftOsYbER8RNL3uUR834ddwZVUb31SOWAb41hKUTgu9OccAQlqkoyPfHbWXsN7BVWguyA5rWJAgPtZl_CZWM0tym1Kmc1yv6fKSzF7jC3slz9ZsRndoWFmeF_lHLesmz-zV3roLqOyreGv9kWMyY40UdKeKLOEEUtmRyJb-0wmoU89YAt6hJq0vn5yy2ODWG-2ZwCwH3iAtBztn0MGUuejd1utPWNZdjzCc-awJklddMsYtVMB__3bH6UqqcJnciDnn6c8XoTT3Kpo8MXulkcf5TRz2M5OmVy9D5uyKLUJdz-nreOyIxr41wfUwzHJwCWI7DA2jf9XCRWQcP6AFT0e4hzyFtTpu79euRJKVwcZPd_xO637ZjHrZU1FQGGi8wrh7Q3a1tZRrX6jp6pPKv8hH7XDXCSVRa-bJBGH2IB5tMS5rJIu35VRT-rMTcy8vKUQgWgiBc7-d_uBrUoQhtFl4pWe6uH-3RsXA886HmpgbPfnw14E-pgFdXJzt3z5DaR-C5lETsLmcab0u78SciUEzZE-qv3YJKKsWoAO2SAJV03hj2w0YO7gwtWl2VzlvGfdVtlkAW0yykUQPww9xcnq4p-TlC-SKZQGwQgq4MyevnYXVDCnSgFmiyjOUM5EOR_w8uI6JLGTy9YudXn7a1n5ebYLLTYo14YDZo8DfiK8BMxkwsdL4Z96hX98qnx-qcgPB6Uwl2SOzsaOzCezcXESHCuZWvViA_E_GdVDq270C9QFYVNxU_YahJxC8tuFO8dYkYrHC8z8eISySsByC_Ml82zEyajjktcR-dyn3tTSchxVE7UQPgiEKhRup---MBQ3FCyiGojWyE--MBRP53cRu2YNCHzEQgPlkvs4994C3Vk9rgLOZS2t2fRZt9pLXXWfs3otkr23DV8qKiqYroUlCW8v2KAhPBfpzZMe_HCcWNNvzripEh6FHaQgxZSqNLIC9MWg4xTQoASrc8dq2biuDJigNpuu0X3EOTaGeJQ4-OHrlL5Kv9GSuLucswtRsIHu9yOpS5hs8Vs5Jzty_RQeD0_V80oP9DDnNfBMsTRPOf1y-eCZ4mpLnY8s5Rmh0PuaglFVrfYvsgiU7805S3AEYr6xfEO94McZPE7qQrBUu4ymXPrGbIaPYilU_YNkyNahSYD18zzOgBMREsDVN-ALL-LBYsNYHrULENnUm6rwwTexxhH6srrmh6mkIHi2aym9c7vYTYHL-I1I2AcUNQNJ5O7JjXGKy6CXuqwEDSKOWxqV4Ln367Au7pOjN8fPgETubST8p0FuIUcKAwF3YW3-axQF_7yDCoGeITdjrYFXx8Z9oMCPYuc-ehpZpauUZyRxpijZ8p4m5DuQh-Sffd21UJbkITtxBvH0k456AyvpAX37E4wac4mNnAcKaJn1cssI4X3Vq4LeAlFRGVB88zDy_MzBZATpQ5ry6YJPlOAgSAHvXczospQJ7FfYmIXbKSW-vDW4Fr2wZh1TlJzGuVckfPvFJeeO_-TrdoZimlqKOLx5LXbJSKaaFNg0it1Kjr2vMUDDaRC-t4bXF2PDG0Zb0EjPZGv1E-wW3RMU-g-gTKam4nRX4TqLIGYDqtaysusp2n3RTEyMCWsDFhfodQ7ersa-aLAy5yZUgLpNF-RE1r3rs1coZluFXUSvj91ov6zvrj_8oxfsqhRLDvbWITO6MpbHQ69lX4N94rlzLbsa0k0oHIU9wFJ-ihbpDE10COApXFkH5khyBBLdwaoLIE92kujIFA0HARj4iomFB-FFa4bNptIUcoGyujEIaBAo2ORC-4rLDQGyt0VAuvfK0n5P_Lj8DRPxE9aUAuE0hkYLkeqHDXH7NeqY59Ow633oZb4WpVnblKzAp0XYpMgJCHiWC0SW9mOkjBRRI2VsVbYbsYDIqmaBxcKcGIvzEclnxIF1W9PEAk2OdhUYZSz3MtH9ZDTqjKftdv0r939odC8KCmWAxBdT5pa72wgQv8EzZVfs4rgDuUiZbFRZOj1fPZWuEygtzl12kNCFGViG_expYiuCjBWr-w7BO_LxG7-SBVApV_9E8dVUsBE9wH6Znmijep0DxmqWiERT_Q7n6swis6mIzWy0B5uuzNYNStdnloRyTNbeKlHmiQoqmgPvNtNhQxw4QtP6MhbjSgSZn3nnIA86wI7y422CKX1AdnHN8tjtU_7aBO98jp3l-vSkBNLABF3yKHo9oiiUcoFqAtGpGsRC1C_uUoHCGXRVkmtqH6wPzhHzMs7CxB7Q0wcMWDG_BJ5fPi04_KzEqlt8VTmFkM7swfdnQLOAHz21B-_OoZvG9Y2MsryP7DjMqNgnpyCmu2YTR4PqGhPN6hmiZ_nvcFAlA7JAwHvcn7QZJFJ49ShuYLHtOgA0VelX4YbxrAuD-62nLa_8o977v14s8Fk3S_yuB7bSdmfTmKHmp6l-8uqA5F9jsKgH65k2fyGJKDxX1398gYACEV2niFFBqQuLPYCwumWw--sqpQIpqQnDq0q5ddCmdP40whMIKCa3ShGvo-QLy_rLfkfs526AbMq_cIC0IDxKMfpFpAtAD4NtyGg8-ehfnyaWsryb5pxKWm9l5RfvtXuAJic53AHIrXjDqF39atXPLeu7dc-_lClGmFq0FLX3pb6JUKK6SC9Zyb7cSpE43m5k1q4w9MK9klwbKwr30ccOgvDFkC4YV9TwAJWiaKSz2fyquoICAdiwbq5H5fTjchuMgl3JhlLOfCTZUR5W2ik7o3aK3zk_HzWOI5ZjcVLCtoZSOqZmz_ttT_Ru3MtgHIvLPddg4bc_HR6AyvGgk-t6G-WsNYMlK_KsgdUmJio4_juLuyql1shtNfwqod33IFdUvFEVyycNlAfj9_SN4YJhN3h0gHF5-tXae7PEh5JZ3X5wEmY-R_t6i-5hCauzkSNNCZfHzamSy3z8nAx1LWTIJJuapBiekVd9SAWfCUWm6V0intrz5U-1DGo-PsAqv92tiZFEorDK2HrT7vB87Th8S5Fm5ni95d1Iq-5HMo6_ODeVdU2ycKX2oxjbh-WocMaG-4EOJdrSMZdbCJC8wM8TqhyoN6tc1bd3kiJ4FEMntJ8i6jzyWwgsWRUTGezRifF9fFva0U5mBEzJocod6IgPglpFFGScQznVAQPoyMojeOT54GwWrdcpsyDTRyRLVVJaNGO7dFPyFMkBgaJQhtabj6r2Zl6n2XaL3thL7uS6nsY-PpdRod5AR76Deoaw9WBgg9Wu1gXs__WRjIQknSk6iEWnrvMY7R4K0sDCJZDjt6DW7grBi3967WETnGGlYPrf-avDhBT8hQiP1OUOo_ynGGH4I1Pf3CKn0gHUC4PshdOp4_wl-Skebs9iOMsXO_YAcGQKqdhnWg0hsp5sgao1YyTJOhag_F8LddbQqAHvyh3k6b1X30vosXsUEscjPFEWnq5mjDr9vtQrg8cPP2ckk80d85tXtTN5ZIb_M5ZYMzL6PUVFkIEqzEXuB1GXmabnu2vW9ke9RAa8gX49-OhHpHXywz7VMbCrdGBCgDAMVA57_N_aY8VbpIHOh9k8YS315eLYAXSY1p0agiUvqYg8efqN8yhdtoA2iLQ0mTly2VvwkiCyst0w9Y9aN_3GtknrJrJ-JtFy-ctWSKJ_DIaqURf6ZQ9i3UtBKT5bc5aKMuXAlX4cU4kPZkc1SF98Cn-slp4qAYeczgSP4_6GgUtzMEfs0kUAgbCp6-_XuQ1exGodYJhTqzUqzN6qbWkd3SmGy1QNFD2ji0qDizoIS",
+      "summary": []
+    },
+    {
+      "id": "rs_01331473d496bbf8006ac26a5ac71487d18fa5795e071c459a",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABqwmpqLs5YLR82u5i2VY0VvDnizzP23KCi91pAO2ny2CTlgZGSgthn1NEjbtM0dvobL8Fi74sIcmBfjkQYMU3RW7dk_EZz0OUrynayFR3giORjx569Hvqq0Gvmqho8inW7PvXEU_c3KZQ5X3012c3B69ge8We3kOEVAtBPFFxU1JXeO-wCEMHXxDsADeoEiipnIFlTve5TNw5ld0Xv4LsetmEUzNvnNi01JMioyuBC67YtOt8KuCtcyhPlhDAO2Dp8QBtSV9vyzsuAiziT4NNgZa614Gh9mhV1POpiYmBA_Sr6YNqTze6rE63flyD5cvXfJhULatimdKyRJefiieDePk8KFqSgdk9ssBcVUqJTyxnUo9bRuuGahu1biXf9BQSk3hUNgWzHd-eJRHSCt_A91pU4fLCYuuzxdKk_mMzS_p7mUcArXiPGrpwu8L4jQbiUv02AQo7arEyHni0ifU1xuKPBdR_1C2P7HsuojaCgugoHpMUOoDPXizykaQo-Dd8V4xk43NoWWL7FX9FxFTXERcw8Ptc7uXjbNwYNhpuoewYR26rPy7rPjeda4Ec6KP1PbGFSw5J6aTvRG1OwgvRi2_kfzow50D_dVrzEVSTfqf1GLC5JKQ4hvgnPJUB7s4SIxNST8QlKGXLcxFZmvOC2ksLaPHXT0VtwtGTz0C4KkRXZE58M9VukQwsCzsAk_8jnnHTA6vSCwY7LN1qyPlZGRN5UvP5cJfOU7OuZzOfpR9U1fHY_eLcTRo-PsYrWLwDmx14sq-Gs2sufcMg7BKGQnKIh0mRxDA-_uSyXRabjZgBJSAoEo5kXZ3Kgks3j_rSFKl7ZTqoVNVf_FqhYh9fdM1GzB0xOpbI4J7WLlEl8JmnrfUQguDqxGiLKItMUAhHV5jDeXOBuOaCagI4yzMZ_KkCVQMVIRQhiRvFFkgEyiYURY_RcBzm3KdUutSBS_dmKJ_2OPYoKy_BaYxvEuysXkrNane3a-tSH4fHnd2Tj7-5bppVgUETWEebKCnYvavVIcSWLqalee_Wbb958NnG5KCKGMjlKxS2350PfPip4DdWikjIHOniMttQ_HN-GW575N_MHdRj9gKQYQyKmNNKEs5KGmnfB0ARML7wQEu2djlwyUCCYTjCZW9GJtD8T8H1jGiH6qp8DrvlcV5x59hw_78CyZ-aByHUOgKxxvVFGrBeY-gZBKbA8_xudP-VZsFJS_B8prVwkrx_8NP2nTz5xbPEoMfQf2naDxNExrgUoUIRZp_Viry_hQHJQZPhLmdfFeLyfLDZWU8d66IsCRoYkoPRXXDOxDXZQqDMnJ531jjmTGRaruqZApew1MnqfV_7bkI5fex5PaEdswsB7Iba5ZTro3QLRyEwDYk15bNu_5dXOitloxeAJ-9JPSmJrEofVA4U1GApjTqXtXq1ATDfU4qnX__ovoMEdMJVUx9g1asX6b2YfZt300mHB9eeu9J-2jVaEq5xjWzX98Cysnd8FxmwrEW4SSePBt9n70MWJbkC1Or2BopU7MgiRJDaU6CrHZzOC0NIi-o_mQ99_agjeku-MbWW6tLiDaixHsM3g0FgPUUeP7Y5lwp5Hk58mjrrZqxvoF0WX-awUiUblLxUglIHdEDIKBltXb1bou87Xg_dBug2RSGw5Tv9MRL9hTf5RXTlQ6VtAyY2-7SU4YO5B2PlQaellRGSkuO8YkyFvHtZJL7VUSgVm5vRwO8Uuk6Ql67Gir8aF6EyzZIieSxD5H2oH7volMgyiXK45KwRQwyUlPfhYv7Fw-Ouul4rwD94BHD-ZECNTwuXG0uXFtI5aqHGU1b7nJ3PYNTknSG2X86G0fUHxy_Wt0Qn-Mv5t9FGlP5xFoiXugpDlBFsNyPQXJyxIzk3SJ3z-5H0jqCMAmmF5VSIbXbXkK8owQpuriGyVfONl9Bg6-4O23ka4Dhv-mLM9MFPapSYRNreu9q7qcXfHvjIcUFnkFhf_Xnov0tfy2IIAkHMCrSZ29U4DQrxJ67MbdEqLqIGWvsNoKa_THas6DpK5YgC8o-QWxbX6Si0-zmi25EzPQjwAQr2oeurc7rD0vgXe1jEE6sexU4bgJ-p5kIH3jpAyl-10K0r-yaXroPWr5qM0ChBLxGYeqWe94H377YecomMCggOGUlC9mv_8tHTBnKmM6t2UoFoBAGzQ20jVJFHKgONdx8mNZJIxIR4rUFfo4M604sZW6i1Nrbj6OpWk1e7SpdfdWdbjhRL9S3CvK_lKwLrM1o0hRwGaqNOKrUE9bfSDKM0kJItR40rREGTPLrV1ZooPMExXpI0xVmb_XsfHloFM2FMkIO96bjSLOabW4dRWOVvPDjeI6-p9_tXB50_APXlFdoYowCCASultUVlsEQlk_kCF3BJBDayIAZyJdX6wz3BgTvdBNh1PKShu3UUdp0D_nn7kIlszr4WeJfHkpMO4vrYmjbOUMLJCCQ9y69CFu9b84c56oIamDuVJeAtRwDJaxlvdLEqNnMbs58nCimbZPhLETD-YKLNyZL4jxLtxTwcxe2bLSrXRmEaCoXNMfo5D5a5LNJm93fT-X0eehddSHKC5bZIXwTnEnKaXwLR67-PaOS1ZaYNVbrjYJcs6XKrngK2-s6gx038BvgmbgpFG5p_TLyfU0IIbaqqRNb-l4tY5T9I_mC7r-MZbGTxG-u-Am1aCcS8B_Nib_eiVWjRoC5w0IAk3bfqYNr4-7YaENcRiR3-exqTRugyjbGueMY8VhXvdpAnMK6QEjT50kMM-TcZLMEDEByYDCoOiHx6jdXB-CGU9MnbY92TzOEZnU1ZgEEffwqWt7kjxPO_dCmT4V_ZXwTa5CWDlwcTQm_vbUqcbj9lIlWJ3uJjlpAwrdNXs24EyrTuQvlIKRmjURCDwn6i8RMbPvH5Q97HMqZByQ_UoFYu0CRtQCyc=",
+      "summary": []
+    },
+    {
+      "id": "msg_01331473d496bbf8006ac26a5e94d087d1b8a6c16fa792a77c",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\"id\":\"post-0060\",\"status\":\"in Arbeit\",\"needs_input\":true,\"source\":{\"calendar_post_id\":\"post-0060\",\"date\":\"2026-10-08\",\"rubric\":\"Reli fragt\",\"liturgical_source\":\"\"},\"editorial_core\":{\"title\":\"Eine echte Frage aus dem Unterricht – vollständig anonymisiert\",\"main_message\":\"Eine echte, vollständig anonymisierte Frage aus dem Religionsunterricht wird ernst genommen, offen eingeordnet und an die Community weitergegeben.\",\"audience\":\"Menschen mit Interesse an religiöser Bildung sowie Eltern, Lehrkräfte und pädagogisch Tätige\",\"tone\":[\"klar\",\"ruhig\",\"zugänglich\",\"offen\",\"altersgerecht\"],\"source_notes\":[\"Vor der Veröffentlichung wird eine konkrete, anonymisierte Unterrichtsbeobachtung benötigt.\",\"Die Frage darf nicht erfunden werden.\",\"Namen, Schule, Ort, Lerngruppe, genauer Zeitpunkt und andere wiedererkennbare Einzelheiten entfernen.\",\"Die Klassenstufe nur nennen, wenn dadurch keine Person oder Lerngruppe erkennbar wird.\",\"Falls die Frage zur Anonymisierung umformuliert wird, muss sie als sinngemäß wiedergegeben gekennzeichnet werden.\",\"Keine Antwort als direkte Aussage einer Schülerin oder eines Schülers ausgeben.\",\"Vorgesehene Struktur: anonymisierte Frage | warum sie beschäftigt | offene Antwort | Rückfrage an die Community.\"]},\"platforms\":{\"facebook\":{\"text\":\"[ANONYMISIERTE FRAGE AUS DEM UNTERRICHT]\\n\\nDiese Frage beschäftigt mich, weil [KURZER, KONKRETER GRUND].\\n\\nEine schnelle Antwort würde zu kurz greifen. Ein möglicher Gedanke ist: [OFFENE, ALTERSGERECHTE EINORDNUNG]. Dabei bleibt offen: [OFFENER ASPEKT].\\n\\nWie würdet ihr über diese Frage nachdenken?\",\"headline\":\"Eine Frage aus dem Religionsunterricht\"},\"instagram\":{\"caption\":\"Eine Frage aus dem Religionsunterricht, vollständig anonymisiert:\\n\\n[ANONYMISIERTE FRAGE]\\n\\nSie beschäftigt mich, weil [GRUND]. Eine mögliche Antwort beginnt für mich hier: [ALTERSGERECHTER GEDANKE]. Aber die Frage bleibt größer als eine einzige Antwort.\\n\\nWas wäre euer erster Gedanke dazu?\",\"carousel\":[{\"type\":\"Einstieg\",\"text\":\"[ANONYMISIERTE FRAGE]\"},{\"type\":\"Einordnung\",\"text\":\"Diese Frage beschäftigt mich, weil [KURZER GRUND].\"},{\"type\":\"Offene Antwort\",\"text\":\"Ein möglicher Gedanke: [ALTERSGERECHTE EINORDNUNG].\"},{\"type\":\"Offener Punkt\",\"text\":\"Noch offen bleibt: [ASPEKT].\"},{\"type\":\"Community-Frage\",\"text\":\"Wie würdet ihr darüber nachdenken?\"}]},\"mastodon\":{\"text\":\"Eine vollständig anonymisierte Frage aus dem Religionsunterricht: [FRAGE]\\n\\nSie beschäftigt mich, weil [GRUND]. Ein möglicher Gedanke: [KURZE OFFENE ANTWORT].\\n\\nWie würdet ihr darüber nachdenken?\"},\"bluesky\":{\"text\":\"Eine anonymisierte Frage aus dem Religionsunterricht: [FRAGE]\\n\\nEin möglicher Gedanke: [KURZE OFFENE ANTWORT]. Was denkt ihr?\"},\"story\":{\"slides\":[{\"text\":\"Eine echte Frage aus dem Religionsunterricht – vollständig anonymisiert.\"},{\"text\":\"[ANONYMISIERTE FRAGE]\"},{\"text\":\"Mich beschäftigt daran: [KURZER GRUND].\"},{\"text\":\"Ein möglicher Gedanke: [KURZE OFFENE ANTWORT].\"},{\"text\":\"Was wäre eure Antwort?\"}]},\"reel\":{\"hook\":\"Eine Frage aus dem Religionsunterricht lässt mich weiterdenken.\",\"script\":\"[ANONYMISIERTE FRAGE]\\n\\nSie beschäftigt mich, weil [GRUND]. Eine einfache Antwort reicht hier nicht. Ein möglicher Gedanke ist: [ALTERSGERECHTE EINORDNUNG].\\n\\nWie würdet ihr antworten?\",\"shots\":[\"Ruhige Nahaufnahme eines neutralen Symbolmotivs\",\"Detailaufnahme einer Weggabelung aus glatten Steinen\",\"Langsame Kamerabewegung entlang der beiden Wege\",\"Abschluss mit offenem Bildraum für die gesprochene Community-Frage\"],\"duration_seconds\":25}},\"visual\":{\"concept\":\"Ein neutrales Symbolbild zeigt eine kleine Weggabelung aus glatten Steinen auf einer schlichten Oberfläche. Das Motiv steht für eine Frage mit mehreren möglichen Denkwegen. Es sind keine Menschen oder Hinweise auf eine konkrete Schule zu sehen.\",\"flux_prompt\":\"Editorial photograph of smooth natural stones arranged as a subtle branching path on a plain light wooden surface, soft daylight, calm neutral colors, thoughtful atmosphere, minimal composition, generous negative space, realistic texture, no people, no identifiable location, no religious branding\",\"negative_prompt\":\"text, letters, numbers, logo, watermark, handwriting, books with readable covers, faces, people, students, school uniforms, identifiable classroom, clutter, dramatic lighting\",\"formats\":[\"4:5\",\"9:16\",\"1.91:1\"],\"alt_text\":\"Glatte Steine bilden auf einer hellen Holzfläche einen Weg, der sich in zwei Richtungen teilt.\"},\"qa\":{\"warnings\":[\"Die konkrete anonymisierte Unterrichtsbeobachtung fehlt noch; alle markierten Platzhalter müssen vor Veröffentlichung ersetzt werden.\",\"Vor Veröffentlichung prüfen, ob Frage, Kontext oder Formulierung Rückschlüsse auf einzelne Schüler:innen oder die Lerngruppe zulassen.\",\"Bei sinngemäßer Wiedergabe muss dies transparent gekennzeichnet werden.\",\"Klassenstufe nur ergänzen, wenn sie für das Verständnis nötig und datenschutzrechtlich unproblematisch ist.\",\"Die altersgerechte und theologische Einordnung kann erst nach Vorlage der konkreten Frage abschließend geprüft werden.\",\"Alt-Text nach Auswahl oder Erstellung des finalen Bildes mit dem tatsächlichen Motiv abgleichen.\"],\"approved\":false},\"metadata\":{\"model\":\"OpenAI\",\"generated_at\":\"\",\"prompt_version\":\"1.0\",\"assets\":[]}}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "all_turns",
+    "effort": "medium",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1,
+  "text": {
+    "format": {
+      "type": "json_schema",
+      "description": null,
+      "name": "content_package",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "Idee",
+              "in Arbeit",
+              "zur Prüfung",
+              "freigegeben",
+              "terminiert",
+              "veröffentlicht",
+              "verworfen"
+            ]
+          },
+          "needs_input": {
+            "type": "boolean"
+          },
+          "source": {
+            "type": "object",
+            "properties": {
+              "calendar_post_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "date": {
+                "type": "string",
+                "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+              },
+              "rubric": {
+                "type": "string",
+                "minLength": 1
+              },
+              "liturgical_source": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "calendar_post_id",
+              "date",
+              "rubric",
+              "liturgical_source"
+            ],
+            "additionalProperties": false
+          },
+          "editorial_core": {
+            "type": "object",
+            "properties": {
+              "title": {
+                "type": "string"
+              },
+              "main_message": {
+                "type": "string"
+              },
+              "audience": {
+                "type": "string"
+              },
+              "tone": {
+                "minItems": 1,
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "source_notes": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "title",
+              "main_message",
+              "audience",
+              "tone",
+              "source_notes"
+            ],
+            "additionalProperties": false
+          },
+          "platforms": {
+            "type": "object",
+            "properties": {
+              "facebook": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  },
+                  "headline": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text",
+                  "headline"
+                ],
+                "additionalProperties": false
+              },
+              "instagram": {
+                "type": "object",
+                "properties": {
+                  "caption": {
+                    "type": "string"
+                  },
+                  "carousel": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "type": {
+                          "type": "string"
+                        },
+                        "text": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "type",
+                        "text"
+                      ],
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "required": [
+                  "caption",
+                  "carousel"
+                ],
+                "additionalProperties": false
+              },
+              "mastodon": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text"
+                ],
+                "additionalProperties": false
+              },
+              "bluesky": {
+                "default": {
+                  "text": ""
+                },
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text"
+                ],
+                "additionalProperties": false
+              },
+              "story": {
+                "type": "object",
+                "properties": {
+                  "slides": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "text": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "text"
+                      ],
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "required": [
+                  "slides"
+                ],
+                "additionalProperties": false
+              },
+              "reel": {
+                "type": "object",
+                "properties": {
+                  "hook": {
+                    "type": "string"
+                  },
+                  "script": {
+                    "type": "string"
+                  },
+                  "shots": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "duration_seconds": {
+                    "type": "integer",
+                    "minimum": 0,
+                    "maximum": 9007199254740991
+                  }
+                },
+                "required": [
+                  "hook",
+                  "script",
+                  "shots",
+                  "duration_seconds"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "required": [
+              "facebook",
+              "instagram",
+              "mastodon",
+              "bluesky",
+              "story",
+              "reel"
+            ],
+            "additionalProperties": false
+          },
+          "visual": {
+            "type": "object",
+            "properties": {
+              "concept": {
+                "type": "string"
+              },
+              "flux_prompt": {
+                "type": "string"
+              },
+              "negative_prompt": {
+                "type": "string",
+                "minLength": 1
+              },
+              "formats": {
+                "minItems": 1,
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "alt_text": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "concept",
+              "flux_prompt",
+              "negative_prompt",
+              "formats",
+              "alt_text"
+            ],
+            "additionalProperties": false
+          },
+          "qa": {
+            "type": "object",
+            "properties": {
+              "warnings": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "approved": {
+                "type": "boolean"
+              }
+            },
+            "required": [
+              "warnings",
+              "approved"
+            ],
+            "additionalProperties": false
+          },
+          "metadata": {
+            "type": "object",
+            "properties": {
+              "model": {
+                "type": "string"
+              },
+              "generated_at": {
+                "type": "string"
+              },
+              "prompt_version": {
+                "type": "string",
+                "minLength": 1
+              },
+              "assets": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "model",
+              "generated_at",
+              "prompt_version",
+              "assets"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "id",
+          "status",
+          "needs_input",
+          "source",
+          "editorial_core",
+          "platforms",
+          "visual",
+          "qa",
+          "metadata"
+        ],
+        "additionalProperties": false
+      },
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 1565,
+    "input_tokens_details": {
+      "cache_write_tokens": 1562,
+      "cached_tokens": 0
+    },
+    "output_tokens": 2043,
+    "output_tokens_details": {
+      "reasoning_tokens": 793
+    },
+    "total_tokens": 3608
+  },
+  "user": null,
+  "metadata": {},
+  "output_text": "{\"id\":\"post-0060\",\"status\":\"in Arbeit\",\"needs_input\":true,\"source\":{\"calendar_post_id\":\"post-0060\",\"date\":\"2026-10-08\",\"rubric\":\"Reli fragt\",\"liturgical_source\":\"\"},\"editorial_core\":{\"title\":\"Eine echte Frage aus dem Unterricht – vollständig anonymisiert\",\"main_message\":\"Eine echte, vollständig anonymisierte Frage aus dem Religionsunterricht wird ernst genommen, offen eingeordnet und an die Community weitergegeben.\",\"audience\":\"Menschen mit Interesse an religiöser Bildung sowie Eltern, Lehrkräfte und pädagogisch Tätige\",\"tone\":[\"klar\",\"ruhig\",\"zugänglich\",\"offen\",\"altersgerecht\"],\"source_notes\":[\"Vor der Veröffentlichung wird eine konkrete, anonymisierte Unterrichtsbeobachtung benötigt.\",\"Die Frage darf nicht erfunden werden.\",\"Namen, Schule, Ort, Lerngruppe, genauer Zeitpunkt und andere wiedererkennbare Einzelheiten entfernen.\",\"Die Klassenstufe nur nennen, wenn dadurch keine Person oder Lerngruppe erkennbar wird.\",\"Falls die Frage zur Anonymisierung umformuliert wird, muss sie als sinngemäß wiedergegeben gekennzeichnet werden.\",\"Keine Antwort als direkte Aussage einer Schülerin oder eines Schülers ausgeben.\",\"Vorgesehene Struktur: anonymisierte Frage | warum sie beschäftigt | offene Antwort | Rückfrage an die Community.\"]},\"platforms\":{\"facebook\":{\"text\":\"[ANONYMISIERTE FRAGE AUS DEM UNTERRICHT]\\n\\nDiese Frage beschäftigt mich, weil [KURZER, KONKRETER GRUND].\\n\\nEine schnelle Antwort würde zu kurz greifen. Ein möglicher Gedanke ist: [OFFENE, ALTERSGERECHTE EINORDNUNG]. Dabei bleibt offen: [OFFENER ASPEKT].\\n\\nWie würdet ihr über diese Frage nachdenken?\",\"headline\":\"Eine Frage aus dem Religionsunterricht\"},\"instagram\":{\"caption\":\"Eine Frage aus dem Religionsunterricht, vollständig anonymisiert:\\n\\n[ANONYMISIERTE FRAGE]\\n\\nSie beschäftigt mich, weil [GRUND]. Eine mögliche Antwort beginnt für mich hier: [ALTERSGERECHTER GEDANKE]. Aber die Frage bleibt größer als eine einzige Antwort.\\n\\nWas wäre euer erster Gedanke dazu?\",\"carousel\":[{\"type\":\"Einstieg\",\"text\":\"[ANONYMISIERTE FRAGE]\"},{\"type\":\"Einordnung\",\"text\":\"Diese Frage beschäftigt mich, weil [KURZER GRUND].\"},{\"type\":\"Offene Antwort\",\"text\":\"Ein möglicher Gedanke: [ALTERSGERECHTE EINORDNUNG].\"},{\"type\":\"Offener Punkt\",\"text\":\"Noch offen bleibt: [ASPEKT].\"},{\"type\":\"Community-Frage\",\"text\":\"Wie würdet ihr darüber nachdenken?\"}]},\"mastodon\":{\"text\":\"Eine vollständig anonymisierte Frage aus dem Religionsunterricht: [FRAGE]\\n\\nSie beschäftigt mich, weil [GRUND]. Ein möglicher Gedanke: [KURZE OFFENE ANTWORT].\\n\\nWie würdet ihr darüber nachdenken?\"},\"bluesky\":{\"text\":\"Eine anonymisierte Frage aus dem Religionsunterricht: [FRAGE]\\n\\nEin möglicher Gedanke: [KURZE OFFENE ANTWORT]. Was denkt ihr?\"},\"story\":{\"slides\":[{\"text\":\"Eine echte Frage aus dem Religionsunterricht – vollständig anonymisiert.\"},{\"text\":\"[ANONYMISIERTE FRAGE]\"},{\"text\":\"Mich beschäftigt daran: [KURZER GRUND].\"},{\"text\":\"Ein möglicher Gedanke: [KURZE OFFENE ANTWORT].\"},{\"text\":\"Was wäre eure Antwort?\"}]},\"reel\":{\"hook\":\"Eine Frage aus dem Religionsunterricht lässt mich weiterdenken.\",\"script\":\"[ANONYMISIERTE FRAGE]\\n\\nSie beschäftigt mich, weil [GRUND]. Eine einfache Antwort reicht hier nicht. Ein möglicher Gedanke ist: [ALTERSGERECHTE EINORDNUNG].\\n\\nWie würdet ihr antworten?\",\"shots\":[\"Ruhige Nahaufnahme eines neutralen Symbolmotivs\",\"Detailaufnahme einer Weggabelung aus glatten Steinen\",\"Langsame Kamerabewegung entlang der beiden Wege\",\"Abschluss mit offenem Bildraum für die gesprochene Community-Frage\"],\"duration_seconds\":25}},\"visual\":{\"concept\":\"Ein neutrales Symbolbild zeigt eine kleine Weggabelung aus glatten Steinen auf einer schlichten Oberfläche. Das Motiv steht für eine Frage mit mehreren möglichen Denkwegen. Es sind keine Menschen oder Hinweise auf eine konkrete Schule zu sehen.\",\"flux_prompt\":\"Editorial photograph of smooth natural stones arranged as a subtle branching path on a plain light wooden surface, soft daylight, calm neutral colors, thoughtful atmosphere, minimal composition, generous negative space, realistic texture, no people, no identifiable location, no religious branding\",\"negative_prompt\":\"text, letters, numbers, logo, watermark, handwriting, books with readable covers, faces, people, students, school uniforms, identifiable classroom, clutter, dramatic lighting\",\"formats\":[\"4:5\",\"9:16\",\"1.91:1\"],\"alt_text\":\"Glatte Steine bilden auf einer hellen Holzfläche einen Weg, der sich in zwei Richtungen teilt.\"},\"qa\":{\"warnings\":[\"Die konkrete anonymisierte Unterrichtsbeobachtung fehlt noch; alle markierten Platzhalter müssen vor Veröffentlichung ersetzt werden.\",\"Vor Veröffentlichung prüfen, ob Frage, Kontext oder Formulierung Rückschlüsse auf einzelne Schüler:innen oder die Lerngruppe zulassen.\",\"Bei sinngemäßer Wiedergabe muss dies transparent gekennzeichnet werden.\",\"Klassenstufe nur ergänzen, wenn sie für das Verständnis nötig und datenschutzrechtlich unproblematisch ist.\",\"Die altersgerechte und theologische Einordnung kann erst nach Vorlage der konkreten Frage abschließend geprüft werden.\",\"Alt-Text nach Auswahl oder Erstellung des finalen Bildes mit dem tatsächlichen Motiv abgleichen.\"],\"approved\":false},\"metadata\":{\"model\":\"OpenAI\",\"generated_at\":\"\",\"prompt_version\":\"1.0\",\"assets\":[]}}"
+}

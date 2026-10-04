@@ -10,69 +10,120 @@
   },
   "editorial_core": {
     "title": "Eine echte Frage aus dem Unterricht – vollständig anonymisiert",
-    "main_message": "Mit einer echten, aber vollständig anonymisierten Frage beginnen.",
-    "audience": "[TODO: define audience after current inputs are available]",
+    "main_message": "Eine echte, vollständig anonymisierte Frage aus dem Religionsunterricht wird ernst genommen, offen eingeordnet und an die Community weitergegeben.",
+    "audience": "Menschen mit Interesse an religiöser Bildung sowie Eltern, Lehrkräfte und pädagogisch Tätige",
     "tone": [
       "klar",
       "ruhig",
-      "zugänglich"
+      "zugänglich",
+      "offen",
+      "altersgerecht"
     ],
     "source_notes": [
-      "Goal: Eine Frage, Beobachtung oder Lernerfahrung aus dem Religionsunterricht aufnehmen, ohne Schüler:innen erkennbar zu machen.",
-      "Column: Schule und religiöse Bildung",
-      "Production mode: Rahmen vorproduzierbar; konkreten Anlass aktuell ergänzen",
-      "Structure: anonymisierte Frage | warum sie mich beschäftigt | eine offene Antwort | Rückfrage an die Community",
-      "AI support notes: Anonymisierung prüfen | altersgerechte Erklärung | Antwortvarianten | Symbolbild-Prompt",
-      "Current inputs required: anonymisierte Unterrichtsbeobachtung | Klassenstufe nur nennen, wenn unproblematisch"
+      "Vor der Veröffentlichung wird eine konkrete, anonymisierte Unterrichtsbeobachtung benötigt.",
+      "Die Frage darf nicht erfunden werden.",
+      "Namen, Schule, Ort, Lerngruppe, genauer Zeitpunkt und andere wiedererkennbare Einzelheiten entfernen.",
+      "Die Klassenstufe nur nennen, wenn dadurch keine Person oder Lerngruppe erkennbar wird.",
+      "Falls die Frage zur Anonymisierung umformuliert wird, muss sie als sinngemäß wiedergegeben gekennzeichnet werden.",
+      "Keine Antwort als direkte Aussage einer Schülerin oder eines Schülers ausgeben.",
+      "Vorgesehene Struktur: anonymisierte Frage | warum sie beschäftigt | offene Antwort | Rückfrage an die Community."
     ]
   },
   "platforms": {
     "facebook": {
-      "text": "",
-      "headline": ""
+      "text": "[ANONYMISIERTE FRAGE AUS DEM UNTERRICHT]\n\nDiese Frage beschäftigt mich, weil [KURZER, KONKRETER GRUND].\n\nEine schnelle Antwort würde zu kurz greifen. Ein möglicher Gedanke ist: [OFFENE, ALTERSGERECHTE EINORDNUNG]. Dabei bleibt offen: [OFFENER ASPEKT].\n\nWie würdet ihr über diese Frage nachdenken?",
+      "headline": "Eine Frage aus dem Religionsunterricht"
     },
     "instagram": {
-      "caption": "",
-      "carousel": []
+      "caption": "Eine Frage aus dem Religionsunterricht, vollständig anonymisiert:\n\n[ANONYMISIERTE FRAGE]\n\nSie beschäftigt mich, weil [GRUND]. Eine mögliche Antwort beginnt für mich hier: [ALTERSGERECHTER GEDANKE]. Aber die Frage bleibt größer als eine einzige Antwort.\n\nWas wäre euer erster Gedanke dazu?",
+      "carousel": [
+        {
+          "type": "Einstieg",
+          "text": "[ANONYMISIERTE FRAGE]"
+        },
+        {
+          "type": "Einordnung",
+          "text": "Diese Frage beschäftigt mich, weil [KURZER GRUND]."
+        },
+        {
+          "type": "Offene Antwort",
+          "text": "Ein möglicher Gedanke: [ALTERSGERECHTE EINORDNUNG]."
+        },
+        {
+          "type": "Offener Punkt",
+          "text": "Noch offen bleibt: [ASPEKT]."
+        },
+        {
+          "type": "Community-Frage",
+          "text": "Wie würdet ihr darüber nachdenken?"
+        }
+      ]
     },
     "mastodon": {
-      "text": ""
+      "text": "Eine vollständig anonymisierte Frage aus dem Religionsunterricht: [FRAGE]\n\nSie beschäftigt mich, weil [GRUND]. Ein möglicher Gedanke: [KURZE OFFENE ANTWORT].\n\nWie würdet ihr darüber nachdenken?"
     },
     "bluesky": {
-      "text": ""
+      "text": "Eine anonymisierte Frage aus dem Religionsunterricht: [FRAGE]\n\nEin möglicher Gedanke: [KURZE OFFENE ANTWORT]. Was denkt ihr?"
     },
     "story": {
-      "slides": []
+      "slides": [
+        {
+          "text": "Eine echte Frage aus dem Religionsunterricht – vollständig anonymisiert."
+        },
+        {
+          "text": "[ANONYMISIERTE FRAGE]"
+        },
+        {
+          "text": "Mich beschäftigt daran: [KURZER GRUND]."
+        },
+        {
+          "text": "Ein möglicher Gedanke: [KURZE OFFENE ANTWORT]."
+        },
+        {
+          "text": "Was wäre eure Antwort?"
+        }
+      ]
     },
     "reel": {
-      "hook": "",
-      "script": "",
-      "shots": [],
-      "duration_seconds": 0
+      "hook": "Eine Frage aus dem Religionsunterricht lässt mich weiterdenken.",
+      "script": "[ANONYMISIERTE FRAGE]\n\nSie beschäftigt mich, weil [GRUND]. Eine einfache Antwort reicht hier nicht. Ein möglicher Gedanke ist: [ALTERSGERECHTE EINORDNUNG].\n\nWie würdet ihr antworten?",
+      "shots": [
+        "Ruhige Nahaufnahme eines neutralen Symbolmotivs",
+        "Detailaufnahme einer Weggabelung aus glatten Steinen",
+        "Langsame Kamerabewegung entlang der beiden Wege",
+        "Abschluss mit offenem Bildraum für die gesprochene Community-Frage"
+      ],
+      "duration_seconds": 25
     }
   },
   "visual": {
-    "concept": "",
+    "concept": "Ein neutrales Symbolbild zeigt eine kleine Weggabelung aus glatten Steinen auf einer schlichten Oberfläche. Das Motiv steht für eine Frage mit mehreren möglichen Denkwegen. Es sind keine Menschen oder Hinweise auf eine konkrete Schule zu sehen.",
     "flux_prompt": "",
-    "negative_prompt": "text, letters, logo, watermark",
+    "negative_prompt": "text, letters, numbers, logo, watermark, handwriting, books with readable covers, faces, people, students, school uniforms, identifiable classroom, clutter, dramatic lighting",
     "formats": [
       "4:5",
       "9:16",
       "1.91:1"
     ],
-    "alt_text": ""
+    "alt_text": "Glatte Steine bilden auf einer hellen Holzfläche einen Weg, der sich in zwei Richtungen teilt."
   },
   "qa": {
     "warnings": [
       "Alt text must be completed before approval",
       "Current source inputs are still required before publication",
-      "Review privacy and factual accuracy before drafting"
+      "Review privacy and factual accuracy before drafting",
+      "Die konkrete anonymisierte Unterrichtsbeobachtung fehlt noch; alle markierten Platzhalter müssen vor Veröffentlichung ersetzt werden.",
+      "Vor Veröffentlichung prüfen, ob Frage, Kontext oder Formulierung Rückschlüsse auf einzelne Schüler:innen oder die Lerngruppe zulassen.",
+      "Bei sinngemäßer Wiedergabe muss dies transparent gekennzeichnet werden.",
+      "Klassenstufe nur ergänzen, wenn sie für das Verständnis nötig und datenschutzrechtlich unproblematisch ist.",
+      "Die altersgerechte und theologische Einordnung kann erst nach Vorlage der konkreten Frage abschließend geprüft werden.",
+      "Alt-Text nach Auswahl oder Erstellung des finalen Bildes mit dem tatsächlichen Motiv abgleichen."
     ],
     "approved": false
   },
   "metadata": {
-    "model": "",
-    "generated_at": "",
+    "model": "gpt-5.6-sol",
+    "generated_at": "2026-10-04T15:02:03.061Z",
     "prompt_version": "1.0",
     "assets": []
   }

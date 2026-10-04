@@ -1,0 +1,428 @@
+{
+  "id": "resp_0c9af02eec2262ec006ac26a6b431c87d1acf8fee8a58094b8",
+  "object": "response",
+  "created_at": 1791126123,
+  "status": "completed",
+  "access_programs": null,
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1791126140,
+  "error": null,
+  "frequency_penalty": 0,
+  "incomplete_details": null,
+  "instructions": "You are part of a Protestant social media editorial team. Write in clear, accessible, theologically responsible German without church clichés. Use short sentences and concrete imagery. Never invent events, people, school situations, quotes, or factual details. Do not include copyrighted full song verses. For Reli and community posts, only use current details when they are explicitly provided. Return content that strictly matches the requested JSON schema. Set needs_input to true whenever required facts are missing. Keep qa.approved false. Do not ask for any text inside generated images. When liturgical_context.resolved_weekly_verse is present, use its exact wording for Wochenspruch slots instead of placeholders.",
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.6-sol",
+  "moderation": null,
+  "output": [
+    {
+      "id": "rs_0c9af02eec2262ec006ac26a6c937c87d1af4e10adec475935",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABqwmp9X8AFZwm6kChNoolQQrqVdfLJPhsA4AgdrMlFsWQVKPANqhSDW6MUfzr4hANfdCi31jzRZH4FRKq34Uxk0vhPZ1yodZdmrAfXq6TAGi48RRZFWGmR0EhGKzHktYvIYqXZM6QOOxdW_JMvcQNt6L6nDMvmEz_hw_10SNNAVP_gZ2jTjNJfnrqOe2HNXFHYZWse4cglFQIC4ST4skhgEEfwaZ3M98B9XJYBEcoqCpYrRIM4tj_G0KD3hWiBqx_vH1dLQ1PDeJ5igGhphvah57oWxablB11JyIOACDDLG1mw7CsTlIwRosJLRw_V-sHTMnKfeVEMcbbr6JqLnlTuDVaKvFTNT1Gy_2GEJenaT48EjDidTcq0ELT18JRwHti_oihVupIH0cCuct0wV93XROdxJ8GzVsq0BF0B4x1aiRQ51MpFnJJ9cwmmTm121tOhd9LU1uvV1yIf_iAuF6-Db8STZxr2y-D1UPGYT4xP-PTI5De7xhu--yreJzt1MMUdDZ0pTl9GGPBQsVj38ywEvXci0mV-WK3whkCTx1L5wutmWIc3-1KdH3dhGqXRqw6cvSc6P21004_HGvxzxynwIwHL-y2BgRvqQKPQ-5wgIPJNdLM9qFi9UG6HQyc8Ab72zSl0a86E64eEFE4UG2h0GxJGlZNYuEt2QB9Q0E1RuFpq6Q_7joqyJNrnsGF0FM2XZVxkxCZh6b-0mtDAU7sopBdSMhCpGak_sFsDcUb2i4XODWJjytRx7Vc1AlyWOCmA50Gxx7ArRf-U4EgFcUdPwUU1XQ2MkbyKilTAjuLR5ayKukF1UIyLq_yf4ykA_s2PlxrWNHNZv3tdMOOzrR5sBLDQxwRRgCa6DpOAF2_uqv4efyifAG75G0DGCstTU2AV-h8BmdGPBtlBLbdiVCJ84s4nq7vF3fXf0nSNHadakm4pj53hTaiHUPngP02YN33w6tve41ElhHqLnBs2SUpAWOH9gZgjfUtNNac63JstCPJU3Y8ZxoMj4xCEX4jGn2EXAMwH5djmgZQEbxIYchL427Y9UZ8K_JU8Ge6xb9lPLYakkQuiHMBKBkic2SUVMTcqlGLM8rvU99KQt_e-_sqBsnbBDg4HIa_mXi-DXAlz8_yCwDRgKvQyBb54ot-eUVdOcdumXbTdkqE4hFdY2iNrz_IuQQIU6RzQyneOO3bONeDq70fdE5ZVjwmcQmaDu0Xo8oGGWHF2Ch2t1VzMeiQRUTTmxC7x2kVxh-ofD31gq6kYyfRcXux_0_7Y8POTs8ICU1lEUVQWtlVqWcqQf3YtVAmOylSfo7q1K-HU5R5kUXyN6eAcCuP5kge-J8Gi36KuKx3XwfxPoizB-usW3yYf8u3Kb9FHgh_TC5kJjaZVhtrUL6WU6z25Jf7LvhrN24SWMPy9XTn-YbUXfHD5c7ip28o34CPJZtN5T589jI5-fBBOSbLiC9pn6DIzCeY2u8SCR0WF33PUJY92VXWZ2VClNKx_y9YB35QYrafLoCeOiUaXbAfIypXBza8dlckpJNCHuEsv4mCv4fF-GyFHT8uJaXQaAwfRVVSJuN3bn0dKG20ar5fAnvgn45gxbCglYcyTgWOxmtgNK_KvXwpHocsQ0V3uE5MeogCndKxcKvpoVF5tkFA8X--VcHCz99IHDWPTAi45_tPUBhGwU65h5VCR2b1no_UmdoRauFwnwQ39kh83Qob7cSOBzD1f2ZtLqM1rEsDKEk2yYD2Mnwz4OmNIFDLYNlwmA-DE90YfSvOmxWqlvTvko0qZNlUE3Rbcs-isSn1X0nsZA0Wkkb3guof3gkSCKm0b7dkTLGPPdfg5Ni_hFdBg9Hp2JXgvdZ4rZ2W6C5tZqEHptV5Y90tlq09Tma6M3Mn1wgK48vIVjz3fpNh0nAE8j0ZeDOcFoGkYddbLc0aHXtgoW5rf69weETmRmgYD1lbeFCid0veKDSD8dfkEAMlkR0ryN1LFdbm6zEIPC_L6hu9FWMHNJggf4tjbukiXsfqSZuDl-xndc19Zw_U-YzYche1rTWlXFR_4vttTRawrldEyeLXggzX1dNfB5Sm7FzkVYAq4aePrJRdVZ4w29yPWEAY8cF2TeDy2RLljzkosJcilG9DDY9X16aU7IKUSJFQyemS4MDysChcj8cUu4-NIgJZzufZSu2SBzUp2o96zLNewlsL7qlm6RXkd7Rygc3BntCzyp8k2AQ1-SLmwZkzHBQqailcUBujIAQZPRaEFYb2733WchQLts8J1Y267V-Mog3y-iNNOiOaSE0AtJW12fMuvrr3_34Um8hJMM9_-DfteY6dDFx654aOuUpF_O67hRElTN46ZIheU284VOjfFymz3TMSEhrKeGjAIKry9pPQV6yCAdZO5tfu805tSPDjLxtEms0YNDGVzyYMhQd2CM8hftHy76KMHrPMC_sRU5BiRRs7fSSXNNsB8-FRC7NMn_pLxV_aH-RSy-uKCPvuiV5nIf4yz44WAF0HHNhEQ3EHmS79xwuQw75ssd3OJIGq76lAmD7t449w921grrlFuO19Z0eO4p28wdlk7aN2RDG0MhCvYEw7poY6dz-PKnVZSQ-_yZr_C0b4kp_sdGX415DrKyouCyuZ6tFGz3BspN4AxXYrAmGC7nFhrSvI0MZa1WwrpnnUyzEyNY0nLkfD3JwaIoaI7mZgGQD3ULtBuNuuD8f40LzVAs5CMVzjxYp6KWFfEzmsy7uzNPimGpT2C-2YTGeh-b2JwCOUfS84QtZOA65m8NUsf_lP-CUjJx10TGc0hIF_vZQph4Z20uhW4aCM29a8ADW6GuBhdWq2dBtooTcaa8qUyyixl5akX_pKyiCArVqZhjs9UkScFNDc9p4otPUsGMdbAFIYXkshLEO2m_tpT85Pfq1RdJqVGJLuvhTGvrMU45UtrYa3Ycd_pHyPQDf9cQFjmDdNkGk0liyHiBKQDGyikhdz8JUeQd5pPydcTEc9G3zxoxqMQ9vQ_S5r90Pe4YcxtNhJ7x-xNa0EIk4RU0UcA2JYBZWUX4Kq8l21aYx5JMY2VD1CZLgCHu7gSkXNM4kwF6sDLXohzTUxOAjL64G_K21iu4l-yS8TZrD5Pr2ZIr1weQ6Mg1dTLP80K-GasRQTak91iHymOZESDMQ9-qOg1DvIyOAfwVn0ST9oG_0v2qmnlTG4CG4l6vSaVepCHI6NkKX7vCDnyLd01Rr36BBKzMUSIsiU_dUuL36aKCqzKrtsEbC-nWYSq_Wq2kACwJTnL96gjcZH6p--i_rpg0wKi6jnpMsTZWnrJn5ZDLzkqR88_AAE7UP6knGDI3JkS3i8p444aCLaFPtKoLvVoyl7-wdprAfrrlWcRhH5jfx1LCdAtl273kehvOJSn7alKPmV_tCxdsOkza2ZrxyJBnN7b0CLqpto8JcQB_lKk0PfQk0HtO76z9AD7CLfQ83R-eQ5DoYYNDsy1jpSyHQHfXirvLpktJecx6BNiFpANgKdUc2TNUsS4eaaLmVZQ9gTY23DmN5c2n4nNTcjm0AaMv0X4g5UlDvhuJLBr4Mn_2f51BTyV0BtVJiNAeMopw07Dv-8_MAhkehDWukrrpEfBmgYJ1488xwzRXAKZChX11MZA_BCY2oAtM1-xFiye_nlsdPoyJkzkXxlL8LYbLxkG9z4y1tOQcjpLLv70qmyWM_hPIPi0QweS_hypNHI2huQzdYBFb4dFE8X0Szhm60I-NeYLMTkI5Ww5gPUzIZ9OF5-qCe4kr1A1eTmf1FNigJov0zLrc-06mdaJ4fIJiM7i6BUdBX8YXzuEyw==",
+      "summary": []
+    },
+    {
+      "id": "msg_0c9af02eec2262ec006ac26a728a5887d1a7ca7cf91f8246a9",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\"id\":\"post-0061\",\"status\":\"in Arbeit\",\"needs_input\":true,\"source\":{\"calendar_post_id\":\"post-0061\",\"date\":\"2026-10-09\",\"rubric\":\"Gebet oder Lied\",\"liturgical_source\":\"https://kirchenjahr.pfarr.tools/api/jahr/2026; Datum: 2026-10-04; Pfad: $.Tage['2026-10-04']\"},\"editorial_core\":{\"title\":\"Kurzes Wochengebet: Dank, Verantwortung und Freiheit\",\"main_message\":\"Dank macht sichtbar, was uns trägt. Freiheit öffnet den Raum, verantwortlich zu handeln und zu teilen.\",\"audience\":\"breite Öffentlichkeit\",\"tone\":[\"klar\",\"ruhig\",\"zugänglich\",\"konkret\"],\"source_notes\":[\"Ziel: Die Woche geistlich sammeln und auf das Wochenende hin öffnen.\",\"Das Gebet ist ein neu formulierter Originaltext.\",\"Für den 4. Oktober 2026 liegen zwei liturgische Einträge mit unterschiedlichen Wochensprüchen vor.\",\"Die örtlich gefeierte Ordnung muss vor der Veröffentlichung redaktionell ausgewählt werden.\",\"Bis zur Klärung wird kein Wochenspruch verwendet.\"]},\"platforms\":{\"facebook\":{\"text\":\"Gott,\\ndanke für das Brot auf dem Tisch,\\nfür Zeit, Kraft und Menschen an unserer Seite.\\nZeig uns, was wir teilen können.\\nGib uns Mut, verantwortlich zu entscheiden.\\nBewahre unsere Freiheit vor Gleichgültigkeit.\\nTrag uns und alle, für die das Nötige fehlt.\\nAmen.\",\"headline\":\"Ein Gebet zum Ende der Woche\"},\"instagram\":{\"caption\":\"Am Ende der Woche halten wir kurz inne.\\n\\nGott,\\ndanke für das Brot auf dem Tisch,\\nfür Zeit, Kraft und Menschen an unserer Seite.\\nZeig uns, was wir teilen können.\\nGib uns Mut, verantwortlich zu entscheiden.\\nBewahre unsere Freiheit vor Gleichgültigkeit.\\nTrag uns und alle, für die das Nötige fehlt.\\nAmen.\",\"carousel\":[{\"type\":\"Bild\",\"text\":\"Ruhiges Motiv ohne Schrift: ein schlichter Tisch mit Brot und einem freien Platz.\"}]},\"mastodon\":{\"text\":\"Gott, danke für das Brot auf dem Tisch, für Zeit, Kraft und Menschen an unserer Seite. Zeig uns, was wir teilen können. Gib uns Mut, verantwortlich zu entscheiden. Bewahre unsere Freiheit vor Gleichgültigkeit. Trag uns und alle, für die das Nötige fehlt. Amen.\"},\"bluesky\":{\"text\":\"Gott, danke für das Brot auf dem Tisch, für Zeit, Kraft und Menschen an unserer Seite. Zeig uns, was wir teilen können. Gib uns Mut, verantwortlich zu entscheiden. Bewahre unsere Freiheit vor Gleichgültigkeit. Trag uns und alle, für die das Nötige fehlt. Amen.\"},\"story\":{\"slides\":[{\"text\":\"Was hat dich in dieser Woche getragen?\"},{\"text\":\"Gott, danke für das Brot auf dem Tisch, für Zeit, Kraft und Menschen an unserer Seite.\"},{\"text\":\"Zeig uns, was wir teilen können. Gib uns Mut, verantwortlich zu entscheiden.\"},{\"text\":\"Bewahre unsere Freiheit vor Gleichgültigkeit. Trag uns und alle, für die das Nötige fehlt. Amen.\"}]},\"reel\":{\"hook\":\"Ein kurzer Moment zum Ende der Woche.\",\"script\":\"Gott,\\ndanke für das Brot auf dem Tisch,\\nfür Zeit, Kraft und Menschen an unserer Seite.\\nZeig uns, was wir teilen können.\\nGib uns Mut, verantwortlich zu entscheiden.\\nBewahre unsere Freiheit vor Gleichgültigkeit.\\nTrag uns und alle, für die das Nötige fehlt.\\nAmen.\",\"shots\":[\"Ruhige Nahaufnahme eines schlichten Tisches im weichen Tageslicht\",\"Hände legen ein Brot auf den Tisch\",\"Ein leerer Teller wird neben einen gedeckten Platz gestellt\",\"Licht fällt durch ein Fenster auf die Tischfläche\",\"Ruhiges Schlussbild des gedeckten Tisches\"],\"duration_seconds\":25}},\"visual\":{\"concept\":\"Ein schlichter Tisch im weichen Tageslicht. Ein Brot liegt in der Mitte. Ein zusätzlicher gedeckter Platz steht für Teilen, Verantwortung und offene Gemeinschaft. Keine Personen müssen erkennbar sein.\",\"flux_prompt\":\"Documentary-style still life of a simple wooden table in soft natural autumn daylight, a loaf of bread in the center, simple ceramic plates, one additional place setting, calm contemplative atmosphere, warm muted colors, realistic photography, subtle shadows, generous negative space, no visible faces, no typography\",\"negative_prompt\":\"text, letters, words, captions, logo, watermark, signage, poster, book title, distorted hands, excessive decoration, luxury tableware, dramatic religious symbols\",\"formats\":[\"4:5\",\"9:16\",\"1.91:1\"],\"alt_text\":\"Auf einem schlichten Holztisch liegt ein Brot. Daneben stehen einfache Teller, darunter ein zusätzlich gedeckter Platz. Weiches Tageslicht fällt auf die ruhige Szene.\"},\"qa\":{\"warnings\":[\"Vor der Veröffentlichung muss redaktionell geklärt werden, ob vor Ort Erntedank oder der 18. Sonntag nach Trinitatis gefeiert wird.\",\"Für den 4. Oktober 2026 liegen unterschiedliche Wochensprüche vor. Im aktuellen Entwurf wird deshalb kein Wochenspruch zitiert.\",\"Story-Texte und Untertitel für das Reel müssen in der Plattform ergänzt und auf gute Lesbarkeit geprüft werden.\"],\"approved\":false},\"metadata\":{\"model\":\"OpenAI\",\"generated_at\":\"\",\"prompt_version\":\"1.0\",\"assets\":[]}}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "all_turns",
+    "effort": "medium",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1,
+  "text": {
+    "format": {
+      "type": "json_schema",
+      "description": null,
+      "name": "content_package",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "Idee",
+              "in Arbeit",
+              "zur Prüfung",
+              "freigegeben",
+              "terminiert",
+              "veröffentlicht",
+              "verworfen"
+            ]
+          },
+          "needs_input": {
+            "type": "boolean"
+          },
+          "source": {
+            "type": "object",
+            "properties": {
+              "calendar_post_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "date": {
+                "type": "string",
+                "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+              },
+              "rubric": {
+                "type": "string",
+                "minLength": 1
+              },
+              "liturgical_source": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "calendar_post_id",
+              "date",
+              "rubric",
+              "liturgical_source"
+            ],
+            "additionalProperties": false
+          },
+          "editorial_core": {
+            "type": "object",
+            "properties": {
+              "title": {
+                "type": "string"
+              },
+              "main_message": {
+                "type": "string"
+              },
+              "audience": {
+                "type": "string"
+              },
+              "tone": {
+                "minItems": 1,
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "source_notes": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "title",
+              "main_message",
+              "audience",
+              "tone",
+              "source_notes"
+            ],
+            "additionalProperties": false
+          },
+          "platforms": {
+            "type": "object",
+            "properties": {
+              "facebook": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  },
+                  "headline": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text",
+                  "headline"
+                ],
+                "additionalProperties": false
+              },
+              "instagram": {
+                "type": "object",
+                "properties": {
+                  "caption": {
+                    "type": "string"
+                  },
+                  "carousel": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "type": {
+                          "type": "string"
+                        },
+                        "text": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "type",
+                        "text"
+                      ],
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "required": [
+                  "caption",
+                  "carousel"
+                ],
+                "additionalProperties": false
+              },
+              "mastodon": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text"
+                ],
+                "additionalProperties": false
+              },
+              "bluesky": {
+                "default": {
+                  "text": ""
+                },
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text"
+                ],
+                "additionalProperties": false
+              },
+              "story": {
+                "type": "object",
+                "properties": {
+                  "slides": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "text": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "text"
+                      ],
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "required": [
+                  "slides"
+                ],
+                "additionalProperties": false
+              },
+              "reel": {
+                "type": "object",
+                "properties": {
+                  "hook": {
+                    "type": "string"
+                  },
+                  "script": {
+                    "type": "string"
+                  },
+                  "shots": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "duration_seconds": {
+                    "type": "integer",
+                    "minimum": 0,
+                    "maximum": 9007199254740991
+                  }
+                },
+                "required": [
+                  "hook",
+                  "script",
+                  "shots",
+                  "duration_seconds"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "required": [
+              "facebook",
+              "instagram",
+              "mastodon",
+              "bluesky",
+              "story",
+              "reel"
+            ],
+            "additionalProperties": false
+          },
+          "visual": {
+            "type": "object",
+            "properties": {
+              "concept": {
+                "type": "string"
+              },
+              "flux_prompt": {
+                "type": "string"
+              },
+              "negative_prompt": {
+                "type": "string",
+                "minLength": 1
+              },
+              "formats": {
+                "minItems": 1,
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "alt_text": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "concept",
+              "flux_prompt",
+              "negative_prompt",
+              "formats",
+              "alt_text"
+            ],
+            "additionalProperties": false
+          },
+          "qa": {
+            "type": "object",
+            "properties": {
+              "warnings": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "approved": {
+                "type": "boolean"
+              }
+            },
+            "required": [
+              "warnings",
+              "approved"
+            ],
+            "additionalProperties": false
+          },
+          "metadata": {
+            "type": "object",
+            "properties": {
+              "model": {
+                "type": "string"
+              },
+              "generated_at": {
+                "type": "string"
+              },
+              "prompt_version": {
+                "type": "string",
+                "minLength": 1
+              },
+              "assets": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "model",
+              "generated_at",
+              "prompt_version",
+              "assets"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "id",
+          "status",
+          "needs_input",
+          "source",
+          "editorial_core",
+          "platforms",
+          "visual",
+          "qa",
+          "metadata"
+        ],
+        "additionalProperties": false
+      },
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 2006,
+    "input_tokens_details": {
+      "cache_write_tokens": 2003,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1565,
+    "output_tokens_details": {
+      "reasoning_tokens": 408
+    },
+    "total_tokens": 3571
+  },
+  "user": null,
+  "metadata": {},
+  "output_text": "{\"id\":\"post-0061\",\"status\":\"in Arbeit\",\"needs_input\":true,\"source\":{\"calendar_post_id\":\"post-0061\",\"date\":\"2026-10-09\",\"rubric\":\"Gebet oder Lied\",\"liturgical_source\":\"https://kirchenjahr.pfarr.tools/api/jahr/2026; Datum: 2026-10-04; Pfad: $.Tage['2026-10-04']\"},\"editorial_core\":{\"title\":\"Kurzes Wochengebet: Dank, Verantwortung und Freiheit\",\"main_message\":\"Dank macht sichtbar, was uns trägt. Freiheit öffnet den Raum, verantwortlich zu handeln und zu teilen.\",\"audience\":\"breite Öffentlichkeit\",\"tone\":[\"klar\",\"ruhig\",\"zugänglich\",\"konkret\"],\"source_notes\":[\"Ziel: Die Woche geistlich sammeln und auf das Wochenende hin öffnen.\",\"Das Gebet ist ein neu formulierter Originaltext.\",\"Für den 4. Oktober 2026 liegen zwei liturgische Einträge mit unterschiedlichen Wochensprüchen vor.\",\"Die örtlich gefeierte Ordnung muss vor der Veröffentlichung redaktionell ausgewählt werden.\",\"Bis zur Klärung wird kein Wochenspruch verwendet.\"]},\"platforms\":{\"facebook\":{\"text\":\"Gott,\\ndanke für das Brot auf dem Tisch,\\nfür Zeit, Kraft und Menschen an unserer Seite.\\nZeig uns, was wir teilen können.\\nGib uns Mut, verantwortlich zu entscheiden.\\nBewahre unsere Freiheit vor Gleichgültigkeit.\\nTrag uns und alle, für die das Nötige fehlt.\\nAmen.\",\"headline\":\"Ein Gebet zum Ende der Woche\"},\"instagram\":{\"caption\":\"Am Ende der Woche halten wir kurz inne.\\n\\nGott,\\ndanke für das Brot auf dem Tisch,\\nfür Zeit, Kraft und Menschen an unserer Seite.\\nZeig uns, was wir teilen können.\\nGib uns Mut, verantwortlich zu entscheiden.\\nBewahre unsere Freiheit vor Gleichgültigkeit.\\nTrag uns und alle, für die das Nötige fehlt.\\nAmen.\",\"carousel\":[{\"type\":\"Bild\",\"text\":\"Ruhiges Motiv ohne Schrift: ein schlichter Tisch mit Brot und einem freien Platz.\"}]},\"mastodon\":{\"text\":\"Gott, danke für das Brot auf dem Tisch, für Zeit, Kraft und Menschen an unserer Seite. Zeig uns, was wir teilen können. Gib uns Mut, verantwortlich zu entscheiden. Bewahre unsere Freiheit vor Gleichgültigkeit. Trag uns und alle, für die das Nötige fehlt. Amen.\"},\"bluesky\":{\"text\":\"Gott, danke für das Brot auf dem Tisch, für Zeit, Kraft und Menschen an unserer Seite. Zeig uns, was wir teilen können. Gib uns Mut, verantwortlich zu entscheiden. Bewahre unsere Freiheit vor Gleichgültigkeit. Trag uns und alle, für die das Nötige fehlt. Amen.\"},\"story\":{\"slides\":[{\"text\":\"Was hat dich in dieser Woche getragen?\"},{\"text\":\"Gott, danke für das Brot auf dem Tisch, für Zeit, Kraft und Menschen an unserer Seite.\"},{\"text\":\"Zeig uns, was wir teilen können. Gib uns Mut, verantwortlich zu entscheiden.\"},{\"text\":\"Bewahre unsere Freiheit vor Gleichgültigkeit. Trag uns und alle, für die das Nötige fehlt. Amen.\"}]},\"reel\":{\"hook\":\"Ein kurzer Moment zum Ende der Woche.\",\"script\":\"Gott,\\ndanke für das Brot auf dem Tisch,\\nfür Zeit, Kraft und Menschen an unserer Seite.\\nZeig uns, was wir teilen können.\\nGib uns Mut, verantwortlich zu entscheiden.\\nBewahre unsere Freiheit vor Gleichgültigkeit.\\nTrag uns und alle, für die das Nötige fehlt.\\nAmen.\",\"shots\":[\"Ruhige Nahaufnahme eines schlichten Tisches im weichen Tageslicht\",\"Hände legen ein Brot auf den Tisch\",\"Ein leerer Teller wird neben einen gedeckten Platz gestellt\",\"Licht fällt durch ein Fenster auf die Tischfläche\",\"Ruhiges Schlussbild des gedeckten Tisches\"],\"duration_seconds\":25}},\"visual\":{\"concept\":\"Ein schlichter Tisch im weichen Tageslicht. Ein Brot liegt in der Mitte. Ein zusätzlicher gedeckter Platz steht für Teilen, Verantwortung und offene Gemeinschaft. Keine Personen müssen erkennbar sein.\",\"flux_prompt\":\"Documentary-style still life of a simple wooden table in soft natural autumn daylight, a loaf of bread in the center, simple ceramic plates, one additional place setting, calm contemplative atmosphere, warm muted colors, realistic photography, subtle shadows, generous negative space, no visible faces, no typography\",\"negative_prompt\":\"text, letters, words, captions, logo, watermark, signage, poster, book title, distorted hands, excessive decoration, luxury tableware, dramatic religious symbols\",\"formats\":[\"4:5\",\"9:16\",\"1.91:1\"],\"alt_text\":\"Auf einem schlichten Holztisch liegt ein Brot. Daneben stehen einfache Teller, darunter ein zusätzlich gedeckter Platz. Weiches Tageslicht fällt auf die ruhige Szene.\"},\"qa\":{\"warnings\":[\"Vor der Veröffentlichung muss redaktionell geklärt werden, ob vor Ort Erntedank oder der 18. Sonntag nach Trinitatis gefeiert wird.\",\"Für den 4. Oktober 2026 liegen unterschiedliche Wochensprüche vor. Im aktuellen Entwurf wird deshalb kein Wochenspruch zitiert.\",\"Story-Texte und Untertitel für das Reel müssen in der Plattform ergänzt und auf gute Lesbarkeit geprüft werden.\"],\"approved\":false},\"metadata\":{\"model\":\"OpenAI\",\"generated_at\":\"\",\"prompt_version\":\"1.0\",\"assets\":[]}}"
+}

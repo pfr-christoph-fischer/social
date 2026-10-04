@@ -1,6 +1,6 @@
 {
   "id": "post-0063",
-  "status": "in Arbeit",
+  "status": "zur Prüfung",
   "needs_input": false,
   "source": {
     "calendar_post_id": "post-0063",
@@ -10,12 +10,13 @@
   },
   "editorial_core": {
     "title": "Neuer Wochenspruch: 19. Sonntag nach Trinitatis",
-    "main_message": "Ruhiges Motiv, wenig Text im Bild, meditativer Begleittext.",
+    "main_message": "Der Wochenspruch macht Heilung und Hilfe zum Gebet. Er verspricht keine schnelle Lösung, sondern richtet Vertrauen auf Gott.",
     "audience": "breite Öffentlichkeit",
     "tone": [
       "klar",
       "ruhig",
-      "zugänglich"
+      "zugänglich",
+      "meditativ"
     ],
     "source_notes": [
       "Goal: Den neuen Wochenspruch als ruhigen Auftakt der liturgischen Woche veröffentlichen.",
@@ -23,54 +24,81 @@
       "Production mode: für Monate im Voraus vollständig vorproduzierbar",
       "Structure: Wochenspruch | ein Bild oder eine Beobachtung | ein meditativer Satz | offene Schlussfrage oder Segenswunsch",
       "AI support notes: meditativer Rohentwurf | KI-Bildprompt | Reel-Sprechtext | Alt-Text",
-      "Liturgical source: https://kirchenjahr.pfarr.tools/api/jahr/2026 (2026-10-11, $.Tage['2026-10-11'])"
+      "Liturgical source: https://kirchenjahr.pfarr.tools/api/jahr/2026 (2026-10-11, $.Tage['2026-10-11'])",
+      "Ausgewählte Ordnung: 19. So. n. Trinitatis – Heilung an Leib und Seele",
+      "Wochenspruch: Heile du mich, HERR, so werde ich heil; hilf du mir, so ist mir geholfen. (Jer 17,14)"
     ]
   },
   "platforms": {
     "facebook": {
-      "text": "",
-      "headline": ""
+      "text": "„Heile du mich, HERR, so werde ich heil; hilf du mir, so ist mir geholfen.“\nJer 17,14\n\nEin Tropfen fällt ins Wasser. Von einem kleinen Punkt aus ziehen Kreise über die ruhige Fläche. So kann Hilfe beginnen: nicht immer laut und nicht immer sofort sichtbar.\n\nDer Wochenspruch ist ein Gebet. Er spricht aus, was fehlt. Er bittet Gott um Heilung und Hilfe. Dabei ist er keine schnelle Erklärung für Krankheit und kein Versprechen, dass jede Wunde sofort verschwindet. Er gibt der Hoffnung Worte – auch dort, wo ein Mensch noch auf Veränderung wartet.\n\nVielleicht muss heute nichts beschönigt werden. Vielleicht genügt der schlichte Satz: Gott, ich brauche deine Hilfe.\n\nWo wünschst du dir in dieser Woche Heilung, neue Kraft oder einen Menschen an deiner Seite?\n\nGott schenke dir Mut zum Bitten und Menschen, die dich nicht allein lassen.",
+      "headline": "Ein Gebet um Heilung und Hilfe"
     },
     "instagram": {
-      "caption": "",
-      "carousel": []
+      "caption": "„Heile du mich, HERR, so werde ich heil; hilf du mir, so ist mir geholfen.“\nJer 17,14\n\nEin Tropfen berührt stilles Wasser. Kreise breiten sich aus.\n\nDer Wochenspruch ist ein Gebet. Keine schnelle Erklärung. Kein Versprechen, dass jede Wunde sofort verschwindet. Er gibt der Hoffnung Worte: Gott, ich brauche deine Hilfe.\n\nWo wünschst du dir in dieser Woche Heilung, neue Kraft oder Unterstützung?\n\nGott schenke dir Mut zum Bitten und Menschen, die dich nicht allein lassen.",
+      "carousel": [
+        {
+          "type": "Bildmotiv",
+          "text": "Eine einzelne feine Welle breitet sich auf einer ruhigen Wasseroberfläche aus. Das Bild bleibt ohne Schrift."
+        }
+      ]
     },
     "mastodon": {
-      "text": ""
+      "text": "„Heile du mich, HERR, so werde ich heil; hilf du mir, so ist mir geholfen.“ (Jer 17,14)\n\nEin Gebet ohne Beschönigung: Gott, ich brauche deine Hilfe. Keine schnelle Antwort, aber Worte für die Hoffnung.\n\nWo wünschst du dir in dieser Woche Heilung oder neue Kraft?"
     },
     "bluesky": {
-      "text": ""
+      "text": "„Heile du mich, HERR, so werde ich heil; hilf du mir, so ist mir geholfen.“ (Jer 17,14)\n\nKeine schnelle Erklärung. Ein Gebet, das der Hoffnung Worte gibt: Gott, ich brauche deine Hilfe.\n\nWo wünschst du dir neue Kraft?"
     },
     "story": {
-      "slides": []
+      "slides": [
+        {
+          "text": "„Heile du mich, HERR, so werde ich heil; hilf du mir, so ist mir geholfen.“\nJer 17,14"
+        },
+        {
+          "text": "Ein Tropfen berührt stilles Wasser. Kreise breiten sich aus."
+        },
+        {
+          "text": "Das Gebet verspricht keine schnelle Lösung. Es gibt der Hoffnung Worte."
+        },
+        {
+          "text": "Wo wünschst du dir in dieser Woche Heilung, neue Kraft oder Unterstützung?"
+        }
+      ]
     },
     "reel": {
-      "hook": "",
-      "script": "",
-      "shots": [],
-      "duration_seconds": 0
+      "hook": "Ein Tropfen berührt stilles Wasser.",
+      "script": "Ein Tropfen berührt stilles Wasser. Kreise breiten sich aus.\n\n„Heile du mich, HERR, so werde ich heil; hilf du mir, so ist mir geholfen.“\nJer 17,14\n\nKeine schnelle Erklärung. Ein Gebet, das ausspricht, was fehlt.\n\nWo wünschst du dir in dieser Woche Heilung oder neue Kraft?",
+      "shots": [
+        "Nahaufnahme einer ruhigen Wasseroberfläche im weichen Morgenlicht",
+        "Ein einzelner Tropfen fällt ins Wasser",
+        "Feine Kreise breiten sich langsam über die Oberfläche aus",
+        "Die Kamera bleibt auf dem ruhiger werdenden Wasser"
+      ],
+      "duration_seconds": 25
     }
   },
   "visual": {
-    "concept": "",
-    "flux_prompt": "",
-    "negative_prompt": "text, letters, logo, watermark",
+    "concept": "Eine ruhige Wasseroberfläche im weichen Morgenlicht. Ein einzelner Tropfen erzeugt feine, größer werdende Kreise. Viel freie Fläche und gedeckte Blau-, Grau- und Goldtöne. Der Wochenspruch erscheint nur im Begleittext oder als später gesetztes Plattform-Overlay, nicht im KI-generierten Bild.",
+    "flux_prompt": "Photorealistic close-up of a calm water surface at dawn, one subtle droplet touching the water and creating delicate concentric ripples, soft diffused morning light, muted blue gray and warm gold color palette, contemplative atmosphere, minimal composition, generous negative space, natural details, gentle depth of field, no people, no objects, no typography",
+    "negative_prompt": "text, letters, words, typography, logo, watermark, caption, signage, symbols, people, hands, dramatic storm, harsh contrast, oversaturated colors, fantasy glow, clutter",
     "formats": [
       "4:5",
       "9:16",
       "1.91:1"
     ],
-    "alt_text": ""
+    "alt_text": "Eine ruhige Wasseroberfläche im weichen Morgenlicht. Von einem einzelnen Tropfen gehen feine, kreisförmige Wellen aus. Das Bild ist in gedeckten Blau-, Grau- und Goldtönen gehalten."
   },
   "qa": {
     "warnings": [
-      "Alt text must be completed before approval"
+      "Alt text must be completed before approval",
+      "Die visuelle Umsetzung und die finale redaktionelle Freigabe stehen noch aus.",
+      "Bei der Veröffentlichung sollte der sensible Umgang mit Erfahrungen von Krankheit und ausbleibender Heilung erhalten bleiben."
     ],
     "approved": false
   },
   "metadata": {
-    "model": "",
-    "generated_at": "",
+    "model": "gpt-5.6-sol",
+    "generated_at": "2026-10-04T15:02:50.224Z",
     "prompt_version": "1.0",
     "assets": []
   }

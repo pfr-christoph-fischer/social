@@ -1,0 +1,435 @@
+{
+  "id": "resp_02dde1b74bdd77c9006ac26a1999d087d1baf5f939e92a06ac",
+  "object": "response",
+  "created_at": 1791126041,
+  "status": "completed",
+  "access_programs": null,
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1791126066,
+  "error": null,
+  "frequency_penalty": 0,
+  "incomplete_details": null,
+  "instructions": "You are part of a Protestant social media editorial team. Write in clear, accessible, theologically responsible German without church clichés. Use short sentences and concrete imagery. Never invent events, people, school situations, quotes, or factual details. Do not include copyrighted full song verses. For Reli and community posts, only use current details when they are explicitly provided. Return content that strictly matches the requested JSON schema. Set needs_input to true whenever required facts are missing. Keep qa.approved false. Do not ask for any text inside generated images. When liturgical_context.resolved_weekly_verse is present, use its exact wording for Wochenspruch slots instead of placeholders.",
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.6-sol",
+  "moderation": null,
+  "output": [
+    {
+      "id": "rs_02dde1b74bdd77c9006ac26a1a577c87d18db8712ec7e527a0",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABqwmozDswCSR6C3tXUdMdtolP2azpUUIif04eBxbiIByJGt9A63mtebpLv7uFYvi5rC7nEDhNGMkV20z4PEsaE2bxWlAbyBZs-iEP_zZN43H1dt9ZtjevIFHpws2RNrew0vBVlfDoG8dFUClYpwrgXgol41cDWdE-tGCnAgbIWGn5jhaWhZV7EuKVXAPd2JRegK8YhfOhIYf3f7q_SW2K1Ph_DGfhNCmcyV1bOmopGRA1YQCDnW03SE1lEaZmJzJh4-Ld0rtdpmNonXDnvruvartUZQ33kwqPlYLkHuzHPloSQ4A7vfDbGNZeSUJAi9BdBJ_45Vd-qrUK4C0fZCNbQS--8zdK0fhjOO0F1--rU3KRI6knFXaBqfg4I77FK32oUggbb1K5x_QH_fszbS7XSOjgZznT9FkY8PXUtsOeDgOQXLd-D-1t92CR2WhIm7jniXIu6aOf3Lcei3CkJfxkYMSZ2J9TiAO8qxZyCcc10fmuBRknwLFIkbF0aoniFWE-x1C-FpQpADALXnqSwWQM0JDaY5QNjbK1hmWP0Z4n0kmTNzh6npC9QSQ8_UrOfxxVM3lTs2pILqUjPD88n7sofVo0voCCu5S5J1j09TX6GK2w3RYrIpxEhRLYdHNVarJ3FRktOTcfD5PlGTalC2eaViWL6ut_3cTtKLsKKFrrFQ6gLBTYYf8noDIeerEORwcnNena5P6n1xBzFdRf_KRA4o3VsTbHq531rfWAh_SIo54oMOlJubym2XCCmGGbVf3EMkNZp88JhA9AMkt8QLtm2gs6yA7_Oxuk_ihwqKyVQp3GfNj7djBnWzf_It2YRS5c9_iKDEgF_kZ6d08LH_7AbsSuDluontDPqUv4g24kmp3NVcI10yy8Iu4KHkK8vBSpC2ymkjAEVtbVG7pR85q1M8n1brEFItsVxY-foiCCFX-o_pjjBcgc_xDxS8-Hwbm8ZDaHrvpCLOb5_8AWuq7fgWgXBU7j_pkyCJGg4HkiAKfnDL6zBzUWtJdeBAnP46e94DbwY18SQJp2kuMIhM7Kp5YauURf9U05W7AeAQ-Qegzeawp8h3Nu5iRpRhw0kR0e3PbhqNpcaHYXOt1cZDIlqTc4KH9Mub0PTv9Zg2o2IGWZzzXCHsmDh7p2pReU93dx-zIEiB4SaerGRIcHO2hxS5f1ccaK5ylNdriok9OQ7ewMUShhjwE4CEsHDEs0L14RcEG0ErW6a3Mlmk7yrrTV8veRCLRr0r8mt8kSd4YPxmz8o9zIqTJ2bhWnWMxITIFli9-akvdoTp10JuFHfL2aUJA0T-MWkgu4H5PEa7S7m_6FNAXJOB1p3KwCJ4s2HYz4zQ_rf0YnfFw_vtJfDXpP4xkz_2OEknpNCKuqUpag-jU78MNVakj85A0C56ueIgug8n3Mx3JlfTCQtm5KxIkrIRc-j8TbvqaJjCBj4kIizdMFTKvvftEoLhTRTjC_GcMnH_y2_etKB7oN7u-E2Ol3H1B2BRtIWlP0Opk-R7mqrZsQNMQn-5xmO-ZTxIkUidmEj9y1oBpR9sz9KGTLg_pkUxlv56KVqoaLkHx6yVZ1yvO77kFRUdJbnvoh2c5WsRJPocFprBnAXKLj7CPV-zpI3b9lkGRDkTIGwoWA4Bw31BVYEJVVDGIzFATldzffMYY-IyO8-vehq7qwyLUScZCnSDNdfZNiMNTnBFEbB_S8CGl-60GOz2VR9CZ4MouD24rJjXSJrBrIyD7kk8DdK3ddJtnAZiLzeUHaP8WiNvIB2TLNtYasmud2eXeuiWjunsFjh8vPbdpGjCzmEyT9pQgZwE695X_dsx_jas1VwQadPCajNrAQ6a8I6ADXHfQA7BmLnql1bxkoxUyel9P4hOkfrtlTQbaPwfloaeGx8SVTFd4KSkzgDGxCGMH59A8h3O9JxTT8GBzqUeGVPe5r5F6EYQwgffwCMvi7VOg8Vo1Qz2AojIVb5ldUNBXRR3Su3XibwzPfGeKcEQ9o4xEWBy_CiNYk02xAeyP_U_BCk7NsmyYqt1MGad50qISptxb07il_Ufw_gLDpkhN77xoJl1ceYmz8XQNv3kGf6HsF-DE3qlhuwstKQL1lqqgMKqtiBfdR68wpvNwWHf3U5F_DklFdBez9J-U2cULJs0gFq6dlWB8IKgYLWyEtyDBZ5qKeS7wW7JY4LcE4DtFY71msK-k-yHmXjEBl-WyVKdq6SzjOaPhuXf0-OG9byUq1SuDzOUdslB17LpAEJEPOLoHxBf75oIcq7GwmIHvRphNTHLUwP4MY6UG-CoTdkILM9x4jMrMdL8ceCTYVMfw98mdDo_jRM6-XnaesF9vwFqk1-a4lLFenjxyVBjr3z0O6a_DwP0XZfbugCF63gMtTxP49KCJNnFY6ejvJsTUvCmbSJgmqqPT0Wz712kT9VVg8vQBVsjUlcXXWenM9pgA_XDYDN3NXtLNN0y8v7GDtyb9sPEJKi3ZT4uEUuwmMGyv3tBtyId6lbQRUujc5_rxCnrvSKcwVZiEqloSfIxJlCju8BC3AtK9NiXpMg_GoctCc_rHvIKbPK-qhlfOeO0UnWZOFqWm02sravi1xmzSgN4bGVjWLiOwb-ARGYHCXuZZ0NJPluxkRYTwd6C2kKzm_OqkBVF-gJSQzGMs4kUCs7gvj3JG4dWAMoDt6BvDNU4Pq_yJkAVrpqL_T8oGCPRjdIneJOCUizYBiqyF43Tocvg8DreaH7ToqySjjT5hSPCrI-iiQLd3w8w_KqfSK3G_4pqR0AzRAQtp_duhbMmTYQWw-DqhXnOG3OlAFSRLMq82L_SaXZER1khwS6adEVP5ZmEUljHmnEe9HHy7cyqk-Lbat7_2MDLqFfekW91Fy5dRJSCVUA9ftFajKOU2SQ5xB0eJkGymoc5gCAuKJ21veUGOHb39ZeKgyf2hn47QBF7RB5E0bZZnp5uUDZDzmEnJSFE4diyxcRjk5YoZX2fynWaR64v4jqc2RoCKzbc0np2keEXhbfWhQ1aa2P0Q1BDYIGfv8dBydse1ImZb3wtQ7xNlxm6ZxUwhO6N83_YE_neYz3LWC_x1z0umwAYS1tA8bwFcLTtlCMmKXqQnLMebvM_r7EWhDUYfE6-jSgdqTnK54UYhoybR2VapKnaESBDbPlSzURx3ioVoyKGej2zfMVxG7enOHt2C2J00BoP7SkConUkzLhqZIiKCxvgCpKh8coAWaSrj0-N2n5jdIn01sKJsgDAEAHDMWX1Ct6Lwj8Jh8ATG-41PmOD9-lBtEZY_YCandDE2EU2e7q8qe9OfYz0Z-utDScKM0OCKY3yDQHne5gQdlE6g8PwnxQYiZvvpSNSTrcDre3Lb4baSLl98GDHZr62tZcmg5K5yLaiXPv3Pcj56r61QKGaPMa08gd2IyqCjEnWgVLEfQDX8rwW9mJxmM3-03Cp7uMKao8HF3nFc5W9xnoj6jZLSkR9xQG4Wal7nM85-sj8zsfHsK8dOpvVfxHs1j-sxfV4K-ofpw8L5XuU_xlG7whXwbzDuyn67exSvupI8jBCaPF5FOP2VrqW3Xn4Xc2my0YlKt0UzQJayJtqwC-d-bMYAABb0UwQBBDXxI_O0JJFU0zY42wr4AyLQ42yqBDMmRZzRsxDrGIa_zIwPYb2Ns-jeQNoVdjFvactS4jko2HPzvf2tzVdXYVo7UpoUFBfZm_7dZTZhiO6lXORSNAsC9KcsEzYQvK2RjoBS5HpXgsE7upKDR_M4ZIqXdrCXlnL66-H9QIx_mh1yJ23KueWKqcrOPl4lpQNCqU1Sh3icbZaYAht4GXE67cinfLdRNRhjsIJwIqibxew-Ko-1yO0PXmIHxWTa0aVLYldpnuroX3ofjdlO9T9UiF4p9dsuqZjioWuOhNEwuLv3pACL0M1VtLa7cEoj0tXu5xaLN4NM992xto9H6wkGcVmOzG81c_GskUNAQH6bpFNtLqcwW4eAWPJrTK0hijaDXHZ8rTXInfHZkpUAtoDlnusvJcA9BFfkFfwKEi_5MgF6CGnAtLunuqfPKKW_dDXhrqcn9VkDIgJhda8dSXd-JqqwuGirguw8ZiOvM66ha3IevCHtBDglfPGG_QeG-ss9Cx-BbqaVNYILWy1og1MCnMT0JqOiaz-wCCDrLLLAtSEI3yyN5AgHZa7zMB-9yOVY503gZicV7OB5kAQ1WxQGRVwsFpu6ap48kc1kBUA93RPkuYGojixUKrRCu6B4k2jkJpqf-qYN0bLfbSGfzjwCIHriuH3gJ79CYciN9vaGKTcyuOWN0GZyunsRa-UpvWvGlTcC1CTEwj_WQ_SBcennIjc-wQmKLensvQSi6Ox3Z1Oz0UqLwCTzQHdVZWwIXja4I-awhRPAaB-gqx3GOZbMG0IaGJ4homBfjpWHLveHF7wWCRnZ-6E1v4VotuCp4Ay-bw-WC1Jiy1ejMv8syup-80rNhaZRmDZ2OXfZLBYeNa2Pcdj2H4DRbHRFzrW3bWdDgJh1X4LsNfYT7-zbqP7PtA4-m6dbqYUqUj-ZzGDDY-WfxcChzzottxv2WwQcq7DxaY3r05QyJpO_7uh29PlHu2XV6PLHA0VfU7BOibd0ZQYyTFH0a9g5Zlplouo3jRoOqEL_r6J6KRiYACC1VIxer44Ga1hGXmhrTSi4VJzdN3nqQHDshu3R03JpvKgyRMi2-CKzU1DT8fRItzyA==",
+      "summary": []
+    },
+    {
+      "id": "rs_02dde1b74bdd77c9006ac26a221f7487d1bb5a7a1e2b13d8d7",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABqwmoz6MRAEVaqg1EaBHLHjiBwgraL943D32Qd_guA99BSabbUesG1CoHGvg7uh31Y5vG38udFiBqxI1SYViH8VqKr2cisS4yhNWxecHxgccQi2fffOIKNu-qJiE1gKJXBa4gTRxBChsyqIY560T-Tt4c3mQjAz2ZcwVRhsuC4ODmv8RVH-WYTY-9L8LRBV8OWXMAvpFz49xPW3wV7HpDdUyomXVJFG5ntMzPFyeU0o88Ei-EUOiCPJaEos0pGvqhO_LyAGnxY5MRLwybgDaT1LaPO73XBcSVOnbW5hh-VOsS2_-dbh9K3_lVJy28pVjKNHJtSPmPfYe2sF57Jl8DNMaoUXtOsufvgQkYnljHHUteJMfUCwZoPB0WTWN50aToqrRqE9ytA3ki6C3-kVg04GqcstVpbnCyq9NIo2bk6U6AeW2q17L6fQzVbFwlCZ50b8lnSfI9Z7TBGT6cMvqaf-JjNAtgdG4IZ1za_zueu8ncpehWapO0o8gQI-z0bj-IiJVe5NA2LNo30XwUWFh9582zOd3xwrg66HTpHh_4_Oq1f6pOKgghGdNnZUGcGWvZaE7Q-z8ujHwUGnW8GIxaYeadp0FzyQnJo0udHKiJemmCd3yVcKJVf8evnuLqQWAfVwoZQjpbblDthxBVth5fx4VbE9HJrYLyb4PYkmCUrnI5uVv-CHCqiYx4jIY3YvAwpRRadEpJORvKF_cgh23fq-CPkNPHo_6qxsrcrXtc2PQT9AQEuRSuwbAMMoWqWi6vlsUIKKfcnE5ipA7HRbKFGI6wbhPz5bUAZB6EDZAuMMqjiuBD32v-hsa-Xgak51p2kjRM4I9K9Cjm8CrKPFyIHvSVWm6YcqW68WdQZmDnvNsSarI8uYNUCCpiOdKpd1_tNihGJBWYSoSv_8UIwvQdg55zjREDkQX57lAroH-CrnhTD4VQZy4uGrq6OzxFZyX177ulxTg6t8RPtPbHyaeNaQ_ZTXl-jZ-L76LLcJpL2XHHvagcH870QF9p_BFqO3veNhq7Z3L5uqBM78ATqxwrdrNP2xGMr1ictxvvfhsSW-5JRvfO0EJUW5CT9rLoRJAtg6E0ZmU0t7kkEfeBq_ClEnYV5YXgg-P2MI7InHAqVrR3ae3OBwKoD4xiGPAny5heG6iZmwzizCW-FWAhXCYopW4TPQ9jvcJ_vVKyRTM-u2uETbDv_gXFKlW_xfGbvZcZf-itwyrdmC865LCFovLKinImjyYiImiSPNfsiwBemza9tGgBfYvZBxmVqzObmVo4QpS3GkpfZAR9FZsCmTtIQNK3jgXleIt-XAVdLJO407G7ZfriZ0KFG3YaHX06Yvb8AT-Ca8S2pkhD4BPUyEy1f5v2g4HMPrOA7U9fhqPoBM4DYXa32Bba1s2Dt4Xk83xk5d-t7dZuuZbELO9qTBiY27_F_xGNmUAUvR8u_B3wvbe6Nn-w8B7F6eTTOA-Qku5sGmZF1l1oM3du1O4Qj2rRRWm1ncRT0aXjUZwU8kUw9A4KIvr7wKG4OIbUxbjAM3UZlpwTbohjRoPs1MhjL03GlxEIDz7V0vzVyFdH6k_M_sIR-AY79aL9A4DvoYOP29LOtJ3tREA6RH2JBp05yq3Ug8vMksWP7l__0xRPb_iMUyAGr6E-G08O37qlDkZ8ZQG0WCrsIZWfQ4lamB0dcZ2YGTvc3cSyK4R4doxg33XWnL3PMei0VFgAZR-jIDOAwZQczXrF15Zte1et2B7obk2DYQPIJMt6DsiX4IfsgCl0-4wcAN0YtjbRY2dnsXSuMoI8b9pnpDk1hUftJa0A2SR0Pn3Zm9RSeWh3CFWEgvD7SLUtM_dZSpfOVwBsZbHLbMZ0hsw06z6ab8X5ndWn9FKb2x3yijzVT7k1oomfgFvIyhL0j8hR3yqohuEYi7aPxqtW-wl8yTldxxe0MG53rjmAT-qh9Acjco9nfA4BRrjtX2LSw_Yo8b0Gwcqqso7RDmo2xzuQwgS027p1AiCUyZTukrFUC-E1pTA4qNYI0max8CF7-CPch_oXcS4d5zkuPxWCRLFKtEMy59Tyh3-OLT-edXBggGayygY5DDZk3O0m3yCgvkC2VgWI_QRJY0IrUQS5PkifWphhtX0YRPB_4Cl4iulQ3p2WPAwtcNFgAw73WmwLE44ndF8bC5XcPRqJNdQCLUto1QGJ_Dz1z1brJAJplLqj5rekqDRxSd5jND2R3wdXhMFUQw7OashGzhGH9bMqx-u1Pzpu89DV4Fz36ge1zqMGTqu1OrH1Ofk5b-8Q31P3uJ-glVuigVlOXW8xcfJXfoxStD4AF-DAtPIBzaz5SD6ML8qK7IOObTc5Mpi6Z-AvaT2kQYZzQV3qlh9Al0_ORq4c9EzRF0r13BQL8grFWJLx5wrH4DIHClyic-jLRdFZBbjrmQf3FDNVWt2BGPeyi0KRgVImxa6cvEzrluXYYOeZK1-C-le_n8k15bRYRne0ZYnXpq2wqTXWPflZygQT-xFGxDOUx3W6eg7Sidyv49jRPKZ_mQHwU8YJBmV5MCzAV1B1H-sCS9yRhTkJfKrXUKbAt7o5L12_yzB27DG-9MA9i8wtQiHGL0QdOtBmQAfYqV2Y=",
+      "summary": []
+    },
+    {
+      "id": "msg_02dde1b74bdd77c9006ac26a25268087d1876ce35aacd951e8",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\"id\":\"post-0058\",\"status\":\"in Arbeit\",\"needs_input\":true,\"source\":{\"calendar_post_id\":\"post-0058\",\"date\":\"2026-10-06\",\"rubric\":\"Ein Lied, das mich begleitet\",\"liturgical_source\":\"\"},\"editorial_core\":{\"title\":\"David Lunsford – Thank God\",\"main_message\":\"Dank lässt sich nicht erzwingen. Sie kann zu einer geistlichen Haltung werden, die auch kleine Zeichen von Hoffnung wahrnimmt. Der persönliche Bezug und ein am Original geprüftes kurzes Liedfragment müssen vor der Veröffentlichung ergänzt werden.\",\"audience\":\"Menschen, die persönliche Zugänge zu Glaube, Musik und Spiritualität suchen und neue christliche Künstler:innen entdecken möchten.\",\"tone\":[\"persönlich\",\"ruhig\",\"klar\",\"zugänglich\"],\"source_notes\":[\"Ziel: Persönlich teilen, welche Liedzeile gerade begleitet, und dabei unbekanntere, progressive christliche Künstler:innen vorstellen.\",\"Vor Veröffentlichung wird eine konkrete persönliche Beobachtung oder Erfahrung aus der aktuellen Woche benötigt.\",\"Ein kurzes Liedfragment muss am Originaltext geprüft und urheberrechtlich zulässig verwendet werden.\",\"Zum Künstler liegen keine verifizierten biografischen oder musikalischen Hintergrundinformationen vor. Deshalb wird nur die bereitgestellte Zuordnung von Song und Künstler verwendet.\",\"Spotify: https://open.spotify.com/track/6IcvjdIOU5I8cZZC0DZQrx\"]},\"platforms\":{\"facebook\":{\"text\":\"In dieser Woche begleitet mich [PERSÖNLICHE BEOBACHTUNG ODER ERFAHRUNG EINFÜGEN].\\n\\nDazu passt eine kurze Zeile aus „Thank God“ von David Lunsford:\\n\\n„[AM ORIGINAL GEPRÜFTES KURZES LIEDFRAGMENT EINFÜGEN]“\\n\\nDiese Worte erinnern mich daran: Dank ist keine Pflichtübung. Dank kann eine Haltung sein. Ein bewusstes Wahrnehmen dessen, was trägt – auch wenn nicht alles gut ist.\\n\\nDer Song stammt von David Lunsford. Hier könnt ihr ihn hören:\\nhttps://open.spotify.com/track/6IcvjdIOU5I8cZZC0DZQrx\",\"headline\":\"Ein Lied, das mich begleitet: „Thank God“\"},\"instagram\":{\"caption\":\"In dieser Woche begleitet mich [PERSÖNLICHE BEOBACHTUNG ODER ERFAHRUNG EINFÜGEN].\\n\\nEine Zeile aus „Thank God“ von David Lunsford ist dabei besonders nah:\\n\\n„[AM ORIGINAL GEPRÜFTES KURZES LIEDFRAGMENT EINFÜGEN]“\\n\\nDank ist für mich keine Pflicht. Er lässt sich nicht auf Knopfdruck herstellen. Aber manchmal öffnet er den Blick für das, was trägt – mitten in einem unruhigen Tag.\\n\\nSong: „Thank God“ von David Lunsford\\nSpotify: https://open.spotify.com/track/6IcvjdIOU5I8cZZC0DZQrx\",\"carousel\":[]},\"mastodon\":{\"text\":\"In dieser Woche begleitet mich [PERSÖNLICHE BEOBACHTUNG EINFÜGEN]. Dazu eine Zeile aus „Thank God“ von David Lunsford: „[GEPRÜFTES KURZES LIEDFRAGMENT]“\\n\\nDank ist keine Pflichtübung. Er kann den Blick für das öffnen, was trägt.\\n\\nhttps://open.spotify.com/track/6IcvjdIOU5I8cZZC0DZQrx\"},\"bluesky\":{\"text\":\"Diese Woche begleitet mich [PERSÖNLICHE BEOBACHTUNG]. Dazu eine geprüfte kurze Zeile aus „Thank God“ von David Lunsford: „[LIEDFRAGMENT]“ Dank ist keine Pflicht. Er kann den Blick für das öffnen, was trägt. https://open.spotify.com/track/6IcvjdIOU5I8cZZC0DZQrx\"},\"story\":{\"slides\":[{\"text\":\"Ein Lied, das mich diese Woche begleitet: „Thank God“ von David Lunsford.\"},{\"text\":\"„[AM ORIGINAL GEPRÜFTES KURZES LIEDFRAGMENT EINFÜGEN]“\"},{\"text\":\"Dank ist keine Pflicht. Manchmal wächst er, wenn ich wahrnehme, was mich trägt.\"},{\"text\":\"Song auf Spotify anhören. Link-Sticker mit dem bereitgestellten Spotify-Link ergänzen.\"}]},\"reel\":{\"hook\":\"Ein Lied, das mich gerade begleitet.\",\"script\":\"In dieser Woche beschäftigt mich [PERSÖNLICHE BEOBACHTUNG ODER ERFAHRUNG EINFÜGEN]. Dazu passt eine kurze Zeile aus „Thank God“ von David Lunsford: „[AM ORIGINAL GEPRÜFTES KURZES LIEDFRAGMENT EINFÜGEN]“ Für mich steckt darin ein wichtiger Gedanke: Dank ist keine Pflicht. Er kann leise wachsen, wenn ich wahrnehme, was mich trägt.\",\"shots\":[\"Ruhige Nahaufnahme eines Fensters im weichen Morgenlicht\",\"Eine Hand legt Kopfhörer neben eine Tasse\",\"Langsame Aufnahme von Licht und Schatten auf einer schlichten Oberfläche\",\"Ruhiger Abschluss mit Kopfhörern im Bild; Spotify-Link nur über die Plattformfunktion ergänzen\"],\"duration_seconds\":25}},\"visual\":{\"concept\":\"Ruhiges, warmes Stillleben mit Kopfhörern, einer schlichten Tasse und weichem Licht. Die Bildsprache wirkt persönlich und unaufgeregt. Es gibt keine eingeblendeten Wörter oder Logos.\",\"flux_prompt\":\"Quiet editorial still life photography, simple headphones beside a plain ceramic cup, soft natural window light, warm neutral colors, gentle shadows, contemplative mood, realistic texture, minimal composition, ample negative space, no people, no typography, no visible branding\",\"negative_prompt\":\"text, letters, captions, logo, watermark, visible brand names, album cover, interface elements, distorted objects, oversaturated colors, dramatic religious symbols\",\"formats\":[\"4:5\",\"9:16\",\"1.91:1\"],\"alt_text\":\"Kopfhörer liegen neben einer schlichten Tasse im weichen Licht eines Fensters. Warme Farben und sanfte Schatten erzeugen eine ruhige, nachdenkliche Stimmung.\"},\"qa\":{\"warnings\":[\"Eine aktuelle persönliche Beobachtung oder Erfahrung muss vor der Veröffentlichung ergänzt werden.\",\"Das Liedfragment fehlt. Es muss am Originaltext geprüft, kurz gehalten und urheberrechtlich zulässig sein.\",\"Zum Künstler liegen keine verifizierten Hintergrundinformationen vor; keine weiteren Angaben ohne belastbare Quelle ergänzen.\",\"Der Alt-Text muss nach Auswahl oder Erstellung des finalen Bildes mit dem tatsächlichen Motiv abgeglichen werden.\",\"Spotify-Link und Link-Sticker vor Veröffentlichung technisch prüfen.\"],\"approved\":false},\"metadata\":{\"model\":\"OpenAI\",\"generated_at\":\"\",\"prompt_version\":\"1.0\",\"assets\":[\"https://open.spotify.com/track/6IcvjdIOU5I8cZZC0DZQrx\"]}}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "all_turns",
+    "effort": "medium",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1,
+  "text": {
+    "format": {
+      "type": "json_schema",
+      "description": null,
+      "name": "content_package",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "Idee",
+              "in Arbeit",
+              "zur Prüfung",
+              "freigegeben",
+              "terminiert",
+              "veröffentlicht",
+              "verworfen"
+            ]
+          },
+          "needs_input": {
+            "type": "boolean"
+          },
+          "source": {
+            "type": "object",
+            "properties": {
+              "calendar_post_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "date": {
+                "type": "string",
+                "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+              },
+              "rubric": {
+                "type": "string",
+                "minLength": 1
+              },
+              "liturgical_source": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "calendar_post_id",
+              "date",
+              "rubric",
+              "liturgical_source"
+            ],
+            "additionalProperties": false
+          },
+          "editorial_core": {
+            "type": "object",
+            "properties": {
+              "title": {
+                "type": "string"
+              },
+              "main_message": {
+                "type": "string"
+              },
+              "audience": {
+                "type": "string"
+              },
+              "tone": {
+                "minItems": 1,
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "source_notes": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "title",
+              "main_message",
+              "audience",
+              "tone",
+              "source_notes"
+            ],
+            "additionalProperties": false
+          },
+          "platforms": {
+            "type": "object",
+            "properties": {
+              "facebook": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  },
+                  "headline": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text",
+                  "headline"
+                ],
+                "additionalProperties": false
+              },
+              "instagram": {
+                "type": "object",
+                "properties": {
+                  "caption": {
+                    "type": "string"
+                  },
+                  "carousel": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "type": {
+                          "type": "string"
+                        },
+                        "text": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "type",
+                        "text"
+                      ],
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "required": [
+                  "caption",
+                  "carousel"
+                ],
+                "additionalProperties": false
+              },
+              "mastodon": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text"
+                ],
+                "additionalProperties": false
+              },
+              "bluesky": {
+                "default": {
+                  "text": ""
+                },
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text"
+                ],
+                "additionalProperties": false
+              },
+              "story": {
+                "type": "object",
+                "properties": {
+                  "slides": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "text": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "text"
+                      ],
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "required": [
+                  "slides"
+                ],
+                "additionalProperties": false
+              },
+              "reel": {
+                "type": "object",
+                "properties": {
+                  "hook": {
+                    "type": "string"
+                  },
+                  "script": {
+                    "type": "string"
+                  },
+                  "shots": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "duration_seconds": {
+                    "type": "integer",
+                    "minimum": 0,
+                    "maximum": 9007199254740991
+                  }
+                },
+                "required": [
+                  "hook",
+                  "script",
+                  "shots",
+                  "duration_seconds"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "required": [
+              "facebook",
+              "instagram",
+              "mastodon",
+              "bluesky",
+              "story",
+              "reel"
+            ],
+            "additionalProperties": false
+          },
+          "visual": {
+            "type": "object",
+            "properties": {
+              "concept": {
+                "type": "string"
+              },
+              "flux_prompt": {
+                "type": "string"
+              },
+              "negative_prompt": {
+                "type": "string",
+                "minLength": 1
+              },
+              "formats": {
+                "minItems": 1,
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "alt_text": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "concept",
+              "flux_prompt",
+              "negative_prompt",
+              "formats",
+              "alt_text"
+            ],
+            "additionalProperties": false
+          },
+          "qa": {
+            "type": "object",
+            "properties": {
+              "warnings": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "approved": {
+                "type": "boolean"
+              }
+            },
+            "required": [
+              "warnings",
+              "approved"
+            ],
+            "additionalProperties": false
+          },
+          "metadata": {
+            "type": "object",
+            "properties": {
+              "model": {
+                "type": "string"
+              },
+              "generated_at": {
+                "type": "string"
+              },
+              "prompt_version": {
+                "type": "string",
+                "minLength": 1
+              },
+              "assets": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "model",
+              "generated_at",
+              "prompt_version",
+              "assets"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "id",
+          "status",
+          "needs_input",
+          "source",
+          "editorial_core",
+          "platforms",
+          "visual",
+          "qa",
+          "metadata"
+        ],
+        "additionalProperties": false
+      },
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 1759,
+    "input_tokens_details": {
+      "cache_write_tokens": 1756,
+      "cached_tokens": 0
+    },
+    "output_tokens": 2201,
+    "output_tokens_details": {
+      "reasoning_tokens": 738
+    },
+    "total_tokens": 3960
+  },
+  "user": null,
+  "metadata": {},
+  "output_text": "{\"id\":\"post-0058\",\"status\":\"in Arbeit\",\"needs_input\":true,\"source\":{\"calendar_post_id\":\"post-0058\",\"date\":\"2026-10-06\",\"rubric\":\"Ein Lied, das mich begleitet\",\"liturgical_source\":\"\"},\"editorial_core\":{\"title\":\"David Lunsford – Thank God\",\"main_message\":\"Dank lässt sich nicht erzwingen. Sie kann zu einer geistlichen Haltung werden, die auch kleine Zeichen von Hoffnung wahrnimmt. Der persönliche Bezug und ein am Original geprüftes kurzes Liedfragment müssen vor der Veröffentlichung ergänzt werden.\",\"audience\":\"Menschen, die persönliche Zugänge zu Glaube, Musik und Spiritualität suchen und neue christliche Künstler:innen entdecken möchten.\",\"tone\":[\"persönlich\",\"ruhig\",\"klar\",\"zugänglich\"],\"source_notes\":[\"Ziel: Persönlich teilen, welche Liedzeile gerade begleitet, und dabei unbekanntere, progressive christliche Künstler:innen vorstellen.\",\"Vor Veröffentlichung wird eine konkrete persönliche Beobachtung oder Erfahrung aus der aktuellen Woche benötigt.\",\"Ein kurzes Liedfragment muss am Originaltext geprüft und urheberrechtlich zulässig verwendet werden.\",\"Zum Künstler liegen keine verifizierten biografischen oder musikalischen Hintergrundinformationen vor. Deshalb wird nur die bereitgestellte Zuordnung von Song und Künstler verwendet.\",\"Spotify: https://open.spotify.com/track/6IcvjdIOU5I8cZZC0DZQrx\"]},\"platforms\":{\"facebook\":{\"text\":\"In dieser Woche begleitet mich [PERSÖNLICHE BEOBACHTUNG ODER ERFAHRUNG EINFÜGEN].\\n\\nDazu passt eine kurze Zeile aus „Thank God“ von David Lunsford:\\n\\n„[AM ORIGINAL GEPRÜFTES KURZES LIEDFRAGMENT EINFÜGEN]“\\n\\nDiese Worte erinnern mich daran: Dank ist keine Pflichtübung. Dank kann eine Haltung sein. Ein bewusstes Wahrnehmen dessen, was trägt – auch wenn nicht alles gut ist.\\n\\nDer Song stammt von David Lunsford. Hier könnt ihr ihn hören:\\nhttps://open.spotify.com/track/6IcvjdIOU5I8cZZC0DZQrx\",\"headline\":\"Ein Lied, das mich begleitet: „Thank God“\"},\"instagram\":{\"caption\":\"In dieser Woche begleitet mich [PERSÖNLICHE BEOBACHTUNG ODER ERFAHRUNG EINFÜGEN].\\n\\nEine Zeile aus „Thank God“ von David Lunsford ist dabei besonders nah:\\n\\n„[AM ORIGINAL GEPRÜFTES KURZES LIEDFRAGMENT EINFÜGEN]“\\n\\nDank ist für mich keine Pflicht. Er lässt sich nicht auf Knopfdruck herstellen. Aber manchmal öffnet er den Blick für das, was trägt – mitten in einem unruhigen Tag.\\n\\nSong: „Thank God“ von David Lunsford\\nSpotify: https://open.spotify.com/track/6IcvjdIOU5I8cZZC0DZQrx\",\"carousel\":[]},\"mastodon\":{\"text\":\"In dieser Woche begleitet mich [PERSÖNLICHE BEOBACHTUNG EINFÜGEN]. Dazu eine Zeile aus „Thank God“ von David Lunsford: „[GEPRÜFTES KURZES LIEDFRAGMENT]“\\n\\nDank ist keine Pflichtübung. Er kann den Blick für das öffnen, was trägt.\\n\\nhttps://open.spotify.com/track/6IcvjdIOU5I8cZZC0DZQrx\"},\"bluesky\":{\"text\":\"Diese Woche begleitet mich [PERSÖNLICHE BEOBACHTUNG]. Dazu eine geprüfte kurze Zeile aus „Thank God“ von David Lunsford: „[LIEDFRAGMENT]“ Dank ist keine Pflicht. Er kann den Blick für das öffnen, was trägt. https://open.spotify.com/track/6IcvjdIOU5I8cZZC0DZQrx\"},\"story\":{\"slides\":[{\"text\":\"Ein Lied, das mich diese Woche begleitet: „Thank God“ von David Lunsford.\"},{\"text\":\"„[AM ORIGINAL GEPRÜFTES KURZES LIEDFRAGMENT EINFÜGEN]“\"},{\"text\":\"Dank ist keine Pflicht. Manchmal wächst er, wenn ich wahrnehme, was mich trägt.\"},{\"text\":\"Song auf Spotify anhören. Link-Sticker mit dem bereitgestellten Spotify-Link ergänzen.\"}]},\"reel\":{\"hook\":\"Ein Lied, das mich gerade begleitet.\",\"script\":\"In dieser Woche beschäftigt mich [PERSÖNLICHE BEOBACHTUNG ODER ERFAHRUNG EINFÜGEN]. Dazu passt eine kurze Zeile aus „Thank God“ von David Lunsford: „[AM ORIGINAL GEPRÜFTES KURZES LIEDFRAGMENT EINFÜGEN]“ Für mich steckt darin ein wichtiger Gedanke: Dank ist keine Pflicht. Er kann leise wachsen, wenn ich wahrnehme, was mich trägt.\",\"shots\":[\"Ruhige Nahaufnahme eines Fensters im weichen Morgenlicht\",\"Eine Hand legt Kopfhörer neben eine Tasse\",\"Langsame Aufnahme von Licht und Schatten auf einer schlichten Oberfläche\",\"Ruhiger Abschluss mit Kopfhörern im Bild; Spotify-Link nur über die Plattformfunktion ergänzen\"],\"duration_seconds\":25}},\"visual\":{\"concept\":\"Ruhiges, warmes Stillleben mit Kopfhörern, einer schlichten Tasse und weichem Licht. Die Bildsprache wirkt persönlich und unaufgeregt. Es gibt keine eingeblendeten Wörter oder Logos.\",\"flux_prompt\":\"Quiet editorial still life photography, simple headphones beside a plain ceramic cup, soft natural window light, warm neutral colors, gentle shadows, contemplative mood, realistic texture, minimal composition, ample negative space, no people, no typography, no visible branding\",\"negative_prompt\":\"text, letters, captions, logo, watermark, visible brand names, album cover, interface elements, distorted objects, oversaturated colors, dramatic religious symbols\",\"formats\":[\"4:5\",\"9:16\",\"1.91:1\"],\"alt_text\":\"Kopfhörer liegen neben einer schlichten Tasse im weichen Licht eines Fensters. Warme Farben und sanfte Schatten erzeugen eine ruhige, nachdenkliche Stimmung.\"},\"qa\":{\"warnings\":[\"Eine aktuelle persönliche Beobachtung oder Erfahrung muss vor der Veröffentlichung ergänzt werden.\",\"Das Liedfragment fehlt. Es muss am Originaltext geprüft, kurz gehalten und urheberrechtlich zulässig sein.\",\"Zum Künstler liegen keine verifizierten Hintergrundinformationen vor; keine weiteren Angaben ohne belastbare Quelle ergänzen.\",\"Der Alt-Text muss nach Auswahl oder Erstellung des finalen Bildes mit dem tatsächlichen Motiv abgeglichen werden.\",\"Spotify-Link und Link-Sticker vor Veröffentlichung technisch prüfen.\"],\"approved\":false},\"metadata\":{\"model\":\"OpenAI\",\"generated_at\":\"\",\"prompt_version\":\"1.0\",\"assets\":[\"https://open.spotify.com/track/6IcvjdIOU5I8cZZC0DZQrx\"]}}"
+}

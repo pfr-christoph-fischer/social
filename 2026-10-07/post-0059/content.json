@@ -10,7 +10,7 @@
   },
   "editorial_core": {
     "title": "Warum feiern wir Abendmahl?",
-    "main_message": "Serie: Warum feiern wir Abendmahl?",
+    "main_message": "Im Abendmahl erinnern sich Christinnen und Christen an Jesus Christus. Sie teilen Brot und Kelch, hören seine Zusage und erleben Gemeinschaft. Die Feier verbindet Erinnerung, Vergebung, Gegenwart und Hoffnung.",
     "audience": "breite Öffentlichkeit",
     "tone": [
       "klar",
@@ -22,54 +22,108 @@
       "Column: Glauben verstehen",
       "Production mode: in Monatsblöcken vollständig vorproduzierbar",
       "Structure: Frage als Einstieg | verständliche Erklärung | Bedeutung für heute | Gesprächsfrage",
-      "AI support notes: Skript | Karussellkarten | Reel-Hook | Untertitel | Alt-Text"
+      "AI support notes: Skript | Karussellkarten | Reel-Hook | Untertitel | Alt-Text",
+      "Für diesen Beitrag wurde keine liturgische Quelle angegeben.",
+      "Gestaltung, Verständnis und Zulassung zum Abendmahl unterscheiden sich zwischen Kirchen und Gemeinden."
     ]
   },
   "platforms": {
     "facebook": {
-      "text": "",
-      "headline": ""
+      "text": "Warum feiern Christinnen und Christen Abendmahl?\n\nDie Feier knüpft an das letzte Mahl Jesu mit seinen Jüngern an. Brot und Kelch erinnern an sein Leben, seinen Tod und seine Auferstehung. Zugleich geht es um mehr als einen Rückblick: Menschen hören Gottes Zusage, empfangen Vergebung und erleben Gemeinschaft mit Christus und miteinander.\n\nAm Tisch zählt nicht, was jemand leistet. Alle leben davon, dass Gott sich ihnen zuwendet. Das Abendmahl richtet den Blick deshalb auch nach vorn: auf Frieden, Versöhnung und Gottes kommende Welt.\n\nWie die Feier gestaltet wird, unterscheidet sich. Manche Gemeinden reichen Wein, andere Traubensaft. Auch Häufigkeit und Form sind verschieden.\n\nWas bedeutet das Abendmahl für dich: Erinnerung, Stärkung, Gemeinschaft oder etwas anderes?",
+      "headline": "Warum feiern wir Abendmahl?"
     },
     "instagram": {
-      "caption": "",
-      "carousel": []
+      "caption": "Brot wird geteilt. Der Kelch wird weitergereicht. Menschen hören: Gottes Zuwendung gilt euch.\n\nDas Abendmahl knüpft an das letzte Mahl Jesu mit seinen Jüngern an. Es erinnert an sein Leben, seinen Tod und seine Auferstehung. Zugleich stärkt es Menschen in der Gegenwart: durch Vergebung, Gemeinschaft und Hoffnung.\n\nDie Formen unterscheiden sich von Gemeinde zu Gemeinde. Im Zentrum steht die Zusage, dass Christus Menschen begegnet und verbindet.\n\nWas ist dir beim Abendmahl besonders wichtig?",
+      "carousel": [
+        {
+          "type": "Einstieg",
+          "text": "Warum feiern wir Abendmahl?"
+        },
+        {
+          "type": "Ursprung",
+          "text": "Die Feier knüpft an das letzte Mahl Jesu mit seinen Jüngern an."
+        },
+        {
+          "type": "Erklärung",
+          "text": "Brot und Kelch erinnern an Jesu Leben, Tod und Auferstehung."
+        },
+        {
+          "type": "Bedeutung",
+          "text": "Menschen hören Gottes Zusage. Sie empfangen Vergebung und neue Kraft."
+        },
+        {
+          "type": "Heute",
+          "text": "Am gemeinsamen Tisch wird sichtbar: Wir gehören zu Christus und zueinander."
+        },
+        {
+          "type": "Ausblick",
+          "text": "Das Abendmahl weckt Hoffnung auf Frieden, Versöhnung und Gottes kommende Welt."
+        },
+        {
+          "type": "Gesprächsfrage",
+          "text": "Was bedeutet das Abendmahl für dich?"
+        }
+      ]
     },
     "mastodon": {
-      "text": ""
+      "text": "Warum feiern wir Abendmahl? Die Feier knüpft an Jesu letztes Mahl mit seinen Jüngern an. Brot und Kelch erinnern an sein Leben, seinen Tod und seine Auferstehung. Zugleich geht es um die Gegenwart: um Gottes Zusage, Vergebung, Gemeinschaft und Hoffnung. Die Formen unterscheiden sich. Was ist dir beim Abendmahl wichtig?"
     },
     "bluesky": {
-      "text": ""
+      "text": "Warum feiern wir Abendmahl? Brot und Kelch erinnern an Jesus Christus. Die Feier verbindet Erinnerung, Vergebung, Gemeinschaft und Hoffnung. Ihre Formen unterscheiden sich. Was bedeutet das Abendmahl für dich?"
     },
     "story": {
-      "slides": []
+      "slides": [
+        {
+          "text": "Quiz: Woran knüpft das Abendmahl an?\nA: An Jesu letztes Mahl mit seinen Jüngern\nB: An Weihnachten\nC: An Pfingsten"
+        },
+        {
+          "text": "Die Antwort ist A. Jesus teilte beim letzten Mahl Brot und Kelch mit seinen Jüngern."
+        },
+        {
+          "text": "Das Abendmahl verbindet Erinnerung und Gegenwart: Gottes Zusage gilt Menschen heute."
+        },
+        {
+          "text": "Was ist dir dabei besonders wichtig?\nErinnerung · Vergebung · Gemeinschaft · Hoffnung"
+        }
+      ]
     },
     "reel": {
-      "hook": "",
-      "script": "",
-      "shots": [],
-      "duration_seconds": 0
+      "hook": "Warum teilen Christinnen und Christen beim Abendmahl Brot und Kelch?",
+      "script": "Warum feiern wir Abendmahl?\n\nDie Feier knüpft an das letzte Mahl Jesu mit seinen Jüngern an. Brot und Kelch erinnern an sein Leben, seinen Tod und seine Auferstehung.\n\nDoch das Abendmahl blickt nicht nur zurück. Menschen hören Gottes Zusage. Sie empfangen Vergebung. Und sie erleben: Wir gehören zu Christus und zueinander.\n\nDie Formen sind verschieden. Manche Gemeinden verwenden Wein, andere Traubensaft. Manche feiern häufig, andere seltener.\n\nDas Abendmahl verbindet Erinnerung, Gemeinschaft und Hoffnung.\n\nWas bedeutet es für dich?",
+      "shots": [
+        "Hände legen Brot auf einen schlichten Holztisch.",
+        "Ein einfacher Kelch wird neben das Brot gestellt.",
+        "Mehrere Menschen sitzen gemeinsam am Tisch; nur Hände und Unterarme sind zu sehen.",
+        "Eine Person bricht ein Stück Brot ab.",
+        "Der Kelch wird behutsam weitergereicht.",
+        "Ruhige Schlussaufnahme des gemeinsamen Tisches."
+      ],
+      "duration_seconds": 45
     }
   },
   "visual": {
-    "concept": "",
+    "concept": "Ein schlichter gemeinsamer Tisch mit Brot und Kelch. Mehrere Hände zeigen Teilen und Gemeinschaft. Natürliches Licht und zurückhaltende Farben vermitteln Ruhe und Offenheit.",
     "flux_prompt": "",
-    "negative_prompt": "text, letters, logo, watermark",
+    "negative_prompt": "text, letters, logo, watermark, inscription, poster, banner, church branding, ornate gold objects, dramatic stage lighting, distorted hands, extra fingers, artificial food, clutter",
     "formats": [
       "4:5",
       "9:16",
       "1.91:1"
     ],
-    "alt_text": ""
+    "alt_text": "Auf einem schlichten Holztisch liegen ein geteiltes Brot und ein einfacher Keramikbecher. Mehrere erwachsene Hände reichen Brot und Becher weiter. Warmes Tageslicht fällt auf den Tisch."
   },
   "qa": {
     "warnings": [
-      "Alt text must be completed before approval"
+      "Alt text must be completed before approval",
+      "Theologische Akzente und die Einladungspraxis beim Abendmahl unterscheiden sich zwischen Kirchen und Gemeinden.",
+      "Vor der Veröffentlichung sollte geprüft werden, ob Wein, Traubensaft oder beide Formen zur örtlichen Praxis passen.",
+      "Story-Quiz und Untertitel müssen bei der Produktion als barrierearme Plattformelemente umgesetzt werden."
     ],
     "approved": false
   },
   "metadata": {
-    "model": "",
-    "generated_at": "",
+    "model": "gpt-5.6-sol",
+    "generated_at": "2026-10-04T15:01:38.077Z",
     "prompt_version": "1.0",
     "assets": []
   }
