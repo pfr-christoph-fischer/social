@@ -56,5 +56,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "kirchenjahr-2026-10-04-ernt",
+    "contentDate": "2026-10-04",
+    "platform": "facebook",
+    "format": "square",
+    "scheduledAt": "2026-10-04T07:05:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Erntedank\n\nTitel: Segen und Dank\n\nWochenspruch: „Aller Augen warten auf dich, und du gibst ihnen ihre Speise zur rechten Zeit.“ (Ps 145,15)\n\nPsalm: Ps 104,1a.10-15.27-30.33\n\nAltes Testament: 5. Mose 8,7-18\n\nEvangelium: Mk 8,1-9\n\nEpistel: 2. Kor 9,6-15\n\nPredigttext: Mk 8,1-9\n\nLieder: Nun preiset alle Gottes Barmherzigkeit, EG 502; Auf, Seele, Gott zu loben, EGE 15\n\nWeitere Proprien an diesem Tag: 18. Sonntag nach Trinitatis",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Erntedank"
+    ],
+    "id": "6347fa88-22f3-445a-890f-52e7158f14ae",
+    "attemptCount": 1,
+    "remoteId": "1289703740890525_122124918837426121",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-15T16:58:45.870Z",
+    "updatedAt": "2026-10-04T07:05:28.584Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "PHOTO",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "kirchenjahr-2026-10-04-ernt",
+    "contentDate": "2026-10-04",
+    "platform": "mastodon",
+    "format": "square",
+    "scheduledAt": "2026-10-04T07:05:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Erntedank\n\nTitel: Segen und Dank\n\nWochenspruch: „Aller Augen warten auf dich, und du gibst ihnen ihre Speise zur rechten Zeit.“ (Ps 145,15)\n\nPsalm: Ps 104,1a.10-15.27-30.33\n\nAltes Testament: 5. Mose 8,7-18\n\nEvangelium: Mk 8,1-9\n\nEpistel: 2. Kor 9,6-15\n\nPredigttext: Mk 8,1-9\n\nLieder: Nun preiset alle Gottes Barmherzigkeit, EG 502; Auf, Seele, Gott zu loben, EGE 15\n\nWeitere Proprien an diesem Tag: 18. Sonntag nach Trinitatis",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Erntedank"
+    ],
+    "id": "c25d7d5e-4703-429f-b1de-7160e9a7e266",
+    "attemptCount": 1,
+    "remoteId": "117381367662657343",
+    "remoteUrl": "https://kirche.social/@christoph/117381367662657343",
+    "lastError": null,
+    "createdAt": "2026-08-15T16:58:45.896Z",
+    "updatedAt": "2026-10-04T07:05:29.080Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
