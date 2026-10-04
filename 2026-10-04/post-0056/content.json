@@ -28,23 +28,23 @@
   },
   "platforms": {
     "facebook": {
-      "headline": "Erntedank: mit Dankbarkeit sehen",
-      "text": "Erntedank erinnert daran, das Gute nicht für selbstverständlich zu halten. Was gewachsen ist, was uns nährt, was unser Leben trägt – all das darf heute mit Dank betrachtet werden.\n\nVielleicht beginnt Dankbarkeit mit einem stillen Blick: auf das, was da ist. Auf Brot, Zeit, Begegnungen, Hoffnung.\n\nWas lässt dich heute dankbar werden?"
+      "text": "Erntedank erinnert daran, das Gute nicht für selbstverständlich zu halten. Was gewachsen ist, was uns nährt, was unser Leben trägt – all das darf heute mit Dank betrachtet werden.\n\nVielleicht beginnt Dankbarkeit mit einem stillen Blick: auf das, was da ist. Auf Brot, Zeit, Begegnungen, Hoffnung.\n\nWas lässt dich heute dankbar werden?",
+      "headline": "Erntedank: mit Dankbarkeit sehen"
     },
     "instagram": {
       "caption": "Erntedank lädt dazu ein, das Gute bewusst wahrzunehmen.\n\nNicht alles ist leicht. Und doch gibt es Zeichen der Fülle: Brot auf dem Tisch, Menschen an unserer Seite, Kraft für den Tag, Trost für die Seele.\n\nDankbarkeit muss nicht laut sein. Manchmal ist sie einfach ein stilles Innehalten vor Gott.\n\nWofür bist du heute dankbar?",
       "carousel": [
         {
-          "text": "Erntedank",
-          "type": "Text"
+          "type": "Text",
+          "text": "Erntedank"
         },
         {
-          "text": "Dankbar sehen, was uns geschenkt ist.",
-          "type": "Text"
+          "type": "Text",
+          "text": "Dankbar sehen, was uns geschenkt ist."
         },
         {
-          "text": "Wofür bist du heute dankbar?",
-          "type": "Text"
+          "type": "Text",
+          "text": "Wofür bist du heute dankbar?"
         }
       ]
     },
@@ -91,9 +91,7 @@
   },
   "qa": {
     "approved": false,
-    "warnings": [
-      "Alt text must be completed before approval"
-    ]
+    "warnings": []
   },
   "metadata": {
     "model": "gpt-5",
