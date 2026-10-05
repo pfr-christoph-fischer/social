@@ -84,5 +84,91 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-10-05",
+    "contentDate": "2026-10-05",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-10-05T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Ich habe es gewagt, zu meinem Herrn zu reden, obwohl ich Staub und Asche bin.",
+    "assets": [
+      "render-square-01.jpg"
+    ],
+    "altTexts": [
+      "Ich habe es gewagt, zu meinem Herrn zu reden, obwohl ich Staub und Asche bin."
+    ],
+    "id": "24f55623-9ac8-4b73-8c45-fe12bd31d815",
+    "attemptCount": 1,
+    "remoteId": "18228315997328394",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:46:12.339Z",
+    "updatedAt": "2026-10-05T05:00:49.597Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-10-05",
+    "contentDate": "2026-10-05",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-10-05T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Ich habe es gewagt, zu meinem Herrn zu reden, obwohl ich Staub und Asche bin.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Ich habe es gewagt, zu meinem Herrn zu reden, obwohl ich Staub und Asche bin."
+    ],
+    "id": "7c463d5f-d8d4-49e2-b6e2-bce94009acd5",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3mx4544msi62v",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3mx4544msi62v",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:46:12.350Z",
+    "updatedAt": "2026-10-05T05:00:52.756Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-10-05",
+    "contentDate": "2026-10-05",
+    "platform": "linkedin",
+    "format": "default",
+    "scheduledAt": "2026-10-05T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Ich habe es gewagt, zu meinem Herrn zu reden, obwohl ich Staub und Asche bin.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Ich habe es gewagt, zu meinem Herrn zu reden, obwohl ich Staub und Asche bin."
+    ],
+    "id": "548ef38b-d627-47cf-bcc3-468f971392de",
+    "attemptCount": 1,
+    "remoteId": "urn:li:share:7512738567585095680",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:46:12.360Z",
+    "updatedAt": "2026-10-05T05:00:55.082Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 201
+    },
+    "retryHistory": []
   }
 ]
