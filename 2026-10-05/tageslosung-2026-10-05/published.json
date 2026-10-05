@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-10-05",
+    "contentDate": "2026-10-05",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-10-05T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Ich habe es gewagt, zu meinem Herrn zu reden, obwohl ich Staub und Asche bin.",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Ich habe es gewagt, zu meinem Herrn zu reden, obwohl ich Staub und Asche bin."
+    ],
+    "id": "3d43f270-39bb-4b57-94a0-3bd274c2bd17",
+    "attemptCount": 1,
+    "remoteId": "17889001005683577",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:46:12.318Z",
+    "updatedAt": "2026-10-05T05:00:33.668Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-10-05",
+    "contentDate": "2026-10-05",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-10-05T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Ich habe es gewagt, zu meinem Herrn zu reden, obwohl ich Staub und Asche bin.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Ich habe es gewagt, zu meinem Herrn zu reden, obwohl ich Staub und Asche bin."
+    ],
+    "id": "e18d152a-b586-47bd-8478-a7f7c91fa333",
+    "attemptCount": 1,
+    "remoteId": "117386538953255127",
+    "remoteUrl": "https://kirche.social/@christoph/117386538953255127",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:46:12.328Z",
+    "updatedAt": "2026-10-05T05:00:36.883Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
