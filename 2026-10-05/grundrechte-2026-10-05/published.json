@@ -84,5 +84,91 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-10-05",
+    "contentDate": "2026-10-05",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-10-05T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Jede Mutter hat Anspruch auf den Schutz und die Fürsorge der Gemeinschaft. (Grundgesetz, Artikel 6 Absatz 4)",
+    "assets": [
+      "render-square-01.jpg"
+    ],
+    "altTexts": [
+      "Jede Mutter hat Anspruch auf den Schutz und die Fürsorge der Gemeinschaft. (Grundgesetz, Artikel 6 Absatz 4)"
+    ],
+    "id": "2c272402-ea1c-4a20-abd1-35bb7af976ac",
+    "attemptCount": 1,
+    "remoteId": "18116712538787141",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:39:08.515Z",
+    "updatedAt": "2026-10-05T10:00:54.660Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-10-05",
+    "contentDate": "2026-10-05",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-10-05T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Jede Mutter hat Anspruch auf den Schutz und die Fürsorge der Gemeinschaft. (Grundgesetz, Artikel 6 Absatz 4)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Jede Mutter hat Anspruch auf den Schutz und die Fürsorge der Gemeinschaft. (Grundgesetz, Artikel 6 Absatz 4)"
+    ],
+    "id": "ba3b1211-1e35-49a5-bf47-38c45bad36da",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3mx4nuoru5w2j",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3mx4nuoru5w2j",
+    "lastError": null,
+    "createdAt": "2026-08-26T15:39:08.561Z",
+    "updatedAt": "2026-10-05T10:00:56.811Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-10-05",
+    "contentDate": "2026-10-05",
+    "platform": "linkedin",
+    "format": "default",
+    "scheduledAt": "2026-10-05T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Jede Mutter hat Anspruch auf den Schutz und die Fürsorge der Gemeinschaft. (Grundgesetz, Artikel 6 Absatz 4)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Jede Mutter hat Anspruch auf den Schutz und die Fürsorge der Gemeinschaft. (Grundgesetz, Artikel 6 Absatz 4)"
+    ],
+    "id": "d576dc38-301a-4ec7-9092-418b98620fdd",
+    "attemptCount": 1,
+    "remoteId": "urn:li:share:7512814085198258177",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:39:08.606Z",
+    "updatedAt": "2026-10-05T10:00:59.565Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 201
+    },
+    "retryHistory": []
   }
 ]
