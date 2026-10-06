@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-10-06",
+    "contentDate": "2026-10-06",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-10-06T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Lass mich nicht zuschanden werden, denn ich traue auf dich!",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Lass mich nicht zuschanden werden, denn ich traue auf dich!"
+    ],
+    "id": "79576dfb-f5b6-47cc-97bf-5625d3324ffe",
+    "attemptCount": 1,
+    "remoteId": "18126490826493985",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:46:14.436Z",
+    "updatedAt": "2026-10-06T05:00:39.878Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-10-06",
+    "contentDate": "2026-10-06",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-10-06T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Lass mich nicht zuschanden werden, denn ich traue auf dich!",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Lass mich nicht zuschanden werden, denn ich traue auf dich!"
+    ],
+    "id": "c03d925e-5c87-4a4d-a123-9c57aa3819ee",
+    "attemptCount": 1,
+    "remoteId": "117392201609165886",
+    "remoteUrl": "https://kirche.social/@christoph/117392201609165886",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:46:14.447Z",
+    "updatedAt": "2026-10-06T05:00:42.026Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
