@@ -84,5 +84,91 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-10-06",
+    "contentDate": "2026-10-06",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-10-06T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Lass mich nicht zuschanden werden, denn ich traue auf dich!",
+    "assets": [
+      "render-square-01.jpg"
+    ],
+    "altTexts": [
+      "Lass mich nicht zuschanden werden, denn ich traue auf dich!"
+    ],
+    "id": "f030358d-4714-42ed-ac20-e9d5faf67297",
+    "attemptCount": 1,
+    "remoteId": "18088274420273737",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:46:14.456Z",
+    "updatedAt": "2026-10-06T05:00:56.048Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-10-06",
+    "contentDate": "2026-10-06",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-10-06T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Lass mich nicht zuschanden werden, denn ich traue auf dich!",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Lass mich nicht zuschanden werden, denn ich traue auf dich!"
+    ],
+    "id": "38dde061-69b0-4dca-b554-10ff45f468d7",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3mx6nl7gkmp2j",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3mx6nl7gkmp2j",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:46:14.465Z",
+    "updatedAt": "2026-10-06T05:00:58.315Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-10-06",
+    "contentDate": "2026-10-06",
+    "platform": "linkedin",
+    "format": "default",
+    "scheduledAt": "2026-10-06T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Lass mich nicht zuschanden werden, denn ich traue auf dich!",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Lass mich nicht zuschanden werden, denn ich traue auf dich!"
+    ],
+    "id": "4b982532-ac70-42c6-86a9-c09330d5ef3d",
+    "attemptCount": 1,
+    "remoteId": "urn:li:share:7513100979278409728",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:46:14.475Z",
+    "updatedAt": "2026-10-06T05:01:00.706Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 201
+    },
+    "retryHistory": []
   }
 ]
