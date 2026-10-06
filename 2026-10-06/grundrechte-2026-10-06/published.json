@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-10-06",
+    "contentDate": "2026-10-06",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-10-06T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Heiratsfähige Männer und Frauen haben ohne jede Beschränkung auf Grund der Rasse, der Staatsangehörigkeit oder der Religion das Recht, zu heiraten und eine Familie zu gründen. (Allgemeine Erklärung der Menschenrechte, Artikel 16 Absatz 1)",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Heiratsfähige Männer und Frauen haben ohne jede Beschränkung auf Grund der Rasse, der Staatsangehörigkeit oder der Religion das Recht, zu heiraten und eine Familie zu gründen. (Allgemeine Erklärung der Menschenrechte, Artikel 16 Absatz 1)"
+    ],
+    "id": "5bd950b2-22a2-4d64-8774-d48101a751b9",
+    "attemptCount": 1,
+    "remoteId": "18072865574732239",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:39:11.503Z",
+    "updatedAt": "2026-10-06T10:00:38.809Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-10-06",
+    "contentDate": "2026-10-06",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-10-06T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Heiratsfähige Männer und Frauen haben ohne jede Beschränkung auf Grund der Rasse, der Staatsangehörigkeit oder der Religion das Recht, zu heiraten und eine Familie zu gründen. (Allgemeine Erklärung der Menschenrechte, Artikel 16 Absatz 1)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Heiratsfähige Männer und Frauen haben ohne jede Beschränkung auf Grund der Rasse, der Staatsangehörigkeit oder der Religion das Recht, zu heiraten und eine Familie zu gründen. (Allgemeine Erklärung der Menschenrechte, Artikel 16 Absatz 1)"
+    ],
+    "id": "6b228f78-a77f-42cd-bc5f-79d9e78c8e3f",
+    "attemptCount": 1,
+    "remoteId": "117393381201545946",
+    "remoteUrl": "https://kirche.social/@christoph/117393381201545946",
+    "lastError": null,
+    "createdAt": "2026-08-26T15:39:11.568Z",
+    "updatedAt": "2026-10-06T10:00:41.267Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
