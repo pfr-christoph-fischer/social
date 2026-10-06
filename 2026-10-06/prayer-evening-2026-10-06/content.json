@@ -1,0 +1,95 @@
+{
+  "id": "prayer-evening-2026-10-06",
+  "status": "in Arbeit",
+  "needs_input": true,
+  "source": {
+    "calendar_post_id": "prayer-evening-2026-10-06",
+    "date": "2026-10-06",
+    "rubric": "Abendgebet",
+    "liturgical_source": ""
+  },
+  "editorial_core": {
+    "title": "Abendgebet",
+    "main_message": "Der Abend lädt dazu ein, den Tag mit Dank, Erschöpfung und offen gebliebenen Dingen Gott anzuvertrauen. Für die verbindlichen aktuellen Fürbitten fehlen jedoch zwei hinreichend verlässlich verifizierte konkrete Situationen aus der Nachrichtenlage, die redaktionell sicher in das Gebet eingearbeitet werden können.",
+    "audience": "breite Öffentlichkeit",
+    "tone": [
+      "ruhig",
+      "hoffnungsvoll",
+      "geborgen"
+    ],
+    "source_notes": [
+      "Websuche durchgeführt.",
+      "tagesschau-Archiv zum 6. Oktober 2026 gefunden.",
+      "Dort erkennbar: Berichte zur konstituierenden Sitzung des Landtags in Sachsen-Anhalt und zu Truppenentsendungen von Türkei und Pakistan nach Saudi-Arabien wegen Huthi-Angriffen.",
+      "Zusätzliche verlässliche Bestätigung insbesondere aus SWR Aktuell Baden-Württemberg konnte in der Suche nicht belastbar erschlossen werden.",
+      "Da für Gebetsposts laut Vorgabe mindestens zwei konkrete aktuelle Situationen aus verlässlicher Prüfung nötig sind, wird needs_input auf true gesetzt.",
+      "Erforderlich: redaktionell geprüfte aktuelle Nachrichtenhinweise oder Links, idealerweise mindestens ein bestätigter Bezug aus SWR Aktuell Baden-Württemberg und ein weiterer internationaler oder nationaler Bezug."
+    ]
+  },
+  "platforms": {
+    "facebook": {
+      "text": "Für dieses Abendgebet fehlen uns im Moment noch zwei redaktionell sicher verifizierte aktuelle Gebetsanliegen. Darum geht dieser Entwurf noch nicht in die Freigabe.",
+      "headline": "Abendgebet"
+    },
+    "instagram": {
+      "caption": "Dieser Entwurf braucht noch redaktionell geprüfte aktuelle Bezüge, bevor er veröffentlicht werden kann.",
+      "carousel": [
+        {
+          "type": "text",
+          "text": "Abendgebet\n\nDieser Entwurf braucht noch zwei verlässlich geprüfte aktuelle Gebetsanliegen."
+        }
+      ]
+    },
+    "mastodon": {
+      "text": "Dieser Entwurf für das Abendgebet braucht noch zwei redaktionell sicher verifizierte aktuelle Gebetsanliegen und ist daher noch nicht freigabefähig."
+    },
+    "bluesky": {
+      "text": "Dieser Entwurf für das Abendgebet braucht noch zwei redaktionell sicher verifizierte aktuelle Gebetsanliegen und ist noch nicht freigabefähig."
+    },
+    "story": {
+      "slides": [
+        {
+          "text": "Abendgebet"
+        },
+        {
+          "text": "Für die Veröffentlichung fehlen noch verlässlich geprüfte aktuelle Gebetsanliegen."
+        }
+      ]
+    },
+    "reel": {
+      "hook": "Abendgebet",
+      "script": "Für diesen Beitrag fehlen noch verlässlich geprüfte aktuelle Gebetsanliegen. Darum bleibt der Entwurf vorerst in der Prüfung.",
+      "shots": [
+        "Ruhiger Abendhimmel",
+        "Licht in einem Fenster",
+        "Leere Bank im Dämmerlicht"
+      ],
+      "duration_seconds": 12
+    }
+  },
+  "visual": {
+    "concept": "Stiller Abend mit weichem Licht am Fenster, draußen setzt Dämmerung ein. Die Szene vermittelt Ruhe, Loslassen und behütete Nacht.",
+    "flux_prompt": "Photorealistic quiet evening scene, soft dusk light, a simple window with warm indoor glow, calm sky, subtle shadows, contemplative mood, minimal composition, natural colors, no people, no symbols in foreground, atmosphere of rest and trust",
+    "negative_prompt": "text, letters, logo, watermark",
+    "formats": [
+      "4:5",
+      "9:16",
+      "1.91:1"
+    ],
+    "alt_text": "Ein stilles Fenster im warmen Abendlicht. Draußen liegt die Dämmerung über einem ruhigen Himmel. Die Szene wirkt schlicht, friedlich und offen für ein Abendgebet."
+  },
+  "qa": {
+    "warnings": [
+      "Alt text must be completed before approval",
+      "Aktuelle Gebetsanliegen fehlen noch in verlässlich geprüfter Form.",
+      "Mindestens zwei konkrete aktuelle Situationen müssen vor Freigabe ausdrücklich in main_message und Plattformtexten vorkommen."
+    ],
+    "approved": false
+  },
+  "metadata": {
+    "model": "gpt-5.4-2026-03-05",
+    "generated_at": "2026-10-06T09:00:41.551Z",
+    "prompt_version": "1.0",
+    "assets": []
+  }
+}
