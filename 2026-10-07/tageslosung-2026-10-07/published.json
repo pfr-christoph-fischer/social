@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-10-07",
+    "contentDate": "2026-10-07",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-10-07T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Suchet das Gute und nicht das Böse, auf dass ihr lebet.",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Suchet das Gute und nicht das Böse, auf dass ihr lebet."
+    ],
+    "id": "55a4ab99-2813-430a-91f1-f45d611c6fce",
+    "attemptCount": 1,
+    "remoteId": "17910865434540526",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:46:16.564Z",
+    "updatedAt": "2026-10-07T05:00:57.788Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-10-07",
+    "contentDate": "2026-10-07",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-10-07T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Suchet das Gute und nicht das Böse, auf dass ihr lebet.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Suchet das Gute und nicht das Böse, auf dass ihr lebet."
+    ],
+    "id": "bda97ddc-4b58-4ebd-aed6-eac730f2c5d2",
+    "attemptCount": 1,
+    "remoteId": "117397865121384866",
+    "remoteUrl": "https://kirche.social/@christoph/117397865121384866",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:46:16.577Z",
+    "updatedAt": "2026-10-07T05:01:00.385Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
