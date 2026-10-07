@@ -84,5 +84,91 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-10-07",
+    "contentDate": "2026-10-07",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-10-07T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Suchet das Gute und nicht das Böse, auf dass ihr lebet.",
+    "assets": [
+      "render-square-01.jpg"
+    ],
+    "altTexts": [
+      "Suchet das Gute und nicht das Böse, auf dass ihr lebet."
+    ],
+    "id": "cd3d57ea-b708-4aaf-8656-65d7c29b7286",
+    "attemptCount": 1,
+    "remoteId": "17888676114684789",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:46:16.591Z",
+    "updatedAt": "2026-10-07T05:01:17.633Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-10-07",
+    "contentDate": "2026-10-07",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-10-07T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Suchet das Gute und nicht das Böse, auf dass ihr lebet.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Suchet das Gute und nicht das Böse, auf dass ihr lebet."
+    ],
+    "id": "c07e7776-3eaa-414d-a063-1792bf6d3366",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3mxb62vqkjd2t",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3mxb62vqkjd2t",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:46:16.603Z",
+    "updatedAt": "2026-10-07T05:01:24.149Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-10-07",
+    "contentDate": "2026-10-07",
+    "platform": "linkedin",
+    "format": "default",
+    "scheduledAt": "2026-10-07T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Suchet das Gute und nicht das Böse, auf dass ihr lebet.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Suchet das Gute und nicht das Böse, auf dass ihr lebet."
+    ],
+    "id": "689e027f-667e-49d1-9eb4-9f113efd76ca",
+    "attemptCount": 1,
+    "remoteId": "urn:li:share:7513463479790542848",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:46:16.613Z",
+    "updatedAt": "2026-10-07T05:01:27.525Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 201
+    },
+    "retryHistory": []
   }
 ]
