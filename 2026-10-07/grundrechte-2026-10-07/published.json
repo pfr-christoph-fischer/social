@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-10-07",
+    "contentDate": "2026-10-07",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-10-07T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Eine Ehe darf nur bei freier und uneingeschränkter Willenseinigung der künftigen Ehegatten geschlossen werden. (Allgemeine Erklärung der Menschenrechte, Artikel 16 Absatz 2)",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Eine Ehe darf nur bei freier und uneingeschränkter Willenseinigung der künftigen Ehegatten geschlossen werden. (Allgemeine Erklärung der Menschenrechte, Artikel 16 Absatz 2)"
+    ],
+    "id": "84cdf94e-85bc-4ff2-86c4-62b3070b64d8",
+    "attemptCount": 1,
+    "remoteId": "17911591902494043",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:39:14.607Z",
+    "updatedAt": "2026-10-07T10:00:40.852Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-10-07",
+    "contentDate": "2026-10-07",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-10-07T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Eine Ehe darf nur bei freier und uneingeschränkter Willenseinigung der künftigen Ehegatten geschlossen werden. (Allgemeine Erklärung der Menschenrechte, Artikel 16 Absatz 2)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Eine Ehe darf nur bei freier und uneingeschränkter Willenseinigung der künftigen Ehegatten geschlossen werden. (Allgemeine Erklärung der Menschenrechte, Artikel 16 Absatz 2)"
+    ],
+    "id": "b4373a4a-66bc-4e55-ae84-c9c4f493cc73",
+    "attemptCount": 1,
+    "remoteId": "117399043760127613",
+    "remoteUrl": "https://kirche.social/@christoph/117399043760127613",
+    "lastError": null,
+    "createdAt": "2026-08-26T15:39:14.650Z",
+    "updatedAt": "2026-10-07T10:00:45.003Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
