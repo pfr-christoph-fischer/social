@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-10-08",
+    "contentDate": "2026-10-08",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-10-08T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Die Weissagung wird ja noch erfüllt werden zu ihrer Zeit. Wenn sie sich auch hinzieht, so harre ihrer.",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Die Weissagung wird ja noch erfüllt werden zu ihrer Zeit. Wenn sie sich auch hinzieht, so harre ihrer."
+    ],
+    "id": "835b5932-68d8-4b14-9e64-d2c0bbb73317",
+    "attemptCount": 1,
+    "remoteId": "18142472803594244",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:46:18.852Z",
+    "updatedAt": "2026-10-08T05:00:51.480Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-10-08",
+    "contentDate": "2026-10-08",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-10-08T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Die Weissagung wird ja noch erfüllt werden zu ihrer Zeit. Wenn sie sich auch hinzieht, so harre ihrer.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Die Weissagung wird ja noch erfüllt werden zu ihrer Zeit. Wenn sie sich auch hinzieht, so harre ihrer."
+    ],
+    "id": "2e6347fb-4504-4c70-8006-7faccf791205",
+    "attemptCount": 1,
+    "remoteId": "117403527059964397",
+    "remoteUrl": "https://kirche.social/@christoph/117403527059964397",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:46:18.867Z",
+    "updatedAt": "2026-10-08T05:00:54.820Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
