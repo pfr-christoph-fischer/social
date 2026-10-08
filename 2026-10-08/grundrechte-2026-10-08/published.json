@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-10-08",
+    "contentDate": "2026-10-08",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-10-08T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Die Familie ist die natürliche Grundeinheit der Gesellschaft und hat Anspruch auf Schutz durch Gesellschaft und Staat. (Allgemeine Erklärung der Menschenrechte, Artikel 16 Absatz 3)",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Die Familie ist die natürliche Grundeinheit der Gesellschaft und hat Anspruch auf Schutz durch Gesellschaft und Staat. (Allgemeine Erklärung der Menschenrechte, Artikel 16 Absatz 3)"
+    ],
+    "id": "e496668b-8ae2-405b-a482-a12c012a4233",
+    "attemptCount": 1,
+    "remoteId": "17911180089500300",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:39:17.504Z",
+    "updatedAt": "2026-10-08T10:00:37.056Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-10-08",
+    "contentDate": "2026-10-08",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-10-08T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Die Familie ist die natürliche Grundeinheit der Gesellschaft und hat Anspruch auf Schutz durch Gesellschaft und Staat. (Allgemeine Erklärung der Menschenrechte, Artikel 16 Absatz 3)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Die Familie ist die natürliche Grundeinheit der Gesellschaft und hat Anspruch auf Schutz durch Gesellschaft und Staat. (Allgemeine Erklärung der Menschenrechte, Artikel 16 Absatz 3)"
+    ],
+    "id": "94900cdb-080d-4e02-b20b-490edea6d859",
+    "attemptCount": 1,
+    "remoteId": "117404705758747164",
+    "remoteUrl": "https://kirche.social/@christoph/117404705758747164",
+    "lastError": null,
+    "createdAt": "2026-08-26T15:39:17.545Z",
+    "updatedAt": "2026-10-08T10:00:40.413Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
