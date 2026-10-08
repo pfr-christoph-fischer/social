@@ -84,5 +84,91 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-10-08",
+    "contentDate": "2026-10-08",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-10-08T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Die Familie ist die natürliche Grundeinheit der Gesellschaft und hat Anspruch auf Schutz durch Gesellschaft und Staat. (Allgemeine Erklärung der Menschenrechte, Artikel 16 Absatz 3)",
+    "assets": [
+      "render-square-01.jpg"
+    ],
+    "altTexts": [
+      "Die Familie ist die natürliche Grundeinheit der Gesellschaft und hat Anspruch auf Schutz durch Gesellschaft und Staat. (Allgemeine Erklärung der Menschenrechte, Artikel 16 Absatz 3)"
+    ],
+    "id": "21f12cdc-a40d-416a-bca0-9be7f225e1de",
+    "attemptCount": 1,
+    "remoteId": "18114362555020537",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:39:17.597Z",
+    "updatedAt": "2026-10-08T10:00:53.738Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-10-08",
+    "contentDate": "2026-10-08",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-10-08T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Die Familie ist die natürliche Grundeinheit der Gesellschaft und hat Anspruch auf Schutz durch Gesellschaft und Staat. (Allgemeine Erklärung der Menschenrechte, Artikel 16 Absatz 3)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Die Familie ist die natürliche Grundeinheit der Gesellschaft und hat Anspruch auf Schutz durch Gesellschaft und Staat. (Allgemeine Erklärung der Menschenrechte, Artikel 16 Absatz 3)"
+    ],
+    "id": "552baf12-995c-4682-8e6c-ef9807ac3148",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3mxe7bgyyrt2w",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3mxe7bgyyrt2w",
+    "lastError": null,
+    "createdAt": "2026-08-26T15:39:17.642Z",
+    "updatedAt": "2026-10-08T10:00:56.799Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-10-08",
+    "contentDate": "2026-10-08",
+    "platform": "linkedin",
+    "format": "default",
+    "scheduledAt": "2026-10-08T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Die Familie ist die natürliche Grundeinheit der Gesellschaft und hat Anspruch auf Schutz durch Gesellschaft und Staat. (Allgemeine Erklärung der Menschenrechte, Artikel 16 Absatz 3)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Die Familie ist die natürliche Grundeinheit der Gesellschaft und hat Anspruch auf Schutz durch Gesellschaft und Staat. (Allgemeine Erklärung der Menschenrechte, Artikel 16 Absatz 3)"
+    ],
+    "id": "d5b2d96e-b8e6-4b15-b924-180b0d1ba713",
+    "attemptCount": 1,
+    "remoteId": "urn:li:share:7513901258714431488",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:39:17.681Z",
+    "updatedAt": "2026-10-08T10:01:02.040Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 201
+    },
+    "retryHistory": []
   }
 ]
