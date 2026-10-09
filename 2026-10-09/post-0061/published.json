@@ -89,5 +89,104 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "post-0061",
+    "contentDate": "2026-10-09",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-10-09T07:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Kurzes Wochengebet:\nGott, lehre uns danken, ohne zu vergessen. Lehre uns teilen, ohne zu rechnen. Lehre uns frei zu werden von Gier und Angst. Gib uns offene Augen, klare Hände und ein weites Herz. Trage uns in diesen Abend.",
+    "assets": [
+      "render-instagram-feed-01.jpg",
+      "render-instagram-feed-02.jpg",
+      "render-instagram-feed-03.jpg",
+      "render-instagram-feed-04.jpg",
+      "render-instagram-feed-05.jpg",
+      "render-instagram-feed-06.jpg"
+    ],
+    "altTexts": [
+      "Ein schlicht gedeckter Tisch im warmen Abendlicht. Auf dem Tisch stehen Brot, Wasser und wenige Lebensmittel. Eine Hand liegt ruhig neben dem Teller. Die Szene wirkt still, dankbar und nachdenklich."
+    ],
+    "id": "4511e63e-a6a4-484b-99cd-0db331241c18",
+    "attemptCount": 1,
+    "remoteId": "18127992502829200",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-10-09T04:44:40.492Z",
+    "updatedAt": "2026-10-09T07:02:25.327Z",
+    "responseMetadata": {
+      "mediaCount": 6,
+      "mediaType": "CAROUSEL",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "post-0061",
+    "contentDate": "2026-10-09",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-10-09T07:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Kurzes Wochengebet:\nGott, lehre uns danken, ohne zu vergessen. Lehre uns teilen, ohne zu rechnen. Lehre uns frei zu werden von Gier und Angst. Gib uns offene Augen, klare Hände und ein weites Herz. Trage uns in diesen Abend.",
+    "assets": [
+      "render-instagram-feed-01.png",
+      "render-instagram-feed-02.png",
+      "render-instagram-feed-03.png",
+      "render-instagram-feed-04.png"
+    ],
+    "altTexts": [
+      "Ein schlicht gedeckter Tisch im warmen Abendlicht. Auf dem Tisch stehen Brot, Wasser und wenige Lebensmittel. Eine Hand liegt ruhig neben dem Teller. Die Szene wirkt still, dankbar und nachdenklich."
+    ],
+    "id": "64567fae-af71-4b85-9dfc-7619b5d1dba2",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3mxgfrdd67w2i",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3mxgfrdd67w2i",
+    "lastError": null,
+    "createdAt": "2026-10-09T04:44:40.580Z",
+    "updatedAt": "2026-10-09T07:02:31.807Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 4
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "post-0061",
+    "contentDate": "2026-10-09",
+    "platform": "linkedin",
+    "format": "default",
+    "scheduledAt": "2026-10-09T07:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Ein kurzes Gebet zum Wochenabschluss.\n\nZwischen Einkaufszettel, Terminen und dem, was auf dem Tisch liegt,\nsehen wir, wie viel uns anvertraut ist.\n\nGott,\nlehre uns danken, ohne zu vergessen.\nLehre uns teilen, ohne zu rechnen.\nLehre uns frei zu werden von Gier und Angst.\nGib uns offene Augen für das Nötige,\nklare Hände für das Richtige,\nund ein weites Herz für andere.\nTrage uns in diesen Abend und in das, was kommt.",
+    "assets": [
+      "render-instagram-feed-01.png",
+      "render-instagram-feed-02.png",
+      "render-instagram-feed-03.png",
+      "render-instagram-feed-04.png",
+      "render-instagram-feed-05.png",
+      "render-instagram-feed-06.png"
+    ],
+    "altTexts": [
+      "Ein schlicht gedeckter Tisch im warmen Abendlicht. Auf dem Tisch stehen Brot, Wasser und wenige Lebensmittel. Eine Hand liegt ruhig neben dem Teller. Die Szene wirkt still, dankbar und nachdenklich."
+    ],
+    "id": "7ab3c273-5022-4408-a830-ce769e2f9501",
+    "attemptCount": 1,
+    "remoteId": "urn:li:ugcPost:7514218786489737216",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-10-09T04:44:40.670Z",
+    "updatedAt": "2026-10-09T07:02:46.700Z",
+    "responseMetadata": {
+      "mediaCount": 6,
+      "mediaType": "MULTI_IMAGE",
+      "status": 201
+    },
+    "retryHistory": []
   }
 ]
