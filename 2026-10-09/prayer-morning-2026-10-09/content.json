@@ -26,35 +26,35 @@
   },
   "platforms": {
     "facebook": {
-      "text": "Gott, du Ursprung dieses Morgens,\ndas erste Licht fällt auf Dächer, Bäume und Wege.\nUnd auch auf mich.\n\nIch danke dir für diesen neuen Tag.\nFür Atem. Für Kraft. Für alles, was heute wachsen darf.\n\n„Dies ist der Tag, den der HERR gemacht hat“ (Psalm 118,24).\nLass diesen Satz in mir mitgehen.\nWenn ich ruhig bin.\nWenn ich entscheiden muss.\nWenn ich nicht weiß, was kommt.\n\nDu bist schon da.\nDeine Güte ist vor mir her.\nDein Licht reicht weiter als meine Sorge.\n\nIch nehme diesen Tag aus deiner Hand.\nMit offenem Herzen.\nMit wachem Blick.\nMit Hoffnung.\n\nAmen.",
-      "headline": "Morgengebet: Dies ist der Tag"
+      "headline": "Morgengebet: Dies ist der Tag",
+      "text": "Gott, du Ursprung dieses Morgens,\ndas erste Licht fällt auf Dächer, Bäume und Wege.\nUnd auch auf mich.\n\nIch danke dir für diesen neuen Tag.\nFür Atem. Für Kraft. Für alles, was heute wachsen darf.\n\n„Dies ist der Tag, den der HERR gemacht hat“ (Psalm 118,24).\nLass diesen Satz in mir mitgehen.\nWenn ich ruhig bin.\nWenn ich entscheiden muss.\nWenn ich nicht weiß, was kommt.\n\nDu bist schon da.\nDeine Güte ist vor mir her.\nDein Licht reicht weiter als meine Sorge.\n\nIch nehme diesen Tag aus deiner Hand.\nMit offenem Herzen.\nMit wachem Blick.\nMit Hoffnung.\n\nAmen."
     },
     "instagram": {
       "caption": "Gott, du Ursprung dieses Morgens.\nDas erste Licht fällt auf die Welt. Und auch auf mich.\n\nIch danke dir für diesen neuen Tag.\nFür Atem. Für Kraft. Für alles, was heute wachsen darf.\n\n„Dies ist der Tag, den der HERR gemacht hat“ (Psalm 118,24).\nLass diesen Satz in mir mitgehen.\n\nDu bist schon da.\nDeine Güte ist vor mir her.\nDein Licht reicht weiter als meine Sorge.\n\nIch nehme diesen Tag aus deiner Hand.\nMit Hoffnung.\n\nAmen.",
       "carousel": [
         {
-          "type": "text",
-          "text": "Gott, du Ursprung dieses Morgens."
+          "text": "Gott, du Ursprung dieses Morgens.",
+          "type": "text"
         },
         {
-          "type": "text",
-          "text": "Das erste Licht fällt auf die Welt. Und auch auf mich."
+          "text": "Das erste Licht fällt auf die Welt. Und auch auf mich.",
+          "type": "text"
         },
         {
-          "type": "text",
-          "text": "Ich danke dir für diesen neuen Tag."
+          "text": "Ich danke dir für diesen neuen Tag.",
+          "type": "text"
         },
         {
-          "type": "text",
-          "text": "„Dies ist der Tag, den der HERR gemacht hat“\nPsalm 118,24"
+          "text": "„Dies ist der Tag, den der HERR gemacht hat“\nPsalm 118,24",
+          "type": "text"
         },
         {
-          "type": "text",
-          "text": "Dein Licht reicht weiter als meine Sorge."
+          "text": "Dein Licht reicht weiter als meine Sorge.",
+          "type": "text"
         },
         {
-          "type": "text",
-          "text": "Ich nehme diesen Tag aus deiner Hand. Mit Hoffnung. Amen."
+          "text": "Ich nehme diesen Tag aus deiner Hand. Mit Hoffnung. Amen.",
+          "type": "text"
         }
       ]
     },
@@ -112,11 +112,11 @@
     "alt_text": "Sanftes Morgenlicht liegt über Dächern und Bäumen. Der Himmel ist hell, die Stimmung ruhig und offen. Das Bild vermittelt einen stillen Anfang und Hoffnung für den neuen Tag."
   },
   "qa": {
+    "approved": false,
     "warnings": [
       "Alt text must be completed before approval",
       "Bibelstelle im Redaktionssystem gegen gewünschte Ausgabe prüfen; Web-Check ergab Psalm 118,24 in Lutherbibel 2017."
-    ],
-    "approved": false
+    ]
   },
   "metadata": {
     "model": "gpt-5.4-2026-03-05",
