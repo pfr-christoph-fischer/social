@@ -84,5 +84,91 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-10-09",
+    "contentDate": "2026-10-09",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-10-09T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Siehe, Gott der HERR hilft mir; wer will mich verdammen?",
+    "assets": [
+      "render-square-01.jpg"
+    ],
+    "altTexts": [
+      "Siehe, Gott der HERR hilft mir; wer will mich verdammen?"
+    ],
+    "id": "71d4c0e6-f9a8-4751-a886-8fb16b3f499d",
+    "attemptCount": 1,
+    "remoteId": "18201453418332770",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:46:21.348Z",
+    "updatedAt": "2026-10-09T05:00:52.369Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-10-09",
+    "contentDate": "2026-10-09",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-10-09T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Siehe, Gott der HERR hilft mir; wer will mich verdammen?",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Siehe, Gott der HERR hilft mir; wer will mich verdammen?"
+    ],
+    "id": "eb847d4b-182f-40f7-bc43-d511ad9bc55d",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3mxg6xuhplu2k",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3mxg6xuhplu2k",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:46:21.358Z",
+    "updatedAt": "2026-10-09T05:00:54.698Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-10-09",
+    "contentDate": "2026-10-09",
+    "platform": "linkedin",
+    "format": "default",
+    "scheduledAt": "2026-10-09T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Siehe, Gott der HERR hilft mir; wer will mich verdammen?",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Siehe, Gott der HERR hilft mir; wer will mich verdammen?"
+    ],
+    "id": "862ecfd8-aec9-437e-9ba7-6d6ffd93e907",
+    "attemptCount": 1,
+    "remoteId": "urn:li:share:7514188134465744896",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:46:21.368Z",
+    "updatedAt": "2026-10-09T05:00:58.509Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 201
+    },
+    "retryHistory": []
   }
 ]
