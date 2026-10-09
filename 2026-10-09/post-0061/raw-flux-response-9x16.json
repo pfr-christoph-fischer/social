@@ -1,0 +1,52 @@
+{
+  "delivery_url": "https://delivery.eu2.bfl.ai/durable/2026100904/5e1f69ea-538b-4d66-962e-9be995966f07/53/9249850a7c9a01/0a7c9a01d406400588a0e8a111ac08c8/sample.jpeg?se=2026-10-09T04%3A52%3A05Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=gn7XHsWQJriVPwq1S/qd6GwWtAJkZtPLGXfnVUQaD8I%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "fd0a526a-bdbd-497f-9e7c-77faf0295759",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "fd0a526a-bdbd-497f-9e7c-77faf0295759",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "fd0a526a-bdbd-497f-9e7c-77faf0295759",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "fd0a526a-bdbd-497f-9e7c-77faf0295759",
+      "status": "Ready",
+      "result": {
+        "start_time": 1791520923.721965,
+        "prompt": "Documentary-style still life of a simple kitchen table in warm evening light, bread, water, seasonal produce, human presence only through hands, calm and contemplative mood, natural colors, soft shadows, realistic photography, minimal composition, atmosphere of gratitude, responsibility, and freedom, no text, no letters, no typography, no logo, no watermark",
+        "seed": 3336375736,
+        "sample": "https://delivery.eu2.bfl.ai/durable/2026100904/5e1f69ea-538b-4d66-962e-9be995966f07/53/9249850a7c9a01/0a7c9a01d406400588a0e8a111ac08c8/sample.jpeg?se=2026-10-09T04%3A52%3A05Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=gn7XHsWQJriVPwq1S/qd6GwWtAJkZtPLGXfnVUQaD8I%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "fd0a526a-bdbd-497f-9e7c-77faf0295759",
+    "polling_url": "https://api.eu2.bfl.ai/v1/get_result?id=fd0a526a-bdbd-497f-9e7c-77faf0295759",
+    "cost": 1.5,
+    "input_mp": 0,
+    "output_mp": 1.98
+  }
+}
