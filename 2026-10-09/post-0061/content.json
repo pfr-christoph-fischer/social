@@ -9,97 +9,126 @@
     "liturgical_source": "https://kirchenjahr.pfarr.tools/api/jahr/2026"
   },
   "editorial_core": {
-    "title": "Kurzes Wochengebet: Dank, Verantwortung und Freiheit",
-    "main_message": "Dank macht sichtbar, was uns trägt. Freiheit öffnet den Raum, verantwortlich zu handeln und zu teilen.",
+    "title": "Kurzes Wochengebet zum Schwerpunkt „Dank, Verantwortung und Freiheit“",
+    "main_message": "Ein kurzes Wochengebet sammelt Dank, Verantwortung und Freiheit in einer konkreten Alltagsszene und endet mit einer tragenden Bitte.",
     "audience": "breite Öffentlichkeit",
     "tone": [
       "klar",
       "ruhig",
-      "zugänglich",
-      "konkret"
+      "zugänglich"
     ],
     "source_notes": [
-      "Ziel: Die Woche geistlich sammeln und auf das Wochenende hin öffnen.",
-      "Das Gebet ist ein neu formulierter Originaltext.",
-      "Für den 4. Oktober 2026 liegen zwei liturgische Einträge mit unterschiedlichen Wochensprüchen vor.",
-      "Die örtlich gefeierte Ordnung muss vor der Veröffentlichung redaktionell ausgewählt werden.",
-      "Bis zur Klärung wird kein Wochenspruch verwendet."
+      "Goal: Die Woche geistlich sammeln und auf das Wochenende hin öffnen.",
+      "Column: Spiritualität",
+      "Production mode: vollständig vorproduzierbar",
+      "Structure: ein konkretes Lebensthema | knappe geistliche Sprache | kein Erklärton",
+      "AI support notes: Gebetsentwurf | sprachliche Verdichtung | Reel-Sprechtext | Alt-Text",
+      "Liturgical source: https://kirchenjahr.pfarr.tools/api/jahr/2026 (2026-10-04, $.Tage['2026-10-04'])",
+      "Liturgical note: Multiple liturgical entries for 2026-10-04 contain different Wochenspruch values. Local selection is still required before publication.",
+      "Kein Wochenspruch eingearbeitet, weil keine lokal ausgewählte Ordnung vorliegt."
     ]
   },
   "platforms": {
     "facebook": {
-      "text": "Gott,\ndanke für das Brot auf dem Tisch,\nfür Zeit, Kraft und Menschen an unserer Seite.\nZeig uns, was wir teilen können.\nGib uns Mut, verantwortlich zu entscheiden.\nBewahre unsere Freiheit vor Gleichgültigkeit.\nTrag uns und alle, für die das Nötige fehlt.\nAmen.",
-      "headline": "Ein Gebet zum Ende der Woche"
+      "text": "Zwischen Einkaufszettel, Terminen und dem, was auf dem Tisch liegt,\nsehen wir, wie viel uns anvertraut ist.\n\nGott,\nlehre uns danken, ohne zu vergessen.\nLehre uns teilen, ohne zu rechnen.\nLehre uns frei zu werden von Gier und Angst.\nGib uns offene Augen für das Nötige,\nklare Hände für das Richtige,\nund ein weites Herz für andere.\nTrage uns in diesen Abend und in das, was kommt.",
+      "headline": "Wochengebet: Dank, Verantwortung und Freiheit"
     },
     "instagram": {
-      "caption": "Am Ende der Woche halten wir kurz inne.\n\nGott,\ndanke für das Brot auf dem Tisch,\nfür Zeit, Kraft und Menschen an unserer Seite.\nZeig uns, was wir teilen können.\nGib uns Mut, verantwortlich zu entscheiden.\nBewahre unsere Freiheit vor Gleichgültigkeit.\nTrag uns und alle, für die das Nötige fehlt.\nAmen.",
+      "caption": "Ein kurzes Gebet zum Wochenabschluss.\n\nZwischen Einkaufszettel, Terminen und dem, was auf dem Tisch liegt,\nsehen wir, wie viel uns anvertraut ist.\n\nGott,\nlehre uns danken, ohne zu vergessen.\nLehre uns teilen, ohne zu rechnen.\nLehre uns frei zu werden von Gier und Angst.\nGib uns offene Augen für das Nötige,\nklare Hände für das Richtige,\nund ein weites Herz für andere.\nTrage uns in diesen Abend und in das, was kommt.",
       "carousel": [
         {
-          "type": "Bild",
-          "text": "Ruhiges Motiv ohne Schrift: ein schlichter Tisch mit Brot und einem freien Platz."
+          "type": "slide",
+          "text": "Zwischen Einkaufszettel, Terminen und dem, was auf dem Tisch liegt,\nsehen wir, wie viel uns anvertraut ist."
+        },
+        {
+          "type": "slide",
+          "text": "Gott,\nlehre uns danken, ohne zu vergessen."
+        },
+        {
+          "type": "slide",
+          "text": "Lehre uns teilen, ohne zu rechnen."
+        },
+        {
+          "type": "slide",
+          "text": "Lehre uns frei zu werden von Gier und Angst."
+        },
+        {
+          "type": "slide",
+          "text": "Gib uns offene Augen für das Nötige,\nklare Hände für das Richtige,\nund ein weites Herz für andere."
+        },
+        {
+          "type": "slide",
+          "text": "Trage uns in diesen Abend und in das, was kommt."
         }
       ]
     },
     "mastodon": {
-      "text": "Gott, danke für das Brot auf dem Tisch, für Zeit, Kraft und Menschen an unserer Seite. Zeig uns, was wir teilen können. Gib uns Mut, verantwortlich zu entscheiden. Bewahre unsere Freiheit vor Gleichgültigkeit. Trag uns und alle, für die das Nötige fehlt. Amen."
+      "text": "Ein kurzes Wochengebet:\n\nGott,\nlehre uns danken, ohne zu vergessen.\nLehre uns teilen, ohne zu rechnen.\nLehre uns frei zu werden von Gier und Angst.\nGib uns offene Augen für das Nötige,\nklare Hände für das Richtige,\nund ein weites Herz für andere.\nTrage uns in diesen Abend und in das, was kommt."
     },
     "bluesky": {
-      "text": "Gott, danke für das Brot auf dem Tisch, für Zeit, Kraft und Menschen an unserer Seite. Zeig uns, was wir teilen können. Gib uns Mut, verantwortlich zu entscheiden. Bewahre unsere Freiheit vor Gleichgültigkeit. Trag uns und alle, für die das Nötige fehlt. Amen."
+      "text": "Kurzes Wochengebet:\nGott, lehre uns danken, ohne zu vergessen. Lehre uns teilen, ohne zu rechnen. Lehre uns frei zu werden von Gier und Angst. Gib uns offene Augen, klare Hände und ein weites Herz. Trage uns in diesen Abend."
     },
     "story": {
       "slides": [
         {
-          "text": "Was hat dich in dieser Woche getragen?"
+          "text": "Zum Wochenabschluss: ein kurzes Gebet"
         },
         {
-          "text": "Gott, danke für das Brot auf dem Tisch, für Zeit, Kraft und Menschen an unserer Seite."
+          "text": "Zwischen Einkaufszettel, Terminen und dem, was auf dem Tisch liegt, sehen wir, wie viel uns anvertraut ist."
         },
         {
-          "text": "Zeig uns, was wir teilen können. Gib uns Mut, verantwortlich zu entscheiden."
+          "text": "Gott, lehre uns danken, ohne zu vergessen."
         },
         {
-          "text": "Bewahre unsere Freiheit vor Gleichgültigkeit. Trag uns und alle, für die das Nötige fehlt. Amen."
+          "text": "Lehre uns teilen, ohne zu rechnen."
+        },
+        {
+          "text": "Lehre uns frei zu werden von Gier und Angst."
+        },
+        {
+          "text": "Gib uns offene Augen, klare Hände und ein weites Herz."
+        },
+        {
+          "text": "Trage uns in diesen Abend und in das, was kommt."
         }
       ]
     },
     "reel": {
-      "hook": "Ein kurzer Moment zum Ende der Woche.",
-      "script": "Gott,\ndanke für das Brot auf dem Tisch,\nfür Zeit, Kraft und Menschen an unserer Seite.\nZeig uns, was wir teilen können.\nGib uns Mut, verantwortlich zu entscheiden.\nBewahre unsere Freiheit vor Gleichgültigkeit.\nTrag uns und alle, für die das Nötige fehlt.\nAmen.",
+      "hook": "Was trägt uns zwischen Dank, Verantwortung und Freiheit?",
+      "script": "Zwischen Einkaufszettel, Terminen und dem, was auf dem Tisch liegt, sehen wir, wie viel uns anvertraut ist.\n\nGott,\nlehre uns danken, ohne zu vergessen.\nLehre uns teilen, ohne zu rechnen.\nLehre uns frei zu werden von Gier und Angst.\nGib uns offene Augen für das Nötige,\nklare Hände für das Richtige,\nund ein weites Herz für andere.\nTrage uns in diesen Abend und in das, was kommt.",
       "shots": [
-        "Ruhige Nahaufnahme eines schlichten Tisches im weichen Tageslicht",
-        "Hände legen ein Brot auf den Tisch",
-        "Ein leerer Teller wird neben einen gedeckten Platz gestellt",
-        "Licht fällt durch ein Fenster auf die Tischfläche",
-        "Ruhiges Schlussbild des gedeckten Tisches"
+        "Ruhiger Blick auf einen gedeckten Tisch mit Brot, Wasser und einfachem Geschirr",
+        "Nahaufnahme von Händen, die Lebensmittel ordnen oder Brot teilen",
+        "Fensterlicht am Abend auf einer Küchenfläche",
+        "Langsame Kamerafahrt über einen leeren Stuhl am Tisch",
+        "Still stehende Szene mit einer brennenden Kerze oder warmem Abendlicht"
       ],
-      "duration_seconds": 25
+      "duration_seconds": 24
     }
   },
   "visual": {
-    "concept": "Ein schlichter Tisch im weichen Tageslicht. Ein Brot liegt in der Mitte. Ein zusätzlicher gedeckter Platz steht für Teilen, Verantwortung und offene Gemeinschaft. Keine Personen müssen erkennbar sein.",
-    "flux_prompt": "Documentary-style still life of a simple wooden table in soft natural autumn daylight, a loaf of bread in the center, simple ceramic plates, one additional place setting, calm contemplative atmosphere, warm muted colors, realistic photography, subtle shadows, generous negative space, no visible faces, no typography",
-    "negative_prompt": "text, letters, words, captions, logo, watermark, signage, poster, book title, distorted hands, excessive decoration, luxury tableware, dramatic religious symbols",
+    "concept": "Stille Alltagsszene in einer Küche oder am Esstisch am Abend. Sichtbar sind einfache Lebensmittel, warmes Licht und eine ruhige Atmosphäre von Dankbarkeit und Verantwortung.",
+    "flux_prompt": "Documentary-style still life of a simple kitchen table in warm evening light, bread, water, seasonal produce, human presence only through hands, calm and contemplative mood, natural colors, soft shadows, realistic photography, minimal composition, atmosphere of gratitude, responsibility, and freedom, no written elements",
+    "negative_prompt": "text, letters, logo, watermark",
     "formats": [
       "4:5",
       "9:16",
       "1.91:1"
     ],
-    "alt_text": "Auf einem schlichten Holztisch liegt ein Brot. Daneben stehen einfache Teller, darunter ein zusätzlich gedeckter Platz. Weiches Tageslicht fällt auf die ruhige Szene."
+    "alt_text": "Ein schlicht gedeckter Tisch im warmen Abendlicht. Auf dem Tisch stehen Brot, Wasser und wenige Lebensmittel. Eine Hand liegt ruhig neben dem Teller. Die Szene wirkt still, dankbar und nachdenklich."
   },
   "qa": {
     "warnings": [
       "Alt text must be completed before approval",
       "Check song lyric copyright before publication",
       "Multiple liturgical entries for 2026-10-04 contain different Wochenspruch values. Local selection is still required before publication.",
-      "Vor der Veröffentlichung muss redaktionell geklärt werden, ob vor Ort Erntedank oder der 18. Sonntag nach Trinitatis gefeiert wird.",
-      "Für den 4. Oktober 2026 liegen unterschiedliche Wochensprüche vor. Im aktuellen Entwurf wird deshalb kein Wochenspruch zitiert.",
-      "Story-Texte und Untertitel für das Reel müssen in der Plattform ergänzt und auf gute Lesbarkeit geprüft werden."
+      "needs_input=true, weil die örtlich tatsächlich gefeierte Ordnung und damit ein möglicher Wochenspruch noch nicht redaktionell ausgewählt wurden."
     ],
     "approved": false
   },
   "metadata": {
-    "model": "gpt-5.6-sol",
-    "generated_at": "2026-10-04T15:02:21.161Z",
+    "model": "gpt-5.4-2026-03-05",
+    "generated_at": "2026-10-09T04:41:04.596Z",
     "prompt_version": "1.0",
     "assets": []
   }
