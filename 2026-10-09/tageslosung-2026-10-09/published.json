@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-10-09",
+    "contentDate": "2026-10-09",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-10-09T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Siehe, Gott der HERR hilft mir; wer will mich verdammen?",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Siehe, Gott der HERR hilft mir; wer will mich verdammen?"
+    ],
+    "id": "32a23164-fa65-414e-b4bb-415d9aef2510",
+    "attemptCount": 1,
+    "remoteId": "17886170730621697",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:46:21.323Z",
+    "updatedAt": "2026-10-09T05:00:38.361Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-10-09",
+    "contentDate": "2026-10-09",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-10-09T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Siehe, Gott der HERR hilft mir; wer will mich verdammen?",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Siehe, Gott der HERR hilft mir; wer will mich verdammen?"
+    ],
+    "id": "a11cdcd8-76bb-40a3-9eb3-1e4086fe272e",
+    "attemptCount": 1,
+    "remoteId": "117409188432150337",
+    "remoteUrl": "https://kirche.social/@christoph/117409188432150337",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:46:21.336Z",
+    "updatedAt": "2026-10-09T05:00:40.368Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
