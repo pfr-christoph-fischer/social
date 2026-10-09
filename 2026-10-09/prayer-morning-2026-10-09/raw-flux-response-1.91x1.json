@@ -1,0 +1,36 @@
+{
+  "delivery_url": "https://delivery.us2.bfl.ai/durable/2026100904/5e1f69ea-538b-4d66-962e-9be995966f07/56/7289919cad0feb/9cad0feb54fe4301aa5c5e6428c84c71/sample.jpeg?se=2026-10-09T04%3A48%3A49Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=XNlSguHBb/P25jSLZkWXjzioCOfVm5gUItD4NrD28C4%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "71abaf2b-d0ac-4922-8e1a-c26b975e428c",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "71abaf2b-d0ac-4922-8e1a-c26b975e428c",
+      "status": "Ready",
+      "result": {
+        "start_time": 1791520727.6850126,
+        "prompt": "Ruhige Morgenszene mit weichem Licht, offenem Himmel und einem klaren Gefühl von Neuanfang. Keine Personen im Mittelpunkt, sondern Licht, Natur und Raum zum Atmen., no text, no letters, no typography, no logo, no watermark",
+        "seed": 1144972854,
+        "sample": "https://delivery.us2.bfl.ai/durable/2026100904/5e1f69ea-538b-4d66-962e-9be995966f07/56/7289919cad0feb/9cad0feb54fe4301aa5c5e6428c84c71/sample.jpeg?se=2026-10-09T04%3A48%3A49Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=XNlSguHBb/P25jSLZkWXjzioCOfVm5gUItD4NrD28C4%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "71abaf2b-d0ac-4922-8e1a-c26b975e428c",
+    "polling_url": "https://api.us2.bfl.ai/v1/get_result?id=71abaf2b-d0ac-4922-8e1a-c26b975e428c",
+    "cost": 1.4000000000000001,
+    "input_mp": 0,
+    "output_mp": 0.72
+  }
+}
