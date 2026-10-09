@@ -27,5 +27,67 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "post-0061",
+    "contentDate": "2026-10-09",
+    "platform": "instagram",
+    "format": "default",
+    "scheduledAt": "2026-10-09T07:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Ein kurzes Gebet zum Wochenabschluss.\n\nZwischen Einkaufszettel, Terminen und dem, was auf dem Tisch liegt,\nsehen wir, wie viel uns anvertraut ist.\n\nGott,\nlehre uns danken, ohne zu vergessen.\nLehre uns teilen, ohne zu rechnen.\nLehre uns frei zu werden von Gier und Angst.\nGib uns offene Augen für das Nötige,\nklare Hände für das Richtige,\nund ein weites Herz für andere.\nTrage uns in diesen Abend und in das, was kommt.",
+    "assets": [
+      "render-instagram-feed-01.jpg",
+      "render-instagram-feed-02.jpg",
+      "render-instagram-feed-03.jpg",
+      "render-instagram-feed-04.jpg",
+      "render-instagram-feed-05.jpg",
+      "render-instagram-feed-06.jpg"
+    ],
+    "altTexts": [
+      "Ein schlicht gedeckter Tisch im warmen Abendlicht. Auf dem Tisch stehen Brot, Wasser und wenige Lebensmittel. Eine Hand liegt ruhig neben dem Teller. Die Szene wirkt still, dankbar und nachdenklich."
+    ],
+    "id": "fdf3aea4-8545-4223-af32-e4c455677d22",
+    "attemptCount": 1,
+    "remoteId": "18118555624777924",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-10-09T04:44:40.341Z",
+    "updatedAt": "2026-10-09T07:01:25.921Z",
+    "responseMetadata": {
+      "mediaCount": 6,
+      "mediaType": "CAROUSEL",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "post-0061",
+    "contentDate": "2026-10-09",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-10-09T07:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Ein kurzes Wochengebet:\n\nGott,\nlehre uns danken, ohne zu vergessen.\nLehre uns teilen, ohne zu rechnen.\nLehre uns frei zu werden von Gier und Angst.\nGib uns offene Augen für das Nötige,\nklare Hände für das Richtige,\nund ein weites Herz für andere.\nTrage uns in diesen Abend und in das, was kommt.",
+    "assets": [
+      "render-facebook-mastodon-01.png"
+    ],
+    "altTexts": [
+      "Ein schlicht gedeckter Tisch im warmen Abendlicht. Auf dem Tisch stehen Brot, Wasser und wenige Lebensmittel. Eine Hand liegt ruhig neben dem Teller. Die Szene wirkt still, dankbar und nachdenklich."
+    ],
+    "id": "dc7ed483-ccf8-4db7-ae80-bb0fc7e2a8ce",
+    "attemptCount": 1,
+    "remoteId": "117409663508643679",
+    "remoteUrl": "https://kirche.social/@christoph/117409663508643679",
+    "lastError": null,
+    "createdAt": "2026-10-09T04:44:40.410Z",
+    "updatedAt": "2026-10-09T07:01:29.475Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
