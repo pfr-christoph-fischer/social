@@ -1,0 +1,120 @@
+{
+  "id": "prayer-morning-2026-10-11",
+  "status": "in Arbeit",
+  "needs_input": false,
+  "source": {
+    "calendar_post_id": "prayer-morning-2026-10-11",
+    "date": "2026-10-11",
+    "rubric": "Morgengebet",
+    "liturgical_source": ""
+  },
+  "editorial_core": {
+    "title": "Morgengebet",
+    "main_message": "Der Tag beginnt nicht mit Druck, sondern mit Gottes Gegenwart. Sein Licht ist schon da. Darum können wir diesen Morgen dankbar und zuversichtlich annehmen.",
+    "audience": "breite Öffentlichkeit",
+    "tone": [
+      "lobend",
+      "hoffnungsvoll",
+      "zugewandt"
+    ],
+    "source_notes": [
+      "Morgenlob ohne Nachrichtenschau und ohne konkrete Fürbitten für aktuelle Ereignisse.",
+      "Kurzer biblischer Gebetsschnipsel aufgenommen: „Dies ist der Tag, den der Herr gemacht hat.“ (Psalm 118,24, Lutherbibel 2017, geprüft).",
+      "Sprache bewusst schlicht, zugänglich und bildhaft gehalten.",
+      "Tagesbezug allgemein gehalten, damit am Veröffentlichungsmorgen nur stimmig gegengelesen werden muss."
+    ]
+  },
+  "platforms": {
+    "facebook": {
+      "text": "Gott,\ndieser Morgen ist nicht leer.\nLicht liegt auf den Dächern. Luft füllt die Lungen. Der Tag öffnet sich.\n\n„Dies ist der Tag, den der Herr gemacht hat.“ (Psalm 118,24)\n\nIch danke dir für alles, was heute wachsen darf.\nFür Wege, die ich schon kenne.\nUnd für das, was ich noch nicht überblicke.\n\nBleib bei mir mit deiner Güte.\nRichte mein Herz auf das, was Leben schenkt.\nGib mir einen klaren Blick, ruhige Worte und Vertrauen für die nächsten Schritte.\n\nIch nehme diesen Tag aus deiner Hand.\nDu bist da. Das ist genug.",
+      "headline": "Morgengebet: Dieser Tag ist Gabe"
+    },
+    "instagram": {
+      "caption": "Gott,\ndieser Morgen ist nicht leer.\nLicht liegt auf den Dächern. Der Tag öffnet sich.\n\n„Dies ist der Tag, den der Herr gemacht hat.“ (Psalm 118,24)\n\nIch danke dir für diesen neuen Anfang.\nBleib bei mir mit deiner Güte.\nGib mir einen klaren Blick, ruhige Worte und Vertrauen.\n\nIch nehme diesen Tag aus deiner Hand.\nDu bist da. Das ist genug.",
+      "carousel": [
+        {
+          "type": "text",
+          "text": "Gott,\ndieser Morgen ist nicht leer."
+        },
+        {
+          "type": "text",
+          "text": "Licht liegt auf den Dächern.\nDer Tag öffnet sich."
+        },
+        {
+          "type": "text",
+          "text": "„Dies ist der Tag, den der Herr gemacht hat.“\nPsalm 118,24"
+        },
+        {
+          "type": "text",
+          "text": "Bleib bei mir mit deiner Güte.\nGib mir Vertrauen für die nächsten Schritte."
+        },
+        {
+          "type": "text",
+          "text": "Ich nehme diesen Tag aus deiner Hand.\nDu bist da. Das ist genug."
+        }
+      ]
+    },
+    "mastodon": {
+      "text": "Gott,\ndieser Morgen ist nicht leer.\nLicht liegt auf den Dächern. Der Tag öffnet sich.\n\n„Dies ist der Tag, den der Herr gemacht hat.“ (Psalm 118,24)\n\nBleib bei mir mit deiner Güte.\nGib mir einen klaren Blick, ruhige Worte und Vertrauen.\nIch nehme diesen Tag aus deiner Hand.\nDu bist da. Das ist genug."
+    },
+    "bluesky": {
+      "text": "Gott, dieser Morgen ist nicht leer. Licht liegt auf den Dächern. Der Tag öffnet sich. „Dies ist der Tag, den der Herr gemacht hat.“ (Psalm 118,24) Bleib bei mir mit deiner Güte. Ich nehme diesen Tag aus deiner Hand. Du bist da. Das ist genug."
+    },
+    "story": {
+      "slides": [
+        {
+          "text": "Gott,\ndieser Morgen ist nicht leer."
+        },
+        {
+          "text": "Licht liegt auf den Dächern.\nDer Tag öffnet sich."
+        },
+        {
+          "text": "„Dies ist der Tag, den der Herr gemacht hat.“\nPsalm 118,24"
+        },
+        {
+          "text": "Bleib bei mir mit deiner Güte.\nGib mir Vertrauen für die nächsten Schritte."
+        },
+        {
+          "text": "Du bist da.\nDas ist genug."
+        }
+      ]
+    },
+    "reel": {
+      "hook": "Dieser Morgen ist nicht leer.",
+      "script": "Gott, dieser Morgen ist nicht leer. Licht liegt auf den Dächern. Der Tag öffnet sich. „Dies ist der Tag, den der Herr gemacht hat.“ Ich danke dir für diesen neuen Anfang. Bleib bei mir mit deiner Güte. Gib mir einen klaren Blick, ruhige Worte und Vertrauen. Ich nehme diesen Tag aus deiner Hand. Du bist da. Das ist genug.",
+      "shots": [
+        "Frühes Morgenlicht an einem Fenster",
+        "Tau oder feuchte Blätter im Gegenlicht",
+        "Ruhige Straßenszene oder Dächer im Morgenlicht",
+        "Hände an einer Tasse auf einem Tisch",
+        "Langsame Totale in den hell werdenden Himmel"
+      ],
+      "duration_seconds": 25
+    }
+  },
+  "visual": {
+    "concept": "Ruhige Morgenszene mit erstem Licht auf Dächern oder an einem Fenster. Schlichte, warme Bildsprache. Kein Menschenandrang. Fokus auf Licht, Luft und einen offenen Tagesanfang.",
+    "flux_prompt": "Eine ruhige, natürliche Morgenszene in einer Stadt oder am Rand einer Stadt, erstes warmes Sonnenlicht auf Dächern oder an einem Fenster, klare Luft, sanfte Schatten, minimalistisch, fotografisch, glaubwürdig, protestantische Social-Media-Ästhetik, hoffnungsvoll, still, ungekünstelt, hohe Detailtreue, natürliche Farben, kein inszenierter Kitsch",
+    "negative_prompt": "text, letters, logo, watermark",
+    "formats": [
+      "4:5",
+      "9:16",
+      "1.91:1"
+    ],
+    "alt_text": "Sanftes Morgenlicht fällt auf Dächer und ein Fenster. Die Szene wirkt still, klar und offen für den Beginn eines neuen Tages."
+  },
+  "qa": {
+    "warnings": [
+      "Alt text must be completed before approval",
+      "Bibelzitat aus Psalm 118,24 vor Veröffentlichung nochmals in der final verwendeten Übersetzung gegenprüfen.",
+      "Am Morgen der Veröffentlichung nur prüfen, ob der allgemeine Tagesbezug sprachlich stimmig bleibt."
+    ],
+    "approved": false
+  },
+  "metadata": {
+    "model": "gpt-5.4-2026-03-05",
+    "generated_at": "2026-10-10T14:00:37.829Z",
+    "prompt_version": "1.1",
+    "assets": []
+  }
+}
