@@ -83,5 +83,50 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-10-12",
+    "contentDate": "2026-10-12",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-10-12T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Ich gedenke an die früheren Zeiten; ich sinne nach über all deine Taten und spreche von den Werken deiner Hände.",
+    "assets": [
+      "render-square-01.jpg"
+    ],
+    "altTexts": [
+      "Ich gedenke an die früheren Zeiten; ich sinne nach über all deine Taten und spreche von den Werken deiner Hände."
+    ],
+    "id": "820c29d6-dbc0-4650-9ae8-105feb92f52a",
+    "attemptCount": 4,
+    "remoteId": "18078467390535718",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:46:28.408Z",
+    "updatedAt": "2026-10-12T08:31:44.509Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 200
+    },
+    "retryHistory": [
+      {
+        "at": "2026-10-12T05:00:26.806Z",
+        "error": "threads: Container konnte nicht erstellt werden (400): Error validating access token: Session has expired on Friday, 09-Oct-26 03:25:22 PDT. The current time is Sunday, 11-Oct-26 22:00:26 PDT. (Code 190)",
+        "attempt": 1
+      },
+      {
+        "at": "2026-10-12T05:05:06.930Z",
+        "error": "threads: Container konnte nicht erstellt werden (400): Error validating access token: Session has expired on Friday, 09-Oct-26 03:25:22 PDT. The current time is Sunday, 11-Oct-26 22:05:06 PDT. (Code 190)",
+        "attempt": 2
+      },
+      {
+        "at": "2026-10-12T05:10:06.030Z",
+        "error": "threads: Container konnte nicht erstellt werden (400): Error validating access token: Session has expired on Friday, 09-Oct-26 03:25:22 PDT. The current time is Sunday, 11-Oct-26 22:10:05 PDT. (Code 190)",
+        "attempt": 3
+      }
+    ]
   }
 ]
