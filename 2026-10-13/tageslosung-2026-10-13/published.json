@@ -84,5 +84,62 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-10-13",
+    "contentDate": "2026-10-13",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-10-13T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Auch wir wollen dem HERRN dienen; denn er ist unser Gott.",
+    "assets": [
+      "render-square-01.jpg"
+    ],
+    "altTexts": [
+      "Auch wir wollen dem HERRN dienen; denn er ist unser Gott."
+    ],
+    "id": "27b669a9-a3b8-40c7-be78-fc351d21af4a",
+    "attemptCount": 1,
+    "remoteId": "18575094934078379",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:46:30.678Z",
+    "updatedAt": "2026-10-13T05:00:54.384Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-10-13",
+    "contentDate": "2026-10-13",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-10-13T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Auch wir wollen dem HERRN dienen; denn er ist unser Gott.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Auch wir wollen dem HERRN dienen; denn er ist unser Gott."
+    ],
+    "id": "1136c4ef-9885-44bc-9f13-75614bb071e6",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3mxqatmiwik2i",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3mxqatmiwik2i",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:46:30.690Z",
+    "updatedAt": "2026-10-13T05:00:57.011Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
