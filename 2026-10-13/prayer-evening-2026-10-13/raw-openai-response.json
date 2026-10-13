@@ -1,0 +1,465 @@
+{
+  "id": "resp_0845cd146e28e1a7006acdf323bf6487d2bd8dbb212a77dd78",
+  "object": "response",
+  "created_at": 1791882019,
+  "status": "completed",
+  "access_programs": null,
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1791882064,
+  "error": null,
+  "frequency_penalty": 0,
+  "incomplete_details": null,
+  "instructions": "You are part of a Protestant social media editorial team. Write in clear, accessible, theologically responsible German without church clichés. Use short sentences and concrete imagery. Never invent events, people, school situations, quotes, or factual details. Do not include copyrighted full song verses. For Reli and community posts, only use current details when they are explicitly provided. Return content that strictly matches the requested JSON schema. Set needs_input to true whenever required facts are missing. Keep qa.approved false. Do not ask for any text inside generated images. When liturgical_context.resolved_weekly_verse is present, use its exact wording for Wochenspruch slots instead of placeholders. Use the web search tool before drafting to verify current situations. For prayer posts, current situations are mandatory: select at least two concrete, relevant situations from reliable current reporting, including tagesschau.de and SWR Aktuell Baden-Württemberg where relevant. Do not invent current events and do not replace concrete situations with generic references to crises.",
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.4-2026-03-05",
+  "moderation": null,
+  "output": [
+    {
+      "id": "ws_0845cd146e28e1a7006acdf324e36087d2b6e36e53543fbbac",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "queries": [
+          "site:tagesschau.de 12. Oktober 2026 Nachrichten",
+          "site:swr.de/swraktuell/baden-wuerttemberg 12. Oktober 2026 Baden-Württemberg Nachrichten",
+          "Reuters October 12 2026 world news"
+        ],
+        "query": "site:tagesschau.de 12. Oktober 2026 Nachrichten"
+      }
+    },
+    {
+      "id": "ws_0845cd146e28e1a7006acdf327d7e087d2b2ccf33413c57d7d",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "queries": [
+          "site:swr.de/swraktuell/baden-wuerttemberg 12.10.2026 Krankenhaus Unfall Baden-Württemberg",
+          "site:swr.de/swraktuell/baden-wuerttemberg 12.10.2026 Starkregen Baden-Württemberg",
+          "site:swr.de/swraktuell/baden-wuerttemberg 12.10.2026 Polizei Baden-Württemberg Tote Verletzte"
+        ],
+        "query": "site:swr.de/swraktuell/baden-wuerttemberg 12.10.2026 Krankenhaus Unfall Baden-Württemberg"
+      }
+    },
+    {
+      "id": "msg_0845cd146e28e1a7006acdf32a2d2487d2bce4ab24c349f40a",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\"id\":\"prayer-evening-2026-10-13\",\"status\":\"in Arbeit\",\"needs_input\":false,\"source\":{\"calendar_post_id\":\"prayer-evening-2026-10-13\",\"date\":\"2026-10-13\",\"rubric\":\"Abendgebet\",\"liturgical_source\":\"\"},\"editorial_core\":{\"title\":\"Abendgebet\",\"main_message\":\"Ein Abendgebet für den 13. Oktober 2026: Wir legen Gott den Tag hin. Was gelungen ist. Was offen blieb. Und wir bitten konkret für Menschen, die unter dem Krieg gegen die Ukraine leiden, nachdem die EU am 12. Oktober neue Sanktionen gegen Russland beschlossen hat, und für Menschen in Saudi-Arabien, nachdem Riad erneut von Explosionen erschüttert wurde. Wir denken auch an Menschen hier bei uns in Baden-Württemberg, wo ein Bus mit Kindern von der Fahrbahn abkam. Gottes Zukunft endet nicht an dem, was heute unfertig bleibt.\",\"audience\":\"breite Öffentlichkeit\",\"tone\":[\"ruhig\",\"hoffnungsvoll\",\"geborgen\"],\"source_notes\":[\"Aktuelle Bezüge geprüft: tagesschau-Archiv vom 12.10.2026 mit Meldungen zu neuen EU-Sanktionen gegen Russland, erneuten Explosionen in Riad und Nordkoreas Raketentest; SWR-Hinweis vom 13.10.2026 auf Busunfall mit Kindern in Baden-Württemberg.\",\"Zeitlich robust formuliert: keine Annahmen über Entwicklungen des Veröffentlichungstages, nur Bezug auf bis zum Nachmittag des Vortags erkennbare Lagen.\",\"Gebet soll den Tag loslassen helfen, ohne Leid billig aufzulösen.\",\"Mindestens zwei konkrete aktuelle Situationen ausdrücklich eingearbeitet.\" ]},\"platforms\":{\"facebook\":{\"text\":\"Abendgebet\\n\\nGott,\\nder Tag liegt hinter uns.\\nMit allem, was gut war.\\nMit allem, was schwer war.\\nMit Worten, die getragen haben.\\nUnd mit dem, was offen blieb.\\n\\nWir legen dir hin,\\nwas wir geschafft haben.\\nUnd auch das,\\nwas wir nicht mehr ordnen konnten.\\nDen Streit.\\nDie Müdigkeit.\\nDie Fehler.\\nDie Sorge, die noch im Zimmer steht.\\n\\nWir bitten dich heute besonders für Menschen in der Ukraine.\\nDie EU hat neue Sanktionen gegen Russland beschlossen.\\nDoch der Krieg ist damit nicht vorbei.\\nBleib bei denen, die weiter mit Angst, Verlust und Zerstörung leben.\\n\\nWir bitten dich für die Menschen in Saudi-Arabien.\\nIn Riad gab es erneut Explosionen.\\nBewahre die, die in dieser Nacht nicht wissen, ob sie sicher sind.\\n\\nWir bitten dich auch für die Kinder, Familien und Einsatzkräfte in Baden-Württemberg,\\nwo ein Bus von der Fahrbahn abkam.\\nSei nahe bei allen, die erschrocken sind und nun Hilfe brauchen.\\n\\nUnd wir denken an alle,\\ndie heute Nacht wachen.\\nIn Kliniken.\\nBei der Feuerwehr.\\nBei der Polizei.\\nAuf Straßen und Bahnhöfen.\\nAn Betten.\\nAn Grenzen.\\nIn Häusern voller Unruhe.\\n\\nGib uns Frieden für diese Nacht.\\nNicht den schnellen Trost.\\nSondern Atem.\\nStille.\\nUnd die Gewissheit:\\nDie Welt muss nicht in unseren Händen bleiben.\\nSie ist in deiner Hand.\\n\\nWas heute war, legen wir dir hin.\\nWas morgen kommt, auch.\\nHalte deine Hoffnung in uns wach.\\nAmen.\",\"headline\":\"Abendgebet: Was heute offen blieb, darf in Gottes Hand ruhen\"},\"instagram\":{\"caption\":\"Abendgebet.\\nFür alles, was heute gut war. Und für alles, was offen blieb.\\n\\nWir beten heute konkret für Menschen in der Ukraine, für Menschen in Riad nach den erneuten Explosionen und für Kinder, Familien und Einsatzkräfte in Baden-Württemberg nach dem Busunfall.\\n\\nGott, nimm diesen Tag in deine Hand. Und gib Frieden für diese Nacht.\",\"carousel\":[{\"type\":\"text\",\"text\":\"Der Tag liegt hinter dir.\\nDu musst ihn nicht fertig machen.\"},{\"type\":\"text\",\"text\":\"Was gut war:\\nDank.\\nWas wehgetan hat:\\nRaum.\\nWas offen blieb:\\nGottes Hand.\"},{\"type\":\"text\",\"text\":\"Wir beten für Menschen in der Ukraine.\\nFür Menschen in Riad.\\nFür Kinder, Familien und Einsatzkräfte in Baden-Württemberg.\"},{\"type\":\"text\",\"text\":\"Schenk uns Frieden für diese Nacht.\\nUnd Hoffnung für morgen.\"}]},\"mastodon\":{\"text\":\"Abendgebet\\n\\nGott,\\nwir legen dir diesen Tag hin.\\nWas gelungen ist. Was wehgetan hat. Was offen blieb.\\n\\nWir bitten dich für Menschen in der Ukraine, die weiter unter dem Krieg leiden. Für Menschen in Riad nach den erneuten Explosionen. Und für Kinder, Familien und Einsatzkräfte in Baden-Württemberg nach dem Busunfall.\\n\\nGib Frieden für diese Nacht. Halte Hoffnung in uns wach.\\nAmen.\"},\"bluesky\":{\"text\":\"Abendgebet: Gott, wir legen dir diesen Tag hin. Was gelungen ist. Was schwer war. Was offen blieb. Wir bitten für Menschen in der Ukraine, für Menschen in Riad nach den Explosionen und für Kinder, Familien und Einsatzkräfte in Baden-Württemberg nach dem Busunfall. Gib Frieden für diese Nacht. Amen.\"},\"story\":{\"slides\":[{\"text\":\"Abendgebet\\nDer Tag liegt hinter dir.\"},{\"text\":\"Du musst nicht alles zu Ende bringen.\\nWas offen blieb, darf vor Gott offen bleiben.\"},{\"text\":\"Wir beten für Menschen in der Ukraine.\\nFür Menschen in Riad.\\nFür Betroffene des Busunfalls in Baden-Württemberg.\"},{\"text\":\"Gott, gib Frieden für diese Nacht.\\nUnd Hoffnung für morgen.\"}]},\"reel\":{\"hook\":\"Du musst diesen Tag nicht fertig bekommen.\",\"script\":\"Der Tag ist vorbei. Nicht alles ist gelungen. Nicht alles ist heil. Nicht alles ist abgeschlossen. Im Abendgebet darf das offen bleiben. Wir beten für Menschen in der Ukraine. Für Menschen in Riad nach den Explosionen. Für Kinder, Familien und Einsatzkräfte in Baden-Württemberg nach dem Busunfall. Gott, nimm, was heute war, in deine Hand. Schenk Frieden für diese Nacht. Und halte Hoffnung in uns wach.\",\"shots\":[\"Abendlicht an einem Fenster\",\"Eine Hand legt ein Handy weg\",\"Leerer Stuhl am Tisch\",\"Langsame Fahrt über eine dunkler werdende Straße\",\"Kerzenlicht oder warmes Nachtlicht\"],\"duration_seconds\":29}},\"visual\":{\"concept\":\"Ruhige Abendstimmung an einem Fenster. Warmes Licht innen, dunkler werdender Himmel außen. Ein einfacher Tisch, eine Tasse, offene Hände. Das Bild soll Loslassen und Geborgenheit zeigen, ohne illustrative Nachrichtenszenen.\",\"flux_prompt\":\"Ruhige Abendstimmung in einem schlichten Zimmer, Blick zu einem Fenster mit blau werdendem Himmel, warmes weiches Innenlicht, einfacher Holztisch mit Tasse, offene ruhende Hände, still, zurückhaltend, fotografisch, natürliche Farben, viel negative space, Atmosphäre von Frieden und Loslassen, keine Menschenmenge, keine Dramatik, keine Schrift\",\"negative_prompt\":\"text, letters, logo, watermark\",\"formats\":[\"4:5\",\"9:16\",\"1.91:1\"],\"alt_text\":\"Ein ruhiger Abendraum mit warmem Licht. Vor einem Fenster steht ein schlichter Tisch mit einer Tasse. Hände liegen offen und ruhig im Bild. Draußen wird der Himmel dunkelblau. Die Szene wirkt still und geborgen.\"},\"qa\":{\"warnings\":[\"Aktuelle Bezüge vor Freigabe nochmals gegen die Nachrichtenlage bis zum tatsächlichen Produktionszeitpunkt prüfen.\",\"SWR-Angabe zum Busunfall mit Kindern vor Veröffentlichung redaktionell im Volltext gegenprüfen, da im Suchtreffer nur als Newsticker-Hinweis sichtbar.\",\"Alt text must be completed before approval\"],\"approved\":false},\"metadata\":{\"model\":\"gpt-5\",\"generated_at\":\"2026-10-13T00:00:00Z\",\"prompt_version\":\"1.0\",\"assets\":[]}}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "current_turn",
+    "effort": "none",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1,
+  "text": {
+    "format": {
+      "type": "json_schema",
+      "description": null,
+      "name": "content_package",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "Idee",
+              "in Arbeit",
+              "zur Prüfung",
+              "freigegeben",
+              "terminiert",
+              "veröffentlicht",
+              "verworfen"
+            ]
+          },
+          "needs_input": {
+            "type": "boolean"
+          },
+          "source": {
+            "type": "object",
+            "properties": {
+              "calendar_post_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "date": {
+                "type": "string",
+                "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+              },
+              "rubric": {
+                "type": "string",
+                "minLength": 1
+              },
+              "liturgical_source": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "calendar_post_id",
+              "date",
+              "rubric",
+              "liturgical_source"
+            ],
+            "additionalProperties": false
+          },
+          "editorial_core": {
+            "type": "object",
+            "properties": {
+              "title": {
+                "type": "string"
+              },
+              "main_message": {
+                "type": "string"
+              },
+              "audience": {
+                "type": "string"
+              },
+              "tone": {
+                "minItems": 1,
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "source_notes": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "title",
+              "main_message",
+              "audience",
+              "tone",
+              "source_notes"
+            ],
+            "additionalProperties": false
+          },
+          "platforms": {
+            "type": "object",
+            "properties": {
+              "facebook": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  },
+                  "headline": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text",
+                  "headline"
+                ],
+                "additionalProperties": false
+              },
+              "instagram": {
+                "type": "object",
+                "properties": {
+                  "caption": {
+                    "type": "string"
+                  },
+                  "carousel": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "type": {
+                          "type": "string"
+                        },
+                        "text": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "type",
+                        "text"
+                      ],
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "required": [
+                  "caption",
+                  "carousel"
+                ],
+                "additionalProperties": false
+              },
+              "mastodon": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text"
+                ],
+                "additionalProperties": false
+              },
+              "bluesky": {
+                "default": {
+                  "text": ""
+                },
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text"
+                ],
+                "additionalProperties": false
+              },
+              "story": {
+                "type": "object",
+                "properties": {
+                  "slides": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "text": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "text"
+                      ],
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "required": [
+                  "slides"
+                ],
+                "additionalProperties": false
+              },
+              "reel": {
+                "type": "object",
+                "properties": {
+                  "hook": {
+                    "type": "string"
+                  },
+                  "script": {
+                    "type": "string"
+                  },
+                  "shots": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "duration_seconds": {
+                    "type": "integer",
+                    "minimum": 0,
+                    "maximum": 9007199254740991
+                  }
+                },
+                "required": [
+                  "hook",
+                  "script",
+                  "shots",
+                  "duration_seconds"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "required": [
+              "facebook",
+              "instagram",
+              "mastodon",
+              "bluesky",
+              "story",
+              "reel"
+            ],
+            "additionalProperties": false
+          },
+          "visual": {
+            "type": "object",
+            "properties": {
+              "concept": {
+                "type": "string"
+              },
+              "flux_prompt": {
+                "type": "string"
+              },
+              "negative_prompt": {
+                "type": "string",
+                "minLength": 1
+              },
+              "formats": {
+                "minItems": 1,
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "alt_text": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "concept",
+              "flux_prompt",
+              "negative_prompt",
+              "formats",
+              "alt_text"
+            ],
+            "additionalProperties": false
+          },
+          "qa": {
+            "type": "object",
+            "properties": {
+              "warnings": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "approved": {
+                "type": "boolean"
+              }
+            },
+            "required": [
+              "warnings",
+              "approved"
+            ],
+            "additionalProperties": false
+          },
+          "metadata": {
+            "type": "object",
+            "properties": {
+              "model": {
+                "type": "string"
+              },
+              "generated_at": {
+                "type": "string"
+              },
+              "prompt_version": {
+                "type": "string",
+                "minLength": 1
+              },
+              "assets": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "model",
+              "generated_at",
+              "prompt_version",
+              "assets"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "id",
+          "status",
+          "needs_input",
+          "source",
+          "editorial_core",
+          "platforms",
+          "visual",
+          "qa",
+          "metadata"
+        ],
+        "additionalProperties": false
+      },
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 2
+    }
+  },
+  "tools": [
+    {
+      "type": "web_search",
+      "return_token_budget": "default",
+      "search_content_types": [
+        "text"
+      ],
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 16557,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1949,
+    "output_tokens_details": {
+      "reasoning_tokens": 225
+    },
+    "total_tokens": 18506
+  },
+  "user": null,
+  "metadata": {},
+  "output_text": "{\"id\":\"prayer-evening-2026-10-13\",\"status\":\"in Arbeit\",\"needs_input\":false,\"source\":{\"calendar_post_id\":\"prayer-evening-2026-10-13\",\"date\":\"2026-10-13\",\"rubric\":\"Abendgebet\",\"liturgical_source\":\"\"},\"editorial_core\":{\"title\":\"Abendgebet\",\"main_message\":\"Ein Abendgebet für den 13. Oktober 2026: Wir legen Gott den Tag hin. Was gelungen ist. Was offen blieb. Und wir bitten konkret für Menschen, die unter dem Krieg gegen die Ukraine leiden, nachdem die EU am 12. Oktober neue Sanktionen gegen Russland beschlossen hat, und für Menschen in Saudi-Arabien, nachdem Riad erneut von Explosionen erschüttert wurde. Wir denken auch an Menschen hier bei uns in Baden-Württemberg, wo ein Bus mit Kindern von der Fahrbahn abkam. Gottes Zukunft endet nicht an dem, was heute unfertig bleibt.\",\"audience\":\"breite Öffentlichkeit\",\"tone\":[\"ruhig\",\"hoffnungsvoll\",\"geborgen\"],\"source_notes\":[\"Aktuelle Bezüge geprüft: tagesschau-Archiv vom 12.10.2026 mit Meldungen zu neuen EU-Sanktionen gegen Russland, erneuten Explosionen in Riad und Nordkoreas Raketentest; SWR-Hinweis vom 13.10.2026 auf Busunfall mit Kindern in Baden-Württemberg.\",\"Zeitlich robust formuliert: keine Annahmen über Entwicklungen des Veröffentlichungstages, nur Bezug auf bis zum Nachmittag des Vortags erkennbare Lagen.\",\"Gebet soll den Tag loslassen helfen, ohne Leid billig aufzulösen.\",\"Mindestens zwei konkrete aktuelle Situationen ausdrücklich eingearbeitet.\" ]},\"platforms\":{\"facebook\":{\"text\":\"Abendgebet\\n\\nGott,\\nder Tag liegt hinter uns.\\nMit allem, was gut war.\\nMit allem, was schwer war.\\nMit Worten, die getragen haben.\\nUnd mit dem, was offen blieb.\\n\\nWir legen dir hin,\\nwas wir geschafft haben.\\nUnd auch das,\\nwas wir nicht mehr ordnen konnten.\\nDen Streit.\\nDie Müdigkeit.\\nDie Fehler.\\nDie Sorge, die noch im Zimmer steht.\\n\\nWir bitten dich heute besonders für Menschen in der Ukraine.\\nDie EU hat neue Sanktionen gegen Russland beschlossen.\\nDoch der Krieg ist damit nicht vorbei.\\nBleib bei denen, die weiter mit Angst, Verlust und Zerstörung leben.\\n\\nWir bitten dich für die Menschen in Saudi-Arabien.\\nIn Riad gab es erneut Explosionen.\\nBewahre die, die in dieser Nacht nicht wissen, ob sie sicher sind.\\n\\nWir bitten dich auch für die Kinder, Familien und Einsatzkräfte in Baden-Württemberg,\\nwo ein Bus von der Fahrbahn abkam.\\nSei nahe bei allen, die erschrocken sind und nun Hilfe brauchen.\\n\\nUnd wir denken an alle,\\ndie heute Nacht wachen.\\nIn Kliniken.\\nBei der Feuerwehr.\\nBei der Polizei.\\nAuf Straßen und Bahnhöfen.\\nAn Betten.\\nAn Grenzen.\\nIn Häusern voller Unruhe.\\n\\nGib uns Frieden für diese Nacht.\\nNicht den schnellen Trost.\\nSondern Atem.\\nStille.\\nUnd die Gewissheit:\\nDie Welt muss nicht in unseren Händen bleiben.\\nSie ist in deiner Hand.\\n\\nWas heute war, legen wir dir hin.\\nWas morgen kommt, auch.\\nHalte deine Hoffnung in uns wach.\\nAmen.\",\"headline\":\"Abendgebet: Was heute offen blieb, darf in Gottes Hand ruhen\"},\"instagram\":{\"caption\":\"Abendgebet.\\nFür alles, was heute gut war. Und für alles, was offen blieb.\\n\\nWir beten heute konkret für Menschen in der Ukraine, für Menschen in Riad nach den erneuten Explosionen und für Kinder, Familien und Einsatzkräfte in Baden-Württemberg nach dem Busunfall.\\n\\nGott, nimm diesen Tag in deine Hand. Und gib Frieden für diese Nacht.\",\"carousel\":[{\"type\":\"text\",\"text\":\"Der Tag liegt hinter dir.\\nDu musst ihn nicht fertig machen.\"},{\"type\":\"text\",\"text\":\"Was gut war:\\nDank.\\nWas wehgetan hat:\\nRaum.\\nWas offen blieb:\\nGottes Hand.\"},{\"type\":\"text\",\"text\":\"Wir beten für Menschen in der Ukraine.\\nFür Menschen in Riad.\\nFür Kinder, Familien und Einsatzkräfte in Baden-Württemberg.\"},{\"type\":\"text\",\"text\":\"Schenk uns Frieden für diese Nacht.\\nUnd Hoffnung für morgen.\"}]},\"mastodon\":{\"text\":\"Abendgebet\\n\\nGott,\\nwir legen dir diesen Tag hin.\\nWas gelungen ist. Was wehgetan hat. Was offen blieb.\\n\\nWir bitten dich für Menschen in der Ukraine, die weiter unter dem Krieg leiden. Für Menschen in Riad nach den erneuten Explosionen. Und für Kinder, Familien und Einsatzkräfte in Baden-Württemberg nach dem Busunfall.\\n\\nGib Frieden für diese Nacht. Halte Hoffnung in uns wach.\\nAmen.\"},\"bluesky\":{\"text\":\"Abendgebet: Gott, wir legen dir diesen Tag hin. Was gelungen ist. Was schwer war. Was offen blieb. Wir bitten für Menschen in der Ukraine, für Menschen in Riad nach den Explosionen und für Kinder, Familien und Einsatzkräfte in Baden-Württemberg nach dem Busunfall. Gib Frieden für diese Nacht. Amen.\"},\"story\":{\"slides\":[{\"text\":\"Abendgebet\\nDer Tag liegt hinter dir.\"},{\"text\":\"Du musst nicht alles zu Ende bringen.\\nWas offen blieb, darf vor Gott offen bleiben.\"},{\"text\":\"Wir beten für Menschen in der Ukraine.\\nFür Menschen in Riad.\\nFür Betroffene des Busunfalls in Baden-Württemberg.\"},{\"text\":\"Gott, gib Frieden für diese Nacht.\\nUnd Hoffnung für morgen.\"}]},\"reel\":{\"hook\":\"Du musst diesen Tag nicht fertig bekommen.\",\"script\":\"Der Tag ist vorbei. Nicht alles ist gelungen. Nicht alles ist heil. Nicht alles ist abgeschlossen. Im Abendgebet darf das offen bleiben. Wir beten für Menschen in der Ukraine. Für Menschen in Riad nach den Explosionen. Für Kinder, Familien und Einsatzkräfte in Baden-Württemberg nach dem Busunfall. Gott, nimm, was heute war, in deine Hand. Schenk Frieden für diese Nacht. Und halte Hoffnung in uns wach.\",\"shots\":[\"Abendlicht an einem Fenster\",\"Eine Hand legt ein Handy weg\",\"Leerer Stuhl am Tisch\",\"Langsame Fahrt über eine dunkler werdende Straße\",\"Kerzenlicht oder warmes Nachtlicht\"],\"duration_seconds\":29}},\"visual\":{\"concept\":\"Ruhige Abendstimmung an einem Fenster. Warmes Licht innen, dunkler werdender Himmel außen. Ein einfacher Tisch, eine Tasse, offene Hände. Das Bild soll Loslassen und Geborgenheit zeigen, ohne illustrative Nachrichtenszenen.\",\"flux_prompt\":\"Ruhige Abendstimmung in einem schlichten Zimmer, Blick zu einem Fenster mit blau werdendem Himmel, warmes weiches Innenlicht, einfacher Holztisch mit Tasse, offene ruhende Hände, still, zurückhaltend, fotografisch, natürliche Farben, viel negative space, Atmosphäre von Frieden und Loslassen, keine Menschenmenge, keine Dramatik, keine Schrift\",\"negative_prompt\":\"text, letters, logo, watermark\",\"formats\":[\"4:5\",\"9:16\",\"1.91:1\"],\"alt_text\":\"Ein ruhiger Abendraum mit warmem Licht. Vor einem Fenster steht ein schlichter Tisch mit einer Tasse. Hände liegen offen und ruhig im Bild. Draußen wird der Himmel dunkelblau. Die Szene wirkt still und geborgen.\"},\"qa\":{\"warnings\":[\"Aktuelle Bezüge vor Freigabe nochmals gegen die Nachrichtenlage bis zum tatsächlichen Produktionszeitpunkt prüfen.\",\"SWR-Angabe zum Busunfall mit Kindern vor Veröffentlichung redaktionell im Volltext gegenprüfen, da im Suchtreffer nur als Newsticker-Hinweis sichtbar.\",\"Alt text must be completed before approval\"],\"approved\":false},\"metadata\":{\"model\":\"gpt-5\",\"generated_at\":\"2026-10-13T00:00:00Z\",\"prompt_version\":\"1.0\",\"assets\":[]}}"
+}
