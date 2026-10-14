@@ -84,5 +84,62 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-10-14",
+    "contentDate": "2026-10-14",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-10-14T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Dem Gerechten muss das Licht immer wieder aufgehen und Freude den aufrichtigen Herzen.",
+    "assets": [
+      "render-square-01.jpg"
+    ],
+    "altTexts": [
+      "Dem Gerechten muss das Licht immer wieder aufgehen und Freude den aufrichtigen Herzen."
+    ],
+    "id": "84766a51-a5c6-41a8-92ac-e4fd4c872e20",
+    "attemptCount": 1,
+    "remoteId": "17937417873400804",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:46:33.096Z",
+    "updatedAt": "2026-10-14T05:00:49.752Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-10-14",
+    "contentDate": "2026-10-14",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-10-14T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Dem Gerechten muss das Licht immer wieder aufgehen und Freude den aufrichtigen Herzen.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Dem Gerechten muss das Licht immer wieder aufgehen und Freude den aufrichtigen Herzen."
+    ],
+    "id": "93a32693-fe1d-4aa0-be2e-11448711d202",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3mxsrcgbtyb2i",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3mxsrcgbtyb2i",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:46:33.109Z",
+    "updatedAt": "2026-10-14T05:00:53.380Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
