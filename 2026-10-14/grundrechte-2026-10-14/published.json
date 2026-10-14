@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-10-14",
+    "contentDate": "2026-10-14",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-10-14T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Bei allen Maßnahmen, die Kinder mit Behinderungen betreffen, ist das Wohl des Kindes ein Gesichtspunkt, der vorrangig zu berücksichtigen ist. (UN-Behindertenrechtskonvention, Artikel 7 Absatz 2)",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Bei allen Maßnahmen, die Kinder mit Behinderungen betreffen, ist das Wohl des Kindes ein Gesichtspunkt, der vorrangig zu berücksichtigen ist. (UN-Behindertenrechtskonvention, Artikel 7 Absatz 2)"
+    ],
+    "id": "3c78a017-5bae-46f3-92bb-13f632cf3758",
+    "attemptCount": 1,
+    "remoteId": "18098367842093677",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:39:36.376Z",
+    "updatedAt": "2026-10-14T10:00:36.882Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-10-14",
+    "contentDate": "2026-10-14",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-10-14T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Bei allen Maßnahmen, die Kinder mit Behinderungen betreffen, ist das Wohl des Kindes ein Gesichtspunkt, der vorrangig zu berücksichtigen ist. (UN-Behindertenrechtskonvention, Artikel 7 Absatz 2)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Bei allen Maßnahmen, die Kinder mit Behinderungen betreffen, ist das Wohl des Kindes ein Gesichtspunkt, der vorrangig zu berücksichtigen ist. (UN-Behindertenrechtskonvention, Artikel 7 Absatz 2)"
+    ],
+    "id": "286db0a2-38f2-4df8-af5b-1efac3d7bd17",
+    "attemptCount": 1,
+    "remoteId": "117438679598387076",
+    "remoteUrl": "https://kirche.social/@christoph/117438679598387076",
+    "lastError": null,
+    "createdAt": "2026-08-26T15:39:36.432Z",
+    "updatedAt": "2026-10-14T10:00:39.827Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
