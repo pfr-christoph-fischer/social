@@ -1,0 +1,450 @@
+{
+  "id": "resp_0e56bbb8593e2a74006acf8af5803487d2b2dd57eeaa7b7eb8",
+  "object": "response",
+  "created_at": 1791986421,
+  "status": "completed",
+  "access_programs": null,
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1791986458,
+  "error": null,
+  "frequency_penalty": 0,
+  "incomplete_details": null,
+  "instructions": "You are part of a Protestant social media editorial team. Write in clear, accessible, theologically responsible German without church clichés. Use short sentences and concrete imagery. Never invent events, people, school situations, quotes, or factual details. Do not include copyrighted full song verses. For Reli and community posts, only use current details when they are explicitly provided. Return content that strictly matches the requested JSON schema. Set needs_input to true whenever required facts are missing. Keep qa.approved false. Do not ask for any text inside generated images. When liturgical_context.resolved_weekly_verse is present, use its exact wording for Wochenspruch slots instead of placeholders. Use the web search tool before drafting to verify current situations. For prayer posts, current situations are mandatory: select at least two concrete, relevant situations from reliable current reporting, including tagesschau.de and SWR Aktuell Baden-Württemberg where relevant. Do not invent current events and do not replace concrete situations with generic references to crises.",
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.4-2026-03-05",
+  "moderation": null,
+  "output": [
+    {
+      "id": "ws_0e56bbb8593e2a74006acf8af700b487d2b2355a8e8ba65349",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "queries": [
+          "site:tagesschau.de 15. Oktober 2026 Nachrichten Deutschland Welt",
+          "site:swraktuell.de Baden-Württemberg 15. Oktober 2026 aktuell"
+        ],
+        "query": "site:tagesschau.de 15. Oktober 2026 Nachrichten Deutschland Welt"
+      }
+    },
+    {
+      "id": "msg_0e56bbb8593e2a74006acf8af92bdc87d2a088a23e77770dc9",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\"id\":\"prayer-morning-2026-10-15\",\"status\":\"in Arbeit\",\"needs_input\":false,\"source\":{\"calendar_post_id\":\"prayer-morning-2026-10-15\",\"date\":\"2026-10-15\",\"rubric\":\"Morgengebet\",\"liturgical_source\":\"\"},\"editorial_core\":{\"title\":\"Morgengebet\",\"main_message\":\"Den neuen Tag als Morgenlob beginnen: sich auf Gott ausrichten, Gottes Gegenwart und Güte wahrnehmen und aus christlicher Hoffnung in den Tag gehen.\",\"audience\":\"breite Öffentlichkeit\",\"tone\":[\"lobend\",\"hoffnungsvoll\",\"zugewandt\"],\"source_notes\":[\"Goal: Ein kurzes Morgenlob, das den neuen Tag bewusst vor Gott beginnt und die Aufmerksamkeit zuerst auf Gott richtet.\",\"Column: Gebet am Morgen\",\"Production mode: weitgehend vorproduzierbar; am Morgen der Veröffentlichung nur auf stimmigen Tagesbezug prüfen.\",\"Ausrichtung: Gott anreden und loben. Gottes Gegenwart, Treue, Güte, Schöpferkraft, Barmherzigkeit oder verheißene Zukunft in den Mittelpunkt stellen.\",\"Abgrenzung: Keine Nachrichtenschau und keine konkreten Fürbitten für aktuelle Ereignisse, Länder, Gruppen oder Einzelne. Solche Anliegen gehören in das Abendgebet.\",\"Prayer structure: Vor Gott ankommen | Gott mit einem Namen oder Bild anreden | den neuen Morgen und das Leben als Gabe wahrnehmen | einen kurzen Gebetsschnipsel aufnehmen | Hoffnung und Vertrauen aussprechen | den Tag offen und zuversichtlich aus Gottes Hand annehmen.\",\"Prayer fragment: Wenn passend, einen sehr kurzen, erkennbaren Schnipsel aus einem bekannten Gebet aufnehmen, zum Beispiel aus einem Psalm, einem biblischen Gebet oder der Tradition von Taizé oder Iona.\",\"Source handling: Quelle des Gebetsschnipsels zuverlässig prüfen und knapp nennen. Biblische Worte mit Bibelstelle kennzeichnen. Bei modernen Gebeten und Gesängen nur ein kurzes zulässiges Zitat verwenden; sonst den Gedanken in eigenen Worten aufnehmen.\",\"Theological key: Christliche Hoffnung gründet in Gott und seiner verheißenen Zukunft. Sie ist mehr als gute Stimmung und trägt auch dann, wenn der Tag ungewiss beginnt.\",\"Theological key: Das Morgenlob verschweigt Dunkelheit und Leid nicht, macht sie aber nicht zum Mittelpunkt. Es beginnt mit Gott, von dem Licht, Leben und Erneuerung erwartet werden.\",\"Spiritual tone: Lob, Dank, Staunen, Vertrauen, Erwartung und ruhige Zuversicht. Keine Leistungsforderung und kein Appellkatalog.\",\"Language: Kurze, einfache und poetisch klare Sätze. Konkrete Bilder des Morgens und der Schöpfung verwenden, ohne kitschig zu werden.\",\"Language: Möglichst wenig kirchliche Binnenbegriffe. Das Gebet soll auch für Menschen zugänglich sein, die mit traditioneller Gebetssprache wenig anfangen können.\",\"Ending: Mit einem Satz des Vertrauens oder Lobes enden, der in den Tag mitgenommen werden kann.\",\"AI support notes: Passenden geistlichen Leitgedanken wählen | gegebenenfalls einen kurzen Gebetsschnipsel samt Quelle prüfen | Morgenlob in einfacher Sprache entwerfen | konkrete Fürbitten konsequent dem Abendgebet überlassen | Caption kürzen | Alt-Text\",\"Web-Check erfolgt: aktuelle Nachrichtenlage geprüft; für das Morgengebet bewusst keine konkreten Ereignisse aufgenommen, entsprechend der Rubrikvorgabe. Gebetsschnipsel aus Psalm 118,24 in kurzer Form verwendet.\"]},\"platforms\":{\"facebook\":{\"text\":\"**Morgengebet**\\n\\nGott, du Quelle des Lebens,\\ndieser Morgen kommt aus deiner Hand.\\nDas erste Licht liegt auf den Dächern.\\nDie Luft ist kühl. Der Tag ist noch offen.\\n\\nIch danke dir für diesen neuen Anfang.\\nFür Atem.\\nFür Kraft.\\nFür alles, was heute wachsen darf.\\n\\n\\\"Dies ist der Tag, den der HERR macht\\\" (Psalm 118,24).\\nLass mich ihn nicht mit Sorge füllen,\\nsondern mit Vertrauen.\\n\\nGeh mit mir in alles, was vor mir liegt.\\nIn Gespräche und Wege.\\nIn Arbeit und Pausen.\\nIn das, was leicht wird,\\nund in das, was mich Mühe kostet.\\n\\nDu bist da.\\nDeine Güte ist neu an diesem Morgen.\\nDarauf will ich hoffen.\\n\\nAmen.\",\"headline\":\"Morgengebet: Dieser Tag liegt in Gottes Hand\"},\"instagram\":{\"caption\":\"Morgengebet\\n\\nGott, du Quelle des Lebens,\\ndieser Morgen kommt aus deiner Hand.\\nDas erste Licht liegt auf den Dächern. Der Tag ist noch offen.\\n\\nIch danke dir für diesen neuen Anfang.\\nFür Atem. Für Kraft. Für alles, was heute wachsen darf.\\n\\n„Dies ist der Tag, den der HERR macht“ (Psalm 118,24).\\nLass mich ihn mit Vertrauen empfangen.\\n\\nGeh mit mir in alles, was vor mir liegt.\\nDu bist da. Deine Güte ist neu an diesem Morgen.\\nDarauf will ich hoffen.\\n\\nAmen.\",\"carousel\":[{\"type\":\"text\",\"text\":\"Morgengebet\\n\\nGott, du Quelle des Lebens,\\ndieser Morgen kommt aus deiner Hand.\"},{\"type\":\"text\",\"text\":\"Das erste Licht liegt auf den Dächern.\\nDie Luft ist kühl.\\nDer Tag ist noch offen.\"},{\"type\":\"text\",\"text\":\"Ich danke dir für diesen neuen Anfang.\\nFür Atem.\\nFür Kraft.\\nFür alles, was heute wachsen darf.\"},{\"type\":\"text\",\"text\":\"„Dies ist der Tag, den der HERR macht“\\nPsalm 118,24\"},{\"type\":\"text\",\"text\":\"Geh mit mir in alles, was vor mir liegt.\\nDu bist da.\\nDeine Güte ist neu an diesem Morgen.\"},{\"type\":\"text\",\"text\":\"Darauf will ich hoffen.\\n\\nAmen.\"}]},\"mastodon\":{\"text\":\"Morgengebet\\n\\nGott, du Quelle des Lebens,\\ndieser Morgen kommt aus deiner Hand.\\nDas erste Licht liegt auf den Dächern. Der Tag ist noch offen.\\n\\nIch danke dir für diesen neuen Anfang.\\nFür Atem. Für Kraft. Für alles, was heute wachsen darf.\\n\\n„Dies ist der Tag, den der HERR macht“ (Psalm 118,24).\\nLass mich ihn mit Vertrauen empfangen.\\n\\nDu bist da. Deine Güte ist neu an diesem Morgen.\\nDarauf will ich hoffen.\\n\\nAmen.\"},\"bluesky\":{\"text\":\"Morgengebet\\n\\nGott, du Quelle des Lebens,\\ndieser Morgen kommt aus deiner Hand.\\nDas erste Licht liegt auf den Dächern. Der Tag ist noch offen.\\n\\n„Dies ist der Tag, den der HERR macht“ (Psalm 118,24).\\nDeine Güte ist neu an diesem Morgen.\\nDarauf will ich hoffen.\\n\\nAmen.\"},\"story\":{\"slides\":[{\"text\":\"Morgengebet\\n\\nDieser Morgen kommt aus Gottes Hand.\"},{\"text\":\"Das erste Licht liegt auf den Dächern.\\nDer Tag ist noch offen.\"},{\"text\":\"Ich danke dir für neuen Atem.\\nFür Kraft.\\nFür alles, was heute wachsen darf.\"},{\"text\":\"„Dies ist der Tag, den der HERR macht“\\nPsalm 118,24\"},{\"text\":\"Du bist da.\\nDeine Güte ist neu an diesem Morgen.\"},{\"text\":\"Darauf will ich hoffen.\\nAmen.\"}]},\"reel\":{\"hook\":\"Der Tag ist noch offen. Beginne ihn im Gebet.\",\"script\":\"Gott, du Quelle des Lebens, dieser Morgen kommt aus deiner Hand. Das erste Licht liegt auf den Dächern. Der Tag ist noch offen. Ich danke dir für diesen neuen Anfang. Für Atem. Für Kraft. Für alles, was heute wachsen darf. Dies ist der Tag, den der Herr macht. Geh mit mir in alles, was vor mir liegt. Du bist da. Deine Güte ist neu an diesem Morgen. Darauf will ich hoffen. Amen.\",\"shots\":[\"Frühes Morgenlicht auf Dächern\",\"Nahaufnahme von Tau auf Gras oder Blättern\",\"Eine Hand öffnet ein Fenster\",\"Leere Straße im weichen Morgenlicht\",\"Dampf über einer Tasse\",\"Weite Himmelsaufnahme mit ruhigen Wolken\"],\"duration_seconds\":30}},\"visual\":{\"concept\":\"Ruhiger Herbstmorgen in der Stadt oder am Dorfrand. Weiches erstes Licht, klare Luft, stille Dächer oder Bäume. Das Bild soll Offenheit, Anfang und stille Zuversicht ausstrahlen.\",\"flux_prompt\":\"Ein ruhiger Herbstmorgen mit weichem ersten Sonnenlicht über Dächern und Bäumen, kühle klare Luft, sanfte Schatten, natürliche Farben, stille Atmosphäre, hoffnungsvoll und schlicht, fotografischer Stil, hohe Detailtreue, keine Menschen im Vordergrund, keine Schrift, keine Logos\",\"negative_prompt\":\"text, letters, logo, watermark\",\"formats\":[\"4:5\",\"9:16\",\"1.91:1\"],\"alt_text\":\"Ein stiller Morgen mit weichem Licht über Dächern und Bäumen. Der Himmel ist hell, die Szene wirkt ruhig und offen wie ein neuer Tagesanfang.\"},\"qa\":{\"warnings\":[\"Alt text must be completed before approval\",\"Web-Suche durchgeführt; keine aktuellen Ereignisse aufgenommen, da die Rubrik ausdrücklich auf Morgenlob ohne konkrete Fürbitten oder Nachrichtenschau ausgerichtet ist.\",\"Bibelzitat kurz gehalten und mit Quelle gekennzeichnet: Psalm 118,24.\"],\"approved\":false},\"metadata\":{\"model\":\"gpt-5\",\"generated_at\":\"2026-10-14\",\"prompt_version\":\"1.1\",\"assets\":[]}}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "current_turn",
+    "effort": "none",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1,
+  "text": {
+    "format": {
+      "type": "json_schema",
+      "description": null,
+      "name": "content_package",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "Idee",
+              "in Arbeit",
+              "zur Prüfung",
+              "freigegeben",
+              "terminiert",
+              "veröffentlicht",
+              "verworfen"
+            ]
+          },
+          "needs_input": {
+            "type": "boolean"
+          },
+          "source": {
+            "type": "object",
+            "properties": {
+              "calendar_post_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "date": {
+                "type": "string",
+                "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+              },
+              "rubric": {
+                "type": "string",
+                "minLength": 1
+              },
+              "liturgical_source": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "calendar_post_id",
+              "date",
+              "rubric",
+              "liturgical_source"
+            ],
+            "additionalProperties": false
+          },
+          "editorial_core": {
+            "type": "object",
+            "properties": {
+              "title": {
+                "type": "string"
+              },
+              "main_message": {
+                "type": "string"
+              },
+              "audience": {
+                "type": "string"
+              },
+              "tone": {
+                "minItems": 1,
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "source_notes": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "title",
+              "main_message",
+              "audience",
+              "tone",
+              "source_notes"
+            ],
+            "additionalProperties": false
+          },
+          "platforms": {
+            "type": "object",
+            "properties": {
+              "facebook": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  },
+                  "headline": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text",
+                  "headline"
+                ],
+                "additionalProperties": false
+              },
+              "instagram": {
+                "type": "object",
+                "properties": {
+                  "caption": {
+                    "type": "string"
+                  },
+                  "carousel": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "type": {
+                          "type": "string"
+                        },
+                        "text": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "type",
+                        "text"
+                      ],
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "required": [
+                  "caption",
+                  "carousel"
+                ],
+                "additionalProperties": false
+              },
+              "mastodon": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text"
+                ],
+                "additionalProperties": false
+              },
+              "bluesky": {
+                "default": {
+                  "text": ""
+                },
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text"
+                ],
+                "additionalProperties": false
+              },
+              "story": {
+                "type": "object",
+                "properties": {
+                  "slides": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "text": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "text"
+                      ],
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "required": [
+                  "slides"
+                ],
+                "additionalProperties": false
+              },
+              "reel": {
+                "type": "object",
+                "properties": {
+                  "hook": {
+                    "type": "string"
+                  },
+                  "script": {
+                    "type": "string"
+                  },
+                  "shots": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "duration_seconds": {
+                    "type": "integer",
+                    "minimum": 0,
+                    "maximum": 9007199254740991
+                  }
+                },
+                "required": [
+                  "hook",
+                  "script",
+                  "shots",
+                  "duration_seconds"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "required": [
+              "facebook",
+              "instagram",
+              "mastodon",
+              "bluesky",
+              "story",
+              "reel"
+            ],
+            "additionalProperties": false
+          },
+          "visual": {
+            "type": "object",
+            "properties": {
+              "concept": {
+                "type": "string"
+              },
+              "flux_prompt": {
+                "type": "string"
+              },
+              "negative_prompt": {
+                "type": "string",
+                "minLength": 1
+              },
+              "formats": {
+                "minItems": 1,
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "alt_text": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "concept",
+              "flux_prompt",
+              "negative_prompt",
+              "formats",
+              "alt_text"
+            ],
+            "additionalProperties": false
+          },
+          "qa": {
+            "type": "object",
+            "properties": {
+              "warnings": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "approved": {
+                "type": "boolean"
+              }
+            },
+            "required": [
+              "warnings",
+              "approved"
+            ],
+            "additionalProperties": false
+          },
+          "metadata": {
+            "type": "object",
+            "properties": {
+              "model": {
+                "type": "string"
+              },
+              "generated_at": {
+                "type": "string"
+              },
+              "prompt_version": {
+                "type": "string",
+                "minLength": 1
+              },
+              "assets": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "model",
+              "generated_at",
+              "prompt_version",
+              "assets"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "id",
+          "status",
+          "needs_input",
+          "source",
+          "editorial_core",
+          "platforms",
+          "visual",
+          "qa",
+          "metadata"
+        ],
+        "additionalProperties": false
+      },
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 1
+    }
+  },
+  "tools": [
+    {
+      "type": "web_search",
+      "return_token_budget": "default",
+      "search_content_types": [
+        "text"
+      ],
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 10803,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 2144,
+    "output_tokens_details": {
+      "reasoning_tokens": 75
+    },
+    "total_tokens": 12947
+  },
+  "user": null,
+  "metadata": {},
+  "output_text": "{\"id\":\"prayer-morning-2026-10-15\",\"status\":\"in Arbeit\",\"needs_input\":false,\"source\":{\"calendar_post_id\":\"prayer-morning-2026-10-15\",\"date\":\"2026-10-15\",\"rubric\":\"Morgengebet\",\"liturgical_source\":\"\"},\"editorial_core\":{\"title\":\"Morgengebet\",\"main_message\":\"Den neuen Tag als Morgenlob beginnen: sich auf Gott ausrichten, Gottes Gegenwart und Güte wahrnehmen und aus christlicher Hoffnung in den Tag gehen.\",\"audience\":\"breite Öffentlichkeit\",\"tone\":[\"lobend\",\"hoffnungsvoll\",\"zugewandt\"],\"source_notes\":[\"Goal: Ein kurzes Morgenlob, das den neuen Tag bewusst vor Gott beginnt und die Aufmerksamkeit zuerst auf Gott richtet.\",\"Column: Gebet am Morgen\",\"Production mode: weitgehend vorproduzierbar; am Morgen der Veröffentlichung nur auf stimmigen Tagesbezug prüfen.\",\"Ausrichtung: Gott anreden und loben. Gottes Gegenwart, Treue, Güte, Schöpferkraft, Barmherzigkeit oder verheißene Zukunft in den Mittelpunkt stellen.\",\"Abgrenzung: Keine Nachrichtenschau und keine konkreten Fürbitten für aktuelle Ereignisse, Länder, Gruppen oder Einzelne. Solche Anliegen gehören in das Abendgebet.\",\"Prayer structure: Vor Gott ankommen | Gott mit einem Namen oder Bild anreden | den neuen Morgen und das Leben als Gabe wahrnehmen | einen kurzen Gebetsschnipsel aufnehmen | Hoffnung und Vertrauen aussprechen | den Tag offen und zuversichtlich aus Gottes Hand annehmen.\",\"Prayer fragment: Wenn passend, einen sehr kurzen, erkennbaren Schnipsel aus einem bekannten Gebet aufnehmen, zum Beispiel aus einem Psalm, einem biblischen Gebet oder der Tradition von Taizé oder Iona.\",\"Source handling: Quelle des Gebetsschnipsels zuverlässig prüfen und knapp nennen. Biblische Worte mit Bibelstelle kennzeichnen. Bei modernen Gebeten und Gesängen nur ein kurzes zulässiges Zitat verwenden; sonst den Gedanken in eigenen Worten aufnehmen.\",\"Theological key: Christliche Hoffnung gründet in Gott und seiner verheißenen Zukunft. Sie ist mehr als gute Stimmung und trägt auch dann, wenn der Tag ungewiss beginnt.\",\"Theological key: Das Morgenlob verschweigt Dunkelheit und Leid nicht, macht sie aber nicht zum Mittelpunkt. Es beginnt mit Gott, von dem Licht, Leben und Erneuerung erwartet werden.\",\"Spiritual tone: Lob, Dank, Staunen, Vertrauen, Erwartung und ruhige Zuversicht. Keine Leistungsforderung und kein Appellkatalog.\",\"Language: Kurze, einfache und poetisch klare Sätze. Konkrete Bilder des Morgens und der Schöpfung verwenden, ohne kitschig zu werden.\",\"Language: Möglichst wenig kirchliche Binnenbegriffe. Das Gebet soll auch für Menschen zugänglich sein, die mit traditioneller Gebetssprache wenig anfangen können.\",\"Ending: Mit einem Satz des Vertrauens oder Lobes enden, der in den Tag mitgenommen werden kann.\",\"AI support notes: Passenden geistlichen Leitgedanken wählen | gegebenenfalls einen kurzen Gebetsschnipsel samt Quelle prüfen | Morgenlob in einfacher Sprache entwerfen | konkrete Fürbitten konsequent dem Abendgebet überlassen | Caption kürzen | Alt-Text\",\"Web-Check erfolgt: aktuelle Nachrichtenlage geprüft; für das Morgengebet bewusst keine konkreten Ereignisse aufgenommen, entsprechend der Rubrikvorgabe. Gebetsschnipsel aus Psalm 118,24 in kurzer Form verwendet.\"]},\"platforms\":{\"facebook\":{\"text\":\"**Morgengebet**\\n\\nGott, du Quelle des Lebens,\\ndieser Morgen kommt aus deiner Hand.\\nDas erste Licht liegt auf den Dächern.\\nDie Luft ist kühl. Der Tag ist noch offen.\\n\\nIch danke dir für diesen neuen Anfang.\\nFür Atem.\\nFür Kraft.\\nFür alles, was heute wachsen darf.\\n\\n\\\"Dies ist der Tag, den der HERR macht\\\" (Psalm 118,24).\\nLass mich ihn nicht mit Sorge füllen,\\nsondern mit Vertrauen.\\n\\nGeh mit mir in alles, was vor mir liegt.\\nIn Gespräche und Wege.\\nIn Arbeit und Pausen.\\nIn das, was leicht wird,\\nund in das, was mich Mühe kostet.\\n\\nDu bist da.\\nDeine Güte ist neu an diesem Morgen.\\nDarauf will ich hoffen.\\n\\nAmen.\",\"headline\":\"Morgengebet: Dieser Tag liegt in Gottes Hand\"},\"instagram\":{\"caption\":\"Morgengebet\\n\\nGott, du Quelle des Lebens,\\ndieser Morgen kommt aus deiner Hand.\\nDas erste Licht liegt auf den Dächern. Der Tag ist noch offen.\\n\\nIch danke dir für diesen neuen Anfang.\\nFür Atem. Für Kraft. Für alles, was heute wachsen darf.\\n\\n„Dies ist der Tag, den der HERR macht“ (Psalm 118,24).\\nLass mich ihn mit Vertrauen empfangen.\\n\\nGeh mit mir in alles, was vor mir liegt.\\nDu bist da. Deine Güte ist neu an diesem Morgen.\\nDarauf will ich hoffen.\\n\\nAmen.\",\"carousel\":[{\"type\":\"text\",\"text\":\"Morgengebet\\n\\nGott, du Quelle des Lebens,\\ndieser Morgen kommt aus deiner Hand.\"},{\"type\":\"text\",\"text\":\"Das erste Licht liegt auf den Dächern.\\nDie Luft ist kühl.\\nDer Tag ist noch offen.\"},{\"type\":\"text\",\"text\":\"Ich danke dir für diesen neuen Anfang.\\nFür Atem.\\nFür Kraft.\\nFür alles, was heute wachsen darf.\"},{\"type\":\"text\",\"text\":\"„Dies ist der Tag, den der HERR macht“\\nPsalm 118,24\"},{\"type\":\"text\",\"text\":\"Geh mit mir in alles, was vor mir liegt.\\nDu bist da.\\nDeine Güte ist neu an diesem Morgen.\"},{\"type\":\"text\",\"text\":\"Darauf will ich hoffen.\\n\\nAmen.\"}]},\"mastodon\":{\"text\":\"Morgengebet\\n\\nGott, du Quelle des Lebens,\\ndieser Morgen kommt aus deiner Hand.\\nDas erste Licht liegt auf den Dächern. Der Tag ist noch offen.\\n\\nIch danke dir für diesen neuen Anfang.\\nFür Atem. Für Kraft. Für alles, was heute wachsen darf.\\n\\n„Dies ist der Tag, den der HERR macht“ (Psalm 118,24).\\nLass mich ihn mit Vertrauen empfangen.\\n\\nDu bist da. Deine Güte ist neu an diesem Morgen.\\nDarauf will ich hoffen.\\n\\nAmen.\"},\"bluesky\":{\"text\":\"Morgengebet\\n\\nGott, du Quelle des Lebens,\\ndieser Morgen kommt aus deiner Hand.\\nDas erste Licht liegt auf den Dächern. Der Tag ist noch offen.\\n\\n„Dies ist der Tag, den der HERR macht“ (Psalm 118,24).\\nDeine Güte ist neu an diesem Morgen.\\nDarauf will ich hoffen.\\n\\nAmen.\"},\"story\":{\"slides\":[{\"text\":\"Morgengebet\\n\\nDieser Morgen kommt aus Gottes Hand.\"},{\"text\":\"Das erste Licht liegt auf den Dächern.\\nDer Tag ist noch offen.\"},{\"text\":\"Ich danke dir für neuen Atem.\\nFür Kraft.\\nFür alles, was heute wachsen darf.\"},{\"text\":\"„Dies ist der Tag, den der HERR macht“\\nPsalm 118,24\"},{\"text\":\"Du bist da.\\nDeine Güte ist neu an diesem Morgen.\"},{\"text\":\"Darauf will ich hoffen.\\nAmen.\"}]},\"reel\":{\"hook\":\"Der Tag ist noch offen. Beginne ihn im Gebet.\",\"script\":\"Gott, du Quelle des Lebens, dieser Morgen kommt aus deiner Hand. Das erste Licht liegt auf den Dächern. Der Tag ist noch offen. Ich danke dir für diesen neuen Anfang. Für Atem. Für Kraft. Für alles, was heute wachsen darf. Dies ist der Tag, den der Herr macht. Geh mit mir in alles, was vor mir liegt. Du bist da. Deine Güte ist neu an diesem Morgen. Darauf will ich hoffen. Amen.\",\"shots\":[\"Frühes Morgenlicht auf Dächern\",\"Nahaufnahme von Tau auf Gras oder Blättern\",\"Eine Hand öffnet ein Fenster\",\"Leere Straße im weichen Morgenlicht\",\"Dampf über einer Tasse\",\"Weite Himmelsaufnahme mit ruhigen Wolken\"],\"duration_seconds\":30}},\"visual\":{\"concept\":\"Ruhiger Herbstmorgen in der Stadt oder am Dorfrand. Weiches erstes Licht, klare Luft, stille Dächer oder Bäume. Das Bild soll Offenheit, Anfang und stille Zuversicht ausstrahlen.\",\"flux_prompt\":\"Ein ruhiger Herbstmorgen mit weichem ersten Sonnenlicht über Dächern und Bäumen, kühle klare Luft, sanfte Schatten, natürliche Farben, stille Atmosphäre, hoffnungsvoll und schlicht, fotografischer Stil, hohe Detailtreue, keine Menschen im Vordergrund, keine Schrift, keine Logos\",\"negative_prompt\":\"text, letters, logo, watermark\",\"formats\":[\"4:5\",\"9:16\",\"1.91:1\"],\"alt_text\":\"Ein stiller Morgen mit weichem Licht über Dächern und Bäumen. Der Himmel ist hell, die Szene wirkt ruhig und offen wie ein neuer Tagesanfang.\"},\"qa\":{\"warnings\":[\"Alt text must be completed before approval\",\"Web-Suche durchgeführt; keine aktuellen Ereignisse aufgenommen, da die Rubrik ausdrücklich auf Morgenlob ohne konkrete Fürbitten oder Nachrichtenschau ausgerichtet ist.\",\"Bibelzitat kurz gehalten und mit Quelle gekennzeichnet: Psalm 118,24.\"],\"approved\":false},\"metadata\":{\"model\":\"gpt-5\",\"generated_at\":\"2026-10-14\",\"prompt_version\":\"1.1\",\"assets\":[]}}"
+}
