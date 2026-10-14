@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-10-14",
+    "contentDate": "2026-10-14",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-10-14T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Dem Gerechten muss das Licht immer wieder aufgehen und Freude den aufrichtigen Herzen.",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Dem Gerechten muss das Licht immer wieder aufgehen und Freude den aufrichtigen Herzen."
+    ],
+    "id": "f07aa4fa-d50f-4744-b687-fb716e4e96d6",
+    "attemptCount": 1,
+    "remoteId": "18098964116420353",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:46:33.072Z",
+    "updatedAt": "2026-10-14T05:00:34.786Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-10-14",
+    "contentDate": "2026-10-14",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-10-14T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Dem Gerechten muss das Licht immer wieder aufgehen und Freude den aufrichtigen Herzen.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Dem Gerechten muss das Licht immer wieder aufgehen und Freude den aufrichtigen Herzen."
+    ],
+    "id": "261879b6-ea80-44c5-81fd-20aa8961758a",
+    "attemptCount": 1,
+    "remoteId": "117437499710930414",
+    "remoteUrl": "https://kirche.social/@christoph/117437499710930414",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:46:33.085Z",
+    "updatedAt": "2026-10-14T05:00:36.212Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
