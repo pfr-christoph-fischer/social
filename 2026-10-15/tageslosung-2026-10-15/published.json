@@ -84,5 +84,62 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-10-15",
+    "contentDate": "2026-10-15",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-10-15T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Der HERR ist freundlich dem, der auf ihn harrt, und dem Menschen, der nach ihm fragt.",
+    "assets": [
+      "render-square-01.jpg"
+    ],
+    "altTexts": [
+      "Der HERR ist freundlich dem, der auf ihn harrt, und dem Menschen, der nach ihm fragt."
+    ],
+    "id": "2f2210f6-1205-4fd2-b133-042bc2ff2cc9",
+    "attemptCount": 1,
+    "remoteId": "18103289621133791",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:46:35.216Z",
+    "updatedAt": "2026-10-15T05:00:54.082Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-10-15",
+    "contentDate": "2026-10-15",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-10-15T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Der HERR ist freundlich dem, der auf ihn harrt, und dem Menschen, der nach ihm fragt.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Der HERR ist freundlich dem, der auf ihn harrt, und dem Menschen, der nach ihm fragt."
+    ],
+    "id": "1289cd23-9dd6-465f-aee5-dc799e9dec63",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3mxvbrgp4wq2k",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3mxvbrgp4wq2k",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:46:35.225Z",
+    "updatedAt": "2026-10-15T05:00:56.379Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
