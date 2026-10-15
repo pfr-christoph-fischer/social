@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-10-15",
+    "contentDate": "2026-10-15",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-10-15T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Bei allen Maßnahmen, die Kinder betreffen, gleichviel ob sie von öffentlichen oder privaten Einrichtungen der sozialen Fürsorge, Gerichten, Verwaltungsbehörden oder Gesetzgebungsorganen getroffen werden, ist das Wohl des Kindes ein Gesichtspunkt, der vorrangig zu berücksichtigen ist. (UN-Kinderrechtskonvention, Artikel 3 Absatz 1)",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Bei allen Maßnahmen, die Kinder betreffen, gleichviel ob sie von öffentlichen oder privaten Einrichtungen der sozialen Fürsorge, Gerichten, Verwaltungsbehörden oder Gesetzgebungsorganen getroffen werden, ist das Wohl des Kindes ein Gesichtspunkt, der vorrangig zu berücksichtigen ist. (UN-Kinderrechtskonvention, Artikel 3 Absatz 1)"
+    ],
+    "id": "f62776c4-f89d-4d98-b6bd-57998e23166d",
+    "attemptCount": 1,
+    "remoteId": "18168128716411332",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:39:39.447Z",
+    "updatedAt": "2026-10-15T10:00:43.989Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-10-15",
+    "contentDate": "2026-10-15",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-10-15T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Bei allen Maßnahmen, die Kinder betreffen, gleichviel ob sie von öffentlichen oder privaten Einrichtungen der sozialen Fürsorge, Gerichten, Verwaltungsbehörden oder Gesetzgebungsorganen getroffen werden, ist das Wohl des Kindes ein Gesichtspunkt, der vorrangig zu berücksichtigen ist. (UN-Kinderrechtskonvention, Artikel 3 Absatz 1)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Bei allen Maßnahmen, die Kinder betreffen, gleichviel ob sie von öffentlichen oder privaten Einrichtungen der sozialen Fürsorge, Gerichten, Verwaltungsbehörden oder Gesetzgebungsorganen getroffen werden, ist das Wohl des Kindes ein Gesichtspunkt, der vorrangig zu berücksichtigen ist. (UN-Kinderrechtskonvention, Artikel 3 Absatz 1)"
+    ],
+    "id": "5360298e-59f7-4e14-8188-4970b17c11e1",
+    "attemptCount": 1,
+    "remoteId": "117444342373843561",
+    "remoteUrl": "https://kirche.social/@christoph/117444342373843561",
+    "lastError": null,
+    "createdAt": "2026-08-26T15:39:39.515Z",
+    "updatedAt": "2026-10-15T10:00:46.924Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
