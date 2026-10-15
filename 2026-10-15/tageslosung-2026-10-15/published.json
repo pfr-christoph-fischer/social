@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-10-15",
+    "contentDate": "2026-10-15",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-10-15T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Der HERR ist freundlich dem, der auf ihn harrt, und dem Menschen, der nach ihm fragt.",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Der HERR ist freundlich dem, der auf ihn harrt, und dem Menschen, der nach ihm fragt."
+    ],
+    "id": "9d6714e2-6da3-4909-a9cd-1f90f858ca0d",
+    "attemptCount": 1,
+    "remoteId": "18033338555897725",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:46:35.193Z",
+    "updatedAt": "2026-10-15T05:00:40.283Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-10-15",
+    "contentDate": "2026-10-15",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-10-15T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Der HERR ist freundlich dem, der auf ihn harrt, und dem Menschen, der nach ihm fragt.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Der HERR ist freundlich dem, der auf ihn harrt, und dem Menschen, der nach ihm fragt."
+    ],
+    "id": "24bb80a6-bafd-47ad-9dd8-9e680297f7d6",
+    "attemptCount": 1,
+    "remoteId": "117443162391598806",
+    "remoteUrl": "https://kirche.social/@christoph/117443162391598806",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:46:35.202Z",
+    "updatedAt": "2026-10-15T05:00:42.120Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
