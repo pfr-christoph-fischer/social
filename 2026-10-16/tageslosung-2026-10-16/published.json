@@ -84,5 +84,62 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-10-16",
+    "contentDate": "2026-10-16",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-10-16T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Gottes Hilfe ist nahe denen, die ihn fürchten, dass Güte und Treue einander begegnen, Gerechtigkeit und Friede sich küssen.",
+    "assets": [
+      "render-square-01.jpg"
+    ],
+    "altTexts": [
+      "Gottes Hilfe ist nahe denen, die ihn fürchten, dass Güte und Treue einander begegnen, Gerechtigkeit und Friede sich küssen."
+    ],
+    "id": "70034a41-b9d1-488a-ba47-987801a3f0a8",
+    "attemptCount": 1,
+    "remoteId": "17866129332676446",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:46:37.330Z",
+    "updatedAt": "2026-10-16T05:00:53.061Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-10-16",
+    "contentDate": "2026-10-16",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-10-16T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Gottes Hilfe ist nahe denen, die ihn fürchten, dass Güte und Treue einander begegnen, Gerechtigkeit und Friede sich küssen.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Gottes Hilfe ist nahe denen, die ihn fürchten, dass Güte und Treue einander begegnen, Gerechtigkeit und Friede sich küssen."
+    ],
+    "id": "8368ed12-adb0-4973-ab17-b5d9002abf55",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3mxxsademmr2i",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3mxxsademmr2i",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:46:37.342Z",
+    "updatedAt": "2026-10-16T05:00:55.408Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
