@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-10-16",
+    "contentDate": "2026-10-16",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-10-16T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Lasset die Kinder zu mir kommen und wehret ihnen nicht; denn solchen gehört das Reich Gottes. (Die Bibel, Markus 10,14)",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Lasset die Kinder zu mir kommen und wehret ihnen nicht; denn solchen gehört das Reich Gottes. (Die Bibel, Markus 10,14)"
+    ],
+    "id": "f41cd2ff-7fbc-4be5-b4f4-a94c756f2a16",
+    "attemptCount": 1,
+    "remoteId": "18017167577745777",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:39:42.733Z",
+    "updatedAt": "2026-10-16T10:00:31.999Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-10-16",
+    "contentDate": "2026-10-16",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-10-16T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Lasset die Kinder zu mir kommen und wehret ihnen nicht; denn solchen gehört das Reich Gottes. (Die Bibel, Markus 10,14)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Lasset die Kinder zu mir kommen und wehret ihnen nicht; denn solchen gehört das Reich Gottes. (Die Bibel, Markus 10,14)"
+    ],
+    "id": "a95a8301-06f7-47ec-a371-6c0bdd33adb9",
+    "attemptCount": 1,
+    "remoteId": "117450003877436861",
+    "remoteUrl": "https://kirche.social/@christoph/117450003877436861",
+    "lastError": null,
+    "createdAt": "2026-08-26T15:39:42.779Z",
+    "updatedAt": "2026-10-16T10:00:34.637Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
