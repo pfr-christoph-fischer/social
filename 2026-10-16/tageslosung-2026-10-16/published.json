@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-10-16",
+    "contentDate": "2026-10-16",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-10-16T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Gottes Hilfe ist nahe denen, die ihn fürchten, dass Güte und Treue einander begegnen, Gerechtigkeit und Friede sich küssen.",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Gottes Hilfe ist nahe denen, die ihn fürchten, dass Güte und Treue einander begegnen, Gerechtigkeit und Friede sich küssen."
+    ],
+    "id": "611a3b95-c801-46d2-b5e0-1ac255c5d640",
+    "attemptCount": 1,
+    "remoteId": "17968055349008944",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:46:37.311Z",
+    "updatedAt": "2026-10-16T05:00:37.795Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-10-16",
+    "contentDate": "2026-10-16",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-10-16T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Gottes Hilfe ist nahe denen, die ihn fürchten, dass Güte und Treue einander begegnen, Gerechtigkeit und Friede sich küssen.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Gottes Hilfe ist nahe denen, die ihn fürchten, dass Güte und Treue einander begegnen, Gerechtigkeit und Friede sich küssen."
+    ],
+    "id": "050d9803-1212-4012-8cc4-8a110e29b8fe",
+    "attemptCount": 1,
+    "remoteId": "117448824554082544",
+    "remoteUrl": "https://kirche.social/@christoph/117448824554082544",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:46:37.321Z",
+    "updatedAt": "2026-10-16T05:00:39.601Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
