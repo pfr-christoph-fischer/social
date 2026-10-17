@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-10-17",
+    "contentDate": "2026-10-17",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-10-17T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Schafft Recht und Gerechtigkeit und errettet den Beraubten von des Frevlers Hand und bedrängt nicht die Fremdlinge, Waisen und Witwen und tut niemand Gewalt an.",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Schafft Recht und Gerechtigkeit und errettet den Beraubten von des Frevlers Hand und bedrängt nicht die Fremdlinge, Waisen und Witwen und tut niemand Gewalt an."
+    ],
+    "id": "7c879358-ed22-4758-b380-1eb74d28bf72",
+    "attemptCount": 1,
+    "remoteId": "17997186507031147",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:46:39.498Z",
+    "updatedAt": "2026-10-17T05:00:39.986Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-10-17",
+    "contentDate": "2026-10-17",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-10-17T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Schafft Recht und Gerechtigkeit und errettet den Beraubten von des Frevlers Hand und bedrängt nicht die Fremdlinge, Waisen und Witwen und tut niemand Gewalt an.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Schafft Recht und Gerechtigkeit und errettet den Beraubten von des Frevlers Hand und bedrängt nicht die Fremdlinge, Waisen und Witwen und tut niemand Gewalt an."
+    ],
+    "id": "05051bfc-d0b2-487b-9b22-8942082b2ed8",
+    "attemptCount": 1,
+    "remoteId": "117454486989532603",
+    "remoteUrl": "https://kirche.social/@christoph/117454486989532603",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:46:39.508Z",
+    "updatedAt": "2026-10-17T05:00:41.480Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
