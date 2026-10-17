@@ -84,5 +84,62 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-10-17",
+    "contentDate": "2026-10-17",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-10-17T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Schafft Recht und Gerechtigkeit und errettet den Beraubten von des Frevlers Hand und bedrängt nicht die Fremdlinge, Waisen und Witwen und tut niemand Gewalt an.",
+    "assets": [
+      "render-square-01.jpg"
+    ],
+    "altTexts": [
+      "Schafft Recht und Gerechtigkeit und errettet den Beraubten von des Frevlers Hand und bedrängt nicht die Fremdlinge, Waisen und Witwen und tut niemand Gewalt an."
+    ],
+    "id": "4c8255b9-7cb4-4830-9c04-0d4319faee42",
+    "attemptCount": 1,
+    "remoteId": "17914688235521116",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:46:39.521Z",
+    "updatedAt": "2026-10-17T05:00:59.754Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-10-17",
+    "contentDate": "2026-10-17",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-10-17T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Schafft Recht und Gerechtigkeit und errettet den Beraubten von des Frevlers Hand und bedrängt nicht die Fremdlinge, Waisen und Witwen und tut niemand Gewalt an.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Schafft Recht und Gerechtigkeit und errettet den Beraubten von des Frevlers Hand und bedrängt nicht die Fremdlinge, Waisen und Witwen und tut niemand Gewalt an."
+    ],
+    "id": "f569ff26-fcc3-49b3-a912-5efe2e5ae8ae",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3my2cpgxyhp23",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3my2cpgxyhp23",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:46:39.536Z",
+    "updatedAt": "2026-10-17T05:01:04.858Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
