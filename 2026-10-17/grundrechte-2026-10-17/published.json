@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-10-17",
+    "contentDate": "2026-10-17",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-10-17T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Die Vertragsstaaten verbieten jede Diskriminierung aufgrund von Behinderung und garantieren Menschen mit Behinderungen gleichen und wirksamen rechtlichen Schutz vor Diskriminierung, gleichviel aus welchen Gründen. (UN-Behindertenrechtskonvention, Artikel 5 Absatz 2)",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Die Vertragsstaaten verbieten jede Diskriminierung aufgrund von Behinderung und garantieren Menschen mit Behinderungen gleichen und wirksamen rechtlichen Schutz vor Diskriminierung, gleichviel aus welchen Gründen. (UN-Behindertenrechtskonvention, Artikel 5 Absatz 2)"
+    ],
+    "id": "0a31f38e-61fb-46a4-a9aa-6611978be6d9",
+    "attemptCount": 1,
+    "remoteId": "17987913246079270",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:39:45.564Z",
+    "updatedAt": "2026-10-17T10:00:32.506Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-10-17",
+    "contentDate": "2026-10-17",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-10-17T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Die Vertragsstaaten verbieten jede Diskriminierung aufgrund von Behinderung und garantieren Menschen mit Behinderungen gleichen und wirksamen rechtlichen Schutz vor Diskriminierung, gleichviel aus welchen Gründen. (UN-Behindertenrechtskonvention, Artikel 5 Absatz 2)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Die Vertragsstaaten verbieten jede Diskriminierung aufgrund von Behinderung und garantieren Menschen mit Behinderungen gleichen und wirksamen rechtlichen Schutz vor Diskriminierung, gleichviel aus welchen Gründen. (UN-Behindertenrechtskonvention, Artikel 5 Absatz 2)"
+    ],
+    "id": "e0d895d1-b9a7-4700-a8b9-ac97a509f5e8",
+    "attemptCount": 1,
+    "remoteId": "117455666216965729",
+    "remoteUrl": "https://kirche.social/@christoph/117455666216965729",
+    "lastError": null,
+    "createdAt": "2026-08-26T15:39:45.618Z",
+    "updatedAt": "2026-10-17T10:00:35.088Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
