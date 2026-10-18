@@ -84,5 +84,62 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-10-18",
+    "contentDate": "2026-10-18",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-10-18T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Ich will Frieden geben an dieser Stätte, spricht der HERR Zebaoth.",
+    "assets": [
+      "render-square-01.jpg"
+    ],
+    "altTexts": [
+      "Ich will Frieden geben an dieser Stätte, spricht der HERR Zebaoth."
+    ],
+    "id": "355ae6ae-5c8a-4934-a77b-235c4eccc833",
+    "attemptCount": 1,
+    "remoteId": "17965977563983211",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:46:41.740Z",
+    "updatedAt": "2026-10-18T05:01:03.169Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-10-18",
+    "contentDate": "2026-10-18",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-10-18T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Ich will Frieden geben an dieser Stätte, spricht der HERR Zebaoth.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Ich will Frieden geben an dieser Stätte, spricht der HERR Zebaoth."
+    ],
+    "id": "cedd5af8-e638-438f-9b50-bd63a753b0ee",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3my4t6i4nzm26",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3my4t6i4nzm26",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:46:41.756Z",
+    "updatedAt": "2026-10-18T05:01:05.673Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
