@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-10-18",
+    "contentDate": "2026-10-18",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-10-18T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Ich will Frieden geben an dieser Stätte, spricht der HERR Zebaoth.",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Ich will Frieden geben an dieser Stätte, spricht der HERR Zebaoth."
+    ],
+    "id": "591b05fd-0fee-4b37-afb9-9e6cdac2f206",
+    "attemptCount": 1,
+    "remoteId": "18103490747423513",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:46:41.705Z",
+    "updatedAt": "2026-10-18T05:00:45.600Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-10-18",
+    "contentDate": "2026-10-18",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-10-18T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Ich will Frieden geben an dieser Stätte, spricht der HERR Zebaoth.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Ich will Frieden geben an dieser Stätte, spricht der HERR Zebaoth."
+    ],
+    "id": "374c9c01-287d-4246-867f-a37b730b7213",
+    "attemptCount": 1,
+    "remoteId": "117460149636428868",
+    "remoteUrl": "https://kirche.social/@christoph/117460149636428868",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:46:41.725Z",
+    "updatedAt": "2026-10-18T05:00:46.735Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
