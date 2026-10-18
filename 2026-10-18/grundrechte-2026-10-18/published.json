@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-10-18",
+    "contentDate": "2026-10-18",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-10-18T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Besondere Maßnahmen, die zur Beschleunigung oder Herbeiführung der tatsächlichen Gleichberechtigung von Menschen mit Behinderungen erforderlich sind, gelten nicht als Diskriminierung im Sinne dieses Übereinkommens. (UN-Behindertenrechtskonvention, Artikel 5 Absatz 4)",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Besondere Maßnahmen, die zur Beschleunigung oder Herbeiführung der tatsächlichen Gleichberechtigung von Menschen mit Behinderungen erforderlich sind, gelten nicht als Diskriminierung im Sinne dieses Übereinkommens. (UN-Behindertenrechtskonvention, Artikel 5 Absatz 4)"
+    ],
+    "id": "7fe99655-0dad-445d-b0e4-9f248a2a2f1d",
+    "attemptCount": 1,
+    "remoteId": "17920873737448839",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:39:48.529Z",
+    "updatedAt": "2026-10-18T10:00:32.322Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-10-18",
+    "contentDate": "2026-10-18",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-10-18T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Besondere Maßnahmen, die zur Beschleunigung oder Herbeiführung der tatsächlichen Gleichberechtigung von Menschen mit Behinderungen erforderlich sind, gelten nicht als Diskriminierung im Sinne dieses Übereinkommens. (UN-Behindertenrechtskonvention, Artikel 5 Absatz 4)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Besondere Maßnahmen, die zur Beschleunigung oder Herbeiführung der tatsächlichen Gleichberechtigung von Menschen mit Behinderungen erforderlich sind, gelten nicht als Diskriminierung im Sinne dieses Übereinkommens. (UN-Behindertenrechtskonvention, Artikel 5 Absatz 4)"
+    ],
+    "id": "fc4ba929-5f78-48a5-8dd2-ccc869eb9730",
+    "attemptCount": 1,
+    "remoteId": "117461328468223829",
+    "remoteUrl": "https://kirche.social/@christoph/117461328468223829",
+    "lastError": null,
+    "createdAt": "2026-08-26T15:39:48.582Z",
+    "updatedAt": "2026-10-18T10:00:34.206Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
