@@ -26,31 +26,31 @@
   },
   "platforms": {
     "facebook": {
-      "text": "Abend.\nDer Tag muss nicht fertig sein, damit du ihn loslassen darfst.\n\nGott,\nwir kommen zur Ruhe vor dir.\nFür das Gute heute danken wir dir.\nFür alles, was unfertig blieb, bitten wir dich um Geduld und Frieden.\n\nWir denken an die Menschen in Frankreich. Nach den schweren Ausschreitungen bei den Protesten sind viele erschrocken, verletzt oder in Angst. In Limoges brannte das historische Rathaus. Sei den Menschen nahe, die heute Nacht mit den Folgen leben müssen.\n\nWir denken auch an die Verletzten der mehreren Unfälle auf der B10 bei Ebersbach an der Fils. Behüte sie. Stärke die Angehörigen. Segne Rettungskräfte, Polizei und alle, die jetzt noch wachen und helfen.\n\nUnd wir bringen dir, was uns selbst bewegt:\nFreude und Müdigkeit.\nGelungenes und Versäumtes.\nWorte, die gut getan haben.\nUnd Worte, die wir gern zurückholen würden.\n\nWas heute war, legen wir in deine Hand.\nWas weh tut.\nWas offen bleibt.\nUns selbst und diese unruhige Welt.\nSchenk uns Frieden für diese Nacht.\nUnd halte die Hoffnung in uns wach.\nAmen.",
-      "headline": "Abendgebet: Was heute offen bleibt, darf in Gottes Hand ruhen"
+      "headline": "Abendgebet: Was heute offen bleibt, darf in Gottes Hand ruhen",
+      "text": "Abend.\nDer Tag muss nicht fertig sein, damit du ihn loslassen darfst.\n\nGott,\nwir kommen zur Ruhe vor dir.\nFür das Gute heute danken wir dir.\nFür alles, was unfertig blieb, bitten wir dich um Geduld und Frieden.\n\nWir denken an die Menschen in Frankreich. Nach den schweren Ausschreitungen bei den Protesten sind viele erschrocken, verletzt oder in Angst. In Limoges brannte das historische Rathaus. Sei den Menschen nahe, die heute Nacht mit den Folgen leben müssen.\n\nWir denken auch an die Verletzten der mehreren Unfälle auf der B10 bei Ebersbach an der Fils. Behüte sie. Stärke die Angehörigen. Segne Rettungskräfte, Polizei und alle, die jetzt noch wachen und helfen.\n\nUnd wir bringen dir, was uns selbst bewegt:\nFreude und Müdigkeit.\nGelungenes und Versäumtes.\nWorte, die gut getan haben.\nUnd Worte, die wir gern zurückholen würden.\n\nWas heute war, legen wir in deine Hand.\nWas weh tut.\nWas offen bleibt.\nUns selbst und diese unruhige Welt.\nSchenk uns Frieden für diese Nacht.\nUnd halte die Hoffnung in uns wach.\nAmen."
     },
     "instagram": {
       "caption": "Der Tag muss nicht fertig sein, damit du ihn loslassen darfst.\n\nGott,\nfür das Gute heute danken wir dir.\nFür alles, was offen blieb, bitten wir dich um Frieden.\n\nWir beten für die Menschen in Frankreich nach den schweren Ausschreitungen und dem Brand des Rathauses in Limoges.\nWir beten für die Verletzten der Unfälle auf der B10 bei Ebersbach an der Fils.\n\nWas heute war, legen wir in deine Hand.\nWas weh tut. Was unfertig bleibt.\nSchenk uns Ruhe für diese Nacht.\nAmen.",
       "carousel": [
         {
-          "type": "text",
-          "text": "Der Tag muss nicht fertig sein, damit du ihn loslassen darfst."
+          "text": "Der Tag muss nicht fertig sein, damit du ihn loslassen darfst.",
+          "type": "text"
         },
         {
-          "type": "text",
-          "text": "Gott, für das Gute heute danken wir dir. Für alles, was offen blieb, bitten wir dich um Frieden."
+          "text": "Gott, für das Gute heute danken wir dir. Für alles, was offen blieb, bitten wir dich um Frieden.",
+          "type": "text"
         },
         {
-          "type": "text",
-          "text": "Wir beten für die Menschen in Frankreich nach den schweren Ausschreitungen und dem Brand des Rathauses in Limoges."
+          "text": "Wir beten für die Menschen in Frankreich nach den schweren Ausschreitungen und dem Brand des Rathauses in Limoges.",
+          "type": "text"
         },
         {
-          "type": "text",
-          "text": "Wir beten für die Verletzten der Unfälle auf der B10 bei Ebersbach an der Fils und für alle, die heute helfen."
+          "text": "Wir beten für die Verletzten der Unfälle auf der B10 bei Ebersbach an der Fils und für alle, die heute helfen.",
+          "type": "text"
         },
         {
-          "type": "text",
-          "text": "Was heute war, legen wir in deine Hand. Schenk uns Ruhe für diese Nacht. Amen."
+          "text": "Was heute war, legen wir in deine Hand. Schenk uns Ruhe für diese Nacht. Amen.",
+          "type": "text"
         }
       ]
     },
@@ -95,7 +95,7 @@
   },
   "visual": {
     "concept": "Ruhige Abendszene in einem schlichten Innenraum mit warmem Licht am Fenster oder auf einem Tisch. Die Stimmung ist getragen und hoffnungsvoll. Keine Nachrichtenbilder, keine Dramatik. Das Motiv soll Loslassen, Geborgenheit und Wachheit für die Welt zugleich zeigen.",
-    "flux_prompt": "",
+    "flux_prompt": "Ruhige Abendszene in einem schlichten Innenraum mit warmem Licht am Fenster oder auf einem Tisch. Die Stimmung ist getragen und hoffnungsvoll. Keine Nachrichtenbilder, keine Dramatik. Das Motiv soll Loslassen, Geborgenheit und Wachheit für die Welt zugleich zeigen.",
     "negative_prompt": "text, letters, logo, watermark",
     "formats": [
       "4:5",
