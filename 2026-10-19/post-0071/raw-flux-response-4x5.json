@@ -1,0 +1,36 @@
+{
+  "delivery_url": "https://delivery.us7.bfl.ai/durable/2026101906/5e1f69ea-538b-4d66-962e-9be995966f07/43/919912cbecee1c/cbecee1c66be4692a015df60904d98c6/sample.jpeg?se=2026-10-19T06%3A48%3A40Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=UdT8GXxQ5Wb0pr23U0y2GnbxTwtFLf7cRvdEix0F9Ms%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "86c1cb13-a44a-4554-87d6-eadc68615e37",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "86c1cb13-a44a-4554-87d6-eadc68615e37",
+      "status": "Ready",
+      "result": {
+        "start_time": 1792391918.6037817,
+        "prompt": "A calm, natural everyday scene showing a small act of kindness and fairness, warm soft daylight, authentic human presence, quiet reflective mood, minimal composition, editorial photography style, gentle colors, dignified and approachable atmosphere, no staged preaching, no text, no letters, no typography, no logo, no watermark",
+        "seed": 1003018733,
+        "sample": "https://delivery.us7.bfl.ai/durable/2026101906/5e1f69ea-538b-4d66-962e-9be995966f07/43/919912cbecee1c/cbecee1c66be4692a015df60904d98c6/sample.jpeg?se=2026-10-19T06%3A48%3A40Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=UdT8GXxQ5Wb0pr23U0y2GnbxTwtFLf7cRvdEix0F9Ms%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "86c1cb13-a44a-4554-87d6-eadc68615e37",
+    "polling_url": "https://api.us7.bfl.ai/v1/get_result?id=86c1cb13-a44a-4554-87d6-eadc68615e37",
+    "cost": 1.5,
+    "input_mp": 0,
+    "output_mp": 1.39
+  }
+}
