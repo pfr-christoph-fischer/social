@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-10-19",
+    "contentDate": "2026-10-19",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-10-19T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Des Priesters Lippen sollen die Lehre bewahren, dass man aus seinem Munde Weisung suche; denn er ist ein Bote des HERRN Zebaoth.",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Des Priesters Lippen sollen die Lehre bewahren, dass man aus seinem Munde Weisung suche; denn er ist ein Bote des HERRN Zebaoth."
+    ],
+    "id": "11330d3e-81d4-440f-aa23-dc35d39b848b",
+    "attemptCount": 1,
+    "remoteId": "18128578456886385",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:46:44.267Z",
+    "updatedAt": "2026-10-19T05:00:44.336Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-10-19",
+    "contentDate": "2026-10-19",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-10-19T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Des Priesters Lippen sollen die Lehre bewahren, dass man aus seinem Munde Weisung suche; denn er ist ein Bote des HERRN Zebaoth.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Des Priesters Lippen sollen die Lehre bewahren, dass man aus seinem Munde Weisung suche; denn er ist ein Bote des HERRN Zebaoth."
+    ],
+    "id": "6df5173d-984e-4361-881f-cc5d98fa9f4b",
+    "attemptCount": 1,
+    "remoteId": "117465811907076474",
+    "remoteUrl": "https://kirche.social/@christoph/117465811907076474",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:46:44.285Z",
+    "updatedAt": "2026-10-19T05:00:46.009Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
