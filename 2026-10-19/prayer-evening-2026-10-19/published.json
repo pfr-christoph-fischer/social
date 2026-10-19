@@ -27,5 +27,66 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "prayer-evening-2026-10-19",
+    "contentDate": "2026-10-19",
+    "platform": "instagram",
+    "format": "default",
+    "scheduledAt": "2026-10-19T18:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Der Tag muss nicht fertig sein, damit du ihn loslassen darfst.\n\nGott,\nfür das Gute heute danken wir dir.\nFür alles, was offen blieb, bitten wir dich um Frieden.\n\nWir beten für die Menschen in Frankreich nach den schweren Ausschreitungen und dem Brand des Rathauses in Limoges.\nWir beten für die Verletzten der Unfälle auf der B10 bei Ebersbach an der Fils.\n\nWas heute war, legen wir in deine Hand.\nWas weh tut. Was unfertig bleibt.\nSchenk uns Ruhe für diese Nacht.\nAmen.",
+    "assets": [
+      "render-instagram-feed-01.jpg",
+      "render-instagram-feed-02.jpg",
+      "render-instagram-feed-03.jpg",
+      "render-instagram-feed-04.jpg",
+      "render-instagram-feed-05.jpg"
+    ],
+    "altTexts": [
+      "Ein schlichter Tisch an einem Fenster in der Abenddämmerung. Warmes Licht fällt in einen ruhigen Raum. Die Szene wirkt still, gesammelt und tröstlich."
+    ],
+    "id": "a39fd4ce-f506-45f2-bec6-97dcd65d95d1",
+    "attemptCount": 1,
+    "remoteId": "18645558367047317",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-10-19T17:23:34.361Z",
+    "updatedAt": "2026-10-19T18:01:09.322Z",
+    "responseMetadata": {
+      "mediaCount": 5,
+      "mediaType": "CAROUSEL",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "prayer-evening-2026-10-19",
+    "contentDate": "2026-10-19",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-10-19T18:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Der Tag muss nicht fertig sein, damit du ihn loslassen darfst.\n\nGott,\nfür das Gute heute danken wir dir.\nFür alles, was offen blieb, bitten wir dich um Frieden.\n\nWir beten für die Menschen in Frankreich nach den schweren Ausschreitungen und dem Brand des Rathauses in Limoges.\nWir beten für die Verletzten der Unfälle auf der B10 bei Ebersbach an der Fils.\n\nWas heute war, legen wir in deine Hand.\nSchenk uns Ruhe für diese Nacht.\nAmen.",
+    "assets": [
+      "render-facebook-mastodon-01.png"
+    ],
+    "altTexts": [
+      "Ein schlichter Tisch an einem Fenster in der Abenddämmerung. Warmes Licht fällt in einen ruhigen Raum. Die Szene wirkt still, gesammelt und tröstlich."
+    ],
+    "id": "9ead4e1c-2967-45d6-81c3-e41ac49f7306",
+    "attemptCount": 1,
+    "remoteId": "117468880663704703",
+    "remoteUrl": "https://kirche.social/@christoph/117468880663704703",
+    "lastError": null,
+    "createdAt": "2026-10-19T17:23:34.411Z",
+    "updatedAt": "2026-10-19T18:01:11.530Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
