@@ -1,0 +1,465 @@
+{
+  "id": "resp_0359d3f23b7de0d9006ad5dc213bf887d2aa1e2b48b4b20da8",
+  "object": "response",
+  "created_at": 1792400417,
+  "status": "completed",
+  "access_programs": null,
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1792400455,
+  "error": null,
+  "frequency_penalty": 0,
+  "incomplete_details": null,
+  "instructions": "You are part of a Protestant social media editorial team. Write in clear, accessible, theologically responsible German without church clichés. Use short sentences and concrete imagery. Never invent events, people, school situations, quotes, or factual details. Do not include copyrighted full song verses. For Reli and community posts, only use current details when they are explicitly provided. Return content that strictly matches the requested JSON schema. Set needs_input to true whenever required facts are missing. Keep qa.approved false. Do not ask for any text inside generated images. When liturgical_context.resolved_weekly_verse is present, use its exact wording for Wochenspruch slots instead of placeholders. Use the web search tool before drafting to verify current situations. For prayer posts, current situations are mandatory: select at least two concrete, relevant situations from reliable current reporting, including tagesschau.de and SWR Aktuell Baden-Württemberg where relevant. Do not invent current events and do not replace concrete situations with generic references to crises.",
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.4-2026-03-05",
+  "moderation": null,
+  "output": [
+    {
+      "id": "ws_0359d3f23b7de0d9006ad5dc2237c087d2976dd57da4b6ac5f",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "queries": [
+          "site:tagesschau.de 18. Oktober 2026 Nachrichten",
+          "site:swraktuell.de Baden-Württemberg 18. Oktober 2026 Nachrichten",
+          "Reuters October 18 2026 world news"
+        ],
+        "query": "site:tagesschau.de 18. Oktober 2026 Nachrichten"
+      }
+    },
+    {
+      "id": "ws_0359d3f23b7de0d9006ad5dc242a0887d28693eef60a73a184",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "queries": [
+          "site:swraktuell.de Baden-Württemberg 18.10.2026 SWR Aktuell",
+          "site:swraktuell.de/region/baden-wuerttemberg 18.10.2026",
+          "site:swr.de/swraktuell/baden-wuerttemberg 18.10.2026"
+        ],
+        "query": "site:swraktuell.de Baden-Württemberg 18.10.2026 SWR Aktuell"
+      }
+    },
+    {
+      "id": "msg_0359d3f23b7de0d9006ad5dc26b86c87d2b4e320284e07e1f7",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\"id\":\"prayer-evening-2026-10-19\",\"status\":\"in Arbeit\",\"needs_input\":false,\"source\":{\"calendar_post_id\":\"prayer-evening-2026-10-19\",\"date\":\"2026-10-19\",\"rubric\":\"Abendgebet\",\"liturgical_source\":\"\"},\"editorial_core\":{\"title\":\"Abendgebet\",\"main_message\":\"Wir legen diesen Tag in Gottes Hand: das Gute, das offen Gebliebene und die Sorge um andere. Wir beten für Menschen in Frankreich nach den schweren Ausschreitungen bei den Protesten gegen hohe Lebenshaltungskosten, bei denen in Limoges das historische Rathaus brannte und viele Menschen festgenommen wurden. Wir beten auch für die Verletzten der mehreren Unfälle auf der B10 bei Ebersbach an der Fils und für alle, die heute in Krankenwagen, Notaufnahmen und auf den Straßen geholfen haben. Gottes Zukunft beginnt auch da, wo unsere Kraft für heute endet.\",\"audience\":\"breite Öffentlichkeit\",\"tone\":[\"ruhig\",\"hoffnungsvoll\",\"geborgen\"],\"source_notes\":[\"Aktuelle Bezüge verifiziert über tagesschau.de-Archiv vom 18.10.2026: schwere Ausschreitungen bei Protesten in Frankreich; in Limoges brannte das historische Rathaus, zahlreiche Festnahmen.\",\"Aktueller regionaler Bezug verifiziert über SWR Aktuell Baden-Württemberg / Studio Stuttgart vom 18.10.2026: mehrere Unfälle auf der B10 bei Ebersbach an der Fils, acht Verletzte und neun beschädigte Fahrzeuge.\",\"Gebet bewusst zeitlich robust formuliert: keine Behauptungen über Entwicklungen des Veröffentlichungstags.\",\"Theologisch akzentuiert mit Hoffnungsperspektive: Der Tag darf unvollendet bleiben; Gottes Zukunft ist größer als das, was heute gelang oder scheiterte.\"]},\"platforms\":{\"facebook\":{\"text\":\"Abend.\\nDer Tag muss nicht fertig sein, damit du ihn loslassen darfst.\\n\\nGott,\\nwir kommen zur Ruhe vor dir.\\nFür das Gute heute danken wir dir.\\nFür alles, was unfertig blieb, bitten wir dich um Geduld und Frieden.\\n\\nWir denken an die Menschen in Frankreich. Nach den schweren Ausschreitungen bei den Protesten sind viele erschrocken, verletzt oder in Angst. In Limoges brannte das historische Rathaus. Sei den Menschen nahe, die heute Nacht mit den Folgen leben müssen.\\n\\nWir denken auch an die Verletzten der mehreren Unfälle auf der B10 bei Ebersbach an der Fils. Behüte sie. Stärke die Angehörigen. Segne Rettungskräfte, Polizei und alle, die jetzt noch wachen und helfen.\\n\\nUnd wir bringen dir, was uns selbst bewegt:\\nFreude und Müdigkeit.\\nGelungenes und Versäumtes.\\nWorte, die gut getan haben.\\nUnd Worte, die wir gern zurückholen würden.\\n\\nWas heute war, legen wir in deine Hand.\\nWas weh tut.\\nWas offen bleibt.\\nUns selbst und diese unruhige Welt.\\nSchenk uns Frieden für diese Nacht.\\nUnd halte die Hoffnung in uns wach.\\nAmen.\",\"headline\":\"Abendgebet: Was heute offen bleibt, darf in Gottes Hand ruhen\"},\"instagram\":{\"caption\":\"Der Tag muss nicht fertig sein, damit du ihn loslassen darfst.\\n\\nGott,\\nfür das Gute heute danken wir dir.\\nFür alles, was offen blieb, bitten wir dich um Frieden.\\n\\nWir beten für die Menschen in Frankreich nach den schweren Ausschreitungen und dem Brand des Rathauses in Limoges.\\nWir beten für die Verletzten der Unfälle auf der B10 bei Ebersbach an der Fils.\\n\\nWas heute war, legen wir in deine Hand.\\nWas weh tut. Was unfertig bleibt.\\nSchenk uns Ruhe für diese Nacht.\\nAmen.\",\"carousel\":[{\"type\":\"text\",\"text\":\"Der Tag muss nicht fertig sein, damit du ihn loslassen darfst.\"},{\"type\":\"text\",\"text\":\"Gott, für das Gute heute danken wir dir. Für alles, was offen blieb, bitten wir dich um Frieden.\"},{\"type\":\"text\",\"text\":\"Wir beten für die Menschen in Frankreich nach den schweren Ausschreitungen und dem Brand des Rathauses in Limoges.\"},{\"type\":\"text\",\"text\":\"Wir beten für die Verletzten der Unfälle auf der B10 bei Ebersbach an der Fils und für alle, die heute helfen.\"},{\"type\":\"text\",\"text\":\"Was heute war, legen wir in deine Hand. Schenk uns Ruhe für diese Nacht. Amen.\"}]},\"mastodon\":{\"text\":\"Der Tag muss nicht fertig sein, damit du ihn loslassen darfst.\\n\\nGott,\\nfür das Gute heute danken wir dir.\\nFür alles, was offen blieb, bitten wir dich um Frieden.\\n\\nWir beten für die Menschen in Frankreich nach den schweren Ausschreitungen und dem Brand des Rathauses in Limoges.\\nWir beten für die Verletzten der Unfälle auf der B10 bei Ebersbach an der Fils.\\n\\nWas heute war, legen wir in deine Hand.\\nSchenk uns Ruhe für diese Nacht.\\nAmen.\"},\"bluesky\":{\"text\":\"Der Tag muss nicht fertig sein, damit du ihn loslassen darfst.\\n\\nWir beten für die Menschen in Frankreich nach den schweren Ausschreitungen und dem Brand des Rathauses in Limoges. Und für die Verletzten der Unfälle auf der B10 bei Ebersbach an der Fils.\\n\\nWas heute war, legen wir in Gottes Hand. Schenk uns Ruhe für diese Nacht. Amen.\"},\"story\":{\"slides\":[{\"text\":\"Der Tag muss nicht fertig sein, damit du ihn loslassen darfst.\"},{\"text\":\"Für das Gute heute: Danke. Für alles Offene: Frieden.\"},{\"text\":\"Wir beten für die Menschen in Frankreich nach den schweren Ausschreitungen und dem Brand des Rathauses in Limoges.\"},{\"text\":\"Wir beten für die Verletzten der Unfälle auf der B10 bei Ebersbach an der Fils.\"},{\"text\":\"Was heute war, legen wir in Gottes Hand. Schenk uns Ruhe für diese Nacht. Amen.\"}]},\"reel\":{\"hook\":\"Der Tag muss nicht fertig sein, damit du ihn loslassen darfst.\",\"script\":\"Der Tag war nicht nur leicht. Vielleicht ist auch nicht alles gelungen. Nicht alles ist gesagt. Nicht alles ist fertig.\\n\\nDarum beten wir am Abend.\\nGott, wir danken dir für das Gute dieses Tages.\\nUnd wir legen vor dich, was schwer war.\\n\\nWir denken an die Menschen in Frankreich nach den schweren Ausschreitungen und dem Brand des Rathauses in Limoges.\\nWir denken an die Verletzten der Unfälle auf der B10 bei Ebersbach an der Fils.\\nSei denen nahe, die Angst haben, helfen, wachen oder Schmerzen tragen.\\n\\nUnd nimm auch unser Unfertiges in deine Hand.\\nSchenk uns Frieden für diese Nacht.\\nUnd halte die Hoffnung in uns wach.\\nAmen.\",\"shots\":[\"Abendliches Fensterlicht in einem ruhigen Zimmer\",\"Eine Hand legt Notizzettel oder Schlüssel auf einen Tisch\",\"Nahaufnahme einer stillen Kerze oder eines warmen Lichts\",\"Leere Straße in der Dämmerung, ruhig und unspektakulär\",\"Krankenhausflur oder Rettungslicht nur atmosphärisch angedeutet, ohne Logos\",\"Nachthimmel oder dunkler werdende Wolken mit sanftem Licht\"],\"duration_seconds\":35}},\"visual\":{\"concept\":\"Ruhige Abendszene in einem schlichten Innenraum mit warmem Licht am Fenster oder auf einem Tisch. Die Stimmung ist getragen und hoffnungsvoll. Keine Nachrichtenbilder, keine Dramatik. Das Motiv soll Loslassen, Geborgenheit und Wachheit für die Welt zugleich zeigen.\",\"flux_prompt\":\"A quiet evening interior, warm natural light, a simple table near a window at dusk, soft shadows, calm atmosphere, minimalistic, photorealistic, gentle textures, feeling of release and hope, no people in focus, subtle sense of prayerful stillness, editorial photography style\",\"negative_prompt\":\"text, letters, logo, watermark\",\"formats\":[\"4:5\",\"9:16\",\"1.91:1\"],\"alt_text\":\"Ein schlichter Tisch an einem Fenster in der Abenddämmerung. Warmes Licht fällt in einen ruhigen Raum. Die Szene wirkt still, gesammelt und tröstlich.\"},\"qa\":{\"warnings\":[\"Alt text must be completed before approval\",\"Aktuelle Bezüge vor Freigabe nochmals am Veröffentlichungsvortag redaktionell gegenprüfen, da Nachrichtenlagen sich ändern können.\",\"Gebet enthält zwei konkrete aktuelle Situationen; dennoch auf Tonfall prüfen, damit Nachrichtenbezüge klar Gebetsanliegen bleiben und nicht nach Nachrichtenzusammenfassung klingen.\"],\"approved\":false},\"metadata\":{\"model\":\"gpt-5\",\"generated_at\":\"2026-10-19T00:00:00Z\",\"prompt_version\":\"1.0\",\"assets\":[]}}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "current_turn",
+    "effort": "none",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1,
+  "text": {
+    "format": {
+      "type": "json_schema",
+      "description": null,
+      "name": "content_package",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "Idee",
+              "in Arbeit",
+              "zur Prüfung",
+              "freigegeben",
+              "terminiert",
+              "veröffentlicht",
+              "verworfen"
+            ]
+          },
+          "needs_input": {
+            "type": "boolean"
+          },
+          "source": {
+            "type": "object",
+            "properties": {
+              "calendar_post_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "date": {
+                "type": "string",
+                "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+              },
+              "rubric": {
+                "type": "string",
+                "minLength": 1
+              },
+              "liturgical_source": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "calendar_post_id",
+              "date",
+              "rubric",
+              "liturgical_source"
+            ],
+            "additionalProperties": false
+          },
+          "editorial_core": {
+            "type": "object",
+            "properties": {
+              "title": {
+                "type": "string"
+              },
+              "main_message": {
+                "type": "string"
+              },
+              "audience": {
+                "type": "string"
+              },
+              "tone": {
+                "minItems": 1,
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "source_notes": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "title",
+              "main_message",
+              "audience",
+              "tone",
+              "source_notes"
+            ],
+            "additionalProperties": false
+          },
+          "platforms": {
+            "type": "object",
+            "properties": {
+              "facebook": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  },
+                  "headline": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text",
+                  "headline"
+                ],
+                "additionalProperties": false
+              },
+              "instagram": {
+                "type": "object",
+                "properties": {
+                  "caption": {
+                    "type": "string"
+                  },
+                  "carousel": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "type": {
+                          "type": "string"
+                        },
+                        "text": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "type",
+                        "text"
+                      ],
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "required": [
+                  "caption",
+                  "carousel"
+                ],
+                "additionalProperties": false
+              },
+              "mastodon": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text"
+                ],
+                "additionalProperties": false
+              },
+              "bluesky": {
+                "default": {
+                  "text": ""
+                },
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text"
+                ],
+                "additionalProperties": false
+              },
+              "story": {
+                "type": "object",
+                "properties": {
+                  "slides": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "text": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "text"
+                      ],
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "required": [
+                  "slides"
+                ],
+                "additionalProperties": false
+              },
+              "reel": {
+                "type": "object",
+                "properties": {
+                  "hook": {
+                    "type": "string"
+                  },
+                  "script": {
+                    "type": "string"
+                  },
+                  "shots": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "duration_seconds": {
+                    "type": "integer",
+                    "minimum": 0,
+                    "maximum": 9007199254740991
+                  }
+                },
+                "required": [
+                  "hook",
+                  "script",
+                  "shots",
+                  "duration_seconds"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "required": [
+              "facebook",
+              "instagram",
+              "mastodon",
+              "bluesky",
+              "story",
+              "reel"
+            ],
+            "additionalProperties": false
+          },
+          "visual": {
+            "type": "object",
+            "properties": {
+              "concept": {
+                "type": "string"
+              },
+              "flux_prompt": {
+                "type": "string"
+              },
+              "negative_prompt": {
+                "type": "string",
+                "minLength": 1
+              },
+              "formats": {
+                "minItems": 1,
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "alt_text": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "concept",
+              "flux_prompt",
+              "negative_prompt",
+              "formats",
+              "alt_text"
+            ],
+            "additionalProperties": false
+          },
+          "qa": {
+            "type": "object",
+            "properties": {
+              "warnings": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "approved": {
+                "type": "boolean"
+              }
+            },
+            "required": [
+              "warnings",
+              "approved"
+            ],
+            "additionalProperties": false
+          },
+          "metadata": {
+            "type": "object",
+            "properties": {
+              "model": {
+                "type": "string"
+              },
+              "generated_at": {
+                "type": "string"
+              },
+              "prompt_version": {
+                "type": "string",
+                "minLength": 1
+              },
+              "assets": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "model",
+              "generated_at",
+              "prompt_version",
+              "assets"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "id",
+          "status",
+          "needs_input",
+          "source",
+          "editorial_core",
+          "platforms",
+          "visual",
+          "qa",
+          "metadata"
+        ],
+        "additionalProperties": false
+      },
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 2
+    }
+  },
+  "tools": [
+    {
+      "type": "web_search",
+      "return_token_budget": "default",
+      "search_content_types": [
+        "text"
+      ],
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 16696,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 2106,
+    "output_tokens_details": {
+      "reasoning_tokens": 207
+    },
+    "total_tokens": 18802
+  },
+  "user": null,
+  "metadata": {},
+  "output_text": "{\"id\":\"prayer-evening-2026-10-19\",\"status\":\"in Arbeit\",\"needs_input\":false,\"source\":{\"calendar_post_id\":\"prayer-evening-2026-10-19\",\"date\":\"2026-10-19\",\"rubric\":\"Abendgebet\",\"liturgical_source\":\"\"},\"editorial_core\":{\"title\":\"Abendgebet\",\"main_message\":\"Wir legen diesen Tag in Gottes Hand: das Gute, das offen Gebliebene und die Sorge um andere. Wir beten für Menschen in Frankreich nach den schweren Ausschreitungen bei den Protesten gegen hohe Lebenshaltungskosten, bei denen in Limoges das historische Rathaus brannte und viele Menschen festgenommen wurden. Wir beten auch für die Verletzten der mehreren Unfälle auf der B10 bei Ebersbach an der Fils und für alle, die heute in Krankenwagen, Notaufnahmen und auf den Straßen geholfen haben. Gottes Zukunft beginnt auch da, wo unsere Kraft für heute endet.\",\"audience\":\"breite Öffentlichkeit\",\"tone\":[\"ruhig\",\"hoffnungsvoll\",\"geborgen\"],\"source_notes\":[\"Aktuelle Bezüge verifiziert über tagesschau.de-Archiv vom 18.10.2026: schwere Ausschreitungen bei Protesten in Frankreich; in Limoges brannte das historische Rathaus, zahlreiche Festnahmen.\",\"Aktueller regionaler Bezug verifiziert über SWR Aktuell Baden-Württemberg / Studio Stuttgart vom 18.10.2026: mehrere Unfälle auf der B10 bei Ebersbach an der Fils, acht Verletzte und neun beschädigte Fahrzeuge.\",\"Gebet bewusst zeitlich robust formuliert: keine Behauptungen über Entwicklungen des Veröffentlichungstags.\",\"Theologisch akzentuiert mit Hoffnungsperspektive: Der Tag darf unvollendet bleiben; Gottes Zukunft ist größer als das, was heute gelang oder scheiterte.\"]},\"platforms\":{\"facebook\":{\"text\":\"Abend.\\nDer Tag muss nicht fertig sein, damit du ihn loslassen darfst.\\n\\nGott,\\nwir kommen zur Ruhe vor dir.\\nFür das Gute heute danken wir dir.\\nFür alles, was unfertig blieb, bitten wir dich um Geduld und Frieden.\\n\\nWir denken an die Menschen in Frankreich. Nach den schweren Ausschreitungen bei den Protesten sind viele erschrocken, verletzt oder in Angst. In Limoges brannte das historische Rathaus. Sei den Menschen nahe, die heute Nacht mit den Folgen leben müssen.\\n\\nWir denken auch an die Verletzten der mehreren Unfälle auf der B10 bei Ebersbach an der Fils. Behüte sie. Stärke die Angehörigen. Segne Rettungskräfte, Polizei und alle, die jetzt noch wachen und helfen.\\n\\nUnd wir bringen dir, was uns selbst bewegt:\\nFreude und Müdigkeit.\\nGelungenes und Versäumtes.\\nWorte, die gut getan haben.\\nUnd Worte, die wir gern zurückholen würden.\\n\\nWas heute war, legen wir in deine Hand.\\nWas weh tut.\\nWas offen bleibt.\\nUns selbst und diese unruhige Welt.\\nSchenk uns Frieden für diese Nacht.\\nUnd halte die Hoffnung in uns wach.\\nAmen.\",\"headline\":\"Abendgebet: Was heute offen bleibt, darf in Gottes Hand ruhen\"},\"instagram\":{\"caption\":\"Der Tag muss nicht fertig sein, damit du ihn loslassen darfst.\\n\\nGott,\\nfür das Gute heute danken wir dir.\\nFür alles, was offen blieb, bitten wir dich um Frieden.\\n\\nWir beten für die Menschen in Frankreich nach den schweren Ausschreitungen und dem Brand des Rathauses in Limoges.\\nWir beten für die Verletzten der Unfälle auf der B10 bei Ebersbach an der Fils.\\n\\nWas heute war, legen wir in deine Hand.\\nWas weh tut. Was unfertig bleibt.\\nSchenk uns Ruhe für diese Nacht.\\nAmen.\",\"carousel\":[{\"type\":\"text\",\"text\":\"Der Tag muss nicht fertig sein, damit du ihn loslassen darfst.\"},{\"type\":\"text\",\"text\":\"Gott, für das Gute heute danken wir dir. Für alles, was offen blieb, bitten wir dich um Frieden.\"},{\"type\":\"text\",\"text\":\"Wir beten für die Menschen in Frankreich nach den schweren Ausschreitungen und dem Brand des Rathauses in Limoges.\"},{\"type\":\"text\",\"text\":\"Wir beten für die Verletzten der Unfälle auf der B10 bei Ebersbach an der Fils und für alle, die heute helfen.\"},{\"type\":\"text\",\"text\":\"Was heute war, legen wir in deine Hand. Schenk uns Ruhe für diese Nacht. Amen.\"}]},\"mastodon\":{\"text\":\"Der Tag muss nicht fertig sein, damit du ihn loslassen darfst.\\n\\nGott,\\nfür das Gute heute danken wir dir.\\nFür alles, was offen blieb, bitten wir dich um Frieden.\\n\\nWir beten für die Menschen in Frankreich nach den schweren Ausschreitungen und dem Brand des Rathauses in Limoges.\\nWir beten für die Verletzten der Unfälle auf der B10 bei Ebersbach an der Fils.\\n\\nWas heute war, legen wir in deine Hand.\\nSchenk uns Ruhe für diese Nacht.\\nAmen.\"},\"bluesky\":{\"text\":\"Der Tag muss nicht fertig sein, damit du ihn loslassen darfst.\\n\\nWir beten für die Menschen in Frankreich nach den schweren Ausschreitungen und dem Brand des Rathauses in Limoges. Und für die Verletzten der Unfälle auf der B10 bei Ebersbach an der Fils.\\n\\nWas heute war, legen wir in Gottes Hand. Schenk uns Ruhe für diese Nacht. Amen.\"},\"story\":{\"slides\":[{\"text\":\"Der Tag muss nicht fertig sein, damit du ihn loslassen darfst.\"},{\"text\":\"Für das Gute heute: Danke. Für alles Offene: Frieden.\"},{\"text\":\"Wir beten für die Menschen in Frankreich nach den schweren Ausschreitungen und dem Brand des Rathauses in Limoges.\"},{\"text\":\"Wir beten für die Verletzten der Unfälle auf der B10 bei Ebersbach an der Fils.\"},{\"text\":\"Was heute war, legen wir in Gottes Hand. Schenk uns Ruhe für diese Nacht. Amen.\"}]},\"reel\":{\"hook\":\"Der Tag muss nicht fertig sein, damit du ihn loslassen darfst.\",\"script\":\"Der Tag war nicht nur leicht. Vielleicht ist auch nicht alles gelungen. Nicht alles ist gesagt. Nicht alles ist fertig.\\n\\nDarum beten wir am Abend.\\nGott, wir danken dir für das Gute dieses Tages.\\nUnd wir legen vor dich, was schwer war.\\n\\nWir denken an die Menschen in Frankreich nach den schweren Ausschreitungen und dem Brand des Rathauses in Limoges.\\nWir denken an die Verletzten der Unfälle auf der B10 bei Ebersbach an der Fils.\\nSei denen nahe, die Angst haben, helfen, wachen oder Schmerzen tragen.\\n\\nUnd nimm auch unser Unfertiges in deine Hand.\\nSchenk uns Frieden für diese Nacht.\\nUnd halte die Hoffnung in uns wach.\\nAmen.\",\"shots\":[\"Abendliches Fensterlicht in einem ruhigen Zimmer\",\"Eine Hand legt Notizzettel oder Schlüssel auf einen Tisch\",\"Nahaufnahme einer stillen Kerze oder eines warmen Lichts\",\"Leere Straße in der Dämmerung, ruhig und unspektakulär\",\"Krankenhausflur oder Rettungslicht nur atmosphärisch angedeutet, ohne Logos\",\"Nachthimmel oder dunkler werdende Wolken mit sanftem Licht\"],\"duration_seconds\":35}},\"visual\":{\"concept\":\"Ruhige Abendszene in einem schlichten Innenraum mit warmem Licht am Fenster oder auf einem Tisch. Die Stimmung ist getragen und hoffnungsvoll. Keine Nachrichtenbilder, keine Dramatik. Das Motiv soll Loslassen, Geborgenheit und Wachheit für die Welt zugleich zeigen.\",\"flux_prompt\":\"A quiet evening interior, warm natural light, a simple table near a window at dusk, soft shadows, calm atmosphere, minimalistic, photorealistic, gentle textures, feeling of release and hope, no people in focus, subtle sense of prayerful stillness, editorial photography style\",\"negative_prompt\":\"text, letters, logo, watermark\",\"formats\":[\"4:5\",\"9:16\",\"1.91:1\"],\"alt_text\":\"Ein schlichter Tisch an einem Fenster in der Abenddämmerung. Warmes Licht fällt in einen ruhigen Raum. Die Szene wirkt still, gesammelt und tröstlich.\"},\"qa\":{\"warnings\":[\"Alt text must be completed before approval\",\"Aktuelle Bezüge vor Freigabe nochmals am Veröffentlichungsvortag redaktionell gegenprüfen, da Nachrichtenlagen sich ändern können.\",\"Gebet enthält zwei konkrete aktuelle Situationen; dennoch auf Tonfall prüfen, damit Nachrichtenbezüge klar Gebetsanliegen bleiben und nicht nach Nachrichtenzusammenfassung klingen.\"],\"approved\":false},\"metadata\":{\"model\":\"gpt-5\",\"generated_at\":\"2026-10-19T00:00:00Z\",\"prompt_version\":\"1.0\",\"assets\":[]}}"
+}
