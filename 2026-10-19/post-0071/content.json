@@ -1,7 +1,7 @@
 {
   "id": "post-0071",
   "status": "in Arbeit",
-  "needs_input": false,
+  "needs_input": true,
   "source": {
     "calendar_post_id": "post-0071",
     "date": "2026-10-19",
@@ -23,54 +23,99 @@
       "Production mode: vollständig vorproduzierbar",
       "Structure: Wochenspruch | ein alltagsnaher Gedanke | eine kleine Übung | eine Frage",
       "AI support notes: Rohentwurf in einfacher Sprache | Varianten der Wochenübung | Caption kürzen | Alt-Text",
-      "Liturgical source: https://kirchenjahr.pfarr.tools/api/jahr/2026 (2026-10-18, $.Tage['2026-10-18'])"
+      "Liturgical source: https://kirchenjahr.pfarr.tools/api/jahr/2026 (2026-10-18, $.Tage['2026-10-18'])",
+      "Liturgical note: Multiple liturgical entries for 2026-10-18 contain different Wochenspruch values. Local selection is still required before publication.",
+      "Für die Veröffentlichung muss redaktionell geklärt werden, welcher Wochenspruch am Ort tatsächlich gilt."
     ]
   },
   "platforms": {
     "facebook": {
-      "text": "",
-      "headline": ""
+      "text": "Diese Woche beginnt mit einem einfachen Satz aus der Bibel. Noch ist aber offen, welcher Wochenspruch für den 19.10.2026 vor Ort tatsächlich gilt. Darum ist dieser Entwurf noch nicht freigegeben.\n\nDie geplante Wochenpraxis ist trotzdem schon klar: Danke einer Person, deren Beitrag leicht übersehen wird. Nicht groß. Nicht feierlich. Einfach ehrlich.\n\nDas kann die Person sein, die etwas aufräumt. Die im Hintergrund mitdenkt. Die zuverlässig da ist. Die selten Applaus bekommt.\n\nWarum passt das zum Glauben? Weil Liebe nicht nur im Gefühl lebt. Sie wird konkret. In Aufmerksamkeit. In Respekt. In einem Satz, der nicht laut sein muss.\n\nVielleicht sagst du diese Woche: Ich sehe, was du tust. Danke.\n\nFrage für die Woche: Wem könntest du heute danken, ohne Anlass, aber mit gutem Grund?\n\nSobald der örtlich geltende Wochenspruch ausgewählt ist, kann dieser Text passend ergänzt werden.",
+      "headline": "Wochenspruch praktisch: ein Danke, das nicht übersehen wird"
     },
     "instagram": {
-      "caption": "",
-      "carousel": []
+      "caption": "Für diese Woche ist die Richtung klar: Einer Person danken, deren Beitrag leicht übersehen wird.\n\nNoch ist aber offen, welcher Wochenspruch für den 19.10.2026 vor Ort tatsächlich gilt. Darum ist dieser Beitrag ein Entwurf.\n\nDie Übung bleibt einfach:\nSieh hin.\nNenne konkret, wofür du dankbar bist.\nSag es der Person direkt.\n\nNicht groß. Aber echt.\n\nFrage: Wem könntest du heute danken, ohne Anlass, aber mit gutem Grund?",
+      "carousel": [
+        {
+          "type": "text",
+          "text": "Wochenspruch praktisch\n\nDer genaue Wochenspruch für diese Woche muss noch redaktionell geklärt werden."
+        },
+        {
+          "type": "text",
+          "text": "Ein Gedanke\n\nVieles, was unser Leben trägt, geschieht leise. Gerade das wird leicht übersehen."
+        },
+        {
+          "type": "text",
+          "text": "Die Übung\n\nDanke diese Woche einer Person, deren Beitrag oft im Hintergrund bleibt."
+        },
+        {
+          "type": "text",
+          "text": "So konkret wie möglich\n\nNicht nur: Danke.\nSondern: Danke für das, was du tust. Ich sehe es."
+        },
+        {
+          "type": "text",
+          "text": "Die Frage\n\nWem könntest du heute danken, ohne Anlass, aber mit gutem Grund?"
+        }
+      ]
     },
     "mastodon": {
-      "text": ""
+      "text": "Wochenpraxis als Entwurf:\nDanke einer Person, deren Beitrag leicht übersehen wird.\n\nNoch ist offen, welcher Wochenspruch am 19.10.2026 vor Ort tatsächlich gilt. Deshalb erst nach redaktioneller Klärung veröffentlichen.\n\nDie Übung bleibt einfach: hinsehen, konkret danken, ehrlich sein.\n\nFrage: Wem könntest du heute danken, ohne Anlass, aber mit gutem Grund?"
     },
     "bluesky": {
-      "text": ""
+      "text": "Entwurf für die Wochenpraxis: Danke einer Person, deren Beitrag leicht übersehen wird. Der genaue Wochenspruch für 19.10.2026 muss vor Veröffentlichung noch örtlich geklärt werden. Frage: Wem könntest du heute danken, ohne Anlass, aber mit gutem Grund?"
     },
     "story": {
-      "slides": []
+      "slides": [
+        {
+          "text": "Wochenspruch praktisch\n\nDer genaue Wochenspruch für diese Woche ist noch nicht redaktionell geklärt."
+        },
+        {
+          "text": "Ein Gedanke\n\nWas unser Leben trägt, geschieht oft leise."
+        },
+        {
+          "text": "Die Übung\n\nDanke einer Person, die leicht übersehen wird."
+        },
+        {
+          "text": "Die Frage\n\nWem könntest du heute danken?"
+        }
+      ]
     },
     "reel": {
-      "hook": "",
-      "script": "",
-      "shots": [],
-      "duration_seconds": 0
+      "hook": "Manche Menschen tragen viel. Und fast niemand merkt es.",
+      "script": "Für diese Woche ist eine kleine Praxis geplant: Danke einer Person, deren Beitrag leicht übersehen wird. Noch ist der genaue Wochenspruch für den Termin redaktionell nicht geklärt. Aber die Übung ist schon klar. Sieh hin. Wer räumt auf, denkt mit, bleibt verlässlich da? Sag dieser Person konkret Danke. Nicht groß. Aber ehrlich. Vielleicht verändert genau das eine Woche.",
+      "shots": [
+        "Nahaufnahme von Händen, die eine Tasse hinstellen",
+        "Jemand ordnet still einen Tisch oder räumt etwas auf",
+        "Kurzer ruhiger Blick in einen Flur oder Arbeitsraum",
+        "Eine Person spricht ein schlichtes Danke im direkten Gegenüber",
+        "Abschlussbild mit ruhiger Geste der Wertschätzung"
+      ],
+      "duration_seconds": 22
     }
   },
   "visual": {
-    "concept": "",
-    "flux_prompt": "",
+    "concept": "Unaufgeregte Alltagsszene mit einer kleinen Geste der Wertschätzung zwischen zwei Menschen, warmes natürliches Licht, Fokus auf Aufmerksamkeit statt Inszenierung.",
+    "flux_prompt": "Eine ruhige, dokumentarische Alltagsszene in natürlichem warmem Licht: zwei Menschen in einer schlichten Innenraumsituation, eine Person bedankt sich ehrlich bei der anderen mit offener zugewandter Körpersprache, kleine Geste der Wertschätzung, zurückhaltende Farben, glaubwürdig, menschlich, protestantischer Social-Media-Stil, viel Raum für ruhige Gestaltung, keine Schrift im Bild",
     "negative_prompt": "text, letters, logo, watermark",
     "formats": [
       "4:5",
       "9:16",
       "1.91:1"
     ],
-    "alt_text": ""
+    "alt_text": "Zwei Menschen in einer schlichten Alltagsszene. Eine Person wendet sich der anderen aufmerksam zu und bedankt sich. Die Stimmung ist ruhig und wertschätzend."
   },
   "qa": {
     "warnings": [
-      "Alt text must be completed before approval"
+      "Alt text must be completed before approval",
+      "Multiple liturgical entries for 2026-10-18 contain different Wochenspruch values. Local selection is still required before publication.",
+      "needs_input=true, weil der örtlich tatsächlich geltende Wochenspruch noch nicht ausgewählt wurde.",
+      "Kein Wochenspruchtext eingesetzt, da resolved_weekly_verse nicht vorliegt und mehrere Kandidaten vorhanden sind."
     ],
     "approved": false
   },
   "metadata": {
-    "model": "",
-    "generated_at": "",
+    "model": "gpt-5.4-2026-03-05",
+    "generated_at": "2026-10-19T06:34:18.885Z",
     "prompt_version": "1.0",
     "assets": []
   }
