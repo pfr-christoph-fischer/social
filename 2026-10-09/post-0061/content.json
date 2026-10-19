@@ -1,7 +1,7 @@
 {
   "id": "post-0061",
-  "status": "freigegeben",
-  "needs_input": true,
+  "status": "in Arbeit",
+  "needs_input": false,
   "source": {
     "calendar_post_id": "post-0061",
     "date": "2026-10-09",
@@ -10,7 +10,7 @@
   },
   "editorial_core": {
     "title": "Kurzes Wochengebet zum Schwerpunkt „Dank, Verantwortung und Freiheit“",
-    "main_message": "Ein kurzes Wochengebet sammelt Dank, Verantwortung und Freiheit in einer konkreten Alltagsszene und endet mit einer tragenden Bitte.",
+    "main_message": "5–8 kurze Zeilen; konkrete Lebenswelt; am Ende eine tragende Bitte.",
     "audience": "breite Öffentlichkeit",
     "tone": [
       "klar",
@@ -23,116 +23,56 @@
       "Production mode: vollständig vorproduzierbar",
       "Structure: ein konkretes Lebensthema | knappe geistliche Sprache | kein Erklärton",
       "AI support notes: Gebetsentwurf | sprachliche Verdichtung | Reel-Sprechtext | Alt-Text",
-      "Liturgical source: https://kirchenjahr.pfarr.tools/api/jahr/2026 (2026-10-04, $.Tage['2026-10-04'])",
-      "Liturgical note: Multiple liturgical entries for 2026-10-04 contain different Wochenspruch values. Local selection is still required before publication.",
-      "Kein Wochenspruch eingearbeitet, weil keine lokal ausgewählte Ordnung vorliegt."
+      "Liturgical source: https://kirchenjahr.pfarr.tools/api/jahr/2026 (2026-10-04, $.Tage['2026-10-04'])"
     ]
   },
   "platforms": {
     "facebook": {
-      "text": "Zwischen Einkaufszettel, Terminen und dem, was auf dem Tisch liegt,\nsehen wir, wie viel uns anvertraut ist.\n\nGott,\nlehre uns danken, ohne zu vergessen.\nLehre uns teilen, ohne zu rechnen.\nLehre uns frei zu werden von Gier und Angst.\nGib uns offene Augen für das Nötige,\nklare Hände für das Richtige,\nund ein weites Herz für andere.\nTrage uns in diesen Abend und in das, was kommt.",
-      "headline": "Wochengebet: Dank, Verantwortung und Freiheit"
+      "text": "",
+      "headline": ""
     },
     "instagram": {
-      "caption": "Ein kurzes Gebet zum Wochenabschluss.\n\nZwischen Einkaufszettel, Terminen und dem, was auf dem Tisch liegt,\nsehen wir, wie viel uns anvertraut ist.\n\nGott,\nlehre uns danken, ohne zu vergessen.\nLehre uns teilen, ohne zu rechnen.\nLehre uns frei zu werden von Gier und Angst.\nGib uns offene Augen für das Nötige,\nklare Hände für das Richtige,\nund ein weites Herz für andere.\nTrage uns in diesen Abend und in das, was kommt.",
-      "carousel": [
-        {
-          "type": "slide",
-          "text": "Zwischen Einkaufszettel, Terminen und dem, was auf dem Tisch liegt,\nsehen wir, wie viel uns anvertraut ist."
-        },
-        {
-          "type": "slide",
-          "text": "Gott,\nlehre uns danken, ohne zu vergessen."
-        },
-        {
-          "type": "slide",
-          "text": "Lehre uns teilen, ohne zu rechnen."
-        },
-        {
-          "type": "slide",
-          "text": "Lehre uns frei zu werden von Gier und Angst."
-        },
-        {
-          "type": "slide",
-          "text": "Gib uns offene Augen für das Nötige,\nklare Hände für das Richtige,\nund ein weites Herz für andere."
-        },
-        {
-          "type": "slide",
-          "text": "Trage uns in diesen Abend und in das, was kommt."
-        }
-      ]
+      "caption": "",
+      "carousel": []
     },
     "mastodon": {
-      "text": "Ein kurzes Wochengebet:\n\nGott,\nlehre uns danken, ohne zu vergessen.\nLehre uns teilen, ohne zu rechnen.\nLehre uns frei zu werden von Gier und Angst.\nGib uns offene Augen für das Nötige,\nklare Hände für das Richtige,\nund ein weites Herz für andere.\nTrage uns in diesen Abend und in das, was kommt."
+      "text": ""
     },
     "bluesky": {
-      "text": "Kurzes Wochengebet:\nGott, lehre uns danken, ohne zu vergessen. Lehre uns teilen, ohne zu rechnen. Lehre uns frei zu werden von Gier und Angst. Gib uns offene Augen, klare Hände und ein weites Herz. Trage uns in diesen Abend."
+      "text": ""
     },
     "story": {
-      "slides": [
-        {
-          "text": "Zum Wochenabschluss: ein kurzes Gebet"
-        },
-        {
-          "text": "Zwischen Einkaufszettel, Terminen und dem, was auf dem Tisch liegt, sehen wir, wie viel uns anvertraut ist."
-        },
-        {
-          "text": "Gott, lehre uns danken, ohne zu vergessen."
-        },
-        {
-          "text": "Lehre uns teilen, ohne zu rechnen."
-        },
-        {
-          "text": "Lehre uns frei zu werden von Gier und Angst."
-        },
-        {
-          "text": "Gib uns offene Augen, klare Hände und ein weites Herz."
-        },
-        {
-          "text": "Trage uns in diesen Abend und in das, was kommt."
-        }
-      ]
+      "slides": []
     },
     "reel": {
-      "hook": "Was trägt uns zwischen Dank, Verantwortung und Freiheit?",
-      "script": "Zwischen Einkaufszettel, Terminen und dem, was auf dem Tisch liegt, sehen wir, wie viel uns anvertraut ist.\n\nGott,\nlehre uns danken, ohne zu vergessen.\nLehre uns teilen, ohne zu rechnen.\nLehre uns frei zu werden von Gier und Angst.\nGib uns offene Augen für das Nötige,\nklare Hände für das Richtige,\nund ein weites Herz für andere.\nTrage uns in diesen Abend und in das, was kommt.",
-      "shots": [
-        "Ruhiger Blick auf einen gedeckten Tisch mit Brot, Wasser und einfachem Geschirr",
-        "Nahaufnahme von Händen, die Lebensmittel ordnen oder Brot teilen",
-        "Fensterlicht am Abend auf einer Küchenfläche",
-        "Langsame Kamerafahrt über einen leeren Stuhl am Tisch",
-        "Still stehende Szene mit einer brennenden Kerze oder warmem Abendlicht"
-      ],
-      "duration_seconds": 24
+      "hook": "",
+      "script": "",
+      "shots": [],
+      "duration_seconds": 0
     }
   },
   "visual": {
-    "concept": "Stille Alltagsszene in einer Küche oder am Esstisch am Abend. Sichtbar sind einfache Lebensmittel, warmes Licht und eine ruhige Atmosphäre von Dankbarkeit und Verantwortung.",
-    "flux_prompt": "Documentary-style still life of a simple kitchen table in warm evening light, bread, water, seasonal produce, human presence only through hands, calm and contemplative mood, natural colors, soft shadows, realistic photography, minimal composition, atmosphere of gratitude, responsibility, and freedom",
+    "concept": "",
+    "flux_prompt": "",
     "negative_prompt": "text, letters, logo, watermark",
     "formats": [
       "4:5",
       "9:16",
       "1.91:1"
     ],
-    "alt_text": "Ein schlicht gedeckter Tisch im warmen Abendlicht. Auf dem Tisch stehen Brot, Wasser und wenige Lebensmittel. Eine Hand liegt ruhig neben dem Teller. Die Szene wirkt still, dankbar und nachdenklich."
+    "alt_text": ""
   },
   "qa": {
     "warnings": [
-      "Current-event or local factual details are still required. Verify that no details were invented.",
-      "Song lyric copyright must be checked manually before publication.",
-      "Public copy may contain quoted or verse-like lyrics. Confirm that no protected full lyrics are published."
+      "Alt text must be completed before approval",
+      "Check song lyric copyright before publication"
     ],
-    "approved": true
+    "approved": false
   },
   "metadata": {
-    "model": "gpt-5.4-2026-03-05",
-    "generated_at": "2026-10-09T04:41:04.596Z",
+    "model": "",
+    "generated_at": "",
     "prompt_version": "1.0",
-    "assets": [
-      "assets/background-1.91x1.webp",
-      "assets/background-4x5.webp",
-      "assets/background-9x16.webp"
-    ]
+    "assets": []
   }
 }

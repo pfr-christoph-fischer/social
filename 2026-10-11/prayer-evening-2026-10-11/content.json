@@ -10,132 +10,66 @@
   },
   "editorial_core": {
     "title": "Abendgebet",
-    "main_message": "Wir legen diesen Tag in Gottes Hand. Das Gute. Das Schwere. Das Unfertige. Wir bitten besonders für die Menschen in Riad nach dem tödlichen Angriff auf den Flughafen und für Menschen in Baden-Württemberg, die nach der langen Trockenheit mit den Folgen von Niedrigwasser und ausgetrockneten Orten leben. Gottes Zukunft beginnt auch dort, wo unsere Kraft für heute endet.",
+    "main_message": "Den vergangenen Tag mit allem Gelungenen und Unvollendeten in Gottes Hand legen und darauf vertrauen, dass Gottes Zukunft auch dort beginnt, wo unsere Möglichkeiten für heute enden.",
     "audience": "breite Öffentlichkeit",
     "tone": [
+      "klar",
       "ruhig",
-      "hoffnungsvoll",
-      "geborgen"
+      "zugänglich"
     ],
     "source_notes": [
-      "Goal: Ein kurzes Abendgebet, das hilft, auf den vergangenen Tag zurückzuschauen, Gelungenes und Schweres Gott anzuvertrauen und mit Hoffnung zur Ruhe zu kommen.",
+      "Goal: Den vergangenen Tag mit allem Gelungenen und Unvollendeten in Gottes Hand legen und darauf vertrauen, dass Gottes Zukunft auch dort beginnt, wo unsere Möglichkeiten für heute enden.",
       "Column: Gebet am Abend",
-      "Production mode: am Nachmittag des Vortags AI-generiert; Nachrichtenlage bis dahin prüfen; anschließend redaktionell prüfen und freigeben.",
-      "News selection: Nicht versuchen, die Nachrichtenlage vollständig abzubilden. Zwei bis vier konkrete Situationen auswählen, die exemplarisch für das stehen, was Menschen und Welt an diesem Tag beschäftigt.",
-      "Verbindliche aktuelle Bezüge: Das Gebet MUSS mindestens zwei konkrete und am Erzeugungszeitpunkt relevante aktuelle Situationen des vergangenen Tages aufnehmen. Allgemeine Formulierungen wie 'die Krisen der Welt' oder 'alle Menschen in Not' ersetzen diese Bezüge nicht.",
-      "Konkretheit aktueller Bezüge: Für jede ausgewählte Situation im Gebet erkennbar benennen, was geschehen ist oder welche konkrete Lage besteht und welche Menschen davon betroffen sind. Nur verlässliche, aktuell überprüfte Informationen verwenden; nichts erfinden.",
-      "Ausgabeprüfung aktuelle Bezüge: Vor der Ausgabe prüfen, dass editorial_core.main_message und die wesentlichen Plattformtexte die mindestens zwei konkreten aktuellen Situationen tatsächlich als Fürbitte oder Gebetsanliegen enthalten.",
-      "News sources: Aktuelle weltweite Nachrichtenlage sowie tagesschau.de und SWR Aktuell Baden-Württemberg prüfen. Regionale und internationale Perspektiven miteinander verbinden.",
-      "News timing: Da der Text am Nachmittag des Vortags erzeugt wird, keine Formulierungen verwenden, die konkrete Ereignisse des Veröffentlichungstages voraussetzen. Bei schnell veränderlichen Nachrichten vorsichtig und zeitlich robust formulieren.",
-      "Prayer structure: Vor Gott zur Ruhe kommen | dankbar auf das Gute des Tages schauen | Belastendes, Versäumtes und Unvollendetes loslassen | ausgewählte Not der Welt vor Gott bringen | Menschen anvertrauen, die in dieser Nacht leiden, wachen, arbeiten, helfen oder Angst haben | um Frieden für die Welt und das eigene Herz bitten | den Tag und die Nacht Gottes Zukunft anvertrauen.",
-      "Personal perspective: Raum schaffen für das, was Menschen selbst aus diesem Tag mitbringen: Freude und Dankbarkeit, Begegnungen und Arbeit, aber auch Fehler, Streit, Sorgen, Erschöpfung und Dinge, die unerledigt geblieben sind.",
-      "Personal perspective: Keine Bilanz verlangen. Der Abend ist nicht der Zeitpunkt, an dem ein Mensch beweisen muss, dass der Tag erfolgreich war. Vor Gott darf der Tag unvollendet bleiben.",
-      "World perspective: Die Welt nicht ausblenden, wenn der eigene Tag endet. Konkret an Menschen denken, für die die Nacht keine selbstverständliche Zeit der Ruhe ist: Menschen im Krieg, auf der Flucht, in Krankenhäusern, in Sorge um andere, bei nächtlicher Arbeit oder in Angst.",
-      "Theological key: Jürgen Moltmann. Christliche Hoffnung gründet nicht darin, dass am Ende des Tages alles gut geworden wäre. Sie gründet in Gottes verheißener Zukunft, die größer ist als das, was heute gelungen oder gescheitert ist.",
-      "Theological key: Hoffnung erlaubt das Loslassen. Wir müssen die Welt nicht über Nacht selbst festhalten. Unsere Verantwortung ist wirklich, aber sie ist nicht grenzenlos. Wir dürfen das Unvollendete Gott anvertrauen.",
-      "Theological key: Gottes Zukunft widerspricht der Vorstellung, Gewalt, Leid, Schuld und Tod hätten das letzte Wort. Deshalb kann das Gebet die Dunkelheit wahrnehmen, ohne ihr das letzte Wort zu überlassen.",
-      "Theological key: Den gekreuzigten Gott bei denen suchen, die leiden und keine Ruhe finden. Gott nicht als distanzierten Weltenlenker darstellen, sondern als den, der Leid, Angst und Verlassenheit kennt und den Leidenden nahe ist.",
-      "Theological key: Die Auferstehung eröffnet Zukunft. Der kommende Morgen kann als kleines Bild dafür anklingen: Nicht weil jeder neue Tag automatisch besser wird, sondern weil Gottes Möglichkeiten nicht an den Grenzen dieses Tages enden.",
-      "Theological key: Hoffnung ist mehr als Trost. Sie hält die Sehnsucht nach Frieden, Gerechtigkeit und neuem Leben wach. Auch im Schlaf geben wir diese Hoffnung nicht auf.",
-      "Language: Kurze, einfache Sätze. Ruhiger Rhythmus. Konkrete Bilder statt abstrakter theologischer Begriffe. Das Gebet soll sich zum langsamen Lesen eignen.",
-      "Language: Möglichst wenig kirchliche Binnenbegriffe. Das Gebet soll auch für Menschen zugänglich sein, die mit traditioneller Gebetssprache wenig anfangen können.",
-      "Language: Keine Nachrichtenzusammenfassung und keine lange Liste von Krisen. Nachrichten nur dort aufnehmen, wo sie tatsächlich zum Gebet werden.",
-      "Language: Keine vorschnelle Auflösung von Leid durch Sätze wie 'Alles wird gut'. Hoffnung soll gerade dort ausgesprochen werden, wo noch nichts gut ist.",
-      "Ending: Ruhig und vertrauensvoll enden. Der betende Mensch darf den Tag loslassen und schlafen. Die Welt bleibt in Gottes Hand. Gottes Zukunft kommt auch durch diese Nacht auf uns zu.",
-      "Possible final movement: Gott, was heute war, legen wir in deine Hand. Was gut war. Was wehgetan hat. Was unfertig bleibt. Uns selbst und diese unruhige Welt. Schenk uns Frieden für diese Nacht und halte deine Hoffnung in uns wach.",
-      "Aktuelle Bezüge geprüft: tagesschau.de meldet für den 11.10.2026 einen Angriff auf den Flughafen in Riad mit mindestens zwölf Toten; SWR Aktuell Baden-Württemberg berichtet Anfang Oktober 2026 über die Folgen langer Trockenheit mit Niedrigwasser am Bodensee und einem fast ausgetrockneten Uracher Wasserfall. Diese beiden Lagen werden als Gebetsanliegen aufgenommen."
+      "Production mode: am Nachmittag des Vortags",
+      "Structure: Goal: Ein kurzes Abendgebet, das hilft, auf den vergangenen Tag zurückzuschauen, Gelungenes und Schweres Gott anzuvertrauen und mit Hoffnung zur Ruhe zu kommen. | Column: Gebet am Abend | Production mode: am Nachmittag des Vortags AI-generiert; Nachrichtenlage bis dahin prüfen; anschließend redaktionell prüfen und freigeben. | News selection: Nicht versuchen, die Nachrichtenlage vollständig abzubilden. Zwei bis vier konkrete Situationen auswählen, die exemplarisch für das stehen, was Menschen und Welt an diesem Tag beschäftigt. | Verbindliche aktuelle Bezüge: Das Gebet MUSS mindestens zwei konkrete und am Erzeugungszeitpunkt relevante aktuelle Situationen des vergangenen Tages aufnehmen. Allgemeine Formulierungen wie 'die Krisen der Welt' oder 'alle Menschen in Not' ersetzen diese Bezüge nicht. | Konkretheit aktueller Bezüge: Für jede ausgewählte Situation im Gebet erkennbar benennen, was geschehen ist oder welche konkrete Lage besteht und welche Menschen davon betroffen sind. Nur verlässliche, aktuell überprüfte Informationen verwenden; nichts erfinden. | Ausgabeprüfung aktuelle Bezüge: Vor der Ausgabe prüfen, dass editorial_core.main_message und die wesentlichen Plattformtexte die mindestens zwei konkreten aktuellen Situationen tatsächlich als Fürbitte oder Gebetsanliegen enthalten. | News sources: Aktuelle weltweite Nachrichtenlage sowie tagesschau.de und SWR Aktuell Baden-Württemberg prüfen. Regionale und internationale Perspektiven miteinander verbinden. | News timing: Da der Text am Nachmittag des Vortags erzeugt wird, keine Formulierungen verwenden, die konkrete Ereignisse des Veröffentlichungstages voraussetzen. Bei schnell veränderlichen Nachrichten vorsichtig und zeitlich robust formulieren. | Prayer structure: Vor Gott zur Ruhe kommen | dankbar auf das Gute des Tages schauen | Belastendes, Versäumtes und Unvollendetes loslassen | ausgewählte Not der Welt vor Gott bringen | Menschen anvertrauen, die in dieser Nacht leiden, wachen, arbeiten, helfen oder Angst haben | um Frieden für die Welt und das eigene Herz bitten | den Tag und die Nacht Gottes Zukunft anvertrauen. | Personal perspective: Raum schaffen für das, was Menschen selbst aus diesem Tag mitbringen: Freude und Dankbarkeit, Begegnungen und Arbeit, aber auch Fehler, Streit, Sorgen, Erschöpfung und Dinge, die unerledigt geblieben sind. | Personal perspective: Keine Bilanz verlangen. Der Abend ist nicht der Zeitpunkt, an dem ein Mensch beweisen muss, dass der Tag erfolgreich war. Vor Gott darf der Tag unvollendet bleiben. | World perspective: Die Welt nicht ausblenden, wenn der eigene Tag endet. Konkret an Menschen denken, für die die Nacht keine selbstverständliche Zeit der Ruhe ist: Menschen im Krieg, auf der Flucht, in Krankenhäusern, in Sorge um andere, bei nächtlicher Arbeit oder in Angst. | Theological key: Jürgen Moltmann. Christliche Hoffnung gründet nicht darin, dass am Ende des Tages alles gut geworden wäre. Sie gründet in Gottes verheißener Zukunft, die größer ist als das, was heute gelungen oder gescheitert ist. | Theological key: Hoffnung erlaubt das Loslassen. Wir müssen die Welt nicht über Nacht selbst festhalten. Unsere Verantwortung ist wirklich, aber sie ist nicht grenzenlos. Wir dürfen das Unvollendete Gott anvertrauen. | Theological key: Gottes Zukunft widerspricht der Vorstellung, Gewalt, Leid, Schuld und Tod hätten das letzte Wort. Deshalb kann das Gebet die Dunkelheit wahrnehmen, ohne ihr das letzte Wort zu überlassen. | Theological key: Den gekreuzigten Gott bei denen suchen, die leiden und keine Ruhe finden. Gott nicht als distanzierten Weltenlenker darstellen, sondern als den, der Leid, Angst und Verlassenheit kennt und den Leidenden nahe ist. | Theological key: Die Auferstehung eröffnet Zukunft. Der kommende Morgen kann als kleines Bild dafür anklingen: Nicht weil jeder neue Tag automatisch besser wird, sondern weil Gottes Möglichkeiten nicht an den Grenzen dieses Tages enden. | Theological key: Hoffnung ist mehr als Trost. Sie hält die Sehnsucht nach Frieden, Gerechtigkeit und neuem Leben wach. Auch im Schlaf geben wir diese Hoffnung nicht auf. | Language: Kurze, einfache Sätze. Ruhiger Rhythmus. Konkrete Bilder statt abstrakter theologischer Begriffe. Das Gebet soll sich zum langsamen Lesen eignen. | Language: Möglichst wenig kirchliche Binnenbegriffe. Das Gebet soll auch für Menschen zugänglich sein, die mit traditioneller Gebetssprache wenig anfangen können. | Language: Keine Nachrichtenzusammenfassung und keine lange Liste von Krisen. Nachrichten nur dort aufnehmen, wo sie tatsächlich zum Gebet werden. | Language: Keine vorschnelle Auflösung von Leid durch Sätze wie 'Alles wird gut'. Hoffnung soll gerade dort ausgesprochen werden, wo noch nichts gut ist. | Ending: Ruhig und vertrauensvoll enden. Der betende Mensch darf den Tag loslassen und schlafen. Die Welt bleibt in Gottes Hand. Gottes Zukunft kommt auch durch diese Nacht auf uns zu. | Possible final movement: Gott, was heute war, legen wir in deine Hand. Was gut war. Was wehgetan hat. Was unfertig bleibt. Uns selbst und diese unruhige Welt. Schenk uns Frieden für diese Nacht und halte deine Hoffnung in uns wach. | AI support notes: Aktuelle Nachrichten des Tages sichten und verifizieren | mindestens zwei konkrete aktuelle Situationen auswählen | diese Situationen ausdrücklich als Gebetsanliegen einarbeiten | kurzes Abendgebet in einfacher Sprache entwerfen | vor der Ausgabe auf konkrete aktuelle Bezüge und zeitliche Robustheit bis zum Folgetag prüfen | theologisch auf Vertröstung, Allmachtsklischees und billigen Optimismus prüfen | Caption kürzen | Alt-Text",
+      "AI support notes: Aktuelle Nachrichten prüfen | Gebet und Plattformtexte generieren | redaktionell prüfen"
     ]
   },
   "platforms": {
     "facebook": {
-      "text": "Abendgebet\n\nGott,\nder Tag liegt hinter uns.\nMit allem, was gelungen ist.\nMit allem, was offen blieb.\n\nWir danken dir für das Gute.\nFür ein freundliches Wort.\nFür Arbeit, die getragen hat.\nFür Momente, in denen wir aufatmen konnten.\n\nUnd wir bringen dir, was schwer war.\nFehler.\nStreit.\nErschöpfung.\nAufgaben, die heute nicht fertig geworden sind.\nLass uns loslassen, was wir nicht mehr ändern können.\n\nWir denken an die Menschen in Riad.\nNach dem Angriff auf den Flughafen trauern Familien um Tote und Verletzte.\nSei denen nahe, die jetzt unter Schock stehen, helfen oder auf Nachricht warten.\n\nWir denken auch an Menschen bei uns im Südwesten.\nAn Orte, die unter der langen Trockenheit leiden.\nAn den Bodensee mit seinem Niedrigwasser.\nAn Menschen in Bad Urach, wo der Wasserfall fast nur noch ein Rinnsal ist.\nBewahre, was austrocknet.\nStärke alle, die mit den Folgen leben und arbeiten müssen.\n\nWir bitten dich für alle, für die die Nacht nicht ruhig wird.\nFür Menschen in Krankenhäusern.\nFür Menschen auf der Flucht.\nFür alle, die wachen, pflegen, fahren, trösten und helfen.\n\nGib uns Frieden für diese Nacht.\nUnd halte die Hoffnung in uns wach.\nDeine Zukunft endet nicht an diesem Tag.\nAmen.",
-      "headline": "Abendgebet: Den Tag loslassen. Die Hoffnung festhalten."
+      "text": "",
+      "headline": ""
     },
     "instagram": {
-      "caption": "Abendgebet\n\nGott,\nwir legen dir diesen Tag hin.\nDas Gute.\nDas Schwere.\nDas Unfertige.\n\nWir bitten dich für die Menschen in Riad nach dem Angriff auf den Flughafen.\nFür Familien, die trauern.\nFür Verletzte.\nFür alle, die helfen.\n\nWir bitten dich auch für Menschen bei uns im Südwesten.\nFür Orte, die unter der langen Trockenheit leiden.\nFür den Bodensee mit seinem Niedrigwasser.\nFür Bad Urach, wo der Wasserfall fast nur noch ein Rinnsal ist.\n\nSchenk Ruhe, wo Angst ist.\nSchenk Atem, wo Erschöpfung ist.\nSchenk Hoffnung, wo heute nichts fertig geworden ist.\n\nGib uns Frieden für diese Nacht.\nAmen.",
-      "carousel": [
-        {
-          "type": "text",
-          "text": "Abendgebet\n\nDer Tag liegt hinter uns.\nWir müssen ihn nicht festhalten."
-        },
-        {
-          "type": "text",
-          "text": "Gott,\nwir danken dir für das Gute.\nUnd wir bringen dir,\nwas schwer war und offen blieb."
-        },
-        {
-          "type": "text",
-          "text": "Wir bitten dich für die Menschen in Riad.\nNach dem Angriff auf den Flughafen.\nFür Trauernde, Verletzte und Helfende."
-        },
-        {
-          "type": "text",
-          "text": "Wir bitten dich für Menschen im Südwesten.\nFür den Bodensee mit Niedrigwasser.\nFür Bad Urach,\nwo der Wasserfall fast nur noch ein Rinnsal ist."
-        },
-        {
-          "type": "text",
-          "text": "Schenk uns Frieden für diese Nacht.\nUnd halte die Hoffnung in uns wach.\nAmen."
-        }
-      ]
+      "caption": "",
+      "carousel": []
     },
     "mastodon": {
-      "text": "Abendgebet\n\nGott,\nwir legen dir diesen Tag hin.\nDas Gute. Das Schwere. Das Unfertige.\n\nWir bitten dich für die Menschen in Riad nach dem Angriff auf den Flughafen.\nFür Trauernde, Verletzte und Helfende.\n\nWir bitten dich auch für Menschen im Südwesten.\nFür den Bodensee mit Niedrigwasser.\nFür Bad Urach, wo der Wasserfall fast nur noch ein Rinnsal ist.\n\nGib uns Frieden für diese Nacht.\nUnd halte die Hoffnung in uns wach.\nAmen."
+      "text": ""
     },
     "bluesky": {
-      "text": "Abendgebet\n\nGott,\nwir legen dir diesen Tag hin.\nDas Gute. Das Schwere. Das Unfertige.\n\nWir bitten dich für die Menschen in Riad nach dem Angriff auf den Flughafen.\nFür Trauernde, Verletzte und Helfende.\n\nWir bitten dich für Menschen im Südwesten.\nFür den Bodensee mit Niedrigwasser.\nFür Bad Urach, wo der Wasserfall fast nur noch ein Rinnsal ist.\n\nGib uns Frieden für diese Nacht.\nAmen."
+      "text": ""
     },
     "story": {
-      "slides": [
-        {
-          "text": "Abendgebet\n\nDer Tag liegt hinter uns."
-        },
-        {
-          "text": "Was gut war.\nWas wehgetan hat.\nWas offen blieb."
-        },
-        {
-          "text": "Wir bitten für die Menschen in Riad.\nFür Trauernde, Verletzte und Helfende."
-        },
-        {
-          "text": "Wir bitten für Menschen im Südwesten.\nFür den Bodensee mit Niedrigwasser.\nFür Bad Urach und den fast trockenen Wasserfall."
-        },
-        {
-          "text": "Gott,\nschenk Frieden für diese Nacht.\nUnd halte die Hoffnung wach."
-        }
-      ]
+      "slides": []
     },
     "reel": {
-      "hook": "Der Tag muss nicht fertig sein, damit du ihn loslassen kannst.",
-      "script": "Der Tag ist vorbei. Nicht alles ist gelungen. Nicht alles ist geklärt. Im Abendgebet darf unfertig bleiben, was unfertig ist. Wir denken an die Menschen in Riad nach dem Angriff auf den Flughafen. Und an Menschen im Südwesten, die unter der langen Trockenheit leiden, am Bodensee und in Bad Urach. Gott, nimm diesen Tag in deine Hand. Schenk Frieden für diese Nacht. Und halte die Hoffnung in uns wach.",
-      "shots": [
-        "Ruhiger Abendhimmel ohne Schrift",
-        "Nahaufnahme einer Hand, die ein Licht löscht",
-        "Stilles Wasserufer mit sichtbaren Steinen am Rand",
-        "Felswand oder Wasserlauf mit wenig Wasser",
-        "Fenster bei Nacht mit warmem Licht"
-      ],
-      "duration_seconds": 24
+      "hook": "",
+      "script": "",
+      "shots": [],
+      "duration_seconds": 0
     }
   },
   "visual": {
-    "concept": "Ruhige Abendszene mit offenem Fenster, weichem Licht und einem stillen Blick in die blaue Stunde; dazu eine zurückhaltende Naturanspielung an Trockenheit durch sichtbare Steine am Ufer oder einen schmalen Wasserlauf. Keine Katastrophenbilder.",
-    "flux_prompt": "Fotorealistisches ruhiges Abendmotiv, Innenraum mit offenem Fenster in der blauen Stunde, warmes sanftes Licht, schlichte wohnliche Atmosphäre, stille Hand auf Fensterbank, draußen ein dunkler werdender Himmel, dezente Naturanspielung an Niedrigwasser mit sichtbaren Steinen am Ufer oder schmalem Wasserlauf, zurückhaltend, hoffnungsvoll, ehrlich, keine Menschenmenge, keine Dramatik, hohe Bildqualität",
+    "concept": "",
+    "flux_prompt": "",
     "negative_prompt": "text, letters, logo, watermark",
     "formats": [
       "4:5",
       "9:16",
       "1.91:1"
     ],
-    "alt_text": "Ruhige Abendszene mit offenem Fenster und warmem Licht. Draußen liegt die blaue Stunde über einer stillen Landschaft. Im Vordergrund wirkt alles schlicht und gesammelt, im Hintergrund ist ein schmaler Wasserlauf oder ein steiniger Uferrand zu sehen."
+    "alt_text": ""
   },
   "qa": {
     "warnings": [
-      "Alt text must be completed before approval",
-      "Aktuelle Bezüge vor Freigabe nochmals am Veröffentlichungstag gegenprüfen, da der Text am Vortag erzeugt wurde.",
-      "Gebetsformulierung bewusst zeitlich robust gehalten; keine weiteren tagesaktuellen Zuspitzungen ergänzen ohne erneute Prüfung."
+      "Alt text must be completed before approval"
     ],
     "approved": false
   },
   "metadata": {
-    "model": "gpt-5.4-2026-03-05",
-    "generated_at": "2026-10-11T09:01:18.782Z",
+    "model": "",
+    "generated_at": "",
     "prompt_version": "1.0",
     "assets": []
   }
