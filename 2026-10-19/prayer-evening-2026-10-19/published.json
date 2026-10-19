@@ -119,5 +119,44 @@
       "mediaCount": 4
     },
     "retryHistory": []
+  },
+  {
+    "postId": "prayer-evening-2026-10-19",
+    "contentDate": "2026-10-19",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-10-19T18:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Der Tag muss nicht fertig sein, damit du ihn loslassen darfst.\n\nWir beten für die Menschen in Frankreich nach den schweren Ausschreitungen und dem Brand des Rathauses in Limoges. Und für die Verletzten der Unfälle auf der B10 bei Ebersbach an der Fils.\n\nWas heute war, legen wir in Gottes Hand. Sc...",
+    "assets": [
+      "render-instagram-feed-01.jpg",
+      "render-instagram-feed-02.jpg",
+      "render-instagram-feed-03.jpg",
+      "render-instagram-feed-04.jpg",
+      "render-instagram-feed-05.jpg"
+    ],
+    "altTexts": [
+      "Ein schlichter Tisch an einem Fenster in der Abenddämmerung. Warmes Licht fällt in einen ruhigen Raum. Die Szene wirkt still, gesammelt und tröstlich."
+    ],
+    "id": "188c3ee1-2a72-4040-8e9d-d7468857952c",
+    "attemptCount": 2,
+    "remoteId": "18395493316204095",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-10-19T17:23:34.502Z",
+    "updatedAt": "2026-10-19T18:05:54.676Z",
+    "responseMetadata": {
+      "mediaCount": 5,
+      "mediaType": "CAROUSEL",
+      "status": 200
+    },
+    "retryHistory": [
+      {
+        "at": "2026-10-19T18:01:52.738Z",
+        "error": "threads: Container konnte nicht veröffentlicht werden (400): The requested resource does not exist (Code 24) Le contenu multimédia présentant l’ID 17984567316107901 est introuvable.",
+        "attempt": 1
+      }
+    ]
   }
 ]
