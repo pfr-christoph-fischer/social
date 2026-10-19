@@ -105,15 +105,19 @@
     "alt_text": "Ein schlichter Tisch an einem Fenster in der Abenddämmerung. Warmes Licht fällt in einen ruhigen Raum. Die Szene wirkt still, gesammelt und tröstlich."
   },
   "qa": {
-    "approved": true,
     "warnings": [
       "Field \"bluesky.text\" is 333 characters long and exceeds the plausibility limit of 300."
-    ]
+    ],
+    "approved": true
   },
   "metadata": {
     "model": "gpt-5.4-2026-03-05",
     "generated_at": "2026-10-19T09:00:56.172Z",
     "prompt_version": "1.0",
-    "assets": []
+    "assets": [
+      "assets/background-1.91x1.webp",
+      "assets/background-4x5.webp",
+      "assets/background-9x16.webp"
+    ]
   }
 }

@@ -1,0 +1,28 @@
+{
+  "delivery_url": "https://delivery.us8.bfl.ai/durable/2026101917/5e1f69ea-538b-4d66-962e-9be995966f07/00/5078792de3518b/2de3518b040f4957af0bc1ffc501105c/sample.jpeg?se=2026-10-19T17%3A31%3A48Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=vvcnVnhKL5C%2Bx6Mqa/FgtPTLjEyUOwtNolIx%2BqtK8gc%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "6d866842-e0aa-445e-9fc4-24f2f1578cbd",
+      "status": "Ready",
+      "result": {
+        "start_time": 1792430506.9333458,
+        "prompt": "Ruhige Abendszene in einem schlichten Innenraum mit warmem Licht am Fenster oder auf einem Tisch. Die Stimmung ist getragen und hoffnungsvoll. Keine Nachrichtenbilder, keine Dramatik. Das Motiv soll Loslassen, Geborgenheit und Wachheit für die Welt zugleich zeigen., no text, no letters, no typography, no logo, no watermark",
+        "seed": 1719987207,
+        "sample": "https://delivery.us8.bfl.ai/durable/2026101917/5e1f69ea-538b-4d66-962e-9be995966f07/00/5078792de3518b/2de3518b040f4957af0bc1ffc501105c/sample.jpeg?se=2026-10-19T17%3A31%3A48Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=vvcnVnhKL5C%2Bx6Mqa/FgtPTLjEyUOwtNolIx%2BqtK8gc%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "6d866842-e0aa-445e-9fc4-24f2f1578cbd",
+    "polling_url": "https://api.us8.bfl.ai/v1/get_result?id=6d866842-e0aa-445e-9fc4-24f2f1578cbd",
+    "cost": 1.4000000000000001,
+    "input_mp": 0,
+    "output_mp": 0.72
+  }
+}
