@@ -84,5 +84,62 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-10-19",
+    "contentDate": "2026-10-19",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-10-19T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Des Priesters Lippen sollen die Lehre bewahren, dass man aus seinem Munde Weisung suche; denn er ist ein Bote des HERRN Zebaoth.",
+    "assets": [
+      "render-square-01.jpg"
+    ],
+    "altTexts": [
+      "Des Priesters Lippen sollen die Lehre bewahren, dass man aus seinem Munde Weisung suche; denn er ist ein Bote des HERRN Zebaoth."
+    ],
+    "id": "87bd1dcf-9f16-461c-b6d3-92d9bb6989c7",
+    "attemptCount": 1,
+    "remoteId": "18120300094987745",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:46:44.300Z",
+    "updatedAt": "2026-10-19T05:01:03.304Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-10-19",
+    "contentDate": "2026-10-19",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-10-19T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Des Priesters Lippen sollen die Lehre bewahren, dass man aus seinem Munde Weisung suche; denn er ist ein Bote des HERRN Zebaoth.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Des Priesters Lippen sollen die Lehre bewahren, dass man aus seinem Munde Weisung suche; denn er ist ein Bote des HERRN Zebaoth."
+    ],
+    "id": "6368c431-60b0-45ed-8048-44749865b6da",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3my7dnfmxae2n",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3my7dnfmxae2n",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:46:44.315Z",
+    "updatedAt": "2026-10-19T05:01:05.715Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
