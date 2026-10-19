@@ -1,0 +1,36 @@
+{
+  "delivery_url": "https://delivery.us2.bfl.ai/durable/2026101906/5e1f69ea-538b-4d66-962e-9be995966f07/79/39801635b97aef/35b97aefb9a7463584bc93d41e93f70d/sample.jpeg?se=2026-10-19T06%3A39%3A58Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=0nv1rCTP2ER9yZPItPHL7jqxD6xucP2vu1H6e7PhB3M%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "98f69d6b-392c-4e44-b0ac-56a53d5be846",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "98f69d6b-392c-4e44-b0ac-56a53d5be846",
+      "status": "Ready",
+      "result": {
+        "start_time": 1792391396.7010617,
+        "prompt": "Stiller Morgenbeginn mit natürlichem Licht: ein offenes Fenster, weiches Frühlicht, schlichte Alltagsnähe, ruhige Hoffnung ohne Kitsch., no text, no letters, no typography, no logo, no watermark",
+        "seed": 560347261,
+        "sample": "https://delivery.us2.bfl.ai/durable/2026101906/5e1f69ea-538b-4d66-962e-9be995966f07/79/39801635b97aef/35b97aefb9a7463584bc93d41e93f70d/sample.jpeg?se=2026-10-19T06%3A39%3A58Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=0nv1rCTP2ER9yZPItPHL7jqxD6xucP2vu1H6e7PhB3M%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "98f69d6b-392c-4e44-b0ac-56a53d5be846",
+    "polling_url": "https://api.us2.bfl.ai/v1/get_result?id=98f69d6b-392c-4e44-b0ac-56a53d5be846",
+    "cost": 1.5,
+    "input_mp": 0,
+    "output_mp": 1.39
+  }
+}
