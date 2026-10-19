@@ -1,7 +1,7 @@
 {
   "id": "post-0071",
   "status": "in Arbeit",
-  "needs_input": true,
+  "needs_input": false,
   "source": {
     "calendar_post_id": "post-0071",
     "date": "2026-10-19",
@@ -9,8 +9,8 @@
     "liturgical_source": "https://kirchenjahr.pfarr.tools/api/jahr/2026"
   },
   "editorial_core": {
-    "title": "Wochenspruch praktisch: 20. Sonntag nach Trinitatis",
-    "main_message": "Einer Person danken, deren Beitrag leicht übersehen wird.",
+    "title": "Wochenspruch praktisch: Micha 6,8",
+    "main_message": "Glaube zeigt sich nicht im großen Auftritt, sondern darin, recht zu handeln, Güte zu lieben und aufmerksam mit Gott durch den Alltag zu gehen.",
     "audience": "breite Öffentlichkeit",
     "tone": [
       "klar",
@@ -18,104 +18,98 @@
       "zugänglich"
     ],
     "source_notes": [
+      "Wochenspruch: 'Es ist dir gesagt, Mensch, was gut ist und was der HERR von dir fordert: nichts als Gottes Wort halten und Liebe üben und demütig sein vor deinem Gott.' / Micha 6,8",
       "Goal: Den seit Sonntag geltenden Wochenspruch in eine kleine, konkrete Wochenpraxis übersetzen.",
       "Column: Bibel und Alltag",
       "Production mode: vollständig vorproduzierbar",
       "Structure: Wochenspruch | ein alltagsnaher Gedanke | eine kleine Übung | eine Frage",
       "AI support notes: Rohentwurf in einfacher Sprache | Varianten der Wochenübung | Caption kürzen | Alt-Text",
-      "Liturgical source: https://kirchenjahr.pfarr.tools/api/jahr/2026 (2026-10-18, $.Tage['2026-10-18'])",
-      "Liturgical note: Multiple liturgical entries for 2026-10-18 contain different Wochenspruch values. Local selection is still required before publication.",
-      "Für die Veröffentlichung muss redaktionell geklärt werden, welcher Wochenspruch am Ort tatsächlich gilt."
+      "Inhaltlicher Fokus: kein moralischer Druck, sondern eine einfache Einladung zu einem achtsamen, gerechten und freundlichen Schritt im Alltag",
+      "Liturgical source: https://kirchenjahr.pfarr.tools/api/jahr/2026 (2026-10-18, $.Tage['2026-10-18'])"
     ]
   },
   "platforms": {
     "facebook": {
-      "text": "Diese Woche beginnt mit einem einfachen Satz aus der Bibel. Noch ist aber offen, welcher Wochenspruch für den 19.10.2026 vor Ort tatsächlich gilt. Darum ist dieser Entwurf noch nicht freigegeben.\n\nDie geplante Wochenpraxis ist trotzdem schon klar: Danke einer Person, deren Beitrag leicht übersehen wird. Nicht groß. Nicht feierlich. Einfach ehrlich.\n\nDas kann die Person sein, die etwas aufräumt. Die im Hintergrund mitdenkt. Die zuverlässig da ist. Die selten Applaus bekommt.\n\nWarum passt das zum Glauben? Weil Liebe nicht nur im Gefühl lebt. Sie wird konkret. In Aufmerksamkeit. In Respekt. In einem Satz, der nicht laut sein muss.\n\nVielleicht sagst du diese Woche: Ich sehe, was du tust. Danke.\n\nFrage für die Woche: Wem könntest du heute danken, ohne Anlass, aber mit gutem Grund?\n\nSobald der örtlich geltende Wochenspruch ausgewählt ist, kann dieser Text passend ergänzt werden.",
-      "headline": "Wochenspruch praktisch: ein Danke, das nicht übersehen wird"
+      "text": "„Es ist dir gesagt, Mensch, was gut ist …“ (Micha 6,8)\n\nManchmal erwarten wir von Glauben etwas Großes, Beeindruckendes, Eindeutiges. Der Wochenspruch erinnert an etwas anderes: Tue, was recht ist. Liebe die Güte. Geh aufmerksam mit Gott durch deinen Alltag.\n\nDas klingt schlicht – und ist gerade deshalb so stark. Es beginnt nicht erst bei großen Entscheidungen. Es beginnt da, wo ich heute fair spreche, freundlich handle, einen Menschen nicht übergehe oder mir Zeit nehme, ehrlich hinzusehen.\n\nEine kleine Übung für diese Woche:\nWähle jeden Tag einen Moment, in dem du bewusst Güte vor Schnelligkeit setzt.\n\nUnd die Frage zum Mitnehmen:\nWo kannst du in dieser Woche einen kleinen Schritt tun, der gerecht, freundlich und ehrlich ist?",
+      "headline": "Wochenspruch praktisch: Micha 6,8"
     },
     "instagram": {
-      "caption": "Für diese Woche ist die Richtung klar: Einer Person danken, deren Beitrag leicht übersehen wird.\n\nNoch ist aber offen, welcher Wochenspruch für den 19.10.2026 vor Ort tatsächlich gilt. Darum ist dieser Beitrag ein Entwurf.\n\nDie Übung bleibt einfach:\nSieh hin.\nNenne konkret, wofür du dankbar bist.\nSag es der Person direkt.\n\nNicht groß. Aber echt.\n\nFrage: Wem könntest du heute danken, ohne Anlass, aber mit gutem Grund?",
+      "caption": "„Es ist dir gesagt, Mensch, was gut ist …“ (Micha 6,8)\n\nDer Wochenspruch macht es erstaunlich klar: recht handeln, Güte lieben, aufmerksam mit Gott leben.\n\nNicht groß. Nicht spektakulär. Aber konkret.\n\nEine Übung für diese Woche:\nSetze jeden Tag einen kleinen Schritt, der von Güte geprägt ist.\n\nVielleicht:\n– fair antworten\n– geduldig zuhören\n– ehrlich bleiben\n– jemandem Raum geben\n\nFrage zum Weiterdenken:\nWo kannst du in dieser Woche gerecht und freundlich handeln?\n\n#Wochenspruch #Micha68 #Kirchenjahr #GlaubeimAlltag #BibelundAlltag",
       "carousel": [
         {
-          "type": "text",
-          "text": "Wochenspruch praktisch\n\nDer genaue Wochenspruch für diese Woche muss noch redaktionell geklärt werden."
+          "type": "Text",
+          "text": "Wochenspruch\n\n„Es ist dir gesagt, Mensch, was gut ist …“\nMicha 6,8"
         },
         {
-          "type": "text",
-          "text": "Ein Gedanke\n\nVieles, was unser Leben trägt, geschieht leise. Gerade das wird leicht übersehen."
+          "type": "Text",
+          "text": "Glaube beginnt nicht erst im Großen.\nSondern im nächsten ehrlichen,\nfreundlichen, gerechten Schritt."
         },
         {
-          "type": "text",
-          "text": "Die Übung\n\nDanke diese Woche einer Person, deren Beitrag oft im Hintergrund bleibt."
+          "type": "Text",
+          "text": "Recht tun.\nGüte lieben.\nAufmerksam mit Gott\ndurch den Alltag gehen."
         },
         {
-          "type": "text",
-          "text": "So konkret wie möglich\n\nNicht nur: Danke.\nSondern: Danke für das, was du tust. Ich sehe es."
+          "type": "Text",
+          "text": "Wochenübung:\nSetze jeden Tag\nbewusst einen kleinen Schritt,\nder von Güte geprägt ist."
         },
         {
-          "type": "text",
-          "text": "Die Frage\n\nWem könntest du heute danken, ohne Anlass, aber mit gutem Grund?"
+          "type": "Text",
+          "text": "Frage:\nWo kannst du in dieser Woche\nfreundlich, fair und klar handeln?"
         }
       ]
     },
     "mastodon": {
-      "text": "Wochenpraxis als Entwurf:\nDanke einer Person, deren Beitrag leicht übersehen wird.\n\nNoch ist offen, welcher Wochenspruch am 19.10.2026 vor Ort tatsächlich gilt. Deshalb erst nach redaktioneller Klärung veröffentlichen.\n\nDie Übung bleibt einfach: hinsehen, konkret danken, ehrlich sein.\n\nFrage: Wem könntest du heute danken, ohne Anlass, aber mit gutem Grund?"
+      "text": "„Es ist dir gesagt, Mensch, was gut ist …“ (Micha 6,8)\n\nDer Wochenspruch für diese Woche ist schlicht und konkret: recht handeln, Güte lieben, aufmerksam mit Gott leben.\n\nVielleicht beginnt das heute in einem kleinen fairen, ehrlichen oder freundlichen Schritt."
     },
     "bluesky": {
-      "text": "Entwurf für die Wochenpraxis: Danke einer Person, deren Beitrag leicht übersehen wird. Der genaue Wochenspruch für 19.10.2026 muss vor Veröffentlichung noch örtlich geklärt werden. Frage: Wem könntest du heute danken, ohne Anlass, aber mit gutem Grund?"
+      "text": "„Es ist dir gesagt, Mensch, was gut ist …“ (Micha 6,8)\n\nDer Wochenspruch dieser Woche ist klar: recht handeln, Güte lieben, aufmerksam mit Gott leben. Vielleicht beginnt das heute in einem kleinen freundlichen und ehrlichen Schritt."
     },
     "story": {
       "slides": [
         {
-          "text": "Wochenspruch praktisch\n\nDer genaue Wochenspruch für diese Woche ist noch nicht redaktionell geklärt."
+          "text": "Wochenspruch der Woche:\n„Es ist dir gesagt, Mensch, was gut ist …“\nMicha 6,8"
         },
         {
-          "text": "Ein Gedanke\n\nWas unser Leben trägt, geschieht oft leise."
+          "text": "Nicht groß denken müssen.\nHeute reicht ein kleiner Schritt:\nfair, freundlich, ehrlich."
         },
         {
-          "text": "Die Übung\n\nDanke einer Person, die leicht übersehen wird."
+          "text": "Wochenübung:\nEinmal am Tag bewusst\nGüte vor Eile setzen."
         },
         {
-          "text": "Die Frage\n\nWem könntest du heute danken?"
+          "text": "Frage an dich:\nWo kannst du diese Woche\nrecht tun und Güte leben?"
         }
       ]
     },
     "reel": {
-      "hook": "Manche Menschen tragen viel. Und fast niemand merkt es.",
-      "script": "Für diese Woche ist eine kleine Praxis geplant: Danke einer Person, deren Beitrag leicht übersehen wird. Noch ist der genaue Wochenspruch für den Termin redaktionell nicht geklärt. Aber die Übung ist schon klar. Sieh hin. Wer räumt auf, denkt mit, bleibt verlässlich da? Sag dieser Person konkret Danke. Nicht groß. Aber ehrlich. Vielleicht verändert genau das eine Woche.",
+      "hook": "Was, wenn Glauben diese Woche ganz praktisch wird?",
+      "script": "Der Wochenspruch aus Micha 6,8 sagt überraschend klar, worauf es ankommt: recht handeln, Güte lieben und aufmerksam mit Gott leben. Das muss nicht groß oder spektakulär sein. Vielleicht zeigt es sich heute in einem fairen Wort, in Geduld, in ehrlicher Freundlichkeit. Nimm dir für diese Woche einen kleinen Schritt vor, der von Güte geprägt ist.",
       "shots": [
-        "Nahaufnahme von Händen, die eine Tasse hinstellen",
-        "Jemand ordnet still einen Tisch oder räumt etwas auf",
-        "Kurzer ruhiger Blick in einen Flur oder Arbeitsraum",
-        "Eine Person spricht ein schlichtes Danke im direkten Gegenüber",
-        "Abschlussbild mit ruhiger Geste der Wertschätzung"
+        "Nahaufnahme einer Person beim ruhigen Gehen im Alltag",
+        "Hände beim Öffnen einer Tür für jemand anderen",
+        "Kurzer Moment eines aufmerksamen Zuhörens im Gespräch",
+        "Texttafel mit der Wochenfrage am Ende"
       ],
-      "duration_seconds": 22
+      "duration_seconds": 25
     }
   },
   "visual": {
-    "concept": "Unaufgeregte Alltagsszene mit einer kleinen Geste der Wertschätzung zwischen zwei Menschen, warmes natürliches Licht, Fokus auf Aufmerksamkeit statt Inszenierung.",
-    "flux_prompt": "Eine ruhige, dokumentarische Alltagsszene in natürlichem warmem Licht: zwei Menschen in einer schlichten Innenraumsituation, eine Person bedankt sich ehrlich bei der anderen mit offener zugewandter Körpersprache, kleine Geste der Wertschätzung, zurückhaltende Farben, glaubwürdig, menschlich, protestantischer Social-Media-Stil, viel Raum für ruhige Gestaltung, keine Schrift im Bild",
+    "concept": "Ruhige, natürliche Alltagsszene mit einem unspektakulären Moment gelebter Freundlichkeit: eine Person im Gehen, warmes Licht, zurückhaltende Bildsprache, würdevoll und nahbar.",
+    "flux_prompt": "A calm, natural everyday scene showing a small act of kindness and fairness, warm soft daylight, authentic human presence, quiet reflective mood, minimal composition, editorial photography style, gentle colors, dignified and approachable atmosphere, no staged preaching, no visible text",
     "negative_prompt": "text, letters, logo, watermark",
     "formats": [
       "4:5",
       "9:16",
       "1.91:1"
     ],
-    "alt_text": "Zwei Menschen in einer schlichten Alltagsszene. Eine Person wendet sich der anderen aufmerksam zu und bedankt sich. Die Stimmung ist ruhig und wertschätzend."
+    "alt_text": "Eine Person bewegt sich ruhig durch den Alltag; in einer schlichten, freundlichen Szene entsteht der Eindruck von Aufmerksamkeit, Fairness und Güte."
   },
   "qa": {
-    "warnings": [
-      "Alt text must be completed before approval",
-      "Multiple liturgical entries for 2026-10-18 contain different Wochenspruch values. Local selection is still required before publication.",
-      "needs_input=true, weil der örtlich tatsächlich geltende Wochenspruch noch nicht ausgewählt wurde.",
-      "Kein Wochenspruchtext eingesetzt, da resolved_weekly_verse nicht vorliegt und mehrere Kandidaten vorhanden sind."
-    ],
+    "warnings": [],
     "approved": false
   },
   "metadata": {
-    "model": "gpt-5.4-2026-03-05",
-    "generated_at": "2026-10-19T06:34:18.885Z",
+    "model": "",
+    "generated_at": "",
     "prompt_version": "1.0",
     "assets": []
   }
