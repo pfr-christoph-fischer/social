@@ -27,5 +27,66 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "prayer-morning-2026-10-20",
+    "contentDate": "2026-10-20",
+    "platform": "instagram",
+    "format": "default",
+    "scheduledAt": "2026-10-20T05:15:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Gott,\ndieser Morgen ist nicht leer.\nLicht liegt auf den Dächern. Die Luft ist neu. Mein Leben heute auch.\n\nLass mich nicht zuerst auf Termine und Sorgen schauen, sondern auf dich.\n„Lass mich am Morgen hören deine Gnade; denn ich hoffe auf dich.“ (Psalm 143,8)\n\nWas vor mir liegt, kenne ich nur zum Teil. Aber ich gehe nicht allein.\nNimm meine Unruhe. Stärke mein Vertrauen.\n\nIch nehme diesen Tag aus deiner Hand.\nDu bist da. Das genügt.\n\nAmen.",
+    "assets": [
+      "render-instagram-feed-01.jpg",
+      "render-instagram-feed-02.jpg",
+      "render-instagram-feed-03.jpg",
+      "render-instagram-feed-04.jpg",
+      "render-instagram-feed-05.jpg"
+    ],
+    "altTexts": [
+      "Ein stiller Morgen mit weichem Licht über Dächern und Bäumen. Ein offenes Fenster und eine Tasse im Vordergrund lassen den Tagesanfang ruhig und klar wirken."
+    ],
+    "id": "2312f882-8916-47a5-b2fd-07128135689e",
+    "attemptCount": 1,
+    "remoteId": "17916557442464575",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-10-20T06:11:15.810Z",
+    "updatedAt": "2026-10-20T06:16:00.395Z",
+    "responseMetadata": {
+      "mediaCount": 5,
+      "mediaType": "CAROUSEL",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "prayer-morning-2026-10-20",
+    "contentDate": "2026-10-20",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-10-20T05:15:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Gott,\ndieser Morgen ist nicht leer.\nLicht liegt auf den Dächern. Die Luft ist neu. Mein Leben heute auch.\n\n„Lass mich am Morgen hören deine Gnade; denn ich hoffe auf dich.“ (Psalm 143,8)\n\nWas vor mir liegt, kenne ich nur zum Teil. Aber ich gehe nicht allein.\nIch nehme diesen Tag aus deiner Hand.\nDu bist da. Das genügt.\n\nAmen.",
+    "assets": [
+      "render-facebook-mastodon-01.png"
+    ],
+    "altTexts": [
+      "Ein stiller Morgen mit weichem Licht über Dächern und Bäumen. Ein offenes Fenster und eine Tasse im Vordergrund lassen den Tagesanfang ruhig und klar wirken."
+    ],
+    "id": "e975358e-c0bc-43e5-abee-1932db8a8eda",
+    "attemptCount": 1,
+    "remoteId": "117471770134292687",
+    "remoteUrl": "https://kirche.social/@christoph/117471770134292687",
+    "lastError": null,
+    "createdAt": "2026-10-20T06:11:15.878Z",
+    "updatedAt": "2026-10-20T06:16:01.373Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
