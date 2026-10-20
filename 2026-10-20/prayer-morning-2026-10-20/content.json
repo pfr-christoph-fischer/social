@@ -28,31 +28,31 @@
   },
   "platforms": {
     "facebook": {
-      "text": "Gott,\ndieser Morgen ist nicht leer.\nLicht liegt auf den Dächern. Die Luft ist neu. Mein Leben heute auch.\n\nLass mich nicht zuerst auf Termine und Sorgen schauen, sondern auf dich.\n„Lass mich am Morgen hören deine Gnade; denn ich hoffe auf dich.“ (Psalm 143,8)\n\nWas vor mir liegt, kenne ich nur zum Teil. Aber ich gehe nicht allein.\nNimm meine Unruhe. Stärke mein Vertrauen. Öffne meinen Blick für das Gute, das du heute wachsen lässt.\n\nIch nehme diesen Tag aus deiner Hand.\nDu bist da. Das genügt.\n\nAmen.",
-      "headline": "Morgengebet: Du bist da. Das genügt."
+      "headline": "Morgengebet: Du bist da. Das genügt.",
+      "text": "Gott,\ndieser Morgen ist nicht leer.\nLicht liegt auf den Dächern. Die Luft ist neu. Mein Leben heute auch.\n\nLass mich nicht zuerst auf Termine und Sorgen schauen, sondern auf dich.\n„Lass mich am Morgen hören deine Gnade; denn ich hoffe auf dich.“ (Psalm 143,8)\n\nWas vor mir liegt, kenne ich nur zum Teil. Aber ich gehe nicht allein.\nNimm meine Unruhe. Stärke mein Vertrauen. Öffne meinen Blick für das Gute, das du heute wachsen lässt.\n\nIch nehme diesen Tag aus deiner Hand.\nDu bist da. Das genügt.\n\nAmen."
     },
     "instagram": {
       "caption": "Gott,\ndieser Morgen ist nicht leer.\nLicht liegt auf den Dächern. Die Luft ist neu. Mein Leben heute auch.\n\nLass mich nicht zuerst auf Termine und Sorgen schauen, sondern auf dich.\n„Lass mich am Morgen hören deine Gnade; denn ich hoffe auf dich.“ (Psalm 143,8)\n\nWas vor mir liegt, kenne ich nur zum Teil. Aber ich gehe nicht allein.\nNimm meine Unruhe. Stärke mein Vertrauen.\n\nIch nehme diesen Tag aus deiner Hand.\nDu bist da. Das genügt.\n\nAmen.",
       "carousel": [
         {
-          "type": "text",
-          "text": "Gott,\ndieser Morgen ist nicht leer."
+          "text": "Gott,\ndieser Morgen ist nicht leer.",
+          "type": "text"
         },
         {
-          "type": "text",
-          "text": "Licht liegt auf den Dächern.\nDie Luft ist neu.\nMein Leben heute auch."
+          "text": "Licht liegt auf den Dächern.\nDie Luft ist neu.\nMein Leben heute auch.",
+          "type": "text"
         },
         {
-          "type": "text",
-          "text": "„Lass mich am Morgen hören deine Gnade; denn ich hoffe auf dich.“\nPsalm 143,8"
+          "text": "„Lass mich am Morgen hören deine Gnade; denn ich hoffe auf dich.“\nPsalm 143,8",
+          "type": "text"
         },
         {
-          "type": "text",
-          "text": "Was vor mir liegt,\nkenne ich nur zum Teil.\nAber ich gehe nicht allein."
+          "text": "Was vor mir liegt,\nkenne ich nur zum Teil.\nAber ich gehe nicht allein.",
+          "type": "text"
         },
         {
-          "type": "text",
-          "text": "Ich nehme diesen Tag aus deiner Hand.\nDu bist da.\nDas genügt."
+          "text": "Ich nehme diesen Tag aus deiner Hand.\nDu bist da.\nDas genügt.",
+          "type": "text"
         }
       ]
     },
@@ -96,7 +96,7 @@
   },
   "visual": {
     "concept": "Stiller Herbstmorgen mit weichem Licht, offenes Fenster, klare Luft, einfache konkrete Alltagsnähe statt Kitsch.",
-    "flux_prompt": "",
+    "flux_prompt": "Stiller Herbstmorgen mit weichem Licht, offenes Fenster, klare Luft, einfache konkrete Alltagsnähe statt Kitsch.",
     "negative_prompt": "text, letters, logo, watermark",
     "formats": [
       "4:5",
