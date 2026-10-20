@@ -10,7 +10,7 @@
   },
   "editorial_core": {
     "title": "Warum predigen wir über alte Texte?",
-    "main_message": "Serie: Warum predigen wir über alte Texte?",
+    "main_message": "Alte biblische Texte bleiben wichtig, weil sie Grundfragen des Menschseins öffnen und helfen, das eigene Leben im Licht des Glaubens zu deuten.",
     "audience": "breite Öffentlichkeit",
     "tone": [
       "klar",
@@ -27,31 +27,79 @@
   },
   "platforms": {
     "facebook": {
-      "text": "",
-      "headline": ""
+      "text": "Warum predigen wir über alte Texte?\n\nWeil alt nicht automatisch erledigt heißt. Die biblischen Texte sind in einer anderen Zeit entstanden. Aber sie sprechen von Erfahrungen, die Menschen bis heute kennen: Angst, Hoffnung, Schuld, Mut, Vertrauen, Verlust, Neuanfang.\n\nIn der Predigt geht es deshalb nicht um Geschichte im Museum. Es geht darum, diese Texte so zu lesen, dass sie unser Leben heute berühren. Was tröstet? Was stellt infrage? Was gibt Orientierung?\n\nAlte Worte können überraschend aktuell sein. Nicht, weil damals alles besser war. Sondern weil Menschen damals wie heute fragen: Worauf kann ich mich verlassen? Was trägt? Wie kann Leben gut werden?\n\nWelche alten Worte tragen dich bis heute?",
+      "headline": "Warum predigen wir über alte Texte?"
     },
     "instagram": {
-      "caption": "",
-      "carousel": []
+      "caption": "Warum predigen wir über alte Texte?\n\nWeil sie mehr sind als Stimmen aus einer fernen Zeit. In ihnen stecken Erfahrungen, die Menschen bis heute kennen: Angst, Hoffnung, Schuld, Trost und Neuanfang.\n\nPredigt heißt nicht: Wir schauen nur zurück. Predigt heißt: Wir fragen, was diese Worte heute öffnen. Für unseren Alltag. Für unsere Entscheidungen. Für unseren Glauben.\n\nWelche alten Worte sind für dich lebendig geblieben?\n\n#GlaubenVerstehen #Predigt #Bibel #TheologieEinfach #KircheHeute",
+      "carousel": [
+        {
+          "type": "title",
+          "text": "Warum predigen wir über alte Texte?"
+        },
+        {
+          "type": "body",
+          "text": "Weil alt nicht gleich vorbei heißt."
+        },
+        {
+          "type": "body",
+          "text": "Die biblischen Texte erzählen von Erfahrungen, die Menschen bis heute kennen: Angst, Hoffnung, Schuld, Trost, Mut."
+        },
+        {
+          "type": "body",
+          "text": "In der Predigt lesen wir sie nicht wie ein Museumsstück."
+        },
+        {
+          "type": "body",
+          "text": "Wir fragen: Was sagt dieser Text heute? Was tröstet? Was fordert heraus? Was gibt Orientierung?"
+        },
+        {
+          "type": "body",
+          "text": "Alte Worte können heute lebendig werden, wenn sie unser Leben berühren."
+        },
+        {
+          "type": "question",
+          "text": "Welche alten Worte sind für dich bis heute wichtig?"
+        }
+      ]
     },
     "mastodon": {
-      "text": ""
+      "text": "Warum predigen wir über alte Texte? Weil alt nicht gleich erledigt heißt. Biblische Texte sprechen von Erfahrungen, die Menschen bis heute kennen: Angst, Hoffnung, Schuld, Trost und Neuanfang. Predigt fragt deshalb: Was sagt das heute? Welche alten Worte tragen dich?"
     },
     "bluesky": {
-      "text": ""
+      "text": "Warum predigen wir über alte Texte? Weil alt nicht gleich erledigt heißt. Biblische Texte sprechen von Angst, Hoffnung, Schuld, Trost und Neuanfang. Predigt fragt: Was sagt das heute? Welche alten Worte tragen dich?"
     },
     "story": {
-      "slides": []
+      "slides": [
+        {
+          "text": "Warum predigen wir über alte Texte?"
+        },
+        {
+          "text": "Weil Menschen damals wie heute nach Trost, Orientierung und Hoffnung suchen."
+        },
+        {
+          "text": "Predigt fragt: Was sagt dieser Text heute in unser Leben?"
+        },
+        {
+          "text": "Quiz: Sind alte Texte eher fern oder überraschend nah?"
+        }
+      ]
     },
     "reel": {
-      "hook": "",
-      "script": "",
-      "shots": [],
-      "duration_seconds": 0
+      "hook": "Warum reden Predigten eigentlich immer noch über so alte Texte?",
+      "script": "Warum predigen wir über alte Texte? Weil alt nicht gleich vorbei heißt. Die biblischen Texte kommen aus einer anderen Zeit. Aber sie sprechen von Dingen, die Menschen bis heute kennen: Angst. Hoffnung. Schuld. Trost. Neuanfang. In einer Predigt geht es deshalb nicht nur darum, was damals war. Es geht darum, was diese Worte heute mit uns machen. Wo sie trösten. Wo sie stören. Wo sie eine neue Sicht öffnen. Alte Texte bleiben, weil unsere großen Fragen geblieben sind. Welche alten Worte tragen dich bis heute?",
+      "shots": [
+        "Nahaufnahme einer aufgeschlagenen Bibel, Hände blättern langsam",
+        "Alltagsszene am Fenster oder auf einer Bank, ruhige nachdenkliche Stimmung",
+        "Detailaufnahme von markierten Buchseiten oder Notizen ohne lesbaren Text",
+        "Sprechende Person direkt in die Kamera",
+        "Abschlussbild mit offenem Raum für Untertitel"
+      ],
+      "duration_seconds": 45
     }
   },
   "visual": {
-    "concept": "",
+    "concept": "Ruhige, natürliche Szene mit einer aufgeschlagenen alten Bibel oder einem alten Buch in alltäglicher Umgebung, kombiniert mit Händen, Licht und einer nachdenklichen Atmosphäre. Keine inszenierte Nostalgie, sondern Gegenwart und Geschichte in einem Bild.",
     "flux_prompt": "",
     "negative_prompt": "text, letters, logo, watermark",
     "formats": [
@@ -59,7 +107,7 @@
       "9:16",
       "1.91:1"
     ],
-    "alt_text": ""
+    "alt_text": "Eine aufgeschlagene alte Bibel liegt auf einem Holztisch am Fenster. Weiches Licht fällt auf die Seiten. In der Nähe sind Hände zu sehen, als würde jemand gleich weiterlesen oder darüber nachdenken."
   },
   "qa": {
     "warnings": [
@@ -68,8 +116,8 @@
     "approved": false
   },
   "metadata": {
-    "model": "",
-    "generated_at": "",
+    "model": "gpt-5.4-2026-03-05",
+    "generated_at": "2026-10-20T06:07:17.333Z",
     "prompt_version": "1.0",
     "assets": []
   }

@@ -1,0 +1,421 @@
+{
+  "id": "resp_08c644801d79d012006ad70515771487d2a28fe66e59e1cb9b",
+  "object": "response",
+  "created_at": 1792476437,
+  "status": "completed",
+  "access_programs": null,
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1792476462,
+  "error": null,
+  "frequency_penalty": 0,
+  "incomplete_details": null,
+  "instructions": "You are part of a Protestant social media editorial team. Write in clear, accessible, theologically responsible German without church clichés. Use short sentences and concrete imagery. Never invent events, people, school situations, quotes, or factual details. Do not include copyrighted full song verses. For Reli and community posts, only use current details when they are explicitly provided. Return content that strictly matches the requested JSON schema. Set needs_input to true whenever required facts are missing. Keep qa.approved false. Do not ask for any text inside generated images. When liturgical_context.resolved_weekly_verse is present, use its exact wording for Wochenspruch slots instead of placeholders.",
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.4-2026-03-05",
+  "moderation": null,
+  "output": [
+    {
+      "id": "msg_08c644801d79d012006ad70516175887d284577a8bb87e8fe7",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\"id\":\"post-0074\",\"status\":\"in Arbeit\",\"needs_input\":true,\"source\":{\"calendar_post_id\":\"post-0074\",\"date\":\"2026-10-22\",\"rubric\":\"Reli fragt\",\"liturgical_source\":\"\"},\"editorial_core\":{\"title\":\"Ein Missverständnis über Gott oder Bibel verständlich klären\",\"main_message\":\"Eine anonymisierte Frage aus dem Religionsunterricht kann helfen, ein verbreitetes Missverständnis über Gott oder die Bibel verständlich und offen zu klären.\",\"audience\":\"Menschen aus der Schulgemeinschaft, Eltern, Lehrkräfte, Jugendliche und Gemeindemitglieder mit Interesse an religiöser Bildung\",\"tone\":[\"klar\",\"ruhig\",\"zugänglich\"],\"source_notes\":[\"Goal: Eine Frage, Beobachtung oder Lernerfahrung aus dem Religionsunterricht aufnehmen, ohne Schüler:innen erkennbar zu machen.\",\"Column: Schule und religiöse Bildung\",\"Production mode: Rahmen vorproduzierbar; konkreten Anlass aktuell ergänzen\",\"Structure: anonymisierte Frage | warum sie mich beschäftigt | eine offene Antwort | Rückfrage an die Community\",\"AI support notes: Anonymisierung prüfen | altersgerechte Erklärung | Antwortvarianten | Symbolbild-Prompt\",\"Current inputs required: anonymisierte Unterrichtsbeobachtung | Klassenstufe nur nennen, wenn unproblematisch\",\"Es liegt noch keine konkrete anonymisierte Frage vor. Deshalb nur vorproduzierbarer Rahmen ohne ausformulierten aktuellen Anlass.\",\"Keine erkennbaren Schüler:innen, keine konkreten Unterrichtssituationen, keine erfundenen Zitate verwenden.\"]},\"platforms\":{\"facebook\":{\"text\":\"Heute geht es um eine Frage aus dem Religionsunterricht.\\n\\nHier fehlt noch der aktuelle, vollständig anonymisierte Anlass.\\n[Anonymisierte Frage einsetzen]\\n\\nWarum mich das beschäftigt:\\nHinter solchen Fragen steckt oft mehr als ein Sachproblem. Es geht darum, wie Menschen Gott verstehen. Und darum, wie wir die Bibel lesen: wörtlich, bildhaft, historisch, als Glaubenszeugnis.\\n\\nEine mögliche offene Antwort:\\nNicht jedes Missverständnis lässt sich mit einem schnellen Satz auflösen. Aber man kann sortieren: Was steht wirklich im Text? In welchem Zusammenhang steht es? Und was sagt das über Gott aus — oder auch nicht?\\n\\nMich interessiert:\\nWelche Frage über Gott oder die Bibel begegnet euch immer wieder?\\n\\nHinweis: Vor der Veröffentlichung den anonymisierten Anlass konkret ergänzen und Datenschutz prüfen.\",\"headline\":\"Reli fragt: Eine häufige Frage verständlich klären\"},\"instagram\":{\"caption\":\"Reli fragt.\\n\\n[Anonymisierte Frage einsetzen]\\n\\nWarum mich das beschäftigt:\\nSolche Fragen sind oft größer, als sie zuerst klingen. Es geht nicht nur um eine richtige Lösung. Es geht darum, welches Bild wir von Gott haben und wie wir biblische Texte verstehen.\\n\\nEine offene Antwort:\\nHilfreich ist oft, langsam zu lesen. Was steht da wirklich? Was gehört zur Zeit des Textes? Was will der Text zeigen? Und was folgt daraus nicht?\\n\\nFrage an euch:\\nWelches Missverständnis über Gott oder die Bibel würdet ihr gern einmal ruhig und verständlich klären?\\n\\nVor Veröffentlichung: aktuellen Anlass anonymisiert ergänzen.\",\"carousel\":[{\"type\":\"title\",\"text\":\"Reli fragt\"},{\"type\":\"question\",\"text\":\"[Anonymisierte Frage einsetzen]\"},{\"type\":\"body\",\"text\":\"Warum mich das beschäftigt: Hinter der Frage steckt oft ein bestimmtes Bild von Gott oder von der Bibel.\"},{\"type\":\"body\",\"text\":\"Eine offene Antwort: Erst schauen, was der Text sagt. Dann klären, in welchem Zusammenhang er steht.\"},{\"type\":\"body\",\"text\":\"Nicht alles ist wörtlich gemeint. Nicht alles ist beliebig. Verstehen braucht Sorgfalt.\"},{\"type\":\"question\",\"text\":\"Welche Frage über Gott oder die Bibel begegnet dir immer wieder?\"}]},\"mastodon\":{\"text\":\"Reli fragt:\\n[Anonymisierte Frage einsetzen]\\n\\nSolche Fragen sind oft ein Schlüssel. Sie zeigen, welches Bild von Gott oder von der Bibel im Raum ist. Eine gute Antwort beginnt meist mit genauem Hinsehen: Was steht da? In welchem Zusammenhang? Und was folgt daraus?\\n\\nWelche Frage begegnet euch immer wieder?\"},\"bluesky\":{\"text\":\"Reli fragt:\\n[Anonymisierte Frage einsetzen]\\n\\nOft steckt hinter so einer Frage ein größeres Missverständnis über Gott oder die Bibel. Hilfreich ist: genau lesen, Zusammenhang klären, vorschnelle Schlüsse vermeiden.\\n\\nWelche Frage begegnet euch immer wieder?\"},\"story\":{\"slides\":[{\"text\":\"Reli fragt\"},{\"text\":\"[Anonymisierte Frage einsetzen]\"},{\"text\":\"Warum mich das beschäftigt: Hinter der Frage steckt oft ein Bild von Gott oder von der Bibel.\"},{\"text\":\"Offene Antwort: Erst genau lesen. Dann den Zusammenhang klären.\"},{\"text\":\"Welche Frage über Gott oder die Bibel begegnet dir immer wieder?\"}]},\"reel\":{\"hook\":\"Eine kleine Frage aus dem Reli-Unterricht kann ein großes Missverständnis sichtbar machen.\",\"script\":\"Heute geht es um eine Frage aus dem Religionsunterricht. Der konkrete Anlass wird vor der Veröffentlichung anonymisiert ergänzt. Spannend ist: Hinter solchen Fragen steckt oft mehr als Unsicherheit. Es geht um unser Bild von Gott. Und darum, wie wir die Bibel lesen. Eine hilfreiche Antwort beginnt nicht mit Druck, sondern mit Ruhe. Was steht da wirklich? In welchem Zusammenhang? Was will der Text zeigen? Und was sagt er gerade nicht? Welche Frage über Gott oder die Bibel würdest du gern einmal in Ruhe klären?\",\"shots\":[\"Nahaufnahme einer aufgeschlagenen Bibel ohne lesbaren Textfokus\",\"Hand blättert langsam durch ein Heft mit neutralen Notizen\",\"Licht auf einem Tisch, Stift neben Papier\",\"Ruhige Totale eines leeren Klassenraums ohne Personen\",\"Abschlussbild mit offener Gesprächssituation ohne erkennbare Menschen\"],\"duration_seconds\":25}},\"visual\":{\"concept\":\"Neutrales Symbolbild zu Nachdenken, Fragen und sorgfältigem Lesen: ruhige Lernsituation ohne Personen, ohne konkrete Schule, ohne identifizierende Details.\",\"flux_prompt\":\"Ein ruhiges, neutrales Symbolbild für eine Frage aus dem Religionsunterricht: aufgeschlagenes Buch und Notizheft auf einem schlichten Tisch, weiches Tageslicht, nachdenkliche Atmosphäre, keine Personen, keine erkennbaren Ortsmerkmale, fotografischer Stil, natürliche Farben, klare Komposition.\",\"negative_prompt\":\"text, letters, logo, watermark\",\"formats\":[\"4:5\",\"9:16\",\"1.91:1\"],\"alt_text\":\"Symbolbild: Ein aufgeschlagenes Buch und ein Notizheft liegen auf einem schlichten Tisch im weichen Tageslicht. Die Szene wirkt ruhig und nachdenklich.\"},\"qa\":{\"warnings\":[\"Es fehlt die konkrete anonymisierte Unterrichtsbeobachtung oder Frage.\",\"Klassenstufe nur nennen, wenn sie keine Rückschlüsse auf einzelne Schüler:innen zulässt.\",\"Vor Veröffentlichung Anonymisierung, Datenschutz und sachliche Genauigkeit prüfen.\",\"Platzhalter in allen Kanälen durch einen aktuellen, vollständig anonymisierten Anlass ersetzen.\",\"Keine erfundenen Zitate oder konkreten Unterrichtsszenen ergänzen.\"],\"approved\":false},\"metadata\":{\"model\":\"gpt-5\",\"generated_at\":\"2026-10-20T00:00:00Z\",\"prompt_version\":\"1.0\",\"assets\":[]}}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "current_turn",
+    "effort": "none",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1,
+  "text": {
+    "format": {
+      "type": "json_schema",
+      "description": null,
+      "name": "content_package",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "Idee",
+              "in Arbeit",
+              "zur Prüfung",
+              "freigegeben",
+              "terminiert",
+              "veröffentlicht",
+              "verworfen"
+            ]
+          },
+          "needs_input": {
+            "type": "boolean"
+          },
+          "source": {
+            "type": "object",
+            "properties": {
+              "calendar_post_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "date": {
+                "type": "string",
+                "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+              },
+              "rubric": {
+                "type": "string",
+                "minLength": 1
+              },
+              "liturgical_source": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "calendar_post_id",
+              "date",
+              "rubric",
+              "liturgical_source"
+            ],
+            "additionalProperties": false
+          },
+          "editorial_core": {
+            "type": "object",
+            "properties": {
+              "title": {
+                "type": "string"
+              },
+              "main_message": {
+                "type": "string"
+              },
+              "audience": {
+                "type": "string"
+              },
+              "tone": {
+                "minItems": 1,
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "source_notes": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "title",
+              "main_message",
+              "audience",
+              "tone",
+              "source_notes"
+            ],
+            "additionalProperties": false
+          },
+          "platforms": {
+            "type": "object",
+            "properties": {
+              "facebook": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  },
+                  "headline": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text",
+                  "headline"
+                ],
+                "additionalProperties": false
+              },
+              "instagram": {
+                "type": "object",
+                "properties": {
+                  "caption": {
+                    "type": "string"
+                  },
+                  "carousel": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "type": {
+                          "type": "string"
+                        },
+                        "text": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "type",
+                        "text"
+                      ],
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "required": [
+                  "caption",
+                  "carousel"
+                ],
+                "additionalProperties": false
+              },
+              "mastodon": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text"
+                ],
+                "additionalProperties": false
+              },
+              "bluesky": {
+                "default": {
+                  "text": ""
+                },
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text"
+                ],
+                "additionalProperties": false
+              },
+              "story": {
+                "type": "object",
+                "properties": {
+                  "slides": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "text": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "text"
+                      ],
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "required": [
+                  "slides"
+                ],
+                "additionalProperties": false
+              },
+              "reel": {
+                "type": "object",
+                "properties": {
+                  "hook": {
+                    "type": "string"
+                  },
+                  "script": {
+                    "type": "string"
+                  },
+                  "shots": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "duration_seconds": {
+                    "type": "integer",
+                    "minimum": 0,
+                    "maximum": 9007199254740991
+                  }
+                },
+                "required": [
+                  "hook",
+                  "script",
+                  "shots",
+                  "duration_seconds"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "required": [
+              "facebook",
+              "instagram",
+              "mastodon",
+              "bluesky",
+              "story",
+              "reel"
+            ],
+            "additionalProperties": false
+          },
+          "visual": {
+            "type": "object",
+            "properties": {
+              "concept": {
+                "type": "string"
+              },
+              "flux_prompt": {
+                "type": "string"
+              },
+              "negative_prompt": {
+                "type": "string",
+                "minLength": 1
+              },
+              "formats": {
+                "minItems": 1,
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "alt_text": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "concept",
+              "flux_prompt",
+              "negative_prompt",
+              "formats",
+              "alt_text"
+            ],
+            "additionalProperties": false
+          },
+          "qa": {
+            "type": "object",
+            "properties": {
+              "warnings": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "approved": {
+                "type": "boolean"
+              }
+            },
+            "required": [
+              "warnings",
+              "approved"
+            ],
+            "additionalProperties": false
+          },
+          "metadata": {
+            "type": "object",
+            "properties": {
+              "model": {
+                "type": "string"
+              },
+              "generated_at": {
+                "type": "string"
+              },
+              "prompt_version": {
+                "type": "string",
+                "minLength": 1
+              },
+              "assets": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "model",
+              "generated_at",
+              "prompt_version",
+              "assets"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "id",
+          "status",
+          "needs_input",
+          "source",
+          "editorial_core",
+          "platforms",
+          "visual",
+          "qa",
+          "metadata"
+        ],
+        "additionalProperties": false
+      },
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 1571,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1552,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 3123
+  },
+  "user": null,
+  "metadata": {},
+  "output_text": "{\"id\":\"post-0074\",\"status\":\"in Arbeit\",\"needs_input\":true,\"source\":{\"calendar_post_id\":\"post-0074\",\"date\":\"2026-10-22\",\"rubric\":\"Reli fragt\",\"liturgical_source\":\"\"},\"editorial_core\":{\"title\":\"Ein Missverständnis über Gott oder Bibel verständlich klären\",\"main_message\":\"Eine anonymisierte Frage aus dem Religionsunterricht kann helfen, ein verbreitetes Missverständnis über Gott oder die Bibel verständlich und offen zu klären.\",\"audience\":\"Menschen aus der Schulgemeinschaft, Eltern, Lehrkräfte, Jugendliche und Gemeindemitglieder mit Interesse an religiöser Bildung\",\"tone\":[\"klar\",\"ruhig\",\"zugänglich\"],\"source_notes\":[\"Goal: Eine Frage, Beobachtung oder Lernerfahrung aus dem Religionsunterricht aufnehmen, ohne Schüler:innen erkennbar zu machen.\",\"Column: Schule und religiöse Bildung\",\"Production mode: Rahmen vorproduzierbar; konkreten Anlass aktuell ergänzen\",\"Structure: anonymisierte Frage | warum sie mich beschäftigt | eine offene Antwort | Rückfrage an die Community\",\"AI support notes: Anonymisierung prüfen | altersgerechte Erklärung | Antwortvarianten | Symbolbild-Prompt\",\"Current inputs required: anonymisierte Unterrichtsbeobachtung | Klassenstufe nur nennen, wenn unproblematisch\",\"Es liegt noch keine konkrete anonymisierte Frage vor. Deshalb nur vorproduzierbarer Rahmen ohne ausformulierten aktuellen Anlass.\",\"Keine erkennbaren Schüler:innen, keine konkreten Unterrichtssituationen, keine erfundenen Zitate verwenden.\"]},\"platforms\":{\"facebook\":{\"text\":\"Heute geht es um eine Frage aus dem Religionsunterricht.\\n\\nHier fehlt noch der aktuelle, vollständig anonymisierte Anlass.\\n[Anonymisierte Frage einsetzen]\\n\\nWarum mich das beschäftigt:\\nHinter solchen Fragen steckt oft mehr als ein Sachproblem. Es geht darum, wie Menschen Gott verstehen. Und darum, wie wir die Bibel lesen: wörtlich, bildhaft, historisch, als Glaubenszeugnis.\\n\\nEine mögliche offene Antwort:\\nNicht jedes Missverständnis lässt sich mit einem schnellen Satz auflösen. Aber man kann sortieren: Was steht wirklich im Text? In welchem Zusammenhang steht es? Und was sagt das über Gott aus — oder auch nicht?\\n\\nMich interessiert:\\nWelche Frage über Gott oder die Bibel begegnet euch immer wieder?\\n\\nHinweis: Vor der Veröffentlichung den anonymisierten Anlass konkret ergänzen und Datenschutz prüfen.\",\"headline\":\"Reli fragt: Eine häufige Frage verständlich klären\"},\"instagram\":{\"caption\":\"Reli fragt.\\n\\n[Anonymisierte Frage einsetzen]\\n\\nWarum mich das beschäftigt:\\nSolche Fragen sind oft größer, als sie zuerst klingen. Es geht nicht nur um eine richtige Lösung. Es geht darum, welches Bild wir von Gott haben und wie wir biblische Texte verstehen.\\n\\nEine offene Antwort:\\nHilfreich ist oft, langsam zu lesen. Was steht da wirklich? Was gehört zur Zeit des Textes? Was will der Text zeigen? Und was folgt daraus nicht?\\n\\nFrage an euch:\\nWelches Missverständnis über Gott oder die Bibel würdet ihr gern einmal ruhig und verständlich klären?\\n\\nVor Veröffentlichung: aktuellen Anlass anonymisiert ergänzen.\",\"carousel\":[{\"type\":\"title\",\"text\":\"Reli fragt\"},{\"type\":\"question\",\"text\":\"[Anonymisierte Frage einsetzen]\"},{\"type\":\"body\",\"text\":\"Warum mich das beschäftigt: Hinter der Frage steckt oft ein bestimmtes Bild von Gott oder von der Bibel.\"},{\"type\":\"body\",\"text\":\"Eine offene Antwort: Erst schauen, was der Text sagt. Dann klären, in welchem Zusammenhang er steht.\"},{\"type\":\"body\",\"text\":\"Nicht alles ist wörtlich gemeint. Nicht alles ist beliebig. Verstehen braucht Sorgfalt.\"},{\"type\":\"question\",\"text\":\"Welche Frage über Gott oder die Bibel begegnet dir immer wieder?\"}]},\"mastodon\":{\"text\":\"Reli fragt:\\n[Anonymisierte Frage einsetzen]\\n\\nSolche Fragen sind oft ein Schlüssel. Sie zeigen, welches Bild von Gott oder von der Bibel im Raum ist. Eine gute Antwort beginnt meist mit genauem Hinsehen: Was steht da? In welchem Zusammenhang? Und was folgt daraus?\\n\\nWelche Frage begegnet euch immer wieder?\"},\"bluesky\":{\"text\":\"Reli fragt:\\n[Anonymisierte Frage einsetzen]\\n\\nOft steckt hinter so einer Frage ein größeres Missverständnis über Gott oder die Bibel. Hilfreich ist: genau lesen, Zusammenhang klären, vorschnelle Schlüsse vermeiden.\\n\\nWelche Frage begegnet euch immer wieder?\"},\"story\":{\"slides\":[{\"text\":\"Reli fragt\"},{\"text\":\"[Anonymisierte Frage einsetzen]\"},{\"text\":\"Warum mich das beschäftigt: Hinter der Frage steckt oft ein Bild von Gott oder von der Bibel.\"},{\"text\":\"Offene Antwort: Erst genau lesen. Dann den Zusammenhang klären.\"},{\"text\":\"Welche Frage über Gott oder die Bibel begegnet dir immer wieder?\"}]},\"reel\":{\"hook\":\"Eine kleine Frage aus dem Reli-Unterricht kann ein großes Missverständnis sichtbar machen.\",\"script\":\"Heute geht es um eine Frage aus dem Religionsunterricht. Der konkrete Anlass wird vor der Veröffentlichung anonymisiert ergänzt. Spannend ist: Hinter solchen Fragen steckt oft mehr als Unsicherheit. Es geht um unser Bild von Gott. Und darum, wie wir die Bibel lesen. Eine hilfreiche Antwort beginnt nicht mit Druck, sondern mit Ruhe. Was steht da wirklich? In welchem Zusammenhang? Was will der Text zeigen? Und was sagt er gerade nicht? Welche Frage über Gott oder die Bibel würdest du gern einmal in Ruhe klären?\",\"shots\":[\"Nahaufnahme einer aufgeschlagenen Bibel ohne lesbaren Textfokus\",\"Hand blättert langsam durch ein Heft mit neutralen Notizen\",\"Licht auf einem Tisch, Stift neben Papier\",\"Ruhige Totale eines leeren Klassenraums ohne Personen\",\"Abschlussbild mit offener Gesprächssituation ohne erkennbare Menschen\"],\"duration_seconds\":25}},\"visual\":{\"concept\":\"Neutrales Symbolbild zu Nachdenken, Fragen und sorgfältigem Lesen: ruhige Lernsituation ohne Personen, ohne konkrete Schule, ohne identifizierende Details.\",\"flux_prompt\":\"Ein ruhiges, neutrales Symbolbild für eine Frage aus dem Religionsunterricht: aufgeschlagenes Buch und Notizheft auf einem schlichten Tisch, weiches Tageslicht, nachdenkliche Atmosphäre, keine Personen, keine erkennbaren Ortsmerkmale, fotografischer Stil, natürliche Farben, klare Komposition.\",\"negative_prompt\":\"text, letters, logo, watermark\",\"formats\":[\"4:5\",\"9:16\",\"1.91:1\"],\"alt_text\":\"Symbolbild: Ein aufgeschlagenes Buch und ein Notizheft liegen auf einem schlichten Tisch im weichen Tageslicht. Die Szene wirkt ruhig und nachdenklich.\"},\"qa\":{\"warnings\":[\"Es fehlt die konkrete anonymisierte Unterrichtsbeobachtung oder Frage.\",\"Klassenstufe nur nennen, wenn sie keine Rückschlüsse auf einzelne Schüler:innen zulässt.\",\"Vor Veröffentlichung Anonymisierung, Datenschutz und sachliche Genauigkeit prüfen.\",\"Platzhalter in allen Kanälen durch einen aktuellen, vollständig anonymisierten Anlass ersetzen.\",\"Keine erfundenen Zitate oder konkreten Unterrichtsszenen ergänzen.\"],\"approved\":false},\"metadata\":{\"model\":\"gpt-5\",\"generated_at\":\"2026-10-20T00:00:00Z\",\"prompt_version\":\"1.0\",\"assets\":[]}}"
+}

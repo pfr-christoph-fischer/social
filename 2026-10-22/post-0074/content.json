@@ -10,8 +10,8 @@
   },
   "editorial_core": {
     "title": "Ein Missverständnis über Gott oder Bibel verständlich klären",
-    "main_message": "Mit einer echten, aber vollständig anonymisierten Frage beginnen.",
-    "audience": "[TODO: define audience after current inputs are available]",
+    "main_message": "Eine anonymisierte Frage aus dem Religionsunterricht kann helfen, ein verbreitetes Missverständnis über Gott oder die Bibel verständlich und offen zu klären.",
+    "audience": "Menschen aus der Schulgemeinschaft, Eltern, Lehrkräfte, Jugendliche und Gemeindemitglieder mit Interesse an religiöser Bildung",
     "tone": [
       "klar",
       "ruhig",
@@ -23,56 +23,110 @@
       "Production mode: Rahmen vorproduzierbar; konkreten Anlass aktuell ergänzen",
       "Structure: anonymisierte Frage | warum sie mich beschäftigt | eine offene Antwort | Rückfrage an die Community",
       "AI support notes: Anonymisierung prüfen | altersgerechte Erklärung | Antwortvarianten | Symbolbild-Prompt",
-      "Current inputs required: anonymisierte Unterrichtsbeobachtung | Klassenstufe nur nennen, wenn unproblematisch"
+      "Current inputs required: anonymisierte Unterrichtsbeobachtung | Klassenstufe nur nennen, wenn unproblematisch",
+      "Es liegt noch keine konkrete anonymisierte Frage vor. Deshalb nur vorproduzierbarer Rahmen ohne ausformulierten aktuellen Anlass.",
+      "Keine erkennbaren Schüler:innen, keine konkreten Unterrichtssituationen, keine erfundenen Zitate verwenden."
     ]
   },
   "platforms": {
     "facebook": {
-      "text": "",
-      "headline": ""
+      "text": "Heute geht es um eine Frage aus dem Religionsunterricht.\n\nHier fehlt noch der aktuelle, vollständig anonymisierte Anlass.\n[Anonymisierte Frage einsetzen]\n\nWarum mich das beschäftigt:\nHinter solchen Fragen steckt oft mehr als ein Sachproblem. Es geht darum, wie Menschen Gott verstehen. Und darum, wie wir die Bibel lesen: wörtlich, bildhaft, historisch, als Glaubenszeugnis.\n\nEine mögliche offene Antwort:\nNicht jedes Missverständnis lässt sich mit einem schnellen Satz auflösen. Aber man kann sortieren: Was steht wirklich im Text? In welchem Zusammenhang steht es? Und was sagt das über Gott aus — oder auch nicht?\n\nMich interessiert:\nWelche Frage über Gott oder die Bibel begegnet euch immer wieder?\n\nHinweis: Vor der Veröffentlichung den anonymisierten Anlass konkret ergänzen und Datenschutz prüfen.",
+      "headline": "Reli fragt: Eine häufige Frage verständlich klären"
     },
     "instagram": {
-      "caption": "",
-      "carousel": []
+      "caption": "Reli fragt.\n\n[Anonymisierte Frage einsetzen]\n\nWarum mich das beschäftigt:\nSolche Fragen sind oft größer, als sie zuerst klingen. Es geht nicht nur um eine richtige Lösung. Es geht darum, welches Bild wir von Gott haben und wie wir biblische Texte verstehen.\n\nEine offene Antwort:\nHilfreich ist oft, langsam zu lesen. Was steht da wirklich? Was gehört zur Zeit des Textes? Was will der Text zeigen? Und was folgt daraus nicht?\n\nFrage an euch:\nWelches Missverständnis über Gott oder die Bibel würdet ihr gern einmal ruhig und verständlich klären?\n\nVor Veröffentlichung: aktuellen Anlass anonymisiert ergänzen.",
+      "carousel": [
+        {
+          "type": "title",
+          "text": "Reli fragt"
+        },
+        {
+          "type": "question",
+          "text": "[Anonymisierte Frage einsetzen]"
+        },
+        {
+          "type": "body",
+          "text": "Warum mich das beschäftigt: Hinter der Frage steckt oft ein bestimmtes Bild von Gott oder von der Bibel."
+        },
+        {
+          "type": "body",
+          "text": "Eine offene Antwort: Erst schauen, was der Text sagt. Dann klären, in welchem Zusammenhang er steht."
+        },
+        {
+          "type": "body",
+          "text": "Nicht alles ist wörtlich gemeint. Nicht alles ist beliebig. Verstehen braucht Sorgfalt."
+        },
+        {
+          "type": "question",
+          "text": "Welche Frage über Gott oder die Bibel begegnet dir immer wieder?"
+        }
+      ]
     },
     "mastodon": {
-      "text": ""
+      "text": "Reli fragt:\n[Anonymisierte Frage einsetzen]\n\nSolche Fragen sind oft ein Schlüssel. Sie zeigen, welches Bild von Gott oder von der Bibel im Raum ist. Eine gute Antwort beginnt meist mit genauem Hinsehen: Was steht da? In welchem Zusammenhang? Und was folgt daraus?\n\nWelche Frage begegnet euch immer wieder?"
     },
     "bluesky": {
-      "text": ""
+      "text": "Reli fragt:\n[Anonymisierte Frage einsetzen]\n\nOft steckt hinter so einer Frage ein größeres Missverständnis über Gott oder die Bibel. Hilfreich ist: genau lesen, Zusammenhang klären, vorschnelle Schlüsse vermeiden.\n\nWelche Frage begegnet euch immer wieder?"
     },
     "story": {
-      "slides": []
+      "slides": [
+        {
+          "text": "Reli fragt"
+        },
+        {
+          "text": "[Anonymisierte Frage einsetzen]"
+        },
+        {
+          "text": "Warum mich das beschäftigt: Hinter der Frage steckt oft ein Bild von Gott oder von der Bibel."
+        },
+        {
+          "text": "Offene Antwort: Erst genau lesen. Dann den Zusammenhang klären."
+        },
+        {
+          "text": "Welche Frage über Gott oder die Bibel begegnet dir immer wieder?"
+        }
+      ]
     },
     "reel": {
-      "hook": "",
-      "script": "",
-      "shots": [],
-      "duration_seconds": 0
+      "hook": "Eine kleine Frage aus dem Reli-Unterricht kann ein großes Missverständnis sichtbar machen.",
+      "script": "Heute geht es um eine Frage aus dem Religionsunterricht. Der konkrete Anlass wird vor der Veröffentlichung anonymisiert ergänzt. Spannend ist: Hinter solchen Fragen steckt oft mehr als Unsicherheit. Es geht um unser Bild von Gott. Und darum, wie wir die Bibel lesen. Eine hilfreiche Antwort beginnt nicht mit Druck, sondern mit Ruhe. Was steht da wirklich? In welchem Zusammenhang? Was will der Text zeigen? Und was sagt er gerade nicht? Welche Frage über Gott oder die Bibel würdest du gern einmal in Ruhe klären?",
+      "shots": [
+        "Nahaufnahme einer aufgeschlagenen Bibel ohne lesbaren Textfokus",
+        "Hand blättert langsam durch ein Heft mit neutralen Notizen",
+        "Licht auf einem Tisch, Stift neben Papier",
+        "Ruhige Totale eines leeren Klassenraums ohne Personen",
+        "Abschlussbild mit offener Gesprächssituation ohne erkennbare Menschen"
+      ],
+      "duration_seconds": 25
     }
   },
   "visual": {
-    "concept": "",
-    "flux_prompt": "",
+    "concept": "Neutrales Symbolbild zu Nachdenken, Fragen und sorgfältigem Lesen: ruhige Lernsituation ohne Personen, ohne konkrete Schule, ohne identifizierende Details.",
+    "flux_prompt": "Ein ruhiges, neutrales Symbolbild für eine Frage aus dem Religionsunterricht: aufgeschlagenes Buch und Notizheft auf einem schlichten Tisch, weiches Tageslicht, nachdenkliche Atmosphäre, keine Personen, keine erkennbaren Ortsmerkmale, fotografischer Stil, natürliche Farben, klare Komposition.",
     "negative_prompt": "text, letters, logo, watermark",
     "formats": [
       "4:5",
       "9:16",
       "1.91:1"
     ],
-    "alt_text": ""
+    "alt_text": "Symbolbild: Ein aufgeschlagenes Buch und ein Notizheft liegen auf einem schlichten Tisch im weichen Tageslicht. Die Szene wirkt ruhig und nachdenklich."
   },
   "qa": {
     "warnings": [
       "Alt text must be completed before approval",
       "Current source inputs are still required before publication",
-      "Review privacy and factual accuracy before drafting"
+      "Review privacy and factual accuracy before drafting",
+      "Es fehlt die konkrete anonymisierte Unterrichtsbeobachtung oder Frage.",
+      "Klassenstufe nur nennen, wenn sie keine Rückschlüsse auf einzelne Schüler:innen zulässt.",
+      "Vor Veröffentlichung Anonymisierung, Datenschutz und sachliche Genauigkeit prüfen.",
+      "Platzhalter in allen Kanälen durch einen aktuellen, vollständig anonymisierten Anlass ersetzen.",
+      "Keine erfundenen Zitate oder konkreten Unterrichtsszenen ergänzen."
     ],
     "approved": false
   },
   "metadata": {
-    "model": "",
-    "generated_at": "",
+    "model": "gpt-5.4-2026-03-05",
+    "generated_at": "2026-10-20T06:07:42.990Z",
     "prompt_version": "1.0",
     "assets": []
   }
