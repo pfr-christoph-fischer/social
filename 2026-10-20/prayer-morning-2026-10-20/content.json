@@ -1,6 +1,6 @@
 {
   "id": "prayer-morning-2026-10-20",
-  "status": "in Arbeit",
+  "status": "freigegeben",
   "needs_input": false,
   "source": {
     "calendar_post_id": "prayer-morning-2026-10-20",
@@ -28,31 +28,31 @@
   },
   "platforms": {
     "facebook": {
-      "headline": "Morgengebet: Du bist da. Das genügt.",
-      "text": "Gott,\ndieser Morgen ist nicht leer.\nLicht liegt auf den Dächern. Die Luft ist neu. Mein Leben heute auch.\n\nLass mich nicht zuerst auf Termine und Sorgen schauen, sondern auf dich.\n„Lass mich am Morgen hören deine Gnade; denn ich hoffe auf dich.“ (Psalm 143,8)\n\nWas vor mir liegt, kenne ich nur zum Teil. Aber ich gehe nicht allein.\nNimm meine Unruhe. Stärke mein Vertrauen. Öffne meinen Blick für das Gute, das du heute wachsen lässt.\n\nIch nehme diesen Tag aus deiner Hand.\nDu bist da. Das genügt.\n\nAmen."
+      "text": "Gott,\ndieser Morgen ist nicht leer.\nLicht liegt auf den Dächern. Die Luft ist neu. Mein Leben heute auch.\n\nLass mich nicht zuerst auf Termine und Sorgen schauen, sondern auf dich.\n„Lass mich am Morgen hören deine Gnade; denn ich hoffe auf dich.“ (Psalm 143,8)\n\nWas vor mir liegt, kenne ich nur zum Teil. Aber ich gehe nicht allein.\nNimm meine Unruhe. Stärke mein Vertrauen. Öffne meinen Blick für das Gute, das du heute wachsen lässt.\n\nIch nehme diesen Tag aus deiner Hand.\nDu bist da. Das genügt.\n\nAmen.",
+      "headline": "Morgengebet: Du bist da. Das genügt."
     },
     "instagram": {
       "caption": "Gott,\ndieser Morgen ist nicht leer.\nLicht liegt auf den Dächern. Die Luft ist neu. Mein Leben heute auch.\n\nLass mich nicht zuerst auf Termine und Sorgen schauen, sondern auf dich.\n„Lass mich am Morgen hören deine Gnade; denn ich hoffe auf dich.“ (Psalm 143,8)\n\nWas vor mir liegt, kenne ich nur zum Teil. Aber ich gehe nicht allein.\nNimm meine Unruhe. Stärke mein Vertrauen.\n\nIch nehme diesen Tag aus deiner Hand.\nDu bist da. Das genügt.\n\nAmen.",
       "carousel": [
         {
-          "text": "Gott,\ndieser Morgen ist nicht leer.",
-          "type": "text"
+          "type": "text",
+          "text": "Gott,\ndieser Morgen ist nicht leer."
         },
         {
-          "text": "Licht liegt auf den Dächern.\nDie Luft ist neu.\nMein Leben heute auch.",
-          "type": "text"
+          "type": "text",
+          "text": "Licht liegt auf den Dächern.\nDie Luft ist neu.\nMein Leben heute auch."
         },
         {
-          "text": "„Lass mich am Morgen hören deine Gnade; denn ich hoffe auf dich.“\nPsalm 143,8",
-          "type": "text"
+          "type": "text",
+          "text": "„Lass mich am Morgen hören deine Gnade; denn ich hoffe auf dich.“\nPsalm 143,8"
         },
         {
-          "text": "Was vor mir liegt,\nkenne ich nur zum Teil.\nAber ich gehe nicht allein.",
-          "type": "text"
+          "type": "text",
+          "text": "Was vor mir liegt,\nkenne ich nur zum Teil.\nAber ich gehe nicht allein."
         },
         {
-          "text": "Ich nehme diesen Tag aus deiner Hand.\nDu bist da.\nDas genügt.",
-          "type": "text"
+          "type": "text",
+          "text": "Ich nehme diesen Tag aus deiner Hand.\nDu bist da.\nDas genügt."
         }
       ]
     },
@@ -106,7 +106,7 @@
     "alt_text": "Ein stiller Morgen mit weichem Licht über Dächern und Bäumen. Ein offenes Fenster und eine Tasse im Vordergrund lassen den Tagesanfang ruhig und klar wirken."
   },
   "qa": {
-    "approved": false,
+    "approved": true,
     "warnings": []
   },
   "metadata": {
