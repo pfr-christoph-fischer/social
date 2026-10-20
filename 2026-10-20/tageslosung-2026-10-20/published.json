@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-10-20",
+    "contentDate": "2026-10-20",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-10-20T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Sie haben sich Götter von Gold gemacht. Vergib ihnen doch ihre Sünde!",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Sie haben sich Götter von Gold gemacht. Vergib ihnen doch ihre Sünde!"
+    ],
+    "id": "b640657a-ddb1-46c6-aab8-517f5a1ad104",
+    "attemptCount": 1,
+    "remoteId": "18107878526142346",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:46:46.871Z",
+    "updatedAt": "2026-10-20T05:00:42.352Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-10-20",
+    "contentDate": "2026-10-20",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-10-20T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Sie haben sich Götter von Gold gemacht. Vergib ihnen doch ihre Sünde!",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Sie haben sich Götter von Gold gemacht. Vergib ihnen doch ihre Sünde!"
+    ],
+    "id": "11c869b4-5084-4dac-b244-c5f372b698c4",
+    "attemptCount": 1,
+    "remoteId": "117471474060123146",
+    "remoteUrl": "https://kirche.social/@christoph/117471474060123146",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:46:46.895Z",
+    "updatedAt": "2026-10-20T05:00:43.612Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
