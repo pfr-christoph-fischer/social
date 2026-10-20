@@ -10,8 +10,8 @@
   },
   "editorial_core": {
     "title": "William Matthews – We'll All Be Free",
-    "main_message": "Kurzes, am Originaltext geprüftes Liedfragment als Meditation wählen. Persönlich erzählen, was mich daran berührt; Schwerpunkt: Freiheit nicht nur individuell, sondern als Hoffnung für alle. Spotify: https://open.spotify.com/track/0XzPBF8rbYsHd7BSr2Rxaz",
-    "audience": "[TODO: define audience after current inputs are available]",
+    "main_message": "Ein Lied kann zur Meditation werden. Hier steht die Hoffnung im Mittelpunkt, dass Freiheit nicht nur mir gilt, sondern allen. Der persönliche Bezug und ein geprüftes kurzes Liedfragment müssen vor Veröffentlichung ergänzt werden.",
+    "audience": "Menschen, die persönliche geistliche Impulse mögen und offen sind für weniger bekannte progressive christliche Musik.",
     "tone": [
       "klar",
       "ruhig",
@@ -19,59 +19,106 @@
     ],
     "source_notes": [
       "Goal: Persönlich teilen, welche Liedzeile mich gerade begleitet, und dabei unbekanntere, progressive christliche Künstler:innen vorstellen.",
-      "Column: Persönlicher Glaube und Spiritualität",
-      "Production mode: weitgehend vorproduzierbar; persönlichen Bezug vor Veröffentlichung aktuell formulieren",
-      "Structure: kurzer persönlicher Einstieg | Liedfragment als Meditation und eigener geistlicher Gedanke | Künstler:in kurz vorstellen und Spotify-Link",
-      "AI support notes: persönliche Notizen sprachlich verdichten | Meditationsimpuls und plattformgerechte Kurzfassungen | Alt-Text",
-      "Current inputs required: persönliche Beobachtung oder Erfahrung aus dieser Woche | am Originaltext geprüftes kurzes Liedfragment | Spotify: https://open.spotify.com/track/0XzPBF8rbYsHd7BSr2Rxaz"
+      "Production mode: weitgehend vorproduzierbar; persönlichen Bezug vor Veröffentlichung aktuell formulieren.",
+      "Structure: kurzer persönlicher Einstieg | Liedfragment als Meditation und eigener geistlicher Gedanke | Künstler:in kurz vorstellen und Spotify-Link.",
+      "Erforderliche aktuelle Inputs fehlen noch: persönliche Beobachtung oder Erfahrung aus dieser Woche | am Originaltext geprüftes kurzes Liedfragment.",
+      "Kein vollständiger Songtext und keine ungeprüften Zitate verwenden.",
+      "Spotify-Link vorhanden: https://open.spotify.com/track/0XzPBF8rbYsHd7BSr2Rxaz"
     ]
   },
   "platforms": {
     "facebook": {
-      "text": "",
-      "headline": ""
+      "text": "Diese Woche begleitet mich ein Lied, das Hoffnung weit macht.\n\n[Hier persönliche Beobachtung oder Erfahrung aus dieser Woche einsetzen.]\n\nAls kleine Meditation möchte ich nur eine kurze, am Originaltext geprüfte Zeile teilen:\n„[geprüftes kurzes Liedfragment einfügen]“\n\nDaran berührt mich der Gedanke, dass Freiheit nicht nur etwas für mich ist. Sie ist größer. Sie meint auch die anderen. Sie öffnet den Blick. Sie lässt hoffen, dass Gottes gute Zukunft niemanden vergisst.\n\nDer Song ist von William Matthews: „We'll All Be Free“.\nSpotify: https://open.spotify.com/track/0XzPBF8rbYsHd7BSr2Rxaz",
+      "headline": "Ein Lied, das mich begleitet: William Matthews – We'll All Be Free"
     },
     "instagram": {
-      "caption": "",
-      "carousel": []
+      "caption": "Diese Woche begleitet mich ein Lied, das Hoffnung weit macht.\n\n[Hier persönlichen Einstieg aus dieser Woche ergänzen.]\n\nAls Meditation nur diese kurze, am Originaltext geprüfte Zeile:\n„[geprüftes kurzes Liedfragment]“\n\nMich trägt daran der Gedanke, dass Freiheit nicht nur mein eigenes Inneres meint. Hoffnung wird größer, wenn sie alle im Blick hat.\n\nWilliam Matthews – „We'll All Be Free“\nSpotify-Link in Story / Bio: https://open.spotify.com/track/0XzPBF8rbYsHd7BSr2Rxaz",
+      "carousel": [
+        {
+          "type": "image",
+          "text": "Ein Lied, das mich begleitet"
+        },
+        {
+          "type": "image",
+          "text": "[Kurzer persönlicher Einstieg aus dieser Woche]"
+        },
+        {
+          "type": "image",
+          "text": "[Geprüftes kurzes Liedfragment]"
+        },
+        {
+          "type": "image",
+          "text": "Freiheit als Hoffnung für alle."
+        },
+        {
+          "type": "image",
+          "text": "William Matthews – We'll All Be Free | Spotify-Link"
+        }
+      ]
     },
     "mastodon": {
-      "text": ""
+      "text": "Diese Woche begleitet mich ein Lied, das Hoffnung weit macht.\n[Persönliche Beobachtung aus dieser Woche ergänzen.]\n\nAls Meditation nur diese kurze, am Originaltext geprüfte Zeile:\n„[geprüftes kurzes Liedfragment]“\n\nMich berührt daran: Freiheit ist nicht nur privat. Sie ist Hoffnung für alle.\nWilliam Matthews – „We'll All Be Free“\nhttps://open.spotify.com/track/0XzPBF8rbYsHd7BSr2Rxaz"
     },
     "bluesky": {
-      "text": ""
+      "text": "Ein Lied, das mich gerade begleitet: William Matthews – „We'll All Be Free“.\n\n[Persönlichen Einstieg ergänzen.]\nAls Meditation nur eine kurze, am Originaltext geprüfte Zeile:\n„[geprüftes kurzes Liedfragment]“\n\nFreiheit als Hoffnung für alle.\nhttps://open.spotify.com/track/0XzPBF8rbYsHd7BSr2Rxaz"
     },
     "story": {
-      "slides": []
+      "slides": [
+        {
+          "text": "Ein Lied, das mich begleitet"
+        },
+        {
+          "text": "[Kurzer persönlicher Gedanke aus dieser Woche]"
+        },
+        {
+          "text": "„[geprüftes kurzes Liedfragment]“"
+        },
+        {
+          "text": "Freiheit nicht nur für mich. Hoffnung für alle."
+        },
+        {
+          "text": "William Matthews – We'll All Be Free | Spotify-Link"
+        }
+      ]
     },
     "reel": {
-      "hook": "",
-      "script": "",
-      "shots": [],
-      "duration_seconds": 0
+      "hook": "Ein Lied, das Hoffnung weit macht.",
+      "script": "Diese Woche begleitet mich ein Lied.\n[Hier einen aktuellen persönlichen Satz ergänzen.]\n\nAls kleine Meditation nur diese kurze, am Originaltext geprüfte Zeile:\n[geprüftes kurzes Liedfragment]\n\nMich berührt daran: Freiheit ist nicht nur etwas für mich allein. Sie weitet den Blick. Sie ist Hoffnung für alle.\n\nDer Song heißt „We'll All Be Free“ von William Matthews.\nDen Spotify-Link findest du in der Story oder im Post.",
+      "shots": [
+        "Ruhige Nahaufnahme eines Weges oder Himmels",
+        "Langsame Bewegung über Hände, Fensterlicht oder Blätter",
+        "Schlichte Detailaufnahme als stiller Moment",
+        "Abschlussbild mit neutraler Alltagsszene ohne Text"
+      ],
+      "duration_seconds": 25
     }
   },
   "visual": {
-    "concept": "",
-    "flux_prompt": "",
+    "concept": "Ruhige, offene Bildsprache mit weitem Himmel, Weg oder Morgenlicht. Die Stimmung soll Weite, Atem und leise Hoffnung zeigen, ohne konkrete aktuelle Situation zu behaupten.",
+    "flux_prompt": "Fotorealistisches ruhiges Motiv mit weitem Himmel oder offenem Weg, sanftes Morgen- oder Abendlicht, natürliche Farben, stille hoffnungsvolle Atmosphäre, minimalistisch, menschennah ohne identifizierbare Person im Fokus, space for social media crop, no typography",
     "negative_prompt": "text, letters, logo, watermark",
     "formats": [
       "4:5",
       "9:16",
       "1.91:1"
     ],
-    "alt_text": ""
+    "alt_text": "Ruhige Szene mit weitem Himmel oder offenem Weg in weichem Licht. Das Bild vermittelt Weite, Stille und Hoffnung."
   },
   "qa": {
     "warnings": [
       "Alt text must be completed before approval",
-      "Current source inputs are still required before publication"
+      "Current source inputs are still required before publication",
+      "Persönliche Beobachtung oder Erfahrung aus dieser Woche fehlt noch.",
+      "Am Originaltext geprüftes kurzes Liedfragment fehlt noch.",
+      "Kein vollständiger Songtext verwenden; nur kurzes geprüftes Fragment.",
+      "Spotify-Link vor Veröffentlichung kurz testen.",
+      "Alt-Text vor Freigabe ggf. an das tatsächliche Motiv anpassen."
     ],
     "approved": false
   },
   "metadata": {
-    "model": "",
-    "generated_at": "",
+    "model": "gpt-5.4-2026-03-05",
+    "generated_at": "2026-10-20T06:06:54.182Z",
     "prompt_version": "1.0",
     "assets": []
   }

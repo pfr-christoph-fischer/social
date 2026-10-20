@@ -1,0 +1,421 @@
+{
+  "id": "resp_0516a60b97bd759a006ad704e6f97887d2ade669b568df1532",
+  "object": "response",
+  "created_at": 1792476391,
+  "status": "completed",
+  "access_programs": null,
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1792476413,
+  "error": null,
+  "frequency_penalty": 0,
+  "incomplete_details": null,
+  "instructions": "You are part of a Protestant social media editorial team. Write in clear, accessible, theologically responsible German without church clichés. Use short sentences and concrete imagery. Never invent events, people, school situations, quotes, or factual details. Do not include copyrighted full song verses. For Reli and community posts, only use current details when they are explicitly provided. Return content that strictly matches the requested JSON schema. Set needs_input to true whenever required facts are missing. Keep qa.approved false. Do not ask for any text inside generated images. When liturgical_context.resolved_weekly_verse is present, use its exact wording for Wochenspruch slots instead of placeholders.",
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.4-2026-03-05",
+  "moderation": null,
+  "output": [
+    {
+      "id": "msg_0516a60b97bd759a006ad704e8078087d2ac7d5f3331e3509e",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\"id\":\"post-0072\",\"status\":\"in Arbeit\",\"needs_input\":true,\"source\":{\"calendar_post_id\":\"post-0072\",\"date\":\"2026-10-20\",\"rubric\":\"Ein Lied, das mich begleitet\",\"liturgical_source\":\"\"},\"editorial_core\":{\"title\":\"William Matthews – We'll All Be Free\",\"main_message\":\"Ein Lied kann zur Meditation werden. Hier steht die Hoffnung im Mittelpunkt, dass Freiheit nicht nur mir gilt, sondern allen. Der persönliche Bezug und ein geprüftes kurzes Liedfragment müssen vor Veröffentlichung ergänzt werden.\",\"audience\":\"Menschen, die persönliche geistliche Impulse mögen und offen sind für weniger bekannte progressive christliche Musik.\",\"tone\":[\"klar\",\"ruhig\",\"zugänglich\"],\"source_notes\":[\"Goal: Persönlich teilen, welche Liedzeile mich gerade begleitet, und dabei unbekanntere, progressive christliche Künstler:innen vorstellen.\",\"Production mode: weitgehend vorproduzierbar; persönlichen Bezug vor Veröffentlichung aktuell formulieren.\",\"Structure: kurzer persönlicher Einstieg | Liedfragment als Meditation und eigener geistlicher Gedanke | Künstler:in kurz vorstellen und Spotify-Link.\",\"Erforderliche aktuelle Inputs fehlen noch: persönliche Beobachtung oder Erfahrung aus dieser Woche | am Originaltext geprüftes kurzes Liedfragment.\",\"Kein vollständiger Songtext und keine ungeprüften Zitate verwenden.\",\"Spotify-Link vorhanden: https://open.spotify.com/track/0XzPBF8rbYsHd7BSr2Rxaz\"]},\"platforms\":{\"facebook\":{\"text\":\"Diese Woche begleitet mich ein Lied, das Hoffnung weit macht.\\n\\n[Hier persönliche Beobachtung oder Erfahrung aus dieser Woche einsetzen.]\\n\\nAls kleine Meditation möchte ich nur eine kurze, am Originaltext geprüfte Zeile teilen:\\n„[geprüftes kurzes Liedfragment einfügen]“\\n\\nDaran berührt mich der Gedanke, dass Freiheit nicht nur etwas für mich ist. Sie ist größer. Sie meint auch die anderen. Sie öffnet den Blick. Sie lässt hoffen, dass Gottes gute Zukunft niemanden vergisst.\\n\\nDer Song ist von William Matthews: „We'll All Be Free“.\\nSpotify: https://open.spotify.com/track/0XzPBF8rbYsHd7BSr2Rxaz\",\"headline\":\"Ein Lied, das mich begleitet: William Matthews – We'll All Be Free\"},\"instagram\":{\"caption\":\"Diese Woche begleitet mich ein Lied, das Hoffnung weit macht.\\n\\n[Hier persönlichen Einstieg aus dieser Woche ergänzen.]\\n\\nAls Meditation nur diese kurze, am Originaltext geprüfte Zeile:\\n„[geprüftes kurzes Liedfragment]“\\n\\nMich trägt daran der Gedanke, dass Freiheit nicht nur mein eigenes Inneres meint. Hoffnung wird größer, wenn sie alle im Blick hat.\\n\\nWilliam Matthews – „We'll All Be Free“\\nSpotify-Link in Story / Bio: https://open.spotify.com/track/0XzPBF8rbYsHd7BSr2Rxaz\",\"carousel\":[{\"type\":\"image\",\"text\":\"Ein Lied, das mich begleitet\"},{\"type\":\"image\",\"text\":\"[Kurzer persönlicher Einstieg aus dieser Woche]\"},{\"type\":\"image\",\"text\":\"[Geprüftes kurzes Liedfragment]\"},{\"type\":\"image\",\"text\":\"Freiheit als Hoffnung für alle.\"},{\"type\":\"image\",\"text\":\"William Matthews – We'll All Be Free | Spotify-Link\"}]},\"mastodon\":{\"text\":\"Diese Woche begleitet mich ein Lied, das Hoffnung weit macht.\\n[Persönliche Beobachtung aus dieser Woche ergänzen.]\\n\\nAls Meditation nur diese kurze, am Originaltext geprüfte Zeile:\\n„[geprüftes kurzes Liedfragment]“\\n\\nMich berührt daran: Freiheit ist nicht nur privat. Sie ist Hoffnung für alle.\\nWilliam Matthews – „We'll All Be Free“\\nhttps://open.spotify.com/track/0XzPBF8rbYsHd7BSr2Rxaz\"},\"bluesky\":{\"text\":\"Ein Lied, das mich gerade begleitet: William Matthews – „We'll All Be Free“.\\n\\n[Persönlichen Einstieg ergänzen.]\\nAls Meditation nur eine kurze, am Originaltext geprüfte Zeile:\\n„[geprüftes kurzes Liedfragment]“\\n\\nFreiheit als Hoffnung für alle.\\nhttps://open.spotify.com/track/0XzPBF8rbYsHd7BSr2Rxaz\"},\"story\":{\"slides\":[{\"text\":\"Ein Lied, das mich begleitet\"},{\"text\":\"[Kurzer persönlicher Gedanke aus dieser Woche]\"},{\"text\":\"„[geprüftes kurzes Liedfragment]“\"},{\"text\":\"Freiheit nicht nur für mich. Hoffnung für alle.\"},{\"text\":\"William Matthews – We'll All Be Free | Spotify-Link\"}]},\"reel\":{\"hook\":\"Ein Lied, das Hoffnung weit macht.\",\"script\":\"Diese Woche begleitet mich ein Lied.\\n[Hier einen aktuellen persönlichen Satz ergänzen.]\\n\\nAls kleine Meditation nur diese kurze, am Originaltext geprüfte Zeile:\\n[geprüftes kurzes Liedfragment]\\n\\nMich berührt daran: Freiheit ist nicht nur etwas für mich allein. Sie weitet den Blick. Sie ist Hoffnung für alle.\\n\\nDer Song heißt „We'll All Be Free“ von William Matthews.\\nDen Spotify-Link findest du in der Story oder im Post.\",\"shots\":[\"Ruhige Nahaufnahme eines Weges oder Himmels\",\"Langsame Bewegung über Hände, Fensterlicht oder Blätter\",\"Schlichte Detailaufnahme als stiller Moment\",\"Abschlussbild mit neutraler Alltagsszene ohne Text\"],\"duration_seconds\":25}},\"visual\":{\"concept\":\"Ruhige, offene Bildsprache mit weitem Himmel, Weg oder Morgenlicht. Die Stimmung soll Weite, Atem und leise Hoffnung zeigen, ohne konkrete aktuelle Situation zu behaupten.\",\"flux_prompt\":\"Fotorealistisches ruhiges Motiv mit weitem Himmel oder offenem Weg, sanftes Morgen- oder Abendlicht, natürliche Farben, stille hoffnungsvolle Atmosphäre, minimalistisch, menschennah ohne identifizierbare Person im Fokus, space for social media crop, no typography\",\"negative_prompt\":\"text, letters, logo, watermark\",\"formats\":[\"4:5\",\"9:16\",\"1.91:1\"],\"alt_text\":\"Ruhige Szene mit weitem Himmel oder offenem Weg in weichem Licht. Das Bild vermittelt Weite, Stille und Hoffnung.\"},\"qa\":{\"warnings\":[\"Persönliche Beobachtung oder Erfahrung aus dieser Woche fehlt noch.\",\"Am Originaltext geprüftes kurzes Liedfragment fehlt noch.\",\"Kein vollständiger Songtext verwenden; nur kurzes geprüftes Fragment.\",\"Spotify-Link vor Veröffentlichung kurz testen.\",\"Alt-Text vor Freigabe ggf. an das tatsächliche Motiv anpassen.\"],\"approved\":false},\"metadata\":{\"model\":\"gpt-5\",\"generated_at\":\"2026-10-20T00:00:00Z\",\"prompt_version\":\"1.0\",\"assets\":[\"https://open.spotify.com/track/0XzPBF8rbYsHd7BSr2Rxaz\"]}}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "current_turn",
+    "effort": "none",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1,
+  "text": {
+    "format": {
+      "type": "json_schema",
+      "description": null,
+      "name": "content_package",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "Idee",
+              "in Arbeit",
+              "zur Prüfung",
+              "freigegeben",
+              "terminiert",
+              "veröffentlicht",
+              "verworfen"
+            ]
+          },
+          "needs_input": {
+            "type": "boolean"
+          },
+          "source": {
+            "type": "object",
+            "properties": {
+              "calendar_post_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "date": {
+                "type": "string",
+                "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+              },
+              "rubric": {
+                "type": "string",
+                "minLength": 1
+              },
+              "liturgical_source": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "calendar_post_id",
+              "date",
+              "rubric",
+              "liturgical_source"
+            ],
+            "additionalProperties": false
+          },
+          "editorial_core": {
+            "type": "object",
+            "properties": {
+              "title": {
+                "type": "string"
+              },
+              "main_message": {
+                "type": "string"
+              },
+              "audience": {
+                "type": "string"
+              },
+              "tone": {
+                "minItems": 1,
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "source_notes": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "title",
+              "main_message",
+              "audience",
+              "tone",
+              "source_notes"
+            ],
+            "additionalProperties": false
+          },
+          "platforms": {
+            "type": "object",
+            "properties": {
+              "facebook": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  },
+                  "headline": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text",
+                  "headline"
+                ],
+                "additionalProperties": false
+              },
+              "instagram": {
+                "type": "object",
+                "properties": {
+                  "caption": {
+                    "type": "string"
+                  },
+                  "carousel": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "type": {
+                          "type": "string"
+                        },
+                        "text": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "type",
+                        "text"
+                      ],
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "required": [
+                  "caption",
+                  "carousel"
+                ],
+                "additionalProperties": false
+              },
+              "mastodon": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text"
+                ],
+                "additionalProperties": false
+              },
+              "bluesky": {
+                "default": {
+                  "text": ""
+                },
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text"
+                ],
+                "additionalProperties": false
+              },
+              "story": {
+                "type": "object",
+                "properties": {
+                  "slides": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "text": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "text"
+                      ],
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "required": [
+                  "slides"
+                ],
+                "additionalProperties": false
+              },
+              "reel": {
+                "type": "object",
+                "properties": {
+                  "hook": {
+                    "type": "string"
+                  },
+                  "script": {
+                    "type": "string"
+                  },
+                  "shots": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "duration_seconds": {
+                    "type": "integer",
+                    "minimum": 0,
+                    "maximum": 9007199254740991
+                  }
+                },
+                "required": [
+                  "hook",
+                  "script",
+                  "shots",
+                  "duration_seconds"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "required": [
+              "facebook",
+              "instagram",
+              "mastodon",
+              "bluesky",
+              "story",
+              "reel"
+            ],
+            "additionalProperties": false
+          },
+          "visual": {
+            "type": "object",
+            "properties": {
+              "concept": {
+                "type": "string"
+              },
+              "flux_prompt": {
+                "type": "string"
+              },
+              "negative_prompt": {
+                "type": "string",
+                "minLength": 1
+              },
+              "formats": {
+                "minItems": 1,
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "alt_text": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "concept",
+              "flux_prompt",
+              "negative_prompt",
+              "formats",
+              "alt_text"
+            ],
+            "additionalProperties": false
+          },
+          "qa": {
+            "type": "object",
+            "properties": {
+              "warnings": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "approved": {
+                "type": "boolean"
+              }
+            },
+            "required": [
+              "warnings",
+              "approved"
+            ],
+            "additionalProperties": false
+          },
+          "metadata": {
+            "type": "object",
+            "properties": {
+              "model": {
+                "type": "string"
+              },
+              "generated_at": {
+                "type": "string"
+              },
+              "prompt_version": {
+                "type": "string",
+                "minLength": 1
+              },
+              "assets": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "model",
+              "generated_at",
+              "prompt_version",
+              "assets"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "id",
+          "status",
+          "needs_input",
+          "source",
+          "editorial_core",
+          "platforms",
+          "visual",
+          "qa",
+          "metadata"
+        ],
+        "additionalProperties": false
+      },
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 1753,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1457,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 3210
+  },
+  "user": null,
+  "metadata": {},
+  "output_text": "{\"id\":\"post-0072\",\"status\":\"in Arbeit\",\"needs_input\":true,\"source\":{\"calendar_post_id\":\"post-0072\",\"date\":\"2026-10-20\",\"rubric\":\"Ein Lied, das mich begleitet\",\"liturgical_source\":\"\"},\"editorial_core\":{\"title\":\"William Matthews – We'll All Be Free\",\"main_message\":\"Ein Lied kann zur Meditation werden. Hier steht die Hoffnung im Mittelpunkt, dass Freiheit nicht nur mir gilt, sondern allen. Der persönliche Bezug und ein geprüftes kurzes Liedfragment müssen vor Veröffentlichung ergänzt werden.\",\"audience\":\"Menschen, die persönliche geistliche Impulse mögen und offen sind für weniger bekannte progressive christliche Musik.\",\"tone\":[\"klar\",\"ruhig\",\"zugänglich\"],\"source_notes\":[\"Goal: Persönlich teilen, welche Liedzeile mich gerade begleitet, und dabei unbekanntere, progressive christliche Künstler:innen vorstellen.\",\"Production mode: weitgehend vorproduzierbar; persönlichen Bezug vor Veröffentlichung aktuell formulieren.\",\"Structure: kurzer persönlicher Einstieg | Liedfragment als Meditation und eigener geistlicher Gedanke | Künstler:in kurz vorstellen und Spotify-Link.\",\"Erforderliche aktuelle Inputs fehlen noch: persönliche Beobachtung oder Erfahrung aus dieser Woche | am Originaltext geprüftes kurzes Liedfragment.\",\"Kein vollständiger Songtext und keine ungeprüften Zitate verwenden.\",\"Spotify-Link vorhanden: https://open.spotify.com/track/0XzPBF8rbYsHd7BSr2Rxaz\"]},\"platforms\":{\"facebook\":{\"text\":\"Diese Woche begleitet mich ein Lied, das Hoffnung weit macht.\\n\\n[Hier persönliche Beobachtung oder Erfahrung aus dieser Woche einsetzen.]\\n\\nAls kleine Meditation möchte ich nur eine kurze, am Originaltext geprüfte Zeile teilen:\\n„[geprüftes kurzes Liedfragment einfügen]“\\n\\nDaran berührt mich der Gedanke, dass Freiheit nicht nur etwas für mich ist. Sie ist größer. Sie meint auch die anderen. Sie öffnet den Blick. Sie lässt hoffen, dass Gottes gute Zukunft niemanden vergisst.\\n\\nDer Song ist von William Matthews: „We'll All Be Free“.\\nSpotify: https://open.spotify.com/track/0XzPBF8rbYsHd7BSr2Rxaz\",\"headline\":\"Ein Lied, das mich begleitet: William Matthews – We'll All Be Free\"},\"instagram\":{\"caption\":\"Diese Woche begleitet mich ein Lied, das Hoffnung weit macht.\\n\\n[Hier persönlichen Einstieg aus dieser Woche ergänzen.]\\n\\nAls Meditation nur diese kurze, am Originaltext geprüfte Zeile:\\n„[geprüftes kurzes Liedfragment]“\\n\\nMich trägt daran der Gedanke, dass Freiheit nicht nur mein eigenes Inneres meint. Hoffnung wird größer, wenn sie alle im Blick hat.\\n\\nWilliam Matthews – „We'll All Be Free“\\nSpotify-Link in Story / Bio: https://open.spotify.com/track/0XzPBF8rbYsHd7BSr2Rxaz\",\"carousel\":[{\"type\":\"image\",\"text\":\"Ein Lied, das mich begleitet\"},{\"type\":\"image\",\"text\":\"[Kurzer persönlicher Einstieg aus dieser Woche]\"},{\"type\":\"image\",\"text\":\"[Geprüftes kurzes Liedfragment]\"},{\"type\":\"image\",\"text\":\"Freiheit als Hoffnung für alle.\"},{\"type\":\"image\",\"text\":\"William Matthews – We'll All Be Free | Spotify-Link\"}]},\"mastodon\":{\"text\":\"Diese Woche begleitet mich ein Lied, das Hoffnung weit macht.\\n[Persönliche Beobachtung aus dieser Woche ergänzen.]\\n\\nAls Meditation nur diese kurze, am Originaltext geprüfte Zeile:\\n„[geprüftes kurzes Liedfragment]“\\n\\nMich berührt daran: Freiheit ist nicht nur privat. Sie ist Hoffnung für alle.\\nWilliam Matthews – „We'll All Be Free“\\nhttps://open.spotify.com/track/0XzPBF8rbYsHd7BSr2Rxaz\"},\"bluesky\":{\"text\":\"Ein Lied, das mich gerade begleitet: William Matthews – „We'll All Be Free“.\\n\\n[Persönlichen Einstieg ergänzen.]\\nAls Meditation nur eine kurze, am Originaltext geprüfte Zeile:\\n„[geprüftes kurzes Liedfragment]“\\n\\nFreiheit als Hoffnung für alle.\\nhttps://open.spotify.com/track/0XzPBF8rbYsHd7BSr2Rxaz\"},\"story\":{\"slides\":[{\"text\":\"Ein Lied, das mich begleitet\"},{\"text\":\"[Kurzer persönlicher Gedanke aus dieser Woche]\"},{\"text\":\"„[geprüftes kurzes Liedfragment]“\"},{\"text\":\"Freiheit nicht nur für mich. Hoffnung für alle.\"},{\"text\":\"William Matthews – We'll All Be Free | Spotify-Link\"}]},\"reel\":{\"hook\":\"Ein Lied, das Hoffnung weit macht.\",\"script\":\"Diese Woche begleitet mich ein Lied.\\n[Hier einen aktuellen persönlichen Satz ergänzen.]\\n\\nAls kleine Meditation nur diese kurze, am Originaltext geprüfte Zeile:\\n[geprüftes kurzes Liedfragment]\\n\\nMich berührt daran: Freiheit ist nicht nur etwas für mich allein. Sie weitet den Blick. Sie ist Hoffnung für alle.\\n\\nDer Song heißt „We'll All Be Free“ von William Matthews.\\nDen Spotify-Link findest du in der Story oder im Post.\",\"shots\":[\"Ruhige Nahaufnahme eines Weges oder Himmels\",\"Langsame Bewegung über Hände, Fensterlicht oder Blätter\",\"Schlichte Detailaufnahme als stiller Moment\",\"Abschlussbild mit neutraler Alltagsszene ohne Text\"],\"duration_seconds\":25}},\"visual\":{\"concept\":\"Ruhige, offene Bildsprache mit weitem Himmel, Weg oder Morgenlicht. Die Stimmung soll Weite, Atem und leise Hoffnung zeigen, ohne konkrete aktuelle Situation zu behaupten.\",\"flux_prompt\":\"Fotorealistisches ruhiges Motiv mit weitem Himmel oder offenem Weg, sanftes Morgen- oder Abendlicht, natürliche Farben, stille hoffnungsvolle Atmosphäre, minimalistisch, menschennah ohne identifizierbare Person im Fokus, space for social media crop, no typography\",\"negative_prompt\":\"text, letters, logo, watermark\",\"formats\":[\"4:5\",\"9:16\",\"1.91:1\"],\"alt_text\":\"Ruhige Szene mit weitem Himmel oder offenem Weg in weichem Licht. Das Bild vermittelt Weite, Stille und Hoffnung.\"},\"qa\":{\"warnings\":[\"Persönliche Beobachtung oder Erfahrung aus dieser Woche fehlt noch.\",\"Am Originaltext geprüftes kurzes Liedfragment fehlt noch.\",\"Kein vollständiger Songtext verwenden; nur kurzes geprüftes Fragment.\",\"Spotify-Link vor Veröffentlichung kurz testen.\",\"Alt-Text vor Freigabe ggf. an das tatsächliche Motiv anpassen.\"],\"approved\":false},\"metadata\":{\"model\":\"gpt-5\",\"generated_at\":\"2026-10-20T00:00:00Z\",\"prompt_version\":\"1.0\",\"assets\":[\"https://open.spotify.com/track/0XzPBF8rbYsHd7BSr2Rxaz\"]}}"
+}
