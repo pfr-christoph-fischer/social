@@ -1,0 +1,36 @@
+{
+  "delivery_url": "https://delivery.us7.bfl.ai/durable/2026102006/5e1f69ea-538b-4d66-962e-9be995966f07/d4/861295c6d80d30/c6d80d30d8e54e65b79eecfb6ebda80f/sample.jpeg?se=2026-10-20T06%3A24%3A21Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=wSAtH/VaWcuEtS7t%2BDUyD1gMYXfdpCllN0VQmG62uJw%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "71b2a4b0-0714-468f-b3f8-f5129f10e6a2",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "71b2a4b0-0714-468f-b3f8-f5129f10e6a2",
+      "status": "Ready",
+      "result": {
+        "start_time": 1792476860.3725615,
+        "prompt": "Fotorealistisches ruhiges Motiv mit weitem Himmel oder offenem Weg, sanftes Morgen- oder Abendlicht, natürliche Farben, stille hoffnungsvolle Atmosphäre, minimalistisch, menschennah ohne identifizierbare Person im Fokus, space for social media crop, no typography, no text, no letters, no typography, no logo, no watermark",
+        "seed": 1275883556,
+        "sample": "https://delivery.us7.bfl.ai/durable/2026102006/5e1f69ea-538b-4d66-962e-9be995966f07/d4/861295c6d80d30/c6d80d30d8e54e65b79eecfb6ebda80f/sample.jpeg?se=2026-10-20T06%3A24%3A21Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=wSAtH/VaWcuEtS7t%2BDUyD1gMYXfdpCllN0VQmG62uJw%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "71b2a4b0-0714-468f-b3f8-f5129f10e6a2",
+    "polling_url": "https://api.us7.bfl.ai/v1/get_result?id=71b2a4b0-0714-468f-b3f8-f5129f10e6a2",
+    "cost": 1.5,
+    "input_mp": 0,
+    "output_mp": 1.39
+  }
+}

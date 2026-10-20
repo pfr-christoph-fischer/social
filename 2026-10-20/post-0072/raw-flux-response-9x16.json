@@ -1,0 +1,52 @@
+{
+  "delivery_url": "https://delivery.eu2.bfl.ai/durable/2026102006/5e1f69ea-538b-4d66-962e-9be995966f07/db/86395100db85c5/00db85c5e1d94d9d99127768287ce179/sample.jpeg?se=2026-10-20T06%3A24%3A24Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=lHanZRzut/T2C6f1vJXig4jwE4/ZdIMHf803uRK8YEs%3D",
+  "download_headers": {
+    "content_type": "image/jpeg"
+  },
+  "polls": [
+    {
+      "id": "fed2770f-912d-44f7-bdce-1a4b8ed56e70",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "fed2770f-912d-44f7-bdce-1a4b8ed56e70",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "fed2770f-912d-44f7-bdce-1a4b8ed56e70",
+      "status": "Pending",
+      "result": null,
+      "progress": null,
+      "details": null,
+      "preview": null
+    },
+    {
+      "id": "fed2770f-912d-44f7-bdce-1a4b8ed56e70",
+      "status": "Ready",
+      "result": {
+        "start_time": 1792476862.4482818,
+        "prompt": "Fotorealistisches ruhiges Motiv mit weitem Himmel oder offenem Weg, sanftes Morgen- oder Abendlicht, natürliche Farben, stille hoffnungsvolle Atmosphäre, minimalistisch, menschennah ohne identifizierbare Person im Fokus, space for social media crop, no typography, no text, no letters, no typography, no logo, no watermark",
+        "seed": 3812737118,
+        "sample": "https://delivery.eu2.bfl.ai/durable/2026102006/5e1f69ea-538b-4d66-962e-9be995966f07/db/86395100db85c5/00db85c5e1d94d9d99127768287ce179/sample.jpeg?se=2026-10-20T06%3A24%3A24Z&sp=r&sv=2026-02-06&sr=b&rsct=image/jpeg&sig=lHanZRzut/T2C6f1vJXig4jwE4/ZdIMHf803uRK8YEs%3D"
+      },
+      "progress": null,
+      "details": null,
+      "preview": null
+    }
+  ],
+  "submission": {
+    "id": "fed2770f-912d-44f7-bdce-1a4b8ed56e70",
+    "polling_url": "https://api.eu2.bfl.ai/v1/get_result?id=fed2770f-912d-44f7-bdce-1a4b8ed56e70",
+    "cost": 1.5,
+    "input_mp": 0,
+    "output_mp": 1.98
+  }
+}
