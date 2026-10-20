@@ -1,0 +1,58 @@
+{
+  "generated_at": "2026-10-20T06:32:44.806Z",
+  "jobs": [
+    {
+      "assetPath": "content/2026-10-21/post-0073/assets/background-1.91x1.webp",
+      "aspectRatio": "1.91:1",
+      "error": "Flux request failed with 402 Payment Required",
+      "height": 630,
+      "mimeType": "image/webp",
+      "rawResponsePath": "content/2026-10-21/post-0073/raw-flux-response-1.91x1.json",
+      "request": {
+        "aspectRatio": "1.91:1",
+        "model": "flux-2-klein-4b",
+        "negativePrompt": "text, letters, logo, watermark, typography",
+        "outputFormat": "webp",
+        "prompt": "Ruhige, natürliche Szene mit einer aufgeschlagenen alten Bibel oder einem alten Buch in alltäglicher Umgebung, kombiniert mit Händen, Licht und einer nachdenklichen Atmosphäre. Keine inszenierte Nostalgie, sondern Gegenwart und Geschichte in einem Bild., no text, no letters, no typography, no logo, no watermark"
+      },
+      "status": "failed",
+      "width": 1200
+    },
+    {
+      "assetPath": "content/2026-10-21/post-0073/assets/background-4x5.webp",
+      "aspectRatio": "4:5",
+      "error": "Flux request failed with 402 Payment Required",
+      "height": 1350,
+      "mimeType": "image/webp",
+      "rawResponsePath": "content/2026-10-21/post-0073/raw-flux-response-4x5.json",
+      "request": {
+        "aspectRatio": "4:5",
+        "model": "flux-2-klein-4b",
+        "negativePrompt": "text, letters, logo, watermark, typography",
+        "outputFormat": "webp",
+        "prompt": "Ruhige, natürliche Szene mit einer aufgeschlagenen alten Bibel oder einem alten Buch in alltäglicher Umgebung, kombiniert mit Händen, Licht und einer nachdenklichen Atmosphäre. Keine inszenierte Nostalgie, sondern Gegenwart und Geschichte in einem Bild., no text, no letters, no typography, no logo, no watermark"
+      },
+      "status": "failed",
+      "width": 1080
+    },
+    {
+      "assetPath": "content/2026-10-21/post-0073/assets/background-9x16.webp",
+      "aspectRatio": "9:16",
+      "error": "Flux request failed with 402 Payment Required",
+      "height": 1920,
+      "mimeType": "image/webp",
+      "rawResponsePath": "content/2026-10-21/post-0073/raw-flux-response-9x16.json",
+      "request": {
+        "aspectRatio": "9:16",
+        "model": "flux-2-klein-4b",
+        "negativePrompt": "text, letters, logo, watermark, typography",
+        "outputFormat": "webp",
+        "prompt": "Ruhige, natürliche Szene mit einer aufgeschlagenen alten Bibel oder einem alten Buch in alltäglicher Umgebung, kombiniert mit Händen, Licht und einer nachdenklichen Atmosphäre. Keine inszenierte Nostalgie, sondern Gegenwart und Geschichte in einem Bild., no text, no letters, no typography, no logo, no watermark"
+      },
+      "status": "failed",
+      "width": 1080
+    }
+  ],
+  "model": "flux-2-klein-4b",
+  "post_id": "post-0073"
+}
