@@ -84,5 +84,62 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-10-20",
+    "contentDate": "2026-10-20",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-10-20T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Sie haben sich Götter von Gold gemacht. Vergib ihnen doch ihre Sünde!",
+    "assets": [
+      "render-square-01.jpg"
+    ],
+    "altTexts": [
+      "Sie haben sich Götter von Gold gemacht. Vergib ihnen doch ihre Sünde!"
+    ],
+    "id": "e7061f02-68d4-474d-9166-dae2ddf4e770",
+    "attemptCount": 1,
+    "remoteId": "18335882341273420",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:46:46.919Z",
+    "updatedAt": "2026-10-20T05:00:58.229Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-10-20",
+    "contentDate": "2026-10-20",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-10-20T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Sie haben sich Götter von Gold gemacht. Vergib ihnen doch ihre Sünde!",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Sie haben sich Götter von Gold gemacht. Vergib ihnen doch ihre Sünde!"
+    ],
+    "id": "ea53c30a-4f2c-4dc0-a4b6-733b38cea2dc",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3mybu46dm6e2w",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3mybu46dm6e2w",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:46:46.964Z",
+    "updatedAt": "2026-10-20T05:01:00.777Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
