@@ -1,7 +1,7 @@
 {
   "id": "post-0075",
   "status": "in Arbeit",
-  "needs_input": false,
+  "needs_input": true,
   "source": {
     "calendar_post_id": "post-0075",
     "date": "2026-10-23",
@@ -10,7 +10,7 @@
   },
   "editorial_core": {
     "title": "Kurzes Wochengebet zum Schwerpunkt „Dank, Verantwortung und Freiheit“",
-    "main_message": "5–8 kurze Zeilen; konkrete Lebenswelt; am Ende eine tragende Bitte.",
+    "main_message": "Die Woche geistlich sammeln und auf das Wochenende hin öffnen: ein kurzes Gebet über Dank, Verantwortung und Freiheit in knapper, ruhiger Sprache.",
     "audience": "breite Öffentlichkeit",
     "tone": [
       "klar",
@@ -23,55 +23,102 @@
       "Production mode: vollständig vorproduzierbar",
       "Structure: ein konkretes Lebensthema | knappe geistliche Sprache | kein Erklärton",
       "AI support notes: Gebetsentwurf | sprachliche Verdichtung | Reel-Sprechtext | Alt-Text",
-      "Liturgical source: https://kirchenjahr.pfarr.tools/api/jahr/2026 (2026-10-18, $.Tage['2026-10-18'])"
+      "Liturgical source: https://kirchenjahr.pfarr.tools/api/jahr/2026 (2026-10-18, $.Tage['2026-10-18'])",
+      "Liturgical note: Multiple liturgical entries for 2026-10-18 contain different Wochenspruch values. Local selection is still required before publication.",
+      "Kein Wochenspruch wörtlich übernommen, da keine redaktionell aufgelöste Auswahl vorliegt."
     ]
   },
   "platforms": {
     "facebook": {
-      "text": "",
-      "headline": ""
+      "text": "Für alles, was diese Woche getragen hat,\ndanke ich dir.\n\nFür Worte, die ich sagen musste,\nfür Aufgaben, die nicht liegen bleiben konnten,\nfür Freiheit, die nicht nur mir gelten soll.\n\nMach mein Herz weit und meine Schritte klar.\nLass mich dankbar leben, verantwortlich handeln und frei werden zum Guten.\nAmen.",
+      "headline": "Wochengebet: Dank, Verantwortung und Freiheit"
     },
     "instagram": {
-      "caption": "",
-      "carousel": []
+      "caption": "Ein kurzes Gebet zum Freitag.\n\nFür alles, was diese Woche getragen hat,\ndanke ich dir.\nFür Worte, die ich sagen musste,\nfür Aufgaben, die nicht liegen bleiben konnten,\nfür Freiheit, die nicht nur mir gelten soll.\nMach mein Herz weit und meine Schritte klar.\nLass mich dankbar leben, verantwortlich handeln und frei werden zum Guten.\nAmen.",
+      "carousel": [
+        {
+          "type": "slide",
+          "text": "Für alles, was diese Woche getragen hat, danke ich dir."
+        },
+        {
+          "type": "slide",
+          "text": "Für Worte, die ich sagen musste, für Aufgaben, die nicht liegen bleiben konnten."
+        },
+        {
+          "type": "slide",
+          "text": "Für Freiheit, die nicht nur mir gelten soll."
+        },
+        {
+          "type": "slide",
+          "text": "Mach mein Herz weit und meine Schritte klar."
+        },
+        {
+          "type": "slide",
+          "text": "Lass mich dankbar leben, verantwortlich handeln und frei werden zum Guten. Amen."
+        }
+      ]
     },
     "mastodon": {
-      "text": ""
+      "text": "Für alles, was diese Woche getragen hat, danke ich dir.\nFür Worte, die ich sagen musste,\nfür Aufgaben, die nicht liegen bleiben konnten,\nfür Freiheit, die nicht nur mir gelten soll.\nMach mein Herz weit und meine Schritte klar.\nAmen."
     },
     "bluesky": {
-      "text": ""
+      "text": "Für alles, was diese Woche getragen hat, danke ich dir. Für Worte, die ich sagen musste, für Aufgaben, die nicht liegen bleiben konnten, für Freiheit, die nicht nur mir gelten soll. Mach mein Herz weit und meine Schritte klar. Amen."
     },
     "story": {
-      "slides": []
+      "slides": [
+        {
+          "text": "Freitag. Kurz anhalten."
+        },
+        {
+          "text": "Für alles, was diese Woche getragen hat, danke ich dir."
+        },
+        {
+          "text": "Für Worte und Aufgaben, die da waren."
+        },
+        {
+          "text": "Für Freiheit, die nicht nur mir gelten soll."
+        },
+        {
+          "text": "Mach mein Herz weit und meine Schritte klar. Amen."
+        }
+      ]
     },
     "reel": {
-      "hook": "",
-      "script": "",
-      "shots": [],
-      "duration_seconds": 0
+      "hook": "Zum Wochenende ein Gebet in wenigen Zeilen.",
+      "script": "Für alles, was diese Woche getragen hat, danke ich dir. Für Worte, die ich sagen musste. Für Aufgaben, die nicht liegen bleiben konnten. Für Freiheit, die nicht nur mir gelten soll. Mach mein Herz weit und meine Schritte klar. Lass mich dankbar leben, verantwortlich handeln und frei werden zum Guten. Amen.",
+      "shots": [
+        "Ruhiger Blick auf einen leeren Tisch im Abendlicht.",
+        "Hände legen Handy, Schlüssel oder Notizzettel beiseite.",
+        "Fensterlicht oder Himmel zum Tagesende.",
+        "Langsame Bewegung auf einen stillen Weg oder offenen Raum zu.",
+        "Abschluss mit ruhigem Detail von Händen oder Licht auf dem Boden."
+      ],
+      "duration_seconds": 22
     }
   },
   "visual": {
-    "concept": "",
-    "flux_prompt": "",
+    "concept": "Ruhige, alltagsnahe Szene zum Wochenabschluss: Abendlicht, ein aufgeräumter Tisch, abgelegte Alltagsdinge, offene Atmosphäre. Das Bild soll Dank, Verantwortung und Freiheit ohne religiöse Klischees spürbar machen.",
+    "flux_prompt": "Ruhige fotografische Szene zum Wochenabschluss, warmes Abendlicht, schlichter aufgeräumter Tisch, wenige alltägliche Gegenstände wie Schlüssel, Notizheft und Tasse, offene luftige Stimmung, natürliche Farben, weiche Schatten, meditative Bildsprache, realistisch, unaufdringlich, viel negativer Raum, protestantische Social-Media-Ästhetik, hochauflösend",
     "negative_prompt": "text, letters, logo, watermark",
     "formats": [
       "4:5",
       "9:16",
       "1.91:1"
     ],
-    "alt_text": ""
+    "alt_text": "Ruhige Szene im warmen Abendlicht: Auf einem schlichten Tisch liegen wenige Alltagsdinge wie ein Schlüsselbund, ein kleines Notizheft und eine Tasse. Das Bild wirkt aufgeräumt und still und lässt an einen bewussten Wochenabschluss denken."
   },
   "qa": {
     "warnings": [
       "Alt text must be completed before approval",
-      "Check song lyric copyright before publication"
+      "Check song lyric copyright before publication",
+      "Multiple liturgical entries for 2026-10-18 contain different Wochenspruch values. Local selection is still required before publication.",
+      "needs_input=true: Redaktionelle Auswahl der örtlich tatsächlich gefeierten liturgischen Ordnung fehlt; deshalb kein Wochenspruch integriert."
     ],
     "approved": false
   },
   "metadata": {
-    "model": "",
-    "generated_at": "",
+    "model": "gpt-5.4-2026-03-05",
+    "generated_at": "2026-10-20T06:08:05.358Z",
     "prompt_version": "1.0",
     "assets": []
   }

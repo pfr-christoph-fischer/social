@@ -10,12 +10,13 @@
   },
   "editorial_core": {
     "title": "Neuer Wochenspruch: 21. Sonntag nach Trinitatis",
-    "main_message": "Ruhiges Motiv, wenig Text im Bild, meditativer Begleittext.",
+    "main_message": "Der Wochenspruch lädt zu einer stillen, klaren Haltung ein: dem Bösen nicht das letzte Wort zu lassen, sondern dem Guten Raum zu geben.",
     "audience": "breite Öffentlichkeit",
     "tone": [
       "klar",
       "ruhig",
-      "zugänglich"
+      "zugänglich",
+      "meditativ"
     ],
     "source_notes": [
       "Goal: Den neuen Wochenspruch als ruhigen Auftakt der liturgischen Woche veröffentlichen.",
@@ -23,54 +24,99 @@
       "Production mode: für Monate im Voraus vollständig vorproduzierbar",
       "Structure: Wochenspruch | ein Bild oder eine Beobachtung | ein meditativer Satz | offene Schlussfrage oder Segenswunsch",
       "AI support notes: meditativer Rohentwurf | KI-Bildprompt | Reel-Sprechtext | Alt-Text",
-      "Liturgical source: https://kirchenjahr.pfarr.tools/api/jahr/2026 (2026-10-25, $.Tage['2026-10-25'])"
+      "Liturgical source: https://kirchenjahr.pfarr.tools/api/jahr/2026 (2026-10-25, $.Tage['2026-10-25'])",
+      "Wochenspruch: Lass dich nicht vom Bösen überwinden, sondern überwinde das Böse mit Gutem. (Röm 12,21)"
     ]
   },
   "platforms": {
     "facebook": {
-      "text": "",
-      "headline": ""
+      "text": "„Lass dich nicht vom Bösen überwinden, sondern überwinde das Böse mit Gutem.“\nRöm 12,21\n\nManchmal kippt ein Tag schon am Morgen. Ein harter Ton. Eine spitze Bemerkung. Eine Nachricht, die nachwirkt. Und plötzlich ist da diese Versuchung, es genauso zurückzugeben.\n\nDer Wochenspruch stellt sich dem leise entgegen. Nicht mit großer Geste. Sondern mit einer anderen Richtung. Das Böse soll nicht bestimmen, wie wir reden, denken und handeln. Das Gute ist keine Schwäche. Es ist eine Kraft, die den Kreislauf von Härte unterbrechen kann.\n\nVielleicht beginnt das heute ganz klein: mit einem ruhigen Wort. Mit Geduld. Mit einem Schritt, der nicht weiter verletzt. Mit einem offenen Blick, wo wir uns verschließen wollen.\n\nGott gebe dir in dieser Woche die Kraft, dem nicht nachzugeben, was dich eng macht. Und den Mut, dem Guten Raum zu geben.\n\nWo könnte in deiner Woche ein kleiner Anfang zum Guten liegen?",
+      "headline": "Wochenspruch für die neue Woche"
     },
     "instagram": {
-      "caption": "",
-      "carousel": []
+      "caption": "„Lass dich nicht vom Bösen überwinden, sondern überwinde das Böse mit Gutem.“\nRöm 12,21\n\nEs gibt Tage, da legt sich etwas Schweres über alles. Ein Wort. Ein Blick. Ein Streit, der nachklingt.\n\nDer Wochenspruch weist in eine andere Richtung: Nicht zurückschlagen. Nicht dem Dunklen das Steuer überlassen. Dem Guten Raum geben.\n\nVielleicht beginnt das heute ganz klein.\nEin ruhiger Satz.\nEin offenes Ohr.\nEin Schritt, der nicht weiter verletzt.\n\nGott schenke dir in dieser Woche Kraft zum Guten.\n\nWo kann dein Anfang heute friedlich sein?",
+      "carousel": [
+        {
+          "type": "image",
+          "text": "Wochenspruch: Lass dich nicht vom Bösen überwinden, sondern überwinde das Böse mit Gutem. (Röm 12,21)"
+        },
+        {
+          "type": "text",
+          "text": "Manchmal reicht ein harter Ton, und der ganze Tag wird enger."
+        },
+        {
+          "type": "text",
+          "text": "Der Wochenspruch lädt ein, den Kreislauf von Härte nicht fortzusetzen."
+        },
+        {
+          "type": "text",
+          "text": "Das Gute beginnt oft klein: ein ruhiges Wort, Geduld, ein offener Blick."
+        },
+        {
+          "type": "text",
+          "text": "Wo kann dein Anfang heute friedlich sein?"
+        }
+      ]
     },
     "mastodon": {
-      "text": ""
+      "text": "„Lass dich nicht vom Bösen überwinden, sondern überwinde das Böse mit Gutem.“ (Röm 12,21)\n\nEin harter Ton kann lange nachhallen. Der Wochenspruch lädt ein, den Kreislauf nicht fortzusetzen. Das Gute beginnt oft klein: mit Geduld, einem offenen Blick, einem friedlichen Schritt.\n\nWo kann dein Anfang heute gut sein?"
     },
     "bluesky": {
-      "text": ""
+      "text": "„Lass dich nicht vom Bösen überwinden, sondern überwinde das Böse mit Gutem.“ (Röm 12,21)\n\nDer Wochenspruch für die neue Woche. Das Gute beginnt oft klein: mit Geduld, einem offenen Blick, einem friedlichen Schritt.\n\nWo kann dein Anfang heute gut sein?"
     },
     "story": {
-      "slides": []
+      "slides": [
+        {
+          "text": "Neuer Wochenspruch"
+        },
+        {
+          "text": "„Lass dich nicht vom Bösen überwinden, sondern überwinde das Böse mit Gutem.“\nRöm 12,21"
+        },
+        {
+          "text": "Ein harter Ton kann lange nachhallen."
+        },
+        {
+          "text": "Das Gute beginnt oft klein."
+        },
+        {
+          "text": "Gott schenke dir Kraft zum Guten in dieser Woche."
+        }
+      ]
     },
     "reel": {
-      "hook": "",
-      "script": "",
-      "shots": [],
-      "duration_seconds": 0
+      "hook": "Was, wenn das Gute heute den ersten Schritt macht?",
+      "script": "„Lass dich nicht vom Bösen überwinden, sondern überwinde das Böse mit Gutem.“\n\nDieser Satz aus dem Römerbrief begleitet die neue Woche.\nManchmal reicht ein harter Ton, und etwas Dunkles zieht in den Tag ein.\nDer Wochenspruch lädt ein, das nicht einfach weiterzugeben.\nDas Gute beginnt oft leise.\nMit Geduld.\nMit einem ruhigen Wort.\nMit einem Schritt, der nicht weiter verletzt.\n\nVielleicht ist genau das dein Anfang heute.\nGott schenke dir Kraft zum Guten.",
+      "shots": [
+        "Nahaufnahme von stillem Wasser oder einer ruhigen Fläche im Morgenlicht",
+        "Langsame Bewegung über einen schlichten Weg oder Boden mit weichem Licht",
+        "Detailaufnahme einer Hand, die innehält oder etwas behutsam berührt",
+        "Licht fällt ruhig durch ein Fenster oder zwischen Bäume",
+        "Abschlussbild mit weitem, stillen Naturmotiv ohne Menschen"
+      ],
+      "duration_seconds": 25
     }
   },
   "visual": {
-    "concept": "",
-    "flux_prompt": "",
+    "concept": "Ein stilles, natürliches Motiv im weichen Morgenlicht. Keine dramatische Szene, sondern eine ruhige Beobachtung: Licht auf einem Weg, Wasseroberfläche oder Blätter im Wind. Das Bild soll den Gedanken tragen, dass das Gute leise, aber wirksam beginnt.",
+    "flux_prompt": "Fotorealistisches, ruhiges Naturmotiv im weichen Morgenlicht, stille Wasseroberfläche oder schmaler Weg mit sanftem Licht, reduzierte Bildsprache, natürliche Farben, viel Freiraum, meditative Stimmung, keine Menschen im Mittelpunkt, feine Details, weiches Licht, hohe Bildqualität, protestantische Social-Media-Ästhetik, geeignet für Andacht und Wochenspruch, ohne Schrift im Bild",
     "negative_prompt": "text, letters, logo, watermark",
     "formats": [
       "4:5",
       "9:16",
       "1.91:1"
     ],
-    "alt_text": ""
+    "alt_text": "Ruhiges Naturmotiv im weichen Morgenlicht. Sanftes Licht fällt auf einen stillen Weg oder eine glatte Wasseroberfläche. Die Szene wirkt offen, klar und friedlich."
   },
   "qa": {
     "warnings": [
-      "Alt text must be completed before approval"
+      "Alt text must be completed before approval",
+      "Wochenspruch redaktionell gegen die lokale Gottesdienstordnung prüfen, falls mehrere Ordnungen relevant sind."
     ],
     "approved": false
   },
   "metadata": {
-    "model": "",
-    "generated_at": "",
+    "model": "gpt-5.4-2026-03-05",
+    "generated_at": "2026-10-20T06:08:32.654Z",
     "prompt_version": "1.0",
     "assets": []
   }
