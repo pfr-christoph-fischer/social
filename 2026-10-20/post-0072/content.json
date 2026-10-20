@@ -1,6 +1,6 @@
 {
   "id": "post-0072",
-  "status": "freigegeben",
+  "status": "in Arbeit",
   "needs_input": true,
   "source": {
     "calendar_post_id": "post-0072",
@@ -28,27 +28,27 @@
   },
   "platforms": {
     "facebook": {
-      "text": "Diese Woche begleitet mich ein Lied, das Hoffnung weit macht.\n\nDie Nachrichten sind wieder voll von beunruhigenden Meldungen. Demgegenüber steht die Hoffnung, die wir in Christus haben: \"We'll all be free\".\n\nDaran berührt mich der Gedanke, dass Freiheit nicht nur etwas für mich ist. Sie ist größer. Sie meint auch die anderen. Sie öffnet den Blick. Sie lässt hoffen, dass Gottes gute Zukunft niemanden vergisst.\n\nDer Song ist von William Matthews: „We'll All Be Free“.\nSpotify: https://open.spotify.com/track/0XzPBF8rbYsHd7BSr2Rxaz",
-      "headline": "Ein Lied, das mich begleitet: William Matthews – We'll All Be Free"
+      "headline": "Ein Lied, das mich begleitet: William Matthews – We'll All Be Free",
+      "text": "Diese Woche begleitet mich ein Lied, das Hoffnung weit macht.\n\nDie Nachrichten sind wieder voll von beunruhigenden Meldungen. Demgegenüber steht die Hoffnung, die wir in Christus haben: \"We'll all be free\".\n\nDaran berührt mich der Gedanke, dass Freiheit nicht nur etwas für mich ist. Sie ist größer. Sie meint auch die anderen. Sie öffnet den Blick. Sie lässt hoffen, dass Gottes gute Zukunft niemanden vergisst.\n\nDer Song ist von William Matthews: „We'll All Be Free“.\nSpotify: https://open.spotify.com/track/0XzPBF8rbYsHd7BSr2Rxaz"
     },
     "instagram": {
       "caption": "Diese Woche begleitet mich ein Lied, das Hoffnung weit macht.\n\nDie Nachrichten sind wieder voll von beunruhigenden Meldungen. Demgegenüber steht die Hoffnung, die wir in Christus haben: \"We'll all be free\".\n\nMich trägt daran der Gedanke, dass Freiheit nicht nur mein eigenes Inneres meint. Hoffnung wird größer, wenn sie alle im Blick hat.\n\nWilliam Matthews – „We'll All Be Free“\nSpotify-Link in Story / Bio: https://open.spotify.com/track/0XzPBF8rbYsHd7BSr2Rxaz",
       "carousel": [
         {
-          "type": "image",
-          "text": "Ein Lied, das mich begleitet"
+          "text": "Ein Lied, das mich begleitet",
+          "type": "image"
         },
         {
-          "type": "image",
-          "text": "Die Nachrichten sind wieder voll von beunruhigenden Meldungen. Demgegenüber steht die Hoffnung, die wir in Christus haben: \"We'll all be free\"."
+          "text": "Die Nachrichten sind wieder voll von beunruhigenden Meldungen. Demgegenüber steht die Hoffnung, die wir in Christus haben: \"We'll all be free\".",
+          "type": "image"
         },
         {
-          "type": "image",
-          "text": "Freiheit als Hoffnung für alle."
+          "text": "Freiheit als Hoffnung für alle.",
+          "type": "image"
         },
         {
-          "type": "image",
-          "text": "William Matthews – We'll All Be Free | Spotify-Link"
+          "text": "William Matthews – We'll All Be Free | z.B. auf Spotify",
+          "type": "image"
         }
       ]
     },
@@ -101,10 +101,10 @@
     "alt_text": "Ruhige Szene mit weitem Himmel oder offenem Weg in weichem Licht. Das Bild vermittelt Weite, Stille und Hoffnung."
   },
   "qa": {
+    "approved": false,
     "warnings": [
       "Current-event or local factual details are still required. Verify that no details were invented."
-    ],
-    "approved": true
+    ]
   },
   "metadata": {
     "model": "gpt-5.4-2026-03-05",
