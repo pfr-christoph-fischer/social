@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-10-21",
+    "contentDate": "2026-10-21",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-10-21T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Der HERR wird dich immerdar führen und dich sättigen in der Dürre.",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Der HERR wird dich immerdar führen und dich sättigen in der Dürre."
+    ],
+    "id": "52bc7ee0-7a84-443f-811c-516151649c93",
+    "attemptCount": 1,
+    "remoteId": "18019644176736695",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:46:49.236Z",
+    "updatedAt": "2026-10-21T05:00:37.385Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-10-21",
+    "contentDate": "2026-10-21",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-10-21T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Der HERR wird dich immerdar führen und dich sättigen in der Dürre.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Der HERR wird dich immerdar führen und dich sättigen in der Dürre."
+    ],
+    "id": "79e82531-bcdd-49c9-b1b9-258ee7fb575b",
+    "attemptCount": 1,
+    "remoteId": "117477136081956223",
+    "remoteUrl": "https://kirche.social/@christoph/117477136081956223",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:46:49.274Z",
+    "updatedAt": "2026-10-21T05:00:39.241Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
