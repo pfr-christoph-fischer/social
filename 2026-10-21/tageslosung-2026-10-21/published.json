@@ -84,5 +84,62 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-10-21",
+    "contentDate": "2026-10-21",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-10-21T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Der HERR wird dich immerdar führen und dich sättigen in der Dürre.",
+    "assets": [
+      "render-square-01.jpg"
+    ],
+    "altTexts": [
+      "Der HERR wird dich immerdar führen und dich sättigen in der Dürre."
+    ],
+    "id": "c288c468-100d-4bfa-b305-3b70770bcbb9",
+    "attemptCount": 1,
+    "remoteId": "18135631684634958",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:46:49.286Z",
+    "updatedAt": "2026-10-21T05:00:51.121Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-10-21",
+    "contentDate": "2026-10-21",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-10-21T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Der HERR wird dich immerdar führen und dich sättigen in der Dürre.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Der HERR wird dich immerdar führen und dich sättigen in der Dürre."
+    ],
+    "id": "02adb072-44b0-4060-b432-9fd2e7265294",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3myeekw7n2f2x",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3myeekw7n2f2x",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:46:49.301Z",
+    "updatedAt": "2026-10-21T05:00:55.312Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
