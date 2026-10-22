@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-10-22",
+    "contentDate": "2026-10-22",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-10-22T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Der HERR hat uns gemacht und nicht wir selbst zu seinem Volk und zu Schafen seiner Weide.",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Der HERR hat uns gemacht und nicht wir selbst zu seinem Volk und zu Schafen seiner Weide."
+    ],
+    "id": "ac8192aa-7b1b-4d8a-81b8-ff76f646ec50",
+    "attemptCount": 1,
+    "remoteId": "18145638550605406",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:46:51.446Z",
+    "updatedAt": "2026-10-22T05:00:45.045Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-10-22",
+    "contentDate": "2026-10-22",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-10-22T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Der HERR hat uns gemacht und nicht wir selbst zu seinem Volk und zu Schafen seiner Weide.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Der HERR hat uns gemacht und nicht wir selbst zu seinem Volk und zu Schafen seiner Weide."
+    ],
+    "id": "4f6a18f4-9c2f-495c-91e4-79c95d7fa9b6",
+    "attemptCount": 1,
+    "remoteId": "117482798877468589",
+    "remoteUrl": "https://kirche.social/@christoph/117482798877468589",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:46:51.456Z",
+    "updatedAt": "2026-10-22T05:00:46.598Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
