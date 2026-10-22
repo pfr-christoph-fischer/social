@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-10-22",
+    "contentDate": "2026-10-22",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-10-22T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Jeder hat das Recht, sowohl allein als auch in Gemeinschaft mit anderen Eigentum innezuhaben. (Allgemeine Erklärung der Menschenrechte, Artikel 17 Absatz 1)",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Jeder hat das Recht, sowohl allein als auch in Gemeinschaft mit anderen Eigentum innezuhaben. (Allgemeine Erklärung der Menschenrechte, Artikel 17 Absatz 1)"
+    ],
+    "id": "06511cd6-286a-46b6-ba4c-c7a5f8636f72",
+    "attemptCount": 1,
+    "remoteId": "18107856164627741",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:40:00.781Z",
+    "updatedAt": "2026-10-22T10:00:44.318Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-10-22",
+    "contentDate": "2026-10-22",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-10-22T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Jeder hat das Recht, sowohl allein als auch in Gemeinschaft mit anderen Eigentum innezuhaben. (Allgemeine Erklärung der Menschenrechte, Artikel 17 Absatz 1)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Jeder hat das Recht, sowohl allein als auch in Gemeinschaft mit anderen Eigentum innezuhaben. (Allgemeine Erklärung der Menschenrechte, Artikel 17 Absatz 1)"
+    ],
+    "id": "d349487b-2b22-4a8b-ac29-c8b296a043d2",
+    "attemptCount": 1,
+    "remoteId": "117483978521237153",
+    "remoteUrl": "https://kirche.social/@christoph/117483978521237153",
+    "lastError": null,
+    "createdAt": "2026-08-26T15:40:00.836Z",
+    "updatedAt": "2026-10-22T10:00:46.568Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
