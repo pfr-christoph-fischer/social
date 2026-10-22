@@ -84,5 +84,62 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-10-22",
+    "contentDate": "2026-10-22",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-10-22T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Der HERR hat uns gemacht und nicht wir selbst zu seinem Volk und zu Schafen seiner Weide.",
+    "assets": [
+      "render-square-01.jpg"
+    ],
+    "altTexts": [
+      "Der HERR hat uns gemacht und nicht wir selbst zu seinem Volk und zu Schafen seiner Weide."
+    ],
+    "id": "10c95a88-fa80-4993-b90c-761a06f9cdda",
+    "attemptCount": 1,
+    "remoteId": "18101369573652686",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:46:51.467Z",
+    "updatedAt": "2026-10-22T05:00:58.443Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-10-22",
+    "contentDate": "2026-10-22",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-10-22T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Der HERR hat uns gemacht und nicht wir selbst zu seinem Volk und zu Schafen seiner Weide.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Der HERR hat uns gemacht und nicht wir selbst zu seinem Volk und zu Schafen seiner Weide."
+    ],
+    "id": "cc1a2ece-57ff-45e6-b217-7b9e7f831ce1",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3mygv22xhx62o",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3mygv22xhx62o",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:46:51.479Z",
+    "updatedAt": "2026-10-22T05:01:04.465Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
