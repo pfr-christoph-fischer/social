@@ -84,5 +84,62 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-10-22",
+    "contentDate": "2026-10-22",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-10-22T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Jeder hat das Recht, sowohl allein als auch in Gemeinschaft mit anderen Eigentum innezuhaben. (Allgemeine Erklärung der Menschenrechte, Artikel 17 Absatz 1)",
+    "assets": [
+      "render-square-01.jpg"
+    ],
+    "altTexts": [
+      "Jeder hat das Recht, sowohl allein als auch in Gemeinschaft mit anderen Eigentum innezuhaben. (Allgemeine Erklärung der Menschenrechte, Artikel 17 Absatz 1)"
+    ],
+    "id": "ed1b950e-17c7-46cb-803d-69a1f3fdff84",
+    "attemptCount": 1,
+    "remoteId": "18099558527552601",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:40:00.896Z",
+    "updatedAt": "2026-10-22T10:00:59.604Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-10-22",
+    "contentDate": "2026-10-22",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-10-22T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Jeder hat das Recht, sowohl allein als auch in Gemeinschaft mit anderen Eigentum innezuhaben. (Allgemeine Erklärung der Menschenrechte, Artikel 17 Absatz 1)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Jeder hat das Recht, sowohl allein als auch in Gemeinschaft mit anderen Eigentum innezuhaben. (Allgemeine Erklärung der Menschenrechte, Artikel 17 Absatz 1)"
+    ],
+    "id": "76fdf95c-a74b-4d02-8ca8-ba8e963d9e0f",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3myhfsjqci623",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3myhfsjqci623",
+    "lastError": null,
+    "createdAt": "2026-08-26T15:40:00.965Z",
+    "updatedAt": "2026-10-22T10:01:05.223Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
