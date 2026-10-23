@@ -55,5 +55,62 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-10-23",
+    "contentDate": "2026-10-23",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-10-23T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Niemand darf willkürlich seines Eigentums beraubt werden. (Allgemeine Erklärung der Menschenrechte, Artikel 17 Absatz 2)",
+    "assets": [
+      "render-square-01.jpg"
+    ],
+    "altTexts": [
+      "Niemand darf willkürlich seines Eigentums beraubt werden. (Allgemeine Erklärung der Menschenrechte, Artikel 17 Absatz 2)"
+    ],
+    "id": "24e05377-bfad-4cbf-a942-d16dc722221f",
+    "attemptCount": 1,
+    "remoteId": "18129585073885614",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:40:06.801Z",
+    "updatedAt": "2026-10-23T10:00:54.991Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-10-23",
+    "contentDate": "2026-10-23",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-10-23T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Niemand darf willkürlich seines Eigentums beraubt werden. (Allgemeine Erklärung der Menschenrechte, Artikel 17 Absatz 2)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Niemand darf willkürlich seines Eigentums beraubt werden. (Allgemeine Erklärung der Menschenrechte, Artikel 17 Absatz 2)"
+    ],
+    "id": "29b55f2b-6ee6-44c7-8aa5-f0911d34a348",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3myjwbcve2v2q",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3myjwbcve2v2q",
+    "lastError": null,
+    "createdAt": "2026-08-26T15:40:06.887Z",
+    "updatedAt": "2026-10-23T10:00:58.799Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
