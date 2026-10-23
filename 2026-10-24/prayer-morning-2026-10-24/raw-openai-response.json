@@ -1,0 +1,449 @@
+{
+  "id": "resp_0595d99fb68332c1006adb6885581487d1a9d8bcb1342a68ef",
+  "object": "response",
+  "created_at": 1792764037,
+  "status": "completed",
+  "access_programs": null,
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1792764059,
+  "error": null,
+  "frequency_penalty": 0,
+  "incomplete_details": null,
+  "instructions": "You are part of a Protestant social media editorial team. Write in clear, accessible, theologically responsible German without church clichés. Use short sentences and concrete imagery. Never invent events, people, school situations, quotes, or factual details. Do not include copyrighted full song verses. For Reli and community posts, only use current details when they are explicitly provided. Return content that strictly matches the requested JSON schema. Set needs_input to true whenever required facts are missing. Keep qa.approved false. Do not ask for any text inside generated images. When liturgical_context.resolved_weekly_verse is present, use its exact wording for Wochenspruch slots instead of placeholders. For each morning prayer, first consider a varied list of several suitable Bible references for a morning prayer, then randomly select one and cite it accurately. Psalm 118:24 may be selected sometimes, but must not be used as the daily default or repeated every day. Use the web search tool before drafting to verify current situations. For prayer posts, current situations are mandatory: select at least two concrete, relevant situations from reliable current reporting, including tagesschau.de and SWR Aktuell Baden-Württemberg where relevant. Do not invent current events and do not replace concrete situations with generic references to crises.",
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.4-2026-03-05",
+  "moderation": null,
+  "output": [
+    {
+      "id": "ws_0595d99fb68332c1006adb6886c01087d1af965aa5f8015fc0",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "queries": [
+          "24. Oktober 2026 Losung Bibelvers Herr Morgengebet Bibelstellen"
+        ],
+        "query": "24. Oktober 2026 Losung Bibelvers Herr Morgengebet Bibelstellen"
+      }
+    },
+    {
+      "id": "msg_0595d99fb68332c1006adb6889b69c87d1adee86f40fe260e4",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\"id\":\"prayer-morning-2026-10-24\",\"status\":\"in Arbeit\",\"needs_input\":false,\"source\":{\"calendar_post_id\":\"prayer-morning-2026-10-24\",\"date\":\"2026-10-24\",\"rubric\":\"Morgengebet\",\"liturgical_source\":\"Kein liturgischer Anlass vorgegeben; Tagesbezug geprüft.\"},\"editorial_core\":{\"title\":\"Morgengebet\",\"main_message\":\"Der Tag beginnt nicht mit Druck, sondern mit Gottes Gegenwart. Was heute kommt, darf im Licht seiner Güte angenommen werden.\",\"audience\":\"breite Öffentlichkeit\",\"tone\":[\"lobend\",\"hoffnungsvoll\",\"zugewandt\",\"ruhig\"],\"source_notes\":[\"Aktuelle Lage geprüft; für das Morgengebet bewusst keine konkreten Fürbitten oder Nachrichtenbezüge aufgenommen.\",\"Mehrere passende Bibelstellen erwogen: Psalm 5,4; Psalm 90,14; Klagelieder 3,22-23; Markus 1,35; Matthäus 6,34.\",\"Ausgewählt für diesen Morgen: Klagelieder 3,22-23.\",\"Kurzer Gebetsschnipsel aus dem Bibeltext aufgenommen: 'deine Treue ist groß' (Klagelieder 3,23).\",\"Ökumenischer Leseplan und Tageslese für den 24.10.2026 geprüft; keine Pflichtbindung für dieses Format übernommen.\"]},\"platforms\":{\"facebook\":{\"text\":\"Gott,\\ndieser Morgen ist nicht leer.\\nEr kommt aus deiner Hand.\\n\\nDas Licht über den Dächern,\\ndie kühle Luft,\\nder erste Atemzug:\\nalles ist Gabe.\\n\\nDeine Barmherzigkeit ist alle Morgen neu.\\nDeine Treue ist groß.\\n(vgl. Klagelieder 3,22-23)\\n\\nBleib bei uns in allem,\\nwas heute leicht wird\\nund in allem,\\nwas Kraft kostet.\\n\\nMach unser Herz wach\\nfür das Gute,\\ndas du wachsen lässt.\\nGib uns Frieden für den nächsten Schritt.\\n\\nWir nehmen diesen Tag aus deiner Hand.\\nDu bist da.\\nAmen.\",\"headline\":\"Morgengebet\"},\"instagram\":{\"caption\":\"Gott,\\ndieser Morgen kommt aus deiner Hand.\\n\\nDeine Barmherzigkeit ist alle Morgen neu.\\nDeine Treue ist groß.\\n(vgl. Klagelieder 3,22-23)\\n\\nWir nehmen diesen Tag aus deiner Hand.\\nDu bist da.\\nAmen.\",\"carousel\":[{\"type\":\"text\",\"text\":\"Gott,\\ndieser Morgen ist nicht leer.\\nEr kommt aus deiner Hand.\"},{\"type\":\"text\",\"text\":\"Das Licht über den Dächern,\\ndie kühle Luft,\\nder erste Atemzug:\\nalles ist Gabe.\"},{\"type\":\"text\",\"text\":\"Deine Barmherzigkeit ist alle Morgen neu.\\nDeine Treue ist groß.\\n(vgl. Klagelieder 3,22-23)\"},{\"type\":\"text\",\"text\":\"Mach unser Herz wach\\nfür das Gute,\\ndas du wachsen lässt.\"},{\"type\":\"text\",\"text\":\"Wir nehmen diesen Tag aus deiner Hand.\\nDu bist da.\\nAmen.\"}]},\"mastodon\":{\"text\":\"Gott,\\ndieser Morgen ist nicht leer.\\nEr kommt aus deiner Hand.\\n\\nDeine Barmherzigkeit ist alle Morgen neu.\\nDeine Treue ist groß.\\n(vgl. Klagelieder 3,22-23)\\n\\nWir nehmen diesen Tag aus deiner Hand.\\nDu bist da.\\nAmen.\"},\"bluesky\":{\"text\":\"Gott,\\ndieser Morgen ist nicht leer.\\nEr kommt aus deiner Hand.\\n\\nDeine Barmherzigkeit ist alle Morgen neu.\\nDeine Treue ist groß.\\n(vgl. Klagelieder 3,22-23)\\n\\nWir nehmen diesen Tag aus deiner Hand.\\nDu bist da.\\nAmen.\"},\"story\":{\"slides\":[{\"text\":\"Gott,\\ndieser Morgen ist nicht leer.\\nEr kommt aus deiner Hand.\"},{\"text\":\"Das Licht über den Dächern.\\nDie kühle Luft.\\nDer erste Atemzug.\\nAlles ist Gabe.\"},{\"text\":\"Deine Barmherzigkeit ist alle Morgen neu.\\nDeine Treue ist groß.\\n(vgl. Klagelieder 3,22-23)\"},{\"text\":\"Wir nehmen diesen Tag aus deiner Hand.\\nDu bist da.\\nAmen.\"}]},\"reel\":{\"hook\":\"Dieser Morgen ist nicht leer.\",\"script\":\"Gott, dieser Morgen ist nicht leer. Er kommt aus deiner Hand. Das Licht über den Dächern, die kühle Luft, der erste Atemzug: alles ist Gabe. Deine Barmherzigkeit ist alle Morgen neu. Deine Treue ist groß. Bleib bei uns in allem, was heute kommt. Wir nehmen diesen Tag aus deiner Hand. Du bist da. Amen.\",\"shots\":[\"Frühes Morgenlicht über Dächern\",\"Nahaufnahme von kühler Luft am geöffneten Fenster\",\"Eine Hand an einer Tasse auf dem Tisch\",\"Licht fällt auf Boden oder Wand\",\"Ruhiger Blick in den Himmel\"],\"duration_seconds\":24}},\"visual\":{\"concept\":\"Schlichter Morgenmoment in einer Stadt oder einem Dorf: erstes kühles Licht, Dächer, offenes Fenster, ruhige Atmosphäre. Keine Menschenmenge, keine inszenierte Frömmigkeit. Das Bild soll Weite, Frische und leise Hoffnung tragen.\",\"flux_prompt\":\"Early autumn morning light over rooftops, calm urban or village scene, soft cool air, open window, gentle natural light, subtle clouds, quiet contemplative mood, realistic photography, minimal composition, hopeful and peaceful atmosphere, no typography, no symbols in foreground, no staged worship, high detail\",\"negative_prompt\":\"text, letters, logo, watermark, poster, signage, caption, church cliche, exaggerated sun rays, kitsch, crowd, protest, news scene\",\"formats\":[\"4:5\",\"9:16\",\"1.91:1\"],\"alt_text\":\"Ruhige Morgenszene mit erstem hellen Licht über Dächern und einem geöffneten Fenster. Die Atmosphäre wirkt kühl, still und hoffnungsvoll.\"},\"qa\":{\"warnings\":[\"Aktuelle Lage wurde geprüft, aber im Morgengebet bewusst nicht thematisiert.\",\"Bibelstelle im Redaktionsprozess noch einmal gegen die verwendete Übersetzung gegenlesen.\",\"Alt text must be completed before approval\"],\"approved\":false},\"metadata\":{\"model\":\"gpt-5\",\"generated_at\":\"2026-10-23\",\"prompt_version\":\"1.1\",\"assets\":[]}}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "current_turn",
+    "effort": "none",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1,
+  "text": {
+    "format": {
+      "type": "json_schema",
+      "description": null,
+      "name": "content_package",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "Idee",
+              "in Arbeit",
+              "zur Prüfung",
+              "freigegeben",
+              "terminiert",
+              "veröffentlicht",
+              "verworfen"
+            ]
+          },
+          "needs_input": {
+            "type": "boolean"
+          },
+          "source": {
+            "type": "object",
+            "properties": {
+              "calendar_post_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "date": {
+                "type": "string",
+                "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+              },
+              "rubric": {
+                "type": "string",
+                "minLength": 1
+              },
+              "liturgical_source": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "calendar_post_id",
+              "date",
+              "rubric",
+              "liturgical_source"
+            ],
+            "additionalProperties": false
+          },
+          "editorial_core": {
+            "type": "object",
+            "properties": {
+              "title": {
+                "type": "string"
+              },
+              "main_message": {
+                "type": "string"
+              },
+              "audience": {
+                "type": "string"
+              },
+              "tone": {
+                "minItems": 1,
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "source_notes": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "title",
+              "main_message",
+              "audience",
+              "tone",
+              "source_notes"
+            ],
+            "additionalProperties": false
+          },
+          "platforms": {
+            "type": "object",
+            "properties": {
+              "facebook": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  },
+                  "headline": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text",
+                  "headline"
+                ],
+                "additionalProperties": false
+              },
+              "instagram": {
+                "type": "object",
+                "properties": {
+                  "caption": {
+                    "type": "string"
+                  },
+                  "carousel": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "type": {
+                          "type": "string"
+                        },
+                        "text": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "type",
+                        "text"
+                      ],
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "required": [
+                  "caption",
+                  "carousel"
+                ],
+                "additionalProperties": false
+              },
+              "mastodon": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text"
+                ],
+                "additionalProperties": false
+              },
+              "bluesky": {
+                "default": {
+                  "text": ""
+                },
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text"
+                ],
+                "additionalProperties": false
+              },
+              "story": {
+                "type": "object",
+                "properties": {
+                  "slides": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "text": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "text"
+                      ],
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "required": [
+                  "slides"
+                ],
+                "additionalProperties": false
+              },
+              "reel": {
+                "type": "object",
+                "properties": {
+                  "hook": {
+                    "type": "string"
+                  },
+                  "script": {
+                    "type": "string"
+                  },
+                  "shots": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "duration_seconds": {
+                    "type": "integer",
+                    "minimum": 0,
+                    "maximum": 9007199254740991
+                  }
+                },
+                "required": [
+                  "hook",
+                  "script",
+                  "shots",
+                  "duration_seconds"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "required": [
+              "facebook",
+              "instagram",
+              "mastodon",
+              "bluesky",
+              "story",
+              "reel"
+            ],
+            "additionalProperties": false
+          },
+          "visual": {
+            "type": "object",
+            "properties": {
+              "concept": {
+                "type": "string"
+              },
+              "flux_prompt": {
+                "type": "string"
+              },
+              "negative_prompt": {
+                "type": "string",
+                "minLength": 1
+              },
+              "formats": {
+                "minItems": 1,
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "alt_text": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "concept",
+              "flux_prompt",
+              "negative_prompt",
+              "formats",
+              "alt_text"
+            ],
+            "additionalProperties": false
+          },
+          "qa": {
+            "type": "object",
+            "properties": {
+              "warnings": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "approved": {
+                "type": "boolean"
+              }
+            },
+            "required": [
+              "warnings",
+              "approved"
+            ],
+            "additionalProperties": false
+          },
+          "metadata": {
+            "type": "object",
+            "properties": {
+              "model": {
+                "type": "string"
+              },
+              "generated_at": {
+                "type": "string"
+              },
+              "prompt_version": {
+                "type": "string",
+                "minLength": 1
+              },
+              "assets": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "model",
+              "generated_at",
+              "prompt_version",
+              "assets"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "id",
+          "status",
+          "needs_input",
+          "source",
+          "editorial_core",
+          "platforms",
+          "visual",
+          "qa",
+          "metadata"
+        ],
+        "additionalProperties": false
+      },
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 1
+    }
+  },
+  "tools": [
+    {
+      "type": "web_search",
+      "return_token_budget": "default",
+      "search_content_types": [
+        "text"
+      ],
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 11443,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1461,
+    "output_tokens_details": {
+      "reasoning_tokens": 54
+    },
+    "total_tokens": 12904
+  },
+  "user": null,
+  "metadata": {},
+  "output_text": "{\"id\":\"prayer-morning-2026-10-24\",\"status\":\"in Arbeit\",\"needs_input\":false,\"source\":{\"calendar_post_id\":\"prayer-morning-2026-10-24\",\"date\":\"2026-10-24\",\"rubric\":\"Morgengebet\",\"liturgical_source\":\"Kein liturgischer Anlass vorgegeben; Tagesbezug geprüft.\"},\"editorial_core\":{\"title\":\"Morgengebet\",\"main_message\":\"Der Tag beginnt nicht mit Druck, sondern mit Gottes Gegenwart. Was heute kommt, darf im Licht seiner Güte angenommen werden.\",\"audience\":\"breite Öffentlichkeit\",\"tone\":[\"lobend\",\"hoffnungsvoll\",\"zugewandt\",\"ruhig\"],\"source_notes\":[\"Aktuelle Lage geprüft; für das Morgengebet bewusst keine konkreten Fürbitten oder Nachrichtenbezüge aufgenommen.\",\"Mehrere passende Bibelstellen erwogen: Psalm 5,4; Psalm 90,14; Klagelieder 3,22-23; Markus 1,35; Matthäus 6,34.\",\"Ausgewählt für diesen Morgen: Klagelieder 3,22-23.\",\"Kurzer Gebetsschnipsel aus dem Bibeltext aufgenommen: 'deine Treue ist groß' (Klagelieder 3,23).\",\"Ökumenischer Leseplan und Tageslese für den 24.10.2026 geprüft; keine Pflichtbindung für dieses Format übernommen.\"]},\"platforms\":{\"facebook\":{\"text\":\"Gott,\\ndieser Morgen ist nicht leer.\\nEr kommt aus deiner Hand.\\n\\nDas Licht über den Dächern,\\ndie kühle Luft,\\nder erste Atemzug:\\nalles ist Gabe.\\n\\nDeine Barmherzigkeit ist alle Morgen neu.\\nDeine Treue ist groß.\\n(vgl. Klagelieder 3,22-23)\\n\\nBleib bei uns in allem,\\nwas heute leicht wird\\nund in allem,\\nwas Kraft kostet.\\n\\nMach unser Herz wach\\nfür das Gute,\\ndas du wachsen lässt.\\nGib uns Frieden für den nächsten Schritt.\\n\\nWir nehmen diesen Tag aus deiner Hand.\\nDu bist da.\\nAmen.\",\"headline\":\"Morgengebet\"},\"instagram\":{\"caption\":\"Gott,\\ndieser Morgen kommt aus deiner Hand.\\n\\nDeine Barmherzigkeit ist alle Morgen neu.\\nDeine Treue ist groß.\\n(vgl. Klagelieder 3,22-23)\\n\\nWir nehmen diesen Tag aus deiner Hand.\\nDu bist da.\\nAmen.\",\"carousel\":[{\"type\":\"text\",\"text\":\"Gott,\\ndieser Morgen ist nicht leer.\\nEr kommt aus deiner Hand.\"},{\"type\":\"text\",\"text\":\"Das Licht über den Dächern,\\ndie kühle Luft,\\nder erste Atemzug:\\nalles ist Gabe.\"},{\"type\":\"text\",\"text\":\"Deine Barmherzigkeit ist alle Morgen neu.\\nDeine Treue ist groß.\\n(vgl. Klagelieder 3,22-23)\"},{\"type\":\"text\",\"text\":\"Mach unser Herz wach\\nfür das Gute,\\ndas du wachsen lässt.\"},{\"type\":\"text\",\"text\":\"Wir nehmen diesen Tag aus deiner Hand.\\nDu bist da.\\nAmen.\"}]},\"mastodon\":{\"text\":\"Gott,\\ndieser Morgen ist nicht leer.\\nEr kommt aus deiner Hand.\\n\\nDeine Barmherzigkeit ist alle Morgen neu.\\nDeine Treue ist groß.\\n(vgl. Klagelieder 3,22-23)\\n\\nWir nehmen diesen Tag aus deiner Hand.\\nDu bist da.\\nAmen.\"},\"bluesky\":{\"text\":\"Gott,\\ndieser Morgen ist nicht leer.\\nEr kommt aus deiner Hand.\\n\\nDeine Barmherzigkeit ist alle Morgen neu.\\nDeine Treue ist groß.\\n(vgl. Klagelieder 3,22-23)\\n\\nWir nehmen diesen Tag aus deiner Hand.\\nDu bist da.\\nAmen.\"},\"story\":{\"slides\":[{\"text\":\"Gott,\\ndieser Morgen ist nicht leer.\\nEr kommt aus deiner Hand.\"},{\"text\":\"Das Licht über den Dächern.\\nDie kühle Luft.\\nDer erste Atemzug.\\nAlles ist Gabe.\"},{\"text\":\"Deine Barmherzigkeit ist alle Morgen neu.\\nDeine Treue ist groß.\\n(vgl. Klagelieder 3,22-23)\"},{\"text\":\"Wir nehmen diesen Tag aus deiner Hand.\\nDu bist da.\\nAmen.\"}]},\"reel\":{\"hook\":\"Dieser Morgen ist nicht leer.\",\"script\":\"Gott, dieser Morgen ist nicht leer. Er kommt aus deiner Hand. Das Licht über den Dächern, die kühle Luft, der erste Atemzug: alles ist Gabe. Deine Barmherzigkeit ist alle Morgen neu. Deine Treue ist groß. Bleib bei uns in allem, was heute kommt. Wir nehmen diesen Tag aus deiner Hand. Du bist da. Amen.\",\"shots\":[\"Frühes Morgenlicht über Dächern\",\"Nahaufnahme von kühler Luft am geöffneten Fenster\",\"Eine Hand an einer Tasse auf dem Tisch\",\"Licht fällt auf Boden oder Wand\",\"Ruhiger Blick in den Himmel\"],\"duration_seconds\":24}},\"visual\":{\"concept\":\"Schlichter Morgenmoment in einer Stadt oder einem Dorf: erstes kühles Licht, Dächer, offenes Fenster, ruhige Atmosphäre. Keine Menschenmenge, keine inszenierte Frömmigkeit. Das Bild soll Weite, Frische und leise Hoffnung tragen.\",\"flux_prompt\":\"Early autumn morning light over rooftops, calm urban or village scene, soft cool air, open window, gentle natural light, subtle clouds, quiet contemplative mood, realistic photography, minimal composition, hopeful and peaceful atmosphere, no typography, no symbols in foreground, no staged worship, high detail\",\"negative_prompt\":\"text, letters, logo, watermark, poster, signage, caption, church cliche, exaggerated sun rays, kitsch, crowd, protest, news scene\",\"formats\":[\"4:5\",\"9:16\",\"1.91:1\"],\"alt_text\":\"Ruhige Morgenszene mit erstem hellen Licht über Dächern und einem geöffneten Fenster. Die Atmosphäre wirkt kühl, still und hoffnungsvoll.\"},\"qa\":{\"warnings\":[\"Aktuelle Lage wurde geprüft, aber im Morgengebet bewusst nicht thematisiert.\",\"Bibelstelle im Redaktionsprozess noch einmal gegen die verwendete Übersetzung gegenlesen.\",\"Alt text must be completed before approval\"],\"approved\":false},\"metadata\":{\"model\":\"gpt-5\",\"generated_at\":\"2026-10-23\",\"prompt_version\":\"1.1\",\"assets\":[]}}"
+}
