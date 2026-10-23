@@ -27,5 +27,33 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-10-23",
+    "contentDate": "2026-10-23",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-10-23T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Niemand darf willkürlich seines Eigentums beraubt werden. (Allgemeine Erklärung der Menschenrechte, Artikel 17 Absatz 2)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Niemand darf willkürlich seines Eigentums beraubt werden. (Allgemeine Erklärung der Menschenrechte, Artikel 17 Absatz 2)"
+    ],
+    "id": "faa8156b-78b6-4074-8299-7aa173c84a9c",
+    "attemptCount": 1,
+    "remoteId": "117489640523225009",
+    "remoteUrl": "https://kirche.social/@christoph/117489640523225009",
+    "lastError": null,
+    "createdAt": "2026-08-26T15:40:06.736Z",
+    "updatedAt": "2026-10-23T10:00:41.832Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
