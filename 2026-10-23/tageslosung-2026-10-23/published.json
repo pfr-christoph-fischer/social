@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-10-23",
+    "contentDate": "2026-10-23",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-10-23T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Siehe, es kommt die Zeit, spricht der HERR, dass ich dem David einen gerechten Spross erwecken will. Der soll ein König sein, der wohl regieren und Recht und Gerechtigkeit im Lande üben wird.",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Siehe, es kommt die Zeit, spricht der HERR, dass ich dem David einen gerechten Spross erwecken will. Der soll ein König sein, der wohl regieren und Recht und Gerechtigkeit im Lande üben wird."
+    ],
+    "id": "1613e623-1e11-449c-bec7-b02bd633289e",
+    "attemptCount": 1,
+    "remoteId": "18210316690366467",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:46:53.646Z",
+    "updatedAt": "2026-10-23T05:01:01.848Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-10-23",
+    "contentDate": "2026-10-23",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-10-23T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Siehe, es kommt die Zeit, spricht der HERR, dass ich dem David einen gerechten Spross erwecken will. Der soll ein König sein, der wohl regieren und Recht und Gerechtigkeit im Lande üben wird.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Siehe, es kommt die Zeit, spricht der HERR, dass ich dem David einen gerechten Spross erwecken will. Der soll ein König sein, der wohl regieren und Recht und Gerechtigkeit im Lande üben wird."
+    ],
+    "id": "0c57f8d0-7c96-4251-9770-37c7c58164f3",
+    "attemptCount": 1,
+    "remoteId": "117488462362927293",
+    "remoteUrl": "https://kirche.social/@christoph/117488462362927293",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:46:53.658Z",
+    "updatedAt": "2026-10-23T05:01:04.554Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
