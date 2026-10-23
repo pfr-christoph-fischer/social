@@ -112,5 +112,40 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-10-23",
+    "contentDate": "2026-10-23",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-10-23T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Niemand darf willkürlich seines Eigentums beraubt werden. (Allgemeine Erklärung der Menschenrechte, Artikel 17 Absatz 2)",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Niemand darf willkürlich seines Eigentums beraubt werden. (Allgemeine Erklärung der Menschenrechte, Artikel 17 Absatz 2)"
+    ],
+    "id": "9ff098f3-3656-4b09-9d3c-fe7c4c0fcdde",
+    "attemptCount": 2,
+    "remoteId": "18133765843685758",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:40:06.638Z",
+    "updatedAt": "2026-10-23T10:05:17.438Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": [
+      {
+        "at": "2026-10-23T10:00:40.133Z",
+        "error": "instagram: Story-Container konnte nicht erstellt werden (400): Only photo or video can be accepted as media type.",
+        "attempt": 1
+      }
+    ]
   }
 ]
