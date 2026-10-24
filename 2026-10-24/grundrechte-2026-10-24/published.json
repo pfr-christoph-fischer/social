@@ -84,5 +84,62 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-10-24",
+    "contentDate": "2026-10-24",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-10-24T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Eigentum und Erbrecht werden gewährleistet. (Grundgesetz, Artikel 14 Absatz 1)",
+    "assets": [
+      "render-square-01.jpg"
+    ],
+    "altTexts": [
+      "Eigentum und Erbrecht werden gewährleistet. (Grundgesetz, Artikel 14 Absatz 1)"
+    ],
+    "id": "918fb795-bca3-4054-ad5f-984ded12c4b5",
+    "attemptCount": 1,
+    "remoteId": "17993680809051958",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:40:10.452Z",
+    "updatedAt": "2026-10-24T10:01:01.481Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-10-24",
+    "contentDate": "2026-10-24",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-10-24T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Eigentum und Erbrecht werden gewährleistet. (Grundgesetz, Artikel 14 Absatz 1)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Eigentum und Erbrecht werden gewährleistet. (Grundgesetz, Artikel 14 Absatz 1)"
+    ],
+    "id": "bf538190-7d45-4f3a-9acc-8cd61737511a",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3mymgqheoqg2d",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3mymgqheoqg2d",
+    "lastError": null,
+    "createdAt": "2026-08-26T15:40:10.508Z",
+    "updatedAt": "2026-10-24T10:01:06.082Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
