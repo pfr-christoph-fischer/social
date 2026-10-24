@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-10-24",
+    "contentDate": "2026-10-24",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-10-24T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Eigentum und Erbrecht werden gewährleistet. (Grundgesetz, Artikel 14 Absatz 1)",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Eigentum und Erbrecht werden gewährleistet. (Grundgesetz, Artikel 14 Absatz 1)"
+    ],
+    "id": "9267cb4f-693f-44d2-a0af-ac89ffd811ec",
+    "attemptCount": 1,
+    "remoteId": "18117620765014187",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:40:10.288Z",
+    "updatedAt": "2026-10-24T10:00:47.498Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-10-24",
+    "contentDate": "2026-10-24",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-10-24T10:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Eigentum und Erbrecht werden gewährleistet. (Grundgesetz, Artikel 14 Absatz 1)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Eigentum und Erbrecht werden gewährleistet. (Grundgesetz, Artikel 14 Absatz 1)"
+    ],
+    "id": "e2c6bf8a-357a-484c-aa2a-69884410ee87",
+    "attemptCount": 1,
+    "remoteId": "117495303347163415",
+    "remoteUrl": "https://kirche.social/@christoph/117495303347163415",
+    "lastError": null,
+    "createdAt": "2026-08-26T15:40:10.373Z",
+    "updatedAt": "2026-10-24T10:00:49.920Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
