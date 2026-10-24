@@ -84,5 +84,62 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-10-24",
+    "contentDate": "2026-10-24",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-10-24T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Der HERR hat offenbart seinen heiligen Arm vor den Augen aller Völker, dass aller Welt Enden sehen das Heil unsres Gottes.",
+    "assets": [
+      "render-square-01.jpg"
+    ],
+    "altTexts": [
+      "Der HERR hat offenbart seinen heiligen Arm vor den Augen aller Völker, dass aller Welt Enden sehen das Heil unsres Gottes."
+    ],
+    "id": "feb8340c-6612-40e9-9904-25501724a531",
+    "attemptCount": 1,
+    "remoteId": "18133979854742133",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:46:55.955Z",
+    "updatedAt": "2026-10-24T05:01:48.092Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-10-24",
+    "contentDate": "2026-10-24",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-10-24T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Der HERR hat offenbart seinen heiligen Arm vor den Augen aller Völker, dass aller Welt Enden sehen das Heil unsres Gottes.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Der HERR hat offenbart seinen heiligen Arm vor den Augen aller Völker, dass aller Welt Enden sehen das Heil unsres Gottes."
+    ],
+    "id": "d88d5440-3535-4650-ac5c-0b5477c620ec",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3mylvzddd3423",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3mylvzddd3423",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:46:55.967Z",
+    "updatedAt": "2026-10-24T05:01:50.213Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
