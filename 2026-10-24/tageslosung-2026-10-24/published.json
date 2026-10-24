@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-10-24",
+    "contentDate": "2026-10-24",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-10-24T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Der HERR hat offenbart seinen heiligen Arm vor den Augen aller Völker, dass aller Welt Enden sehen das Heil unsres Gottes.",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Der HERR hat offenbart seinen heiligen Arm vor den Augen aller Völker, dass aller Welt Enden sehen das Heil unsres Gottes."
+    ],
+    "id": "fc67d185-dbdc-400f-8c1e-8f0c2cc75269",
+    "attemptCount": 1,
+    "remoteId": "18144015067593111",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:46:55.931Z",
+    "updatedAt": "2026-10-24T05:01:18.850Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-10-24",
+    "contentDate": "2026-10-24",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-10-24T05:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Der HERR hat offenbart seinen heiligen Arm vor den Augen aller Völker, dass aller Welt Enden sehen das Heil unsres Gottes.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Der HERR hat offenbart seinen heiligen Arm vor den Augen aller Völker, dass aller Welt Enden sehen das Heil unsres Gottes."
+    ],
+    "id": "5536d21f-d2e0-473e-8f99-a3c6e3712e74",
+    "attemptCount": 1,
+    "remoteId": "117494125742955855",
+    "remoteUrl": "https://kirche.social/@christoph/117494125742955855",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:46:55.941Z",
+    "updatedAt": "2026-10-24T05:01:20.858Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
