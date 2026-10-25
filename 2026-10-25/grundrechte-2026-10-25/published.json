@@ -84,5 +84,62 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-10-25",
+    "contentDate": "2026-10-25",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-10-25T11:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Eigentum verpflichtet. Sein Gebrauch soll zugleich dem Wohle der Allgemeinheit dienen. (Grundgesetz, Artikel 14 Absatz 2)",
+    "assets": [
+      "render-square-01.jpg"
+    ],
+    "altTexts": [
+      "Eigentum verpflichtet. Sein Gebrauch soll zugleich dem Wohle der Allgemeinheit dienen. (Grundgesetz, Artikel 14 Absatz 2)"
+    ],
+    "id": "2128561a-5958-41f6-9bed-d538ad823f55",
+    "attemptCount": 1,
+    "remoteId": "17965834770218162",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:40:14.198Z",
+    "updatedAt": "2026-10-25T11:01:04.370Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-10-25",
+    "contentDate": "2026-10-25",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-10-25T11:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Eigentum verpflichtet. Sein Gebrauch soll zugleich dem Wohle der Allgemeinheit dienen. (Grundgesetz, Artikel 14 Absatz 2)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Eigentum verpflichtet. Sein Gebrauch soll zugleich dem Wohle der Allgemeinheit dienen. (Grundgesetz, Artikel 14 Absatz 2)"
+    ],
+    "id": "f9a167cd-2f7b-4408-8017-28e9e01f9489",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3myp2ks5jz42d",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3myp2ks5jz42d",
+    "lastError": null,
+    "createdAt": "2026-08-26T15:40:14.273Z",
+    "updatedAt": "2026-10-25T11:01:10.436Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
