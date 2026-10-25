@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-10-25",
+    "contentDate": "2026-10-25",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-10-25T06:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Gott, deine Güte ist besser als Leben.",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Gott, deine Güte ist besser als Leben."
+    ],
+    "id": "f6fc91df-cada-4af2-b007-72c3b5c797f3",
+    "attemptCount": 1,
+    "remoteId": "18022264268950392",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:46:58.237Z",
+    "updatedAt": "2026-10-25T06:00:41.686Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-10-25",
+    "contentDate": "2026-10-25",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-10-25T06:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Gott, deine Güte ist besser als Leben.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Gott, deine Güte ist besser als Leben."
+    ],
+    "id": "8a018489-1d73-4c65-a9fa-b05a5aeddf33",
+    "attemptCount": 1,
+    "remoteId": "117500021539051923",
+    "remoteUrl": "https://kirche.social/@christoph/117500021539051923",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:46:58.248Z",
+    "updatedAt": "2026-10-25T06:00:43.581Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
