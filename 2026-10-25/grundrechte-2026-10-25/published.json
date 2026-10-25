@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-10-25",
+    "contentDate": "2026-10-25",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-10-25T11:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Eigentum verpflichtet. Sein Gebrauch soll zugleich dem Wohle der Allgemeinheit dienen. (Grundgesetz, Artikel 14 Absatz 2)",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Eigentum verpflichtet. Sein Gebrauch soll zugleich dem Wohle der Allgemeinheit dienen. (Grundgesetz, Artikel 14 Absatz 2)"
+    ],
+    "id": "81442d15-4cbf-42f4-9238-d8becd5e7bb9",
+    "attemptCount": 1,
+    "remoteId": "18016812602958479",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:40:14.055Z",
+    "updatedAt": "2026-10-25T11:00:49.680Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-10-25",
+    "contentDate": "2026-10-25",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-10-25T11:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Eigentum verpflichtet. Sein Gebrauch soll zugleich dem Wohle der Allgemeinheit dienen. (Grundgesetz, Artikel 14 Absatz 2)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Eigentum verpflichtet. Sein Gebrauch soll zugleich dem Wohle der Allgemeinheit dienen. (Grundgesetz, Artikel 14 Absatz 2)"
+    ],
+    "id": "d5ca32ba-49cc-4b08-b241-bb3a08fe3718",
+    "attemptCount": 1,
+    "remoteId": "117501201735979527",
+    "remoteUrl": "https://kirche.social/@christoph/117501201735979527",
+    "lastError": null,
+    "createdAt": "2026-08-26T15:40:14.123Z",
+    "updatedAt": "2026-10-25T11:00:51.960Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
