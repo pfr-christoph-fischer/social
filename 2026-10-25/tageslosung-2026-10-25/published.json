@@ -84,5 +84,62 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-10-25",
+    "contentDate": "2026-10-25",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-10-25T06:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Gott, deine Güte ist besser als Leben.",
+    "assets": [
+      "render-square-01.jpg"
+    ],
+    "altTexts": [
+      "Gott, deine Güte ist besser als Leben."
+    ],
+    "id": "9ba10bf3-932e-4879-8408-5b2c70e4e992",
+    "attemptCount": 1,
+    "remoteId": "17975401857175933",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:46:58.258Z",
+    "updatedAt": "2026-10-25T06:00:55.167Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-10-25",
+    "contentDate": "2026-10-25",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-10-25T06:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Gott, deine Güte ist besser als Leben.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Gott, deine Güte ist besser als Leben."
+    ],
+    "id": "b7329221-c41b-4eac-b807-d27efc7b42f4",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3myojryx5mg2u",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3myojryx5mg2u",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:46:58.273Z",
+    "updatedAt": "2026-10-25T06:00:58.791Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
