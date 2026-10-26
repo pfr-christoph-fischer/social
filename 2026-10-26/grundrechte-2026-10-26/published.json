@@ -84,5 +84,62 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-10-26",
+    "contentDate": "2026-10-26",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-10-26T11:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Alle Deutschen haben das Recht, Beruf, Arbeitsplatz und Ausbildungsstätte frei zu wählen. (Grundgesetz, Artikel 12 Absatz 1)",
+    "assets": [
+      "render-square-01.jpg"
+    ],
+    "altTexts": [
+      "Alle Deutschen haben das Recht, Beruf, Arbeitsplatz und Ausbildungsstätte frei zu wählen. (Grundgesetz, Artikel 12 Absatz 1)"
+    ],
+    "id": "a398e288-88f7-4598-ba9f-7a80912cca80",
+    "attemptCount": 1,
+    "remoteId": "18164709139495915",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:40:18.260Z",
+    "updatedAt": "2026-10-26T11:01:01.054Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-10-26",
+    "contentDate": "2026-10-26",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-10-26T11:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Alle Deutschen haben das Recht, Beruf, Arbeitsplatz und Ausbildungsstätte frei zu wählen. (Grundgesetz, Artikel 12 Absatz 1)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Alle Deutschen haben das Recht, Beruf, Arbeitsplatz und Ausbildungsstätte frei zu wählen. (Grundgesetz, Artikel 12 Absatz 1)"
+    ],
+    "id": "b715844a-4cb1-4062-aa76-918111166365",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3myrkzm3rdu23",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3myrkzm3rdu23",
+    "lastError": null,
+    "createdAt": "2026-08-26T15:40:18.319Z",
+    "updatedAt": "2026-10-26T11:01:06.797Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
