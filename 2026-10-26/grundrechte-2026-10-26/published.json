@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-10-26",
+    "contentDate": "2026-10-26",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-10-26T11:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Alle Deutschen haben das Recht, Beruf, Arbeitsplatz und Ausbildungsstätte frei zu wählen. (Grundgesetz, Artikel 12 Absatz 1)",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Alle Deutschen haben das Recht, Beruf, Arbeitsplatz und Ausbildungsstätte frei zu wählen. (Grundgesetz, Artikel 12 Absatz 1)"
+    ],
+    "id": "bb021538-f459-4dbf-9286-6e68ab908f62",
+    "attemptCount": 1,
+    "remoteId": "18148770913577292",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:40:18.129Z",
+    "updatedAt": "2026-10-26T11:00:44.877Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-10-26",
+    "contentDate": "2026-10-26",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-10-26T11:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Alle Deutschen haben das Recht, Beruf, Arbeitsplatz und Ausbildungsstätte frei zu wählen. (Grundgesetz, Artikel 12 Absatz 1)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Alle Deutschen haben das Recht, Beruf, Arbeitsplatz und Ausbildungsstätte frei zu wählen. (Grundgesetz, Artikel 12 Absatz 1)"
+    ],
+    "id": "c5a165f5-b54b-4cad-8bc9-0a15c03b9411",
+    "attemptCount": 1,
+    "remoteId": "117506863718365574",
+    "remoteUrl": "https://kirche.social/@christoph/117506863718365574",
+    "lastError": null,
+    "createdAt": "2026-08-26T15:40:18.196Z",
+    "updatedAt": "2026-10-26T11:00:47.057Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
