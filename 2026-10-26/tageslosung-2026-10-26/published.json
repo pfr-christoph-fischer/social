@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-10-26",
+    "contentDate": "2026-10-26",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-10-26T06:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Aber mit dir will ich nicht ein Ende machen. Ich will dich mit Maßen züchtigen, doch ungestraft kann ich dich nicht lassen.",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Aber mit dir will ich nicht ein Ende machen. Ich will dich mit Maßen züchtigen, doch ungestraft kann ich dich nicht lassen."
+    ],
+    "id": "06e4eef6-caae-407b-9c92-f474f7f2e7de",
+    "attemptCount": 1,
+    "remoteId": "18120137438083237",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:47:00.404Z",
+    "updatedAt": "2026-10-26T06:00:46.315Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-10-26",
+    "contentDate": "2026-10-26",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-10-26T06:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Aber mit dir will ich nicht ein Ende machen. Ich will dich mit Maßen züchtigen, doch ungestraft kann ich dich nicht lassen.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Aber mit dir will ich nicht ein Ende machen. Ich will dich mit Maßen züchtigen, doch ungestraft kann ich dich nicht lassen."
+    ],
+    "id": "513483aa-d97d-46d5-abe7-36b0088fde59",
+    "attemptCount": 1,
+    "remoteId": "117505684157020054",
+    "remoteUrl": "https://kirche.social/@christoph/117505684157020054",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:47:00.426Z",
+    "updatedAt": "2026-10-26T06:00:48.274Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
