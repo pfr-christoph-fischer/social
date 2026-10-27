@@ -84,5 +84,62 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-10-27",
+    "contentDate": "2026-10-27",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-10-27T11:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Niemand darf zu einer bestimmten Arbeit gezwungen werden, außer im Rahmen einer herkömmlichen allgemeinen, für alle gleichen öffentlichen Dienstleistungspflicht. (Grundgesetz, Artikel 12 Absatz 2)",
+    "assets": [
+      "render-square-01.jpg"
+    ],
+    "altTexts": [
+      "Niemand darf zu einer bestimmten Arbeit gezwungen werden, außer im Rahmen einer herkömmlichen allgemeinen, für alle gleichen öffentlichen Dienstleistungspflicht. (Grundgesetz, Artikel 12 Absatz 2)"
+    ],
+    "id": "e73661e5-45cd-4e4f-a5e6-7b8f3acfeaa4",
+    "attemptCount": 1,
+    "remoteId": "18125954587919967",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:40:21.862Z",
+    "updatedAt": "2026-10-27T11:00:51.106Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-10-27",
+    "contentDate": "2026-10-27",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-10-27T11:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Niemand darf zu einer bestimmten Arbeit gezwungen werden, außer im Rahmen einer herkömmlichen allgemeinen, für alle gleichen öffentlichen Dienstleistungspflicht. (Grundgesetz, Artikel 12 Absatz 2)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Niemand darf zu einer bestimmten Arbeit gezwungen werden, außer im Rahmen einer herkömmlichen allgemeinen, für alle gleichen öffentlichen Dienstleistungspflicht. (Grundgesetz, Artikel 12 Absatz 2)"
+    ],
+    "id": "3cdd978d-97b9-4bcf-b2a5-bcfdd155189a",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3myu3i5572m2j",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3myu3i5572m2j",
+    "lastError": null,
+    "createdAt": "2026-08-26T15:40:21.919Z",
+    "updatedAt": "2026-10-27T11:00:53.710Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
