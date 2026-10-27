@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-10-27",
+    "contentDate": "2026-10-27",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-10-27T11:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Niemand darf zu einer bestimmten Arbeit gezwungen werden, außer im Rahmen einer herkömmlichen allgemeinen, für alle gleichen öffentlichen Dienstleistungspflicht. (Grundgesetz, Artikel 12 Absatz 2)",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Niemand darf zu einer bestimmten Arbeit gezwungen werden, außer im Rahmen einer herkömmlichen allgemeinen, für alle gleichen öffentlichen Dienstleistungspflicht. (Grundgesetz, Artikel 12 Absatz 2)"
+    ],
+    "id": "822559c6-13e5-44bf-bab6-afd457a40f78",
+    "attemptCount": 1,
+    "remoteId": "18414619177091239",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:40:21.750Z",
+    "updatedAt": "2026-10-27T11:00:37.655Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-10-27",
+    "contentDate": "2026-10-27",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-10-27T11:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Niemand darf zu einer bestimmten Arbeit gezwungen werden, außer im Rahmen einer herkömmlichen allgemeinen, für alle gleichen öffentlichen Dienstleistungspflicht. (Grundgesetz, Artikel 12 Absatz 2)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Niemand darf zu einer bestimmten Arbeit gezwungen werden, außer im Rahmen einer herkömmlichen allgemeinen, für alle gleichen öffentlichen Dienstleistungspflicht. (Grundgesetz, Artikel 12 Absatz 2)"
+    ],
+    "id": "da21c67b-0f09-4ac6-9d07-f26aaa69135b",
+    "attemptCount": 1,
+    "remoteId": "117512525555293210",
+    "remoteUrl": "https://kirche.social/@christoph/117512525555293210",
+    "lastError": null,
+    "createdAt": "2026-08-26T15:40:21.812Z",
+    "updatedAt": "2026-10-27T11:00:39.753Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
