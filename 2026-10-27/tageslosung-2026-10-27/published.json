@@ -84,5 +84,62 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-10-27",
+    "contentDate": "2026-10-27",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-10-27T06:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Steh auf, Gott, richte die Erde, denn dein Eigentum sind die Nationen alle.",
+    "assets": [
+      "render-square-01.jpg"
+    ],
+    "altTexts": [
+      "Steh auf, Gott, richte die Erde, denn dein Eigentum sind die Nationen alle."
+    ],
+    "id": "528ff38f-f2d0-47b1-902a-2bb1d4e7f36a",
+    "attemptCount": 1,
+    "remoteId": "18114018062167601",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:47:03.237Z",
+    "updatedAt": "2026-10-27T06:00:48.572Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-10-27",
+    "contentDate": "2026-10-27",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-10-27T06:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Steh auf, Gott, richte die Erde, denn dein Eigentum sind die Nationen alle.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Steh auf, Gott, richte die Erde, denn dein Eigentum sind die Nationen alle."
+    ],
+    "id": "5d350c1b-d101-4016-840c-1eaf3f426220",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3mytkpmbhga2s",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3mytkpmbhga2s",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:47:03.255Z",
+    "updatedAt": "2026-10-27T06:00:50.841Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
