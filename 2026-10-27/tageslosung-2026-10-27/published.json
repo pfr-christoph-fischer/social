@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-10-27",
+    "contentDate": "2026-10-27",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-10-27T06:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Steh auf, Gott, richte die Erde, denn dein Eigentum sind die Nationen alle.",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Steh auf, Gott, richte die Erde, denn dein Eigentum sind die Nationen alle."
+    ],
+    "id": "35902e3b-fb85-44da-81b2-e156d99fb28c",
+    "attemptCount": 1,
+    "remoteId": "18132693415758523",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:47:03.187Z",
+    "updatedAt": "2026-10-27T06:00:35.063Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-10-27",
+    "contentDate": "2026-10-27",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-10-27T06:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Steh auf, Gott, richte die Erde, denn dein Eigentum sind die Nationen alle.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Steh auf, Gott, richte die Erde, denn dein Eigentum sind die Nationen alle."
+    ],
+    "id": "59958e87-949d-4021-88c1-ffbece321658",
+    "attemptCount": 1,
+    "remoteId": "117511345686676809",
+    "remoteUrl": "https://kirche.social/@christoph/117511345686676809",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:47:03.215Z",
+    "updatedAt": "2026-10-27T06:00:36.369Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
