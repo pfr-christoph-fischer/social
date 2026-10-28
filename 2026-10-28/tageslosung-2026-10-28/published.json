@@ -84,5 +84,62 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-10-28",
+    "contentDate": "2026-10-28",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-10-28T06:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Lobe den HERRN, der dein Leben vom Verderben erlöst, der dich krönet mit Gnade und Barmherzigkeit.",
+    "assets": [
+      "render-square-01.jpg"
+    ],
+    "altTexts": [
+      "Lobe den HERRN, der dein Leben vom Verderben erlöst, der dich krönet mit Gnade und Barmherzigkeit."
+    ],
+    "id": "c4ac686d-8893-4b87-bbd3-6f87af50edfb",
+    "attemptCount": 1,
+    "remoteId": "18119903854994638",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:47:05.451Z",
+    "updatedAt": "2026-10-28T06:00:55.614Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-10-28",
+    "contentDate": "2026-10-28",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-10-28T06:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Lobe den HERRN, der dein Leben vom Verderben erlöst, der dich krönet mit Gnade und Barmherzigkeit.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Lobe den HERRN, der dein Leben vom Verderben erlöst, der dich krönet mit Gnade und Barmherzigkeit."
+    ],
+    "id": "f10e65c3-9021-405f-9cf9-e1ea938b1438",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3myw36rlqw62q",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3myw36rlqw62q",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:47:05.465Z",
+    "updatedAt": "2026-10-28T06:00:59.791Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
