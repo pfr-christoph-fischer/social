@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-10-28",
+    "contentDate": "2026-10-28",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-10-28T11:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Jeder hat das Recht auf Arbeit, auf freie Berufswahl, auf gerechte und befriedigende Arbeitsbedingungen sowie auf Schutz vor Arbeitslosigkeit. (Allgemeine Erklärung der Menschenrechte, Artikel 23 Absatz 1)",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Jeder hat das Recht auf Arbeit, auf freie Berufswahl, auf gerechte und befriedigende Arbeitsbedingungen sowie auf Schutz vor Arbeitslosigkeit. (Allgemeine Erklärung der Menschenrechte, Artikel 23 Absatz 1)"
+    ],
+    "id": "d9d65e5e-9154-4199-8987-6acbfd041895",
+    "attemptCount": 1,
+    "remoteId": "18433310680196323",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:40:25.000Z",
+    "updatedAt": "2026-10-28T11:00:42.752Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-10-28",
+    "contentDate": "2026-10-28",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-10-28T11:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Jeder hat das Recht auf Arbeit, auf freie Berufswahl, auf gerechte und befriedigende Arbeitsbedingungen sowie auf Schutz vor Arbeitslosigkeit. (Allgemeine Erklärung der Menschenrechte, Artikel 23 Absatz 1)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Jeder hat das Recht auf Arbeit, auf freie Berufswahl, auf gerechte und befriedigende Arbeitsbedingungen sowie auf Schutz vor Arbeitslosigkeit. (Allgemeine Erklärung der Menschenrechte, Artikel 23 Absatz 1)"
+    ],
+    "id": "7a267c35-e084-42d4-9d51-bffe4e1beccb",
+    "attemptCount": 1,
+    "remoteId": "117518188206194811",
+    "remoteUrl": "https://kirche.social/@christoph/117518188206194811",
+    "lastError": null,
+    "createdAt": "2026-08-26T15:40:25.046Z",
+    "updatedAt": "2026-10-28T11:00:44.996Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
