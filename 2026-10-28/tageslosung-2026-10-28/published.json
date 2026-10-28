@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-10-28",
+    "contentDate": "2026-10-28",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-10-28T06:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Lobe den HERRN, der dein Leben vom Verderben erlöst, der dich krönet mit Gnade und Barmherzigkeit.",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Lobe den HERRN, der dein Leben vom Verderben erlöst, der dich krönet mit Gnade und Barmherzigkeit."
+    ],
+    "id": "fc988066-2bfc-4b3c-a6b7-1a7d498941d4",
+    "attemptCount": 1,
+    "remoteId": "18024993245819187",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:47:05.423Z",
+    "updatedAt": "2026-10-28T06:00:39.569Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-10-28",
+    "contentDate": "2026-10-28",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-10-28T06:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Lobe den HERRN, der dein Leben vom Verderben erlöst, der dich krönet mit Gnade und Barmherzigkeit.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Lobe den HERRN, der dein Leben vom Verderben erlöst, der dich krönet mit Gnade und Barmherzigkeit."
+    ],
+    "id": "fe091db9-d6f9-43d8-89b2-e3cfdf5e0b8a",
+    "attemptCount": 1,
+    "remoteId": "117517008300702702",
+    "remoteUrl": "https://kirche.social/@christoph/117517008300702702",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:47:05.434Z",
+    "updatedAt": "2026-10-28T06:00:41.051Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
