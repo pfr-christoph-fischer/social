@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-10-29",
+    "contentDate": "2026-10-29",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-10-29T11:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Jeder, ohne Unterschied, hat das Recht auf gleichen Lohn für gleiche Arbeit. (Allgemeine Erklärung der Menschenrechte, Artikel 23 Absatz 2)",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Jeder, ohne Unterschied, hat das Recht auf gleichen Lohn für gleiche Arbeit. (Allgemeine Erklärung der Menschenrechte, Artikel 23 Absatz 2)"
+    ],
+    "id": "0f1b9832-acc6-4d51-bd3f-021b0b534e41",
+    "attemptCount": 1,
+    "remoteId": "18073624562591668",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:40:28.954Z",
+    "updatedAt": "2026-10-29T11:00:39.616Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-10-29",
+    "contentDate": "2026-10-29",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-10-29T11:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Jeder, ohne Unterschied, hat das Recht auf gleichen Lohn für gleiche Arbeit. (Allgemeine Erklärung der Menschenrechte, Artikel 23 Absatz 2)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Jeder, ohne Unterschied, hat das Recht auf gleichen Lohn für gleiche Arbeit. (Allgemeine Erklärung der Menschenrechte, Artikel 23 Absatz 2)"
+    ],
+    "id": "4c2b7286-28b4-4817-b6a7-c1bb6b5decab",
+    "attemptCount": 1,
+    "remoteId": "117523850278924084",
+    "remoteUrl": "https://kirche.social/@christoph/117523850278924084",
+    "lastError": null,
+    "createdAt": "2026-08-26T15:40:29.067Z",
+    "updatedAt": "2026-10-29T11:00:41.278Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
