@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-10-29",
+    "contentDate": "2026-10-29",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-10-29T06:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Samuel sprach zu Saul: Du aber steh jetzt still, dass ich dir kundtue, was Gott gesagt hat.",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Samuel sprach zu Saul: Du aber steh jetzt still, dass ich dir kundtue, was Gott gesagt hat."
+    ],
+    "id": "825545f4-d623-4d61-86d4-42834a875f1c",
+    "attemptCount": 1,
+    "remoteId": "18100595180380657",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:47:07.562Z",
+    "updatedAt": "2026-10-29T06:00:40.658Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-10-29",
+    "contentDate": "2026-10-29",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-10-29T06:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Samuel sprach zu Saul: Du aber steh jetzt still, dass ich dir kundtue, was Gott gesagt hat.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Samuel sprach zu Saul: Du aber steh jetzt still, dass ich dir kundtue, was Gott gesagt hat."
+    ],
+    "id": "e2372d5e-f550-4b59-b1c9-c14e1f36fe0c",
+    "attemptCount": 1,
+    "remoteId": "117522670682742595",
+    "remoteUrl": "https://kirche.social/@christoph/117522670682742595",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:47:07.578Z",
+    "updatedAt": "2026-10-29T06:00:42.093Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
