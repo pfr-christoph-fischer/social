@@ -84,5 +84,62 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-10-29",
+    "contentDate": "2026-10-29",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-10-29T11:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Jeder, ohne Unterschied, hat das Recht auf gleichen Lohn für gleiche Arbeit. (Allgemeine Erklärung der Menschenrechte, Artikel 23 Absatz 2)",
+    "assets": [
+      "render-square-01.jpg"
+    ],
+    "altTexts": [
+      "Jeder, ohne Unterschied, hat das Recht auf gleichen Lohn für gleiche Arbeit. (Allgemeine Erklärung der Menschenrechte, Artikel 23 Absatz 2)"
+    ],
+    "id": "0723c0da-969c-474a-9e5f-9f63b85c9106",
+    "attemptCount": 1,
+    "remoteId": "18084754292362472",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:40:29.128Z",
+    "updatedAt": "2026-10-29T11:00:55.330Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-10-29",
+    "contentDate": "2026-10-29",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-10-29T11:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Jeder, ohne Unterschied, hat das Recht auf gleichen Lohn für gleiche Arbeit. (Allgemeine Erklärung der Menschenrechte, Artikel 23 Absatz 2)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Jeder, ohne Unterschied, hat das Recht auf gleichen Lohn für gleiche Arbeit. (Allgemeine Erklärung der Menschenrechte, Artikel 23 Absatz 2)"
+    ],
+    "id": "71ad94dd-81d4-418b-9657-770b3c62e928",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3myz4g4irxm2j",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3myz4g4irxm2j",
+    "lastError": null,
+    "createdAt": "2026-08-26T15:40:29.191Z",
+    "updatedAt": "2026-10-29T11:00:58.615Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
