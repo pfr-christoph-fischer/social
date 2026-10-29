@@ -84,5 +84,62 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-10-29",
+    "contentDate": "2026-10-29",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-10-29T06:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Samuel sprach zu Saul: Du aber steh jetzt still, dass ich dir kundtue, was Gott gesagt hat.",
+    "assets": [
+      "render-square-01.jpg"
+    ],
+    "altTexts": [
+      "Samuel sprach zu Saul: Du aber steh jetzt still, dass ich dir kundtue, was Gott gesagt hat."
+    ],
+    "id": "1c4b4a8f-55a5-4c5a-b872-1f47b00d1924",
+    "attemptCount": 1,
+    "remoteId": "18135447013712427",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:47:07.606Z",
+    "updatedAt": "2026-10-29T06:00:53.243Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-10-29",
+    "contentDate": "2026-10-29",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-10-29T06:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Samuel sprach zu Saul: Du aber steh jetzt still, dass ich dir kundtue, was Gott gesagt hat.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Samuel sprach zu Saul: Du aber steh jetzt still, dass ich dir kundtue, was Gott gesagt hat."
+    ],
+    "id": "8e5fca50-0099-4efa-a22b-785172e49511",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3myylnmro6x2g",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3myylnmro6x2g",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:47:07.634Z",
+    "updatedAt": "2026-10-29T06:00:56.761Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
