@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-10-30",
+    "contentDate": "2026-10-30",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-10-30T06:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Der HERR hebt auf den Dürftigen aus dem Staub.",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Der HERR hebt auf den Dürftigen aus dem Staub."
+    ],
+    "id": "6f073b98-ff08-4f01-ad70-52b181e4913d",
+    "attemptCount": 1,
+    "remoteId": "17953495176048196",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:47:09.921Z",
+    "updatedAt": "2026-10-30T06:00:43.451Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-10-30",
+    "contentDate": "2026-10-30",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-10-30T06:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Der HERR hebt auf den Dürftigen aus dem Staub.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Der HERR hebt auf den Dürftigen aus dem Staub."
+    ],
+    "id": "c7db2028-1a13-48e6-af93-10651f6e8595",
+    "attemptCount": 1,
+    "remoteId": "117528333201314985",
+    "remoteUrl": "https://kirche.social/@christoph/117528333201314985",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:47:09.934Z",
+    "updatedAt": "2026-10-30T06:00:45.320Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
