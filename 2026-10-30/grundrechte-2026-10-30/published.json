@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-10-30",
+    "contentDate": "2026-10-30",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-10-30T11:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Jeder, der arbeitet, hat das Recht auf gerechte und befriedigende Entlohnung, die ihm und seiner Familie eine der menschlichen Würde entsprechende Existenz sichert. (Allgemeine Erklärung der Menschenrechte, Artikel 23 Absatz 3)",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Jeder, der arbeitet, hat das Recht auf gerechte und befriedigende Entlohnung, die ihm und seiner Familie eine der menschlichen Würde entsprechende Existenz sichert. (Allgemeine Erklärung der Menschenrechte, Artikel 23 Absatz 3)"
+    ],
+    "id": "93ab3988-d3b0-432b-a042-8d28cdc4fbdb",
+    "attemptCount": 1,
+    "remoteId": "18132999496812642",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:40:33.129Z",
+    "updatedAt": "2026-10-30T11:00:46.283Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-10-30",
+    "contentDate": "2026-10-30",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-10-30T11:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Jeder, der arbeitet, hat das Recht auf gerechte und befriedigende Entlohnung, die ihm und seiner Familie eine der menschlichen Würde entsprechende Existenz sichert. (Allgemeine Erklärung der Menschenrechte, Artikel 23 Absatz 3)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Jeder, der arbeitet, hat das Recht auf gerechte und befriedigende Entlohnung, die ihm und seiner Familie eine der menschlichen Würde entsprechende Existenz sichert. (Allgemeine Erklärung der Menschenrechte, Artikel 23 Absatz 3)"
+    ],
+    "id": "5583e72f-8e38-4b45-8659-15167c73d4a0",
+    "attemptCount": 1,
+    "remoteId": "117529513074549110",
+    "remoteUrl": "https://kirche.social/@christoph/117529513074549110",
+    "lastError": null,
+    "createdAt": "2026-08-26T15:40:33.171Z",
+    "updatedAt": "2026-10-30T11:00:48.857Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
