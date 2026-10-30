@@ -84,5 +84,62 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-10-30",
+    "contentDate": "2026-10-30",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-10-30T11:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Jeder, der arbeitet, hat das Recht auf gerechte und befriedigende Entlohnung, die ihm und seiner Familie eine der menschlichen Würde entsprechende Existenz sichert. (Allgemeine Erklärung der Menschenrechte, Artikel 23 Absatz 3)",
+    "assets": [
+      "render-square-01.jpg"
+    ],
+    "altTexts": [
+      "Jeder, der arbeitet, hat das Recht auf gerechte und befriedigende Entlohnung, die ihm und seiner Familie eine der menschlichen Würde entsprechende Existenz sichert. (Allgemeine Erklärung der Menschenrechte, Artikel 23 Absatz 3)"
+    ],
+    "id": "1d12853d-6278-41a5-b511-00608ea024de",
+    "attemptCount": 1,
+    "remoteId": "17885829564623921",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:40:33.244Z",
+    "updatedAt": "2026-10-30T11:01:01.944Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-10-30",
+    "contentDate": "2026-10-30",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-10-30T11:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Jeder, der arbeitet, hat das Recht auf gerechte und befriedigende Entlohnung, die ihm und seiner Familie eine der menschlichen Würde entsprechende Existenz sichert. (Allgemeine Erklärung der Menschenrechte, Artikel 23 Absatz 3)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Jeder, der arbeitet, hat das Recht auf gerechte und befriedigende Entlohnung, die ihm und seiner Familie eine der menschlichen Würde entsprechende Existenz sichert. (Allgemeine Erklärung der Menschenrechte, Artikel 23 Absatz 3)"
+    ],
+    "id": "d7e67df0-b8dc-4ced-b4f3-2e0d7236774d",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3mz3mvb6pek2f",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3mz3mvb6pek2f",
+    "lastError": null,
+    "createdAt": "2026-08-26T15:40:33.441Z",
+    "updatedAt": "2026-10-30T11:01:06.002Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
