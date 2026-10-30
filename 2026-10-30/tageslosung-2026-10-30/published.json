@@ -84,5 +84,62 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-10-30",
+    "contentDate": "2026-10-30",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-10-30T06:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Der HERR hebt auf den Dürftigen aus dem Staub.",
+    "assets": [
+      "render-square-01.jpg"
+    ],
+    "altTexts": [
+      "Der HERR hebt auf den Dürftigen aus dem Staub."
+    ],
+    "id": "94f8b6b5-4f37-4b9b-bbee-8a83a0ebb821",
+    "attemptCount": 1,
+    "remoteId": "17968923281973727",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:47:09.960Z",
+    "updatedAt": "2026-10-30T06:00:59.151Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-10-30",
+    "contentDate": "2026-10-30",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-10-30T06:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Der HERR hebt auf den Dürftigen aus dem Staub.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Der HERR hebt auf den Dürftigen aus dem Staub."
+    ],
+    "id": "9e745b6f-be25-4e7e-b45a-70722b1efb9b",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3mz344ox7vq2u",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3mz344ox7vq2u",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:47:09.982Z",
+    "updatedAt": "2026-10-30T06:01:05.245Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
