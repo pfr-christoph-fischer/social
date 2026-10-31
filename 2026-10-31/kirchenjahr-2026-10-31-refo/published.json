@@ -56,5 +56,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "kirchenjahr-2026-10-31-refo",
+    "contentDate": "2026-10-31",
+    "platform": "facebook",
+    "format": "square",
+    "scheduledAt": "2026-10-31T08:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Reformationsfest\n\nTitel: Gnade und Glaube\n\nWochenspruch: „Einen andern Grund kann niemand legen außer dem, der gelegt ist, welcher ist Jesus Christus.“ (1. Kor 3,11)\n\nPsalm: Ps 46,2–12\n\nAltes Testament: 5. Mose 6,4–9\n\nEvangelium: Mt 5,1–10(11–12)\n\nEpistel: Röm 3,21–28\n\nPredigttext: Mt 10,26b–33",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Reformationsfest"
+    ],
+    "id": "7cc3975a-0ca4-4428-9ec2-8da9a07445ff",
+    "attemptCount": 1,
+    "remoteId": "1289703740890525_122131049415426121",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-15T16:58:52.906Z",
+    "updatedAt": "2026-10-31T08:00:52.662Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "PHOTO",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "kirchenjahr-2026-10-31-refo",
+    "contentDate": "2026-10-31",
+    "platform": "mastodon",
+    "format": "square",
+    "scheduledAt": "2026-10-31T08:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Reformationsfest\n\nTitel: Gnade und Glaube\n\nWochenspruch: „Einen andern Grund kann niemand legen außer dem, der gelegt ist, welcher ist Jesus Christus.“ (1. Kor 3,11)\n\nPsalm: Ps 46,2–12\n\nAltes Testament: 5. Mose 6,4–9\n\nEvangelium: Mt 5,1–10(11–12)\n\nEpistel: Röm 3,21–28\n\nPredigttext: Mt 10,26b–33",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Reformationsfest"
+    ],
+    "id": "b0b3ae3a-9317-48f1-bc9e-2711f3f1bd75",
+    "attemptCount": 1,
+    "remoteId": "117534467904084817",
+    "remoteUrl": "https://kirche.social/@christoph/117534467904084817",
+    "lastError": null,
+    "createdAt": "2026-08-15T16:58:52.937Z",
+    "updatedAt": "2026-10-31T08:00:53.397Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
