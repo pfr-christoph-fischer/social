@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-10-31",
+    "contentDate": "2026-10-31",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-10-31T06:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Unrecht Gut hilft nicht; aber Gerechtigkeit errettet vom Tode.",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Unrecht Gut hilft nicht; aber Gerechtigkeit errettet vom Tode."
+    ],
+    "id": "483ff1dd-689c-4417-b671-5f2a629045c6",
+    "attemptCount": 1,
+    "remoteId": "18096827414445192",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:47:12.115Z",
+    "updatedAt": "2026-10-31T06:00:37.964Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-10-31",
+    "contentDate": "2026-10-31",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-10-31T06:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Unrecht Gut hilft nicht; aber Gerechtigkeit errettet vom Tode.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Unrecht Gut hilft nicht; aber Gerechtigkeit errettet vom Tode."
+    ],
+    "id": "b4042eca-2164-4ce1-a1a7-50b189e55197",
+    "attemptCount": 1,
+    "remoteId": "117533995103345453",
+    "remoteUrl": "https://kirche.social/@christoph/117533995103345453",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:47:12.127Z",
+    "updatedAt": "2026-10-31T06:00:39.022Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
