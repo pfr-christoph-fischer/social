@@ -84,5 +84,62 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-10-31",
+    "contentDate": "2026-10-31",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-10-31T06:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Unrecht Gut hilft nicht; aber Gerechtigkeit errettet vom Tode.",
+    "assets": [
+      "render-square-01.jpg"
+    ],
+    "altTexts": [
+      "Unrecht Gut hilft nicht; aber Gerechtigkeit errettet vom Tode."
+    ],
+    "id": "31280464-7b2a-4beb-b6d2-c92ec3b92fee",
+    "attemptCount": 1,
+    "remoteId": "17940032112123787",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:47:12.139Z",
+    "updatedAt": "2026-10-31T06:00:52.942Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-10-31",
+    "contentDate": "2026-10-31",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-10-31T06:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Unrecht Gut hilft nicht; aber Gerechtigkeit errettet vom Tode.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Unrecht Gut hilft nicht; aber Gerechtigkeit errettet vom Tode."
+    ],
+    "id": "884a0d39-600d-41a0-a743-f3c2dd886eb7",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3mz5mlh5jll2w",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3mz5mlh5jll2w",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:47:12.151Z",
+    "updatedAt": "2026-10-31T06:00:56.016Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
