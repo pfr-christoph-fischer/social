@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-10-31",
+    "contentDate": "2026-10-31",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-10-31T11:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Jeder hat das Recht, zum Schutz seiner Interessen Gewerkschaften zu bilden und solchen beizutreten. (Allgemeine Erklärung der Menschenrechte, Artikel 23 Absatz 4)",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Jeder hat das Recht, zum Schutz seiner Interessen Gewerkschaften zu bilden und solchen beizutreten. (Allgemeine Erklärung der Menschenrechte, Artikel 23 Absatz 4)"
+    ],
+    "id": "345bfb9b-6e03-44c6-b0df-61a32f1081d5",
+    "attemptCount": 1,
+    "remoteId": "17952581928308197",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:40:36.839Z",
+    "updatedAt": "2026-10-31T11:00:36.508Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-10-31",
+    "contentDate": "2026-10-31",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-10-31T11:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Jeder hat das Recht, zum Schutz seiner Interessen Gewerkschaften zu bilden und solchen beizutreten. (Allgemeine Erklärung der Menschenrechte, Artikel 23 Absatz 4)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Jeder hat das Recht, zum Schutz seiner Interessen Gewerkschaften zu bilden und solchen beizutreten. (Allgemeine Erklärung der Menschenrechte, Artikel 23 Absatz 4)"
+    ],
+    "id": "7494edcb-ffa4-40e3-b78b-0b0566fd988d",
+    "attemptCount": 1,
+    "remoteId": "117535174668233753",
+    "remoteUrl": "https://kirche.social/@christoph/117535174668233753",
+    "lastError": null,
+    "createdAt": "2026-08-26T15:40:36.896Z",
+    "updatedAt": "2026-10-31T11:00:37.737Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
