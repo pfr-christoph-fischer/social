@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-11-01",
+    "contentDate": "2026-11-01",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-11-01T06:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Er wird herrlich werden bis an die Enden der Erde.",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Er wird herrlich werden bis an die Enden der Erde."
+    ],
+    "id": "c5cb99b4-529f-406f-8044-b3c5badd8efd",
+    "attemptCount": 1,
+    "remoteId": "18000524123825363",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:47:14.279Z",
+    "updatedAt": "2026-11-01T06:00:54.203Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-11-01",
+    "contentDate": "2026-11-01",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-11-01T06:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Er wird herrlich werden bis an die Enden der Erde.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Er wird herrlich werden bis an die Enden der Erde."
+    ],
+    "id": "bc5837ba-1573-464b-8963-25f95c55410f",
+    "attemptCount": 1,
+    "remoteId": "117539658499823147",
+    "remoteUrl": "https://kirche.social/@christoph/117539658499823147",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:47:14.299Z",
+    "updatedAt": "2026-11-01T06:00:55.594Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
