@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-11-01",
+    "contentDate": "2026-11-01",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-11-01T11:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Jeder hat das Recht auf Erholung und Freizeit und insbesondere auf eine vernünftige Begrenzung der Arbeitszeit und regelmäßigen bezahlten Urlaub. (Allgemeine Erklärung der Menschenrechte, Artikel 24)",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Jeder hat das Recht auf Erholung und Freizeit und insbesondere auf eine vernünftige Begrenzung der Arbeitszeit und regelmäßigen bezahlten Urlaub. (Allgemeine Erklärung der Menschenrechte, Artikel 24)"
+    ],
+    "id": "840ce562-2c36-4bf3-a5ba-e047ae988621",
+    "attemptCount": 1,
+    "remoteId": "17996311613841266",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:40:40.358Z",
+    "updatedAt": "2026-11-01T11:00:39.313Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-11-01",
+    "contentDate": "2026-11-01",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-11-01T11:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Jeder hat das Recht auf Erholung und Freizeit und insbesondere auf eine vernünftige Begrenzung der Arbeitszeit und regelmäßigen bezahlten Urlaub. (Allgemeine Erklärung der Menschenrechte, Artikel 24)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Jeder hat das Recht auf Erholung und Freizeit und insbesondere auf eine vernünftige Begrenzung der Arbeitszeit und regelmäßigen bezahlten Urlaub. (Allgemeine Erklärung der Menschenrechte, Artikel 24)"
+    ],
+    "id": "69e40303-0792-4817-aea2-8a8769247103",
+    "attemptCount": 1,
+    "remoteId": "117540837175449597",
+    "remoteUrl": "https://kirche.social/@christoph/117540837175449597",
+    "lastError": null,
+    "createdAt": "2026-08-26T15:40:40.421Z",
+    "updatedAt": "2026-11-01T11:00:40.745Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
