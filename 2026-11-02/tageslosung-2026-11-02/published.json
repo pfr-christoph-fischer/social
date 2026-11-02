@@ -84,5 +84,62 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-11-02",
+    "contentDate": "2026-11-02",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-11-02T06:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Der HERR wird richten die Völker.",
+    "assets": [
+      "render-square-01.jpg"
+    ],
+    "altTexts": [
+      "Der HERR wird richten die Völker."
+    ],
+    "id": "d91bed9a-1b18-4a43-954d-c51a07d4fa66",
+    "attemptCount": 1,
+    "remoteId": "18359230369175945",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:47:16.898Z",
+    "updatedAt": "2026-11-02T06:00:58.338Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-11-02",
+    "contentDate": "2026-11-02",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-11-02T06:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Der HERR wird richten die Völker.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Der HERR wird richten die Völker."
+    ],
+    "id": "8d6b1d7b-487f-4b80-9b5f-7831fcc8120a",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3mzcnjhlo522j",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3mzcnjhlo522j",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:47:16.914Z",
+    "updatedAt": "2026-11-02T06:01:04.739Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
