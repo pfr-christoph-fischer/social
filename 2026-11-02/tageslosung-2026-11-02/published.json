@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-11-02",
+    "contentDate": "2026-11-02",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-11-02T06:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Der HERR wird richten die Völker.",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Der HERR wird richten die Völker."
+    ],
+    "id": "f62469ce-0e40-47be-a49d-c24086d0e174",
+    "attemptCount": 1,
+    "remoteId": "17975019045154682",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:47:16.860Z",
+    "updatedAt": "2026-11-02T06:00:43.037Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-11-02",
+    "contentDate": "2026-11-02",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-11-02T06:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Der HERR wird richten die Völker.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Der HERR wird richten die Völker."
+    ],
+    "id": "9272d6b9-bcdf-420a-b2e4-d7c2bd1da922",
+    "attemptCount": 1,
+    "remoteId": "117545320080578814",
+    "remoteUrl": "https://kirche.social/@christoph/117545320080578814",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:47:16.878Z",
+    "updatedAt": "2026-11-02T06:00:44.456Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
