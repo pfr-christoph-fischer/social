@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-11-02",
+    "contentDate": "2026-11-02",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-11-02T11:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Jeder hat das Recht auf einen Lebensstandard, der seine und seiner Familie Gesundheit und Wohl gewährleistet, einschließlich Nahrung, Kleidung, Wohnung, ärztliche Versorgung und notwendige soziale Leistungen. (Allgemeine Erklärung der Menschenrechte, Artikel 25 Absatz 1)",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Jeder hat das Recht auf einen Lebensstandard, der seine und seiner Familie Gesundheit und Wohl gewährleistet, einschließlich Nahrung, Kleidung, Wohnung, ärztliche Versorgung und notwendige soziale Leistungen. (Allgemeine Erklärung der Menschenrechte, Artikel 25 Absatz 1)"
+    ],
+    "id": "abf891f0-1b10-4eec-909b-fe6a60a8e792",
+    "attemptCount": 1,
+    "remoteId": "18093297575241499",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:40:43.617Z",
+    "updatedAt": "2026-11-02T11:00:41.628Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-11-02",
+    "contentDate": "2026-11-02",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-11-02T11:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Jeder hat das Recht auf einen Lebensstandard, der seine und seiner Familie Gesundheit und Wohl gewährleistet, einschließlich Nahrung, Kleidung, Wohnung, ärztliche Versorgung und notwendige soziale Leistungen. (Allgemeine Erklärung der Menschenrechte, Artikel 25 Absatz 1)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Jeder hat das Recht auf einen Lebensstandard, der seine und seiner Familie Gesundheit und Wohl gewährleistet, einschließlich Nahrung, Kleidung, Wohnung, ärztliche Versorgung und notwendige soziale Leistungen. (Allgemeine Erklärung der Menschenrechte, Artikel 25 Absatz 1)"
+    ],
+    "id": "5c2fa446-d74f-46ce-b0ba-70cab1043d5c",
+    "attemptCount": 1,
+    "remoteId": "117546499662869244",
+    "remoteUrl": "https://kirche.social/@christoph/117546499662869244",
+    "lastError": null,
+    "createdAt": "2026-08-26T15:40:43.668Z",
+    "updatedAt": "2026-11-02T11:00:43.467Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
