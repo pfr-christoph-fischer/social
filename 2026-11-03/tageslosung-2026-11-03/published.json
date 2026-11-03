@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-11-03",
+    "contentDate": "2026-11-03",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-11-03T06:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Weißt du nicht? Hast du nicht gehört? Der HERR, der ewige Gott, der die Enden der Erde geschaffen hat, wird nicht müde noch matt, sein Verstand ist unausforschlich.",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Weißt du nicht? Hast du nicht gehört? Der HERR, der ewige Gott, der die Enden der Erde geschaffen hat, wird nicht müde noch matt, sein Verstand ist unausforschlich."
+    ],
+    "id": "7810adc0-365a-48a3-a9a0-e16f15a81e9f",
+    "attemptCount": 1,
+    "remoteId": "18006813434793882",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:47:19.512Z",
+    "updatedAt": "2026-11-03T06:00:42.704Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-11-03",
+    "contentDate": "2026-11-03",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-11-03T06:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Weißt du nicht? Hast du nicht gehört? Der HERR, der ewige Gott, der die Enden der Erde geschaffen hat, wird nicht müde noch matt, sein Verstand ist unausforschlich.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Weißt du nicht? Hast du nicht gehört? Der HERR, der ewige Gott, der die Enden der Erde geschaffen hat, wird nicht müde noch matt, sein Verstand ist unausforschlich."
+    ],
+    "id": "781b88fe-d033-4eee-9d3f-28ce574a7420",
+    "attemptCount": 1,
+    "remoteId": "117550982399559350",
+    "remoteUrl": "https://kirche.social/@christoph/117550982399559350",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:47:19.528Z",
+    "updatedAt": "2026-11-03T06:00:44.623Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
