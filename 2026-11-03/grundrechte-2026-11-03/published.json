@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-11-03",
+    "contentDate": "2026-11-03",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-11-03T11:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Mütter und Kinder haben Anspruch auf besondere Fürsorge und Unterstützung. (Allgemeine Erklärung der Menschenrechte, Artikel 25 Absatz 2)",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Mütter und Kinder haben Anspruch auf besondere Fürsorge und Unterstützung. (Allgemeine Erklärung der Menschenrechte, Artikel 25 Absatz 2)"
+    ],
+    "id": "6259ffe6-8e34-4983-bd71-bf1d2821d7cc",
+    "attemptCount": 1,
+    "remoteId": "18147440008601035",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:40:48.001Z",
+    "updatedAt": "2026-11-03T11:00:48.100Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-11-03",
+    "contentDate": "2026-11-03",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-11-03T11:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Mütter und Kinder haben Anspruch auf besondere Fürsorge und Unterstützung. (Allgemeine Erklärung der Menschenrechte, Artikel 25 Absatz 2)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Mütter und Kinder haben Anspruch auf besondere Fürsorge und Unterstützung. (Allgemeine Erklärung der Menschenrechte, Artikel 25 Absatz 2)"
+    ],
+    "id": "f017d151-4d74-4bbd-b2a8-6eae6657d317",
+    "attemptCount": 1,
+    "remoteId": "117552162488754990",
+    "remoteUrl": "https://kirche.social/@christoph/117552162488754990",
+    "lastError": null,
+    "createdAt": "2026-08-26T15:40:48.051Z",
+    "updatedAt": "2026-11-03T11:00:51.367Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
