@@ -84,5 +84,62 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-11-03",
+    "contentDate": "2026-11-03",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-11-03T11:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Mütter und Kinder haben Anspruch auf besondere Fürsorge und Unterstützung. (Allgemeine Erklärung der Menschenrechte, Artikel 25 Absatz 2)",
+    "assets": [
+      "render-square-01.jpg"
+    ],
+    "altTexts": [
+      "Mütter und Kinder haben Anspruch auf besondere Fürsorge und Unterstützung. (Allgemeine Erklärung der Menschenrechte, Artikel 25 Absatz 2)"
+    ],
+    "id": "e9d7b7aa-0bf2-46b7-b1dc-22c945dbd3c1",
+    "attemptCount": 1,
+    "remoteId": "18095808824175102",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:40:48.105Z",
+    "updatedAt": "2026-11-03T11:01:04.345Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-11-03",
+    "contentDate": "2026-11-03",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-11-03T11:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Mütter und Kinder haben Anspruch auf besondere Fürsorge und Unterstützung. (Allgemeine Erklärung der Menschenrechte, Artikel 25 Absatz 2)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Mütter und Kinder haben Anspruch auf besondere Fürsorge und Unterstützung. (Allgemeine Erklärung der Menschenrechte, Artikel 25 Absatz 2)"
+    ],
+    "id": "b08166b1-3cf9-4f3d-ac7f-5bb980ed24ed",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3mzfoqysq7v2w",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3mzfoqysq7v2w",
+    "lastError": null,
+    "createdAt": "2026-08-26T15:40:48.158Z",
+    "updatedAt": "2026-11-03T11:01:07.883Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
