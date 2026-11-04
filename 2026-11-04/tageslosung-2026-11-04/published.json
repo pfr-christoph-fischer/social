@@ -84,5 +84,62 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-11-04",
+    "contentDate": "2026-11-04",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-11-04T06:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Der HERR wird Zion wieder trösten.",
+    "assets": [
+      "render-square-01.jpg"
+    ],
+    "altTexts": [
+      "Der HERR wird Zion wieder trösten."
+    ],
+    "id": "cb230f4f-a83d-41d9-b5bb-8be022ab6a16",
+    "attemptCount": 1,
+    "remoteId": "18122692477993585",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:47:21.966Z",
+    "updatedAt": "2026-11-04T06:01:00.949Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-11-04",
+    "contentDate": "2026-11-04",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-11-04T06:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Der HERR wird Zion wieder trösten.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Der HERR wird Zion wieder trösten."
+    ],
+    "id": "fdca0a2a-e87f-4cb3-a5dd-af067a4aaed0",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3mzhoherti22t",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3mzhoherti22t",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:47:21.975Z",
+    "updatedAt": "2026-11-04T06:01:06.346Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
