@@ -27,5 +27,90 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-11-04",
+    "contentDate": "2026-11-04",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-11-04T11:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Jeder hat das Recht auf Bildung. (Allgemeine Erklärung der Menschenrechte, Artikel 26 Absatz 1)",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Jeder hat das Recht auf Bildung. (Allgemeine Erklärung der Menschenrechte, Artikel 26 Absatz 1)"
+    ],
+    "id": "de424648-1e8f-4244-8121-d0106673bcb1",
+    "attemptCount": 1,
+    "remoteId": "18195391306393005",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:40:51.742Z",
+    "updatedAt": "2026-11-04T11:00:47.880Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-11-04",
+    "contentDate": "2026-11-04",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-11-04T11:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Jeder hat das Recht auf Bildung. (Allgemeine Erklärung der Menschenrechte, Artikel 26 Absatz 1)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Jeder hat das Recht auf Bildung. (Allgemeine Erklärung der Menschenrechte, Artikel 26 Absatz 1)"
+    ],
+    "id": "b311b490-c56a-4f02-a2cb-43679ecda9fa",
+    "attemptCount": 1,
+    "remoteId": "117557824661764596",
+    "remoteUrl": "https://kirche.social/@christoph/117557824661764596",
+    "lastError": null,
+    "createdAt": "2026-08-26T15:40:51.831Z",
+    "updatedAt": "2026-11-04T11:00:49.238Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-11-04",
+    "contentDate": "2026-11-04",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-11-04T11:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Jeder hat das Recht auf Bildung. (Allgemeine Erklärung der Menschenrechte, Artikel 26 Absatz 1)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Jeder hat das Recht auf Bildung. (Allgemeine Erklärung der Menschenrechte, Artikel 26 Absatz 1)"
+    ],
+    "id": "8c28993b-f864-48f9-9482-af10009aa779",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3mzi77jy5cy2u",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3mzi77jy5cy2u",
+    "lastError": null,
+    "createdAt": "2026-08-26T15:40:51.975Z",
+    "updatedAt": "2026-11-04T11:00:54.858Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
