@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-11-04",
+    "contentDate": "2026-11-04",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-11-04T06:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Der HERR wird Zion wieder trösten.",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Der HERR wird Zion wieder trösten."
+    ],
+    "id": "5ffb1dfa-8f24-4eb3-b06f-d6028733d2d6",
+    "attemptCount": 1,
+    "remoteId": "18134002414672707",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:47:21.948Z",
+    "updatedAt": "2026-11-04T06:00:44.472Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-11-04",
+    "contentDate": "2026-11-04",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-11-04T06:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Der HERR wird Zion wieder trösten.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Der HERR wird Zion wieder trösten."
+    ],
+    "id": "46bdfa50-1462-4104-9ed3-76c7ba427341",
+    "attemptCount": 1,
+    "remoteId": "117556644855273681",
+    "remoteUrl": "https://kirche.social/@christoph/117556644855273681",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:47:21.957Z",
+    "updatedAt": "2026-11-04T06:00:46.824Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
