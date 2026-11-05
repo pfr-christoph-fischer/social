@@ -84,5 +84,62 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-11-05",
+    "contentDate": "2026-11-05",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-11-05T11:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Die Bildung ist unentgeltlich, zum mindesten der Grundschulunterricht und die grundlegende Bildung. (Allgemeine Erklärung der Menschenrechte, Artikel 26 Absatz 1)",
+    "assets": [
+      "render-square-01.jpg"
+    ],
+    "altTexts": [
+      "Die Bildung ist unentgeltlich, zum mindesten der Grundschulunterricht und die grundlegende Bildung. (Allgemeine Erklärung der Menschenrechte, Artikel 26 Absatz 1)"
+    ],
+    "id": "86f69561-6373-4634-ae5d-0f9d2be9cd95",
+    "attemptCount": 1,
+    "remoteId": "18090981821695506",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:40:55.832Z",
+    "updatedAt": "2026-11-05T11:01:00.435Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-11-05",
+    "contentDate": "2026-11-05",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-11-05T11:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Die Bildung ist unentgeltlich, zum mindesten der Grundschulunterricht und die grundlegende Bildung. (Allgemeine Erklärung der Menschenrechte, Artikel 26 Absatz 1)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Die Bildung ist unentgeltlich, zum mindesten der Grundschulunterricht und die grundlegende Bildung. (Allgemeine Erklärung der Menschenrechte, Artikel 26 Absatz 1)"
+    ],
+    "id": "ad5c5c4e-e84d-4681-ba31-dcac9a51b2bb",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3mzkporc7yg2j",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3mzkporc7yg2j",
+    "lastError": null,
+    "createdAt": "2026-08-26T15:40:55.878Z",
+    "updatedAt": "2026-11-05T11:01:05.620Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
