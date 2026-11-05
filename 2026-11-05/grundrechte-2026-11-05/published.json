@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-11-05",
+    "contentDate": "2026-11-05",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-11-05T11:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Die Bildung ist unentgeltlich, zum mindesten der Grundschulunterricht und die grundlegende Bildung. (Allgemeine Erklärung der Menschenrechte, Artikel 26 Absatz 1)",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Die Bildung ist unentgeltlich, zum mindesten der Grundschulunterricht und die grundlegende Bildung. (Allgemeine Erklärung der Menschenrechte, Artikel 26 Absatz 1)"
+    ],
+    "id": "eb46fea3-8936-4578-9782-6c53682d922d",
+    "attemptCount": 1,
+    "remoteId": "18383481478239436",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:40:55.686Z",
+    "updatedAt": "2026-11-05T11:00:44.398Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-11-05",
+    "contentDate": "2026-11-05",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-11-05T11:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Die Bildung ist unentgeltlich, zum mindesten der Grundschulunterricht und die grundlegende Bildung. (Allgemeine Erklärung der Menschenrechte, Artikel 26 Absatz 1)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Die Bildung ist unentgeltlich, zum mindesten der Grundschulunterricht und die grundlegende Bildung. (Allgemeine Erklärung der Menschenrechte, Artikel 26 Absatz 1)"
+    ],
+    "id": "28b2bae0-7c41-464e-8394-e50c4b990d60",
+    "attemptCount": 1,
+    "remoteId": "117563486749818463",
+    "remoteUrl": "https://kirche.social/@christoph/117563486749818463",
+    "lastError": null,
+    "createdAt": "2026-08-26T15:40:55.781Z",
+    "updatedAt": "2026-11-05T11:00:45.836Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
