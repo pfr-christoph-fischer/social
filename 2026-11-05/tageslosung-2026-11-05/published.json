@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-11-05",
+    "contentDate": "2026-11-05",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-11-05T06:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Er wird auftreten und sie weiden in der Kraft des HERRN.",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Er wird auftreten und sie weiden in der Kraft des HERRN."
+    ],
+    "id": "cf607346-30f2-491f-9d74-4f7eda9f938d",
+    "attemptCount": 1,
+    "remoteId": "18103648193641140",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:47:24.503Z",
+    "updatedAt": "2026-11-05T06:00:38.575Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-11-05",
+    "contentDate": "2026-11-05",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-11-05T06:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Er wird auftreten und sie weiden in der Kraft des HERRN.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Er wird auftreten und sie weiden in der Kraft des HERRN."
+    ],
+    "id": "910491bf-85e6-4bbd-b484-35967ad745dd",
+    "attemptCount": 1,
+    "remoteId": "117562306733246927",
+    "remoteUrl": "https://kirche.social/@christoph/117562306733246927",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:47:24.522Z",
+    "updatedAt": "2026-11-05T06:00:40.199Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
