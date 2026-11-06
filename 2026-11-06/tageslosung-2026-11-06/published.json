@@ -84,5 +84,62 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-11-06",
+    "contentDate": "2026-11-06",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-11-06T06:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Brich dem Hungrigen dein Brot!",
+    "assets": [
+      "render-square-01.jpg"
+    ],
+    "altTexts": [
+      "Brich dem Hungrigen dein Brot!"
+    ],
+    "id": "6a8bd328-a97b-4740-a7c9-9cb82d4cb7f9",
+    "attemptCount": 1,
+    "remoteId": "17914882386554176",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:47:26.841Z",
+    "updatedAt": "2026-11-06T06:00:55.941Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-11-06",
+    "contentDate": "2026-11-06",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-11-06T06:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Brich dem Hungrigen dein Brot!",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Brich dem Hungrigen dein Brot!"
+    ],
+    "id": "6a542718-8be5-4792-a016-a49204839300",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3mzmpf3jq7j2s",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3mzmpf3jq7j2s",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:47:26.854Z",
+    "updatedAt": "2026-11-06T06:00:59.808Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
