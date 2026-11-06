@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-11-06",
+    "contentDate": "2026-11-06",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-11-06T06:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Brich dem Hungrigen dein Brot!",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Brich dem Hungrigen dein Brot!"
+    ],
+    "id": "4f0e7718-9420-44ef-b08f-178abd7bc160",
+    "attemptCount": 1,
+    "remoteId": "17874533289637530",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:47:26.812Z",
+    "updatedAt": "2026-11-06T06:00:41.309Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-11-06",
+    "contentDate": "2026-11-06",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-11-06T06:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Brich dem Hungrigen dein Brot!",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Brich dem Hungrigen dein Brot!"
+    ],
+    "id": "eef0e541-914d-4f91-8587-de0b1eda4825",
+    "attemptCount": 1,
+    "remoteId": "117567969196011674",
+    "remoteUrl": "https://kirche.social/@christoph/117567969196011674",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:47:26.829Z",
+    "updatedAt": "2026-11-06T06:00:42.532Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
