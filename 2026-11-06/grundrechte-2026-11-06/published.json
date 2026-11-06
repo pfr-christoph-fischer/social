@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-11-06",
+    "contentDate": "2026-11-06",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-11-06T11:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Die Bildung muss auf die volle Entfaltung der menschlichen Persönlichkeit und auf die Stärkung der Achtung vor den Menschenrechten und Grundfreiheiten gerichtet sein. (Allgemeine Erklärung der Menschenrechte, Artikel 26 Absatz 2)",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Die Bildung muss auf die volle Entfaltung der menschlichen Persönlichkeit und auf die Stärkung der Achtung vor den Menschenrechten und Grundfreiheiten gerichtet sein. (Allgemeine Erklärung der Menschenrechte, Artikel 26 Absatz 2)"
+    ],
+    "id": "db215038-163d-49e4-af3a-dd1a3000b08b",
+    "attemptCount": 1,
+    "remoteId": "18062593112539994",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:40:59.557Z",
+    "updatedAt": "2026-11-06T11:00:47.445Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-11-06",
+    "contentDate": "2026-11-06",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-11-06T11:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Die Bildung muss auf die volle Entfaltung der menschlichen Persönlichkeit und auf die Stärkung der Achtung vor den Menschenrechten und Grundfreiheiten gerichtet sein. (Allgemeine Erklärung der Menschenrechte, Artikel 26 Absatz 2)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Die Bildung muss auf die volle Entfaltung der menschlichen Persönlichkeit und auf die Stärkung der Achtung vor den Menschenrechten und Grundfreiheiten gerichtet sein. (Allgemeine Erklärung der Menschenrechte, Artikel 26 Absatz 2)"
+    ],
+    "id": "fe78fdcc-1206-4e50-8f5b-4203e0f478db",
+    "attemptCount": 1,
+    "remoteId": "117569149410335508",
+    "remoteUrl": "https://kirche.social/@christoph/117569149410335508",
+    "lastError": null,
+    "createdAt": "2026-08-26T15:40:59.615Z",
+    "updatedAt": "2026-11-06T11:00:51.186Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
