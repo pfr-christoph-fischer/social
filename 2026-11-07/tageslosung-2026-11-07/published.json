@@ -84,5 +84,62 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-11-07",
+    "contentDate": "2026-11-07",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-11-07T06:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Du machst Winde zu deinen Boten und Feuerflammen zu deinen Dienern.",
+    "assets": [
+      "render-square-01.jpg"
+    ],
+    "altTexts": [
+      "Du machst Winde zu deinen Boten und Feuerflammen zu deinen Dienern."
+    ],
+    "id": "4ae2dc9f-2c3c-4c21-90ff-192654539f6d",
+    "attemptCount": 1,
+    "remoteId": "18127020418914822",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:47:29.151Z",
+    "updatedAt": "2026-11-07T06:01:22.583Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-11-07",
+    "contentDate": "2026-11-07",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-11-07T06:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Du machst Winde zu deinen Boten und Feuerflammen zu deinen Dienern.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Du machst Winde zu deinen Boten und Feuerflammen zu deinen Dienern."
+    ],
+    "id": "02889c91-da97-43e9-be41-6901b0aded8f",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3mzp7ur64372s",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3mzp7ur64372s",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:47:29.163Z",
+    "updatedAt": "2026-11-07T06:01:25.381Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
