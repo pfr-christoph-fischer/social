@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-11-07",
+    "contentDate": "2026-11-07",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-11-07T11:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Die Eltern haben ein vorrangiges Recht, die Art der Bildung zu wählen, die ihren Kindern zuteil werden soll. (Allgemeine Erklärung der Menschenrechte, Artikel 26 Absatz 3)",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Die Eltern haben ein vorrangiges Recht, die Art der Bildung zu wählen, die ihren Kindern zuteil werden soll. (Allgemeine Erklärung der Menschenrechte, Artikel 26 Absatz 3)"
+    ],
+    "id": "93f14bf0-c315-414c-b70c-a7c98cbc1400",
+    "attemptCount": 1,
+    "remoteId": "18108892250289962",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:41:04.631Z",
+    "updatedAt": "2026-11-07T11:00:46.216Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-11-07",
+    "contentDate": "2026-11-07",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-11-07T11:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Die Eltern haben ein vorrangiges Recht, die Art der Bildung zu wählen, die ihren Kindern zuteil werden soll. (Allgemeine Erklärung der Menschenrechte, Artikel 26 Absatz 3)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Die Eltern haben ein vorrangiges Recht, die Art der Bildung zu wählen, die ihren Kindern zuteil werden soll. (Allgemeine Erklärung der Menschenrechte, Artikel 26 Absatz 3)"
+    ],
+    "id": "4120d740-3c1f-43f5-b7c2-fc1b723e32e0",
+    "attemptCount": 1,
+    "remoteId": "117574811529897536",
+    "remoteUrl": "https://kirche.social/@christoph/117574811529897536",
+    "lastError": null,
+    "createdAt": "2026-08-26T15:41:04.722Z",
+    "updatedAt": "2026-11-07T11:00:48.299Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
