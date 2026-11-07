@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-11-07",
+    "contentDate": "2026-11-07",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-11-07T06:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Du machst Winde zu deinen Boten und Feuerflammen zu deinen Dienern.",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Du machst Winde zu deinen Boten und Feuerflammen zu deinen Dienern."
+    ],
+    "id": "a1794f11-beaa-4dca-85dd-05c88f821c17",
+    "attemptCount": 1,
+    "remoteId": "18142176133615964",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:47:29.122Z",
+    "updatedAt": "2026-11-07T06:00:53.232Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-11-07",
+    "contentDate": "2026-11-07",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-11-07T06:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Du machst Winde zu deinen Boten und Feuerflammen zu deinen Dienern.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Du machst Winde zu deinen Boten und Feuerflammen zu deinen Dienern."
+    ],
+    "id": "08e86cb5-4bb9-4356-807d-3170ff0d08ff",
+    "attemptCount": 1,
+    "remoteId": "117573632302606491",
+    "remoteUrl": "https://kirche.social/@christoph/117573632302606491",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:47:29.136Z",
+    "updatedAt": "2026-11-07T06:00:54.676Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
