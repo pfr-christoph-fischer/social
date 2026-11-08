@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-11-08",
+    "contentDate": "2026-11-08",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-11-08T11:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Das gesamte Schulwesen steht unter der Aufsicht des Staates. (Grundgesetz, Artikel 7 Absatz 1)",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Das gesamte Schulwesen steht unter der Aufsicht des Staates. (Grundgesetz, Artikel 7 Absatz 1)"
+    ],
+    "id": "e7ce545a-d8eb-4bb9-90d5-402e1b9565e1",
+    "attemptCount": 1,
+    "remoteId": "18143891779723340",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:41:08.366Z",
+    "updatedAt": "2026-11-08T11:00:41.066Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-11-08",
+    "contentDate": "2026-11-08",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-11-08T11:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Das gesamte Schulwesen steht unter der Aufsicht des Staates. (Grundgesetz, Artikel 7 Absatz 1)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Das gesamte Schulwesen steht unter der Aufsicht des Staates. (Grundgesetz, Artikel 7 Absatz 1)"
+    ],
+    "id": "60d8e4fb-dfea-456e-a526-41b81ff8b4d1",
+    "attemptCount": 1,
+    "remoteId": "117580473582491619",
+    "remoteUrl": "https://kirche.social/@christoph/117580473582491619",
+    "lastError": null,
+    "createdAt": "2026-08-26T15:41:08.421Z",
+    "updatedAt": "2026-11-08T11:00:44.583Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
