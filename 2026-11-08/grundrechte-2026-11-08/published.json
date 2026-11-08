@@ -84,5 +84,62 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-11-08",
+    "contentDate": "2026-11-08",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-11-08T11:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Das gesamte Schulwesen steht unter der Aufsicht des Staates. (Grundgesetz, Artikel 7 Absatz 1)",
+    "assets": [
+      "render-square-01.jpg"
+    ],
+    "altTexts": [
+      "Das gesamte Schulwesen steht unter der Aufsicht des Staates. (Grundgesetz, Artikel 7 Absatz 1)"
+    ],
+    "id": "8670e5d6-71e8-4e53-97a7-a68a749ed12a",
+    "attemptCount": 1,
+    "remoteId": "17896143081432205",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:41:08.466Z",
+    "updatedAt": "2026-11-08T11:00:56.666Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-11-08",
+    "contentDate": "2026-11-08",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-11-08T11:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Das gesamte Schulwesen steht unter der Aufsicht des Staates. (Grundgesetz, Artikel 7 Absatz 1)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Das gesamte Schulwesen steht unter der Aufsicht des Staates. (Grundgesetz, Artikel 7 Absatz 1)"
+    ],
+    "id": "3a84c58c-a56a-40c9-8e49-a6ab06ac6751",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3mzsb3ebt752y",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3mzsb3ebt752y",
+    "lastError": null,
+    "createdAt": "2026-08-26T15:41:08.518Z",
+    "updatedAt": "2026-11-08T11:00:59.565Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
