@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-11-08",
+    "contentDate": "2026-11-08",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-11-08T06:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Abram sprach zu Lot: Es soll kein Zank sein zwischen mir und dir und zwischen meinen und deinen Hirten; denn wir sind Brüder.",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Abram sprach zu Lot: Es soll kein Zank sein zwischen mir und dir und zwischen meinen und deinen Hirten; denn wir sind Brüder."
+    ],
+    "id": "eca75ea2-697d-4a29-8d27-b80820affd86",
+    "attemptCount": 1,
+    "remoteId": "18081536069541458",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:47:31.481Z",
+    "updatedAt": "2026-11-08T06:00:45.609Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-11-08",
+    "contentDate": "2026-11-08",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-11-08T06:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Abram sprach zu Lot: Es soll kein Zank sein zwischen mir und dir und zwischen meinen und deinen Hirten; denn wir sind Brüder.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Abram sprach zu Lot: Es soll kein Zank sein zwischen mir und dir und zwischen meinen und deinen Hirten; denn wir sind Brüder."
+    ],
+    "id": "9f123007-9df9-44f7-aa02-8449c66947ff",
+    "attemptCount": 1,
+    "remoteId": "117579294108808455",
+    "remoteUrl": "https://kirche.social/@christoph/117579294108808455",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:47:31.498Z",
+    "updatedAt": "2026-11-08T06:00:47.562Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
