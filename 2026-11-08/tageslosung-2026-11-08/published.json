@@ -84,5 +84,62 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-11-08",
+    "contentDate": "2026-11-08",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-11-08T06:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Abram sprach zu Lot: Es soll kein Zank sein zwischen mir und dir und zwischen meinen und deinen Hirten; denn wir sind Brüder.",
+    "assets": [
+      "render-square-01.jpg"
+    ],
+    "altTexts": [
+      "Abram sprach zu Lot: Es soll kein Zank sein zwischen mir und dir und zwischen meinen und deinen Hirten; denn wir sind Brüder."
+    ],
+    "id": "4fa2f967-7382-460a-9232-3589dccdf3e9",
+    "attemptCount": 1,
+    "remoteId": "18036953267886884",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:47:31.512Z",
+    "updatedAt": "2026-11-08T06:01:05.595Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-11-08",
+    "contentDate": "2026-11-08",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-11-08T06:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Abram sprach zu Lot: Es soll kein Zank sein zwischen mir und dir und zwischen meinen und deinen Hirten; denn wir sind Brüder.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Abram sprach zu Lot: Es soll kein Zank sein zwischen mir und dir und zwischen meinen und deinen Hirten; denn wir sind Brüder."
+    ],
+    "id": "ac95606b-3380-47e8-a48f-4c543f43c141",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3mzrqdadbm72w",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3mzrqdadbm72w",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:47:31.526Z",
+    "updatedAt": "2026-11-08T06:01:10.233Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
