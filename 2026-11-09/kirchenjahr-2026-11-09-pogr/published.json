@@ -56,5 +56,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "kirchenjahr-2026-11-09-pogr",
+    "contentDate": "2026-11-09",
+    "platform": "facebook",
+    "format": "square",
+    "scheduledAt": "2026-11-09T08:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Tag des Gedenkens an die Novemberprogrome\n\nWochenspruch: „Wer weiß, Gutes zu tun und tut's nicht, dem ist's Sünde.“ (Jak 4,17)\n\nPsalm: Ps 74,1-3.8-11.20-21\n\nAltes Testament: Spr 24,10-12\n\nEvangelium: Mk 14,66-72\n\nEpistel: 1. Petr 5,8-9\n\nPredigttext: 1. Petr 5,8-9\n\nLieder: Nimm von uns, Herr, du treuer Gott, EG 146; O Herr, nimm unsre Schuld, EG 235",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Tag des Gedenkens an die Novemberprogrome"
+    ],
+    "id": "4bf579bb-66d9-4752-9073-f9573bc8bdea",
+    "attemptCount": 1,
+    "remoteId": "1289703740890525_122132972103426121",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-15T16:58:58.614Z",
+    "updatedAt": "2026-11-09T08:01:11.483Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "PHOTO",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "kirchenjahr-2026-11-09-pogr",
+    "contentDate": "2026-11-09",
+    "platform": "mastodon",
+    "format": "square",
+    "scheduledAt": "2026-11-09T08:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Tag des Gedenkens an die Novemberprogrome\n\nWochenspruch: „Wer weiß, Gutes zu tun und tut's nicht, dem ist's Sünde.“ (Jak 4,17)\n\nPsalm: Ps 74,1-3.8-11.20-21\n\nAltes Testament: Spr 24,10-12\n\nEvangelium: Mk 14,66-72\n\nEpistel: 1. Petr 5,8-9\n\nPredigttext: 1. Petr 5,8-9\n\nLieder: Nimm von uns, Herr, du treuer Gott, EG 146; O Herr, nimm unsre Schuld, EG 235",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Tag des Gedenkens an die Novemberprogrome"
+    ],
+    "id": "434140f0-efc1-48b4-98c5-a926612f7d12",
+    "attemptCount": 1,
+    "remoteId": "117585430029595226",
+    "remoteUrl": "https://kirche.social/@christoph/117585430029595226",
+    "lastError": null,
+    "createdAt": "2026-08-15T16:58:58.651Z",
+    "updatedAt": "2026-11-09T08:01:13.936Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
