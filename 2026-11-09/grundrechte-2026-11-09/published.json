@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-11-09",
+    "contentDate": "2026-11-09",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-11-09T11:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Die Erziehungsberechtigten haben das Recht, über die Teilnahme des Kindes am Religionsunterricht zu bestimmen. (Grundgesetz, Artikel 7 Absatz 2)",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Die Erziehungsberechtigten haben das Recht, über die Teilnahme des Kindes am Religionsunterricht zu bestimmen. (Grundgesetz, Artikel 7 Absatz 2)"
+    ],
+    "id": "3bb4bfcf-fc24-433b-bbd4-68021e24ddd6",
+    "attemptCount": 1,
+    "remoteId": "18111161689911180",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:41:12.387Z",
+    "updatedAt": "2026-11-09T11:00:48.951Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-11-09",
+    "contentDate": "2026-11-09",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-11-09T11:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Die Erziehungsberechtigten haben das Recht, über die Teilnahme des Kindes am Religionsunterricht zu bestimmen. (Grundgesetz, Artikel 7 Absatz 2)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Die Erziehungsberechtigten haben das Recht, über die Teilnahme des Kindes am Religionsunterricht zu bestimmen. (Grundgesetz, Artikel 7 Absatz 2)"
+    ],
+    "id": "9ae87486-8e35-49f4-940c-84e18a0fad1e",
+    "attemptCount": 1,
+    "remoteId": "117586136284433110",
+    "remoteUrl": "https://kirche.social/@christoph/117586136284433110",
+    "lastError": null,
+    "createdAt": "2026-08-26T15:41:12.433Z",
+    "updatedAt": "2026-11-09T11:00:50.305Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
