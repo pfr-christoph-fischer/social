@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-11-09",
+    "contentDate": "2026-11-09",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-11-09T06:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Unsre Missetaten stellst du vor dich, unsre unerkannte Sünde ins Licht vor deinem Angesicht.",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Unsre Missetaten stellst du vor dich, unsre unerkannte Sünde ins Licht vor deinem Angesicht."
+    ],
+    "id": "47f9ff0c-d3ba-4f33-8359-a13a58702b94",
+    "attemptCount": 1,
+    "remoteId": "18133996570753442",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:47:33.739Z",
+    "updatedAt": "2026-11-09T06:00:46.528Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-11-09",
+    "contentDate": "2026-11-09",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-11-09T06:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Unsre Missetaten stellst du vor dich, unsre unerkannte Sünde ins Licht vor deinem Angesicht.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Unsre Missetaten stellst du vor dich, unsre unerkannte Sünde ins Licht vor deinem Angesicht."
+    ],
+    "id": "05f5e8ad-0d74-4813-82b7-36e1d300b3e9",
+    "attemptCount": 1,
+    "remoteId": "117584956529378631",
+    "remoteUrl": "https://kirche.social/@christoph/117584956529378631",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:47:33.762Z",
+    "updatedAt": "2026-11-09T06:00:48.653Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
