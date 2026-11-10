@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-11-10",
+    "contentDate": "2026-11-10",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-11-10T06:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Seid getrost und unverzagt alle, die ihr des HERRN harret!",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Seid getrost und unverzagt alle, die ihr des HERRN harret!"
+    ],
+    "id": "f603e77f-5e05-43e0-9244-dc08448f0bb3",
+    "attemptCount": 1,
+    "remoteId": "18116219783143037",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:47:35.949Z",
+    "updatedAt": "2026-11-10T06:00:50.602Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-11-10",
+    "contentDate": "2026-11-10",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-11-10T06:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Seid getrost und unverzagt alle, die ihr des HERRN harret!",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Seid getrost und unverzagt alle, die ihr des HERRN harret!"
+    ],
+    "id": "287afb10-3335-4e46-9286-c55274ec7f2f",
+    "attemptCount": 1,
+    "remoteId": "117590619106307083",
+    "remoteUrl": "https://kirche.social/@christoph/117590619106307083",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:47:35.962Z",
+    "updatedAt": "2026-11-10T06:00:52.741Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
