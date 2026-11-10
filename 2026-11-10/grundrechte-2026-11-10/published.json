@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-11-10",
+    "contentDate": "2026-11-10",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-11-10T11:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Der Religionsunterricht ist in den öffentlichen Schulen mit Ausnahme der bekenntnisfreien Schulen ordentliches Lehrfach. (Grundgesetz, Artikel 7 Absatz 3)",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Der Religionsunterricht ist in den öffentlichen Schulen mit Ausnahme der bekenntnisfreien Schulen ordentliches Lehrfach. (Grundgesetz, Artikel 7 Absatz 3)"
+    ],
+    "id": "f47c250b-1d85-4ec4-b2ca-42a3d4464612",
+    "attemptCount": 1,
+    "remoteId": "18098491733693857",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:41:15.850Z",
+    "updatedAt": "2026-11-10T11:01:06.544Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-11-10",
+    "contentDate": "2026-11-10",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-11-10T11:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Der Religionsunterricht ist in den öffentlichen Schulen mit Ausnahme der bekenntnisfreien Schulen ordentliches Lehrfach. (Grundgesetz, Artikel 7 Absatz 3)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Der Religionsunterricht ist in den öffentlichen Schulen mit Ausnahme der bekenntnisfreien Schulen ordentliches Lehrfach. (Grundgesetz, Artikel 7 Absatz 3)"
+    ],
+    "id": "4f5a510a-80cf-42b0-a66e-196a4202f94b",
+    "attemptCount": 1,
+    "remoteId": "117591799969142613",
+    "remoteUrl": "https://kirche.social/@christoph/117591799969142613",
+    "lastError": null,
+    "createdAt": "2026-08-26T15:41:15.903Z",
+    "updatedAt": "2026-11-10T11:01:11.295Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
