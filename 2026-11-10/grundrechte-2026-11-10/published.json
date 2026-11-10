@@ -84,5 +84,62 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-11-10",
+    "contentDate": "2026-11-10",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-11-10T11:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Der Religionsunterricht ist in den öffentlichen Schulen mit Ausnahme der bekenntnisfreien Schulen ordentliches Lehrfach. (Grundgesetz, Artikel 7 Absatz 3)",
+    "assets": [
+      "render-square-01.jpg"
+    ],
+    "altTexts": [
+      "Der Religionsunterricht ist in den öffentlichen Schulen mit Ausnahme der bekenntnisfreien Schulen ordentliches Lehrfach. (Grundgesetz, Artikel 7 Absatz 3)"
+    ],
+    "id": "1156d68f-9773-45e3-8679-dbba0487726a",
+    "attemptCount": 1,
+    "remoteId": "18114096275612611",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:41:15.953Z",
+    "updatedAt": "2026-11-10T11:01:26.973Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-11-10",
+    "contentDate": "2026-11-10",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-11-10T11:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Der Religionsunterricht ist in den öffentlichen Schulen mit Ausnahme der bekenntnisfreien Schulen ordentliches Lehrfach. (Grundgesetz, Artikel 7 Absatz 3)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Der Religionsunterricht ist in den öffentlichen Schulen mit Ausnahme der bekenntnisfreien Schulen ordentliches Lehrfach. (Grundgesetz, Artikel 7 Absatz 3)"
+    ],
+    "id": "35a1188b-327c-4def-b446-2f385a5bee93",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3mzxc23zboy2l",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3mzxc23zboy2l",
+    "lastError": null,
+    "createdAt": "2026-08-26T15:41:16.009Z",
+    "updatedAt": "2026-11-10T11:01:29.931Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
