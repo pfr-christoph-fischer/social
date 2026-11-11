@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-11-11",
+    "contentDate": "2026-11-11",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-11-11T11:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Kein Lehrer darf gegen seinen Willen verpflichtet werden, Religionsunterricht zu erteilen. (Grundgesetz, Artikel 7 Absatz 3)",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Kein Lehrer darf gegen seinen Willen verpflichtet werden, Religionsunterricht zu erteilen. (Grundgesetz, Artikel 7 Absatz 3)"
+    ],
+    "id": "12b9e0bd-c6b2-4f70-864b-297602d2aa5b",
+    "attemptCount": 1,
+    "remoteId": "17865545436697071",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:41:19.276Z",
+    "updatedAt": "2026-11-11T11:00:49.654Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-11-11",
+    "contentDate": "2026-11-11",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-11-11T11:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Kein Lehrer darf gegen seinen Willen verpflichtet werden, Religionsunterricht zu erteilen. (Grundgesetz, Artikel 7 Absatz 3)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Kein Lehrer darf gegen seinen Willen verpflichtet werden, Religionsunterricht zu erteilen. (Grundgesetz, Artikel 7 Absatz 3)"
+    ],
+    "id": "6d81e4d2-b880-48c1-93d7-e81f1e1bb9c6",
+    "attemptCount": 1,
+    "remoteId": "117597461000208775",
+    "remoteUrl": "https://kirche.social/@christoph/117597461000208775",
+    "lastError": null,
+    "createdAt": "2026-08-26T15:41:19.466Z",
+    "updatedAt": "2026-11-11T11:00:51.764Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
