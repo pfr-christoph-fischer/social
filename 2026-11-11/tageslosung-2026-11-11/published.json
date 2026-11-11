@@ -84,5 +84,62 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-11-11",
+    "contentDate": "2026-11-11",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-11-11T06:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Ich will auf den HERRN schauen und harren auf den Gott meines Heils; mein Gott wird mich erhören.",
+    "assets": [
+      "render-square-01.jpg"
+    ],
+    "altTexts": [
+      "Ich will auf den HERRN schauen und harren auf den Gott meines Heils; mein Gott wird mich erhören."
+    ],
+    "id": "9e2d2222-c66d-441e-9e8d-7c8b532a6c1b",
+    "attemptCount": 1,
+    "remoteId": "18015508715766580",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:47:38.151Z",
+    "updatedAt": "2026-11-11T06:01:04.346Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-11-11",
+    "contentDate": "2026-11-11",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-11-11T06:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Ich will auf den HERRN schauen und harren auf den Gott meines Heils; mein Gott wird mich erhören.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Ich will auf den HERRN schauen und harren auf den Gott meines Heils; mein Gott wird mich erhören."
+    ],
+    "id": "e0f596f8-7810-4283-895a-8cb2231066c0",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3mzzbpwmiuz22",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3mzzbpwmiuz22",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:47:38.180Z",
+    "updatedAt": "2026-11-11T06:01:08.188Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
