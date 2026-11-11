@@ -56,5 +56,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "kirchenjahr-2026-11-11-mart",
+    "contentDate": "2026-11-11",
+    "platform": "facebook",
+    "format": "square",
+    "scheduledAt": "2026-11-11T08:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Martinstag (Bischof Martin von Tours)\n\nWochenspruch: „Was ihr getan habt einem von diesen meinen geringsten Brüdern, das habt ihr mir getan.“ (Mt 25,40b)\n\nPsalm: Ps 146\n\nAltes Testament: Jes 58,6-11\n\nEvangelium: Mt 25,31-40\n\nEpistel: 2. Kor 8,7-9\n\nPredigttext: Mt 25,31-40\n\nLieder: Herr, mach uns stark im Mut, der dich bekennt, EG 154; Die Heiligen uns weit voran, NL 20",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Martinstag (Bischof Martin von Tours)"
+    ],
+    "id": "da1497d1-bd69-49b2-b7b3-220e819eafdd",
+    "attemptCount": 1,
+    "remoteId": "1289703740890525_122133356169426121",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-15T16:58:59.848Z",
+    "updatedAt": "2026-11-11T08:00:50.655Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "PHOTO",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "kirchenjahr-2026-11-11-mart",
+    "contentDate": "2026-11-11",
+    "platform": "mastodon",
+    "format": "square",
+    "scheduledAt": "2026-11-11T08:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Martinstag (Bischof Martin von Tours)\n\nWochenspruch: „Was ihr getan habt einem von diesen meinen geringsten Brüdern, das habt ihr mir getan.“ (Mt 25,40b)\n\nPsalm: Ps 146\n\nAltes Testament: Jes 58,6-11\n\nEvangelium: Mt 25,31-40\n\nEpistel: 2. Kor 8,7-9\n\nPredigttext: Mt 25,31-40\n\nLieder: Herr, mach uns stark im Mut, der dich bekennt, EG 154; Die Heiligen uns weit voran, NL 20",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Martinstag (Bischof Martin von Tours)"
+    ],
+    "id": "34c8835a-5252-4ba6-87a1-373256439eb2",
+    "attemptCount": 1,
+    "remoteId": "117596753224567099",
+    "remoteUrl": "https://kirche.social/@christoph/117596753224567099",
+    "lastError": null,
+    "createdAt": "2026-08-15T16:58:59.897Z",
+    "updatedAt": "2026-11-11T08:00:51.943Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
