@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-11-11",
+    "contentDate": "2026-11-11",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-11-11T06:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Ich will auf den HERRN schauen und harren auf den Gott meines Heils; mein Gott wird mich erhören.",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Ich will auf den HERRN schauen und harren auf den Gott meines Heils; mein Gott wird mich erhören."
+    ],
+    "id": "e727f42b-d306-473d-aea7-79fc632d9168",
+    "attemptCount": 1,
+    "remoteId": "18115220720161376",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:47:38.104Z",
+    "updatedAt": "2026-11-11T06:00:47.797Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-11-11",
+    "contentDate": "2026-11-11",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-11-11T06:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Ich will auf den HERRN schauen und harren auf den Gott meines Heils; mein Gott wird mich erhören.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Ich will auf den HERRN schauen und harren auf den Gott meines Heils; mein Gott wird mich erhören."
+    ],
+    "id": "bf5e031d-afb7-49ce-9cd8-7db9956d2f8d",
+    "attemptCount": 1,
+    "remoteId": "117596281228787255",
+    "remoteUrl": "https://kirche.social/@christoph/117596281228787255",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:47:38.132Z",
+    "updatedAt": "2026-11-11T06:00:49.866Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
