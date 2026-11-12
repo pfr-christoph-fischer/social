@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-11-12",
+    "contentDate": "2026-11-12",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-11-12T06:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Gib acht auf deine Füße, wenn du zum Hause Gottes gehst. Und tritt hinzu, um zu hören.",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Gib acht auf deine Füße, wenn du zum Hause Gottes gehst. Und tritt hinzu, um zu hören."
+    ],
+    "id": "c8a9b66b-121a-4988-9a73-f50a28e84d95",
+    "attemptCount": 1,
+    "remoteId": "18116503529601745",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:47:40.297Z",
+    "updatedAt": "2026-11-12T06:00:41.253Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-11-12",
+    "contentDate": "2026-11-12",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-11-12T06:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Gib acht auf deine Füße, wenn du zum Hause Gottes gehst. Und tritt hinzu, um zu hören.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Gib acht auf deine Füße, wenn du zum Hause Gottes gehst. Und tritt hinzu, um zu hören."
+    ],
+    "id": "fa416bbd-cae7-47ab-9ecf-db77b0a53185",
+    "attemptCount": 1,
+    "remoteId": "117601943125327563",
+    "remoteUrl": "https://kirche.social/@christoph/117601943125327563",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:47:40.316Z",
+    "updatedAt": "2026-11-12T06:00:43.554Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
