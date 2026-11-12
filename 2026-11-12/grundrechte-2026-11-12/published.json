@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-11-12",
+    "contentDate": "2026-11-12",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-11-12T11:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Jeder hat das Recht, am kulturellen Leben der Gemeinschaft frei teilzunehmen, sich an den Künsten zu erfreuen und am wissenschaftlichen Fortschritt und dessen Errungenschaften teilzuhaben. (Allgemeine Erklärung der Menschenrechte, Artikel 27 Absatz 1)",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Jeder hat das Recht, am kulturellen Leben der Gemeinschaft frei teilzunehmen, sich an den Künsten zu erfreuen und am wissenschaftlichen Fortschritt und dessen Errungenschaften teilzuhaben. (Allgemeine Erklärung der Menschenrechte, Artikel 27 Absatz 1)"
+    ],
+    "id": "a8d6da7d-2ea4-4b4c-bdf2-9dacee4af43a",
+    "attemptCount": 1,
+    "remoteId": "18123195647471478",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:41:23.166Z",
+    "updatedAt": "2026-11-12T11:00:44.881Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-11-12",
+    "contentDate": "2026-11-12",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-11-12T11:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Jeder hat das Recht, am kulturellen Leben der Gemeinschaft frei teilzunehmen, sich an den Künsten zu erfreuen und am wissenschaftlichen Fortschritt und dessen Errungenschaften teilzuhaben. (Allgemeine Erklärung der Menschenrechte, Artikel 27 Absatz 1)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Jeder hat das Recht, am kulturellen Leben der Gemeinschaft frei teilzunehmen, sich an den Künsten zu erfreuen und am wissenschaftlichen Fortschritt und dessen Errungenschaften teilzuhaben. (Allgemeine Erklärung der Menschenrechte, Artikel 27 Absatz 1)"
+    ],
+    "id": "21d6cb35-dde9-4072-96b8-8ca90f68a2e7",
+    "attemptCount": 1,
+    "remoteId": "117603123008024781",
+    "remoteUrl": "https://kirche.social/@christoph/117603123008024781",
+    "lastError": null,
+    "createdAt": "2026-08-26T15:41:23.242Z",
+    "updatedAt": "2026-11-12T11:00:47.135Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
