@@ -84,5 +84,62 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-11-13",
+    "contentDate": "2026-11-13",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-11-13T11:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Jeder hat das Recht auf Schutz der geistigen und materiellen Interessen, die ihm als Urheber von Werken der Wissenschaft, Literatur oder Kunst erwachsen. (Allgemeine Erklärung der Menschenrechte, Artikel 27 Absatz 2)",
+    "assets": [
+      "render-square-01.jpg"
+    ],
+    "altTexts": [
+      "Jeder hat das Recht auf Schutz der geistigen und materiellen Interessen, die ihm als Urheber von Werken der Wissenschaft, Literatur oder Kunst erwachsen. (Allgemeine Erklärung der Menschenrechte, Artikel 27 Absatz 2)"
+    ],
+    "id": "feac31ed-5ada-4615-8006-20280deeb79c",
+    "attemptCount": 1,
+    "remoteId": "18116143070126614",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:41:26.976Z",
+    "updatedAt": "2026-11-13T11:01:00.209Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-11-13",
+    "contentDate": "2026-11-13",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-11-13T11:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Jeder hat das Recht auf Schutz der geistigen und materiellen Interessen, die ihm als Urheber von Werken der Wissenschaft, Literatur oder Kunst erwachsen. (Allgemeine Erklärung der Menschenrechte, Artikel 27 Absatz 2)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Jeder hat das Recht auf Schutz der geistigen und materiellen Interessen, die ihm als Urheber von Werken der Wissenschaft, Literatur oder Kunst erwachsen. (Allgemeine Erklärung der Menschenrechte, Artikel 27 Absatz 2)"
+    ],
+    "id": "eed4c480-4b28-4625-98de-1b64eda97fc4",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3n26tg2raxq2n",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3n26tg2raxq2n",
+    "lastError": null,
+    "createdAt": "2026-08-26T15:41:27.116Z",
+    "updatedAt": "2026-11-13T11:01:03.176Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
