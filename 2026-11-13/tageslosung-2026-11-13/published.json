@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-11-13",
+    "contentDate": "2026-11-13",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-11-13T06:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Lass deine Augen offen stehen über diesem Hause Nacht und Tag, über der Stätte, von der du gesagt hast: Da soll mein Name sein.",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Lass deine Augen offen stehen über diesem Hause Nacht und Tag, über der Stätte, von der du gesagt hast: Da soll mein Name sein."
+    ],
+    "id": "6ebf1e27-3e9a-4692-aa12-4a56af745238",
+    "attemptCount": 1,
+    "remoteId": "17899689657410773",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:47:42.379Z",
+    "updatedAt": "2026-11-13T06:00:39.720Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-11-13",
+    "contentDate": "2026-11-13",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-11-13T06:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Lass deine Augen offen stehen über diesem Hause Nacht und Tag, über der Stätte, von der du gesagt hast: Da soll mein Name sein.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Lass deine Augen offen stehen über diesem Hause Nacht und Tag, über der Stätte, von der du gesagt hast: Da soll mein Name sein."
+    ],
+    "id": "1966115b-6a21-4064-ba02-0dfe925253c9",
+    "attemptCount": 1,
+    "remoteId": "117607605274492012",
+    "remoteUrl": "https://kirche.social/@christoph/117607605274492012",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:47:42.391Z",
+    "updatedAt": "2026-11-13T06:00:41.345Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
