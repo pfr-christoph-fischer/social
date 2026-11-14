@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-11-14",
+    "contentDate": "2026-11-14",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-11-14T11:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Jeder hat das Recht auf eine soziale und internationale Ordnung, in der die in dieser Erklärung verkündeten Rechte und Freiheiten voll verwirklicht werden können. (Allgemeine Erklärung der Menschenrechte, Artikel 28)",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Jeder hat das Recht auf eine soziale und internationale Ordnung, in der die in dieser Erklärung verkündeten Rechte und Freiheiten voll verwirklicht werden können. (Allgemeine Erklärung der Menschenrechte, Artikel 28)"
+    ],
+    "id": "5f2af11e-6429-4f30-91a5-e7e952c925f6",
+    "attemptCount": 1,
+    "remoteId": "18378731854240160",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:41:30.568Z",
+    "updatedAt": "2026-11-14T11:00:44.435Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-11-14",
+    "contentDate": "2026-11-14",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-11-14T11:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Jeder hat das Recht auf eine soziale und internationale Ordnung, in der die in dieser Erklärung verkündeten Rechte und Freiheiten voll verwirklicht werden können. (Allgemeine Erklärung der Menschenrechte, Artikel 28)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Jeder hat das Recht auf eine soziale und internationale Ordnung, in der die in dieser Erklärung verkündeten Rechte und Freiheiten voll verwirklicht werden können. (Allgemeine Erklärung der Menschenrechte, Artikel 28)"
+    ],
+    "id": "9606489d-1a12-42dc-add7-c32bad2a9c89",
+    "attemptCount": 1,
+    "remoteId": "117614447598752578",
+    "remoteUrl": "https://kirche.social/@christoph/117614447598752578",
+    "lastError": null,
+    "createdAt": "2026-08-26T15:41:30.644Z",
+    "updatedAt": "2026-11-14T11:00:46.740Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
