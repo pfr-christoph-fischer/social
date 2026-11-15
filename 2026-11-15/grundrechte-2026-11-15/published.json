@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-11-15",
+    "contentDate": "2026-11-15",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-11-15T11:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Jeder hat Pflichten gegenüber der Gemeinschaft, in der allein die freie und volle Entfaltung seiner Persönlichkeit möglich ist. (Allgemeine Erklärung der Menschenrechte, Artikel 29 Absatz 1)",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Jeder hat Pflichten gegenüber der Gemeinschaft, in der allein die freie und volle Entfaltung seiner Persönlichkeit möglich ist. (Allgemeine Erklärung der Menschenrechte, Artikel 29 Absatz 1)"
+    ],
+    "id": "8ea3d794-d5b2-487f-be15-78f11871f3e9",
+    "attemptCount": 1,
+    "remoteId": "18114990593138315",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:41:34.362Z",
+    "updatedAt": "2026-11-15T11:00:44.347Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-11-15",
+    "contentDate": "2026-11-15",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-11-15T11:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Jeder hat Pflichten gegenüber der Gemeinschaft, in der allein die freie und volle Entfaltung seiner Persönlichkeit möglich ist. (Allgemeine Erklärung der Menschenrechte, Artikel 29 Absatz 1)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Jeder hat Pflichten gegenüber der Gemeinschaft, in der allein die freie und volle Entfaltung seiner Persönlichkeit möglich ist. (Allgemeine Erklärung der Menschenrechte, Artikel 29 Absatz 1)"
+    ],
+    "id": "59f791d5-06df-4349-bcdf-b426222347b9",
+    "attemptCount": 1,
+    "remoteId": "117620109877818196",
+    "remoteUrl": "https://kirche.social/@christoph/117620109877818196",
+    "lastError": null,
+    "createdAt": "2026-08-26T15:41:34.416Z",
+    "updatedAt": "2026-11-15T11:00:46.200Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
