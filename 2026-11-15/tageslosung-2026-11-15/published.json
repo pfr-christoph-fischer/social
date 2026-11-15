@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-11-15",
+    "contentDate": "2026-11-15",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-11-15T06:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Sie sollen sicher wohnen, und niemand soll sie schrecken.",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Sie sollen sicher wohnen, und niemand soll sie schrecken."
+    ],
+    "id": "ef6af300-5063-4085-a99f-5fb88d0de8d8",
+    "attemptCount": 1,
+    "remoteId": "18011696042990335",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:47:46.975Z",
+    "updatedAt": "2026-11-15T06:00:45.398Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-11-15",
+    "contentDate": "2026-11-15",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-11-15T06:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Sie sollen sicher wohnen, und niemand soll sie schrecken.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Sie sollen sicher wohnen, und niemand soll sie schrecken."
+    ],
+    "id": "1fb4137b-24cd-4aed-8b2f-ba934b41ba96",
+    "attemptCount": 1,
+    "remoteId": "117618930254297424",
+    "remoteUrl": "https://kirche.social/@christoph/117618930254297424",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:47:47.004Z",
+    "updatedAt": "2026-11-15T06:00:46.586Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
