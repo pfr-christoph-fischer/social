@@ -84,5 +84,62 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-11-16",
+    "contentDate": "2026-11-16",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-11-16T06:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "HERR, wer sollte dich nicht fürchten, du König der Völker? Dir muss man gehorchen.",
+    "assets": [
+      "render-square-01.jpg"
+    ],
+    "altTexts": [
+      "HERR, wer sollte dich nicht fürchten, du König der Völker? Dir muss man gehorchen."
+    ],
+    "id": "34c1cdb8-e2ff-4b3c-aef1-9acefe888a4e",
+    "attemptCount": 1,
+    "remoteId": "18115394987169257",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:47:49.433Z",
+    "updatedAt": "2026-11-16T06:00:50.607Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-11-16",
+    "contentDate": "2026-11-16",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-11-16T06:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "HERR, wer sollte dich nicht fürchten, du König der Völker? Dir muss man gehorchen.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "HERR, wer sollte dich nicht fürchten, du König der Völker? Dir muss man gehorchen."
+    ],
+    "id": "2233c805-0851-4442-bd49-03ca8312350b",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3n2fu23jtig2x",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3n2fu23jtig2x",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:47:49.456Z",
+    "updatedAt": "2026-11-16T06:00:53.115Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
