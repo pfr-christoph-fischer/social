@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-11-17",
+    "contentDate": "2026-11-17",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-11-17T11:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Alles nun, was ihr wollt, dass euch die Leute tun sollen, das tut ihr ihnen auch! Das ist das Gesetz und die Propheten. (Die Bibel, Matthäus 7,12)",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Alles nun, was ihr wollt, dass euch die Leute tun sollen, das tut ihr ihnen auch! Das ist das Gesetz und die Propheten. (Die Bibel, Matthäus 7,12)"
+    ],
+    "id": "6eeebb08-61ef-4105-890a-c7ad312a2125",
+    "attemptCount": 1,
+    "remoteId": "17974139931192251",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:41:42.609Z",
+    "updatedAt": "2026-11-17T11:00:47.411Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-11-17",
+    "contentDate": "2026-11-17",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-11-17T11:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Alles nun, was ihr wollt, dass euch die Leute tun sollen, das tut ihr ihnen auch! Das ist das Gesetz und die Propheten. (Die Bibel, Matthäus 7,12)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Alles nun, was ihr wollt, dass euch die Leute tun sollen, das tut ihr ihnen auch! Das ist das Gesetz und die Propheten. (Die Bibel, Matthäus 7,12)"
+    ],
+    "id": "c7c87625-f3b8-4d60-8aba-dcf737c1db49",
+    "attemptCount": 1,
+    "remoteId": "117631434672141529",
+    "remoteUrl": "https://kirche.social/@christoph/117631434672141529",
+    "lastError": null,
+    "createdAt": "2026-08-26T15:41:42.671Z",
+    "updatedAt": "2026-11-17T11:00:48.841Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
