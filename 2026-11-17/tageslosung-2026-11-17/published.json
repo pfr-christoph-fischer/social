@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-11-17",
+    "contentDate": "2026-11-17",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-11-17T06:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Er hat die Sünde vieler getragen, und für die Übeltäter trat er ein.",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Er hat die Sünde vieler getragen, und für die Übeltäter trat er ein."
+    ],
+    "id": "fca891cb-58e4-49e1-857b-ceaa876842c6",
+    "attemptCount": 1,
+    "remoteId": "18136040119682437",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:47:51.507Z",
+    "updatedAt": "2026-11-17T06:00:45.330Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-11-17",
+    "contentDate": "2026-11-17",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-11-17T06:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Er hat die Sünde vieler getragen, und für die Übeltäter trat er ein.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Er hat die Sünde vieler getragen, und für die Übeltäter trat er ein."
+    ],
+    "id": "3b915a11-90d6-483b-8e3d-661eb388b4c7",
+    "attemptCount": 1,
+    "remoteId": "117630254899799134",
+    "remoteUrl": "https://kirche.social/@christoph/117630254899799134",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:47:51.521Z",
+    "updatedAt": "2026-11-17T06:00:46.991Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
