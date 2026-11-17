@@ -84,5 +84,62 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-11-17",
+    "contentDate": "2026-11-17",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-11-17T06:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Er hat die Sünde vieler getragen, und für die Übeltäter trat er ein.",
+    "assets": [
+      "render-square-01.jpg"
+    ],
+    "altTexts": [
+      "Er hat die Sünde vieler getragen, und für die Übeltäter trat er ein."
+    ],
+    "id": "d2383a1e-f41c-471b-83e0-2586b5444971",
+    "attemptCount": 1,
+    "remoteId": "17919914040537412",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:47:51.538Z",
+    "updatedAt": "2026-11-17T06:00:59.051Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-11-17",
+    "contentDate": "2026-11-17",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-11-17T06:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Er hat die Sünde vieler getragen, und für die Übeltäter trat er ein.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Er hat die Sünde vieler getragen, und für die Übeltäter trat er ein."
+    ],
+    "id": "8bf00b18-42d5-4b5e-8f32-90fd8e4913b2",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3n2iejc3q2c2z",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3n2iejc3q2c2z",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:47:51.557Z",
+    "updatedAt": "2026-11-17T06:01:02.524Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
