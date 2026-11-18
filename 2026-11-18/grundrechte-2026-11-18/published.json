@@ -84,5 +84,62 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-11-18",
+    "contentDate": "2026-11-18",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-11-18T11:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Und wenn ein Glied leidet, so leiden alle Glieder mit, und wenn ein Glied geehrt wird, so freuen sich alle Glieder mit. (Die Bibel, 1. Korinther 12,26)",
+    "assets": [
+      "render-square-01.jpg"
+    ],
+    "altTexts": [
+      "Und wenn ein Glied leidet, so leiden alle Glieder mit, und wenn ein Glied geehrt wird, so freuen sich alle Glieder mit. (Die Bibel, 1. Korinther 12,26)"
+    ],
+    "id": "3f2d8d30-2d80-45ce-b1d8-a1feeb7b6c9c",
+    "attemptCount": 1,
+    "remoteId": "18120942458031052",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:41:47.744Z",
+    "updatedAt": "2026-11-18T11:00:57.199Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-11-18",
+    "contentDate": "2026-11-18",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-11-18T11:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Und wenn ein Glied leidet, so leiden alle Glieder mit, und wenn ein Glied geehrt wird, so freuen sich alle Glieder mit. (Die Bibel, 1. Korinther 12,26)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Und wenn ein Glied leidet, so leiden alle Glieder mit, und wenn ein Glied geehrt wird, so freuen sich alle Glieder mit. (Die Bibel, 1. Korinther 12,26)"
+    ],
+    "id": "0de89d29-6c69-43af-b660-9f0151136fe9",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3n2lfqlu3bh2t",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3n2lfqlu3bh2t",
+    "lastError": null,
+    "createdAt": "2026-08-26T15:41:47.824Z",
+    "updatedAt": "2026-11-18T11:01:00.860Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
