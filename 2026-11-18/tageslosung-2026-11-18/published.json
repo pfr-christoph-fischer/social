@@ -84,5 +84,62 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-11-18",
+    "contentDate": "2026-11-18",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-11-18T06:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Herzlich lieb habe ich dich, HERR, meine Stärke!",
+    "assets": [
+      "render-square-01.jpg"
+    ],
+    "altTexts": [
+      "Herzlich lieb habe ich dich, HERR, meine Stärke!"
+    ],
+    "id": "dae30e2d-40e9-4f3a-bc1e-3852ece2b991",
+    "attemptCount": 1,
+    "remoteId": "18035306180885514",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:47:53.584Z",
+    "updatedAt": "2026-11-18T06:00:56.424Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-11-18",
+    "contentDate": "2026-11-18",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-11-18T06:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Herzlich lieb habe ich dich, HERR, meine Stärke!",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Herzlich lieb habe ich dich, HERR, meine Stärke!"
+    ],
+    "id": "3fc5dde5-6251-4538-8fca-5bb7a23212b7",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3n2kuy46blh2i",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3n2kuy46blh2i",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:47:53.600Z",
+    "updatedAt": "2026-11-18T06:00:58.933Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
