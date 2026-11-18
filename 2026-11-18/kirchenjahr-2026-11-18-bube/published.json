@@ -56,5 +56,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "kirchenjahr-2026-11-18-bube",
+    "contentDate": "2026-11-18",
+    "platform": "facebook",
+    "format": "square",
+    "scheduledAt": "2026-11-18T08:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Buß-und Bettag\n\nTitel: Ruf zur Umkehr\n\nWochenspruch: „Gerechtigkeit erhöht ein Volk; aber die Sünde ist der Leute Verderben.“ (Spr 14,34)\n\nPsalm: Ps 130\n\nAltes Testament: Jes 1,10-18\n\nEvangelium: Lk 13,(1-5)6-9\n\nEpistel: Röm 2,1-11\n\nPredigttext: Jes 1,10-18\n\nLieder: Aus tiefer Not schrei ich zu dir, EG 299; Komm in unsre stolze Welt, EG 428",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Buß-und Bettag"
+    ],
+    "id": "e461318d-9c93-49b6-9e11-1f6b37752c07",
+    "attemptCount": 1,
+    "remoteId": "1289703740890525_122134620897426121",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-15T16:59:04.749Z",
+    "updatedAt": "2026-11-18T08:00:50.853Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "PHOTO",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "kirchenjahr-2026-11-18-bube",
+    "contentDate": "2026-11-18",
+    "platform": "mastodon",
+    "format": "square",
+    "scheduledAt": "2026-11-18T08:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Buß-und Bettag\n\nTitel: Ruf zur Umkehr\n\nWochenspruch: „Gerechtigkeit erhöht ein Volk; aber die Sünde ist der Leute Verderben.“ (Spr 14,34)\n\nPsalm: Ps 130\n\nAltes Testament: Jes 1,10-18\n\nEvangelium: Lk 13,(1-5)6-9\n\nEpistel: Röm 2,1-11\n\nPredigttext: Jes 1,10-18\n\nLieder: Aus tiefer Not schrei ich zu dir, EG 299; Komm in unsre stolze Welt, EG 428",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Buß-und Bettag"
+    ],
+    "id": "d078c9f8-24be-4af2-8d32-80f942417f98",
+    "attemptCount": 1,
+    "remoteId": "117636389405518595",
+    "remoteUrl": "https://kirche.social/@christoph/117636389405518595",
+    "lastError": null,
+    "createdAt": "2026-08-15T16:59:04.783Z",
+    "updatedAt": "2026-11-18T08:00:52.088Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
