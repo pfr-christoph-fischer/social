@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-11-18",
+    "contentDate": "2026-11-18",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-11-18T06:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Herzlich lieb habe ich dich, HERR, meine Stärke!",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Herzlich lieb habe ich dich, HERR, meine Stärke!"
+    ],
+    "id": "dde9090a-6fab-446f-a3db-1502e258c527",
+    "attemptCount": 1,
+    "remoteId": "17967593484229233",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:47:53.547Z",
+    "updatedAt": "2026-11-18T06:00:43.172Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-11-18",
+    "contentDate": "2026-11-18",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-11-18T06:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Herzlich lieb habe ich dich, HERR, meine Stärke!",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Herzlich lieb habe ich dich, HERR, meine Stärke!"
+    ],
+    "id": "5aedd959-dbb4-4e70-b328-23fd627f525e",
+    "attemptCount": 1,
+    "remoteId": "117635917056019209",
+    "remoteUrl": "https://kirche.social/@christoph/117635917056019209",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:47:53.564Z",
+    "updatedAt": "2026-11-18T06:00:44.746Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
