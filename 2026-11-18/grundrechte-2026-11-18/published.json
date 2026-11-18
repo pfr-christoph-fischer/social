@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-11-18",
+    "contentDate": "2026-11-18",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-11-18T11:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Und wenn ein Glied leidet, so leiden alle Glieder mit, und wenn ein Glied geehrt wird, so freuen sich alle Glieder mit. (Die Bibel, 1. Korinther 12,26)",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Und wenn ein Glied leidet, so leiden alle Glieder mit, und wenn ein Glied geehrt wird, so freuen sich alle Glieder mit. (Die Bibel, 1. Korinther 12,26)"
+    ],
+    "id": "e4c016a9-6519-4440-8077-b9dc6d299ca6",
+    "attemptCount": 1,
+    "remoteId": "17974062162190316",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:41:47.610Z",
+    "updatedAt": "2026-11-18T11:00:45.079Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-11-18",
+    "contentDate": "2026-11-18",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-11-18T11:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Und wenn ein Glied leidet, so leiden alle Glieder mit, und wenn ein Glied geehrt wird, so freuen sich alle Glieder mit. (Die Bibel, 1. Korinther 12,26)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Und wenn ein Glied leidet, so leiden alle Glieder mit, und wenn ein Glied geehrt wird, so freuen sich alle Glieder mit. (Die Bibel, 1. Korinther 12,26)"
+    ],
+    "id": "27435bcf-1087-46d1-b2da-8c7c3c6c419a",
+    "attemptCount": 1,
+    "remoteId": "117637096843794355",
+    "remoteUrl": "https://kirche.social/@christoph/117637096843794355",
+    "lastError": null,
+    "createdAt": "2026-08-26T15:41:47.670Z",
+    "updatedAt": "2026-11-18T11:00:46.724Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
