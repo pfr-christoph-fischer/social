@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-11-19",
+    "contentDate": "2026-11-19",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-11-19T06:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Ich will sie retten von allen ihren Abwegen, auf denen sie gesündigt haben, und will sie reinigen, und sie sollen mein Volk sein.",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Ich will sie retten von allen ihren Abwegen, auf denen sie gesündigt haben, und will sie reinigen, und sie sollen mein Volk sein."
+    ],
+    "id": "a825eaf7-d86b-4125-9344-891d188a2fee",
+    "attemptCount": 1,
+    "remoteId": "17955631974334854",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:47:55.626Z",
+    "updatedAt": "2026-11-19T06:00:45.374Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-11-19",
+    "contentDate": "2026-11-19",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-11-19T06:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Ich will sie retten von allen ihren Abwegen, auf denen sie gesündigt haben, und will sie reinigen, und sie sollen mein Volk sein.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Ich will sie retten von allen ihren Abwegen, auf denen sie gesündigt haben, und will sie reinigen, und sie sollen mein Volk sein."
+    ],
+    "id": "56e06d38-9a8e-4acd-a4d3-f068a780a9a9",
+    "attemptCount": 1,
+    "remoteId": "117641579542994675",
+    "remoteUrl": "https://kirche.social/@christoph/117641579542994675",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:47:55.639Z",
+    "updatedAt": "2026-11-19T06:00:47.365Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
