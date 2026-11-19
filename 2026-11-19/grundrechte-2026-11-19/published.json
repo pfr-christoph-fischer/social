@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-11-19",
+    "contentDate": "2026-11-19",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-11-19T11:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Hier ist nicht Jude noch Grieche, hier ist nicht Sklave noch Freier, hier ist nicht Mann noch Frau; denn ihr seid allesamt einer in Christus Jesus. (Die Bibel, Galater 3,28)",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Hier ist nicht Jude noch Grieche, hier ist nicht Sklave noch Freier, hier ist nicht Mann noch Frau; denn ihr seid allesamt einer in Christus Jesus. (Die Bibel, Galater 3,28)"
+    ],
+    "id": "a1fbeb00-6941-4d79-9a06-4b0c9e2c7e1a",
+    "attemptCount": 1,
+    "remoteId": "18401568445164733",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:41:51.987Z",
+    "updatedAt": "2026-11-19T11:00:40.712Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-11-19",
+    "contentDate": "2026-11-19",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-11-19T11:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Hier ist nicht Jude noch Grieche, hier ist nicht Sklave noch Freier, hier ist nicht Mann noch Frau; denn ihr seid allesamt einer in Christus Jesus. (Die Bibel, Galater 3,28)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Hier ist nicht Jude noch Grieche, hier ist nicht Sklave noch Freier, hier ist nicht Mann noch Frau; denn ihr seid allesamt einer in Christus Jesus. (Die Bibel, Galater 3,28)"
+    ],
+    "id": "010444a7-3a41-4e74-b900-6ac8d22e7033",
+    "attemptCount": 1,
+    "remoteId": "117642758889279089",
+    "remoteUrl": "https://kirche.social/@christoph/117642758889279089",
+    "lastError": null,
+    "createdAt": "2026-08-26T15:41:52.036Z",
+    "updatedAt": "2026-11-19T11:00:42.733Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
