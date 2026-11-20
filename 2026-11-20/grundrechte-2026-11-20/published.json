@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-11-20",
+    "contentDate": "2026-11-20",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-11-20T11:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Die nachfolgenden Grundrechte binden Gesetzgebung, vollziehende Gewalt und Rechtsprechung als unmittelbar geltendes Recht. (Grundgesetz, Artikel 1 Absatz 3)",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Die nachfolgenden Grundrechte binden Gesetzgebung, vollziehende Gewalt und Rechtsprechung als unmittelbar geltendes Recht. (Grundgesetz, Artikel 1 Absatz 3)"
+    ],
+    "id": "9011cb1e-5c6a-4f88-9195-a8cf22296269",
+    "attemptCount": 1,
+    "remoteId": "18134531590788976",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:41:55.879Z",
+    "updatedAt": "2026-11-20T11:00:53.121Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-11-20",
+    "contentDate": "2026-11-20",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-11-20T11:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Die nachfolgenden Grundrechte binden Gesetzgebung, vollziehende Gewalt und Rechtsprechung als unmittelbar geltendes Recht. (Grundgesetz, Artikel 1 Absatz 3)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Die nachfolgenden Grundrechte binden Gesetzgebung, vollziehende Gewalt und Rechtsprechung als unmittelbar geltendes Recht. (Grundgesetz, Artikel 1 Absatz 3)"
+    ],
+    "id": "aa48c3d3-b7a7-4465-aff1-8308c4bff69d",
+    "attemptCount": 1,
+    "remoteId": "117648421974394194",
+    "remoteUrl": "https://kirche.social/@christoph/117648421974394194",
+    "lastError": null,
+    "createdAt": "2026-08-26T15:41:55.946Z",
+    "updatedAt": "2026-11-20T11:00:54.561Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
