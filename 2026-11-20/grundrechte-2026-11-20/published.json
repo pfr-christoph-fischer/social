@@ -112,5 +112,40 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-11-20",
+    "contentDate": "2026-11-20",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-11-20T11:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Die nachfolgenden Grundrechte binden Gesetzgebung, vollziehende Gewalt und Rechtsprechung als unmittelbar geltendes Recht. (Grundgesetz, Artikel 1 Absatz 3)",
+    "assets": [
+      "render-square-01.jpg"
+    ],
+    "altTexts": [
+      "Die nachfolgenden Grundrechte binden Gesetzgebung, vollziehende Gewalt und Rechtsprechung als unmittelbar geltendes Recht. (Grundgesetz, Artikel 1 Absatz 3)"
+    ],
+    "id": "43da0eaf-c343-4b44-96b9-cf13b3fddcde",
+    "attemptCount": 2,
+    "remoteId": "18155857027553604",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:41:56.021Z",
+    "updatedAt": "2026-11-20T11:05:33.003Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 200
+    },
+    "retryHistory": [
+      {
+        "at": "2026-11-20T11:01:01.777Z",
+        "error": "threads: Container konnte nicht veröffentlicht werden (400): The requested resource does not exist (Code 24) Le contenu multimédia présentant l’ID 17989405197107901 est introuvable.",
+        "attempt": 1
+      }
+    ]
   }
 ]
