@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-11-20",
+    "contentDate": "2026-11-20",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-11-20T06:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "/Der HERR sprach zu Mose:/ Geh hin: Ich will mit deinem Munde sein und dich lehren, was du sagen sollst.",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "/Der HERR sprach zu Mose:/ Geh hin: Ich will mit deinem Munde sein und dich lehren, was du sagen sollst."
+    ],
+    "id": "7309289e-9652-43cb-b8a9-aa962a314ec9",
+    "attemptCount": 1,
+    "remoteId": "18392174329234251",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:47:57.745Z",
+    "updatedAt": "2026-11-20T06:00:45.865Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-11-20",
+    "contentDate": "2026-11-20",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-11-20T06:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "/Der HERR sprach zu Mose:/ Geh hin: Ich will mit deinem Munde sein und dich lehren, was du sagen sollst.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "/Der HERR sprach zu Mose:/ Geh hin: Ich will mit deinem Munde sein und dich lehren, was du sagen sollst."
+    ],
+    "id": "e659149a-8efa-4cd7-984e-28f2c580f7dc",
+    "attemptCount": 1,
+    "remoteId": "117647241886865656",
+    "remoteUrl": "https://kirche.social/@christoph/117647241886865656",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:47:57.761Z",
+    "updatedAt": "2026-11-20T06:00:47.804Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
