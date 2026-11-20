@@ -84,5 +84,62 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-11-20",
+    "contentDate": "2026-11-20",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-11-20T06:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "/Der HERR sprach zu Mose:/ Geh hin: Ich will mit deinem Munde sein und dich lehren, was du sagen sollst.",
+    "assets": [
+      "render-square-01.jpg"
+    ],
+    "altTexts": [
+      "/Der HERR sprach zu Mose:/ Geh hin: Ich will mit deinem Munde sein und dich lehren, was du sagen sollst."
+    ],
+    "id": "3a5cf269-c97d-4685-b7bb-34cef462e476",
+    "attemptCount": 1,
+    "remoteId": "18122721674087328",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:47:57.779Z",
+    "updatedAt": "2026-11-20T06:01:03.533Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-11-20",
+    "contentDate": "2026-11-20",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-11-20T06:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "/Der HERR sprach zu Mose:/ Geh hin: Ich will mit deinem Munde sein und dich lehren, was du sagen sollst.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "/Der HERR sprach zu Mose:/ Geh hin: Ich will mit deinem Munde sein und dich lehren, was du sagen sollst."
+    ],
+    "id": "daa36e91-ebc7-4eb5-a71e-cdfd81597faf",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3n2pvw7xpqc2q",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3n2pvw7xpqc2q",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:47:57.799Z",
+    "updatedAt": "2026-11-20T06:01:08.591Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
