@@ -84,5 +84,62 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-11-21",
+    "contentDate": "2026-11-21",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-11-21T06:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Mein Wort wird nicht wieder leer zu mir zurückkommen, sondern wird tun, was mir gefällt, und ihm wird gelingen, wozu ich es sende.",
+    "assets": [
+      "render-square-01.jpg"
+    ],
+    "altTexts": [
+      "Mein Wort wird nicht wieder leer zu mir zurückkommen, sondern wird tun, was mir gefällt, und ihm wird gelingen, wozu ich es sende."
+    ],
+    "id": "9fccb807-9d31-4929-9f8e-029b4266e8f7",
+    "attemptCount": 1,
+    "remoteId": "18158720233481739",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:47:59.993Z",
+    "updatedAt": "2026-11-21T06:00:54.950Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-11-21",
+    "contentDate": "2026-11-21",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-11-21T06:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Mein Wort wird nicht wieder leer zu mir zurückkommen, sondern wird tun, was mir gefällt, und ihm wird gelingen, wozu ich es sende.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Mein Wort wird nicht wieder leer zu mir zurückkommen, sondern wird tun, was mir gefällt, und ihm wird gelingen, wozu ich es sende."
+    ],
+    "id": "18ce7770-ea6d-49a7-a8e0-1fa63428405a",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3n2sgeszlct2i",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3n2sgeszlct2i",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:48:00.016Z",
+    "updatedAt": "2026-11-21T06:00:57.480Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
