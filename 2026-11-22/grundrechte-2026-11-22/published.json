@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-11-22",
+    "contentDate": "2026-11-22",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-11-22T11:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Die Würde des Menschen ist unantastbar. Sie zu achten und zu schützen ist Verpflichtung aller staatlichen Gewalt. (Grundgesetz, Artikel 1 Absatz 1)",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Die Würde des Menschen ist unantastbar. Sie zu achten und zu schützen ist Verpflichtung aller staatlichen Gewalt. (Grundgesetz, Artikel 1 Absatz 1)"
+    ],
+    "id": "bdb6546a-6cc3-4e7c-bd21-e8412f7c9fd9",
+    "attemptCount": 1,
+    "remoteId": "18133784197845410",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:42:03.154Z",
+    "updatedAt": "2026-11-22T11:00:40.296Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-11-22",
+    "contentDate": "2026-11-22",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-11-22T11:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Die Würde des Menschen ist unantastbar. Sie zu achten und zu schützen ist Verpflichtung aller staatlichen Gewalt. (Grundgesetz, Artikel 1 Absatz 1)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Die Würde des Menschen ist unantastbar. Sie zu achten und zu schützen ist Verpflichtung aller staatlichen Gewalt. (Grundgesetz, Artikel 1 Absatz 1)"
+    ],
+    "id": "54da6d3b-f9d7-46b8-b25b-7c7dbf2e477b",
+    "attemptCount": 1,
+    "remoteId": "117659745764184498",
+    "remoteUrl": "https://kirche.social/@christoph/117659745764184498",
+    "lastError": null,
+    "createdAt": "2026-08-26T15:42:03.217Z",
+    "updatedAt": "2026-11-22T11:00:41.845Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
