@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-11-22",
+    "contentDate": "2026-11-22",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-11-22T06:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Gleichwie der Regen und Schnee vom Himmel fällt und nicht wieder dahin zurückkehrt, sondern feuchtet die Erde und macht sie fruchtbar und lässt wachsen, dass sie gibt Samen zu säen und Brot zu essen, so soll das Wort, das aus meinem Munde geht, auch sein.",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Gleichwie der Regen und Schnee vom Himmel fällt und nicht wieder dahin zurückkehrt, sondern feuchtet die Erde und macht sie fruchtbar und lässt wachsen, dass sie gibt Samen zu säen und Brot zu essen, so soll das Wort, das aus meinem Munde geht, auch sein."
+    ],
+    "id": "c1d00a1a-1cb9-42ec-bda1-509b5348e89e",
+    "attemptCount": 1,
+    "remoteId": "18416981836093761",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:48:02.476Z",
+    "updatedAt": "2026-11-22T06:00:47.767Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-11-22",
+    "contentDate": "2026-11-22",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-11-22T06:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Gleichwie der Regen und Schnee vom Himmel fällt und nicht wieder dahin zurückkehrt, sondern feuchtet die Erde und macht sie fruchtbar und lässt wachsen, dass sie gibt Samen zu säen und Brot zu essen, so soll das Wort, das aus meinem Munde geht, auch sein.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Gleichwie der Regen und Schnee vom Himmel fällt und nicht wieder dahin zurückkehrt, sondern feuchtet die Erde und macht sie fruchtbar und lässt wachsen, dass sie gibt Samen zu säen und Brot zu essen, so soll das Wort, das aus meinem Munde geht, auch sein."
+    ],
+    "id": "2b569a2b-72a2-4c5c-a507-30a37eb35df4",
+    "attemptCount": 1,
+    "remoteId": "117658566640882231",
+    "remoteUrl": "https://kirche.social/@christoph/117658566640882231",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:48:02.492Z",
+    "updatedAt": "2026-11-22T06:00:49.857Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
