@@ -84,5 +84,62 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-11-22",
+    "contentDate": "2026-11-22",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-11-22T11:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Die Würde des Menschen ist unantastbar. Sie zu achten und zu schützen ist Verpflichtung aller staatlichen Gewalt. (Grundgesetz, Artikel 1 Absatz 1)",
+    "assets": [
+      "render-square-01.jpg"
+    ],
+    "altTexts": [
+      "Die Würde des Menschen ist unantastbar. Sie zu achten und zu schützen ist Verpflichtung aller staatlichen Gewalt. (Grundgesetz, Artikel 1 Absatz 1)"
+    ],
+    "id": "3fd64d83-d020-4aaf-a036-02b3eedddb43",
+    "attemptCount": 1,
+    "remoteId": "18148935505572028",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:42:03.281Z",
+    "updatedAt": "2026-11-22T11:00:51.673Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-11-22",
+    "contentDate": "2026-11-22",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-11-22T11:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Die Würde des Menschen ist unantastbar. Sie zu achten und zu schützen ist Verpflichtung aller staatlichen Gewalt. (Grundgesetz, Artikel 1 Absatz 1)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Die Würde des Menschen ist unantastbar. Sie zu achten und zu schützen ist Verpflichtung aller staatlichen Gewalt. (Grundgesetz, Artikel 1 Absatz 1)"
+    ],
+    "id": "9b1180c5-ccce-438e-9a35-d7535d13b66c",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3n2vhm4grcf2a",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3n2vhm4grcf2a",
+    "lastError": null,
+    "createdAt": "2026-08-26T15:42:03.351Z",
+    "updatedAt": "2026-11-22T11:00:55.176Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
