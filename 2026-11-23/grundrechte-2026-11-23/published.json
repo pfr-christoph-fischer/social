@@ -84,5 +84,62 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-11-23",
+    "contentDate": "2026-11-23",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-11-23T11:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Das Deutsche Volk bekennt sich darum zu unverletzlichen und unveräußerlichen Menschenrechten als Grundlage jeder menschlichen Gemeinschaft, des Friedens und der Gerechtigkeit in der Welt. (Grundgesetz, Artikel 1 Absatz 2)",
+    "assets": [
+      "render-square-01.jpg"
+    ],
+    "altTexts": [
+      "Das Deutsche Volk bekennt sich darum zu unverletzlichen und unveräußerlichen Menschenrechten als Grundlage jeder menschlichen Gemeinschaft, des Friedens und der Gerechtigkeit in der Welt. (Grundgesetz, Artikel 1 Absatz 2)"
+    ],
+    "id": "48bca6d3-12a7-48f9-87f9-3365bf8764d9",
+    "attemptCount": 1,
+    "remoteId": "18362621026218150",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:42:07.143Z",
+    "updatedAt": "2026-11-23T11:01:03.652Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-11-23",
+    "contentDate": "2026-11-23",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-11-23T11:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Das Deutsche Volk bekennt sich darum zu unverletzlichen und unveräußerlichen Menschenrechten als Grundlage jeder menschlichen Gemeinschaft, des Friedens und der Gerechtigkeit in der Welt. (Grundgesetz, Artikel 1 Absatz 2)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Das Deutsche Volk bekennt sich darum zu unverletzlichen und unveräußerlichen Menschenrechten als Grundlage jeder menschlichen Gemeinschaft, des Friedens und der Gerechtigkeit in der Welt. (Grundgesetz, Artikel 1 Absatz 2)"
+    ],
+    "id": "ed218c56-269e-4f4b-9b62-109b5700d9ab",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3n2xy3gep5t2j",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3n2xy3gep5t2j",
+    "lastError": null,
+    "createdAt": "2026-08-26T15:42:07.213Z",
+    "updatedAt": "2026-11-23T11:01:08.082Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
