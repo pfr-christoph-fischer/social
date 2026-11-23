@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-11-23",
+    "contentDate": "2026-11-23",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-11-23T11:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Das Deutsche Volk bekennt sich darum zu unverletzlichen und unveräußerlichen Menschenrechten als Grundlage jeder menschlichen Gemeinschaft, des Friedens und der Gerechtigkeit in der Welt. (Grundgesetz, Artikel 1 Absatz 2)",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Das Deutsche Volk bekennt sich darum zu unverletzlichen und unveräußerlichen Menschenrechten als Grundlage jeder menschlichen Gemeinschaft, des Friedens und der Gerechtigkeit in der Welt. (Grundgesetz, Artikel 1 Absatz 2)"
+    ],
+    "id": "c7cc5dd4-ba14-49b0-8478-9a5b6d107a84",
+    "attemptCount": 1,
+    "remoteId": "17980607850144887",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:42:06.966Z",
+    "updatedAt": "2026-11-23T11:00:49.656Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-11-23",
+    "contentDate": "2026-11-23",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-11-23T11:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Das Deutsche Volk bekennt sich darum zu unverletzlichen und unveräußerlichen Menschenrechten als Grundlage jeder menschlichen Gemeinschaft, des Friedens und der Gerechtigkeit in der Welt. (Grundgesetz, Artikel 1 Absatz 2)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Das Deutsche Volk bekennt sich darum zu unverletzlichen und unveräußerlichen Menschenrechten als Grundlage jeder menschlichen Gemeinschaft, des Friedens und der Gerechtigkeit in der Welt. (Grundgesetz, Artikel 1 Absatz 2)"
+    ],
+    "id": "8afdc0be-0803-4cfb-9fa5-611e620964c9",
+    "attemptCount": 1,
+    "remoteId": "117665408716428304",
+    "remoteUrl": "https://kirche.social/@christoph/117665408716428304",
+    "lastError": null,
+    "createdAt": "2026-08-26T15:42:07.069Z",
+    "updatedAt": "2026-11-23T11:00:51.626Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
