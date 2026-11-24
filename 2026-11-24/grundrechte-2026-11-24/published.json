@@ -84,5 +84,62 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-11-24",
+    "contentDate": "2026-11-24",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-11-24T11:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Und Gott schuf den Menschen als sein Bild, als Bild Gottes schuf er ihn; als Mann und Frau schuf er sie. (Die Bibel, Genesis 1,27)",
+    "assets": [
+      "render-square-01.jpg"
+    ],
+    "altTexts": [
+      "Und Gott schuf den Menschen als sein Bild, als Bild Gottes schuf er ihn; als Mann und Frau schuf er sie. (Die Bibel, Genesis 1,27)"
+    ],
+    "id": "77457e8d-cae9-46eb-847d-5e8cc65f9f06",
+    "attemptCount": 1,
+    "remoteId": "18021445967985573",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:42:10.689Z",
+    "updatedAt": "2026-11-24T11:01:48.866Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-11-24",
+    "contentDate": "2026-11-24",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-11-24T11:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Und Gott schuf den Menschen als sein Bild, als Bild Gottes schuf er ihn; als Mann und Frau schuf er sie. (Die Bibel, Genesis 1,27)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Und Gott schuf den Menschen als sein Bild, als Bild Gottes schuf er ihn; als Mann und Frau schuf er sie. (Die Bibel, Genesis 1,27)"
+    ],
+    "id": "4663286e-ba70-483c-a90c-ea79d92ee61e",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3n32ilnaahq2b",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3n32ilnaahq2b",
+    "lastError": null,
+    "createdAt": "2026-08-26T15:42:10.758Z",
+    "updatedAt": "2026-11-24T11:01:51.572Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
