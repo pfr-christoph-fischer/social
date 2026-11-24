@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-11-24",
+    "contentDate": "2026-11-24",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-11-24T11:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Und Gott schuf den Menschen als sein Bild, als Bild Gottes schuf er ihn; als Mann und Frau schuf er sie. (Die Bibel, Genesis 1,27)",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Und Gott schuf den Menschen als sein Bild, als Bild Gottes schuf er ihn; als Mann und Frau schuf er sie. (Die Bibel, Genesis 1,27)"
+    ],
+    "id": "0acf30ea-cc5b-43ee-ba08-5c9cf03fab01",
+    "attemptCount": 1,
+    "remoteId": "18016475709001773",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:42:10.528Z",
+    "updatedAt": "2026-11-24T11:01:31.021Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-11-24",
+    "contentDate": "2026-11-24",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-11-24T11:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Und Gott schuf den Menschen als sein Bild, als Bild Gottes schuf er ihn; als Mann und Frau schuf er sie. (Die Bibel, Genesis 1,27)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Und Gott schuf den Menschen als sein Bild, als Bild Gottes schuf er ihn; als Mann und Frau schuf er sie. (Die Bibel, Genesis 1,27)"
+    ],
+    "id": "cfbddc10-6cc9-47e7-9c48-1c48b24bce89",
+    "attemptCount": 1,
+    "remoteId": "117671073734190240",
+    "remoteUrl": "https://kirche.social/@christoph/117671073734190240",
+    "lastError": null,
+    "createdAt": "2026-08-26T15:42:10.623Z",
+    "updatedAt": "2026-11-24T11:01:32.941Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
