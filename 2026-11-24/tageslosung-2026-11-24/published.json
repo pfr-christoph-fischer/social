@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-11-24",
+    "contentDate": "2026-11-24",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-11-24T06:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Du sollst der Menge nicht auf dem Weg zum Bösen folgen.",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Du sollst der Menge nicht auf dem Weg zum Bösen folgen."
+    ],
+    "id": "785914c4-0562-4c5f-a0e6-a29579609a2e",
+    "attemptCount": 1,
+    "remoteId": "18120850069794681",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:48:06.794Z",
+    "updatedAt": "2026-11-24T06:00:42.950Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-11-24",
+    "contentDate": "2026-11-24",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-11-24T06:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Du sollst der Menge nicht auf dem Weg zum Bösen folgen.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Du sollst der Menge nicht auf dem Weg zum Bösen folgen."
+    ],
+    "id": "eb9ff957-8562-4522-b835-8bc3da1c08d9",
+    "attemptCount": 1,
+    "remoteId": "117669890949469377",
+    "remoteUrl": "https://kirche.social/@christoph/117669890949469377",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:48:06.806Z",
+    "updatedAt": "2026-11-24T06:00:45.076Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
