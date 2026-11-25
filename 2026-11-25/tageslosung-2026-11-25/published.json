@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-11-25",
+    "contentDate": "2026-11-25",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-11-25T06:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Ich wandle in weitem Raum; denn ich suche deine Befehle.",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Ich wandle in weitem Raum; denn ich suche deine Befehle."
+    ],
+    "id": "57b53a7f-d2eb-4291-aa85-24bf27b9af38",
+    "attemptCount": 1,
+    "remoteId": "18112554743461392",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:48:09.053Z",
+    "updatedAt": "2026-11-25T06:00:48.096Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-11-25",
+    "contentDate": "2026-11-25",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-11-25T06:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Ich wandle in weitem Raum; denn ich suche deine Befehle.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Ich wandle in weitem Raum; denn ich suche deine Befehle."
+    ],
+    "id": "a77cbe2a-e78c-4bd3-92dc-c8137744aab3",
+    "attemptCount": 1,
+    "remoteId": "117675553564660888",
+    "remoteUrl": "https://kirche.social/@christoph/117675553564660888",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:48:09.071Z",
+    "updatedAt": "2026-11-25T06:00:49.738Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
