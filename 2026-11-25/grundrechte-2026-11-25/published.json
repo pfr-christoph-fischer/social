@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-11-25",
+    "contentDate": "2026-11-25",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-11-25T11:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Alle Menschen sind frei und gleich an Würde und Rechten geboren. (Allgemeine Erklärung der Menschenrechte, Artikel 1)",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Alle Menschen sind frei und gleich an Würde und Rechten geboren. (Allgemeine Erklärung der Menschenrechte, Artikel 1)"
+    ],
+    "id": "7bc4ab19-f2b7-496d-92d7-1c07328180e3",
+    "attemptCount": 1,
+    "remoteId": "18117285164611104",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:42:14.674Z",
+    "updatedAt": "2026-11-25T11:00:50.502Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-11-25",
+    "contentDate": "2026-11-25",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-11-25T11:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Alle Menschen sind frei und gleich an Würde und Rechten geboren. (Allgemeine Erklärung der Menschenrechte, Artikel 1)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Alle Menschen sind frei und gleich an Würde und Rechten geboren. (Allgemeine Erklärung der Menschenrechte, Artikel 1)"
+    ],
+    "id": "430247b2-78ff-4a8e-a3b6-1254789eaa47",
+    "attemptCount": 1,
+    "remoteId": "117676733331025784",
+    "remoteUrl": "https://kirche.social/@christoph/117676733331025784",
+    "lastError": null,
+    "createdAt": "2026-08-26T15:42:14.765Z",
+    "updatedAt": "2026-11-25T11:00:51.563Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
