@@ -84,5 +84,62 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-11-25",
+    "contentDate": "2026-11-25",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-11-25T11:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Alle Menschen sind frei und gleich an Würde und Rechten geboren. (Allgemeine Erklärung der Menschenrechte, Artikel 1)",
+    "assets": [
+      "render-square-01.jpg"
+    ],
+    "altTexts": [
+      "Alle Menschen sind frei und gleich an Würde und Rechten geboren. (Allgemeine Erklärung der Menschenrechte, Artikel 1)"
+    ],
+    "id": "9808af1d-0dba-4caa-bb4d-0855f37e53a5",
+    "attemptCount": 1,
+    "remoteId": "18101633264558024",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:42:14.839Z",
+    "updatedAt": "2026-11-25T11:01:03.010Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-11-25",
+    "contentDate": "2026-11-25",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-11-25T11:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Alle Menschen sind frei und gleich an Würde und Rechten geboren. (Allgemeine Erklärung der Menschenrechte, Artikel 1)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Alle Menschen sind frei und gleich an Würde und Rechten geboren. (Allgemeine Erklärung der Menschenrechte, Artikel 1)"
+    ],
+    "id": "af5e02d6-2110-4280-83e1-9261de585186",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3n34yz6wabs2z",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3n34yz6wabs2z",
+    "lastError": null,
+    "createdAt": "2026-08-26T15:42:14.922Z",
+    "updatedAt": "2026-11-25T11:01:05.618Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
