@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-11-26",
+    "contentDate": "2026-11-26",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-11-26T06:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Hiskia wurde todkrank; und er betete zum HERRN. Der redete mit ihm und gab ihm ein Wunderzeichen. Aber Hiskia vergalt nicht nach dem, was ihm geschehen war; denn sein Herz überhob sich.",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Hiskia wurde todkrank; und er betete zum HERRN. Der redete mit ihm und gab ihm ein Wunderzeichen. Aber Hiskia vergalt nicht nach dem, was ihm geschehen war; denn sein Herz überhob sich."
+    ],
+    "id": "9fd0d58e-5bba-46ae-b5ba-1c02485bdb3f",
+    "attemptCount": 1,
+    "remoteId": "18350707087248011",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:48:11.412Z",
+    "updatedAt": "2026-11-26T06:00:38.812Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-11-26",
+    "contentDate": "2026-11-26",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-11-26T06:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Hiskia wurde todkrank; und er betete zum HERRN. Der redete mit ihm und gab ihm ein Wunderzeichen. Aber Hiskia vergalt nicht nach dem, was ihm geschehen war; denn sein Herz überhob sich.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Hiskia wurde todkrank; und er betete zum HERRN. Der redete mit ihm und gab ihm ein Wunderzeichen. Aber Hiskia vergalt nicht nach dem, was ihm geschehen war; denn sein Herz überhob sich."
+    ],
+    "id": "57e1de34-410c-4c29-a27e-c94a5039bc95",
+    "attemptCount": 1,
+    "remoteId": "117681215287761725",
+    "remoteUrl": "https://kirche.social/@christoph/117681215287761725",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:48:11.428Z",
+    "updatedAt": "2026-11-26T06:00:40.769Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
