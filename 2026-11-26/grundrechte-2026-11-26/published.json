@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-11-26",
+    "contentDate": "2026-11-26",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-11-26T11:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Alle Menschen sind vor dem Gesetz gleich. (Grundgesetz, Artikel 3 Absatz 1)",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Alle Menschen sind vor dem Gesetz gleich. (Grundgesetz, Artikel 3 Absatz 1)"
+    ],
+    "id": "85dafb77-def3-490a-b575-9f5c22091e02",
+    "attemptCount": 1,
+    "remoteId": "18147656047593104",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:42:17.797Z",
+    "updatedAt": "2026-11-26T11:00:41.430Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-11-26",
+    "contentDate": "2026-11-26",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-11-26T11:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Alle Menschen sind vor dem Gesetz gleich. (Grundgesetz, Artikel 3 Absatz 1)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Alle Menschen sind vor dem Gesetz gleich. (Grundgesetz, Artikel 3 Absatz 1)"
+    ],
+    "id": "a1104708-fb67-47f4-8ecd-c9e90447a4f9",
+    "attemptCount": 1,
+    "remoteId": "117682395102428569",
+    "remoteUrl": "https://kirche.social/@christoph/117682395102428569",
+    "lastError": null,
+    "createdAt": "2026-08-26T15:42:17.857Z",
+    "updatedAt": "2026-11-26T11:00:43.366Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
