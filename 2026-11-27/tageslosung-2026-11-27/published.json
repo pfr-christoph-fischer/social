@@ -84,5 +84,62 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-11-27",
+    "contentDate": "2026-11-27",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-11-27T06:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Du, HERR, bist meine Leuchte; der HERR macht meine Finsternis licht.",
+    "assets": [
+      "render-square-01.jpg"
+    ],
+    "altTexts": [
+      "Du, HERR, bist meine Leuchte; der HERR macht meine Finsternis licht."
+    ],
+    "id": "f7dc824f-320d-41bd-ac3e-658508360ba7",
+    "attemptCount": 1,
+    "remoteId": "18100193501691039",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:48:13.871Z",
+    "updatedAt": "2026-11-27T06:00:57.890Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-11-27",
+    "contentDate": "2026-11-27",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-11-27T06:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Du, HERR, bist meine Leuchte; der HERR macht meine Finsternis licht.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Du, HERR, bist meine Leuchte; der HERR macht meine Finsternis licht."
+    ],
+    "id": "0a8721d1-3d3d-4838-84f5-d79aa43dd40f",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3n3bj6goudr2k",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3n3bj6goudr2k",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:48:13.892Z",
+    "updatedAt": "2026-11-27T06:01:00.364Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
