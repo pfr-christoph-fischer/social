@@ -84,5 +84,62 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-11-27",
+    "contentDate": "2026-11-27",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-11-27T11:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Männer und Frauen sind gleichberechtigt. (Grundgesetz, Artikel 3 Absatz 2)",
+    "assets": [
+      "render-square-01.jpg"
+    ],
+    "altTexts": [
+      "Männer und Frauen sind gleichberechtigt. (Grundgesetz, Artikel 3 Absatz 2)"
+    ],
+    "id": "f17ac11e-301d-4054-9583-37d35c3d5ca0",
+    "attemptCount": 1,
+    "remoteId": "18116070197462401",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:42:21.249Z",
+    "updatedAt": "2026-11-27T11:01:02.796Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-11-27",
+    "contentDate": "2026-11-27",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-11-27T11:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Männer und Frauen sind gleichberechtigt. (Grundgesetz, Artikel 3 Absatz 2)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Männer und Frauen sind gleichberechtigt. (Grundgesetz, Artikel 3 Absatz 2)"
+    ],
+    "id": "e4b6fc52-1a28-4bf1-bdf0-2365cd466096",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3n3bzx25qfx2g",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3n3bzx25qfx2g",
+    "lastError": null,
+    "createdAt": "2026-08-26T15:42:21.302Z",
+    "updatedAt": "2026-11-27T11:01:05.944Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
