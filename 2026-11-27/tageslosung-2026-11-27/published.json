@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-11-27",
+    "contentDate": "2026-11-27",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-11-27T06:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Du, HERR, bist meine Leuchte; der HERR macht meine Finsternis licht.",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Du, HERR, bist meine Leuchte; der HERR macht meine Finsternis licht."
+    ],
+    "id": "140f92f3-ff6a-4371-9e2e-826d03f3bcf8",
+    "attemptCount": 1,
+    "remoteId": "17897067414434164",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:48:13.828Z",
+    "updatedAt": "2026-11-27T06:00:43.856Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-11-27",
+    "contentDate": "2026-11-27",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-11-27T06:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Du, HERR, bist meine Leuchte; der HERR macht meine Finsternis licht.",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Du, HERR, bist meine Leuchte; der HERR macht meine Finsternis licht."
+    ],
+    "id": "fecfc0a8-bdf2-41b8-8fe5-59ad87aa51b7",
+    "attemptCount": 1,
+    "remoteId": "117686877915974477",
+    "remoteUrl": "https://kirche.social/@christoph/117686877915974477",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:48:13.846Z",
+    "updatedAt": "2026-11-27T06:00:45.863Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
