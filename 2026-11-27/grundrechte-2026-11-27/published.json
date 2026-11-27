@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-11-27",
+    "contentDate": "2026-11-27",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-11-27T11:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Männer und Frauen sind gleichberechtigt. (Grundgesetz, Artikel 3 Absatz 2)",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Männer und Frauen sind gleichberechtigt. (Grundgesetz, Artikel 3 Absatz 2)"
+    ],
+    "id": "03857608-7eba-42cb-a416-e12281987060",
+    "attemptCount": 1,
+    "remoteId": "18130385215853042",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:42:21.131Z",
+    "updatedAt": "2026-11-27T11:00:50.933Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-11-27",
+    "contentDate": "2026-11-27",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-11-27T11:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Männer und Frauen sind gleichberechtigt. (Grundgesetz, Artikel 3 Absatz 2)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Männer und Frauen sind gleichberechtigt. (Grundgesetz, Artikel 3 Absatz 2)"
+    ],
+    "id": "01a66245-c09b-409d-8c90-0f52ebf7b143",
+    "attemptCount": 1,
+    "remoteId": "117688058024969530",
+    "remoteUrl": "https://kirche.social/@christoph/117688058024969530",
+    "lastError": null,
+    "createdAt": "2026-08-26T15:42:21.192Z",
+    "updatedAt": "2026-11-27T11:00:52.646Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
