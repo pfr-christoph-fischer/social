@@ -84,5 +84,62 @@
       "mediaCount": 1
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-11-28",
+    "contentDate": "2026-11-28",
+    "platform": "threads",
+    "format": "default",
+    "scheduledAt": "2026-11-28T06:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Wie lieblich sind auf den Bergen die Füße des Freudenboten, der da Frieden verkündigt, Gutes predigt, Heil verkündigt, der da sagt zu Zion: Dein Gott ist König!",
+    "assets": [
+      "render-square-01.jpg"
+    ],
+    "altTexts": [
+      "Wie lieblich sind auf den Bergen die Füße des Freudenboten, der da Frieden verkündigt, Gutes predigt, Heil verkündigt, der da sagt zu Zion: Dein Gott ist König!"
+    ],
+    "id": "97d8aca3-1e44-4829-b609-5bc85e8d1a6b",
+    "attemptCount": 1,
+    "remoteId": "18180196645443335",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:48:16.038Z",
+    "updatedAt": "2026-11-28T06:00:49.656Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "IMAGE",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-11-28",
+    "contentDate": "2026-11-28",
+    "platform": "bluesky",
+    "format": "default",
+    "scheduledAt": "2026-11-28T06:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Wie lieblich sind auf den Bergen die Füße des Freudenboten, der da Frieden verkündigt, Gutes predigt, Heil verkündigt, der da sagt zu Zion: Dein Gott ist König!",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Wie lieblich sind auf den Bergen die Füße des Freudenboten, der da Frieden verkündigt, Gutes predigt, Heil verkündigt, der da sagt zu Zion: Dein Gott ist König!"
+    ],
+    "id": "8440a1e8-3a06-4dad-8665-a81a84f07a04",
+    "attemptCount": 1,
+    "remoteId": "at://did:plc:pwnmsdi7orbjc5cq7fft52vn/app.bsky.feed.post/3n3dzn43ktf2q",
+    "remoteUrl": "https://bsky.app/profile/did%3Aplc%3Apwnmsdi7orbjc5cq7fft52vn/post/3n3dzn43ktf2q",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:48:16.053Z",
+    "updatedAt": "2026-11-28T06:00:51.876Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
