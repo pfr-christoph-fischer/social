@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-11-28",
+    "contentDate": "2026-11-28",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-11-28T11:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Niemand darf wegen seines Geschlechtes, seiner Abstammung, seiner Rasse, seiner Sprache, seiner Heimat und Herkunft, seines Glaubens, seiner religiösen oder politischen Anschauungen benachteiligt oder bevorzugt werden. (Grundgesetz, Artikel 3 Absatz 3)",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Niemand darf wegen seines Geschlechtes, seiner Abstammung, seiner Rasse, seiner Sprache, seiner Heimat und Herkunft, seines Glaubens, seiner religiösen oder politischen Anschauungen benachteiligt oder bevorzugt werden. (Grundgesetz, Artikel 3 Absatz 3)"
+    ],
+    "id": "702831fe-6c5e-4837-a38a-f224521b4059",
+    "attemptCount": 1,
+    "remoteId": "18092798141281911",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-26T15:42:24.409Z",
+    "updatedAt": "2026-11-28T11:00:47.346Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "grundrechte-2026-11-28",
+    "contentDate": "2026-11-28",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-11-28T11:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Niemand darf wegen seines Geschlechtes, seiner Abstammung, seiner Rasse, seiner Sprache, seiner Heimat und Herkunft, seines Glaubens, seiner religiösen oder politischen Anschauungen benachteiligt oder bevorzugt werden. (Grundgesetz, Artikel 3 Absatz 3)",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Niemand darf wegen seines Geschlechtes, seiner Abstammung, seiner Rasse, seiner Sprache, seiner Heimat und Herkunft, seines Glaubens, seiner religiösen oder politischen Anschauungen benachteiligt oder bevorzugt werden. (Grundgesetz, Artikel 3 Absatz 3)"
+    ],
+    "id": "c48773f3-bbf7-484e-8e9f-289227edfcf6",
+    "attemptCount": 1,
+    "remoteId": "117693720094819418",
+    "remoteUrl": "https://kirche.social/@christoph/117693720094819418",
+    "lastError": null,
+    "createdAt": "2026-08-26T15:42:24.503Z",
+    "updatedAt": "2026-11-28T11:00:48.977Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
