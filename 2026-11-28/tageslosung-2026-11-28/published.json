@@ -27,5 +27,62 @@
       "status": 200
     },
     "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-11-28",
+    "contentDate": "2026-11-28",
+    "platform": "instagram",
+    "format": "story",
+    "scheduledAt": "2026-11-28T06:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Wie lieblich sind auf den Bergen die Füße des Freudenboten, der da Frieden verkündigt, Gutes predigt, Heil verkündigt, der da sagt zu Zion: Dein Gott ist König!",
+    "assets": [
+      "render-instagram-story-01.jpg"
+    ],
+    "altTexts": [
+      "Wie lieblich sind auf den Bergen die Füße des Freudenboten, der da Frieden verkündigt, Gutes predigt, Heil verkündigt, der da sagt zu Zion: Dein Gott ist König!"
+    ],
+    "id": "90c1dad3-717a-4393-b2f2-d3ffb9fe61d8",
+    "attemptCount": 1,
+    "remoteId": "17993274863871657",
+    "remoteUrl": null,
+    "lastError": null,
+    "createdAt": "2026-08-14T14:48:16.012Z",
+    "updatedAt": "2026-11-28T06:00:37.531Z",
+    "responseMetadata": {
+      "mediaCount": 1,
+      "mediaType": "STORIES",
+      "status": 200
+    },
+    "retryHistory": []
+  },
+  {
+    "postId": "tageslosung-2026-11-28",
+    "contentDate": "2026-11-28",
+    "platform": "mastodon",
+    "format": "default",
+    "scheduledAt": "2026-11-28T06:00:00.000Z",
+    "timezone": "Europe/Berlin",
+    "status": "published",
+    "text": "Wie lieblich sind auf den Bergen die Füße des Freudenboten, der da Frieden verkündigt, Gutes predigt, Heil verkündigt, der da sagt zu Zion: Dein Gott ist König!",
+    "assets": [
+      "render-square-01.png"
+    ],
+    "altTexts": [
+      "Wie lieblich sind auf den Bergen die Füße des Freudenboten, der da Frieden verkündigt, Gutes predigt, Heil verkündigt, der da sagt zu Zion: Dein Gott ist König!"
+    ],
+    "id": "0eede9af-0d0c-4f94-be11-335bf7094478",
+    "attemptCount": 1,
+    "remoteId": "117692539767748772",
+    "remoteUrl": "https://kirche.social/@christoph/117692539767748772",
+    "lastError": null,
+    "createdAt": "2026-08-14T14:48:16.025Z",
+    "updatedAt": "2026-11-28T06:00:38.637Z",
+    "responseMetadata": {
+      "status": 200,
+      "mediaCount": 1
+    },
+    "retryHistory": []
   }
 ]
